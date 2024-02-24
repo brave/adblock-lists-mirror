@@ -1,0 +1,41 @@
+name: Update lists
+
+on:
+  schedule:
+  - cron: '0 * * * *' # Run every hour at 0 minutes past the hour
+  workflow_dispatch:
+
+jobs:
+  update-lists:
+    runs-on: ubuntu-latest
+    permissions:
+        contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Set up Python 3.
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.12
+        cache: 'pip' # caching pip dependencies
+
+    - run: pip install -r requirements.txt
+    - name: Generate list files
+      run: |
+        mkdir newlists
+        python3 update-lists.py --output-dir newlists
+    - name: Commit files
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git switch lists
+        cp -rf newlists/* lists/ && rm -rf newlists
+        git add lists
+        git commit -m "Automatically updated lists: $(date)" -a || true
+    - name: Push changes
+      uses: ad-m/github-push-action@fcea09907c44d7a7a3331c9c04080d55d87c95fe # master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: lists

@@ -35,7 +35,7 @@ jobs:
         git add lists
         git commit -m "Automatically updated lists: $(date)" -a || true
     - name: Push changes
-      uses: ad-m/github-push-action@fcea09907c44d7a7a3331c9c04080d55d87c95fe # master
+      uses: ad-m/github-push-action@9870d48124da805820c70ebc6ba563c715551019 # master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: lists

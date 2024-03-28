@@ -1,0 +1,97 @@
+[Adblock Plus 2.1]
+! Title: Romanian specific uBO filters
+! Expires: 3 days
+! Issue tracker: https://github.com/tcptomato/ROad-Block/issues
+! Homepage: https://github.com/tcptomato/ROad-Block
+
+! anti adb turdanews. net
+turdanews.net##+js(nostif, ai_)
+turdanews.net##+js(rmnt, script, adsbygoogle)
+
+! nosteam.ro + nosteamgames popups
+nosteam.ro,nosteamgames.ro##+js(nowoif)
+
+! https://github.com/uBlockOrigin/uAssets/issues/8709
+competentedigitale.ro##+js(acis, Math.floor, offsetHeight)
+
+! https://github.com/uBlockOrigin/uAssets/issues/8753
+*$script,redirect-rule=noopjs,domain=protvplus.ro
+
+stirileprotv.ro##*:matches-css-before(content:/ADVERTISING/):remove()
+acasatv.ro,sport.ro##*:matches-css-before(content:/ADVERTISING/):remove()
+
+! https://github.com/tcptomato/ROad-Block/pull/222
+cool-etv.net##+js(acis, onload, noBackPlease)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/n3bjwx/ublock_detected_on_website/
+vwforum.ro##+js(nostif, adsbygoogle)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/x9qoen/
+bloground.ro##+js(nostif, show)
+
+! https://github.com/uBlockOrigin/uAssets/pull/10062
+*$script,redirect-rule=noopjs,domain=myradioonline.ro
+myradioonline.ro##+js(rc, _bannerTop1)
+
+! https://github.com/tcptomato/ROad-Block/issues/323
+litoraltv.ro##.pum-active
+litoraltv.ro##html:style(overflow: auto !important;)
+
+! antena anti-adb
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|spynews.ro|zutv.ro
+
+! posturi. live popups
+posturi.live##+js(nowoif)
+posturi.live##+js(nosiif, location)
+posturi.live##+js(acs, setTimeout, admc)
+||blaneo.com^
+||cumult.com^
+
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=qbebe.ro,redirect=google-ima.js,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=divahair.ro,redirect=google-ima.js,important
+
+||sputniknews.*^$all
+
+filmeserialegratis.*,fsplayer.*##+js(nowoif)
+
+cinemagia.ro###banner_container_top
+cinemagia.ro###header:style(position:static!important; top: 0 !important;)
+cinemagia.ro###main_container:style(padding-top: 0 !important;)
+cinemagia.ro##.header_nav:style(position:static !important;)
+
+filmeonlinesubtitrate.org##+js(aopr, doSecondPop)
+yoixmzo.xyz##+js(aopr, doSecondPop)
+
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=radioimpuls.ro,redirect-rule=google-ima.js
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=smartliving.ro,redirect-rule=google-ima.js
+
+@@||digisport.ro^$xhr,1p
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=digisport.ro
+@@||digisport.ro^$ghide
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/160134
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=stiripesurse.ro
+
+sampmoduri.ro##+js(rmnt, script, /jQuery.*reload/)
+
+! https://www.reddit.com/r/uBlockOrigin/s/ztY9iMT88X
+vzlinks.com##+js(nowoif)
+vzlinks.com##+js(set, adblockcheck, false)
+||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=vzlinks.com
+
+@@||regielive.ro^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/21041
+filme2023.online,onlyplay.online##+js(aopw, _pop)
+filme2023.online##+js(rmnt, script, document.head.appendChild)
+*&ad=$frame,domain=filme2023.online
+onlyplay.online##+js(nowoif, , 10)
+
+! https://github.com/uBlockOrigin/uAssets/issues/21915
+boardingpass.ro##+js(nostif, ai_adb)
+
+! https://github.com/brave/adblock-lists/issues/1177
+clujust.ro##+js(rmnt, script, ai_adb)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/174312
+lovendal.ro##+js(noeval-if, ads)

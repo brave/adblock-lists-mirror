@@ -1,0 +1,29 @@
+! Title: Brave Specific
+! Expires: 2 days
+
+! Specific filters (Tracking or ads) for Brave
+||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
+||[::]^$third-party,domain=~0.0.0.0|~[::ffff:0:0]
+||[::ffff:0:0]^$third-party,domain=~0.0.0.0|~[::]
+||localhost^$third-party,domain=~127.0.0.1|~[::1]|~[::ffff:7f00:1]
+||127.0.0.1^$third-party,domain=~localhost|~[::1]|~[::ffff:7f00:1]
+||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
+||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
+
+! Fix localhost block on Trezor Bridge/Connect
+! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
+@@||127.0.0.1^$domain=trezor.io
+
+! De-AMP rule that uses the De-AMP scriptlet
+google.*##+js(de-amp)
+
+! YouTube theater mode fix scriptlet rule
+youtube.*##+js(brave-youtube-theater-fix)
+
+! YouTube navigation fix scriptlet rule
+youtube.*##+js(brave-youtube-navigation-fix)
+
+! Used for Brave QA tests
+?335962573013224749$image,xhr,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
+! Rules for testing cosmetic filters in frames
+dev-pages.brave.software,dev-pages.bravesoftware.com##+js(set, window.BRAVE_TEST_VALUE, true)

@@ -149,7 +149,7 @@ async def main():
 
     metadata_file = os.path.join(args.output_dir, 'metadata.json')
     with open(metadata_file, 'w') as f:
-        json.dump(metadata, f)
+        json.dump(metadata, f, indent=4)
 
     return await asyncio.gather(
         *[fetch_and_save_url(url, args.output_dir) for url in adblock_lists]

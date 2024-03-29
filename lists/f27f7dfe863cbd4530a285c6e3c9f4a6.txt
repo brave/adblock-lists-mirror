@@ -1,9 +1,9 @@
-! Checksum: EHVx8LCrCK5p501//pJPhw
-! Diff-Path: ../patches/7/7-s-1711708651-3600.patch
+! Checksum: uwHxTxWq79b370Z7IAR8SA
+! Diff-Path: ../patches/7/7-s-1711712259-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.49.95
-! TimeUpdated: 2024-03-29T10:33:37+00:00
+! Version: 2.0.49.96
+! TimeUpdated: 2024-03-29T11:33:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5811,7 +5811,7 @@ city.nagano.nagano.jp,navi.narakotsu.co.jp##.banner2
 gadgerba.com##.header-info
 gadgerba.com##.p-cv-btn-wrap
 munesada.com##aside[class^="ads-"]
-koe-voice.jp,koikatsu-portal.com,shiroutowiki.work,aiolin.com,player440.com,taishon.nagoya##.w-singleBottom
+douzin-q.com,koe-voice.jp,koikatsu-portal.com,shiroutowiki.work,aiolin.com,player440.com,taishon.nagoya##.w-singleBottom
 forzastyle.com##.CLS_reduced
 daifuku-diary.com###st_custom_html_widget-10
 forzastyle.com##div[id*="_Infeed_TOP-"]
@@ -7130,17 +7130,7 @@ chosunonline.com##.sec_headline_promo
 arukikata.co.jp##.ad_top300
 tokyoartbeat.com###homebnrs
 aniplexplus.com##.hotentry
-||x.sekai-kabuka.com/victory2bai.png
-||x.sekai-kabuka.com/wond_rect.png
-||x.sekai-kabuka.com/mypro*.png
-||x.sekai-kabuka.com/protein.png
-||x.sekai-kabuka.com/soushin.png
-||x.sekai-kabuka.com/clip_$image
 ||xn--jx2a33n.com/nnn.js
-||x.sekai-kabuka.com/raku5rect.png
-||x.sekai-kabuka.com/setumei/image/clock_a1.jpg
-||x.sekai-kabuka.com/nandemo1.gif
-||x.sekai-kabuka.com/gneko$image
 realtime-chart.info##[style="position:fixed;width:100%;top:0;z-index:-999;text-align:center;"] ~ [style] > table > tbody > tr > td > a[href^="https://amzn.to"]
 realtime-chart.info,sekai-kabuka.com###neko_ad
 ||amazon-adsystem.com/widgets/$important,domain=revuestarlightre.com|realtime-chart.info|mashlife.doorblog.jp|lamsect.blog112.fc2.com|blog.domesoccer.jp|neo-blood.co.jp|katuru2ch.blog12.fc2.com|azurlanesokuhou.blog.jp|ima.goo.ne.jp|michaelsan.livedoor.biz|bluebluesunset.blog.fc2.com|kokuhakutaiken.com|netorarezukiview.com|getuploader.com|i-bbs.sijex.net|kandatasokuho.com|baseballstats2011.jp|pachinkopachisro.com|entameclip.com|keisan-mondai.com|idle-girl.com|genshin-matomech.umadacchi.net|ralacode.com|lolninja.net

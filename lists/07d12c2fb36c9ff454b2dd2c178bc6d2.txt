@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.0.1
+! Version: 3.6.0.2
 
 ! General
 
@@ -15,7 +15,7 @@
 /[a-z]{1}\d{2,3}\.\w+\.(co(m|\.uk)|net|org)\/script\.js/$script,~third-party
 @@||nationalreview.com$script,xmlhttprequest,~third-party
 ||cdn.cxense.com^$script,third-party
-@@cdn.cxense.com^$script,domain=bizjournals.com|journaldemontreal.com|journaldequebec.com
+@@cdn.cxense.com^$script,domain=bizjournals.com|journaldemontreal.com|journaldequebec.com|wsj.com
 ||ensighten.com/*/Bootstrap.js$script,third-party
 ||evolok.net^$third-party
 ||fewcents.co/*/paywall*.js$script,third-party

@@ -1,9 +1,9 @@
-! Checksum: bl7htGWSwHx+3FMnQ4hBBg
-! Diff-Path: ../patches/7/7-s-1711719457-3600.patch
+! Checksum: Ng/gNVEDII+u4Faig7uGcQ
+! Diff-Path: ../patches/7/7-s-1711780624-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.49.97
-! TimeUpdated: 2024-03-29T13:33:40+00:00
+! Version: 2.0.49.98
+! TimeUpdated: 2024-03-30T06:33:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2574,7 +2574,7 @@ gfoodd.com##.amagetti-tabs-container + .container
 travel.rakuten.co.jp##div[class^="rt-wide-banner-"]
 toriizaka46.jp##.article-single > .sec-ad-article
 city.nagasaki.lg.jp###banner-pr
-twilog.togetter.com##div[style="display: flex; justify-content: space-between; margin:0 0 16px; padding-bottom:12px; border-bottom:1px dotted #ccc; "]
+twilog.togetter.com###ad-right-bottom
 pref.shizuoka.jp##aside[id^="sad"]
 navitime.co.jp##.advertising-link
 ||fc2.com/exchange.html

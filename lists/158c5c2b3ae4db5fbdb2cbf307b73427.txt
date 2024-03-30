@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IJNLgq0GgzeHj9nYHfHwcg
-! Version: 202403301051
+! Checksum: AvFAJveQsWpr+pCJkdpNQg
+! Version: 202403301151
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Mar 2024 10:51 UTC
+! Last modified: 30 Mar 2024 11:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -170,6 +170,7 @@ _vkontakte.png
 ~download.oxy.cloud,~download.oxy.st##.tlg
 ~twitter.com##.tw-icon
 ##.twitter
+##.vjs-shared-button
 ##.vk-button
 ~vk.com##.vk-share
 ##.vk-share-button
@@ -617,9 +618,9 @@ track24.ru###trackingFormShare
 free-max.ru###tt_social
 downdetector.ru###tweets-card
 zhzh.info###uLogin
-alarfilm.ru,hlamer.ru###user-bar [title="Группа вконтакте"]
+filma24.ru,hlamer.ru###user-bar [title="Группа вконтакте"]
 work.ua###viberSubscribeBtn
-alarfilm.ru,hlamer.ru###video-counters > .visible-desktop + .counter
+filma24.ru,hlamer.ru###video-counters > .visible-desktop + .counter
 livemaster.ru###viewer-social
 via-midgard.info###viiFaveBlock
 factorio.su,sntch.com,topmmo-games.ru###vk-comments
@@ -1802,6 +1803,7 @@ ru-an.info##.share-index
 livemaster.ru##.share-link-list *
 smartpress.by##.share-links
 risu.ua##.share-news
+24tv.ua##.share-news-block
 kino-fs.ucoz.net##.share-player
 36doors.ru##.share-right
 anistar.org,astar.bz,online-star.org,online-stars.org,vellisa.ru##.share-soc
@@ -2344,6 +2346,7 @@ vashdosug.ru##.vd-header__share > [class]
 poembook.ru##.verse-view__share
 sport.ua##.viber
 1plus1.video##.video-comments
+ren.tv##.video-player__sharing
 vesti.ru##.video_top_inner
 rusvesna.su#?#.view-header > span:-abp-has(> b > [href*="://web.telegram.org"])
 mmo13.ru##.view-social
@@ -2462,7 +2465,7 @@ mivmeste.info##[aria-label="Share via link"]
 theuk.one##[aria-label="facebook"]
 rg.ru##[aria-label="Наш Telegram"]
 mivmeste.info##[aria-label="Панель соцсетей"]
-ozon.ru##[aria-label="Поделиться"]
+ozon.ru,wink.ru##[aria-label="Поделиться"]
 www.afisha.ru##[aria-label="Социальные сети"]
 bbc.com,bbcrussian.com##[aria-labelledby="Social-media-links"]
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,proizhevsk.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru#?#[btnsize]:-abp-has([data-test^="btn-share"])
@@ -5939,6 +5942,7 @@ au-ok.com##[style^="background: rgb(245, 245, 245) none repeat scroll 0% 50%;"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##[title="appstore"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##[title="googleplay"]
 aniu.ru##a.help.sempai
+video.matchtv.ru##a.vjs-link[href^="https://matchtv.ru/subscriptions"]
 mywebpc.ru##a[alt="donate"]
 youla.ru##a[href*=".com/"][href*="/app"][title][target="_blank"]
 sibnet.ru##a[href*="/delivery/ck.php"][target="_blank"]

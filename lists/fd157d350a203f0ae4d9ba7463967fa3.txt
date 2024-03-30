@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hgC4OPt1+1zLAjENooZJOQ
-! Version: 202403301350
+! Checksum: nklujMJb/DxjW2khNr8l2g
+! Version: 202403301451
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Mar 2024 13:50 UTC
+! Last modified: 30 Mar 2024 14:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -482,6 +482,7 @@ $third-party,popup,domain=2ip.ru
 .infox.sg^$popup
 /blog_strijenko/*$popup
 ||104.198.76.219^$popup
+||24click.*/top/$popup
 ||24smi-*/top/$popup
 ||24smi.*/top/$popup
 ||9donline.ru/welcome/?mita=$popup
@@ -22509,6 +22510,7 @@ lada.kz/uploads/banners/
 ||traderhelp.info/js/fixads.js
 ||tradingview.com/external-embedding/embed-widget-ticker-tape.js$domain=fanforum.ru
 ||traffilm.net/img/brand
+||tragtorr.info/css/back.
 ||trailer.allatv.online/*.mp4|$domain=trailer.allatv.online
 ||transinfo.by/files/transinfo/media/bnrscr/$object
 ||transkarpatia.net/templates/Gazeta/js/abd.min.js
@@ -25859,6 +25861,7 @@ zhurnaly.biz#@#.item-ads
 ! - hide & block
 pornhub.com###abAlert
 d3ward.github.io###ad_ctd
+tragtorr.info###blockms
 tvvse.my1.ru###cont-i > span[style*="color:red"]
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru###container > center:nth-child(-n+3)
 fm-app.ru,tvapp.su,yootv.ru###content > div[style*="fixed"]

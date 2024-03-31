@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gbeey6S2Pq0Hc0yBtK+i9A
-! Version: 202403310800
+! Checksum: 7Zrdi+Tx/xLbHQw3UVMysg
+! Version: 202403310851
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 31 Mar 2024 08:00 UTC
+! Last modified: 31 Mar 2024 08:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3003,7 +3003,6 @@ glavagronom.ru,glavpahar.ru,traktorist.ua##svg > path[fill][d^="M545"]
 litmir.me#?#table > tbody > tr:-abp-has(> td > a[href^="/ShareLink/"])
 litmir.me#?#table > tbody > tr:-abp-has(> td > span:-abp-contains(Поделиться))
 liveresult.ru#?#td:-abp-contains(/поделитесь:/i)
-glav.su##td[style="vertical-align: middle;"] ~ td > table[style="float: right;"]
 animejapan.tv,xn--80aeiluelyj.xn--p1ai#?#td[valign="top"] > div:-abp-has(> a[href^="https://vk.com/"])
 bwtorrents.ru#?#td[valign="top"] > table.tborder[width]:-abp-has(#vk_groups)
 yakusubstudio.forum2x2.ru##td[valign="top"][width="183"]
@@ -5152,6 +5151,7 @@ rbc.ru,sportrbc.ru##.js-forecast
 rbc.ru#?#.js-index-central-column .js-index-doscroll:-abp-has(> .item > div [href^="https://t.me/"])
 rbc.ru##.js-index-doscroll .pro-slider
 lenta.ru##.js-new-year-button
+rbc.ru##.js-news-feed-list > a[data-rm-data-element*="anons"]
 rbc.ru##.js-news-feed-list > a[href*="://traffic.rbc.ru/"]
 rbc.ru##.js-pro-anons-scroll-container
 e1.ru##.js-push-type
@@ -6904,6 +6904,7 @@ tass.ru##div[class^="tass_pkg_standard_widget-"]
 pastebin.com###abrpm
 soccer.ru#?##main_body > .block:-abp-has(.disabled-block)
 statcounter.com###side-banner
+tragtorr.info##.blmsg
 kanobu.ru#?#.c-content_right div:-abp-has(> div:-abp-contains(блокировка))
 uniondht.org##.colorAdmin
 habr.com##.dfp-slot

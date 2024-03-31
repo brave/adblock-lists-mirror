@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: K5qepas+jyeQTfNeQCM//A
-! Diff-Path: ../patches/224/224-s-1711874206-3600.patch
+! Checksum: BVpBjGSqtEVpV6xBPRTtHQ
+! Diff-Path: ../patches/224/224-s-1711881411-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.13.41
-! TimeUpdated: 2024-03-31T08:32:35+00:00
+! Version: 2.1.13.42
+! TimeUpdated: 2024-03-31T10:32:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5083,6 +5083,7 @@ newduba.cn###jq_youxi
 ||hptyp.icu^
 ||pressit.cn^
 ##a[href*="/ihezu.fans"]
+||4wu3gf.cn^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -18830,7 +18831,7 @@ yahoo.com##div[id^="ads-"]
 cbmland.com##div[id^="ads_"]
 actoys.net,hualongxiang.com##div[id^="ads_d_"]
 eyuyan.com##div[id^="ads_r_"]
-gamersky.com##div[id^="adscontainer_"]
+gamersky.com##div[id^="adscontainer_b"]
 v.baidu.com##div[id^="adv_asp_"]
 ali213.net##div[id^="ali-ad-js-"]
 jdbbs.com##div[id^="archy_ad"]

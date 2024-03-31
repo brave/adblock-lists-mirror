@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.1.0
+! Version: 3.6.1.1
 
 ! General
 
@@ -488,6 +488,10 @@ curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##div.m-ad
 ! Ringier Axel Springer Polska
 businessinsider.com.pl##+js(cookie-remover, xbc)
 businessinsider.com.pl##div#content-premium-offer
+newsweek.pl##+js(ra, class|style, div.contentPremium[style])
+newsweek.pl##+js(ra, class, div.videoPremiumWrapper)
+newsweek.pl##+js(ra, class, div.embed__mainVideoWrapper)
+newsweek.pl##+js(ra, class, div#contentPremiumPlaceholder[class])
 onet.pl##+js(cookie-remover, xbc)
 
 ! Roularta Media Groep

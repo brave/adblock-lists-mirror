@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6+MlCYOdHZPidwcSxzSjrQ
-! Diff-Path: ../patches/16/16-s-1711780615-3600.patch
+! Checksum: Xo5+gdGtv3QU67pN8ShO1g
+! Diff-Path: ../patches/16/16-s-1711913807-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.34
-! TimeUpdated: 2024-03-30T06:32:06+00:00
+! Version: 2.0.44.35
+! TimeUpdated: 2024-03-31T19:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14131,6 +14131,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||filerio.in/js/*.fancybox.
 ||files.prsmedia.fr^*/gmex/surfaceprivee/
 ||files.wordpress.com^*/sponsor-
+||filestore.me/banner/$third-party
 ||fille-sensuelle.fr/annuaire/promo/$third-party
 ||filmeseseriesonline.org^$script,third-party
 ||filmesonlinegratisahd.com/v/
@@ -14718,6 +14719,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||testcddc.atclouddev.net^
 ||theadsteam.com/img/banners/$third-party
 ||theliverugby.com^$subdocument,third-party
+||themasoftware.com/images/banners/$third-party
 ||thetrafficincome.com/img/banners/$third-party
 ||tools.indecentes-voisines.com^
 ||tools.prnewswire.com^$third-party
@@ -14967,6 +14969,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||i.imgur.com/2758lJa.png
 ||i.imgur.com/2Azjukl.png
 ||i.imgur.com/2hGm0lj.gif
+||i.imgur.com/32xkKog.jpg
 ||i.imgur.com/3RxyL0Z.png
 ||i.imgur.com/4cUwoPk.gif
 ||i.imgur.com/4eP4DRG.jpg

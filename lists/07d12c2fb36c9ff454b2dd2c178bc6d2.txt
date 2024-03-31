@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.0.2
+! Version: 3.6.1.0
 
 ! General
 
@@ -352,6 +352,7 @@ unherd.com##div#premiumpreview
 ||washingtonpost.com/tetro/metering/evaluate$xmlhttprequest,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
+||wiwo.de/js/*/wt.*.js$script,~third-party
 yorkshirepost.co.uk##+js(ra, class, div.premium)
 
 ! Australian Community Media

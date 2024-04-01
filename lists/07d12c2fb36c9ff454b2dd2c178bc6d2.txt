@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.1.1
+! Version: 3.6.1.2
 
 ! General
 
@@ -249,6 +249,7 @@ nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div#dock-container
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
 ||nzherald.co.nz/sales/public/v*/entitlements$xmlhttprequest,~third-party
 nzherald.co.nz##+js(set, Fusion.globalContent.isPremium, false)
+nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction)
 /\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script
 paloaltoonline.com##+js(cookie-remover, /^/)
 pourleco.com##+js(ra, style, div[class*="article-"][style])

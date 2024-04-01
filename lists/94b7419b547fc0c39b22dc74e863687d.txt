@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: YXjwj2OuKhUZ7xReJ7eJow
-! Diff-Path: ../patches/1/1-s-1711975059-3600.patch
+! Checksum: 9IFDt/b9Ry/wMevkmohzkA
+! Diff-Path: ../patches/1/1-s-1711982297-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.89.77
-! TimeUpdated: 2024-04-01T12:32:40+00:00
+! Version: 2.0.89.78
+! TimeUpdated: 2024-04-01T14:32:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1476,6 +1476,7 @@ ucoz.ru/informer/
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||luxcdn.com^$third-party
 ||vqhrqt.com^
 ||marketer.lv^$third-party
 ||programmatica.com^$third-party
@@ -6011,6 +6012,8 @@ disk.yandex.*##+js(remove-class, has-fullscreen-banner, .public__root)
 !------- CSS -----------
 !-----------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/176035
+autosport.com.ru#$#body { padding-top: 0 !important; background-color: white !important;}
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172614
 the-wire-fox.net#$##wrapper { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171941
@@ -7508,6 +7511,10 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+||autosport.com.ru/files/partners/
+autosport.com.ru##.partner-content
+autosport.com.ru##a[href^="https://betonmobile.ru/"]
+salonsecret.ru##a[href^="https://lorealprofessionnel.ru/"] > *
 uznayvse.ru##.iku_loaded
 happycoin.club##div[class*="clickout-banner"]
 happycoin.club##a[href][target="_blank"][rel="noopener"] > img[width][height]
@@ -8137,7 +8144,6 @@ new-science.ru###text-html-widget-6
 ||investfuture.ru/source/partner
 thegirl.ru##div[data-creative-container="hb-top"]
 thegirl.ru#$?#.swiper-wrapper > div.swiper-slide:has(> div.album-slider-swiper__creative-container > div.album-slider-swiper__creative-notification) { remove: true; }
-||s.luxcdn.com/t/*/360_light.js
 multitran.com##.getty
 multitran.com##.pic
 ||embed-cdn.gettyimages.com^$domain=multitran.com

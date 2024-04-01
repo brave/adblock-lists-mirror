@@ -29,14 +29,12 @@ financemonk.net,dropgalaxy.*##html.i-amphtml-inabox
 financemonk.net,dropgalaxy.*##[id^="TR-"][tr-id][style*="z-index: 9999"]
 
 ! aternos anti adb
+@@||hb.vntsm.com/v3/live/ad-manager-bundle.min.js$script,domain=aternos.org
+@@||hb.vntsm.com/ab/live/fatum/ad-manager-bundle.min.js$script,domain=aternos.org
 aternos.org##.header-center:style(margin-top:-5000px !important;)
 aternos.org##.sidebar:style(width: 1.745px !important; padding: 1px !important)
 aternos.org##.ad-dfp:style(min-height: 0.1485mm !important; height: 0.1485mm !important;)
 aternos.org###placement-takeover
-!#if env_chromium
-@@||hb.vntsm.com/v3/live/ad-manager-bundle.min.js$script,domain=aternos.org
-@@||hb.vntsm.com/ab/live/fatum/ad-manager-bundle.min.js$script,domain=aternos.org
-!#endif
 
 ! pixsera
 ! https://github.com/uBlockOrigin/uAssets/issues/9123
@@ -132,13 +130,6 @@ torrentgalaxy.to,tgx.rs##.panel.txlight.panel-primary.outer > [class*="slidingDi
 torrentgalaxy.to,tgx.rs##.panel.txlight.panel-primary.outer > [class*="slidingDivf-"] > div[style="margin-bottom:10px;"]:has(a img)
 torrentgalaxy.to,tgx.rs##.confluids[style*="overflow"] > [class] > div:last-child > div[style*="padding"]:has(a img)
 torrentgalaxy.to,tgx.rs##legend.txlight[style*="margin"] + center > div[style*="margin"]:has(a img)
-
-! https://github.com/uBlockOrigin/uAssets/issues/21353
-raenonx.cc##div[class^="flex flex-row w-full h-full"]:has(.adsbygoogle)
-raenonx.cc##body > div[class] > [class="flex flex-col w-full"]:has(> button.button-clickable-bg-opaque > div > svg)
-!#if !env_firefox
-raenonx.cc##body > div[id][data-floating-ui-portal]:has-text(/blocker/i)
-!#endif
 
 ! https://github.com/easylist/easylist/commit/bce6c1e9407e18de63cc49061617afdd8ad99b85
 /adutils.$badfilter

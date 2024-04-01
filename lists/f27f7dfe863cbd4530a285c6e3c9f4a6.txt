@@ -1,9 +1,9 @@
-! Checksum: 6Sa+vbAEG4egaz+SzhKiGQ
-! Diff-Path: ../patches/7/7-s-1711903018-3600.patch
+! Checksum: a29EKrIF2SFv3rvmFbH9MA
+! Diff-Path: ../patches/7/7-s-1711968192-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.0
-! TimeUpdated: 2024-03-31T16:33:34+00:00
+! Version: 2.0.50.2
+! TimeUpdated: 2024-04-01T10:33:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -492,6 +492,8 @@
 !
 !
 ! anti-adb
+success-corp.co.jp#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=success-corp.co.jp
 nieru.net#@#.ad-space
 nieru.net#@#.adWidget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159931
@@ -10268,6 +10270,9 @@ gtoys.blog.fc2.com###adright
 !
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_japanese
+! Detect of using AdGuard products
+!+ PLATFORM(windows, mac, android, ios) NOT_OPTIMIZED
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !
 !---------------------------------------------------------------------------!
 !-------------- Fixing filtration errors (false-positive) ------------------!

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Xo5+gdGtv3QU67pN8ShO1g
-! Diff-Path: ../patches/16/16-s-1711913807-3600.patch
+! Checksum: mJOMxrl/hbvz8kxddN6ULQ
+! Diff-Path: ../patches/16/16-s-1711964263-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.35
-! TimeUpdated: 2024-03-31T19:32:04+00:00
+! Version: 2.0.44.36
+! TimeUpdated: 2024-04-01T09:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -827,6 +827,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|b-cdn.net|bu
 !
 !
 !
+lesmoutonsrebelles.com##div[class^="code-block code-block-"][style^="margin: 8px 0;"]
 750g.com##.ads-pholder
 lesoir.be##.r-pub--hor
 supertoinette.com##.row > div.col:has(> div.sticky > div.ads)
@@ -1505,6 +1506,7 @@ lesfrontaliers.lu##.ad-listing
 !
 !+ NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_french
+! Detect of using AdGuard products
 !
 !---------------------------------------------------------------------------!
 !-------------- Content replacement rules ----------------------------------!

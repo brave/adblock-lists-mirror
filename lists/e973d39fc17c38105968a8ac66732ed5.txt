@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9Pz8DT+vSNpJCW8+dcm+6w
-! Version: 202404011851
+! Checksum: Nj9xfSw8nZ2waz71xbatIA
+! Version: 202404011951
 ! Title: EasyList Spanish
-! Last modified: 01 Apr 2024 18:51 UTC
+! Last modified: 01 Apr 2024 19:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -350,6 +350,7 @@ hitfm.es#@#.publi
 ||brand.ad^$third-party
 ||butlercdn.com^$third-party
 ||equamarketing.com^$third-party
+||getadjacent.com^$third-party
 ||googledfp.com^$third-party
 ||premiumads.com.br^$third-party
 ||premiumleads.com^$third-party
@@ -1516,6 +1517,7 @@ tycsports.com##.banner-bottom
 agroclave.com.ar,cronica.com.ar,lacapital.com.ar##.banner-box
 elnueve.com.ar##.banner-box-container
 noticiasurbanas.com.ar##.banner-center
+concierto.cl##.banner-cms
 revistacar.es##.banner-container
 soychile.cl##.banner-fixed-container
 puntal.com.ar##.banner-flex
@@ -3034,6 +3036,7 @@ famosateca.es##div[align^="center"]
 ! *** easylistspanish:easylistspanish/easylistspanish_allowlist.txt ***
 @@||20m.es/prebid/$script,domain=20minutos.es
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independentespanol.com
+@@||adswizz.com/adswizz/js/SynchroClient2.js$script,domain=13cradio.cl
 @@||alkosto.cdn.adglare.net^$image,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=20minutos.es

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FHs8IhZmP3PCFlf2Pu8ChQ
-! Version: 202404011851
+! Checksum: yBzWvONb5dY9yTowEHH+sw
+! Version: 202404011951
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Apr 2024 18:51 UTC
+! Last modified: 01 Apr 2024 19:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1775,6 +1775,7 @@ goodfon.ru##.search_box__inner > .search_box__inner__form + div
 taker.im##.second__goods-share
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.section-header__share-icon
 www.gismeteo.ru#?#.section-item:-abp-has(> .section-title ~ .social-buttons)
+vikna.tv##.section-share > .sticky-wrapper
 securitylab.ru##.section-subscribe-social
 wikianime.tv##.section-vk
 agrarii-razom.com.ua#?#.section:-abp-has(> .fb-root-wrapper)
@@ -1946,6 +1947,7 @@ moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.soc-in
 bit.ua,vm.ru##.soc-item
 lifenews.ru,lifenews78.ru##.soc-likes
 zorbasmedia.ru##.soc-links-author
+vikna.tv##.soc-media
 fakty.com.ua##.soc-media-footer
 psm7.com##.soc-mob-menu
 oka.fm##.soc-search-block > a[href][target="blank"]
@@ -2723,6 +2725,7 @@ traktorist.ua#?#div:not([id]):not([class]):-abp-has(> a[href="https://t.me/trakt
 stalker-mods.clan.su,stalker-mods.su#?#div[align="center"]:-abp-contains(Поделиться в социальных сетях)
 paparazzi.ru#?#div[align="center"]:-abp-has(> .ya-share2)
 teenslang.su#?#div[align="center"]:-abp-has(> a[href*="://t.me/"])
+ictv.ua##div[class$="menu-support-social"]
 rublacklist.net##div[class$="right_social_links_item"] > a[href][target="_blank"]
 the-village.ru##div[class*="-ShareBlock-"]
 rg.ru##div[class*="Article"][class*="hare"]
@@ -3062,6 +3065,7 @@ kakprosto.ru##.content__share
 fatcatslim.ru##.entry-share
 porjati.net##.fb-like
 rusprofile.ru##.footer-social
+ictv.ua##.footer_social
 kg-portal.ru##.fp-share
 cnews.ru##.friend_fb
 woman365.ru##.main__content-share-btns
@@ -3072,6 +3076,7 @@ audioportal.su,vsthouse.ru##.pluso
 fatcatslim.ru,tehnar.net.ua##.post-share
 kg-portal.ru##.section_social
 ficbook.net##.share-buttons
+ictv.ua##.share-facebook
 axd.semestr.ru,math.semestr.ru##.share42init
 fishki.net##.share_ajax
 onlinemschool.com##.share_buttons

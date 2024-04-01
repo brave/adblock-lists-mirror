@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Y5kb994JVsLBXQQcwLUKxA
-! Version: 202404011651
+! Checksum: PcDeI/TImjDYMbeWvi69GQ
+! Version: 202404011751
 ! Title: EasyList Germany
-! Last modified: 01 Apr 2024 16:51 UTC
+! Last modified: 01 Apr 2024 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -4120,6 +4120,7 @@ gs-forum.eu##.oc24-sidebar
 liveticker.com##.odds
 keyforsteam.de##.offline
 maschinensucher.at,maschinensucher.ch,maschinensucher.de##.ofni
+onmeda.de##.on-ad
 finanznachrichten.de##.on-click--partner
 onmeda.de##.on-top-banner-wrapper
 klappeauf.de##.opa
@@ -5182,6 +5183,7 @@ feuerwehrmagazin.de##.excerpt-tile.cell.small-12.medium-6:has(.advertorials)
 print.de##.excerpt-tile.cell:has(.advertorials)
 prad.de##.first-list > li:has(a[href^="https://tracking.s24.com/"])
 onvista.de##.flex-layout:has(div[class^="ArticleTeaser_ov-article-teaser__onvistaCustomer_"])
+onmeda.de##.inlinemod-item:has(.on-ad)
 mopo.de##.main-preview:has(.anzeige-label)
 chip.de##.mt-md:has(path[d$="92.456,64.241 z"])
 winfuture.de##.news330.floatL.mr10:has(.anzeige)

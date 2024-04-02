@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GVk0DMBQ5C1GQCc9Q5nihQ
-! Version: 202404021551
+! Checksum: 6UezbTHRWA3WvTjsyF9/hw
+! Version: 202404021651
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Apr 2024 15:51 UTC
+! Last modified: 02 Apr 2024 16:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4870,6 +4870,7 @@ _tizers.
 ||cdn-rtb.sape.ru^
 ||cdn-static.ru^$third-party
 ||cdn-vgtrk.ru^$third-party
+||cdn.neon.click^$third-party
 ||cdn.umh.ua^$third-party
 ||cdn0.moy.su^$third-party
 ||cdn0.ru^$third-party
@@ -13320,6 +13321,7 @@ kingisepp.ru##.banners-box
 hi-news.ru##.banners-center
 kulturomania.ru##.banners-group
 usionline.com##.banners-list__items
+eapteka.ru##.banners-puzzle
 videoprobki.com##.banners-right
 mediametrics.ru##.banners-right-side
 flashboot.ru##.banners-topic
@@ -16734,6 +16736,7 @@ rocketdockfree.ru##[data-msetup]
 woman.ru##[data-name*="Banner"]
 re.kufar.by#?#[data-name="ad_in_listing"] > article:-abp-has(> div > [id^="adfox_"])
 mamba.ru##[data-name="search-banner"]
+eapteka.ru##[data-neon-skeleton-removable]
 vladnews.ru##[data-newsb]
 cq.ru##[data-odds-series]
 bankiros.ru##[data-offer]

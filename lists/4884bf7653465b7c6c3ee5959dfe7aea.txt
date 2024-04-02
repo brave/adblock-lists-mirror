@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TnQSqjd8yYnCVXAbdGeahw
-! Diff-Path: ../patches/9/9-s-1711964271-3600.patch
+! Checksum: iaVZ74WnQrbf3Y3wzXkt3Q
+! Diff-Path: ../patches/9/9-s-1712050641-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.92
-! TimeUpdated: 2024-04-01T09:33:46+00:00
+! Version: 2.0.23.93
+! TimeUpdated: 2024-04-02T09:33:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -332,6 +332,7 @@ peliculas8k.com##+js(no-setTimeout-if, Promise[\'all\'](urls)
 peliculas8k.com##+js(no-fetch-if, /googlesyndication\.com|iubenda\.com|unblockia\.com|bannersnack\.com|mopinion\.com/)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163384
 alarmadefraude.com##+js(no-fetch-if, pagead2.googlesyndication.com)
+! https://github.com/AdguardTeam/AdguardFilters/issues/176131
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162478
 modescanlator.com##+js(no-fetch-if, ads_block.txt)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162260

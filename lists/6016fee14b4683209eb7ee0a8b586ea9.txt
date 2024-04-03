@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Tg7GKQIl4ywSGhSHrVzJFg
-! Diff-Path: ../patches/16/16-s-1712155018-3600.patch
+! Checksum: 3tM5tDiyHXPcNYVTMI2FYQ
+! Diff-Path: ../patches/16/16-s-1712180226-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.41
-! TimeUpdated: 2024-04-03T14:32:09+00:00
+! Version: 2.0.44.42
+! TimeUpdated: 2024-04-03T21:32:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -17005,7 +17005,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||niquons.com/baner
 ||niquons.com/header/
 ||niveales.com/media/habillage/
-||nordicmag.info/wp-content/uploads/*_habillage_
 ||norefer.com/images/echangedeclics.png
 ||norefer.com/images/fornobody.png
 ||norefer.com/images/legagnant.png
@@ -21213,7 +21212,6 @@ cnews.fr###wrapper-banner
 casatv.ca###wrapperbanner
 troc-velo.com###xpubpart
 yahoo.com###yad-billboard
-nordicmag.info###zox-wallpaper
 alloforfait.fr###zzone
 ivocommunication.com,ivoprint.com##.Ads
 genybet.fr##.GGFODTBDCS
@@ -21695,6 +21693,7 @@ tsa-algerie.com##.newsfeed__ooredoo
 ad4.fr##.nicebtn
 echoroukonline.com##.no_design
 msn.com##.non-empty-ad
+nordicmag.info##.nordi-widget
 moteurs-regionaux.com##.normalCoupProjo
 valeursactuelles.com##.nos-partenaires
 generation-nt.com##.ntSponsored

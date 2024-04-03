@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.2.0
+! Version: 3.6.2.1
 
 ! General
 
@@ -375,8 +375,8 @@ voguebusiness.com##+js(cookie-remover, userId)
 ||wgchrrammzv.com/prod/ajc/loader.min.js$script,domain=dayton.com|daytondailynews.com|journal-news.com|springfieldnewssun.com
 
 ! Crain Communications
-.com/*/js_$script,domain=360dx.com|adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|rubbernews.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
-360dx.com,adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,genomeweb.com,modernhealthcare.com,plasticsnews.com,precisionmedicineonline.com,rubbernews.com,sustainableplastics.com,tirebusiness.com,utech-polyurethane.com##+js(ra, class, body[class])
+.com/*/js_$script,domain=360dx.com|adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|rubbernews.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
+360dx.com,adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,genomeweb.com,modernhealthcare.com,plasticsnews.com,precisionmedicineonline.com,rubbernews.com,sustainableplastics.com,tirebusiness.com,utech-polyurethane.com##+js(ra, class, body[class])
 european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
@@ -529,6 +529,7 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 ||assets.guim.co.uk/assets/SignInGate*.js$script,domain=theguardian.com
 theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
 
+@@||petametrics.com$script,domain=seekingalpha.com
 @@||sdk.privacy-center.org^$script,third-party
 !##div#didomi-host
 ##+js(rc, didomi-popup-open, body.didomi-popup-open)

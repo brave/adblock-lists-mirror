@@ -1,9 +1,9 @@
-! Checksum: 6L61FPFXJOUV/qX2oFn/HQ
-! Diff-Path: ../patches/7/7-s-1712068649-3600.patch
+! Checksum: XwR+QAv1GxZidsUDMQlorg
+! Diff-Path: ../patches/7/7-s-1712155025-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.8
-! TimeUpdated: 2024-04-02T14:33:40+00:00
+! Version: 2.0.50.9
+! TimeUpdated: 2024-04-03T14:33:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1728,6 +1728,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||city.akiruno.tokyo.jp/cmsfiles/banner/
 ||kimamamatome.doorblog.jp/ad*.js
 kimamamatome.doorblog.jp###sidebar-inner > div:has(> div.right-container-ads)
 kimamamatome.doorblog.jp##.kotei
@@ -4309,7 +4310,7 @@ making.pipa.jp##div[style^="width:728px; height: 90px"]
 tegaki.pipa.jp##.AdX300x250
 tegaki.pipa.jp###Ad300x250
 gameden.jp,teyvatsokuho.com###block-15
-city.tomisato.lg.jp,city.mobara.chiba.jp##.zone04
+city.akiruno.tokyo.jp,city.tomisato.lg.jp,city.mobara.chiba.jp##.zone04
 hinode.pics##div[class^="adsense_article_"]
 mybouzu.info##div[class^="ad-box-"] > center
 nanjde.blog.jp###category-icons
@@ -9111,7 +9112,7 @@ douga-getter.com#?#.section > div.container >  div.row > div > ins.adsbygoogle:u
 5ch.net#?#.sticky_side_point > div.my-4:has(div.ads-item)
 chiebukuro.yahoo.co.jp#?##lsc div[class^="ClapLv3SearchList_Chie-SearchList__Item__"]:has(> div > div[class*="__Information__"] > div[class*="__InformationIcon__"] > div[class*="__InformationText__"]:contains(広告))
 map.yahoo.co.jp,beta-map.yahoo.co.jp#?#.SS__list:has(span.Badge--ad)
-chaos2ch.com#?#.plugin-memo:has(> div.sidetitlebody > div.sidetitle:contains(amazon))
+otakomu.jp,chaos2ch.com#?#.plugin-memo:has(> div.sidetitlebody > div.sidetitle:contains(amazon))
 iroirosokuhou.com#?#.sidewrapper.plugin-memo > div:has(> ins.adsbygoogle)
 sponichi.co.jp#?#.mb30:has(> div > script[src*="rakuten"])
 sponichi.co.jp#?#.mb30 > h2:contains(スペシャルコンテンツ)

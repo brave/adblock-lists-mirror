@@ -1,9 +1,9 @@
-! Checksum: zV3/olH0wfhYIW8U/NEU4Q
-! Diff-Path: ../patches/7/7-s-1712219850-3600.patch
+! Checksum: VOvUbDcxt/nIPMOQiLCHMQ
+! Diff-Path: ../patches/7/7-s-1712230704-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.14
-! TimeUpdated: 2024-04-04T08:33:45+00:00
+! Version: 2.0.50.15
+! TimeUpdated: 2024-04-04T11:33:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1732,10 +1732,12 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+erostopics.net##tbody > tr:has(> td[class$="-ad"])
 city.higashimatsuyama.lg.jp##.top_banner8
 city.higashimatsuyama.lg.jp##.top_banner9
 city.hakodate.hokkaido.jp##.top-footer-banner
-nikke-jp-news.com##a[rel*="sponsored"]
+nikke-jp-news.com##.wr
+nikke-jp-news.com##a[rel="noopener sponsored"]
 ||city.akiruno.tokyo.jp/cmsfiles/banner/
 ||kimamamatome.doorblog.jp/ad*.js
 kimamamatome.doorblog.jp###sidebar-inner > div:has(> div.right-container-ads)
@@ -5972,10 +5974,13 @@ tipstour.net###custom_html-65
 newbalance-days.com,japan-railway.com###custom_html-70
 gadgets.evolves.biz###custom_html-71
 japan-railway.com###custom_html-72
+erostopics.net###custom_html-78
 smartasw.com###custom_html-95
-clicccar.com,moez-m.com###custom_html-100
+erostopics.net,clicccar.com,moez-m.com###custom_html-100
+erostopics.net###custom_html-102
 sorae.info###custom_html-110
 idle-girl.com###custom_html-124
+erostopics.net###custom_html-135
 ||lv73.net/wordpress/wp-content/themes/*/library/js/ko-ko-ku/ko-ko-ku.js
 ||rakuten-bank.co.jp/shared/js/ad.js
 ygokamo.com##div[style] > a[target="_break"] > img
@@ -7939,7 +7944,7 @@ doope.jp###head_box
 doope.jp##.at_adwbox
 loco.yahoo.co.jp##.advertisement.tracked_mods
 news.yahoo.co.jp##li > a[class^="sc-"][href^="https://rd.listing."]
-||dlsite.jp/modpub/images2/work/doujin/$domain=wiki.yjsnpi.nu|the-3rd.net|2ch-c.net|doujinonsei.jp|bipblog.com|digital-soccer.net|loveliveforever.com|ear-phone-review.com
+||dlsite.jp/modpub/images2/work/doujin/$domain=wiki.yjsnpi.nu|the-3rd.net|2ch-c.net|doujinonsei.jp|bipblog.com|digital-soccer.net|loveliveforever.com|ear-phone-review.com|nikke-jp-news.com
 ||top.bcdn.jp/i/center_banner/
 ||top.bcdn.jp/i/hd_banner/
 biglobe.ne.jp###h_bar
@@ -10307,6 +10312,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !
 !
 !
+! TEST unblock ranking https://github.com/AdguardTeam/AdguardFilters/issues/176290
+@@||i2i.jp/view/index.php$domain=erostopics.net
 ! Unbreak ranking
 @@||serving.stat-rock.com/v1/placements/$xmlhttprequest,domain=funny-ai.com
 funny-ai.com#@#.button_ads

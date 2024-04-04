@@ -1,9 +1,9 @@
-! Checksum: qPSNbqpd8pJIDtkpcGCRFg
-! Diff-Path: ../patches/7/7-s-1712234298-3600.patch
+! Checksum: IWZ/yb078bV+hL1uum/3pQ
+! Diff-Path: ../patches/7/7-s-1712237885-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.16
-! TimeUpdated: 2024-04-04T12:34:08+00:00
+! Version: 2.0.50.17
+! TimeUpdated: 2024-04-04T13:34:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -759,7 +759,7 @@ battlecats-db.com#$#body[style="display: none;"] { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85641
 modalina.jp#%#//scriptlet('abort-on-property-read', 'AdBlockLimitation')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116093
-sekai-kabuka.com#$#.浙勞く黴偸巓們氤佩亰靤甞 { pointer-events: none !important; }
+sekai-kabuka.com#$#td[width="160"] [style*="position"] [id][style] ~ [onclick] { pointer-events: none !important; }
 realtime-chart.info#$#td[style^="vertical-align"] [onmousedown]:has(> img[src*="/clip_"] + b):not(:has(b td > a[href])) { pointer-events: none !important; }
 realtime-chart.info#?#.news_b table[border="0"][cellpadding="5"][style="background:#fff"] > tbody >  tr[bgcolor="#fff"] > td.newsarea[style] > a.wl[href^="https://a"][href*=".to/"]:upward(2)
 realtime-chart.info#$?#td[style^="vertical-align"] [id] [class]:matches-css(top: /^[4-8]\d{2}\.?\d*px$/) [onclick*=")"]:has(b):not(:has(td > a)) { pointer-events: none !important; }

@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.2.1
+! Version: 3.6.2.2
 
 ! General
 
@@ -599,8 +599,8 @@ museumsassociation.org##+js(ra, style, body[style], stay)
 museumsassociation.org##div#paywall-wrapper,div.advertising
 nacion.com##+js(ra, style, div.article-body-wrapper__styled[style], stay)
 nacion.com##div.post
-narcity.com##+js(ra, style, div.body-description[style])
-narcity.com##div#login-wall,div#overlay
+narcity.com##+js(ra, style, div.body-description[style], stay)
+narcity.com##div#login-wall,div#overlay,div.brid-container,div.brandsnippet-article
 nation.africa##+js(rc, nmgp, .nmgp)
 nation.africa##div.modal
 ||newbostonpost.com/*/paywall/js/main.js$script,~third-party

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3tM5tDiyHXPcNYVTMI2FYQ
-! Diff-Path: ../patches/16/16-s-1712180226-3600.patch
+! Checksum: JRABs/9T+hLUreDrLQZHdw
+! Diff-Path: ../patches/16/16-s-1712187431-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.42
-! TimeUpdated: 2024-04-03T21:32:14+00:00
+! Version: 2.0.44.43
+! TimeUpdated: 2024-04-03T23:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -878,7 +878,7 @@ trustmyscience.com##div[class*="code-block-"]:not(.code-block-default).code-bloc
 topsante.com##.pepsia
 clubic.com###megaban-container
 trustmyscience.com##div[id^="vsly-top-of-page-"]
-journaldequebec.com###banner
+stream-complet.biz,journaldequebec.com###banner
 journaldequebec.com##.section-rightrail > .bigbox-container:has(> .dfpLabel)
 capital.fr##.page-aside > div.custombox:has(> a[data-custombox-position][title])
 jeune-gay.fr##.studio
@@ -1186,7 +1186,6 @@ stream-complet.biz##.vrs
 stream-complet.biz##a.showIt
 stream-complet.biz##.height-90
 stream-complet.biz##.height-600
-stream-complet.biz###banner
 igen.fr,macg.co##a[href="/se30"]
 igen.fr,macg.co##body > a[href][style*="display:"][style*="padding-"][style*="margin:"]
 marianne.net##.sponsored

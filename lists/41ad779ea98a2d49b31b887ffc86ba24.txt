@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fgtz/DWiMnM5mp9mJYCoGA
-! Version: 202404040740
+! Checksum: fKTw6kQEaLQ8ySC+fb3x5w
+! Version: 202404040840
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-04 07:40 UTC
+! Last modified: 2024-04-04 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43899,6 +43899,11 @@ nerdwallet.com##._1y2JXo
 nerdwallet.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! tekinvestor.no reg nag https://github.com/uBlockOrigin/uAssets/issues/22985
 tekinvestor.no##+js(nostif, custom-modal-create-account-link)
+! bloomberg.com
+||coordinator.cm.bloomberg.com^
+bloomberg.com##+js(set-local-storage-item, history, $remove$)
+bloomberg.com##figure:style(opacity: 1 !important;)
+bloomberg.com##.banner
 ! cnn.com reg/login nag
 cnn.com##+js(set-local-storage-item, perm_cnn_regwall_v1, $remove$)
 cnn.com##+js(set-local-storage-item, REG_WALL_METER, $remove$)

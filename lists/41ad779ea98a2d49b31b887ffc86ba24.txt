@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cfOe9Ai5+17fLRkETGtawA
-! Version: 202404051340
+! Checksum: 7ZWFlHRO80JyNpDjiu92Wg
+! Version: 202404051540
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-05 13:40 UTC
+! Last modified: 2024-04-05 15:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43855,6 +43855,8 @@ onedio.com##+js(set-cookie, o-push-alert, 1)
 ! izumi.jp (mobile app)
 izumi.jp###s_header[style="top: 84px;"]:style(top: 0 !important;)
 izumi.jp##html[data-smartbanner-original-margin-top="0"][style="margin-top: 84px;"]:style(margin-top: 0 !important;)
+! cecile.co.jp (mobile app)
+cecile.co.jp##.smartbanner-show:style(margin-top: 0 !important;)
 ! fanboy_social_specific_uBO.txt 
 ! Counter generichide
 metro.co.uk###share-buttons-bottom
@@ -49097,6 +49099,7 @@ tomshardware.fr##.widget-toms-widget-google-news
 !
 ! ---------- French Site Specific Blocking Rules ----------
 !
+||lequipe.fr/_nuxt/Share.
 ||produits-asiatiques.com/annuaire/templates/coolor/images/facebook-faces.gif
 !
 !---------- Arabic Site Specific Hiding Rules ----------

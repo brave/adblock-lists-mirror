@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DqfQhdq1mIY0g9u+NeoNUA
-! Version: 202404050651
+! Checksum: Jud3vBvw4IqaWe1RwfTuVQ
+! Version: 202404050751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Apr 2024 06:51 UTC
+! Last modified: 05 Apr 2024 07:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12576,7 +12576,7 @@ delovoy-kirov.ru###uzhanina
 heregirl.ru,ledilana.ru###vgtrk_bottom
 virusinfo.info###vi_ad
 virusinfo.info###vi_adlink
-filma24.ru,hlamer.ru###video-container .overlay_video
+cunofilms.ru,hlamer.ru###video-container .overlay_video
 ivi.ru###video-flack
 videonews.club###video_bootom
 enter.az###videorekframe
@@ -12794,7 +12794,7 @@ ua.today##.admix
 promigren.ru##.adp-block
 asiaplustj.info,news.tj##.adredirector
 cn.ru,ittour.com.ua##.adriver
-1927.kiev.ua,1plus1.video,bigpicture.ru,chatadelic.net,coderoad.ru,day.az,euromd.com.ua,filma24.ru,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,orl.ec,podrobnosti.ua,ranobelib.me,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru,yaoilib.me##.ads
+1927.kiev.ua,1plus1.video,bigpicture.ru,chatadelic.net,coderoad.ru,cunofilms.ru,day.az,euromd.com.ua,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,orl.ec,podrobnosti.ua,ranobelib.me,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru,yaoilib.me##.ads
 tarkov-market.com##.ads-horiz
 orl.ec##.ads-inner-top
 footboom.com##.ads-insert
@@ -19984,7 +19984,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /service/display/|$script,domain=povarenok.ru|stranamam.ru
 /site/showbanner/*$domain=latifundist.com
 /sm\.news/[^\s]{80,}/$script,domain=sm.news
-/stargate*.$image,popup,xmlhttprequest,domain=filma24.ru|hlamer.ru
+/stargate*.$image,popup,xmlhttprequest,domain=cunofilms.ru|hlamer.ru
 /static/banners/*$domain=gagadget.com|vse-sto.com.ua
 /static/js/build/adidas.min.js$domain=auto43.ru|dom43.ru|gorodkirov.ru|job43.ru
 /storage/banners/*$domain=1sn.ru|banki.loans|sportliga.com
@@ -23500,6 +23500,7 @@ maps.mail.ru##img[width="200"][height="30"]
 ||tv.mail.ru/popup_banner/
 !
 ! Metaratings
+metaratings.ru###bonuses-modal
 metaratings.ru##.catfish
 metaratings.ru##.comm
 metaratings.ru##.fb-comm
@@ -23507,22 +23508,8 @@ metaratings.ru##.header-bk
 metaratings.ru##.users-preferences
 metaratings.ru##[data-type*="banner"]
 metaratings.ru##a[class*="Header_headerPromo"]
-metaratings.ru##a[href^="/promo1xstavka"]
-metaratings.ru##a[href^="/promobetcity"]
-metaratings.ru##a[href^="/promofonbet"]
-metaratings.ru##a[href^="/promolegall"]
-metaratings.ru##a[href^="/promoleon"]
-metaratings.ru##a[href^="/promoligastavok"]
-metaratings.ru##a[href^="/promomarathon"]
-metaratings.ru##a[href^="/promometa"]
-metaratings.ru##a[href^="/promoolimp"]
-metaratings.ru##a[href^="/promopari"]
-metaratings.ru##a[href^="/promoparibet"]
-metaratings.ru##a[href^="/promotennisi"]
-metaratings.ru##a[href^="/promowl"]
-metaratings.ru##div[class^="BookmakersRatingAside"]
-metaratings.ru##div[class^="BookmakersRatingHome"]
-metaratings.ru##div[class^="BookmakersRating_"]
+metaratings.ru##a[href^="/promo"]
+metaratings.ru##div[class^="BookmakersRating"]
 metaratings.ru##div[class^="Catfish_catfish"]
 metaratings.ru##div[class^="DefaultType_banner"]
 metaratings.ru##div[class^="ExternalWidget_"]
@@ -24194,13 +24181,11 @@ dzen.ru##div[class^="dzen-mobile__"] > div[id$="-fullscreen"]
 dzen.ru##div[class^="dzen-mobile__topContentBackgroundBottom"]
 dzen.ru##div[style*=" !important; "][style$=" !important;"]
 ! переходы
-&yclid=$popup,domain=dzen.ru
-&yhic=$popup,domain=dzen.ru
-&yhid=$popup,domain=dzen.ru
 =mytarget$popup,domain=dzen.ru
-?yclid=$popup,domain=dzen.ru
-?yhic=$popup,domain=dzen.ru
-?yhid=$popup,domain=dzen.ru
+yclid=$popup,domain=dzen.ru
+yclyd=$popup,domain=dzen.ru
+yhic=$popup,domain=dzen.ru
+yhid=$popup,domain=dzen.ru
 ||t.mail.ru/redir/$popup,domain=dzen.ru
 !
 ! Сайты Блокнота
@@ -25917,7 +25902,7 @@ kodik.info##.second-message
 radioromantika.ru##.showMessageAdBlock
 kg-portal.ru##.social_login > .ulogin ~ .caution
 gibdd-gai.ru##.warning
-filma24.ru##.websockets
+cunofilms.ru##.websockets
 spletnik.ru##.z-adblock-message
 /*.js|$script,~third-party,domain=cyberpedia.su|infopedia.su|lektsii.org|megaobuchalka.ru|poisk-ru.ru|studopedia.info|studopedia.net|studopedia.org|studopedia.su
 /a-detector/$domain=docfilms.info|green-teatv.com|vesjoloevideo.ru

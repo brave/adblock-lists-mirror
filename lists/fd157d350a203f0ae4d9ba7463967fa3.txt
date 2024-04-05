@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3E4RR6JCZ4MN4Bt4dNLG9g
-! Version: 202404051151
+! Checksum: qrmyIP77febl5atwcijF1A
+! Version: 202404051251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Apr 2024 11:51 UTC
+! Last modified: 05 Apr 2024 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12576,7 +12576,6 @@ delovoy-kirov.ru###uzhanina
 heregirl.ru,ledilana.ru###vgtrk_bottom
 virusinfo.info###vi_ad
 virusinfo.info###vi_adlink
-cunofilms.ru,hlamer.ru###video-container .overlay_video
 ivi.ru###video-flack
 videonews.club###video_bootom
 enter.az###videorekframe
@@ -12794,7 +12793,7 @@ ua.today##.admix
 promigren.ru##.adp-block
 asiaplustj.info,news.tj##.adredirector
 cn.ru,ittour.com.ua##.adriver
-1927.kiev.ua,1plus1.video,bigpicture.ru,chatadelic.net,coderoad.ru,cunofilms.ru,day.az,euromd.com.ua,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,orl.ec,podrobnosti.ua,ranobelib.me,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru,yaoilib.me##.ads
+1927.kiev.ua,1plus1.video,bigpicture.ru,chatadelic.net,coderoad.ru,day.az,euromd.com.ua,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,orl.ec,podrobnosti.ua,ranobelib.me,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru,yaoilib.me##.ads
 tarkov-market.com##.ads-horiz
 orl.ec##.ads-inner-top
 footboom.com##.ads-insert
@@ -19984,7 +19983,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /service/display/|$script,domain=povarenok.ru|stranamam.ru
 /site/showbanner/*$domain=latifundist.com
 /sm\.news/[^\s]{80,}/$script,domain=sm.news
-/stargate*.$image,popup,xmlhttprequest,domain=cunofilms.ru|hlamer.ru
 /static/banners/*$domain=gagadget.com|vse-sto.com.ua
 /static/js/build/adidas.min.js$domain=auto43.ru|dom43.ru|gorodkirov.ru|job43.ru
 /storage/banners/*$domain=1sn.ru|banki.loans|sportliga.com
@@ -23070,6 +23068,12 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 ##body.has-brand .b-content__main > div[id]:not([class]):empty
 ##body.has-brand .b-content__main > div[style^="height: 250px; overflow: hidden;"]
 !
+! hlamer и зеркала
+/stargate/?mode=vast&location=
+ru###ads-top.ads
+||hlamer.ru/stargate?id=$popup
+||ru/content/stargate/*.jpg$image,~third-party
+! ---
 ! 2ip.ru и 2ip.io
 2ip.io,2ip.ru##.ad-test-vpn
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
@@ -25901,7 +25905,6 @@ kodik.info##.second-message
 radioromantika.ru##.showMessageAdBlock
 kg-portal.ru##.social_login > .ulogin ~ .caution
 gibdd-gai.ru##.warning
-cunofilms.ru##.websockets
 spletnik.ru##.z-adblock-message
 /*.js|$script,~third-party,domain=cyberpedia.su|infopedia.su|lektsii.org|megaobuchalka.ru|poisk-ru.ru|studopedia.info|studopedia.net|studopedia.org|studopedia.su
 /a-detector/$domain=docfilms.info|green-teatv.com|vesjoloevideo.ru

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5/EPAC4rRHrOXVlMjBKXqA
-! Version: 202404062015
+! Checksum: 1uyoOOcJwUEtLMtpCPFMRw
+! Version: 202404062115
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-06 20:15 UTC
+! Last modified: 2024-04-06 21:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2185,12 +2185,15 @@ _twitter_follow.
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-2
 ###taboola-below-disco-board
+###taboola-below-homepage-thumbnails-2
+###taboola-below-homepage-thumbnails-3
 ###taboola-below-main-column
 ###taboola-belowarticle
 ###taboola-bottom
 ###taboola-bottom-main-column
 ###taboola-div
 ###taboola-homepage-thumbnails
+###taboola-homepage-thumbnails-desktop
 ###taboola-horizontal-toolbar
 ###taboola-in-feed-thumbnails
 ###taboola-mid-main-column-thumbnails
@@ -2208,6 +2211,7 @@ _twitter_follow.
 ##.divider-taboola
 ##.js-taboola
 ##.m-article-taboola
+##.slottaboola
 ##.taboola
 ##.taboola-banner
 ##.taboola-bottom-adunit
@@ -34053,6 +34057,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||player.gliacloud.com^$third-party
 ||sendtonews.com/player/sidebar.php?$third-party
 ! fanboy_notifications_thirdparty.txt
+! ||staq-cdn.com/grow/$third-party
 ||api-push.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
@@ -34081,6 +34086,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||notification-time.com^$third-party
 ||notification.tubecup.net^
 ||notifications.ltd^$third-party
+||notifstation.com^$third-party
 ||notix.io^$third-party
 ||ntvsw.com^$third-party
 ||partishion.com^$third-party
@@ -34150,7 +34156,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||signaly.co^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
-! ||staq-cdn.com/grow/$third-party
 ||system-notify.app^$third-party
 ||topswp.com^$third-party
 ||unative.com^$third-party
@@ -34659,6 +34664,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||rule34.xxx/images/shirt2.jpg
 ||sabcnews.com^*-iabsa-
 ||sp-marketing-assets.s3.us-west-2.amazonaws.com^$domain=heraldnet.com
+||t.ly/js/sweetalert.min.js
 ||wikimedia.org/w/index.php?title=Special:BannerLoader
 ! ---------- Scroll To Top Buttons ----------
 ||breedingmoms.com/js/top.js
@@ -39814,7 +39820,7 @@ jeffs.com,scandinaviansoul.com##.rstboxes
 hangseng.com##.rwd-header-cookie-section
 pdl.co.nz##.s-notification
 sanitas.com##.sanitas-cookie-alert-container
-rk.com##.sc-1ldgmug-0.cKplIS
+bangbros.com,rk.com##.sc-1ldgmug-0.cKplIS
 radio-canada.ca##.sc-1qvf4hb-0
 northflank.com##.sc-3f37244c-0.jMKrJw
 smiteproleague.com##.sc-EHOje
@@ -43024,6 +43030,7 @@ pfister.ch##[class^="style__NewsletterPopupComponent"]
 jeuxvideo-live.com###Newsletters
 lamanchelibre.fr###articleFormNL
 comment-economiser.fr###bloc_newsletter_bas
+lalanguefrancaise.com###bottom_navbar
 fourchette-et-bikini.fr###newsletter-container + #legal-terms
 comment-economiser.fr###newsletter_box
 pcastuces.com###newsletter_descri
@@ -43038,6 +43045,7 @@ auto-moto.com##.bloc-netitmail
 paruvendu.fr##.bp14_recevoirannonces
 lesmobiles.com##.c-homepage__newsletter-block
 casting.fr##.casting-card-subscribe-newsletter
+francetvinfo.fr##.content-banner-nl
 justgeek.fr##.cs-entry__subscribe
 doctissimo.fr##.doc-newsletter-banner-wrapper
 pcastuces.com##.inscriptionmail
@@ -43054,6 +43062,7 @@ mayottehebdo.com##.spu-bg
 mayottehebdo.com##.spu-box
 loractu.fr##.subscribe-nl
 aciafrique.org##.subscribe-post
+lalanguefrancaise.com##.track-reminder
 vert.eco##.vert-subscribe-aside
 maison-travaux.fr##.widget-first
 mayottehebdo.com##aside.widget_custom_html
@@ -43630,6 +43639,7 @@ londondrugs.com,reverb.com##.newsletter-signup
 !! newsLetterCont
 bestbuy.ca##[class^="newsLetterCont"]
 ! International
+lerobert.com###block-edu-prospect-edu-prospect-email-catcher
 valgourmand.com###footer-primary
 tuinartikelen.nu###formNewsletterFooter
 td-toys.it###iqitpopup
@@ -48388,11 +48398,14 @@ stol.it##div[class^="UpScroll_"]
 ||avis-verifies.com^$third-party
 ||boosterblog.com/ban/$third-party
 ||carrefour.fr/footer-sticky-banner?
+||francetvinfo.fr/assets/common/twig/templates/app-install-banner/
+||francetvinfo.fr/assets/components/shared/alert-info/alert-info-
 ||manga-sanctuary.com/include/ajax/popup_actu.php
 ||onaregarde-pourvous.com/api/$third-party
 ||out.be/widgets/$third-party
 ||sibforms.com^$domain=logiciels.pro
 ||societe-des-avis-garantis.fr/wp-content/*/widgets/$third-party
+||static.lpnt.fr/static/js/*/taboola2023.js
 ||tout-sur-le-web.com^$third-party
 !
 ! ---------- French Site Specific Hiding Rules ----------
@@ -49106,6 +49119,7 @@ homap.fr##.share_content_button
 rtl.fr##.shared-logo
 boursedirect.fr##.slide-share
 phonandroid.com##.social-networks
+francetvinfo.fr##.social-zone__wrapper
 pix-geeks.com##.social_icons
 planetebd.com##.social_network
 20minutes.fr##.socialbar

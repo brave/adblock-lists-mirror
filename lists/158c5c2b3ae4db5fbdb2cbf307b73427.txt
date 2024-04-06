@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Cr610GpB1z1/jBmu6haGOA
-! Version: 202404061951
+! Checksum: UOdvaWylHS1CHQrBNibZjQ
+! Version: 202404062051
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Apr 2024 19:51 UTC
+! Last modified: 06 Apr 2024 20:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7573,6 +7573,7 @@ _revotas_push.
 ###uutiskirje-nosto
 ! *** easylist:fanboy-addon/fanboy_notifications_thirdparty.txt ***
 ! fanboy_notifications_thirdparty.txt
+! ||staq-cdn.com/grow/$third-party
 ||api-push.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
@@ -7601,6 +7602,7 @@ _revotas_push.
 ||notification-time.com^$third-party
 ||notification.tubecup.net^
 ||notifications.ltd^$third-party
+||notifstation.com^$third-party
 ||notix.io^$third-party
 ||ntvsw.com^$third-party
 ||partishion.com^$third-party
@@ -7670,7 +7672,6 @@ _revotas_push.
 ||signaly.co^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
-! ||staq-cdn.com/grow/$third-party
 ||system-notify.app^$third-party
 ||topswp.com^$third-party
 ||unative.com^$third-party
@@ -20275,12 +20276,15 @@ _backToTop.
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-2
 ###taboola-below-disco-board
+###taboola-below-homepage-thumbnails-2
+###taboola-below-homepage-thumbnails-3
 ###taboola-below-main-column
 ###taboola-belowarticle
 ###taboola-bottom
 ###taboola-bottom-main-column
 ###taboola-div
 ###taboola-homepage-thumbnails
+###taboola-homepage-thumbnails-desktop
 ###taboola-horizontal-toolbar
 ###taboola-in-feed-thumbnails
 ###taboola-mid-main-column-thumbnails
@@ -20298,6 +20302,7 @@ _backToTop.
 ##.divider-taboola
 ##.js-taboola
 ##.m-article-taboola
+##.slottaboola
 ##.taboola
 ##.taboola-banner
 ##.taboola-bottom-adunit

@@ -1,9 +1,9 @@
-! Checksum: IqcrTWwcgk+0v4aHxY+ibA
-! Diff-Path: ../patches/7/7-s-1712335067-3600.patch
+! Checksum: +3sgqzNZjVO/aaTuzpcXdw
+! Diff-Path: ../patches/7/7-s-1712403408-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.22
-! TimeUpdated: 2024-04-05T16:33:01+00:00
+! Version: 2.0.50.23
+! TimeUpdated: 2024-04-06T11:32:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -8212,6 +8212,8 @@ webdevqa.jp.net,it-swarm-ja.tech##.adn-ar
 picrew.me##.play-Imagemaker_Footer
 picrew.me##.c_ad_wrapper
 ||2chan.net/bin/$subdocument
+2chan.net###rightadc
+2chan.net##div[style="height:68px;"]
 futakuro.com,2chan.net##.tue2
 may.nijiura-doll.info,futakuro.com,2chan.net##.tue
 2chan.net##div[style="width:610px;margin: 0 auto;"]
@@ -8609,7 +8611,7 @@ gendai.media##div.articleBottomSns + div[style="min-height: 250px; overflow: hid
 applion.jp##div[style="max-height:250px;margin-bottom:10px;"]
 applion.jp##a[href^="https://www.amazon.co.jp/exec/obidos/"][target="_blank"]
 ||gendai.media/common/bluebacks/images/sample/bnr_
-shuminoengei.jp,bridalgown.work,liquidfoundation.work,tapestry.work,teaceremony.work,weddinghall.work,ceron.jp,nicovideo.jp##div[style^="width:300px;height:250px;"]
+2chan.net,shuminoengei.jp,bridalgown.work,liquidfoundation.work,tapestry.work,teaceremony.work,weddinghall.work,ceron.jp,nicovideo.jp##div[style^="width:300px;height:250px;"]
 gigaho.com,logworker.net##.box_drc
 gigaho.com,logworker.net##.amaw_box
 gigaho.com##.entry-content > span[style="display: block;"] > div[style="font-size:75%; color:#00BBDD;text-align: center;"]

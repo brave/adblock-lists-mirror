@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 84PunAWglHRMBIwKa3svPw
-! Version: 202404071051
+! Checksum: zh6wZjuXNeLcx2nPXzFHyA
+! Version: 202404071151
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Apr 2024 10:51 UTC
+! Last modified: 07 Apr 2024 11:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5889,9 +5889,9 @@ sber.ru##[class^="Cookies_cookie-warning_"]
 auto.ru##[class^="CreditCardRoot"]
 auto.ru##[class^="DealerCreditForm"]
 auto.ru##[class^="GalleryBestPriceFooter"]
-igromania.ru##[class^="IgromaniaChannel_mania_"]
 meduza.io##[class^="SaveMeduza"]
 igromania.ru,kanobu.ru##[class^="SubscribeForm_subscribe_"]
+igromania.ru,kanobu.ru##[class^="YoutubeChannel_channel_"]
 stopgame.ru##[class^="_boosty_"]
 silver.ru##[class^="button-subscribe_news"]
 cursorinfo.co.il##[class^="cmpButton"]
@@ -7601,6 +7601,7 @@ _revotas_push.
 ||medallia.com^*/onsite/embed.js
 ||neopush.io^$third-party
 ||news2day.me^$third-party
+||newsmemory.com/?meter
 ||notification-time.com^$third-party
 ||notification.tubecup.net^
 ||notifications.ltd^$third-party

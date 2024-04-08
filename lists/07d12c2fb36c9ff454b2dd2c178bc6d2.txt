@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.2.6
+! Version: 3.6.2.7
 
 ! General
 
@@ -108,7 +108,6 @@ citywire.com##registration-widget,div.alert--locked
 connaissancedesarts.com##div.ad-container
 ||paywall.correiodopovo.com.br$script,~third-party
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
-crikey.com.au##+js(cookie-remover, blaize_session)
 ||cdn.wyleex.com/elcronista/pw.min.js$script,domain=cronista.com
 ||crusoe.com.br/assets/js/swg-wallcontent-crusoe.js$script,~third-party
 crusoe.com.br##div#gpt-leaderboard,div.ads_desktop,div.catchment-box
@@ -485,6 +484,9 @@ curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, 
 
 ! DPG ADR (no scroll)
 ||temptation.*/temptation.js$script,~third-party,domain=ad.nl|bd.nl|bndestem.nl|destentor.nl|ed.nl|gelderlander.nl|pzc.nl|tubantia.nl|hln.be
+
+! Private Media Australia
+crikey.com.au,inc-aus.com,smartcompany.com.au##+js(cookie-remover, blaize_session)
 
 ! Ringier Axel Springer Polska
 businessinsider.com.pl##+js(cookie-remover, xbc)

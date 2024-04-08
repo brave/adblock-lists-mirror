@@ -1,9 +1,9 @@
-! Checksum: bdS5apABE/Rj5LvCgU9dFQ
-! Diff-Path: ../patches/7/7-s-1712583466-3600.patch
+! Checksum: wtLMMnLKTuNS+7RR6YoWew
+! Diff-Path: ../patches/7/7-s-1712597829-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.25
-! TimeUpdated: 2024-04-08T13:32:51+00:00
+! Version: 2.0.50.26
+! TimeUpdated: 2024-04-08T17:32:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1616,7 +1616,7 @@ n.lat/login|$document
 ?ph0ne=050-$document
 .co.jp.*.cn/ai/$document
 /\.com\/(?:[a-z]{2,}-)+p-\d{4,6}\.html\?(?:page_source|prevRef|re[fl])=/$document,match-case
-/^https:\/\/(?!www)[a-z]{3,}\.[a-z]{8,}\.com\/index\.php\?main_page=product_info(&stl=\d)?&(?:cPath|products_id)=/$document
+/^https:\/\/(?!www)[a-z]{3,}\.[a-z]{5,}\.(?:com|net)\/index\.php\?main_page=product_info(&stl=\d)?&(?:cPath|products_id)=/$document
 ://www2.etc-$document,domain=com|net|icu
 /bin/loginCamp.php?$document
 .com/reg_new?$document
@@ -4551,7 +4551,7 @@ mensnonno.jp##.post-foot-ad
 city.akiruno.tokyo.jp###zone04_bg
 joqr.co.jp##.article-inner > .article-box._center._inner_break_horiz-sp
 roboanime.com##div[class^="article-body"] > div[style="border-style: solid; border-width: 1px; padding: 10px 5px 10px 20px;border-color: #ffffcc; background-color: #ffffcc"]
-neo-blood.co.jp##.wp-block-st-blocks-my-box[style="background-color:#fff;border-color:#f78da7"]
+neo-blood.co.jp##.wp-block-st-blocks-my-box[style^="background-color:#fff;border-color:#"]
 ||virusbuster.jp/aff/$third-party
 collepic.net##div[id^="ad_game"]
 collepic.net##div[style="width: 760px; min-height: 500px;"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9djxt294RKG0BP7qndA14A
-! Diff-Path: ../patches/9/9-s-1712565505-3600.patch
+! Checksum: hXGow3zc3znXEYE19QDfMw
+! Diff-Path: ../patches/9/9-s-1712572731-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.23.99
-! TimeUpdated: 2024-04-08T08:33:31+00:00
+! Version: 2.0.24.0
+! TimeUpdated: 2024-04-08T10:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2100,7 +2100,7 @@ lance.com.br##div[class]:has(> div[id^="rasgado_"])
 promobit.com.br#?#aside > div.items-center:has(> div[id*="300x250"])
 promobit.com.br###__next > div.block:has(> div.block > a[href^="https://s.click.aliexpress.com/"])
 band.uol.com.br##.item--ad
-jn.pt##.pub-wrapper
+ojogo.pt,dinheirovivo.pt,tsf.pt,dn.pt,jn.pt##.pub-wrapper
 canal12.com.sv##.layout-rev--leaderboard
 canal12.com.sv##.layout-rev
 manhwaweb.com##.bg-gray-400:has(> #juicyads-container)

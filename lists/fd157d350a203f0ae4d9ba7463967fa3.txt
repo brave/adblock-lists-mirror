@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tp9e9A1l0b/UQRSZPG7aEA
-! Version: 202404080801
+! Checksum: +zkl1w3awsabrCxuamIlog
+! Version: 202404080851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Apr 2024 08:01 UTC
+! Last modified: 08 Apr 2024 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11590,6 +11590,7 @@ videoprobki.com###brand-adv-left
 videoprobki.com###brand-adv-right
 voxpopuli.kz###brand_logo
 altapress.ru,klopotenko.com###branding
+allbasketball.org###branding-ads
 foto.ua###branding-bg-pickit
 truba.com###branding-head-link
 namba.tj###branding-html
@@ -18617,7 +18618,6 @@ exler.ru##div[id^="Banner"]
 bookskeeper.ru##div[id^="BlockId"]
 kontur-map.ru,ololo.fm##div[id^="DIV_DA"]
 vesti.ru##div[id^="DIV_SMI_"]
-allbasketball.org##div[id^="FNBT"]
 relax-fm.ru##div[id^="GPM_Relax_fm_"]
 tasix.me##div[id^="M"][id*="Preload"]
 meendoru.com##div[id^="MeendoBrand"]
@@ -19579,6 +19579,7 @@ ictv.ua,vikna.tv##div[id^="div-gpt-ad-"]
 ||24top.*/top/$csp=script-src
 ||agroter.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.io *.net *.org *.ru *.ua
 ||alensat.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.googleapis.com *.google.com/recaptcha/ *.gstatic.com/recaptcha/ translate.google.com *.dev *.io *.net *.org
+||allbasketball.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.createjs.com *.googletagmanager.com *.gstatic.com *.dev *.io *.net *.org *.ru
 ||an.yandex.ru/count/$csp=script-src
 ||askentire.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.keycaptcha.com
 ||autonews.co.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.io *.net *.org *.ru *.ua
@@ -20202,9 +20203,8 @@ lada.kz/uploads/banners/
 ||aliimg.com^$domain=chem21.info
 ||all-episodes*/images/abc/
 ||all-episodes*/vast.js
-||allbasketball.org/uploads/partners/
-||allbasketball.org^*/branding/
-||allbasketball.org^*/fnbt/
+||allbasketball.org/*/pari
+||allbasketball.org/bmpvvxgrht/
 ||allbest.ru/img/*-bg.png
 ||allboxing.ru/brand.jpg
 ||allergiik.ru/wp-content/themes/flex-mag/
@@ -25888,7 +25888,7 @@ tsn.ua##.c-aside__port
 bidbaits.ru##.cover-msg
 tarkov-market.com##.disable-adblock
 internetsms.org##.fade[class^="modal"]
-fashion2news.com,hotallnews.today,ilenta.com,moyens.net,newspad.ru,pimpletv.ru,portaltele.com.ua,pravda.com.ua,tales.org.ua,ukranews.com,wormax.io,zazloo.ru##.fc-ab-root
+allbasketball.org,fashion2news.com,hotallnews.today,ilenta.com,moyens.net,newspad.ru,pimpletv.ru,portaltele.com.ua,pravda.com.ua,tales.org.ua,ukranews.com,wormax.io,zazloo.ru##.fc-ab-root
 hdkinoteatr.com##.fixedBg
 hdkino.biz##.full-news td[bgcolor]
 trupornolabs.org##.header > .red

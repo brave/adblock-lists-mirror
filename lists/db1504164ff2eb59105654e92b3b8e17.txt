@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WybWOiX0J0+MHv5diu2PBg
-! Version: 202404080801
+! Checksum: ZWbmGEXk478lzYdVGHT1Ig
+! Version: 202404080851
 ! Title: EasyList China
-! Last modified: 08 Apr 2024 08:01 UTC
+! Last modified: 08 Apr 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2287,6 +2287,7 @@ newduba.cn###jq_youxi
 ||mldzwmt.xyz^
 ||guwohvw.icu^
 ||1f84e33459.com^
+||vwyycnq.cn^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -17369,6 +17370,8 @@ guailie.com#@#.google-ad
 ||17ce.com^*_$image
 !#18comic.org
 /exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop

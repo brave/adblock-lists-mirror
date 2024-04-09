@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: okhYvdxNxHWfDXHslcXkcQ
-! Diff-Path: ../patches/1/1-s-1712673745-3600.patch
+! Checksum: k2o/VfPGPgxaQQojTKR2ig
+! Diff-Path: ../patches/1/1-s-1712677049-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.2
-! TimeUpdated: 2024-04-09T14:35:30+00:00
+! Version: 2.0.90.3
+! TimeUpdated: 2024-04-09T15:31:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4377,7 +4377,7 @@ positiverecords.ru#@#.ad-google
 pikabu.ru##+js(abort-on-stack-trace, XMLHttpRequest, createAd)
 pikabu.ru##+js(no-setTimeout-if, _sendAnalytics)
 pikabu.ru##+js(json-prune, data, errors)
-pikabu.ru##+js(remove-node-text, script, /let \s?[a-zA-Z0-9_]{2\,10}\s{1\,3}? = 'https:\/\/pikabu\.ru\/[a-zA-Z0-9]{5\,10}\/[a-zA-Z0-9]{5\,10}\//)
+pikabu.ru##+js(remove-node-text, script, /let \s{1\,3}?[a-zA-Z0-9_]{2\,10}\s{1\,3}? = 'https:\/\/pikabu\.ru\/[a-zA-Z0-9]{5\,10}\/[a-zA-Z0-9]{5\,10}\//)
 ! sports.ru
 sports.ru##+js(json-prune, direct rtbAuctionInfo)
 sports.ru##+js(set-constant, Ya.adfoxCode.create, noopFunc)
@@ -7511,7 +7511,8 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 ||fishnet.ru/_/fb/
 ||fishnet.ru/images/banners/
 fishnet.ru##.banner_top_bracing
-fishnet.ru##.fishblock
+fishnet.ru##.fishblock:has(> div.fishvew_carousel div.fishview_item_content_info_wrap > div.fishview_item_content img[src^="/_/fb/"])
+fishnet.ru##.fishblock:has(> div.fishvew_carousel div.fishview_item_content_info_wrap > div.fishview_f > iframe[src^="/_/fb/"])
 habr.com##.tm-article-presenter__banner
 ||allbasketball.org/*/pari*/index.
 ||allbasketball.org/*/pari-*.jpeg

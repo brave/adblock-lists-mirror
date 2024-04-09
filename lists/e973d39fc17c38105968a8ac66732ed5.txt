@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H3OUq/kw2dUJbGmeRlbhFQ
-! Version: 202404091451
+! Checksum: +dms4lpFeSHjRIX3HwRQPg
+! Version: 202404091601
 ! Title: EasyList Spanish
-! Last modified: 09 Apr 2024 14:51 UTC
+! Last modified: 09 Apr 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -108,6 +108,7 @@ _pubted.
 ##a[href^="https://startgaming.net/tienda/"][href*="?offer_id="]
 ##a[href^="https://vario.tv/?offer_id="]
 ##a[href^="https://vario.tv/?raf="]
+##ned-ad
 !
 ###PubMiddle1
 ###PubMiddle2
@@ -350,7 +351,6 @@ hitfm.es#@#.publi
 ||brand.ad^$third-party
 ||butlercdn.com^$third-party
 ||equamarketing.com^$third-party
-||getadjacent.com^$third-party
 ||googledfp.com^$third-party
 ||premiumads.com.br^$third-party
 ||premiumleads.com^$third-party
@@ -727,6 +727,7 @@ hitfm.es#@#.publi
 ||bit.ly^$domain=mega-mkv.com
 ||cdnpublicidad.milenio.com^
 ||d1r08wok4169a5.cloudfront.net^
+||getadjacent.com/amd/*/ned-adjacent-ads.min.js
 ||grupnaciodigital.cat/redaccio/publicitat/
 ||ibb.co^$domain=horadeopinion.com.ar
 ||iframes.reyesdelchollo.com^$third-party
@@ -1692,7 +1693,7 @@ marie-claire.es,muyhistoria.es,muyinteresante.es,muynegociosyeconomia.es##.megaB
 lleida.com,meteored.cl,meteored.com.ar,meteored.mx,modaes.com,tiempo.com##.megabanner
 25digital.com.ar##.metaslider
 meteored.com.py##.meteored-ads
-caracol.com.co,wradio.com.co##.mh266-100
+adnradio.cl,caracol.com.co,wradio.com.co##.mh266-100
 lexlatin.com##.mibanner
 diariodevalderrueda.es##.minibanner_content
 cdn.com.do##.mmc_ads_solo_escritorio
@@ -1992,7 +1993,6 @@ marcadegol.com##img[width="750"]
 laprensadecolorado.com,periodicoelsolpr.com##img[width="800"]
 laverdaddemonagas.com##img[width="900"]
 elmercurioweb.com##img[width="980"]
-alfa.com.ec,c9n.com.py,canal12.com.sv,elcomercio.com,repretel.com,tropicalida.com.ec##ned-ad
 lagaceta.com.ec##rs-slides
 ! :has()
 forocoches.com###sidebar > div > section:has(.fixed_adslot)

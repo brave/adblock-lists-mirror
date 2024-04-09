@@ -4234,6 +4234,7 @@ vipbox.*##.btn-lg.btn
 @@||vipbox.*^$ghide
 vipbox.*##.btn-success.btn
 vipbox.*,viprow.*##+js(set, path, '')
+vipbox.*,vipboxtv.*##+js(json-prune, *, *.adserverDomain)
 vipbox.*,viprow.*##^script:has-text("admc")
 vipbox.*,viprow.*##^script:has-text(\"admc\")
 
@@ -6856,6 +6857,7 @@ oncehelp.com##[href*="?token"]
 viprow.*##+js(acs, setTimeout, admc)
 viprow.*##+js(nowoif, //)
 viprow.*##+js(rmnt, script, FingerprintJS)
+viprow.*##+js(json-prune, *, *.adserverDomain)
 viprow.*##.position-absolute
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/9uq4cl/myegycc/

@@ -1,9 +1,9 @@
-! Checksum: x2rQsQlx4gJB/7TmJI32rQ
-! Diff-Path: ../patches/7/7-s-1712666283-3600.patch
+! Checksum: o4KQa+mxsFsTALhFkP8Pag
+! Diff-Path: ../patches/7/7-s-1712669838-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.29
-! TimeUpdated: 2024-04-09T12:32:54+00:00
+! Version: 2.0.50.30
+! TimeUpdated: 2024-04-09T13:32:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1043,6 +1043,8 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 !-------JS----------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/176598
+photo-ac.com#%#//scriptlet('abort-current-inline-script', '$', 'google_ads_iframe_')
 ! ad-leftover on click
 twidouga.net#%#//scriptlet('prevent-addEventListener', '', 'setTrigger')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166651
@@ -1735,6 +1737,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+photo-ac.com##body > .flux-all-footer:has(> div[style] > div[id*="_overlay"] > iframe[id^="google_ads_iframe_"])
 ichi-oshi.jp##.adsence_sp
 maikuranikki.jp##.more-ad-title
 maikuranikki.jp##.kanren-under-ad-title

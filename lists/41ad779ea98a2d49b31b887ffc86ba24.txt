@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bedGERuHP9aTaAlYd1T0CA
-! Version: 202404100740
+! Checksum: VcX6L9/+tXNrCjgQSBaY1A
+! Version: 202404100840
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-10 07:40 UTC
+! Last modified: 2024-04-10 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43873,6 +43873,8 @@ screenrant.com,androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.
 zippia.com##+js(nosiif, /onGatedSignupPopupTrigger|zippia-popup/)
 zippia.com##+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)
 zippia.com##+js(cookie-remover, _zippia-popup-s_t)
+! tradingview.com https://github.com/uBlockOrigin/uAssets/issues/23236
+tradingview.com##+js(nostif, window.loginStateChange.subscribe)
 ! reg nag
 nerdwallet.com##._1y2JXo
 nerdwallet.com##body,html:style(overflow: auto !important; position: initial !important;)

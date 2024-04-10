@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: No9w35qNOvIARlviVQpksw
-! Diff-Path: ../patches/9/9-s-1712763455-3600.patch
+! Checksum: eLRs8fT4QmHD3wNI0+zwQA
+! Diff-Path: ../patches/9/9-s-1712772732-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.5
-! TimeUpdated: 2024-04-10T15:32:53+00:00
+! Version: 2.0.24.6
+! TimeUpdated: 2024-04-10T18:07:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3243,6 +3243,8 @@ onepieceex.net##.banner-resposivo
 tecmundo.com.br##p > a[href^="https://bit.ly/"][target="_blank"] > span > img
 ||img.ibxk.com.br/*/banner-*.png$domain=tecmundo.com.br
 eldiario.es,tuasaude.com,yugenmangas.org,yugenmangas.net.br,globo.com,eltiempo.com,gauchazh.clicrbs.com.br,hobbyconsolas.com,larepublica.pe,vozpopuli.com##.ad-container
+hobbyconsolas.com##div[class^="ad-slot_"]
+hobbyconsolas.com##div[class^="placeholder_placeholder"]
 vozpopuli.com##.home_1_ad
 infobae.com##.d23-navbar-ad-container
 infobae.com##.navbar-ad-container

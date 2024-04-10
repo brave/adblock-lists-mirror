@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: SaHYPT6lg81hh52VsQRjKA
-! Diff-Path: ../patches/13/13-s-1712741918-3600.patch
+! Checksum: tSrQSS5nxUeU+vWL3qGoxw
+! Diff-Path: ../patches/13/13-s-1712772723-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.6
-! TimeUpdated: 2024-04-10T09:34:04+00:00
+! Version: 2.0.51.7
+! TimeUpdated: 2024-04-10T18:07:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -402,6 +402,7 @@ beceriksizler.net##+js(set-constant, adblock.check, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/20860
 sinnerclownceviri.com#@#.reklam
 sinnerclownceviri.com##+js(no-setTimeout-if, AdBlock)
+sinnerclownceviri.com##+js(no-setTimeout-if, offsetParent)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165648
 dizifon.com#@#.reklam
 dizifon.com#@#.advertisement:not(body)
@@ -1804,6 +1805,7 @@ $xmlhttprequest,third-party,denyallow=linkvertise.com|fastly.net|statically.io|s
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+akakce.com##body .billboard_content:not(#style_important)
 patronlardunyasi.com##.Ads
 patronlardunyasi.com##div[id*="-div-gpt-ad-"]
 kanald.com.tr##.pauseroll-adv-container

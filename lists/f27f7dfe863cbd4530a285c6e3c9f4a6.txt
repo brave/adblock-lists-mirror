@@ -1,9 +1,9 @@
-! Checksum: I/UJf16y8v5/evnVvmP4fg
-! Diff-Path: ../patches/7/7-s-1712741936-3600.patch
+! Checksum: ffqg/MINHs3kR1CngAuI9Q
+! Diff-Path: ../patches/7/7-s-1712745461-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.31
-! TimeUpdated: 2024-04-10T09:33:46+00:00
+! Version: 2.0.50.32
+! TimeUpdated: 2024-04-10T10:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1737,6 +1737,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+toririnon.com##.box2:has(> p > a[href^="https://hb.afl.rakuten.co.jp/"])
 photo-ac.com##body > .flux-all-footer:has(> div[style] > div[id*="_overlay"] > iframe[id^="google_ads_iframe_"])
 ichi-oshi.jp##.adsence_sp
 maikuranikki.jp##.more-ad-title
@@ -5072,7 +5073,7 @@ crea.bunshun.jp##div[style="margin-bottom:20px; width:728px;"]
 navitime.co.jp###page_footer_adunit
 hessionchiro.com##.mh-sidebar > .widget_custom_html
 hessionchiro.com##.sng-box.mbt2
-toririnon.com,taisy0.com##.sng-box
+taisy0.com##.sng-box
 yomiuri.co.jp##.dazn_banner
 golfsapuri.com##.sideBanner2:first-child
 golfsapuri.com##div[style^="width: 100%; text-align: center"][style$="height:250px;"]

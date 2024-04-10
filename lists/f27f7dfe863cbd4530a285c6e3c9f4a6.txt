@@ -1,9 +1,9 @@
-! Checksum: o4KQa+mxsFsTALhFkP8Pag
-! Diff-Path: ../patches/7/7-s-1712669838-3600.patch
+! Checksum: I/UJf16y8v5/evnVvmP4fg
+! Diff-Path: ../patches/7/7-s-1712741936-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.30
-! TimeUpdated: 2024-04-09T13:32:50+00:00
+! Version: 2.0.50.31
+! TimeUpdated: 2024-04-10T09:33:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1821,13 +1821,13 @@ eromon.net##a[href^="https://www.sokmil.com/"]
 ! aglint-disable-next-line invalid-modifiers
 ||amazon.co.jp^$popup,domain=newmatosoku.com
 ||amzn.to^$popup,domain=newmatosoku.com
+newmatosoku.com##.topmain + div > div:has(a[href*="amazon.co.jp"])
+newmatosoku.com##li:has(a[href*="amzn.to"])
 newmatosoku.com##[onclick]
 newmatosoku.com##[onmousedown]
 newmatosoku.com##a[href*="amazon.co.jp"]
 newmatosoku.com##a[href*="amzn.to"]
-newmatosoku.com##.sideh2c
-newmatosoku.com##.sideh2c + p
-newmatosoku.com##.waku-zenta3
+newmatosoku.com##li[class*="waku-zentai"]:not([class="waku-zentai "])
 newmatosoku.com#?#.topmain ~ div[class] > .sideh2:contains(広告)
 newmatosoku.com##.topmain ~ div[class] > .kouko3:has(div[id^="div-gpt-ad-"])
 nishi2.jp##.nishi-target:not(#block-3 > .nishi-target)

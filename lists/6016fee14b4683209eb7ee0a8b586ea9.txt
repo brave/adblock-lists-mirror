@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TagEQzzNv5aWssTMqIVcWg
-! Diff-Path: ../patches/16/16-s-1712759869-3600.patch
+! Checksum: YKRyCBToo2P31iqhCX2FsA
+! Diff-Path: ../patches/16/16-s-1712781422-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.49
-! TimeUpdated: 2024-04-10T14:33:26+00:00
+! Version: 2.0.44.50
+! TimeUpdated: 2024-04-10T20:33:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1945,9 +1945,6 @@ programme-tv.net#@#[data-ads-core]
 kiosque.canardpc.com#@#.pub468
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102873
 @@||olx.pl/api/v*/*/?ad_id=$xmlhttprequest
-! https://github.com/uBlockOrigin/uAssets/issues/10628#issuecomment-980589304
-@@||accounts.google.com/gsi/client$domain=live.lequipe.fr
-@@||accounts.google.com/o/oauth2/iframe$domain=live.lequipe.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100793
 $subdocument,third-party,domain=filmstreamy.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99951

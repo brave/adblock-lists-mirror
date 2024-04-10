@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.2.7
+! Version: 3.6.2.8
 
 ! General
 
@@ -533,6 +533,7 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
 
 @@||consentmanager.net$script,third-party
+#@#.cmpwrapper
 @@||petametrics.com$script,domain=seekingalpha.com
 @@||sdk.privacy-center.org^$script,third-party
 !##div#didomi-host

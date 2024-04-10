@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dYg3FItSjUsNWx/J4dA2SQ
-! Version: 202404100351
+! Checksum: ++vg2IKNMCyeGDCg9Yy9XA
+! Version: 202404100451
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Apr 2024 03:51 UTC
+! Last modified: 10 Apr 2024 04:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23083,6 +23083,7 @@ ru###ads-top.ads
 2ip.io,2ip.ru#?#.narrow-column > style ~ div > div:-abp-has(a[style^="color:"])
 2ip.io,2ip.ru##a[href*="://fineproxy.org"]
 2ip.io,2ip.ru##a[href*="://finevpn.org"]
+2ip.io,2ip.ru##a[href*="://hidem"]
 2ip.io,2ip.ru##a[href*="://proxyelite.info"]
 ! блокировки, добавленнные из-за агрессивного обхода адблока на 2ip.ru, 2ip.io, 2ip.ua ~>
 ||fineproxy.org^$third-party,popup
@@ -23416,6 +23417,7 @@ sportmail.ru##.rb-bookmaker-empty
 sportmail.ru##.rb-bookmaker-logo
 sportmail.ru##.rb-bookmaker-video
 sportmail.ru##.rb-bookmaker-widget-link
+sportmail.ru##.sidebar_video:empty
 sportmail.ru##.sub-news-list_rightcoll
 @@||sportmail.ru^$generichide
 sportmail.ru##a[href="/bookmakers/"]

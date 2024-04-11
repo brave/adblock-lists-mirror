@@ -1,9 +1,9 @@
-! Checksum: B1SXmmzOLUuJnMzNi9yHdg
-! Diff-Path: ../patches/7/7-s-1712849945-3600.patch
+! Checksum: 9/YxbxNCf+lPKNi0/Q3NTA
+! Diff-Path: ../patches/7/7-s-1712853461-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.37
-! TimeUpdated: 2024-04-11T15:34:25+00:00
+! Version: 2.0.50.38
+! TimeUpdated: 2024-04-11T16:32:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4780,6 +4780,7 @@ portal.auone.jp##.carousel-banner-top
 portal.auone.jp##.news__item--ad
 hoiclue.jp##div[class^="ad"][class*="Rectangle"]
 japan-indepth.jp##.ab-ad-area
+webtan.impress.co.jp##.ad-wrapper-in-content
 webtan.impress.co.jp###amazon-ranking-widget
 webtan.impress.co.jp##.block-block-ad
 webtan.impress.co.jp##.pane-bancho-common

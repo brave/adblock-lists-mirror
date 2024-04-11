@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.3.1
+! Version: 3.6.3.2
 
 ! General
 
@@ -349,7 +349,7 @@ tuttosport.com##div[class^="AdUnit_"]
 unherd.com##+js(ra, id, div#premiumcontent)
 unherd.com##div#premiumpreview
 /\.vn\.at\/.+\/\d{4}\//$inline-script
-||washingtonpost.com/tetro/metering/evaluate$xmlhttprequest,~third-party
+||washingtonpost.com/subscribe/static/tetro-client/fusion/tetro.min.js$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
 ||wiwo.de/js/*/wt.*.js$script,~third-party

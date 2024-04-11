@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: tRbhoJj65Qdj536Cgw1Ygg
-! Diff-Path: ../patches/9/9-s-1712792230-3600.patch
+! Checksum: kjcn3KepuJJa1x3eEu263Q
+! Diff-Path: ../patches/9/9-s-1712821673-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.7
-! TimeUpdated: 2024-04-10T23:32:51+00:00
+! Version: 2.0.24.8
+! TimeUpdated: 2024-04-11T07:42:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -259,6 +259,9 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/176820
+!+ NOT_PLATFORM(windows, mac, android)
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=luratoon.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176638
 playertv.org##+js(abort-current-script, document.createElement, adsbygoogle.js)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176576

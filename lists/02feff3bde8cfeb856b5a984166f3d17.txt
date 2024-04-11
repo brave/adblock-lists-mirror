@@ -2831,9 +2831,6 @@ urbanmilwaukee.com##body:style(overflow:auto !important)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65211
 tellygossips.net##+js(nosiif, visibility, 1000)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/65293
-gmodleaks.com##+js(nostif, .show)
-
 ! https://github.com/NanoMeow/QuickReports/issues/4794
 ilclubdellericette.it##+js(nostif, mdpDeBlocker)
 
@@ -3849,6 +3846,7 @@ javfun.me###invideo_wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69870
 tophentaicomics.com##+js(acs, pop_init)
 tophentaicomics.com##.sidebar-wrapper.widget_text
+tophentaicomics.com##.thumb-ad
 ||tophentaicomics.com/istrippers.jpg
 ||tophentaicomics.com/pop.js
 
@@ -4138,7 +4136,8 @@ imag-r.com##+js(aopr, adBlockerDetected)
 @@||bitent.com/lock_html5/adPlayer/*/adPlayer.js$script,1p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/kkdltv/adblocker_detected_eropastecom/
-eropaste.com##+js(set, isAdBlockActive, false)
+eropaste.net##+js(set, isAdBlockActive, false)
+eropaste.net###banner-dl
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70487
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70888

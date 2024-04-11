@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TDy2HOlki+J1WPmd2efuBQ
-! Diff-Path: ../patches/13/13-s-1712795829-3600.patch
+! Checksum: N7COiM+ouBRCUVc3I7lnDw
+! Diff-Path: ../patches/13/13-s-1712835453-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.8
-! TimeUpdated: 2024-04-11T00:33:07+00:00
+! Version: 2.0.51.9
+! TimeUpdated: 2024-04-11T11:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2561,7 +2561,7 @@ yasemin.com##.subdetail-content > div.row > div.sidebar-column > div.sidebar
 hderotikfilmizle1.com##.happy-sidebar
 coin-turk.com##.clickout-banner-native_table_box
 fullhdfilmizle.vip##.fbnx
-erotikfilmizle1.com,erotikizle123.com##center > a[href^="https://www.google.com/"]
+erotikfilmizle1.com##center > a[href^="https://www.google.com/"]
 eniyifilms.com###wptpageskin
 fullhdfilmizlett1.com##video[onclick^="playAndAd"]
 720pfilmizleme1.com,fullhdfilmizlett1.com##div[class^="code-block code-block-"][style="margin: 8px 0; clear: both;"]
@@ -2778,7 +2778,6 @@ dafflix.*##.rek-0
 cumhuriyet.com.tr##div[class^="page-"][class*="fixed-ad"]
 kariyer.net##.inline-ad-height
 ||filese.me/pop.php
-filmzal.co###singlePlay > div[class*="__"][style]
 ||dizirix.net/js/hoppRix.js
 ||dizirix.net/js/popp3.js
 diyetkolik.com##.masthead_css
@@ -3927,7 +3926,7 @@ haber61.net##a[href^="https://www.haber61.net/banner.php"]
 haberler.com##div[id="300x600_"]
 antalyam.com##.zozo_ads_widget
 antalyam.com##.newser-artical-bottom-ads
-filmzal.co,sende.biz,forum.gamer.com.tr,istanbul.com###banner
+forum.gamer.com.tr,istanbul.com###banner
 belge.com.tr##.haberdetayReklam
 insaattrendy.com###header-inner .container > .navbar-header + a[href][target="_blank"] > img
 insaattrendy.com##.block-content-inner > .row > #body_div_diger > a[href][target="_blank"] > img

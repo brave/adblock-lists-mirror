@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.3.0
+! Version: 3.6.3.1
 
 ! General
 
@@ -60,7 +60,7 @@ artforum.com##+js(cookie-remover, /^/)
 ||artnet.com/paywall-ajax.php$xmlhttprequest,~third-party
 artnet.com##div.article-body:style(display:block !important;)
 artnet.com##div[id^="issuem-leaky-paywall-"]
-magazine.atavist.com##+js(aopr, localStorage)
+magazine.atavist.com##+js(set-local-storage-item, /^/, $remove$)
 ||automobilwoche.de/sites/camw/files/js/js_-YBiL*.js$script,~third-party
 ||axios.com/api/v1/licenses
 axios.com##[data-vars-experiment="pro-paywall"],[class^="Modal_paywallContainer"],.apexAd
@@ -111,7 +111,7 @@ connaissancedesarts.com##div.ad-container
 ||cdn.wyleex.com/elcronista/pw.min.js$script,domain=cronista.com
 ||crusoe.com.br/assets/js/swg-wallcontent-crusoe.js$script,~third-party
 crusoe.com.br##div#gpt-leaderboard,div.ads_desktop,div.catchment-box
-csmonitor.com##+js(aopr, localStorage)
+csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
 dagsavisen.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
 dailywire.com###post-body-text > div > div:style(height: auto !important;)
@@ -198,7 +198,7 @@ kurier.at##div#cfs-paywall-container
 ||la-croix.com/build/*/paywall*.js$script,~third-party
 ||glanacion.com/*/metering/*.js$script,domain=lanacion.com.ar
 lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
-lanacion.com.ar##+js(aopr, localStorage)
+lanacion.com.ar##+js(set-local-storage-item, /^/, $remove$)
 ||latercera.com/arc/subs/p.min.js$script,~third-party
 ||californiatimes.com/meteringjs/$script,domain=latimes.com|sandiegouniontribune.com
 ||ev.lavanguardia.com$xmlhttprequest,~third-party
@@ -280,7 +280,7 @@ scotsman.com##+js(ra, class, div.premium)
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-user-messaging-main-bundle.js$script,~third-party
 slideshare.net##+js(rc, limit-overlay, .limit-overlay)
-slideshare.net##+js(aopr, localStorage)
+slideshare.net##+js(set-local-storage-item, /^/, $remove$)
 sofrep.com##+js(cookie-remover, sofrep_news_ids)
 sofrep.com##+js(ra, class, div.paywall)
 sofrep.com##+js(rc, fader, div.fader)
@@ -554,7 +554,7 @@ bisnow.com##+js(ra, style, div.story-container > p[style], stay)
 bisnow.com##div.storyLogin
 bizwest.com##div.fp-paywall
 bizwest.com##+js(ra, class, div.fp-content)
-brainly.com,brainly.com.br##+js(aopr, localStorage)
+brainly.com,brainly.com.br##+js(set-local-storage-item, /^/, $remove$)
 ||account.brandonsun.com/api/v*/auth/identify$xmlhttprequest,~third-party
 brusselstimes.com##+js(ra, style, div[style*="height: 0;"], stay)
 businessden.com##+js(ra, class, div.cp-paywall-user)

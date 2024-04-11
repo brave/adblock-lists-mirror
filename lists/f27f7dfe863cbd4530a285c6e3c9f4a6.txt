@@ -1,9 +1,9 @@
-! Checksum: Te6lPnu/b5MSH13vLBJAiw
-! Diff-Path: ../patches/7/7-s-1712846285-3600.patch
+! Checksum: B1SXmmzOLUuJnMzNi9yHdg
+! Diff-Path: ../patches/7/7-s-1712849945-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.36
-! TimeUpdated: 2024-04-11T14:32:57+00:00
+! Version: 2.0.50.37
+! TimeUpdated: 2024-04-11T15:34:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -895,8 +895,10 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 !
 ##.full-tab > div.full-right-col
 ##.__isboostReturnAd
+##.__uz__third_party_ad
 ##._popIn_infinite_ad
 ##._popIn_infinite_video
+##._popIn_recommend_ad_section
 ##._popIn_recommend_article_ad
 ##._popIn_recommend_article_ad_reserved
 ##.google-afc-image
@@ -1974,6 +1976,7 @@ wtmnews.net##.aflLinkFlex
 wtmnews.net##.aflImage
 matomelotte.com##.plugin-memo:has(> div.side > div > a[href^="https://amzn.to"][target="_blank"])
 nijie.info##a[ad_id]
+shinmai.co.jp##.max-w-container > div.border-app-text:has(> div.min-h-\[250px\])
 shinmai.co.jp#?#.items-center > .flex-col.pb-8:has(> h3:contains(あわせて読みたい))
 shinmai.co.jp##.items-center > .flex-col.pb-8:has(> h3 + .min-h-\[250px\] > div:only-child > div[id^="logly-lift-"])
 popnroll.tv###uzou-chat-ad + div[class^="sc-"]
@@ -4335,6 +4338,7 @@ ryutsuu.biz##.single-pc-advertisement
 ikebukuro-times.com##.articleList__ad
 tutitatu.com##.sidebar_content > div[id^="custom_html-"]
 games.app-liv.jp##.adsbygoogle_area
+kumanichi.com###kumanichi_pc_leaderboard
 kumanichi.com##div[id^="kumanichi_"][id*="top_"]
 kumanichi.com##div[style="margin:0 auto; width: 300px; min-height: 250px;"]
 costcotuu.com##.ads_list
@@ -7666,9 +7670,11 @@ shinmai.co.jp##.max-w-\[1100px\] > div.pt-6.pb-8.border-app-text
 shinmai.co.jp##.text-app-text > div.h-\[266px\].bg-app-bg
 gaming-city.com###top-video-list-header-block
 kk-bestsellers.com,gaming-city.com,shimotsuke.co.jp,diamond.jp##.top-banner
+the-miyanichi.co.jp##.sidebox > ul > div[style="display:block;margin-top:1em;"]
 the-miyanichi.co.jp##.ad_world > div
 minyu-net.com##div[id^="main"] > aside > table:only-child
 minyu-net.com##.right-1st
+shikoku-np.co.jp##.side-contentsAD
 shikoku-np.co.jp###attentionArea
 ehime-np.co.jp###ehime_pc_top_1st_rectangle
 ehime-np.co.jp###home_minibnr
@@ -7740,7 +7746,7 @@ kurashi-no.jp###geniee_overlay
 kurashi-no.jp##.u-bg-dgray.c-section
 ||i-section.net/rakuten_ranklet/$third-party
 ||i-section.net/ranklet/$third-party
-saitama-np.co.jp##.prlist
+saitama-np.co.jp##.pr-list
 lisani.jp,news.tv-aichi.co.jp,live.kufu.co.jp,newsee-media.com,reader.futabanet.jp,maidonanews.jp,oricon.co.jp,htb.co.jp,saitama-np.co.jp##.ad_response
 recordchina.co.jp##.right-people[style^="min-width: 300px; min-height: 250px"]
 recordchina.co.jp##.ad-outer
@@ -9911,6 +9917,7 @@ game.biglobe.ne.jp#?#.indexContents > div.indexContentsright:has(> div#googleadd
 chixi.jp#?#.dparts.homeMainTable:contains(インタレストマッチ)
 chixi.jp#?##Center > div.partsHeading:contains(インタレスト)
 chixi.jp#?#.homeRightTable > div.parts > div.partsBanner:upward(2)
+||kochinews.co.jp/ad/load-ad?
 kochinews.co.jp#?#body #sb3:contains([PR])
 akiba-souken.com#?#.newsList > li > div[id^="div-gpt-"]:upward(1)
 akiba-souken.com#?#.indArticleFrame > div.goodsBox:upward(1)

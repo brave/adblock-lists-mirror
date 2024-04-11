@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /2UuFY2hY/IWENkUy3rkAQ
-! Version: 202404111851
+! Checksum: X2EkgmzaoEij0W9BCWhaeg
+! Version: 202404111951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Apr 2024 18:51 UTC
+! Last modified: 11 Apr 2024 19:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2042,7 +2042,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /teaser_klubnika/*
 /teaserblock.site.js
 /teasers.
-/teasers/*$domain=~ableton.com|~adventuregamers.com|~agderposten.no|~amway.ru|~amway.ua|~av.by|~babla.ru|~bmw.de|~bmw.ro|~bmw.ru|~business-gazeta.ru|~fujifilm.eu|~gismeteo.by|~gismeteo.kz|~gismeteo.md|~kinobulvar.info|~meganomkino.ru|~newsland.com|~novsu.ru|~rce.by|~road.cc|~stackoverflow.com|~teaserstar.ru|~wetteronline.de|~www.kinopoisk.ru|~yandex.by|~yandex.com|~yandex.com.tr|~yandex.fr|~yandex.kz|~yandex.ru
+/teasers/*$domain=~ableton.com|~adventuregamers.com|~agderposten.no|~amway.ru|~amway.ua|~av.by|~babla.ru|~bmw.de|~bmw.ro|~bmw.ru|~business-gazeta.ru|~fujifilm.eu|~gismeteo.by|~gismeteo.kz|~gismeteo.md|~kinobulvar.info|~meganomkino.ru|~novsu.ru|~rce.by|~road.cc|~stackoverflow.com|~teaserstar.ru|~wetteronline.de|~www.kinopoisk.ru|~yandex.by|~yandex.com|~yandex.com.tr|~yandex.fr|~yandex.kz|~yandex.ru
 /testserial/vendor/vast.js
 /tionline120x60.
 /tionline150x60.
@@ -11618,6 +11618,7 @@ aacalc.ru###center_b
 tverigrad.ru###center_column ~ div div > img[src]
 kerch.fm###center_left > .informer
 rabota.kharkov.ua###central > table > tbody > tr > .noprint
+newsland.com###channelsFeed > [data-block-type="channel-card"] ~ :not([data-block-type="channel-card"])
 finget.ru###chart_a
 game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib###checkCookie
 vk.com###chrome_bar_content
@@ -16701,6 +16702,7 @@ vc.ru##[data-analytics*="native"]
 bobr.by,buhonline.ru,zakon.ru##[data-banner-id]
 focus.ua,sovets.net,tvtver.ru##[data-banner]
 tophotels.ru##[data-bh]
+newsland.com##[data-block-type="ads"]
 bbs-sk.ru##[data-blockid^="app_cms_Blocks"]
 minfin.com.ua##[data-bn-slot]
 7dach.ru##[data-campaign-code][data-url*="http"]
@@ -21574,7 +21576,6 @@ lada.kz/uploads/banners/
 ||newserials.net/ranetka.js
 ||newsko.ru/_static/
 ||newslab.ru/b/
-||newsland.*/public/img/viardo.
 ||newsmaker.md^*/banners/
 ||newsomsk.ru/design/new/js/banner_new.js
 ||newsroom.kh.ua/wp-content/uploads/tiny_

@@ -1,9 +1,9 @@
-! Checksum: kHCtPFULeXvKfBtAHXBdpg
-! Diff-Path: ../patches/7/7-s-1712831864-3600.patch
+! Checksum: Te6lPnu/b5MSH13vLBJAiw
+! Diff-Path: ../patches/7/7-s-1712846285-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.35
-! TimeUpdated: 2024-04-11T10:32:55+00:00
+! Version: 2.0.50.36
+! TimeUpdated: 2024-04-11T14:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1044,7 +1044,7 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 !-------------------
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176598
-photo-ac.com#%#//scriptlet('abort-current-inline-script', '$', 'google_ads_iframe_')
+ac-illust.com,photo-ac.com#%#//scriptlet('abort-current-inline-script', '$', 'google_ads_iframe_')
 ! ad-leftover on click
 twidouga.net#%#//scriptlet('prevent-addEventListener', '', 'setTrigger')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166651
@@ -1737,11 +1737,13 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+daily-tohoku.news##.atid__wrapper
+muromin.jp##.bnr li:has([alt*="[PR]"])
+hokkaido-np.co.jp##.main_1col:has(> div > div[id^="taboola-below-article-thumbnails-"])
 ||shiroino.com/ad*.php
-nukeruerodouga.com#?##contents > h1:contains( 素人売れ筋ランキング)
+shiroino.com,nukeruerodouga.com#?##contents > .label:contains(/ランキング$/)
 city.nagaoka.niigata.jp##.koukokuWrap
 toririnon.com##.box2:has(> p > a[href^="https://hb.afl.rakuten.co.jp/"])
-photo-ac.com##body > .flux-all-footer:has(> div[style] > div[id*="_overlay"] > iframe[id^="google_ads_iframe_"])
 ichi-oshi.jp##.adsence_sp
 maikuranikki.jp##.more-ad-title
 maikuranikki.jp##.kanren-under-ad-title
@@ -1825,8 +1827,8 @@ eromon.net##a[href^="https://www.sokmil.com/"]
 ! aglint-disable-next-line invalid-modifiers
 ||amazon.co.jp^$popup,domain=newmatosoku.com
 ||amzn.to^$popup,domain=newmatosoku.com
-newmatosoku.com##.font088
-newmatosoku.com##.topmain + div > div:has(+ .font088)
+newmatosoku.com#?#.topmain + div > p:contains(/AdGuard|広告ブロッカー/)
+newmatosoku.com#?#.topmain + div > div:has(+ p:contains(/AdGuard|広告ブロッカー/))
 newmatosoku.com##.topmain + div > div:has(a[href*="amazon.co.jp"])
 newmatosoku.com##li:has(a[href*="amzn.to"])
 newmatosoku.com##[onclick]
@@ -3122,7 +3124,7 @@ ero-anime.net##iframe + div[id^="ad"]
 ||tv-happening.com/outlink/
 winchesterhouse.jp##.post_content > table[border="0"]
 blog.hatenablog.com##.entry-social-top-ad
-financial-field.com##div[style^="min-width: 300px; min-height: 250px"]
+kahoku.news,financial-field.com##div[style^="min-width: 300px; min-height: 250px"]
 financial-field.com##div[style^="width: 100%; height: 280px"]
 mi-mollet.com,financial-field.com##div[style^="min-height: 250px;"]
 gift-for-loved-one.tokyo##.entry-content > div.widget_text
@@ -3721,6 +3723,8 @@ animalch.net##.permalink + div.module--category-recent-entry
 oryouri.2chblog.jp###oryourisokuho > div[align="center"]
 oryouri.2chblog.jp###oryourisokuho > div[align="center"] + hr
 ryusoku.com##.ads-336-280
+toonippo.co.jp##.alliance_PR
+toonippo.co.jp##.right-section > div.tckr
 toonippo.co.jp##.ad-billbaord
 netorarezukiview.com###side > div.inner > div.side_plugin
 ||equity.jiji.com/storage/banner/
@@ -7999,6 +8003,7 @@ jbbs.shitaraba.net##div[style^="width:300px; height:250px"]
 ||automaton-media.com/wp-content/plugins/wpsite-background-takeover-*/wpsite_clickable.js
 gazlog.com,sorae.info,automaton-media.com##.ai_widget
 tech-camp.in##.BottomFixedBannerContainer
+yamagata-np.jp##.ad_pc_rectangle
 yamagata-np.jp##div[class^="ad_superbanner_"]
 ken-g.com###ggl-wrapper
 ken-g.com###ggl-wrapper + hr

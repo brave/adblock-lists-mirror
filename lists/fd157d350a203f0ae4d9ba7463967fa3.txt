@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: R826KmySIJShvb5dgO0q3g
-! Version: 202404120700
+! Checksum: IF6BWoMATdC9LkgFNAq51A
+! Version: 202404120751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Apr 2024 07:00 UTC
+! Last modified: 12 Apr 2024 07:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1121,6 +1121,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##[onclick*="msetup"][onclick*="partner"][onclick*="utm_"]
 ##[onclick*="traffic-media.co"]
 ##[onclick*="trklp.ru"]
+##[src*="://dynspt.com/"]
 ##[src*="mixadvert.com"]
 ##[src^="//am15.net/?"]
 ##a[class*="button"][href^="//"][href*="yandex"][onclick*="dnl"][onclick*="knopka"]
@@ -5653,6 +5654,7 @@ _tizers.
 ||eqmx04n5s0.ru^$third-party
 ||eqtaxag.ru^$third-party
 ||eqthb.top^$third-party
+||equippro.xyz^$third-party
 ||eqzhyr.com^$third-party
 ||er2fl22b1w.site^
 ||erate.co.il^$third-party
@@ -14963,7 +14965,7 @@ onliner.by##.news-incut_position_right
 gamemag.ru#?#.news-item-wrap > .news-item:-abp-has(> span:-abp-contains(Ad))
 1plus1.ua,1plus1.video#?#.news-item:-abp-has(.ads)
 zaxid.net##.news-list-col > .news-list
-onliner.by##.news-media__preview > a > img[src$=".png"]
+onliner.by##.news-media__preview > a:not([href*="onliner.by/"]) > img
 1plus1.ua##.news-partners-add
 onliner.by##.news-promo
 armyinform.com.ua##.news-section_items > li.link > a[target="_blank"] > img

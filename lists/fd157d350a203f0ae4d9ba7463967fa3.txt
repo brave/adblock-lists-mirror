@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DgxLV1UU5mMuaH3BzfyrvA
-! Version: 202404121351
+! Checksum: vTf+A0bM5iQ6bZh0MthLmQ
+! Version: 202404121451
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Apr 2024 13:51 UTC
+! Last modified: 12 Apr 2024 14:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22924,7 +22924,8 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/nroockaz?key=
+/^https?://pikabu.ru/[a-z]{1,}\?key=/$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/ajax?$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -24052,6 +24053,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layou
 dzen.ru##[class*="floours"] div[id][class^="feed"] [class*="wrapper"][aria-label] ~ article:not([aria-label])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
+dzen.ru#?#div:-abp-has(> .adv-skeleton___main)
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#ul > .serp-item_card:-abp-has([data-bem] .organic__subtitle > span:-abp-contains(/Рeклама|Реклама/))

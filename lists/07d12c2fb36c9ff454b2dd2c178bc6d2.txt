@@ -4,7 +4,7 @@
 ! Homepage: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.3.2
+! Version: 3.6.3.3
 
 ! General
 
@@ -65,7 +65,9 @@ magazine.atavist.com##+js(set-local-storage-item, /^/, $remove$)
 ||axios.com/api/v1/licenses
 axios.com##[data-vars-experiment="pro-paywall"],[class^="Modal_paywallContainer"],.apexAd
 axios.com##+js(ra, style, html[style], stay)
-||cdn.cxense.com/cx.js$script,domain=bizjournals.com,important
+bizjournals.com##+js(ra, style, article div[style="display: none;"], stay)
+bizjournals.com##+js(ra, style, .paywalled-content[style], stay)
+bizjournals.com##div[data-dev="CxWidget_article:wall"],div#cxense-paywall,div[id^="headlessui-dialog-"]
 ! bloomberg.com: disable Dark Reader extension
 ||cm.bloomberg.com^$xmlhttprequest,~third-party
 ||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
@@ -75,6 +77,7 @@ bloomberg.com##+js(set-local-storage-item, history, $remove$)
 ||bloombergadria.com/*/news/$inline-script
 bloombergadria.com##+js(ra, style, article[style])
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
+||businessinsider.com/chunks/scripts/components~paywall-client.*.js$script,~third-party
 ||businesspost.ie/api/tinypass.min.js$script,~third-party
 cartacapital.com.br##+js(rc, contentSoft, div.contentSoft)
 cartacapital.com.br##div[class^="s-freemium"],div.maggazine-add

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bJm2+fr2PURJhaU04O2oYg
-! Version: 202404121751
+! Checksum: 61hVdCyv80lolLwMcweLeA
+! Version: 202404121850
 ! Title: EasyList Spanish
-! Last modified: 12 Apr 2024 17:51 UTC
+! Last modified: 12 Apr 2024 18:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1868,6 +1868,7 @@ expresodelacosta.cl##.wpwbs_banners
 naciodigital.cat##.zona-ajbcn
 naciodigital.cat##.zona-lacaixa
 elnuevoherald.com##.zone
+mediamarkt.es##[data-test="pdp-bundles-content"]
 europafm.com,ondacero.es##[data-type="ads"]
 carrefour.es##[id*="-sponsored_products-"]
 grantorrent.zip##[onclick^="AbrirEnlaceStar('"]
@@ -2016,6 +2017,7 @@ hoy.com.do#?#span:-abp-contains(Publicidad)
 juegosdiarios.com#?#.display-ads:-abp-has(>span:-abp-contains(Anuncio))
 laboyanos.com,elquindiano.com#?#span:-abp-contains(PUBLICIDAD)
 lavoz.com.ar#?#.clearfix.list-cards.mb1.section-ciudadanos:-abp-has(.title:-abp-contains(Espacio de marca))
+mediamarkt.es##[data-test="mms-product-card"]:has([data-test="mms-plp-presented"])
 mundo724.com#?#.et_pb_column:-abp-has(p:-abp-contains(Publicidad))
 periodismokosher.com.ar#?#.widget-content:-abp-has(a[target="_blank"])
 photocall.tv#?#.dropdown:-abp-has(label:-abp-contains(VPN))

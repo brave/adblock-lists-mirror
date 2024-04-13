@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hByFPqmJNPvYdi6ByulDAQ
-! Version: 202404131651
+! Checksum: Dl5YLnT5p4tKs9N3hdQ95w
+! Version: 202404131751
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 13 Apr 2024 16:51 UTC
+! Last modified: 13 Apr 2024 17:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1169,6 +1169,7 @@ vesti.ua##.footerTopSocial
 ren.tv##.footer__body__social
 openmedia.io##.footer__box > .footer__nav ~ .footer__nav
 domodedovoriamo.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo.ru,lubertsyriamo.ru,mytischiriamo.ru,podolskriamo.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,schelkovoriamo.ru,sergposadriamo.ru,serpuhovriamo.ru,solnechnogorskriamo.ru,zhukovskiyriamo.ru#?#.footer__column:-abp-has(> .social-links)
+ytronews.ru#?#.footer__column:-abp-has(> ul > li > [href^="https://vk.com/"])
 fishki.net##.footer__follow-us
 newsland.com##.footer__head-socials
 anilover.net##.footer__icons
@@ -4134,6 +4135,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||tinypass.com^$third-party,domain=obozrevatel.com
 ||tnt-online.ru/cookie/accept_cookie.
 ||tproger.ru/_nuxt/CookieNotify.
+||tproger.ru/_nuxt/WidgetDigestSubscribe.
 ||track24.ru/newyear/
 ||tranceshop.ru^$image,domain=psy-music.ru
 ||tsargrad.tv/js/fly-news.js
@@ -5266,7 +5268,7 @@ detector.media##.md_banner_zone
 liveinternet.ru##.mediametrics
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##.menu_desc .nav_links
 harpersbazaar.com.ua##.menu_sub
-iblitzmods.ru,in-the-fog.ru##.message-alert
+hentaiz.org,iblitzmods.ru,in-the-fog.ru##.message-alert
 animego.online##.message-info
 pikabu.ru##.messengers-widget
 minfin.com.ua##.mfz-footer--store
@@ -5952,7 +5954,7 @@ sxnarod.com##[href$="?act=acquaintance"] > img[src^="/image/"]
 agents.media##[href*="/donate/"]
 tv2.today##[href*="://donate.tv2.today/"]
 fastpic.org,glav.su##[href="/donate"]
-asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,radioroks.ua,realist.online,ringside24.com,root-nation.com,sportarena.com,tenews.org.ua,trmzk.ru,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net##[href^="https://news.google.com/publications/"]
+asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,radioroks.ua,realist.online,ringside24.com,root-nation.com,sportarena.com,tenews.org.ua,trmzk.ru,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net,ytronews.ru##[href^="https://news.google.com/publications/"]
 fastpic.org##[id*="footer"] a[href="https://static.fastpic.ru/FastPicUploader.apk"]
 nashaplaneta.net##[id^="flowblock"]
 gidonline.eu##[id^="iivk"]

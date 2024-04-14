@@ -1,9 +1,9 @@
-! Checksum: K0Yy6TPyYRNSR1v/QGiYcQ
-! Diff-Path: ../patches/7/7-s-1713094442-3600.patch
+! Checksum: C/kRgOyJCYUP0CgzUlXP/A
+! Diff-Path: ../patches/7/7-s-1713108829-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.51
-! TimeUpdated: 2024-04-14T11:31:30+00:00
+! Version: 2.0.50.52
+! TimeUpdated: 2024-04-14T15:31:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10375,6 +10375,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !
 !
 ! https://twitter.com/_webgoto/status/1779190832840753612
+[$path=/amafav/]service.webgoto.net#@$#.image_box[style*="amazon.co"] { background: none !important; }
 [$path=/amafav/]service.webgoto.net#@#a[href^="https://www.amazon.co.jp"][target="_blank"]
 ! TEST unblock ranking https://github.com/AdguardTeam/AdguardFilters/issues/176290
 @@||i2i.jp/view/index.php$domain=erostopics.net

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8Qn2vTi8EpgEkUe8Q6nX+g
-! Version: 202404141115
+! Checksum: FF+leNPJRasoYhumhkpSdA
+! Version: 202404141340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-14 11:15 UTC
+! Last modified: 2024-04-14 13:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34672,6 +34672,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ||google.com^*/friendconnect.js
 ||jobs.mobilemarketingreads.com^
 ||js.dhresource.com/survey/$domain=dhgate.com
+||kastatic.org/images/donate/$domain=khanacademy.org
+||khanacademy.org/api/internal/graphql/getActiveDonationAsks
 ||neighbourly.co.nz/stuff/
 ||newegg.com/newegg/survey/
 ||planelogger.com/Content/Images/avitop6.gif
@@ -35323,6 +35325,7 @@ news9live.com###cube_spinner
 marijuanamoment.net###custom_html-8
 liliputing.com###custom_html-9
 sunsky-online.com###divWelcome
+khanacademy.org###donate-banner
 the74million.org###donate_rocket
 isglobal.org###donation-button-footer
 kriptomat.io###earn-sidebar
@@ -36081,6 +36084,7 @@ parsintl.com##.eut-back-top
 about.bgov.com##.fab__scrollTop
 byjus.com##.fixed-up-arrow
 easeus.com##.float_totop
+bikerumor.com##.footer-back-button
 newrepublic.com##.footer__middleRow
 jw.com.au##.footer__scroll-top
 global.toyota##.footer_pagetop
@@ -37081,6 +37085,7 @@ foodbeast.com##.fdbst-share-button
 sacurrent.com##.fdn-icon-button-smaller
 phoenixnewtimes.com##.fdn-site-header-social-icons
 eadaily.com##.feed
+lubuntu.me##.ff-social-icon
 teaonews.co.nz##.ffsAxx
 thebarentsobserver.com##.field-name-sharing-buttons-1
 thebarentsobserver.com##.field-name-sharing-buttons-2
@@ -37216,6 +37221,7 @@ levernews.com,overkill.wtf##.kg-callout-card-blue
 4sysops.com##.kleo-quick-contact-wrapper
 echonewshub.com,jugomobile.com##.l-shared-sec
 sendatext.co##.lb_overlay
+bikerumor.com##.ldm-social-menu
 axios.com##.leading-0
 nms.si##.leftColumn-socialLinks
 mymodernmet.com##.lets-connect
@@ -37336,6 +37342,7 @@ cryptodaily.co.uk##.s-video-h
 techgenyz.com##.s_so
 sabcsport.com##.sabc_footer_btm_social
 sabcsport.com##.sabc_social_box
+sordum.org##.sbar_social_div
 alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,cochraneeagle.ca,delta-optimist.com,lakelandtoday.ca,moosejawtoday.com,mountainviewtoday.ca,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,rmoutlook.com,squamishchief.com,stalbertgazette.com,theorca.ca,timescolonist.com,tricitynews.com,vancouverisawesome.com,westernwheel.ca##.sc
 sasktoday.ca##.sc-expanded
 radio-canada.ca##.sc-sa6od2-0
@@ -37776,6 +37783,7 @@ saleappliancesltd.co.uk###CybotCookiebotDialogWrapper
 edoc.pub###EDOCPUB_cookie_box
 epdf.tips###EPDFTIPS_cookie_box
 franchisegator.com###EUWarning
+ecufiles.com###EcufilesCookie
 aberdeenplumberservices.co.uk,firstcallmotorbreakdown.co.uk,pattheduck.com###FISLCC
 megabus.com###GB_overlay
 gamivo.com###GTM-cookie-consent
@@ -43013,6 +43021,7 @@ lorientlejour.com##.newsletter-box-container
 leparisien.fr##.nl-article-card
 mariefrance.fr##.nl-social
 homap.fr##.nlregister
+senetic.fr##.nwsBlock
 capital.fr##.pmcInsert
 traxmag.com##.push-subscribe-newsletter-wrapper
 hostinger.fr##.registration-banner__bg
@@ -43032,6 +43041,7 @@ portal.rozhlas.cz###cro-common-newsletter-ecomail-entityform-edit-form
 signalfestival.com##.drawer--newsletter
 ! Arabic
 aljadeed.tv###formNL
+nabd.com###news-letter-pop
 alaraby.co.uk##.block-custom-mailchimp-subscription
 al-sharq.com##.boxemail
 sasapost.com##.email-subscription-footer
@@ -49128,6 +49138,7 @@ kharphonk.com##.pinit
 hannibaltv.com.tn##.rs_bas
 pramgnet.com##.sbnr
 maannews.net##.sc
+nabd.com##.social
 midad.com##.social-actions
 studyshoot.com##.social-flex
 khamsat.com##.social-media
@@ -49135,6 +49146,7 @@ alaqsavoice.ps##.social-style-2
 alalam.ir##.social_icon_head
 raya.com##.social_single_post
 raya.com##.social_single_post_bottom
+nabd.com##.socials
 khutabaa.com##.sqr-social-icons
 !
 !---------- Arabic Specific Media Elements ----------
@@ -51623,6 +51635,7 @@ nrk.no##.nrk-masthead__info-banner
 minnemi.no##.popup-overlay
 bighorn.no##.pp-announcement-bar-bottom
 helthjem.no##.schibsted-bar
+jolstad.no##.show-cookie-pop-up
 nordiskporselen.com##.w3-black
 nitedals.no##.wf-section
 direktesport.no##[aria-label="Informasjonskapsler"]

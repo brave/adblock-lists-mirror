@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: //NeceOR1NdwdeFlPm1FGw
-! Version: 202404150415
+! Checksum: 8unUi8pR+aOqemj8NxTG8Q
+! Version: 202404150540
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-15 04:15 UTC
+! Last modified: 2024-04-15 05:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -45205,6 +45205,8 @@ accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 sawren.pl##+js(set-local-storage-item, consent_popup, 1)
 optionsgroup.com##+js(set-local-storage-item, cookie-consent-declined-version, 1)
 trigger.dev##+js(set-local-storage-item, __ph_opt_in_out_phc_9aSDbJCaDUMdZdHxxMPTvcj7A9fsl3mCgM1RBPmPsl7, 0)
+core.app##+js(set-local-storage-item, should_display_cookie_banner_v2, false)
+core.app##+js(set-local-storage-item, connect-wallet-legal-consent, true)
 kokku-online.de##+js(set-local-storage-item, cookiesMin, 1)
 brasiltec.ind.br##+js(set-cookie, cookie_accept, 1)
 cuba-buddy.de##+js(set-local-storage-item, cb-accept-cookie, true)
@@ -48039,6 +48041,8 @@ pv-magazine-usa.com##body,html:style(height: auto !important; overflow: auto !im
 ! substack.com
 ! construction-physics.com,sambowman.co,asiasentinel.com,understandingai.org,hamiltonnolan.com,aporiamagazine.com,garbageday.email,jacobwolf.report,semianalysis.com,dossier.today,engineeringleadership.xyz,piratewires.com,slowboring.com,flowstate.fm,popular.info,newsletter.banklesshq.com,antiracismnewsletter.com,racket.news,eugyppius.com,dkb.blog,duffelblog.com,theankler.com,fullstackeconomics.com,substack.com,platformer.news##.intro-popup
 ! construction-physics.com,sambowman.co,asiasentinel.com,understandingai.org,hamiltonnolan.com,aporiamagazine.com,garbageday.email,jacobwolf.report,semianalysis.com,dossier.today,engineeringleadership.xyz,piratewires.com,slowboring.com,flowstate.fm,popular.info,newsletter.banklesshq.com,antiracismnewsletter.com,racket.news,eugyppius.com,dkb.blog,duffelblog.com,theankler.com,fullstackeconomics.com,substack.com,platformer.news##+js(remove-class, show-intro-popup, , stay)
+! core.app (newsletter)
+core.app##+js(set-local-storage-item, show-email-intake-form, false)
 ! apotekfordeg.no
 apotekfordeg.no##.newsletter-modal
 apotekfordeg.no##.modal-backdrop

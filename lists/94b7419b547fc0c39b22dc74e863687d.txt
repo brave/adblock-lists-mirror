@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Dz1O9dP02d835kvEDT1Vhg
-! Diff-Path: ../patches/1/1-s-1713188042-3600.patch
+! Checksum: Tsmoyh0K2aNFo19mfZ48sQ
+! Diff-Path: ../patches/1/1-s-1713191650-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.12
-! TimeUpdated: 2024-04-15T13:31:03+00:00
+! Version: 2.0.90.13
+! TimeUpdated: 2024-04-15T14:31:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7505,6 +7505,7 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+||d.kinokordonchat.webp^$image,third-party
 sport24.ru##div[style^="margin-bottom:"]:has(> div > div > div > svg >path[d^="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-1.454A6.545 6.545"])
 sport24.ru##div[style^="margin-bottom:"]:has(> div > div a[href^="https://clicks.affijet.com/"])
 gamenewsblog.ru##.mh-sidebar > div.widget_custom_html:has(div[id^="yandex_rtb"])
@@ -7954,8 +7955,6 @@ teleport2001.ru##.views-row-banner
 teleport2001.ru##div[id^="block-banner-"]
 sb.by##a[href="http://bard-rybalka.by/"] > img
 wooordhunt.ru#?##content > div[style*="min-height"]:has(> div[id^="yandex_rtb_"])
-rbc.ru##.topline__branding__wrapper
-rbc.ru##.fox-tail
 callfilter.app##.aheader
 peopletalk.ru##div[id^="video_banners-"]
 24smi.org##.strip
@@ -8469,7 +8468,6 @@ tvmag.ru#?#.list-prev > div.list-prev__item:has(> div[id^="yandex_rtb"])
 lifehacker.ru#?#.footer-widgets__container > section[data-key^="custom_html"]:has(> div > div.single-article__post-content > div.html-widget__title:contains(Рекомендации))
 ukranews.com#?#.article_content > div.apps:has(> ins.adsbygoogle)
 comss.ru#?#body > div.container[style^="padding-top:"] > p > span:contains(Объявления):upward(2)
-rbc.ru#?#.js-index-central-column > div.js-index-doscroll > div.item_content-cards-block:has(div[data-yandex-show^="commercial_cards"])
 computerhistory.org#?#div[class^="three-column-grid"] > div[class] > h3:contains(Sign Up)
 computerhistory.org#?#div[class^="three-column-grid"] > div[class] > p:has(> a[href$="/subscribe-aoc"])
 naruto-base.su#?##rightbar > div.block:has(> div.cont_ab)
@@ -8526,7 +8524,6 @@ lostapp.ru#?#.row > div.alts-item > div > div.ad:upward(2)
 glav.su##div:has(> div[id^="js-hb-"] > div[id^="adfox_"])
 5-tv.ru#?#main > div.container:has(> figcaption > h3:contains(Новости партнеров))
 webspoon.ru#?#.RecipeCardNew > div.Advertisement:upward(1)
-rbc.ru#?#div[class*="g-banner_"]:has(> div[class^="js-rbcslider-"] > div.readmore > div[class^="smi24_"])
 ufanotes.ru#?#.content > span:has(> b:contains(НОВОСТИ ПАРТНЕРОВ))
 ufanotes.ru#?#.related > div.category2:has(> span:contains(Новости партнеров))
 ufanotes.ru#?#.right > div.block:has(> div:contains(Новости партнеров))
@@ -8551,7 +8548,6 @@ point.md#?#aside > div[class^="sc-"]:has(> div[id^="vertical-banner-placeholder-
 point.md#?#aside > div[class^="sc-"]:has(> div[class] > a[href^="https://pentru-ucraina"])
 ostro.org#?#div[class="title"]:has(> h2:contains(/^НОВОСТИ ПАРТНЕРОВ$/))
 9tv.co.il#?#.content_group:has(> div#taboola-below-main-column-thumbnails)
-rbc.ru#?#.l-col-100h-parent > div.l-col-100h:has(> div.l-sticky > div.fox-tail > a.banner__container__link)
 zakon.kz#?#.feed_item > div.container:has(> div > div[id^="adfox_"])
 rokwell.ru#?#.wpb_wrapper > div.wpb_text_column:has(> div.wpb_wrapper > div.inmain-content > div[id^="fofuny"])
 rokwell.ru#?#.td-container > div.vc_row:has(> div.main-footer-btn > div.vc_column-inner div[id^="fofuny"])
@@ -8683,7 +8679,6 @@ rus.delfi.ee#?#.article__comments-form > div.row:has(> div.col > article > a[hre
 tvzvezda.ru#?#.first_col > div.js-master_height > div.another_smi:has(> div.razdel_name:contains(/В ДPУГИХ CMИ|Вас заинтересует/))
 forum.rhbz.org#?#td > div.delemiter:has(> a[href][target="_blank"])
 madgeek.io#?##secondary > div.widget:has(> div.textwidget > ins.adsbygoogle)
-rbc.ru#?#.l-col-right div.half > div.l-sticky:has(> div.banner__container)
 huawei.mobzon.ru#?##sidebar > div.module:has(h3.module-title:contains(/(Блок ссылок)|(Блок Google)|(Рекламный блок)/))
 mobzon.ru#?#.leftbigger > div.moduletable:has(span.backh3:contains(/(Блок ссылок)|(Блок Google)|(Рекламный блок)/))
 senat.org#?##sidebar > aside:has(> h2:contains(РЕКЛАМА))
@@ -10681,7 +10676,6 @@ wifigid.ru##div[class="expert-review expert-review--color-green-2"]
 sb.by##.ads-after-article
 theoryandpractice.ru##.disclamer1
 superjob.ru##div[class*="f-test-vacancy-ad-context-"]
-||s.rbk.ru/v*_rbcbanners_static/rbcbanners-*/build/_fullscreen.js$domain=rbc.ru
 newsoneua.tv##a[class^="content-promotion"]
 ||101.ru/vardata/modules/outreach/file/*/mediaFile.mp3$media,redirect=noop-0.1s.mp3,domain=101.ru
 ||soccer.ru/special-rotator.php
@@ -17714,6 +17708,15 @@ anime.anidub.life,online.anidub.com##div[style^="width: 240px;height: 400px;"]
 xn--90awu.xn--j1amh##a[href^="/component/banners/"]
 !
 ! autonews.ru,rbc.ru,rbcplus.ru,sportrbc.ru
+rbc.ru#?#.l-col-100h-parent > div.l-col-100h:has(> div.l-sticky > div.fox-tail > a.banner__container__link)
+autonews.ru,rbc.ru##.topline__branding__wrapper
+rbc.ru##.fox-tail
+rbc.ru#?#.js-index-central-column > div.js-index-doscroll > div.item_content-cards-block:has(div[data-yandex-show^="commercial_cards"])
+rbc.ru#?#div[class*="g-banner_"]:has(> div[class^="js-rbcslider-"] > div.readmore > div[class^="smi24_"])
+rbc.ru#?#.l-col-right div.half > div.l-sticky:has(> div.banner__container)
+||s.rbk.ru/v*_rbcbanners_static/rbcbanners-*/build/_fullscreen.js$domain=rbc.ru
+sportrbc.ru##.header__slider
+rbc.ru##.article__content > div[data-publisher-index]
 rbc.ru##.js-countdown-wrapper
 rbc.ru##.js-mts-floor-aida-place
 rbc.ru##.simple-promo-card

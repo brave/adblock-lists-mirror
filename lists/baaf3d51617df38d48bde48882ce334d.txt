@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ng3ksRIiM8BffLDtjPfB2Q
-! Version: 202404150415
+! Checksum: viyyN1qTWIdLT1CXrXnI5Q
+! Version: 202404150440
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-04-15 04:15 UTC
+! Last modified: 2024-04-15 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4725,6 +4725,8 @@ pv-magazine-usa.com##body,html:style(height: auto !important; overflow: auto !im
 ! substack.com
 ! construction-physics.com,sambowman.co,asiasentinel.com,understandingai.org,hamiltonnolan.com,aporiamagazine.com,garbageday.email,jacobwolf.report,semianalysis.com,dossier.today,engineeringleadership.xyz,piratewires.com,slowboring.com,flowstate.fm,popular.info,newsletter.banklesshq.com,antiracismnewsletter.com,racket.news,eugyppius.com,dkb.blog,duffelblog.com,theankler.com,fullstackeconomics.com,substack.com,platformer.news##.intro-popup
 ! construction-physics.com,sambowman.co,asiasentinel.com,understandingai.org,hamiltonnolan.com,aporiamagazine.com,garbageday.email,jacobwolf.report,semianalysis.com,dossier.today,engineeringleadership.xyz,piratewires.com,slowboring.com,flowstate.fm,popular.info,newsletter.banklesshq.com,antiracismnewsletter.com,racket.news,eugyppius.com,dkb.blog,duffelblog.com,theankler.com,fullstackeconomics.com,substack.com,platformer.news##+js(remove-class, show-intro-popup, , stay)
+! core.app (newsletter)
+core.app##+js(set-local-storage-item, show-email-intake-form, false)
 ! apotekfordeg.no
 apotekfordeg.no##.newsletter-modal
 apotekfordeg.no##.modal-backdrop

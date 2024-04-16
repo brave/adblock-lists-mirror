@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ke4m8+rjC6/peHTGQ563vQ
-! Version: 202404161615
+! Checksum: JXhlsz8O4OyyjgftlEFTiw
+! Version: 202404161715
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-16 16:15 UTC
+! Last modified: 2024-04-16 17:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44081,6 +44081,8 @@ wfaa.com,wkyc.com,9news.com,11alive.com##+js(rc,  video__docker_state_docked, , 
 ! cbsnews.com (Floating video)
 cbsnews.com##+js(rc, floating, , stay)
 cbsnews.com##.floating
+! https://github.com/uBlockOrigin/uAssets/issues/23310
+www.nicovideo.jp##:matches-path(/search) .nicoadVideoItem
 ! easylist_cookie_specific_uBO.txt
 !
 ||clickio.mgr.consensu.org^$script,redirect-rule=noop.js,domain=mdn.lol

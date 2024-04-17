@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y1bSw04eKfvkGOhDQnPAKA
-! Version: 202404170100
+! Checksum: 0ExT8w+mG/577o9FWkebMA
+! Version: 202404170200
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2024-04-17 01:00 UTC
+! Last modified: 2024-04-17 02:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -654,6 +654,8 @@ emailnator.com##.top-banner
 flightradar24.com##+js(set-cookie, map_new_features_new_flightradar24_com_label_options, 1)
 ! https://github.com/uBlockOrigin/uAssets/issues/23164
 shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
+! feedback popup belstad.com
+belstad.com##+js(set-local-storage-item, is_announcement_closed, true)
 ! m.investing.com (Collapse top)
 m.investing.com##.withAppBanner:style(top:0 !important)
 ! newsbreak.com

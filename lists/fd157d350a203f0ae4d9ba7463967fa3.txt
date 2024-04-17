@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E+NY8zFODsZednv2/EUSXw
-! Version: 202404171451
+! Checksum: L8RlNZRbWqBs5ClObSnUng
+! Version: 202404171551
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Apr 2024 14:51 UTC
+! Last modified: 17 Apr 2024 15:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12699,7 +12699,7 @@ novayagazeta.ru##._1ysoK
 yap.ru,yaplakal.com##.__axcode__
 gamestar.ru##.__b-popup1__
 vk.com##._ads_promoted_post_data_w
-n1.ru##._banner
+n1.ru,telesputnik.ru##._banner
 nakanune.ru##._block-banner
 novosti-n.org##._sm24
 altapress.ru##.a
@@ -15309,7 +15309,7 @@ prsport.net##.prognoz_block
 mmgp.ru##.prom
 tut.by##.prom-l
 tut.by##.prom-r
-allmoldova.com,audit-it.ru,gdeposylka.ru,infomir59.ru,pavlodar.news,pavon.kz,rentv-smolensk.ru,ubuntovod.ru,webmasters.ru##.promo
+allmoldova.com,audit-it.ru,gdeposylka.ru,infomir59.ru,pavlodar.news,pavon.kz,rentv-smolensk.ru,telesputnik.ru,ubuntovod.ru,webmasters.ru##.promo
 roskomsvoboda.org##.promo-banner
 expertcen.ru##.promo-block
 habr.com##.promo-block_courses
@@ -16201,7 +16201,6 @@ superkot.com##.topic-actions + .clear + .post.bg2 + .divider + .post.bg3
 7dach.ru##.topic_shop_offers
 bezformata.ru##.topicbanner_box
 murman-fishing.ru##.topiclist + div[style^="padding"]
-telesputnik.ru##.topiclist > .row > dl > [title] > span[style="float:right; margin-right: 5px;"]
 finiz.ru##.topline
 m.ua##.toplineban
 mymedicalportal.net##.topnews noindex
@@ -17028,6 +17027,7 @@ forum.woodtools.ru##a[href*="/ad/www/delivery/ck.php"]
 alldz.net##a[href*="/addownload.html"]
 liga.net##a[href*="/adfree"]
 skachaj24.ru##a[href*="/adhunt"]
+cisoclub.ru##a[href*="/adv"]
 vmeste.tv##a[href*="/advert/"]
 rabota24online.ru##a[href*="/affiliate/"]
 e-ink-reader.ru,for-ua.info,moy-instrument.ru,pcminipro.ru,ruspdd.ru,youblogs.ru##a[href*="/ali.pub/"]
@@ -17320,7 +17320,6 @@ playercdn.cdnvideo.ru##a[href="//cdnvideo.ru/?from=playercdn.cdnvideo.ru"]
 noi.md##a[href="//moldovenii.md"]
 xbts.ru##a[href="//xbts.ru/"] + a[target="_blank"]
 drive2.ru##a[href="/_api/drom/navigate"]
-cisoclub.ru##a[href="/adv"]
 azart.net.ua##a[href="/adv.php"]
 ura.news##a[href="/advert"]
 sevastopol.su##a[href="/advertisement"]
@@ -17386,7 +17385,6 @@ taobao-forum.com##a[href]:not([href^="http://taobao-forum.com/"]) > img[src^="/b
 khl.ru##a[href][class*="_fonbet"]
 bobsoccer.ru##a[href][class^="ls_"]
 directlot.ru##a[href][onclick*="Banners"]
-telesputnik.ru##a[href][onclick*="banner"]
 podolsk.ru##a[href][onclick*="banner_click"]
 vakhta-job.ru##a[href][onclick]
 telegraf.in.ua##a[href][rel*="sponsored"]
@@ -17440,7 +17438,7 @@ nmosktoday.ru##a[href^="/banclick.php"]
 geonavigator.ge,navigator.az##a[href^="/banner.php"]
 yarnews.net##a[href^="/banner/click/"]
 bits.media##a[href^="/bitrix/bitrix.php"]
-37.ru,62info.ru,agrostory.com,allcio.ru,bits.media,compulenta.ru,gubkinskiy.com,hi-fi.ru,infostart.ru,it-weekly.ru,it-world.ru,kluch.media,likeni.ru,mgazeta.com,mnmag.ru,nmosktoday.com,officelife.media,rugrad.eu,seonews.ru,telesputnik.ru,vladtv.ru,vn.ru,vt-inform.ru,xsport.ua,yantann.rbsmi.ru,yanzori.rbsmi.ru,zi.ua##a[href^="/bitrix/rk.php"]
+37.ru,62info.ru,agrostory.com,allcio.ru,bits.media,compulenta.ru,gubkinskiy.com,hi-fi.ru,infostart.ru,it-weekly.ru,it-world.ru,kluch.media,likeni.ru,mgazeta.com,mnmag.ru,nmosktoday.com,officelife.media,rugrad.eu,seonews.ru,vladtv.ru,vn.ru,vt-inform.ru,xsport.ua,yantann.rbsmi.ru,yanzori.rbsmi.ru,zi.ua##a[href^="/bitrix/rk.php"]
 2x2tv.ru,actualcomment.ru,asn24.ru,automobili.ru,gorod48.ru,kubnews.ru,lgz.ru,mediaryazan.ru,mk.tula.ru,mos.news,newsroom24.ru,ohranatruda.ru,onlinetambov.ru,podrobno.uz,rabochy-put.ru,securitylab.ru,sochi.com,vegetarian.ru,velikiynovgorod.ru##a[href^="/bitrix/rk.php"][href*="banner"]
 x-race.info##a[href^="/bitrix/rk.php"][target="_blank"]
 nesekretno.ru##a[href^="/bn/bn.php?partner="]
@@ -18243,7 +18241,6 @@ rlocman.ru##div[class][style="background-color:#fcfcee;padding:10px"]
 puzzleheap.ru##div[class][style^="height:"][id]:empty
 livejournal.com#?#div[class][style^="height:"][style*="background-color: black; position: relative;"]:-abp-has([src*="docking"][src*="eaglecdn"])
 news.pn##div[class][style^="width:"][style$="300px;"]
-cisoclub.ru##div[class^=""][class*="LENTA"]
 auto.ru##div[class^="AdWithFixedHeight"]
 news.finance.ua##div[class^="Advertising"]
 kaktus.kg,kaktus.media,sportsdaily.ru##div[class^="Banner"]
@@ -18312,6 +18309,7 @@ agronews.ua,globalmsk.ru,nta.ua,soccer.ru##div[class^="baner"]
 101.ru,46tv.ru,999.md,alau.kz,aldebaran.ru,asiarussia.ru,bezparazita.ru,botinok.porn,bountymax.ru,buzulukday.ru,calend.ru,chytomo.com,citydog.by,clubvolvo.ru,crazymailing.com,dnepr.info,dom2stars.ru,dota2.ru,gmod-fan.ru,gorod.dp.ua,gorod48.ru,gtavicecity.ru,hochu.ua,igry-online.net,infobank.by,internetua.com,kamchatinfo.com,kerchinfo.com,khersonline.net,kino-kingdom.com,klops.ru,kluch.media,kvnews.ru,lipetskmedia.ru,manga24.ru,mashintop.ru,mediaryazan.ru,menquestions.ru,mgorod.kz,mobile-review.com,modernrock.ru,moya-semya.ru,musicforums.ru,nlo-mir.ru,nn.ru,novostroev.ru,nsday.ru,ntr-24.ru,nv.ua,nversia.ru,onlineradiobox.com,orenday.ru,perevolockday.ru,pln-pskov.ru,ponedelnik.info,postovoy.net,ppt.ru,psm7.com,rtraveler.ru,saltday.ru,sevkavportal.ru,sorochinskday.ru,sovets.net,sovets24.ru,spark.ru,studfile.net,studfiles.net,subscribe.ru,telegraf.in.ua,the-village-kz.com,the-village.me,the-village.ru,tltonline.ru,topvideo.tj,torrents.in.ua,trisosny.ru,trymobile.ru,turkmenportal.com,tvzvezda.ru,ukrinform.ru,ura.news,vdvsn.ru,village.com.ua,vklybe.tv,vorle.ru,vse.sale,wincore.ru,womanhit.ru,worldofmods.ru,xn----7sbabrtfclecozdeg8b6a.xn--p1ai,yarik-sat.com,yarnews.net,zerno-ua.com,zhitomir.info,zn.ua,zoon.ru##div[class^="banner"]
 deti.fm##div[class^="banner"]:not(#vk_groups)
 kaktutzhit.by##div[class^="banner"][class$="rightSide"] > .banner:nth-of-type(1)
+cisoclub.ru##div[class^="banner"][class*="LENTA"]
 meteo.ua##div[class^="banner-"]
 irr.by,securitylab.ru##div[class^="banner_"]
 caravan.su##div[class^="banner_header"]
@@ -19141,6 +19139,7 @@ umpro.ru##img[src*="/banners_for_umpro/"]
 freetp.org,freetp.ru##img[src*="/download-yb."]
 slavutich.cn.ua##img[src*="/image/banners/"]
 browserss.ru##img[src*="/images/Banner_"]
+telesputnik.ru##img[src*="/images/ads/"]
 itc.ua,mc.today,newsua.ru,profidom.com.ua,smolnarod.ru,speka.media,ternopoliany.te.ua,thepage.ua,tv-gubernia.ru,ua.news,vmeste.tv,voip.ru,yablor.ru##img[src*="/images/banner"]
 ogo.ua##img[src*="/images/bnr/"]
 iviche.com##img[src*="/images/commertials/"]
@@ -19959,7 +19958,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /temp/*.mp4$media,domain=lostfilm.download|lostfilm.life|lostfilm.pro|lostfilm.space|lostfilm.today|lostfilm.tv|lostfilm.tw|lostfilm.uno|lostfilm.win|lostfilmtv.site|lostfilmtv.uno|lostfilmtv1.site|lostfilmtv2.site|lostfilmtv3.site|lostfilmtv4.site|lostfilmtv5.site
 /u_*.js|$script,~third-party,domain=breaking-bad-online.ru|dh-online.ru|driveroff.net|friends-online.me|gardri.narod.ru|gidonline.eu|griffiny.ru|grimm-all.ru|kinogo.eu|lov16.ru|math-helper.ru|novospasskoe-city.ru|online-futurama.ru|online-simpsons.ru|online-south-park.ru|pkrc.ru|primecrime.ru|queen-time.ru|sambirmajdan.at.ua|samlab.ws|ucoz.ru|uniongang.net|uniongang.org|x-16.ru
 /upload/bookmaker-$domain=scores24.live
-/upload/rk/*$domain=37.ru|62info.ru|actualcomment.ru|afanasy.biz|agrostory.com|allcio.ru|arsenaltula.ru|asn24.ru|automobili.ru|avtosreda.ru|baikal-daily.ru|bits.media|con-med.ru|cryptolymp.ru|dnl.com.ua|dnl.dn.ua|floraprice.ru|footballreview.ru|go64.ru|gorod48.ru|gubkinskiy.com|hi-fi.ru|hsl.com.ua|i2hard.ru|infoniac.ru|innov.ru|it-weekly.ru|it-world.ru|k1news.ru|kluch.media|kubnews.ru|lgz.ru|likeni.ru|lipetskmedia.ru|marpravda.ru|matchfishing.ru|mediaryazan.ru|mgazeta.com|mk.tula.ru|mnmag.ru|mos.news|newkaliningrad.ru|newsroom24.ru|nmosktoday.com|officelife.media|ohranatruda.ru|onlinetambov.ru|paparazzi.ru|planetaseminarov.ru|portamur.ru|rabochy-put.ru|riavrn.ru|securitylab.ru|seonews.ru|sochi.com|telesputnik.ru|tvk6.ru|ural56.ru|vdvsn.ru|velikiynovgorod.ru|vladtv.ru|vn.ru|vt-inform.ru|x-race.info|ya62.ru|yantann.rbsmi.ru|yanzori.rbsmi.ru|zebra-tv.ru|zi.ua
+/upload/rk/*$domain=37.ru|62info.ru|actualcomment.ru|afanasy.biz|agrostory.com|allcio.ru|arsenaltula.ru|asn24.ru|automobili.ru|avtosreda.ru|baikal-daily.ru|bits.media|con-med.ru|cryptolymp.ru|dnl.com.ua|dnl.dn.ua|floraprice.ru|footballreview.ru|go64.ru|gorod48.ru|gubkinskiy.com|hi-fi.ru|hsl.com.ua|i2hard.ru|infoniac.ru|innov.ru|it-weekly.ru|it-world.ru|k1news.ru|kluch.media|kubnews.ru|lgz.ru|likeni.ru|lipetskmedia.ru|marpravda.ru|matchfishing.ru|mediaryazan.ru|mgazeta.com|mk.tula.ru|mnmag.ru|mos.news|newkaliningrad.ru|newsroom24.ru|nmosktoday.com|officelife.media|ohranatruda.ru|onlinetambov.ru|paparazzi.ru|planetaseminarov.ru|portamur.ru|rabochy-put.ru|riavrn.ru|securitylab.ru|seonews.ru|sochi.com|tvk6.ru|ural56.ru|vdvsn.ru|velikiynovgorod.ru|vladtv.ru|vn.ru|vt-inform.ru|x-race.info|ya62.ru|yantann.rbsmi.ru|yanzori.rbsmi.ru|zebra-tv.ru|zi.ua
 /uploaded/banners/*$domain=volkovysk.by
 /uploads/ad_inc/*$domain=imperia-of-hentai.biz|imperia-of-hentai.net
 /uploads/banner/*$domain=bloomchain.ru|ecology.md|jut-su.net|tripoli.land|yummyanime.tv
@@ -20240,6 +20239,7 @@ lada.kz/uploads/banners/
 ||api.digitalaccess.ru/logger^
 ||api.theins.ru/adv/
 ||api.yapfiles.ru/vast/
+||apitelesputnik.ru/storage/images/ads/
 ||aplik.ru/cdn-cgi/$xmlhttprequest
 ||apola.ru/solse.js
 ||app-time.ru/uploads/brand/
@@ -22933,7 +22933,7 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-/^https?://pikabu.ru/[a-zA-Z_0-9]{1,}\?kei=/$xmlhttprequest,domain=pikabu.ru
+/^https?:\/\/pikabu\.ru\/[a-zA-Z_0-9]+\?/$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax?$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu

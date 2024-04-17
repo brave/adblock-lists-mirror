@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HuauQufb0eUTyClTnq+WqA
-! Version: 202404170115
+! Checksum: D1Qjz5hvNQd7hf1m9ycIFw
+! Version: 202404170240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-17 01:15 UTC
+! Last modified: 2024-04-17 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43838,6 +43838,8 @@ emailnator.com##.top-banner
 flightradar24.com##+js(set-cookie, map_new_features_new_flightradar24_com_label_options, 1)
 ! https://github.com/uBlockOrigin/uAssets/issues/23164
 shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
+! feedback popup belstad.com
+belstad.com##+js(set-local-storage-item, is_announcement_closed, true)
 ! m.investing.com (Collapse top)
 m.investing.com##.withAppBanner:style(top:0 !important)
 ! newsbreak.com
@@ -44374,6 +44376,7 @@ greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_conse
 greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_consent_analytics, false)
 privatekeys.pw##+js(set-cookie, cookie_consent_closed, 1)
 guide-bordeaux-gironde.com##+js(set-cookie, cookieConsent-2023-03, false)
+travelinsured.com##+js(set-cookie, CookieDisclaimer, 1)
 gdpr.twitter.com##+js(set-cookie, twtr_pixel_opt_in, N)
 mora.hu##+js(set-cookie, RBCookie-Alert, 1)
 confused.com##+js(set-cookie, CookieConsentV4, false)

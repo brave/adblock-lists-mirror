@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202404172129
+! Version: 202404172252
 ! Title: EasyPrivacy
-! Last modified: 17 Apr 2024 21:29 UTC
+! Last modified: 17 Apr 2024 22:52 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2277,6 +2277,7 @@
 /track/pixel/*
 /track/site/*
 /track/statistic/*
+/track/svbaff01/*
 /track/visitors/?
 /track/visits/?
 /track?*&event=
@@ -12986,6 +12987,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||blockworks.co/_vercel/insights/
 ||blue.nbc4i.com^
 ||bmoharris.com/www/assets/analytics/loader.js
+||bonprix.*/ajax/landmarks/
+||bonprix.*/ajax/marketing-parameters/
 ||booking.com/c360/v1/track
 ||booking.com/collector/
 ||booking.com/logo?
@@ -49191,6 +49194,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||wa.gmx.net^
 ||wa.web.de^
 ||walbusch.de^$ping
+||weltbild.de/tracking/
 ||werkenntdenbesten.de/js/tracking.
 ||werkenntdenbesten.de/pd.js
 ||wikipedia.de/tracking.js

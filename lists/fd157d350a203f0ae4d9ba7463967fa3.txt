@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Zzx9KY1CJcO4KhEYc9p6EQ
-! Version: 202404171851
+! Checksum: ayJgg2ckbwuF+e8v9+0YZQ
+! Version: 202404171951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Apr 2024 18:51 UTC
+! Last modified: 17 Apr 2024 19:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17117,6 +17117,7 @@ prostomob.com##a[href*="://s.zbanx.com/r/"]
 point.md##a[href*="://sales.simpals.com/"][href*="banner"]
 moirebenok.ua##a[href*="://sgo.one/"]
 programmersforum.ru#?#a[href*="://slurm.club/"] ~ *:-abp-contains(https://)
+soyztreid.website##a[href*="://softoroom.org/"]
 sportliga.com##a[href*="://sportliga.com/bookmakers/"] ~ a
 595.ucoz.net##a[href*="://surfearner.me/"]
 595.ucoz.net##a[href*="://teaser.bz/"]
@@ -19359,6 +19360,7 @@ yepman.ru##span[style="font-size:14px;"]
 yepman.ru##span[style="font-size:14px;"] + *
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##sport[name="soccer"]
 nuriknur.ucoz.com##strong > span[style="color:red"]
+soyztreid.website##table
 qwe.ru##table + table tr:last-child > td:last-child > .border
 pogoda.ru##table + table[align="center"][summary] > tbody > tr:first-child + tr:last-child > td[align="center"][valign="top"][width="333px"]
 pogoda.ru##table + table[align="center"][summary] > tbody > tr:first-child > th:first-child + th + th:last-child

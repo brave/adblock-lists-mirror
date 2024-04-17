@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: J8kLlwcA5GTo35+3sIDeyg
-! Diff-Path: ../patches/16/16-s-1713278040-3600.patch
+! Checksum: c+JIOo5uahfEt8msCZghCg
+! Diff-Path: ../patches/16/16-s-1713335613-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.56
-! TimeUpdated: 2024-04-16T14:31:57+00:00
+! Version: 2.0.44.57
+! TimeUpdated: 2024-04-17T06:31:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -22786,6 +22786,7 @@ linfoweb.com#?#tbody:-abp-has(i:-abp-contains(sponsorisé))
 macommune.info#?#.box_article:-abp-has(.is-text-publi-infos)
 macommune.info#?#.widget_article:-abp-has(.title_widget:-abp-contains(/PUBLI INFO|Publi-info/))
 maison-islam.com#?#aside:-abp-has(.widget-title:-abp-contains(Publicité))
+mediamarkt.be#?#[data-index-number]:-abp-contains(Sponsorisé)
 multiup.io#?#.panel-featured-success:has([alt="Usennet.nl"])
 narcity.com#?#.article-thumbnail:-abp-has(a:-abp-contains(/Sponsored|sponsorisé/))
 nextinpact.com#?#.us-bas-ctr:-abp-has(a[href^="https://www.cybertek.fr/"])

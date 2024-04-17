@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: c2O43F0J/mv6od8HLBmcQA
-! Diff-Path: ../patches/13/13-s-1713303201-3600.patch
+! Checksum: xEV8PbfzZJTMKPQWjZnvyA
+! Diff-Path: ../patches/13/13-s-1713335612-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.27
-! TimeUpdated: 2024-04-16T21:31:34+00:00
+! Version: 2.0.51.28
+! TimeUpdated: 2024-04-17T06:31:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1078,8 +1078,6 @@ elzemfilm.org##+js(window.open-defuser)
 hdmixfilim.com##+js(abort-on-property-read, pop_status)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151732
 arsiv.mackolik.com##+js(set-constant, AdmostClient, noopFunc)
-! https://www.reddit.com/r/uBlockOrigin/comments/132az8u/
-netsportv158.com##+js(set-constant, config.adv, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77520
 [$domain=/^i\[a-z\]*\.strmrdr\[a-z\]+\..*/]##+js(set-constant, adscfg.enabled, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146814
@@ -2287,7 +2285,6 @@ adonisfansub.com##div[id^="teaser"]
 donanimhaber.com##.sponsor-category
 donanimhaber.com##.top-ad-bar-container
 forum.donanimhaber.com##.tag-ad
-netsportv158.com##.fancybox-container
 lezzet.com.tr,ekonomist.com.tr##.news-inline-ads
 ekonomist.com.tr##.hide-mobile[style*="min-height: 250px;"]
 ekonomist.com.tr##.hide-mobile[style^="min-width:"][style*="min-height:"]
@@ -2488,7 +2485,6 @@ sabah.com.tr##div[data-wbzone-loaded="728x90"]
 ye-mek.net##.addForMainPage
 donanimhaber.com##.giydirme-container
 gartic.io###videoContainer
-netspor1.live,netspor6.live,netspor16.live,netsportv166.com,netsportv158.com##.banner_area
 tarotscans.com##body > div#footer + p[style="text-align: center;"]
 trwebtoon.com##.page-content > a.links[href]
 ruyamanga.com##.body-wrap > p[style="text-align: center;"]

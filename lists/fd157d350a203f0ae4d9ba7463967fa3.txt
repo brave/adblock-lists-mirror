@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rspn8yrYVVH/PgcGmH8/8A
-! Version: 202404181651
+! Checksum: qCIbUtGMYNEPXW97GJ/yOw
+! Version: 202404181751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Apr 2024 16:51 UTC
+! Last modified: 18 Apr 2024 17:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7822,6 +7822,7 @@ _tizers.
 ||namezones.ru^$third-party
 ||namogemi.ru^$third-party
 ||namokuris.com^$third-party
+||naos.ink^$third-party
 ||naplene.ru^$third-party
 ||naruhap.pro^$third-party
 ||nasdfg.com^$third-party
@@ -23751,6 +23752,7 @@ www.afisha.ru##[data-test="LINK OKKO-BUTTON"]
 letidor.ru,moslenta.ru,passion.ru,quto.ru##[id^="unit_"]
 wmj.ru##[qaid="topic"] ~ div a[href^="https://zen.yandex.ru/"]
 championat.com##a[href*="fon.bet/"]
+championat.com##a[href*="offer_id="]
 championat.com,~mail.rambler.ru,~nova.rambler.ru,rambler.ru##a[href*="okko.sport"]
 ~mail.rambler.ru,~nova.rambler.ru,rambler.ru,www.afisha.ru##a[href*="okko.tv"]
 letidor.ru,quto.ru##article a[href^="https://zen.yandex.ru/"]

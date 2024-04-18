@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 91I4UOxj/3RWTME2SuBlkw
-! Version: 202404180951
+! Checksum: 8s7SV/lRjmU8esgW7P/Q9w
+! Version: 202404181051
 ! Title: EasyList Germany
-! Last modified: 18 Apr 2024 09:51 UTC
+! Last modified: 18 Apr 2024 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5205,6 +5205,7 @@ heise.de##.p-3.-mx-3.bg-gray-50:has(a[data-component="TeaserLinkContainer"]:not(
 running-magazin.com##.post-grid-item.grid-item:has(.ad-badge)
 photographie.de##.post.type-post.status-publish:has(.anzeige-box)
 dashcamtest.de##.previewtile.swiper-slide:has(a[href^="https://amzn.to/"])
+intersport.de##.product--box:has(.rm-sponso)
 kaufland.de##.product:has(div.product__sponsored-ad-label)
 guenstiger.de##.productCard:has(div.premiumProductCaption)
 kaufland.de##.rd-recommender:has(div.rd-product-tile__badge--ad)
@@ -5237,6 +5238,7 @@ windowspro.de##.view-idcontent:has(a[href^="/sponsored/"])
 gebrauchtwagenberater.de##.wp-block-group:has(.wp-block-button__link)
 berlinstadtservice.de##.wrap-col.box4:has(a[href^="https://www.awin1.com/"])
 zeit.de##.zett-teaser-trio:has(.zett-teaser-trio__kicker--ad-anzeige)
+flaconi.de##[data-product-list-id]:has([data-badge-type="sponsored"])
 ariva.de##a.background-red-bright:has(span.anzeige)
 shop-apotheke.com##article.o-CompactProductListItem:has(a[href^="https://retail-api.sa-tech.de/api/"])
 finanzen.net##article.page-content__item:has(img[alt="UBS"])
@@ -5261,6 +5263,7 @@ mein-mmo.de##li.article:has([data-type="sponsored"])
 jameda.de##li:has([data-testid="advertisementSign-flag"])
 baur.de##li:has(a[href^="https://b.fr3.eu.criteo.com/rm?"])
 golem.de##li[data-article-id]:has(.icon-addy)
+rewe.de#?#.rs-qa-product:-abp-contains(Gesponsert)
 mein-mmo.de##section.post:has([data-type="sponsored"])
 finanznachrichten.de##tr:has(span.sprite.h-w-c)
 wallstreet-online.de##tr:has(td > .float-end > span[title="Anzeige"])

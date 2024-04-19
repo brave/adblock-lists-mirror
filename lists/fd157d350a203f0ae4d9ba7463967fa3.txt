@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 35gnBofgMNf+Xnw5+VsMXg
-! Version: 202404190851
+! Checksum: BW4+i3yJ+5vTw5plwjz+ZQ
+! Version: 202404190951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Apr 2024 08:51 UTC
+! Last modified: 19 Apr 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22936,7 +22936,7 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-/^https?:\/\/pikabu\.ru\/[-a-zA-Z_0-9]+\?/$xmlhttprequest,domain=pikabu.ru
+/^https?:\/\/pikabu\.ru\/[-~a-zA-Z_0-9]+\?/$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax?$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
@@ -22974,7 +22974,6 @@ pikabu.ru##div[style^="width: 300px; height:"]
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
-||soyztreid.website^$csp=script-src
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
 apad2.top,besplatnyeprogrammy.ru,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.ru,torent-igruha.com,torrent-music.ru,torrent-soft.pro,torrentigo.net,torrentigruha.org,where-game.ru##:not(this-site-promotes-malware)
@@ -23209,6 +23208,7 @@ horo.mail.ru##div[data-adq-id]
 horo.mail.ru##div[data-closewrap-container]
 horo.mail.ru##div[data-module^="Slot.Mimic"]
 ! Дзен
+dzen.ru###top-banner
 dzen.ru##.article-right-ad-block
 dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
 dzen.ru##.zen-ui-viewport-expansion__container:empty
@@ -23745,6 +23745,7 @@ daily.afisha.ru##[data-block-type="AdContainer"]
 weather.rambler.ru##[data-block="seo"]
 championat.com##[data-goal-label*="_fonbet"]
 championat.com##[data-href*="offer"]
+championat.com##[data-href*="okko.sport"]
 autorambler.ru,rambler.ru##[data-news_media-desktop*="rnet_widget"]
 www.afisha.ru##[data-test="LINK OKKO-BUTTON"]
 letidor.ru,moslenta.ru,passion.ru,quto.ru##[id^="unit_"]

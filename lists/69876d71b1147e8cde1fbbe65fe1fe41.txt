@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: hsO9c8SzWVIgRsnKQth/Kw
-! Diff-Path: ../patches/13/13-s-1713443654-3600.patch
+! Checksum: ZPsP9oxt2zfFzG9/j96UGA
+! Diff-Path: ../patches/13/13-s-1713519297-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.31
-! TimeUpdated: 2024-04-18T12:31:42+00:00
+! Version: 2.0.51.32
+! TimeUpdated: 2024-04-19T09:32:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1001,8 +1001,8 @@ shirl.club,altporno.xyz##+js(abort-on-property-read, oV1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177159
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174577
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173741
-filmizlehdfilm.com,hdfilmcehennemi.*,hdfilmizlesene.org##+js(set-constant, reklamsayisi, 1)
-filmizlehdfilm.com,hdfilmcehennemi.*,hdfilmizlesene.org##+js(nano-setInterval-booster, sec--, *, 0.001)
+filmizletv.*,filmizlehdfilm.com,hdfilmcehennemi.*,hdfilmizlesene.org##+js(set-constant, reklamsayisi, 1)
+filmizletv.*,filmizlehdfilm.com,hdfilmcehennemi.*,hdfilmizlesene.org##+js(nano-setInterval-booster, sec--, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171861
 fullfilmizlesene.net##+js(set-constant, app.ads, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172168
@@ -1806,6 +1806,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+||filmizletv.*/*.mp4$~third-party
 oyungezer.com.tr##.inner-wrapper-sticky > div.featured-single:has(> .bannergroup-300)
 hdfilmcehennemi.us##.ps-head-container:empty
 ||hdfilmcehennemi.us/rekla/$media
@@ -2439,8 +2440,8 @@ ensonhaber.com###top-adbar
 ensonhaber.com##.esx-home-mansetalt
 ||dizilost.com/popunderxx.js
 turkiyegazetesi.com.tr###random-ads
-filmizlehdfilm.com,sinema.cc,fullhdfilmizle.*##div[class^="r_header_"]
-filmizlehdfilm.com,hdfilmcehennemi.*,hdfilmizlesene.org,fullhdfilm.pro,fullhdfilmizle.*###footer_fad
+filmizletv.*,filmizlehdfilm.com,sinema.cc,fullhdfilmizle.*##div[class^="r_header_"]
+filmizletv.*,filmizlehdfilm.com,hdfilmcehennemi.*,hdfilmizlesene.org,fullhdfilm.pro,fullhdfilmizle.*###footer_fad
 n11.com##.header-banner-cover
 search.donanimhaber.com###searchForm > .bottomcontainer > #products
 trdoktor.com##a[href^="core.php?ajax=reklam_say"]

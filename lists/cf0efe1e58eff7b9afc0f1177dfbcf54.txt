@@ -2095,7 +2095,7 @@ bondagevalley.cc##+js(rmnt, script, innerHTML)
 in-jpn.com,xth.jp##+js(aopr, Element.prototype.insertAdjacentHTML)
 in-jpn.com,xth.jp##+js(aopr, Node.prototype.appendChild)
 ||in-jpn.com^$script,redirect=noop.js
-||in-jpn.com^$inline-script
+!||in-jpn.com^$inline-script
 ||xth.jp^$script,redirect=noop.js
 ||xth.jp^$inline-script
 *$script,3p,domain=in-jpn.com|xth.jp
@@ -2105,6 +2105,7 @@ in-jpn.com,xth.jp##+js(aopr, Node.prototype.appendChild)
 @@||in-jpn.com^$ghide
 @@||xth.jp^$ghide
 in-jpn.com##[style]:empty
+
 
 ! https://github.com/NanoMeow/QuickReports/issues/21
 ! https://github.com/uBlockOrigin/uAssets/issues/9578

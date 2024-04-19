@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: PsBBCkkmsWq86r6kbWlxVA
-! Diff-Path: ../patches/13/13-s-1713522836-3600.patch
+! Checksum: NiZFQie4FePr/AL0h2xwug
+! Diff-Path: ../patches/13/13-s-1713530045-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.33
-! TimeUpdated: 2024-04-19T10:31:49+00:00
+! Version: 2.0.51.34
+! TimeUpdated: 2024-04-19T12:31:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -793,6 +793,7 @@ dizipal700.com,dizipal701.com,dizipal702.com,dizipal703.com,dizipal704.com,dizip
 ##.fuck-ivr
 ##.fuck-ivr ~ p[style^="background-color:"]
 !
+##.pageskin div[class^="r_reklam_"]
 ##.rkm
 ##.mst_ad
 ##.st_ad
@@ -1236,6 +1237,8 @@ mobile.donanimhaber.com##+js(set-session-storage-item, pageCount, 0)
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/177413
+hdfilmizle.site#$##dt_contenedor { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177389
 dizigom1.tv#$#.jw-preview[style*="background-image: url"] { background: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177159
@@ -1834,7 +1837,6 @@ cioupdate.com.tr##.theiaStickySidebar > .stream-item-widget > .stream-item-widge
 turkanime.co##a[href*="&utm_medium=banner"][target="_blank"] > img
 ||animeevim.com/image/catalog/kampanya/animeevim-2024.gif
 odatv.com##.swiper-wrapper > a[href^="https://www.odatv.com/"] ~ a:not([href^="https://www.odatv.com/"])
-hdfilmcehennemi.*##div[class^="r_reklam_"]
 ||yenisoz.com.tr/modules/adblock/
 ||hops1s.site/gobahis.gif
 ||hops1s.site/radisoninside.gif

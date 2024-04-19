@@ -807,6 +807,9 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+barcanews.org##+js(set, adsShow, true)
+barcanews.org##div.sidebar_ads
+
 ||binaopt.com/wp-content/uploads/*.webm^$media,1p
 binaopt.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
@@ -1621,11 +1624,12 @@ gsm.ir##.sidebar_tabliq
 
 ! https://github.com/MasterKia/PersianBlocker/issues/8
 ! https://github.com/MasterKia/PersianBlocker/issues/170
-gamefa.com###top-banners
-gamefa.com###image-advertise
-gamefa.com##.content-ads
-gamefa.com###fix-advertise
-gamefa.com##:not(:matches-path(/author/post/)) #posts-body > .posts > .box > .d-block > .border-bottom .row .image > span.text-white:has-text(رپرتاژ آگهی):upward(.d-block)
+! https://github.com/AdguardTeam/AdguardFilters/issues/176811
+gamefa.com##header.header-part div.banner:has(> div.d-table-cell > a.d-block > img)
+gamefa.com##section#top-banners
+gamefa.com##section#image-advertise
+gamefa.com##div.content-ads
+gamefa.com##div#fix-advertise
 
 ||ghatreh.com/ads^
 ||ghatreh.com/skins/default/js/najva.js^
@@ -4448,6 +4452,7 @@ www.google.com##.g a[href*="miniroid.com"]> h3::after:style(content: ' [حذفی
 www.google.com##.g a[href*="tinroid.ir"]> h3::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="par30games.net"]> h3::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="p30day.ir"]> h3::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="downloadha.com"]> h3::after:style(content: ' [لینک دانلود در کانال تلگرام] ' !important; color: #E6000D !important;)
 !#else
 www.google.com##a[href*="download.ir"] div[role="link"]::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="magbazi.com"] div[role="link"]::after:style(content: ' [لینک دانلود در کانال تلگرام] ' !important; color: #E6000D !important;)
@@ -4458,6 +4463,7 @@ www.google.com##a[href*="darkroid.ir"] div[role="link"]::after:style(content: ' 
 www.google.com##a[href*="miniroid.com"] div[role="link"]::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="tinroid.ir"] div[role="link"]::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="par30games.net"] div[role="link"]::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="downloadha.com"] div[role="link"]::after:style(content: ' [لینک دانلود در کانال تلگرام] ' !important; color: #E6000D !important;)
 !#endif
 
 duckduckgo.com##a[data-testid="result-title-a"][href*="download.ir"]::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
@@ -4469,6 +4475,7 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="darkroid.ir"]::after:styl
 duckduckgo.com##a[data-testid="result-title-a"][href*="miniroid.com"]::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="tinroid.ir"]::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="par30games.net"]::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="downloadha.com"]::after:style(content: ' [لینک دانلود در کانال تلگرام] ' !important; color: #E6000D !important;)
 
 search.brave.com##div#results > div.snippet > a.result-header[href*="download.ir"] > span.snippet-title::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="magbazi.com"] > span.snippet-title::after:style(content: ' [لینک دانلود در کانال تلگرام] ' !important; color: #E6000D !important;)
@@ -4479,6 +4486,7 @@ search.brave.com##div#results > div.snippet > a.result-header[href*="darkroid.ir
 search.brave.com##div#results > div.snippet > a.result-header[href*="miniroid.com"] > span.snippet-title::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="tinroid.ir"] > span.snippet-title::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="par30games.net"] > span.snippet-title::after:style(content: ' [حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="downloadha.com"] > span.snippet-title::after:style(content: ' [لینک دانلود در کانال تلگرام] ' !important; color: #E6000D !important;)
 
 !-------------------------^ Warning for game censorship sites ^-----------------------!
 

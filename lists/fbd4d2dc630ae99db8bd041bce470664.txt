@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: +J4owsQorqxQW/f/XD1c5A
-! Version: 202404191351
+! Checksum: jJKqX5pc78ZwH58FhCXvUw
+! Version: 202404191451
 ! Title: EasyList Germany
-! Last modified: 19 Apr 2024 13:51 UTC
+! Last modified: 19 Apr 2024 14:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5213,6 +5213,7 @@ promiflash.de##.onlyDesktop:has(div.adContainer)
 onvista.de##.ov-article-teaser:has(.ov-article-teaser__onvistaCustomer)
 fertigung.de##.owl-carousel.owl-loaded.owl-drag:has(.label-ad-highlight)
 heise.de##.p-3.-mx-3.bg-gray-50:has(a[data-component="TeaserLinkContainer"]:not(a[href^="https://www.heise.de/api/accountservice/subscribe/"]))
+expert.de##.pm-items > [widget-child]:has([ping^="//b.nl3.eu.criteo.com/rm?"])
 running-magazin.com##.post-grid-item.grid-item:has(.ad-badge)
 photographie.de##.post.type-post.status-publish:has(.anzeige-box)
 dashcamtest.de##.previewtile.swiper-slide:has(a[href^="https://amzn.to/"])
@@ -5249,6 +5250,7 @@ windowspro.de##.view-idcontent:has(a[href^="/sponsored/"])
 gebrauchtwagenberater.de##.wp-block-group:has(.wp-block-button__link)
 berlinstadtservice.de##.wrap-col.box4:has(a[href^="https://www.awin1.com/"])
 zeit.de##.zett-teaser-trio:has(.zett-teaser-trio__kicker--ad-anzeige)
+expert.de##[data-key-id]:has([src^="//b.nl3.eu.criteo.com/rm?"])
 flaconi.de##[data-product-list-id]:has([data-badge-type="sponsored"])
 ariva.de##a.background-red-bright:has(span.anzeige)
 shop-apotheke.com##article.o-CompactProductListItem:has(a[href^="https://retail-api.sa-tech.de/api/"])

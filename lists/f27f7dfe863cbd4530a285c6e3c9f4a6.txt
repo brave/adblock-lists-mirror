@@ -1,9 +1,9 @@
-! Checksum: mchdsRks6DgzsC+NeB75YQ
-! Diff-Path: ../patches/7/7-s-1713458047-3600.patch
+! Checksum: hhyY99/v+yKEPCfEfyFoZA
+! Diff-Path: ../patches/7/7-s-1713548033-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.66
-! TimeUpdated: 2024-04-18T16:31:35+00:00
+! Version: 2.0.50.67
+! TimeUpdated: 2024-04-19T17:31:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1756,6 +1756,10 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+famitsu.com##.banner-center
+famitsu.com##div[class^="ArticleDetailBanner_container_"]
+famitsu.com##div[class^="HalfPageBottomOrLargeRectangle_container_"]
+famitsu.com##div[class^="TopHeaderBanner_wrapper_"]
 adacomi.com##div[style^="margin-top:50px;background-color:#FFF;padding:20px;"]
 ||10s.link/iframe/
 uchubiz.com###RECT
@@ -5590,7 +5594,6 @@ theav.xyz##.c307ad
 .gif$domain=theav.xyz,third-party
 zabuu.site##.ads_za
 seikyouiku-illust.com##.c-sponsorbanner
-||s.famitsu.com/ssi/*/amazon_ranking/amp-iframe/top_selling_product.html
 famitsu.com##amp-iframe[width="382"][height="700"]
 famitsu.com##.article-ads__heading
 ero-kawa.com###main2_footer-ad-bottom
@@ -10395,6 +10398,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !
 !
 !
+! unable to move
+@@||impact-ad.jp/fh/showad_$script,domain=famitsu.com
 ! https://twitter.com/_webgoto/status/1779190832840753612
 [$path=/amafav/]service.webgoto.net#@$#.image_box[style*="amazon.co"] { background: none !important; }
 [$path=/amafav/]service.webgoto.net#@#a[href^="https://www.amazon.co.jp"][target="_blank"]

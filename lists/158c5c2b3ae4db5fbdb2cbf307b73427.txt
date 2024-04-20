@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PsqLGqoBFdYTww/JEGmt2Q
-! Version: 202404201251
+! Checksum: oWKk16X8fjDagc/xT1wMcA
+! Version: 202404201351
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Apr 2024 12:51 UTC
+! Last modified: 20 Apr 2024 13:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -361,6 +361,7 @@ _vkontakte.png
 ||telegrafcom.api.oneall.com/socialize/
 ||telegram.org/js/telegram-widget.js$domain=varlamovru.livejournal.com
 ||thevista.ru/*/img/soc/
+||turkrutv.tv/bitrix_storage/images/
 ||twitter.com/widgets.js$domain=hdrezka.tv
 ||tyt.by/i/socialBlock/
 ||umovies.club/flowplayer/src/assets/bg*jpg|$image
@@ -993,6 +994,7 @@ anilove.tv,animechan.tv##.content_player ~ .content_block_pc
 football.kulichki.net##.content_top_line > a[href]
 nv.ua#?#.content_wrapper > p:-abp-has(> a[href^="https://t.me/"])
 comments.ua#?#.conteres > p:-abp-has(> a[href^="https://t.me/"])
+turkrutv.tv##.conversation-block
 coub.com##.coub__sharing__list > [data-img]
 economistua.com##.cp-slidein-popup-container
 banker.ua##.cs_telegram-container
@@ -1038,6 +1040,7 @@ google.com##.entry-actions > .like
 google.com##.entry-author > .entry-likers
 the-geek.ru##.entry-content > .g-24
 gk-press.if.ua##.entry-content > div[style^="color: red;"]
+kyivvlada.com.ua##.entry-footer > .icons
 fbm.ru##.entry-footer__share-title
 electrotests.ru,test24.wweek.ru,tests24.su##.entry-meta
 eagleplatform.com##.eplayer-skin-share
@@ -1273,6 +1276,7 @@ argumentiru.com##.head_soc
 glavpost.ua##.head_social
 facenews.ua##.header .icon
 moika78.ru,nevasport.ru##.header-box__social
+kyivvlada.com.ua##.header-custom-button
 tulapressa.ru##.header-left_space-link
 gordonua.com#?#.header-menu > .header-menu__item:-abp-has(> nav > ul > li > .telegram-h)
 tv-gubernia.ru##.header-mlinks
@@ -1287,6 +1291,7 @@ dymka.com.ua##.header-social-network
 aspekty.net##.header-social-wrap
 1istochnik.ru##.header-socialbox
 nv.ua##.header-submenu-wrapper-social
+hdrezka.it##.header-subscr
 industry-hunter.com##.header-top-part > .container > .row > .d-none
 kp.kg,kp.kz,kp.md,kp.ru##.header-top__soc-link
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,proizhevsk.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru##.headerInner > div + div
@@ -1631,6 +1636,7 @@ telekritika.ua##.penci_social_widget
 gidonline.eu##.pf
 riamo.ru##.photo-card--sn-badge
 yapx.ru##.photoblock-social-block
+kyivvlada.com.ua##.pidp
 golbis.com##.pinc-share
 overclockers.ru##.pip-soci
 player.smotrim.ru,player.vgtrk.com##.pl-vid__share-icon:not(.pl-vid__share-icon_code)
@@ -1675,6 +1681,7 @@ eurointegration.com.ua,istpravda.com.ua,odessa.online,pravda.com.ua##.post__soci
 epravda.com.ua,eurointegration.com.ua##.post__social__item
 epravda.com.ua,eurointegration.com.ua,pravda.com.ua##.post__statistic > .post__comments
 eurointegration.com.ua##.post__subscribe_bottom
+pravda.com.ua##.post_news_social
 1kr.ua,pravda.com.ua##.post_social
 ratel.kz##.post_social_item
 fbc.biz.ua##.post_subscribe
@@ -1685,7 +1692,7 @@ onliner.by##.project-navigation__link_secondary
 friday.ru##.project-social
 regionews.ua##.promo-channel
 vechirniy.kyiv.ua#?#.promo-inner > .container:-abp-has(> a[href^="https://t.me/"])
-turkru.tv##.promo-wrap
+turkrutv.tv##.promo-soc
 nv.ua##.promo_telegram
 psm7.com##.psm-social-container
 psm7.com##.psm-telegram-container
@@ -2125,7 +2132,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,blackwot.ru,cherkasy.live,comedy-radio.ru,dumka.media,footboom.com,fraza.com,gotennis.ru,kanaldim.tv,ku66.ru,kurs.if.ua,lifehacker.ru,mos-holidays.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,news.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,realnoevremya.ru,regnum.ru,relax-fm.ru,sknews.net,stopcor.org,teleprogramma.pro,thegirl.ru,turkru.tv,tvoemisto.tv,ua.news,uatv.ua,virtualbrest.ru##.socials
+101.ru,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,blackwot.ru,cherkasy.live,comedy-radio.ru,dumka.media,footboom.com,fraza.com,gotennis.ru,kanaldim.tv,ku66.ru,kurs.if.ua,lifehacker.ru,mos-holidays.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,news.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,realnoevremya.ru,regnum.ru,relax-fm.ru,sknews.net,stopcor.org,teleprogramma.pro,thegirl.ru,tvoemisto.tv,ua.news,uatv.ua,virtualbrest.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -4143,7 +4150,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||track24.ru/newyear/
 ||tranceshop.ru^$image,domain=psy-music.ru
 ||tsargrad.tv/js/fly-news.js
-||turkru.tv/bitrix_storage/images/
 ||tut.by/push/
 ||tvz.im/video/promo.
 ||twister.lifehacker.ru^$domain=~twister.lifehacker.ru
@@ -5027,6 +5033,7 @@ ichip.ru##.float-subscribe
 playground.ru##.float-teaser
 searchengines.guru##.float-vertical-panel
 101.ru##.flying-banner-wrapper
+forum.ixbt.com##.folders_annc
 nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru##.follow-popup
 mind.ua##.follow_us_buttons
 oper.ru,russian.rt.com##.follows-channel
@@ -6149,7 +6156,6 @@ lifehacker.ru#?#div[class*="container"] div[class*="article-card__"]:-abp-has(> 
 lifehacker.ru#?#div[class*="container"] div[class*="article-card__"]:-abp-has(> [class*="article-card"] .lh-article-card-meta__promo)
 agroxxi.ru##div[class*="gsubs"]
 ntop.tv##div[class*="header-banner"]
-stratege.ru##div[class*="info"] > div[class$="_title"] + div[class$="_outer"]
 gameout.ru##div[class*="mailpoet_form"]
 1plus1.ua##div[class*="popup"][class*="subscribe"]
 1tv.ru##div[class*="promo"][class$="place"]

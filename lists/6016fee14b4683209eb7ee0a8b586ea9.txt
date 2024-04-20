@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: tU5Fux9yz8jp6/7HzVdvVA
-! Diff-Path: ../patches/16/16-s-1713513430-3600.patch
+! Checksum: QV1T/mvqKUEMoQTCtDdm1g
+! Diff-Path: ../patches/16/16-s-1713652427-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.58
-! TimeUpdated: 2024-04-19T07:54:30+00:00
+! Version: 2.0.44.59
+! TimeUpdated: 2024-04-20T22:31:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13887,6 +13887,7 @@ _siteunder/$popup
 ||fr-dustreaming.com^$popup
 ||freeadult.games^$popup,third-party
 ||freelovehere.com^$popup
+||frjelsoieapoas.shop^$popup
 ||frstlead.com^$popup,third-party
 ||frtyl.com^$popup
 ||frtyo.com^$popup,third-party
@@ -18076,6 +18077,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||guide-du-travail.com/popupaudio.php$popup
 ||histoires-de-sexe.net/histoires-sexe-videos.php$popup
 ||hotvideo.fr/popup.php$popup
+||japscan.lol/*=$popup
 ||jetanimes.com/wp-content/uploads/$popup
 ||liligo.*/compareSites/$popup
 ||links.fhsarl.com^$popup,third-party
@@ -21218,6 +21220,7 @@ journaldunet.com###ctn_infeed
 edcom.fr###decouvrirActu
 amazon.fr###desktop-rhs-carousels_click_within_right
 papvacances.fr###details-services
+japscan.lol###dlinkc
 fluvore.com###download
 boulistenaute.com###dropin
 petitfute.com###dv_partenaire
@@ -21764,6 +21767,7 @@ largus.fr##.conteneur-sas
 quetelecharger.com##.content-bloc-pub
 cotemaison.fr,lexpress.fr##.content_inside_partner
 nintendo-master.com##.content_kelkoo_link
+japscan.lol##.copines
 lotusnoir.info##.countclick
 boredpanda.com##.cover-banner
 ma-reduc.com##.covering
@@ -22564,6 +22568,7 @@ domimmo.com##div#an-fin-legales
 annuaire-horaire.fr##div#aq
 pyrenees-team.com##div#link
 gamopat-forum.com##div#wrapper > div#right img[src*="/11/03/61/79/"]
+japscan.lol##div.container > [href]
 finansemble.fr##div.div_description_v2[style="max-width:750px;"]
 kozikaza.com##div[class$="item--ad"]
 net-iris.fr##div[class$="promo-container"]

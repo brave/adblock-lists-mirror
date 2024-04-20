@@ -1,9 +1,9 @@
-! Checksum: hhyY99/v+yKEPCfEfyFoZA
-! Diff-Path: ../patches/7/7-s-1713548033-3600.patch
+! Checksum: oG+2093OAQipqetlk6BPHA
+! Diff-Path: ../patches/7/7-s-1713598437-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.67
-! TimeUpdated: 2024-04-19T17:31:35+00:00
+! Version: 2.0.50.68
+! TimeUpdated: 2024-04-20T07:31:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1774,6 +1774,7 @@ bipblog.com##.main_center_body_text div[align="center"]:has(> a[href^="https://a
 j-baseball.club##.ad-space-top-footer
 j-baseball.club##.ad-space-top-header
 blog.janjan.net##.entry-content > p.has-text-align-center
+nan-net.com##.thread_body > div[style^="margin-top:50px;background-color:#FFF;"]
 nan-net.com##iframe[id^="bottomad"]
 nan-net.com###middleadv-nex
 nan-net.com##a[href^="https://nosports-nofoul.tokyo/"]
@@ -1793,7 +1794,7 @@ toririnon.com##.box2:has(> p > a[href^="https://hb.afl.rakuten.co.jp/"])
 ichi-oshi.jp##.adsence_sp
 maikuranikki.jp##.more-ad-title
 maikuranikki.jp##.kanren-under-ad-title
-nan-net.com##iframe[src*="/inc/footadv_s_in/"]
+nan-net.com##iframe[src*="/bbs/inc/"]
 nan-net.com##.bottom_aff
 nan-net.com###b_frame > #bottom_neta_list + a > div[style]
 ||1rankup.jp/floating-ads.js
@@ -1968,7 +1969,7 @@ mysterynavi.com,puzzcore.com###main-content > p.semihide
 puzzcore.com###navi-r > div[style="margin-left:15px;"]:not([class])
 puzzcore.com###relatedItem
 puzzcore.com##.TRelatedItem
-||nan-net.com/show/bbs/inc/$subdocument
+||nan-net.com/*/bbs/inc/$subdocument
 nan-net.com##iframe[src="/show/bbs/s/inc/footadv_s_in/"]
 erodoganomori.net##.entry-content > div[style="margin-bottom:10px"] > a[href^="https://al.dmm.co.jp"]
 erodoganomori.net##.entry-content > h2:has(+ p + div[style="margin-bottom:10px"])

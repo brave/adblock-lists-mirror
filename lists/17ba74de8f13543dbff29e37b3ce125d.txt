@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202404200418
+! Version: 202404200715
 ! Title: EasyList
-! Last modified: 20 Apr 2024 04:18 UTC
+! Last modified: 20 Apr 2024 07:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -16906,7 +16906,7 @@ _800x80_
 ##[href^="https://track.fiverr.com/visit/"] > img
 ##[href^="https://turtlebids.irauctions.com/"] img
 ##[href^="https://v.investologic.co.uk/"]
-##[href^="https://wct.link/"]
+##[href^="https://wct.link/click?"]
 ##[href^="https://www.avantlink.com/click.php"] img
 ##[href^="https://www.brighteonstore.com/products/"] img
 ##[href^="https://www.cloudways.com/en/?id"]
@@ -16940,10 +16940,8 @@ _800x80_
 ##a[href^="//s.zlinkd.com/"]
 ##a[href^="//startgaming.net/tienda/" i]
 ##a[href^="http://adultfriendfinder.com/go/"]
-##a[href^="http://affiliate.glbtracker.com/"]
 ##a[href^="http://annulmentequitycereals.com/"]
 ##a[href^="http://avthelkp.net/"]
-##a[href^="http://bc.vc/?r="]
 ##a[href^="http://bongacams.com/track?"]
 ##a[href^="http://cam4com.go2cloud.org/aff_c?"]
 ##a[href^="http://com-1.pro/"]
@@ -16987,8 +16985,8 @@ _800x80_
 ##a[href^="https://adclick.g.doubleclick.net/"]
 ##a[href^="https://ads.ad4game.com/"]
 ##a[href^="https://ads.betfair.com/redirect.aspx?"]
-##a[href^="https://ads.leovegas.com/redirect.aspx?"]
-##a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"]
+##a[href^="https://ads.leovegas.com/"]
+##a[href^="https://ads.planetwin365affiliate.com/"]
 ##a[href^="https://adultfriendfinder.com/go/"]
 ##a[href^="https://ak.hauchiwu.com/"]
 ##a[href^="https://ak.oalsauwy.net/"]
@@ -17008,8 +17006,7 @@ _800x80_
 ##a[href^="https://cam4com.go2cloud.org/"]
 ##a[href^="https://camfapr.com/landing/click/"]
 ##a[href^="https://cams.imagetwist.com/in/?track="]
-##a[href^="https://chaturbate.com/in/?tour="]
-##a[href^="https://chaturbate.com/in/?track="]
+##a[href^="https://chaturbate.com/in/?"]
 ##a[href^="https://chaturbate.jjgirls.com/?track="]
 ##a[href^="https://claring-loccelkin.com/"]
 ##a[href^="https://click.candyoffers.com/"]
@@ -17359,8 +17356,6 @@ _800x80_
 ! Ad widgets
 ##.BeOpWidget
 ! VPN Affiliate Banners
-##a[href^="http://https://www.get-express-vpn.com/offer/"]
-##a[href^="https://affiliate.rusvpn.com/click.php?"]
 ##a[href^="https://billing.purevpn.com/aff.php"] > img
 ##a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="]
 ##a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img
@@ -68166,6 +68161,7 @@ vice.com##.adph
 1sale.com,1v1.lol,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstar.com.au,canstarblue.co.nz,cheapies.nz,climatechangenews.com,cryptonomist.ch,currencyrate.today,economictimes.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,flashx.tv,gamesadshopper.com,geo.tv,govtrack.us,gramfeed.com,hentaikun.com,hockeyfeed.com,i24news.tv,idiva.com,indiatimes.com,inspirock.com,investing.com,m.economictimes.com,mangasect.com,marinetraffic.com,mb.com.ph,mega4upload.com,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,motogp.com,mugshots.com,nbc.na,news.nom.co,nsfwyoutube.com,onlinerekenmachine.com,ozbargain.com.au,piliapp.com,readcomicsonline.ru,russia-insider.com,russian-faith.com,savevideo.me,sgcarmart.com,sherdog.com,straitstimes.com,teamblind.com,tehrantimes.com,tellerreport.com,thenews.com.pk,thestar.com.my,viamichelin.com,viamichelin.ie,vijesti.me,y8.com,yummy.ph##.ads
 moneycontrol.com##.ads-320-50
 dallasinnovates.com##.ads-article-body
+digg.com##.ads-aside-rectangle
 dnaindia.com,wionews.com##.ads-box-300x250
 wionews.com##.ads-box-300x300
 dnaindia.com,wionews.com##.ads-box-970x90
@@ -68750,7 +68746,7 @@ canada411.ca##.c411TopBanner
 sussexexpress.co.uk##.cIffkq
 filepuma.com##.cRight_footer
 fmforums.com##.cWidgetContainer
-money.com##.ca-pcu-inline
+digg.com,money.com##.ca-pcu-inline
 thecable.ng##.cableads_mid
 strategie-bourse.com##.cadre_encadre_pub
 cafonline.com##.caf-o-sponsors-nav

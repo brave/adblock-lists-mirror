@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: DsoI2b2tyXpD/ICeyy4Euw
-! Diff-Path: ../patches/224/224-s-1713627227-3600.patch
+! Checksum: azPBLlrKmGF2aNg8u4JuLA
+! Diff-Path: ../patches/224/224-s-1713630823-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.14.47
-! TimeUpdated: 2024-04-20T15:32:01+00:00
+! Version: 2.1.14.48
+! TimeUpdated: 2024-04-20T16:31:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5290,6 +5290,7 @@ newduba.cn###jq_youxi
 ||88lm11.com^
 ||szfmr.cn^
 ||ihwlek.com^
+||jaychu.top^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -13049,7 +13050,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||speedtest.cn/api/v2/show?
 ||speedtest.cn/assets/images/ce_
 ||sportscn.com/js/commerical
-||sportsv.net/dist/ads/
 ||spqi.xyz/static/tmp/
 ||srootshare.com/otmyjs/
 ||ss9874.com/img/91_
@@ -13730,6 +13730,7 @@ zol.com.cn###Article_Top_Banner
 avmimi.com###ArticlesEx_box
 gamer.com.tw###BH-bigbanner
 downyi.com###BzDown
+agentm.tw##.gpt-ad-slot
 ifeng.com###CA_left
 ifeng.com###CA_right
 cnfol.com###CjAdvBt
@@ -15836,7 +15837,7 @@ pconline.com.cn##.box-jcz
 dl.pconline.com.cn##.box-push
 soft-down.net##.box-top-xiazai
 bjcxqd.com##.box-vdgd
-sportsv.net##.box.ad
+sportsv.net##.adv01
 csdn.net##.box.hot
 lolshipin.com##.box2
 mobanwang.com##.box960x90

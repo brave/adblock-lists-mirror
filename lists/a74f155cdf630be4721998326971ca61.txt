@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 139
+! Version: 140
 ! Title: Slovenian List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -23,19 +23,6 @@
 @@||sibautomation.com/cm.html$subdocument
 @@||sparky.internetmedia.si^$domain=nepremicnine.net
 @@||static.igre123.com/ads/*.gif$domain=igre123.com
-! RTVSLO Joker sign-up element (rtvslo.si/joker):
-rtvslo.si#@#.adloaded
-rtvslo.si#@#.iAdserver
-@@||a.ipromcloud.com/*/cca7a08cba3a447c2e19ebeb8b7c773a_728.gif
-@@||cdn.ipromcloud.com/ipromNS.js$domain=rtvslo.si
-@@||cdn.ipromcloud.com/script/format/Classic.js*$domain=rtvslo.si
-@@||cdn.ipromcloud.com/script/Prebid.js$domain=rtvslo.si
-@@||cdn.ipromcloud.com/script/Utils.js$domain=rtvslo.si
-@@||cdn.ipromcloud.com/site/rtvslo.js*$domain=rtvslo.si
-@@||core.iprom.net/Click?*&redirect=http%3A%2F%2Fwww.sli.do%2Fjoker
-@@||core.iprom.net/impression*$domain=rtvslo.si
-@@||core.iprom.net/Log?$domain=rtvslo.si
-@@||core.iprom.net/site*$domain=rtvslo.si
 !
 ! Network filters
 ! arnes.si etc.:
@@ -171,7 +158,7 @@ rtvslo.si#@#.iAdserver
 ! Specific element hiding filters
 1nadan.si##.background_link
 24ur.com,cekin.si,mojaleta.si,moskisvet.com,napovednik.com,strojnistvo.com,studentarija.net,svet24.si,tehnik.telekom.si,vreme.24ur.com,zadovoljna.si##.banner
-24ur.com,moskisvet.com###proad
+24ur.com,moskisvet.com,zadovoljna.si###proad
 24ur.com##.article__body > div > a
 24ur.com##.banner__below
 24ur.com##.banner__billboard
@@ -179,6 +166,7 @@ rtvslo.si#@#.iAdserver
 24ur.com##.border-black\/08.border-l
 24ur.com##.justify-center.sidebar__box
 24ur.com##.proad
+24ur.com##.shop-image
 24ur.com##.sidebar__banner:has(.ads-player)
 24ur.com##.sidebar__box:has(.bg-brand-caszazemljo,.eurojackpot,.pr,.voyobox)
 adomnia.net##.banners-box
@@ -220,6 +208,7 @@ bolha.com##.sectionBlock.Headline
 bolha.com##.TitlePage-bannerWrapper
 bolha.com##.TitlePage-block.Headline
 bolha.com##.trakica_container
+bolha.com##[id^=midasWidget]
 bolha.com###coloumnAd
 bolha.com###newsOfTheDay
 bolha.com###servicesToItems
@@ -311,8 +300,12 @@ letakonosa.si##.signad
 letakonosa.si##.sticky-position
 lifestyle.enaa.com##.addthis_toolbox
 lifestyle.enaa.com##.widget_subscribe_widget
+lokalec.si##.navbar-right
+lokalec.si##.reklama_desno
+lokalec.si###reklama_desno
 lokalno.si##.other
 lupa-portal.si##.ekode-content-dno
+maribor24.si,med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si,t3tech.si,zurnal24.si##.lwdgt
 marketingmagazin.si##.banner--wrapper
 marketingmagazin.si##.content--cta
 marketingmagazin.si##.exposed__banner
@@ -322,7 +315,6 @@ mediaspeed.net##.banner_cont
 med.over.net##blockquote
 med.over.net##.category-banner-desktop
 med.over.net##.feedo
-med.over.net,metropolitan.si,n1info.si,sobotainfo.com,svet24.si,t3tech.si,zurnal24.si##.lwdgt
 med.over.net,tocnoto.si##.livenetlife_links
 med.over.net##.widget_oglas_widget
 med.over.net###lnl-footer
@@ -427,13 +419,8 @@ rfantasy.si###DivShowBannersForFrontPage
 ringaraja.net##.bannerInText
 ringaraja.net##.h-banner
 ringaraja.net###newsletterFrame
-rtvslo.si##.billboard-advert-item
-rtvslo.si##.dynamic-advert-article-inside
-rtvslo.si##.exposed-article
-rtvslo.si##.inArticle
 rtvslo.si##.inverted-colors.teal.emphasis
-rtvslo.si##.iprom-background-placement
-rtvslo.si###newsletter-popup-unsigned
+rtvslo.si###newsletter-popup
 sentjur.net##.bsaProItems
 siol.net##.card--ts_storitva
 siol.net##.fold_pr

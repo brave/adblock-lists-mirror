@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xtxSTyffCIsBaq4Pi1mc3Q
-! Version: 202404210651
+! Checksum: kWoJ+dBhTjjIY7DZC9E0yQ
+! Version: 202404210751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Apr 2024 06:51 UTC
+! Last modified: 21 Apr 2024 07:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22937,6 +22937,7 @@ lada.kz/uploads/banners/
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
+||soyztreid.website^$popup
 ! Liveinternet (ловушка для обфускации)
 ||liveinternet.ru/utf/lici.js?
 !/^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
@@ -22983,6 +22984,7 @@ pikabu.ru##div[style^="width: 300px; height:"]
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
+||soyztreid.website^$csp=script-src
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
 apad2.top,besplatnyeprogrammy.ru,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.ru,torent-igruha.com,torrent-music.ru,torrent-soft.pro,torrentigo.net,torrentigruha.org,where-game.ru##:not(this-site-promotes-malware)
@@ -25496,6 +25498,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||sys000.uid.me/canalyzer/$script,domain=nashaplaneta.su
 @@||tableterra.ru/wp-content/uploads/*/*/*-*x*.$image,domain=tableterra.ru
 @@||tagline.ru/img/favicons_top100_$image,domain=tagline.ru
+@@||talk.hyvor.com/embed/$domain=comss.one|comss.ru
 @@||tatler.ru/resize_*_320x250_$domain=tatler.ru
 @@||tattoonsk.ru^*_ad4.$domain=tattoonsk.ru
 @@||teachvideo.ru/advert/$~third-party

@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.3.5
+! Version: 3.6.3.6
 
 ! General
 
@@ -388,9 +388,8 @@ modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
 ! GEDI.it sites
 ||huffingtonpost.it/*/news/$inline-script
 ||lastampa.it/*/news/$inline-script
-||repubblica.it/*/news/$inline-script
-huffingtonpost.it,ilsecoloxix.it,lastampa.it,repubblica.it##+js(cookie-remover, blaize_session)
-huffingtonpost.it,lastampa.it,repubblica.it##aside#widgetDP,div[id^="adv"]
+huffingtonpost.it,lastampa.it##+js(cookie-remover, blaize_session)
+huffingtonpost.it,lastampa.it##aside#widgetDP,div[id^="adv"]
 ||scripts.repubblica.it/pw/pw.js$script,domain=italian.tech|moda.it
 italian.tech,moda.it##div#ph-paywall:remove()
 italian.tech,moda.it##+js(ra, style, div#article-body, stay)

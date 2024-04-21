@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gH8m0086Tl/lisBPjpUJJw
-! Version: 202404211201
+! Checksum: EgYnZ1uyuKQKlWzNex7HhA
+! Version: 202404211251
 ! Title: EasyList Spanish
-! Last modified: 21 Apr 2024 12:01 UTC
+! Last modified: 21 Apr 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -787,6 +787,7 @@ hitfm.es#@#.publi
 ||cinetux.nu/api/spots/
 ||clivertv.xyz/assets/img/suscripcion.png
 ||clm21.es/anuncios/
+||cronicabalear.es/access/public/img/anuncios/
 ||cronista.com/files/banner/
 ||cuencanews.es/anuncios/
 ||cuevana.biz/edgeSystemRunV2.js
@@ -873,7 +874,6 @@ hitfm.es#@#.publi
 /avisos^$image,domain=novalaplata.com
 /elements*/publicitat^$image,domain=lesportiudecatalunya.cat
 /public/Image/*banner*^$image,domain=alicanteplaza.es|castellonplaza.com|valenciaplaza.com
-/public/img/anuncios/*$image,domain=cronicabalear.es
 /publicity/*$subdocument,domain=aodirectos.xyz|hdchannel.xyz|livexonline.xyz|srfixerhd.info
 /skin-esportmaniacos$image,domain=esportmaniacos.com
 /static/BB3HTML/images/*sponsor*.png$domain=diariodecadiz.es|diariodejerez.es|diariodesevilla.es|elalmeria.es|eldiadecordoba.es|europasur.es|granadahoy.com|huelvainformacion.es|malagahoy.es
@@ -1763,7 +1763,7 @@ aguaita.cat,naciodigital.cat,pallarsdigital.cat,rubitv.cat,tarragonadigital.com#
 esdiario.com##.publi-top
 aguaita.cat,pallarsdigital.cat,pensem.cat,rubitv.cat,tarragonadigital.com##.publi_interpagina
 lawebdelprogramador.com##.publi_robapaginas
-0221.com.ar,areajugones.sport.es,generacionuniversitaria.com.mx,iberempleos.es,lavozdealmeria.com,meteored.cl,meteored.com.ar,meteored.com.py,meteored.mx,neomotor.com,pulzo.com,tiempo.com##.publicidad
+0221.com.ar,areajugones.sport.es,cronicabalear.es,generacionuniversitaria.com.mx,iberempleos.es,lavozdealmeria.com,meteored.cl,meteored.com.ar,meteored.com.py,meteored.mx,neomotor.com,pulzo.com,tiempo.com##.publicidad
 fulltv.com.ar##.publicidad-728-top
 record.com.mx##.publicidadBoxBanner300x75
 diario.mx##.publicidad_basica
@@ -3066,6 +3066,7 @@ famosateca.es##div[align^="center"]
 @@||googletagservices.com/tag/js/gpt.js$domain=ivoox.com|pccomponentes.com
 @@||iframes.5centscdn.com/5centscdn/*&adTagUrl=https://pubads.g.doubleclick.net/$subdocument,domain=teletica.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=api.apolomedia.com|carolina.cl|crhoy.com|niusdiario.es|paxtvmovil.org|radiocandela.cl|romantica.cl|rtve.es|tn.com.ar
+@@||jsdelivr.net/npm/videojs-contrib-ads@6.7.0/dist/videojs.ads.css$stylesheet,domain=eluniversal.com.mx
 @@||laneros.com/temas/*-publicidad.
 @@||letrasyfuentes.com/tardisrocinante/screx.js?$script,~third-party
 @@||live.primis.tech/live/$script,domain=bolavip.com|dalealbo.cl|futbolcentroamerica.com|juanbeisbol.com|juanfutbol.com|lapaginamillonaria.com|redgol.cl|somosfanaticos.fans

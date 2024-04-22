@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: f96PqTAPGP2n+xpR2bxEIA
-! Diff-Path: ../patches/1/1-s-1713796455-3600.patch
+! Checksum: IgSFJZt/pyDW01xmcQ4jpg
+! Diff-Path: ../patches/1/1-s-1713803652-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.31
-! TimeUpdated: 2024-04-22T14:31:05+00:00
+! Version: 2.0.90.32
+! TimeUpdated: 2024-04-22T16:31:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -74,6 +74,10 @@
 ! Good: .org/ads/
 ! Bad: .org/ads/$domain=example.org (for instance, should be in speficic.txt)
 !
+! luckyfeed.tech
+/.feed/v5/ad?stream_uuid=
+! HDVB player
+/content/stream/1xbet/*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175774
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175766
 /rtb/kodik_instream?$xmlhttprequest
@@ -1476,6 +1480,9 @@ ucoz.ru/informer/
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||tracker.pushmeback.com^
+||isrv07.com^
+||cdn-t.vb24131crasosnemesis.com^
 ||kyccmn.com^
 ||ads.people-group.net^
 ||cdn.sov.stream^
@@ -5140,6 +5147,7 @@ kino.mail.ru##button[class*="adv-marker"] + div.text
 ||auto.mail.ru/sw-mobile.js
 ! minigames.mail.ru - ads replacement script
 !
+e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, ()))\,v.Z.themes.on("themes:)
 ! probably obsolete:
 !
 ! ok.ru
@@ -7388,6 +7396,8 @@ meta-ratings.com.ua,metaratings.ru##.main-top-bookmakers
 sinoptik.com.ru,sinoptik.ua###adsZone
 sinoptik.com.ru,sinoptik.ua###adsZone3
 ||sinst.fwdcdn.com/img/partners/$domain=sinoptik.com.ru|sinoptik.ua
+! HDVB players
+vb24131crasosnemesis.com##+js(set-constant, playerConfigs.rek, {})
 !
 ! monetizer.guru
 lumpics.ru,russkiiyazyk.ru,taker.im,glav-dacha.ru,megabitcomp.ru,programdownloadfree.com,diwis.ru,tehnika.expert,sdelaicomp.ru,dooralei.ru,rugraphics.ru,samelectrik.ru,sam-sdelay.ru,colady.ru,menstois.ru,windowstune.ru,it-doc.info,d-mod.ru,iklife.ru,fitnavigator.ru,bouw.ru,serviceyard.net,love-mother.ru,svoimi-rykami.ru,sekreti-domovodstva.ru,selfmadetrip.com,subsidii.net,viborprost.ru,anisima.ru,snow-motion.ru,antirodinka.ru,brjunetka.ru,rusadmin.biz,sprintotvet.ru,info-effect.ru,telefongid.ru,oblcit.ru,guitarrist.ru,usatiki.ru,mydizajn.ru,3witcher.ru,historynotes.ru,zakonguru.com,rainbowsky.ru,kulikavto.ru,13idei.ru,toysew.ru,privivkainfo.ru,azku.ru,catfishes.ru,ethnoboho.ru,ustroim-prazdnik.info,baragozik.ru,idealsad.com,kopomko.ru,teleotvet.ru,ixtira.tv##+js(abort-on-property-write, fpm_adbDetect)

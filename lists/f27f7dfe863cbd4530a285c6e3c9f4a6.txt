@@ -1,9 +1,9 @@
-! Checksum: Xqx0Zu/F2sGJQ6z8KZJzLA
-! Diff-Path: ../patches/7/7-s-1713692022-3600.patch
+! Checksum: OEFX8BfSuk53xFs74rELLA
+! Diff-Path: ../patches/7/7-s-1713778429-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.74
-! TimeUpdated: 2024-04-21T09:31:30+00:00
+! Version: 2.0.50.75
+! TimeUpdated: 2024-04-22T09:31:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1766,6 +1766,8 @@ fanblogs.jp###sideBoxRight table[style*="border"][style*=" width:"] a[href*="://
 fanblogs.jp##.sidetitle:has(+ .side > div[style] > ins.adsbygoogle)
 fanblogs.jp##.sidetitle:has(+ .side > ins.adsbygoogle)
 fanblogs.jp##div[class$="ody"] > div.text table[cellpadding="0"][cellspacing="0"][border="0"][style=" border:1px solid #ccc; width:300px;"]:not([class])
+famitsu.com##aside[class^="SponsorLink_sponsorLinkContainer_"]
+famitsu.com##div[class^="ArticleDetail_leftColumn"] > section:has(> div > div.swiper div[class^="AmazonCard_card_"])
 famitsu.com##.banner-center
 famitsu.com##div[class^="ArticleDetailBanner_container_"]
 famitsu.com##div[class^="HalfPageBottomOrLargeRectangle_container_"]

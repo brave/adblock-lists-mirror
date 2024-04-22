@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H133mrHTpQNhjr0ozvVTeA
-! Version: 202404221751
+! Checksum: b6d48cDWt4MhzNAb6RXZZg
+! Version: 202404221851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Apr 2024 17:51 UTC
+! Last modified: 22 Apr 2024 18:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22985,7 +22985,7 @@ pikabu.ru##div[style^="width: 300px; height:"]
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
-||liferoom.net^*.html$third-party,popup
+||liferoom.net^*.$third-party,popup
 ||soyztreid.website^$csp=script-src
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
@@ -23227,6 +23227,7 @@ dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
 dzen.ru##.zen-ui-viewport-expansion__container:empty
 dzen.ru##.zenad-card-rtb
 dzen.ru##[data-name="video-in-combo-zen-container"]
+dzen.ru##div[class*="-top-ad-"]
 dzen.ru##div[class^="advert-panel"]
 dzen.ru##div[class^="floor-skeleton-card__skeletonCardWrapper"]
 dzen.ru#?#div[class^="grid__row-"]:-abp-has(> div[class^="video-card-ad"])
@@ -24183,6 +24184,7 @@ yclid=$popup,domain=dzen.ru
 yclyd=$popup,domain=dzen.ru
 yhic=$popup,domain=dzen.ru
 yhid=$popup,domain=dzen.ru
+yhyd=$popup,domain=dzen.ru
 ||t.mail.ru/redir/$popup,domain=dzen.ru
 !
 ! Сайты Блокнота

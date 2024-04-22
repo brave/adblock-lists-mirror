@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: nAm7YQCZT8yj/XUFmZ5skA
-! Diff-Path: ../patches/1/1-s-1713807247-3600.patch
+! Checksum: MmE9nchywdZsQAkuOr0sIg
+! Diff-Path: ../patches/1/1-s-1713810848-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.33
-! TimeUpdated: 2024-04-22T17:31:02+00:00
+! Version: 2.0.90.34
+! TimeUpdated: 2024-04-22T18:31:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5192,6 +5192,7 @@ apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn
 apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top#$##e7af0de8b4 { height: 16px !important; }
 !
 ! rustorka.com
+@@/ads-admin.js$~third-party,domain=games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
 @@/sidead$~third-party,domain=games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
 @@/punder-rotate.$~third-party,domain=games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
 @@/pushdownAd.$~third-party,domain=games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
@@ -5223,6 +5224,10 @@ apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn
 tapochek.net##+js(set-constant, antiadblock, undefined)
 ! tapochek.net - fixing first click
 tapochek.net##+js(set-constant, window.b0, null)
+! monna2.top
+||monna2.top^$header=location
+monna2.top##+js(abort-on-property-write, tatus)
+monna2.top##+js(no-setTimeout-if, /tick/)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3011
 @@||vsetv.net/advert.js

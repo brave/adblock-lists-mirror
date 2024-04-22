@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 2KN4sVuvKN0xxkVMEXvyEA
-! Diff-Path: ../patches/9/9-s-1713767632-3600.patch
+! Checksum: 8SvV2PDFxloDTZy0ZzB6BQ
+! Diff-Path: ../patches/9/9-s-1713771234-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.21
-! TimeUpdated: 2024-04-22T06:31:36+00:00
+! Version: 2.0.24.22
+! TimeUpdated: 2024-04-22T07:31:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1484,9 +1484,10 @@ embedder.net##+js(abort-on-property-read, initPu)
 forodecostarica.com##+js(no-setTimeout-if, adJsView)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162520
 beautyskincarebrasil.com##+js(window.open-defuser)
+! https://github.com/AdguardTeam/AdguardFilters/issues/177537
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177524
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161356
-megacurioso.online,gastroponto.com,nossoprato.online,receitasdafazenda.com##+js(set-local-storage-item, last_ads, yes)
+receitasvegana.com,megacurioso.online,gastroponto.com,nossoprato.online,receitasdafazenda.com##+js(set-local-storage-item, last_ads, yes)
 modsimuladores.com,assistirfilmesdaluna.com,vejaideias.com.br,jogoscompleto.xyz##+js(adjust-setTimeout, atualizar, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161249
 fazercurriculo.online,usandoapp.com##+js(adjust-setTimeout, .delay, *, 0.001)
@@ -1753,6 +1754,8 @@ tuhentaionline.com##+js(abort-on-property-read, Pub2)
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/177525
+financasdeouro.com#$#.hided { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176971
 primicias.ec#$#.banner_large { position: absolute !important; left: -3000px !important; }
 ! https://github.com/uBlockOrigin/uAssets/issues/22839
@@ -1770,9 +1773,10 @@ vidasaudavel.bio#$#.hided { display: block !important; }
 guiasaude.info#$##colunas { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165640
 receitasdodia.fun#$#.hided { display: block !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/177537
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177524
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165264
-megacurioso.online,megacurioso.net,gastroponto.com,nossoprato.online,receitasdochico.life,dicasdefinancas.net,dicasfinanceirasbr.com,dicasdevalor.net#$##player { display: block !important; }
+receitasvegana.com,megacurioso.online,megacurioso.net,gastroponto.com,nossoprato.online,receitasdochico.life,dicasdefinancas.net,dicasfinanceirasbr.com,dicasdevalor.net#$##player { display: block !important; }
 dicasvalores.com#$#.content-box { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165265
 ldicas.com.br#$##colunas { display: block !important; }
@@ -2075,6 +2079,7 @@ cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.com.br,tvhistoria.com.br,
 ! ##body .banner
 laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+financasdeouro.com##div[style="width:300px;height:260px;"]
 mundodaeletrica.com.br##.ad-container-two-squares
 mundodaeletrica.com.br##div[id][class]:has(> iframe[id^="google_ads"])
 mundodaeletrica.com.br##div[id][class]:has(> ins.adsbygoogle)
@@ -2179,7 +2184,7 @@ clickpb.com.br#?#body > div[style]:has(> a[href^="https://record.nsxafiliados.co
 clickpb.com.br##.adsHorizontal
 depor.com##div[class^="showTds"]
 ||visortmo.com/images/series.gif
-visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > style:contains(/\/images\/.*_push|\/nf_/))
+visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > style:contains(/\/images\/.*_push|\/ne?f_|_extra/))
 visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > :is(span, .thumbnail-title):contains(/promo|netflix|ofert|deal|pack|\d+(\.|,)?\d+\$/i))
 visortmo.com##:not(div[class="col-4 mx-0 px-0"]) > a[href^="https://visortmo.com/library/"] > img
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="/"]

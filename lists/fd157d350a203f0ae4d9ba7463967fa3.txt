@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NjJNwGnY8Atkvn2bOSrlZg
-! Version: 202404231051
+! Checksum: gRtNIQM9FxxnL0b+clauBQ
+! Version: 202404231151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Apr 2024 10:51 UTC
+! Last modified: 23 Apr 2024 11:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2119,6 +2119,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 ?action=adhelper_
 ?ads/criteo.js
 ?begun=*&begun_referrer=*&begun_location=
+?cp.host=*&cp.token=$third-party,xmlhttprequest
 ?frm=script&se_referrer=$third-party,script
 ?teaser_
 ^clickunder-
@@ -9438,6 +9439,7 @@ _tizers.
 ||srvd2204.com^$third-party
 ||ssd7.ru^$third-party
 ||ssliivuqpm.ru^$third-party
+||ssrv7.com^$third-party
 ||ssso.ru^$third-party
 ||ssvim.com^$third-party
 ||sszru.ru^$third-party

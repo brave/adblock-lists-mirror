@@ -865,6 +865,7 @@
 ||adverweb.cjenm.com/js.mezzo/tving/$domain=tving.com
 ||advimg.ad-mapps.com/sdk/M_PLUS/JS/*/ad_script.js^
 ||advimg.ad-mapps.com/sdk/M_PLUS/JS/ad/mezzo_SignalPlay_ad.js^
+||advimg.ad-mapps.com/sdk/js/ver/3.0.0/ad_script.min.js^
 ||advintage.net/adserver/www/delivery/ajs.php^
 ||adw.heraldm.com/cgi-bin/conad.fcgi/
 ||adweb.pinoot.com/plugin.php^
@@ -995,6 +996,7 @@
 ||c0.pubmine.com/*/ata.js^
 ||c1.popads.net/pop.js^
 ||ca-api.cafe24data.com^
+||cache.ggeal.com/banner/*.html^$domain=ggeal.com|web.humoruniv.com
 ||cache.ssend.microad.jp/js/adfunnel-sp-load.js^
 ||cad.donga.com/DKBNEWS/dkb_view_right_adin_*.js^$domain=dkbnews.donga.com
 ||cad.donga.com/DKBNEWS/dkb_view_right_banner_*.js^$domain=dkbnews.donga.com
@@ -1715,6 +1717,8 @@
 ||m.skyedaily.com/ad/$domain=m.skyedaily.com
 ||m.sportschosun.com/news_text_ad01.htm^$domain=m.sportschosun.com
 ||m.sportsseoul.com/application/views/ad/*.html^
+||m.stoo.com/ad/$domain=m.stoo.com
+||m.stoo.com/banner/$domain=m.stoo.com
 ||m.tenbizt.com/wp-content/plugins/advanced-ads-pro/assets/js/advanced-ads-pro.min.js^$domain=m.tenbizt.com
 ||m.tenbizt.com/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js^$domain=m.tenbizt.com
 ||m.tf.co.kr/public/*/ad/ad_read_content*.html^
@@ -1812,6 +1816,7 @@
 ||mv.ad.naver.com/adshow^
 ||mxttrf.com/ads^
 ||mxttrf.com/js/show_ads_mxttrf.js^
+||my.newscover.co.kr/common/c/js/sidecover.js^
 ||mycdn.co/adServe/imgBanner*/*_image-banner.cib^
 ||mydaily.co.kr/ad/adimage/$domain=mydaily.co.kr
 ||mydaily.co.kr/upload/ads/$domain=mydaily.co.kr
@@ -2165,6 +2170,8 @@
 ||stawhoph.com/apu.php^
 ||sticker.yadro.ru/ad/slider.js^
 ||stiffgame.com/v2*$domain=boredpanda.com
+||stoo.com/ad/$domain=stoo.com
+||stoo.com/banner/$domain=stoo.com
 ||stt.pltapad.com/contain.php^
 ||sunnyworks.co.kr/data/SW*.html^
 ||sunnyworks.co.kr/data/js/
@@ -3668,6 +3675,8 @@ genomeweb.com##div.region-footer-top
 getemoji.com##div.container>div>div.text-center[style="padding-top:15px;margin-left:-5px"]
 getemoji.com##ins[data-ad-slot="1077730506"]
 getnews.co.kr##div.ad-template
+ggeal.com##div#body_read>div[style="margin:20px 0 5px 0;"]
+ggeal.com##iframe[src^="/banner/"][src*=".html"]
 ggilbo.com##article.article-veiw-body div[style="width:100%; height:250px"]
 ggilbo.com##aside.user-aside>div[style="text-align:center"]
 ggilbo.com##div#articleBody>center[style="margin:15px 0;"]
@@ -3773,6 +3782,8 @@ gyunggijh.co.kr##div#floating_banner_body
 gyunggijh.co.kr##ins[data-ad-slot="6372983748"]
 hackintosh.zone##div#ipsLayout_mainArea>div[align="center"]
 hackintosh.zone##ins#aswift_3_expand
+hani.co.kr##div[class*=" BaseAd_adWrapper__"]
+hani.co.kr##div[class^="ArticleBottomFixedAd_adFixed__"]
 hani.co.kr##div[class^="ArticleDetail_adGroup__"]
 hani.co.kr##div[class^="BaseAd_adWrapper__"]
 hani.co.kr##div[class^="article_bottomAdWrap__"]
@@ -5057,6 +5068,7 @@ m.mk.co.kr##div.new_ad2
 m.mk.co.kr##div.new_ad3
 m.mk.co.kr##div[id^="slot"]
 m.mk.co.kr##iframe[src^="./index_ad.mk"]
+m.moneys.co.kr##div.ad-area
 m.moneys.mt.co.kr##div.ad
 m.moneys.mt.co.kr##div.iwm_aip
 m.moneyweek.co.kr##div#ad_div_bottom
@@ -5336,6 +5348,7 @@ m.star.ytn.co.kr,m.ytn.co.kr##li.ad_area
 m.starnewskorea.com##div.ad_iframe
 m.starnewskorea.com##div.adbox
 m.starnewskorea.com##div[id^="ad-slot"]
+m.stoo.com##div#wrap>div[style="text-align:center;height:65px"]
 m.tenbizt.com##div.floating-150-ad
 m.tenbizt.com##div.footer-floating-ad
 m.tenbizt.com##div[class^="tenbizt-adsense-"]
@@ -5697,6 +5710,7 @@ moeruasia.net##div.adbanner
 moeruasia.net##table.abox
 moja-ostroleka.pl##div#reklama_top
 moja-ostroleka.pl##iframe[src^="https://www.moja-ostroleka.pl/uploads/banery/html5/"][src*="index.html"]
+moneys.co.kr##div.ad-area
 moneys.mt.co.kr##div#adsentop
 moneyweek.co.kr##div#adsentop
 moneyweek.co.kr##div#aside>div.ad_banner
@@ -6762,6 +6776,8 @@ starnewskorea.com##div.bxcn>div[style="position:absolute; top:0; right:0; overfl
 starnewskorea.com##div.iwm_bip
 starnewskorea.com##img[src*="//menu.mt.co.kr/starnews/images/banner/"]
 steptohealth-co-kr.cdn.ampproject.org##amp-layout.ad-space
+stoo.com##div.ad_300x250
+stoo.com##div.ad_shoopng
 straitstimes.com##div.ads
 studenthome.ch##a[href^="https://www.pharmagram.ch"]
 studenthome.ch##a[href^="https://www.scorestudies.ch"]
@@ -7320,8 +7336,10 @@ web.humoruniv.com##div#ad_240
 web.humoruniv.com##div#ad_700
 web.humoruniv.com##div#ad_adture
 web.humoruniv.com##div#choo_web_read_top_wrap
-web.humoruniv.com##div#wrap_cnts>div.box[style="width:896px;margin:10px 0 0 0;background:#f5f8f9;border:1px solid #f0f2f3;"]
+web.humoruniv.com##div#wrap_cnts>div[style="margin:20px 0 5px 0;"]
+web.humoruniv.com##div#wrap_cnts>div[style="width:728px;min-height:90px;height:90px;clear:both;margin:10px auto;padding:0px;overflow:hidden;background:#f2f5f7;border:1px solid #ddd;"]
 web.humoruniv.com##div.ad_div
+web.humoruniv.com##iframe[src*="//cache.ggeal.com/banner/"][src*=".html"]
 web.humoruniv.com##iframe[src^="http://web.humoruniv.com/banner/ddn_banner_"][src*=".html"]
 web.humoruniv.com##table#choo
 webins.co.kr##div.container>div>a[href^="/AD/WIADNO/"]

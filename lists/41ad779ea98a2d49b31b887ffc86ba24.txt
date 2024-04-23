@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UKF6IfHVPbcTUGaArhRy1Q
-! Version: 202404230940
+! Checksum: ypCBiqksZy+EeOPCbFDPsA
+! Version: 202404231015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-23 09:40 UTC
+! Last modified: 2024-04-23 10:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41080,6 +41080,7 @@ craftsman.com###block-righthandsideblockform
 africacheck.org###block-webform
 lifenews.com###blockModalPopupDiv
 particular.net###blog-subscription-form
+theweek.com###blueconic-article-theweek
 timescolonist.com###body-subscribe
 menafn.com###bottom3
 gardeningknowhow.com###bounce
@@ -43996,6 +43997,9 @@ cnn.com##+js(set-local-storage-item, perm_cnn_regwall_v1, $remove$)
 cnn.com##+js(set-local-storage-item, REG_WALL_METER, $remove$)
 ! nautil.us
 nautil.us##+js(cookie-remover, arc)
+! theweek.com
+theweek.com##+js(set-local-storage-item, kiosq_article_reset, $remove$)
+theweek.com##+js(set-local-storage-item, kiosq_article_url_ack, $remove$)
 ! pageview counter
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.MeteredBumperWinter24Widget

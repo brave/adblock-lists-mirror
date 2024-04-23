@@ -1,9 +1,9 @@
-! Checksum: ZSCxFaCqUdCy9QmvNEjDiw
-! Diff-Path: ../patches/7/7-s-1713875652-3600.patch
+! Checksum: aBFtJNOxEzUNTTSZljiHjw
+! Diff-Path: ../patches/7/7-s-1713882875-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.83
-! TimeUpdated: 2024-04-23T12:31:31+00:00
+! Version: 2.0.50.84
+! TimeUpdated: 2024-04-23T14:31:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -781,7 +781,6 @@ realtime-chart.info#$?#td[style^="vertical-align: top"] [onclick*="()"][target="
 realtime-chart.info#$?#td[style^="vertical-align"] [onclick]:has(> img[src*="/clip_"] + b):not(:has(b td > a[href])) { pointer-events: none !important; }
 @@||realtime-chart.info^$generichide
 @@||sekai-kabuka.com^$generichide
-@@||googleads.g.doubleclick.net/pagead/ads?$subdocument,domain=realtime-chart.info|sekai-kabuka.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=realtime-chart.info|sekai-kabuka.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=realtime-chart.info|sekai-kabuka.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83022

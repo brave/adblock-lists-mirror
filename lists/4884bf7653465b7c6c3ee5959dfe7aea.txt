@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 08ZWYNd0nQi2ZNZaIVvS/Q
-! Diff-Path: ../patches/9/9-s-1713868445-3600.patch
+! Checksum: /G+5CIKCWi2r9cKdm+6q+g
+! Diff-Path: ../patches/9/9-s-1713882871-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.27
-! TimeUpdated: 2024-04-23T10:31:41+00:00
+! Version: 2.0.24.28
+! TimeUpdated: 2024-04-23T14:31:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2193,9 +2193,10 @@ clickpb.com.br#?#body > div[style]:has(> a[href^="https://record.nsxafiliados.co
 clickpb.com.br##.adsHorizontal
 depor.com##div[class^="showTds"]
 ||visortmo.com/images/series.gif
-visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > style:contains(/\/images\/.*_push|\/ne?f_|_extra/))
+||viralize.tv^$domain=visortmo.com
+visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > style:contains(/\/images\/.*_push|\/ne?f_|_ext/))
 visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > :is(span, .thumbnail-title):contains(/promo|netflix|ofert|deal|pack|\d+(\.|,)?\d+\$/i))
-visortmo.com##:not(div[class="col-4 mx-0 px-0"]) > a[href^="https://visortmo.com/library/"] > img
+visortmo.com##:not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"] > img
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="/"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="https://visortmo.com/"]
 visortmo.com##a[href="https://series.ly"] > img[src*=".gif"]

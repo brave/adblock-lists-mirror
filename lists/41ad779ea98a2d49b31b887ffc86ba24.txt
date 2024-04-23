@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zGmvOFQkgU1ahvrH0HiDhQ
-! Version: 202404230515
+! Checksum: JMSFTTseb9hX7bKKh9lHQQ
+! Version: 202404230640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-23 05:15 UTC
+! Last modified: 2024-04-23 06:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36961,6 +36961,7 @@ tastesbetterfromscratch.com##.block-follow-updates
 therecipecritic.com##.block-pinterest-cta
 vegrecipesofindia.com##.block-social-links
 artforum.com##.blog-article__share-sticky
+thehustle.co##.blog-hustle-social-links
 onextrapixel.com##.blog-post-single-share
 butwhytho.net##.bm-social-sharing
 9to5linux.com##.bm-social-top
@@ -41166,6 +41167,7 @@ motherjones.com###homepage-subscription-promo
 wikihow.com###hp_newsletter
 collato.com,phillymag.com###hs-web-interactives-top-anchor
 entrepreneur.com###hsNewletterFooterSub-container
+thehustle.co###hs_cos_wrapper_blog_post_simple_sticky_cta
 asia.nikkei.com###in-article-newsletter-signup
 theblaze.com###inarticle-sponsored-headline
 statista.com###infographicNewsletter
@@ -41586,6 +41588,7 @@ backroads.com##.block-sign-up-for-our-email-newsletter
 abeautifulmess.com,afamilyfeast.com,airandspaceforces.com,thebestcakerecipes.com##.block-subscribe
 ttnews.com##.block-webform-block
 press-start.com.au##.block-wrap-mailing
+thehustle.co##.blog-hustle-form-config-wrapper
 umaar.com##.blog-subscribe-inline
 kiplinger.com##.blueconic-article__wrapper
 ctvnews.ca##.bm-footer__wrapper__subscribeButton
@@ -41630,6 +41633,7 @@ tidbits.com##.c-banner
 thenextweb.com##.c-channel__cta
 thehustle.co##.c-content-form
 vox.com##.c-entry-sidebar
+texastribune.org##.c-featured-series__newsletter
 legit.ng##.c-footer-subscribe
 securelist.com##.c-form--newsletter
 smashingmagazine.com##.c-garfield__nl
@@ -41643,6 +41647,7 @@ noovomoi.ca##.c-newslettersticky
 chasingcars.com.au##.c-notification-bar
 eatthis.com##.c-postup-widget
 newstalkzb.co.nz##.c-promo
+texastribune.org##.c-promo-modal__overlay
 lawandcrime.com,mediaite.com##.c-promo-slice__link
 gallup.com##.c-quick-subscribe
 texastribune.org##.c-sign-up
@@ -43986,6 +43991,8 @@ dailynewshungary.com##+js(set-local-storage-item, wp_dark_mode_active, 1)
 ! cnn.com reg/login nag
 cnn.com##+js(set-local-storage-item, perm_cnn_regwall_v1, $remove$)
 cnn.com##+js(set-local-storage-item, REG_WALL_METER, $remove$)
+! nautil.us
+nautil.us##+js(cookie-remover, arc)
 ! pageview counter
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.MeteredBumperWinter24Widget

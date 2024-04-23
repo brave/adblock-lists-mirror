@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.3.6
+! Version: 3.6.5.0
 
 ! General
 
@@ -29,7 +29,7 @@
 ||js.pelcro.com^$script,third-party
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
 @@||piano.io^$domain=asia.nikkei.com|auto-swiat.pl|businessinsider.com.pl|forbes.pl|hbr.org|japantimes.co.jp|komputerswiat.pl|newsweek.pl|onet.pl
-@@||cdn.tinypass.com/api/tinypass.min.js$script,domain=seekingalpha.com
+@@||cdn.tinypass.com/api/tinypass.min.js$script,domain=ajc.com|seekingalpha.com
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
 ||api.pico.tools/popup/null/*$xmlhttprequest,~third-party
 gadget.pico.tools##+js(json-prune, locked)
@@ -375,7 +375,9 @@ accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,dig-in.com,
 /journey/compiler/build-*.js$script,~third-party,domain=architecturaldigest.com|bonappetit.com|cntraveler.com|epicurious.com|gq.com|newyorker.com|vanityfair.com|vogue.co.uk|vogue.com|voguebusiness.com|wired.com
 voguebusiness.com##+js(cookie-remover, userId)
 
-! Cox First Media
+! Ajc.com & Cox First Media
+ajc.com##+js(set, Fusion.globalContent._id, 0)
+ajc.com##+js(set, Fusion.globalContent.content_restrictions.content_code, 0)
 ||wgchrrammzv.com/prod/ajc/loader.min.js$script,domain=dayton.com|daytondailynews.com|journal-news.com|springfieldnewssun.com
 
 ! Crain Communications
@@ -638,7 +640,11 @@ splainer.in##.subscription-prompt
 stateaffairs.com##div.c-memberships-message
 stateaffairs.com##+js(rc, access-restricted, body.access-restricted)
 strangematters.coop##+js(cookie-remover, pmpro_lpv_count)
-||subscriptioninsider.com$inline-script
+subscriptioninsider.com##+js(rc, dialog-prevent-scroll, body.dialog-prevent-scroll, stay)
+subscriptioninsider.com##div.dialog-widget
+!#if (adguard_app_ios)
+/\.subscriptioninsider\.com\/.+\/((\w)+(\-)+){3,}/$inline-script
+!#endif
 thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container)
 ||cdn.flip-pay.com/clients/dailymash/flip-pay.js$script,domain=thedailymash.co.uk
 ||thedriftmag.com/wp-content/plugins/drift-paywall-plugin/$script,~third-party

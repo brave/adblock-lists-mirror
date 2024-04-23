@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: bIq09+9jv1VHAD+D2mv5ww
-! Diff-Path: ../patches/224/224-s-1713882869-3600.patch
+! Checksum: YYbw5jUlv0hWSEtc6QoslQ
+! Diff-Path: ../patches/224/224-s-1713890038-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.14.64
-! TimeUpdated: 2024-04-23T14:32:24+00:00
+! Version: 2.1.14.65
+! TimeUpdated: 2024-04-23T16:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4646,6 +4646,7 @@ newduba.cn###jq_youxi
 ||anjdwmq.xyz^
 ||ankczwr.icu^
 ||aoakss.com^
+||aobtwv.icu^
 ||aourgk.xyz^
 ||ariqye.xyz^
 ||arnhhwo.xyz^
@@ -4808,6 +4809,7 @@ newduba.cn###jq_youxi
 ||frtnqpw837.shop^
 ||fvpboxu.xyz^
 ||fwcnex.icu^
+||fxgkktj.icu^
 ||fxjnfn.xyz^
 ||fztyrv.xyz^
 ||gblxtlo.xyz^
@@ -4821,6 +4823,7 @@ newduba.cn###jq_youxi
 ||gicjtss.cn^
 ||gkutca.xyz^
 ||golilog.com^
+||gpiagk.xyz^
 ||gridline.cn^
 ||grtarpcf963.top^
 ||grulphaens.com^
@@ -4945,7 +4948,9 @@ newduba.cn###jq_youxi
 ||lfffzv.xyz^
 ||lfhdryz.xyz^
 ||lfrfzr.xyz^
+||lftpvh.xyz^
 ||lgtpdt.xyz^
+||lhmebwq.cn^
 ||liebaovip.com^
 ||lkpxzt.xyz^
 ||llksja.com^
@@ -5140,6 +5145,7 @@ newduba.cn###jq_youxi
 ||srzpsbf.xyz^
 ||stlpnom.xyz^
 ||styusib.top^
+||superjj.online^
 ||svncowt.cn^
 ||swsegi.xyz^
 ||syiwgwsqwngrdw.xyz^
@@ -5219,6 +5225,7 @@ newduba.cn###jq_youxi
 ||uxlvk.cn^
 ||uxrdg.cn^
 ||uxzvjoj.cn^
+||uyuwkbt.top^
 ||vabzndw.cn^
 ||vaekkfv.cn^
 ||vcnpnf.xyz^
@@ -5286,6 +5293,7 @@ newduba.cn###jq_youxi
 ||xudarl.xyz^
 ||xvbjctqs.xyz^
 ||xvgrszkg.xyz^
+||xvpcjl.xyz^
 ||xvudqzoa.xyz^
 ||xvyugqj.icu^
 ||xwvnhe.cn^
@@ -5318,14 +5326,6 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
-||lhmebwq.cn^
-||gpiagk.xyz^
-||aobtwv.icu^
-||fxgkktj.icu^
-||xvpcjl.xyz^
-||uyuwkbt.top^
-||lftpvh.xyz^
-||superjj.online^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -13446,6 +13446,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wuhaolin.cn/c/ls
 ||wujinzy.com/images/ok.gif
 ||wuliao.epro.sogou.com^
+||wuxingruoyin.top/public/*/plugins/
 ||ww7814.win/pic
 ||ww9874.com/asset/playerInit.js
 ||www-dnwx-com.anquanbao.cn/pic
@@ -13736,11 +13737,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||wuxingruoyin.top/public/*/plugins/
 szxx.com.cn###A0
-chinanewsx.com##a[href^="/go/"]
-chinanewsx.com##.card-body > .my-3:last-child
-chinanewsx.com##.side-nav
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -15931,6 +15928,7 @@ sina.cn##.callApp_fl_btn
 hao.360.cn##.cangbao_redbags
 duba.com##.car_ads
 pixabay.com##.carbon-ad
+chinanewsx.com##.card-body > .my-3:last-child
 steamstats.cn##.card-link
 yunpanziyuan.xyz##.card-site-info + .card
 itdog.cn##.card[style="padding: 6px 10px 5px 5px;"]
@@ -17538,6 +17536,7 @@ guokr.com##.side-adv
 ruten.com.tw##.side-advertise
 iwan.baidu.com##.side-banner
 uc123.com##.side-hot
+chinanewsx.com##.side-nav
 firefox.com.cn,firefoxchina.cn##.side-notice
 firefoxchina.cn##.side-promote
 firefoxchina.cn##.side-recommend
@@ -18388,6 +18387,7 @@ bigear.cn##a[href^="/?module=dantian&"]
 x6d.com,xiaodao0.com##a[href^="/ad."]
 vk922.com##a[href^="/ad/"]
 1010dy3.com##a[href^="/go"]
+chinanewsx.com##a[href^="/go/"]
 szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
@@ -20072,20 +20072,20 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
-/exads-adblock-$image
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EGBtGV3VRXKCTtEoNRcxxA
-! Diff-Path: ../patches/224/224-s-1713846821-3600.patch
+! Checksum: sQl3AEucOT27+7Q+Fj2tDA
+! Diff-Path: ../patches/224/224-s-1713864828-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.14.61
-! TimeUpdated: 2024-04-23T04:31:58+00:00
+! Version: 2.1.14.62
+! TimeUpdated: 2024-04-23T09:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13734,6 +13734,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||wuxingruoyin.top/public/*/plugins/
 szxx.com.cn###A0
 chinanewsx.com##a[href^="/go/"]
 chinanewsx.com##.card-body > .my-3:last-child
@@ -20070,6 +20071,7 @@ guailie.com#@#.google-ad
 ||17ce.com^*_$image
 !#18comic.org
 /exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop

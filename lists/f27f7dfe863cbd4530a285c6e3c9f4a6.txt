@@ -1,9 +1,9 @@
-! Checksum: k+A6CVtMx6MGT2Ju1ONmCw
-! Diff-Path: ../patches/7/7-s-1713954841-3600.patch
+! Checksum: WMCixlZbcn0Ubvz53ZdZLw
+! Diff-Path: ../patches/7/7-s-1713958454-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.87
-! TimeUpdated: 2024-04-24T10:31:30+00:00
+! Version: 2.0.50.88
+! TimeUpdated: 2024-04-24T11:31:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3816,7 +3816,7 @@ pachinkolist.com###container > center
 pachinkolist.com###container > hr
 pachinkolist.com##.main-container center
 pachinkolist.com##.main-container hr
-hatenablog.com##.globalPage-ad
+blog.hatena.ne.jp,hatenablog.com##.globalPage-ad
 itaishinja.com##.ADW
 tamakino.hatenablog.com##.freezed
 ||sugutama.jp/assets/introduce/bnr04-300x250.jpg$domain=yutorism.jp

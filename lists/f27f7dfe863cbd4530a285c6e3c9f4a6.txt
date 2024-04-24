@@ -1,9 +1,9 @@
-! Checksum: uY6N6G6KbhU9Zq5HmqTYnw
-! Diff-Path: ../patches/7/7-s-1713947632-3600.patch
+! Checksum: k+A6CVtMx6MGT2Ju1ONmCw
+! Diff-Path: ../patches/7/7-s-1713954841-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.86
-! TimeUpdated: 2024-04-24T08:31:32+00:00
+! Version: 2.0.50.87
+! TimeUpdated: 2024-04-24T10:31:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4737,6 +4737,8 @@ newsmomonga.com##.post div[align="center"] + br
 newsmomonga.com##.post div[align="center"] + br + hr
 nc-net.or.jp##.box-pr-image-01
 mori.nc-net.or.jp###ok_ad_side
+gyutte.jp###gt_sp_all_header
+gyutte.jp###gt_sp_all_footer
 jm1xtk.com##.web_adber-1
 allabout.co.jp,city.soka.saitama.jp,jm1xtk.com##div[class$="_ad"]
 my-best.com##.l-footer__fixed

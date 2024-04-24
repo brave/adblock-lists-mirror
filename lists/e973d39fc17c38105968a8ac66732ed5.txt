@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FsUvYNZ+cUW2XyHfioPapg
-! Version: 202404240651
+! Checksum: wFsEGw2aONKRuiUaRJeLQw
+! Version: 202404240751
 ! Title: EasyList Spanish
-! Last modified: 24 Apr 2024 06:51 UTC
+! Last modified: 24 Apr 2024 07:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1525,6 +1525,7 @@ soychile.cl##.banner-fixed-container
 puntal.com.ar##.banner-flex
 tvn.cl##.banner-full
 primicia.com.ve##.banner-header
+businessinsider.mx##.banner-holder
 iprofesional.com##.banner-horizontal
 elnuevogeorgia.com##.banner-img
 diariodecuyo.com.ar##.banner-lanusse
@@ -1895,6 +1896,7 @@ cinecalidad.gg,moviesdvdr.co##a[href^="https://startgaming.net/"]
 anisearch.es##a[href^="https://www.amazon."][href*="tag="]
 portalbici.es##a[href^="https://www.awin1.com/cread.php"]
 bikezona.com##a[href^="https://www.bikezona.com/util/redirect.asp?idbanner="]
+businessinsider.mx##a[href^="https://www.compartamos.com.mx/"] > img
 quepasamedia.com##a[href^="https://www.gymglish.com/partner/"]
 vergnula.com##a[href^="https://www.primevideo.com/"][href*="tag="]
 espn.cl,espn.co.cr,espn.com.ar,espn.com.co,espn.com.do,espn.com.ec,espn.com.gt,espn.com.mx,espn.com.pa,espn.com.pe,espn.com.uy,espn.com.ve##a[href^="https://www.starplus.com"][href*="?cid="]
@@ -1999,6 +2001,7 @@ lagaceta.com.ec##rs-slides
 ! :has()
 forocoches.com###sidebar > div > section:has(.fixed_adslot)
 elpais.com.uy##.Page-above.loaded:has(div[class^="GoogleDfpAd"])
+businessinsider.mx##.col-md-4.col-12.three-column-item:has(.presentado-por)
 clarin.com##.column > div[class] > div[class^="sc-"]:has(div[class^="sc-"] > div[id^="div-gpt-ad"])
 leroymerlin.es##.l-resultsList__item:has(.kl-blade--sponsored)
 eltiempo.com##.main-article-container-patr:has(.contenido-comercial)

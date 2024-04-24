@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: b88BODhr24l3VXKKyH6k3A
-! Diff-Path: ../patches/224/224-s-1713969254-3600.patch
+! Checksum: hsO9sBoyey73ZHorATMPAg
+! Diff-Path: ../patches/224/224-s-1713976476-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.14.69
-! TimeUpdated: 2024-04-24T14:32:24+00:00
+! Version: 2.1.14.70
+! TimeUpdated: 2024-04-24T16:32:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4629,6 +4629,8 @@ newduba.cn###jq_youxi
 ||88lm09.com^
 ||88lm10.com^
 ||88lm11.com^
+||88lm12.com^
+||88lm13.com^
 ||8t9he.cyou^
 ||8xtm6i.cn^
 ||999bb222ww.com^
@@ -4972,6 +4974,7 @@ newduba.cn###jq_youxi
 ||mdhv3.icu^
 ||mdzwjra.cn^
 ||meqanhm.icu^
+||miningzhizhong.top^
 ||misjgy.xyz^
 ||mldzwmt.xyz^
 ||mlhtr.cn^
@@ -5033,6 +5036,7 @@ newduba.cn###jq_youxi
 ||oweeiyw.icu^
 ||oxkyaq.xyz^
 ||oxvlxwz.xyz^
+||oyuwkbk.top^
 ||ozhmig.cn^
 ||p04qzl.cn^
 ||p0v2ni.cn^
@@ -5086,6 +5090,7 @@ newduba.cn###jq_youxi
 ||qtyusiy.top^
 ||qusrow.xyz^
 ||qvnbjjd.xyz^
+||qvonje.cn^
 ||qw9cu.cyou^
 ||qyuwkby.top^
 ||qzalsk.xyz^
@@ -5139,6 +5144,7 @@ newduba.cn###jq_youxi
 ||snalzlb.top^
 ||snifdlab.top^
 ||soffersk.com^
+||sogoks.xyz^
 ||sosakk.xyz^
 ||spsfupq.cn^
 ||srwwce.xyz^
@@ -5169,6 +5175,7 @@ newduba.cn###jq_youxi
 ||szpwf.cn^
 ||szpwg.cn^
 ||szpwh.cn^
+||szpxp.cn^
 ||szpzk.cn^
 ||szpzm.cn^
 ||tahznx.xyz^
@@ -5275,6 +5282,7 @@ newduba.cn###jq_youxi
 ||xdrvkdni.xyz^
 ||xdybwjpa.xyz^
 ||xedpzh.xyz^
+||xfrahb.xyz^
 ||xgjidt.xyz^
 ||xhbshv.xyz^
 ||xhfxtqt.xyz^
@@ -5308,6 +5316,8 @@ newduba.cn###jq_youxi
 ||ydrvkdni.xyz^
 ||ydwkrbg.cn^
 ||ydybwjpa.xyz^
+||yhdemu368.shop^
+||yhderd69.shop^
 ||yhqukg.xyz^
 ||ykkhihg.cn^
 ||yliffnsc.xyz^
@@ -5315,6 +5325,7 @@ newduba.cn###jq_youxi
 ||yvbjctqs.xyz^
 ||yvnxetmq.xyz^
 ||yvudqzoa.xyz^
+||yvwuesh.icu^
 ||ywhws.cn^
 ||yyddkm526.shop^
 ||yyttmyy.cn^
@@ -5326,17 +5337,6 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
-||xfrahb.xyz^
-||sogoks.xyz^
-||qvonje.cn^
-||yvwuesh.icu^
-||oyuwkbk.top^
-||88lm13.com^
-||88lm12.com^
-||yhdemu368.shop^
-||yhderd69.shop^
-||szpxp.cn^
-||miningzhizhong.top^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -20083,20 +20083,20 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2

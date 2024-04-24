@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: NsOZJT4DXfTmqnaqWHXSbw
-! Diff-Path: ../patches/9/9-s-1713958451-3600.patch
+! Checksum: xv0K0z9Cnh3oBmMJICkiXw
+! Diff-Path: ../patches/9/9-s-1713976479-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.30
-! TimeUpdated: 2024-04-24T11:31:46+00:00
+! Version: 2.0.24.31
+! TimeUpdated: 2024-04-24T16:31:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -233,6 +233,8 @@
 ||ver-pelis.net^$third-party
 ||yestorrents.org^$third-party
 ||zebestof.com^$third-party
+||oecistbenton.com^
+||ilvnkzt.com^
 !
 !
 ! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
@@ -2337,6 +2339,7 @@ metsul.com###header2_alright
 larazon.es###floorad__portada
 jotdown.es##div[align="center"] > a.gofollow > img
 supertvaovivo.co,oportaln10.com.br,aeiou.pt##div[class^="code-block code-block-"][style*="margin: 8px auto; text-align: center;"]
+vertvonline.tv##div[class^="code-block code-block-"][style^="margin: 8px auto; text-align: center;"]
 aeiou.pt##div[data-insertion-no-dbg]
 dinheirovivo.pt##aside[class^="t-pubbox-"]
 tvi.iol.pt,selfie.iol.pt##.patrocinado_section
@@ -4764,6 +4767,7 @@ juegosypelis.ws##td[height="630"]
 saludalia.com##td[style="height:110px;width:760px;padding-left:25px;padding-top:5px;"]
 forum.clubedohardware.com.br##td[width="20%"]
 infonegocios.tv##td[width="961"][height="60"]
+megacanais.com##div[class^="-block code-block-"][style^="margin:"]
 ||184.154.142.242/download.aspx?
 ||187.6.64.32/especialdenatal/home/produto_
 ||91.116.142.114/iframeNOTICIA2016/

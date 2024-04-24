@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 49j04MG3xiNU+aeWJMb7yA
-! Diff-Path: ../patches/16/16-s-1713958448-3600.patch
+! Checksum: dApNAXyl9ERKO7/U6/WSuQ
+! Diff-Path: ../patches/16/16-s-1713976474-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.62
-! TimeUpdated: 2024-04-24T11:32:04+00:00
+! Version: 2.0.44.63
+! TimeUpdated: 2024-04-24T16:31:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -829,6 +829,7 @@ $script,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|staticall
 !
 !
 !
+numerama.com##.is-capitalist-tyrannosaurus
 eurosport.fr##div[data-testid="ad-organism"]
 radio-canada.ca##div[class*="bg-gray"]:has(> div[class*=" "]:only-child > div[data-adtype])
 lesmoutonsrebelles.com##div[class^="code-block code-block-"][style^="margin: 8px 0;"]

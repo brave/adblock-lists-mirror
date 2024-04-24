@@ -1,9 +1,9 @@
-! Checksum: jV170eRONqXcr87TF4Ph0g
-! Diff-Path: ../patches/7/7-s-1713972843-3600.patch
+! Checksum: X3RkCeoAHkZak1iO8CYc+w
+! Diff-Path: ../patches/7/7-s-1713987248-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.91
-! TimeUpdated: 2024-04-24T15:31:36+00:00
+! Version: 2.0.50.93
+! TimeUpdated: 2024-04-24T19:31:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -635,6 +635,9 @@ musmus.main.jp#$#div[id^="sub_ad"] {  height: 1px !important; width: 1px !import
 snrec.jp#$#.tp-backdrop { display: none!important; }
 snrec.jp#$#.tp-modal { display: none!important; }
 snrec.jp#$#body.tp-modal-open { overflow: visible!important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/177410
+asobicreate.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+asobicreate.net##div[id][class^="popup"][class$="wrap"][style^="opacity"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132814
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132525
 ! Similar site in Base filter: soranews24.com
@@ -1765,6 +1768,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+yamagata-np.jp##.ad_sp_rectangle
+shueisha.co.jp##.list-basic-a:has(> li > div.c-ad)
 kumanichi.com###block-article-details-banner
 minpo.jp##.thumbnail-list > li:is(:has(> div[id^="div-gpt-ad-"]), :has(> .ads))
 the-miyanichi.co.jp##div[id] > div > div[style^="display:block;margin"]:has(> p[style="margin-bottom:.5em;border:none;font-size:.9em;"] > a[target="_blank"] > span[style$="text-align:center;"])
@@ -1784,7 +1789,7 @@ famitsu.com##.banner-center
 famitsu.com##div[class^="ArticleDetailBanner_container_"]
 famitsu.com##div[class^="HalfPageBottomOrLargeRectangle_container_"]
 famitsu.com##div[class^="TopHeaderBanner_wrapper_"]
-adacomi.com##div[style^="margin-top:50px;background-color:#FFF;padding:20px;"]
+adacomi.com,eroita.net##div[style^="margin-top:50px;background-color:#FFF;padding:20px;"]
 ||10s.link/iframe/
 uchubiz.com###RECT
 uchubiz.com##.p-top__ad
@@ -4742,6 +4747,10 @@ mori.nc-net.or.jp###ok_ad_side
 news.denfaminicogamer.jp###dfng-banner
 gyutte.jp###gt_sp_all_header
 gyutte.jp###gt_sp_all_footer
+japanjournals.com##.slidebanner
+japanjournals.com##.custom:has(> div[class^="bg_g"]> div[class^="clm"] > a[target="_blank"])
+japanjournals.com##.t3-sidebar-right .bannergroup
+japanjournals.com##.t3-banner-top
 jm1xtk.com##.web_adber-1
 allabout.co.jp,city.soka.saitama.jp,jm1xtk.com##div[class$="_ad"]
 my-best.com##.l-footer__fixed

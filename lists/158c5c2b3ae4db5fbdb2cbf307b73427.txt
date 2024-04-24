@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +dwIamPRstHFLKyAdeQPHQ
-! Version: 202404241451
+! Checksum: fZgSER++ZqzyZyJVx/SkHA
+! Version: 202404241551
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Apr 2024 14:51 UTC
+! Last modified: 24 Apr 2024 15:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -990,6 +990,7 @@ ua.news##.content-socials
 planetanovosti.com##.content-text > strong
 spot.uz##.contentBoxR
 mirf.ru##.content_footer_social
+tengriauto.kz,tengrinews.kz,tengrisport.kz##.content_main_share
 animejapan.tv##.content_player ~ .content_block_b
 anilove.tv,animechan.tv##.content_player ~ .content_block_pc
 football.kulichki.net##.content_top_line > a[href]
@@ -1206,6 +1207,7 @@ soel.ru##.footer_logo_telegram
 soel.ru##.footer_logo_youtube
 tnt-online.ru#?#.footer_main__col:-abp-has(> .social_buttons )
 mind.ua##.footer_new-social
+tengriauto.kz,tengrinews.kz,tengrisport.kz##.footer_sec_feedback_social
 greenpost.ua,partnerkin.com##.footer_soc
 allboxing.ru##.footer_soc_links
 pravda.com.ua##.footer_social
@@ -1874,6 +1876,7 @@ psychologies.ru##.side-block_soc-tabs
 gadgetstyle.com.ua#?#.side-blok:-abp-has(.twitter-timeline )
 coldfilm.biz#?#.side-box:-abp-has(#vk_groups)
 kinohype.me#?#.side-box:-abp-has(> .side-bc > .vk)
+tengrinews.kz##.side-share
 uakino.club##.side-tabs > .box > div[style^="display:"]
 uakino.club##.side-tabs > .tabs
 guland.com.ua##.sidebar
@@ -2063,7 +2066,7 @@ mybrazz.club##.social-links-left
 azbyka.ru##.social-links__tg
 azbyka.ru##.social-links__vb
 ctnews.ru##.social-links_title
-championat.com,ukrinform.ua##.social-media
+championat.com,tengrinews.kz,ukrinform.ua##.social-media
 kopilkasovetov.com##.social-media-area
 prokuzbass.ru##.social-media-buttons
 368.media##.social-nav-lg
@@ -5796,6 +5799,7 @@ habr.com##.tm-stories-block
 habr.com##.tm-top-link
 habr.com##.tm-voice-article
 tengrinews.kz##.tn-subscribe-whatsapp
+tengrinews.kz##.tn-urgent-news-info
 zona.media##.tools__support_container
 zombie-film.club##.top-alert
 professorweb.ru##.top-banner
@@ -6137,7 +6141,6 @@ pay.mos.ru##charity-banner
 1cont.ru##cookies-notice
 xuk.mobi##div > .center > noindex
 postimees.ee##div.cookie-container
-tengrinews.kz##div.tn-shared + .tn-shared
 agents.media#?#div:-abp-has(> #trigger_donate)
 korsars.pro#?#div:-abp-has(> .med > [src*="://yoomoney.ru/"])
 dailystorm.ru#?#div:-abp-has(> .notice)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IM98NDaOcXRFiSxJAMNmKQ
-! Version: 202404241451
+! Checksum: 5oGbji+w/kzIjKkvb+C+8A
+! Version: 202404241551
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Apr 2024 14:51 UTC
+! Last modified: 24 Apr 2024 15:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3519,7 +3519,6 @@ _tizers.
 ||telderi.ru/img/banners/$third-party
 ||telderi.ru/uploads/promote/
 ||telepark.ua/tpb.php?code=
-||tengrinews.kz/informer/$third-party
 ||teren.in.ua^$third-party,subdocument
 ||terthoreper.ru^$third-party
 ||testosteroid.com^$third-party
@@ -12489,6 +12488,7 @@ zh24.com###test
 lostfilm.download,lostfilm.life,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv1.site,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv4.site,lostfilmtv5.site###testVideo
 medved.us###text-10
 zaporpobedim.ru###text-21
+tengritravel.kz###text-3
 oddstyle.ru###text-33
 oddstyle.ru###text-34
 volnorez.com.ua###text-57
@@ -14365,12 +14365,13 @@ allcio.ru,it-weekly.ru,it-world.ru##.header__main-banner
 allcio.ru,it-weekly.ru,it-world.ru##.header__top-banner
 www.sibnet.ru##.header__topline
 smotrim.ru##.header__wrapper--inner a[href^="/tariffs?redirect="]
-i.ua##.header_adv
+i.ua,tengriauto.kz,tengrinews.kz,tengrisport.kz##.header_adv
 greenpost.ua,job.ru##.header_banner
 999.md##.header_numbersTop
 pogliad.ua##.header_rec
 sgad.ru##.header_right
 kelmochka.ru##.header_site
+tengrisport.kz##.header_sub_links
 azovnews.ru##.header_top
 qrz.ru##.header_top > .left
 soccer365.com.ua,soccer365.ru##.header_top > :not(.header_top_logo)
@@ -14465,7 +14466,6 @@ pnp.ru##.infoblock > div[style="height: 900px;"]
 gorodkiev.com.ua##.infolinks
 aces.gg##.infopanel_left
 uaspectr.com##.information__image
-mix.tn.kz,tengrinews.kz##.informer
 igromania.ru,kanobu.ru##.informer-container
 gazeta.ua##.informer.double
 sinoptik.ua##.informerTop
@@ -16121,7 +16121,6 @@ habr.com##.tm-company-card__branding
 newformat.info##.tm-content ~ .tm-main-bottom .widget_custom_html:not([style])
 itcrowd.top##.tm-top
 tmbw.ru##.tmbwrekbelow
-tengrinews.kz#?#.tn-article-grid > .tn-article-item:-abp-has(> div[class*="banner"])
 kinovdom.tv##.tn-player-tsr
 riwkus.pro##.tnx-block
 donday-aksay.ru,donday-novocherkassk.ru,donday-shakhty.ru,donday-taganrog.ru,donday.ru,volga-day.ru##.tobbanner
@@ -17773,7 +17772,6 @@ vladday.ru##article > div[style^="min-height:"]
 24boxing.com.ua#?#article > h2:-abp-contains(/реклама/i) + ul
 24boxing.com.ua#?#article > h3:-abp-contains(/реклама|партнер|яндекс/i)
 24boxing.com.ua#?#article > h3:-abp-contains(/реклама|партнер|яндекс/i) + ul
-tengrinews.kz#?#article > p:-abp-has(> a[href^="https://t.me/"])
 kavkaz-uzel.eu#?#article div:-abp-contains(/^Реклама$/)
 glavpost.com##article div[style*="#EFEFEF"]
 4pda.to#?#article ~ article:-abp-has(> [class] > div:only-child > img:first-child)
@@ -18144,7 +18142,7 @@ znaj.ua##div[class*="advertising"]
 odessa-life.od.ua##div[class*="ai-viewport-"]
 thequestion.ru##div[class*="annonser"]
 gorodvitebsk.by,kursktv.ru,open.ua,penza-press.ru##div[class*="baner"]
-1777.ru,19rus.info,19rusinfo.ru,1ul.ru,20minut.ua,2goroda.ru,365info.kz,3ys.ru,73online.ru,9tv.co.il,advis.ru,agronews.ua,agroreview.com,agrotimes.net,autodmir.ru,avtodispetcher.ru,bakemono.ru,bel.ru,besplatka.ua,bezformata.com,bhub.com.ua,car.ru,cbonds.ru,codernet.ru,comments.ua,con-med.ru,cybersport.ru,echosevera.ru,epravda.com.ua,fatalgame.com,filmz.ru,fishingsib.ru,flamp.ru,food.ru,footballua.tv,forum-profit.ru,gameguru.ru,gecid.com,goodfon.ru,gorodvitebsk.by,gp.by,growhow.in.ua,haqqin.az,hunting.ru,industry-hunter.com,infpol.ru,investfunds.ru,ircity.ru,islam-today.ru,iz.ru,joborgame.ru,jut.su,k1news.ru,klavogonki.ru,knijky.ru,kt.kz,kursktv.ru,laradiofm.ru,livesport.ws,locals.md,medialeaks.ru,megatyumen.ru,menportal.info,myslo.ru,neboleem.net,nmedic.info,nv-online.info,obyava.ua,okna.ua,penza-press.ru,polochka.net,povarenok.ru,ppt4web.ru,pravda.com.ua,pravoved.ru,primemusic.cc,profibeer.ru,prostatitanet.com,redfm.ru,relax-fm.ru,rg.ru,skachat-kino.fun,smolensk-i.ru,sovsport.ru,spanishrestaurant.ru,sport5.by,sportguide.kiev.ua,start33.ru,syzran-small.ru,tele.ru,tengrinews.kz,the-flow.ru,thequestion.ru,thg.ru,tveda.ru,twentysix.ru,ufanotes.ru,valverus.info,vashurok.ru,veterinargid.ru,vikka.ua,vinnitsa.info,vklasse.online,vovka.su,vringe.com,vshkole.com,woman.ru,wonderzine.com,wowjp.net,xsport.ua,zagorod.spb.ru,zaim-profi.ru,zaryad.me,zebra-tv.ru,zoohoz.ru,zorbasmedia.ru##div[class*="banner"]
+1777.ru,19rus.info,19rusinfo.ru,1ul.ru,20minut.ua,2goroda.ru,365info.kz,3ys.ru,73online.ru,9tv.co.il,advis.ru,agronews.ua,agroreview.com,agrotimes.net,autodmir.ru,avtodispetcher.ru,bakemono.ru,bel.ru,besplatka.ua,bezformata.com,bhub.com.ua,car.ru,cbonds.ru,codernet.ru,comments.ua,con-med.ru,cybersport.ru,echosevera.ru,epravda.com.ua,fatalgame.com,filmz.ru,fishingsib.ru,flamp.ru,food.ru,footballua.tv,forum-profit.ru,gameguru.ru,gecid.com,goodfon.ru,gorodvitebsk.by,gp.by,growhow.in.ua,haqqin.az,hunting.ru,industry-hunter.com,infpol.ru,investfunds.ru,ircity.ru,islam-today.ru,iz.ru,joborgame.ru,jut.su,k1news.ru,klavogonki.ru,knijky.ru,kt.kz,kursktv.ru,laradiofm.ru,livesport.ws,locals.md,medialeaks.ru,megatyumen.ru,menportal.info,myslo.ru,neboleem.net,nmedic.info,nv-online.info,obyava.ua,okna.ua,penza-press.ru,polochka.net,povarenok.ru,ppt4web.ru,pravda.com.ua,pravoved.ru,primemusic.cc,profibeer.ru,prostatitanet.com,redfm.ru,relax-fm.ru,rg.ru,skachat-kino.fun,smolensk-i.ru,sovsport.ru,spanishrestaurant.ru,sport5.by,sportguide.kiev.ua,start33.ru,syzran-small.ru,tele.ru,tengriauto.kz,tengrinews.kz,tengrisport.kz,tengritravel.kz,the-flow.ru,thequestion.ru,thg.ru,tveda.ru,twentysix.ru,ufanotes.ru,valverus.info,vashurok.ru,veterinargid.ru,vikka.ua,vinnitsa.info,vklasse.online,vovka.su,vringe.com,vshkole.com,woman.ru,wonderzine.com,wowjp.net,xsport.ua,zagorod.spb.ru,zaim-profi.ru,zaryad.me,zebra-tv.ru,zoohoz.ru,zorbasmedia.ru##div[class*="banner"]
 dressupmix.ru##div[class*="banner"]:not(.banner-vk)
 bombardir.ru##div[class*="banner-placeholder"]
 mobile-review.com##div[class*="banner-wrapper"]
@@ -19926,6 +19924,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /js/_b.$script,domain=zab.ru|zab.tv
 /js/_y.$script,domain=zab.ru|zab.tv
 /js/al/mrtarg.js$domain=vk.com|vk.ru
+/js/header-bidding.js$domain=tengriauto.kz|tengrinews.kz|tengrisport.kz
 /js/init.js$script,~third-party,domain=assistentus.ru|dogovor-urist.ru|erikadmin.ru|fzrf.su|gibdd-gai.ru|gibddru.info|kodeksy.com.ua|moepravo.guru|pasportnyjstol.ru|poliklinika-avto.ru|prestima.ru|pristav-russia.ru|prizivnika.net|prozhivem.com|regoperatory.ru|snn-mn.ru|tbti.ru|vozvrat-tovara.ru|xn--80abefftg5atkeine8j.xn--p1ai|xn--b1aasedeuba5ai.xn--p1ai|zakon-o-tishine.ru|zakonguru.com
 /js/pop*.js$script,domain=superhumor.ru|voffka.com
 /js/script-*.*.js|$script,domain=divxplayer.ml|domonosok.tk|haes.tech|hcdn.online|hqq.to|hqq.tv|kinokrad.in.net|metaverseid.tk|player.cvary.org|porn-watch.ru|vidxhot.net
@@ -22421,9 +22420,6 @@ lada.kz/uploads/banners/
 ||telekomza.ru/wp-content/uploads/$object
 ||telik.top^*randomator.js
 ||telspravochnik.com/src/$script
-||tengrinews.kz/ajax/getBanners
-||tengrinews.kz/js/banners-init.js
-||tengrinews.kz/js/header-bidding.js
 ||tengrinews.kz/js/loader.js
 ||teremok.org.ua/partner/images/
 ||ternopillive.com/wp-content/uploads/*.mp4|

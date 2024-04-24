@@ -133,8 +133,8 @@ raenonx.cc##body > div[class] > style:first-child + .w-full:has(> .button-clicka
 raenonx.cc##.w-full:has(> style + div > style + div .adsbygoogle)
 raenonx.cc##.w-full > style + div[tabindex]:has(> style + div > style + div > p:has-text(advertisements))
 raenonx.cc##.w-full > div:has(> style + div > style + div > p:has-text(/advertisements|広告/))
-raenonx.cc##[id^="headlessui-"] [role="dialog"]:has-text(/ad-blocker|ad blocker|adblocker|広告/i)
-raenonx.cc##.flex-col > style + div[class]:has(> p > a[href$="/ads-and-credits"])
+raenonx.cc##[id^="headlessui-"] [role="dialog"]:has-text(/ad[- ]?blocker|広告/i)
+raenonx.cc##.flex-col.p-2 > style + div[class]:has(> p)
 @@*$xhr,3p,method=head,domain=raenonx.cc
 @@||googlesyndication.com/|$xhr,domain=raenonx.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=raenonx.cc
@@ -160,6 +160,7 @@ in-jpn.com,oninet.ne.jp,xth.jp##body:style(color: #000 !important;)
 in-jpn.com#@#[style]:empty
 in-jpn.com,oninet.ne.jp,xth.jp##body div:matches-css(position: fixed):matches-css(background-color: /rgb/):matches-css(z-index: /\d+/)
 in-jpn.com##+js(set, navigator.brave, '')
+xth.jp##body:style(background: none !important;)
 !#if cap_html_filtering
 ||in-jpn.com^$script,replace=/function myFunc[\s\S\n]+?false;[\s\S\n]+?\}[\s\S\n]+?myFunc\(\); \}[\s\S\n]+?\}//
 in-jpn.com##+js(no-xhr-if, adsbygoogle)

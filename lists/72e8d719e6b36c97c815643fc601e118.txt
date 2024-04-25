@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.5.0
+! Version: 3.6.5.1
 
 ! General
 
@@ -293,8 +293,9 @@ spektrum.de##+js(rc, pw-premium, article.pw-premium)
 ||spglobal.com$inline-script
 spglobal.com##.article__overlay
 spglobal.com##+js(ra, class, html, stay)
-staradvertiser.com##div#hsa-paywall-overlay
+staradvertiser.com##div.fade
 staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
+staradvertiser.com##+js(rc, overflow-hidden, body.overflow-hidden)
 startribune.com##div.modal-backdrop
 startribune.com##body[class]:style(overflow: auto !important; position: static !important;)
 studocu.com##.page-content:style(filter: none !important; user-select: unset !important)

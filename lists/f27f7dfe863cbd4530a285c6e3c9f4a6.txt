@@ -1,9 +1,9 @@
-! Checksum: NxfRYHJvRIdvKnm7ZJzm9Q
-! Diff-Path: ../patches/7/7-s-1714041255-3600.patch
+! Checksum: gXN5FCAhUiA0zj2BVWmPwg
+! Diff-Path: ../patches/7/7-s-1714048459-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.97
-! TimeUpdated: 2024-04-25T10:31:37+00:00
+! Version: 2.0.50.98
+! TimeUpdated: 2024-04-25T12:31:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1808,6 +1808,7 @@ bipblog.com##.main_center_body_text div[align="center"]:has(> a[href^="https://a
 j-baseball.club##.ad-space-top-footer
 j-baseball.club##.ad-space-top-header
 blog.janjan.net##.entry-content > p.has-text-align-center
+||mbady.nan.co.jp/mbadv5?
 nan-net.com##.thread_body > div[style^="margin-top:50px;background-color:#FFF;"]
 nan-net.com##iframe[id^="bottomad"]
 nan-net.com###middleadv-nex
@@ -5454,7 +5455,7 @@ bizspa.jp###innerAdsense
 bizspa.jp##.page-ad-wrap
 appllio.com##.ad-appllio-Bottom
 appllio.com##.ad-appllio-Title
-mwed.jp,e-nenpi.com,egolf.jp##div[style^="min-height:250px"]
+adacomi.com,mwed.jp,e-nenpi.com,egolf.jp##div[style^="min-height:250px"]
 merkmal-biz.jp##.box[style="min-height:900px"]
 lasisa.net##aside.box
 as-web.jp###imgUpperRectangle
@@ -10585,7 +10586,7 @@ app-story.net#@##AdBlock
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140301
 news.merumo.ne.jp#@#.adBox
 ! https://twitter.com/aala3201/status/1610986842958200832
-asahi-net.jp,au.com,eowebmail.eonet.jp,hwm.hi-ho.ne.jp,icloud.com,mail.google.com,mail.nifty.com,mail.smt.docomo.ne.jp,mail.yahoo.co.jp,msg.dream.jp,ocn.ne.jp,outlook.live.com,outlook.office.com,plala.or.jp,proton.me,so-net.ne.jp,tp1.jp,tutanota.com,wakwak.com,webmail.gol.com,webmail.softbank.jp,wms.sso.biglobe.ne.jp#@#.wrapper_ad
+asahi-net.jp,au.com,eowebmail.eonet.jp,hwm.hi-ho.ne.jp,icloud.com,mail.google.com,mail.nifty.com,mail.smt.docomo.ne.jp,mail.yahoo.co.jp,msg.dream.jp,ocn.ne.jp,outlook.live.com,outlook.office.com,plala.or.jp,proton.me,so-net.ne.jp,tp1.jp,tutanota.com,wakwak.com,web.mail.goo.jp,webmail.gol.com,webmail.softbank.jp,wms.sso.biglobe.ne.jp#@#.wrapper_ad
 @@||image.ias.rakuten.co.jp/dst/ec/$image,third-party
 ! https://github.com/tofukko/filter/issues/79
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=buhitter.com

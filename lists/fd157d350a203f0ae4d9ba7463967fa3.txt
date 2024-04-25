@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ciN8w6BhzJW4Ps8RfT5ELg
-! Version: 202404251551
+! Checksum: 4gqJGD6ZltJ/IwOJXJWskA
+! Version: 202404251651
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Apr 2024 15:51 UTC
+! Last modified: 25 Apr 2024 16:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2049,7 +2049,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /tionline150x60.
 /tionline240x100.
 /tionline240x400.
-/tizer-$domain=~1ab.ru|~cybersport.ru|~f1comp.ru|~metropolnemiga.by
+/tizer-$domain=~1ab.ru|~blogbaster.org|~cybersport.ru|~f1comp.ru|~metropolnemiga.by
 /tizer.$domain=~tizer.io
 /tizer/*$domain=~asau.ru
 /tizer2.
@@ -22823,7 +22823,7 @@ lada.kz/uploads/banners/
 ||ya62.ru/images/flash/
 ||yakutsk.ru/data/lenta-yakutsk.json
 ||yakutsk.ru/wp-content/themes/yakutsk/assets/js/news-nb.js
-||yandex.ru/games/$domain=fishki.net|games.academic.ru|lenta.ru|vz.ru
+||yandex.*games/$domain=fishki.net|games.academic.ru|gazeta.ru|lenta.ru|vz.ru
 ||yandex51.ru/joketsuperstar$script
 ||yangi-kinolar.ru/vast/$xmlhttprequest
 ||yangteacher.ru/s.png
@@ -23726,6 +23726,7 @@ lenta.ru##.header__twenty-ideas
 lenta.ru##.js-erid
 lenta.ru##.js-header-right > div:first-child:not([class*="goodnews"])
 lenta.ru##.layout::before
+lenta.ru##.layout__container > div[class*="banner "]
 championat.com##.livetable-bar__bonus
 gazeta.ru##.m_banner
 lenta.ru##.okko

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 14MzBSIMKOaqyWS1ZNZdpA
-! Version: 202404250851
+! Checksum: Jkrnkbk5r3qGSLjVigSedg
+! Version: 202404250951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Apr 2024 08:51 UTC
+! Last modified: 25 Apr 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15133,6 +15133,7 @@ nur.kz##.page__top
 nnovosti.info##.page_content > .article_content ~ div[style^="width:"]
 djekxa.ru##.page_index.content > p a[href][target="_blank"] > img
 1777.ru##.pages_sf_right_block > table[style*="min-height:"]
+m-strana.ru##.pagination-item > [id^="bx_"] ~ :not([id^="bx_"])
 km.ru##.pane-advertisment
 rz.com.ua##.pane-node-field-right-long-banner
 komarovskiy.net##.panel-body noindex
@@ -15780,6 +15781,7 @@ masterok.livejournal.com##.sidebar-custom > dd > br
 analitikaua.net,aspekty.net,ua-report.info##.sidebar-inner > .widget ~ .widget_text
 raenza.ru##.sidebar-island.box-shadow
 www.aport.ru##.sidebar-item.banner
+m-strana.ru#?#.sidebar-module:-abp-has(> div[id^="adfox_"])
 kinovidos.com##.sidebar-nadpis
 101.ru##.sidebar-news
 podillyanews.com##.sidebar-reclame
@@ -23244,6 +23246,7 @@ health.mail.ru##.js-fixed-panel > .box
 health.mail.ru##.js-popup_gallery .viewbox__side
 @@||health.mail.ru^$generichide
 health.mail.ru##div[class*="page"] .rb
+health.mail.ru##div[data-closewrap-container]
 health.mail.ru##img[width="240"][height="200"]
 health.mail.ru##tr > .daynews__spring
 ! Кино

@@ -1,9 +1,9 @@
-! Checksum: IY5kKa59r4gOct7/liYtrg
-! Diff-Path: ../patches/7/7-s-1714023236-3600.patch
+! Checksum: +zJy42MA5rf0x1SLpVrnLg
+! Diff-Path: ../patches/7/7-s-1714037649-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.50.95
-! TimeUpdated: 2024-04-25T05:31:31+00:00
+! Version: 2.0.50.96
+! TimeUpdated: 2024-04-25T09:31:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1133,7 +1133,7 @@ yavtube.com#%#//scriptlet("prevent-setTimeout", "getAdCookie")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114915
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111968
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94170
-seikeidouga.blog.jp,tcg-bloglife.com,ch-review.net,gametohkenranbu.sakuraweb.com,jisakuhibi.jp,rank1-media.com,resizer.myct.jp#%#//scriptlet('remove-node-text', '#text', '/スポンサード?リンク/')
+ideal2ch.livedoor.biz,seikeidouga.blog.jp,tcg-bloglife.com,ch-review.net,gametohkenranbu.sakuraweb.com,jisakuhibi.jp,rank1-media.com,resizer.myct.jp#%#//scriptlet('remove-node-text', '#text', '/スポンサード?リンク/')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113729
 phileweb.com#%#//scriptlet("remove-class", "has-topbanner", "body > header.has-topbanner")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109086
@@ -1577,6 +1577,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+s://vpass.*.cn/all/login.php$document
 ://rakuten-bank.*.cn/$document
 ||z13.web.core.windows.net/index.html^$document
 -co-jp.*.cfd/ai/index.php$document

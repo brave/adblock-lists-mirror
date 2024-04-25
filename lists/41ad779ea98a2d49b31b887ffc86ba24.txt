@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8w2TS1Vx7WsBC4miHmdO2Q
-! Version: 202404250640
+! Checksum: DXmoT0ZwvpbGqZXMLChXiw
+! Version: 202404250715
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-25 06:40 UTC
+! Last modified: 2024-04-25 07:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33105,6 +33105,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.section-newsletters
 ##.section__newsletter
 ##.section_newsletter
+##.send-us-your-news-cta
 ##.sendinblue-newsletter-mergefields
 ##.sendinblue-signup-subscribe-form
 ##.service-newsletter
@@ -35567,6 +35568,7 @@ bigissue.com##.polaris__flexible-cta
 bigissue.com##.polaris__sticky-subscription
 theweek.com##.polaris__subscription
 dev.to##.popover-billboard--menuopenupwards
+commondreams.org##.post-section--message\/desktop
 flaticon.com##.premium-autop
 theglobeandmail.com##.premium-chain-rail
 wowhead.com##.premium-promo-row
@@ -37245,10 +37247,12 @@ lifestyleasia.com##.pre-footer_instagram
 dailymail.co.uk##.prevNextWrapper-1Vg7e
 inspiredtaste.net##.profile-icons
 thetruthaboutcars.com##.project-actions-header
+sports.ndtv.com##.pst_scl
 cbn.com##.py-4.flex-wrap.flex
 honesttopaws.com##.qa-gallery-socials
 scribol.com##.qa-placement-share-bar
 romper.com##.qyh
+prdaily.com##.ragan-social-share
 tasteofhome.com##.recipe-social-share
 fleischmannsyeast.com##.recipe__social
 teamcoco.com,tomshardware.com##.reddit
@@ -37328,6 +37332,7 @@ thekitchenmagpie.com##.sharing-cta
 al-watan.com,qatar-tribune.com##.sharingColumn
 michaelmedved.com##.side_col_follow_box
 welivesecurity.com##.sidebar-card-media
+prdaily.com##.sidebarShareHeading
 dhakatribune.com##.single-artical-page-shear-section-shear-section
 budgetbytes.com##.single-share-wrap
 foodsforbetterhealth.com##.single-social-icon
@@ -37414,7 +37419,7 @@ audi-sport.net,eurogamer.net,metacritic.com,trustedreviews.com,woodworkforinvent
 dnaindia.com##.social_icons_colored
 moneycontrol.com##.social_icons_wrapper
 ringsidenews.com##.social_label
-captainaltcoin.com##.social_link
+captainaltcoin.com,ndtv.com,ndtv.in##.social_link
 lithub.com##.social_links
 dailysabah.com##.social_media
 web3cafe.in##.social_media_link
@@ -41476,6 +41481,7 @@ b92.net##.bilten-signup
 a16z.com##.bio-lp-newsletter
 albawaba.com##.black-box
 bigkitchen.com##.blackOverlay
+commondreams.org##.black_newsletter
 reason.com##.blackout
 restofworld.org##.block--homepage-newsletter
 kffhealthnews.org##.block--newsletter
@@ -41532,8 +41538,8 @@ educatedguesswork.org##.box
 contexttravel.com##.box--teal-accent
 bangkokpost.com##.box-informed
 monochrome-watches.com##.boxzilla-bottom-right-container
-geopoliticalfutures.com,iafrica.com,kdnuggets.com,marijuanamoment.net,naturalblaze.com,wakingtimes.com##.boxzilla-container
-geopoliticalfutures.com,iafrica.com,kdnuggets.com,marijuanamoment.net,naturalblaze.com,wakingtimes.com##.boxzilla-overlay
+geopoliticalfutures.com,iafrica.com,kdnuggets.com,labourlist.org,marijuanamoment.net,naturalblaze.com,wakingtimes.com##.boxzilla-container
+geopoliticalfutures.com,iafrica.com,kdnuggets.com,labourlist.org,marijuanamoment.net,naturalblaze.com,wakingtimes.com##.boxzilla-overlay
 geopoliticalfutures.com##.boxzilla-slide-in-free-newsletter-2
 nordvpn.com##.brand-popup
 federalnewsnetwork.com,staradvertiser.com##.breaking-news-signup
@@ -42346,6 +42352,7 @@ levernews.com##.py-\[60px\]
 australianforeignaffairs.com,quarterlyessay.com.au##.qe-news--inline
 independent.ie##.quick_subscribe
 allthatsinteresting.com##.r-klde5a.r-1awozwy.css-175oi2r
+prdaily.com##.ragansdaily
 theparisreview.org##.rail-enews
 oregonlive.com##.rawhtml
 rcrwireless.com##.rcrwi-hubspot-article-form
@@ -43917,6 +43924,10 @@ cnn.com##+js(set-local-storage-item, perm_cnn_regwall_v1, $remove$)
 cnn.com##+js(set-local-storage-item, REG_WALL_METER, $remove$)
 ! nautil.us
 nautil.us##+js(cookie-remover, arc)
+! commondreams.org
+commondreams.org###XCPBKJJD
+commondreams.org##.fun-widget-backdrop-holder
+commondreams.org##body,html:style(overflow: auto !important; position: initial !important;)
 ! theweek.com
 theweek.com##+js(set-local-storage-item, kiosq_article_reset, $remove$)
 theweek.com##+js(set-local-storage-item, kiosq_article_url_ack, $remove$)

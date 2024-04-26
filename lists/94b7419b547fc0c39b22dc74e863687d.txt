@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8VSoS54Q2pioRaLMgyFc1g
-! Diff-Path: ../patches/1/1-s-1714134858-3600.patch
+! Checksum: ihMEcbuDoOQnECRY7pyYUg
+! Diff-Path: ../patches/1/1-s-1714138471-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.46
-! TimeUpdated: 2024-04-26T12:31:04+00:00
+! Version: 2.0.90.47
+! TimeUpdated: 2024-04-26T13:31:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1481,6 +1481,7 @@ ucoz.ru/informer/
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||ssrv7.com^
 ||zszhfffyd.ru^
 ||tracker.pushmeback.com^
 ||isrv07.com^
@@ -7414,8 +7415,9 @@ meta-ratings.com.ua,metaratings.ru##.main-top-bookmakers
 sinoptik.com.ru,sinoptik.ua###adsZone
 sinoptik.com.ru,sinoptik.ua###adsZone3
 ||sinst.fwdcdn.com/img/partners/$domain=sinoptik.com.ru|sinoptik.ua
-! HDVB players
-vb24131crasosnemesis.com##+js(set-constant, playerConfigs.rek, {})
+! HDVB players ('vb'+'digits'+'word.tld')
+||cdn-t.*.com/content/stream/*.mp4
+vb24132nightdwellers.com,vb24131crasosnemesis.com##+js(set-constant, playerConfigs.rek, {})
 !
 ! monetizer.guru
 lumpics.ru,russkiiyazyk.ru,taker.im,glav-dacha.ru,megabitcomp.ru,programdownloadfree.com,diwis.ru,tehnika.expert,sdelaicomp.ru,dooralei.ru,rugraphics.ru,samelectrik.ru,sam-sdelay.ru,colady.ru,menstois.ru,windowstune.ru,it-doc.info,d-mod.ru,iklife.ru,fitnavigator.ru,bouw.ru,serviceyard.net,love-mother.ru,svoimi-rykami.ru,sekreti-domovodstva.ru,selfmadetrip.com,subsidii.net,viborprost.ru,anisima.ru,snow-motion.ru,antirodinka.ru,brjunetka.ru,rusadmin.biz,sprintotvet.ru,info-effect.ru,telefongid.ru,oblcit.ru,guitarrist.ru,usatiki.ru,mydizajn.ru,3witcher.ru,historynotes.ru,zakonguru.com,rainbowsky.ru,kulikavto.ru,13idei.ru,toysew.ru,privivkainfo.ru,azku.ru,catfishes.ru,ethnoboho.ru,ustroim-prazdnik.info,baragozik.ru,idealsad.com,kopomko.ru,teleotvet.ru,ixtira.tv##+js(abort-on-property-write, fpm_adbDetect)
@@ -7535,6 +7537,7 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+klerk.ru###__layout > div > div.flex:has(> div.promotion)
 blisch.by##.menu > li.menu-item > a[href*="utm_medium"]
 blisch.by##.b_ads_link
 7themes.su##center > div > a[target="_blank"] > img

@@ -1,9 +1,9 @@
-! Checksum: CEgmNJ/HoeuMOutBtz2Jaw
-! Diff-Path: ../patches/7/7-s-1714138480-3600.patch
+! Checksum: MoGcM7klhm+F1DyPk95iTA
+! Diff-Path: ../patches/7/7-s-1714142057-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.3
-! TimeUpdated: 2024-04-26T13:31:53+00:00
+! Version: 2.0.51.4
+! TimeUpdated: 2024-04-26T14:31:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1152,8 +1152,6 @@ webdevqa.jp.net#%#//scriptlet('set-constant', 'SERVER_SIDE_URL', '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125843
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99361
 xn--gmq92kd2rm1kx34a.com,javmix.*#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'style.display')
-! popup on mobile
-embed.share-videos.se#%#//scriptlet('prevent-window-open')
 ! skip in-game ad
 simplegame.jp#%#//scriptlet('adjust-setTimeout', 'simplegameAdCountDown', '1000', '0.02')
 ! tokyomotion.net ad initiator
@@ -3452,7 +3450,6 @@ cloudwoods.jp##div[style="border:1px solid black;padding:2px;"]
 getsuvolley.com##div[class*="-gtp-ad"]
 ||hobby.dengeki.com/wp-content/themes/hobby2021/common/js/jack_ad.js
 hobby.dengeki.com##.afbox
-||share-videos.se/js/pjs.js
 hadakanonude.com##.entry-inner > table
 hadakanonude.com###header-widgets
 vr18.jp,hadakanonude.com##.footer-widget-1
@@ -6376,7 +6373,6 @@ fujossy.jp##.story__header-adbox
 crossbike-navi.com##.divAD_L
 pakosen.com###scrollfix > div.widget_custom_html
 pakosen.com##.hentry > div.widget_custom_html
-share-videos.se##.sidebar2.sidebar.col-sm-3
 sandalaudio.blogspot.com##iframe[src^="http://rcm-fe.amazon-adsystem.com"]
 gigafree.net##.infeed2
 gigafree.net##.spll
@@ -8764,9 +8760,6 @@ yahoo.co.jp###lrec
 ||vipsister23.com/vipsister.html
 vipsister23.com###share2
 ibbs.info##.ad_data
-share-videos.se##.widget_sponsored_area
-embed.share-videos.se###new_ad_html
-embed.share-videos.se###ad_html
 blog.esuteru.com##.azrank_quote
 blog.esuteru.com##.siteAside > div.ad-aside:nth-child(-n+2)
 blog.esuteru.com,jin115.com###gStickyAd

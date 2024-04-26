@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ihMEcbuDoOQnECRY7pyYUg
-! Diff-Path: ../patches/1/1-s-1714138471-3600.patch
+! Checksum: AABb6nHSljkuvn8iDdxiBg
+! Diff-Path: ../patches/1/1-s-1714142049-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.47
-! TimeUpdated: 2024-04-26T13:31:22+00:00
+! Version: 2.0.90.48
+! TimeUpdated: 2024-04-26T14:31:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5193,6 +5193,7 @@ vk.city4me.com#$##goo_rekm { height: 101px!important; position: absolute!importa
 forums.overclockers.ru#@##yandex_ad_1
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87125
+rustorka.com,rustorka.net,rustorkacom.lib##body > div[style*="background-color:"][style*="max-width:"][style*="height:"]
 $removeheader=location,domain=zannn.top|innal.top
 apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top##+js(no-setTimeout-if, /[echaysd]+/)
 apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top#$##e7af0de8b4 { height: 16px !important; }

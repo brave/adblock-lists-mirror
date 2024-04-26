@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: J9wSTGTPG6R13/jIP1DuZw
-! Diff-Path: ../patches/13/13-s-1713969252-3600.patch
+! Checksum: o0pAV31BjQJgcy3U1mDS/g
+! Diff-Path: ../patches/13/13-s-1714113215-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.39
-! TimeUpdated: 2024-04-24T14:32:00+00:00
+! Version: 2.0.51.40
+! TimeUpdated: 2024-04-26T06:31:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2541,7 +2541,7 @@ pusulagazetesi.com.tr###tdsAdContainer
 forum.donanimarsivi.com##.p-body-content > a[target="_blank"] > img
 forum.donanimarsivi.com##.p-body-sideNavContent > a[target="_blank"] > img
 ||donanimarsivi.com/wp-content/uploads/2022/12/da-forum-amd-banner-3.jpg
-indirmedenfilmizle.vip##center > a[target="_blank"]
+fullprogramlarindir.net,indirmedenfilmizle.vip##center > a[target="_blank"]
 ||cosmomedya.com/addserver/banners/
 cosmoturk.com##.rightBanners
 t24.com.tr##._3amny
@@ -2926,7 +2926,7 @@ sinepal.*##body .ads-skin
 galeri.uludagsozluk.com##.adulu_col-main-ulu
 galeri.uludagsozluk.com##body > div[style="display: flex; justify-content:center"]
 kamubulten.com##header > div[style="height: 300px;"]
-buyurindir.org##center a[onclick^="window.open("]
+fullprogramlarindir.net,buyurindir.org##center a[onclick*="window.open("]
 ||fullhd720pizle.live/f7/f7.php
 ||filmkuzusu1.com/pops5.js
 mynet.com##.ad-home-masthead-wrapper

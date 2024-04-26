@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.5.1
+! Version: 3.6.5.2
 
 ! General
 
@@ -111,7 +111,7 @@ citywire.com##registration-widget,div.alert--locked
 connaissancedesarts.com##div.ad-container
 ||paywall.correiodopovo.com.br$script,~third-party
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
-||cdn.wyleex.com/elcronista/pw.min.js$script,domain=cronista.com
+||cronista.com/files/cachefiles/987*.js$script,~third-party
 ||crusoe.com.br/assets/js/swg-wallcontent-crusoe.js$script,~third-party
 crusoe.com.br##div#gpt-leaderboard,div.ads_desktop,div.catchment-box
 csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
@@ -342,7 +342,8 @@ thequint.com##+js(ra, class|style, div#story-body-wrapper, stay)
 ||thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.js$script,~third-party
 thesaturdaypaper.com.au##+js(cookie-remover, /^/)
 thesaturdaypaper.com.au##div.paywall-hard-always-show
-thetimes.co.uk##body,html:style(overflow: auto !important; height: 100% !important;)
+thetimes.co.uk##+js(ra, style, html[style], stay)
+thetimes.co.uk##+js(ra, style, body[style], stay)
 theweek.com##+js(rc, paywall-locker, div.paywall-locker)
 theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)

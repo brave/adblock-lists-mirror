@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: o0pAV31BjQJgcy3U1mDS/g
-! Diff-Path: ../patches/13/13-s-1714113215-3600.patch
+! Checksum: RRWLT/9qTHvo3WvoVf4SCA
+! Diff-Path: ../patches/13/13-s-1714127629-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.40
-! TimeUpdated: 2024-04-26T06:31:41+00:00
+! Version: 2.0.51.41
+! TimeUpdated: 2024-04-26T10:31:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1820,6 +1820,8 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+atarita.com###tdi_3
+atarita.com###tdi_31
 kultfilmler.com##+js(addEventListener-defuser, click, adLink)
 .mp4$media,redirect=noop-1s.mp4,domain=kultfilmler.com
 kultfilmler.com###countdown

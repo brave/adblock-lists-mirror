@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Nh7oFPe9AcL5sxFHz1un3Q
-! Diff-Path: ../patches/1/1-s-1714156446-3600.patch
+! Checksum: jaudqdvD4jxp3I/6q22adQ
+! Diff-Path: ../patches/1/1-s-1714228459-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.50
-! TimeUpdated: 2024-04-26T18:31:06+00:00
+! Version: 2.0.90.51
+! TimeUpdated: 2024-04-27T14:31:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6280,7 +6280,7 @@ simhost.org#$#.top_bg { height: 0 !important; }
 ! https://forum.adguard.com/index.php?threads/http-xlib-info-nsfw.43138/
 xlib.info#$#body { background-image: none !important; background-color: #FFFFFF !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80309
-lordfilm-lord.club#$#.wrap { padding-top: 0 !important; }
+lordfilm1.work,lordfilm-lord.club#$#.wrap { padding-top: 0 !important; }
 ! sports.ru - for apps. Sometimes banner is not hidden on the main page
 sports.ru#$#.nav-top-line__content-wrapper > div:not([class*="-"]) { visibility: hidden!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78290

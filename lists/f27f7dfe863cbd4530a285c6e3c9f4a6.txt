@@ -1,9 +1,9 @@
-! Checksum: 8OgEQ/BRP3IvX58QFHz+Yw
-! Diff-Path: ../patches/7/7-s-1714221247-3600.patch
+! Checksum: oibUEx4BA1EMNy23rR0M4g
+! Diff-Path: ../patches/7/7-s-1714228464-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.8
-! TimeUpdated: 2024-04-27T12:31:34+00:00
+! Version: 2.0.51.9
+! TimeUpdated: 2024-04-27T14:31:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1773,6 +1773,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+himanatokiniyaruo.com##div[id^="ssp"]
 eronomoto.com##.osusumeDmm
 eronomoto.com##h2[id*="random"]
 ituki-yu2.net###my-footer > div[style="text-align:center;"]
@@ -4506,7 +4507,7 @@ pref.okayama.jp###top_sidebar1_banner
 nikkansports.com##div[id^="adUnit"]
 amachamusic.chagasi.com##.l_sidebar > h2:last-of-type
 amachamusic.chagasi.com##.side_box:last-child > h4
-amachamusic.chagasi.com##div[class^="sponsor"]
+amachamusic.chagasi.com,himanatokiniyaruo.com##div[class^="sponsor"]
 asahi.com##.BannerBlock
 postmap.org##.nearby > li:last-child:not([class])
 kledgeb.blogspot.com##div[style^="bottom: 0px; left: 0px; position: fixed;"][style*="z-index"][style*="background-color:"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Oy8l0B/Kz5OSGdN5MMB9nQ
-! Version: 202404270551
+! Checksum: IaHULUdu4Bd2VGR+rJutyA
+! Version: 202404270651
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Apr 2024 05:51 UTC
+! Last modified: 27 Apr 2024 06:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3448,6 +3448,7 @@ _tizers.
 ||sosnews.ru^$third-party
 ||sovetnik.market.yandex.ru^$third-party
 ||sovetnik.yandex.net^$third-party
+||soyztreid.website^$third-party
 ||spacepush.ru^$third-party
 ||spbland.ru/bban/
 ||spitter.pauk.ru^
@@ -17287,7 +17288,7 @@ htmlhook.ru##a[href*="regru.net"] > img
 radidomapro.ru##a[href*="report.capinfopro.ru/"][target="_blank"]
 rabota24online.ru##a[href*="rich-birds.org"]
 rosrabota.ru##a[href*="rosrabota.ru/delivery/"] > img
-uniondht.org##a[href*="rutor."]:not([href*=".rutor.org/"])
+uniondht.org##a[href*="rutor."]:not([href*=".rutor.org"])
 fotoinform.net##a[href*="shop.vmayke.org"]
 1track.ru##a[href*="smarty.sale"]
 gorvesti.ru,pravda.ru,sovsekretno.ru,tverigrad.ru##a[href*="smi2.net/"]

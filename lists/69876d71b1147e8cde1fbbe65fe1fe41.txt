@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: sXR9pOuOsSVMgqSSy66MRQ
-! Diff-Path: ../patches/13/13-s-1714221238-3600.patch
+! Checksum: 4G4jQ1h9PBg6OVIi9NjVGA
+! Diff-Path: ../patches/13/13-s-1714246442-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.43
-! TimeUpdated: 2024-04-27T12:31:43+00:00
+! Version: 2.0.51.44
+! TimeUpdated: 2024-04-27T19:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1822,6 +1822,12 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+justintvizlehd.xyz###ad-container
+justintvizlehd.xyz##a[href^="https://heylink.me/"]
+||bizlergeldikk.babalargeldii1.workers.dev/*/pop.js
+||bizlergeldikk.babalargeldii1.workers.dev/*/betmatik.mp4$redirect=noop-1s.mp4,media
+justintvizlehd.xyz,bizlergeldikk.babalargeldii1.workers.dev##div[data-adv-link]
+justintvizlehd.xyz,bizlergeldikk.babalargeldii1.workers.dev##div[data-adv]
 ||dizipal.org/wp-content/uploads/*/grand
 izlekolik.org#$?##preRollBd { remove: true; }
 izlekolik.org##+js(remove-attr, data-front, #tv-spoox2)
@@ -2384,7 +2390,7 @@ biliyo.org##div[style^="float:left;"][style$="min-width:336px;min-height:250px;"
 afroditscans.com###footer > p > span[style]
 ||trplayer.site/vast.php
 jetfilmizle.*##body > div[id] > [style^="position:fixed;inset:"][style*="z-index:"][style*="height:100%;width:100%"]
-hdfilmcehennemi2.de,720pizle.ai,diziroll.club,roketdizi.co,dizilla.club,yabancidizi.io,birasyadizi.com,goodfilmizle.com,zitinger11.cfd,zitinger5.cfd##a[href^="https://cutt.ly/"]
+justintvizlehd.xyz,hdfilmcehennemi2.de,720pizle.ai,diziroll.club,roketdizi.co,dizilla.club,yabancidizi.io,birasyadizi.com,goodfilmizle.com,zitinger11.cfd,zitinger5.cfd##a[href^="https://cutt.ly/"]
 anizm.net##div[style^="text-align: center;"] > a[target="_blank"]:not([href="https://anizm.net/"])
 tgrthaber.com.tr##div[id^="dfp-sidebar-"]
 tgrthaber.com.tr##div[style*="min-width: 300px;"][style*="min-height: 250px;"]

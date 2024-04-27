@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kBNylLWaep8PYn8l5MDKUg
-! Version: 202404271040
+! Checksum: LUxaTRdM4MOMnbgn/5C7dA
+! Version: 202404271140
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-04-27 10:40 UTC
+! Last modified: 2024-04-27 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2555,6 +2555,8 @@ thebaffler.com##.bg-graphite
 extremetech.com,thefinancialbrand.com##.bg-gray-100
 nextshark.com##.bg-gray-800
 invezz.com##.bg-grey-700.inv-sidebar-widget
+idsnews.com##.bg-ids-light-blue
+idsnews.com##.bg-ids-primary-container
 canberratimes.com.au,theland.com.au##.bg-indigo-700
 themessenger.com##.bg-left-top.bg-cover
 washingtonengager.com##.bg-light.card
@@ -4459,6 +4461,10 @@ investopedia.com##html,body:style(overflow: auto !important; position: initial !
 ! all3dp.com
 all3dp.com##.modal-container
 all3dp.com##+js(rc, root-modal-container-open, body, stay)
+! idsnews.com
+idsnews.com###ids-newsletter-modal
+idsnews.com##.modal-backdrop
+idsnews.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! mashable.com
 mashable.com##.bx-impress
 mashable.com##body:style(overflow: auto !important; position: initial !important;)

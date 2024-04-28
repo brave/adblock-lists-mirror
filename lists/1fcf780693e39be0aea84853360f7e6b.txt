@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yvvZMuyXpczQ8lep4YDAyQ
-! Diff-Path: ../patches/224/224-s-1714293226-3600.patch
+! Checksum: 0ZoCdWAfBKSEbcYvjSYRzQ
+! Diff-Path: ../patches/224/224-s-1714318433-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.14.89
-! TimeUpdated: 2024-04-28T08:32:00+00:00
+! Version: 2.1.14.90
+! TimeUpdated: 2024-04-28T15:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4900,6 +4900,7 @@ newduba.cn###jq_youxi
 ||iummqg.xyz^
 ||ivbgpax.cn^
 ||ivnrrkx.cn^
+||iwerioo.top^
 ||ixstng.cn^
 ||iykig.cn^
 ||iyuwkbo.top^
@@ -4931,6 +4932,7 @@ newduba.cn###jq_youxi
 ||jypvzd.xyz^
 ||jyuwkba.top^
 ||jzjpntr.xyz^
+||kalmukrattail.com^
 ||kaosts.com^
 ||kbomku.xyz^
 ||kdeh.cn^
@@ -5125,6 +5127,7 @@ newduba.cn###jq_youxi
 ||rbhunp.xyz^
 ||rcyzsh.icu^
 ||rdiono.cn^
+||regwiuv.cn^
 ||retinaesprent.com^
 ||rfnvqpo.xyz^
 ||rghqrj.xyz^
@@ -5237,6 +5240,7 @@ newduba.cn###jq_youxi
 ||uctutu3789.xyz^
 ||udkpcc.xyz^
 ||udykkl.cn^
+||ugtbit.icu^
 ||uigxgg.xyz^
 ||uiqcf.cn^
 ||ujovcb.cn^
@@ -5265,12 +5269,14 @@ newduba.cn###jq_youxi
 ||vaekkfv.cn^
 ||vbutycp.cn^
 ||vcnpnf.xyz^
+||vcugbgu.cn^
 ||vdoqomz.icu^
 ||vdvcjlp.cn^
 ||veaiyl.icu^
 ||vejhln.xyz^
 ||vfchm.cyou^
 ||vflorp.xyz^
+||vgzytn.xyz^
 ||vhvwlb.xyz^
 ||vioyugo.cn^
 ||vipgogo123.site^
@@ -5304,6 +5310,8 @@ newduba.cn###jq_youxi
 ||wvwqywz.cn^
 ||wwjtdjj.cn^
 ||wxfdmri.xyz^
+||wxymag.xyz^
+||wymqjow.icu^
 ||wyuwkbe.top^
 ||xamssp.icu^
 ||xcypgd.icu^
@@ -5368,14 +5376,6 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
-||vcugbgu.cn^
-||ugtbit.icu^
-||vgzytn.xyz^
-||kalmukrattail.com^
-||wxymag.xyz^
-||iwerioo.top^
-||wymqjow.icu^
-||regwiuv.cn^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -9411,7 +9411,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.net
 $script,third-party,websocket,domain=52codes.net
-$third-party,xmlhttprequest,domain=xyg688.xyz|cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
+$third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zzzzz688.com
 .194007.com/4058.gif
 .gif|$domain=7mshipin.org|viidii.info
 .html|$domain=www.gamer.com.tw
@@ -20124,20 +20124,20 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
-18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
@@ -20169,11 +20169,11 @@ guailie.com#@#.google-ad
 !#7
 !#8
 !#91porny.com
-91porny.org,jiuse.io,haijiao35.com###main > div[id^="rd"]
+91porny.org,haijiao35.com,jiuse.io###main > div[id^="rd"]
 ###playerJsvLayer.jsv-layer
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
-91porny.org,jiuse.io,haijiao35.com##.footer + .block
+91porny.org,haijiao35.com,jiuse.io##.footer + .block
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 91porny.org,jiuse.io,haijiao35.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0

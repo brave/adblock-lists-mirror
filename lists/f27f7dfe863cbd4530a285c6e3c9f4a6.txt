@@ -1,9 +1,9 @@
-! Checksum: vPU+fjSh73BqD/vuZR1aUQ
-! Diff-Path: ../patches/7/7-s-1714232050-3600.patch
+! Checksum: sj+C7IwnBQBNsSWjsE90Ig
+! Diff-Path: ../patches/7/7-s-1714307659-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.10
-! TimeUpdated: 2024-04-27T15:31:38+00:00
+! Version: 2.0.51.11
+! TimeUpdated: 2024-04-28T12:31:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1773,7 +1773,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
-chaos2ch.com#?#.column-inner-2 > div.plugin-memo:contains(スポンサードリンク)
+pachinkopachisro.com##.plugin-memo:has(> div.side > div[align="center"] > a[href^="https://hb.afl.rakuten.co.jp"][target="_blank"])
+chaos2ch.com##.plugin-memo:has(> div.side > div > a[href*="://www.amazon.co.jp/"][target="_blank"] > img)
 himanatokiniyaruo.com##div[id^="ssp"]
 eronomoto.com##.osusumeDmm
 eronomoto.com##h2[id*="random"]
@@ -6685,6 +6686,9 @@ gamewith.jp##.walkthrough-hikari > div._area > a:not([href*="gamewith.co.jp/"])
 gamewith.jp##.walkthrough-ad-ranking-game
 ||gamewith.jp^*/walkthrough/adjack.js
 gamewith.jp###ad-jack
+! https://github.com/AdguardTeam/AdguardFilters/issues/175115
+!||gamewith.jp/*/ad/index.js
+!||gamewith.jp/js/dist/jp/search/cta.js
 ero-info-antena.site,tarosoku.com###execphp-3
 hobby-museum.com,birori-blog.com,tarosoku.com##.side-topad
 wikinis.net##.entry-content > table[style="border-style: none;"][border="1"]
@@ -9833,7 +9837,7 @@ asahi.com#?#.l-aside > div[class] > div[class]:has(> div.Section > div.Pr)
 kajidore.com#?#.p-columnlist > .p-columnlist__item:has(> .adsbygoogle)
 at-s.com#$?#.newsList05__bnr { remove: true; }
 iwate-np.co.jp#?#.article-list > li:has(> div[id^="yads_"])
-mona-news.com#?#.plugin-memo.sidewrapper:has(> div.side a[href^="https://www.amazon.co.jp/"])
+mona-news.com###sub div.plugin-memo
 xtech.nikkei.com#?#footer > section:has(> ul#recommend)
 norisoku.com#?#.inyou + p:has(> a[href^="https://www.amazon.co.jp/"])
 yugioh-starlight.com#?#.plugin-memo:has(> div.side > table a[href^="https://px.a8.net"])

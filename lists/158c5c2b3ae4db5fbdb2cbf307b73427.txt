@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kqa3vu1NlPBDollgZWCAlA
-! Version: 202404291051
+! Checksum: hAU41XH4x5N+lz5nE7Y+0g
+! Version: 202404291201
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Apr 2024 10:51 UTC
+! Last modified: 29 Apr 2024 12:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1746,6 +1746,7 @@ www.khl.ru##.rep-o-share
 appstudio.org##.repost td:not(.atropos)
 eba.com.ua##.research-shares
 speedtest.net##.result-item-share
+rusfootball.info##.rf_social
 benzin-price.ru##.right > [style="padding-bottom: 25px;"]
 lada.kz##.right-col > .section > .tabss
 f1analytic.com,f1ua.org.ua#?#.right-indent > .wrapper-box:-abp-has(> div > .boxTitle:-abp-contains(Вконтакте))
@@ -1989,6 +1990,7 @@ metanit.com##.socBlock
 mybryansk.ru##.socBlocks
 moto.com.ua##.socShareBlock
 esquire.kz##.socYandex
+football.by##.soc_bar
 bigpicture.ru,gazeta-tula.ru,intvua.com##.soc_block
 mskgazeta.ru##.soc_box
 buzulukday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##.soc_but
@@ -2130,6 +2132,7 @@ channel4it.com##.social_reg
 reedr.ru,setafi.com##.social_rm
 cxem.net##.social_shapka
 my.rv.ua,ogo.ua##.social_share_holder
+rusfootball.info##.social_subs_block
 74.ru##.social_tab
 hromadske.ua##.social_title
 ruskweb.ru##.socialboxes
@@ -6252,7 +6255,7 @@ bibliofond.ru##div[class^="widget-promo"]
 shotam.info##div[class^="wp-block-ugb-"],div[class^="wp-block-ugb-"] + div
 avito.ru##div[data-marker="standard-banner"]
 santehnika-online.ru##div[data-name="FooterCookieAgreement"]
-leroymerlin.ru##div[data-qa-cookie-notification]
+leroymerlin.ru##div[data-qa="cookie-notification"]
 prom.ua##div[data-qaid="footer_app"]
 prom.ua##div[data-qaid^="promo_"]
 tradingview.com##div[data-role="toast-container"]
@@ -8005,6 +8008,8 @@ mobi24.net#@#a[href^="https://www.mobi24.net/"]
 /plugins/sme-facebook-likebox-sidebar/*
 /plugins/sociable-re/images/*
 /plugins/sociable/*$~stylesheet
+/plugins/social-media-widget/*$image
+/plugins/social-profiles-widget/*$image
 /plugins/socialbox/assets/*
 /plugins/socialfans-counter/assets/js/socialfans-script.js
 /plugins/socialgrid/static/img/*
@@ -8121,37 +8126,22 @@ mobi24.net#@#a[href^="https://www.mobi24.net/"]
 /soc_facebook2.
 /socbutton/*
 /sociables/*
-/social-badges.
-/social-bar-
 /social-bar.
-/social-bookmark.
-/social-bookmarks/*
-/social-footer.
-/social-media-widget/*$~stylesheet
-/social-network-icons-
-/social-networks-icon.
-/social-overlay-
-/social-plugin/*
-/social-plugins.
+/social-footer.jpg
+/social-footer.png
 /social-popup/*
-/social-profiles-widget/*$~stylesheet
 /social-proof-testimonials-slider/admin/js/slick-block-editor.js
-/social-search-
-/Social-Sidebar.
-/social-twit.
-/social-url-generator.
+/Social-Sidebar.js
+/social-twit.png
+/social-twit.svg
+/social-url-generator.js
+/social-url-generator.minc.js
 /social-widgets-
-/social.icon.
-/social/bar?
-/social/footerIcons.
 /social/sprite-
 /social2s.min.js
-/social_badges/*
-/social_badges_
 /social_balloon-
 /social_black/*
-/social_bookmark_icons/*
-/social_bookmarking.
+/social_bookmarking.png
 /social_bookmarking/*$image
 /social_bookmarks/*
 /social_footer.

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h10Tc9Q64BHu1sfq5/uBTw
-! Version: 202404291451
+! Checksum: itJRcU9G9drCmuhDQyEOLw
+! Version: 202404291551
 ! Title: EasyList Spanish
-! Last modified: 29 Apr 2024 14:51 UTC
+! Last modified: 29 Apr 2024 15:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2005,6 +2005,7 @@ lagaceta.com.ec##rs-slides
 ! :has()
 forocoches.com###sidebar > div > section:has(.fixed_adslot)
 elpais.com.uy##.Page-above.loaded:has(div[class^="GoogleDfpAd"])
+elpais.com.uy##.PromoBasic:has(.Promo-sponsor)
 businessinsider.mx##.col-md-4.col-12.three-column-item:has(.presentado-por)
 clarin.com##.column > div[class] > div[class^="sc-"]:has(div[class^="sc-"] > div[id^="div-gpt-ad"])
 leroymerlin.es##.l-resultsList__item:has(.kl-blade--sponsored)

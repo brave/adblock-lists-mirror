@@ -1,9 +1,9 @@
-! Checksum: 1+I4d1t66IP1uuWfA9wn3Q
-! Diff-Path: ../patches/7/7-s-1714408461-3600.patch
+! Checksum: 0bVQ8V/+RzQOc+Su9iR+ZA
+! Diff-Path: ../patches/7/7-s-1714412026-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.16
-! TimeUpdated: 2024-04-29T16:31:45+00:00
+! Version: 2.0.51.17
+! TimeUpdated: 2024-04-29T17:31:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3381,6 +3381,8 @@ malanka.tech###modal-overlay
 ||navitime.co.jp/*/diagram/japantravel/btn_japantravel.jpg
 ||navitime.jp/data/cms/advertisement/
 ||navitime.jp/scripts/media/web/widget/
+navitime.co.jp###st-around-realestate-area
+navitime.co.jp###st-bizreach-job-list
 navitime.co.jp###around-article-area
 navitime.co.jp###naviad-area
 navitime.co.jp###right-upper-banner-frame
@@ -4071,6 +4073,9 @@ goisu.net##.adD
 ||honyaclub.com/img/ls/banner_$domain=w-higa.com
 w-higa.com##div[id^="single_banner"] + div[align="center"]
 w-higa.com##.ad-bottom-main
+nijitoraware.com##.plugin3_body
+nijitoraware.com##.headline_entry_middle1
+nijitoraware.com##div[id$="test"]
 nijitoraware.com##.dmm-box
 nijitoraware.com##.amazon_block
 ||kenga.tech/overlay-image-$script,third-party
@@ -8517,7 +8522,7 @@ buhidoh.net###right > .plugin2_outline:last-child
 dousyoko.net##.floatbox1
 dousyoko.net##.floatbox2
 dousyoko.net##.plugin2_outline
-nijitoraware.com,dousyoko.net##.plugin3_outline
+dousyoko.net##.plugin3_outline
 ||nikkei.com/.resources/static/nad/
 ||nikkei.jp^*/f1h_text1.js|
 r.nikkei.com##.zero-carbon-bottom

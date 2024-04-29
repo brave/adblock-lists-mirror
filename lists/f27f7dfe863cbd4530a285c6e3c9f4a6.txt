@@ -1,9 +1,9 @@
-! Checksum: O3xdbJFqCUIYpStDdomReQ
-! Diff-Path: ../patches/7/7-s-1714325645-3600.patch
+! Checksum: mulmwoqIT5gXMkr6U2ev0Q
+! Diff-Path: ../patches/7/7-s-1714350838-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.13
-! TimeUpdated: 2024-04-28T17:31:38+00:00
+! Version: 2.0.51.14
+! TimeUpdated: 2024-04-29T00:31:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5362,7 +5362,7 @@ kumanichi.com##.separate-block-pr-img300-2column
 kumanichi.com##.separate-block-pr-media__item
 magazine.aruhi-corp.co.jp##a[href^="https://www.townu.jp/"]
 kahoku.news##.conteiner__main > div[style="min-width:686px;min-height:557px;"]
-kahoku.news##div[style^="min-width:300px;min-height:250px"]
+kahoku.news##div[style^="min-width:300px;"]
 kahoku.news##.conteiner__main > div[style="line-height:1; border-bottom:1px solid #ccc; padding:8px;"]
 weather.yahoo.co.jp###ysp
 weather.yahoo.co.jp###bnr2

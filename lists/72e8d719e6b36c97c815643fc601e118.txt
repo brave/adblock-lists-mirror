@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.5.4
+! Version: 3.6.5.5
 
 ! General
 
@@ -140,8 +140,8 @@ elpais.com##div#ctn_premium_article:remove()
 eltiempo.com##+js(rc, modulos, div.modulos)
 ||eltribuno.com/scripts/Bellhop/dist/bellhop.min.js$script,~third-party
 em.com.br##+js(rc, compress-text, .div.compress-text)
-enotes.com##section.c-cta-section
-enotes.com##+js(ra, class, div[class^="_"])
+enotes.com##section#enotes-paywall
+enotes.com##+js(ra, class, div.u-paywall)
 ||estadao.com.br/paywall/$script,~third-party
 ||estadao.com.br/access.js$script,~third-party
 etc.se##+js(ra, class, div.paywalled, stay)

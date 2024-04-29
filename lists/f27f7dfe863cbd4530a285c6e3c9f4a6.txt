@@ -1,9 +1,9 @@
-! Checksum: mulmwoqIT5gXMkr6U2ev0Q
-! Diff-Path: ../patches/7/7-s-1714350838-3600.patch
+! Checksum: PAUsgvM1RIoOuAcoUdmQEw
+! Diff-Path: ../patches/7/7-s-1714397660-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.14
-! TimeUpdated: 2024-04-29T00:31:37+00:00
+! Version: 2.0.51.15
+! TimeUpdated: 2024-04-29T13:31:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5993,7 +5993,7 @@ forzastyle.com##div[id*="_Infeed_TOP-"]
 apple-geeks.com##.ad-300-250
 apple-geeks.com##.ad-720-90
 refind2ch.org##.ads_pc_rectangle
-||dlsite.com/img/nijiyome/sp/bn_sp_300_250_
+||dlsite.com/img/nijiyome/sp/bn_*_300_250_
 ||k05.biz/wp-content/cache/gogo_ad_manager/
 ||z0i.net/wp-content/cache/gogo_ad_manager/
 k05.biz,z0i.net##.ax-cp

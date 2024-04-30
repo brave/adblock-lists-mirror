@@ -1,9 +1,9 @@
-! Checksum: pZ0PEozzJZV9x8WfJtxciA
-! Diff-Path: ../patches/7/7-s-1714473258-3600.patch
+! Checksum: LAbbB3S/Oj9pGBDBVCF45Q
+! Diff-Path: ../patches/7/7-s-1714476857-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.18
-! TimeUpdated: 2024-04-30T10:31:35+00:00
+! Version: 2.0.51.19
+! TimeUpdated: 2024-04-30T11:31:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -827,12 +827,6 @@ connect.coron.tech#%#//scriptlet('abort-current-inline-script', 'jQuery', 'decod
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=coron.tech
 coron.tech#@#ins.adsbygoogle[data-ad-slot]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52566
-ad-contents.jp#%#//scriptlet("prevent-addEventListener", "load", "ad blocker")
-!+ NOT_PLATFORM(ext_safari)
-ad-contents.jp#$#.ui-wrapper { display: block !important; }
-!+ NOT_PLATFORM(ext_safari)
-ad-contents.jp#$#.mid-rectangle { display: none !important; }
-!+ PLATFORM(ios, ext_android_cb)
 @@||ad-contents.jp^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51076
 fp1-siken.com,fp2-siken.com,fp3-siken.com,ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
@@ -8621,7 +8615,7 @@ weblio.jp##.rectangle-ads-frame-www
 weblio.jp##.adBannerHdWrp
 weblio.jp##.adSmpBnrFtBtSp
 weblio.jp##.adBkOverlayClr
-ad-contents.jp##.large-banner
+ad-contents.jp##.ui-main-body > div.large-banner
 ad-contents.jp##.regular-banner
 ad-contents.jp##.overlay-item
 ad-contents.jp##.overlay-mask

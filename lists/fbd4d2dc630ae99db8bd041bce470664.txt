@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /G8NCnlYGTqAA1T/6P03fQ
-! Version: 202404301451
+! Checksum: wJ+jB1iG63eOILeWelZhmw
+! Version: 202404301601
 ! Title: EasyList Germany
-! Last modified: 30 Apr 2024 14:51 UTC
+! Last modified: 30 Apr 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -1155,6 +1155,7 @@ wetter.com#@#div[id^="div-gpt-"]
 ||rabattcorner.ch/iframe/$subdocument,third-party
 ||ranksider.de/img/banner/$third-party
 ||rastplatzsex.com/banner/$third-party
+||recht-aktuell.de/js.ads?
 ||ref.cdnplus.de^$third-party
 ||rev.lapippa.com^
 ||rhein.rfw-koeln.de^$third-party
@@ -1853,6 +1854,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||klexikon.de/banner/
 ||kochbar.de/moltenbundle/
 ||koeln.de^*/werbung/
+||kostenlose-urteile.de/www.kostenlose-urteile.de/RTAads.html
 ||kradblatt.de/wp-content/uploads/mediabanner/
 ||kriminalpolizei.de/fileadmin/user_upload/*-Skyscraper_
 ||kriminalpolizei.de/fileadmin/user_upload/*_728x100.
@@ -1938,6 +1940,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||miba.de/bilder/banner/
 ||michas-spielmitmir.de^*/anzeige.gif
 ||microspiele.com/img/gdesire.jpg
+||mietminderungstabelle.de/templates/RRT2/adBoxes/
 ||minimed.at/fileadmin/templates/minimed.at/nl_promobox/
 ||mistershoplister.de/mips.php
 ||mmnews.de/images/*_Banner_
@@ -3397,6 +3400,7 @@ swoodoo.com##.Flights-Results-FlightRightRail
 perspektive-mittelstand.de##.Laddbox
 perspektive-mittelstand.de##.Laddbox300
 simmentalzeitung.ch##.PrintMotifRotator
+kostenlose-urteile.de##.RTaktAds
 dieharke.de##.Rectangle
 onvista.de##.SKYSCRAPER
 digitalkamera.de##.SkyscraperLeft
@@ -3484,6 +3488,7 @@ fitforfun.de,ibb-anzeiger.de,suchen.mobile.de,suedtiroltv.it##.adv
 oberberg-aktuell.de##.adv-indicator
 coincierge.de,fazemag.de,fuldainfo.de,maniac.de,oberberg-aktuell.de,pictures-magazin.de,sempre-audio.at,smarthomes.de##.adv-link
 teneriffa-aktuell.com##.adv-wrapper
+kostenlose-urteile.de##.advBoxSegment
 perfektdamen.co##.adv_block
 blinker.de##.adv_widget
 countrymusicnews.de,eurogamer.de,ka-news.de,morningstar.de,suedkurier.de,weser-kurier.de##.advert
@@ -4824,6 +4829,7 @@ sport.de##div[class^="ada-preservespace-"]
 berliner-zeitung.de##div[class^="article_billboard-"]
 2ix2.com##div[class^="bireklam"]
 experten.de##div[class^="c-ad-exper-"]
+mietminderungstabelle.de##div[class^="contentAdBox_"]
 costanachrichten.com##div[class^="lp_track_"]
 morecore.de##div[class^="morec-"]
 emtb-news.de,mtb-news.de,rennrad-news.de##div[class^="mtbnews-ad-container"]
@@ -4831,6 +4837,7 @@ berliner-kurier.de,berliner-zeitung.de##div[class^="outbrain_"]
 via-ferrata.de##div[class^="overlay-"]
 grenzecho.net##div[class^="pane-dpipub-"]
 pictures-magazin.de##div[class^="pictu-"]
+mietminderungstabelle.de##div[class^="placeholderAdBox_"]
 rundschau.info##div[class^="runds-werbung-"]
 berliner-kurier.de,berliner-zeitung.de##div[class^="showheroes_"]
 berliner-kurier.de,berliner-zeitung.de,evangelische-zeitung.de##div[class^="traffective_"]

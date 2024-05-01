@@ -1,9 +1,9 @@
-! Checksum: LAbbB3S/Oj9pGBDBVCF45Q
-! Diff-Path: ../patches/7/7-s-1714476857-3600.patch
+! Checksum: pA0wNTpkIpWUq07vYPCNAw
+! Diff-Path: ../patches/7/7-s-1714570445-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.19
-! TimeUpdated: 2024-04-30T11:31:37+00:00
+! Version: 2.0.51.20
+! TimeUpdated: 2024-05-01T13:31:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1886,6 +1886,7 @@ funny-ai.com##.main-frp-ads
 ||korewaeroi.com/i2i.html
 korewaeroi.com##.l-sidebar > aside.widget_custom_html
 moeasia.net###pickup > a ~ .bam-card:has(a[href*=".amazon.co.jp/dp/"])
+nekochan.jp##.detail_footer_ad
 nekochan.jp##.detail_header_ad
 wanchan.jp##.detail_header__ad
 wanchan.jp##.detail_footer__ad
@@ -5797,7 +5798,7 @@ reiwa-kawaraban.com,syukan.chinsiko.xyz,4610.adultav55.com,tentacles.biz,kankore
 sossy-blog.com,game16.net,mimiblo.com,videogakuen.com,yamakamu.net,minaminumaebi.blogmimi.com,hana3939.com,baseballchannel.jp###text-13
 bl-archive.net,anichoice.com,sgamesreview.com,shico.xyz,oreteki-design.com###text-14
 sossy-blog.com,lefty322.com,av-baron.com,ikikatadatabase.com,videogakuen.com,yasasiikurasi.com,mhmatome.com,sundaygamer.net###text-15
-mangagift.com,videogakuen.com,newageinglog.com,imashun-navi.com,jumpmatome2ch.biz,news.sod.co.jp###text-16
+ero-gazou.jp,mangagift.com,videogakuen.com,newageinglog.com,imashun-navi.com,jumpmatome2ch.biz,news.sod.co.jp###text-16
 xn--eckl0bk7f7cc4od8az005k0ssb.xyz,nemotohiroyuki.jp,sexyvoice.org###text-17
 himmel-ellipse.com,orenoraresne.com,xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com,oreteki-design.com,kaiten-heiten.com,inshokuten.com###text-18
 j-oosk.com###text-19
@@ -7567,6 +7568,7 @@ naming-dic.com##.ad-posi1
 kanjitisiki.com##.category-ue:first-child
 pulpxstyle.com##.add_main
 pulpxstyle.com##.add_post_sidebar
+zekamashi.net###JP_ZKN_pc_all_billboard
 zekamashi.net###secondary > div.widget_execphp
 zekamashi.net##.free-area_after-cont > div.widget_custom_html
 zekamashi.net##.free-area_before-title > div.widget_execphp
@@ -9146,6 +9148,7 @@ charmer-media.com,elife-media.jp,frequ.jp,miima.jp,platabi.com,vivre-media.jp#?#
 charmer-media.com,elife-media.jp,frequ.jp,miima.jp,platabi.com,vivre-media.jp#?#.related-post-item > ins.adsbygoogle:upward(1)
 utamap.com#?#center > table[width="85%"]:first-child > tbody > tr > td[align=center] > script[src^="//pagead2"]:upward(1)
 kanjitisiki.com#?##main > p > ins.adsbygoogle:upward(1)
+zekamashi.net#?##secondary > div.widget_text a[href^="https://al.dmm.com/"]:upward(1)
 zekamashi.net#?##secondary > div.widget_text a[href^="https://amzn"]:upward(1)
 d.hatena.ne.jp#?#div[class^="sc-"]:only-child > div:first-child > div[id^="rectangle_main_"]:upward(2)
 clublucifer.net#?#.blockWrapper div[id^="mhub-"]:upward(.blockWrapper)

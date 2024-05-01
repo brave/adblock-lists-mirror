@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dR6JXZB0OdBTQ9P+n24mKA
-! Diff-Path: ../patches/1/1-s-1714559651-3600.patch
+! Checksum: mYciYfs4VyLzjtylrJxwPw
+! Diff-Path: ../patches/1/1-s-1714566843-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.57
-! TimeUpdated: 2024-05-01T10:31:06+00:00
+! Version: 2.0.90.58
+! TimeUpdated: 2024-05-01T12:31:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1198,7 +1198,6 @@ ucoz.ru/informer/
 ~leboncoin.fr,~moyareklama.ru,~subito.it##.ad_links
 ~didaktik-der-mathematik.de##.ad_right
 ~chinapost.com.tw##.ad_space
-~leboncoin.fr##.ad_text
 ##.ad_top_panel
 ##.adbg
 ##.adblockcenter
@@ -5982,7 +5981,7 @@ gamer-info.com##+js(abort-current-script, $, /\$\(\'\.roarticlecol\'\)\.height\(
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14335
 sberometer.ru##+js(abort-current-script, document.addEventListener, place_rvn)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42288
-spcs.reviews,gdespaces.com,spcs.me,spaces.im,spaces-blogs.com,strip2.me##+js(set-constant, mobiads_loader, noopFunc)
+spaces.im,spaces-blogs.com,strip2.me##+js(set-constant, mobiads_loader, noopFunc)
 ! tehnot.com - удаление кликабельности фона
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11775
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11776
@@ -8564,7 +8563,6 @@ e1.ru##div[data-test="sticky-header"] a[href^="https://prinzip.su/"]:upward(1)
 flot.com#?#.left_part td > div.frame:has(> noindex > script + noscript)
 anydesk.help#?#.entry-content div[id^="cnt_rb_"]:has(> div[style] > a[href="/download-ya?"])
 bookmaker-ratings.ru##div[class^="sc-"] > div[class^="sc-"] > div[class*="banner"]:upward(2)
-spcs.social#?#a[title="Реклама"]:upward(1)
 deita.ru##.row > div[class^="col-"] > div.article_block:has(> div#ads_under_text_smi24)
 weather.rambler.ru#?#div[style^="margin-top:"] > div > div > div[id^="fabex-"]:upward(3)
 mp3party.net#?#body > div.a_wrapper:has(> div.a_content > header > div.icon-pad > div.logo_text > p:contains(Браузер и сервисы от))
@@ -11861,7 +11859,6 @@ livelib.ru##div[class^="dickert"][class$="-context"]
 kulturologia.ru##.relap-novate_ru__widetitles-wrapper
 ||lidanews.by/images/*/br*.gif
 pythonworld.ru###letpy__banner
-spaces.im,spcs.me,spac1.com##a[href^="https://tracker.ma-static.ru/"]
 g-ek.com###ad_code
 ||conversion.im/storage/images/banners/
 ||grodnonews.by/upload/images/bps.gif
@@ -18524,16 +18521,15 @@ kp.ru,kp.by,kp.kg,kp.kz#?#div[data-gtm-el="content-body"] ~ div > div:has(> div.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139658
 2gis.ru##._y2b48h
 2gis.*#?#div[style^="overflow: hidden;"] + div[class^="_"]:has(> div[class^="_"] > div > div > div[class^="_"] > div[class^="_"] > header:contains(Реклама))
-! spaces.ru/spcs.me/gdespaces.com - PC
-/resources/js/sticker.js$domain=spcs.reviews|spcs.pro|spcs.news|spac1.info|spcs.social|spac1.org|gdespaces.com|spcs.me|spaces.im|strip2.in
-spac1.org#?##siteContent > div.relative ~ div[class]:has(> table[style] > tbody > tr > td[class] > div[class] > a[title="Отключить рекламу"])
-spcs.reviews,spcs.pro,spcs.news,spac1.info,spcs.social,spac1.org,gdespaces.com,spcs.me,spaces.im,strip2.in#?#div > div:has(> a[title="Отключить рекламу"])
-spcs.reviews,spac1.org,gdespaces.com,spcs.me,spaces.im,strip2.in#?#.wrapper > div:has(> div > a[title="Отключить рекламу"])
-spac1.org#?##main_content_block > div.content_wrap > div[id="page_rightbar"] > div.widgets-group ~ div[class]:has(> div.widgets-group > a[target="_blank"][rel="noopener"])
-spaces.im,spcs.me,spac1.org#?##main_content > div.widgets-group:has(> a.ico_close_btn)
-spcs.me#?#.wrapper > div[class]:has(> div > b.darkblue)
-spac1.info,spcs.social,spcs.me#?#div:has(> a[title="Отключить рекламу"])
-spcs.me#?#div:matches-css(border-bottom-color: rgb(204, 202, 202))
+! spaces.ru/spcs.me/ - PC
+spaces.im,spcs.*,strip2.in##div > div:has(> a[title="Отключить рекламу"])
+/resources/js/sticker.js$domain=spaces.im|spcs.*|strip2.in
+spaces.im,spcs.*,strip2.in###siteContent > div.relative ~ div[class]:has(> table[style] > tbody > tr > td[class] > div[class] > a[title="Отключить рекламу"])
+spaces.im,spcs.*,strip2.in##.wrapper > div:has(> div > a[title="Отключить рекламу"])
+spaces.im,spcs.*,strip2.in###main_content_block > div.content_wrap > div[id="page_rightbar"] > div.widgets-group ~ div[class]:has(> div.widgets-group > a[target="_blank"][rel="noopener"])
+spaces.im,spcs.*,strip2.in###main_content > div.widgets-group:has(> a.ico_close_btn)
+spaces.im,spcs.*,strip2.in##.wrapper > div[class]:has(> div > b.darkblue)
+spaces.im,spcs.*,strip2.in##div:has(> a[title="Отключить рекламу"])
 !
 ! adme.media
 ! top banner

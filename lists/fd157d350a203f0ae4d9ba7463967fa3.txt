@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HTrLiyHl1rHjSEWlY2lW2A
-! Version: 202405020851
+! Checksum: TgjW/7Qy1jpfDyTJocfkfw
+! Version: 202405020951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 May 2024 08:51 UTC
+! Last modified: 02 May 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15061,6 +15061,7 @@ moniheal.com##.one-news__content-banner
 get-tune.cc,mp3cc.biz,mp3iq.com##.onesongblock-download
 get-tune.cc,mp3cc.biz,mp3iq.comz##.onesongblock-rbt
 kinoafisha.info##.onlineBlock
+audit-it.ru##.opadv
 syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##.open-table > .pr > .dcb
 aptekamos.ru##.orgs-adv-c
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##.otPlaceholder
@@ -15106,7 +15107,6 @@ komapz.net##.padding > table[width="180"]:nth-of-type(4)
 uralweb.ru##.padspo
 opensharing.org##.page :not(#container-top) > blockquote
 pravda.ru##.page > .header
-audit-it.ru##.page > .header > .col_r
 3ppc.net##.page > div > center > noindex
 cyberforum.ru#?#.page > div[align="left"] > table[style^="margin: 3px 0px"]:-abp-has(script)
 mydiv.net##.page-banner__wrapper
@@ -15319,7 +15319,7 @@ prsport.net##.prognoz_block
 mmgp.ru##.prom
 tut.by##.prom-l
 tut.by##.prom-r
-allmoldova.com,audit-it.ru,gdeposylka.ru,infomir59.ru,pavlodar.news,pavon.kz,rentv-smolensk.ru,telesputnik.ru,ubuntovod.ru,webmasters.ru##.promo
+allmoldova.com,gdeposylka.ru,infomir59.ru,pavlodar.news,pavon.kz,rentv-smolensk.ru,telesputnik.ru,ubuntovod.ru,webmasters.ru##.promo
 roskomsvoboda.org##.promo-banner
 expertcen.ru##.promo-block
 habr.com##.promo-block_courses
@@ -16565,6 +16565,7 @@ meteo.by##:not(.blinks) > .ad
 365news.biz##:not(.sidebar) > .widget_text
 vesti.ru##:not(.vgtrk-a1-list_inner) > .vgtrk-a1
 tvc.ru##:not(.yandex_zen_link) + .yandex_zen_link
+sberometer.ru#?#:not([class]):-abp-has(> div[class] > iframe[src^="/"][src$=".html"])
 patrioty.org.ua##:not(html) > iframe[style*="important"]:not([src^="https://disqus.com/embed/comments/"])
 123torrent.ru,37.1.201.32,37.1.202.140,37.1.203.156,37.1.204.182,37.1.204.76,37.1.205.159,37.1.205.47,37.1.206.118,37.1.206.121,37.1.206.231,37.1.206.95,37.1.207.130,37.1.207.65,37.1.216.106,37.1.216.119,37.1.217.105,37.1.217.113,5.45.65.153,5.45.66.118,5.45.70.162,5.45.86.39,5.45.87.85,berutor.site,blackrutor.site,extrutor.org,extrutor.site,fastrutor.site,hawk.live,herutor.org,listrutor.org,new-rutor.org,pipitor.org,pronpic.org,prutor.site,r-tor.ru,rutor-live.tk,rutor-search.info,rutor1.site,tracker-rutor.tk,xrutor.org##:not(obhod-adblocka)
 opensharing.org##:not(td) > a[href*="//parnuxi.biz"]:not([href$=".html"])
@@ -17810,7 +17811,6 @@ point.md#?#aside > div:-abp-has(> a[href*="utm_campai"])
 shazoo.ru#?#aside > div:-abp-has(> iframe[src*="://goodgame.ru/html/embed-player/dist/index.html?partner="])
 bitcryptonews.ru#?#aside > div:-abp-has(script)
 point.md#?#aside > div[class]:-abp-has(> div > [id*="adsense"])
-audit-it.ru##aside > div[class][style^="margin-bottom"]
 hibiny.ru##aside > div[class^="margintop"]
 finbalance.com.ua##aside > div[style] > a[href^="http"]:not([href*="finbalance.com.ua"])
 shazoo.ru##aside > iframe[src] + p[style]
@@ -18917,7 +18917,6 @@ alltor.me##div[style="position:absolute; top:65px; left:520px;"]
 photofacefun.com##div[style="position:absolute;width:100%;text-align:center;height:90px;top:10px;left:0"]
 nashamama.com##div[style="position:relative; width:600px; height:350px"]
 referatwork.ru##div[style="rftk"]
-sberometer.ru##div[style="text-align: center; height: 100px;"]
 omskregion.info##div[style="text-align: center; margin: -18px 0 25px; "]
 pcnews.ru##div[style="text-align: center; margin: auto;"] > a[target="_blank"]
 alexlarin.net##div[style="text-align: center;"] > a[href][target="_blank"] > img
@@ -19098,6 +19097,7 @@ drom.ru##iframe[src*="yummy.drom.ru"]
 octavia-a5.ru##iframe[src*="zzap.ru"]
 clusterdelta.com##iframe[src="/portal/stf.html"]
 pise4ka.com##iframe[src="/site/in"]
+sberometer.ru##iframe[src^="/"][src$=".html"]
 twirpx.com,twirpx.org##iframe[src^="/"][style*="overflow:"]
 nevasport.ru##iframe[src^="/exchange/"]
 jofo.ru##iframe[src^="http://creatagen.ru/"]
@@ -22143,6 +22143,7 @@ lada.kz/uploads/banners/
 ||sat-expert.com/xforum/js/RotatingAds/
 ||satellitetvforum.info/*/premiumsidebars/
 ||satsat.info/bxaxn/bxaxn$image
+||sberometer.ru/*.html|$subdocument,domain=sberometer.ru
 ||sbp-program.ru/scrip$image
 ||sbup.com/scripts/*banner
 ||sbup.com/scripts/dom_hos.js
@@ -24551,7 +24552,6 @@ censor.net,hi-tech-pro.ru##body > #cboxOverlay,body > #colorbox
 mos-holidays.ru##body > #colorbox *
 womanadvice.ru##body > #dark_popup
 womanadvice.ru##body > #dialog-fb
-audit-it.ru##body > #overlay[style="display: block;"]
 domfailov.ru##body > #pop-up-window
 secretmag.ru##body > #subscribe-popup
 vika-plus.ru##body > #usac

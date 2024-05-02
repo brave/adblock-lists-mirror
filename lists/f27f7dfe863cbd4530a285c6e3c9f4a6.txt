@@ -1,9 +1,9 @@
-! Checksum: jWMAJuY9JlF31DwPDaMDeQ
-! Diff-Path: ../patches/7/7-s-1714653260-3600.patch
+! Checksum: lDgpathDxdF/1LR+pGbKYg
+! Diff-Path: ../patches/7/7-s-1714664062-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.25
-! TimeUpdated: 2024-05-02T12:31:36+00:00
+! Version: 2.0.51.26
+! TimeUpdated: 2024-05-02T15:31:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6720,7 +6720,7 @@ tsurimatome.com,keyboard-dojo.net,number-place-puzzle.net,2ch-c.net##a[href^="ht
 ||beauty-navi.com/javascripts/violet/sp/ldh_ad.js
 beauty-navi.com##.p-headerBnr
 ||bookbang.jp/common/js/ad.js
-altema.jp,twi-videos.net##iframe[width="300"][height="250"]
+nukistream.com,altema.jp,twi-videos.net##iframe[width="300"][height="250"]
 altema.jp##.adsInterstitial-modal
 altema.jp###\30 2.exclude-h2-cnt
 altema.jp##.PRrank-icon2

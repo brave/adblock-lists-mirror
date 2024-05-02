@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BvmLSeCUdvlUohejDOX3vg
-! Version: 202405021140
+! Checksum: D2O+J+cMcfXR5NU+BQz6Cg
+! Version: 202405021340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-02 11:40 UTC
+! Last modified: 2024-05-02 13:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -47705,6 +47705,10 @@ fine-day.com##html,body:style(overflow: auto !important; position: initial !impo
 ! spotlightpa.org
 spotlightpa.org##.inset-0.fixed
 spotlightpa.org##body,html:style(overflow: auto !important; position: initial !important;)
+! securityweek.com
+securityweek.com##.pum-overlay
+securityweek.com##body,html:style(overflow: auto !important; position: initial !important;)
+securityweek.com##+js(rc, pum-open-overlay, body, stay)
 ! expatexplore.com
 expatexplore.com,scmagazine.com,vadimkravcenko.com##.swal2-container
 expatexplore.com,scmagazine.com,vadimkravcenko.com##html,body:style(overflow: auto !important; position: initial !important;)

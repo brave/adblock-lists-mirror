@@ -1,9 +1,9 @@
-! Checksum: LhNjoJWK5BSDQv1elwRSFg
-! Diff-Path: ../patches/7/7-s-1714642480-3600.patch
+! Checksum: jWMAJuY9JlF31DwPDaMDeQ
+! Diff-Path: ../patches/7/7-s-1714653260-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.24
-! TimeUpdated: 2024-05-02T09:31:49+00:00
+! Version: 2.0.51.25
+! TimeUpdated: 2024-05-02T12:31:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5720,7 +5720,7 @@ koe-koe.com##.nan_ad
 eroita.net##div[style^="width:600px;margin:0"]
 ||nantv.com/best600/bestad.html
 ||asahicom.jp/ad/js/
-2game.info##.sponsored-loop300x250
+2game.info##dd[class*="sponsored-loop"]
 2game.info##.sponsored-start
 androidjiten.com###surfing_adsense_widget-4
 teratail.com##div[class^="googlePublisherTags_ads"]

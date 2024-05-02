@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.5.5
+! Version: 3.6.6.0
 
 ! General
 
@@ -215,7 +215,7 @@ lejdd.fr,parismatch.com,public.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode
 livelaw.in##+js(rc, hide, div.paywall-content.hide)
 livelaw.in##+js(rc, restricted_message, div.restricted_message)
 livelaw.in##div#subscription_paid_message,div.subscribeNow
-||livemint.com/__js/lm_subscription_$script,~third-party
+||livemint.com/lm-img/subscription/$script,~third-party
 livemint.com##+js(rc, paywall, div.paywall)
 labusinessjournal.com##+js(cookie-remover, /^/)
 labusinessjournal.com###css-only-modals

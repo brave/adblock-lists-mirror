@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qwim3LvnUYZZbnpm0svG5w
-! Diff-Path: ../patches/9/9-s-1714660457-3600.patch
+! Checksum: 7YLiyNvUwIxPvcOFcJpZfw
+! Diff-Path: ../patches/9/9-s-1714667649-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.52
-! TimeUpdated: 2024-05-02T14:31:51+00:00
+! Version: 2.0.24.53
+! TimeUpdated: 2024-05-02T16:31:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -80,6 +80,7 @@
 ! https://forum.adguard.com/index.php?threads/ivoox-com-podcasts-issues.29530/
 ! ||addevweb.com^$third-party
 !
+||lyappreciat.info^
 ||oilierelixir.com^
 ||adzonestatic.com^
 ||adzep.com.br^$third-party
@@ -1458,6 +1459,8 @@ peru21.pe#@#.adstop
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/178345
+darkmahou.org##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178176
 packsmega.info##+js(abort-on-property-read, userout)
 packsmega.info##+js(abort-current-script, String.prototype.concat, popup)
@@ -2093,6 +2096,7 @@ amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.com.br,tvhi
 ! ##body .banner
 tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+darkmahou.org##.kln
 insideevs.uol.com.br###container_3rd_party_service
 insideevs.uol.com.br##.apb
 insideevs.uol.com.br##.apInarticleSmallRes

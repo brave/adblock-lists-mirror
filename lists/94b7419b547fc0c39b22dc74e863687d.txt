@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: D9N5qyPRBmHYaeHQ/a2Drw
-! Diff-Path: ../patches/1/1-s-1714656842-3600.patch
+! Checksum: HZaCqWFA2Xjmkfm+aJl90A
+! Diff-Path: ../patches/1/1-s-1714667646-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.90.61
-! TimeUpdated: 2024-05-02T13:31:04+00:00
+! Version: 2.0.90.62
+! TimeUpdated: 2024-05-02T16:31:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5105,7 +5105,7 @@ dzen.ru##:matches-path(/pogoda).adv_type_rtb
 dzen.ru##body:not(.page_article-editor) div[class^="article"][class*="holder"]
 dzen.ru#?#div[id^="zen-row"] div.feed__item article:not([aria-label^="Карточка"]):matches-css(user-select: none)
 dzen.ru###article__bottom-embed
-dzen.ru##:matches-path(/a/).article__content_limited div[class^="article-bottom-single-desktop-placeholder__"]
+dzen.ru##div[class^="article-botom-single-desktop-placehoder__"]
 dzen.ru##:matches-path(/a/)div[class*="_position_"][class$="_direct"]
 ![$path=/a/]dzen.ru#$#div[class*="_position_bottom "] > div > div:not([class]):not([id]) { transform: translate(-3000px) !important; position: fixed; }
 ![$path=/a/]dzen.ru##div[class*="_position_inner "] > div > div[style^="width:"]

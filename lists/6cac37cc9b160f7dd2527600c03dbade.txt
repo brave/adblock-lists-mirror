@@ -1237,8 +1237,9 @@ dazn.com##+js(json-prune, PlaybackDetails.[].DaiVod)
 ##.ad-wrap:not(#google_ads_iframe_checktag)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175983
-warcraftlogs.com##div[class^="ad-placement"]
-||intergient.com^$script,redirect-rule=noop.js,domain=warcraftlogs.com
+! https://github.com/uBlockOrigin/uAssets/issues/23536
+warcraftlogs.com##+js(acs, attachToDom, ad-fallback)
+warcraftlogs.com##.side-rail-ads
 
 ! https://github.com/uBlockOrigin/uAssets/issues/23161
 benzinpreis.de##+js(nostif, adblock)
@@ -1505,3 +1506,7 @@ mygaytube.com##+js(acs, document.querySelectorAll, popMagic)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/1ci3hqg/adblocker_detection_on_takimag_need_filter_for/
 takimag.com##+js(aeld, DOMContentLoaded, adb)
+
+! https://github.com/uBlockOrigin/uAssets/issues/23510
+digi.no##+js(aeld, error, /\{[a-z]\(e\)\}/)
+tu.no##+js(aeld, error)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TAbi2sLcEf2HbAb2Zg+QWA
-! Diff-Path: ../patches/224/224-s-1714736072-3600.patch
+! Checksum: mq3Pn9lL9Q1OhxTAzbBlkg
+! Diff-Path: ../patches/224/224-s-1714750450-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.15.17
-! TimeUpdated: 2024-05-03T11:32:15+00:00
+! Version: 2.1.15.18
+! TimeUpdated: 2024-05-03T15:32:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -767,9 +767,6 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 m.lwxs.com##+js(abort-current-script, eval, _0x)
 m.lwxs.com##+js(abort-current-script, document.write, _0x)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168280
-! https://github.com/AdguardTeam/AdguardFilters/issues/163538
-v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
-v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163589
 jmcomic1.me##+js(remove-node-text, #text, 中間廣告)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162373
@@ -847,11 +844,6 @@ qciss.net##+js(window.open-defuser, 0, qciss.net)
 subhd.com##+js(set-session-storage-item, hassession, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31004
 m.86kl.com##+js(abort-on-property-read, akumtagcc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/168881
-! https://github.com/AdguardTeam/AdguardFilters/issues/166649
-v.qq.com,new.qq.com##+js(json-prune, ads)
-! https://github.com/AdguardTeam/AdguardFilters/issues/30701
-~work.weixin.qq.com,qq.com##+js(json-prune, ad)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33510
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33458
 axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
@@ -1091,6 +1083,8 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|b-cdn.net|bu
 !
 !
 !
+hao.360.com##.right-nav-bar-hd
+hao.360.com##div[id^="rightBottom_"]
 lzcfz2.com##body > div.wp.cl
 ablesci.com##.able-container-body-right > div.fly-panel:has(> div[style="text-align: center; padding: 5px"] > img[src$="-alipay-hongbao.png"])
 ||rou.video/js/exo.js
@@ -2620,6 +2614,16 @@ csdn.net###footerRightAds
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
 ||mycodes.net/js/*.js
+!
+! qq.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/163538
+lpl.qq.com,v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
+lpl.qq.com,v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
+! https://github.com/AdguardTeam/AdguardFilters/issues/168881
+! https://github.com/AdguardTeam/AdguardFilters/issues/166649
+v.qq.com,new.qq.com##+js(json-prune, ads)
+! https://github.com/AdguardTeam/AdguardFilters/issues/30701
+~work.weixin.qq.com,qq.com##+js(json-prune, ad)
 !
 ! 51cg1
 51cg1.com,h3ugz0.arwiotgiy.com,h3ugz1.biyuhcltj.com,h3ugz2.lrjhvntu.net,h3ugz3.ogvoxarpd.com,h3ugz4.uovxifzj.com,h3uaz0.ogvoxarpd.com##.post-card-ads

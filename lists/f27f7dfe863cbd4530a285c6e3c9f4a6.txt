@@ -1,9 +1,9 @@
-! Checksum: zehdON2O8tMLf/SJX+sAsw
-! Diff-Path: ../patches/7/7-s-1714728861-3600.patch
+! Checksum: FTmbHAszE4O4+GjPu789GQ
+! Diff-Path: ../patches/7/7-s-1714732465-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.29
-! TimeUpdated: 2024-05-03T09:31:39+00:00
+! Version: 2.0.51.30
+! TimeUpdated: 2024-05-03T10:31:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1204,6 +1204,8 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/178408
+2game.info#$#.sponsored-loop300x250 { position: absolute !important; left: -4000px !important; }
 ! https://github.com/uBlockOrigin/uAssets/issues/23212
 service.webgoto.net#$#.image_box[style*="amazon.co"] { background: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160407
@@ -1768,6 +1770,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+mangarawjp.onl##main > div.container > div.w-full:has(> ins.adsbygoogle)
 2-d.jp###sidebar-right > p.amazon
 mangarawjp.onl##.w-full > .text-center:has(> ins.adsbygoogle)
 zaitaku100.kokuyo.co.jp##.l_floatingbanner
@@ -5721,8 +5724,7 @@ koe-koe.com##.nan_ad
 eroita.net##div[style^="width:600px;margin:0"]
 ||nantv.com/best600/bestad.html
 ||asahicom.jp/ad/js/
-2game.info##dd[class*="sponsored-loop"]
-2game.info##.sponsored-start
+2game.info##div[class^="fluct-unit"]
 androidjiten.com###surfing_adsense_widget-4
 teratail.com##div[class^="googlePublisherTags_ads"]
 teratail.com##div[class*="_questionBottomAdArea_"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rBo8A7zmQosi5UYujOTlfg
-! Version: 202405030851
+! Checksum: kbXL1m7/tBtrvy2YIBic3Q
+! Version: 202405030951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 May 2024 08:51 UTC
+! Last modified: 03 May 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12661,7 +12661,7 @@ ua-ix.biz##.Advertising
 meduza.io##.App-bannerBottom
 meduza.io##.App-bannerTop
 myshows.me##.AppPromo
-myshows.me#?#.AsideHeading:-abp-contains(/kinopoiskhd/i)
+myshows.me#?#.AsideHeading:-abp-contains(/kinopoisk|кинопоиск/i)
 obninsk.name,wi-fi.ru,www.zoneofgames.ru##.Banner
 hqq.tv##.BetterJsPopOverlay
 ndn.info##.BigBlock
@@ -12679,7 +12679,7 @@ nulled.cc##.EstBS-bnContent
 fakty.ua##.FKY_VIDEO
 myshows.me#?#.Grid-in .GridItem:-abp-has(> div [class*="advertiser"])
 razvitierebenka.com#?#.HTML:-abp-has(> .widget-content > .adsbygoogle)
-myshows.me#?#.Home-section:-abp-has(> div .title [class*="-promo-kp__"])
+myshows.me#?#.Home-section:-abp-has(> div .title [class*="romo"])
 forbes.ru##.IQXal
 russiandc.com##.L
 meduza.io##.Layout-bannerTop
@@ -22934,8 +22934,8 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
+||pikabu.ru/*u%$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax?$xmlhttprequest,domain=pikabu.ru
-||pikabu.ru/qu%$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -24072,11 +24072,11 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layou
 @@://yandex.*/search$generichide
 @@://yandex.ru/|$generichide
 @@||yandex.ru/ads/system/adsdk.js|$script,domain=yandex.ru
-dzen.ru##[class*="floours"] div[id][class^="feed"] [class*="wrapper"][aria-label] ~ article:not([aria-label])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 dzen.ru#?#div:-abp-has(> .adv-skeleton___main)
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
+dzen.ru##div[class^="floor-card-rtb_"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#ul > .serp-item_card:-abp-has([data-bem] .organic__subtitle > span:-abp-contains(/Рeклама|Реклама/))
 ||awaps.yandex.
@@ -24176,6 +24176,7 @@ yclid=$popup,domain=dzen.ru
 yclyd=$popup,domain=dzen.ru
 ycyd=$popup,domain=dzen.ru
 ycyid=$popup,domain=dzen.ru
+ycylid=$popup,domain=dzen.ru
 yhic=$popup,domain=dzen.ru
 yhid=$popup,domain=dzen.ru
 yhyd=$popup,domain=dzen.ru

@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.6.0
+! Version: 3.6.6.1
 
 ! General
 
@@ -193,6 +193,8 @@ journaldunet.com##div.reg_wall
 journaldunet.com##+js(ra, style, div.entry_reg_wall[style])
 ||jpost.com/js/js_article.min.js$script,~third-party
 ||internazionale.it/templates_js_ajax.inc.php$xmlhttprequest,~third-party
+kompas.id##+js(rc, hidden, [class*="paywall"].hidden, stay)
+kompas.id##kompasid-paywall,div.paywall.block
 krautreporter.de##.js-article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
@@ -608,6 +610,9 @@ marketnews.com##+js(ra, class, div.body-description)
 ||cloudfront.net/js/prometeo-media/$script,domain=menorca.info|ultimahora.es
 meritnation.com##.view-full-answer 
 meritnation.com##+js(rc, maxHeight75px, div.exp_content.maxHeight75px)
+monitor.co.ug,mwananchi.co.tz,nation.africa,thecitizen.co.tz##+js(rc, nmgp, div.article-page .nmgp)
+monitor.co.ug,mwananchi.co.tz,nation.africa,thecitizen.co.tz##+js(rc, hidden, div.article-page .hidden)
+monitor.co.ug,mwananchi.co.tz,nation.africa,thecitizen.co.tz##div.modal,[id*='wall'],div#article-general-spinner
 ||moscout.com$inline-script
 museumsassociation.org##+js(rc, paywall, body.paywall)
 museumsassociation.org##+js(ra, style, body[style], stay)
@@ -616,8 +621,6 @@ nacion.com##+js(ra, style, div.article-body-wrapper__styled[style], stay)
 nacion.com##div.post
 narcity.com##+js(ra, style, div.body-description[style], stay)
 narcity.com##div#login-wall,div#overlay,div.brid-container,div.brandsnippet-article
-nation.africa##+js(rc, nmgp, .nmgp)
-nation.africa##div.modal
 ||newbostonpost.com/*/paywall/js/main.js$script,~third-party
 newoxfordreview.org##+js(rc, not-viewable, div.not-viewable)
 nu.nl##+js(rc, authorized-content, div.authorized-content)
@@ -627,8 +630,6 @@ odt.co.nz##+js(ra, property, div[property="content:encoded"])
 onet.pl##+js(cookie-remover, /^xbc/)
 ||opovo.com.br/*/js/auth/auth_new_menu.min.js$script,~third-party
 ||pebmed.com.br/wp-content/*/paywall/dist/js/app.js$script,~third-party
-piratewires.com##+js(ra, class, div[class*="article_articleRestricted_"], stay)
-piratewires.com##div[class^="fixedOverlay"]
 popbitch.com##+js(ra, class, div[class*="-premium"])
 ||corprensa.com/la-prensa/evolok/$script,domain=prensa.com
 psypost.org##+js(cookie-remover, issuem_lp)

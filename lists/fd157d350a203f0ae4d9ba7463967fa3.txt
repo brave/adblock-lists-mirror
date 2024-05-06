@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JbYhN5AKhgVRbkxQ151Dhg
-! Version: 202405061250
+! Checksum: J6JsdrCNJIefZkSCZNmexA
+! Version: 202405061351
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 May 2024 12:50 UTC
+! Last modified: 06 May 2024 13:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14526,7 +14526,6 @@ obmenvsem.org#?#.item:-abp-has(> div > [src*="pek.png"])
 appmo.org#?#.item:-abp-has(> script)
 appmo.org#?#.item:-abp-has([src*="/images/pek.png"])
 ketchuptv.ru##.itemFullText > center + div[style*="center"]
-byrutdb.org##.itemdown_nottorent_sub
 mypresentation.ru##.items > .p-item ~ div[class][style]
 narutoplanet.ru##.items-leading
 sexsmotri.com##.items-list > noindex
@@ -17433,7 +17432,6 @@ gazeta1.com##a[href][title*="банер"]
 domsovetof.ru##a[href][title="http://rek-chek.ru/"]
 poligon.by##a[href^=" https://vk.com/look_up_potolki"]
 poiskvps.ru##a[href^="./go.php"]
-byrutdb.org##a[href^="/"][href$=".torrent"]
 smotret-multfilmi.net,torrenther.com##a[href^="/"][href*=".php"][target]
 agroportal.ua##a[href^="/"][target="_blank"]
 torrents.in.ua##a[href^="/"][target="_blank"][rel="nofollow"]
@@ -22970,7 +22968,7 @@ soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
 ||soyztreid.website^$popup
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.ru,torent-igruha.com,torrent-music.ru,torrent-soft.pro,torrentigo.net,torrentigruha.org,where-game.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.ru,rutor-gamer.info,torent-igruha.com,torrent-music.ru,torrent-soft.pro,torrentigo.net,torrentigruha.org,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru

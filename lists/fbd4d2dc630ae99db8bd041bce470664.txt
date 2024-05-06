@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: mw4KMpCvcJnFtpFlknvDWQ
-! Version: 202405061651
+! Checksum: TnXpCakXH/tsLm4vVeSPdw
+! Version: 202405061751
 ! Title: EasyList Germany
-! Last modified: 06 May 2024 16:51 UTC
+! Last modified: 06 May 2024 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5420,6 +5420,7 @@ wallstreet-online.de#?#.newsflash:-abp-has(span.suffix.wo-inline-block.pull-righ
 wallstreet-online.de#?#.newsflash:-abp-has(span.wo-inline-block:-abp-contains(Anzeige))
 welt.de#?#div[id][data-qa]:-abp-has(.c-buelent-linkbox__label:-abp-contains(Anzeige))
 windowspro.de#?#article:-abp-has(:-abp-properties(content: "(Anzeige)";))
+windowspro.de#?#article:-abp-has(:-abp-properties(content: "Anzeige";))
 winfuture-forum.de#?#div.ExtraPostBlock:-abp-has(div.post_block:-abp-contains(Anzeige)):not(.with_rep)
 zentrum-der-gesundheit.de#?#span:-abp-contains(/ANZ|EIGE/) + button
 zentrum-der-gesundheit.de#?#span:-abp-contains(/ANZ|EIGE/) + div

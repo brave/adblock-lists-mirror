@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OJT+sszNVX1J6PEtLgWnew
-! Version: 202405070340
+! Checksum: CUIWgWcbt4NR1mHYbCcrIw
+! Version: 202405070440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-07 03:40 UTC
+! Last modified: 2024-05-07 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1894,6 +1894,7 @@ _twitter_follow.
 ##.widget_social_icons
 ##.widget_wysija
 ##.wpmchimpa-overlay-bg
+##[data-aqa="widget-conversation-starter"]
 ! bodyscience.com.au
 ##.preezie-widget-modal
 ! Someone also bought popups
@@ -35726,6 +35727,8 @@ yourstory.com##.unique-progress
 cheddar.com##.upnext-container
 denvergazette.com,fauquier.com,galvnews.com,herald-zeitung.com,lmtribune.com,nashvillescene.com#.asset-paging
 courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com##promo-up-next
+! theprovince.com/winnipegsun.com/canoe.com/o.canada.com/financialpost.com/nationalpost.com
+##.promotional.header--offset.header-breaking__wrapper
 ! Aliexpress 1p popup spam
 aliexpress.com,aliexpress.us##.image-poplayer-modal
 ! dhgate.com 1p popup spam
@@ -37070,6 +37073,7 @@ themessenger.com##.inline-flex
 winnipegfreepress.com##.interactive
 iphoneincanada.ca##.item--share
 atlasobscura.com##.item-header-social-links
+flyercity.ca##.item_share_area
 theenergymix.com##.jeg_custom_share_wrapper
 shine.cn##.jiathis_style_shine
 business2community.com##.join-tg
@@ -37116,6 +37120,7 @@ arabnews.com##.meta-area
 smashingmagazine.com##.meta-box--share
 washingtonian.com##.min-height-800
 thehackernews.com##.mobile-share
+recipes.timesofindia.com##.mobile-sprite
 topic.com##.modules-SocialWidget-socialWidget
 boxofficemojo.com##.mojo-fb-logo
 boxofficemojo.com##.mojo-tw-logo
@@ -41666,6 +41671,7 @@ dailykos.com##.dk-action-embed
 strategic-culture.org##.dk-newsletter
 culture.org##.dm-sign-form-wapper
 arkansasonline.com##.dml-wrapper
+dallasnews.com##.dmnc_features-cta-social-cta-social-module__YgCAW
 news.bitcoin.com##.doZemb
 opendemocracy.net##.donation-cta-contentbottom
 opendemocracy.net##.donation-cta-contenttop
@@ -42842,6 +42848,8 @@ bcg.com##ps-subscription-module
 extremetech.com##section > .mt-8
 christianpost.com##section[class^="inline-newsletter"]
 regain.us##section[data-testid="newsletter-section"]
+! theprovince.com/winnipegsun.com/canoe.com/o.canada.com/financialpost.com/nationalpost.com
+##.newsletter-widget__new-story-page
 !! medium
 codeburst.io,medium.com##[class][style="bottom: 0px;"]
 !! thelocal

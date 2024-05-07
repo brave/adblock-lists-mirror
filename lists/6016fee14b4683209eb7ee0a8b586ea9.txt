@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: E0+hY6Ou7VF3NLBR7K4oQQ
-! Diff-Path: ../patches/16/16-s-1714991667-3600.patch
+! Checksum: wF1qEBxjrkXTEfBWjv95yA
+! Diff-Path: ../patches/16/16-s-1715063663-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.71
-! TimeUpdated: 2024-05-06T10:32:06+00:00
+! Version: 2.0.44.72
+! TimeUpdated: 2024-05-07T06:32:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1556,6 +1556,9 @@ app.molotov.tv##+js(no-xhr-if, /ping?token=)
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/178728
+$script,third-party,domain=vidsrc.net,badfilter
+$subdocument,third-party,domain=vidsrc.net,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178483
 japscan.lol#@##dlinkc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177714

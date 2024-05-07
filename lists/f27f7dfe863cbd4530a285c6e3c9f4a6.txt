@@ -1,9 +1,9 @@
-! Checksum: uSc8Nz4qZlGAXF1Hf4i+yA
-! Diff-Path: ../patches/7/7-s-1715078059-3600.patch
+! Checksum: cRxF/MN9ZtFzDRiGI7YdLA
+! Diff-Path: ../patches/7/7-s-1715081652-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.38
-! TimeUpdated: 2024-05-07T10:31:36+00:00
+! Version: 2.0.51.39
+! TimeUpdated: 2024-05-07T11:31:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2732,9 +2732,9 @@ gamingdeputy.com,genshin-matomech.umadacchi.net###block-10
 city.adachi.tokyo.jp###tmp_advertisement
 asken.jp##aside[id^="ad_"]
 ||uma-log.net/wp-content/uploads/2023/07/app_banner_
-||gfoodd.com/wp-content/plugins/amagetti/amagetti.js
-gfoodd.com##.amagetti-tabs-container
-gfoodd.com##.amagetti-tabs-container + .container
+/wp-content/plugins/amagetti/*$script,domain=gfoodd.com|nintendoevery.com
+nintendoevery.com,gfoodd.com##.amagetti-tabs-container
+nintendoevery.com,gfoodd.com##.amagetti-tabs-container + .container
 ||city.yubari.lg.jp/banner/
 travel.rakuten.co.jp##div[class^="rt-wide-banner-"]
 toriizaka46.jp##.article-single > .sec-ad-article

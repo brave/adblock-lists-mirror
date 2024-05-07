@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: sWFOcXKYTKbcxlzOvpuKdA
-! Diff-Path: ../patches/9/9-s-1715002444-3600.patch
+! Checksum: Db7avrXlVeQtqZeOt1fh3g
+! Diff-Path: ../patches/9/9-s-1715078055-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.62
-! TimeUpdated: 2024-05-06T13:31:40+00:00
+! Version: 2.0.24.63
+! TimeUpdated: 2024-05-07T10:31:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2541,6 +2541,7 @@ spdiario.com.br###interna_banner_side
 spdiario.com.br##div[id$="_banner_quadrado"]
 jbox.com.br##.jbox-publi-fullwidth
 independentespanol.com###top-banner-wrapper
+metroworldnews.com,metroecuador.com.ec,fayerwayer.com##.b-ads-block-custom
 metroworldnews.com,metroecuador.com.ec,fayerwayer.com##.arcad-container
 metroworldnews.com,metroecuador.com.ec,fayerwayer.com##div[id^="arcad-feature-"][class^="default__StyledAdUnit-"]
 gasteizhoy.com##.banclick

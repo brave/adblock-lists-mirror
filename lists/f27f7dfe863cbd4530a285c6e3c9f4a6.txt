@@ -1,9 +1,9 @@
-! Checksum: PAk1dn7uzv1u4qbIfKKgjQ
-! Diff-Path: ../patches/7/7-s-1715074432-3600.patch
+! Checksum: uSc8Nz4qZlGAXF1Hf4i+yA
+! Diff-Path: ../patches/7/7-s-1715078059-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.37
-! TimeUpdated: 2024-05-07T09:31:35+00:00
+! Version: 2.0.51.38
+! TimeUpdated: 2024-05-07T10:31:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1577,6 +1577,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+://account.*.top/t_*?token=$document
 ://aeon.jp.*.com/t_$document
 ://vpass.*.cn/all/login.php$document
 ://rakuten-bank.*.cn/$document
@@ -1601,8 +1602,6 @@ count/login/?=id/log/*/login.asp$document,domain=cc|com
 ||azurestaticapps.net/*=(0101)-$document
 /Softbank2024.apk$document
 .tk/windows~activation-error/$document
-.top/YWJjZDAwMDU3P$document
-.com/YWJjZDAwMDU3P$document
 ://rakuten.*.cn/*/login.php^$document
 ://jp-*-*.s3.ap-*.amazonaws.com/*-*-*-*-*-*-*/index.html$document
 /?start=(0101)-$document
@@ -1770,6 +1769,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+chat.shalove.net##div[align="center"][style="margin-top:8px;"]
+japanmetal.com##.main > p[style="text-align:center;font-size: 80%;color: #a9a9a9;"]
+japanmetal.com##.side_box:has(> div.font07 > div.g > div.g-col > a.gofollow)
 dinvia.diary.to##div[class^="article-body"] > ul[id]
 ||banner2.nan-net.com/publicity/bbs.php
 shikotch.in##div[class*="-ads-"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 62bNFSswN6vDWPgaUAcXeQ
-! Diff-Path: ../patches/9/9-s-1715150046-3600.patch
+! Checksum: wGGzqU4rk3/g2Qvnm8YrfA
+! Diff-Path: ../patches/9/9-s-1715171656-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.69
-! TimeUpdated: 2024-05-08T06:31:38+00:00
+! Version: 2.0.24.70
+! TimeUpdated: 2024-05-08T12:31:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -266,6 +266,9 @@
 !
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/23606
+sinensistoon.com##+js(no-fetch-if, adskeeper.com)
+@@||jsc.adskeeper.com/site/$xmlhttprequest,domain=sinensistoon.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178615
 goyabu.to#@#.ad-placeholder
 goyabu.to##div[class^="adblock-"]
@@ -363,7 +366,7 @@ peliculas8k.com##+js(no-fetch-if, /googlesyndication\.com|iubenda\.com|unblockia
 alarmadefraude.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176131
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162478
-modescanlator.com##+js(no-fetch-if, ads_block.txt)
+modescanlator.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162260
 ||cdn.jsdelivr.net/gh/MuriloWalker/javascript@main/AntiAdblock.js
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication.com/adsbygoogle.js,domain=xerifetech.com,xmlhttprequest,script

@@ -1,9 +1,9 @@
-! Checksum: 9ladpCAsqe+7KVHxxcCBvg
-! Diff-Path: ../patches/7/7-s-1715160838-3600.patch
+! Checksum: 7To38gVVJA5T2MhcJA5E0A
+! Diff-Path: ../patches/7/7-s-1715164452-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.42
-! TimeUpdated: 2024-05-08T09:31:35+00:00
+! Version: 2.0.51.43
+! TimeUpdated: 2024-05-08T10:31:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10591,7 +10591,6 @@ lamire.jp#@#.ad-unit
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146295 PC view
 mognavi.jp#@#.side_ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146098
-@@||img.cf.47news.jp/static/ad/$image
 @@||img.cf.47news.jp/public/bannerAd/$image
 ! https://twitter.com/HFL_fan/status/1632275022197981184
 miitus.jp#@#.new-ad-box
@@ -10609,8 +10608,6 @@ app-story.net#@##AdBlock
 @@||daikin.co.jp/-/media/Project/Daikin/daikin_co_jp/ad/images/$~third-party
 ! unbreak https://www.es-navi.com/ads/
 @@||es-navi.com/img/ads/$~third-party
-! unbreak https://www.kcn.jp/fileadmin/static/ad.html
-@@||kcn.jp/library/fileadmin/static/ad/$~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140718
 @@||hbb.afl.rakuten.co.jp/hgb/*%3A%2F%2Fthumbnail.$image,domain=angelfish.jp|avianmedicine.jp
 ! unbreak www.low-ya.com

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405090850
+! Version: 202405090920
 ! Title: EasyList
-! Last modified: 09 May 2024 08:50 UTC
+! Last modified: 09 May 2024 09:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -68544,6 +68544,7 @@ eurogamer.net##.apester_block
 pd3.gg##.app-ad-placeholder
 d4builds.gg##.app__ad__leaderboard
 classicfm.com##.apple_music
+happymod.com##.appx
 icon-icons.com##.apu
 icon-icons.com##.apu-mixed-packs
 chron.com,ctinsider.com,ctpost.com,middletownpress.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
@@ -69426,7 +69427,6 @@ cgdirector.com##.fixed_ad_container_420
 fixya.com##.fixya_primis_container
 whatismyipaddress.com##.fl-module-wipa-concerns
 whatismyipaddress.com##.fl-photo
-imagecolorpicker.com##.flex div[class$="w-full"].grid
 omniglot.com##.flex-container
 decrypt.co##.flex.flex-none.relative
 libhunt.com##.flex.mt-5.boxed
@@ -70055,6 +70055,7 @@ urbandictionary.com##.mb-4.justify-center
 themoscowtimes.com##.mb-4.py-3
 techbone.net##.mb-5.bg-light
 yardbarker.com##.mb_promo_responsive_right
+firstpost.com##.mblad
 mastercomfig.com##.md-typeset[style^="background:"]
 thenewdaily.com.au##.md\:h-\[250px\]
 bmj.com##.md\:min-h-\[250px\]
@@ -70107,7 +70108,7 @@ coincodex.com##.middle4
 heatmap.news##.middle_leaderboard
 fruitnet.com##.midpageAdvert
 extremetech.com##.min-h-24
-copyprogramming.com##.min-h-250
+copyprogramming.com,imagecolorpicker.com##.min-h-250
 uwufufu.com##.min-h-\[253px\]
 uwufufu.com##.min-h-\[300px\]
 instavideosave.net##.min-h-\[350px\]
@@ -70233,6 +70234,7 @@ nevadamagazine.com##.nevad-article-tall
 chaseyoursport.com##.new-adv
 play.typeracer.com##.newNorthWidget
 pcgamesn.com##.new_affiliate_embed
+firstpost.com##.newadd
 farminguk.com##.news-advert-button-click
 hurriyetdailynews.com##.news-detail-adv
 myflixer.to##.news-iframe
@@ -71782,6 +71784,7 @@ shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 realitytvworld.com##[style="background-color: white; background: white"]
 guides.wp-bullet.com##[style="height: 288px;"]
 forum.lowyat.net##[style="height:120px;padding:10px 0;"]
+imagecolorpicker.com##[style="height:250px"]
 forum.lowyat.net##[style="height:250px;padding:5px 0 5px 0;"]
 tenforums.com##[style="height:280px;"]
 kingmodapk.net##[style="height:300px"]
@@ -72100,6 +72103,7 @@ gamingbible.com,unilad.com##div[data-cypress^="sticky-header"]
 analyticsindiamag.com##div[data-elementor-type="header"] > section.elementor-section-boxed
 zerohedge.com##div[data-endpoint="//trends.revcontent.com"]
 wayfair.com##div[data-enzyme-id="WssBannerContainer"]
+thestudentroom.co.uk##div[data-freestar-ad]
 my.clevelandclinic.org##div[data-identity*="board-ad"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 scmp.com##div[data-qa="AdSlot-Container"]
@@ -72491,7 +72495,6 @@ twitter.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="placementTracking"]:has(div[data-testid$="-impression-pixel"])
 booking.com##div[data-testid="property-card"]:has(div[data-testid="new-ad-design-badge"])
 twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
-thestudentroom.co.uk##div[id^="wallpaper-panel-"] ~ div[class] div[class^="custom-"]:has(> *[data-freestar-ad])
 truthsocial.com##div[item="[object Object]"]:has(path[d="M17 7l-10 10"])
 truthsocial.com##div[item="[object Object]"]:has(path[d="M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style="max-width: 390px; min-width: 190px;"]:has(a[href^="/ads/"])

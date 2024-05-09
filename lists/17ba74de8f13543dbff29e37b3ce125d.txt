@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405091052
+! Version: 202405091126
 ! Title: EasyList
-! Last modified: 09 May 2024 10:52 UTC
+! Last modified: 09 May 2024 11:26 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -395,7 +395,7 @@
 /adsforwp-front.min.css
 /adsheader.
 /adsimage/*
-/adsimages/*
+/adsimages/*$image,domain=~bdjobstoday.com
 /adsImg/*
 /adsinclude.
 /adslide.js
@@ -431,7 +431,6 @@
 /adv/mjx.js
 /adv_2.
 /adv_468.
-/adv_468_
 /adv_ads_v3/relatedAds/*
 /adv_banner_
 /adv_out.js
@@ -539,7 +538,6 @@
 /banner.cgi?
 /banner.php
 /banner/ad_
-/banner/ads/*
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
@@ -708,7 +706,6 @@
 /hserver/channel=
 /hserver/site=
 /ht.js?site_
-/html/ads/*
 /image/ad/*$image
 /image/ads/*
 /image/affiliate/*
@@ -842,7 +839,6 @@
 /partner_ads/*
 /partnerad.
 /partnerads/*
-/partnerads_
 /partneradwidget.
 /partnerbanner.
 /partnerbanner/*
@@ -1124,7 +1120,7 @@
 /viewad.asp
 /viewad.php
 /virtuagirlhd.
-/web/ads/*
+/web/ads/*$image
 /web_ads/*$image
 /webads.htm
 /webads.jpg
@@ -5050,8 +5046,6 @@ _800x80_
 ###islandAdPane2
 ###island_ad_top
 ###islandad
-###iv160ad
-###iv728ad
 ###jobs-ad
 ###js-ad-billboard
 ###js-ad-leaderboard
@@ -5199,7 +5193,6 @@ _800x80_
 ###lower_content_ad_box
 ###lowerads
 ###lowerthirdad
-###lpAdPanel
 ###lrec_ad
 ###lrecad
 ###m-banner-bannerAd
@@ -5220,17 +5213,13 @@ _800x80_
 ###mainui-ads
 ###mapAdsSwiper
 ###mapAdvert
-###marcoad
-###marketingRotator
 ###marketplaceAds
 ###marquee-ad
 ###marquee_ad
-###masSearchAd
 ###mastAd
 ###mastAdvert
 ###mastad
 ###masterad
-###mastercardAd
 ###masthead_ad
 ###masthead_ads_container
 ###masthead_topad
@@ -5289,10 +5278,8 @@ _800x80_
 ###mobile-ads-ad
 ###mobile-footer-ad-wrapper
 ###mobileAdContainer
-###mobile_ad_main
 ###mobile_ads_100_pc
 ###mobile_ads_block
-###mod-tafad
 ###mod_ad
 ###mod_ad_top
 ###modal-ad
@@ -5300,7 +5287,6 @@ _800x80_
 ###module-ads-02
 ###module_ad
 ###module_box_ad
-###module_sky_scraper
 ###monsterAd
 ###mpu-ad
 ###mpu-advert
@@ -5313,22 +5299,18 @@ _800x80_
 ###mpu2_parent
 ###mpuAd
 ###mpuAdvert
-###mpuAdvertDesk3
 ###mpuContainer
 ###mpuDiv
 ###mpuInContent
 ###mpuSecondary
 ###mpuSlot
 ###mpuWrapper
-###mpuWrapper600
 ###mpuWrapperAd
 ###mpuWrapperAd2
-###mpu_300x250
 ###mpu_ad
 ###mpu_ad2
 ###mpu_adv
 ###mpu_banner
-###mpu_bottom_sb_1_parent
 ###mpu_box
 ###mpu_container
 ###mpu_div
@@ -5359,11 +5341,8 @@ _800x80_
 ###ng-ad-lbl
 ###ni-ad-row
 ###nk_ad_top
-###northad
 ###notify_ad
 ###ntvads
-###omnibar_ad
-###online_ad
 ###openx-text-ad
 ###openx-widget
 ###ovadsense
@@ -5473,7 +5452,6 @@ _800x80_
 ###print_ads
 ###printads
 ###privateads
-###productads
 ###promo-ad
 ###promoAds
 ###promoFloatAd
@@ -5492,13 +5470,7 @@ _800x80_
 ###quads-ad1_widget
 ###quads-ad2_widget
 ###quads-admin-ads-js
-###quidgetad
-###quigo
-###quigo-ad
-###quigo_ad
-###quinAdLeaderboard
 ###r89-desktop-top-ad
-###r_adver
 ###radio-ad-container
 ###rail-ad-wrap
 ###rail-bottom-ad
@@ -6043,7 +6015,6 @@ _800x80_
 ###textlink-advertisement
 ###textsponsor
 ###tfm_admanagerTeaser
-###thistad
 ###tile-ad
 ###tileAds
 ###tmInfiniteAd

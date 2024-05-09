@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JGXEi2iRFxCnpmgWkDRrWQ
-! Diff-Path: ../patches/16/16-s-1715207625-3600.patch
+! Checksum: Wym8uQGKXMeIZIRKZCjyWA
+! Diff-Path: ../patches/16/16-s-1715236444-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.75
-! TimeUpdated: 2024-05-08T22:31:52+00:00
+! Version: 2.0.44.76
+! TimeUpdated: 2024-05-09T06:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -114,6 +114,8 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/178842
+@@||cinemaclock.com/adpartner.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176244
 journaldesfemmes.fr##+js(set-constant, integrityObserver.corrupted, 0)
 ! https://github.com/uBlockOrigin/uAssets/issues/22958
@@ -626,6 +628,7 @@ tf1.fr,tf1info.fr##+js(no-fetch-if, /^https:\/\/ads\.stickyadstv\.com\/$/ method
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/178842
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177510
 justarrived.lu##+js(set-constant, advanced_ads_ready, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172432

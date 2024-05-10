@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: z7ycNqPs3NzUpMbnGNeP5g
-! Diff-Path: ../patches/13/13-s-1715337259-3600.patch
+! Checksum: iwvXLC/738P4i4Ep4LG0wQ
+! Diff-Path: ../patches/13/13-s-1715340846-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.59
-! TimeUpdated: 2024-05-10T10:31:51+00:00
+! Version: 2.0.51.60
+! TimeUpdated: 2024-05-10T11:31:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1940,7 +1940,7 @@ turkanime.co#?#.row > div[class^="col-"]:has(> div.panel > div#sponsored)
 ||sinebaz.com/ads
 fullfilmizle.pro##a[href^="https://tinyurl.com/"]
 vkfilmizlet.com##a[target="_blank"]
-tgrthaber.com.tr,turkiyegazetesi.com.tr##.ad-placement-area
+tgrthaber.com,tgrthaber.com.tr,turkiyegazetesi.com.tr##.ad-placement-area
 yeniasir.com.tr##div[data-mbzone]
 fullhdfilm.pro##.hrklm_oblong
 yabancidizi.io#?#.poster > div:has(> div.bx-sidebar > div.flex > a[href^="https://kzn.pw/"])

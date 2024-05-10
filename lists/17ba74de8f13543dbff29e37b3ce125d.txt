@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405101354
+! Version: 202405101446
 ! Title: EasyList
-! Last modified: 10 May 2024 13:54 UTC
+! Last modified: 10 May 2024 14:46 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -334,7 +334,6 @@
 /ads/top-
 /ads/top.
 /ads/tso
-/ads/v/*
 /ads/v2/*
 /ads/video/*
 /ads/view.php
@@ -360,7 +359,7 @@
 /ads_300.
 /ads_300_
 /ads_assets/*
-/ads_banners/*
+/ads_banners/*$image
 /ads_bg.
 /ads_bottom.js
 /ads_controller.js
@@ -392,7 +391,7 @@
 /adsheader.
 /adsimage/*
 /adsimages/*$image,domain=~bdjobstoday.com
-/adsImg/*
+/adsimg/*$image
 /adsinclude.
 /adslide.js
 /AdsLoad.js
@@ -470,7 +469,7 @@
 /aff_banners/*$image
 /affad?
 /affads/*
-/affbanners/*
+/affbanners/*$image
 /affiliate/ad/*$image
 /affiliate/ads/*$image
 /affiliate/banner/*$image
@@ -700,7 +699,7 @@
 /image/ads/*$image,domain=~edatop.com
 /image/affiliate/*
 /image_ads/*
-/imageads/*
+/imageads/*$image
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
@@ -782,8 +781,7 @@
 /module/ads/*
 /modules/ad/*
 /modules/ads/*
-/modules/mod_ijoomla_adagency_zone/*
-/moneyball/ads/*
+/modules/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -832,7 +830,6 @@
 /pcad.js?
 /peel.php?
 /peel_ads/*
-/peelad/*
 /peelads/*$script
 /pfe/current/*
 /phpads/adx.js
@@ -863,7 +860,7 @@
 /plugins/meks-easy-ads-widget/*
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
-/plugins/popunderpro/*
+/plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
@@ -1374,7 +1371,6 @@ _widget_ad.
 /detroitchicago/vpp.gif?
 /detroitchicago/wichita.js
 /edmonton.webp$script
-/ez_aba_load/*
 /ezcl.webp?
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
@@ -1679,6 +1675,7 @@ _atblockdetector/
 /80x468_
 /960_60_
 /980x90.
+/w300/h250/*
 /w728/h90/*
 =300x250/
 =336x280,
@@ -17762,6 +17759,7 @@ browsershots.org#@#.advert_area
 ||42jdbcb.de^
 ||435a63dad5.com^
 ||43bb528775.com^
+||43sjmq3hg.com^
 ||43t53c9e.de^
 ||44288fa514.com^
 ||445c1f5df9.com^
@@ -24152,6 +24150,7 @@ browsershots.org#@#.advert_area
 ||chirppronounceaccompany.com^
 ||chissaibsgirls.com^
 ||chitbillety.website^
+||chitchooms.net^
 ||chitika.net^
 ||chitsnooked.com^
 ||chl7rysobc3ol6xla.com^
@@ -24454,6 +24453,7 @@ browsershots.org#@#.advert_area
 ||clerkrevokesmiling.com^
 ||clerrrep.com^
 ||cleverjump.org^
+||clevernesscolloquial.com^
 ||clevernesswood.com^
 ||clevernt.com^
 ||cleverwebserver.com^
@@ -45983,6 +45983,7 @@ browsershots.org#@#.advert_area
 ||reignprofessionally.com^
 ||reindaks.com^
 ||reinstandpointdumbest.com^
+||reissue2871.xyz^
 ||reitbokgona.com^
 ||reivereme.com^
 ||rejco2.store^
@@ -52863,6 +52864,7 @@ browsershots.org#@#.advert_area
 ||uwadpksbkzp.com^
 ||uwavoptig.com^
 ||uwayemfogibbgh.xyz^
+||uweqsrwoey.com^
 ||uwfcqtdb.xyz^
 ||uwgmguwpzkeudh.com^
 ||uwjhzeb.com^

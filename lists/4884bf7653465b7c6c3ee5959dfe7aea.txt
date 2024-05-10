@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rnZwI8UtYC+lzofA6OY0/g
-! Diff-Path: ../patches/9/9-s-1715326437-3600.patch
+! Checksum: ZSWkkFTnvIzhrPN0b72uvQ
+! Diff-Path: ../patches/9/9-s-1715330054-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.73
-! TimeUpdated: 2024-05-10T07:31:35+00:00
+! Version: 2.0.24.74
+! TimeUpdated: 2024-05-10T08:31:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2252,7 +2252,7 @@ visortmo.com##:not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https:/
 visortmo.com##a[href="https://series.ly"] > img[src*=".gif"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="/"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="https://visortmo.com/"]
-visortmo.com##a[href^="https://visortmo.com/library/"][target="_blank"]
+visortmo.com##:not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"][target="_blank"]
 visortmo.com#$?#body style:contains(/position[\s\S]*?::before[\s\S]*?background-image[\s\S]*?width[\s\S]*?height/):has(+ a[href^="https://visortmo.com/library/"]) { remove: true; }
 yugenmangas.net.br##.ads-flot
 gartic.com.br###shopIntUm

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: TwthVifmKR/Tj2czjhF/+w
-! Version: 202405100950
+! Checksum: L3soKjDamtITE5LQ+7cVOA
+! Version: 202405101050
 ! Title: EasyList Germany
-! Last modified: 10 May 2024 09:50 UTC
+! Last modified: 10 May 2024 10:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5246,6 +5246,7 @@ prad.de##.first-list > li:has(a[href^="https://bit.ly/"])
 prad.de##.first-list > li:has(a[href^="https://tracking.s24.com/"])
 onvista.de##.flex-layout:has(div[class^="ArticleTeaser_ov-article-teaser__onvistaCustomer_"])
 onmeda.de##.inlinemod-item:has(.on-ad)
+mobile.de##.mN_WC:has([data-testid="sponsored-badge"])
 mopo.de##.main-preview:has(.anzeige-label)
 chip.de##.mt-md:has(path[d$="92.456,64.241 z"])
 winfuture.de##.news330.floatL.mr10:has(.anzeige)

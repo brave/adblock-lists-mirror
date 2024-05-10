@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: KuxwRzzs8E4dL3CMJIBUWw
-! Diff-Path: ../patches/9/9-s-1715258054-3600.patch
+! Checksum: Bbfwt7PZJZzeQItuTtRmyg
+! Diff-Path: ../patches/9/9-s-1715322845-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.71
-! TimeUpdated: 2024-05-09T12:31:39+00:00
+! Version: 2.0.24.72
+! TimeUpdated: 2024-05-10T06:31:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1562,10 +1562,11 @@ suaurl.com##+js(abort-current-script, open, document.getElementById)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139603
 estacio.br##+js(set-cookie, modal_promo, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177234
+! https://github.com/AdguardTeam/AdguardFilters/issues/178920
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171873
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167657
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159461
-mundopolo.net,jurisfera.com,adclicker.info,adclicker.io##+js(set-constant, global.noobMaxTry, 0)
+adclic.es,adclic.org,mundopolo.net,jurisfera.com,adclicker.info,adclicker.io##+js(set-constant, global.noobMaxTry, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159665
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159538
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159034

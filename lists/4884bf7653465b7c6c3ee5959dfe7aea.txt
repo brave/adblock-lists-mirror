@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Bbfwt7PZJZzeQItuTtRmyg
-! Diff-Path: ../patches/9/9-s-1715322845-3600.patch
+! Checksum: rnZwI8UtYC+lzofA6OY0/g
+! Diff-Path: ../patches/9/9-s-1715326437-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.72
-! TimeUpdated: 2024-05-10T06:31:34+00:00
+! Version: 2.0.24.73
+! TimeUpdated: 2024-05-10T07:31:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2245,12 +2245,15 @@ clickpb.com.br##.adsHorizontal
 depor.com##div[class^="showTds"]
 ||visortmo.com/images/series.gif
 ||viralize.tv^$domain=visortmo.com
+visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail:matches-css(before, background-image: /\/images\/.*_push|\/n.?f.?_|_ex/))
 visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > style:contains(/\/images\/.*_push|\/ne?f_|_ext/))
 visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > :is(span, .thumbnail-title):contains(/promo|netflix|ofert|deal|pack|\d+(\.|,)?\d+\$/i))
 visortmo.com##:not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"] > img
+visortmo.com##a[href="https://series.ly"] > img[src*=".gif"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="/"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="https://visortmo.com/"]
-visortmo.com##a[href="https://series.ly"] > img[src*=".gif"]
+visortmo.com##a[href^="https://visortmo.com/library/"][target="_blank"]
+visortmo.com#$?#body style:contains(/position[\s\S]*?::before[\s\S]*?background-image[\s\S]*?width[\s\S]*?height/):has(+ a[href^="https://visortmo.com/library/"]) { remove: true; }
 yugenmangas.net.br##.ads-flot
 gartic.com.br###shopIntUm
 vrum.com.br##.ad-banner

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C6zpDizkwNFspd6Yo0PQvQ
-! Version: 202405111650
+! Checksum: CBGzqj5Naux0j0oav29yNA
+! Version: 202405111751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 May 2024 16:50 UTC
+! Last modified: 11 May 2024 17:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16814,6 +16814,7 @@ forum.ru-board.com##[href^="postings.cgi?action=edit&forum=5&topic=51141"]:not([
 virpl.ru##[id$="-banner"]
 cools.biz,cools.dj,get-tune.cc,intermusic.name,iplayer.info,ipleer.fm,k1news.ru,kolesa.kz,market4game.ru,mp3cc.biz,mp3iq.com,vmuzice.me,yellowpages.uz##[id*="Banner"]
 espreso.tv##[id*="ScriptRoot"]:not(.news-block-magick)
+football24.ua##[id*="VideoAdvWrapper"]
 liveinternet.ru,livejournal.com##[id*="_R-A-"]
 kino-teatr.ru##[id*="_dobro"]
 makler.md##[id*="_wideBann"]
@@ -16850,7 +16851,6 @@ rbc.ua,thisisus.ru##[id^="bn_"]
 horadric.ru##[id^="brand-"]
 nefrolab.ru##[id^="cmdgebh"]
 forexsystemsru.com##[id^="collapseobj_forumbit"] .alt1Active > div[style="float:right"]
-football24.ua##[id^="desktopVideoAdvWrapper"]
 funmult.ru##[id^="icqwin_"]
 popcornnews.ru##[id^="illumination"]
 24tv.ua,zaxid.net##[id^="mobileBrandingPlace"]

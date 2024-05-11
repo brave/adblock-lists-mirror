@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405111201
+! Version: 202405111640
 ! Title: EasyList
-! Last modified: 11 May 2024 12:01 UTC
+! Last modified: 11 May 2024 16:40 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -701,7 +701,6 @@
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
 /img/aff/*
@@ -768,13 +767,12 @@
 /media_ads/*$image
 /mgid.html
 /microad.js
-/min/ads/*
 /mnpw3.js
 /mobile-ad.
 /mobile_ad.
 /mobileads.
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
-/mod_pagepeel_banner/*
+/mod_pagepeel_banner/*$image,script
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
@@ -815,7 +813,7 @@
 /pagead/lvz?
 /pagead/osd.
 /pageear.js
-/pageear/*
+/pageear/*$script
 /pagepeel.
 /pagepeelpro.js
 /partner-ad-
@@ -832,7 +830,7 @@
 /pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
-/phpbb_ads/*
+/phpbb_ads/*$~xmlhttprequest
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
@@ -847,7 +845,7 @@
 /plugins/adrotate-pro/*
 /plugins/adrotate/*$script
 /plugins/ads-
-/plugins/ads/*
+/plugins/ads/*$~xmlhttprequest
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/ane-banners-entre-links/*
@@ -971,7 +969,6 @@
 /select_adv?
 /servead/request/*$script,subdocument
 /serveads.php
-/service/ads/*
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js
@@ -997,7 +994,6 @@
 /skin-ad_
 /skin/ad/*
 /skin/adv/*
-/skin3/ads/*
 /skin_ad-
 /skinad.
 /skyadright.
@@ -1026,12 +1022,10 @@
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
-/sponsored_ads/*
 /sponsored_link.
 /sponsored_links_
 /sponsored_text.
 /sponsoredlinks.
-/sponsoredlinks/*
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
@@ -16454,6 +16448,7 @@ _800x80_
 ##a[href^="https://clicks.pipaffiliates.com/"]
 ##a[href^="https://clixtrac.com/"]
 ##a[href^="https://combodef.com/"]
+##a[href^="https://ctjdwm.com/"]
 ##a[href^="https://ctosrd.com/"]
 ##a[href^="https://datewhisper.life/"]
 ##a[href^="https://datingoffers30.info/"]
@@ -16498,6 +16493,7 @@ _800x80_
 ##a[href^="https://golinks.work/"]
 ##a[href^="https://hot-growngames.life/"]
 ##a[href^="https://hotplaystime.life/"]
+##a[href^="https://in.rabbtrk.com/"]
 ##a[href^="https://intenseaffiliates.com/redirect/"]
 ##a[href^="https://iqbroker.com/"][href*="?aff="]
 ##a[href^="https://ismlks.com/"]
@@ -16555,6 +16551,7 @@ _800x80_
 ##a[href^="https://static.fleshlight.com/images/banners/"]
 ##a[href^="https://streamate.com/landing/click/"]
 ##a[href^="https://svb-analytics.trackerrr.com/"]
+##a[href^="https://syndicate.contentsserved.com/"]
 ##a[href^="https://syndication.dynsrvtbg.com/"]
 ##a[href^="https://syndication.exoclick.com/"]
 ##a[href^="https://syndication.optimizesrv.com/"]
@@ -16581,6 +16578,7 @@ _800x80_
 ##a[href^="https://turnstileunavailablesite.com/"]
 ##a[href^="https://twinrdsrv.com/"]
 ##a[href^="https://vo2.qrlsx.com/"]
+##a[href^="https://voluum.prom-xcams.com/"]
 ##a[href^="https://witnessjacket.com/"]
 ##a[href^="https://www.adskeeper.com"]
 ##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
@@ -17756,6 +17754,7 @@ browsershots.org#@#.advert_area
 ||42jdbcb.de^
 ||435a63dad5.com^
 ||43bb528775.com^
+||43ors1osh.com^
 ||43sjmq3hg.com^
 ||43t53c9e.de^
 ||44288fa514.com^
@@ -17935,6 +17934,7 @@ browsershots.org#@#.advert_area
 ||6a34d15d38.com^
 ||6af461b907c5b.com^
 ||6b70b1086b.com^
+||6b856ee58e.com^
 ||6bgaput9ullc.com^
 ||6cadb63a7a.com^
 ||6ce02869b9.com^
@@ -21585,6 +21585,7 @@ browsershots.org#@#.advert_area
 ||bceptemujahb.com^
 ||bcfaonqj.com^
 ||bcffkvpjqferl.com^
+||bcfimttr.com^
 ||bchkhtyns.com^
 ||bckqdynigv.com^
 ||bclikeqt.com^
@@ -25970,6 +25971,7 @@ browsershots.org#@#.advert_area
 ||dangerouslyeragruff.com^
 ||dangerouslygluttony.com^
 ||dangerouslyprudent.com^
+||dangerousratio.pro^
 ||dangerswitty.com^
 ||dangingspuggy.top^
 ||danitemalus.life^
@@ -36559,6 +36561,7 @@ browsershots.org#@#.advert_area
 ||kzkmmbrrzn.com^
 ||kzknjdlalls.com^
 ||kzt2afc1rp52.com^
+||kzzwi.com^
 ||l-iw.de^
 ||l1native.com^
 ||l1vec4ms.com^
@@ -37623,6 +37626,7 @@ browsershots.org#@#.advert_area
 ||loudlongerfolk.com^
 ||lougougauhi.xyz^
 ||louisaprocedureegoism.com^
+||louisedistanthat.com^
 ||loukoost.net^
 ||louloapi.com^
 ||loulouly.net^
@@ -40561,6 +40565,7 @@ browsershots.org#@#.advert_area
 ||notdyedfinance.com^
 ||notebookbesiege.com^
 ||notebookmedicine.com^
+||noted-factor.pro^
 ||notepastaparliamentary.com^
 ||notepositivelycomplaints.com^
 ||notesbook.in^
@@ -42571,6 +42576,7 @@ browsershots.org#@#.advert_area
 ||pascualpecked.top^
 ||pasenhlbot.com^
 ||paservices.tech^
+||pasjcutadak.com^
 ||paslsa.com^
 ||pasoleex.com^
 ||pasoshardy.com^
@@ -44940,6 +44946,7 @@ browsershots.org#@#.advert_area
 ||pycvlnu.com^
 ||pygopodwrytailbaskett.sbs^
 ||pyhdvvimr.com^
+||pyknrhm5c.com^
 ||pympbhxyhnd.xyz^
 ||pyract.com^
 ||pyrexikon.com^
@@ -50747,6 +50754,7 @@ browsershots.org#@#.advert_area
 ||thereuponprevented.com^
 ||thereuponscare.com^
 ||thermometerdoll.com^
+||thermometerinconceivablewild.com^
 ||thermometertally.com^
 ||thescads.com^
 ||thesekid.pro^
@@ -54033,6 +54041,7 @@ browsershots.org#@#.advert_area
 ||waynagmay.com^
 ||wazaki.xyz^
 ||wazctigribhy.com^
+||wazduzrhiki.com^
 ||wazensee.net^
 ||waztahsmal.com^
 ||wazzeyzloayz.top^
@@ -55602,6 +55611,7 @@ browsershots.org#@#.advert_area
 ||yfykzbhaiuzbht.com^
 ||ygeqiky.com^
 ||ygkwjd.xyz^
+||ygvqughn.com^
 ||ygzkedoxwhqlzp.com^
 ||yhazrfacxd.com^
 ||yhbcii.com^
@@ -55789,6 +55799,7 @@ browsershots.org#@#.advert_area
 ||yphdrphx.xyz^
 ||ypkljvp.com^
 ||ypmohjxp.com^
+||yptjqrlbawn.xyz^
 ||yqblutkjhx.com^
 ||yqeuu.com^
 ||yqgmvxufpkr.com^
@@ -60448,6 +60459,7 @@ browsershots.org#@#.advert_area
 ||lostdormitory.com^$popup
 ||lottingjacks.top^$popup
 ||lottoleads.com^$popup
+||louisedistanthat.com^$popup
 ||loverevenue.com^$popup
 ||lovesparkle.space^$popup
 ||lowrihouston.pro^$popup
@@ -65209,6 +65221,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||4f.to/spns/
 ||abcnews.com/assets/js/adCallOverride.js
 ||aboutmyarea.co.uk/images/imgstore/
+||absoluteanime.com/!bin/skin3/ads/
 ||ad.animehub.ac^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.imp.joins.com^

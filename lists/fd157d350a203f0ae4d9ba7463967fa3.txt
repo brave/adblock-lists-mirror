@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k8arS3y9bmMcDMvAFOoMNA
-! Version: 202405111050
+! Checksum: /68KREb+VXEQ87NE+3VUxg
+! Version: 202405111201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 May 2024 10:50 UTC
+! Last modified: 11 May 2024 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16615,7 +16615,7 @@ info.sibnet.ru##[class*="banner__brand"]
 disgustingmen.com##[class*="bg_banner"]
 vse.rv.ua##[class*="billboard"]
 anna-news.info##[class*="blog-holder"] > noindex
-euro-football.ru##[class*="bookmaker"]
+euro-football.ru,football.konkurent.ua##[class*="bookmaker"]
 cybersport.ru##[class*="bookmaker"]:not(.root)
 expert.ru##[class*="box-partners"]
 argumenti.ru##[class*="cc_adv"]
@@ -24176,6 +24176,7 @@ yclyd=$popup,domain=dzen.ru
 ycyd=$popup,domain=dzen.ru
 ycyid=$popup,domain=dzen.ru
 ycylid=$popup,domain=dzen.ru
+ycylyd=$popup,domain=dzen.ru
 yhic=$popup,domain=dzen.ru
 yhid=$popup,domain=dzen.ru
 yhyd=$popup,domain=dzen.ru

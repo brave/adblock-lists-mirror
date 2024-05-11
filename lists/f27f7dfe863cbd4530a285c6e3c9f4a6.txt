@@ -1,9 +1,9 @@
-! Checksum: fK6QakEVdNrkbQRv/n5D0w
-! Diff-Path: ../patches/7/7-s-1715430845-3600.patch
+! Checksum: 4EYAktRi9PHTU+jQdqKERw
+! Diff-Path: ../patches/7/7-s-1715434430-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.53
-! TimeUpdated: 2024-05-11T12:31:33+00:00
+! Version: 2.0.51.54
+! TimeUpdated: 2024-05-11T13:31:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1770,6 +1770,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+koimemo.com##.l-main__adlabel
+matome-plus.com##.amazonwrapper
 okbizcs.okwave.jp##.c-ad-box
 pazusoku.com##.ad-box-02
 pazusoku.com##.responsibe-adsense-wrap
@@ -4993,7 +4995,7 @@ olive-hitomawashi.com##div[style^="display: inline-block; min-width: 300px; min-
 ||nanigoto.net/?u=ad_amazon/
 nanigoto.net##div[style="width:100%;height:90px;"]
 nanigoto.net##div[style="width:336px;height:280px;"]
-||m.media-amazon.com/images/I/$domain=grasoku.com|bipblog.com|pachinkopachisro.com|newmatosoku.com|lifehack2ch.livedoor.biz
+||m.media-amazon.com/images/I/$domain=grasoku.com|bipblog.com|pachinkopachisro.com|newmatosoku.com|lifehack2ch.livedoor.biz|matome-plus.com
 grasoku.com##.right-container > div.plugin-memo:nth-of-type(-n+4)
 otanews.livedoor.biz###leftbody
 otanews.livedoor.biz##.PortalLinks > center

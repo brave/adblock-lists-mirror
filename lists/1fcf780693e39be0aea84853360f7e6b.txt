@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 1Lh+N3G0GVTEMNY5LKx2Kw
-! Diff-Path: ../patches/224/224-s-1715384034-3600.patch
+! Checksum: fRzIgFdplwetqVoUDawbHA
+! Diff-Path: ../patches/224/224-s-1715394838-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.15.63
-! TimeUpdated: 2024-05-10T23:32:04+00:00
+! Version: 2.1.15.64
+! TimeUpdated: 2024-05-11T02:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5520,6 +5520,9 @@ newduba.cn###jq_youxi
 ||qweqd.cn^
 ||lixonj.xyz^
 ||feptbh.xyz^
+||igidskio.top^
+||adlhxwb.xyz^
+||6b856ee58e.com^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -13928,6 +13931,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||koyso.com/z-
 ||koyso.com/static/js/abc.
 szxx.com.cn###A0
+1point3acrescom###portal_block_567
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 szxx.com.cn###A1
@@ -18864,7 +18868,7 @@ ifeng.com##div[class^="ppx_wrap-"]
 99syy1.com##div[class^="ps_"]
 ifeng.com##div[class^="rightContent-"] a[href^="//health.ifeng."]
 jable.tv##div[class^="root-"]
-qwerwrrt.one,sehuatang.org##div[class^="show-text"]
+kzs1w.com,sehuatang.org##div[class^="show-text"]
 finance.sina.com.cn##div[class^="side-btns-"]
 7654.com##div[class^="sidebarimg"]
 ifeng.com##div[class^="slideBannerBox"]

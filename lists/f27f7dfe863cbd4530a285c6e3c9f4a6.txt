@@ -1,9 +1,9 @@
-! Checksum: IJgUhAnkgU8iRpMwkPXW8w
-! Diff-Path: ../patches/7/7-s-1715499253-3600.patch
+! Checksum: h4CrmL3Gnanpnqt+1CLShQ
+! Diff-Path: ../patches/7/7-s-1715502841-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.59
-! TimeUpdated: 2024-05-12T07:31:37+00:00
+! Version: 2.0.51.60
+! TimeUpdated: 2024-05-12T08:31:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1056,8 +1056,6 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 !
 ! overlay
 erommd-street.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'overview')
-! fix error
-famitsu.com#%#//scriptlet('set-constant', 'TagProvider.cleanup', 'noopFunc')
 ! https://github.com/uBlockOrigin/uAssets/issues/23285
 twivideo.net#%#//scriptlet('prevent-addEventListener', 'load', 'interstitialAd')
 twivideo.net#@##interstitialAd
@@ -1128,7 +1126,7 @@ uraaka-joshi.com#%#//scriptlet('prevent-addEventListener', 'playing', 'VAST_TARG
 ! skip ad
 collepic.net#%#//scriptlet('adjust-setInterval', '.run()}', '1000')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68275
-yavtube.com#%#//scriptlet("prevent-setTimeout", "getAdCookie")
+javcup.com,yavtube.com#%#//scriptlet("prevent-setTimeout", "getAdCookie")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133218
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114915
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111968
@@ -1832,6 +1830,9 @@ fanblogs.jp###sideBoxRight table[style*="border"][style*=" width:"] a[href*="://
 fanblogs.jp##.sidetitle:has(+ .side > div[style] > ins.adsbygoogle)
 fanblogs.jp##.sidetitle:has(+ .side > ins.adsbygoogle)
 fanblogs.jp##div[class$="ody"] > div.text table[cellpadding="0"][cellspacing="0"][border="0"][style=" border:1px solid #ccc; width:300px;"]:not([class])
+famitsu.com##div[class^="FooterRectangle_container_"]
+famitsu.com##section[class^="SecondRightColumn_"] > ol[class^="AmazonRanking_list_"]
+famitsu.com#?#div[class^="ArticleDetailBody_articleBody_"] > a.article_detail_button_ec_amazon:contains(関連商品をAmazonで検索)
 famitsu.com##aside[class^="SponsorLink_sponsorLinkContainer_"]
 famitsu.com##div[class^="ArticleDetail_leftColumn"] > section:has(> div > div.swiper div[class^="AmazonCard_card_"])
 famitsu.com##.banner-center
@@ -6076,6 +6077,7 @@ monayoblog.com##.kaisetsu-box2
 ||denfaminicogamer.jp/wp-content/themes/dfng_news_org/js/*-jack.js
 watch.impress.co.jp,news.denfaminicogamer.jp##.amazon-ranking
 news.denfaminicogamer.jp###pc_article_billboard
+wiki.famitsu.com,wiki.denfaminicogamer.jp,wiki.dengekionline.com###ad-global-menu-lower
 wiki.famitsu.com,wiki.denfaminicogamer.jp,wiki.dengekionline.com###ad-wiki-content-lower
 wiki.famitsu.com,wiki.denfaminicogamer.jp,wiki.dengekionline.com###ad-wiki-footer-upper
 record-now.com##.my_ads
@@ -7673,6 +7675,7 @@ tvlife.jp##.ad > ul[style="list-style:none;font-size:12px"]
 tvlife.jp##.for-pc[style="text-align: center;margin: 10px auto 20px;"]
 tvlife.jp###tvl_pc_article_footer[style="width: 728px; height: 90px;"]
 tvlife.jp##div[id^="tvl_pc_all_"]
+dengekionline.com##div[class^="RightColumn_rectangleBanner_"]
 dengekionline.com##div[class^="TopHeaderBanner_wrapper_"]
 dengekionline.com##.gBody_col-right > div.gMovBox
 dengekionline.com##.gAdBanner:not(.gSideSticky > div.gAdBanner)
@@ -8325,9 +8328,9 @@ gadgetlife2ch.blomaga.jp##.blogparts_freeArea:first-child
 allcinema.net###area-site-footer-ad
 allcinema.net###area-site-header-ad
 ||allcinema.net/js/min.ad.js
-||cdn.r18hub.com/assets/videos/$domain=yavtube.com
+||javcup.com/pop/$popup
 ||yavtube.com/pop/$popup
-yavtube.com##.player-mask
+javcup.com##.btn[href="/aff/chat"]
 yavtube.com##.fluid_initial_play.transform-active
 famitsu.com##.article-body__contents-pr-primary
 famitsu.com##.banner-footer-rect-container
@@ -8906,7 +8909,6 @@ ascii.jp###sideR > .ban
 ascii.jp##.banR:first-of-type
 gendai.media###GB_pc_inread_mov + div[style="min-height: 250px; overflow: hidden;"]
 gendai.media###GB_pc_inread_mov
-famitsu.com##.ad-super-jack-link-container
 gunji.blog.jp##a[title*="_300x250_"]
 ||widget.iid-network.jp/assets/widget.js
 new-akiba.com###bannerB2
@@ -10498,9 +10500,6 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 !
 !
 !
-! unable to move
-!+ PLATFORM(ios, ext_android_cb)
-@@||impact-ad.jp/fh/showad_$script,domain=famitsu.com
 ! https://twitter.com/_webgoto/status/1779190832840753612
 [$path=/amafav/]service.webgoto.net#@$#.image_box[style*="amazon.co"] { background: none !important; }
 [$path=/amafav/]service.webgoto.net#@#a[href^="https://www.amazon.co.jp"][target="_blank"]

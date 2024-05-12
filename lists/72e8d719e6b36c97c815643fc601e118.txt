@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.6.2
+! Version: 3.6.7.0
 
 ! General
 
@@ -235,6 +235,7 @@ loeildelaphotographie.com##+js(ra, style, img[style*="blur"])
 ||wbmdstatic.com/*/chunk-vendors.*.js$script,domain=medscape.com
 medscape.com##.AdUnit,div[id^="ads-"]
 mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > div.tdb-block-inner)
+||motorsportmagazine.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 mv-voice.com##+js(cookie-remover, /^/)
 ||cdn.registerdisney.go.com$script,domain=nationalgeographic.com
 nautil.us##+js(cookie-remover, /^(arc|sfa)$/)

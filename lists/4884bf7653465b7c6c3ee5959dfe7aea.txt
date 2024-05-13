@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: RGQIF1mBMN4Wsz7QPHH5Fw
-! Diff-Path: ../patches/9/9-s-1715582054-3600.patch
+! Checksum: uA/8VB3FOxfETe90c17RJg
+! Diff-Path: ../patches/9/9-s-1715585653-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.76
-! TimeUpdated: 2024-05-13T06:31:37+00:00
+! Version: 2.0.24.77
+! TimeUpdated: 2024-05-13T07:31:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -415,12 +415,12 @@ softwareany.net##ins.adsbygoogle:not(.ad-slot)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176663
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160783
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158732
-antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(set-constant, googletag, {})
-antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(set-constant, googletag._loaded_, true)
-antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/ppub_config)
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=noop.js,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do
-||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,redirect-rule=noop.txt,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do
+monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(set-constant, googletag, {})
+monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(set-constant, googletag._loaded_, true)
+monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/ppub_config)
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=noop.js,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr
+||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,redirect-rule=noop.txt,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159624
 animesonline.nz##.detectadb
 animesonline.nz##.cleitao
@@ -2107,6 +2107,7 @@ amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.com.br,tvhi
 ! ##body .banner
 tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+||cdn.getadjacent.com/*/ned-adjacent-ads.min.js
 forbes.com.ec##.publicidad_footer_sticky
 tntsports.com.br##.banners-cta__content
 tntsports.com.br###__next > div[class^="jsx-"]:not([class*=" "]):has(> .widget > a[href*="&utm_campaign="])
@@ -3032,16 +3033,6 @@ oplanetatv.clickgratis.com.br##.block-ads-wrapper
 oplanetatv.clickgratis.com.br##.ads:not(.prebid)
 oplanetatv.clickgratis.com.br##.ads-block:not(.prebid)
 comoacaba.com##.aawp
-nexoscans.*##.text-left > br
-nexoscans.*##.wp-manga.c-top-sidebar
-nexoscans.*##.page-break > a[target="_blank"]
-nexoscans.*##a[href^="https://www.amazon.com"] > img
-nexoscans.*##center > a[target="_blank"]:not([href*="discord.gg"]) > img
-nexoscans.*#?#.text-left > center:contains(/^Publicidade$/)
-nexoscans.*#?#.page-break > center:contains(/^Publicidade$/)
-nexoscans.*#?#.page-break > center:contains(/^Publicidade$/) + br
-nexoscans.*#?#.page-break > center:contains(/^Publicidade$/) + div[id^="bg-ssp-"]
-nexoscans.*##.c-top-sidebar  .row > .widget_custom_html:has(> .widget_text > .widget_text > .textwidget > *:is([id^="teaser"], .adsbygoogle, [id^="bg-ssp-"]))
 yugenmangas.com##.site-header + .c-top-second-sidebar
 mangapt.com,yugenmangas.com##.body-wrap > .c-bottom-sidebar
 mangapt.com##.body-wrap > .c-top-second-sidebar

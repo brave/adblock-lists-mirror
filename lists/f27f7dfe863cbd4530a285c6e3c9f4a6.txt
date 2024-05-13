@@ -1,9 +1,9 @@
-! Checksum: 95aU3ySpEtKZOmHPEpbUsA
-! Diff-Path: ../patches/7/7-s-1715614509-3600.patch
+! Checksum: cdkfAG40wmKKPgyT8+iEhw
+! Diff-Path: ../patches/7/7-s-1715618063-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.68
-! TimeUpdated: 2024-05-13T15:31:53+00:00
+! Version: 2.0.51.69
+! TimeUpdated: 2024-05-13T16:31:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1765,13 +1765,23 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+qjweb.jp##.ad_detail_box
+qjweb.jp##.l-aside_ad-has-fixed
+qjweb.jp##.l-aside_box > div.l-aside_ad
+shueisha.online##.g-a-banner
+shueisha.online##.g-a-rectangle
+shueisha.online##.g-a-rectangle-wrap
 ddnavi.com##.buttonlink2:has(> a[href^="https://amzn.to/"])
 lettuceclub.net##.r-items
 nintendoevery.com##.notice-area-link[href^="https://x.com/nintendoevery/status/1789294462038122577"]
-||z.vqpv.biz/gif/$image,domain=l-o-l.net
-l-o-l.net##.youtube_pla_main > .sear_bb_w
+||solty.biz/amr.php
+||z.nazo.cc/afdt/
+||z.vqpv.biz/gif/*.png$domain=l-o-l.net
+||z.vqpv.biz/gif/nin_bo.gif
+l-o-l.net###side
+l-o-l.net##.sear_bb_w
 l-o-l.net##.nin-pr
-l-o-l.net###rss2 > div[id*="_"][style*="width:"]
+l-o-l.net###vv_vv
 l-o-l.net##div[class^="im-pr"]
 ||torimochi-ad.net/AdService/
 xvideos-dl.com##.header_link[href^="https://go.bbrdbr.com"]
@@ -3192,7 +3202,6 @@ city.hiratsuka.kanagawa.jp##.m-bnr-inner
 ge-soku.com##.single-related-area
 nanasepn.com###sidebar > div.widget_custom_html
 pr-park.com,xn--zcka7aza6gyb9jd.net###notfix > div.widget_custom_html
-twtimez.net##.adWideDown
 twiman.net##div[style="margin:auto;max-width:1400px;"]
 ||uub.jp/opm/pnlbanner_
 uub.jp##a[rel="nofollow"] > img[style="width:100%"]
@@ -5059,6 +5068,7 @@ cecile.co.jp##.show-ads
 karzusp.net##.amazon-gift
 karzusp.net##.popular-book
 ||doujin-assets.dmm.co.jp^$domain=skebetter.com|kimootoko.net|urasma.com|2ji.pink|tifer2.jp|2ch-c.net
+||skebetter.com/api/ad/
 skebetter.com##.h-16.md\:h-24.p-1
 skebetter.com##.h-24.md\:h-48.p-1
 skebetter.com##.max-w-2xl.sm\:py-12.sm\:px-6.lg\:max-w-7xl
@@ -6312,9 +6322,6 @@ sutekinakijo.com,akb48rompen.com##.left-container > div.plugin-memo:last-child
 /\/bnr_side_(kiso3|octopass)\.jpg/$domain=proengineer.internous.co.jp
 wiki3.jp###wiki_menu > div.uk-sticky-placeholder
 ||wiki3.jp/assets/image/yomoyama_advertisement.png
-twisave.com##.tweet-list > div[style="text-align: center; padding: 20px; margin-bottom: 20px; background-color: #EEE; positino: relative;"]
-twisave.com##div[style="padding-top: 15px; margin-bottom: 15px; height: 60px; text-align: center"]
-twisave.com##div[style="padding-top: 15px; text-align: center; margin-bottom: -8px"]
 xn--4gr16r4zc9g.jp##.fixed_sidebar-wrapper
 netouyonews.net,ohkashi.com,haikara.news,anige-labo.com,keibadrive.com,psneolog.com,yomogame252.com,entameclip.com##.amazon-item-box
 wanabe.net,mayoinu.com###my-footer > center
@@ -7578,8 +7585,11 @@ kakijun.jp###kakijun_books
 kakijun.jp##.gadcenter
 namedic.jp###ad-side_top
 namedic.jp##.lo-main > aside:last-child
+||mychild.dear-ai.net/img/ad300_600.pnb
+naming-dic.com###original_ad1
 naming-dic.com##.sidebar-box3
 naming-dic.com##.ad-posi1
+naming-dic.com##.ad-posi2
 kanjitisiki.com##.category-ue:first-child
 pulpxstyle.com##.add_main
 pulpxstyle.com##.add_post_sidebar
@@ -10158,7 +10168,7 @@ ibarakinews.jp#?##_popIn_recommend_carousel2_div > div._popIn_recommend_articles
 25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com#?#div[id^="_popIn_recommend_"] ul._popIn_infinite_page > li > a[class*="_popIn_recommend_article_ad"]:upward(1)
 topics.or.jp#?##_popIn_recommend ul._popIn_infinite_page > li > a._popIn_recommend_article_ad:upward(2)
 daily.co.jp#?#._popIn_recommend_container a._popIn_recommend_article_ad:upward(._popIn_recommend_container)
-jocr.jp,projectdesign.jp,fujitv-view.jp,fishingjapan.jp,bepal.net,mbs.jp,oricon.co.jp,bokete.jp,hira2.jp,ameblo.jp,sitakke.jp,numero.jp,am-our.com,animageplus.jp,animeanime.jp,asahi.com,autocar.jp,books.j-cast.com,cafend.net,careerconnection.jp,cinemacafe.net,curazy.com,dailyportalz.jp,gamespark.jp,getnavi.jp,hinata.me,iionna.tokyo,inside-games.jp,intojapanwaraku.com,japanese.joins.com,kanaloco.jp,matome.response.jp,mensnonno.jp,moneyforward.com,mynavi.jp,news.nifty.com,news.tv-asahi.co.jp,ryukyushimpo.jp,saitama-np.co.jp,smt.docomo.ne.jp,taishu.jp,uhb.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp##._popIn_infinite_page > li:has(> a[class*="_popIn_recommend_article_ad"])
+qjweb.jp,jocr.jp,projectdesign.jp,fujitv-view.jp,fishingjapan.jp,bepal.net,mbs.jp,oricon.co.jp,bokete.jp,hira2.jp,ameblo.jp,sitakke.jp,numero.jp,am-our.com,animageplus.jp,animeanime.jp,asahi.com,autocar.jp,books.j-cast.com,cafend.net,careerconnection.jp,cinemacafe.net,curazy.com,dailyportalz.jp,gamespark.jp,getnavi.jp,hinata.me,iionna.tokyo,inside-games.jp,intojapanwaraku.com,japanese.joins.com,kanaloco.jp,matome.response.jp,mensnonno.jp,moneyforward.com,mynavi.jp,news.nifty.com,news.tv-asahi.co.jp,ryukyushimpo.jp,saitama-np.co.jp,smt.docomo.ne.jp,taishu.jp,uhb.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp##._popIn_infinite_page > li:has(> a[class*="_popIn_recommend_article_ad"])
 sp.uta-net.com,otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
 !

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BHS/qPwxcnxOP1E99R3huQ
-! Version: 202405131351
+! Checksum: jOdqLqUcs+NBQlTWpxRXiQ
+! Version: 202405131500
 ! Title: EasyList Germany
-! Last modified: 13 May 2024 13:51 UTC
+! Last modified: 13 May 2024 15:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -15,7 +15,6 @@
 !
 !----------------Allgemeine Regeln zum Blockieren von Werbung-----------------!
 ! *** easylistgermany:easylistgermany/easylistgermany_general_block.txt ***
-&werbemittel=
 -Bannerwerbung-
 -werb_hori.
 -werb_vert.
@@ -4859,6 +4858,7 @@ volksblatt.at##div[data-div-ratios="default:696_280|500:300_250"]
 t-online.de,www-t--online-de.cdn.ampproject.org##div[data-dy*="Partner:"]
 apfelpage.de##div[data-embed-provider="rcm-eu-amazon-adsystem-com"]
 de.motor1.com##div[data-entrypoint="heycar-search-widget"]
+t-online.de##div[data-external-sdi-mark="banner-placeholder"]
 ingolstadt-today.de##div[data-ez-block-id="3324017"]
 alles-mahlsdorf.de##div[data-id="904ffeb"]
 kleinanzeigen.de##div[data-liberty-ad-loaded="true"]

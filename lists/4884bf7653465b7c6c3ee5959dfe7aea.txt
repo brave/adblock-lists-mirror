@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 48GEJeM6V0JzkXB/N5gzvA
-! Diff-Path: ../patches/9/9-s-1715542448-3600.patch
+! Checksum: RGQIF1mBMN4Wsz7QPHH5Fw
+! Diff-Path: ../patches/9/9-s-1715582054-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.75
-! TimeUpdated: 2024-05-12T19:31:39+00:00
+! Version: 2.0.24.76
+! TimeUpdated: 2024-05-13T06:31:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1562,11 +1562,12 @@ suaurl.com##+js(abort-current-script, open, document.getElementById)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139603
 estacio.br##+js(set-cookie, modal_promo, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177234
+! https://github.com/AdguardTeam/AdguardFilters/issues/178968
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178920
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171873
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167657
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159461
-adclic.es,adclic.org,mundopolo.net,jurisfera.com,adclicker.info,adclicker.io##+js(set-constant, global.noobMaxTry, 0)
+gourlpro.com,adclic.es,adclic.org,mundopolo.net,jurisfera.com,adclicker.info,adclicker.io##+js(set-constant, global.noobMaxTry, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159665
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159538
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159034

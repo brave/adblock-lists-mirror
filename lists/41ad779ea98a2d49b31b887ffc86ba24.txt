@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yyHHiTf0hTP4iGtdeOfLuA
-! Version: 202405131540
+! Checksum: WSYBjR20W2z/LYyBT0T7/w
+! Version: 202405131640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-13 15:40 UTC
+! Last modified: 2024-05-13 16:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44179,7 +44179,8 @@ wfaa.com,wkyc.com,9news.com,11alive.com##+js(rc,  video__docker_state_docked, , 
 cbsnews.com##+js(rc, floating, , stay)
 cbsnews.com##.floating
 ! https://github.com/uBlockOrigin/uAssets/issues/23310
-www.nicovideo.jp##:matches-path(/search) .nicoadVideoItem
+www.nicovideo.jp##:matches-path(/\/(search|tag)\//) .nicoadVideoItem
+www.nicovideo.jp##:matches-path(/tag/).nicodicNicoadVideoList
 ! ufret.jp (mobile)
 ufret.jp###full-screen-ad
 ufret.jp##.no-scroll:style(overflow: auto !important;)
@@ -48963,6 +48964,7 @@ realtime-chart.info##.osn_base
 gamespark.jp,response.jp##.page-top
 mobilenews.jp##.pagetop
 dandy-house.co.jp##.post_content > a[href*="?utm_source"] > img
+sp.nicovideo.jp##.searchResult-nicoadNicodicItem
 sofmap.com##.side_bnr
 sports.yahoo.co.jp##.topPage
 video.fc2.com##div[style^="position: fixed; transition: right 1s ease-out 0s; bottom: 165px; padding: 0px; margin: 0px; border: none; z-index: 999;"]

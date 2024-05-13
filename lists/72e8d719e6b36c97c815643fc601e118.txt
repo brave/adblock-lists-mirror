@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.7.0
+! Version: 3.6.7.1
 
 ! General
 
@@ -105,7 +105,7 @@ citywire.com##+js(rc, m-media-container--locked, .m-media-container--locked)
 citywire.com##+js(rc, m-article__body--locked, .m-article__body--locked)
 citywire.com##registration-widget,div.alert--locked
 ||clarin.com/js/meter*.js$script,~third-party
-||clarin.com/js/zonda-*.js$script,~third-party
+||clarin.com/*/zonda-*.js$script,~third-party
 ||codesports.com.au/*/news-story/$inline-script
 ||commentary.org/*/js/dg-locker-public.js$script,~third-party
 ||connaissancedesarts.com/wp-content/cache/*.js$script,~third-party

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4nwVJwDu+u33K2FZ45OwCA
-! Diff-Path: ../patches/224/224-s-1715585651-3600.patch
+! Checksum: CcjPr8lTqk+NGAurdExXmg
+! Diff-Path: ../patches/224/224-s-1715596575-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.15.73
-! TimeUpdated: 2024-05-13T07:32:02+00:00
+! Version: 2.1.15.74
+! TimeUpdated: 2024-05-13T10:32:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1087,6 +1087,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|b-cdn.net|bu
 !
 !
 !
+natgeomedia.com##div[id^="AD-970x250"]
 hkepc.com###headBanner
 speedtest.cn##.speedtest-recommend
 tsdm39.com###ct > div > a[target="_blank"] > img
@@ -2459,7 +2460,7 @@ tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
 minhangcidian.com##div[id^="googleAd"]
 ||icao4.com/uploads/pic/2.jpg
 gas.goodlife.tw###leaderboard_banner
-setn.com,eprice.com.tw##div[class^="ad-"]
+natgeomedia.com,setn.com,eprice.com.tw##div[class^="ad-"]
 yzl333.com##a[href^="https://jump.9118ads.com/"]
 yzl333.com#?#.row > div.col-sm-6:has(> div.well > a[href^="https://jump.9118ads.com/"])
 jxnews.com.cn##.ad120050

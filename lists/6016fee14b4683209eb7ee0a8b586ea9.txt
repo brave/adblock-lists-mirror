@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: SB6sZVYcld676NE2EI9w1g
-! Diff-Path: ../patches/16/16-s-1715553232-3600.patch
+! Checksum: M02IVHW6UeCv2CgbiqtJmQ
+! Diff-Path: ../patches/16/16-s-1715690052-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.78
-! TimeUpdated: 2024-05-12T22:31:51+00:00
+! Version: 2.0.44.79
+! TimeUpdated: 2024-05-14T12:31:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -628,6 +628,9 @@ tf1.fr,tf1info.fr##+js(no-fetch-if, /^https:\/\/ads\.stickyadstv\.com\/$/ method
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/uBlockOrigin/uAssets/issues/23689
+1jour1film.homes##+js(remove-attr, href, a[href]#clickfakeplayer)
+player.melaniezettofrais.online##+js(addEventListener-defuser, click, Popup)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178842
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177510
 justarrived.lu##+js(set-constant, advanced_ads_ready, noopFunc)
@@ -834,6 +837,7 @@ $script,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|staticall
 !
 !
 !
+player.melaniezettofrais.online##body > div[id]:not(#video_player)
 japscan.lol##+js(remove-node-text, script, https://www.aozoiekopoaka.shop/)
 justarrived.lu##div[id^="laure-"]
 numerama.com##.is-capitalist-tyrannosaurus

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: GVQRPW8lGlWGb7ASxFi14A
-! Diff-Path: ../patches/224/224-s-1715686471-3600.patch
+! Checksum: GkYsMUGZBAmzJbfLUYnUZQ
+! Diff-Path: ../patches/224/224-s-1715704818-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.15.81
-! TimeUpdated: 2024-05-14T11:32:08+00:00
+! Version: 2.1.15.83
+! TimeUpdated: 2024-05-14T16:33:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1087,6 +1087,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|b-cdn.net|bu
 !
 !
 !
+upsangel.com##a[href="https://upsangel.com/check/surfsharkvpn/"]
 popdaily.com.tw##div[class^="ad-delimiter-"]
 natgeomedia.com##div[id^="AD-970x250"]
 hkepc.com###headBanner
@@ -2663,7 +2664,6 @@ bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-
 bilibili.com#$#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.carousel-container > .carousel-transform > div[class^="carousel-slide"] > div[class]:only-child:matches-css(before, content: /Adblock/) { remove: true; }
-bilibili.com##+js(spoof-css, .__adblockhidden > a, display, block)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149414
 nivod8.tv,nivod7.tv##.nav-ads
 ||api.nivodz.com/commercial/incr/

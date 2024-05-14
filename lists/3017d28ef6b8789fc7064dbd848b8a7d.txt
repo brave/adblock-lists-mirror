@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202405142149
+! Version: 202405142246
 ! Title: EasyPrivacy
-! Last modified: 14 May 2024 21:49 UTC
+! Last modified: 14 May 2024 22:46 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -112,6 +112,7 @@
 /_ga?sponsor_pixel=
 /_gz/counter.php?
 /_hcms/perf
+/_i?type=event&
 /_lib/ga.js
 /_owa.gif?
 /_sess/script.js
@@ -2962,6 +2963,7 @@ _WebVitalsReporter_
 /mailings/opened/*$image
 /MailIsRead?$image
 /maillist.*/t/*$image
+/maling.roidusat.com/t/*$image
 /media.sailthru.com/5ik/1k4/9/*.gif
 /newsletter/log/*$image
 /newsletter/read?s=$image
@@ -50176,6 +50178,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||standvirtual.com^$ping
 ||strapi.clickjogos.com.br^
 ||tags.globo.com^
+||terra.com.br^*/metrics.js
 ||tm.jsuol.com.br^
 ||tm.uol.com.br^
 ||track.exame.com^

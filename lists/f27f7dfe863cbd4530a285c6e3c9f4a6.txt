@@ -1,9 +1,9 @@
-! Checksum: 3f+mszo8kIZdrgKkXtzuNQ
-! Diff-Path: ../patches/7/7-s-1715668453-3600.patch
+! Checksum: aCWXkXj24YBN1AC3TvuvOA
+! Diff-Path: ../patches/7/7-s-1715679252-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.74
-! TimeUpdated: 2024-05-14T06:31:32+00:00
+! Version: 2.0.51.75
+! TimeUpdated: 2024-05-14T09:31:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -495,6 +495,11 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/178919
+guitarmagazine.jp#$#.tp-backdrop { display: none!important; }
+guitarmagazine.jp#$#.tp-modal { display: none!important; }
+guitarmagazine.jp#$#body.tp-modal-open { overflow: visible!important; touch-action: auto!important; }
+guitarmagazine.jp#$#html.tp-scroll-prevented { overflow: visible!important; touch-action: auto!important; }
 ! anti-adb
 tuyano.com#@#.adspace
 hatenablog.com#@##adframe:not(frameset)

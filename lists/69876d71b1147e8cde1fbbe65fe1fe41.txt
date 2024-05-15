@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qEAQAO56gH2rqsXKhiVpdg
-! Diff-Path: ../patches/13/13-s-1715754868-3600.patch
+! Checksum: EjILlJ0S0j/k+BkJHVveuA
+! Diff-Path: ../patches/13/13-s-1715776493-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.70
-! TimeUpdated: 2024-05-15T06:31:55+00:00
+! Version: 2.0.51.71
+! TimeUpdated: 2024-05-15T12:31:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -964,7 +964,7 @@ filmhe.com,tranimaci.*,hdfilmizle.site,sinepal1.vip,hdsinemax.com,hdfilmizle.org
 ! isShow
 tekfullfilmizle5.com,webteizle2.com##+js(set-constant, isShow, true)
 ! initPu
-guneykoresinemasi.com,jetfilmizletv.net,dizimax2.com,yenierotikfilm.xyz,breakingbadizle.*,diziday1.com,zipfilmizle.com,bamfilmizle.com,sinemadafilm.com,hdizlefilmleri.com,filmmoduu.com,abifilmizle.org,trfilm.net,dolufilm.org,turkifsaalemi.com,netfilmtvizle.com##+js(abort-on-property-read, initPu)
+diziyoutv.com,guneykoresinemasi.com,jetfilmizletv.net,dizimax2.com,yenierotikfilm.xyz,breakingbadizle.*,diziday1.com,zipfilmizle.com,bamfilmizle.com,sinemadafilm.com,hdizlefilmleri.com,filmmoduu.com,abifilmizle.org,trfilm.net,dolufilm.org,turkifsaalemi.com,netfilmtvizle.com##+js(abort-on-property-read, initPu)
 ! initAd
 vkfilmizlet.com,supernaturalizle.com,sinemakolik.net,hdsinemax.com,diziyo.*,fullhdabifilm.com,bettercallsaulizle.com,superfilmgeldi.net,fullhdfilmizlett1.com,fullhdfilmcibaba2.com,filmsezonu.com,fullhdfilmizleabi.com,hdfreeizle.com,hdmixfilim.com,fullhdfilmizlepala.com##+js(abort-on-property-read, initAd)
 !
@@ -3529,8 +3529,8 @@ cosmoturk.com###bannerTop
 cosmoturk.com##.midiBanners
 ||erosfilmizle.*/mostbet.mp4
 ||erosfilmizle.*/gif.gif
-erosfilmizle.*,dizipal.org,dizimom.pro,asyadiziizle.com,dizicaps.*,hdfilmizle.in,yabancidizilertv.*##.videoalt
-erosfilmizle.*,dizipal.org,dizimom.pro,asyadiziizle.com,dizicaps.*,hdfilmizle.in,yabancidizilertv.*##.videoust
+diziyoutv.com,erosfilmizle.*,dizipal.org,dizimom.pro,asyadiziizle.com,dizicaps.*,hdfilmizle.in,yabancidizilertv.*##.videoalt
+diziyoutv.com,erosfilmizle.*,dizipal.org,dizimom.pro,asyadiziizle.com,dizicaps.*,hdfilmizle.in,yabancidizilertv.*##.videoust
 mengen.gen.tr##.slider3Widget
 memleketimbolu.com##.mansetyani
 ademyurt.com###alt > div.at

@@ -1,9 +1,9 @@
-! Checksum: e0zCt2IAWIJ8WJy59gx/Zg
-! Diff-Path: ../patches/7/7-s-1715780046-3600.patch
+! Checksum: 5ks0Gq+jP7Ys6oVJCspvRg
+! Diff-Path: ../patches/7/7-s-1715787266-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.80
-! TimeUpdated: 2024-05-15T13:31:39+00:00
+! Version: 2.0.51.81
+! TimeUpdated: 2024-05-15T15:31:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5143,6 +5143,7 @@ erobanach.com##.adbtntype
 gamerch.com##.jack
 qjweb.jp##li.detail_box[style$="display: flex; align-items: center; justify-content: center;"]
 ||home.kingsoft.jp/top/showad
+home.kingsoft.jp###article-list > li:has(> div > iframe[width="300px"][height="250px"])
 home.kingsoft.jp##.list-group-item:has(> .pr)
 home.kingsoft.jp##div[style="min-height: 256px;"]
 home.kingsoft.jp##div[style="min-height: 280px;"]
@@ -9555,7 +9556,8 @@ gaccom.jp#?#.table-b:has(> .recipe-side-img-area)
 utaten.com#?#tbody > tr:has(> td > aside.sideBySideBanner)
 city.kounosu.saitama.jp#?#.top_content6:has(>  ul#top_banner_5_list)
 popjav.in#?##main > div.home-h:has(> h1:contains(LIVECAM))
-twicomi.com#?#.interrupt:has(> div.ad-group)
+||twicomi.com/api/v2/amazon/
+twicomi.com##.interrupt:has(> .free-space)
 twiman.net#?#p.text-center.caption:contains(/^スポンサーリンク/)
 city.hadano.kanagawa.jp#?##main.contents div[class^="section_"]:has(img[src^="/www/banner/images"][src$=".gif"])
 ronsoku.com#?#.module--free > center > ins.adsbygoogle:upward(2)

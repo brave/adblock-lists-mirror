@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20240508
+! Version: 20240515
 
 ! General element hiding rules
 ##amp-ad
@@ -3201,7 +3201,11 @@ dkbnews.donga.com##div#floating_ad
 dkbnews.donga.com##div#secondWingAd
 dkbnews.donga.com##div.ad_right01
 dkbnews.donga.com##div.aside_ad
+dmitory.com##div#naverAd
+dmitory.com##div.footer_google_ad
+dmitory.com##div.google_m_read_ad
 dmitory.com##div.latest_google_ad
+dmitory.com##div.top_ad
 dmitory.com##div.top_google_ad
 docdocdoc.co.kr##iframe[src^="/banner/rollbanner_"][src$=".html"]
 dogdrip.net##div.clayerbox-left-ad
@@ -3528,6 +3532,7 @@ focus.kr##div.header>div.wrap>div[style="position:absolute;right: 0px;bottom: 16
 fomos.kr##div#top_banner
 fomos.kr##div.banner_area
 fomos.kr##div.bottom_ad
+fomos.kr##div.mid_banner
 footballist.co.kr##div#articleBody>div[style="display:inline-block; width:250px; height:250px; margin:10px; margin-top:20px; float:right; border:1px solid #eee;"]
 footballist.co.kr##div#floating_banner_body
 footballist.co.kr##div.adBannerLeft
@@ -4035,6 +4040,7 @@ inews24.com##container.ad-head
 inews24.com##hr.ad
 inews24.com##iframe[src*="//iframe.inews24.com/ad/"]
 inews24.com##iframe[src*="//iframe.inews24.com/adm/"]
+insight.co.kr##div#tbl-next-up
 insight.co.kr##div.ad-google-side1
 insight.co.kr##div.ad-google-side2
 insight.co.kr##div.aside-sticky>div[style="display: block;width: 300px;height: 250px;"]
@@ -4799,6 +4805,7 @@ m.focus.kr##div.ad-box
 m.focus.kr##div.adv_bottom
 m.focus.kr##div.fixed_ad
 m.focus.kr##iframe[id^="adv_banner"]
+m.fomos.kr##div.banner_rib
 m.footballist.co.kr##div#articleBody>div.newsBanner
 m.footballist.co.kr##div.bannerBottom
 m.footballist.co.kr##div.body>div[style="width: 150px; height: 150px;  display: inline-block; float: right; margin: 10px; text-align:right;"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TjqoYnViwt2USn+zQcxCqQ
-! Version: 202405161551
+! Checksum: yIO/2xjsiYao2d6u2vL0xw
+! Version: 202405161651
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 May 2024 15:51 UTC
+! Last modified: 16 May 2024 16:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2044,7 +2044,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /teaser_klubnika/*
 /teaserblock.site.js
 /teasers.
-/teasers/*$domain=~ableton.com|~adventuregamers.com|~agderposten.no|~amway.ru|~amway.ua|~av.by|~babla.ru|~bmw.de|~bmw.ro|~bmw.ru|~business-gazeta.ru|~fujifilm.eu|~gismeteo.by|~gismeteo.kz|~gismeteo.md|~kinobulvar.info|~meganomkino.ru|~novsu.ru|~rce.by|~road.cc|~stackoverflow.com|~teaserstar.ru|~wetteronline.de|~www.kinopoisk.ru|~yandex.by|~yandex.com|~yandex.com.tr|~yandex.fr|~yandex.kz|~yandex.ru
+/teasers/*$domain=~ableton.com|~adventuregamers.com|~agderposten.no|~amway.ru|~amway.ua|~av.by|~babla.ru|~bmw.de|~bmw.ro|~bmw.ru|~business-gazeta.ru|~fujifilm.eu|~gismeteo.by|~gismeteo.kz|~kinobulvar.info|~meganomkino.ru|~novsu.ru|~rce.by|~road.cc|~stackoverflow.com|~teaserstar.ru|~wetteronline.de|~www.kinopoisk.ru|~yandex.by|~yandex.com|~yandex.com.tr|~yandex.fr|~yandex.kz|~yandex.ru
 /testserial/vendor/vast.js
 /tionline120x60.
 /tionline150x60.
@@ -23089,15 +23089,15 @@ checkadblock.ru##.warning
 ||checkadblock.ru^$csp=script-src 'self'
 !
 ! GISMeteo domains
-gismeteo.by,gismeteo.kz,gismeteo.md##.column2 > .section-rss
+gismeteo.by,gismeteo.kz##.column2 > .section-rss
 gismeteo.ru##.content-column > .section-media
 gismeteo.ru##.content-column ~ .content-column > .section-rss
 gismeteo.ru##.follow-zen
-gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru##.placeholder
-gismeteo.by,gismeteo.kz,gismeteo.md,meteofor.com.ua##.section-media
+gismeteo.by,gismeteo.kz,gismeteo.ru,meteofor.md##.placeholder
+gismeteo.by,gismeteo.kz,meteofor.com.ua##.section-media
 meteofor.com.ua##.section-rss
 gismeteo.by,gismeteo.kz,gismeteo.ru##.sticky > .section
-gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru##.top-media-placeholder
+gismeteo.by,gismeteo.kz,gismeteo.ru##.top-media-placeholder
 gismeteo.ru##.widget-container
 gismeteo.ru##div[class*="feed-partner"]
 gismeteo.ru##section > .feed-bg

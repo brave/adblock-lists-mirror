@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: cvSwnE5pj1IAjy++oOpXyA
-! Diff-Path: ../patches/16/16-s-1715819633-3600.patch
+! Checksum: RWR3/sAdnfgd9Shgplqs3w
+! Diff-Path: ../patches/16/16-s-1715848473-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.81
-! TimeUpdated: 2024-05-16T00:31:56+00:00
+! Version: 2.0.44.82
+! TimeUpdated: 2024-05-16T08:32:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -122,8 +122,10 @@ journaldesfemmes.fr##+js(set-constant, integrityObserver.corrupted, 0)
 rustica.fr##+js(set-constant, checkAdsBlocked, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172868
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=oqee.tv
+! https://github.com/AdguardTeam/AdguardFilters/issues/179285
 ! https://github.com/uBlockOrigin/uAssets/issues/22363
-cookomix.com##+js(no-setTimeout-if, detected, 5000)
+cookomix.com##+js(set-constant, dAp, true)
+cookomix.com##+js(no-setTimeout-if, detected)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171636
 air-journal.fr###adblock-popup
 air-journal.fr##+js(no-xhr-if, pagead2.googlesyndication.com)

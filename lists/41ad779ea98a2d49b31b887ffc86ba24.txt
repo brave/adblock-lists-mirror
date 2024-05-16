@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XufSJAtmA5zNO6unnYH3Vw
-! Version: 202405160415
+! Checksum: E4kROCtYDrp+A+Bq7d4YIQ
+! Version: 202405160515
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-16 04:15 UTC
+! Last modified: 2024-05-16 05:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44135,6 +44135,9 @@ imagecolorpicker.com##body,html:style(overflow: auto !important; position: initi
 walletinvestor.com###bio_ep
 walletinvestor.com###bio_ep_bg
 walletinvestor.com##body:style(overflow: scroll !important)
+! https://old.reddit.com/r/uBlockOrigin/comments/1ct0xh9/how_to_get_rid_of_mathway_signin_page_popup/
+mathway.com##.ch-bubble-border.clickable:style(pointer-events: none;)
+mathway.com##.ch-bubble-border.clickable .ch-bubble-action:style(pointer-events: auto;)
 ! 4kdownload.com (fix top empty space)
 4kdownload.com##.page-header:style(top:0 !important)
 ! redfin.com (mobile app white space)

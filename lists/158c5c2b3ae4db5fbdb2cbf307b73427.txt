@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TIbQEj5rNvJLaV+LJxJjHQ
-! Version: 202405160851
+! Checksum: IH0wE1k8ySlIvWyqut6m0g
+! Version: 202405160951
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 May 2024 08:51 UTC
+! Last modified: 16 May 2024 09:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2043,7 +2043,7 @@ eadaily.com,toneto.net,zn.ua##.social-box
 ukrlib.com.ua##.social-box-item
 keenetic.ru,patrol.police.gov.ua,speka.media##.social-btn
 nikopolnews.net,unian.info,unian.net,unian.ua##.social-btn-bottom
-66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,gmk.center,mse02.ru,om1.ru,pay-day.ru,publy.ru,tehnobzor.ru,tribun.com.ua##.social-buttons
+66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,gizchina.com.ua,gmk.center,mse02.ru,om1.ru,pay-day.ru,publy.ru,tehnobzor.ru,tribun.com.ua##.social-buttons
 freehat.cc##.social-buttons > * > *
 bfm.ru##.social-buttons > a
 1tv.ru##.social-buttons-compact
@@ -3024,6 +3024,7 @@ tochka.net#?#p:-abp-has(> strong > a[href*="facebook.com/"])
 auto.bigmir.net#?#p:-abp-has(> strong > a[href^="http://t.me/"])
 brestcity.com,champion.com.ua,cheline.com.ua,inpoland.net.pl,mediasat.info,osnmedia.ru,pik.net.ua,ratel.kz,teleprogramma.pro#?#p:-abp-has(> strong > a[href^="https://t.me/"])
 epravda.com.ua,pravda.com.ua,sportkp.ru,uaprom.info#?#p:-abp-has(> strong > em > a[href*="://t.me/"])
+growhow.in.ua#?#p:-abp-has(> strong > span a[href^="https://t.me/"])
 kanalukraina.tv#?#p:-abp-has(> strong ~ a[href*="tg://resolve"])
 bst.bratsk.ru,prm.ua#?#p:-abp-has(> strong ~ a[href^="https://t.me/"])
 mobile-review.com#?#p:-abp-has(> strong:-abp-contains(/Мы в социальных сетях|Поделиться/))
@@ -4841,6 +4842,7 @@ beliyspisok.ru##.bretiRandomThread
 znanija.com##.brn-brainly-plus-box
 znanija.com##.brn-mobile-store
 interfax.ru,sport-interfax.ru##.bss__wrap
+gizchina.com.ua#?#.btn-box:-abp-has(> span:-abp-contains(Google News))
 bigmir.net,isport.ua,kolobok.ua##.btn-warning
 odessa-life.od.ua##.buttonizer
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##.bypass-alert
@@ -6155,6 +6157,7 @@ rambler.ru##body:not(#id) > div:not(#id):not([class]):not([style]) .popup--rambl
 instagram.com#?#body[style="overflow: hidden;"] > #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(div:-abp-contains(Войдите, чтобы продолжить))
 kak-prosto.net##br + br
 kp.ru##button[data-background-color="blue"][data-is-small-on-mobile]
+gizchina.com.ua##button[onclick^="runWfpWdgt"]
 driveroff.net,samlab.ws#?#center > b:-abp-has(> [href*="://pay.cloudtips.ru/"])
 pay.mos.ru##charity-banner
 1cont.ru##cookies-notice

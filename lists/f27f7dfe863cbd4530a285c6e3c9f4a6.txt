@@ -1,9 +1,9 @@
-! Checksum: 6IWiUvYfFtyx/XhAI9pC1A
-! Diff-Path: ../patches/7/7-s-1715790882-3600.patch
+! Checksum: gM+3R/vI7tgOouTwyxlzvA
+! Diff-Path: ../patches/7/7-s-1715862876-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.51.82
-! TimeUpdated: 2024-05-15T16:31:44+00:00
+! Version: 2.0.51.83
+! TimeUpdated: 2024-05-16T12:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1770,6 +1770,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+business-textbooks.com##.main_mokuji_ad_top
+business-textbooks.com##.newlistAdBox
 beautelink.net##div[id^="beaut-"]
 news2019.biz##.wp-block-group > .wp-block-group__inner-container:has(> .red_ a[href*="amzn.to"])
 piyonote.com##.post_content > div[class^="piyon-"][style]
@@ -2225,7 +2227,7 @@ smhn.info#?##primary > div.half:has(> .ads)
 smhn.info#?#.widget_execphp:has(> div > ins.adsbygoogle)
 s-max.jp###extra div.plugin-memo + div.ad
 2ch-c.net##div[style^="width:760px;height:250px;"]
-sitebk.com,office-hack.com,g-tips.jp##.video-player
+bijutune-expo.com,sitebk.com,office-hack.com,g-tips.jp##.video-player
 nanos.jp###ad_clickcount_pitcure
 nanos.jp##div[style="margin:10px 0"] > a[href*="utm_medium=text"]
 cyclowired.jp##.field-amazon-product1

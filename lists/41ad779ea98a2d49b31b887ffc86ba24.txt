@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LPf89h2IzJWpmsTvhaZonQ
-! Version: 202405170315
+! Checksum: N8k3vVjU6wFOWPd6K3Njrw
+! Version: 202405170440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-17 03:15 UTC
+! Last modified: 2024-05-17 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26635,7 +26635,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cp-info-bar-container
 ##.cp-module-info_bar
 ##.cp-popup
-##.cp-popup-container:not(body):not(html)
 ##.cp-popup-overlay
 ##.cp-slider-popup
 ##.cp1CookieBanner
@@ -37327,6 +37326,7 @@ forward.com##.share-post
 thenationalpulse.com##.share-post-button
 aajtak.in,gnttv.com,indiatoday.in,indiatodayne.in##.share-social-icons
 alarabiya.net,timeextension.com##.share-this
+breachmedia.ca##.share-toggle
 apkpure.net##.share-toolbox
 am800cklw.com##.share-tools__list
 wrif.com##.share-wrap-icons
@@ -47862,6 +47862,8 @@ americastestkitchen.com##body,html:style(overflow: auto !important; position: in
 therecord.com,thespec.com,wellandtribune.ca##.promo-designer-modal
 therecord.com,thespec.com,wellandtribune.ca##.modal-backdrop
 therecord.com,thespec.com,wellandtribune.ca##body,html:style(overflow: auto !important; position: initial !important;)
+! breachmedia.ca
+breachmedia.ca##+js(set-cookie, cp_style_3841, true)
 ! breakingenergy.com
 breakingenergy.com###simplemodal-overlay
 breakingenergy.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -53042,6 +53044,7 @@ gleerupsportal.se##.sc-cjibBx
 traningspartner.se##.sd-object-if > .sd-object-code
 polder.se##.sd-object-if.sd-object
 huge.se##.section-cookies-notice-outer
+pts.se##.shadow
 lysa.se##.snackbar-wrapper
 socialstyrelsen.se##.sos-ck-cnsnt-mgnr
 barnebys.se##.style_consent-banner__Fns2J

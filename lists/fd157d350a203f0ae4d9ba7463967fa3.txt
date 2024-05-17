@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v4UKU9xYfOdNrPduQj1gJw
-! Version: 202405170951
+! Checksum: 5Nj7GB5gZd93sKwKjlW1bg
+! Version: 202405171101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 May 2024 09:51 UTC
+! Last modified: 17 May 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12098,6 +12098,7 @@ soccer365.com.ua,soccer365.ru###odds
 youtube.com###offer-module
 russian.rt.com###offers
 kupidonia.ru###offers-right
+samlib.ru###offfy-agent-bottom
 animejoy.ru###offreklama
 sdamgia.ru###old_school > .App > br
 onlinemschool.com###oms_center_block div[id][style*="text-align:"] > a
@@ -13919,6 +13920,7 @@ flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,
 openssource.biz,openssource.info##.crymoreb
 te.ua##.csa-head
 realt.by#?#.csc-textpic:-abp-has(> .csc-textpic-imagewrap > a > img[src*="realt.by/uploads/pics/bsb-bank_mechty_"])
+inforesist.org##.css-next-loader
 1000sovetov.ru##.ctaRightWidget
 google.by,google.com,google.com.ua,google.kz,google.ru##.cu-container > div[class*="commercial-unit"]
 business-gazeta.ru##.currency__logo
@@ -15088,6 +15090,7 @@ mirf.ru##.outer_outer
 avtoradio.ru,energyfm.ru##.outreach
 tv-assia.org##.ovdiv
 domkad.ru##.over-rsi
+shuba.life##.overflow-hidden.c-card
 bstudy.net,ozlib.com,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org##.overheader
 krastown.com##.overlay_wrap
 truba.com##.overvideo
@@ -19242,6 +19245,7 @@ allcarz.ru#?#main > .container > .site-content:-abp-has(> .content-banner)
 protanki.tv##main > .hidden
 mediaryazan.ru##main > .hide-on-mobiles > div[class="sideblock"]:first-child
 2ch.hk,2ch.life#?#main > .main__block:-abp-has(> [src*="https://rutube.ru/"])
+inforesist.org##main > .social_title
 besplatnyeprogrammy.ru#?#main > article.post:-abp-has(> header > .mainpage_title > [title^="InstallPack"])
 tsn.ua#?#main > aside.u-divider--t:-abp-has(> iframe[src*="/partner-news?"])
 adme.media##main > div[data-sharing-target] ~ div:nth-child(-n+9):not([data-sharing-target])
@@ -19345,7 +19349,6 @@ megaimg.ru##script[src^="http://am10.ru/"] + center
 car72.ru##section > .container-fluid > div[style^="width:"][style$="%"]
 stopgame.ru#?#section > div[class^="_content-wrapper_"]:-abp-has(> div > a[href^="/watch"]) ~ div[class^="_content"] a[href^="/to?http"]
 eanews.ru#?#section > section:-abp-has(> [class^="styled__AdvLink-sc-"])
-shuba.life##section.c-post__full > [style="overflow: hidden;"]
 tengrinews.kz#?#section:-abp-has(> .ya-news)
 internet-technologies.ru##section[class*="related"]
 igromania.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_isFirst"] ~ [class^="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] [class^="TextContent_text"] > p:-abp-contains(/^Реклама:/))
@@ -24179,6 +24182,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 =mytarget$popup,domain=dzen.ru
 ychid$popup,domain=dzen.ru
 ychyd$popup,domain=dzen.ru
+yciild=$popup,domain=dzen.ru
 ycilid=$popup,domain=dzen.ru
 ycilyd=$popup,domain=dzen.ru
 yclid=$popup,domain=dzen.ru

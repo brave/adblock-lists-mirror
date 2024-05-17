@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.8.0
+! Version: 3.6.8.1
 
 ! General
 
@@ -383,6 +383,8 @@ accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,dig-in.com,
 voguebusiness.com##+js(cookie-remover, userId)
 
 ! Ajc.com & Cox First Media
+ajc.com##+js(ra, class, div.story-paygate_placeholder, stay)
+ajc.com##div.video-blocker
 ajc.com##+js(set, Fusion.globalContent._id, 0)
 ajc.com##+js(set, Fusion.globalContent.content_restrictions.content_code, 0)
 ||wgchrrammzv.com/prod/ajc/loader.min.js$script,domain=dayton.com|daytondailynews.com|journal-news.com|springfieldnewssun.com

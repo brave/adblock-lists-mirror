@@ -713,12 +713,10 @@ arga-mag.com##.bottom-ad
 arga-mag.com##.main:style(width: 74.3% !important;)
 arga-mag.com##.col-sm-push-2:style(right: unset !important;)
 
-||androidina.net/analytics.js^
-||androidina.net/images/asiatech_
-androidina.net##.ads
-androidina.net###ads-sticky
-androidina.net##.col-md-12 > .title:has-text(لینک دوستان)
-androidina.net###ads-text
+||androidina.net/analytics.js^$script,1p
+androidina.net##header + div#slider
+androidina.net##div.ads
+androidina.net##div#ads-sticky
 
 amazing.ir##.widget > .widget-top:has-text(آگهی متنی):upward(.widget)
 
@@ -1275,7 +1273,8 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||api.divar.ir/*/actionlog^$beacon,1p
 ||api.divar.ir/*/client-exporter/send-report^$beacon,1p
 ||open-platform-redirect.divar.ir^$doc,removeparam=source
-divar.ir##a.button-row-item[href^="https://open-platform-redirect.divar.ir?app_slug=karnameh_price_report"] > div.kt-button > span.kt-text-truncate::after:style(content: ' (۱۰ هزار تومان)' !important;)
+divar.ir##div.kt-modal__contents > div.kt-modal__body a.button-row-item[href^="https://open-platform-redirect.divar.ir?app_slug=karnameh_price_evaluation"] > div.kt-button > span.kt-text-truncate::after:style(content: ' (۱۰ هزار تومان)' !important;)
+divar.ir##div#post-list-container-id a[href^="https://a-banners.divar.ir/auction/?ext_link_data="]:has(> div.kt-inset-banner > picture.kt-image-block > source[data-srcset^="https://a-banners.divarcdn.com/ssp/ads/media/image"])
 
 doostihaa.com##div.adsfix_box:has(> div[id^="mediaad"])
 doostihaa.com##aside.lefts_sides:has(> div.txt_letfs > ul.ads_txtcv)
@@ -2582,11 +2581,11 @@ persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > h3
 p30afzar.com##.ADS_header_all
 p30afzar.com##.download-link-ads-below
 
-||p30download.ir/page/files/*.gif^$image,1p
-p30download.ir##main#main-content > div.tabliq-468
-p30download.ir##aside#sidebar > div.sidebar-tb
-p30download.ir##aside#sidebar > div.basic-list-ld
-p30download.ir##aside#sidebar > div.text-tb
+||p30download.ir/page/*.gif^$image,1p
+p30download.ir##aside#sidebar > div:has(> h4:has-text(/ت.*?ب.*?ل.*?ی.*?غ.*?ا.*?ت/))
+p30download.ir##aside#sidebar > div:has(> h4:has-text(/ل.*?ی.*?ن.*?ک.*?د.*?و.*?ن.*?ی/))
+p30download.ir##div.support-center
+p30download.ir##div#footer-wrapper > div.copyright-wrapper > div#copyright > a
 
 ||film.persianv.com/frontend/js/ads/
 persianv.com##.ads_box

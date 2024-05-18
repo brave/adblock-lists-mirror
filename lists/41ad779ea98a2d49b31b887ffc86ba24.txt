@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6QUZc2a/4UBeyliQtKEf7w
-! Version: 202405180640
+! Checksum: ZdVawqbTKQ/2NFHqCC3HTw
+! Version: 202405180740
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-18 06:40 UTC
+! Last modified: 2024-05-18 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44174,6 +44174,9 @@ walletinvestor.com##body:style(overflow: scroll !important)
 ! https://old.reddit.com/r/uBlockOrigin/comments/1ct0xh9/how_to_get_rid_of_mathway_signin_page_popup/
 mathway.com##.ch-bubble-border.clickable:style(pointer-events: none;)
 mathway.com##.ch-bubble-border.clickable .ch-bubble-action:style(pointer-events: auto;)
+! perplexity.ai (login popup) 
+perplexity.ai##+js(set-session-storage-item, signUpBannerDismissed, true)
+perplexity.ai##+js(set-session-storage-item, shouldShowAuthBannerAfterQuery, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/23722
 nisanyansozluk.com##+js(set-local-storage-item, newYeradlariWebsiteHidden, true)
 ! 4kdownload.com (fix top empty space)

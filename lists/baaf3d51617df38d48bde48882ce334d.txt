@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fZc3W3cQRqjUyOpSOtiVew
-! Version: 202405190640
+! Checksum: PXBCUfMXERASp7o+OQgJRg
+! Version: 202405190740
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-05-19 06:40 UTC
+! Last modified: 2024-05-19 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4794,11 +4794,13 @@ scientificamerican.com##body,html:style(overflow: auto !important; position: ini
 ! beckershospitalreview.com
 beckershospitalreview.com##.becker_doubleclick
 beckershospitalreview.com##body:style(overflow: auto !important)
+! theinformation.com (newsletter popup)
+theinformation.com##+js(set-cookie, marketing-modal-closed-1, 2)
 ! kermitlynch.com
 kermitlynch.com##+js(set-cookie, hidePopUp, true)
 ! .fancybox-overlay
-therecord.com,parent.com##.fancybox-overlay
-therecord.com,parent.com##body,html:style(overflow: auto !important; position: initial !important;)
+thehill.com,newsnationnow,therecord.com,parent.com##.fancybox-overlay
+thehill.com,newsnationnow,therecord.com,parent.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! .fancybox-container
 scetv.org,berkeleyearth.org##.fancybox-container
 scetv.org,berkeleyearth.org##body:style(overflow: auto !important; position: initial !important;)

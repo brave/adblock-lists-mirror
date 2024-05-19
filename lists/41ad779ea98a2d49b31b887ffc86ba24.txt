@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wl37B7IU0vZz0eMDpdFRdQ
-! Version: 202405190640
+! Checksum: gBh69UN+Fuas4W9jbITrXw
+! Version: 202405190815
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-19 06:40 UTC
+! Last modified: 2024-05-19 08:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35559,6 +35559,7 @@ salisburyjournal.co.uk##.send-us-your-news-cta
 algemeiner.com##.sendtip
 thecritic.co.uk##.sf-header-subscription__content
 thecritic.co.uk##.sf-subscribe
+techopedia.com##.share-sec-tags
 aarp.org##.sharp-c-configurable-carousel__slide--multi
 arstechnica.com##.shepherd-has-cancel-icon
 buzzfeed.com##.shoppingWrapper_packageWrapper__UR6JD
@@ -35627,6 +35628,7 @@ thestayathomechef.com##.top-hat
 banggood.com##.top-item
 educba.com##.topbar
 redstate.com##.tp-container-inner
+techopedia.com##.trust_desktop
 truthout.org##.truth-post-content-after
 thebulletin.org##.uabb-infobox
 kyivindependent.com##.ukraine-daily-side-banner
@@ -35737,6 +35739,7 @@ businessmirror.com.ph##.posts-pagination
 fixya.com##.prev-arrow
 nymag.com,vulture.com##.prev-next
 statnews.com##.recirculation-bar
+phonearena.com##.recom-upnext-section
 indiatoday.in##.recommended__widget
 armradio.am##.show-check-also
 science.org##.show-recommended
@@ -36268,6 +36271,7 @@ patreon.com###half-sheet-app-banner
 ventusky.com###header > .ii[href]
 aliexpress.com,aliexpress.us###header-float-banner
 web.quizknock.com###header_iosapp_link
+wral.com###house-promo-impression
 trakt.tv###ios-official-wrapper
 ivoox.com###jq-box-app
 mamanoko.jp###js-actamDownloadModal
@@ -37025,7 +37029,7 @@ opendemocracy.net##.follow-od
 amoledo.com##.follow-please
 gptoday.net##.follow-section
 thetablet.co.uk##.follow-the-tablet
-alarabiya.net,ausgamers.com,cloudwards.net,notateslaapp.com,republicworld.com,timeslive.co.za,trueachievements.com##.follow-us
+alarabiya.net,ausgamers.com,cloudwards.net,notateslaapp.com,republicworld.com,timeslive.co.za,trueachievements.com,truetrophies.com##.follow-us
 financialexpress.com##.follow-us-on
 hardwaretimes.com##.follow-us-post-section
 sciencenews.org##.follow-us__wrapper___1E0vf
@@ -41834,7 +41838,7 @@ rte.ie##.email-marketing-embed
 americastestkitchen.com##.email-newsletter-form
 autodidacts.io##.email-optin-widget
 nfcw.com##.email-sidebar-signup
-alexcityoutlook.com,crooksandliars.com,drewberquist.com,heartlandalliance.org,kentuckytoday.com,ktbs.com,kulr8.com,lifezette.com,msmagazine.com,newsmirror.net,novaramedia.com,redvoicemedia.com,refinery29.com,trueachievements.com,urbanmilwaukee.com##.email-signup
+alexcityoutlook.com,crooksandliars.com,drewberquist.com,heartlandalliance.org,kentuckytoday.com,ktbs.com,kulr8.com,lifezette.com,msmagazine.com,newsmirror.net,novaramedia.com,redvoicemedia.com,refinery29.com,trueachievements.com,truetrophies.com,urbanmilwaukee.com##.email-signup
 thenation.com##.email-signup-module
 sperry.com##.email-signup-offer-wrap
 mikehuckabee.com##.email-signup-section
@@ -44179,6 +44183,8 @@ mathway.com##.ch-bubble-border.clickable .ch-bubble-action:style(pointer-events:
 ! perplexity.ai (login popup) 
 perplexity.ai##+js(set-session-storage-item, signUpBannerDismissed, true)
 perplexity.ai##+js(set-session-storage-item, shouldShowAuthBannerAfterQuery, false)
+! seekingalpha.com (login popup)
+seekingalpha.com##+js(set-local-storage-item, __tp-gaAccount, disabled)
 ! https://github.com/uBlockOrigin/uAssets/issues/23722
 nisanyansozluk.com##+js(set-local-storage-item, newYeradlariWebsiteHidden, true)
 ! 4kdownload.com (fix top empty space)
@@ -48205,11 +48211,13 @@ scientificamerican.com##body,html:style(overflow: auto !important; position: ini
 ! beckershospitalreview.com
 beckershospitalreview.com##.becker_doubleclick
 beckershospitalreview.com##body:style(overflow: auto !important)
+! theinformation.com (newsletter popup)
+theinformation.com##+js(set-cookie, marketing-modal-closed-1, 2)
 ! kermitlynch.com
 kermitlynch.com##+js(set-cookie, hidePopUp, true)
 ! .fancybox-overlay
-therecord.com,parent.com##.fancybox-overlay
-therecord.com,parent.com##body,html:style(overflow: auto !important; position: initial !important;)
+thehill.com,newsnationnow,therecord.com,parent.com##.fancybox-overlay
+thehill.com,newsnationnow,therecord.com,parent.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! .fancybox-container
 scetv.org,berkeleyearth.org##.fancybox-container
 scetv.org,berkeleyearth.org##body:style(overflow: auto !important; position: initial !important;)

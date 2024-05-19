@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.8.1
+! Version: 3.6.8.2
 
 ! General
 
@@ -305,9 +305,6 @@ staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
 staradvertiser.com##+js(rc, overflow-hidden, body.overflow-hidden)
 startribune.com##div.modal-backdrop
 startribune.com##body[class]:style(overflow: auto !important; position: static !important;)
-studocu.com##.page-content:style(filter: none !important; user-select: unset !important)
-studocu.com##button[data-test-selector^="preview-banner-"]:upward(#document-wrapper > div)
-studocu.com##.pf > :not(.page-content)
 study.com##+js(ra, class, div.faded-content)
 study.com##+js(ra, class, div.hidden[ng-non-bindable])
 study.com##div.article-cutoff-div

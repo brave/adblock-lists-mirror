@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: egBhW1x3a/S3z+/vuo9cBw
-! Diff-Path: ../patches/8/8-s-1716226435-3600.patch
+! Checksum: trrrfYlgI7+DH+WUOgIFuA
+! Diff-Path: ../patches/8/8-s-1716230050-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.77
-! TimeUpdated: 2024-05-20T17:31:39+00:00
+! Version: 2.0.6.78
+! TimeUpdated: 2024-05-20T18:31:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -149,6 +149,7 @@ _advertentieleaderboardhome.
 ||pornokartel.nl^$image,third-party
 ||pubble.nl/Content.svc/getAdCollection?
 ||recreatief.nl/kerstarrangementen.gif
+||s-bol.com/nl/upload/partnerprogramma/
 ||search-result.com^*/klokad2.js
 ||seks.com/img/bnr.gif
 ||seksbuddy.nl/img/frontend/banners/
@@ -555,6 +556,7 @@ immo.vlan.be###TopCompareBox
 hoekschnieuws.nl###\36 050c52fcf1d8-2
 gaynews.nl###abri
 gaynews.nl###abri1
+welklidwoord.nl###ad-takeover
 menselijklichaam.nl###ad1
 filmtotaal.nl###adf-autonative
 filmtotaal.nl###adf-autonative-2
@@ -567,7 +569,6 @@ veto.be###advert-campaign
 rtveen.nl###advertenties
 omroeppenm.nl,rickfm.nl###advertisement
 alle-tests.nl,bloovi.be###advertising
-agconnect.nl###ag_article_related_partner_logos
 demorgen.be,parool.nl,trouw.nl,volkskrant.nl###article_paragraph_3
 ciaotutti.nl###b_searchboxInc
 belgiancycling.be,zoekhulp.nl###banner
@@ -674,6 +675,7 @@ eredivisie.nl###partner-bar
 belgiancycling.be,coastline945fm.nl,coastlinefm.nl,elfvoetbal.nl,fonkmagazine.nl###partners
 coastline945fm.nl###partners_slides
 rtvkrimpenerwaard.nl###pg-1407-8
+meteoalblasserdam.nl###pic_446
 sexpower.nl###pre-footer-banners
 bdsmgirl.nl###product_banner
 mnm.be,stubru.be###reclameblok-wrapper
@@ -800,6 +802,7 @@ hookers.nl##.axd-container
 stadszaken.nl##.b-side
 afkortingen.nu,agf.nl,beursduivel.be,bpnieuws.nl,dutchitchannel.nl,executive-people.nl,filmladder.nl,folderz.nl,groentennieuws.nl,iexprofs.nl,klasse.be,metalfan.nl,nrc.nl,nu.nl,retaildetail.be,retaildetail.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be,tvgids.nl,uiennieuws.nl,uitslagen.nl,unity.nu,uw-folder.nl,waldnet.nl##.banner
 nieuwsuitnijmegen.nl##.banner-box-1
+goudengids.be##.banner-boxes
 speeleiland.nl##.banner-btf-side-rectangle
 feyenoord.nl##.banner-carousel
 sportnieuws.nl##.banner-centered
@@ -830,7 +833,7 @@ iexprofs.nl##.banner__wrap
 iexprofs.nl##.banner__wrapbottom
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##.banner_image
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##.banner_image2
-zwaremetalen.com##.banner_wrapper
+abcsuriname.com,zwaremetalen.com##.banner_wrapper
 abcsuriname.com,antilliaansdagblad.com,dolcevia.com,h2owaternetwerk.nl,halstadcentraal.nl,lokaleomroepzeewolde.nl,midvliet.nl,radiolelystad.nl##.bannergroup
 puurnaturisme.nl##.banneritem
 gic.nl,kbradio.nl##.banners
@@ -1233,11 +1236,12 @@ oisterwijknieuws.nl##div[align="center"] a[target="_blank"]
 hartvannederland.nl,shownieuws.nl,vandaaginside.nl##div[class*="-bannerTopWrapper-"]
 hartvannederland.nl,shownieuws.nl,vandaaginside.nl##div[class*="-bannerWrapper-"]
 meteovista.be##div[class*="AdWrapper"]
+agconnect.nl##div[class*="ad-slot"]
 omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-gpinfo.com,looopings.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
+gpinfo.com,looopings.nl,mannenzaken.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
@@ -1246,6 +1250,7 @@ basketball.nl##div[data-component="partner"]
 telefoonboek.nl##div[data-role="csaads"]
 meerradio.nl##div[id="pristineslider.12"]
 motokicx.com##div[id^="adtemplate"]
+alblasserdamsnieuws.nl##div[id^="albla-"]
 sexjobs.nl##div[id^="banner-"]
 motokicx.com##div[id^="bannerhome"]
 gewoonvoorhem.nl##div[id^="below-article-"]
@@ -1291,10 +1296,12 @@ creditexpo.nl,dagbladdewest.com,dagelijksestandaard.nl,fiets.nl,luister.nl,neger
 regio-voetbal.nl##img[width="300"][height="100"]
 advocatie.nl,goedkoopstekeukensduitsland.nl,lflmagazine.nl,mannennieuws.nl,streamwijzer.be,teqnation.com,thatsgaming.nl,yourlittleblackbook.me##img[width="300"][height="250"]
 racexpress.nl##img[width="310"][height="200"]
+abcsuriname.com##img[width="320"]
 vives.nl##img[width="330"][height="520"]
 nauticlink.com##img[width="336"]
 advocatie.nl##img[width="336"][height="280"]
 minimumloon.nl##img[width="350"][height="350"]
+abcsuriname.com##img[width="420"]
 dutchcryptotalk.com##img[width="468"][height="60"]
 climaximaal.nl##img[width="500"]
 streamwijzer.be##img[width="500"][height="500"]
@@ -1314,6 +1321,7 @@ indebuurt.nl##.list-item.list-item--aagje:has(.list-item__sponsor)
 welingelichtekringen.nl##.post:has(a[href*="/partnerposting/"])
 ah.nl##.product-card-portrait_root__ZiRpZ:has(.promotion_root__pAAlu)
 tvgids.nl##.square-item:has( > .banner)
+agconnect.nl#?#.c-teaser:has(.c-pill--partner)
 krefel.be#?#div[class^="Flex-styled__StyledFlex-"]:has(h3:-abp-contains(Gesponsorde producten))
 feijenoordnieuws.nl##.cv-table-left > a:not([target="_blank"]):not([rel="nofollow"]):not(a[href^="https://feijenoordnieuws.nl/"])
 2dehands.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Topadvertentie))

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: trrrfYlgI7+DH+WUOgIFuA
-! Diff-Path: ../patches/8/8-s-1716230050-3600.patch
+! Checksum: 0Cb7KPMoVhxBRIRXNYmXEA
+! Diff-Path: ../patches/8/8-s-1716233645-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.78
-! TimeUpdated: 2024-05-20T18:31:56+00:00
+! Version: 2.0.6.79
+! TimeUpdated: 2024-05-20T19:31:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -186,6 +186,8 @@ _advertentieleaderboardhome.
 ||belgiancycling.be^*/Logo%27s%20partners/
 ||bloovi.be/frontend/files/banners/
 ||bodemvondstenwereld.nl/images/banners/
+||boek9.nl/sites/default/files/advertisements/
+||boek9.nl/sites/default/files/rotating-banners/
 ||bol-an.nl/wp-content/uploads/*/Adv_
 ||brandweerspotters.nl/modules/banners/
 ||buzzbie.nl/uploads/banners/
@@ -590,6 +592,8 @@ luchtvaartnieuws.nl###block-block-191
 blikopnieuws.nl###block-block-38
 scheepvaartkrant.nl###block-topbannersidebar
 zakenreisnieuws.nl###block-views-banner_carousel-block
+boek9.nl###block-views-block-advertisements-ads-left
+boek9.nl###block-views-block-advertisements-ads-right
 mandelnieuws.be###block-views-block-sponsors-block-1
 mandelnieuws.be###block-views-block-sponsors-block-2
 mandelnieuws.be###block-views-block-sponsors-block-3
@@ -597,6 +601,8 @@ mandelnieuws.be###block-views-block-sponsors-block-4
 willem-ii.nl###block-views-block-view-business-partners
 willem-ii.nl###block-views-block-view-main-sponsor
 willem-ii.nl###block-views-block-view-shirt-sponsor
+boek9.nl###block-views-sponsor-banner-block
+vagina.nl###bottom-fish-hooks
 voetbalnederland.nl###bravo
 kekmama.nl###c1
 startkabel.nl###campagne
@@ -672,6 +678,7 @@ pokeren.nl###onetime-popup
 starnieuws.com###overig_nieuws
 autoreview.nl,indeleiderstrui.nl,wielerflits.be,wielerflits.nl###parentgpt
 eredivisie.nl###partner-bar
+vagina.nl###partner-links
 belgiancycling.be,coastline945fm.nl,coastlinefm.nl,elfvoetbal.nl,fonkmagazine.nl###partners
 coastline945fm.nl###partners_slides
 rtvkrimpenerwaard.nl###pg-1407-8

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405202205
+! Version: 202405210009
 ! Title: EasyList
-! Last modified: 20 May 2024 22:05 UTC
+! Last modified: 21 May 2024 00:09 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -655,7 +655,6 @@
 /GunosyAdsSDKv2.js
 /headerads1.php
 /homepage_ads/*$domain=~swedishbeauty.com
-/house-ad.js
 /house-ads/*$image
 /hoverad.js
 /hserver/channel=
@@ -71606,6 +71605,7 @@ technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 bloomberg.com##div[class^="media-ui-BaseAd"]
 bloomberg.com##div[class^="media-ui-FullWidthAd"]
+nltimes.nl##div[class^="r89-"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
 windowsreport.com##div[class^="refmedprd"]
 windowsreport.com##div[class^="refmedprod"]
@@ -72081,6 +72081,8 @@ ndtv.com,ndtv.in##[id^="firework"]
 ! Abusive Adcompanies
 a-ads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.co.uk,adskeeper.com,adspyglass.com,adstracker.info,adsupply.com,adsupplyads.com,adsupplyads.net,chpadblock.com,exoclick.com,hilltopads.com,join-admaven.com,joinpropeller.com,juicyads.com,luckyads.pro,monetag.com,myadcash.com,popads.net,propellerads.com,purpleads.io,trafficshop.com,yavli.com##HTML
 ! Eurosport/TNTSports
+##.ad-fallback
+##.ad.reform-top
 ##.reform-top-container
 ! Amazon
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###nav-swmslot
@@ -73663,6 +73665,7 @@ darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld
 pornstarbyface.com##div[id^="sponcored-content-"]
 lewdgamer.com##div[id^="spot-"]
 hentaiff.com##div[id^="teaser"]
+thefetishistas.com##div[id^="thefe-"]
 eromanga-show.com,hentai-one.com,hentaipaw.com##div[id^="ts_ad_"]
 pornhub.com,youporngay.com##div[onclick*="bp1.com"]
 hentaistream.com##div[style$="width:100%;height:768px;overflow:hidden;visibility:hidden;"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /KZd6JRarRCVr3iGlxnC/g
-! Version: 202405202301
+! Checksum: 37aPm+6qtQuXXcg5xUVNBQ
+! Version: 202405210011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 May 2024 23:01 UTC
+! Last modified: 21 May 2024 00:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7705,6 +7705,7 @@ prom.ua#@#img[alt="facebook"]
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
 ||system-notify.app^$third-party
+||ternairsoftware.com/publicwebpush/
 ||topswp.com^$third-party
 ||unative.com^$third-party
 ||viafoura.net/push_handlers.js
@@ -11157,6 +11158,7 @@ _twitter_follow.
 ##.article-pic-soc
 ##.article-rail__social
 ##.article-selection-shares
+##.article-share
 ##.article-share-cnt
 ##.article-share-social
 ##.article-share__item
@@ -14101,8 +14103,10 @@ _twitter_follow.
 ##.js-share-button-container
 ##.js-share-button-twitter
 ##.js-share-count
+##.js-share-default
 ##.js-share-email
 ##.js-share-facebook
+##.js-share-linkedin
 ##.js-share-more
 ##.js-share-pinterest
 ##.js-share-popup

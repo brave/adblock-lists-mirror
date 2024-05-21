@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NNzCRoWqlE+omlbfc2oAYA
-! Version: 202405210240
+! Checksum: hIOqYvKAF2rH0lm+bergFg
+! Version: 202405210340
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-05-21 02:40 UTC
+! Last modified: 2024-05-21 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3209,6 +3209,7 @@ techgenyz.com##.mb4wp-form-wrapper
 landline.media##.mc-embed
 dlife.com##.mc4wp-form
 arabnews.com,castanet.net,tribalfootball.com##.mc_embed_signup
+tedium.co##.md-colorbox
 elespanol.com##.md-suscription
 digg.com##.md\:p-4.p-2.rounded-md
 themedialine.org##.mdl-fixed-informer
@@ -4805,6 +4806,9 @@ beckershospitalreview.com##.becker_doubleclick
 beckershospitalreview.com##body:style(overflow: auto !important)
 ! theinformation.com (newsletter popup)
 theinformation.com##+js(set-cookie, marketing-modal-closed-1, 2)
+! investors.com
+investors.com##.exit-intent-modal
+investors.com##body:style(overflow: auto !important; position: initial !important;)
 ! justthenews.com
 justthenews.com###bio_ep_bg
 justthenews.com###bio_ep

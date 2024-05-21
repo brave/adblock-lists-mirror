@@ -1,9 +1,9 @@
-! Checksum: zaOuy+/+MlyapXQxV3Rhjg
-! Diff-Path: ../patches/7/7-s-1716305694-3600.patch
+! Checksum: Mg14k0a7eCbpwMmT3lLPoQ
+! Diff-Path: ../patches/7/7-s-1716312836-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.8
-! TimeUpdated: 2024-05-21T15:32:07+00:00
+! Version: 2.0.52.9
+! TimeUpdated: 2024-05-21T17:31:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1582,6 +1582,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+||web.core.windows.net/merrx01*/index.html$document
 /index.html?num=0101+$document
 .top/index2.html|$document
 ||z13.web.core.windows.net/*-*-*-*-*-*-*/index.html$document
@@ -1600,6 +1601,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /login.php?yc/login/index.html?returnUrl=https%3A%2F%2Fwww.yodobashi.com$document,domain=cn
 ://rakuten-card.*.cn/Mobile/login.php$document
 ||web.core.windows.net/*Security0*/index.html$document
+.com/mart/detail/m*?zenid=$document
 .com/mart/pri/m*.html?zenid=$document
 ://smart-ex-jp.$document
 count/login/?=id/log/*/login.asp$document,domain=cc|com

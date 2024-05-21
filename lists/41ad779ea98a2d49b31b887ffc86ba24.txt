@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7zY5C3FLTaWYhtK3panQ0Q
-! Version: 202405210040
+! Checksum: mqGjsO4VAaKLqKexmRAK/w
+! Version: 202405210140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-21 00:40 UTC
+! Last modified: 2024-05-21 01:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35033,6 +35033,7 @@ clevelandjewishnews.com,kmov.com,kptv.com##.paging-link
 atheistrepublic.com##.pane-aweber-webform
 playbuzz.com##.pb-page-overlay
 latestgadgets.tech,rebooti.com##.popnav
+pastebin.com##.popup-container
 okmagazine.com##.popupad-base
 rap-up.com,wellnessmama.com##.post-nav
 weebly.com##.powered-by
@@ -35603,6 +35604,7 @@ bigbangnews.com##.sumate
 golem.de##.supplementary
 codastory.com##.support
 artstation.com##.support-artstation
+gbnews.com##.support-banner
 novaramedia.com##.support-bar
 thecanary.co##.support-img
 novaramedia.com##.support-section
@@ -36788,6 +36790,7 @@ rbth.com##.Popup-telegram
 interestingengineering.com##.Product_googleNews__7OAsW
 whatcar.com##.ReviewSocialSection_reviewSocialSection__qzV0o
 manofmany.com##.ShareBar_listItem__6t0E_
+hoorayteams.com##.Share_share__FQTKw
 ynetnews.com##.SiteArticleSocialShareNew1280
 futurework.org.au##.SiteFooter_socials
 veteranstoday.news##.Social
@@ -37079,6 +37082,7 @@ theanalyst.com##.footer__bottom--social-links
 scientificamerican.com##.footer__followus-text
 bolavip.com##.footer__footer-top__social-links
 newrepublic.com##.footer__middleRow
+pastebin.com##.footer__right
 infoq.com##.footer__social-wrap
 indiatoday.in##.footer__socialshare
 madamasr.com##.footer_icons_container
@@ -37346,7 +37350,7 @@ thenewstack.io##.share-media
 fintech.tv,war.ukraine.ua##.share-news
 thehackernews.com##.share-open-modal
 ig.com.br,rebelnews.com##.share-page
-commondreams.org,spectrum.ieee.org,theblaze.com##.share-panel
+commondreams.org,gbnews.com,spectrum.ieee.org,theblaze.com##.share-panel
 forward.com##.share-post
 thenationalpulse.com##.share-post-button
 aajtak.in,gnttv.com,indiatoday.in,indiatodayne.in##.share-social-icons
@@ -37565,6 +37569,7 @@ xbiz.com##.tool-list
 risk.net,waterstechnology.com##.tools-container
 daily.jstor.org##.top-bar-right
 thehackernews.com##.top-follow
+pastebin.com##.top-footer
 bravewords.com##.top-nav
 destructoid.com##.top-sidebar-wrapper
 thejewishstar.com##.toplinks
@@ -38446,6 +38451,7 @@ yesim.app##.CookiesAlert_wrapper__Al0h2
 fitline.com##.CookiesGDPR_initial__2ePNF
 fireflyz.com.my,malaysiaairlines.com##.CookiesNotificationBtmOverlaySticky
 andersenlab.com##.CookiesPolicy-module--wrapper--8pHca
+hoorayteams.com##.CookiesPopUp_CookiesPopUp__z7bHv
 movadex.com##.CookiesPopup_root__h_m4j
 accounts.ucas.com,nngroup.com##.CybotEdge
 basspro.com,cabelas.com##.DisclosurePopupContainer
@@ -41475,6 +41481,7 @@ ici.radio-canada.ca##.StyledNewsletterSection-sc-67bd630a-0
 outsystems.com##.Subscribe
 riverbender.com##.SubscribeBox
 nordvpn.com##.SubscribeSection
+hoorayteams.com##.Subscribe_subscribe__fsS5P
 naturalnews.com##.Subscription-Article-Box
 esrt.space,rt.com##.Subscription-isReact
 intego.com##.Subscription_sub_wrapper__eQ6n1
@@ -48248,6 +48255,10 @@ beckershospitalreview.com##.becker_doubleclick
 beckershospitalreview.com##body:style(overflow: auto !important)
 ! theinformation.com (newsletter popup)
 theinformation.com##+js(set-cookie, marketing-modal-closed-1, 2)
+! justthenews.com
+justthenews.com###bio_ep_bg
+justthenews.com###bio_ep
+justthenews.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! kermitlynch.com
 kermitlynch.com##+js(set-cookie, hidePopUp, true)
 ! .fancybox-overlay

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O051oD2+MHyd+q7bkpyPVA
-! Version: 202405210015
+! Checksum: Oldu4hpU/8WKyP0ZVKOqMw
+! Version: 202405210115
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-05-21 00:15 UTC
+! Last modified: 2024-05-21 01:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2471,6 +2471,7 @@ ici.radio-canada.ca##.StyledNewsletterSection-sc-67bd630a-0
 outsystems.com##.Subscribe
 riverbender.com##.SubscribeBox
 nordvpn.com##.SubscribeSection
+hoorayteams.com##.Subscribe_subscribe__fsS5P
 naturalnews.com##.Subscription-Article-Box
 esrt.space,rt.com##.Subscription-isReact
 intego.com##.Subscription_sub_wrapper__eQ6n1
@@ -4804,6 +4805,10 @@ beckershospitalreview.com##.becker_doubleclick
 beckershospitalreview.com##body:style(overflow: auto !important)
 ! theinformation.com (newsletter popup)
 theinformation.com##+js(set-cookie, marketing-modal-closed-1, 2)
+! justthenews.com
+justthenews.com###bio_ep_bg
+justthenews.com###bio_ep
+justthenews.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! kermitlynch.com
 kermitlynch.com##+js(set-cookie, hidePopUp, true)
 ! .fancybox-overlay

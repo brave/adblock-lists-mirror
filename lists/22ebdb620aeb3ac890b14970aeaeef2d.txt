@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XDlS/n6KyCAzdysOvaK8DA
-! Version: 202405220500
+! Checksum: W05YEtbOa4xh7VyLM+7AkA
+! Version: 202405220600
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2024-05-22 05:00 UTC
+! Last modified: 2024-05-22 06:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -665,6 +665,10 @@ instacart.com##body:style(height: auto !important; overflow: auto !important)
 ! crealitycloud.com
 crealitycloud.com##+js(set-local-storage-item, permission_open_push, 1)
 crealitycloud.com##+js(set-local-storage-item, closeGuideRegisterTime, 1)
+! thedp.com
+thedp.com##.modal
+thedp.com##.modal-backdrop
+thedp.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! emailnator.com
 emailnator.com##.modal
 emailnator.com##.modal-backdrop

@@ -1,9 +1,9 @@
-! Checksum: Mg14k0a7eCbpwMmT3lLPoQ
-! Diff-Path: ../patches/7/7-s-1716312836-3600.patch
+! Checksum: YepR5mknn05tEf4lPZkqxw
+! Diff-Path: ../patches/7/7-s-1716356071-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.9
-! TimeUpdated: 2024-05-21T17:31:43+00:00
+! Version: 2.0.52.10
+! TimeUpdated: 2024-05-22T05:31:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6036,7 +6036,7 @@ tripnote.jp##.same_theme
 tripnote.jp##div[style="border:1px solid #aaa; border-radius:10px; padding:0px 15px; margin:0px auto 10px; width:90%; max-width:700px;"]
 tripnote.jp##div[style="width:970px; height:90px; margin:20px auto 30px;"]
 keimusho.net,billionwallet.com##.adsense_center
-mbs.jp,eroelog.com,ushigyu.net##div[class^="ad-"]
+entax.news,mbs.jp,eroelog.com,ushigyu.net##div[class^="ad-"]
 news.biglobe.ne.jp##.news-cpl
 biglobe.ne.jp###join-bnr
 kai-you.net##div[id^="ad_area"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lnmBjMIC6Y5AqGp2SphJOQ
-! Version: 202405220751
+! Checksum: vTpa9PKxh1ZuI4gsi8fPvw
+! Version: 202405220851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 May 2024 07:51 UTC
+! Last modified: 22 May 2024 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16228,7 +16228,7 @@ dynamo.kiev.ua##.torba-lightbox-side-wrap
 tproger.ru##.tp-layout-default__aside-right-content > div:empty
 rybolov.ee##.tp_rightblock_noframe [width="336"][height="240"]
 irad.ru##.tr-banner
-fanforum.ru##.tradingview-widget-container
+24.kz,fanforum.ru##.tradingview-widget-container
 bizmedia.kz##.tradingview-widget-container__logo
 trashbox.ru##.trash_special
 work.ua##.trn-info-block
@@ -22496,7 +22496,7 @@ lada.kz/uploads/banners/
 ||trackitonline.*/pics/$object
 ||trademaster.ua/im/banera/
 ||traderhelp.info/js/fixads.js
-||tradingview.com/external-embedding/embed-widget-ticker-tape.js$domain=fanforum.ru
+||tradingview.com/external-embedding/embed-widget-ticker-tape.js$domain=24.kz|fanforum.ru
 ||traffilm.net/img/brand
 ||tragtorr.in/css/back.
 ||tragtorr.info/css/back.
@@ -22950,8 +22950,8 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
+||pikabu.ru/*ch~ka.e?kej=$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax?$xmlhttprequest,domain=pikabu.ru
-||pikabu.ru/rku%$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer

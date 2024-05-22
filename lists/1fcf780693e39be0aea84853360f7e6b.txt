@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LiZvgbRkvGN0PirmLGgcBg
-! Diff-Path: ../patches/224/224-s-1716363246-3600.patch
+! Checksum: f8cJ8A8sUZTBdciPLICpUQ
+! Diff-Path: ../patches/224/224-s-1716374061-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.16.28
-! TimeUpdated: 2024-05-22T07:32:15+00:00
+! Version: 2.1.16.29
+! TimeUpdated: 2024-05-22T10:32:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5665,6 +5665,9 @@ newduba.cn###jq_youxi
 ||bxlmrl.xyz^
 ||kyokglm.icu^
 ||zca31.com^
+||shangwenchao4.cn^
+||dceuhnpc57.shop^
+||hsylieu.top^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -18598,7 +18601,7 @@ mydrivers.com##a[href*=".dangbei.com"]
 bilibili.com##a[href*=".doubleclick."]
 cnblogs.com##a[href*=".gridsumdissector.com/"]
 ctfile.com##a[href*=".henghost.com"]
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广 告))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/广*告/))
 hanjutv2020.com##a[href*=".hujiang.com"]
 pexels.com##a[href*=".istockphoto.com"]
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com,zhanzhangb.com##a[href*=".jd.com"]
@@ -19433,7 +19436,6 @@ mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="htt
 mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广告))
 nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg > .slide
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)

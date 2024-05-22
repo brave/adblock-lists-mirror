@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pVfFWdOt9cSvgbfu7SX4/Q
-! Diff-Path: ../patches/9/9-s-1716312835-3600.patch
+! Checksum: mf1DoibztOJi4vccOAZkeA
+! Diff-Path: ../patches/9/9-s-1716374063-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.24.98
-! TimeUpdated: 2024-05-21T17:31:47+00:00
+! Version: 2.0.24.99
+! TimeUpdated: 2024-05-22T10:31:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2278,14 +2278,14 @@ depor.com##div[class^="showTds"]
 ||visortmo.com/images/series.gif
 ||viralize.tv^$domain=visortmo.com
 visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail:matches-css(before, background-image: /\/images\/.*_push|pplr\d+_|n.?..?_|_ex/))
-visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > style:contains(/\/images\/.*_push|\/ne?f_|_ext/))
+visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > style:contains(/\/images\/.*_push|\/ne?f_|_ext|::before[\s\S]*?background-image/))
 visortmo.com#?#div[id^="pills-populars"] > div.row > div.element:has(> a[href^="https://visortmo.com/library/"] > .thumbnail > :is(span, .thumbnail-title):contains(/promo|netflix|ofert|deal|pack|\d+(\.|,)?\d+\$/i))
 visortmo.com##:not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"] > img
 visortmo.com##a[href="https://series.ly"] > img[src*=".gif"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="/"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="https://visortmo.com/"]
 visortmo.com##:not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"][target*="_blank"]
-visortmo.com#?#:not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"]:has(> .thumbnail > style:contains(/pplr\d+_|n.?..?_/))
+visortmo.com#?#:not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"]:has(> .thumbnail > style:contains(/pplr\d+_|n.?..?_|height[\s\S]*?opacity[\s\S]*?background-image/))
 visortmo.com#$?#body style:contains(/position[\s\S]*?::before[\s\S]*?background-image[\s\S]*?width[\s\S]*?height/):has(+ a[href^="https://visortmo.com/library/"]) { remove: true; }
 yugenmangas.net.br##.ads-flot
 gartic.com.br###shopIntUm

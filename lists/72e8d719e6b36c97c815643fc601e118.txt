@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.8.2
+! Version: 3.6.8.3
 
 ! General
 
@@ -277,6 +277,8 @@ revistaoeste.com##div.is-locked,div.subscribe-panel
 rugbypass.com##.plus-article-offer
 rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
 rugbypass.com##+js(rc, fade, .fade)
+scholastic.com##+js(ra, class, body.modal-open, stay)
+scholastic.com##div.paywallModalElement,div.modal-backdrop
 schwaebische.de##+js(ra, style, body[style], stay)
 science.org##div.alert-read-limit
 science.org##+js(rc, alert-read-limit__overlay, body.alert-read-limit__overlay, stay)

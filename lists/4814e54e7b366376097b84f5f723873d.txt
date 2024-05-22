@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
 ! Title: Greek AdBlock Filter
-! Version: 2023112600
+! Version: 2024052200
 ! Expires: 2 days
 ! Homepage: https://github.com/kargig/greek-adblockplus-filter
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -790,6 +790,11 @@ milaraki.com##A[href*="http://www.ez-smoke.net/"]
 milaraki.com##A[href*="http://www.indolucky7.com/sbobet/sbobet.html"]
 milaraki.com##A[href*=spinpalace]
 milaraki.com##A[href="http://www.mp4converter.net/dvd-ripper-mac.html"]
+myphone.gr##a[href="http://www.myphone.gr/forum/"] > img
+myphone.gr###leftboxhome
+myphone.gr###rightboxhome
+myphone.gr##.leftbox
+myphone.gr##.rightbox
 naftemporiki.gr###google_ads_container
 naftemporiki.gr##DIV.banner
 naxospress.gr##.naxos-pano-apo-tin-epikefalida-se-ola
@@ -797,6 +802,8 @@ naxospress.gr##.td-fix-index.tdb-block-inner > .naxos-target.naxos-meta-to-perie
 naxostimes.gr##.ctMainPostAds
 naxostimes.gr##.ctHomesidebar
 new.e-go.gr##DIV#advsliding258
+newmoney.gr##aside
+newmoney.gr##div.games
 news.in.gr##DIV[style="background: url(\"Themes/1/Default/Media/image-ads-sponsor.jpg\") no-repeat scroll left center rgb(243, 243, 243); text-align: center; border-bottom: 1px solid rgb(230, 230, 230); padding: 4px 0px;"]
 news.in.gr##DIV[style="background:url(Themes/1/Default/Media/image-ads-sponsor.jpg) no-repeat left;  text-align:center;background-color: #F3F3F3;border-bottom:1px solid #E6E6E6;padding:4px 0px;"]
 news247.gr###editor_link
@@ -847,6 +854,7 @@ onsports.gr##.bottom-popout.is-open
 opensoft.gr##DIV[style="border: 1px solid rgb(224, 224, 224); padding: 2px; margin-left: 20px; background-color: rgb(244, 244, 252); width: 140px; font-size: 12px;"]
 oroskopos.gr###banners
 oroskopos.gr##.banners_mid_2
+parapolitika.gr##div.banner
 parianostypos.gr##.yeslidergroup
 parianostypos.gr##div[id^="epom-"]
 parianostypos.gr##div[id^="hstp-"]
@@ -865,6 +873,10 @@ patrainews.gr###left-ad-container
 patrainews.gr###region-sidebar-second
 patrainews.gr###right-ad-container
 patrainews.gr##.block-header-728x90
+pcsteps.gr###text-64
+pcsteps.gr###text-65
+pcsteps.gr##div.single-subscribe-block
+philenews.com##aside
 pitsirikos.net###text-19
 politis.com.cy##.banner
 politis.com.cy##.tw-50[style^=overflow]
@@ -1003,6 +1015,9 @@ unboxholics.com###top-banner
 unboxholics.com##.inside-articles-banner
 unboxholics.com###after-popular
 unboxholics.com##.banner-min-h-600
+unboxholics.com###inside-banner-1
+unboxholics.com###inside-banner-3
+unboxholics.com###inside-banner-2
 usay.gr###frame_id_1
 usay.gr###frame_id_2
 usay.gr##.central_banner_area

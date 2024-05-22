@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZUeSY5tVmH29jEQClTH4Qg
-! Diff-Path: ../patches/8/8-s-1716327218-3600.patch
+! Checksum: pf6et6MFZE2/e+5YU1OAnQ
+! Diff-Path: ../patches/8/8-s-1716399876-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.84
-! TimeUpdated: 2024-05-21T21:31:39+00:00
+! Version: 2.0.6.85
+! TimeUpdated: 2024-05-22T17:32:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -130,6 +130,7 @@ _advertentieleaderboardhome.
 ||ads.nextday.media^
 ||advertising-cdn.dpgmedia.cloud^
 ||advertising-module.api.dpgmedia.cloud^
+||bannersimages.s-bol.com^$third-party
 ||bnpparibasmarkets.nl/widget/$third-party
 ||bol.com/nl/upload/banners/
 ||bol.com/nl/upload/partnerprogramma/
@@ -290,6 +291,7 @@ _advertentieleaderboardhome.
 ||niburu.co/images/banners/
 ||nieuwsopbeeld.nl/wp-content/uploads/*/Advertentie-
 ||nieuwsuitnijmegen.nl/gfx/banners/
+||nieuwsuitnijmegen.nl/uploads/banners/
 ||noordkopcentraal.nl^*/banner_
 ||notebookcheck.nl/fileadmin/Sonstiges/amaz_$xmlhttprequest
 ||nrc.nl/tag/tag.js
@@ -462,6 +464,7 @@ _advertentieleaderboardhome.
 ||webstick.nl/images/images-ads/
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-nl.jpg
 ||wieringernieuws.nl/gfx/ads/
+||wijchensnieuws.nl/uploads/banners/
 ||wildfm.nl/wp-content/uploads/*/thumbnail_image002.png
 ||willem-ii.nl/banner/
 ||wp.com/amsterdamactueel.nl/wp-content/uploads/*/728x60_
@@ -830,6 +833,7 @@ maarkelsnieuws.nl##.banner-secondary-sidebar
 nnieuws.be##.banner-silver
 radioviainternet.be##.banner-size-leaderbord
 speeleiland.nl##.banner-sky
+nieuwsuitnijmegen.nl,wijchensnieuws.nl##.banner-slider-item
 dolcevia.com##.banner-style
 maarkelsnieuws.nl##.banner-widget
 deblueskrant.nl,nieuweoogst.nl##.banner-wrap
@@ -1232,7 +1236,7 @@ focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
 emerce.nl##a[href^="https://bit.ly/"]
 playboy.nl##a[href^="https://casinoscout.nl/"]
 tennisplaza.be##a[href^="https://ds1.nl/"]
-bestetop5.nl,ecobioliving.eu,nailtalk.nl,radiozenders.fm,wereldstopcontacten.nl##a[href^="https://partner.bol.com/"]
+bestetop5.nl,ecobioliving.eu,nailtalk.nl,nieuwsuitnijmegen.nl,radiozenders.fm,wereldstopcontacten.nl,wijchensnieuws.nl##a[href^="https://partner.bol.com/"]
 nailtalk.nl##a[href^="https://partnerprogramma.bol.com/"]
 zeelandnet.nl##a[href^="https://prf.hn/"]
 opwindend.net##a[href^="https://spannendsexcontact.nl/"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IEHwy/6SJBwfnV5IgTh0Gg
-! Diff-Path: ../patches/16/16-s-1716446093-3600.patch
+! Checksum: ksuqMXxt3B+z6MOj62MXSA
+! Diff-Path: ../patches/16/16-s-1716456987-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.94
-! TimeUpdated: 2024-05-23T06:32:46+00:00
+! Version: 2.0.44.95
+! TimeUpdated: 2024-05-23T09:34:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -843,6 +843,9 @@ $script,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|staticall
 !
 !
 !
+nouvelobs.com##.advertising
+nouvelobs.com##.sidecol > .pb-25:has(> .advertising)
+nouvelobs.com##.sidecol > .pb-25:has(> div[style] > .OUTBRAIN)
 futura-sciences.com##div[class*="ad-parent"]
 player.melaniezettofrais.online##body > div[id]:not(#video_player)
 japscan.lol##+js(remove-node-text, script, https://www.aozoiekopoaka.shop/)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QMWQNeW3FJ54KCCObbECYA
-! Diff-Path: ../patches/8/8-s-1716478506-3600.patch
+! Checksum: X50Viakgx+OmrK+HSZSaBA
+! Diff-Path: ../patches/8/8-s-1716485704-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.86
-! TimeUpdated: 2024-05-23T15:32:31+00:00
+! Version: 2.0.6.87
+! TimeUpdated: 2024-05-23T17:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -113,6 +113,7 @@ _advertentieleaderboardhome.
 ||dt51.net^$third-party
 ||dt71.net^$third-party
 ||gratis-neuken.com^$third-party
+||mt67.net^
 ||nojazz.eu^
 ||nonstoppartner.net^$third-party
 ||online-banners.nl^$third-party
@@ -152,6 +153,7 @@ _advertentieleaderboardhome.
 ||recreatief.nl/kerstarrangementen.gif
 ||s-bol.com/nl/upload/partnerprogramma/
 ||search-result.com^*/klokad2.js
+||sedproductions.nl/banners/
 ||seks.com/img/bnr.gif
 ||seksbuddy.nl/img/frontend/banners/
 ||sociaaldigitaal.nl/img/Banner-$third-party
@@ -338,6 +340,7 @@ _advertentieleaderboardhome.
 ||seksverhalen.org/vluggertjes.png
 ||sexchatlounge.nl/bannerlinks.html
 ||sexchatlounge.nl/bannerrechts.html
+||sexervaringendelen.nl/porno/
 ||simone.nl/wp-content/uploads/*-banner-
 ||simone.nl/wp-content/uploads/*-besteonderdelen.nl-
 ||simone.nl/wp-content/uploads/*-onderdelenexpert.nl-
@@ -523,6 +526,7 @@ _advertentieleaderboardhome.
 ##.hoofdAd2
 ##.massarius-dfp-unit
 ##a[href^="https://go2.go2cloud.org/"]
+##a[href^="https://mt67.net/"]
 ##a[href^="https://www.2k19.nl/"]
 ##a[href^="https://www.flirtadvertenties.nl/direct-sexdating/"]
 ##a[href^="https://xltube.nl/click/"]
@@ -1237,6 +1241,7 @@ nummerzoeker.com##a[href^="/out/"]
 zeelandnet.nl##a[href^="http://partnerprogramma.bol.com/"]
 voetbalvandaag.be##a[href^="http://unibet.me/"]
 racexpress.nl##a[href^="http://www.onderdelenstore24.nl/"]
+sexervaringendelen.nl##a[href^="http://www.rushcommerce.com/click.php?"]
 focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
 emerce.nl##a[href^="https://bit.ly/"]
 playboy.nl##a[href^="https://casinoscout.nl/"]
@@ -1245,6 +1250,7 @@ bestetop5.nl,ecobioliving.eu,nailtalk.nl,nieuwsuitnijmegen.nl,radiozenders.fm,we
 nailtalk.nl##a[href^="https://partnerprogramma.bol.com/"]
 zeelandnet.nl##a[href^="https://prf.hn/"]
 opwindend.net##a[href^="https://spannendsexcontact.nl/"]
+sexervaringendelen.nl##a[href^="https://tinyurl.com/"]
 doorbraak.be##a[href^="https://vnz.be"] > .w-full.object-contain.mb-2
 gids.tv##a[href^="https://www.autodoc.be/"]
 ajax1.nl##a[href^="https://www.awin1.com/cread.php?"]

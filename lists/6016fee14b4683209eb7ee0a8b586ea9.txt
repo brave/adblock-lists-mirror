@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ksuqMXxt3B+z6MOj62MXSA
-! Diff-Path: ../patches/16/16-s-1716456987-3600.patch
+! Checksum: /Q5XbFJxOMBmEQCeMtcjGg
+! Diff-Path: ../patches/16/16-s-1716460558-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.95
-! TimeUpdated: 2024-05-23T09:34:18+00:00
+! Version: 2.0.44.96
+! TimeUpdated: 2024-05-23T10:33:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -632,6 +632,8 @@ tf1.fr,tf1info.fr##+js(no-fetch-if, /^https:\/\/ads\.stickyadstv\.com\/$/ method
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/uBlockOrigin/uAssets/issues/23806
+japscan.lol##+js(no-setTimeout-if, sessionStorage)
 ! https://github.com/uBlockOrigin/uAssets/issues/23802
 seriescultes.store##+js(remove-attr, href, a[href]#clickfakeplayer)
 ! https://github.com/uBlockOrigin/uAssets/issues/23689
@@ -843,12 +845,14 @@ $script,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|staticall
 !
 !
 !
+japscan.lol##.copineess
+japscan.lol##.tangoai
+japscan.lol##a[href^="https://www.tourpowouro.shop/"]
 nouvelobs.com##.advertising
 nouvelobs.com##.sidecol > .pb-25:has(> .advertising)
 nouvelobs.com##.sidecol > .pb-25:has(> div[style] > .OUTBRAIN)
 futura-sciences.com##div[class*="ad-parent"]
 player.melaniezettofrais.online##body > div[id]:not(#video_player)
-japscan.lol##+js(remove-node-text, script, https://www.aozoiekopoaka.shop/)
 justarrived.lu##div[id^="laure-"]
 numerama.com##.is-capitalist-tyrannosaurus
 eurosport.fr##div[data-testid="ad-organism"]
@@ -1576,6 +1580,9 @@ app.molotov.tv##+js(no-xhr-if, /ping?token=)
 !
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/23806
+@@||ko-fi.com/cdn/scripts/overlay-widget.js$domain=japscan.lol
+@@||bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js$domain=japscan.lol
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179577
 /affiliate.js$badfilter
 /affiliate.js$domain=~mercari.com

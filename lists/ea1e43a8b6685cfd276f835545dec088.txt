@@ -1557,6 +1557,11 @@ farsnews.ir##aside.ad-mobile-none
 farsnews.ir##div.ads-native
 
 ! >> G <<
+! https://github.com/MasterKia/PersianBlocker/issues/233
+gameeroid.com##span#is_count, span#is_not:remove()
+gameeroid.com##a#is_link:style(display: inline-block !important;)
+gameeroid.com##div#rt-download:has(> div#ZAD)
+
 ganjipakhsh.com##+js(aeld, , t.preventDefault)
 
 ||mihanwebhost.com^$image,3p,domain=gamemods.ir
@@ -2749,6 +2754,9 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/232
+*$image,3p,from=scienceforfree.blog.ir,to=parsvds.com|numberland.ir
+
 ||soorban.com/adsimg^$image,1p
 ||soorban.com/images/stories/banners^$image,1p
 soorban.com##div.ecbox2:has(> div.ec_body2 > div.adswrapper)

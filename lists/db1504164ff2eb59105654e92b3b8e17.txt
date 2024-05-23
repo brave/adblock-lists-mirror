@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vMY2QViJ95vQoJlecZQFLQ
-! Version: 202405230601
+! Checksum: RGawhonih6IWygKs+/lxJA
+! Version: 202405230651
 ! Title: EasyList China
-! Last modified: 23 May 2024 06:01 UTC
+! Last modified: 23 May 2024 06:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -21,6 +21,7 @@
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
+||iwanshang*.asia^
 -1316899192.cos.
 .land/ad/*.gif
 -1688-wp-media/ads/
@@ -803,6 +804,7 @@ ubmcmm.baidustatic.com
 |http://ad.$domain=~ad.cnr.cn|~ckckk.com|~jxnews.com.cn
 |http://gg.$third-party,domain=~guagua.cn
 ||allyes.$third-party
+wss://*/api/wss/GetNotReadCount$third-party
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||ssh.*.com^*!$script,third-party

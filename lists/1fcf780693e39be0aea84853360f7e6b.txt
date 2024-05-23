@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: egWy1jES3ZWzLI6tIw43RA
-! Diff-Path: ../patches/224/224-s-1716435366-3600.patch
+! Checksum: uQ9Tx5JWsNqA+2hW4IpcVw
+! Diff-Path: ../patches/224/224-s-1716446094-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.16.32
-! TimeUpdated: 2024-05-23T03:34:27+00:00
+! Version: 2.1.16.33
+! TimeUpdated: 2024-05-23T06:32:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -767,6 +767,8 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/179866
+cnys.tv##+js(set-constant, config.group, '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179385
 applnn.cc##+js(noeval-if, encodeURIComponent)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178988

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: hw2N1OSxUED6hgpHfnNmaw
-! Diff-Path: ../patches/8/8-s-1716492902-3600.patch
+! Checksum: l+shAzVIgp+H2ctl1h4BZg
+! Diff-Path: ../patches/8/8-s-1716500135-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.88
-! TimeUpdated: 2024-05-23T19:32:33+00:00
+! Version: 2.0.6.89
+! TimeUpdated: 2024-05-23T21:33:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -564,7 +564,7 @@ _advertentieleaderboardhome.
 ##.sponsorbalk
 immo.vlan.be###ProvidersBox
 immo.vlan.be###TopCompareBox
-autobahn.eu###WB_VIDEO_PLAYER_TARGET
+autobahn.eu,dingenvoorvrouwen.nl,playboy.nl###WB_VIDEO_PLAYER_TARGET
 hoekschnieuws.nl###\36 050c52fcf1d8-2
 gaynews.nl###abri
 gaynews.nl###abri1
@@ -1112,6 +1112,7 @@ tvgids.nl##.section-banner
 deondernemer.nl##.section-branded
 ewmagazine.nl,fotografie.nl##.section-partners
 uitzendinggemist.net##.serie_info_adbox
+baanwacht.nl##.shailanOFF_banner_widget
 baanwacht.nl##.shailan_banner_widget
 indeleiderstrui.nl##.shopsuite-widget
 wijlimburg.nl##.sidebar-partners
@@ -1199,7 +1200,7 @@ mo.be##.view-id-banners_top
 nnieuws.be##.view-vw-banners
 rubenweytjens.be##.view-weather-ads-view
 2dehands.be,marktplaats.nl##.vip-banner-top-sticky-container
-autobahn.eu##.wb-label
+autobahn.eu,dingenvoorvrouwen.nl,playboy.nl##.wb-label
 osuradio.nl##.wdslider
 baarsclassicrock.nl,tweakers.net##.widebanner
 tweakers.net##.widebnr

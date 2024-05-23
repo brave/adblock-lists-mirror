@@ -1,9 +1,9 @@
-! Checksum: UTIJF8Lx8SCiHfxEmOKOFA
-! Diff-Path: ../patches/7/7-s-1716478510-3600.patch
+! Checksum: 1G4RFKTA0LRCbsXSIwD1Ow
+! Diff-Path: ../patches/7/7-s-1716482131-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.16
-! TimeUpdated: 2024-05-23T15:32:29+00:00
+! Version: 2.0.52.17
+! TimeUpdated: 2024-05-23T16:32:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1779,7 +1779,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
-maruhorror.com###more > .t_b ~ p:has(a[href*="amazon.co.jp"])
+maruhorror.com###more > .t_b ~ p:has(> a[href^="https://www.amazon.co.jp"])
 hikasango.com##div[id^="msmaflink-"] + br + span[style="color: rgb(255, 0, 0);"]
 supari.jp##.AfiBigText
 conveni-now.com##.added_app_box
@@ -3828,7 +3828,7 @@ anime365.net##div[id^="comicRanking"]
 ||tok2.com/app/ad/
 supari.jp##div[class^="c-ads-tag"]
 milkcafe.net##div[class^="adSection_"]
-discka.com,supari.jp,smopia.com,conveni-now.com,iqos-laboratory.com##div[class^="ads-tag"]
+shisha-press.com,discka.com,supari.jp,smopia.com,conveni-now.com,iqos-laboratory.com##div[class^="ads-tag"]
 my-best.com##.p-press__ad
 ||signal-flag-z.asuscomm.com:9443/api/amznWidget
 p-game.jp##.gameDetailSideBar > div > p.chakra-text.css-0
@@ -6172,7 +6172,7 @@ ichimame.com,tvanimemuryoudouga.com,hmd.site,corocoro-tabi.com,moqlog.jp###custo
 tousatu-club.com,namba-osaka.com,virtualgorillaplus.com###custom_html-22
 ichimame.com,koikatsu-portal.com,tvanimemuryoudouga.com,sanabo.com###custom_html-23
 tvanimemuryoudouga.com,designoma.com,tech-biz-eng.com,naga-ken.info,sanabo.com###custom_html-24
-shisha-press.com,dennosokuho.com,tipstour.net,e-countries.com,4thsight.xyz###custom_html-25
+dennosokuho.com,tipstour.net,e-countries.com,4thsight.xyz###custom_html-25
 you1news.com###custom_html-26
 holosoku.com,erokune.com,sukesuke-mile-kojiki.net###custom_html-27
 news2019.biz,sukesuke-mile-kojiki.net,daeudaeu.com,bodymate.jp###custom_html-28
@@ -7138,7 +7138,7 @@ a-kimama.com##.banner.blogcard
 hamachan.info###sidetop_ad_pc
 hamachan.info##.ad_m
 tour.ne.jp##ul[class^="cmn-bnr-ad-list"]
-shisha-press.com,ryoko-club.com,did2memo.net##div[class^="ads-"]
+ryoko-club.com,did2memo.net##div[class^="ads-"]
 skyticket.jp##.ad-archive
 ramen.walkerplus.com##.side__ads
 hamakore.yokohama##.sideBlock:first-child

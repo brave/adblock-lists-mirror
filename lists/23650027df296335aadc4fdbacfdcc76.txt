@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: X50Viakgx+OmrK+HSZSaBA
-! Diff-Path: ../patches/8/8-s-1716485704-3600.patch
+! Checksum: hw2N1OSxUED6hgpHfnNmaw
+! Diff-Path: ../patches/8/8-s-1716492902-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.87
-! TimeUpdated: 2024-05-23T17:32:57+00:00
+! Version: 2.0.6.88
+! TimeUpdated: 2024-05-23T19:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -564,6 +564,7 @@ _advertentieleaderboardhome.
 ##.sponsorbalk
 immo.vlan.be###ProvidersBox
 immo.vlan.be###TopCompareBox
+autobahn.eu###WB_VIDEO_PLAYER_TARGET
 hoekschnieuws.nl###\36 050c52fcf1d8-2
 gaynews.nl###abri
 gaynews.nl###abri1
@@ -581,6 +582,7 @@ rtveen.nl###advertenties
 omroeppenm.nl,rickfm.nl###advertisement
 alle-tests.nl,bloovi.be###advertising
 demorgen.be,parool.nl,trouw.nl,volkskrant.nl###article_paragraph_3
+autobahn.eu###avantisTarget
 ciaotutti.nl###b_searchboxInc
 belgiancycling.be,zoekhulp.nl###banner
 autowereld.nl###banner-detail-top
@@ -1031,6 +1033,7 @@ mediacourant.nl##.mc-adv
 want.nl##.mha_container
 demorgen.be,parool.nl,trouw.nl,volkskrant.nl##.mid1-container
 mijn-tv-gids.be##.midzone
+autobahn.eu##.min-h-280.min-h-md-250
 scholieren.com##.min-h-90
 wegdamnieuws.nl##.mk-sponsorlink
 wordfeudwoorden.nl##.mobblue
@@ -1143,6 +1146,8 @@ az.nl,cambuur.nl,fcgroningen.nl,ga-eagles.nl,mijnserie.nl,nec-nijmegen.nl,trappe
 fleet-mobility.nl##.spotlight
 atv.be,robtv.be,tvl.be,tvoost.be##.squareWrap
 nos.nl##.ster-banner
+autobahn.eu##.sticky-incontent
+autobahn.eu##.sticky-sidebar
 ninefornews.nl##.stream-item
 despirituelewereld.be##.stream-item-widget
 iex.nl##.strossle-widget
@@ -1194,6 +1199,7 @@ mo.be##.view-id-banners_top
 nnieuws.be##.view-vw-banners
 rubenweytjens.be##.view-weather-ads-view
 2dehands.be,marktplaats.nl##.vip-banner-top-sticky-container
+autobahn.eu##.wb-label
 osuradio.nl##.wdslider
 baarsclassicrock.nl,tweakers.net##.widebanner
 tweakers.net##.widebnr
@@ -1244,7 +1250,7 @@ racexpress.nl##a[href^="http://www.onderdelenstore24.nl/"]
 sexervaringendelen.nl##a[href^="http://www.rushcommerce.com/click.php?"]
 focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
 emerce.nl##a[href^="https://bit.ly/"]
-playboy.nl##a[href^="https://casinoscout.nl/"]
+autobahn.eu,playboy.nl##a[href^="https://casinoscout.nl/"]
 tennisplaza.be##a[href^="https://ds1.nl/"]
 bestetop5.nl,ecobioliving.eu,nailtalk.nl,nieuwsuitnijmegen.nl,radiozenders.fm,wereldstopcontacten.nl,wijchensnieuws.nl##a[href^="https://partner.bol.com/"]
 nailtalk.nl##a[href^="https://partnerprogramma.bol.com/"]
@@ -1275,6 +1281,7 @@ gpinfo.com,looopings.nl,mannenzaken.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
+autobahn.eu##div[data-aaad]
 rtl.nl##div[data-adslot-variant]
 basketball.nl##div[data-component="partner"]
 telefoonboek.nl##div[data-role="csaads"]

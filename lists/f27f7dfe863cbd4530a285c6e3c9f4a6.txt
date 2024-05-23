@@ -1,9 +1,9 @@
-! Checksum: OJm2NMuZ9jnxKIkGCNfdWg
-! Diff-Path: ../patches/7/7-s-1716464174-3600.patch
+! Checksum: DpV98nbWsOnNsNfBgRlToA
+! Diff-Path: ../patches/7/7-s-1716474898-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.14
-! TimeUpdated: 2024-05-23T11:33:32+00:00
+! Version: 2.0.52.15
+! TimeUpdated: 2024-05-23T14:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -535,10 +535,7 @@ blog.2nt.com#@#.AdSense
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167887
 ||nazology.net/*/adb/adb.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167723
-pvpoke-re.com#%#//scriptlet('prevent-setTimeout', 'checkMyBlock')
-pvpoke-re.com#@#ins.adsbygoogle[data-ad-slot]
-!+ PLATFORM(ios, ext_android_cb)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pvpoke-re.com
+pvpoke-re.com##body > div[id][style*="9999"][style*="fixed"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166650
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167434
 bm.best-hit.tv,h178.com#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'AdBlock')
@@ -10466,6 +10463,11 @@ avgle.com##.well#ps32-container
 $popup,domain=avgle.com,third-party
 avgle.com##.container > div[style*="overflow: hidden"]
 !
+! https://github.com/AdguardTeam/AdguardForiOS/issues/2315
+! https://github.com/AdguardTeam/AdguardFilters/issues/179893
+! TODO: remove the rule when the issue is fixed
+!+ PLATFORM(ios)
+yahoo.co.jp#%#(()=>{window.YadsTimelineManager=function(){return{insertAd:function(){}}};})();
 gaccom.jp##.bukken-list
 gaccom.jp##.realestate-list
 gaccom.jp##.recipe-side-img-area

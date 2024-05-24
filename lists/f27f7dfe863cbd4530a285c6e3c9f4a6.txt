@@ -1,9 +1,9 @@
-! Checksum: R5gfHrBz7GTDFu6y5E5J8g
-! Diff-Path: ../patches/7/7-s-1716550520-3600.patch
+! Checksum: 1jrZ+JUj5E1kZGHhJEo7zQ
+! Diff-Path: ../patches/7/7-s-1716554153-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.20
-! TimeUpdated: 2024-05-24T11:32:29+00:00
+! Version: 2.0.52.21
+! TimeUpdated: 2024-05-24T12:33:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1783,6 +1783,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 ||s.yimg.jp/images/finance/nisa/image/banner/sbi/$domain=finance.yahoo.co.jp
+finance.yahoo.co.jp###contents > div[class^="_"] > div[class^="_1"] > div[class^="_2"] > div[class*=" _"]:has(> #subAdTop)
+finance.yahoo.co.jp##main > div[class^="_"] > div[class] > div[class^="wP-"] > div[class]:has(> div[id^="ad_"][class])
+finance.yahoo.co.jp##div[class^="_LREC_"]
+finance.yahoo.co.jp##div[class^="_YDN_"]
+finance.yahoo.co.jp##section[id][class^="_"] > div._22wPPO7Q
 maruhorror.com###more > .t_b ~ p:has(> a[href^="https://www.amazon.co.jp"])
 hikasango.com##div[id^="msmaflink-"] + br + span[style="color: rgb(255, 0, 0);"]
 supari.jp##.AfiBigText

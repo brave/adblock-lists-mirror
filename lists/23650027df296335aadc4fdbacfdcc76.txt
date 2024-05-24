@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 2sbqw+I0ewy5NTcklfVaUg
-! Diff-Path: ../patches/8/8-s-1716582929-3600.patch
+! Checksum: DwlMfyRJJEwuyUG9MuqLVA
+! Diff-Path: ../patches/8/8-s-1716586486-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.94
-! TimeUpdated: 2024-05-24T20:33:14+00:00
+! Version: 2.0.6.95
+! TimeUpdated: 2024-05-24T21:32:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -148,6 +148,7 @@ _advertentieleaderboardhome.
 ||mmcdn.nl/tags/
 ||ouders.nl/uploads/alt/$domain=viafora.nl
 ||partner.bol.com^$third-party
+||partnerprogramma.bol.com^$third-party
 ||pexi.nl/dpos/widget-$domain=intermediair.nl
 ||pornokartel.nl^$image,third-party
 ||pubble.nl/Content.svc/getAdCollection?
@@ -171,6 +172,7 @@ _advertentieleaderboardhome.
 ||wp.com/www.bol.com/nl/upload/partnerprogramma/
 ||xmissy.nl/admnfiles1809/sinclub/freechatbanner_
 ||123video.nl^*/300x100_
+||1twente.nl/Ads/
 ||2link.be/banners/
 ||aa.tweakers.nl^
 ||aafm.nl/cms/wp-content/themes/omroepalmelo/img/banners/
@@ -330,6 +332,7 @@ _advertentieleaderboardhome.
 ||retaildetail.be/sites/default/files/banner/
 ||retaildetail.nl/sites/default/files/banner/
 ||rickfm.nl/cwm/fm/userfiles/banner/
+||rivierenland-radio.nl/banners/
 ||rtvdordrecht.nl/cwm/fm/userfiles/banner/
 ||rtveen.nl/wp-content/uploads/*-Banner-
 ||rtveen.nl/wp-content/uploads/*/banner-
@@ -789,6 +792,7 @@ telegraaf.nl##.VideoPage__banner
 deondernemer.nl##.\-mb-10.box-content.flex.hidden.items-center.p-4.md\:mb-0.md\:flex.md\:min-h-25
 christelijknieuws.nl,dartfreakz.nl,thehike.nl,zozwanger.nl##.a-single
 rtveen.nl##.aas_zone
+rivierenland-radio.nl##.aba
 autozine.nl,banden.autoweek.nl,beleggersbelangen.nl,besteproduct.nl,bright.nl,dumpert.nl,eurosport.nl,hetnieuwsvandaag.be,indebuurt.nl,koopplein.nl,letsgodigital.org,limburger.nl,persinfo.org,sport.be,tellows.nl,tradeidee.nl,tripadvisor.nl,voetbalnieuws.nl,voetbalprimeur.nl,wijlimburg.nl,xgn.nl##.ad
 filmtotaal.nl##.ad-centering
 bruzz.be,omroepflevoland.nl,pu.nl,sportuitslagen.org,trendalert.nl##.ad-container
@@ -810,7 +814,7 @@ filmtotaal.nl,intermediair.nl##.advert
 juf-milou.nl##.adverteerdersblok
 startlijstjes.nl##.advertentieblock
 autoweek.nl##.advertise
-1twente.nl,bnnvara.nl,elektormagazine.nl,fonkmagazine.nl,hpdetijd.nl,kieskeurig.nl,tvgids.tv,zijaanzij.nl##.advertisement
+1twente.nl,bnnvara.nl,elektormagazine.nl,fonkmagazine.nl,hpdetijd.nl,kieskeurig.nl,tvgids.tv,twentefm.nl,zijaanzij.nl##.advertisement
 goodbye.be,sporza.be##.advertising
 albrandswaardsdagblad.nl,barendrechtsdagblad.nl,dagblad010.nl,dagblad070.nl,goudsdagblad.nl,ridderkerksdagblad.nl,rijswijksdagblad.nl,voorburgsdagblad.nl,zoetermeersdagblad.nl##.advrow
 wielerflits.be,wielerflits.nl##.affiliate_links
@@ -1007,6 +1011,8 @@ funda.nl##.home-billboard
 eurogamer.nl##.homepage-billboard-container
 racingnews365.nl##.homepage-casino-wrapper
 jan-magazine.nl##.homepage-marquee
+autosport.nl##.horizontal
+autosport.nl##.horizontal-logo
 retailtrends.nl##.href-a-b
 racesport.nl##.hthb-notification
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,voetbalkrant.com,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
@@ -1167,7 +1173,7 @@ dagbladdewest.com##.swiper-wrapper
 bekijkporno.nl##.table
 iexprofs.nl##.tagwrapper
 koken.vtm.be##.taxonomy-dedicated-header
-boottesten.nl,hoekschnieuws.nl,katholiek.nl,newspower.nu,railhobby.nl,regioonline.nl,rtvpapendrecht.nl,transport-online.nl,waterkant.net##.td-a-rec
+boottesten.nl,hoekschnieuws.nl,katholiek.nl,newspower.nu,nieuwsopbeeld.nl,railhobby.nl,regioonline.nl,rtvpapendrecht.nl,transport-online.nl,waterkant.net##.td-a-rec
 techpulse.be##.td-banner-wrap-full
 bollenstreekomroep.nl##.tdi_36
 omroepspakenburg.nl##.tdi_48
@@ -1389,6 +1395,7 @@ mediamarkt.be,mediamarkt.nl##div[data-test="mms-product-card"]:has(div[data-test
 fonq.nl#?#[data-cy="plp-tile-container"]:-abp-contains(Gesponsord)
 fonq.nl#?#li:-abp-contains(Gesponsord)
 geenstijl.nl#?#.article.row.no-image:-abp-has(.row.compost-warn:-abp-contains(- ingezonden mededeling -))
+glutenvrij.nl#?#.Article__inner:has(.Article__title:-abp-contains(Advertentie))
 linda.nl#?#.article-column_article:-abp-has(.category-label_label:-abp-contains(Advertorial))
 linda.nl#?#.article-row_article:-abp-has(.article-row_category.category-label_label:-abp-contains(Advertorial))
 mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)

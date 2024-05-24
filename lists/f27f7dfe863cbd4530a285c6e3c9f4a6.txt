@@ -1,9 +1,9 @@
-! Checksum: xd1Xz7pEbfMqDlAuik3WsA
-! Diff-Path: ../patches/7/7-s-1716485706-3600.patch
+! Checksum: KOnPs7iDc87+8EP6N2ZiRA
+! Diff-Path: ../patches/7/7-s-1716547012-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.18
-! TimeUpdated: 2024-05-23T17:32:55+00:00
+! Version: 2.0.52.19
+! TimeUpdated: 2024-05-24T10:33:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -526,6 +526,7 @@ nieru.net#@#.adWidget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179875
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159931
 iwb.jp#%#//scriptlet('abort-on-property-read', 'alert')
+iwb.jp#%#//scriptlet('abort-on-property-read', 'onload')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171258
 jprime.jp#$?#.js-reward-modal  { remove: true; }
 jprime.jp#$?#.js-reward-gallery-modal  { remove: true; }
@@ -1580,6 +1581,8 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+-go-jp.com/$document
+.com/wp-content/mufg.jp$document
 ||web.core.windows.net/merrx01*/index.html$document
 /index.html?num=0101+$document
 .top/index2.html|$document

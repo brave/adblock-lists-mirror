@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405240008
+! Version: 202405240113
 ! Title: EasyList
-! Last modified: 24 May 2024 00:08 UTC
+! Last modified: 24 May 2024 01:13 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -67349,7 +67349,7 @@ hellomagazine.com##.-variation-robapaginas
 yelp.com##.ABP
 gamesadshopper.com##.AD
 advfn.com##.APS_TOP_BANNER_468_X_60_container
-buzzfeed.com,gamedeveloper.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
+buzzfeed.com,darkreading.com,gamedeveloper.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
 deseret.com##.Ad-space
 jagranjosh.com##.Ad720x90
 thingiverse.com##.AdBanner__adBanner--GpB5d
@@ -71013,6 +71013,7 @@ lightnovelpub.com##[data-mobid]
 independent.co.uk##[data-mpu1]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
+helpnetsecurity.com##[data-origin][style]
 greenbaycrimereports.com##[data-original-width="820"]
 jeffdornik.com##[data-pin-url]
 extremetech.com##[data-pogo="sidebar"]
@@ -71900,6 +71901,8 @@ neonheightsservers.com##.well:has(ins.adsbygoogle)
 9to5linux.com##.widget:has([href$=".php"])
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
+popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
+popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
 fortune.com##[class]:has(> #Leaderboard0)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])

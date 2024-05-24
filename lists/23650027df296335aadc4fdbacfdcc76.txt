@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: faUj1fghlP2Ugs7zTySfYA
-! Diff-Path: ../patches/8/8-s-1716579315-3600.patch
+! Checksum: 2sbqw+I0ewy5NTcklfVaUg
+! Diff-Path: ../patches/8/8-s-1716582929-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.93
-! TimeUpdated: 2024-05-24T19:32:55+00:00
+! Version: 2.0.6.94
+! TimeUpdated: 2024-05-24T20:33:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -320,6 +320,7 @@ _advertentieleaderboardhome.
 ||radioacacia.nl/sponsoren/
 ||radioeenhoorn.nl/images/Maxaro-badkamers-tegels.png
 ||radiolelystad.nl/images/stories/Banners/
+||radioluisteren.fm/ads/
 ||radionl.fm/wp-content/uploads/*/Maxiaxi_
 ||radiostadmontfoort.nl/cms/img/ads/
 ||radiovisie.eu/wp-content/banners/
@@ -796,6 +797,7 @@ sozio.nl##.adchannel
 nieuwsmotor.nl##.add-background
 vlaamskijken.nl,voetbalvandaag.be##.adds
 beurs.nl##.addslot
+loemedia.nl##.adlead
 westerwoldeactueel.nl##.adr-wrapper
 cinenews.be,handbal.nl,openrotterdam.nl,viamichelin.be,viamichelin.nl,wegdamnieuws.nl##.ads
 treinreiziger.nl##.ads-adsense-treinreiziger-horizontaal
@@ -1019,6 +1021,7 @@ iex.nl##.js-banner
 eurocampings.nl##.js-mock-banner
 eoswetenschap.eu##.l-banner
 webwoordenboek.nl##.layout__main-ads
+gic.nl##.lead
 speeleiland.nl##.leader-below-game
 rendez-vous.be##.leaderBoard
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,pcactive.nl,psv.nl,sneeuwhoogte.nl,sport-planet.eu,sportid.be,tenniskrant.be,tradeidee.nl,voetbalkrant.com,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
@@ -1111,6 +1114,7 @@ halstadcentraal.nl##.respbanners
 zeelandnet.nl##.row--bnr-between
 gamer.nl##.rs-banner
 racesport.nl##.rs_sponsorbanners_widget
+motorblog.nl##.sale
 oisterwijknieuws.nl##.sam-container
 androidworld.nl,dagelijksestandaard.nl,dartsnieuws.com,f1maximaal.nl,indeleiderstrui.nl##.sda
 scholieren.com##.searchvertorial
@@ -1322,6 +1326,7 @@ voetbalrotterdam.nl##div[style="max-width:300px; width:100%; height:250px;"]
 gamereactor.nl##div[style="min-height: 600px; margin-bottom: 20px;"]
 waldnet.nl##div[style="padding-top: 30px; padding-bottom: 30px;"]
 landbouwgrond.nu##div[style="width: 100%; height: 320px;"]
+ammoniakrechten.nl,efarm.nl,fosfaat.nu,koemarkt.nl,landbouwgrond.nu,mechanisatie.nl,pluimveerechten.nu,quotum.nu,varkensrechten.nu##div[style="width:100%;height:320px;display:block;"]
 waldnet.nl##div[style^="height: 280px;"]
 starnieuws.com##div[style^="width : 250px"]
 apintie.sr##div[style^="width: 300px; height: 180px;"]

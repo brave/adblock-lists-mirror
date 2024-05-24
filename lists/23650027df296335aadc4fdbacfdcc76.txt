@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: l+shAzVIgp+H2ctl1h4BZg
-! Diff-Path: ../patches/8/8-s-1716500135-3600.patch
+! Checksum: +0Aj8ZIpAGaYO8coURj8ZQ
+! Diff-Path: ../patches/8/8-s-1716568497-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.89
-! TimeUpdated: 2024-05-23T21:33:38+00:00
+! Version: 2.0.6.90
+! TimeUpdated: 2024-05-24T16:32:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -720,6 +720,7 @@ dartfreakz.nl###soliloquy-container-334192
 sciencelink.net###sponsored-content_280
 zwartewaterfm.nl###sponsorenBtmCntr
 easyfm.nl,goldfm.be###sponsors-carousel
+adodenhaag.nl###sponsors-normal
 itwm.nl###tdi_37
 h20.gg,livestreamvandaag.be###text-14
 radiozuidrand.be###text-15
@@ -1367,6 +1368,7 @@ feijenoordnieuws.nl##.cv-table-left > a:not([target="_blank"]):not([rel="nofollo
 2dehands.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Topadvertentie))
 almere-nieuws.nl#?#.wpb_wrapper:has(.section-heading:-abp-contains(partners))
 autobahn.eu#?#.d-none.d-md-block.mb-3:-abp-has(a[target="_blank"][rel="noopener"])
+barneveldsekrant.nl,edestad.nl#?#.component__plugin:has(h6:-abp-contains(advertentie))
 buienradar.nl#?#.linklist:-abp-has(h1:-abp-contains(Lekker Dichtbij Deals))
 businessinsider.nl#?#.widget_custom_html:-abp-has(h2:-abp-contains(Beter Beleggen))
 mediamarkt.be,mediamarkt.nl##div[data-test="mms-product-card"]:has(div[data-test="mms-plp-sponsored"])

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7+DxIviqIj5CIfLhQ8947w
-! Diff-Path: ../patches/16/16-s-1716518120-3600.patch
+! Checksum: tzvFZQzWvxPzvduog9n3Lg
+! Diff-Path: ../patches/16/16-s-1716532539-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.44.97
-! TimeUpdated: 2024-05-24T02:33:21+00:00
+! Version: 2.0.44.98
+! TimeUpdated: 2024-05-24T06:33:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -194,7 +194,7 @@ japscan.lol#@##ad-img-slot
 japscan.lol#@##banner-top-right
 japscan.lol##.blur-background
 japscan.lol##.notice-message
-japscan.lol##+js(abort-current-script, document.addEventListener, /((ad-img|banner)-|interstitial|getComputedStyle)[\s\S]*?_0x/)
+japscan.lol##+js(abort-current-script, EventTarget.prototype.addEventListener, /((ad-img|banner)-|interstitial|getComputedStyle)[\s\S]{1\,500}?0x[\s\S]{1\,5000}$/)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147701
 trustmyscience.com##.adb-border
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146165

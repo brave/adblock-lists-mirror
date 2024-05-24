@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: owDw/U7s6LbnckvCRHcakA
-! Diff-Path: ../patches/8/8-s-1716575730-3600.patch
+! Checksum: faUj1fghlP2Ugs7zTySfYA
+! Diff-Path: ../patches/8/8-s-1716579315-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.92
-! TimeUpdated: 2024-05-24T18:33:11+00:00
+! Version: 2.0.6.93
+! TimeUpdated: 2024-05-24T19:32:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -596,6 +596,7 @@ afkortingen.nu###banner_top
 kranenwebsite.nl###bannerdiv
 a1mediagroep.nl,brandweerspotters.nl,coc.nl,fanclubbarcelona.nl###banners
 historiek.net###before-header
+bierdopje.com###billboards
 bol-an.nl###block-10
 bol-an.nl###block-11
 groningerkrant.nl###block-2
@@ -935,6 +936,7 @@ albrandswaardsdagblad.nl,barendrechtsdagblad.nl,dagblad010.nl,dagblad070.nl,goud
 radionl.fm##.desktop_mobile
 touretappe.nl##.desktopad
 flashscore.nl##.detailLeaderboard
+sliedrecht24.nl##.dfad
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,goedgevoel.be,hln.be,pzc.nl,tubantia.nl##.dfp
 dagelijksekost.een.be##.dish-sponsors
 tpo.nl##.dus
@@ -1161,7 +1163,7 @@ dagbladdewest.com##.swiper-wrapper
 bekijkporno.nl##.table
 iexprofs.nl##.tagwrapper
 koken.vtm.be##.taxonomy-dedicated-header
-boottesten.nl,hoekschnieuws.nl,katholiek.nl,newspower.nu,railhobby.nl,regioonline.nl,rtvpapendrecht.nl,waterkant.net##.td-a-rec
+boottesten.nl,hoekschnieuws.nl,katholiek.nl,newspower.nu,railhobby.nl,regioonline.nl,rtvpapendrecht.nl,transport-online.nl,waterkant.net##.td-a-rec
 techpulse.be##.td-banner-wrap-full
 bollenstreekomroep.nl##.tdi_36
 omroepspakenburg.nl##.tdi_48
@@ -1216,12 +1218,12 @@ indebuurt.nl##.widget-tabs--partner
 indebuurt.nl##.widget-tabs--partners
 autoblog.nl##.widget_ab_sidebar
 nieuws.nl##.widget_add_widget
-christelijknieuws.nl,ecobioliving.eu,groningerkrant.nl,iculture.nl,klapjes.nl,tiener-sexverhalen.nl##.widget_custom_html
+christelijknieuws.nl,ecobioliving.eu,groningerkrant.nl,iculture.nl,klapjes.nl,nljug.org,tiener-sexverhalen.nl,transport-online.nl##.widget_custom_html
 mannenstyle.nl##.widget_execphp
 riskcompliance.nl##.widget_itarget_banners
 ajaxreport.nl,feyenoordreport.nl,livestreamvandaag.be,onlinekraslotenrss.nl,psvreport.nl,voetbal4u.com,voetbalsnafu.nl##.widget_links
 infinance.nl##.widget_links_widget
-daemesenheeren.nl,noordkopcentraal.nl,radionova.be,tiener-sexverhalen.nl##.widget_media_image
+daemesenheeren.nl,eindtijdklok.org,nljug.org,noordkopcentraal.nl,radionova.be,sliedrecht24.nl,tiener-sexverhalen.nl##.widget_media_image
 noordkopcentraal.nl##.widget_metaslider_widget
 schuttevaer.nl##.widget_minisites
 vlootschouw.nl##.widget_miw_widget_multiple_images

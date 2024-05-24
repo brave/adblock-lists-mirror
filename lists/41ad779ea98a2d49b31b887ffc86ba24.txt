@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9uHYsJ2zWVyT95H4y7R4MA
-! Version: 202405240415
+! Checksum: +NB73Rps9L07gN4YdJNGFA
+! Version: 202405240515
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-24 04:15 UTC
+! Last modified: 2024-05-24 05:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36396,6 +36396,7 @@ meetup.com##.bg-midnightDark.align-center.flex
 kickstarter.com##.bg-navy-200
 evasoes.pt##.bloco_nl
 m.bilibili.com##.bottom
+foundit.com.ph##.bottom-\[10\%\].fixed
 banggood.com##.bottom-app-contain
 map.baidu.com##.bottom-banner-float
 commaful.com##.bottom-section-signup
@@ -36431,6 +36432,7 @@ bisnis.com##.download-disini
 metar-taf.com##.download-info
 m.bilibilicomics.com##.download-popup
 caixinglobal.com##.downloadAPP
+foundit.com.ph##.downloadApp
 cryptonews.net##.download_the_app
 zomato.com##.drRXJW
 al-sharq.com##.dwn-app
@@ -44050,6 +44052,8 @@ emailnator.com##.modal-backdrop
 emailnator.com##+js(rc, modal-open, , stay)
 emailnator.com##html,body:style(position: static !important; overflow: auto !important; width: auto !important;)
 emailnator.com##.top-banner
+! foundit.com.ph app download
+foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
 ! flightradar24.com  https://github.com/uBlockOrigin/uAssets/issues/23150
 flightradar24.com##+js(set-cookie, map_new_features_new_flightradar24_com_label_options, 1)
 ! https://github.com/uBlockOrigin/uAssets/issues/23164

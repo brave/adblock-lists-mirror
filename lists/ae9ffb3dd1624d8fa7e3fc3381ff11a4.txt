@@ -9762,12 +9762,6 @@ techperiod.com##ins.adsbygoogle
 ! https://forums.lanik.us/viewtopic.php?f=62&t=43156#p148250
 gdrivez.xyz##+js(nostif, nextFunction, 2000)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/bzyxa3/how_to_block_sponsored_listings_on_ebay/
-ebay.*##.sresult:has(.promoted-lv)
-!ebay.*#?#li.s-item:has(span:has-text(/S[^P]*?P[^O]*?O[^N]*?N[^S]*?S[^O]*?O[^R]*?R[^E]*?E[^D]*?D/))
-ebay.*##.s-item__title-tag:has-text(/^SPONSORED$/):upward(.s-item)
-ebay.*##.s-item:has-text(Sponsored):xpath('//*[string-length(@aria-labelledby) = 8]'):upward(.s-item)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5828
 acefile.co##+js(aopw, popup_ads)
 acefile.co##.textwidget
@@ -13810,7 +13804,7 @@ comicxxx.eu###dclm_modal_screen
 blowjobgif.net##+js(aopr, ExoDetector)
 favefreeporn.com,onlygayvideo.com,peachytube.com,stepsisterfuck.me##+js(aopr, ExoLoader.addZone)
 decorativemodels.com,erowall.com,freyalist.com,guruofporn.com,jesseporn.xyz,kendralist.com,vipergirls.to,lizardporn.com,wantedbabes.com,bustybloom.com,exgirlfriendmarket.com,nakedneighbour.com##+js(aopr, loadTool)
-comicxxx.eu,mybestxtube.com,onlyhgames.com,pornobengala.com,pornicom.com,xecce.com,teensporn.tv,pornlift.com,reddflix.com,superbgays.com##+js(aopr, open)
+comicxxx.eu,mybestxtube.com,pornobengala.com,pornicom.com,xecce.com,teensporn.tv,pornlift.com,reddflix.com,superbgays.com##+js(aopr, open)
 classicpornbest.com,desihoes.com,indianpornvideo.org,porn18sex.com,slaughtergays.com,sexiestpicture.com##+js(aopr, decodeURI)
 classicpornbest.com##+js(aeld, popstate)
 classicpornbest.com##+js(aopr, localStorage)
@@ -13819,7 +13813,7 @@ reddflix.com##+js(aopr, LieDetector)
 erospots.info##+js(aopr, Pub2)
 gameofporn.com##+js(aeld, , exopop)
 jemontremonminou.com,jemontremasextape.com,jemontremabite.com##+js(aopr, localStorage)
-porndollz.com,xnxxvideo.pro,xvideosxporn.com,onlyhgames.com,filmpornofrancais.fr,pictoa.com##+js(aeld, getexoloader)
+porndollz.com,xnxxvideo.pro,xvideosxporn.com,filmpornofrancais.fr,pictoa.com##+js(aeld, getexoloader)
 nackte.com##+js(aopr, jsUnda)
 older-mature.net##+js(aopr, doOpen)
 canalporno.com,dreamamateurs.com,eroxia.com,porndoe.com,pornozot.com##+js(aopr, ExoLoader)

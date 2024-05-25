@@ -1,9 +1,9 @@
-! Checksum: 6DLpdBoCfVHSM2np57c2aA
-! Diff-Path: ../patches/7/7-s-1716611719-3600.patch
+! Checksum: MaM+4QQ/BmGCNESJPqBSBg
+! Diff-Path: ../patches/7/7-s-1716618923-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.22
-! TimeUpdated: 2024-05-25T04:33:01+00:00
+! Version: 2.0.52.23
+! TimeUpdated: 2024-05-25T06:33:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1062,7 +1062,7 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 !-------------------
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179821
-twi-fans.com#%#AG_onLoad((function(){new MutationObserver((function(){const e=document.querySelector('.fixed[data-state="open"] > button[class*="disabled:pointer-events-none data-[state=open]"]');e&&e.click()})).observe(document,{childList:!0,subtree:!0})}));
+twi-fans.com#%#AG_onLoad((function(){new MutationObserver((function(){const e=document.querySelector('.fixed[class*="data-[state=open]"] > button[class*="disabled:pointer-events-none data-[state=open]"]');e&&e.click()})).observe(document,{childList:!0,subtree:!0})}));
 twi-fans.com#%#//scriptlet('prevent-addEventListener', '/touchmove|wheel/', 'preventDefault()')
 !+ NOT_PLATFORM(ext_ublock)
 twi-fans.com#%#//scriptlet('remove-attr', 'data-scroll-locked', 'body[data-scroll-locked]')
@@ -1217,7 +1217,7 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------------------
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179821
-twi-fans.com#$#.fixed[data-state="open"] { display: none !important; }
+twi-fans.com#$#.fixed.data-\[state\=open\]\:animate-in { display: none !important; }
 twi-fans.com#$#body[style="pointer-events: none;"] { pointer-events: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178408
 2game.info#$#.sponsored-loop300x250 { position: absolute !important; left: -4000px !important; }
@@ -1790,6 +1790,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+twi-fans.com##.fixed.lg\:h-\[320px\]
 ||s.yimg.jp/images/finance/nisa/image/banner/sbi/$domain=finance.yahoo.co.jp
 finance.yahoo.co.jp###contents > div[class^="_"] > div[class^="_1"] > div[class^="_2"] > div[class*=" _"]:has(> #subAdTop)
 finance.yahoo.co.jp##main > div[class^="_"] > div[class] > div[class^="wP-"] > div[class]:has(> div[id^="ad_"][class])

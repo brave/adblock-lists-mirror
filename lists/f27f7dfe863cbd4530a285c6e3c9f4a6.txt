@@ -1,9 +1,9 @@
-! Checksum: MaM+4QQ/BmGCNESJPqBSBg
-! Diff-Path: ../patches/7/7-s-1716618923-3600.patch
+! Checksum: NGml9DaE0bwi7XBlZMavpA
+! Diff-Path: ../patches/7/7-s-1716633320-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.23
-! TimeUpdated: 2024-05-25T06:33:09+00:00
+! Version: 2.0.52.24
+! TimeUpdated: 2024-05-25T10:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -91,6 +91,7 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 !
+||adleap.jp^
 ||ad.unique1static.jp^
 ||bance.jp^
 ||appdraft.link^$third-party
@@ -1790,6 +1791,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+comic-walker.com##div[class^="AdSection_"]
+taishurx.jp##.catchup
+taishurx.jp##div.bnr
 twi-fans.com##.fixed.lg\:h-\[320px\]
 ||s.yimg.jp/images/finance/nisa/image/banner/sbi/$domain=finance.yahoo.co.jp
 finance.yahoo.co.jp###contents > div[class^="_"] > div[class^="_1"] > div[class^="_2"] > div[class*=" _"]:has(> #subAdTop)
@@ -2495,6 +2499,7 @@ hoge5ch.info##.amazon_item
 hoge5ch.info##.right-container > div.plugin-memo:last-child
 ||coneti.net/post_image/mt_20220623211055_jF696njUWbNW.jpg$third-party
 ||poginfo.ddo.jp/pogs/images/pr/
+times.abema.tv##.u-lg-overflow-hidden[style="height: 200px;"]
 times.abema.tv#?#.c-article-footer-title:contains(/^関連(記事|動画)/)
 times.abema.tv##.article-tvbtn-under-ad
 yuki0918kw.com#?##block-106 ~ div.widget_block.fix_sidebar:has(> center > a)
@@ -7625,7 +7630,7 @@ nurse-senka.jp###side > div.inline-block
 web.ultra-soccer.jp##.stripe-free
 ushigyu.net,dobon.net###im_panel_pc
 eigo.plus##div[id^="omc_ad_widget"]
-lee.hpplus.jp##.media-ad
+hpplus.jp##.media-ad
 yoheim.net##.topAdsenseArea
 dl-x.com##.vip-size-728x90
 ||akibablog.net/lilbox/$subdocument
@@ -10794,7 +10799,7 @@ minpo.jp#@#.ads970
 ! unhide popIn
 osusume.mynavi.jp#@#.ad-widget
 ! baila.hpplus.jp unbreak self-promo
-@@||img-baila.hpplus.jp/common/large/image/ad/$image,~third-party
+@@||img-baila.hpplus.jp/*/image/ad/$image,~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110785
 @@||ascii.jp/img/ad/radeon/logo.png
 ! vector.co.jp - fixing images

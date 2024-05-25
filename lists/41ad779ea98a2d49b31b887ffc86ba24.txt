@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 49HLnq5kAvGQO09ZCC7ZBA
-! Version: 202405250940
+! Checksum: 1WOW/Gu64v016m1B0abmrw
+! Version: 202405251040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-25 09:40 UTC
+! Last modified: 2024-05-25 10:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28431,6 +28431,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.m-privacy-consent
 ##.m-privacy-lightbox
 ##.m-privacy-options
+##.m-privacy-policy-pop
 ##.m-react-ccm__settings-layer
 ##.m-stripe--cookie
 ##.m-tracking-banner
@@ -44063,6 +44064,8 @@ flightradar24.com##+js(set-cookie, map_new_features_new_flightradar24_com_label_
 shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
 ! food.ndtv.com
 food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
+! sammobile.com
+sammobile.com##+js(set-local-storage-item, request-permission-modal, 1)
 ! feedback popup belstad.com
 belstad.com##+js(set-local-storage-item, is_announcement_closed, true)
 ! m.investing.com (Collapse top)
@@ -44138,6 +44141,8 @@ screenrant.com,androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.
 zippia.com##+js(nosiif, /onGatedSignupPopupTrigger|zippia-popup/)
 zippia.com##+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)
 zippia.com##+js(cookie-remover, _zippia-popup-s_t)
+! thebump.com rego popup
+thebump.com##+js(set-cookie, registration_modal_dismissed, true)
 ! tradingview.com https://github.com/uBlockOrigin/uAssets/issues/23236
 tradingview.com##+js(nostif, window.loginStateChange.subscribe)
 ! reg nag
@@ -49865,6 +49870,7 @@ blogsicilia.it##div[style="margin-top: 15px;display: block;padding-left: 18px;fo
 ||imyfone.com/assets/js/media_share/
 ||ministop.co.jp/site_common/js/sns_
 ||plugins.mixi.jp/favorite.pl?$third-party
+||taishurx.jp/js/web/sns_header.js
 !
 !---------- Japanese Site Specific Hiding Rules ----------
 !
@@ -52028,6 +52034,7 @@ tokyotokyo.jp##.annotation-area
 knb.ne.jp##.atention_cookie
 nhk.or.jp##.bottom_optout_announce
 ebarafoods.com##.consent_c
+more.hpplus.jp##.cookie-inquiry
 camp-fire.jp##.cookie-policy-agreement-notification
 his-mobile.com##.cookieagree
 kani-honke.co.jp##.cookiediag
@@ -52052,6 +52059,7 @@ hicbc.com##.optinfo
 mamastar.jp##.personalInfo__area
 fincity.tokyo##.policy
 ferrotec.co.jp##.policyFix
+eclat.hpplus.jp##.popup_banner
 layers.co.jp##.r-footer-cookie
 osaki.co.jp##.reuse-component
 picrew.me##.st-Terms_Wrapper

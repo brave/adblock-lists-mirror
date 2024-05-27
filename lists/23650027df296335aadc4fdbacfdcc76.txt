@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TgT3ch2sWEE6zVuoaTmuOQ
-! Diff-Path: ../patches/8/8-s-1716842122-3600.patch
+! Checksum: +t0OeFj3rO2rwsmObWaAAw
+! Diff-Path: ../patches/8/8-s-1716845706-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.99
-! TimeUpdated: 2024-05-27T20:32:54+00:00
+! Version: 2.0.7.0
+! TimeUpdated: 2024-05-27T21:32:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -357,6 +357,7 @@ _advertentieleaderboardhome.
 ||srherald.com/wp-content/banners/
 ||streamwijzer.be/wp-content/uploads/*-banner.
 ||te-les-koop.nl/images/B_
+||techgaming.nl/image_uploads/sponsored/
 ||tennisplaza.be/wp-content/uploads/*/tennisdirect-
 ||tennisvlaanderen.be/documents/*/19Sponsorblok-
 ||tennisvlaanderen.be/documents/*/21Sponsorblok-
@@ -893,8 +894,9 @@ psv.nl##.block-sponsors--psv
 psv.nl##.block-sponsors-desktop
 scholieren.com##.blockvertorial
 escortgirls.be,sexguide.nl,topescort.nl##.blogBanners
-feyenoordpings.nl,twentefans.nl,voetbalverslaafd.nl##.bn__wrapper
+feyenoordpings.nl,kantinepraat.nl,twentefans.nl,voetbalverslaafd.nl##.bn__wrapper
 podcastluisteren.nl,zeelandnet.nl##.bnr
+bnr.nl##.bnr-message
 bodylifebenelux.nl##.bnrrow
 tpo.nl##.bol_pml_box
 wijwedden.net##.bookies
@@ -926,6 +928,7 @@ fonkonline.nl##.carrousel-wrapper
 motorfietsblog.nl##.cbcontent
 autoscout24.be,autoscout24.nl##.cl-billboad-wrapper
 rd.nl##.codalt-container
+techgaming.nl##.code-block
 twentefans.nl##.content-action
 juf-milou.nl##.content_blok_reclame
 iex.nl##.contentwidget
@@ -1183,6 +1186,7 @@ iexprofs.nl##.tagwrapper
 koken.vtm.be##.taxonomy-dedicated-header
 boottesten.nl,hoekschnieuws.nl,katholiek.nl,newspower.nu,nieuwsopbeeld.nl,railhobby.nl,regioonline.nl,rtvpapendrecht.nl,transport-online.nl,waterkant.net##.td-a-rec
 techpulse.be##.td-banner-wrap-full
+sportamerika.nl##.tdi_133
 bollenstreekomroep.nl##.tdi_36
 omroepspakenburg.nl##.tdi_48
 elegance.nl##.tdi_58
@@ -1305,7 +1309,7 @@ omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
+fok.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]

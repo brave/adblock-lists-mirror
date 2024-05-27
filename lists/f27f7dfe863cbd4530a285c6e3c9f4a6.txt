@@ -1,9 +1,9 @@
-! Checksum: Tn/OCnRd/ZXmoTWDrJgYfw
-! Diff-Path: ../patches/7/7-s-1716723362-3600.patch
+! Checksum: 9biIKUXPFxRPETT7CaTHMA
+! Diff-Path: ../patches/7/7-s-1716806123-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.26
-! TimeUpdated: 2024-05-26T11:33:27+00:00
+! Version: 2.0.52.27
+! TimeUpdated: 2024-05-27T10:32:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1590,6 +1590,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+-co-jp-*.com/reg/login$document
 _co_jp.*.com/MS/Login.php$document
 /\/t_([0-9A-Za-z]{32})\?token=\1/$document,domain=cn|com|top
 -go-jp.com/$document
@@ -1600,24 +1601,17 @@ _co_jp.*.com/MS/Login.php$document
 ||z13.web.core.windows.net/*-*-*-*-*-*-*/index.html$document
 .co.jp.*.cn/t_$document
 ://ac*.top/t_*?token=$document
-://vpass.*.cn/all/login.php$document
-://rakuten-bank.*.cn/$document
 ||z13.web.core.windows.net/index.html^$document
--co-jp.*.cfd/ai/index.php$document
-://www.smbc-card-co.jp.*.com/reg/login$document
 .life/shopping/item/m*/$document
 ||amazonaws.com/*.denied/%*/index*.html$document
 .php?nbVVVsa^$document
 /DOC2024.apk^$document
 /login.php?yc/login/index.html?returnUrl=https%3A%2F%2Fwww.yodobashi.com$document,domain=cn
-://rakuten-card.*.cn/Mobile/login.php$document
 ||web.core.windows.net/*Security0*/index.html$document
 .com/mart/detail/m*?zenid=$document
 .com/mart/pri/m*.html?zenid=$document
-://smart-ex-jp.$document
 count/login/?=id/log/*/login.asp$document,domain=cc|com
 /KDDI2024.apk^$document
-.com/resona/client/index.php$document
 .top/nc/bbs22.php$document
 /mart/*.html?zenid=$document,domain=cfd|top
 /?bcda=*)-$document

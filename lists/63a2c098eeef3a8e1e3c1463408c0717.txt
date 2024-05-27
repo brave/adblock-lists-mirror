@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20240515
+! Version: 20240527
 
 ! General element hiding rules
 ##amp-ad
@@ -1098,6 +1098,7 @@
 ||cdn.popmyads.com/pma.js^
 ||cdn.ppomppu.co.kr/zboard/data*/banner/$domain=ppomppu.com
 ||cdn.run-syndicate.com/sdk/v1/n.js^
+||cdn.salgoonews.com/adManager/js/lab.js^$domain=salgoonews.com
 ||cdn.scrollads.co.kr/scrollads.*.js^
 ||cdn.smlog.co.kr^
 ||cdn.sports-g.com/adManager/js/lab.js^$domain=sports-g.com
@@ -1762,6 +1763,7 @@
 ||mediacategory.com/servlet/adBannerFloating^
 ||mediacategory.com/servlet/adBanner^
 ||mediacategory.com/servlet/adBrandCoverData^
+||mediacategory.com/servlet/adMediation^
 ||mediacategory.com/servlet/adNative^
 ||mediacategory.com/servlet/adNewsflashContentsBox^
 ||mediacategory.com/servlet/adPlayLinkBanner^
@@ -2371,6 +2373,7 @@
 ||zbn.donga.com/2015/banner/ad_read_*.asp^$domain=zbn.donga.com
 ||zbnfhsk.com/*.js^
 ||zdnet.co.kr/ads/$domain=zdnet.co.kr
+||zdnet.co.kr/js_mobile/a1medv3.js^$domain=zdnet.co.kr
 ||zdnet.co.kr/template_ad/$domain=zdnet.co.kr
 ||zergnet.com/zerg.js^
 ||zumads.vrixon.com/zum.vrix^$domain=pip-player.zum.com
@@ -3811,6 +3814,9 @@ hankookilbo.com##div.ad-container-180
 hankookilbo.com##div.article-header-banner
 hankookilbo.com##div.banner-right
 hankookilbo.com##div.end-ad-container
+hankookilbo.com##div.end-top-ad-wrap
+hankookilbo.com##div.float-bot-ad-box
+hankookilbo.com##div.float-left-ad-box
 hankookilbo.com##div.story-ad-half
 hankyung.com##div.ad-area
 hankyung.com##div.ad-bottom
@@ -3947,6 +3953,7 @@ i.wik.im,wikitree.co.kr##div#PrismDisplayBox
 i.wik.im,wikitree.co.kr##div#id_left_bar_ad_1
 i.wik.im,wikitree.co.kr##div#id_right_criteo_ad
 i.wik.im,wikitree.co.kr##div#right_view_01_1
+i.wik.im,wikitree.co.kr##div#tbl-next-up
 i.wik.im,wikitree.co.kr##div#wikicon>div.mt30
 i.wik.im,wikitree.co.kr##div.ad_left_banner_criteo_ad
 i.wik.im,wikitree.co.kr##div.wikitree_ad:not([ad_id="261"]):not([ad_id="266"])
@@ -4053,8 +4060,8 @@ insight.co.kr##div[class^="google-ad-slot-"]
 insight.co.kr##ul.aside-popular-wrap>li>div[style="display: block;width: 300px;height: 250px;"]
 instiz.net##body>div[style="min-height:280px;"]
 instiz.net##div.board_img_foot:not([style])
-instiz.net##div.foot_ad
-instiz.net##div.footad
+instiz.net##div.foot
+instiz.net##div.hot_under
 instiz.net##div.pc_topad
 instiz.net##div.powerlink
 instiz.net##div.realchart_body>div.powerlink_m4
@@ -4062,8 +4069,7 @@ instiz.net##div[id^="adx"]
 instiz.net##div[id^="div-"]
 instiz.net##div[id^="sidead"]
 instiz.net##iframe[src^="//www.instiz.net/_instiz.htm"]
-instiz.net##table.mboard>tbody>tr>td[style="height:0;padding:0 !important;height:100px;"]
-instiz.net##table.mboard>tbody>tr>td[style="padding:15px 0 !important;height:100px;"]
+instiz.net##table.mboard>tbody>tr>td>div[id^="dv-"]
 instructionaltechtalk.com##div#text-19
 instructionaltechtalk.com##div#text-20
 instructionaltechtalk.com##div#text-21
@@ -4229,6 +4235,7 @@ joseilbo.com##div[class^="R_cnt_bn_"]
 joseilbo.com##iframe[src*="//adserver.joseilbo.com/openads/adframe.php"]
 joynews24.com##ad
 joynews24.com##body>container>div[style="text-align:center;height:280px;overflow:hidden;"]
+joynews24.com##container.ad
 joynews24.com##container.ad-head
 joynews24.com##hr.ad
 joynews24.com##iframe[src*="//iframe.joynews24.com/ad/"]
@@ -6716,6 +6723,7 @@ sports.hankooki.com##div.ad_wrap
 sports.hankooki.com##div.banner300
 sports.hankooki.com##div.banner690_m
 sports.hankooki.com##div.banner728
+sports.hankooki.com##div.pc-articleView-sideTop
 sports.hankooki.com##div.right_promo div.num_pro:not(.golfhk)
 sports.hankooki.com##div.wrap_over_72890
 sports.hankooki.com##iframe[src^="http://sports.hankooki.com/ad/"]
@@ -7571,6 +7579,7 @@ zangsisi.net##div.fixed-top>center
 zbn.donga.com##div#iwm_fsa_wrap
 zbn.donga.com##iframe[src^="/2015/banner/ad_real_"]
 zdnet.co.kr##div#main_right_Floating_banner
+zdnet.co.kr##div.A1_300250
 zdnet.co.kr##div.ad
 zdnet.co.kr##div.ad_tag
 zdnet.co.kr##div.ad_tag_line

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wlGYP1pmdCbOLEefpJXMuQ
-! Diff-Path: ../patches/8/8-s-1716834941-3600.patch
+! Checksum: TgT3ch2sWEE6zVuoaTmuOQ
+! Diff-Path: ../patches/8/8-s-1716842122-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.6.98
-! TimeUpdated: 2024-05-27T18:33:10+00:00
+! Version: 2.0.6.99
+! TimeUpdated: 2024-05-27T20:32:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -146,6 +146,7 @@ _advertentieleaderboardhome.
 ||jobat.be/extra/trackuityhn/ticker_new.html$third-party
 ||jobfish.nl/widget/$third-party
 ||mmcdn.nl/tags/
+||nextdaymedia-ads.s3.amazonaws.com^
 ||ouders.nl/uploads/alt/$domain=viafora.nl
 ||partner.bol.com^$third-party
 ||partnerprogramma.bol.com^$third-party
@@ -328,7 +329,7 @@ _advertentieleaderboardhome.
 ||radiovisie.eu/wp-content/banners/
 ||railhobby.nl/wp-content/uploads/*_banner-
 ||rd.nl/deliver.js
-||resources.planetnine.com/scripts/topgear.nl.js$domain=topgear.nl
+||resources.planetnine.com/scripts/$domain=topgear.nl|voetbalverslaafd.nl
 ||retaildetail.be/sites/default/files/banner/
 ||retaildetail.nl/sites/default/files/banner/
 ||rickfm.nl/cwm/fm/userfiles/banner/
@@ -794,7 +795,7 @@ deondernemer.nl##.\-mb-10.box-content.flex.hidden.items-center.p-4.md\:mb-0.md\:
 christelijknieuws.nl,dartfreakz.nl,thehike.nl,zozwanger.nl##.a-single
 rtveen.nl##.aas_zone
 rivierenland-radio.nl##.aba
-autozine.nl,banden.autoweek.nl,beleggersbelangen.nl,besteproduct.nl,bright.nl,dumpert.nl,eurosport.nl,gpblog.com,hetnieuwsvandaag.be,indebuurt.nl,koopplein.nl,letsgodigital.org,limburger.nl,persinfo.org,sport.be,tellows.nl,tradeidee.nl,tripadvisor.nl,voetbalnieuws.nl,voetbalprimeur.nl,wijlimburg.nl,xgn.nl##.ad
+autozine.nl,banden.autoweek.nl,beleggersbelangen.nl,besteproduct.nl,bright.nl,dumpert.nl,eurosport.nl,gpblog.com,hetnieuwsvandaag.be,indebuurt.nl,koopplein.nl,limburger.nl,persinfo.org,sport.be,tellows.nl,tradeidee.nl,tripadvisor.nl,voetbalnieuws.nl,voetbalprimeur.nl,wijlimburg.nl,xgn.nl##.ad
 filmtotaal.nl##.ad-centering
 babybytes.nl,bruzz.be,omroepflevoland.nl,pu.nl,sportuitslagen.org,trendalert.nl##.ad-container
 voetbal.com##.adbox
@@ -973,7 +974,8 @@ escortgirls.be,sexguide.nl,topescort.nl##.fBanners
 fd.nl##.fd-message
 heracles.nl##.fixed-ads
 ml5.nl##.fl-module-uabb-image-carousel
-id.nl##.flex.items-center.justify-center.mx-auto.min-h-\[280px\].md\:my-2.w-\[336px\].h-\[280px\].md\:w-\[970px\].md\:h-\[250px\]
+gamer.nl##.flex.items-center.justify-center.mx-auto.min-h-\[280px\].md\:my-2.w-\[336px\].h-\[250px\].md\:w-\[970px\]
+gamer.nl,id.nl##.flex.items-center.justify-center.mx-auto.min-h-\[280px\].md\:my-2.w-\[336px\].h-\[280px\].md\:w-\[970px\].md\:h-\[250px\]
 webcam-aalsmeer.nl,webcam-airport.nl,webcam-binnenvaart.nl,webcam-blokzijl.nl,webcam-brandaris.nl,webcam-delfzijl.nl,webcam-denhelder.nl,webcam-denoever.nl,webcam-dokkum.nl,webcam-dordrecht.nl,webcam-enkhuizen.nl,webcam-friesemeren.nl,webcam-grou.nl,webcam-havenijmuiden.nl,webcam-hindeloopen.nl,webcam-hoekvanholland.nl,webcam-kampen.nl,webcam-lauwersoog.nl,webcam-leeuwarden.nl,webcam-lelystad.nl,webcam-maassluis.nl,webcam-marken.nl,webcam-monnickendam.nl,webcam-rotterdam.nl,webcam-sneek.nl,webcam-terneuzen.nl,webcam-vlaardingen.nl,webcam-volendam.nl,webcam-workum.nl,webcam-zaanzicht.nl,webcam-zoutkamp.nl,webcam-zwartsluis.nl,webcams-ameland.nl,webcams-scheveningen.nl,webcams-texel.nl,webcams-vlissingen.nl,webcamschiermonnikoog.nl,webcamvlieland.nl##.flexslider
 bdsm-vrienden.nl##.floatLeft.marginTop.resizeImages
 heracles.nl##.footer-blocks
@@ -1112,6 +1114,7 @@ europa-landbouwmachines.nl,hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
 gocar.be##.pub-leaderboard-top
 nedporno.com##.publ11s-b0ttom
 iex.nl##.publisher-sh-spot
+gamer.nl##.px-\[24px\].bg-backgroundLighter.w-full.md\:w-fit.rounded-\[8px\].md\:mb-0.mb-\[16px\]
 simone.nl,wfm.be##.qt-sponsor
 rbsradio.be##.qt-sponsors
 nedporno.com##.r11ght-pl4yer-169

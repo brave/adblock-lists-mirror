@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kJV+Ze98JHLCRlBb8zsCHg
-! Diff-Path: ../patches/13/13-s-1716564934-3600.patch
+! Checksum: elx2d06xRE0onb0xvYasLg
+! Diff-Path: ../patches/13/13-s-1716903318-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.51.91
-! TimeUpdated: 2024-05-24T15:33:15+00:00
+! Version: 2.0.51.93
+! TimeUpdated: 2024-05-28T13:33:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1803,6 +1803,9 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+takvim.com.tr##.Textlink
+fullindirsene.net##center > a[href^="https://yonderdim.com/"]
+tamindir.com##.band-banner
 /\d+x\d+/$image,domain=giynikgazetesi.com
 .gif$~third-party,domain=giynikgazetesi.com
 hdfilmcehennemi.*##.money
@@ -3396,7 +3399,7 @@ basarisiralamalari.com##.arkaresimmasas
 nedir.org##.icreklam > .googleic
 nedir.org##iframe[data-id="nedir.org_300x600_sidebar_responsive_2_DFP"]
 ahaber.com.tr,fotomac.com.tr,aspor.com.tr,yeniasir.com.tr,samdan.com.tr,esquire.com.tr,harpersbazaar.com.tr##.ad-control-left
-ahaber.com.tr,aspor.com.tr##.ad-control-full
+takvim.com.tr,ahaber.com.tr,aspor.com.tr##.ad-control-full
 forum.mevsim.org##div[class^="xgt-Banner"] > ul[class]
 fikirliderleri.com##.vmagazine_lite_medium_ad
 fikirliderleri.com##.theiaStickySidebar > #sow-slider-5

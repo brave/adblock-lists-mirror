@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pHD0NlAvORomZ/ge99wqbQ
-! Diff-Path: ../patches/16/16-s-1716885324-3600.patch
+! Checksum: IEexEVUPPyrKiSpHFbFU5g
+! Diff-Path: ../patches/16/16-s-1716899809-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.4
-! TimeUpdated: 2024-05-28T08:33:09+00:00
+! Version: 2.0.45.5
+! TimeUpdated: 2024-05-28T12:34:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -602,6 +602,8 @@ tf1.fr##+js(set-constant, __TF1_CONFIG__.adblock.serverRequest, false)
 tf1.fr,tf1info.fr##+js(no-fetch-if, static.adsafeprotected.com/favicon.ico method:HEAD)
 tf1.fr,tf1info.fr##+js(no-fetch-if, /^https:\/\/ads\.stickyadstv\.com\/$/ method:HEAD)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/180259
+$script,redirect-rule=noop.js,domain=tf1info.fr
 ! Allowed mainly for "adguard_app_ios" and "adguard_ext_android_cb" (fallback solution for others)
 !#safari_cb_affinity(privacy)
 @@||cdn.tagcommander.com/*/tc_TF1*.js$domain=tf1.fr|tf1info.fr

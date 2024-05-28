@@ -1,9 +1,9 @@
-! Checksum: Ja7i5XrmGAsDgItkWslS9Q
-! Diff-Path: ../patches/7/7-s-1716881723-3600.patch
+! Checksum: 8topxBZ1YOXKi5W+xI41AQ
+! Diff-Path: ../patches/7/7-s-1716892582-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.33
-! TimeUpdated: 2024-05-28T07:32:56+00:00
+! Version: 2.0.52.34
+! TimeUpdated: 2024-05-28T10:33:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1789,7 +1789,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 kingsmor.com##div[class^="advads-"]
 hamakore.yokohama##.admess
 second-storage.com##article > div[id^="custom_html"]:has(> div.textwidget  > a[href^="https://affiliate.suruga-ya.jp/"])
-soccer-king.jp##div[class^="free-html"]
+soccer-king.jp##.free-block
 football-zone.net##a[href^="https://abe.ma/"]
 comic-walker.com##div[class^="AdSection_"]
 taishurx.jp##.catchup
@@ -2826,7 +2826,7 @@ nijiero-view.com##.entry-content > center > a[href^="https://al.dmm.co.jp"][rel=
 ||tokimeki-s.com/ue2.html
 blog.ss-blog.jp##.articles-body > span[style="font-size:small;"] > span[style="color:#666666;"]
 osakamotion.net###nuevoa
-sironet.work##.widget-single-content-top
+incident-wo.com,sironet.work##.widget-single-content-top
 chizaizukan.com##.ad-border
 naporitansushi.com###ai_widget-9
 naporitansushi.com###ai_widget-8
@@ -6207,7 +6207,7 @@ uma-log.net,e-countries.com,momojirinouen.com###custom_html-33
 e-countries.com###custom_html-34
 yukawanet.com###custom_html-36
 news2019.biz###custom_html-37
-incident-wo.com,tousatu-club.com,valorantnews.jp###custom_html-38
+tousatu-club.com,valorantnews.jp###custom_html-38
 news2019.biz###custom_html-39
 anime-torrent.com,tokyolucci.jp###custom_html-43
 tiebukurojinsei.com,valorantnews.jp###custom_html-45

@@ -1,9 +1,9 @@
-! Checksum: 0hBY5lXK9aRNCXUuWYIXGQ
-! Diff-Path: ../patches/7/7-s-1716907020-3600.patch
+! Checksum: JMugaIFpt8QAZIJiC8OeRQ
+! Diff-Path: ../patches/7/7-s-1716910534-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.36
-! TimeUpdated: 2024-05-28T14:34:17+00:00
+! Version: 2.0.52.37
+! TimeUpdated: 2024-05-28T15:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1786,7 +1786,6 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
-itachirin.com##p:has(> ins.adsbygoogle)
 itachirin.com##p:has(> span > ins.adsbygoogle)
 chara.ge###cls-improvement
 kingsmor.com##div[class^="advads-"]
@@ -4294,8 +4293,8 @@ ganref.jp##.p-banner-wrap
 ||amazonaws.com/affiliate-img.docomo.ne.jp/banner/
 elog-ch.com##.pc_banner
 elog-ch.com##.simple-box3
+buhitter.com###slide_wrap_pc
 buhitter.com##aside.row > div.col[style="margin-top: 8px;"]
-buhitter.com##aside.row[style="display: flex; justify-content: center;height: 320px;overflow:hidden;margin:8px;"]
 elog.tokyo##.adArticleSideTop300x250
 elog.tokyo##.adHomeSideTop300x250
 109cinemas.net##.ad-banner-m
@@ -9617,7 +9616,7 @@ kosoch.com#?#.plugin-freearea > div > div > div[id^="gad-fixed"]:upward(3)
 nuki-dokoro.com#?#.grid_post-box > div.post-box-contents > div[id^="imobile_ad"]:upward(2)
 2-carat.net#?#.plugin-memo > div.side > script[src^="//static.criteo.net"]:upward(2)
 akb48matomemory.com#?#.plugin-memo:has(> div.side > div[class^="uz-"])
-xn--pckyeuc8a9327cbqo.com#?#p:has(> ins.adsbygoogle)
+itachirin.com,xn--pckyeuc8a9327cbqo.com##p:has(> ins.adsbygoogle)
 japohan.net#?#div > center:contains(Sponsored Link)
 eurus.dti.ne.jp#?#body > p > ins.adsbygoogle:upward(1)
 eurus.dti.ne.jp#?#td[colspan="2"]:contains(/^スポンサードリンク$/)

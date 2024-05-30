@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MWwJHUT6A+IACe0qUkOpCg
-! Version: 202405300640
+! Checksum: u7UWDOVK01CM/OZP14FTAw
+! Version: 202405300715
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-30 06:40 UTC
+! Last modified: 2024-05-30 07:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41884,6 +41884,7 @@ zyro.com##.ebook-banner
 christiantoday.com##.ebookbox
 dailywire.com##.ejwz8lp1
 thehustle.co##.elementor-30860
+thequantuminsider.com##.elementor-element-16c138b
 geneticliteracyproject.org##.elementor-element-1922719
 geneticliteracyproject.org##.elementor-element-241f781c
 bingehulu.com##.elementor-element-2db20597
@@ -44171,6 +44172,8 @@ tradingview.com##+js(nostif, window.loginStateChange.subscribe)
 ! reg nag
 nerdwallet.com##._1y2JXo
 nerdwallet.com##body,html:style(overflow: auto !important; position: initial !important;)
+! thejournal.ie nag
+thejournal.ie##+js(set-local-storage-item, total_page_views, 2)
 ! tekinvestor.no reg nag https://github.com/uBlockOrigin/uAssets/issues/22985
 tekinvestor.no##+js(nostif, custom-modal-create-account-link)
 ! bloomberg.com
@@ -44665,6 +44668,7 @@ privatekeys.pw##+js(set-cookie, cookie_consent_closed, 1)
 srf.nu##+js(set-cookie, CookieConsent, necessary)
 airnewzealand.co.nz##+js(set-cookie, airTRFX_cookies, accepted)
 dinamalar.com##+js(set-cookie, agree, true)
+volkswagen-group.com##+js(set-cookie, vw_mms_hide_cookie_dialog, 1)
 solo.io##+js(set-cookie, solo_opt_in, false)
 pomelo.la##+js(set-cookie, POMELO_COOKIES, 1)
 ibuypower.com##+js(set-cookie, AcceptUseCookie, Accept)

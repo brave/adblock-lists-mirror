@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405301158
+! Version: 202405301255
 ! Title: EasyList
-! Last modified: 30 May 2024 11:58 UTC
+! Last modified: 30 May 2024 12:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -15057,6 +15057,7 @@ _800x80_
 ##.widget_joblo_complex_ad
 ##.widget_long_ads_widget
 ##.widget_newspack-ads-widget
+##.widget_njads_single_widget
 ##.widget_openxwpwidget
 ##.widget_plugrush_widget
 ##.widget_pmc-ads-widget
@@ -16522,6 +16523,7 @@ browsershots.org#@#.advert_area
 ||2track.info^
 ||2trafficcmpny.com^
 ||2ts55ek00.de^
+||2ucz3ymr1.com^
 ||3-mobiappu.com^
 ||300daytravel.com^
 ||302kslgdl.de^
@@ -40803,6 +40805,7 @@ browsershots.org#@#.advert_area
 ||oqeazohx.com^
 ||oqelpqoyyz.com^
 ||oqfgpdnwdbirpc.com^
+||oqfrudzatovc.com
 ||oqfvsgfj.com^
 ||oqhbykhlt.com^
 ||oqkedrojyy.xyz^
@@ -64527,6 +64530,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||content.powzerz.lol^
 ||coolcast2.com/z-
 ||coolors.co/ajax/get-ads
+||corsproxy.io^$domain=manga1001.win
 ||corvetteblogger.com/images/banners/
 ||covertarget.com^*_*.php
 ||creatives.livejasmin.com^
@@ -67713,6 +67717,7 @@ thebeet.com##.affiliate-disclaimer
 express.co.uk##.affiliate-widget
 usatoday.com##.affiliate-widget-wrapper
 topsmerch.com##.affix-placeholder
+jambase.com##.affixed-sidebar-adzzz
 promocodie.com##.afs-wrapper
 domainnamewire.com##.after-header
 insidemydream.com##.afxshop
@@ -67789,6 +67794,7 @@ thelocal.at,thelocal.ch,thelocal.de,thelocal.es,thelocal.fr,thelocal.it,thelocal
 thehindu.com##.article-ad
 crn.com##.article-cards-ad
 coindesk.com##.article-com-wrapper
+kmbc.com,wlky.com##.article-content--body-wrapper-side-floater
 lrt.lt##.article-content__inline-block
 firstforwomen.com##.article-content__sponsored_tout_ad___1iSJm
 eonline.com##.article-detail__right-rail--topad
@@ -69045,6 +69051,7 @@ dexerto.com##.inline-block
 freebeacon.com##.inline-campaign-wrapper
 stocksnap.io##.inline-carbon
 parkers.co.uk##.inline-leaderboard-ad-wrapper
+sportsrec.com##.inline-parent-container
 forbes.com##.inline__zephr
 pcgamesn.com,pockettactics.com##.inlinerail
 nzbindex.com##.inner
@@ -69094,6 +69101,7 @@ kijiji.ca##.jOwRwk
 ticketmaster.com##.jTNWic
 ticketmaster.com##.jUIMbR
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.japmJB
+jambase.com##.jb-homev3-sense-sidebar-wrap
 psypost.org##.jeg_midbar
 sabcnews.com##.jeg_topbar
 romania-insider.com##.job-item
@@ -70035,6 +70043,8 @@ searchenginejournal.com##.sej-bbb-section
 timesofisrael.com##.sellwild-label
 hypestat.com##.sem_banner
 spotifydown.com##.semi-transparent
+jambase.com##.sense-300x250
+jambase.com##.sense-970x250
 jambase.com##.sense-headin
 shareus.io##.seperator-tag
 searchencrypt.com##.serp__top-ads
@@ -71691,7 +71701,6 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 slickdeals.net##.announcementBar:has(.sponsorContent)
 nation.africa##.article-collection-teaser:has(.sponsored-label)
-kmbc.com,wlky.com##.article-content--body-text > .article-content--body-wrapper-side-floater:has(> .ad-rectangle)
 thesun.co.uk##.article-sidebar .widget-sticky:has([class*="ad_widget"])
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])

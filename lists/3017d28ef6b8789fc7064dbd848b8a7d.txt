@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202405312155
+! Version: 202405312241
 ! Title: EasyPrivacy
-! Last modified: 31 May 2024 21:55 UTC
+! Last modified: 31 May 2024 22:41 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3389,6 +3389,8 @@ omni.soundestlink.com$image
 ||vkanalytics.net^
 ||vpdcp.com^
 ||vstats.me^
+||vturb.com.br^
+||vturb.net^
 ||wct-2.com^
 ||whale3.io^
 ||widgetbe.com^
@@ -3399,6 +3401,7 @@ omni.soundestlink.com$image
 ||wlt-jupiter.de^
 ||wmgroup.us^
 ||woodpeckerlog.com^
+||xanalytics.vip^
 ||yardianalytics.com^
 ||yndhi.com^
 ||yottlyscript.com^
@@ -10225,6 +10228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||incomaker.com//tracking/
 ||ind.sh/view.php?$third-party
 ||indoleads.com/api/pixel-content/
+||inetstatic.com/tracking/
 ||infinityid.condenastdigital.com^
 ||infogr.am/logger.php?
 ||informer.yandex.ru^
@@ -14051,6 +14055,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smetrics.ralphlauren.com^
 ||smutty.com/ajax/trcking/
 ||snapchat.com/web/metrics
+||sofire.terabox.app^
 ||solvusoft.com^*/scripts/visitor.js
 ||soundcloud.com^$ping
 ||source.chromium.org/v1/logging
@@ -14219,6 +14224,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.firez.one^
 ||telemetry.tradingview.com^
 ||tellerreport.com/react/pixel
+||terabox.app/api/analytics?
+||terabox.app/issue/terabox/ts_ad/
 ||terabox.com/abdr?
 ||termsfeed.com/track/
 ||tgt.maep.ibm.com^
@@ -49262,6 +49269,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
 ||jobs.ch/api/v1/public/product/track/
 ||js.tag24.de/main.js
+||k-aktuell.de/monitoring?
 ||leipziger-stadtplan.com/t.gif
 ||llntrack.messe-duesseldorf.de^
 ||lokalwerben.t-online.de^

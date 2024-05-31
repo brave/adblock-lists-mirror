@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405310938
+! Version: 202405311053
 ! Title: EasyList
-! Last modified: 31 May 2024 09:38 UTC
+! Last modified: 31 May 2024 10:53 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -57381,6 +57381,7 @@ browsershots.org#@#.advert_area
 ! ad-shield https://github.com/List-KR/List-KR/pull/892
 ||02777e.site^$document,popup
 ||05751c.site^$document,popup
+||072551.xyz^$document,popup
 ||07c225f3.online^$document,popup
 ||07e197.site^$document,popup
 ||1116c5.xyz^$document,popup
@@ -71899,9 +71900,9 @@ firstpost.com##.taboola-div
 weather.com##div[id*="Taboola-sidebar"]
 weather.com##div[id^="Taboola-main-"]
 express.co.uk##div[id^="taboola-"]
+mail.aol.com##li:has(a[data-test-id="pencil-ad-messageList"])
 linkvertise.com##lv-taboola-ctr-ad-dummy
 filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##ul > li:has(> div[id^="taboola-mid-home-stream"])
-mail.aol.com##li:has(a[data-test-id="pencil-ad-messageList"])
 ! firework
 ndtv.com,ndtv.in##[class^="firework"]
 ndtv.com,ndtv.in##[id^="firework"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: snC4HFu3HGO3yFr0y3XEFA
-! Version: 202405311401
+! Checksum: dGUV00m25xHALo2OKt7MAA
+! Version: 202405311500
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 31 May 2024 14:01 UTC
+! Last modified: 31 May 2024 15:00 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -748,6 +748,7 @@ quote.rbc.ru,realty.rbc.ru##.article__special_container:last-of-type
 femmie.ru,glavred.info,glavred.net##.article__subscribe
 sibnet.ru##.article__telegram
 1istochnik.ru##.article__telegram-share
+tourdom.ru##.article_buttons
 today.ua##.article_caption__social
 detstrana.ru##.article_image_share
 aif.ua##.article_sharings
@@ -1312,6 +1313,7 @@ kp.kg,kp.kz,kp.md,kp.ru##.header-top__soc-link
 stopcor.org##.headerMain_socialList
 5-tv.ru##.headerSide ._links
 avtoblog.ua##.headerSoc
+tourdom.ru##.headerSoc a[target="_blank"]
 ridus.ru##.headerSocials
 obozrevatel.com##.headerTopLine_socialItem > a:not([href*="obozrevatel.com/"])
 obozrevatel.com##.headerTopLine_socialItem > a:not([href*="obozrevatel.com/"]) ~ *
@@ -1560,6 +1562,7 @@ disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##.nb-share__button[d
 hi.ru##.nd_share_block
 life.pravda.com.ua##.net-wrap
 novostivl.ru##.netw
+tourdom.ru##.new_share
 one.ua##.newl-link
 ukrinform.ua##.news div[data-name="int_hidden"]
 buhgalter911.com##.news--social-groups
@@ -6103,6 +6106,7 @@ cnews.ru##article > .other-news-note
 animaunt.org##article > .sub-info > .button
 it-actual.ru##article > footer > div[class]:not(.post-ratings)
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
+rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container-"])
 sports.ru#?#article.piwikTrackContent:-abp-has(a[href^="https://trbna.co/"])
 sports.ru#?#article.piwikTrackContent:-abp-has(span:-abp-contains(Спецпроект))
 livejournal.com##article[class*="entryunit--feedpromo"]

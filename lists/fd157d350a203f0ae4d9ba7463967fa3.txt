@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y3MuT10jRSBYPZBH9+0gWg
-! Version: 202405311401
+! Checksum: 2eCabHh1G1lgxjp9dEQqKQ
+! Version: 202405311500
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 May 2024 14:01 UTC
+! Last modified: 31 May 2024 15:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13649,7 +13649,7 @@ kerch.fm##.branners
 s13.ru##.brb
 gdzbot.com##.breadcrumbs ~ [value*="://gdz-ru.work/"] ~ #exercises
 av.by##.break
-multmer.org##.brend
+multmer.org,tourdom.ru##.brend
 cpainform.ru##.brendingBg
 stalkermod.ru##.britem
 znanija.com##.brn-ads-box
@@ -16187,7 +16187,7 @@ panzer35.ru##.topLink a[href*="ruscale.ru"]
 sexytal.com,sexytales.ru##.top_a
 magical-skin.com##.top_baner
 deti-obninsk.ru##.top_baners > a[href][target="_blank"]:not([href^="/deti/index.php"])
-banana.by,bigmir.net,cntime.cn.ua,football24.ru,inedelya.ru,maulnet.ru,meteo-tv.ru,vse-sto.com.ua##.top_banner
+banana.by,bigmir.net,cntime.cn.ua,football24.ru,inedelya.ru,maulnet.ru,meteo-tv.ru,tourdom.ru,vse-sto.com.ua##.top_banner
 partnerkin.com##.top_banner_box
 autodmir.ru##.top_banner_hidder
 artofcare.ru,forum.fonarevka.ru,twogarin.info##.top_banners
@@ -22495,6 +22495,8 @@ lada.kz/uploads/banners/
 ||torrentinka.me/templates/Default/images/prestol
 ||torrentporno.ru/jrt-$script
 ||tort.fm/banners/
+||tourdom.ru/_ad/
+||tourdom.ru/_nuxt/img/*X*_$image
 ||tourister.ru/query.php*=adver-$xmlhttprequest
 ||tproger.ru/_nuxt/LubokTop.
 ||tproger.ru/wp-node/*/rupor/get?link=
@@ -24133,6 +24135,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.page__result .typo:-abp-contains(/^н
 translate.yandex.by,translate.yandex.kz,translate.yandex.ru,translate.yandex.uz##.sidebar-direct
 disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##.software-header-promo
 docviewer.yandex.by,docviewer.yandex.kz,docviewer.yandex.ru,docviewer.yandex.uz##.with-bottom-direct > div[class] > div[class]:empty
+mail.yandex.by,mail.yandex.com,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
 disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##a[href][style*="storage.mds.yandex.net/get-bstor/"]
 travel.yandex.ru##div.root[id]:empty
 mail.yandex.by,mail.yandex.com,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz##div[class*="DirectLine"]
@@ -24605,6 +24608,7 @@ tonnews.ru##body > div[id^="fancybox"]
 supertabak.ru##body > div[id^="jBox"]
 ruskline.ru##body > div[id^="money"]
 dnpmag.com,trendymen.ru##body > div[id^="popup-"]
+pikabu.ru##body > iframe[src*="redirect_uri"]
 daz3d.ru##body > span[id^="s"][style]
 pinterest.com##div[class*="ScreenBanner"]
 snob.ru##div[class*="popup-eventSubscribe"]
@@ -24962,7 +24966,7 @@ ntsk.ru#@#.adsinfo
 blag-vesti.ru#@#.adslot_1
 vtomske.ru#@#.adtable
 kvartirant.by#@#.adtxt
-board.sibnet.ru,fridger.com.ua,hawk.ru,hmgma.ru,openbudget.gfu.ru,pcradio.ru,postiralka.com.ua,school.kupiltovar.ru,servkino.ru,siproen.ru,sovcombank.ru,tehnika4u.ru,tourdom.ru#@#.adv
+board.sibnet.ru,fridger.com.ua,hawk.ru,hmgma.ru,openbudget.gfu.ru,pcradio.ru,postiralka.com.ua,school.kupiltovar.ru,servkino.ru,siproen.ru,sovcombank.ru,tehnika4u.ru#@#.adv
 school.kupiltovar.ru#@#.adv-4
 azartcash.com,twite.ru#@#.adv-block
 fiberdevice.ru#@#.adv-header

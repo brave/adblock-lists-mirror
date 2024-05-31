@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: iHHt5Q+A+10Ueg1eTSOCJw
-! Diff-Path: ../patches/224/224-s-1717112115-3600.patch
+! Checksum: c+HXvW+/zBAj3qMbQ4rAkA
+! Diff-Path: ../patches/224/224-s-1717137360-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.16.72
-! TimeUpdated: 2024-05-30T23:33:15+00:00
+! Version: 2.1.16.73
+! TimeUpdated: 2024-05-31T06:33:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14184,6 +14184,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||diamiu.com/wp-content/uploads/1200-200.
 ||e.so.com/search/pcnew?
 szxx.com.cn###A0
+mydrivers.com##.vwE9JmqU
+mydrivers.com##.yTv3AMqP
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(推广))
 iqiyi.com##div[class^="video-slide_threeImagePages"]>a[href^="http"]:not([href*="iqiyi.com"])>div
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img

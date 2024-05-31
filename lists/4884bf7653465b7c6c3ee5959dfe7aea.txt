@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 1swe4t+HJFAE5X/7YbUtMQ
-! Diff-Path: ../patches/9/9-s-1717094100-3600.patch
+! Checksum: 3789Gq0iWgflu6nm79b0YQ
+! Diff-Path: ../patches/9/9-s-1717140966-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.13
-! TimeUpdated: 2024-05-30T18:32:26+00:00
+! Version: 2.0.25.14
+! TimeUpdated: 2024-05-31T07:33:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2302,7 +2302,6 @@ visortmo.com##a[href="https://series.ly"] > img[src*=".gif"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="/"]
 visortmo.com##a[href^="https://visortmo.com/library/"] > img[src^="https://visortmo.com/"]
 visortmo.com##body :not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"][target*="_blank"]
-visortmo.com#?#body :not(div[class="col-4 mx-0 px-0"]:not([style])):has(> style:contains(/pplr\d+_|n.?..?_|height[\s\S]*?opacity[\s\S]*?background-image/))
 visortmo.com#?#body :not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"]:has(> .thumbnail > style:contains(/pplr\d+_|n.?..?_|height[\s\S]*?opacity[\s\S]*?background-image/))
 visortmo.com#?#body :not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"]:has(> style:contains(/pplr\d+_|n.?..?_|(height|background-size)[\s\S]*?(opacity|background-repeat)[\s\S]*?background-image/))
 visortmo.com#$?#body style:contains(/position[\s\S]*?::before[\s\S]*?background-image[\s\S]*?width[\s\S]*?height/):has(+ a[href^="https://visortmo.com/library/"]) { remove: true; }

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6j1mE69UlBWcLU6I2GMSOg
-! Version: 202405310901
+! Checksum: LZ46D1OSKfk2fhoEgvFt5Q
+! Version: 202405311000
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 May 2024 09:01 UTC
+! Last modified: 31 May 2024 10:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23720,6 +23720,7 @@ lenta.ru##.b-board__coef
 lenta.ru##.b-header-inner__banner
 gazeta.ru##.b_telegram
 gazeta.ru,lenta.ru,quto.ru##.banner
+gazeta.ru,lenta.ru##.banner + div[class][id]:last-of-type
 rambler.ru##.banner--container
 championat.com##.banner-parallax
 gazeta.ru##.banners
@@ -24061,7 +24062,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-spec-adv
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-yabrowser-promo
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.container__banner
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.content.i-bem > .body__topblocks
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.content__left > #search-result > li:-abp-has(> div .organic__subtitle > span:-abp-contains(Реклaма))
+ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.content__left > #search-result > li:-abp-has(> div .organic__subtitle > span:-abp-contains(/Pеклама|Реклама/))
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.content__right > .z-market_right_yes
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.content__right div[class][data-log-node]:-abp-has([data-vnl*="/_crpd/"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.direct-view

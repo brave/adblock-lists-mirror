@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.6.9.1
+! Version: 3.7.0.1
 
 ! General
 
@@ -468,6 +468,9 @@ dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeit
 
 ! McClatchy Group
 ||mcclatchy.com/mcc-paywall.js$script,third-party
+
+! Mediahuis Belgie
+||shared.mediahuis.be/extra/ciam/mhbe/auth0-integration.js$script,domain=gva.be|hbvl.be|nieuwsblad.be|standaard.be
 
 ! Mediahuis Noord
 ||ndcmediagroep.nl/js/evolok/$script,third-party

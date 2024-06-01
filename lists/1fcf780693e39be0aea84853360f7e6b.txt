@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UAMYgQu7ihPSKN+G/SlDyQ
-! Diff-Path: ../patches/224/224-s-1717198549-3600.patch
+! Checksum: 7vZybZpHLUJHUlvPXvoRzg
+! Diff-Path: ../patches/224/224-s-1717209331-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.16.75
-! TimeUpdated: 2024-05-31T23:33:51+00:00
+! Version: 2.1.16.76
+! TimeUpdated: 2024-06-01T02:33:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4646,6 +4646,7 @@ newduba.cn###jq_youxi
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##.aiboav-ads
+##A[href="javascript:;"][onclick^="todkjermyd"]
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
@@ -4724,6 +4725,7 @@ newduba.cn###jq_youxi
 ||vutjnt.xyz^
 ||mgmuye.xyz^
 ||zqgixxp.icu^
+||dssdfsf.cn^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -14193,7 +14195,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 szxx.com.cn###A0
 mydrivers.com##.vwE9JmqU
 mydrivers.com##.yTv3AMqP
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(推广))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
 iqiyi.com##div[class^="video-slide_threeImagePages"]>a[href^="http"]:not([href*="iqiyi.com"])>div
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img

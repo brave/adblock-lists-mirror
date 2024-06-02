@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: n1nUlAXht0Gjddsuv2LVdg
-! Version: 202406021201
+! Checksum: AwlRk/pcRaaZJJfvBiiFMw
+! Version: 202406021250
 ! Title: EasyList Germany
-! Last modified: 02 Jun 2024 12:01 UTC
+! Last modified: 02 Jun 2024 12:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -2964,6 +2964,8 @@ ehc-lustenau.at###djslider-loader229
 finanznachrichten.de,wallstreet-online.de###dmr1
 finanznachrichten.de,wallstreet-online.de###dmr2
 dnv-online.net###dnvsuperbanner
+dogforum.de###dogforum_footer
+dogforum.de###dogforum_header
 wallstreet-online.de###dout1
 drehscheibe-online.de###dsBanner
 dastelefonbuch.de###dtm_multiboxcontainer
@@ -3136,7 +3138,6 @@ nydus.org###nydus_org_970x300_billboard_responsive
 pedelecforum.de###oc24-direkt
 autoexperience.de,flugzeugforum.de,gs-forum.eu,uhrforum.de,xbox-passion.de###oc24-div
 elektrikforen.de###oc24_container_top
-dasoertliche.de###oetb_entryAd
 yasni.de###offer
 planetradio.de###omsRectangleChannel
 onmeda.de###on-footer-banner
@@ -3447,7 +3448,7 @@ ak-kurier.de##.ad + .tdt
 ak-kurier.de##.ad + .uk-panel
 alpin.de,immobilienscout24.de##.ad-banner
 alpin.de##.ad-banner-billboard
-gebraucht-kaufen.de,it-daily.net,mixed.de,nebelspalter.ch,raetsel-hilfe.de,sueddeutsche.de,swissmom.ch,tt.com,watchtime.net,zeit.de##.ad-container
+gebraucht-kaufen.de,it-daily.net,mixed.de,nebelspalter.ch,northdata.de,raetsel-hilfe.de,sueddeutsche.de,swissmom.ch,tt.com,watchtime.net,zeit.de##.ad-container
 hallo-minden.de##.ad-info
 xdate.ch##.ad-item
 diegrenzgaenger.lu##.ad-listing
@@ -4385,6 +4386,7 @@ finanzen100.de##.snippet--cta
 finanzen100.de##.snippet-container
 ladies.de##.sol-content
 golem.de##.sp-breakout-affy
+kaufland.de##.spads-recommender
 4fansites.de##.spalten_33_werbung
 meetingpoint-brandenburg.de##.span > .white_bg[style="width: 100%; padding-right: 5px;"]
 meetingpoint-brandenburg.de##.span.white_bg[style="padding: 7px 2px; margin-left: 5px;"]
@@ -5282,10 +5284,7 @@ dashcamtest.de##.previewtile.swiper-slide:has(a[href^="https://amzn.to/"])
 intersport.de##.product--box:has(.rm-sponso)
 kaufland.de##.product:has(div.product__sponsored-ad-label)
 guenstiger.de##.productCard:has(div.premiumProductCaption)
-kaufland.de##.rd-recommender:has(button.advertiser-info__button)
-kaufland.de##.rd-recommender:has(div.rd-product-tile__badge--ad)
 kaufland.de##.rd-recommender__tile:has(div.rd-product-tile__badge--ad)
-kaufland.de##.recommender-min-height:has(div.rd-product-tile__badge--ad)
 metager.de##.result:has(a[href^="https://metager.de/partner/r?"])
 metager.de##.result:has(a[href^="https://r.search.yahoo.com/"])
 finanzen.net##.row.d-flex.align-items-center:has(a[href^="http://g.finanzen.net/allvest-fonds-home-intelligent-invest"])
@@ -5338,6 +5337,8 @@ mobile.de##div[style="min-height:250px"]:has(#SRP_BILLBOARD_ADSENSE)
 jungefreiheit.de##div[style="text-align: center;"]:has(.adsbygoogle)
 windowspro.de##div[style]:has(a[onclick*="/pcs/click"])
 mein-mmo.de##li.article:has([data-type="sponsored"])
+dogforum.de##li:has(.wbbXdLocationAfter1stPostAsPost)
+dogforum.de##li:has(.wbbXdLocationPostList)
 jameda.de##li:has([data-testid="advertisementSign-flag"])
 baur.de##li:has(a[href^="https://b.fr3.eu.criteo.com/rm?"])
 golem.de##li[data-article-id]:has(.icon-addy)

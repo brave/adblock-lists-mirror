@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.0.3
+! Version: 3.7.0.4
 
 ! General
 
@@ -343,8 +343,8 @@ thepointmag.com##+js(cookie-remover, monthly_history)
 thepointmag.com##div.overlay,div#tpopup-
 thequint.com##div.zsqcu
 thequint.com##+js(ra, class|style, div#story-body-wrapper, stay)
-||thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.js$script,~third-party
-thesaturdaypaper.com.au##+js(cookie-remover, /^/)
+||thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.js$~third-party
+/\.thesaturdaypaper\.com\.au\/.+\/(\w+-){3,}/$inline-script
 thesaturdaypaper.com.au##div.paywall-hard-always-show
 thetimes.co.uk##+js(ra, style, html[style], stay)
 thetimes.co.uk##+js(ra, style, body[style], stay)

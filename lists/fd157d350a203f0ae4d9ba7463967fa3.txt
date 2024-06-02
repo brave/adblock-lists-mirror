@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WGgFT/XBn6J6CN2grm3ZNA
-! Version: 202406020801
+! Checksum: wdyg0FOdOmbqgGueS9J48Q
+! Version: 202406020851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Jun 2024 08:01 UTC
+! Last modified: 02 Jun 2024 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6182,6 +6182,7 @@ _tizers.
 ||gogolusin.site^$third-party
 ||gogoway.ru^$third-party
 ||gokliks.ru^
+||golynx.tech^$third-party
 ||gomakemerich1.com^
 ||gomakemerich2.com^
 ||gomiligh.pro^$third-party
@@ -16474,6 +16475,7 @@ thelastgame.ru##.wogame55
 portal.lviv.ua##.wonderpluginslider-container
 showfilm.club##.work
 livecars.ru##.wow_box
+players.com.ua##.wp-block-image > figure img[height="160"]
 levashove.ru##.wp-block-spacer
 travel3.ru##.wpInsert
 experttur.com##.wp_baraban_like
@@ -16621,7 +16623,7 @@ argumenti.ru##[class*="adv_"]
 androidinsider.ru,appleinsider.ru,hi-news.ru##[class*="af_advert_"]
 drive.ru##[class*="autoRu"]
 drive.ru##[class*="autoRu"] + .hr
-amic.ru,anime-bit.ru,hi-fi.ru,inflora.ru,lifenews.ru,lifenews78.ru,obozrevatel.com,opticlub.org,podrobnosti.ua,ua-independent.com,vbryanske.com##[class*="banner"]
+amic.ru,anime-bit.ru,hi-fi.ru,inflora.ru,lifenews.ru,lifenews78.ru,obozrevatel.com,opticlub.org,players.com.ua,podrobnosti.ua,ua-independent.com,vbryanske.com##[class*="banner"]
 vedomosti.ru#?#[class*="banner"]:-abp-has(.teaser-commerce)
 info.sibnet.ru##[class*="banner__brand"]
 disgustingmen.com##[class*="bg_banner"]
@@ -24068,7 +24070,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-spec-adv
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-yabrowser-promo
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.container__banner
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.content.i-bem > .body__topblocks
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.content__left > #search-result > li:-abp-has(> div .organic__subtitle > span:-abp-contains(/Pеклама|Реклама/))
+ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.content__left > #search-result > li:-abp-has(> div .organic__subtitle > span:-abp-contains(/[РPeеклама]{7}/))
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.content__right > .z-market_right_yes
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.content__right div[class][data-log-node]:-abp-has([data-vnl*="/_crpd/"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.direct-view
@@ -24221,6 +24223,7 @@ yhyd=$popup,domain=dzen.ru
 yiclyd=$popup,domain=dzen.ru
 ylclyd=$popup,domain=dzen.ru
 ylcyd=$popup,domain=dzen.ru
+yyclyd=$popup,domain=dzen.ru
 ||t.mail.ru/redir/$popup,domain=dzen.ru
 !
 ! Сайты Блокнота

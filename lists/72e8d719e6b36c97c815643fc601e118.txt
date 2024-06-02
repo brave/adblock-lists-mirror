@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.0.4
+! Version: 3.7.0.5
 
 ! General
 
@@ -282,6 +282,7 @@ scholastic.com##div.paywallModalElement,div.modal-backdrop
 schwaebische.de##+js(ra, style, body[style], stay)
 science.org##div.alert-read-limit
 science.org##+js(rc, alert-read-limit__overlay, body.alert-read-limit__overlay, stay)
+sciencenews.org##+js(cookie-remover, blaize_session)
 sciencesetavenir.fr##div.amorce.manual
 sciencesetavenir.fr##+js(ra, class|hidden, .user-paying-content)
 ||scientificamerican.com/api/tinypass.min.js$script,~third-party

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202406031013
+! Version: 202406031232
 ! Title: EasyList
-! Last modified: 03 Jun 2024 10:13 UTC
+! Last modified: 03 Jun 2024 12:32 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -506,7 +506,7 @@
 /banner-affiliate-
 /banner.asp?$third-party
 /banner.cgi?
-/banner.php
+/banner.php$domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
@@ -56620,6 +56620,7 @@ browsershots.org#@#.advert_area
 ||1116c5.xyz^$document,popup
 ||11c7a3.xyz^$document,popup
 ||1350c3.xyz^$document,popup
+||156fd4.xyz^$document,popup
 ||1a1fb6.xyz^$document,popup
 ||20519a.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
@@ -70973,6 +70974,7 @@ motortrend.com##.justify-center:has(.nativo-news)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 content.dictionary.com##.lp-code:has(> [class$="Ad"])
 euronews.com##.m-object:has(.m-object__sponsored-quote)
+haggen.com,kingsfoodmarkets.com##.master-product-carousel:has([data-carousel-api*="search/sponsored-carousel"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-driven="sponsored-products"])
 motortrend.com##.mb-6:has([data-ad="true"])
 officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)

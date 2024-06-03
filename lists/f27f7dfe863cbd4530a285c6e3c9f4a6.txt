@@ -1,9 +1,9 @@
-! Checksum: IRrx+CYP/QitH+ndtrsFCw
-! Diff-Path: ../patches/7/7-s-1717410993-3600.patch
+! Checksum: bQy7jG0DsQ35OCle3ZAC6w
+! Diff-Path: ../patches/7/7-s-1717418121-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.49
-! TimeUpdated: 2024-06-03T10:33:50+00:00
+! Version: 2.0.52.50
+! TimeUpdated: 2024-06-03T12:32:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1596,7 +1596,7 @@ hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
 .cfd/item-*.html|$document
 .com/grp01.id.rakuten.co.jp/jp/$document
 -co-jp-*.com/reg/login$document
-_co_jp.*.com/MS/Login.php$document
+_co_jp.*.php$document,domain=cc|com
 /\/t_([0-9A-Za-z]{32})\?token=\1/$document,domain=cn|com|top
 -go-jp.com/$document
 .com/wp-content/mufg.jp$document

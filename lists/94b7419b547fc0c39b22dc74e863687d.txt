@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3hQkbfUV55/Uy3TZeWSZZg
-! Diff-Path: ../patches/1/1-s-1717414708-3600.patch
+! Checksum: xd7gYAaK/psgw+YkzVP+cg
+! Diff-Path: ../patches/1/1-s-1717421818-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.91.22
-! TimeUpdated: 2024-06-03T11:31:06+00:00
+! Version: 2.0.91.23
+! TimeUpdated: 2024-06-03T13:31:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7566,7 +7566,6 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
-my.mail.ru##.b-history__top-rb-banner
 sport24.ru###app div.right-scroll-bar-position:has(a[href^="https://clicks.affijet.com/"])
 sibreal.org##.media-block-wrap:has(> div.wsw > div.wsw__embed > div.infgraphicsAttach > script[src^="https://thetruestory.news/"])
 ||rusxporno.net/images/1win.jpg
@@ -18175,6 +18174,7 @@ love.mail.ru###wrap-banner-top
 !
 minigames.mail.ru##.left-advert-block
 !
+my.mail.ru##.b-history__top-rb-banner
 my.mail.ru##.b-alert_marketing
 my.mail.ru##.b-history_events-wrapper > div.b-history-event:empty
 my.mail.ru##.b-video__native-rb-banner

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ksDGYxzxG9YSvTju+WFs8Q
-! Version: 202406031815
+! Checksum: FzHebt4pR/nxDgsCda0yAQ
+! Version: 202406031940
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-03 18:15 UTC
+! Last modified: 2024-06-03 19:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38843,6 +38843,7 @@ resmed.com##.c-notifications-wrapper
 loveholidays.com,loveholidays.ie##.c-o--
 rimowa.com##.c-rimpopin-wrapper--privacy
 hiltonheadisland.org##.c-site-alerts
+cnet.com##.c-siteTermsBanner
 corporate.comcast.com##.c-top-banner
 ustgear.com,wheelertools.com##.c-tracking-consent
 ii.co.uk##.c01194
@@ -44181,6 +44182,9 @@ screenrant.com,androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.
 zippia.com##+js(nosiif, /onGatedSignupPopupTrigger|zippia-popup/)
 zippia.com##+js(set-local-storage-item, gatedSignupTimerCounter, $remove$)
 zippia.com##+js(cookie-remover, _zippia-popup-s_t)
+! https://old.reddit.com/r/uBlockOrigin/comments/1d71x79/how_to_remove_this_blur_effect_showed_up_when_i/
+lawinsider.com##+js(cookie-remover, tce, when, scroll)
+lawinsider.com##.section-inline-partner-ad
 ! thebump.com rego popup
 thebump.com##+js(set-cookie, registration_modal_dismissed, true)
 ! tradingview.com https://github.com/uBlockOrigin/uAssets/issues/23236

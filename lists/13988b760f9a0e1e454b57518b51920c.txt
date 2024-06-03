@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: fQ6i604c2gEpXfMELF10aQ
-! Version: 202406031551
+! Checksum: TR5gH8OdLmz/BOlz0PqCHQ
+! Version: 202406031700
 ! Title: EasyList Italy
-! Last modified: 03 Jun 2024 15:51 UTC
+! Last modified: 03 Jun 2024 17:00 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -3229,6 +3229,7 @@ sichannel.tv,sienaweb.tv##.sponsor_dx
 vocetempo.it##.sponsor_home
 tokyo2020.coni.it##.sponsor_int
 italiachecambia.org,pharmacyscanner.it##.sponsored
+sportmediaset.mediaset.it##.sponsored-section
 unionesarda.it##.sponsored-teaser
 focus-online.it,parmacalcio1913.com##.sponsors
 avvenire.it##.spot
@@ -4969,6 +4970,7 @@ datameteo.com##td[style^="border-top-style: solid; border-top-color:#d3d3d3; bor
 investire.biz##.card.shadowLink:has(#ContentPlaceHolder1_rptAzzMain_btn_0)
 money.it##.flex.flex-col.space-y-3.relative:has(.mr-2)
 orvietosi.it##.jeg_slide_item:has(.category-sponsorizzate)
+sportmediaset.mediaset.it##.lancio-adv:has(span.contenuto_sponsorizzato)
 forbes.it##.post.type-post.status-publish.format-standard:has(.brandvoice)
 douglas.it##.product-grid-column:has(.product-tile__sponsored-it)
 cruiselifestyle.it##.rowthumb:has(a[href])
@@ -4995,7 +4997,7 @@ paginegialle.it#?#.search-itm:-abp-has(.search-itm__label:-abp-contains(annuncio
 pharmacyscanner.it#?#.similar-post-holder:-abp-has(.categoria:-abp-contains(Post sponsorizzato))
 radioluna.it#?#.feat-widget-wrap:-abp-has(div:-abp-contains(INFORMAZIONE REDAZIONALE))
 technofashion.it#?#.td_block_wrap:-abp-has(span:-abp-contains(Advertorial))
-tgcom24.mediaset.it#?#.right.es.large:-abp-has(span:-abp-contains(contenuto sponsorizzato))
+tgcom24.mediaset.it#?#div[data-testid="section"]:-abp-has(span:-abp-contains(Contenuto sponsorizzato))
 tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 !----------------Regole di esclusione per risolvere i problemi----------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist.txt ***

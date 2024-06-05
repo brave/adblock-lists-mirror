@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dipfM0o30Xuc8xCgPcOKrw
-! Version: 202406050901
+! Checksum: 5eRn8f8ePYpfgvd0MTXTLA
+! Version: 202406051000
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Jun 2024 09:01 UTC
+! Last modified: 05 Jun 2024 10:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13020,6 +13020,7 @@ otvetkak.ru##.article_openx
 banker.ua##.article_sidebar > div[class="textwidget"]
 nick-name.ru##.articles
 psychologies.ru##.articles-page__banners_wrapper
+gotennis.ru##.articles-special
 partnerkin.com#?#.articles_list_inner > div:-abp-has(> .sdv-box)
 1000.menu##.as-ad-step
 shazoo.ru##.aside > .grid > div > img[alt="Shazoo @ Yandex.Zen"]
@@ -13625,7 +13626,7 @@ citydog.by##.brandLink
 ekaraganda.kz##.brand_a
 harpersbazaar.com.ua##.brand_left
 harpersbazaar.com.ua##.brand_right
-abw.by,agropolit.com,egamersworld.com,elevatorist.com,filmozavr.com,filmozavr.net,inoprosport.ru,kinopati.ru,lada-granta.net,latifundist.com,lkforum.ru,myshows.me,old.myshows.me,osp.ru,podfm.ru,popcornnews.ru,psm7.com,superagronom.com,zemliak.com##.branding
+abw.by,agropolit.com,egamersworld.com,elevatorist.com,filmozavr.com,filmozavr.net,gotennis.ru,inoprosport.ru,kinopati.ru,lada-granta.net,latifundist.com,lkforum.ru,myshows.me,old.myshows.me,osp.ru,podfm.ru,popcornnews.ru,psm7.com,superagronom.com,zemliak.com##.branding
 tut.by##.branding > a
 3dtoday.ru##.branding-banner
 banki.ru##.branding-bg
@@ -14265,7 +14266,6 @@ semerkainfo.ru##.gensmall > .block_links
 iz.ru#?#.get_news_link__bottom__item:-abp-has(> a[href*="yandex."])
 iz.ru##.get_yandex_subscription_links
 footboom.com,footboom.kz##.gift
-gotennis.ru##.gift-a_header
 bobsoccer.ru##.gift-banner
 euro-football.ru,fight.ru##.gift-block
 liveinternet.ru##.gifts
@@ -22961,7 +22961,7 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/dk$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/mk$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer

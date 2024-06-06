@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MYp7UmIqoVh6hMch069Kwg
-! Diff-Path: ../patches/9/9-s-1717655733-3600.patch
+! Checksum: fYLjAjK2Um4RdMGI38Devg
+! Diff-Path: ../patches/9/9-s-1717662959-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.24
-! TimeUpdated: 2024-06-06T06:32:50+00:00
+! Version: 2.0.25.26
+! TimeUpdated: 2024-06-06T08:33:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2121,7 +2121,7 @@ meiobit.com,brasilparalelo.com.br,tvonline.fan,laprensagrafica.com,ahoragranada.
 okpeliz.com##+js(window.open-defuser)
 mirandogratis.com##a[target="_blank"] > img
 pelispedia.io##a[rel="nofollow"][style]
-zpelis.com,locopelis.com##div[class^="adsbutt_"]
+yaske.org,zpelis.com,locopelis.com##div[class^="adsbutt_"]
 hardwaresfera.com##.widget_aawp_widget_bestseller
 streamgratis.biz##.movie-xyz > a[rel]
 r7.com##aside > section[role="contentinfo"]:has(li > a[href^="https://cupons.r7.com/"])
@@ -3258,7 +3258,7 @@ blizzboygames.net##div[class*="vc_btn3"] > a[href^="https://bit.ly/"][target="_b
 mulheresafoder.com###aumento
 mulheresafoder.com###sexdate
 discoverybrasil.com##.ads-light
-||pernambuconoticias.com.br/wp-content/plugins/bravepopup-pro/*/brave.js
+/wp-content/plugins/bravepopup-pro/*$domain=pernambuconoticias.com.br|gdrivelatinohd.net
 pernambuconoticias.com.br##div[class^="perna-conteudo"]
 quizcovery.com.br##.adunitContainer
 idescargar.com##div[class^="banner-descarga"]

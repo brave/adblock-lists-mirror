@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yRBn+LcORbcmbo4sqoKUoQ
-! Diff-Path: ../patches/16/16-s-1717630539-3600.patch
+! Checksum: 1tdA6FW0a2cGBdXpWQgNqQ
+! Diff-Path: ../patches/16/16-s-1717662956-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.9
-! TimeUpdated: 2024-06-05T23:33:42+00:00
+! Version: 2.0.45.10
+! TimeUpdated: 2024-06-06T08:33:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1087,7 +1087,7 @@ programme-television.org##.content_right > div.p-sticky
 programme-television.org##div[class*="placeholder"]
 lalibre.be##iframe[src^="//immobox.logic-immo.be/logic_immo_be/widget/"]
 igen.fr,trustmyscience.com##div[data-hbdbrk-parent="true"]
-igen.fr,trustmyscience.com##body .ads:not(#style_important)
+closermag.fr,igen.fr,trustmyscience.com##body .ads:not(#style_important)
 lcd-compare.com##.page-head-ad
 blog-rct.com##body .code-block
 neko-sama.fr##a[href^="https://buqkrzbrucz.com/"]

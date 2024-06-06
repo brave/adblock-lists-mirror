@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: asWYQZ6QpetyOrimcNSw2g
+! Checksum: 3WPnlwa88m6M1c9h2UK3hQ
 ! Title: Easylist Cookie List
-! Updated: 2024-06-06 15:40 UTC
+! Updated: 2024-06-06 16:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23145,6 +23145,8 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-other, false)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
+temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
+temu.com##+js(set-local-storage-item, last_prompt_time, 1)
 supreme.com##+js(set-local-storage-item, sup_gdpr_cookie, accepted)
 supreme.com##+js(set-local-storage-item, gdpr_cookie, accepted)
 g-star.com##+js(set-local-storage-item, cn, true)

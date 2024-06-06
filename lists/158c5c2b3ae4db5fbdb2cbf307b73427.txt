@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gYjexhMClscqsSaxtnU5JQ
-! Version: 202406061200
+! Checksum: OJpL+mIFKq7SooKTgJ/ibw
+! Version: 202406061301
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Jun 2024 12:00 UTC
+! Last modified: 06 Jun 2024 13:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -760,6 +760,7 @@ donpatriot.news##.articles-page__tg
 vokrug.tv#?#.articlesdiv > center:-abp-has(> a[href^="https://t.me/"])
 korrespondent.net##.artpop_shad
 sharij.net#?#.aside > aside:-abp-has(> .textwidget > .fb-page)
+dorama.land##.aside-episode-banner
 autocentre.ua##.aside-shares
 psychologies.ru##.aside-widget > .top-articles ~ .mt-3
 enovosty.com##.asp-widget-social
@@ -3969,7 +3970,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||disquscdn.com/next/embed/recommendations.
 ||dom2.ru/json-gate
 ||donpatriot.news/js/jquery.cookie.js
-||dorama.land/static/player_image_*/desktop.$image
+||dorama.land/static/player_$image
 ||doramalive.ru/images/app.
 ||doroga.ua/Handlers/BannerObjectHandler.
 ||drive2.ru/assets/_*/widget.js|$script,domain=drive2.com|drive2.ru
@@ -6853,7 +6854,6 @@ market.yandex.by,market.yandex.kz,market.yandex.ru##[data-apiary-widget-id*="rec
 market.yandex.by,market.yandex.kz,market.yandex.ru##[data-apiary-widget-name^="@marketfront/HeroBanner"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##[data-auto="banner-ad-label"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##[data-bem*="search-select-promo"]
-dzen.ru##[data-testid="web2app-advert-qr-banner"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##[id="/content/footer/appPromoLoader"]
 ya.ru##a[class*="doodle-link"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##a[href^="//sovetnik.yandex.ru/"][href*="utm_campaign"]
@@ -6876,6 +6876,7 @@ dzen.ru##div[class^="card-actual-desktop__actualGrid"]
 dzen.ru##div[class^="feed-scrolling-snackbar__container"]
 dzen.ru##div[class^="float-interview__float-"]
 dzen.ru##div[class^="snackbar-context-provider"]
+dzen.ru##div[class^="web2app-advert-qr-banner__container"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##div[data-apiary-widget-name="@MarketNode/EntryPointPopup"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##div[data-apiary-widget-name="@marketfront/MediaCarousel"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##div[data-apiary-widget-name="@marketplace/WebimChat"]

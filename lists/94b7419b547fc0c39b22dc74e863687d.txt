@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qrmEmj3UWV/Ze1EK5oLGfA
-! Diff-Path: ../patches/1/1-s-1717763785-3600.patch
+! Checksum: PCcF6QRcMVHv5l6ClINBig
+! Diff-Path: ../patches/1/1-s-1717767328-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.91.35
-! TimeUpdated: 2024-06-07T12:31:06+00:00
+! Version: 2.0.91.36
+! TimeUpdated: 2024-06-07T13:31:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7665,7 +7665,6 @@ habr.com##.tm-article-presenter__banner
 ||allbasketball.org/*/pari*/index.
 ||allbasketball.org/*/pari-*.jpeg
 allbasketball.org#$#.wrapper > div.page-content { margin: 0 auto 0 !important; }
-sports.ru##.layout__branding
 silver.ru##.right-container > div.news:has(> div[class^="banner"])
 vokrug.tv##.okkoFixedBtn_new
 ||autosport.com.ru/files/partners/
@@ -7690,7 +7689,6 @@ nn.ru##a[href^="https://bs.serving-sys.ru/"]
 swing-zone.com##.page_column > .page_block_container:has(> .disignBoxFirst .hide_ads)
 swing-zone.com##.topMenu td:has(a[href^="https://www.swing-zone.com/click.php?406"])
 ru.spbtv.com##div[class^="gridcomponent__GridColumn"]:has(> div[class^="channel-player-asideui__AdsHolder"])
-cyber.sports.ru##:matches-path(/news/).box > .layout-columns > .rightPart:has(> .banner)
 youxxx.cc##.media_spot
 youxxx.cc##.side_spot
 iz.ru##.aside-advertising
@@ -7742,7 +7740,6 @@ wildberries.ru##.footer__banner
 /content/stargate/*$image,domain=otfilm.ru|bossfilm.ru
 pogovorim.by##div[style="min-height:280px; width:100%;"]
 citilink.ru##header > div[class^="css"]:has(> a[href^="https://www.citilink.ru/promo/"])
-sports.ru##.columns__alt-column > div.frame:has(> div.geo-banner)
 wildberries.ru##div[href^="https://safetyvpn.ru"][banner-id][title="Социальная реклама"]
 click-or-die.ru##.click-content
 vokrug.tv##.hide_640
@@ -9204,7 +9201,6 @@ telesputnik.ru,thereminder.ru,fishki.net,kinomonitor.ru,pics-money.ru,webmasters
 ||img.viewevo.net/advert/
 animedub.ru##.rolicve
 balator.info##td > center > a[href] > img
-sports.ru##.record-widget__bookmaker
 news.pm.by##a[href^="https://z.cdn.adpool.be"]
 yougame.biz##.sponsor-banner-ss
 360tv.ru##div[class^="ArticlePage_advBlock"]
@@ -10422,7 +10418,6 @@ gamestracker.org##.down-mget
 igrovaya.org##a[href$="/Crossout.php"]
 igrovaya.org##.data2
 blitz.plus##.adfox-place
-sports.ru##.factoid-coefficient
 ||drugoigorod.ru/banners/
 a.pr-cy.ru##div[class^="SliderAd__Small"]
 a.pr-cy.ru##[class*="Ad_"][class*="Link"]
@@ -14089,7 +14084,6 @@ mmgp.ru##.prom
 muz-tv.ru##.promo-bg
 muz-tv.ru##.promo-body
 v102.ru##.promo-left
-sports.ru,tribuna.com##.promo-link
 voffka.com##.promo-links
 multiurok.ru##.promo-popup
 v102.ru##.promo-right
@@ -18454,6 +18448,7 @@ gazeta.ru##.smi2_incut
 sports.ru###branding-layout>.page-layout:empty
 ! start background images (no other way to get rid of them in Safari
 ! we need to update this list from time to time
+||dumpster.cdn.sports.ru/4/73/88d781ce68174f5e2c800639520e1.webp
 ||s5o.ru/storage/simple/ru/edt/43/11/82/bc/rue92b5aab321.jpg
 ||s5o.ru/storage/simple/ru/edt/e3/9d/ce/42/ruea3735fad78.jpg
 ||s5o.ru/storage/simple/ru/edt/e5/c1/dd/ad/rue3e735f3338.jpg
@@ -18508,6 +18503,12 @@ sports.ru##.accordion-group[data-content-name="banner-static"]
 sports.ru,ua.tribuna.com,by.tribuna.com##.place-for-ad
 ua.tribuna.com,by.tribuna.com##.newsline aside.aliens
 sports.ru,ua.tribuna.com,by.tribuna.com##.teaser-before-links
+sports.ru##.layout__branding
+sports.ru##.columns__alt-column > div.frame:has(> div.geo-banner)
+sports.ru##.record-widget__bookmaker
+sports.ru##.factoid-coefficient
+sports.ru,tribuna.com##.promo-link
+cyber.sports.ru##:matches-path(/news/).box > .layout-columns > .rightPart:has(> .banner)
 !
 sports.ru#?#.broadcast > article.event-container:has(img[width="1100"][height="100"])
 sports.ru#?#.material-list--additional-block-reverse > article.material-list__item:has(> span:contains(/^Реклама$/))
@@ -18525,6 +18526,9 @@ sports.ru##div[class*="news-item__content"] > p > a[href^="https://trbna.co/"]
 sports.ru##.news-item__content > a[href^="https://trbna.co/"]
 ! VAST: https://uploads.adguard.com/up04_3dsdl_Sport_futbol_hokkei_basketbol_tennis_boks_biatlon_Formula-1__vse_novosti_sporta_na_Sports.ru.png
 ||cdn.videonow.ru^$domain=ua.tribuna.com|by.tribuna.com
+!
+!+ NOT_PLATFORM(windows, mac, android)
+sports.ru##+js(set-constant, Object.prototype.branding, '')
 ! END: sports.ru / ua.tribuna.com / by.tribuna.com
 !
 !

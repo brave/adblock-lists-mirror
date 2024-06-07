@@ -1999,4 +1999,10 @@ mp3y.info##+js(nowoif)
 @@||fx545.site^$ghide
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24006
-raidrush.net##+js(nostif, getComputedStyle)
+raidrush.net##+js(nostif, getComputedStyle(el))
+!#if env_firefox
+raidrush.net#@#.funbox
+raidrush.net#@##top_ga
+raidrush.net##.funbox:style(position: absolute !important; left: -10000px !important;)
+raidrush.net###top_ga:style(position: absolute !important; left: -10000px !important;)
+!#endif

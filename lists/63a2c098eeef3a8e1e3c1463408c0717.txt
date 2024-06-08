@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20240601
+! Version: 20240608
 
 ! General element hiding rules
 ##amp-ad
@@ -1331,6 +1331,7 @@
 ||fmkorea.com/_loader/loader.php^$domain=fmkorea.com
 ||fnnews.com/control^
 ||fnnews.com/include2011/section/google.jsp^
+||foeconomy.co.kr/data/banner/$domain=foeconomy.co.kr
 ||footballist.co.kr/bannerManager/upload/$domain=m.footballist.co.kr
 ||fow.tv/criteo_iframe_top_tv.php^$domain=fow.tv
 ||franecki.net/js/lib.js^
@@ -1597,6 +1598,7 @@
 ||jslog.coupang.com^
 ||json2.dcinside.com/json1/comment_boy_v*.php^$domain=m.dcinside.com
 ||jtbc.co.kr/common/json2XMLvast.aspx^
+||junggi.co.kr/data/__banner/$domain=junggi.co.kr
 ||kbench.com/article_right_box.php^$domain=kbench.com
 ||kbench.com/m_article_right_box.php^$domain=m.kbench.com
 ||khan.co.kr/ad/
@@ -2131,8 +2133,10 @@
 ||ss.dawin.tv/req^
 ||ssgdfs.com/kr/common/getPageIcfCd^$domain=ssgdfs.com
 ||ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js^$domain=~m.clien.net|~m.danawa.com|~search.danawa.com
+||ssl.pstatic.net/static/sportsdev/js/ArticleAd.js^$domain=m.sports.naver.com
 ||ssl.pstatic.net/t.static.blog/mylog/versioning//js/post/ssp/SspAdPostCallerForPC-*_https.js^$domain=blog.naver.com
 ||ssl.pstatic.net/tveta/libs/glad/glad-bridge.min.js^$domain=naver.com
+||ssl.pstatic.net/tveta/libs/glad/prod/*/sf-ext.js^$domain=naver.com
 ||ssl.pstatic.net/tveta/libs/glad_admute/prod/glad-admute.js^$domain=naver.com
 ||ssp.adpies.com/ssp/request^
 ||ssp.igaw.io/i/*.html^
@@ -3538,6 +3542,8 @@ focus.kr##div.g_area>div[style="width: 314px; height: 258px; text-align: center;
 focus.kr##div.g_area>div[style="width:314px;height:188px;background-color:white;text-align:center;padding-top:7px;margin-bottom:25px;"]
 focus.kr##div.g_area>div[style="width:314px;height:258px;background-color:white;text-align:center;padding-top:7px;margin-bottom:25px;"]
 focus.kr##div.header>div.wrap>div[style="position:absolute;right: 0px;bottom: 16px;width: 270px;height: 77px;background-color: white;z-index:10000"]
+foeconomy.co.kr##div.ads_box
+foeconomy.co.kr##div.banner_con
 fomos.kr##div#top_banner
 fomos.kr##div.banner_area
 fomos.kr##div.bottom_ad
@@ -4045,14 +4051,14 @@ imore.com##div.netshelter-ad
 imore.com##div.widget-ads
 independent.co.uk##div.onscroll-injected-ad
 indi.s58.xrea.com##div#vdbanner
-inews24.com##ad
-inews24.com##article#articleBody>container.h200px
-inews24.com##article#articleBody>div[style="text-align:center;height:280px;margin:35px 0px;overflow:hidden;"]
-inews24.com##body>container>div[style="text-align:center;height:280px;overflow:hidden;"]
-inews24.com##container.ad-head
-inews24.com##hr.ad
 inews24.com##iframe[src*="//iframe.inews24.com/ad/"]
 inews24.com##iframe[src*="//iframe.inews24.com/adm/"]
+inews24.com,joynews24.com##ad
+inews24.com,joynews24.com##article.view>div[style="text-align:right;margin-left:-80px;height:250px;overflow:hidden;"]
+inews24.com,joynews24.com##container.ad
+inews24.com,joynews24.com##container.ad-head
+inews24.com,joynews24.com##container.view>div[style="position:sticky;top:10px;width:299px;height:600px;display:flex;padding-bottom:100px;"]
+inews24.com,joynews24.com##hr.ad
 insight.co.kr##div#tbl-next-up
 insight.co.kr##div.ad-google-side1
 insight.co.kr##div.ad-google-side2
@@ -4068,6 +4074,7 @@ instiz.net##body>div[style="min-height:280px;"]
 instiz.net##div.board_img_foot:not([style])
 instiz.net##div.foot
 instiz.net##div.hot_under
+instiz.net##div.mainad_area
 instiz.net##div.pc_topad
 instiz.net##div.powerlink
 instiz.net##div.realchart_body>div.powerlink_m4
@@ -4239,15 +4246,12 @@ joongdo.co.kr##div#id_header_R
 joseilbo.com##div[class$="_banner"]
 joseilbo.com##div[class^="R_cnt_bn_"]
 joseilbo.com##iframe[src*="//adserver.joseilbo.com/openads/adframe.php"]
-joynews24.com##ad
-joynews24.com##body>container>div[style="text-align:center;height:280px;overflow:hidden;"]
-joynews24.com##container.ad
-joynews24.com##container.ad-head
-joynews24.com##hr.ad
 joynews24.com##iframe[src*="//iframe.joynews24.com/ad/"]
 joynews24.com##iframe[src*="//iframe.joynews24.com/adm/"]
 jr.naver.com##div.bigBanner
 jr.naver.com##div.top_banner
+junggi.co.kr##div.junggi-bottom_fixed
+junggi.co.kr##div.jungiad_list>div.banner_wrap
 justwatch.com##div.ad-unit
 kado.net##div.banner_event_box
 kado.net##div.float_banner
@@ -4451,6 +4455,7 @@ lady.khan.co.kr##div.aSide>div[style="margin-top:20px;  height:250px"]
 lady.khan.co.kr##div.aSide>div[style="margin:20px 0 40px 0;  height:250px"]
 lady.khan.co.kr##div[data-widget_id="GokE9Nlv"]
 lady.khan.co.kr##div[data-widget_id="goPmBr7Q"]
+land.naver.com##div#_home_smart_banner
 laptopmag.com##div#leaderboard
 laptopmag.com##div#rightcol_top
 laptopmag.com##div.adsbox
@@ -4695,6 +4700,7 @@ m.dcinside.com##div.all-comment>ul.all-comment-lst>li.comment:not([id])>div.dori
 m.dcinside.com##div.detail-top-lnk>a[href^="http://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text"]
 m.dcinside.com##h3.power-tit
 m.dcinside.com##section.adv-group
+m.dcinside.com##section.grid.clkhigh
 m.dcinside.com##ul.menu-scroll-lst>li.linebox
 m.dcinside.com##ul.power-lst
 m.donga.com##div.ad_main01
@@ -4762,6 +4768,8 @@ m.enter.etoday.co.kr##div#view_txt_w>div[style="float:right;width:200px;height:2
 m.enter.etoday.co.kr##div#view_txt_w>div[style="width:100%;height:250px;text-align:center;margin-bottom:25px;overflow:hidden;"]
 m.enter.etoday.co.kr##div.\33 20_ad
 m.enter.etoday.co.kr##div[id^="bnr_rdm_"]
+m.entertain.naver.com,m.sports.naver.com##div#section_end_right_banner
+m.entertain.naver.com,m.sports.naver.com##div.article_bottom_ad
 m.esports.dailygame.co.kr##div.banner-wrap
 m.etnews.com##div#bottomBigBanner
 m.etnews.com##div#boxContent>div[style="margin-top:20px;border:0;"]
@@ -4958,6 +4966,7 @@ m.inews24.com,m.joynews24.com##div#view_content>div[style="text-align:center;mar
 m.inews24.com,m.joynews24.com##div#view_content>span[style="width:1px;height:90px;float:right;background-color:#ffffff;"]
 m.inews24.com,m.joynews24.com##div.ad_myadcom
 m.inews24.com,m.joynews24.com##div[ad-slot]
+m.inews24.com,m.joynews24.com##main>div[style="width:100%;height:280px;text-align:center;overflow:hidden;background-color:#ddd"]
 m.insight.co.kr##div.ad-google-0
 m.insight.co.kr##div.adHeader
 m.insight.co.kr##div.daum-ad
@@ -4965,6 +4974,8 @@ m.insight.co.kr##div.fixed-bottom-ad
 m.insight.co.kr##div.fixed__banner
 m.insight.co.kr##div[data-widget_id="xlzgWGXZ"]
 m.insight.co.kr##li.page-more-ad
+m.instiz.net##body>div[style="min-height: 250px;"]
+m.instiz.net##body>div[style="min-height:250px;"]
 m.inven.co.kr##div#boardPart>div[style="text-align:center;height:50px;"]
 m.inven.co.kr##div#cauly_ad_area
 m.inven.co.kr##div#cauly_ad_area3
@@ -5394,6 +5405,9 @@ m.tf.co.kr##ins[data-ad-slot="7064539535/40408_300x250_IDN"]
 m.tf.co.kr##ins[data-ad-slot="7064539535/40409_300x250_IDN"]
 m.tf.co.kr##span#rectingle_spanTag_ad
 m.tf.co.kr##ul.twoLineAd
+m.thebigdata.co.kr##body>div[style="max-width: 640px;width: 100%;margin: 0 auto;position:fixed;bottom:0;min-height:50px;text-align: center;background:#fff;"]
+m.thebigdata.co.kr##div.wrap>div[class*=" mobview"]
+m.thebigdata.co.kr##div.wrap>div[class^="mobview"]
 m.theceluv.com##dd.dscr>table[height="120"][width="100%"]
 m.theceluv.com##div.ad_frame
 m.theceluv.com##section.main_bnr
@@ -5969,6 +5983,7 @@ news.nate.com##iframe[src^="/etc/viewTopBannerAD"]
 news.naver.com##div#doubleDA
 news.naver.com##div#rightDoubleDA
 news.naver.com##div.article_body>table[align="right"][border="0"][cellpadding="0"][cellspacing="0"][width="307"]
+news.naver.com##div.main_brick_item._card_ad
 news.naver.com##div.rightBottomDouble
 news.sbs.co.kr##div#all_vod_banner
 news.sbs.co.kr##div#sn_banner_article_bottom
@@ -6514,6 +6529,7 @@ ruliweb.com##div.adrrr
 rutor.info##div.sideblock2
 ryueyes11.tistory.com##div.entry>table[border="0"][cellpadding="0"][cellspacing="0"][width="100%"]
 ryueyes11.tistory.com##ins[data-ad-slot="2146069498"]
+salgoonews.com##div#tbl-next-up
 sbs.co.kr##div.da_banner_w
 sbs.co.kr##div.main_da_housebanner_w
 sciencealert.com##div.ad-slot
@@ -6758,8 +6774,6 @@ sports.news.nate.com##div.googleAd_wrap
 sports.news.nate.com##div.spaceBanner
 sports.news.nate.com##iframe[src^="//sports.news.nate.com/Etc/ViewADThumb"]
 sports.news.nate.com##iframe[src^="http://news.nate.com/etc/viewTopBannerAD"]
-sports.news.naver.com##div#section_end_right_banner
-sports.news.naver.com##div.cms_side_banner
 sports.orange.fr##div#commercial-links
 sports.orange.fr##div.pave_pub
 sportsseoul.com##div.ad-float-right
@@ -6826,7 +6840,7 @@ stv.seoul.co.kr##div.video_article>div[style="clear:both;float:left;display:inli
 stv.seoul.co.kr##div.video_article>div[style="float:right;display:inline-block;width:320px;height:250px;text-align:center;"]
 sundayjournalusa.com##div.flying_lban
 sundayjournalusa.com##div.flying_rban
-sundayjournalusa.com##header#header>div.wrap>div[style="float:right;width: 740px;text-align:right;margin-top: 3px;max-width:100%;"]
+sundayjournalusa.com##header#header>div.wrap>div[style="float:right;width: 740px;text-align:right;margin-top: 3px;max-width:98%;"]
 suyongso.com##div.rd_ft>div[class^="bd_"][class*="_m"]
 suyongso.com##div.side_b1
 suyongso.com##div[class^="bd_"][class*="_m"][class$="_1"][style="position:relative;text-align:center;margin:-30px 0 10px;"]
@@ -6937,6 +6951,8 @@ thebell.co.kr##div.article_content_banner
 thebell.co.kr##div.headadBanner
 thebell.co.kr##div.newsADBox
 thebell.co.kr##div.topBanner
+thebigdata.co.kr##div.banner_roll_bottom
+thebigdata.co.kr##div[class^="pcbview"]
 theblockchain.kr##div.commonBanner2
 theblockchain.kr##div.indexBannerWrap
 theblockchain.kr##div.indexMiddleBanner

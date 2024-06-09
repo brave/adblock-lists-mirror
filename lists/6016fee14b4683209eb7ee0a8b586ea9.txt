@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Cu3eIWExXMVpsbCqP91hWQ
-! Diff-Path: ../patches/16/16-s-1717886129-3600.patch
+! Checksum: GOUfta1caDOknOn6urvHBA
+! Diff-Path: ../patches/16/16-s-1717965269-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.12
-! TimeUpdated: 2024-06-08T22:33:33+00:00
+! Version: 2.0.45.13
+! TimeUpdated: 2024-06-09T20:32:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10972,6 +10972,7 @@ _siteunder/$popup
 ||jultscax.xyz^
 ||julyhadchose.com^
 ||jumpers.mobi^
+||jumpsbais.top^
 ||junebudcincher.com^
 ||justpush.biz^
 ||jvobcajoi.com^
@@ -12582,6 +12583,7 @@ _siteunder/$popup
 ||shahszaman.digital^
 ||shaiksuk.net^
 ||shakeegi.com^
+||shakoknock.com^
 ||shakotheclan.com^
 ||shallowinsect.com^
 ||shalseey.com^
@@ -14030,6 +14032,7 @@ _siteunder/$popup
 ||buzzadexchange.com^$popup,third-party
 ||bwinpartypartners.com^$popup,third-party
 ||camsoda.com^$popup,third-party
+||candy.ai^$popup,third-party
 ||cardmrket.com^$popup,third-party
 ||cash-duck.com^$popup,third-party
 ||cbshift.com^$popup,third-party
@@ -18345,7 +18348,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||guide-du-travail.com/popupaudio.php$popup
 ||histoires-de-sexe.net/histoires-sexe-videos.php$popup
 ||hotvideo.fr/popup.php$popup
-||japscan.lol/*=$popup
 ||jetanimes.com/wp-content/uploads/$popup
 ||liligo.*/compareSites/$popup
 ||links.fhsarl.com^$popup,third-party

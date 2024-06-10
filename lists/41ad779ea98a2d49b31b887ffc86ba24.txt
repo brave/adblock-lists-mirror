@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0hxFtacDb1UMXiOWHMyr7w
-! Version: 202406101740
+! Checksum: SFwm7Z+Kez6dkxgjOVxhgA
+! Version: 202406101940
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-10 17:40 UTC
+! Last modified: 2024-06-10 19:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37142,6 +37142,7 @@ ebaumsworld.com##.galleryImageShare
 gametyrant.com##.gametyrantSocial
 reneweconomy.com.au##.gb-share-list
 naval-technology.com##.gdm-article-share
+ghacks.net##.ghacks_share_widget
 avaaz.org##.global-footer-connect
 cars.com##.global-footer-social-buttons
 oneindia.com##.goog-one-news
@@ -44105,8 +44106,6 @@ thedp.com##body,html:style(overflow: auto !important; position: initial !importa
 ! emailnator.com
 emailnator.com##.modal
 emailnator.com##.modal-backdrop
-emailnator.com##+js(rc, modal-open, , stay)
-emailnator.com##html,body:style(position: static !important; overflow: auto !important; width: auto !important;)
 emailnator.com##.top-banner
 ! foundit.com.ph app download
 foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
@@ -45581,6 +45580,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-other, false)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
+mojposao.hr##+js(set-local-storage-item, cookies-policy-accepted, true)
 temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
 temu.com##+js(set-local-storage-item, last_prompt_time, 1)
 supreme.com##+js(set-local-storage-item, sup_gdpr_cookie, accepted)
@@ -52030,6 +52030,7 @@ bancobpm.it##.css-jyakza
 sevensalerno.it##.cw_container
 balarm.it##.cyn-banner
 dentisti-italia.it##.di-banner
+comune.bricherasio.to.it##.ep-cookiebar
 klepierre.it##.explicit_consent_backside
 farmaciasancarloroma.com##.fascia-avviso-coockie
 itpornit.com##.first-visit
@@ -53538,6 +53539,7 @@ ants.vn##.sg-popup-content
 ||emondo.de/wp-content/plugins/borlabs-cookie/
 ||epccm19.com/app.js
 ||fc.vodafone.de^
+||fewostay.de/ccm/public/index.php/app.js
 ||flvw.de/media/plugins/ConsentManager/ConsentManager.min.js
 ||gedk-consent.he-webpack.de/public/app.js
 ||henryschein.at^*/CookieList.aspx

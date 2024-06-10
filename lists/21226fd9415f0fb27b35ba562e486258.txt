@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: sh+aqbBDeMcZBu0YDE6CCw
+! Checksum: K4/cCCZ7T75OgsnFbGXNTQ
 ! Title: Easylist Cookie List
-! Updated: 2024-06-10 19:15 UTC
+! Updated: 2024-06-10 20:15 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -22271,7 +22271,9 @@ greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_conse
 greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_consent_advertising, false)
 greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_consent_analytics, false)
 privatekeys.pw##+js(set-cookie, cookie_consent_closed, 1)
+reservations.helveticmotion.ch##+js(set-cookie, decline, true, , , reload, 1)
 srf.nu##+js(set-cookie, CookieConsent, necessary)
+rovia.es##+js(set-cookie, cookiesAccepted, 1)
 airnewzealand.co.nz##+js(set-cookie, airTRFX_cookies, accepted)
 viu.com##+js(set-cookie, cookie_consent_accept, true)
 dinamalar.com##+js(set-cookie, agree, true)
@@ -23150,6 +23152,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-other, false)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
+mojposao.hr##+js(set-local-storage-item, cookies-policy-accepted, true)
 temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
 temu.com##+js(set-local-storage-item, last_prompt_time, 1)
 supreme.com##+js(set-local-storage-item, sup_gdpr_cookie, accepted)
@@ -26120,6 +26123,7 @@ gartengeraete-onlineshop.de##.z-100.py-6.max-h-screen
 moebel.de##.z-\[1000\].fixed
 swu.de##[class*="-banner"]
 gutscheine.de##[data-ssr-consent]
+notebooksbilliger.de##[data-testid="uc-app-container"]
 meinungsstark.de##[role="dialog"]
 cecil.de##consent-layer
 puerner.de##dialog[style="border-color:lightgray;border-width:2px;border-radius:6px;"]
@@ -27154,6 +27158,7 @@ bancobpm.it##.css-jyakza
 sevensalerno.it##.cw_container
 balarm.it##.cyn-banner
 dentisti-italia.it##.di-banner
+comune.bricherasio.to.it##.ep-cookiebar
 klepierre.it##.explicit_consent_backside
 farmaciasancarloroma.com##.fascia-avviso-coockie
 itpornit.com##.first-visit
@@ -28662,6 +28667,7 @@ ants.vn##.sg-popup-content
 ||emondo.de/wp-content/plugins/borlabs-cookie/
 ||epccm19.com/app.js
 ||fc.vodafone.de^
+||fewostay.de/ccm/public/index.php/app.js
 ||flvw.de/media/plugins/ConsentManager/ConsentManager.min.js
 ||gedk-consent.he-webpack.de/public/app.js
 ||henryschein.at^*/CookieList.aspx

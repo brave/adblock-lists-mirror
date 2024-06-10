@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 85cFCHtM3CvZ4JbGTLWdXg
-! Diff-Path: ../patches/1/1-s-1718055334-3600.patch
+! Checksum: 6ZMrF1nhiXq+pQ1JuVAeTg
+! Diff-Path: ../patches/1/1-s-1718058922-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.91.41
-! TimeUpdated: 2024-06-10T21:31:17+00:00
+! Version: 2.0.91.42
+! TimeUpdated: 2024-06-10T22:31:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18614,7 +18614,6 @@ vc.ru##.entry-rotator
 vc.ru##.dstr-fl
 dtf.ru##.supbar--top
 dtf.ru,vc.ru##.propaganda
-dtf.ru#?#.content-list > div[class]:has(> div > div:contains(реклама))
 dtf.ru##.rotator
 dtf.ru##div.subsite-header > div.subsite-header__cover > a.subsite-branding
 dtf.ru##.post-branding-top
@@ -18622,7 +18621,7 @@ dtf.ru##.post-branding-bottom
 dtf.ru#?#.feed-page__content-list > div.content-list > div.content + div[class][style]:has(> a[target="_blank"])
 new.dtf.ru##a[class^="post-branding-"]
 dtf.ru,vc.ru#?#.feed__chunk > div.l-island-b:has(> a[target="_blank"])
-dtf.ru,vc.ru#?#div.l-island-b:has(> div.l-island-d div:contains(Реклама))
+dtf.ru,vc.ru##.content-list > div[class]:has(> a[href^="https://booster.osnova.io/a/redirect"])
 vc.ru#?#div[class="feed"][data-feed-more-url^="https://vc.ru/"] div.feed__item:has(> div.content-feed--promo)
 dtf.ru,vc.ru##.booster-promo
 vc.ru##a[href="https://vc.ru/special/fifty-todo"]

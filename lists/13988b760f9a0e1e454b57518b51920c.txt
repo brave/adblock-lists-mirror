@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: IqzPin51v41yj/MLKG65JA
-! Version: 202406101350
+! Checksum: PoP4SjPoJgHa4+VMjupfUA
+! Version: 202406101501
 ! Title: EasyList Italy
-! Last modified: 10 Jun 2024 13:50 UTC
+! Last modified: 10 Jun 2024 15:01 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -1391,6 +1391,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||lacronacadiravenna.it/file/*/banner_
 ||ladigetto.it/files/banners/
 ||lafune.eu/wp-content/uploads/*/Banner-
+||lagazzetta.info/wp-content/uploads/banner/
 ||lagazzettaaugustana.it/wp-content/plugins/ruota-banner-widget/
 ||lagazzettadelmezzogiorno.it/upload/1682775693137.jpg
 ||lagazzettadilucca.it/images/banners/
@@ -1399,6 +1400,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||lagazzettaonline.info/portal/images/banners/
 ||lagomaggiore24.it/images/banner/
 ||lanuovacalabria.it/media/images/banner/
+||lanuovagazzettadisaluzzo.it/style/bg.JPG
 ||laprovinciacr.it/upload/1693226934775.jpg
 ||laprovinciacr.it/upload/1693477452631.jpg
 ||laprovinciakr.it/modules/mod_responsivebannerslider/
@@ -1779,7 +1781,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||italiani.it^*/compramadeinitaly.jpg
 ||l-8.it/images/allstudio-2017.jpg
 ||l-8.it/images/ritratto-rid-1.jpg
-||lagazzetta.info^*/banner/
 ||lagoleada.it^*-300x250.
 ||lagoleada.it^*/300-x-250-
 ||lapressa.it/imgs/partners/
@@ -2946,7 +2947,7 @@ pornoitaliano.com##.happy-section
 cuckold.it##.happy-sidebar
 cuckold.it##.happy-under-player
 meglioviaggiare.it,siciliaoggi.com##.header-ainfo
-assisisport.it,oddslot.it,oltreilfatto.it,palermolive.it,radioviainternet.it,siderweb.com,toscana.live##.header-banner
+assisisport.it,lagazzetta.info,oddslot.it,oltreilfatto.it,palermolive.it,radioviainternet.it,siderweb.com,toscana.live##.header-banner
 nauticareport.it##.header-centerbar-ad
 genovaquotidiana.com##.header-image-wrap
 vercellioggi.it##.header-images
@@ -3582,6 +3583,7 @@ umbriasocial.it##div[id^="umbri-"]
 uominietrasporti.it##div[id^="uomin-"]
 viaggioff.it##div[id^="viagg-"]
 weareblog.it##div[id^="weare-"]
+lanuovagazzettadisaluzzo.it##div[onclick*="return x5engine.utils.imPopUpWin("]
 radiortm.it##div[style*="height: 350px;"]
 cruiselifestyle.it##div[style*="height: 78px;"]
 cruiselifestyle.it##div[style*="height: 90px;"]
@@ -3653,6 +3655,8 @@ mondoprimavera.com##img[style="width: 200px; height: 400px;"]
 mondoprimavera.com##img[style="width: 300px; height: 250px;"]
 reggiotv.it##img[style="width: 650px;height: 115px;"]
 sscalciobari.it##img[style="width:100%;margin-top:20px;"]
+lagazzetta.info##img[style="width:300;height:250;"]
+lanuovagazzettadisaluzzo.it##img[style^="width: 234px; float: left;"]
 primapaginanews.it##img[style^="width:336px;height:136px;"]
 primapaginanews.it##img[style^="width:728px;height:210px;"]
 viaggiallafinedelmondo.it##img[style^="width:728px;height:90px;"]
@@ -4994,6 +4998,7 @@ adnkronos.com#?#.cont-ev-list:-abp-has(.title-channel:-abp-contains(in Evidenza)
 agi.it#?#.agi-article-card:-abp-has(.article-category:-abp-contains(BRANDED CONTENT))
 cronacadiverona.com#?#.td_block_template_1:-abp-has(.td-block-title-wrap:-abp-contains(Banner))
 guadagna.net#?#center:-abp-has(a:-abp-contains(Esponi i tuoi banner sul forum))
+ilpiccolo.net#?#.article:has(div.categories:-abp-contains(pubbliredazionale))
 ilprogettistaindustriale.it#?#.td_block_wrap:-abp-has(span:-abp-contains(Contenuti sponsorizzati))
 investire.biz#?#.container-fluid.py-3.bg-white-color.pl-5.pr-5:-abp-has(.text-black.weight-400.mb-0:-abp-contains(I Nostri Partners))
 laleggepertutti.it#?#.cl-amp-important-information:-abp-has(div:-abp-contains(Annuncio pubblicitario))

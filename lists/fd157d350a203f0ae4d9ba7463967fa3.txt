@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JvjSjR+v+ltU9BErk0fNRg
-! Version: 202406101051
+! Checksum: j4LnUHSaZbw/GiHIxlxFeA
+! Version: 202406101200
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jun 2024 10:51 UTC
+! Last modified: 10 Jun 2024 12:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23724,7 +23724,7 @@ ferra.ru,letidor.ru,moslenta.ru,motor.ru,passion.ru,quto.ru,secretmag.ru,wmj.ru#
 gazeta.ru##.m_zen
 lenta.ru##.promo-block
 gazeta.ru##.rcmw-container
-championat.com##.recommender-block ~ .banner + div
+championat.com##.recommender-block ~ .banner + div:not([class*="comments"])
 top100.rambler.ru##.rui-Snackbar-snackbar
 moslenta.ru##.sideColumn > div[class] > div[style^="margin-bottom:"] + div
 lenta.ru##.topic-page__info ~ div

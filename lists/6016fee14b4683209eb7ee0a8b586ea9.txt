@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6vwhALv/PfCkTOmNGtaU8g
-! Diff-Path: ../patches/16/16-s-1718023069-3600.patch
+! Checksum: RK8VxCURi4a/IQFcdLM9NA
+! Diff-Path: ../patches/16/16-s-1718033756-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.15
-! TimeUpdated: 2024-06-10T12:35:17+00:00
+! Version: 2.0.45.16
+! TimeUpdated: 2024-06-10T15:33:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -964,7 +964,7 @@ iphon.fr,presse-citron.net##.od-wrapper
 autoplus.fr,iphon.fr,presse-citron.net##.vsly-player
 melty.fr#?#.placeholder-pub_dfp
 closermag.fr#?##left_wrapper > aside#text-22:has(> div.textwidget > div.akcelo-wrapper)
-leboncoin.fr###mainContent > div > div#lht-space-ad:upward(1)
+leboncoin.fr#?##mainContent > div > div#lht-space-ad:upward(1)
 lpnt.fr,lepoint.fr##.slotadm
 lpnt.fr,lepoint.fr##div#CONT_WRAP_PAVE_ATF
 lpnt.fr,lepoint.fr###TABOOLA_D

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: GKsUxEFa9IjonrLWj+/62w
-! Diff-Path: ../patches/224/224-s-1718023071-3600.patch
+! Checksum: vEMiwqjmXyXXuku8Skz3hw
+! Diff-Path: ../patches/224/224-s-1718033758-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.17.25
-! TimeUpdated: 2024-06-10T12:35:28+00:00
+! Version: 2.1.17.26
+! TimeUpdated: 2024-06-10T15:33:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1136,7 +1136,7 @@ ablesci.com##.able-container-body-right > div.fly-panel:has(> div[style="text-al
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > ins)
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > div[id^="ts_ad_native"])
 hmoeh.com##div[class] > div[class]:has(> a[href] > img[src^="https://ad."])
-elle.com.hk##article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
+elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
 elle.com.hk##.tpc-container
 xiazai.zol.com.cn##img[alt^="AiPPT"]
 new-reporter.com##div[id^="mdl-elmt-"]

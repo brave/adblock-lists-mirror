@@ -55,9 +55,9 @@ vidsrc.*##+js(nosiif, /0x|sandCheck/)
 vidsrc.*##+js(nowoif)
 vidsrc.*##+js(aopr, __Y)
 vidsrc.*##+js(aopr, AaDetector)
-||recordedthereby.com^
 vidsrc.*###pop_asdf
 ||katebugs.com^
+||vidsrc.pro/uwu-js/binged.live$script
 embed.smashystream.com###addiv
 ! https://github.com/uBlockOrigin/uAssets/issues/23610
 streambucket.net##+js(acs, EventTarget.prototype.addEventListener, /runPop|aclib|window\.open/)
@@ -2024,3 +2024,6 @@ pay4fans.com##+js(nowoif)
 ! https://github.com/uBlockOrigin/uAssets/issues/24038
 ||caravanmagazine.in/iframes/flipkart-ad-$frame,1p
 caravanmagazine.in##.article_content > [class] > [class]:has(.iframe_embed_container):remove()
+
+! https://github.com/uBlockOrigin/uAssets/issues/24041
+binged.live##+js(nowoif)

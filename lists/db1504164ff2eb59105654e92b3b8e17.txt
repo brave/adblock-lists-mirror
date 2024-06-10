@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /1PGc9msHNlN3952yhlyfw
-! Version: 202406100800
+! Checksum: aMCH6Ufgp5wbH//I0s6a6Q
+! Version: 202406100901
 ! Title: EasyList China
-! Last modified: 10 Jun 2024 08:00 UTC
+! Last modified: 10 Jun 2024 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1648,6 +1648,7 @@ newduba.cn###jq_youxi
 ##dl#listwoBox
 ##img#GGADIMG
 ##img#adv1
+##.yueduad1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -1692,6 +1693,7 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 !
 ||auislq.top^
+||taproximo.com^
 ||ligfdjnfd.cn^
 ||ozykeor.icu^
 ||yxkbgg.xyz^
@@ -11315,6 +11317,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||hb8g86k.mom/mz.js
 !------------------------Specific element hiding rules------------------------!
 chongbuluo.com##.search > div[style="width: 607px;margin-top:30px;"]
 qciss.net##.d1
@@ -11743,7 +11746,6 @@ hexieshe.cn###custom_html-2
 24kplus.com###custom_html-3
 tmioe.com###custom_html-4
 18avinin.com,27ka.cn,sunnylife.tw###custom_html-5
-vikacg.com###custom_html-9
 makaidong.com###cyWallsplugin
 eworldship.com###d1
 eworldship.com###d2
@@ -12047,7 +12049,6 @@ duote.com###hengfu
 hexun.com###hexunCouplet01
 eepw.com.cn###hiddenLayer
 yxdown.com###highdown
-vikacg.com###home-row-lunbo
 wacowla.com###home-top-narrow
 t.qq.com###homeBannerNew
 bjhockey.org###homeVideoModal
@@ -15982,7 +15983,7 @@ chinacsbs.com##a[href^="/plus/view.php?aid="]
 fx112.com##a[href^="/union."]
 jr22.xyz##a[href^="ad."]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
-vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
+vikacg.com,vikacg.xyz##a[href^="http"] > img[src^="/assets/main/"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
 90oo.com##a[href^="http"]:not([href*=".90oo."]) > img[src*="/tp/"]

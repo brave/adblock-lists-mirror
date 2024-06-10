@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aMCH6Ufgp5wbH//I0s6a6Q
-! Version: 202406100901
+! Checksum: hwHPTbnzc3+WGuqVv3khFw
+! Version: 202406101000
 ! Title: EasyList China
-! Last modified: 10 Jun 2024 09:01 UTC
+! Last modified: 10 Jun 2024 10:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1667,6 +1667,8 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.infomation + #notice_container > .event-notice
+##.gotoclick[adv_id]
 ##script + .header_rmb
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -1694,6 +1696,7 @@ newduba.cn###jq_youxi
 !
 ||auislq.top^
 ||taproximo.com^
+||twqtf.boats^
 ||ligfdjnfd.cn^
 ||ozykeor.icu^
 ||yxkbgg.xyz^
@@ -11323,6 +11326,7 @@ chongbuluo.com##.search > div[style="width: 607px;margin-top:30px;"]
 qciss.net##.d1
 qciss.net###lightbox
 qciss.net###lightbox1
+360kuai.com##.marketing-box
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -13867,7 +13871,6 @@ epinv.com##.epinv_f
 shulink.com##.er_g
 sinolub.com##.erjlogo > .fl + .fl
 bilibili.com##.eva-banner
-zztt11.com,zztt24.com##.event-notice
 2345.com##.event1-hasList
 58.com##.ewmAdNew
 8264.com##.ewmbox
@@ -14085,7 +14088,6 @@ jandan.net##.goods2-list
 kkbox.com##.google-ad-manager
 techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
-zztt11.com,zztt24.com##.gotoclick
 cmhello.com##.gpost-above
 agentm.tw##.gpt-ad-slot
 cool3c.com##.gpt-new
@@ -14738,7 +14740,6 @@ mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
 dyhjw.com##.nn_link
 pornbest.org,pornlulu.com,ptt.sex##.no-gutters
-zztt11.com,zztt24.com##.no-mask
 prts.wiki##.nomobile[style*="810px;height:240"]
 zhicheng.com##.normal-banner
 admin5.com##.notice
@@ -16385,7 +16386,6 @@ bmcx.com##div[id^="ggwz"]
 fx110.com,fx110.uk##div[id^="ghz"]
 so.com##div[id^="guang-"]
 hinews.cn##div[id^="hi_gg_"]
-vikacg.com##div[id^="home-row-ads"]
 fx678.com##div[id^="hta_"]
 wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]

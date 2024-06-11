@@ -1,9 +1,9 @@
-! Checksum: qT2+JmE5oa4bldma4kn3WQ
-! Diff-Path: ../patches/7/7-s-1718120145-3600.patch
+! Checksum: cW7rBb9AmHYVcmf6A3FKJw
+! Diff-Path: ../patches/7/7-s-1718123784-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.66
-! TimeUpdated: 2024-06-11T15:32:56+00:00
+! Version: 2.0.52.67
+! TimeUpdated: 2024-06-11T16:33:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1803,9 +1803,9 @@ emonzyaku.com##.entry-content > h4:has(table a[href^="https://hb.afl.rakuten.co.
 emonzyaku.com##.entry-content > p[style^="text-align:"]
 simtransfer.wpx.jp##div[id$="-fixed-menu"]
 simtransfer.wpx.jp##div[id$="_bnr"]
-||rokemoba.com/smartphone/wp-content/uploads/*/rakuten-
-rokemoba.com##.p-blogParts:not(.post_content)
-rokemoba.com##div[class^="blog_parts_fix_"]
+||rokemoba.com/smartphone/wp-content/uploads/2024/04/rakuten-
+rokemoba.com##.l-mainContent__inner > div.p-blogParts
+rokemoba.com##.blog_parts_fix_pc
 rokemoba.com##.p-blogParts.post_content > .is-style-bg_main_thin
 inkyagamer.com###media_image-9
 hikkoshizamurai.jp##.stickyFooter

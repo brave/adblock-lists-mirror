@@ -1,9 +1,9 @@
-! Checksum: iNQzVdx4354O5php0CnJzA
-! Diff-Path: ../patches/7/7-s-1718087707-3600.patch
+! Checksum: A1An1s/1IQmjTqDWBsOrlg
+! Diff-Path: ../patches/7/7-s-1718102150-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.63
-! TimeUpdated: 2024-06-11T06:32:28+00:00
+! Version: 2.0.52.64
+! TimeUpdated: 2024-06-11T10:32:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1796,6 +1796,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+emonzyaku.com##.entry-content > h4:has(table a[href^="https://hb.afl.rakuten.co.jp/ichiba/"])
+emonzyaku.com##.entry-content > p[style^="text-align:"]
 simtransfer.wpx.jp###pc-fixed-menu
 simtransfer.wpx.jp##div[id$="_bnr"]
 ||rokemoba.com/smartphone/wp-content/uploads/*/rakuten-
@@ -4455,7 +4457,7 @@ cantera.camp##.p-cb__item--ad
 telling.asahi.com##.c-promotion
 telling.asahi.com##.kiji_rect01
 jpnculture.net##div[id^="jpncu-"]
-volx.jp,jpnculture.net###st_custom_html_widget-2
+umaumanews.com,volx.jp,jpnculture.net###st_custom_html_widget-2
 jpnculture.net###st_custom_html_widget-7
 city.kashiwa.lg.jp###tmp_advert_items
 keyakizaka46matomemory.net##.adsbygoogle ~ table[width="100%"]
@@ -5936,7 +5938,7 @@ reiwa-kawaraban.com,syukan.chinsiko.xyz,4610.adultav55.com,tentacles.biz,kankore
 sossy-blog.com,game16.net,mimiblo.com,videogakuen.com,yamakamu.net,minaminumaebi.blogmimi.com,hana3939.com,baseballchannel.jp###text-13
 bl-archive.net,anichoice.com,sgamesreview.com,shico.xyz,oreteki-design.com###text-14
 sossy-blog.com,lefty322.com,av-baron.com,ikikatadatabase.com,videogakuen.com,yasasiikurasi.com,mhmatome.com,sundaygamer.net###text-15
-ero-gazou.jp,mangagift.com,videogakuen.com,newageinglog.com,imashun-navi.com,jumpmatome2ch.biz,news.sod.co.jp###text-16
+umaumanews.com,ero-gazou.jp,mangagift.com,videogakuen.com,newageinglog.com,imashun-navi.com,jumpmatome2ch.biz,news.sod.co.jp###text-16
 xn--eckl0bk7f7cc4od8az005k0ssb.xyz,nemotohiroyuki.jp,sexyvoice.org###text-17
 himmel-ellipse.com,orenoraresne.com,xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com,oreteki-design.com,kaiten-heiten.com,inshokuten.com###text-18
 j-oosk.com###text-19

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: RspL5MyggnltZLrAvWCvig
-! Diff-Path: ../patches/9/9-s-1718037327-3600.patch
+! Checksum: bB8ZAk1rQvEftFgX6G2GqQ
+! Diff-Path: ../patches/9/9-s-1718098571-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.34
-! TimeUpdated: 2024-06-10T16:32:48+00:00
+! Version: 2.0.25.35
+! TimeUpdated: 2024-06-11T09:33:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1474,6 +1474,8 @@ peru21.pe#@#.adstop
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/181063
+seriesbanana.com##+js(set-cookie, player, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180905
 cineplus123.org##+js(remove-attr, href, a[href]#clickfakeplayer)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180719
@@ -1789,6 +1791,9 @@ tuhentaionline.com##+js(abort-on-property-read, Pub2)
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/181063
+seriesbanana.com#$##playx { display: none !important; }
+seriesbanana.com#$##plays { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177517
 elmueble.com#$#header { top: 0 !important; }
 elmueble.com#$#.admobile { display: none !important; }

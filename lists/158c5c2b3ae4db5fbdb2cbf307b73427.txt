@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ddKLIVQRW1V01XVlE6a67Q
-! Version: 202406121100
+! Checksum: SxT83IiA7rbcTn7cukn6Hg
+! Version: 202406121201
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Jun 2024 11:00 UTC
+! Last modified: 12 Jun 2024 12:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6005,7 +6005,7 @@ video.matchtv.ru##a.vjs-link[href^="https://matchtv.ru/subscriptions"]
 mywebpc.ru##a[alt="donate"]
 youla.ru##a[href*=".com/"][href*="/app"][title][target="_blank"]
 sibnet.ru##a[href*="/delivery/ck.php"][target="_blank"]
-18000.com.ua,1kr.ua,2ip.ua,babel.ua,chytomo.com,delo.ua,fastpic.org,forumodua.com,glav.su,infoindustria.com.ua,inforesist.org,itechua.com,jewishnews.com.ua,lb.ua,mezha.media,mmr.net.ua,prufy.ru,remontka.pro,rubryka.com,sknews.net,slk.kh.ua,tvrain.tv##a[href*="/donate"]
+18000.com.ua,1kr.ua,2ip.ua,babel.ua,chytomo.com,delo.ua,expert.in.ua,fastpic.org,forumodua.com,glav.su,infoindustria.com.ua,inforesist.org,itechua.com,jewishnews.com.ua,lb.ua,mezha.media,mmr.net.ua,prufy.ru,remontka.pro,rubryka.com,sknews.net,slk.kh.ua,tvrain.tv##a[href*="/donate"]
 f1news.ru,liga.net##a[href*="/donation"]
 anidub.vip,anidubonline.com##a[href*="/donut/"] > div[class^="bannertopclass"]
 shazoo.ru##a[href*="/hubs"]
@@ -6940,7 +6940,7 @@ google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"] > div[
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"][data-ogsr-up] > div[style*="overflow: hidden;"][style*="position: absolute;"][style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[jscontroller] [href*="?utm_source=googlehpfooter"]
 google.by,google.com,google.com.ua,google.kz,google.ru##mobile-promo
-www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "] #main > #cnt > #lb:style(display: none !important)
+www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "] #main > #cnt > #lb:has(update-location):style(display: none !important)
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "]:style(overflow: auto !important)
 !#if !env_firefox
 www.google.*##+js(remove-node-text, script, cookieUpdateConsentUrl)

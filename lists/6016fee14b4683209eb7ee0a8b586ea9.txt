@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wXc2nscaE3k9OPqyShBRng
-! Diff-Path: ../patches/16/16-s-1718188554-3600.patch
+! Checksum: VpDGOMvzyGcQ4Yj1Wgo+fw
+! Diff-Path: ../patches/16/16-s-1718192113-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.19
-! TimeUpdated: 2024-06-12T10:33:43+00:00
+! Version: 2.0.45.20
+! TimeUpdated: 2024-06-12T11:33:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -848,6 +848,8 @@ $script,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|staticall
 !
 !
 !
+lephoceen.fr##div[class^="ad_ad_"]
+lephoceen.fr##div[class^="layout_megabanTopContainer"]
 lesechos.fr#?#span[shape="circle"] + span:contains(Publicité):upward(2)
 japscan.lol##.copineess
 japscan.lol##.tangoai
@@ -1088,7 +1090,7 @@ programme-television.org##.content_right > div.p-sticky
 programme-television.org##div[class*="placeholder"]
 lalibre.be##iframe[src^="//immobox.logic-immo.be/logic_immo_be/widget/"]
 igen.fr,trustmyscience.com##div[data-hbdbrk-parent="true"]
-closermag.fr,igen.fr,trustmyscience.com##body .ads:not(#style_important)
+lephoceen.fr,closermag.fr,igen.fr,trustmyscience.com##body .ads:not(#style_important)
 lcd-compare.com##.page-head-ad
 blog-rct.com##body .code-block
 neko-sama.fr##a[href^="https://buqkrzbrucz.com/"]

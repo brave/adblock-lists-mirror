@@ -1,9 +1,9 @@
-! Checksum: cJoGmgd/9KJ1Xd9sHkKCsA
-! Diff-Path: ../patches/7/7-s-1718188560-3600.patch
+! Checksum: pV5t4y1JFkeMEAsbFgTdEQ
+! Diff-Path: ../patches/7/7-s-1718195753-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.68
-! TimeUpdated: 2024-06-12T10:33:19+00:00
+! Version: 2.0.52.69
+! TimeUpdated: 2024-06-12T12:33:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3268,7 +3268,7 @@ asahi.com##div[x-component-name="AsahiDynamicInclude"][x-component-data]
 mirror.asahi.com,smbiz.asahi.com,souzoku.asahi.com##div[class^="ad-"][class$="-footer"]
 mirror.asahi.com,smbiz.asahi.com,souzoku.asahi.com##div[class^="ad-"][class*="-rect-"]
 souzoku.asahi.com##a[id^="article-ad-ad_"]
-monolog.r-n-i.jp,btnmaker.me,panchiragazo.com###slide_wrap
+fig-memo-r18.site,monolog.r-n-i.jp,btnmaker.me,panchiragazo.com###slide_wrap
 ||wp.com/coincheck.com/images/affiliates/
 helohelion.net##.first-article div[style="”text-align:center;”"]
 itainews.com###poweredAdsBy

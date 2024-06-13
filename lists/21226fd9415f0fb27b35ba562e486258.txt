@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: vQNI404cQY/mPUxiOFA+Cw
+! Checksum: xy97fhzuhhj6L5t19IxT3g
 ! Title: Easylist Cookie List
-! Updated: 2024-06-12 22:15 UTC
+! Updated: 2024-06-12 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -22532,7 +22532,8 @@ doppelmayr.com##+js(set-cookie, essential, true)
 case-score.com##+js(set-cookie, cookieConfirm, true)
 case-score.com##+js(set-cookie, trackingConfirm, false)
 cote.co.uk,finimize.com##+js(set-cookie, cookie_consent, false)
-blxxded.com##+js(set-cookie, cookie_consent, true)
+k-einbruch.de,blxxded.com##+js(set-cookie, cookie_consent, true)
+k-einbruch.de##+js(set-cookie, gtm-disable-GTM-NLVRXX8, true)
 rtu.lv##+js(set-cookie, uce-cookie, N)
 sysdream.com##+js(set-cookie, tarteaucitron, false)
 cinemarkca.com##+js(set-cookie, cookiePolicies, true)
@@ -23194,8 +23195,6 @@ jito.wtf##+js(set-local-storage-item, hasConsentedPH, no)
 schneidewind-immobilien.de##+js(set-local-storage-item, pcClosedOnce, true)
 textshuttle.com##+js(set-local-storage-item, textshuttle_cookie, false)
 simpleswap.io##+js(set-local-storage-item, cookies-notification-message-is-hidden, true)
-cachecrawler.com##+js(set-session-storage-item, hasConsent, 1)
-cachecrawler.com##+js(set-session-storage-item, hasDsg, 1)
 wales.nhs.attendanywhere.com##+js(set-local-storage-item, cookieBanner, false)
 astondevs.ru##+js(set-local-storage-item, banner, true)
 comnet.com.tr##+js(set-local-storage-item, cookieConsent, true)
@@ -23337,6 +23336,8 @@ aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com##+js(s
 workwide.de##+js(set-session-storage-item, cookieModal2, 1)
 erco.com##+js(set-session-storage-item, cookieMessageDisagree, true)
 smartwielen.lu##+js(set-session-storage-item, terms-and-policy-accepted, true)
+cachecrawler.com##+js(set-session-storage-item, hasConsent, 1)
+cachecrawler.com##+js(set-session-storage-item, hasDsg, 1)
 griffin.com##+js(set-session-storage-item, griffinConsentIgnored, 1)
 c6bank.com.br##+js(set-session-storage-item, ACCEPT_LGPD, true)
 gedik.com##+js(set-session-storage-item, acceptCookies, false)
@@ -25848,7 +25849,7 @@ propay.be##.accept_cookies_wrapper
 sojka-solutions.com##.active
 ajs-bw.de,kbaur-gmbh.com,tus-almena.de##.alertbanner
 muehlbacher.de##.alm--is-muehlbacher-cookie
-kedo.de##.amgdprcookie-modal-container
+american-heritage.de,kedo.de##.amgdprcookie-modal-container
 ctt.de##.amgdprjs-bar-template
 aktieninvestor.net,klaus-grillt.de,promobricks.de,shop.ls-klima.de##.animate__none
 1avisum.de##.announcement
@@ -29309,7 +29310,7 @@ baden-wuerttemberg.de,calameo.com#@#div.cookie-alert
 abw.by,autohaus24.de,cera.coop,channel4.com,chipkinspuratos.co.za,golnanpuratos.com,intersport.de,puratos.at,puratos.be,puratos.bg,puratos.ca,puratos.ch,puratos.cl,puratos.cn,puratos.co.cr,puratos.co.id,puratos.co.jp,puratos.co.kr,puratos.co.th,puratos.co.uk,puratos.com.ar,puratos.com.au,puratos.com.br,puratos.com.mx,puratos.com.my,puratos.com.ph,puratos.com.tr,puratos.com.ua,puratos.cz,puratos.de,puratos.dk,puratos.ee,puratos.es,puratos.fr,puratos.gr,puratos.hu,puratos.in,puratos.it,puratos.lt,puratos.lv,puratos.md,puratos.nl,puratos.pe,puratos.pl,puratos.pt,puratos.ro,puratos.rs,puratos.ru,puratos.us,puratos.uy,puratosgrandplace.com#@#div.cookie-banner
 epochtimes.it,frankfurt-school.de,onnibus.com,stilord.com,stilord.de,stilord.fr,stilord.pl#@#div.cookie-bar
 praca.by#@#div.cookie-confirm
-booking.reederei-zingst.de,booking.weisse-flotte.de,booking2.reederei-hiddensee.de,dovoba.de,forcetools-kepmar.eu,kund.bliwa.se,linkedin.com,moreincommon.de,portal.payment.eltax.lta.go.jp#@#div.cookie-consent
+booking.reederei-zingst.de,booking.weisse-flotte.de,booking2.reederei-hiddensee.de,dovoba.de,forcetools-kepmar.eu,k-einbruch.de,kund.bliwa.se,linkedin.com,moreincommon.de,portal.payment.eltax.lta.go.jp#@#div.cookie-consent
 solcom.de#@#div.cookie-consent-banner
 sevdesk.de#@#div.cookie-consent-modal
 ieatfoodtours.co.uk,onceinrome.com,weliketuscany.it#@#div.cookie-consent-popup
@@ -29629,6 +29630,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
 @@||iubenda.com^$script,stylesheet,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|cagliaripad.it|capital.it|centrometeoitaliano.it|cioccolatonippon.it|darkhorizons.com|deejay.it|gelocal.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ilsecoloxix.it|kisskiss.it|lastampa.it|leanplayer.com|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|movieplayer.it|mowmag.com|multiplayer.it|player.boom973.com|r101.it|radiomontecarlo.net|repubblica.it|rockol.it|saratoga.it|today.it|tomshw.it|virginradio.it
+@@||k-einbruch.de/typo3conf/ext/codetris_propk/Resources/Public/JavaScript/main/cookie_consent.js$~third-party
 @@||kalaydo.de^*/cookie-consent.jsc.js$domain=kalaydo.de
 @@||kjellmann.no^*/cookielaw/css/cookielaw.css$stylesheet
 @@||learner.mycreds.ca/assets/js/services/cookiesConsent.min.js$~third-party

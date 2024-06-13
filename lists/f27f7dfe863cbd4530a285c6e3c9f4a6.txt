@@ -1,9 +1,9 @@
-! Checksum: +2ivnpiweV979rLrLTsjHQ
-! Diff-Path: ../patches/7/7-s-1718285791-3600.patch
+! Checksum: IYQTytk/zmJFz+hJmNLw+w
+! Diff-Path: ../patches/7/7-s-1718289618-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.74
-! TimeUpdated: 2024-06-13T13:34:02+00:00
+! Version: 2.0.52.75
+! TimeUpdated: 2024-06-13T14:37:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1798,6 +1798,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+hamachan.info##div[id^="hamac-"]
+hamachan.info##.Infeed
 tomoyuki65.com##.post-list-card > div[class="post-list cf"]:has(> ins.adsbygoogle)
 ngauge.jp##div.widget:has(> div.dp_text_widget > p > ins.adsbygoogle)
 anige-sokuhouvip.com##div[id^="bnc_ad"]
@@ -2894,7 +2896,7 @@ pref.shizuoka.jp##aside[id^="sad"]
 navitime.co.jp##.advertising-link
 ||fc2.com/exchange.html
 ||fc2.com/s/e/t/setv/load_fc2live.js
-||grea.liberty-net.jp/bana/$third-party
+||liberty-net.jp/bana/$third-party
 ||gyutto.com/af/$subdocument
 ||gyutto.com/data/af_banner_img/
 ||gyutto.jp/api/item_af.php/
@@ -2906,7 +2908,6 @@ navitime.co.jp##.advertising-link
 ||pr.getchu.com/banner/dlgetchu_200_200_a.gif$third-party
 ||thumbs-up-credit.biz/images/psv_
 ||toukougazou.net/pr/oli3.jpg
-||kyosui.net/img/ba/black-base.jpg
 kyosui.net#$#.bdotted[style="text-align:center; margin-top:10px;"] { height: 0 !important;border: none !important; }
 kyosui.net##.prm
 sexytvcap.com###fc2contents_entry
@@ -3344,7 +3345,7 @@ fc2.com##iframe[src^="https://media5.fc2.com/"]
 ||fc2.com/pagead/
 rakuten-sec.co.jp##.list-banner-01
 rakuten-sec.co.jp##.footerBanner
-blog.kaerucloud.com,kojintekibikematomeblog.com##.side-topad
+hamachan.info,hobby-museum.com,birori-blog.com,tarosoku.com,blog.kaerucloud.com,kojintekibikematomeblog.com##.side-topad
 city.higashimurayama.tokyo.jp,city.sumida.lg.jp##.bnr_area
 kumiko-jp.com##div[class*="fourm"]
 ||locationsmart.org/ttype/mapbox_ad.js
@@ -4789,6 +4790,7 @@ sports.smt.docomo.ne.jp##.dgame
 nanbbs.jp##[class^="magazine_pr_"]
 nanbbs.jp##iframe[id^="bottomad"]
 ||uraaka-joshi.com/OfQO.js
+fc1adult.com##.list_frame:has(> .list_main > .list_foot_field > a[href$="_rank"])
 fc1adult.com##.a_fc1
 fc1adult.com##.a_hey
 fc1adult.com##.top-live-ad
@@ -6829,7 +6831,6 @@ gamewith.jp###ad-jack
 !||gamewith.jp/*/ad/index.js
 !||gamewith.jp/js/dist/jp/search/cta.js
 ero-info-antena.site,tarosoku.com###execphp-3
-hobby-museum.com,birori-blog.com,tarosoku.com##.side-topad
 wikinis.net##.entry-content > table[style="border-style: none;"][border="1"]
 ||digiket.com/xml/ad/$third-party
 moeeki.net###sub > br
@@ -7924,6 +7925,7 @@ minpo.jp##.ads300\*250
 minpo.jp##.ads730
 sirabee.com,medibang.com,arban-mag.com##.side-banner
 ||rmp.rakuten.co.jp/js/aa.js
+recipe.rakuten.co.jp##.bt_app-ad_area
 recipe.rakuten.co.jp###footerOverlayContents
 recipe.rakuten.co.jp###recommendOfficialRecipe
 recipe.rakuten.co.jp##.ad-table-label

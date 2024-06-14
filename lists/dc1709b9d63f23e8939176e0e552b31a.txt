@@ -796,7 +796,6 @@ enagato.com##+js(set, blurred, false)
 codesnse.com##+js(set, go_popup, {})
 codesnse.com##+js(nano-sib, counter, *, 0.001)
 codesnse.com##[href^="https://app.adjust.com/"]
-codesnse.com###paras-btn-after:others()
 
 ! pandaznetwork.com (pandaznetwork.com/TN8cD)
 pandaznetwork.com##+js(set, blurred, false)
@@ -1087,3 +1086,7 @@ mod1s.com##a[href="javascript:;"]:has(> span:has-text(Advertisement))
 thotpacks.xyz###popconlkr
 thotpacks.xyz##.modal-backdrop
 thotpacks.xyz##+js(set, blurred, false)
+
+! https://community.brave.com/t/more-popups-not-being-blocked/553184
+cloutgist.com##+js(aopr, open)
+cloutgist.com##[href^="https://app.adjust.com/"]

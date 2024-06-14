@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: S/ZwvtrGVaJnhysIRxw2PA
-! Diff-Path: ../patches/1/1-s-1718361509-3600.patch
+! Checksum: SEyFZ0O/FPCaVarnnysuNQ
+! Diff-Path: ../patches/1/1-s-1718368713-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.91.53
-! TimeUpdated: 2024-06-14T10:31:13+00:00
+! Version: 2.0.91.54
+! TimeUpdated: 2024-06-14T12:31:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18595,6 +18595,10 @@ forum.ixbt.com##.mainpage_table > tbody > tr > td[align="center"]
 ||ixbt.com/cgi-bin/banqs.cgi
 !
 ! sdamgia.ru
+sdamgia.ru##iframe[src*="sdamgia.ru/adv/"]
+sdamgia.ru##main > div:not([class]):has(> div > div > div[style] > iframe[src*="sdamgia.ru/adv/"])
+sdamgia.ru##main > div:not([class]):has(> div[class] > div > div > div[class^="r_"])
+sdamgia.ru##aside > div:not([class*=" "]):has(> div[style] > a[target="_blank"] > img)
 sdamgia.ru##a[target="_blank"] > img[src^="data:image"]
 sdamgia.ru#$?#main > div:has(> div > div > script:contains(window.yaContextCb)) { position: absolute !important; top: -9999px !important; }
 sdamgia.ru#$?#div > aside > div:has(script:contains(window.yaContextCb)) { position: absolute !important; top: -9999px !important; }

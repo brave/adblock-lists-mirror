@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1fv8yP5VYFzIHFygJTZ2QA
-! Version: 202406142115
+! Checksum: KASIfc5bzej0OtQrno6wIg
+! Version: 202406142215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-14 21:15 UTC
+! Last modified: 2024-06-14 22:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41356,6 +41356,7 @@ trains.com###newsletterContainer
 comicbook.com,popculture.com###newsletterModal
 usafacts.org###newsletter__sticky
 miningjournal.net,minotdailynews.com,salemnews.net###newsletter_article
+core77.com###newsletter_signup
 rigzone.com###newsletter_subscription
 charismamag.com,roughstock.com###newsletter_widget
 mapyourshow.com###newsletterform
@@ -46720,6 +46721,8 @@ astroportal.com##body,html:style(height: auto !important; overflow: auto !import
 !! .ui-widget-overlay
 billabong.fr,billabong.dk,billabong.co.uk,billabong-store.ie,billabong-store.pl,billabong.fi,roxy.fi,roxy.fr,roxy-denmark.dk,roxy-ireland.ie,roxy-store.se,roxy-uk.co.uk,glenair.it##.ui-widget-overlay
 billabong.fr,billabong.dk,billabong.co.uk,billabong-store.ie,billabong-store.pl,billabong.fi,roxy.fi,roxy.fr,roxy-denmark.dk,roxy-ireland.ie,roxy-store.se,roxy-uk.co.uk,glenair.it##body,html:style(height: auto !important; overflow: auto !important)
+! core77.com (top space left over from cookie)
+core77.com###header_head:style(top: 0 !important)
 ! riceundspice.de 
 riceundspice.de##.cookie-wrapper
 riceundspice.de##+js(rc, disabled, body, stay)

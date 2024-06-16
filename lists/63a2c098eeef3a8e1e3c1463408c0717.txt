@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20240608
+! Version: 20240616
 
 ! General element hiding rules
 ##amp-ad
@@ -2151,6 +2151,7 @@
 ||sspi.adpopcorn.com/v2_sdk/interstitial^
 ||st.bebi.com/bebi_v3.js^
 ||sta.vrixon.com/encvrix/zum/$domain=pip-player.zum.com
+||starjn.com/data/starjn_com/banner/$domain=m.starjn.com
 ||static.adxadserv.com/js/adp.js^
 ||static.airbridge.io/sdk/latest/airbridge.min.js^
 ||static.animeid.tv/ads/$domain=animeid.tv
@@ -2840,6 +2841,7 @@ chicagotribune.com##div.trb_masthead_adBanner
 chicagotribune.com##div.trb_oopAd
 chicagotribune.com##div.trb_sntAd
 chimhaha.net##section#adsense
+chimhaha.net##section#banner
 chip.de##div.NewsArticle__Ad
 chip.de##div.app_nexus_banners_common
 chip.de##div.sticky-wrapper
@@ -4050,6 +4052,7 @@ imore.com##div.adunit-wrap
 imore.com##div.dfp-leaderboard-container
 imore.com##div.netshelter-ad
 imore.com##div.widget-ads
+incheonilbo.com##header#nav-header>div.user-banner>div.banner_box
 independent.co.uk##div.onscroll-injected-ad
 indi.s58.xrea.com##div#vdbanner
 inews24.com##iframe[src*="//iframe.inews24.com/ad/"]
@@ -5382,6 +5385,7 @@ m.star.ytn.co.kr,m.ytn.co.kr##div.newsview_ad_bnr
 m.star.ytn.co.kr,m.ytn.co.kr##div.text_ad_type_1
 m.star.ytn.co.kr,m.ytn.co.kr##div.text_ad_type_2
 m.star.ytn.co.kr,m.ytn.co.kr##li.ad_area
+m.starjn.com##div.bn
 m.starnewskorea.com##div.ad_iframe
 m.starnewskorea.com##div.adbox
 m.starnewskorea.com##div[id^="ad-slot"]
@@ -6808,6 +6812,7 @@ star.ohmynews.com##section.M-atc>div.ad_box_outline
 star.ohmynews.com##td.at_contents>table[align="center"][style="padding-top:10px; padding-bottom:20px;"]
 starin.edaily.co.kr##div.View_TPAd
 starinnews.com##div#layer-popups
+starjn.com##div.bn
 starnewskorea.com##div#textBody>div[style="float:right; margin:0 0 10px 15px; overflow:hidden; width:300px; height:250px;"]
 starnewskorea.com##div#wrap>div[style="overflow:hidden; margin:15px auto 0; width:728px; height:90px; background:#ddd;"]
 starnewskorea.com##div.ad
@@ -7644,6 +7649,9 @@ namu.wiki##:xpath(//div/h1[not(./small)]/following-sibling::div[1]/following-sib
 @@||cdn.kbmaeil.com/bannerpop/uploads/image/$domain=kbmaeil.com
 @@||cdn.kbmaeil.com/bannerpop/uploads/js/*.js^$domain=kbmaeil.com
 @@||googleads.g.doubleclick.net/pagead/ads?*&crui=*
+@@||incheonilbo.com/bannerpop/uploads/image/$domain=incheonilbo.com
+@@||incheonilbo.com/bannerpop/uploads/js/*.js^$domain=incheonilbo.com
+@@||incheonilbo.com/script/bannerpop.js^$domain=incheonilbo.com
 @@||mindpost.or.kr/script/bannerpop.js^$domain=mindpost.or.kr
 @@||script.gmarket.co.kr/js/common/pds_gmkt.js^$domain=gmarket.co.kr
 @@||script.gmarket.co.kr/js/header/statsna.js^$domain=gmarket.co.kr

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mqHhDCO0e/hoMlKtAWFDfA
-! Version: 202406171501
+! Checksum: EpGyn8UfJwFXCX6QshSbUA
+! Version: 202406171600
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Jun 2024 15:01 UTC
+! Last modified: 17 Jun 2024 16:00 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3255,6 +3255,7 @@ _userbar_$image
 ||likemore-go.imgsmail.ru^$third-party,domain=~auto.mail.ru|~footballhd.ru|~myusli.ru|~nevasport.ru|~sibnet.ru|~topwar.ru|~tut.by
 ||line.*.$third-party
 ||log2.ru^$third-party
+||mailerlite.com/js/universal.js
 ||mytopf.com^$third-party
 ||nash-sait.su^$third-party
 ||net/lines/$image
@@ -3439,6 +3440,7 @@ _userbar_$image
 ##.js-cookiemodal
 ##.js-lwpcngNotice
 ##.lwpcngNotice
+##.mailerlite-form
 ##.mc-google-news-link
 ##.module_messages_cookies
 ##.notice--cookie:not(body):not(html)

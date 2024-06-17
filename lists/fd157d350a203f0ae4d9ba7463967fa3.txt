@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fj1CuoFuI5f3urEPUMz+cg
-! Version: 202406171451
+! Checksum: 5PCZgjfAM6kVwnv7LF+9Lg
+! Version: 202406171600
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Jun 2024 14:51 UTC
+! Last modified: 17 Jun 2024 16:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16895,7 +16895,7 @@ radidomapro.ru##[id^="zone_pub"]
 sm.news##[itemprop="articleBody"] > [id][class]:empty
 nashamama.com#?#[itemprop="articleBody"] > p:-abp-contains(/ТЬСЯ ТАКОЖ/i)
 fedpress.ru##[itemtype*="://schema.org/NewsArticle"] .article-box + div[style="padding: 10px"]
-itsider.com.ua,mmr.net.ua,obozvrn.ru,rama.com.ua,rusfootball.info,subbota.ua,youtebem.com##[itemtype="https://schema.org/WPAdBlock"]
+agri-gator.com.ua,itsider.com.ua,mmr.net.ua,obozvrn.ru,rama.com.ua,rusfootball.info,subbota.ua,youtebem.com##[itemtype="https://schema.org/WPAdBlock"]
 cheezu.ru##[jello-component="yamarket"]
 livejournal.com##[lj0sale0autoplay0dockable0video0mount]
 egamersworld.com##[name="odds"]
@@ -23434,6 +23434,8 @@ ok.ru##div[id^="hook_Block_FrOln4thCol"]
 ok.ru##.update-browser_container
 ! Блокировка
 ||ok.ru/res/js/app/RightColumn_*.js
+||ok.ru/res/js/b/bpo_*.js
+||ok.ru/res/js/nativeHooks_*.js
 ||st.mycdn.me/res/i/anonym/jakobs/$image
 ! Реклама, встроенная расширением OkTools)
 ok.ru##iframe[src^="//oktools.ru/page/static/"]
@@ -24062,6 +24064,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yiclyd=$popup,domain=dzen.ru
 /*ylclyd=$popup,domain=dzen.ru
 /*ylcyd=$popup,domain=dzen.ru
+/*ylecd=$popup,domain=dzen.ru
 /*yleed=$popup,domain=dzen.ru
 =mytarget$popup,domain=dzen.ru
 ||t.mail.ru/redir/$popup,domain=dzen.ru

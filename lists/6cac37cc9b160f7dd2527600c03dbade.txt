@@ -422,6 +422,13 @@ file-upload.*##+js(aopw, Fingerprint2)
 ||file-upload.*^$frame
 /werbebanner-$badfilter
 
+! https://github.com/uBlockOrigin/uAssets/issues/10319
+oploverz.*##+js(acs, $, popup)
+oploverz.*##+js(nostif, popup)
+oploverz.*###overplay
+*.gif$domain=oploverz.*,image
+*$script,3p,denyallow=cloudflare.com|disqus.com|disquscdn.com|facebook.com|fastlylb.net|fbcdn.net|facebook.net|googleapis.com|jsdelivr.net|statically.io|githack.com|gitcdn.xyz|gitcdn.link|gitcdn.herokuapp.com|arc.io|fluidplayer.com,domain=oploverz.*
+
 ! END: Rules from filters.txt
 
 ! START: Regional lists
@@ -2081,3 +2088,15 @@ vandaaginside.nl##+js(trusted-rpnt, script, '"adblock-detection","enabled":true'
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24128
 uhdmovies.*##+js(nowoif)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1dhcmv9/close_ad_popup_on_site/
+||analdinporn.com/rock-widget.php^$3p,frame
+rock.porn##+js(set, postroll, undefined)
+rock.porn##+js(set, interstitial, undefined)
+rock.porn###rock-widget-host
+rock.porn##.banner-sasd
+rock.porn##.banner-asd
+rock.porn##.fp-brand
+rock.porn##.maf
+rock.porn##.watch-link
+rock.porn##a[href^="https://wittered-mainging.com/"]

@@ -429,6 +429,12 @@ oploverz.*###overplay
 *.gif$domain=oploverz.*,image
 *$script,3p,denyallow=cloudflare.com|disqus.com|disquscdn.com|facebook.com|fastlylb.net|fbcdn.net|facebook.net|googleapis.com|jsdelivr.net|statically.io|githack.com|gitcdn.xyz|gitcdn.link|gitcdn.herokuapp.com|arc.io|fluidplayer.com,domain=oploverz.*
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/50179
+*$xhr,redirect-rule=noop.txt,domain=tunein.com
+! https://github.com/uBlockOrigin/uAssets/issues/22351
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=tunein.com,important
+||imasdk.googleapis.com/pal/sdkloader/pal.js$script,3p,redirect=noopjs,domain=tunein.com,important
+
 ! END: Rules from filters.txt
 
 ! START: Regional lists
@@ -2088,6 +2094,7 @@ vandaaginside.nl##+js(trusted-rpnt, script, '"adblock-detection","enabled":true'
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24128
 uhdmovies.*##+js(nowoif)
+tech.unblockedgames.world##+js(nano-sib, /count|verify|isCompleted/, , 0.001)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/1dhcmv9/close_ad_popup_on_site/
 ||analdinporn.com/rock-widget.php^$3p,frame
@@ -2100,3 +2107,6 @@ rock.porn##.fp-brand
 rock.porn##.maf
 rock.porn##.watch-link
 rock.porn##a[href^="https://wittered-mainging.com/"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/23348
+www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)

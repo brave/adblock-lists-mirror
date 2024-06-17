@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JHs9xsnepjjAYUBLLL7n2Q
-! Diff-Path: ../patches/1/1-s-1718631304-3600.patch
+! Checksum: 4+wxYiKXxh/4zlq1K21bCg
+! Diff-Path: ../patches/1/1-s-1718634943-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.91.58
-! TimeUpdated: 2024-06-17T13:31:22+00:00
+! Version: 2.0.91.59
+! TimeUpdated: 2024-06-17T14:31:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7609,6 +7609,8 @@ ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,zab.ru,tulapressa.r
 !
 !
 !
+eemojis.ru###content > div[style^="min-height:"]
+eemojis.ru##.post > div[style^="min-height:"]
 pornoklad.ink##div[id^="adContainer_"]
 pornoklad.ink##.fp-player > div.fp-ui-block
 pornoklad.ink##.fp-player > div.fp-ui ~ div[style]
@@ -12537,7 +12539,7 @@ comss.ru###ctr > div[align="center"][style="margin:20px 0 10px 0;"]
 comss.ru###ctr > div[align="center"][style="margin:20px 0 20px 0;"]
 comss.ru###ctr > div[align="center"][style="margin:20px 0 20px 0;"] + div[class="box"][align="center"]
 wi-fi.ru###curtainBanner
-northern-newspaper.ru,android-robot.com,med-heal.ru,gepard-kovrov.com,pet7.ru,pyatilistnik.org,slavasozidatelyam.ru,bizua.org,vkurier.by,altyn-orda.kz,comp-profi.com,gamerant.ru,magictemple.ru###custom_html-2
+eemojis.ru,northern-newspaper.ru,android-robot.com,med-heal.ru,gepard-kovrov.com,pet7.ru,pyatilistnik.org,slavasozidatelyam.ru,bizua.org,vkurier.by,altyn-orda.kz,comp-profi.com,gamerant.ru,magictemple.ru###custom_html-2
 trashexpert.ru,nastroyvse.ru,donbasstoday.ru,gepard-kovrov.com,teleggid.com,footbnews.ru###custom_html-3
 nastroyvse.ru,techblog.sdstudio.top###custom_html-4
 tattoo-mall.ru,makeupkey.ru,cheb-live.ru,nachedeu.com###custom_html-5

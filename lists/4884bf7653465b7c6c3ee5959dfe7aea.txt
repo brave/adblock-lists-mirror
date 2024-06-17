@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wFap49k8gPlTSwi+vmnDyg
-! Diff-Path: ../patches/9/9-s-1718606146-3600.patch
+! Checksum: q2R2uVYuJbXWmeFzaRLa7w
+! Diff-Path: ../patches/9/9-s-1718613351-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.44
-! TimeUpdated: 2024-06-17T06:33:21+00:00
+! Version: 2.0.25.45
+! TimeUpdated: 2024-06-17T08:33:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1481,8 +1481,6 @@ peru21.pe#@#.adstop
 paraveronline.org##+js(remove-attr, href, a[href]#clickfakeplayer)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181061
 verpelis.gratis##+js(remove-attr, href, a[href]#clickfakeplayer)
-! https://github.com/AdguardTeam/AdguardFilters/issues/181063
-seriesbanana.com##+js(set-cookie, player, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180905
 cineplus123.org##+js(remove-attr, href, a[href]#clickfakeplayer)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180719
@@ -1798,9 +1796,6 @@ tuhentaionline.com##+js(abort-on-property-read, Pub2)
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/181063
-seriesbanana.com#$##playx { display: none !important; }
-seriesbanana.com#$##plays { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177517
 elmueble.com#$#header { top: 0 !important; }
 elmueble.com#$#.admobile { display: none !important; }
@@ -2130,6 +2125,9 @@ globo.com,amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.c
 ! ##body .banner
 meiobit.com,brasilparalelo.com.br,tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+homecine.tv,homecine.to,metroseries.net,smartpelis.tv,seriesbanana.com##+js(set-cookie, player, 1)
+homecine.tv,homecine.to,metroseries.net,smartpelis.tv,seriesbanana.com#$##playx { display: none !important; }
+homecine.tv,homecine.to,metroseries.net,smartpelis.tv,seriesbanana.com#$##plays { display: block !important; }
 guiadasemana.com.br###content-column div[class*=" min-"].placement
 spanish.visorsmr.com##div[id^="ad-container"]
 bajalogratis.com##a[href*="/redirect?tid="]

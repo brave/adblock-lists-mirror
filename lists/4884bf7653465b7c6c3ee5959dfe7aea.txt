@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: H+Arb/ojOZ1bbCcwXF+CGA
-! Diff-Path: ../patches/9/9-s-1718602502-3600.patch
+! Checksum: wFap49k8gPlTSwi+vmnDyg
+! Diff-Path: ../patches/9/9-s-1718606146-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.43
-! TimeUpdated: 2024-06-17T05:32:58+00:00
+! Version: 2.0.25.44
+! TimeUpdated: 2024-06-17T06:33:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -424,12 +424,12 @@ softwareany.net##ins.adsbygoogle:not(.ad-slot)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176663
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160783
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158732
-monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(set-constant, googletag, {})
-monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(set-constant, googletag._loaded_, true)
-monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/ppub_config)
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=noop.js,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr
-||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,redirect-rule=noop.txt,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr
+atv.pe,monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(set-constant, googletag, {})
+atv.pe,monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(set-constant, googletag._loaded_, true)
+atv.pe,monumental.co.cr,elcomercio.com,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##+js(no-fetch-if, securepubads.g.doubleclick.net/pagead/ppub_config)
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=noop.js,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr|atv.pe
+||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,redirect-rule=noop.txt,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr|atv.pe
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=redbolivision.tv.bo|repretel.com|c9n.com.py|tn23.tv|canal13mexico.com|vtv.com.hn|chapintv.com|canal12.com.sv|rqp.com.bo|antena7.com.do|elcomercio.com|monumental.co.cr|atv.pe
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159624
 animesonline.nz##.detectadb
 animesonline.nz##.cleitao
@@ -2485,8 +2485,8 @@ futecell.com###HTML27
 felizemforma.com##.ad970x250
 genbeta.com###editorialRecommendedPosts
 ||recantodasletras.com.br/vitrine/vitrine.php
-antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##html ned-ad
-antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##body .layout-rev
+atv.pe,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##html ned-ad
+atv.pe,antena7.com.do,rqp.com.bo,canal12.com.sv,chapintv.com,vtv.com.hn,tn23.tv,canal13mexico.com,c9n.com.py,repretel.com,redbolivision.tv.bo##body .layout-rev
 metsul.com##.ad-wide-antes
 metsul.com##.metsu-adlabel
 metsul.com###header2_alright

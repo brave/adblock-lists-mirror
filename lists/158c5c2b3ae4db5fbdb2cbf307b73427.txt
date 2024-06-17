@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2a6k9j1xdlqCJCL00OrPEg
-! Version: 202406170900
+! Checksum: Eypv6b7KWntpxB5UBTxO9Q
+! Version: 202406171000
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Jun 2024 09:00 UTC
+! Last modified: 17 Jun 2024 10:00 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -907,6 +907,8 @@ ovego.tv#?#.boxTable:-abp-has(#vk_groups)
 ovego.tv#?#.boxTable:-abp-has(.ya-share2)
 kinokrad.film##.boxsocbut
 noi.md##.br-ar > a[target="_blank"] > *
+versii.if.ua#?#.brxe-block:-abp-has(> h3 + .brxe-text-basic + [class$="_social"])
+versii.if.ua#?#.brxe-post-content > p:-abp-has(> [href^="https://t.me/"])
 pb.wtf,piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,vidak.icu##.bs-docs-footer > div > p
 itsider.com.ua##.bs-vc-sidebar-column > .bs-vc-wrapper > .bs-shortcode:first-child
 itsider.com.ua##.bs-vc-sidebar-column div[class*="kpvmzjg"]
@@ -1095,6 +1097,7 @@ glavnoe.ua##.fb-blue
 geniusmarketing.me,liga.net##.fb-comments
 4eva.ru##.fb-controls
 dilo.net.ua##.fb-page-wrap
+versii.if.ua#?#.fb-s-blog-two-main__box:-abp-has(> .fb-share-one)
 do-slez.com##.fb-wrap
 patrioty.org.ua##.fbPageLikeBox
 24molnia.com##.fb_group
@@ -1941,7 +1944,6 @@ v-variant.com.ua##.single-bottom__socials-title
 armyinform.com.ua##.single-content ~ a[href] > [style*="background: linear-gradient"]
 rubryka.com##.single-page__info-inner > div[style^="padding:"]
 rubryka.com##.single-page__social
-versii.if.ua##.single-post-content > .post-bottom-text
 nabat.news##.single-sharing
 tokar.ua##.single-shr-wrapper
 domashnie-zagotovki.ru##.single-social
@@ -2528,6 +2530,7 @@ ozon.ru,wink.ru##[aria-label="Поделиться"]
 afisha.ru##[aria-label="Социальные сети"]
 bbc.com#?#[aria-labelledby^="normal-collection-"]:-abp-has(> h2:-abp-contains(Мы в соцсетях))
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru#?#[btnsize]:-abp-has([data-test^="btn-share"])
+versii.if.ua##[class$="_social"]
 7days.ru##[class$="button-social-box"]
 football.by##[class*=" fa-"]
 auto.ru##[class*="Action"][class*="__shareB"]
@@ -2704,6 +2707,7 @@ businessua.com##aside > #vedomosti_block ~ #vedomosti_block
 fakty.com.ua##aside > .aside-title:first-child
 motogon.ru##aside > .block:nth-child(2)
 zn.ua##aside > .content-title:nth-child(-n+3)
+versii.if.ua#?#aside > .fb-post-arc-one__section:-abp-has(> .brxe-social-icons)
 rifme.net##aside > .marginTop
 findhow.org##aside > .rightBoxtumb:first-child
 rsload.net#?#aside > .side-box:-abp-has(> div > #vk_groups)
@@ -3883,7 +3887,6 @@ rbkgames.com##iframe[src^="https://player.twitch.tv?autoplay=true"][src*="rbkgam
 /manifest-ts.json$domain=rambler.ru
 /manifest.json$domain=championat.com|eapteka.ru|gazeta.ru|hi-chef.ru|lenta.ru|mail.ru|my.mosenergosbyt.ru|rambler.ru|riafan.ru|sportmail.ru
 /manifest.webmanifest$domain=otvet.mail.ru
-/micromodal.min.js$domain=versii.if.ua
 /min/js/pages/push.js$script,~third-party,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-georgia.com|sputnik-news.ee|sputnik-ossetia.com|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputniknews-uz.com
 /ololo/*$image,domain=2ch.hk|2ch.life
 /pum-site-styles-$stylesheet,domain=lhealth.info
@@ -5490,7 +5493,6 @@ rustrek.ru##.poster
 textstudio.co##.premium-banner
 aniqit.com,kodik.cc,kodik.info,kodikdb.com##.preview-confirmation
 aniqit.com,kodik.cc,kodik.info,kodikdb.com##.preview-min-age-confirmation
-versii.if.ua##.primary-sidebar-widget:first-child ~ .widget_custom_html
 nv.ua##.print_magazine_promo
 inforoom.com.ua,one.ua,rbc.ua##.privacy
 kinoafisha.ua##.privacy-modal

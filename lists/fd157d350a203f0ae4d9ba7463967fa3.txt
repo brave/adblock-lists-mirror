@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FfwnOYsvJqiiktzDLspuLQ
-! Version: 202406180801
+! Checksum: tXLsQjHnR4WO3OkQJFk4KQ
+! Version: 202406180901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Jun 2024 08:01 UTC
+! Last modified: 18 Jun 2024 09:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13844,7 +13844,6 @@ mmotop.ru##.container-links
 wotsite.net#?#.container-mat p:-abp-contains(Реклама)
 theplace.ru##.container-rekl-top
 1news.com.ua#?#.container-wrapper:-abp-has(> .mag-box-title:-abp-contains(Партнери проекту))
-censor.net##.container.d-print-none aside[id][style^="height:"]
 filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone#?#.container:-abp-has(> .remove-sda-wrap)
 alexbruni.ru#?#.container:-abp-has(> div[align="center"] > video > [src*="://dental-paint.ru/"])
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##.container__bannerZone
@@ -17858,6 +17857,7 @@ bryansknovosti.ru,novozybkov.su##aside[data-alias="Под меню"]
 bryansknovosti.ru,novozybkov.su##aside[data-alias="Слева"] .widget-area > .widget_text ~ .widget_text
 bryansknovosti.ru,novozybkov.su##aside[data-alias="Справа"] .widget-area > .widget_text ~ .widget_text
 novozybkov.su##aside[data-alias^="Слева "]
+censor.net##aside[id][style^="height:"][style*="visibility"]
 lovesun.by##aside[id^="banner-"]
 hardwareluxx.ru##aside[id^="rec"]
 topasnew24.com##big
@@ -24064,6 +24064,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yhid=$popup,domain=dzen.ru
 /*yhyd=$popup,domain=dzen.ru
 /*yiclyd=$popup,domain=dzen.ru
+/*ylced=$popup,domain=dzen.ru
 /*ylclyd=$popup,domain=dzen.ru
 /*ylcyd=$popup,domain=dzen.ru
 /*ylecd=$popup,domain=dzen.ru

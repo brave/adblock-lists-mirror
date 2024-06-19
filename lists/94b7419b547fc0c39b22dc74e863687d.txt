@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kNovDvM5TbcMT4tGiibueg
-! Diff-Path: ../patches/1/1-s-1718804168-3600.patch
+! Checksum: 17JliiBbzJommjnwkVzk9g
+! Diff-Path: ../patches/1/1-s-1718832887-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.91.69
-! TimeUpdated: 2024-06-19T13:31:15+00:00
+! Version: 2.0.91.70
+! TimeUpdated: 2024-06-19T21:31:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7824,6 +7824,8 @@ comandir.com#?##dle-content > noindex:has(> div.hblock > div[id*="ScriptRoot"])
 muz-tv.ru##.x-popup-ad-short
 marieclaire.ru##.article__block_type-productSet
 pc.ru##div[class^="advert_"]
+patee.ru###top > div[style]:has(> .yandex-rtb)
+patee.ru##.colC > .placeR:has(> .yandex-rtb)
 hen-tay.com#?#td > table:has(> tbody > tr > td:contains(/Реклама|Порно игра|Партнёры/))
 hen-tay.com#?#tbody > tr:has(> td > noindex > div[align="center"] > a > img[src^="/go/"])
 hen-tay.com#?#.news > div[align="center"]:has(> a[href*=".php"] > img)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: goH43bLKSsDDN1si+0n+7Q
-! Version: 202406192040
+! Checksum: lfluGDoC3tOP6+G1rMoETg
+! Version: 202406192140
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-06-19 20:40 UTC
+! Last modified: 2024-06-19 21:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -147,7 +147,7 @@
 ||subscriptions.cbc.ca^$xmlhttprequest
 ||theintercept.com/xbuilder/$script
 ||thejewishstar.com/images/enews-ad.png
-||tinypass.com/api/tinypass.min.js$script,domain=bbcgoodfood.com|billboard.com|rawstory.com|thedailybeast.com|theintercept.com
+||tinypass.com/api/tinypass.min.js$script,domain=bbcgoodfood.com|billboard.com|rawstory.com|thedailybeast.com|theintercept.com|wwd.com
 ||waterfordwhispersnews.com/wp-content/themes/therex-child/js/_newsletter-article-signup.js
 !------------------------General/Specific element hiding rules-------------------------!
 ! fanboy_newsletter_general_hide.txt
@@ -3710,7 +3710,7 @@ metro.us##.subscribe-section-container
 thefire.org##.subscribe-sticky
 thenewdaily.com.au##.subscribe-strap
 semanticscholar.org##.subscribe-tile
-splash247.com##.subscribe-widget
+splash247.com,thedefensepost.com##.subscribe-widget
 bikeexif.com##.subscribe-win
 press-start.com.au##.subscribe-wrap
 chargedretail.co.uk##.subscribe1

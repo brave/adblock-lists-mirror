@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ElBKutguHJLi4wEY5wSkaA
-! Version: 202406191450
+! Checksum: THiQGar5N9b6q7BSS+5Oaw
+! Version: 202406191601
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Jun 2024 14:50 UTC
+! Last modified: 19 Jun 2024 16:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22959,6 +22959,7 @@ lada.kz/uploads/banners/
 @@||s.zhctrack.net/z|$xmlhttprequest,domain=24boxing.com.ua|epravda.com.ua|eurointegration.com.ua|gorod.dp.ua|inforesist.org|zdorovia.com.ua
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
+@@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
 ||imgfrost.net^$third-party
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
@@ -22984,6 +22985,7 @@ sdamgia.ru##[data-name="partial-container"]
 liveinternet.ru##[data-wrapper]
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
+www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]

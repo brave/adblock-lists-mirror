@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: igkYEIfXMQl4Q+Hs3TFYUw
-! Version: 202406191000
+! Checksum: kDd3+mPjBOH6yJm4o+SOlw
+! Version: 202406191101
 ! Title: EasyList China
-! Last modified: 19 Jun 2024 10:00 UTC
+! Last modified: 19 Jun 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11428,8 +11428,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||unpkg.com/hjadu/
+||so.com/com/ads?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ijiandao.com,ijiandao.cn##.index-ad
 baozimh.one##.banners
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -12201,7 +12203,6 @@ qiyeku.com###index_gg
 sm.cn###index_haodongxi
 baidu.com###index_right_float
 baidu.com###index_right_top
-ijiandao.com###index_top_ad
 chinabidding.cn###info_adv_1
 58.com###infolist > .recycleInfo
 thinbug.com###inktokad
@@ -16336,7 +16337,6 @@ ifeng.com##div[class^="adv1"]
 kumi.cn##div[class^="adz"]
 cztv.com##div[class^="banner_"]
 elecfans.com##div[class^="banner_ad"]
-ijiandao.com##div[class^="banner_h_"]
 ifeng.com##div[class^="bottomDbox"]
 ifeng.com##div[class^="container-"][content^="[object"]
 78dm.net##div[class^="couple-"]

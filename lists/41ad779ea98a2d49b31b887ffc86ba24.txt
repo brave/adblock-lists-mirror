@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0A87KHLmJMqMV7rQ3NGRBg
-! Version: 202406192340
+! Checksum: 1FBmsLEtSuWHmrPLFTNmzg
+! Version: 202406200040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-19 23:40 UTC
+! Last modified: 2024-06-20 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31571,6 +31571,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###blog_subscription-4
 ###blog_subscription_unit
 ###bottom_newsletter
+###boxNewsletter
 ###box_nl_subscribe
 ###boxes-box-newsletter
 ###cm-popup-overlay
@@ -43282,6 +43283,7 @@ jeuxvideo-live.com###Newsletters
 lamanchelibre.fr###articleFormNL
 comment-economiser.fr###bloc_newsletter_bas
 lalanguefrancaise.com###bottom_navbar
+cuisineaz.com###divSideNews
 fourchette-et-bikini.fr###newsletter-container + #legal-terms
 comment-economiser.fr###newsletter_box
 pcastuces.com###newsletter_descri
@@ -43294,6 +43296,7 @@ lopinion.fr##.User-subscription-form
 ecommercemag.fr##.bandeau-abo-nl
 auto-moto.com##.bloc-netitmail
 paruvendu.fr##.bp14_recevoirannonces
+cuisineaz.com##.c-box-news
 lesmobiles.com##.c-homepage__newsletter-block
 casting.fr##.casting-card-subscribe-newsletter
 francetvinfo.fr##.content-banner-nl
@@ -47192,9 +47195,9 @@ elavon.dk,elavon.no,elavon.se,elavon.de##body,html:style(overflow: auto !importa
 pfleiderer.com##.overlay
 pfleiderer.com##.cc--banner
 pfleiderer.com##body,html:style(overflow: auto !important; position: initial !important;)
-! ville-cesson.fr
-ville-cesson.fr###myModalCookieConsent
-ville-cesson.fr##body:style(overflow: auto !important; position: initial !important;)
+!! #myModalCookieConsent
+artifica.fr,moismoliere.com,plan-interactif.com,ville-cesson.fr###myModalCookieConsent
+artifica.fr,moismoliere.com,plan-interactif.com,ville-cesson.fr##body:style(overflow: auto !important; position: initial !important;)
 ! refunder.pl
 refunder.pl,refunder.se##.v--modal-overlay
 refunder.pl,refunder.se##body,html:style(overflow: auto !important; position: initial !important;)

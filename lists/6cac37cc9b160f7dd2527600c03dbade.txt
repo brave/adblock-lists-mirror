@@ -1870,8 +1870,10 @@ dizikral.com##+js(trusted-rpnt, script, /(function playVideo\(\) \{[\s\S]*?\.rem
 dizikral.com##+js(trusted-rpnt, script, video_urls.length != activeItem, !1)
 
 ! https://dlhd.so/stream/stream-51.php anti iframe sandbox
-4kwebplay.xyz,qqwebplay.xyz,lewblivehdplay.ru,claplivehdplay.ru,viwlivehdplay.ru##+js(nostif, stackTrace)
+! https://github.com/uBlockOrigin/uAssets/issues/24182
+4kwebplay.xyz,qqwebplay.xyz,lewblivehdplay.ru,viwlivehdplay.ru##+js(nostif, stackTrace)
 esportivos.fun##+js(set, sandDetect, noopFunc)
+||trackad.cz^$script,3p,redirect-rule=noopjs,domain=claplivehdplay.ru
 
 ! https://github.com/uBlockOrigin/uAssets/issues/23800
 @@*$ghide,domain=akillikafa.com|kazanimtestleri.com.tr|testcoz.com

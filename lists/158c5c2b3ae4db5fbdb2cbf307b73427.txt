@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: phYIfiXPyci5JwSk17jzGw
-! Version: 202406200901
+! Checksum: F2o1H/N8uUC0lnTjnoeGwg
+! Version: 202406201000
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Jun 2024 09:01 UTC
+! Last modified: 20 Jun 2024 10:00 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2953,6 +2953,7 @@ eda.ru#?#footer div:-abp-has(> div > [title="vkontakte"])
 fontanka.ru#?#footer div:nth-child(5):-abp-has([href^="https://vk.com/fontanka"])
 yap.ru,yaplakal.com##form[method="POST"] + .row4[style="padding:6px;"][align="center"]
 om1.ru#?#h1:-abp-contains(/в соцсетях/)
+format.kr.ua#?#h2:-abp-contains(/Под.литися|П.дпишись/)
 bigmir.net#?#h2:-abp-contains(Мы в соцсетях)
 news.zaycev.net#?#h2:-abp-has(> a[href^="https://t.me/"])
 footballtransfer.com.ua#?#h3:-abp-contains(Вконтакте)
@@ -6973,7 +6974,6 @@ kino.video,tasix.me#@#.share-video
 fires.ru#@#.shareIcon
 vk.com#@#.share_cont
 ezhikezhik.ru#@#.share_content
-vk.com#@#.share_link
 feedly.com#@#.shareholder
 the-zomb.com#@#.sig
 4pda.to,jquery.com,oxymoronical.com,scala-lang.org#@#.signature

@@ -1871,9 +1871,10 @@ dizikral.com##+js(trusted-rpnt, script, video_urls.length != activeItem, !1)
 
 ! https://dlhd.so/stream/stream-51.php anti iframe sandbox
 ! https://github.com/uBlockOrigin/uAssets/issues/24182
-4kwebplay.xyz,qqwebplay.xyz,lewblivehdplay.ru,viwlivehdplay.ru##+js(nostif, stackTrace)
+! https://github.com/uBlockOrigin/uAssets/issues/24183
+4kwebplay.xyz,qqwebplay.xyz,viwlivehdplay.ru##+js(nostif, stackTrace)
 esportivos.fun##+js(set, sandDetect, noopFunc)
-||trackad.cz^$script,3p,redirect-rule=noopjs,domain=claplivehdplay.ru
+||trackad.cz/adtrack.php^$script,3p,redirect-rule=noopjs
 
 ! https://github.com/uBlockOrigin/uAssets/issues/23800
 @@*$ghide,domain=akillikafa.com|kazanimtestleri.com.tr|testcoz.com
@@ -2144,8 +2145,9 @@ myp2p.*##a[rel="sponsored"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181628
 game8.co##.js-side-ads-movie-container:remove()
 
-! https://github.com/uBlockOrigin/uAssets/issues/24130
+! https://github.com/uBlockOrigin/uAssets/discussions/24177#discussioncomment-9821526
 modrinth.com##section.normal-page__content a[href*="/link-redirect"] img
+! https://github.com/uBlockOrigin/uAssets/issues/24130
 modrinth.com##section.normal-page__content :is([href^="https://shockbyte.com/partner/"],[href^="https://billing.kinetichosting.net/"],[href^="https://bisecthosting.com/"],[href^="https://meloncube.net/"],[href^="https://scalacube.com/"],[href^="https://billing.ember.host/"],[href^="https://nodecraft.com/"],[href^="https://billing.bloom.host/"],[href^="https://minefort.com/"],[href^="https://www.ocean-hosting.top/"],[href^="https://billing.apexminecrafthosting.com/"],[href^="https://mcph.info/"]) > img
 curseforge.com##:is(.project-description,div.project-detail__content) [href^="/linkout?remoteUrl=http"]:is([href*="shockbyte.com"],[href*="billing.kinetichosting.net"],[href*="bisecthosting.com"],[href*="meloncube.net"],[href*="scalacube.com"],[href*="billing.ember.host"],[href*="nodecraft.com"],[href*="billing.bloom.host"],[href*="minefort.com"],[href*="www.ocean-hosting.top"],[href*="billing.apexminecrafthosting.com"],[href*="mcph.info"]) > img
 
@@ -2156,3 +2158,9 @@ arenascan.com###floatcenter
 ! https://github.com/uBlockOrigin/uAssets/issues/23848
 *$script,3p,denyallow=google.com|gstatic.com,domain=datanodes.to
 ||csdf4dn.pro^
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1djqetl/help_blocking_ad_audio/
+||players.radioonlinehd.net/ads/
+||players.radioonlinehd.net^$frame,3p,domain=mgeko.cc
+||rnp.gt/radioplayer/$frame,3p,domain=rizzfables.com
+rizzfables.com,mgeko.cc,flamecomics.me###radio_content.abierto

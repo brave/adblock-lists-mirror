@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: PQVn5I9sOozNo7yhWkQ7mw
-! Diff-Path: ../patches/7/7-s-1718879726-3600.patch
+! Checksum: r1+LZoAWfsHQewBMZ9tyxw
+! Diff-Path: ../patches/7/7-s-1718887024-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.52.96
-! TimeUpdated: 2024-06-20T10:32:52+00:00
+! Version: 2.0.52.97
+! TimeUpdated: 2024-06-20T12:34:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1730,6 +1730,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+togetter.com##.ad_glia
 sim-jozu.net##div > div[style*="min-height:"]
 .php$domain=paio-hazard.com|d-read.com
 xn--gmq92kd2rm1kx34a.com##.code-block

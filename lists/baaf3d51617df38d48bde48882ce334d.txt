@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zKss5/iQYB19VYpddCGbGw
-! Version: 202406200540
+! Checksum: DyLBhj6YN6y8xh9e6MhIgA
+! Version: 202406200740
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-06-20 05:40 UTC
+! Last modified: 2024-06-20 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2185,6 +2185,7 @@ guidedoc.com###modal-overlay
 rebelnews.com###module_form
 consumerreports.org###mtExitModalPopup
 nationalgeographic.com###natgeo-marketing-inline-email-footer-frame1-module2
+nascar.ca###ndms-newsletter_widget
 screenshot-media.com###new-home-row-3
 screenshot-media.com###new-home-row-7
 coffeecompany.com.au###newpopup
@@ -2471,6 +2472,7 @@ merriam-webster.com##.active-subscribe
 walletinvestor.com##.ad-align-center
 crn.com##.ad-imu-sticky
 drugtargetreview.com##.advads-background
+oled-info.com##.af-form
 bucketlistjourney.net,goodnewsnetwork.org,guru99.com##.af-form-wrapper
 techspree.net##.after-post
 insidermedia.com##.alert
@@ -2593,6 +2595,7 @@ datacenterdynamics.com##.block-registration_prompt
 healthyfitnessmeals.com,thefoodcharlatan.com##.block-save-recipe
 backroads.com##.block-sign-up-for-our-email-newsletter
 abeautifulmess.com,afamilyfeast.com,airandspaceforces.com,metronieuws.nl,thebestcakerecipes.com,want.nl##.block-subscribe
+bandainamcoent.eu##.block-views-blocknewsletter-block-3
 ttnews.com##.block-webform-block
 press-start.com.au##.block-wrap-mailing
 bluetrain.ca##.block__newsletter-cta
@@ -2746,6 +2749,7 @@ itsfoss.com##.cta__inner
 kuow.org##.cta_newsletters_explore
 the74million.org##.cta_snippet
 bigissue.com##.ctas-container
+tnc.news##.ctct_form-2
 forbes.com.au##.curated-content-block__newsletter
 esportsawards.com##.current
 perfectdailygrind.com##.custom-a-banner
@@ -4751,6 +4755,8 @@ syfy.com##body,html:style(overflow: auto !important; position: initial !importan
 ! nieuwsblad.be (newsletter overlay)
 nieuwsblad.be##.cj-root
 nieuwsblad.be##body:style(overflow: auto !important;)
+! oled-info.com
+oled-info.com##+js(set-cookie, awpopup_501941328, 1)
 ! .pum
 sfpublicpress.org,matomo.org,coloradotimesrecorder.com,artificialintelligence-news.com,thurrott.com,hypebot.com,fatgirlskinny.net,moneymagpie.com,verdadeiroolhar.pt,thecanary.co##.pum
 sfpublicpress.org,matomo.org,coloradotimesrecorder.com,artificialintelligence-news.com,thurrott.com,hypebot.com,fatgirlskinny.net,moneymagpie.com,verdadeiroolhar.pt,thecanary.co##html:style(overflow:auto !important)

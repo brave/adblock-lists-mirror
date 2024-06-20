@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hSfYJI+XIT+8AkyUaaxwWg
-! Version: 202406200701
+! Checksum: 8PVUIK3dBLmRxKA8IStcog
+! Version: 202406200800
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Jun 2024 07:01 UTC
+! Last modified: 20 Jun 2024 08:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15662,7 +15662,7 @@ ura-inform.com##.search_bar ~ .padd
 salonav.com##.secondary-sidebar > .mom_custom_text
 drinks.ua##.secondary-slider
 softbesplatno.net##.sect-recl
-ctrana.news,strana.news,strana.one,strana.today##.sect-repeat-ban
+ctrana.news,ctrana.one,strana.news,strana.one,strana.today##.sect-repeat-ban
 utkonos.mybb.ru##.section > #tn1
 kulturomania.ru##.section-banner
 mastergrad.com##.section-body > [itemprop="comment"] ~ div[style="margin-bottom: 15px;"]
@@ -22972,7 +22972,7 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/vp$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/vn$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -24065,6 +24065,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yhid=$popup,domain=dzen.ru
 /*yhyd=$popup,domain=dzen.ru
 /*yiclyd=$popup,domain=dzen.ru
+/*ylcd=$popup,domain=dzen.ru
 /*ylced=$popup,domain=dzen.ru
 /*ylclyd=$popup,domain=dzen.ru
 /*ylcyd=$popup,domain=dzen.ru

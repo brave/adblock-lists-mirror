@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: fHNGW4OZ3fy+p7x0Dq2M4w
-! Diff-Path: ../patches/9/9-s-1718793379-3600.patch
+! Checksum: swGt5hkD36MnwP3ZFf5qyQ
+! Diff-Path: ../patches/9/9-s-1718865283-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.50
-! TimeUpdated: 2024-06-19T10:33:49+00:00
+! Version: 2.0.25.51
+! TimeUpdated: 2024-06-20T06:32:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1565,12 +1565,14 @@ niusdiario.es##+js(set-constant, google.ima.OmidVerificationVendor, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145476
 superhq.net##+js(abort-on-property-write, exopop)
 hentaikai.com,superhq.net##+js(abort-on-property-write, protData)
+! https://github.com/AdguardTeam/AdguardFilters/issues/181819
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173727
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173473
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173197
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142854
-poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(window.open-defuser)
-poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(abort-on-property-read, cJsEdge)
+gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(window.open-defuser)
+gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(abort-on-property-read, cJsEdge)
+player.gnula.*,player.poseidonhd2.co,player.cuevana2espanol.*,player.cuevana.*##+js(nano-setInterval-booster, countdown, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140890
 pobre.wtf##+js(set-constant, ads, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139850
@@ -2671,8 +2673,8 @@ universohq.com##.barAds
 istoe.com.br##div[style^="width: 100%; min-height: 250px;"]
 laopinion.com.co##div[class^="pauta"]
 ||player.*/assets/vast_*.xml
-poseidonhd2.co,cuevana2espanol.*,cuevana.*##a[rel*="sponsored"] img
-/edgeSystem*.js$domain=cuevana.*|cuevana2espanol.*|poseidonhd2.co
+gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##a[rel*="sponsored"] img
+/edgeSystem*.js$domain=cuevana.*|cuevana2espanol.*|poseidonhd2.co|gnula.*
 ffcv.es##.hidden-xs.zn_section
 dw-anime.net###custom_html-60
 autoscout24.es##.hf-top-old

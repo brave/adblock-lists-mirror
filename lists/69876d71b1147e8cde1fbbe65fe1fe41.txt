@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: WkLxCTg1E1fxiGFnpsL17w
-! Diff-Path: ../patches/13/13-s-1718815059-3600.patch
+! Checksum: bvjLYthdYH3v+zxQ5M9A7A
+! Diff-Path: ../patches/13/13-s-1718865279-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.9
-! TimeUpdated: 2024-06-19T16:34:28+00:00
+! Version: 2.0.52.10
+! TimeUpdated: 2024-06-20T06:32:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5739,6 +5739,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_turkish
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/181795
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=tabii.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=tabii.com
 ! https://github.com/uBlockOrigin/uAssets/issues/23719
 @@||impula.com/wp-content/uploads/*/reklam-$image,~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179121

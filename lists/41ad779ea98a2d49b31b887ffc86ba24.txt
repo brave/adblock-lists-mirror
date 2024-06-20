@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iSVNezFv/gAtWyWthurdQw
-! Version: 202406192215
+! Checksum: 0A87KHLmJMqMV7rQ3NGRBg
+! Version: 202406192340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-19 22:15 UTC
+! Last modified: 2024-06-19 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43035,6 +43035,7 @@ tastesbetterfromscratch.com##.wprm-custom-cta
 amazingribs.com##.wpsta-ar-newsletter-1st-page-view
 expressvpn.com##.wrap-subscribe
 countryviewah.com##.wrap__newsletter
+chicagotribune.com##.wripper_block
 wwd.com##.wwd-subscribe-now-banner-ad-container
 wwd.com##.wwd-subscribe-now-banner-background
 hereisoregon.com##.yellow-nl
@@ -44376,6 +44377,8 @@ nisanyansozluk.com##+js(set-local-storage-item, newYeradlariWebsiteHidden, true)
 ! apnews.com
 apnews.com##.fancybox-overlay-fixed
 apnews.com##body,html:style(overflow: auto !important; position: initial !important;)
+! reuters.com (top banner)
+reuters.com##.site-header__inner__ZJDlb:style(top:0 !important)
 ! 4kdownload.com (fix top empty space)
 4kdownload.com##.page-header:style(top:0 !important)
 ! redfin.com (mobile app white space)
@@ -54033,6 +54036,7 @@ marianne.net#@#.share__item
 marianne.net#@#.share__link
 marianne.net,rambler.ru#@#.share__list
 joyreactor.cc#@#.share_buttons
+vk.com#@#.share_link
 vecernji.hr#@#.share_wrap
 pixeldrain.com#@#.sharebar
 wired.it#@#.sharebox

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9/VSSW2CytrCt/jksJxh+Q
-! Version: 202406210140
+! Checksum: 2Enj0QfO70eEHyiTM1aheg
+! Version: 202406210240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-21 01:40 UTC
+! Last modified: 2024-06-21 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44386,6 +44386,8 @@ apnews.com##.fancybox-overlay-fixed
 apnews.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! reuters.com (top banner)
 reuters.com##.site-header__inner__ZJDlb:style(top:0 !important)
+! pawread.com (forced login, https://github.com/uBlockOrigin/uAssets/issues/24198)
+pawread.com##+js(set-local-storage-item, countChapterNum, $remove$)
 ! 4kdownload.com (fix top empty space)
 4kdownload.com##.page-header:style(top:0 !important)
 ! redfin.com (mobile app white space)

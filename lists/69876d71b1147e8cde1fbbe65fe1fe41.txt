@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Q/sIFFCoab56OmrKGXLHeg
-! Diff-Path: ../patches/13/13-s-1718973355-3600.patch
+! Checksum: gfJWvl+G+vnOTeRVaeoQyg
+! Diff-Path: ../patches/13/13-s-1718976927-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.12
-! TimeUpdated: 2024-06-21T12:33:06+00:00
+! Version: 2.0.52.13
+! TimeUpdated: 2024-06-21T13:33:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2860,7 +2860,7 @@ havadurumu15gunluk.xyz,havadurumu15gunluk.org##.ads_row
 havadiskibris.com###tie-block_2579
 havadiskibris.com###tie-block_1497
 ||exsvc.nesine.com/*/coupon/MostPlayedCoupons
-dunya.com,odatv.com,paradurumu.com,f5haber.com##.adpro
+cnbce.com,dunya.com,odatv.com,paradurumu.com,f5haber.com##.adpro
 tarifikolay.com##.adcontent
 trivago.com.tr##ol[data-testid="accommodation-list"] > li[data-testid="accommodation-list-element"] ~ li[class="flex items-center justify-center"]
 trivago.com.tr##div[class^="SkyscraperAd_"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EQ6jUxwDcFW8Q52P0yX5+Q
-! Diff-Path: ../patches/7/7-s-1718968666-3600.patch
+! Checksum: G4nMoX+VcxqsrCLC2OEKwg
+! Diff-Path: ../patches/7/7-s-1718987717-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.2
-! TimeUpdated: 2024-06-21T11:15:22+00:00
+! Version: 2.0.53.3
+! TimeUpdated: 2024-06-21T16:32:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1729,9 +1729,15 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
-qiita.com##div[data-testid="popup-lapras-signup"]
-hoi4data.paradoxwiki.org##td[valign="baseline"] > div[style^="display:flex;"]
-hoi4data.paradoxwiki.org###menubar ~ div[align="center"]
+tousatusin.com##.entry-title ~ div:has(> a[href^="https://wlink.golden-gateway.com"])
+tousatusin.com##.entry-title ~ div:has(> a[href^="https://www.pcolle.com/product/detail/"])
+tousatusin.com##footer div[id^="text-"]:has( > .textwidget > p > a[href^="https://wlink.golden-gateway.com"])
+tousatusin.com##.article div.entry-content:has(div.wc-shortcodes-row > div.wc-shortcodes-column a[href^="//www.pcolle.com/product/detail/"])
+qiita.com##.style-1gtaew4[data-testid^="popup-"][data-testid$="-signup"]
+||hoi4data.paradoxwiki.org/image/kindleunlimited
+||hoi4data.paradoxwiki.org/image/primevideo.jpg
+hoi4data.paradoxwiki.org##td[width="95%"][align="left"][valign="baseline"] > div[align="center"][style="display:flex; flex-wrap:wrap; justify-content:center;"]
+hoi4data.paradoxwiki.org##.menubar > div[align="center"] > a[target="_blank"] > img
 shipping.jp##div[style="width:565px;height:60px;"]
 shipping.jp##.banner250
 shipping.jp#?#.sub_box > h4:contains(/^広告$/)
@@ -2500,7 +2506,7 @@ gamenv.net###mainEntity > div.clearfix > div.wp-block-image + div.yyi-rinker-con
 books.step.rakuten.co.jp##.ad__pr
 city.atsugi.kanagawa.jp#?#.right-col > .side-multiline-html-area:has(img[src*="/banner_"])
 city.atsugi.kanagawa.jp#?#.right-col > .side-multiline-html-area ul ~ p:contains(広告)
-qiita.com#?#div[id^="PersonalArticlePage-react-component-"] > div[class^="style-"]:has(div[id^="div-gpt-ad-"])
+qiita.com##.style-xgff9b
 stv.jp##iframe[src*="stv.jp/nnn/assets/"]
 xn--eckvas1f0ewfnc.com##.infeed-ads
 javple.com##.widget > a[target="_blank"] > img

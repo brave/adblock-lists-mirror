@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: R61Sh+9KwjbTpA1IWNkKPw
-! Diff-Path: ../patches/7/7-s-1718966103-3600.patch
+! Checksum: EQ6jUxwDcFW8Q52P0yX5+Q
+! Diff-Path: ../patches/7/7-s-1718968666-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.1
-! TimeUpdated: 2024-06-21T10:32:21+00:00
+! Version: 2.0.53.2
+! TimeUpdated: 2024-06-21T11:15:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3911,7 +3911,6 @@ scienceplus2ch.com##div[id^="ads_"]
 booksprivilege.com###adsub
 eiga.com###m-osorezone
 sports.yahoo.co.jp##.cm-modCommon02[style="min-width: 300px; min-height: 250px"]
-sports.yahoo.co.jp##.sn-videoEmbed__banner > a[href*="&utm_medium=banner"] > img
 umatoku.hochi.co.jp##.ad.w-rec[style="text-align:center;margin:45px auto 40px;width:720px;"]
 umatoku.hochi.co.jp##.ad:not(.w-rec)
 moppy.jp##.a-external-banner--rectangle

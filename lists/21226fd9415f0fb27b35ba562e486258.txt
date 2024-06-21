@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: g5fB5dJwDcNul9WGZAn7vQ
+! Checksum: ENORCqjLDtHdgRa62HKePQ
 ! Title: Easylist Cookie List
-! Updated: 2024-06-20 23:40 UTC
+! Updated: 2024-06-21 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23535,6 +23535,10 @@ alcodistributions.fr,alcodistribuciones.com,alcodistribuzioni.com,alcogrosshandl
 canyon.com##+js(rc, js-modalUnclosable, , stay)
 canyon.com##+js(remove-class, js-cookiesModal|is-open, .js-cookiesModal\,.is-open)
 canyon.com##body:style(overflow: auto !important; position: initial !important;)
+! anacondastores.com
+anacondastores.com##.js-popup-modal
+anacondastores.com##.modal-backdrop
+anacondastores.com##body,html:style(height: auto !important; overflow: auto !important)
 ! drimsim.com
 drimsim.com##.remodal-wrapper
 drimsim.com##.remodal-overlay

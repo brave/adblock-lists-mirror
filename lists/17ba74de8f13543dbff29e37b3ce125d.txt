@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202406220336
+! Version: 202406220445
 ! Title: EasyList
-! Last modified: 22 Jun 2024 03:36 UTC
+! Last modified: 22 Jun 2024 04:45 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1221,7 +1221,6 @@ _StickyAd.
 _text_ads.
 _textads.
 _top_ad.
-_top_ad_
 _vertical_ad.
 _web-advert.
 _widget_ad.
@@ -68153,6 +68152,7 @@ domaingang.com##.domai-target
 thenationonlineng.net##.dorvekp-post-bottom
 gearlive.com##.double
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
+zeroupload.com##.download-page > a[rel="noopener"] > img
 thepiratebay3.to##.download_buutoon
 drivespark.com##.dp-add-block
 thesun.co.uk##.dpa-slot
@@ -72044,6 +72044,7 @@ target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-co
 tossinggames.com#?#tbody:-abp-contains(Please visit our below advertisers)
 trends.gab.com#?#li.list-group-item:-abp-contains(Sponsored content)
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
+tripadvisor.com#?#.tkvEM:-abp-contains(Sponsored)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 vofomovies.info#?#a13:-abp-contains( Ad)
 walmart.ca,walmart.com#?#div > div[io-id]:-abp-contains(Sponsored)

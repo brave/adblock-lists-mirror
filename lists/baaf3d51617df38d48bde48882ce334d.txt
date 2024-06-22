@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: frMAlnoGni/m0fdZR0W5UA
-! Version: 202406220540
+! Checksum: tVx5LfHXp2flEvTayqEslQ
+! Version: 202406220640
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-06-22 05:40 UTC
+! Last modified: 2024-06-22 06:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4015,6 +4015,8 @@ christianpost.com##section[class^="inline-newsletter"]
 regain.us##section[data-testid="newsletter-section"]
 ! theprovince.com/winnipegsun.com/canoe.com/o.canada.com/financialpost.com/nationalpost.com
 ##.newsletter-widget__new-story-page
+! :has
+guitar.com#?#.w-full:-abp-contains(Mailing)
 !! medium
 codeburst.io,medium.com##[class][style="bottom: 0px;"]
 !! thelocal

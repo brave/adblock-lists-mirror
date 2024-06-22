@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0zRfS7tucrppxkikSrsn2g
-! Version: 202406221501
+! Checksum: EJ6p5IoFar8HxIKgVGq7jA
+! Version: 202406221601
 ! Title: EasyList Italy
-! Last modified: 22 Jun 2024 15:01 UTC
+! Last modified: 22 Jun 2024 16:01 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -2535,6 +2535,7 @@ necrologi.ilcorriere.net##.advertisement-area
 ilgazzettinodisicilia.it##.advertisement_above_footer
 frasicelebri.it##.advertising
 yogamap.it##.advertising-box
+tuttogreen.it##.advplace
 dauniacom.it##.advt-col
 ilmiogiornale.net##.afc_popup
 incesti.xxx,megasesso.com,pornopizza.it,tuboitaliano.it,videopornoitalia.com##.aff
@@ -5051,6 +5052,8 @@ tgcom24.mediaset.it#?#div[data-testid="section"]:-abp-has(span:-abp-contains(Con
 tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 !----------------Regole di esclusione per risolvere i problemi----------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist.txt ***
+@@||ads.viralize.tv/player/$xmlhttprequest,domain=automoto.it|ilquaderno.it|moto.it
+@@||ads.viralize.tv^|$script,domain=automoto.it|ilquaderno.it|moto.it
 @@||amazon-adsystem.com/aax2/apstag.js$domain=auto.it|calcionapoli1926.it|cittaceleste.it|corrieredellosport.it|derbyderbyderby.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|golssip.it|hellas1903.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|toronews.net|tuttobolognaweb.it|tuttosport.com|video.gazzetta.it|violanews.com
 @@||buonenotiziebologna.it/images/banners/logos/bnb/logo.png
 @@||centrosangiorgio.com^*_pubblicita.
@@ -5062,6 +5065,7 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||gay.it/adv/empty.mp4$media,~third-party
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=consiglibenessere.org
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=agi.it|calcionapoli1926.it|circusf1.com|cittaceleste.it|derbyderbyderby.it|fantacalcio.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|gianlucadimarzio.com|golssip.it|hellas1903.it|ilmeteo.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mistergadget.tech|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|qds.it|toronews.net|tuttobolognaweb.it|video.gazzetta.it|violanews.com|vrsicilia.it
+@@||monetize-static.viralize.tv/viralize_player_content.min.$script,domain=automoto.it|ilquaderno.it|moto.it
 @@||query.yahooapis.com/v1/public/yql?*/pubads.g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=telefriuli.it
 @@||repstatic.it/cless/common/adv/prebid6.28.0.js$domain=ilmeteo.it
 @@||video.comingsoon.it/Adv/Box/$image,media

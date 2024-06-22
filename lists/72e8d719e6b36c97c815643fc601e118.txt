@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.0.6
+! Version: 3.7.0.7
 
 ! General
 
@@ -563,8 +563,8 @@ theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
 ||20minutes.fr/v-ajax/subscribe-modal$xmlhttprequest,~third-party
 aaii.com##+js(rc, fadeout, .fadeout)
 aaii.com##.greybox-signup
-al-monitor.com##+js(rc, nodetype--memo, body.nodetype--memo)
-al-monitor.com##div.memo--callout--wrapper
+aftenposten.no##div.hyperion-css-1cc2qe9,div[class^="advertory-"]
+aftenposten.no##body:style(overflow: auto !important)
 amboss.com##+js(cookie-remover, ssobma)
 amboss.com##div#optly-remaining-articles-banner,div[class^="InfoBanner_InfoBanner"]
 ||artsprofessional.co.uk/*/js/content_paywall.js$script,~third-party

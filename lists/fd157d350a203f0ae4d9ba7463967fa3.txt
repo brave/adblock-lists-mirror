@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7ZnSNpa9pYRhuraXJN8/2A
-! Version: 202406231601
+! Checksum: RoTQ7XxiMjmuK8RodjopLA
+! Version: 202406231701
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jun 2024 16:01 UTC
+! Last modified: 23 Jun 2024 17:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11472,6 +11472,7 @@ want2vote.com###adsWall-0
 want2vote.com###adsWall-1
 shopinfo.com.ua###ads_header_right
 vk.com,vk.ru###ads_left
+game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib###ads_script
 shpargalkablog.ru###adsenseNiz
 4creates.com###adsh
 academ.info###adslinks
@@ -12174,6 +12175,7 @@ poleno.net###pddk221
 onyxgame.com###pegination ~ a
 mamba.ru###photo_viewer[style]
 sportrecs.com###player .MuiButton-containedPrimary
+konohatv.org###player > .absolute
 toples.cc###player > div[style*="pointer;"]
 ts.kg###player-blocker
 ovva.tv###player-mobile-select > .buttons-container
@@ -12617,6 +12619,7 @@ heregirl.ru,ledilana.ru###vgtrk_bottom
 virusinfo.info###vi_ad
 virusinfo.info###vi_adlink
 ivi.ru###video-flack
+xv-ru.com###video-right
 videonews.club###video_bootom
 enter.az###videorekframe
 smartphone.ua###videos-ads
@@ -16120,6 +16123,7 @@ lifetambov.ru##.theme-wrapper > .container > div > *
 thequestion.ru##.theq-header__beta__nav__promo
 nulled.cc##.theshit_top_block
 vgtimes.ru##.thisad
+xv-ru.com##.thumb-ad
 primorye.ru##.ti-block
 mmamama.ru##.tidymag-sidebar-content
 divxplayer.ml,haes.tech,hcdn.online,metaverseid.tk,player.cvary.org##.timecss
@@ -18541,7 +18545,7 @@ tourister.ru##div[class^="trstr_adv_"]
 alimero.ru##div[class^="two-column-page-sidebar-slided-boners"]
 kinonews.ru##div[class^="under_shapka"] > *
 zamunda.ch,zamunda.net##div[class^="unique-"]
-xenforo.info##div[class^="vds-cloud"]
+xenforo.info##div[class^="vds-"][class*="cloud"]
 vesti.kz##div[class^="vesti-banner"]
 1fenshui.ru##div[class^="vex"]
 newbum.net##div[class^="videoban"]
@@ -18676,6 +18680,7 @@ browserss.ru##div[id^="SlideShow"]
 inpearls.ru##div[id^="TM_"]
 primgazeta.ru,zwezda.net##div[id^="Zz"]
 ppt-online.org##div[id^="ab_"]
+xv-ru.com##div[id^="ad-footer"]
 textarchive.ru##div[id^="ad_"]
 andevice.ru##div[id^="ad_header"]
 indigomath.ru##div[id^="ad_id"]
@@ -18975,11 +18980,13 @@ topasnew24.com##div[style="width:336px; height:280px; display:block"]
 softobase.com##div[style="width:336px; height:280px;"]
 for-ua.com##div[style="width:540px;height:90px;overflow:hidden;display:block;margin-top:10px"]
 obfog.ru##div[style="width:970px;height:250px;margin:12px auto 12px auto;display:block"]
+mozaika.biz#?#div[style] > a[href]:not([href^="/"]):not([href^="https://mozaika.biz/"]) > img
 center.bz##div[style] > center
 bless-news.com##div[style] > div[class*="Overlay"][id*="Overlay"]
 cqham.ru##div[style] > noindex a > img
 kirov-portal.ru#?#div[style]:-abp-has(> [id^="adfox_"])
 kirov-portal.ru#?#div[style]:-abp-has(> [id^="unit_"])
+mozaika.biz#?#div[style]:-abp-has(> a[href]:not([href^="/"]):not([href^="https://mozaika.biz/"]) > img)
 kirov-portal.ru#?#div[style]:-abp-has(> ntvk)
 small-games.info#?#div[style]:-abp-has(> p > [href="#hideRekCaption"])
 buhoblik.org.ua##div[style][onclick*="/rizni/"]
@@ -25490,7 +25497,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||yaberemenna.info/openx/www/delivery/ai.php?filename=$domain=yaberemenna.info
 @@||yaberemenna.info/openx/www/delivery/ajs.php?zoneid=7&$domain=yaberemenna.info
 @@||yandex.ru/ads/$domain=magnit.ru
-@@||yandex.ru/ads/system/context.js|$script,domain=1prime.ru|tnt-online.ru|trychatgpt.ru|zaycev.net
+@@||yandex.ru/ads/system/context.js|$script,domain=1prime.ru|konohatv.org|tnt-online.ru|trychatgpt.ru|zaycev.net
 @@||yandex.ru/metrika/informer.js
 @@||yandex.ru/search/site/?*search$third-party,script
 @@||yandex.st/share/share.js|$script,domain=nashaplaneta.su

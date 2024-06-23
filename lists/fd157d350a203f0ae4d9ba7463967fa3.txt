@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l6UetUqswTZH4LagkNe9vA
-! Version: 202406232201
+! Checksum: AiThY+xRyuPX7Z3tZZDptw
+! Version: 202406232301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jun 2024 22:01 UTC
+! Last modified: 23 Jun 2024 23:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23220,7 +23220,7 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru##[data-logger-parent="sidebarDoubleRight"]
 ~e.mail.ru,mail.ru,sportmail.ru##[data-rb-slot]
 ~e.mail.ru,mail.ru,sportmail.ru##[data-view^="Slot"][data-adq-id]
-~e.mail.ru,mail.ru,sportmail.ru##a[class^="rb-"][href^="https://r.mail.ru/redir/"][target="_blank"]
+~e.mail.ru,mail.ru,sportmail.ru##a[class^="rb-"][href^="https://r.mail.ru/"][target="_blank"]
 ~e.mail.ru,mail.ru,sportmail.ru#?#aside div[style^="min-height:"][data-hideorder]:first-child:-abp-has(> [data-rb-slot])
 ~e.mail.ru,mail.ru,sportmail.ru##div[class*="rb-slot_plug"]
 ~e.mail.ru,mail.ru,sportmail.ru##div[data-closewrap-container]
@@ -24046,6 +24046,7 @@ dzen.ru##.article-right-ad-block
 dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
 dzen.ru##.zen-ui-viewport-expansion__container:empty
 dzen.ru##.zenad-card-rtb
+dzen.ru##[aria-label="Карточка рeклaмы"]
 dzen.ru##[aria-label="Карточка рeкламы"]
 dzen.ru##[aria-label="Карточка рекламы"]
 dzen.ru##[data-name="video-in-combo-zen-container"]
@@ -24077,6 +24078,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yclid=$popup,domain=dzen.ru
 /*ycliid=$popup,domain=dzen.ru
 /*ycliyd=$popup,domain=dzen.ru
+/*ycllcd=$popup,domain=dzen.ru
 /*yclld=$popup,domain=dzen.ru
 /*yclyd=$popup,domain=dzen.ru
 /*yclyyd=$popup,domain=dzen.ru

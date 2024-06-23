@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CJNVnZAxQmso54A5Y8ZBrQ
-! Version: 202406230440
+! Checksum: EUhrLYB5ujlafC4dZYUVpA
+! Version: 202406230540
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-06-23 04:40 UTC
+! Last modified: 2024-06-23 05:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -147,7 +147,7 @@
 ||subscriptions.cbc.ca^$xmlhttprequest
 ||theintercept.com/xbuilder/$script
 ||thejewishstar.com/images/enews-ad.png
-||tinypass.com/api/tinypass.min.js$script,domain=bbcgoodfood.com|billboard.com|rawstory.com|thedailybeast.com|theintercept.com|wwd.com
+||tinypass.com/api/tinypass.min.js$script,domain=bbcgoodfood.com|billboard.com|rawstory.com|rollingstone.com|thedailybeast.com|theintercept.com|wwd.com
 ||waterfordwhispersnews.com/wp-content/themes/therex-child/js/_newsletter-article-signup.js
 !------------------------General/Specific element hiding rules-------------------------!
 ! fanboy_newsletter_general_hide.txt
@@ -2985,7 +2985,7 @@ forkast.news##.has-blue-grey-very-light-background-color
 coloradosun.com##.has-light-gray-background-color
 healthyfitnessmeals.com##.has-quaternary-background-color
 favfamilyrecipes.com##.has-quinary-background-color
-aircargonext.com,baltimoremagazine.com,cargofacts.com,govtech.com,gvwire.com,interrupt.memfault.com,medcitynews.com##.hbspt-form
+aircargonext.com,baltimoremagazine.com,cargofacts.com,govtech.com,gvwire.com,interlochenpublicradio.org,interrupt.memfault.com,medcitynews.com##.hbspt-form
 architectmagazine.com,jlconline.com##.hd-promo
 biztechmagazine.com##.hdr-top
 theprovince.com##.header-breaking__secondary
@@ -4863,8 +4863,8 @@ justthenews.com##body,html:style(overflow: auto !important; position: initial !i
 ! kermitlynch.com
 kermitlynch.com##+js(set-cookie, hidePopUp, true)
 ! .fancybox-overlay
-heraldnet.com,thehill.com,newsnationnow,therecord.com,parent.com##.fancybox-overlay
-heraldnet.com,thehill.com,newsnationnow,therecord.com,parent.com##body,html:style(overflow: auto !important; position: initial !important;)
+inquirer.com,heraldnet.com,thehill.com,newsnationnow,therecord.com,parent.com##.fancybox-overlay
+inquirer.com,heraldnet.com,thehill.com,newsnationnow,therecord.com,parent.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! .fancybox-container
 scetv.org,berkeleyearth.org##.fancybox-container
 scetv.org,berkeleyearth.org##body:style(overflow: auto !important; position: initial !important;)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IvO8aymrcHd5FxDsW30BWA
-! Diff-Path: ../patches/7/7-s-1719034510-3600.patch
+! Checksum: zd2jI/XXy5Y4NBkVrOnvww
+! Diff-Path: ../patches/7/7-s-1719207317-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.6
-! TimeUpdated: 2024-06-22T05:32:49+00:00
+! Version: 2.0.53.7
+! TimeUpdated: 2024-06-24T05:32:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -360,7 +360,7 @@
 ||mediad.co.jp^
 ||mediba.jp^
 ||moba8.net^
-||mopo.jp^
+||mopo.jp^$third-party
 ||myiads.com^
 ||octopuspop.com^$third-party
 ||redirectvoluum.com^
@@ -1525,6 +1525,7 @@ jikayosha.jp#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+.top/memx/force_login?acr_values=$document
 .com/?_encoding=UTF8&openid.assoc_handle=jpflex&openid.claimed_id=&action=sign-in&path=home&ref_=nav_Account&signIn=1&useRedirectOnSuccess=1|$document
 ://kuronekoyam*.top/jp$document
 .cfd/item-*.html|$document
@@ -1730,6 +1731,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||zutool.jp/img/468_366_otenki_20221005.jpg
 ||pinkylip.net/wp-content/uploads/2024/03/suppin.jpg
 www6.plala.or.jp##.ninja_onebutton + hr + a[href^="http://www.amazon.co.jp/gp/aw/rd.html"]
 emuokunmaster.com##div[style="width: 815px; height: 250px; margin: auto; text-align: center;"]
@@ -2310,6 +2312,7 @@ automaton-media.com##.td-ss-main-sidebar > aside.widget:has(> div.block-title > 
 nbblog.jp##div[class^="napbiz_ad"]
 news.sukupara.jp#?#.adv2:has(div[id^="div-gpt-"])
 itmedia.co.jp###TopLink
+diamond.jp##.article-list > div > article:has(> div.ad-related)
 diamond.jp##.kabunushiyutai-ir
 smhn.info#?##primary > div.half:has(> .ads)
 smhn.info#?#.widget_execphp:has(> div > ins.adsbygoogle)

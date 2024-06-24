@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: hwYl5tSeWFzBYxtVU3tZDg
-! Diff-Path: ../patches/7/7-s-1719232509-3600.patch
+! Checksum: FNp+t6fYmaNbyDmnrAszDw
+! Diff-Path: ../patches/7/7-s-1719236112-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.9
-! TimeUpdated: 2024-06-24T12:32:34+00:00
+! Version: 2.0.53.10
+! TimeUpdated: 2024-06-24T13:32:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5362,7 +5362,7 @@ news.ameba.jp##div[class^="AdGoogle_"]
 news.ameba.jp##div[class^="SpAd"]
 huffingtonpost.jp##.leaderboard-flex-placeholder
 macaro-ni.jp##.articleShow__nativeAd
-macaro-ni.jp##.yadsOverlay
+mantan-web.jp,macaro-ni.jp##.yadsOverlay
 ac-illust.com,photo-ac.com,mitok.info,entamega.com,getnews.jp,webcartop.jp##div[style="min-height: 250px;"]
 juken.oricon.co.jp,response.jp,getnews.jp,withonline.jp,jprime.jp##div[style="min-height:250px;"]
 otajo.jp##iframe[src^="https://rcm-jp.amazon.co.jp/e/cm?"]

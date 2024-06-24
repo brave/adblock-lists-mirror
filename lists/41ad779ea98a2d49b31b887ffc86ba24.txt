@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IJVivQQjPUT3tm3XRRZw2A
-! Version: 202406241015
+! Checksum: UAUN2zYBrtup8KxitnJutQ
+! Version: 202406241115
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-24 10:15 UTC
+! Last modified: 2024-06-24 11:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42526,6 +42526,7 @@ fiercewireless.com##.node--type-embed-promo
 realclearscience.com##.notif-wrapper
 law.justia.com##.notification-banner
 ar15.com##.notify
+thepeoplesvoice.tv##.np_signup_container
 advisor.ca##.nua-newsletter
 businesstraveller.com##.nw-ns-main
 as.com##.nwl
@@ -44412,6 +44413,9 @@ perplexity.ai##+js(set-session-storage-item, shouldShowAuthBannerAfterQuery, fal
 seekingalpha.com##+js(set-local-storage-item, __tp-gaAccount, disabled)
 ! https://github.com/uBlockOrigin/uAssets/issues/23722
 nisanyansozluk.com##+js(set-local-storage-item, newYeradlariWebsiteHidden, true)
+! sportsbusinessjournal.com
+sportsbusinessjournal.com##+js(cookie-remover, sbj_archiveStatus)
+sportsbusinessjournal.com##.paywall-footer-container
 ! apnews.com
 apnews.com##.fancybox-overlay-fixed
 apnews.com##body,html:style(overflow: auto !important; position: initial !important;)

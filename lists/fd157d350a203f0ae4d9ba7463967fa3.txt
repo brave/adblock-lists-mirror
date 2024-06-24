@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7GXU3Ws3Qh9zgvKkvH7SbA
-! Version: 202406241800
+! Checksum: nvZ8jyVSMcVfML77pR+wHw
+! Version: 202406241900
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Jun 2024 18:00 UTC
+! Last modified: 24 Jun 2024 19:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23589,6 +23589,7 @@ gazeta.ru##.b_telegram
 championat.com,gazeta.ru,lenta.ru##.banner
 lenta.ru##.banner + div[class][id]
 championat.com##.banner-parallax
+avtorambler.com,rambler.ru##.commercial-branding article > div:only-child > div:first-child + div + div:last-child
 vp.rambler.ru##.eagleplayer-advertisement-remain-time
 vp.rambler.ru##.eplayer-time-to-ad
 finance.rambler.ru##.finance__partners
@@ -23641,12 +23642,14 @@ r0.ru##div[class^="News__adv"]
 gazeta.ru##div[id^="_g_exchange_"]
 avtorambler.com,rambler.ru##div[id^="rcmw-container-"][id*="-horizontal-"]
 rambler.ru##div[id^="rnet_"]
+rambler.ru##div[style^="min-height: 140px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 240px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 250px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 290px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 300px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 400px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 600px"]
+rambler.ru##div[style^="min-height:140px"]
 avtorambler.com,rambler.ru##div[style^="min-height:240px"]
 avtorambler.com,rambler.ru##div[style^="min-height:250px"]
 avtorambler.com,rambler.ru##div[style^="min-height:290px"]
@@ -23663,9 +23666,10 @@ avtorambler.com,rambler.ru##div[style^="order:"][style*="-1"]
 ||trafffgen.rambler.ru^
 ||winline.rambler.ru^
 !#if ext_abp
-!rambler.ru#?#body > div:-abp-properties(min-height: 250px)
-!weather.rambler.ru#?#div:-abp-properties(min-height: 400px)
-!weather.rambler.ru#?#div:-abp-properties(min-height: 600px)
+avtorambler.com,rambler.ru#?#.commercial-branding div:-abp-properties(min-height: 125px)
+rambler.ru#?#body > div:-abp-properties(min-height: 250px)
+weather.rambler.ru#?#div:-abp-properties(min-height: 400px)
+weather.rambler.ru#?#div:-abp-properties(min-height: 600px)
 !#endif
 ! мобильная версия
 avtorambler.com,rambler.ru#?#div:-abp-has(> div[style^="min-height:"]) > p ~ div:-abp-contains(Продолжение истории после рекламы)

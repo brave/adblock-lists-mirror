@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: gfJWvl+G+vnOTeRVaeoQyg
-! Diff-Path: ../patches/13/13-s-1718976927-3600.patch
+! Checksum: 0EI1mTMuNdHm+9GcRn3xtw
+! Diff-Path: ../patches/13/13-s-1719243358-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.13
-! TimeUpdated: 2024-06-21T13:33:02+00:00
+! Version: 2.0.52.14
+! TimeUpdated: 2024-06-24T15:33:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1776,6 +1776,9 @@ tamindir.com##.band-banner
 .gif$~third-party,domain=giynikgazetesi.com
 hdfilmcehennemi.*##.money
 hdfilmcehennemi.*##.money-text
+hdfilmcehennemi.*##.money-wrapper
+hdfilmcehennemi.*##.money-child
+hdfilmcehennemi.*##.money-item
 hdfilmcehennemi.*##.ps-head-container
 hdfilmcehennemi.*##.col > .alert-danger-50.alert
 jetfilmizle.de##img[src^="reklam/"]
@@ -1816,9 +1819,6 @@ setfilmizleyin.com##.textreklam
 ||altaybetgir.cdn.ampproject.org/i/altaybetgir.com/*.gif
 ||filmizletv.*/*.mp4$~third-party
 oyungezer.com.tr##.inner-wrapper-sticky > div.featured-single:has(> .bannergroup-300)
-hdfilmcehennemi.us##.ps-head-container:empty
-||hdfilmcehennemi.us/rekla/$media
-hdfilmcehennemi.us##.card-money
 teknolojioku.com##body .adpro
 hdfilmcehennem.net##a[title="reklam_videoustu1"]
 ||filmizlehdfilm.com/*.mp4

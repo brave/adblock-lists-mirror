@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CpUhs3/qtM+f6RGF0KBVRg
-! Version: 202406240601
+! Checksum: He3M3UrFki0xJhTOgL79Ug
+! Version: 202406240701
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Jun 2024 06:01 UTC
+! Last modified: 24 Jun 2024 07:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22988,7 +22988,7 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/vk$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/kv$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -24046,6 +24046,7 @@ dzen.ru##.article-right-ad-block
 dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
 dzen.ru##.zen-ui-viewport-expansion__container:empty
 dzen.ru##.zenad-card-rtb
+dzen.ru##[aria-label="Карточка peклaмы"]
 dzen.ru##[aria-label="Карточка рeклaмы"]
 dzen.ru##[aria-label="Карточка рeкламы"]
 dzen.ru##[aria-label="Карточка рекламы"]
@@ -24068,6 +24069,7 @@ dzen.ru##div[class^="dzen-mobile__"] > div[id$="-fullscreen"]
 dzen.ru##div[class^="dzen-mobile__topContentBackgroundBottom"]
 dzen.ru##div[style*=" !important; "][style$=" !important;"]
 ! переходы
+/*icllcd=$popup,domain=dzen.ru
 /*ychid=$popup,domain=dzen.ru
 /*ychyd=$popup,domain=dzen.ru
 /*yciild=$popup,domain=dzen.ru

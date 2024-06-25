@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eujgs+uOEDi9vwHwbCq2lw
-! Version: 202406242340
+! Checksum: ivGSCjVzZK9COB0vpCr+9Q
+! Version: 202406250015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-24 23:40 UTC
+! Last modified: 2024-06-25 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44430,6 +44430,9 @@ pawread.com##+js(set-local-storage-item, countChapterNum, $remove$)
 redfin.com##+js(rc, stickyBanner, , stay)
 ! theolivepress.es
 theolivepress.es##+js(remove-cookie, issuem_lp)
+! plough.com
+plough.com##.article-paywall 
+plough.com##+js(remove-cookie, ArticlePaywallList)
 ! t-nation.com 
 t-nation.com##.toggle_lb_scrolling_mobile
 t-nation.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)

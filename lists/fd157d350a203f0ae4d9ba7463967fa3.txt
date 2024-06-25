@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0oL14gOMetpiuwOoI0uShg
-! Version: 202406251801
+! Checksum: /Cf2bV2XTMKCzO6E7dmV2A
+! Version: 202406251851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jun 2024 18:01 UTC
+! Last modified: 25 Jun 2024 18:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23623,9 +23623,9 @@ championat.com##a[href*="okko.sport"]
 www.afisha.ru##a[href^="/out/?url="]
 rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container"]:empty)
 avtorambler.com,rambler.ru#?#aside:-abp-has(> div > [class^="banner--native-partner_widget"])
+finance.rambler.ru##body[data-finance_media-desktop="main"] .commercial-branding > nav ~ div > div > script ~ div > div:last-child
 gazeta.ru#?#div:-abp-has(> .b_telegram)
 horoscopes.rambler.ru#?#div:-abp-has(> [id^="rcmw-container-"])
-finance.rambler.ru#?#div:-abp-has(> a[href*="?erid="])
 mail.rambler.ru##div[class*="Ad-direct"]
 mail.rambler.ru##div[class*="Ad-root"]
 mail.rambler.ru##div[class*="AddBillboard"]
@@ -24051,6 +24051,7 @@ dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
 dzen.ru##.zen-ui-viewport-expansion__container:empty
 dzen.ru##.zenad-card-rtb
 dzen.ru##[aria-label^="Карточк"][aria-label*="мы"]
+dzen.ru##[aria-label^="Рекл"]
 dzen.ru##[data-name="video-in-combo-zen-container"]
 dzen.ru#?#div:-abp-has(> .adv-skeleton___main)
 dzen.ru##div[class*=" card-with-ad__skeletonCard"]
@@ -24098,6 +24099,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yhic=$popup,domain=dzen.ru
 /*yhid=$popup,domain=dzen.ru
 /*yhyd=$popup,domain=dzen.ru
+/*yklid=$popup,domain=dzen.ru
 /*ylcd=$popup,domain=dzen.ru
 /*ylced=$popup,domain=dzen.ru
 /*ylcld=$popup,domain=dzen.ru

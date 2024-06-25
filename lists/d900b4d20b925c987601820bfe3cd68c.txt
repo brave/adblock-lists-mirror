@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 2uOEWMt0Rk6LXbPfVzllgQ
-! Diff-Path: ../patches/7/7-s-1719311741-3600.patch
+! Checksum: XYbn7e8Avs7Rb2VOBfefLw
+! Diff-Path: ../patches/7/7-s-1719315370-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.13
-! TimeUpdated: 2024-06-25T10:32:52+00:00
+! Version: 2.0.53.14
+! TimeUpdated: 2024-06-25T11:33:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2445,6 +2445,7 @@ dorama9.com###mobile_text-4
 dorama9.com###mobile_text-2
 digiday.jp##.ad_height
 ||img.ichigocandy.com/banners/
+av-baron.com##.entry-content p[style="text-align: center;"] a[target="_blank"][rel*="noopener"] > img[width]
 av-baron.com##.content-top-in
 itmedia.co.jp###TextAd
 itmedia.co.jp###SpvLink

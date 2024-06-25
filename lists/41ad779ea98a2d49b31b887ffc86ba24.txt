@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y2CMXDpwNoZygh8apnx/kw
-! Version: 202406251040
+! Checksum: yJleFtBcayVw5I2cLzGlMg
+! Version: 202406251140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-25 10:40 UTC
+! Last modified: 2024-06-25 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37711,6 +37711,7 @@ artforum.com##div[data-component="social-media"]
 land.nrw##div[data-type="social_feed"]
 askmefast.com##div[style="clear:both;position:absolute;top:20px;left:0px"]
 ea.com##ea-social-links
+gizmodo.jp,roomie.jp##fw-storyblock
 discord.me##li.menu-link.d-xl-inline-block
 galaxystore.samsung.com##span[class^="SnsPlugin_items_"]
 skeptoid.com##td > .nomobile
@@ -43173,6 +43174,8 @@ bcg.com##ps-subscription-module
 extremetech.com##section > .mt-8
 christianpost.com##section[class^="inline-newsletter"]
 regain.us##section[data-testid="newsletter-section"]
+! specific
+theverge.com##.duet--cta--newsletter
 ! theprovince.com/winnipegsun.com/canoe.com/o.canada.com/financialpost.com/nationalpost.com
 ##.newsletter-widget__new-story-page
 ! :has
@@ -44447,7 +44450,7 @@ plough.com##+js(remove-cookie, ArticlePaywallList)
 ! startribune.com (login/reg check)
 startribune.com##+js(remove-cookie, client_id)
 ! Mouse out nags
-firstcoastnews.com,kare11.com,wtsp.com,ajc.com,wfaa.com,9news.com,fox2now.com,wcnc.com,13newsnow.com,wsvn.com,abc15.com,wwltv.com,wkyc.com,wthr.com,11alive.com,wcnc.com,wusa9.com,wfaa.com,9news.com,fox2now.com,abc15.com,wwltv.com,wkyc.com,king5.com,11alive.com##+js(aeld, /^(mouseout|mouseleave)$/)
+cbs8.com,firstcoastnews.com,kare11.com,wtsp.com,ajc.com,wfaa.com,9news.com,fox2now.com,wcnc.com,13newsnow.com,wsvn.com,abc15.com,wwltv.com,wkyc.com,wthr.com,11alive.com,wcnc.com,wusa9.com,wfaa.com,9news.com,fox2now.com,abc15.com,wwltv.com,wkyc.com,king5.com,11alive.com##+js(aeld, /^(mouseout|mouseleave)$/)
 ! t-nation.com 
 t-nation.com##.toggle_lb_scrolling_mobile
 t-nation.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)

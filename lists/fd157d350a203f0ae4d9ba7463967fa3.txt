@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wqSyYCRzJ859ZSixMGyrxQ
-! Version: 202406251101
+! Checksum: 0iCTEr+1FAGHAea2IZEh+A
+! Version: 202406251201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jun 2024 11:01 UTC
+! Last modified: 25 Jun 2024 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14611,7 +14611,6 @@ igromania.ru,kanobu.ru##.knb-grid-layout > .no-radius
 igromania.ru,kanobu.ru##.knb-informer
 igromania.ru,kanobu.ru##.knb-sidebar_top
 topfile.tj##.knopka
-ranobelib.me##.ko_bz
 osvita.ua##.kom
 aqua-therm.ru##.kp-top-banner
 old.kurs.com.ru##.kursInformer #head-content
@@ -18286,6 +18285,7 @@ ytvideo.ru##div[class][data-aid]
 dorognoe.ru,europaplus.ru,radio7.ru,retrofm.ru##div[class][data-element*="BANNER"]
 mk.ru,prnt.sc##div[class][style*="important"]
 rlocman.ru##div[class][style="background-color:#fcfcee;padding:10px"]
+ranobelib.me##div[class][style="margin-top: 20px; margin-bottom: 20px;"]
 puzzleheap.ru##div[class][style^="height:"][id]:empty
 livejournal.com#?#div[class][style^="height:"][style*="background-color: black; position: relative;"]:-abp-has([src*="docking"][src*="eaglecdn"])
 news.pn##div[class][style^="width:"][style$="300px;"]
@@ -24050,13 +24050,7 @@ dzen.ru##.article-right-ad-block
 dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
 dzen.ru##.zen-ui-viewport-expansion__container:empty
 dzen.ru##.zenad-card-rtb
-dzen.ru##[aria-label="Карточка peклaмы"]
-dzen.ru##[aria-label="Карточка peкламы"]
-dzen.ru##[aria-label="Карточка pеклaмы"]
-dzen.ru##[aria-label="Карточка рeклaмы"]
-dzen.ru##[aria-label="Карточка рeкламы"]
-dzen.ru##[aria-label="Карточка реклaмы"]
-dzen.ru##[aria-label="Карточка рекламы"]
+dzen.ru##[aria-label^="Карточка"][aria-label*="мы"]
 dzen.ru##[data-name="video-in-combo-zen-container"]
 dzen.ru#?#div:-abp-has(> .adv-skeleton___main)
 dzen.ru##div[class*=" card-with-ad__skeletonCard"]
@@ -24091,6 +24085,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*ycliyd=$popup,domain=dzen.ru
 /*ycllcd=$popup,domain=dzen.ru
 /*yclld=$popup,domain=dzen.ru
+/*yclod=$popup,domain=dzen.ru
 /*yclud=$popup,domain=dzen.ru
 /*yclyyd=$popup,domain=dzen.ru
 /*ycyd=$popup,domain=dzen.ru

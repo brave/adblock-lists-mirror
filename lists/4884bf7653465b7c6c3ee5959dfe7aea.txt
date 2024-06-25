@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: b7XWoQmURr1vH9WfALPc1g
-! Diff-Path: ../patches/9/9-s-1719297318-3600.patch
+! Checksum: QgUU+jsTQ90+kmZU5aCGOg
+! Diff-Path: ../patches/9/9-s-1719311741-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.54
-! TimeUpdated: 2024-06-25T06:32:47+00:00
+! Version: 2.0.25.55
+! TimeUpdated: 2024-06-25T10:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5451,6 +5451,7 @@ visortmo.com#@#.book
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=cultura.uol.com.br
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175517
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=terra.com.br
+||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon_apstag.js,domain=terra.com.br
 ! dimed.com.br - broken own images
 @@||dimed.com.br/banners/$image
 @@||images.colombo.com.br/banners/$image

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: w7O4rQ9982CJ9j1CUMJQVw
-! Diff-Path: ../patches/7/7-s-1719290144-3600.patch
+! Checksum: t3vbbJHnSlxvYpTFo7q69Q
+! Diff-Path: ../patches/7/7-s-1719308109-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.11
-! TimeUpdated: 2024-06-25T04:33:03+00:00
+! Version: 2.0.53.12
+! TimeUpdated: 2024-06-25T09:32:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -498,7 +498,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181591
 iwb.jp##+js(addEventListener-defuser, DOMContentLoaded, getComputedStyle(a).height)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179614
-kotobank.jp##+js(no-setTimeout-if, return, 7400)
+kotobank.jp##+js(no-setTimeout-if, return)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178919
 guitarmagazine.jp#$#.tp-backdrop { display: none !important; }
 guitarmagazine.jp#$#.tp-modal { display: none !important; }
@@ -5372,7 +5372,6 @@ otajo.jp##iframe[src^="https://rcm-jp.amazon.co.jp/e/cm?"]
 tabi-labo.com##.dfp-article
 fashionsnap.com###mainArticleUnit
 travel.mdpr.jp##.ad-trend-topic-more-photo
-sp.seiga.nicovideo.jp##.pickup_ads_container
 fx-rashinban.com##.c-ad_bnr_super
 idou.me##.ad__search-lower-banner
 toaru-web.net##a[data-atag-id]
@@ -10892,8 +10891,6 @@ webcartop.jp#@#.single-ads
 ||penta.a.one.impact-ad.jp^$script,redirect=noop.js,domain=nissan.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107680
 @@||rmp.rakuten.co.jp/js/aa.js$domain=24.rakuten.co.jp
-! https://github.com/AdguardTeam/AdguardFilters/issues/105095
-@@||res.ads.nicovideo.jp/assets/js/ads2.js$domain=sp.seiga.nicovideo.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98787 fix related posts on mobile
 eromanga-school.com#@#.related-ad-area
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97511

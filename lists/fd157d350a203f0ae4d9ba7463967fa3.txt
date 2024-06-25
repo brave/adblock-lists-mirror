@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0iCTEr+1FAGHAea2IZEh+A
-! Version: 202406251201
+! Checksum: +s4gAheymx4pxUDp5dmt/g
+! Version: 202406251301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jun 2024 12:01 UTC
+! Last modified: 25 Jun 2024 13:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22526,7 +22526,7 @@ lada.kz/uploads/banners/
 ||tourdom.ru/_ad/
 ||tourdom.ru/_nuxt/img/*X*_$image
 ||tourister.ru/query.php*=adver-$xmlhttprequest
-||tproger.ru/_nuxt/LubokTop.
+||tproger.ru/_nuxt/Lubok
 ||tproger.ru/wp-node/*/rupor/get?link=
 ||tr.anidub.*/templates/Anidub/images/header_bg.
 ||track24.ru/img/bnrs
@@ -23626,6 +23626,7 @@ rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container"]:empty)
 avtorambler.com,rambler.ru#?#aside:-abp-has(> div > [class^="banner--native-partner_widget"])
 gazeta.ru#?#div:-abp-has(> .b_telegram)
 horoscopes.rambler.ru#?#div:-abp-has(> [id^="rcmw-container-"])
+finance.rambler.ru#?#div:-abp-has(> a[href*="?erid="])
 mail.rambler.ru##div[class*="Ad-direct"]
 mail.rambler.ru##div[class*="Ad-root"]
 mail.rambler.ru##div[class*="AddBillboard"]

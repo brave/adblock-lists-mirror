@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BAwm/06R3W+iDtCCmdu1rg
-! Version: 202406261351
+! Checksum: zEmeIaevJkT9Eg1B8D0OkA
+! Version: 202406261501
 ! Title: EasyList Italy
-! Last modified: 26 Jun 2024 13:51 UTC
+! Last modified: 26 Jun 2024 15:01 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -1749,7 +1749,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||zonalotto.it/banner_
 ||zonalotto.it/banner_zl/
 !
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$script,third-party,xmlhttprequest,domain=calcio.re|guardaserie01.click|pepperlive.info|streamingcommunity.cz
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$script,third-party,xmlhttprequest,domain=calcio.re|guardaserie01.click|onepiecepower.com|pepperlive.info|streamingcommunity.cz
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$script,third-party,xmlhttprequest,domain=ilgeniodellostreaming.zone
 ! (/sw.js)
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,domain=mrpornogratis.it|pornototale.com
@@ -2410,6 +2410,7 @@ gamesvillage.it###takeover_gv
 ecovicentino.it###td-layer-audio-article-banner
 italynews.it###tdi_29
 liberoquotidiano.it###teads-container
+onepiecepower.com###tendina
 betitaliaweb.it,meglioviaggiare.it###text-10
 italiachecambia.org###text-13
 viaggiasenzapensieri.com###text-15
@@ -2432,6 +2433,7 @@ betitaliaweb.it,metallus.it###text-9
 elaborare.com###text-html-widget-16
 umbriamagazine.com###thelink
 orvietosi.it###tirsena-banner
+onepiecepower.com###toCloseGADS
 forum.tomshw.it###tomshw_it_halfpage1
 certificatejournal.it,finanza.com###top-banner
 sposa.it###top-banner-container
@@ -2521,8 +2523,10 @@ editorialedomani.it,lasicilia.it##.adv-placeholder
 arte.sky.it##.adv-section-side
 corrieredellumbria.it,corrierediarezzo.it,corrieredisiena.it##.adv-slideshow
 ansa.it,filastrocche.it##.adv-slot
+oggi.it##.adv-square
 stateofmind.it##.adv-top-fullpage
 quattroruote.it##.adv-wrap
+iodonna.it##.adv-wrapper
 ilgallo.it##.adv4
 empresite.it##.adv_cont
 ilsussidiario.net##.adv_container
@@ -2995,6 +2999,7 @@ libero.it##.hp_300x1
 virgilio.it##.hp_300x250
 libero.it,virgilio.it##.hp_970x90
 giornalesm.com##.hthb-notification
+iodonna.it##.id-vda
 ilfattoquotidiano.it##.ifq-dfp
 allmusicitalia.it##.iframe-adv
 infojobs.it##.ij-AdvertisingRoadblockTop
@@ -3444,10 +3449,12 @@ androidblog.it,best5.it##.wpmc_inject_wrapper
 best5.it##.wpmoneyclick_template_product-card
 siciliatv.org##.wppopups-whole
 radiomillennium.it##.wrapper-banner-l-2
+oggi.it##.wrapper-bottom1
 centrometeoitaliano.it##.wrapper-mgid
 radiomillennium.it##.wrapper-quadrati
 ilbacodaseta.org##.wrapper-widget-imagen
 hwupgrade.it##.wrapper-xyz
+iodonna.it##.wrapperAdv
 ornews.it##.youtube_adv_alert
 weboggi.it##.zen
 infooggi.it##.zero-margins.w-dyn-items.w-row
@@ -5073,7 +5080,7 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||g.doubleclick.net/tag/js/gpt.js$script,domain=auto.it|corrieredellosport.it|tuttosport.com
 @@||gay.it/adv/empty.mp4$media,~third-party
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=consiglibenessere.org
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=agi.it|calcionapoli1926.it|circusf1.com|cittaceleste.it|derbyderbyderby.it|fantacalcio.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|gianlucadimarzio.com|golssip.it|hellas1903.it|ilmeteo.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mistergadget.tech|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|qds.it|toronews.net|tuttobolognaweb.it|video.gazzetta.it|violanews.com|vrsicilia.it
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=agi.it|calcionapoli1926.it|circusf1.com|cittaceleste.it|derbyderbyderby.it|fantacalcio.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|gianlucadimarzio.com|golssip.it|hellas1903.it|ilmeteo.it|ilmilanista.it|ilposticipo.it|iodonna.it|itasportpress.it|juvenews.eu|mediagol.it|mistergadget.tech|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|oggi.it|padovasport.tv|pianetamilan.it|qds.it|toronews.net|tuttobolognaweb.it|video.gazzetta.it|violanews.com|vrsicilia.it
 @@||monetize-static.viralize.tv/viralize_player_content.min.$script,domain=automoto.it|ilquaderno.it|moto.it
 @@||query.yahooapis.com/v1/public/yql?*/pubads.g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=telefriuli.it
 @@||repstatic.it/cless/common/adv/prebid6.28.0.js$domain=ilmeteo.it

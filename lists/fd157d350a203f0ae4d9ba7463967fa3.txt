@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QxLrJYqr0Z6rQ4HL2/2zow
-! Version: 202406261851
+! Checksum: BpZ3LQflB5lcvXVCnFsjCg
+! Version: 202406262000
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Jun 2024 18:51 UTC
+! Last modified: 26 Jun 2024 20:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23325,13 +23325,16 @@ my.mail.ru##.b-fourth-pseudo-column
 my.mail.ru##.b-history-event:empty
 my.mail.ru##.b-history__adv-post-carousel
 my.mail.ru##.b-music__main__banner
+my.mail.ru##.b-video__native-rb-banner
 my.mail.ru##.b-video__top-rb-banner
 my.mail.ru##.l-app__left
 my.mail.ru##.l-app__right
+my.mail.ru##.l-common__container > div > div[style^="display:"]
 my.mail.ru##.sp-video__billboard
 my.mail.ru##.ui-simple-block[class*="promo"]
+my.mail.ru##:not(.l-common__container) > div[style^="position:"][style*=";display:"][style*=";opacity:1;visibility:visible;height:"]
 my.mail.ru##div[class^="l-music__banner"]
-my.mail.ru##div[style^="position:"][style*=";display:"][style*=";opacity:1;visibility:visible;height:"]
+my.mail.ru##div[style^="position:"][style*=";display:"][style*=";opacity:1;visibility:visible;height:"] > div[style^="display:"]
 ! Облако
 cloud.mail.ru##div[class*="advHeaderStatic"]
 cloud.mail.ru##div[class^="Folder__worm"]

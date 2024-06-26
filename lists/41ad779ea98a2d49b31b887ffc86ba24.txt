@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KiEPBDUYih7lKPjaJTNP/g
-! Version: 202406252215
+! Checksum: 6XzW7WFeM9LZNw77xAq+Xg
+! Version: 202406252340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-25 22:15 UTC
+! Last modified: 2024-06-25 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44204,6 +44204,10 @@ m.youtube.com##.ytm-bottom-sheet-overlay-renderer-container[style="transform: tr
 m.youtube.com##.YtWebScrimDialogContainer
 m.youtube.com##.YtWebScrimHostModernOverlay
 m.youtube.com##body:style(overflow: auto !important; position: initial !important;)
+! zillow.com
+zillow.com##.app-upsell-banner
+zillow.com###pfs-upsell:remove()
+zillow.com##.exposed-filters:style(top:0 !important)
 ! food.ndtv.com
 food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
 ! LaraPush

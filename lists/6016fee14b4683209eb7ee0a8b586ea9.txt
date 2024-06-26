@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QpPvD7u9kJYMGPnQnFy/Ig
-! Diff-Path: ../patches/16/16-s-1719401753-3600.patch
+! Checksum: iPKHUg7r4Ns/B4KVV6BqOw
+! Diff-Path: ../patches/16/16-s-1719405312-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.35
-! TimeUpdated: 2024-06-26T11:33:06+00:00
+! Version: 2.0.45.36
+! TimeUpdated: 2024-06-26T12:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -195,10 +195,7 @@ japscan.lol#@##banner-top-right
 japscan.lol##.blur-background
 japscan.lol##.notice-message
 japscan.lol###promo.sticky-top
-japscan.lol##+js(remove-node-text, script, /ApoZow|'(ads?-\d+|ad-img-slot|ad_inview_area|div-leader-ad)|\['style'\]\['display'\]/)
-japscan.lol##+js(abort-on-stack-trace, Array.prototype.filter, /_1x|window\.<computed>[\s\S]*?at [a-zA-Z]{1\,5}\d{1\,7}/)
-japscan.lol##+js(abort-on-stack-trace, getComputedStyle, _0x)
-japscan.lol##+js(abort-current-script, EventTarget.prototype.addEventListener, /((ad-img|banner)-|interstitial|getComputedStyle|eval|new Function|'load'\,'set')[\s\S]{1\,6000}$/)
+japscan.lol##+js(remove-node-text, script, /ApoZow|'(map'|\/imgs\/|ads?-\d+|ad-img-slot|ad_inview_area|div-leader-ad)|\['style'\]\['display'\]/)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147701
 trustmyscience.com##.adb-border
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146165

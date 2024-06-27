@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Swkenw1Ax/3+u4iydJlpCw
-! Diff-Path: ../patches/7/7-s-1719480929-3600.patch
+! Checksum: VreK2x0T5K9sjhdI+pJg2A
+! Diff-Path: ../patches/7/7-s-1719488163-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.24
-! TimeUpdated: 2024-06-27T09:32:40+00:00
+! Version: 2.0.53.25
+! TimeUpdated: 2024-06-27T11:33:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1732,10 +1732,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+voyeurgeek.com##.elementor-widget-flat-posts + section.elementor-section.itigyotext
 5urprise.jp##.entry-content > center > strong
 5urprise.jp##.entry-content > center > b
 5urprise.jp##.is-style-yellow_box
-my-best.com##div[class^="css-"] ~ section:has(.adsbygoogle)
+my-best.com##.css-92i9wm
 ettina.blogterest.net##.blockAreaMainFooter > div.blockWrapper:has(> div.blockBody > iframe)
 ettina.blogterest.net##.entryDetail div[style^="width: 100%; height: 3"][style*="overflow-y: hidden;"]
 blogterest.net##.blockAreaMainFooter > div.blockWrapper:has(> div.blockBody > div.eroterest_mgs_rec_parts)

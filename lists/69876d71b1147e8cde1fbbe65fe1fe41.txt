@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: +qguQJ+Ai9TslQGhWYRutA
-! Diff-Path: ../patches/13/13-s-1719477310-3600.patch
+! Checksum: UMfR7fgHRThbDDF8EXgfJA
+! Diff-Path: ../patches/13/13-s-1719498917-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.20
-! TimeUpdated: 2024-06-27T08:32:52+00:00
+! Version: 2.0.52.21
+! TimeUpdated: 2024-06-27T14:32:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -76,6 +76,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||cdn.cdnhipter.xyz^
 ||kingads2.org^
 ||ad-service.shop^
 ||yonderdim.com^
@@ -1945,7 +1946,7 @@ donanimhaber.com##main > div[data-title] + div[style^="margin:"]
 hdfilmizle.site##.playex > a[target="_blank"]
 ||hdfilmizle.site/ads/
 ||hdfilmizle.site/polat.js
-contentx.me###videoText
+selcukflix.com,contentx.me###videoText
 ||onlinedizi.xyz/img/a.php
 ||onlinedizi.xyz/images/vst.php
 onlinedizi.xyz###warning2

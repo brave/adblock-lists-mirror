@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VS6EJ4nzv358bz/hYGPrfg
-! Version: 202406271351
+! Checksum: LvDQxWNcjnADL87wTvn/eg
+! Version: 202406271451
 ! Title: EasyList Italy
-! Last modified: 27 Jun 2024 13:51 UTC
+! Last modified: 27 Jun 2024 14:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -5086,6 +5086,9 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||query.yahooapis.com/v1/public/yql?*/pubads.g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=telefriuli.it
 @@||repstatic.it/cless/common/adv/prebid6.28.0.js$domain=ilmeteo.it
 @@||video.comingsoon.it/Adv/Box/$image,media
+! https://www.agi.it/cronaca/news/2024-06-26/vernice-rossa-scalinata-trinita-dei-monti-26928755/
+@@||d11otsap2ziep3.cloudfront.net/resources/videojs-ads/videojs-contrib-ads.js$script,~third-party
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=d11otsap2ziep3.cloudfront.net
 !
 @@||ads.lfstmedia.com/getad?site=$script,domain=spaghetti-interactive.it
 @@||ads.viralize.tv/player/$third-party,xmlhttprequest,domain=ilquaderno.it|quotidiano.net

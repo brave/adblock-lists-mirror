@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Mz5LNJ0w1TliDAj2i8JV4A
-! Version: 202406272001
+! Checksum: dsymrkomXmy68eDiTJ6QvQ
+! Version: 202406272051
 ! Title: EasyList Italy
-! Last modified: 27 Jun 2024 20:01 UTC
+! Last modified: 27 Jun 2024 20:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -548,6 +548,7 @@ _sito/adv/
 ##a[href^="https://www.centoxcento.net/?track="]
 ##a[href^="https://www.dazn.com/"][href*="?utm_source=affiliate"]
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist_general_hide.txt ***
+adnkronos.com#@#.avp-p-wrapper
 ilgiornaleditalia.it#@#.bannervcms
 unionesarda.it#@#.leftAds
 unionesarda.it#@#.rightAds
@@ -1578,6 +1579,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||radioazzurra.it^*/banner/
 ||radiocentraleweb.it/public/audio/campoDelSole.jpg
 ||radiocentraleweb.it/public/audio/sarsina.jpg
+||radiociak.it^*/banners/
 ||radiocittafutura.it/images/banners/
 ||radiofusion.it/img/banner/
 ||radiohollywood.net/images/europea-92-buono.jpg
@@ -3136,7 +3138,7 @@ voglioporno.com##.ntv-disclaimer
 diretta.it,flashscore.it##.oddsPlacement
 hdblog.it,hdmotori.it##.offer-icons
 spoletonline.com##.oldBanner
-reportageonline.it,sslazionuoto.it##.owl-carousel
+radiociak.it,reportageonline.it,sslazionuoto.it##.owl-carousel
 boatindustry.it,boatsnews.it,pescare.news##.p
 money.it##.p-4.my-4.rounded-lg.text-white
 livornopress.it##.padding-top.hide-in-wm-xxl
@@ -3167,6 +3169,7 @@ cagliarinews24.com,calcionews24.com,futsalnews24.com,internews24.com,juventusnew
 morethantech.it##.placeholder-bg
 radioamore.it##.plugin-sidebar-adv
 misterstudent.tv,salernoinweb.it##.pollice-volante-all
+radiociak.it##.pop_up_modal_content > a
 pordenoneoggi.it##.porde-widget
 notizielazio.it##.post-middle-banner
 comingsoon.it##.primeTrack
@@ -3238,6 +3241,7 @@ sicurauto.it##.sidebar-sticky-top
 fiorentinauno.com,tuttosporttaranto.com##.sidesponsors_wrapper
 cosedicasa.com##.sidespot-wrapper
 theflightclub.it##.single-bestseller
+radiociak.it##.single-bottom
 manfredonianews.it##.single-box
 goodtrekking.it,paesidelgusto.it,piccolieviaggi.it,trueriders.it##.single-slot-holder
 animeclick.it,greenme.it##.skin
@@ -5084,7 +5088,11 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||ads.viralize.tv/player/$xmlhttprequest,domain=automoto.it|ilquaderno.it|moto.it
 @@||ads.viralize.tv^|$script,domain=automoto.it|ilquaderno.it|moto.it
 @@||amazon-adsystem.com/aax2/apstag.js$domain=auto.it|calcionapoli1926.it|cittaceleste.it|corrieredellosport.it|derbyderbyderby.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|golssip.it|hellas1903.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|toronews.net|tuttobolognaweb.it|tuttosport.com|video.gazzetta.it|violanews.com
+@@||assets.evolutionadv.it/adnkronos_com/adnkronos_com.new.js$domain=adnkronos.com
+@@||assets.evolutionadv.it/adnkronos_com/video.js$domain=adnkronos.com
+@@||assets.evolutionadv.it/optiload/$script,domain=adnkronos.com
 @@||buonenotiziebologna.it/images/banners/logos/bnb/logo.png
+@@||cdnadn.evolutionadv.it/Assets/Video/*.mp4$domain=adnkronos.com
 @@||centrosangiorgio.com^*_pubblicita.
 @@||centrosangiorgio.com^*_pubblicita/
 @@||centrosangiorgio.com^*_pubblicita_
@@ -5095,6 +5103,8 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=consiglibenessere.org
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=agi.it|calcionapoli1926.it|circusf1.com|cittaceleste.it|derbyderbyderby.it|fantacalcio.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|gianlucadimarzio.com|golssip.it|hellas1903.it|ilmeteo.it|ilmilanista.it|ilposticipo.it|iodonna.it|itasportpress.it|juvenews.eu|mediagol.it|mistergadget.tech|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|oggi.it|padovasport.tv|pianetamilan.it|qds.it|toronews.net|tuttobolognaweb.it|tuttoeuropei.com|video.gazzetta.it|violanews.com|vrsicilia.it
 @@||monetize-static.viralize.tv/viralize_player_content.min.$script,domain=automoto.it|ilquaderno.it|moto.it
+@@||player.aniview.com/script/$script,domain=adnkronos.com
+@@||player.avplayer.com/script/$script,domain=adnkronos.com
 @@||query.yahooapis.com/v1/public/yql?*/pubads.g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=telefriuli.it
 @@||repstatic.it/cless/common/adv/prebid6.28.0.js$domain=ilmeteo.it
 @@||video.comingsoon.it/Adv/Box/$image,media
@@ -5103,7 +5113,7 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=d11otsap2ziep3.cloudfront.net
 !
 @@||ads.lfstmedia.com/getad?site=$script,domain=spaghetti-interactive.it
-@@||ads.viralize.tv/player/$third-party,xmlhttprequest,domain=ilquaderno.it|quotidiano.net
+@@||ads.viralize.tv/player/$third-party,xmlhttprequest,domain=quotidiano.net
 @@||adsafeprotected.com/iasPET.1.js$domain=la7.it
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=corrieredellosport.it|tuttosport.com
 @@||adserver.adtech.de/addyn/3.0/1183/3769607/0/170/ADTECH;$script,domain=gioco.it
@@ -5114,19 +5124,16 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||ansa.it^*/ad-gallery/$image
 @@||antonioranesi.it/cache/Lavori/Pubblicita/$~third-party
 @@||api.everli.com/sm/api/*&adgroupid=$~third-party,xmlhttprequest
-@@||assets.evolutionadv.it/adnkronos_com/adnkronos_com.new.js$domain=adnkronos.com
-@@||assets.evolutionadv.it/adnkronos_com/video.js$domain=adnkronos.com
 @@||assets.evolutionadv.it/comingsoon_it/comingsoon_it-fresh.new.js$domain=comingsoon.it
 @@||assets.evolutionadv.it/quantcast-fix.css$domain=money.it
 @@||assets.evolutionadv.it/violations/*.violations.js$domain=comingsoon.it|money.it
 @@||assets.evolutionadv.it^*/gpt.min.js$domain=money.it
-@@||assets.evolutionadv.it^*/optiload.min.js$domain=adnkronos.com|comingsoon.it|money.it
-@@||assets.evolutionadv.it^*/prebid.min.js$domain=adnkronos.com|comingsoon.it|money.it
+@@||assets.evolutionadv.it^*/optiload.min.js$domain=comingsoon.it|money.it
+@@||assets.evolutionadv.it^*/prebid.min.js$domain=comingsoon.it|money.it
 @@||carloneworld.it^*/tastixhumpp_b12_Pubblicita_Taroccate.png
 @@||carrozzeriabertazzoni.it/immagini/PUBBLICITA.gif
 @@||carrozzeriabertazzoni.it/pubblicita/
 @@||catchup.acdsolutions.it/jstag/videoplayerFluid/*&adZone=$script,domain=sanmarinortv.sm
-@@||cdnadn.evolutionadv.it/Assets/Video/*.mp4$domain=adnkronos.com
 @@||centrovolantini.it/sites/default/files/styles/thumb_copertina/public/conad_$~third-party
 @@||cheapnet.it/adv/$~third-party
 @@||confiant-integrations.global.ssl.fastly.net/*/gpt_and_prebid/config.js$domain=comingsoon.it
@@ -5150,7 +5157,6 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 @@||mm-one.tv/wp-content/uploads/2021/03/Social-Media-e-Social-Media-Advertising_-i-cavalli-vincenti-del.jpg$image,~third-party
 @@||multiplayer.net-cdn.it/thumbs/images/*/pubblicita-$image,domain=multiplayer.it
 @@||online-retail.unicredit.it/adv/$~third-party
-@@||player.avplayer.com/script/$script,domain=adnkronos.com
 @@||propathos.com/wp-content/uploads/2020/11/cropped-propathos-certified-google-adwords.png$image,~third-party
 @@||rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid7.$domain=la7.it
 @@||rcsobjects.it/rcs_data-tracking/v1/distro/openx/openx_async.js$domain=la7.it

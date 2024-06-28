@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 138HLUBni1/JRKiypQqIwA
-! Version: 202406281650
+! Checksum: EjX38WyTFCrA0X06V2VV9Q
+! Version: 202406281801
 ! Title: EasyList Italy
-! Last modified: 28 Jun 2024 16:50 UTC
+! Last modified: 28 Jun 2024 18:01 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -166,6 +166,7 @@ _sito/adv/
 ##a[href^="https://campaigns.williamhill.it/C.ashx?"]
 ##a[href^="https://casinononaams.co"]
 ##av-adv-slot
+##div[class^="hbagency_space_"]
 ##div[class^="rtbuzz_"]
 ##div[id^="rtbuzz_"]
 !
@@ -2495,7 +2496,7 @@ iltquotidiano.it##.SkinMobile
 whiteradio.it##.Sp
 camping.it##.XBPos
 anteprima24.it,araberara.it,assinews.it,centotrentuno.com,djmagitalia.com,dronezine.it,farevela.net,feelrouge.tv,fishingboatmagazine.it,giornaleibleo.it,ilfattonisseno.it,ilgolfonline.it,industriaitaliana.it,itacanotizie.it,labusa.info,lamescolanza.com,larionews.com,madoniepress.it,meteofinanza.com,monrealepress.it,newscatania.com,nordmilano24.it,radiocassinostereo.com,sicilia24h.it,vesuviolive.it,vivicentro.it##.a-single
-ispazio.net,siciliaonpress.com,sienafree.it##.a-wrap
+ispazio.net,siciliaonpress.com,sienafree.it,smartcentral.it,teslers.it##.a-wrap
 casa-domotica24.it,casinamia.com,dilei.it,fut18italia.it,gommeblog.it,monetizzando.it,orgoglionerd.it,reviewbox.it,techbusiness.it,techprincess.it,tivustream.com,tuttotek.it##.aawp
 ilmostardino.it##.acx_ppt
 eurosport.it,icasa.ch,ilfoglio.it,lacrocequotidiano.it,mondoplay.it,mondoxbox.com##.ad
@@ -3189,6 +3190,7 @@ affaritaliani.it##.promoaziende
 tgfuneral24.it##.psct-banners-wrapper
 agoravox.it##.pub
 radiogold.it##.pub-content
+ispazio.net##.pub-header
 coniugazione.it##.pub_contenu
 coniugazione.it##.pub_inread_div
 coniugazione.it##.pub_pave_div
@@ -3448,6 +3450,7 @@ corrieregiallorosso.com,damasio.it,emotionrit.it,giornaledicalabria.it,ibizaa.it
 labusa.info##.widget_supercarousel_widget
 clientiesperti.it,computer-acquisti.com,corrieregiallorosso.com,domanidoveandiamo.it,filmforlife.org,finaria.it,fishingboatmagazine.it,giornalesm.com,gliacchiappafilm.it,grossetosport.com,ilpost.it,laprimapagina.it,noinotizie.it,pisa24.info,tusciatimes.eu##.widget_text
 motoexcape.com##.widget_w2dc_search_widget
+augustanews.it,avolanews.it,catanianews.it,ibleinews.it,leontinoinews.it,notonews.it,siracusanews.it##.widget_widget_necro
 mondobarcamarket.it##.widget_wpb_widget
 alqamah.it##.widget_xyz_insert_php_widget
 vicenzanews.it##.wifiplaza
@@ -3592,11 +3595,13 @@ altomantovanonews.it##div[id^="altom-"]
 aprilianews.it##div[id^="april-"]
 arezzoweb.it##div[id^="arezz-"]
 assisinews.it,assisisport.it##div[id^="assis-"]
+augustanews.it##div[id^="augus-"]
 autobusweb.com##div[id^="autob-"]
+avolanews.it##div[id^="avola-"]
 bicidastrada.it##div[id^="bicid-"]
 insella.it##div[id^="block-banner-manzoni-"]
 buongiornosuedtirol.it##div[id^="buong-"]
-catanzaro7.net##div[id^="catan-"]
+catanianews.it,catanzaro7.net##div[id^="catan-"]
 citynow.it##div[id^="cityn-"]
 controradio.it##div[id^="contr-"]
 corriereal.info,corriereromagna.it##div[id^="corri-"]
@@ -3616,6 +3621,7 @@ giocopulito.it##div[id^="gioco-"]
 giornaledelcilento.it##div[id^="giorn-"]
 guidaviaggi.it##div[id^="guida-"]
 helpconsumatori.it##div[id^="helpc-"]
+ibleinews.it##div[id^="iblei-"]
 ideawebtv.it##div[id^="ideaw-"]
 ilgazzettinodigela.it##div[id^="ilgaz-"]
 insic.it##div[id^="insic-"]
@@ -3623,6 +3629,7 @@ internapoli.it##div[id^="inter-"]
 lagenziadiviaggimag.it##div[id^="lagen-"]
 laluce.news##div[id^="laluc-"]
 leggilanotizia.it##div[id^="leggi-"]
+leontinoinews.it##div[id^="leont-"]
 gardapost.it##div[id^="ltco-"]
 mantovauno.it##div[id^="manto-"]
 crotoneok.it##div[id^="mdl-"]
@@ -3630,7 +3637,9 @@ melarossa.it##div[id^="melar-"]
 motoexcape.com##div[id^="motoe-"]
 palermopost.it##div[id^="mptha-"]
 ebikecult.it,mtbcult.it##div[id^="mtbcu-"]
+notonews.it##div[id^="noton-"]
 oltrepomantovanonews.it##div[id^="oltre-"]
+pachinonews.it##div[id^="pachi-"]
 paisemiu.com##div[id^="paise-"]
 quizammissione.it##div[id^="quiza-"]
 quotidianodiragusa.it##div[id^="quoti-"]
@@ -3639,6 +3648,7 @@ sanifutura.it##div[id^="sanif-"]
 sarnonotizie.it##div[id^="sarno-"]
 sassarioggi.it##div[id^="sassa-"]
 siciliatv.org##div[id^="sicil-"]
+siracusanews.it##div[id^="sirac-"]
 oggicronaca.it##div[id^="sponsorizzato-"]
 telestense.it##div[id^="teles-"]
 thewalkoffame.it##div[id^="thewa-"]
@@ -3663,6 +3673,7 @@ sportitalia.com##div[style*="width: 160px;"]
 sportitalia.com##div[style*="width: 336px;"]
 sportitalia.com##div[style*="width: 468px;"]
 sportitalia.com##div[style*="width: 728px;"]
+augustanews.it,avolanews.it,catanianews.it,ibleinews.it,leontinoinews.it,notonews.it,siracusanews.it##div[style*="width:310px;height:270px;"]
 manduriaoggi.it##div[style="background-color:#FFF; border:#FC0 1px solid; padding:10px"]
 lacasadic.com,seried24.com##div[style="height: 600px"]
 corsedimoto.com,zon.it##div[style="height:600px"]

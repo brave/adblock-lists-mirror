@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yrUPg5a8C8wdt+6xmTMUHg
-! Version: 202406291801
+! Checksum: AAlHqZyHof9YQk3yJKoePQ
+! Version: 202406291900
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Jun 2024 18:01 UTC
+! Last modified: 29 Jun 2024 19:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1769,7 +1769,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /baner_$domain=~aplica.pl|~brabrabra.ua|~campworld.com.ua|~churchjc.com|~food16.ru|~nenc.gov.ua|~pcmart.com.ua|~pizzamel.ru|~planetarium.dn.ua|~tambov.gov.ru|~triatek.com.ua|~uslugi.mosreg.ru|~work-pulse.ru|~zippo.net.ua
 /baners/*$domain=~altera-auto.ru|~mgpk.bntu.by|~mirofox.ru|~redbubbles.ru|~vyviska.com.ua|~xn--100-8cdz0be5b.xn--p1ai|~xn--40-6kcayb8aoh7afog0b.xn--p1ai
 /banmas/index.php?informer=
-/banner.gif$domain=~e.aviasales.ru|~work-pulse.ru
+/banner.gif$domain=~e.aviasales.ru|~litehd.tv|~russia-tv.online|~work-pulse.ru
 /banner.png$third-party,domain=~drakescans.com|~github.com|~kirmuseum.org
 /banner2.gif
 /banner_$object
@@ -15111,6 +15111,7 @@ mirf.ru##.outer_outer
 avtoradio.ru,energyfm.ru##.outreach
 tv-assia.org##.ovdiv
 domkad.ru##.over-rsi
+russia-tv.online##.overflow-hidden.border[class*="border-brand-base"]
 shuba.life##.overflow-hidden.c-card
 bstudy.net,ozlib.com,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org##.overheader
 krastown.com##.overlay_wrap
@@ -16148,6 +16149,7 @@ itcrowd.top##.tm-top
 tmbw.ru##.tmbwrekbelow
 kinovdom.tv##.tn-player-tsr
 riwkus.pro##.tnx-block
+russia-tv.online##.to-brand-danger
 donday-aksay.ru,donday-novocherkassk.ru,donday-shakhty.ru,donday-taganrog.ru,donday.ru,volga-day.ru##.tobbanner
 kursk-izvestia.ru##.today_cbr
 lovitut.ru##.toneBlock
@@ -16257,7 +16259,6 @@ tonkosti.ru##.tt-tim
 actualnews.org##.ttte
 kissfm.ua##.tuborg
 news.turizm.ru##.turoperator_adv_title
-russia-tv.online##.tv-box
 vgorodekirove.ru##.two-ad
 podolsk.ru##.two-banners
 theuk.one,usa.one##.two-big-block
@@ -16808,6 +16809,7 @@ iphones.ru##[data-slug="damprodam"]
 mac.org.ua##[data-src*="bashmac"]
 drive2.ru##[data-target^="drom_"]
 adme.media#?#[data-test-id$="-recommended"] > div > div > div:nth-child(-n+3):-abp-has(> div > div > div:empty)
+russia-tv.online#?#[data-test="channel-name-link"] ~ div:-abp-has(> div > div[id^="yandex_rtb"])
 telegraf.com.ua##[data-text^="Новини партнер"]
 my.ua##[data-top-iid]
 dotabuff.com##[data-type="elo-placement"]
@@ -25735,7 +25737,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||www.meteoblue.com/build/website/gpt.js|$xmlhttprequest,domain=meteoblue.com
 @@||xksqb.com/native.$script,domain=gwss.ru
 @@||xn--b1ajehof.xn--80asehdb^$script,domain=xn--b1ajehof.xn--80asehdb
-@@||yandex.ru/ads/system/adsdk.js$script,domain=aniboom.one|gisher.org|karaoke.ru|kino.tricolor.tv|limehd.tv|litehd.tv|m24.ru|peers.tv|player.mediavitrina.ru|russia-tv.online
+@@||yandex.ru/ads/system/adsdk.js$script,domain=aniboom.one|gisher.org|karaoke.ru|kino.tricolor.tv|limehd.tv|m24.ru|peers.tv|player.mediavitrina.ru
 @@||yandex.ru/ads/system/context.js|$domain=examenpdd.com|forum.qrz.ru|yvid.ru
 @@||yandex.ru/ads/system/context.js|$script,domain=tvzvezda.ru
 @@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=blackwot.ru|reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru|strategium.ru

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /FOt9cZFCVCXcHRtqmnv5A
-! Diff-Path: ../patches/7/7-s-1719660900-3600.patch
+! Checksum: twr/r2APBcQE8jYdxVAzoA
+! Diff-Path: ../patches/7/7-s-1719664509-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.32
-! TimeUpdated: 2024-06-29T11:32:28+00:00
+! Version: 2.0.53.33
+! TimeUpdated: 2024-06-29T12:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -532,11 +532,12 @@ blog.2nt.com#@#.AdSense
 pvpoke-re.com##body > div[id][style*="9999"][style*="fixed"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166650
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167434
-bm.best-hit.tv,h178.com##+js(abort-current-script, addEventListener, AdBlock)
-bm.best-hit.tv,h178.com,jukenbbs.com#@#.amp_ad
-bm.best-hit.tv,h178.com,jukenbbs.com#@#.ad-space
-bm.best-hit.tv,h178.com,jukenbbs.com#@#div[id^="div-gpt-"]
-bm.best-hit.tv,h178.com,jukenbbs.com#@#[id^="div-gpt-ad"]
+bm.best-hit.tv,h178.com,jukenbbs.com##.substitute-area-middle-on
+bm.best-hit.tv,h178.com,jukenbbs.com##.substitute-show-area-on
+bm.best-hit.tv,h178.com,jukenbbs.com###gStickyAd
+@@||bm.best-hit.tv^$generichide
+@@||h178.com^$generichide
+@@||jukenbbs.com^$generichide
 jukenbbs.com##+js(addEventListener-defuser, load, delayCheckAdBlock)
 ! https://github.com/uBlockOrigin/uAssets/issues/20629
 @@||shindanmaker.com^$generichide

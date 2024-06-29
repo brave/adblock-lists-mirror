@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FDf/J1w2VLDm73ns4dMaOA
-! Version: 202406290801
+! Checksum: FlTSeDTkhsq7tcVzWTm5Jg
+! Version: 202406290901
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Jun 2024 08:01 UTC
+! Last modified: 29 Jun 2024 09:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3902,6 +3902,8 @@ rbkgames.com##iframe[src^="https://player.twitch.tv?autoplay=true"][src*="rbkgam
 /wp-content/plugins/cookie-notice/$script
 /wp-content/plugins/icegram/*$domain=mos-holidays.ru
 ://lenta.ru/favicon.ico
+://s*.*ezka.*/i/hdrezka_premium_
+://s*.*ezka.*/i/nrada_liars
 _app_promo$domain=7themes.su|wallscloud.net
 ||1cloud.ru/js/subscribe?
 ||1jazz.ru/wp-content/plugins/revslider/
@@ -4162,8 +4164,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||sovetromantica.com/assets/block_16.xml
 ||sportrecs.com^$third-party,domain=sportrbc.ru
 ||static-mon.yandex.net/static/main.js?pid=yandex_mail$xmlhttprequest
-||static.*ezka.*/i/hdrezka_premium_
-||static.*ezka.*/i/nrada_liars
 ||static.1tv.ru/uploads/promo_position/video_brand/*.webm|$media
 ||static.fastpic.ru/android.png
 ||static.hotjar.com^$domain=kopilkasovetov.com

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: uJ6mjb2wl98xeHdzJw/5lQ
-! Diff-Path: ../patches/7/7-s-1719668147-3600.patch
+! Checksum: 13WzJw5tX/nn5tk+4FN3lQ
+! Diff-Path: ../patches/7/7-s-1719711356-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.34
-! TimeUpdated: 2024-06-29T13:33:03+00:00
+! Version: 2.0.53.35
+! TimeUpdated: 2024-06-30T01:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1733,6 +1733,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+namaeuranai.biz##div[style="margin:10px 0;text-align:center;height:360px;"]
 blog.jp##iframe[style^="width: 300px; height: 250px;"]
 newskingdom.jp##.kkkarea
 beerbrick.com###sidebar > aside:has(> div > a[href^="https://amzn.to/"])
@@ -4709,7 +4710,7 @@ ymobile.jp###headpromotion-service
 brow2ing.com##.Side_adposition
 ||brow2ing.up.seesaa.net/common/slide_ad.js
 urbanlife.tokyo##div[class^="fluct-unit"]
-alfalfalfa.com,gendai.media,kakijun.jp,ironodata.info##div[style$="height:250px;"]
+namaeuranai.biz,alfalfalfa.com,gendai.media,kakijun.jp,ironodata.info##div[style$="height:250px;"]
 ironodata.info##.sidespesce > div > div[style^="margin:15px auto; width:300px; background-color:"]
 ||eguchi-hd.co.jp/portal/wp-content/uploads/2021/04/1080%C3%971080_c.jpg
 roote.ekispert.net,city.ishinomaki.lg.jp##.banner_area
@@ -6454,7 +6455,7 @@ vtubersokuhou.com###diver_widget_pcsp-13
 monhan-mhw.com###main div.column-inner-2 div[style="text-align:center;"]
 monhan-mhw.com###sub div.plugin-memo:nth-child(-n+2)
 toushichannel.net###side-fix
-note.affi-sapo-sv.com,toushichannel.net##div[style$="height:280px;"]
+namaeuranai.biz,note.affi-sapo-sv.com,toushichannel.net##div[style$="height:280px;"]
 n-switch.com##.main-adsense
 pokemongo-kouryakumatome.net###links-left > section.-freeArea:last-child
 moguravr.com##.mg-ads-placement

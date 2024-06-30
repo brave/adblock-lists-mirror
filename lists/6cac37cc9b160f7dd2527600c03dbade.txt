@@ -264,6 +264,7 @@ kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(spoof-css, .kcAds1, display, bl
 kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(acs, setTimeout, /Adb|_0x/i)
 kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(rmnt, script, /adb/i)
 kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(no-xhr-if, /googlesyndication|mgid\.com/)
+kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(no-xhr-if, method:get)
 kimcartoon.*##+js(nowoif)
 kimcartoon.*,kimcartoon.unblockit.*,kisscartoon.se,kc.linksgen.com##+js(acs, $, adbWarn)
 kimcartoon.*##+js(aopw, Fingerprint2)
@@ -2316,3 +2317,8 @@ ezaudiobookforsoul.com##+js(set, cabdSettings, undefined)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24297#event-13341237136
 watch.shout-tv.com##+js(json-prune-fetch-response, adsConfiguration, , propsToMatch, /vod)
+
+! https://github.com/uBlockOrigin/uAssets/issues/24303
+@@||cdn.cxense.com/cx.js$script,domain=tvaplus.ca
+@@||api.cxense.com^$script,domain=tvaplus.ca
+@@||ads.rubiconproject.com/prebid/$script,domain=tvaplus.ca

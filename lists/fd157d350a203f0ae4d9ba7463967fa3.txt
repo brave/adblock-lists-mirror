@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7BwYMUz8QJJalC8rgBu01w
-! Version: 202406301801
+! Checksum: Wcyt7GDey+AYAlI4oq6QGg
+! Version: 202406301901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jun 2024 18:01 UTC
+! Last modified: 30 Jun 2024 19:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10959,7 +10959,6 @@ _tizers.
 ||zhalobpa.ru^$third-party
 ||zhastila.ru^$third-party
 ||zhazha.ru^$third-party
-||zhctrack.net^$third-party
 ||zherva.ru^$third-party
 ||zhitkise.info^$third-party
 ||zhkzt.com^$third-party
@@ -10982,13 +10981,11 @@ _tizers.
 ||zm01qttrnqt0.com^$third-party
 ||zm05qst0.pro^$third-party
 ||zmctrack.com^$third-party
-||zmctrack.net^$third-party
 ||zmu1qq.site^$third-party
 ||zmu1ust0.com^$third-party
 ||zmu1ust0.top^$third-party
 ||znatokionline.com^$third-party
 ||znbdr.com^$third-party
-||znctrack.net^$third-party
 ||zne1esxpove.info^$third-party
 ||znetimi.ru^$third-party
 ||znewswork.com^$third-party
@@ -22977,10 +22974,10 @@ lada.kz/uploads/banners/
 ://pikabu.ru/$csp=script-src 'self' * 'unsafe-inline' data:
 @@||imasdk.googleapis.com/$xmlhttprequest,domain=volley.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=besthdwallpaper.com
-@@||s.zfctrack.net/z|$xmlhttprequest,domain=24boxing.com.ua|businessua.com|epravda.com.ua|eurointegration.com.ua|gorod.dp.ua|hvylya.net|inforesist.org|internetua.com|kriminal.tv|real-vin.com|sinoptik.ua|smak.ua|zdorovia.com.ua
-@@||s.zhctrack.net/z|$xmlhttprequest,domain=24boxing.com.ua|epravda.com.ua|eurointegration.com.ua|gorod.dp.ua|inforesist.org|zdorovia.com.ua
-@@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
-@@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
+@@||s.zfctrack.net/z|$xmlhttprequest
+@@||s.zhctrack.net/z|$xmlhttprequest
+@@||s.zmctrack.net/z|$xmlhttprequest
+@@||s.znctrack.net/z|$xmlhttprequest
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
 ||imgfrost.net^$third-party
 ||ritsatv.ru^$csp=script-src

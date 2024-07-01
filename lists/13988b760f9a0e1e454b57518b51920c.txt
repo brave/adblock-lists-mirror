@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: A0zQ77+jbPUwMz58GWlWbA
-! Version: 202407011501
+! Checksum: 9JDJ+ZYnlhFROojiUJvFdA
+! Version: 202407011551
 ! Title: EasyList Italy
-! Last modified: 01 Jul 2024 15:01 UTC
+! Last modified: 01 Jul 2024 15:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -755,6 +755,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||italycharter.it/searchwidget$third-party
 ||jooble.org/css/images/logos/jooble_$third-party
 ||netsons.com/manage/images/affiliates/$third-party
+||oasjs.kataweb.it/neodata/
 ||offerte.news/pub/
 ||pegasomedia.it/public/immaginibnr/
 ||postimg.cc^$domain=napolimagazine.com|settecalcio.it|toscanagol.it
@@ -1428,6 +1429,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||lavocedelpopolo.it^*/banner_
 ||lavocedelpopolo.it^*/holyart_
 ||lavocedelpopolo.it^*_264x264_
+||lavorincasa.it/product/$image
 ||lavoripubblici.it/banner/
 ||lavoroecarriere.it/wp-content/uploads/*/sm-banner.
 ||leccesette.it/banner/
@@ -1817,8 +1819,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||lavocedelquartiere.it^*/banner_
 ||lavocedinewyork.com/wp-content/banners/
 ||lavocedivenezia.it^*/banner-
-||lavorincasa.it/adb3.php
-||lavorincasa.it/product/
 ||maidireborsa.it^*/image004-
 ||maidirelink.it^*/sconti-amazon.jpg
 ||mail.tiscali.it^*/advlib.js
@@ -2155,6 +2155,7 @@ $popup,third-party,domain=serieturche.eu
 trend-online.com###CONT_D_1
 trend-online.com,youmath.it###CONT_T
 comprovendolibri.it###CVLR_banner_ADX
+comprovendolibri.it###CVLR_banner_ASX
 chimica-online.it,flashgames.it,scambieuropei.info,soldioggi.it,youmath.it###C_1
 flashgames.it###C_2
 legabasketfemminile.com###DIV_MainSponsorContainer
@@ -2479,7 +2480,7 @@ italia.fm###xttm
 calabrianews.it###yobee-top-page
 iltquotidiano.it##.ADS
 iltquotidiano.it##.ADSDesktop
-ilmanifesto.it,mentelocale.it##.Adv
+avvocatoandreani.it,ilmanifesto.it,mentelocale.it##.Adv
 fotonerd.it##.Amazon
 comprovendolibri.it##.BB14
 comolive.it,resegoneonline.it,valtellinanews.it##.Banner
@@ -3598,10 +3599,12 @@ gizchina.it,gufo.it,laleggepertutti.it##div[class^="__lxG__"]
 ciociariaoggi.it,latinaoggi.eu##div[class^="a-p1-banner-"]
 ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="ads_"]
 alimentando.info,horecanews.it,quotidianodellumbria.it,radioluce.it,radioradio.it,umbriasettegiorni.it,vendingnews.it,vitaincamper.it##div[class^="angwp_"]
+lavorincasa.it##div[class^="bn-"]
 cilentochannel.com##div[class^="cilen-"]
 qdpnews.it##div[class^="qdpne-"]
 informazione.it##div[class^="r89-"]
 alqamah.it##div[class^="unit-zona-"]
+lavorincasa.it##div[class^="wrapper-banner-"]
 unionesarda.it##div[data-name^="Banner SEC"]
 unionesarda.it##div[data-name^="RCS FRAME"]
 unionesarda.it##div[data-name^="RCS_BOTTOM_"]
@@ -4173,7 +4176,7 @@ grecia.cc##.alto_add
 ludomedia.it##.amBoxGioco
 notebookcheck.it##.am_el
 cronotop.it##.amaz-product
-gamemag.it,lavorincasa.it,nientepopcorn.it,robadadonne.it##.amazon
+gamemag.it,nientepopcorn.it,robadadonne.it##.amazon
 leggoquandovoglio.it##.amazon-a
 ridble.com##.amazon-product
 cliccascienze.it##.amazon-products-container-list
@@ -4762,7 +4765,6 @@ sportsondrio.it##.view-inserzioni-sponsorizzate
 securindex.com##.view-tracking
 austria-facile.com,giappone.cc,irlanda.cc,statiuniti.cc,svezia.cc,ungheria.tv##.voli
 ilsoftware.it##.w_banner
-lavorincasa.it##.wallpaper-1
 secerchicasa.it##.weblink_items.grid
 spettegolando.it##.wf-widget-container
 wired.it##.wia
@@ -4800,11 +4802,6 @@ golfpiu.it,razzedicani.net,simonemaestri.com##.wpmoneyclick_template_single-prod
 allertaprivacy.it##.wpsm_promobox
 calciomercato.napoli.it##.wptb-cell
 teleunica.com##.wrap-adv-body
-lavorincasa.it##.wrapper-banner-box-wallpaper
-lavorincasa.it##.wrapper-banner-footerbanner
-lavorincasa.it##.wrapper-banner-medium-rectangle
-lavorincasa.it##.wrapper-sider-bacheca-aziende
-lavorincasa.it##.wrapper-widget-box-prodotti-sider
 autobelle.it##.xdad
 giochimahjong.it##.ympb_target_banner
 rivistanatura.com##.zcx
@@ -4818,16 +4815,15 @@ alimentando.info##a[aria-label^="Banner"]
 manomano.it##a[class*="sponsoredProductCard"]
 blog.libero.it,newscronaca.myblog.it##a[href*=".clickbank.net/"]
 bollablu.it,footballscouting.it,futurelements.it,imlestar.com,infotelematico.com,jguana.com,latelanera.com,maidirelink.it,mr-loto.it,murkymask.com,nokioteca.net,okpedia.it,ricettealvolo.it,tuttoio.com,uberti.eu,ubud.it,uiblog.it,unideanellemani.it,unquizalgiorno.com,viaggio-in-germania.de,videogiocare.it,windowsblogitalia.com##a[href*="//amzn.to/"]
-affaritaliani.it,blocchiautocad.it,boatmag.it,canale3.tv,gaynews.it,lasiritide.it,latelanera.com,lavorincasa.it,pdvg.it,pistoiasport.com,radiostellaweb.it,ricettedellanonna.net,riskcompliance.it,rivistanatura.com,settesere.it,tecnoandroid.it,temponews.it,tuttowrestling.com,tvadrano.com,veezie.st,veronanews.net,yesradiodance.com##a[href*="//bit.ly/"]
-lavorincasa.it##a[href*="//tinyurl.com/"]
-2backpack.it,aforismicitazioni.it,alfemminile.com,arredoingiardino.it,bellezzasalute.it,beppegrillo.it,bora.la,cdclassico.com,cibocanigatti.it,cliccascienze.it,consigli.it,epubdownload.it,facciabuco.com,giardinaggio.it,giardinaggio.net,giardinaggio.org,iphoneitalia.com,italianiinguerra.com,junglam.com,lasiciliaweb.it,lavorincasa.it,librierecensioni.com,londra.today,londranews.com,mangaforever.net,mantovanotizie.com,migliorigiochi.eu,miglioriofferteweb.com,nerdmovieproductions.it,newsly.it,nientepopcorn.it,notetralerighe.it,outcast.it,outofbit.it,pensieriparole.it,punto-informatico.it,ridble.com,rifaidate.it,robotincucina.it,rockol.it,serialclick.it,stile.it,telefonino.net,termometropolitico.it,topdigamma.it,tuttomantova.it,videogiochi.com,vivailfitness.it##a[href*="//www.amazon."][href*="tag="]
+affaritaliani.it,blocchiautocad.it,boatmag.it,canale3.tv,gaynews.it,lasiritide.it,latelanera.com,pdvg.it,pistoiasport.com,radiostellaweb.it,ricettedellanonna.net,riskcompliance.it,rivistanatura.com,settesere.it,tecnoandroid.it,temponews.it,tuttowrestling.com,tvadrano.com,veezie.st,veronanews.net,yesradiodance.com##a[href*="//bit.ly/"]
+2backpack.it,aforismicitazioni.it,alfemminile.com,arredoingiardino.it,bellezzasalute.it,beppegrillo.it,bora.la,cdclassico.com,cibocanigatti.it,cliccascienze.it,consigli.it,epubdownload.it,facciabuco.com,giardinaggio.it,giardinaggio.net,giardinaggio.org,iphoneitalia.com,italianiinguerra.com,junglam.com,lasiciliaweb.it,librierecensioni.com,londra.today,londranews.com,mangaforever.net,mantovanotizie.com,migliorigiochi.eu,miglioriofferteweb.com,nerdmovieproductions.it,newsly.it,nientepopcorn.it,notetralerighe.it,outcast.it,outofbit.it,pensieriparole.it,punto-informatico.it,ridble.com,rifaidate.it,robotincucina.it,rockol.it,serialclick.it,stile.it,telefonino.net,termometropolitico.it,topdigamma.it,tuttomantova.it,videogiochi.com,vivailfitness.it##a[href*="//www.amazon."][href*="tag="]
 donnematurepelose.top,donnematureporche.top,donnematuresex.top,donnenude.biz,donnepornovideo.com,donnetroievideo.com,filmpornocompleto.com,filmpornoconvecchie.link,filmpornodonne.casa,filmpornogratuiti.com,filmpornoitaliani.casa,fotopornodonne.casa,maturepelose.com,maturescopate.top,nonnemature.top,pornomamme.com,ragazzifoto.com,vecchieporche.com,videodonnesexy.casa,videoeroticogratis.com,videopornogratuito.com##a[href*="/avtm/link.php?"]
 focus.it##a[href*="/codice-sconto/"]
 gazzetta.it##a[href*="/codici-sconto/"]
 cartedipagamento.com,connessionivpn.it##a[href*="/go/"]
 agricultura.it,galluraoggi.it,ilreventino.it,siracusaoggi.it,tecnicadellascuola.it##a[href*="/linkout/"]
 supercoin.it##a[href*="/out/"]
-lavorincasa.it,mangaforever.net,phica.eu##a[href*="?utm_"]
+mangaforever.net,phica.eu##a[href*="?utm_"]
 advtraining.it##a[href^="/ad/banner/"]
 advtraining.it##a[href^="/ad/banner_"]
 skiresort.it##a[href^="/outbound/"]
@@ -4847,7 +4843,6 @@ viaggio-in-germania.de##a[href^="https://clkuk.tradedoubler.com/"]
 msn.com##a[href^="https://ebay.it/?mkcid="]
 emugifs.net##a[href^="https://ebay.to/"]
 milleunadonna.it,tiscali.it##a[href^="https://ebay.us/"]
-lavorincasa.it##a[href^="https://is.gd/"]
 blog.libero.it##a[href^="https://nplink.net/"]
 blog.libero.it##a[href^="https://preferredby.me/"]
 calciomercato.com,calcionapoli1926.it,corriere.it,corrieredellosport.it,derbyderbyderby.it,fantamagazine.com,fcinter1908.it,fcinternews.it,firenzeviola.it,forzaroma.info,gazzetta.it,goal.com,golssip.it,hellas1903.it,ilmilanista.it,ilposticipo.it,itasportpress.it,juvenews.eu,mediagol.it,milannews.it,mondoudinese.it,msn.com,notiziecalciomercato.eu,numericalcio.it,padovasport.tv,passioneinter.com,pianetamilan.it,riservadilusso.it,toronews.net,tuttoavellino.it,tuttob.com,tuttobolognaweb.it,tuttoc.com,tuttojuve.com,tuttomonza.it,tuttonapoli.net,tuttosport.com,tuttoudinese.it,violanews.com,vocegiallorossa.it##a[href^="https://prf.hn/"]
@@ -4873,19 +4868,7 @@ homegate.ch##div[class^="AdSlotContainer_"]
 autoscout24.it##div[class^="AdTop"]
 ideericette.it##div[class^="astra-advanced-hook-"]
 punto-informatico.it##div[class^="blz_btn_"]
-lavorincasa.it##div[class^="large-leaderboard"]
-lavorincasa.it##div[class^="medium-rectangle"]
-lavorincasa.it##div[class^="rapper-banner-footerbanner"]
 milleunadonna.it,tiscali.it##div[class^="shp-"]
-lavorincasa.it##div[class^="wb-bacheca-aziende"]
-lavorincasa.it##div[class^="wb-box-wallpaper"]
-lavorincasa.it##div[class^="wb-half-page-ad"]
-lavorincasa.it##div[class^="wb-infobanner"]
-lavorincasa.it##div[class^="wbn-hp-ad"]
-lavorincasa.it##div[class^="wbn-large-"]
-lavorincasa.it##div[class^="wbn-medium-"]
-lavorincasa.it##div[class^="wpb-bacheca-aziende"]
-lavorincasa.it##div[class^="wrapper-banner-"]
 tiscali.it##div[data-fkey]
 rockol.it##div[data-track]
 ebay.it##div[id^="ad_html_"]
@@ -4956,7 +4939,6 @@ risorsedidattiche.net##div[style="height:250px;"]
 foodbloggermania.it##div[style="height:260px;margin-bottom:15px;"]
 milannews.it,tuttocagliari.net##div[style="height:270px; padding: 10px 0;"]
 repubblica.it##div[style="height:300px; clear:both;"]
-lavorincasa.it##div[style="height:300px;"]
 firenzeviola.it,milannews.it,sampdorianews.net,torinogranata.it,tuttoc.com,tuttonapoli.net##div[style="height:600px;"]
 affaritaliani.it##div[style="margin-bottom:20px;height:80px;"]
 affaritaliani.it##div[style="margin-top: 10px; border: 1px solid rgb(0, 0, 0); margin-right: -2px; height: 100px;"]
@@ -5133,7 +5115,7 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist.txt ***
 @@||ads.viralize.tv/player/$xmlhttprequest,domain=automoto.it|ilquaderno.it|moto.it
 @@||ads.viralize.tv^|$script,domain=automoto.it|ilquaderno.it|moto.it
-@@||amazon-adsystem.com/aax2/apstag.js$domain=auto.it|calcionapoli1926.it|cittaceleste.it|corrieredellosport.it|derbyderbyderby.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|golssip.it|hellas1903.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|toronews.net|tuttobolognaweb.it|tuttosport.com|video.gazzetta.it|violanews.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=105.net|auto.it|calcionapoli1926.it|cittaceleste.it|corrieredellosport.it|derbyderbyderby.it|fantamagazine.com|fcinter1908.it|formulapassion.it|forzaroma.info|gazzabet.news|golssip.it|hellas1903.it|ilmilanista.it|ilposticipo.it|itasportpress.it|juvenews.eu|mediagol.it|mondoudinese.it|notiziecalciomercato.eu|numericalcio.it|padovasport.tv|pianetamilan.it|r101.it|toronews.net|tuttobolognaweb.it|tuttosport.com|video.gazzetta.it|violanews.com
 @@||assets.evolutionadv.it/adnkronos_com/adnkronos_com.new.js$domain=adnkronos.com
 @@||assets.evolutionadv.it/adnkronos_com/video.js$domain=adnkronos.com
 @@||assets.evolutionadv.it/optiload/$script,domain=adnkronos.com

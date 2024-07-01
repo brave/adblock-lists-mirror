@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UZjJDiWGtXZxemtFj+HDLw
-! Diff-Path: ../patches/7/7-s-1719834041-3600.patch
+! Checksum: Q37vIkOinnmR0HjiwEcv/g
+! Diff-Path: ../patches/7/7-s-1719837391-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.39
-! TimeUpdated: 2024-07-01T11:34:28+00:00
+! Version: 2.0.53.40
+! TimeUpdated: 2024-07-01T12:33:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1733,6 +1733,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+tousatu-ch.net##.posts-under-1.widget_custom_html:has(> div.textwidget > iframe[src^="https://ad.duga.jp"])
 namaeuranai.biz##div[style="margin:10px 0;text-align:center;height:360px;"]
 blog.jp##iframe[style^="width: 300px; height: 250px;"]
 newskingdom.jp##.kkkarea
@@ -10494,6 +10495,7 @@ vip-front.video.g.fc2.com,video.laxd.com,video.fc2.com##[class^="c-ad"]:not(.c-a
 !
 ! itest.5ch.net,itest.bbspink.com
 ||itest.5ch.net/assets/img/*-300x250.png
+itest.5ch.net###floatingBottomAdsMain
 itest.5ch.net##div[id^="topAdheader-"]
 itest.5ch.net###subback > li[id][class*="_"]
 itest.5ch.net,itest.bbspink.com###js-imageview-ad

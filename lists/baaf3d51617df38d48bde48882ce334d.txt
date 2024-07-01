@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: btNYpOz2+Okc932R5en7jg
-! Version: 202407010340
+! Checksum: k6uJWADyrmWCqgjnsRwQfg
+! Version: 202407010440
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-07-01 03:40 UTC
+! Last modified: 2024-07-01 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3885,6 +3885,7 @@ theverge.com##.duet--cta--newsletter
 ! :has
 babylonbee.com#?#.bg-gray-50:-abp-contains(Fake news)
 babylonbee.com#?#.hidden:-abp-contains(Fake news)
+gript.ie#?#.v-card.v-card--flat:-abp-contains(Sign up to receive)
 guitar.com#?#.w-full:-abp-contains(Mailing)
 notthebee.com#?#.bg-gray-50:-abp-contains(Want to stay informed)
 reclaimthenet.org#?#.elementor-section:-abp-contains(Subscribe for)
@@ -4393,6 +4394,8 @@ americastestkitchen.com##body,html:style(overflow: auto !important; position: in
 stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therecord.com,thespec.com,wellandtribune.ca##.promo-designer-modal
 stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therecord.com,thespec.com,wellandtribune.ca##.modal-backdrop
 stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therecord.com,thespec.com,wellandtribune.ca##body,html:style(overflow: auto !important; position: initial !important;)
+! Mouse out news/sub nags
+straitstimes.com##+js(aeld, /^(mouseout|mouseleave)$/)
 ! breachmedia.ca
 breachmedia.ca##+js(set-cookie, cp_style_3841, true)
 ! breakingenergy.com

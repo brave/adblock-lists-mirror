@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: b7on3PND4MFGKYZEiCjhFQ
-! Diff-Path: ../patches/16/16-s-1719819312-3600.patch
+! Checksum: xdAz0yBFXuXaW2e+E2w/uA
+! Diff-Path: ../patches/16/16-s-1719830151-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.40
-! TimeUpdated: 2024-07-01T07:32:57+00:00
+! Version: 2.0.45.41
+! TimeUpdated: 2024-07-01T10:33:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -662,6 +662,15 @@ occasions.decathlon.fr##+js(set-constant, FastClick, noopFunc)
 occasions.decathlon.fr##+js(set-constant, FastClick.attach, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157906
 ! 20min.ch - fixes video player
+! https://github.com/AdguardTeam/AdguardFilters/issues/182538
+empire-stream.net##+js(set-constant, empire.pop, undefined)
+empire-stream.net##+js(set-constant, empire.direct, undefined)
+empire-stream.net##+js(set-constant, empire.isAdbActive, false)
+empire-stream.net##+js(set-constant, empire.directHideAds, undefined)
+empire-stream.net##+js(set-constant, empire.countpremium.film, 0)
+empire-stream.net##+js(set-constant, empire.countpremium.serie, 0)
+empire-stream.net##+js(set-constant, empire.countpremiumaccount.film, 0)
+empire-stream.net##+js(set-constant, empire.countpremiumaccount.serie, 0)
 ! https://github.com/uBlockOrigin/uAssets/issues/19339
 e-player-stream.*##+js(set-constant, adsConfig, [])
 empire-streaming.*,empire-stream.net##+js(window.open-defuser)
@@ -749,6 +758,8 @@ tf1info.fr##+js(set-constant, __NEXT_DATA__.runtimeConfig.playerTF1.ads.enable, 
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/182538
+empire-stream.net#$#body > iframe:not([src]) { position: absolute !important; left: -3000px !important; }
 ! https://github.com/uBlockOrigin/uAssets/issues/22958
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172925
 deco.fr,fourchette-et-bikini.fr#$#.site_content { margin-top: 0 !important; }

@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202407021243
+! Version: 202407021454
 ! Title: EasyPrivacy
-! Last modified: 02 Jul 2024 12:43 UTC
+! Last modified: 02 Jul 2024 14:54 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -14949,7 +14949,8 @@ abema.tv##+js(rmnt, script, NREUM)
 @@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xhr,1p,match-case,method=post
 @@||coomer.su/.well-known/ddos-guard/mark/|
 @@||kemono.su/.well-known/ddos-guard/mark/|
-
+! phileweb.com
+phileweb.com##+js(set-attr, .floatL > img.lazyload, src, [data-src])
 
 ! EOF
 ! #endif

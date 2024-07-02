@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4MNC9pe4bdS20bul6wNb0Q
-! Diff-Path: ../patches/7/7-s-1719934540-3600.patch
+! Checksum: iduE6ZVqgx7vCK+UQ6WyTQ
+! Diff-Path: ../patches/7/7-s-1719938234-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.45
-! TimeUpdated: 2024-07-02T15:32:56+00:00
+! Version: 2.0.53.46
+! TimeUpdated: 2024-07-02T16:34:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1735,6 +1735,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+hikaku.kurashiru.com##a[rel="nofollow sponsored"]
 knshow.com#$#.listInfoR[style="margin-bottom: 10px; height: 400px;"] { height: unset !important; }
 ddd-smart.net##+js(set-constant, univresalP, noopFunc)
 ddd-smart.net##.out-scroll-img > ul.out-scroll-img__list:has(> li > a[target="_blank"][href^="https://"])
@@ -1928,6 +1929,7 @@ matome-plus.com##.amazonwrapper
 okbizcs.okwave.jp##.c-ad-box
 pazusoku.com##.ad-box-02
 passlotime.com,pazusoku.com##.responsibe-adsense-wrap
+itmedia.co.jp###AmazonRankingParts
 itmedia.co.jp#?##cmsBody > div.inner > h2.format--crosshead:contains(/売れ筋ランキング|聴き放題！|楽天ポイント/)
 itmedia.co.jp###cmsBody > div.inner > h2.format--crosshead ~ div.cmsBodyBox:has(> div > center > strong > span > a[target="_blank"][rel="noopener"])
 adacomi.com##div[style="border-top:1px solid #555;padding:20px 10px;"]

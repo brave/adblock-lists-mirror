@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LsxdT+OoqU4kU0cAciALHg
-! Diff-Path: ../patches/7/7-s-1719984935-3600.patch
+! Checksum: cWae2SrfKpcvcMEV7AHH2Q
+! Diff-Path: ../patches/7/7-s-1720006531-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.48
-! TimeUpdated: 2024-07-03T05:33:12+00:00
+! Version: 2.0.53.49
+! TimeUpdated: 2024-07-03T11:30:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1735,6 +1735,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+typhoon.yahoo.co.jp##.promoBanner
+weather.yahoo.co.jp##.heatstrokePromo
+weather.yahoo.co.jp##.rainRadarAd
 ||game-kouryaku.info*/iframe.html
 game-kouryaku.info###main > div[style^="margin:"][style*="20px"]:has(> ins.adsbygoogle)
 game-kouryaku.info##main > div[style="margin:15px 5px;"]:has(> ins.adsbygoogle)
@@ -1744,7 +1747,6 @@ knshow.com#$#.listInfoR[style="margin-bottom: 10px; height: 400px;"] { height: u
 ddd-smart.net##+js(set-constant, univresalP, noopFunc)
 ddd-smart.net##.out-scroll-img > ul.out-scroll-img__list:has(> li > a[target="_blank"][href^="https://"])
 nordot.app##.listPage__ad
-vook.vc##.note-right-spnsr
 tousatu-ch.net##.posts-under-1.widget_custom_html:has(> div.textwidget > iframe[src^="https://ad.duga.jp"])
 namaeuranai.biz##div[style="margin:10px 0;text-align:center;height:360px;"]
 blog.jp##iframe[style^="width: 300px; height: 250px;"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: KtxGA/ieKfLG8/q7RYsTTA
-! Diff-Path: ../patches/224/224-s-1720006529-3600.patch
+! Checksum: wUSWm5p7qJl5xVY9TQLr8w
+! Diff-Path: ../patches/224/224-s-1720013721-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.18.44
-! TimeUpdated: 2024-07-03T11:30:55+00:00
+! Version: 2.1.18.46
+! TimeUpdated: 2024-07-03T13:33:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -320,9 +320,6 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/182752
-52bdys.com#@##ayx
-52bdys.com#$##ayx { visibility: hidden !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182114
 ftchinese.com#@#.AdsBox
 ftchinese.com##+js(no-setTimeout-if, .offsetHeight)
@@ -836,8 +833,19 @@ iwatchme2u.com##+js(adjust-setTimeout, video-ad-timeout, *, 0.02)
 o8tv.com##+js(abort-current-script, document.write, tips)
 ! popup
 xvideo.cc##+js(set-constant, poped, true)
+! https://github.com/AdguardTeam/AdguardFilters/issues/182779
 ! https://github.com/uBlockOrigin/uAssets/issues/9650
+msn.cn##+js(json-prune, *.*, adFeedbackData adType adServedUrls)
 msn.cn##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
+! Removes ad placeholders in sliders
+! Current path is "properties.componentConfigs.slideshowConfigs.slideshowSettings.interstitialNativeAds"
+! Other paths probably can be removed, but keep them just in case for some time
+msn.cn##+js(json-prune, configs.*.properties.slideshowWCSettings.interstitialNativeAds configs.*.properties.fullScreenSlideshowSettings.interstitialNativeAds properties.componentConfigs.slideshowConfigs.interstitialNativeAds properties.componentConfigs.slideshowConfigs.slideshowSettings.interstitialNativeAds)
+! Removes ad placeholders on the main page
+! Removes ad placeholders in articles in "More for You" section
+! Removes ad placeholders in sliders
+! Current path is "properties.componentConfigs.slideshowConfigs.slideshowSettings.interstitialNativeAds"
+! Other rules probably can be removed, but keep them just in case for some time
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32133
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34910
 goodav17.com##+js(abort-on-property-read, popunder)

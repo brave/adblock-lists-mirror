@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IVIxvY4zIs8RvnvkLaoV9g
-! Diff-Path: ../patches/1/1-s-1720006525-3600.patch
+! Checksum: LPURCQsNP8y2FiDtY1YXfA
+! Diff-Path: ../patches/1/1-s-1720011241-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.91.98
-! TimeUpdated: 2024-07-03T11:25:18+00:00
+! Version: 2.0.91.99
+! TimeUpdated: 2024-07-03T12:48:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5174,8 +5174,6 @@ love.mail.ru#?##app-wrapper > div:has(> div[class] > div[class] > div[class] > a
 love.mail.ru###adblock-in-browser
 !
 e.mail.ru##.layout__column_right:has(> div > div.advert-column)
-e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, SMOKESCREEN)
-e.mail.ru,octavius.mail.ru##+js(json-prune, [].slot)
 ! kino.mail.ru
 kino.mail.ru##.block_ad-text
 kino.mail.ru##button[class*="adv-marker"]
@@ -5192,7 +5190,6 @@ minigames.mail.ru##+js(abort-current-script, $, showAd)
 !
 otvet.mail.ru##+js(json-prune, baits css direct *.slot)
 !
-e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, ()))\,v.Z.themes.on("themes:)
 @@||e.mail.ru^$generichide
 @@||octavius.mail.ru^$generichide
 !
@@ -5800,8 +5797,6 @@ sdamgia.ru##+js(abort-on-property-read, new_rotator_changed)
 softslot.com,torrent-soft.pro##+js(set-cookie, sm-view, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148496
 viks.tv##+js(window.open-defuser)
-! https://github.com/AdguardTeam/AdguardFilters/issues/141785
-!+ NOT_PLATFORM(windows, mac, android)
 ! https://forum.adguard.com/index.php?threads/51458/
 ip.tivix.co##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140602
@@ -5887,8 +5882,6 @@ scrin.org##+js(abort-on-property-read, windowprops)
 scrin.org##+js(remove-attr, onclick, #view-full-image > a[target="_blank"][onclick])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65645
 4rl.ru##+js(window.open-defuser)
-! https://github.com/AdguardTeam/AdguardFilters/issues/65168
-e.mail.ru##+js(remove-class, b-viewer_advert-line)
 ! playground.ru - clickunder
 playground.ru##+js(remove-attr, data-settings, body[id="userNotAuthorized"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64994

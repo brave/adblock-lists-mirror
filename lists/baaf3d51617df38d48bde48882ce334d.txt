@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LL9pYI95RrtgY0T5EW8c9w
-! Version: 202407022240
+! Checksum: qn6KMyeEjvz8S7E781i3uQ
+! Version: 202407030015
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-07-02 22:40 UTC
+! Last modified: 2024-07-03 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35,6 +35,7 @@
 /footer-newsletter.js
 /hustle/assets/hustle-ui/js/hustle-ui.min.js
 /iscriviti-newsletter.css
+/jetpack-plugin/moon/modules/subscriptions/subscribe-modal/subscribe-modal.js
 /klaviyo_subscribe.js
 /layout/newsletter.png
 /leadin-subscribe.min.js
@@ -4592,9 +4593,9 @@ readergrev.com##+js(set-cookie, popup_closed, true)
 scottishlegal.com###subscribeModal
 scottishlegal.com##.modal-backdrop
 scottishlegal.com##body,html:style(overflow: auto !important; position: initial !important;)
-! snackstack.net
-snackstack.net##.jetpack-subscribe-modal
-snackstack.net##body,html:style(overflow: auto !important; position: initial !important;)
+! .jetpack-subscribe-modal
+liamodell.com,snackstack.net##.jetpack-subscribe-modal
+liamodell.com,snackstack.net##body,html:style(overflow: auto !important; position: initial !important;)
 ! tapinto.net
 tapinto.net##.exit_intent_pop_up-0-2-2
 tapinto.net##body,html:style(overflow: auto !important; position: initial !important;)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: iduE6ZVqgx7vCK+UQ6WyTQ
-! Diff-Path: ../patches/7/7-s-1719938234-3600.patch
+! Checksum: RrVefoiuVh+7Uh/d2wyApA
+! Diff-Path: ../patches/7/7-s-1719981354-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.46
-! TimeUpdated: 2024-07-02T16:34:49+00:00
+! Version: 2.0.53.47
+! TimeUpdated: 2024-07-03T04:33:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1735,7 +1735,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
-hikaku.kurashiru.com##a[rel="nofollow sponsored"]
+hikaku.kurashiru.com##a[class^="side-banner_side_fixed_banner_"]
 knshow.com#$#.listInfoR[style="margin-bottom: 10px; height: 400px;"] { height: unset !important; }
 ddd-smart.net##+js(set-constant, univresalP, noopFunc)
 ddd-smart.net##.out-scroll-img > ul.out-scroll-img__list:has(> li > a[target="_blank"][href^="https://"])
@@ -1803,6 +1803,7 @@ mainichi.jp##div[id^="ad-"]
 ||altema.jp/*/ad_random.js
 ||altema.jp/*/ads_interstitial.js
 ||altema.jp/*/ffbeadsjs.js
+altema.jp##.ads_position_left_kouryaku_under
 altema.jp###adpcheader
 altema.jp##.ad_random_tag
 altema.jp##.all-center:has(> tbody > tr > td > a[href^="https://t.quoriza.net"] > img)

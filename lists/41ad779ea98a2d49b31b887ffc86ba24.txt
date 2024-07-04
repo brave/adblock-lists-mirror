@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Rb4bRr/mBfQ7HA2ooa4E0Q
-! Version: 202407040140
+! Checksum: ZH0kqdEXJ2fQJAd2Ha0VCg
+! Version: 202407040240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-04 01:40 UTC
+! Last modified: 2024-07-04 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40115,7 +40115,6 @@ app.wooclap.com##[aria-labelledby="cookie-banner-title"]
 weedmaps.com##[aria-labelledby="notification_label"]
 picarto.tv##[class*="CookieCompliance_"]
 kaspersky.com##[class*="CookiesAccept"]
-biathlonworld.com##[class*="Modal__SmokeScreen-"]
 plente.com##[class*="SnackbarMessages__snackbar_"]
 payback-ltd.com##[class*="cookiesPopUp"]
 noovo.ca##[class*="modalstyles__StyledModalContainer-"]
@@ -46253,6 +46252,9 @@ warnung.bund.de##.datahint
 ! pasticceriaquadrifoglio.com 
 pasticceriaquadrifoglio.com##.js-o-page__gdpr-overlay
 pasticceriaquadrifoglio.com##body,html:style(overflow: auto !important; position: initial !important;)
+! biathlonworld.com
+biathlonworld.com##[class*="Modal__SmokeScreen-"]
+biathlonworld.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! nike.com.pe
 nike.com.pe###consent-tracking
 nike.com.pe##.modal-backdrop

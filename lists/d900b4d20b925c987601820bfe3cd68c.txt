@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LNCytcXjf1C92z8HMqQcYw
-! Diff-Path: ../patches/7/7-s-1720031760-3600.patch
+! Checksum: KxOil9LmhzRRTc8IVZHUUw
+! Diff-Path: ../patches/7/7-s-1720071341-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.52
-! TimeUpdated: 2024-07-03T18:33:27+00:00
+! Version: 2.0.53.54
+! TimeUpdated: 2024-07-04T05:33:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1735,6 +1735,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+news.audee.jp#$##_popIn_recommend_right { min-height: 0 !important; }
+news.audee.jp###asideBnr01
+news.audee.jp##.min-h-01
+kabushiki.jp##.cmn-summary-1:has(> div[id^="div-gpt-"])
+buzzap.jp##.grid-crectangle
 javtwi.com###c-modal
 typhoon.yahoo.co.jp##.promoBanner
 weather.yahoo.co.jp##.heatstrokePromo
@@ -7281,8 +7286,6 @@ buzz-plus.com###mybox > .box:last-child
 buzz-plus.com##.ad-desktop-w
 buzzfeed.com##div[class^="ad-japan_adJapanLinks__"]
 c-ute.doorblog.jp,cupmen.org,kandatasokuho.com,buzzap.jp##.krb-amzlt-box
-buzzap.jp##div[id^="Cresponsive"]
-buzzap.jp##.afamazon-box
 uekipedia.jp##.j-htmlCode
 uekipedia.jp##.j-htmlCode + div.j-hr
 wood-museum.net##.contentes_banner_2
@@ -10628,7 +10631,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_japanese
 !
 !
 ! https://github.com/tofukko/filter/issues/97
-phileweb.com##+js(set-attr, .floatL > img.lazyload, src, [data-src])
+phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices_gpt.js,domain=phileweb.com,script
 ! hiding contents
 fob.jp#@#.widget_swell_ad_widget

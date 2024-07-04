@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: KxOil9LmhzRRTc8IVZHUUw
-! Diff-Path: ../patches/7/7-s-1720071341-3600.patch
+! Checksum: DerfmEmyULKH69nGtRErVw
+! Diff-Path: ../patches/7/7-s-1720092991-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.54
-! TimeUpdated: 2024-07-04T05:33:11+00:00
+! Version: 2.0.53.55
+! TimeUpdated: 2024-07-04T11:33:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1735,6 +1735,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+eromon.net##main > .container:has(> .row > aside > .text-center > a[href^="https://www.ppc-direct.com/"])
+voyeur-movie.net###sgpb-popup-dialog-main-div-wrapper
+voyeur-movie.net##.sgpb-popup-overlay
 news.audee.jp#$##_popIn_recommend_right { min-height: 0 !important; }
 news.audee.jp###asideBnr01
 news.audee.jp##.min-h-01
@@ -2800,8 +2803,8 @@ more.hpplus.jp##div[id$="_DFP"]
 ||townnews.co.jp/js/entry_advertising.js
 nyahentai.re,momon-ga.com###main > div[style^="max-width:"][style$="background-color: #fff;"]
 gizmodo.jp###gz-recommendedBottom-outerAd
-knb.ne.jp##.site-bottom-flux
-knb.ne.jp##.site-top-banner
+knb.ne.jp##.s-banner-top
+knb.ne.jp##.s-flux-bottom
 tv.yahoo.co.jp##.adNm
 diskgarage.com##.main-topban
 diskgarage.com##.cm_ads

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eP9UB9l0REqwnW6V5vwi7Q
-! Version: 202407041601
+! Checksum: ZM0es1OanlMBEcQhoXCgzQ
+! Version: 202407041701
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 04 Jul 2024 16:01 UTC
+! Last modified: 04 Jul 2024 17:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -695,7 +695,7 @@ testserver.pro#?#.after_run > h2:-abp-contains(поделиться)
 topwar.ru#?#.alert_in:-abp-has(> div > p > strong > a[href^="https://t.me/"])
 inopressa.ru##.alignright .alignleft > div[style^="height: 120px"]
 life.ru##.amp-footer--wrapper > .amp-left-block ~ li
-filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone##.android-telegram-main
+filmix.date,filmix.fm,filmix.life,filmix.pub,filmix.tech,filmix.zone##.android-telegram-main
 kinoafisha.info##.anonsHeader_chat
 tv3.ru##.app-footer--social
 tv3.ru##.app-header--social
@@ -1149,6 +1149,7 @@ povarenok.ru#?#.footer-col:-abp-has(> .nav-soc)
 ogolosha.ua##.footer-column > .social-header ~ div
 inform.zp.ua#?#.footer-contact:-abp-has(> .social-links)
 bazar.bike##.footer-content > .container > .row > div > div[class="footer-col row"]
+3ddd.ru##.footer-content a[target="_blank"] > img
 kinonavigator.ru##.footer-element[title^="Наш"]
 footballhub.ua##.footer-heading
 yummy-anime.ru,yummyani.me##.footer-icon-container
@@ -4351,7 +4352,7 @@ rsload.net#?##dle-content > .short:-abp-has(> .short-top > h2 > a > .fa)
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href*="oleg-prognoz.html"])
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/news/"][href*="skidk"])
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/soft/obzor/"])
-filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone###dle-content > article ~ div a[href$="/pro.html"]
+filmix.date,filmix.fm,filmix.life,filmix.pub,filmix.tech,filmix.zone###dle-content > article ~ div a[href$="/pro.html"]
 lols.ru###dle-content td[style="padding-left:20px;"] > noindex
 varianty.lviv.ua###donate-popup
 docs-python.ru###donate-row
@@ -5474,6 +5475,7 @@ today.ua##.politic_confidel
 kinoliza.net##.pometka
 uma.media##.pony-warnings-container
 stolichki.ru##.pop-coockie
+stolichki.ru##.pop-coockie + .fancybox-container
 gdz.ru,megaresheba.ru,spishi.fun##.popUp-subscribe
 calltouch.ru##.poppup-blocked
 forum.awd.ru##.popup-bg-wrapp

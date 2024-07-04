@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U8lbXwPUtWECcMkgzBVhtg
-! Version: 202407041001
+! Checksum: fZO8IilSDpqV1Hq8+oVKkA
+! Version: 202407041101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Jul 2024 10:01 UTC
+! Last modified: 04 Jul 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13714,6 +13714,7 @@ conversion.im##.carcar
 vedomosti.ru##.card-banner-priorityclub
 vedomosti.ru##.card-banner-tgb
 odinelectric.ru##.card-container
+mskins.net#?#.card-panel:-abp-has(> center > .ds)
 vkfaces.com#?#.card-separator__title:-abp-contains(реклама)
 pronovostroy.ru##.card-special-gallery--topic
 solidarnost.org##.card-yandex
@@ -13835,7 +13836,6 @@ rivne1.tv##.container > .info
 old.myshows.me#?#.container > .marginBottomBase:-abp-contains(/Смотри на КиноПоиск HD|Watch on KinoPoisk HD/)
 old.myshows.me#?#.container > .marginBottomBase:-abp-contains(/Смотри на КиноПоиск HD|Watch on KinoPoisk HD/) + .row
 old.myshows.me#?#.container > .marginBottomBase:-abp-contains(/Смотри на КиноПоиск HD|Watch on KinoPoisk HD/) + .row + .contAlt
-mskins.net#?#.container > .row > .col:-abp-has(> .card script)
 fbsearch.ru##.container > .row > .text-center
 imageban.ru#?#.container > .row > div:-abp-has(> [src*="cdn-rtb.sape.ru"])
 dictat.net##.container > .sidebar
@@ -21558,6 +21558,7 @@ lada.kz/uploads/banners/
 ||mptron.com/img/
 ||mrtranslate.ru/lorado.js
 ||mskd.ru/img/*x*_
+||mskins.net/themes/mc/assets/promo/
 ||mt5.com^*/popup/popup.js
 ||mu-kgt.ru/*/widget/contract/
 ||mult-porno.*/front/js/unwanted.js

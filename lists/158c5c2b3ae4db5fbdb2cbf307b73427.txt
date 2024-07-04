@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LmCikDGevdmJn73rf24eyQ
-! Version: 202407041001
+! Checksum: VccVYZb2N+HNy60A2vvywQ
+! Version: 202407041101
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 04 Jul 2024 10:01 UTC
+! Last modified: 04 Jul 2024 11:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -199,6 +199,7 @@ com,ru##[data-rambler-share]
 ##[onclick="sharer.vkontakte();"]
 ##[onclick^="Share."]
 ##[onclick^="window.open('http://ok.ru/dk?st.cmd=addShare"]
+##[onclick^="window.open('http://www.facebook.com/share.php?"]
 ##[title="Выбрать соцсеть для шаринга"]
 ~ok##a[href*="connect.ok.ru/dk?st.cmd="][href*="share"]
 ~twitter.com##a[href*="http://twitter.com/share"]
@@ -235,6 +236,7 @@ com,ru##[data-rambler-share]
 ##a[href^="viber://forward?text="]
 ~ok.ru##a[onclick*="connect.ok.ru/offer?"]
 ~facebook.com##a[onclick*="facebook.com/sharer.php?"]
+##a[onclick*="window.open"][onclick*="'https://twitter.com/intent/tweet?"]
 ~vk.com##a[onclick^="window.open('http"][onclick*="://vk.com/share.php?"]
 ~twitter.com##body .twitter-share-button
 ##body > #fb-root.fb_reset
@@ -1355,6 +1357,7 @@ dilo.net.ua##.heateor_ffc_facebook_comments
 real-vin.com##.heateor_sss_sharing_container
 lgseeds.com.ua##.hero__banner-social
 humor.fm##.hfm-social-groups
+mskins.net##.hm-share
 partnerkin.com##.home_ic_telegram
 aif.ua##.horizontal_sharings
 4pda.to##.huawei-social

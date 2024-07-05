@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 96TboivlXFHk74ANPj2o5Q
-! Diff-Path: ../patches/7/7-s-1720179464-3600.patch
+! Checksum: se4PIJNDNCSIcfqtS2EV0Q
+! Diff-Path: ../patches/7/7-s-1720183094-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.62
-! TimeUpdated: 2024-07-05T11:33:32+00:00
+! Version: 2.0.53.63
+! TimeUpdated: 2024-07-05T12:33:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -961,7 +961,6 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 ##iframe.lazyloaded[data-src^="https://ad.jp.ap.valuecommerce.com/"]
 ##iframe[id^="IFTG"]
 !
-##.article-body a[title^="コミックINN"][href^="https://px.a8.net/svt/ejp"][target="_blank"] img.pict
 ##.plugin-freearea > div[id^="msmaflink"]
 ##.plugin-freearea a[href*="al.dmm.co"]
 ##.plugin-freearea a[href*="amazon.co.jp"]
@@ -978,6 +977,7 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 ##.t_b ~ a[href^="https://www.amazon.co.jp"]
 ##.t_b ~ div > a[href^="https://al.dmm.co"]
 ##.t_b ~ div > a[href^="https://www.amazon.co.jp"]
+##.textwidget a[href^="https://pcmax.jp/lp/?ad_id="] > img
 ##.widget_custom_html > .custom-html-widget > a[href^="https://www.e-nls.com/access.php"]
 !
 ! uBO specific
@@ -1735,12 +1735,14 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+adult-video.tokyo#?#body:xpath(//div[contains(@class, "entry-content ")]//a[@target="_blank" and contains(@rel, "noopener") and not(@href=ancestor::div[contains(@class, "entry-content ")]/p[2]/a[1]/@href)]/img)
+dot.asahi.com##ul[class^="m-article-list"][class$="readmore"] > li.m-article-list__item:has(> div[id^="taboola-below-article-"])
 cat.benesse.ne.jp,dog.benesse.ne.jp##div[style="min-height: 600px;"]
 cat.benesse.ne.jp,dog.benesse.ne.jp##.text_c[style="height: 50px;"]
 recipe.rakuten.co.jp##.box_banner--top
-the21.php.co.jp##.bnr_wrap
-the21.php.co.jp##div[style="height:250px;"]
-the21.php.co.jp##div[style="height: 250px"]
+voice.php.co.jp,the21.php.co.jp##.bnr_wrap
+voice.php.co.jp,the21.php.co.jp##div[style="height:250px;"]
+voice.php.co.jp,the21.php.co.jp##div[style="height: 250px"]
 the21.php.co.jp###sc_pc_article_billboard
 ||cont.pancolle-movie.jp/goods/$third-party
 ||cont.pancolle-movie.jp/affer_img/$third-party

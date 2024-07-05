@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: CML2N5RjjNvRHrCjlGa/lQ
-! Diff-Path: ../patches/224/224-s-1720139828-3600.patch
+! Checksum: UZiXZ81KKvhFfke0jYFdHg
+! Diff-Path: ../patches/224/224-s-1720150636-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.18.55
-! TimeUpdated: 2024-07-05T00:34:04+00:00
+! Version: 2.1.18.56
+! TimeUpdated: 2024-07-05T03:34:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3695,6 +3695,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /template/paody/aaaa/all-top.js
 /template/shoujigg/*
 /template/znfls/asd/*
+/template/zsy_badian/js/stui_
 /template/zsy_badian/dddytt-gg/*
 /templates/*/js/_banner.js
 /templates/bootadult4/js/bottom.js
@@ -4776,6 +4777,8 @@ newduba.cn###jq_youxi
 ||baijs06.xyz^
 ||doujs06.xyz^
 ||urtlist.top^
+||ortlisk.top^
+||dmnxkj.cn^
 ||0uyt5b.cn^
 ||0v1syj.cn^
 ||1028images.com^
@@ -14254,7 +14257,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||voc.com.cn/adsClick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
-||vodttdy.com/template/zsy_badian/js/stui_
 ||vps234.com/resources/images/hosting-promotion/
 ||vrrw.net//templets/default/js/ad.js
 ||vsping-*.myqcloud.com/ggw/

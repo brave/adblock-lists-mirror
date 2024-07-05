@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: k7D7RCD8hkPzNz3/Ed5NdA
-! Diff-Path: ../patches/7/7-s-1720175835-3600.patch
+! Checksum: 96TboivlXFHk74ANPj2o5Q
+! Diff-Path: ../patches/7/7-s-1720179464-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.61
-! TimeUpdated: 2024-07-05T10:33:16+00:00
+! Version: 2.0.53.62
+! TimeUpdated: 2024-07-05T11:33:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1735,8 +1735,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
-dog.benesse.ne.jp##div[style="min-height: 600px;"]
-dog.benesse.ne.jp##.mt_xsmall:has(> div[id^="div-M_UP_bnr_"])
+cat.benesse.ne.jp,dog.benesse.ne.jp##div[style="min-height: 600px;"]
+cat.benesse.ne.jp,dog.benesse.ne.jp##.text_c[style="height: 50px;"]
 recipe.rakuten.co.jp##.box_banner--top
 the21.php.co.jp##.bnr_wrap
 the21.php.co.jp##div[style="height:250px;"]

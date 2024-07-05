@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.2.0
+! Version: 3.7.3.0
 
 ! General
 
@@ -198,7 +198,9 @@ kompas.id##kompasid-paywall,div.paywall.block
 krautreporter.de##.js-article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
-||zephr.com/zephr/decide$xmlhttprequest,domain=ksta.de|rundschau-online.de
+ksta.de,rundschau-online.de##+js(ra, class|style, div.paywalled-content, stay)
+ksta.de,rundschau-online.de##div.dm-paywall-wrapper,div.dm-slot
+||cleverpush.com^$script,domain=ksta.de|rundschau-online.de
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=kurier.at
 kurier.at##+js(ra, class|style, div.paywall)
 kurier.at##div#cfs-paywall-container

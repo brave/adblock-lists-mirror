@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Z5U+lQi628AT56MM/6dAXw
-! Diff-Path: ../patches/7/7-s-1720186621-3600.patch
+! Checksum: ALEpNeR6txpBd6p5Hy6djA
+! Diff-Path: ../patches/7/7-s-1720193824-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.64
-! TimeUpdated: 2024-07-05T13:33:21+00:00
+! Version: 2.0.53.65
+! TimeUpdated: 2024-07-05T15:32:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1735,6 +1735,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+fitnesslove.net##.mainbox > div.st-pagelink ~ div.st-widgets-box
+fashiontechnews.zozo.com##div[class^="style-module--ads--"]
+36kr.jp###bottom_banner_wrap
 adult-video.tokyo#?#body:xpath(//div[contains(@class, "entry-content ")]//a[@target="_blank" and contains(@rel, "noopener") and not(@href=ancestor::div[contains(@class, "entry-content ")]/p[2]/a[1]/@href)]/img)
 dot.asahi.com##ul[class^="m-article-list"][class$="readmore"] > li.m-article-list__item:has(> div[id^="taboola-below-article-"])
 cat.benesse.ne.jp,dog.benesse.ne.jp##div[style="min-height: 600px;"]

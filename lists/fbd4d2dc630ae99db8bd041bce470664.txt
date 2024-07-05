@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: yEwefRb3f+RNgR9N8lYRsw
-! Version: 202407051601
+! Checksum: cAeXTGmvVqH0ZQBHWiwRhg
+! Version: 202407051701
 ! Title: EasyList Germany
-! Last modified: 05 Jul 2024 16:01 UTC
+! Last modified: 05 Jul 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5362,6 +5362,7 @@ jungefreiheit.de##div[data-widget_type="shortcode.default"]:has(.adsbygoogle)
 mobile.de##div[style="min-height:250px"]:has(#SRP_BILLBOARD_ADSENSE)
 jungefreiheit.de##div[style="text-align: center;"]:has(.adsbygoogle)
 windowspro.de##div[style]:has(> a[onclick*="://www.windows-pro.net/"])
+windowspro.de##div[style]:has(a[onclick*="&utm_"])
 windowspro.de##div[style]:has(a[onclick*="/pcs/click"])
 windowspro.de##div[style]:has(a[onclick*="://windows-pro.net/"])
 windowspro.de##div[style]:has(div[style] > p > a[onclick*="://www.windows-pro.net/"])

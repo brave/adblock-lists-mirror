@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qca5T1eQbaM4r3LkiP8PDA
-! Diff-Path: ../patches/13/13-s-1720175831-3600.patch
+! Checksum: qJXAx/eQonXBTMjsbSfHBA
+! Diff-Path: ../patches/13/13-s-1720262192-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.32
-! TimeUpdated: 2024-07-05T10:33:25+00:00
+! Version: 2.0.52.33
+! TimeUpdated: 2024-07-06T10:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -344,6 +344,7 @@ akillikafa.com,kazanimtestleri.com.tr#$#body #oden.adsbygoogle-noablate { displa
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169961
 dentalilan.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/uBlockOrigin/uAssets/issues/21665
+tranimaci.*#@#ins.adsbygoogle[data-ad-client]
 tranimaci.*#@#ins.adsbygoogle[data-ad-slot]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168937
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168342

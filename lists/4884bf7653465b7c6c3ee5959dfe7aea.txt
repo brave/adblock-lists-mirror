@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6kECA+rJGfQ1+u45QfLqrg
-! Diff-Path: ../patches/9/9-s-1720237010-3600.patch
+! Checksum: vUdctJjf0SFpdkFKjCWVnQ
+! Diff-Path: ../patches/9/9-s-1720262196-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.67
-! TimeUpdated: 2024-07-06T03:33:23+00:00
+! Version: 2.0.25.68
+! TimeUpdated: 2024-07-06T10:32:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -422,6 +422,7 @@ megacanaisonline.me##+js(no-fetch-if, pagead2.googlesyndication.com)
 todoandroid.live,gadgetzona.net,qwanturankpro.com,desbloquea.me,mega-enlace.com##+js(no-fetch-if, method:HEAD)
 ! https://github.com/uBlockOrigin/uAssets/issues/19312
 softwareany.net##+js(addEventListener-defuser, load, detect-modal)
+softwareany.net#@#ins.adsbygoogle[data-ad-client]
 softwareany.net#@#ins.adsbygoogle[data-ad-slot]
 softwareany.net##ins.adsbygoogle:not(.ad-slot)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176660

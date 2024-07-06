@@ -602,7 +602,7 @@ digi24.ro###category_b
 @@||scdn.cxense.com/cx.js$script,domain=digi24.ro
 @@||pubads.g.doubleclick.net/ssai/event/$xhr,domain=digi24.ro
 
-||rangfort.ro/resurse/rfhz.png$image
+||rangfort.ro/*/rfhz.png$image
 rangfort.ro##[href="https://renth.ro/index.php"]
 
 ||stream-aleph.m.ro^$domain=mediafax.ro
@@ -615,8 +615,8 @@ mediafax.ro##div.notif-bula.notif
 
 ||i.imgur.com/oj9G0zy.png
 
-! cspower.ro
-||i.postimg.cc/Vv2v9kdD/download.jpg$image
+cspower.ro##.container:has(> .part-right:has([href*="freakhosting.com"]))
+cspower.ro##.ipsWidget_inner:has([href*="freakhosting.com"])
 
 escortebucuresti.com##.banners-box
 escortebucuresti.com##.new_domain_r.block
@@ -769,6 +769,7 @@ lauralaurentiu.ro##.titluReclama
 lauralaurentiu.ro#?#.code-block:-abp-contains(PUB)
 
 ziare.com##.branding-container
+ziare.com##.banner-container
 ||ziare.com^*.gif$image
 @@||ziare.com^$ghide
 ziare.com##.banner

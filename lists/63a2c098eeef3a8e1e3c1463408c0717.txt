@@ -197,6 +197,7 @@
 ##iframe[src*="//creative.wwwpromoter.com/"]
 ##iframe[src*="//d3u5zn5k9864p0.cloudfront.net/br"]
 ##iframe[src*="//dcd.adotsolution.com/dcd/creative.skp"]
+##iframe[src*="//delivery.pryzmads.com/delivery/ad"]
 ##iframe[src*="//deliverys.n2s.co.kr/afm.php"]
 ##iframe[src*="//dis.site3.co.kr/tdn/banner2.php"]
 ##iframe[src*="//display.ad.daum.net/imp"]
@@ -1219,6 +1220,7 @@
 ||deapi.afreecatv.com/api/v1/recommend^$domain=afreecatv.com
 ||delivery.amessagewithabottle.com/www/delivery/ajs.php^
 ||delivery.c.switchadhub.com/adserver/sat.js^
+||delivery.pryzmads.com/delivery/ad^
 ||deliverys.n2s.co.kr/afm.php^
 ||deloton.com/apu.php^
 ||dentalnews.or.kr/data/banner/$domain=dentalnews.or.kr
@@ -1281,6 +1283,7 @@
 ||dsp.dmcmedia.co.kr/*/*.mp4^
 ||dsp.xapads.com/adscript.php^
 ||dspserver.adpnut.com/ron/html/
+||dt.co.kr/ad.html^$domain=dt.co.kr
 ||dt.co.kr/js/top_ad.js^
 ||dtr-onsite-feed.datarize.ai^
 ||dvdprime.com/g2/img/banner/$domain=dvdprime.com
@@ -1801,6 +1804,7 @@
 ||menu.mt.co.kr/starnews/images/banner/$domain=starnewskorea.com
 ||mg.dt00.net/gjs/*/*/*.*.js^
 ||microbizit.com/admaru/codes/js/
+||mininote.co.kr/wp-content/plugins/revslider_n/public/assets/js/rs6.min.js^$domain=mininote.co.kr
 ||minishop.linkprice.com/minishop*.php^
 ||minishop.linkprice.com/productbox_realhotdeal.php^
 ||minitoon.net/js/adblockblock.js^
@@ -2002,6 +2006,7 @@
 ||redir.adap.tv/redir/javascript/adaptvAdPlayer.js^
 ||redir.adap.tv/redir/mobile/mobile-ad-source.html^
 ||res.ads.nicovideo.jp/assets/js/ads*.js^$domain=nicovideo.jp
+||res.heraldm.com/HeraldResource/doubleuad/$domain=mrealfoods.heraldcorp.com|realfoods.co.kr
 ||res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|heraldcorp.com|jj.heraldcorp.com|koreaherald.com|mbiz.heraldcorp.com|news.heraldcorp.com|pop.heraldcorp.com|viewers.heraldcorp.com
 ||res.heraldm.com/iframe/
 ||res.heraldm.com/js/ad/
@@ -2420,6 +2425,7 @@
 9to5mac.com##div.post-body>a[rel="noopener"][target="_blank"]
 a-ha.io##div.teads-middle-box-wrapper
 aagag.com#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
+academy.prompie.com##div[onclick^="location.href='https://academy.prompie.com/banners/"]
 accessonline.com##div.ads-wrapper
 accessonline.com##div.floating-ads
 adtcs-w.tistory.com##div.article-view div[style="float:right;margin:0 0 10px 10px;width:300px;height:250px"]
@@ -3277,6 +3283,7 @@ dt.co.kr##div.cntWrap>div[style="margin-top:10px;"]
 dt.co.kr##div.cntWrap>div[style="padding-top:10px "]
 dt.co.kr##div.cntWrap>div[style="padding-top:10px;"]
 dt.co.kr##div.cntWrap>div[style="text-align:left;margin-left:5px;"]
+dt.co.kr##iframe[src*="//www.dt.co.kr/ad.html"]
 dtnews24.com##aside.user-aside>div.text-center[style="padding:15px 0;border:1px solid #dfdfdf;"]
 dtnews24.com##div.fixed1>div[style="position:fixed;"]
 dtnews24.com##div.fixed2
@@ -4838,6 +4845,7 @@ m.footballist.co.kr##div#articleBody>div.newsBanner
 m.footballist.co.kr##div.bannerBottom
 m.footballist.co.kr##div.body>div[style="width: 150px; height: 150px;  display: inline-block; float: right; margin: 10px; text-align:right;"]
 m.footballist.co.kr##section.advertisment
+m.game.naver.com##div[class^="detail_banner__"]
 m.game.xportsnews.com##div.in_200_200
 m.gamechosun.co.kr##body>div[style="overflow:hidden;width:100%;height:0;padding-bottom:16%;"]
 m.gamechosun.co.kr##body>div[style="overflow:hidden;width:100%;height:0;padding-bottom:16%;margin-bottom:2px;"]
@@ -5612,6 +5620,7 @@ mbcsportsplus.com##div#add_service_viewRight
 mbcsportsplus.com##div#add_service_viewRight2
 mbcsportsplus.com##div.side_banner
 mbcsportsplus.com##div.side_banner01
+mbiz.heraldcorp.com##body>div>center>div[style="width:320px; height: 250px;"]
 mbiz.heraldcorp.com##div#contad4
 mbiz.heraldcorp.com##div[class^="ad_"]
 mbiz.heraldcorp.com##p#contad3
@@ -5680,6 +5689,7 @@ mimint.co.kr##div#toast
 mimint.co.kr##div.board_view_pwlink
 mimint.co.kr##div.subTopBanner
 mimint.co.kr##div.view_list_add
+mininote.co.kr##rs-module-wrap
 minitoon.net##div.fixed-top
 minitoon.net##div.g_banner
 minitoon.net##div.m_banner
@@ -5775,8 +5785,10 @@ motorbiscuit.com##div.sticky-ad
 moviedang.com##div#popup
 moviedang.com##div#side_ads
 moviedang.com##div#side_ads_bottom_right
+mrealfoods.heraldcorp.com##div.ad_google
 mrealfoods.heraldcorp.com##div.wrap>div[style="width:100%; position:fixed; bottom:0; height: 50px; text-align:center; background-color:#FFF; z-index: 3;"]
 mrealfoods.heraldcorp.com##div[id^="AD_MOBILE_VIEW"]
+mrealfoods.heraldcorp.com##img[src*="//res.heraldm.com/HeraldResource/doubleuad/"]
 msn.com##a.news-list-item[data-t*="\"n\":\"sponcon\""]
 msn.com##cs-native-ad-card
 msn.com##cs-native-ad-card-no-hover
@@ -6500,6 +6512,9 @@ rapidcityjournal.com##div.dfp-ad
 rapidcityjournal.com##div.tnt-ads-container
 rapidcityjournal.com##div.top-leader-ad-col
 readwrite.com##phx-advertisement
+realfoods.co.kr##div.banner_1
+realfoods.co.kr##div.banner_2
+realfoods.co.kr##img[src*="//res.heraldm.com/HeraldResource/doubleuad/"]
 realworldtech.com##div.adinjwidget
 rec.netinsight.co.kr##div.side_ifm_area>div.side_nw>div[style="border:1px solid #000; width:200px; height:200px;margin:15px 0 5px 4px;text-align:center;"]
 recode.net##div.ad-wrapper

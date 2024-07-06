@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X5YtcykOa4qU0HJEQ8U22g
-! Version: 202407060901
+! Checksum: LLmUGGBDrUuQRaYvGnKc1g
+! Version: 202407061001
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Jul 2024 09:01 UTC
+! Last modified: 06 Jul 2024 10:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16965,7 +16965,6 @@ penzainform.ru##[style*="height: 43px"][style*="max-height: 43px"] ~ div[class^=
 procherk.info##[style*="line-height:1;"][style$="font-size:8px;"]
 procherk.info##[style*="line-height:1;"][style$="font-size:8px;"] ~ a[href][target="_blank"]
 tltgorod.ru##[style*="tltgorod.ru/Pics/ban/"]
-4pda.to#?#[style=";background-image:none!important;background-color:transparent!important"] [style=";background-image:none!important;background-color:transparent!important"] > *:-abp-has(a[href][target="_blank"][style="display:none!important"])
 anirem.org##[style="background:#2f2d38; margin:10px;"]
 molbuk.ua##[style^="height: 200px; left"][style*="position: absolute"]
 auto.ru##[style^="height:"][style*="250px"]:empty
@@ -23250,6 +23249,7 @@ news.mail.ru##.r-source
 news.mail.ru##.reference-page__card ~ span:last-child
 ! Дзен новости Mail-edition
 dzen.ru##.news-mt-advert
+dzen.ru##.news-mt-advert__banner
 dzen.ru##[aria-label="Таб категорий"][href^="/floors-promo/"]
 ! Спорт
 sportmail.ru##.sidebar_video:empty
@@ -23971,6 +23971,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
+|https://dzen.ru/*/*/*/$subdocument,domain=dzen.ru
 ||awaps.yandex.
 ||bs-meta.yandex.$script,xmlhttprequest
 ||bs.yandex.$script
@@ -24077,6 +24078,7 @@ dzen.ru##div[class^="floor-skeleton-card__skeletonCardWrapper"]
 dzen.ru#?#div[class^="grid__row-"]:-abp-has(> div[class^="video-card-ad"])
 dzen.ru##div[data-name^="zen2"]
 dzen.ru#?#div[data-testid="article-showcase-card"]:-abp-has(> [data-testid="card-rtb"])
+dzen.ru##iframe[style="display: block; border-width: 0px;"]:not([id])
 !
 ! dzen мобильная версия
 dzen.ru##.article-render-mobile__embed_embed-type_yandex-direct
@@ -24129,6 +24131,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yllcd=$popup,domain=dzen.ru
 /*yqilp=$popup,domain=dzen.ru
 /*yqipl=$popup,domain=dzen.ru
+/*yqpil=$popup,domain=dzen.ru
 =mytarget$popup,domain=dzen.ru
 ||t.mail.ru/redir/$popup,domain=dzen.ru
 !

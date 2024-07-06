@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MWHTEB0+gcd0jA6iMGZMAA
-! Version: 202407060740
+! Checksum: 47Q+KNDZzwJuMpO12LjUBA
+! Version: 202407060840
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-06 07:40 UTC
+! Last modified: 2024-07-06 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35158,6 +35158,7 @@ grist.org##.appeal-bar-text
 thewalrus.ca##.area-arbitrary.widget_custom_html
 gothamist.com##.article-donation-CTA
 thetyee.ca##.article-footer--builder-ask
+thesaturdaypaper.com.au##.article-footer-container
 atlasobscura.com##.article-gastro-interruptor
 timeslive.co.za##.article-subscribe
 damemagazine.com##.article-support-bump
@@ -35245,10 +35246,11 @@ texastribune.org##.db-frame-pinned
 theguardian.com##.dcr-v2o9qm
 lambdatest.com##.demo__cta
 streamable.com##.desktop-banner
+themonthly.com.au##.desktop-buttons-row
 dailyfx.com##.dfx-inHouseGuideBannerComponent
 swordscomic.com##.dialog-invitation
 designtaxi.com##.displayboard
-fullfact.org,opendemocracy.net##.donate
+electronicintifada.net,fullfact.org,opendemocracy.net##.donate
 mprnews.org##.donate-ask
 jurist.org##.donate-banner
 rabble.ca##.donate-bar
@@ -35622,7 +35624,6 @@ indianexpress.com##.breaking-scroll
 lawandcrime.com,mediaite.com,whiskeyraiders.com##.c-article-nav-arrows
 scroll.in##.carousel-is-sticky.trending-carousel
 thesun.ie##.carousel__nav
-themonthly.com.au##.desktop-buttons-row
 mdpi.com##.direction
 game-news24.com##.floating-post-navigation
 darko.audio##.g1-teaser
@@ -35831,7 +35832,6 @@ collectorsweekly.com##.arrow-icon
 analdin.com,reverbpress.com,uinterview.com##.arrow-up
 goafricaonline.com##.arrow-up-container
 thenassauguardian.com##.arrow_carrot-2up
-thesaturdaypaper.com.au##.article-footer-container
 allaboutcd.com##.atbs-ceris-go-top
 goodwillfinds.com##.b-back_to_top
 help.twitter.com,help.x.com##.b17-scroll-top-button
@@ -36095,6 +36095,7 @@ iclarified.com##.pushmodal
 startpage.com##.s-toast
 pnas.org##.signup-alert-ad
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.soft-notification-modal_modal__8KcpZ
+themonthly.com.au##.subscriber-push-end
 indiatoday.in##.tapBoxCls
 ghpage.com##.tds-call-to-action1
 johnsoncitypress.com##.web-promo-designer
@@ -37659,6 +37660,7 @@ discord.me##li.menu-link.d-xl-inline-block
 galaxystore.samsung.com##span[class^="SnsPlugin_items_"]
 skeptoid.com##td > .nomobile
 gmx.net##ui-social
+electronicintifada.net##ul.inline.links
 jagranjosh.com##ul[class^="Details_Social_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 !! .social-sharing
@@ -41643,6 +41645,7 @@ bookmundi.com##.border-neutral-200.border-b.bg-white
 mashable.com##.border-secondary-300
 nysun.com##.border-sunGolden
 mashable.com##.border-warmgray-100
+themonthly.com.au##.border-years
 quillette.com##.border.bg-white.mb-4
 spotlightpa.org##.bottom-0.fixed
 simpleanalytics.com##.bottom-20
@@ -42668,7 +42671,6 @@ cookingclassy.com##.subscribebar
 tedium.co##.subscribebox
 natashaskitchen.com##.subscribenew
 nationaltoday.com##.subscriber-box
-themonthly.com.au##.subscriber-push-end
 broadwayworld.com##.subscribtion-form
 todayonline.com##.subscription-block
 blog.phylum.io,newyorker.com##.subscription-form
@@ -48056,6 +48058,8 @@ thefp.com##body:style(overflow: scroll !important)
 ! modalnewsletter___BV_modal_outer_
 kftv.com###modalnewsletter___BV_modal_outer_
 kftv.com##body:style(overflow: auto !important; position: initial !important;)
+! thesaturdaypaper.com.au force signin
+themonthly.com.au,thesaturdaypaper.com.au##+js(set-local-storage-item, rl, $remove$)
 ! health.harvard.edu
 health.harvard.edu##.sticky-popup
 health.harvard.edu##body:style(overflow: auto !important; position: initial !important;)

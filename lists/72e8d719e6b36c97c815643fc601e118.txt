@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.3.0
+! Version: 3.7.3.1
 
 ! General
 
@@ -178,7 +178,7 @@ harpers.org##+js(cookie-remover, hr_session)
 hindustantimes.com##.freemium-card,.closeStory
 hindustantimes.com##+js(rc, freemiumText, .freemiumText)
 hindustantimes.com##+js(rc, open-popup, body.open-popup)
-inc42.com##+js(ra, class, div.single-post-content)
+||inc42.com/wp-admin/admin-ajax.php|$xmlhttprequest,~third-party
 indianexpress.com##+js(ra, style, div.ev-meter-content[style])
 indianexpress.com##+js(ra, class, p.first_intro_para)
 indianexpress.com##ev-engagement

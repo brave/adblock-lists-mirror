@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iZGAE9gCJ1DPXFTNqUfiQg
-! Version: 202407060640
+! Checksum: QAyvQiBULEjkOdyTSFfvDw
+! Version: 202407060740
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-07-06 06:40 UTC
+! Last modified: 2024-07-06 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2712,6 +2712,7 @@ en.mercopress.com##.fixed-footer
 jorgegalindo.me##.flex-block-11
 blockworks.co##.flex-col.flex.border-t.p-10.gap-4
 breakingnews.ie##.flex.bg-gray-900.pt-12
+evcars.club##.flex.mt-20.my-10
 aclu.org##.floating-action-wrapper
 gazoo.com##.floating-banner
 thebulletin.be##.floorad
@@ -4323,6 +4324,10 @@ jessicabryson.com##body:style(overflow: auto !important; position: initial !impo
 ! dailyvoice.com
 dailyvoice.com##.b-modal.b-dialog
 dailyvoice.com##body:style(overflow: auto !important; position: initial !important;)
+! evcars.club
+evcars.club##.opacity-0.bg-slate-900
+evcars.club##[role="dialog"][id="radix-:rh:"][data-state]
+evcars.club##body,html:style(overflow: auto !important; position: initial !important; pointer-events:auto !important;)
 ! cityam.com
 cityam.com##.subscription-modal
 cityam.com##+js(rc, js-page-scroll-lock, body, stay)

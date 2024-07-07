@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pJ+O08sphSbZaPGStZQQqw
-! Version: 202407071501
+! Checksum: 5SOWatagKUOvolnc48awGg
+! Version: 202407071601
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Jul 2024 15:01 UTC
+! Last modified: 07 Jul 2024 16:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23228,6 +23228,7 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,sportmail.ru##div[class*="rb-slot_plug"]
 ~e.mail.ru,mail.ru,sportmail.ru##div[data-closewrap-container]
 ~e.mail.ru,mail.ru##main#grid .stripe-wrapper
+~e.mail.ru,mail.ru,sportmail.ru##table > tbody > tr > td:first-child + td + td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru#?#tbody:-abp-has(> tr > td > [class*="daynews__item"]) > tr > td ~ td ~ td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru##tr > .daynews__spring
 ! Почта
@@ -23254,6 +23255,7 @@ sportmail.ru##.sidebar_video:empty
 sportmail.ru##a[href="/bookmakers/"]
 sportmail.ru##div[data-logger="partnerNews"]
 ! Погода
+pogoda.mail.ru##.cols__column__inner_border
 pogoda.mail.ru##.forecast-branding-link
 pogoda.mail.ru##.js-springs__group__top
 pogoda.mail.ru##.m-fixed-panel
@@ -23283,9 +23285,9 @@ kino.mail.ru##a.button_color_project[name]
 kino.mail.ru##div[class*=" rb_"]
 kino.mail.ru##div[data-required]
 ! Хай-тек
-hi-tech.mail.ru##.marker-adv-holder
 hi-tech.mail.ru#?#[data-qa="Grid"] > div > div:-abp-has(> [data-rb-slot])
-hi-tech.mail.ru#?#[data-qa="Grid"] > div:-abp-has(> .marker-adv-holder)
+hi-tech.mail.ru#?#[data-qa="Grid"] > div:-abp-has(> div > [data-rb-slot])
+hi-tech.mail.ru#?#[data-qa="Grid"] div:-abp-has(> .marker-adv-holder span[data-qa="Text"])
 hi-tech.mail.ru##div[data-qa="Box"]
 ! Фокус
 vfokuse.mail.ru##.m-fixed-panel

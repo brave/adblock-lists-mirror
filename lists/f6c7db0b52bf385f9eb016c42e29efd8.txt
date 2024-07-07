@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 20240706180438473
+! Version: 20240707101204087
 ! Title: ABPVN List
-! Last modified: 06 Jul 2024 18:04:38 UTC+7
-! Diff-Path: patches/20240706180438473.patch#abpvn_ublock
+! Last modified: 07 Jul 2024 10:12:04 UTC+7
+! Diff-Path: patches/20240707101204087.patch#abpvn_ublock
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -137,7 +137,7 @@
 ||i.postimg.cc^$image,domain=www.phimmoichilla.xyz
 ||iamcdn.net/players/playera.dmins.js
 ||iamcdn.net/players/playhydraxs.min.js
-||image-eu-na-ctnytbefjq.4shares.live/90link/*.gif$image,domain=xem.bdhub.xyz|live.thapcam12.net|live.xoilac34.org|live.vebo24.net
+||image-eu-na-ctnytbefjq.4shares.live/90link/*.gif$image,domain=xem.bdhub.xyz|live.thapcam12.net|live.xoilac34.org|live.vebo24.net|live.vebo25.net
 ||image-eu-na-tsetsafndc.90phut.click/90link/Cp9OssK.gif$image,domain=live.90phut30.live
 ||image-eu-na-tsetsafndc.90phut.click^*.gif$domain=xem.bdhub.xyz
 ||img.upanh.tv^*.gif$image,domain=phim24h.mobi|phimtuoitho.tv
@@ -183,7 +183,7 @@
 ||phimvuihd.org^*.gif$image
 ||phimyeuthichb.com/ad-data/$image
 ||photo2.tinhte.vn/data/attachment-files/*banner
-||photo2.tinhte.vn^*.gif$domain=vebo4.net|live.vebo24.net
+||photo2.tinhte.vn^*.gif$domain=vebo4.net|live.vebo24.net|live.vebo25.net
 ||pic1025.com^*gif$domain=xemtivi4k.com
 ||qthang.net/js/blocker.js$script
 ||quaivatdienanh.com/*banner$image
@@ -252,6 +252,7 @@
 ||vphimhdc.com$csp=script-src 'self' 'unsafe-inline' https:
 ||vphimhdc.com^*.gif$image
 ||vsc45.com/wp-content/themes/vuasanco/assets/scripts/scripts.js
+||wibu47.com^*.gif$image
 ||ww2.phimhay.in^*.gif
 ||www.bk8vnaf.com^*.gif$image,domain=phimgichill.net
 ||www.bongdalu808.com^*.gif
@@ -572,7 +573,7 @@ live.90phut30.live###app-web + .container[style="margin-bottom: 30px"]
 live.90phut30.live##.item.item-betnow
 live.90phut30.live##.sv-link.btn-bet-top
 live.90phut30.live##[href^="/goto"]
-live.90phut30.live,live.xoilac34.org,magpicturesinternational.com,vebo4.net,live.vebo24.net,tructiep.banhkhuc12.net##.fade.show
+live.90phut30.live,live.xoilac34.org,magpicturesinternational.com,vebo4.net,live.vebo24.net,live.vebo25.net,tructiep.banhkhuc12.net##.fade.show
 live.thapcam12.net##.btn-top.btnz
 live.thapcam12.net##.grid-match__footer>a.btn:nth-child(3)
 live.thapcam12.net##.mct_-bet-bot
@@ -586,9 +587,9 @@ live.xoilac34.org##.ft-box
 live.xoilac34.org##.item-betnow
 live.xoilac34.org##.vb-button>.mct_-bet
 live.xoilac34.org##div.vebo-sp.container:nth-of-type(7)
-live.xoilac34.org,live.90phut30.live,live.thapcam12.net,vebo4.net,live.vebo24.net,tructiep.banhkhuc12.net###m-bet
-live.xoilac34.org,live.90phut30.live,vebo4.net,live.vebo24.net,tructiep.banhkhuc12.net##div[class*="size-"]
-live.xoilac34.org,vebo4.net,live.vebo24.net,tructiep.banhkhuc12.net,live.90phut30.live##.ibs-bet
+live.xoilac34.org,live.90phut30.live,live.thapcam12.net,vebo4.net,live.vebo24.net,live.vebo25.net,tructiep.banhkhuc12.net###m-bet
+live.xoilac34.org,live.90phut30.live,vebo4.net,live.vebo24.net,live.vebo25.net,tructiep.banhkhuc12.net##div[class*="size-"]
+live.xoilac34.org,vebo4.net,live.vebo24.net,live.vebo25.net,tructiep.banhkhuc12.net,live.90phut30.live##.ibs-bet
 livetv94.mannhan69.live##.bet-btn-8423
 livetv94.mannhan69.live##.btn_soikeo_74324
 livetv94.mannhan69.live##.highlight
@@ -916,9 +917,9 @@ vaoroi365.com##.divdatcuoc
 vaoroi365.com,xoivo2.online##.show-ads-banner
 vaoroi365.com,xoivo2.online##.widget
 vatlypt.com##a[target="_blank"][rel="dofollow"]
-vebo4.net,live.vebo24.net,tructiep.banhkhuc12.net##.btn-bet-top
-vebo4.net,live.vebo24.net,tructiep.banhkhuc12.net##.item-betnow
-vebo4.net,live.vebo24.net,tructiep.banhkhuc12.net,live.xoilac34.org##.box-host
+vebo4.net,live.vebo24.net,live.vebo25.net,tructiep.banhkhuc12.net##.btn-bet-top
+vebo4.net,live.vebo24.net,live.vebo25.net,tructiep.banhkhuc12.net##.item-betnow
+vebo4.net,live.vebo24.net,live.vebo25.net,tructiep.banhkhuc12.net,live.xoilac34.org##.box-host
 vectorx.top###video_player ~ div[id]
 vesotantai.com##.item-qc
 vidian.vn###closeAds
@@ -1018,7 +1019,7 @@ xem14.com,download.vn###ouibounce-modal
 xem20.gavang1.net,xem19.gavang1.net##.css-ylxsn9.MuiStack-root
 xem20.gavang1.net,xem19.gavang1.net##.vjs-banner-btn
 xem20.gavang1.net,xem19.gavang1.net##div.css-m49bkq.MuiStack-root>a
-xemphimchill.xyz,hhninja4.tv,phimbocn.com,phimhoathinh3d.com,hoathinhtq.site,hhtq7.vip,hhtqvietsub.top,motchillb.net,hhtrungquoc6.com,hhtqnet.me,animeweb.vip,hh3d1.xyz,hoathinh4k2.net,motchilltv.ink,hoathinh3dtq.com,hhtm.tv,dragonphim.tv,hhchina.one,phimmoi2024.net,hhh3d.tv,hhtq3d.com,hhtq5.vip###catfish
+xemphimchill.xyz,hhninja4.tv,phimbocn.com,phimhoathinh3d.com,hoathinhtq.site,hhtq7.vip,hhtqvietsub.top,motchillb.net,hhtrungquoc6.com,hhtqnet.me,animeweb.vip,hh3d1.xyz,hoathinh4k2.net,motchilltv.ink,hoathinh3dtq.com,hhtm.tv,dragonphim.tv,hhchina.one,phimmoi2024.net,hhh3d.tv,hhtq3d.com,hhtq5.vip,wibu47.com###catfish
 xemtivi4k.com###adstop2
 xemtivi4k.com##.ads-item
 xemtivi4k.com##.col-lg-4.hidden-xs.d-flex.flex-column.address-wrap

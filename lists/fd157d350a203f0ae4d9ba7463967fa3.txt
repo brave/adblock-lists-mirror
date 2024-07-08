@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M/t9QSd79jD6L0RiGP8uHA
-! Version: 202407081700
+! Checksum: ie3oxWHkIEoFVAtr4rvwdQ
+! Version: 202407081801
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Jul 2024 17:00 UTC
+! Last modified: 08 Jul 2024 18:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17860,6 +17860,7 @@ magtimes.info##aside img[src^="http://magtimes.info/wp-content/uploads/"]
 poligon.by##aside#sidebar > a[href]
 postal.ninja##aside.tm-sidebar-a [class*="block"]
 www.fontanka.ru#?#aside:-abp-has(> div:only-child > [data-placement])
+www.fontanka.ru##aside:empty
 vk.com##aside[aria-label="Актуальные новости"]
 uznayvse.ru##aside[class*="cls_placeholder"]
 bryansknovosti.ru,novozybkov.su##aside[data-alias="Заголовок"] .widget-area > .widget_text
@@ -22975,6 +22976,7 @@ lada.kz/uploads/banners/
 @@||s.zmctrack.net/z|$xmlhttprequest
 @@||s.znctrack.net/z|$xmlhttprequest
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
+https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
@@ -22989,6 +22991,7 @@ lada.kz/uploads/banners/
 ! Pikabu (ловушка для обфускации)
 ||pikabu.ru/uh$xmlhttprequest,domain=pikabu.ru
 ! селекторы
+www.livejournal.com##.ogl5qqp8umjotxz8w
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
@@ -22998,6 +23001,7 @@ android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.t
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
 liveinternet.ru##[data-wrapper]
+lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}

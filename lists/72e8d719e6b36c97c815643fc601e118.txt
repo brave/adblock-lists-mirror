@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.3.1
+! Version: 3.7.3.2
 
 ! General
 
@@ -540,6 +540,7 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 
 ! The Epoch Times sites (main + cz|de|fr|il|jp|ro)
 ||theepochtimes.com/rules/get$xmlhttprequest,~third-party
+||epochbase.com/libs/paywall*.js$script,third-party
 ||epochbase.com/rules/get$xmlhttprequest,third-party
 ||epochbase.eu/rules/get$xmlhttprequest,third-party
 /\/epoch\.org\.il\/.+\/\d{5,}\//$inline-script
@@ -679,6 +680,7 @@ stockunlock.com##div[class*="-root"][class*="css-"]:style(filter: none !importan
 stockunlock.com##div.css-coxdc8
 ||thenationalpulse.com/wp-content/*/assets/js/national-pulse.js$script,~third-party
 trailsoffroad.com##.paywall
+vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
 ||zeitzeichen.net/sites/default/files/js/js_*.js$script,~third-party
 zvw.de##+js(rc, paywall, .paywall)
 zvw.de##.nfy-products-teaser,.nfy-banner

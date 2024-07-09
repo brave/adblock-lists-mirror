@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: CPlVkjcDnKirCKefmyKjIw
-! Diff-Path: ../patches/7/7-s-1720517872-3600.patch
+! Checksum: 8bRMnphlzzqiBICrayC4sA
+! Diff-Path: ../patches/7/7-s-1720521474-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.81
-! TimeUpdated: 2024-07-09T09:33:34+00:00
+! Version: 2.0.53.82
+! TimeUpdated: 2024-07-09T10:33:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -496,7 +496,7 @@
 !
 !
 ! exploader.net anti-adb
-exploader.net#$##js_download { display: block !important; }
+exploader.net#$##download { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181591
 iwb.jp##+js(addEventListener-defuser, DOMContentLoaded, getComputedStyle(a).height)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179614
@@ -3791,6 +3791,8 @@ cad-data.com###topKokuchi
 cad-data.com###KkPcSideTu > nav + aside
 iscle.com##div[id][style="height:285px;"]
 design-remarks.com,iscle.com##.sticky
+kandatasokuho.com##a[href*="https://www.amazon.co.jp"]
+kandatasokuho.com##.main-body > div[align="left"]:has(+ script[src^="https://pagead2.googlesyndication.com"])
 kandatasokuho.com###main-fit-wrapper > font[size="1"]
 kandatasokuho.com##.main-body > div > div[align="left"] > font[size="1"]
 kandatasokuho.com##div[style^="margin-bottom:5px;padding:2px;width:840px overflow:auto;height:362px"]
@@ -4338,6 +4340,7 @@ gameden.jp###sidebar-right
 gameden.jp###block-16
 response.jp###ad10
 sponichi.co.jp##.contents-pr
+kyobun.co.jp##.ad-container2
 kyobun.co.jp##.kyobu-widget
 kyobun.co.jp##div[class*="yad-"]
 esse-online.jp##div[class^="article-footer"][class$="-affi"]
@@ -5826,7 +5829,7 @@ storia.takeshobo.co.jp###r-googleads
 ||mangalifewin.takeshobo.co.jp/usr-data/units/bJava/disp.php
 news.nicovideo.jp##div[style="width:auto;height:90px;margin:0 0 15px 0"]
 news.nicovideo.jp###billboard_container
-thenewslens.com,huffingtonpost.jp,gqjapan.jp,news.nicovideo.jp,peing.net##.ad-container
+kyobun.co.jp,thenewslens.com,huffingtonpost.jp,gqjapan.jp,news.nicovideo.jp,peing.net##.ad-container
 media.moneyforward.com##.mp-recommends-text
 media.moneyforward.com##div[class^="mp-fixed-ads"]
 saruwakakun.com##.ct
@@ -7723,9 +7726,7 @@ fx-koryaku.com##.textwidget > center > a[target="_blank"]
 exploader.net##+js(no-setTimeout-if, daotag)
 exploader.net###newfiles > ul.list > li[style*="height: 120px;"]
 exploader.net##div[style*="1120px;"][style*="450px;"]
-exploader.net##[data-style]:not(#js_download)
 exploader.net##a[href^="#"]
-exploader.net##div[class^="d_"]:not(#js_download)
 exploader.net##div[style*="305px"][style*="align-items:"]
 exploader.net##body ul.list > li[style="clear: left;width: calc(100% + 3px) !important;margin-right: -1px;height: 120px;margin-left: -2px;float: none;display: block !important;"]
 exploader.net##.tag + div[class]
@@ -10551,6 +10552,7 @@ blog.livedoor.jp##a[href*="ad-feed.com/link/click"]
 ||blog.livedoor.jp/diet2channel/js/adarea.js
 !
 ! video.fc2.com - sync liaoningmovie.net in Chinese filters
+||video.fc2.com/ad_rentangle.php
 ||market.laxd.com/embed/rb/sevices?$domain=video.laxd.com
 ||video.laxd.com/a/pagead/
 ||video.laxd.com/static/video/js/plr/tg/

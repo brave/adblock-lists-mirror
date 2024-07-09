@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZoS/P3pvqERQ/OIqP9cbtg
-! Version: 202407090901
+! Checksum: +H8t94eEBAOFJ/Bpf3kLEw
+! Version: 202407090951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Jul 2024 09:01 UTC
+! Last modified: 09 Jul 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22998,6 +22998,7 @@ pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-
 pikabu.ru#?#.story__header:-abp-has(> div:empty)
 fonmod.com,howdyho.net,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
+dzen.ru#?#[class]:-abp-properties(/--banner-color:/)
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
 liveinternet.ru##[data-wrapper]
@@ -23008,9 +23009,7 @@ www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 sdamgia.ru##center > div[id][style]
 dzen.ru#?#div:-abp-has(> style:-abp-contains(yatag))
 cq.ru#?#div:-abp-properties(content: "Реклама")
-dzen.ru#?#div:-abp-properties(min-height: 600px)
 dzen.ru#?#div:-abp-properties(position: relative !important)
-dzen.ru##div:has(> style:-abp-contains(yatag)) {remove:true;}
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}|min-height: calc.|min-height: .+.(cm|in|lh|mm|pt)|height: 250px/)
 pikabu.ru##div[class*="page-story__"] div[style=""]
@@ -23223,7 +23222,8 @@ lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,s
 ~e.mail.ru,mail.ru,sportmail.ru##.daynews > table tr > td ~ td ~ td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru##.mailru-visibility-check
 mail.ru##.ph-project-promo-container
-~e.mail.ru,mail.ru,sportmail.ru#?#.viewbox__holder div:-abp-has(> .viewbox__side-loader)
+~e.mail.ru,mail.ru,sportmail.ru##.viewbox__holder .viewbox__side
+~e.mail.ru,mail.ru,sportmail.ru##.viewbox__holder .viewbox__side-loader ~ *
 ~e.mail.ru,mail.ru##[data-logger-parent="sidebarDoubleRight"]
 ~e.mail.ru,mail.ru,sportmail.ru##[data-rb-slot]
 ~e.mail.ru,mail.ru,sportmail.ru##[data-view^="Slot"][data-adq-id]

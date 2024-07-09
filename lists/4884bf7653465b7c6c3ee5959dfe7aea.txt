@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: NG8BWcabxdSIy4IOxbCMvg
-! Diff-Path: ../patches/9/9-s-1720420576-3600.patch
+! Checksum: sYvLJV4DBh/TtFF2cqV38A
+! Diff-Path: ../patches/9/9-s-1720507069-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.69
-! TimeUpdated: 2024-07-08T06:32:40+00:00
+! Version: 2.0.25.70
+! TimeUpdated: 2024-07-09T06:33:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1570,14 +1570,15 @@ niusdiario.es##+js(set-constant, google.ima.OmidVerificationVendor, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145476
 superhq.net##+js(abort-on-property-write, exopop)
 hentaikai.com,superhq.net##+js(abort-on-property-write, protData)
+! https://github.com/AdguardTeam/AdguardFilters/issues/183228
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181819
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173727
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173473
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173197
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142854
-gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(window.open-defuser)
-gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(abort-on-property-read, cJsEdge)
-player.gnula.*,player.poseidonhd2.co,player.cuevana2espanol.*,player.cuevana.*##+js(nano-setInterval-booster, countdown, *, 0.001)
+cuevana3.*,gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(window.open-defuser)
+cuevana3.*,gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(abort-on-property-read, cJsEdge)
+player.cuevana3.*,player.gnula.*,player.poseidonhd2.co,player.cuevana2espanol.*,player.cuevana.*##+js(nano-setInterval-booster, countdown, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140890
 pobre.wtf##+js(set-constant, ads, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139850
@@ -2689,8 +2690,8 @@ universohq.com##.barAds
 istoe.com.br##div[style^="width: 100%; min-height: 250px;"]
 laopinion.com.co##div[class^="pauta"]
 ||player.*/assets/vast_*.xml
-gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##a[rel*="sponsored"] img
-/edgeSystem*.js$domain=cuevana.*|cuevana2espanol.*|poseidonhd2.co|gnula.*
+cuevana3.*,gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##a[rel*="sponsored"] img
+/edgeSystem*.js$domain=cuevana.*|cuevana2espanol.*|poseidonhd2.co|gnula.*|cuevana3.*
 ffcv.es##.hidden-xs.zn_section
 dw-anime.net###custom_html-60
 autoscout24.es##.hf-top-old

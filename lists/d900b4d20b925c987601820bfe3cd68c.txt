@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: m1CEymMfwJ57+4lNrbR0Ag
-! Diff-Path: ../patches/7/7-s-1720528650-3600.patch
+! Checksum: 3M4x5hbIDrMCvV3lsnhigw
+! Diff-Path: ../patches/7/7-s-1720532287-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.84
-! TimeUpdated: 2024-07-09T12:33:29+00:00
+! Version: 2.0.53.85
+! TimeUpdated: 2024-07-09T13:33:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1742,6 +1742,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+tennisclassic.jp###iasContainer > div.iasItem ~ div.iasItem > div[class*="ad-"]
+tennisclassic.jp##div[class*="ad-"] > div[id^="dipalyId-"]
+tennisclassic.jp##.articleDetailAdd
 fujingaho.jp##.css-9wmwr1
 fujingaho.jp##section > div[class^=" css"]:has(> .ad-disclaimer:first-child + .ad-container:last-child)
 higashiaichi.co.jp##.sec-side-banner
@@ -10680,6 +10683,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_japanese
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/183263
+tennisclassic.jp#@#.ad-sp
 ! https://github.com/tofukko/filter/issues/97
 phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices_gpt.js,domain=phileweb.com,script

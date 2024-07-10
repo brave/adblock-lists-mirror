@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UbQLI/3ynemBDXfaIntZ1A
-! Version: 202407101351
+! Checksum: eR1RXnhG3JV5r0rmDAxMvQ
+! Version: 202407101501
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jul 2024 13:51 UTC
+! Last modified: 10 Jul 2024 15:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22991,7 +22991,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ! Pikabu (ловушка для обфускации)
 ||pikabu.ru/uh$xmlhttprequest,domain=pikabu.ru
 ! селекторы
-www.livejournal.com##.ogl5qqp8umjotxz8w
+livejournal.com#?#.body-content > div[class]:-abp-has(> [class*="-shtorka-commercial"])
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))

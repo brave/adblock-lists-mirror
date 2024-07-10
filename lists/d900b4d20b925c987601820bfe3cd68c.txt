@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: XbWATYthYvaT+pMeSL22IA
-! Diff-Path: ../patches/7/7-s-1720600707-3600.patch
+! Checksum: jjPg0pJ2hiazUHDlN8w7Fg
+! Diff-Path: ../patches/7/7-s-1720607870-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.53.89
-! TimeUpdated: 2024-07-10T08:34:16+00:00
+! Version: 2.0.53.91
+! TimeUpdated: 2024-07-10T10:33:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1408,8 +1408,6 @@ battlecats-db.com#$#.adsbygoogle { position: absolute!important;left: -4000px !i
 cosp.jp#$#.latestnewstable2014[height^="1"] { height: auto !important; }
 ! otonanswer.jp bottom space
 otonanswer.jp#$#.side[style^="height"] { height: auto !important; }
-! minor glitch on sidebar
-daily.co.jp#$#.is-fixed.secondaryContents { position: static !important; margin-left: auto !important; }
 ! placeholder
 weather.biglobe.ne.jp#$##header { height:60px !important; }
 ! broken sidebar at https://ameblo.jp/mammy-boco/
@@ -1743,6 +1741,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+fukui-tv.co.jp##.advertCont
+richessemag.jp,modernliving.jp##.css-6a6dbz
+news.webike.net##.widget-shortcode:has(> div.execphpwidget > div[id^="div-gpt-"])
+news.webike.net##.sidebar_content > div.widget_custom_html:has(> div.textwidget > div.ad_block)
+news.webike.net##.sidebar_content > div.widget_diver_widget_pcsp
 tennisclassic.jp##.addHead.ad-pc
 tennisclassic.jp###iasContainer > div.iasItem ~ div.iasItem > div[class*="ad-"]
 tennisclassic.jp##div[class*="ad-"] > div[id^="dipalyId-"]
@@ -1774,10 +1777,10 @@ dot.asahi.com##ul[class^="m-article-list"][class$="readmore"] > li.m-article-lis
 cat.benesse.ne.jp,dog.benesse.ne.jp##div[style="min-height: 600px;"]
 cat.benesse.ne.jp,dog.benesse.ne.jp##.text_c[style="height: 50px;"]
 recipe.rakuten.co.jp##.box_banner--top
-voice.php.co.jp,the21.php.co.jp##.bnr_wrap
-voice.php.co.jp,the21.php.co.jp##div[style="height:250px;"]
-voice.php.co.jp,the21.php.co.jp##div[style="height: 250px"]
-the21.php.co.jp###sc_pc_article_billboard
+php.co.jp##.bnr_wrap
+php.co.jp##div[style="height:250px;"]
+php.co.jp##div[style="height: 250px"]
+php.co.jp###sc_pc_article_billboard
 ||cont.pancolle-movie.jp/goods/$third-party
 ||cont.pancolle-movie.jp/affer_img/$third-party
 car-me.jp##.s-footer_fixed_cta
@@ -2593,6 +2596,7 @@ allabout.co.jp#?#.aa_swipe-content > div.aa_box-center:has(> div.ad-bnr)
 coindeskjapan.com#?#body > div.mx-10px.py-60px:has(> div.flex > div[id^="div-gpt-ad"])
 coindeskjapan.com#?#body > div.mx-10px > div.border-b:has(>  div.flex > div[id^="div-gpt-ad"])
 madamefigaro.jp##.modfortuneSign
+numero.jp##div[style="min-height: 300px;"]
 numero.jp##.bnr_wide
 numero.jp##.new_ad_area
 blogterest.net#?#.blockAreaMainMiddle > div.blockWrapper > .blockBody > h2 + div[style="padding:10px;"] > a[href^="https://al.dmm.co.jp"][target="_blank"] > img[style="border-radius:15px;border:5px solid #dedede;"]:upward(3)
@@ -8821,6 +8825,7 @@ nicoco.net###search_form_wrap > div
 picrew.me##.imagemaker_ad_wrapper
 picrew.me##.search-Sidebar
 picrew.me##.c_related_section:first-of-type
+poipiku.com###DetailOverlay
 poipiku.com##.SideBarMid
 seiga.nicovideo.jp###top_ads_box_middle
 seiga.nicovideo.jp###float-bnr-container

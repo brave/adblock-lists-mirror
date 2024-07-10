@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: OQwgO851jAElSsXaK/Rufw
-! Diff-Path: ../patches/1/1-s-1720615065-3600.patch
+! Checksum: 4yzliB5M3w3CQAauk9SQGg
+! Diff-Path: ../patches/1/1-s-1720625829-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.12
-! TimeUpdated: 2024-07-10T12:31:46+00:00
+! Version: 2.0.92.13
+! TimeUpdated: 2024-07-10T15:31:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7616,6 +7616,7 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+zr.ru#$?#div[class^="styled__SuspendableElement-"]:has(> div[data-relap-id]) { remove: true; }
 zr.ru#$?#div[class^="styled__SuspendableElement-"]:has(> div[id^="unit_"]) { remove: true; }
 senkuro.com##div[id^="R-A-"]
 afisha.ru#?#div[data-test="PAGE-BLOCK"] > div > section:has(> div[data-test="SECTION-CONTENT"] > div > div:contains(Реклама))
@@ -18233,6 +18234,7 @@ hi-tech.mail.ru##.cols__inner > div.spring
 hi-tech.mail.ru##.cols__inner > div[class*="rb_"]
 hi-tech.mail.ru##.daynews__inner > tbody > tr > td.daynews__spring
 !
+horo.mail.ru##div[id][data-closewrap-container]
 horo.mail.ru##div[data-module="SlotModel"]
 horo.mail.ru##.cols__column_sidebar
 horo.mail.ru##.pc-branding-full

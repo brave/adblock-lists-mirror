@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: sYvLJV4DBh/TtFF2cqV38A
-! Diff-Path: ../patches/9/9-s-1720507069-3600.patch
+! Checksum: ypXVXLpLAtZ0M4onkIm4OA
+! Diff-Path: ../patches/9/9-s-1720683428-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.70
-! TimeUpdated: 2024-07-09T06:33:46+00:00
+! Version: 2.0.25.71
+! TimeUpdated: 2024-07-11T07:33:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -419,7 +419,7 @@ animeszone.net##+js(no-fetch-if, pagead2.googlesyndication.com)
 megacanaisonline.me##div[id][class^="popup"][class$="wrap"][style]
 megacanaisonline.me##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159034
-todoandroid.live,gadgetzona.net,qwanturankpro.com,desbloquea.me,mega-enlace.com##+js(no-fetch-if, method:HEAD)
+acortados.com,todoandroid.live,gadgetzona.net,qwanturankpro.com,desbloquea.me,mega-enlace.com##+js(no-fetch-if, method:HEAD)
 ! https://github.com/uBlockOrigin/uAssets/issues/19312
 softwareany.net##+js(addEventListener-defuser, load, detect-modal)
 softwareany.net#@#ins.adsbygoogle[data-ad-client]
@@ -1595,6 +1595,7 @@ estacio.br##+js(set-cookie, modal_promo, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167657
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159461
 gourlpro.com,adclic.es,adclic.org,mundopolo.net,jurisfera.com,adclicker.info,adclicker.io##+js(set-constant, global.noobMaxTry, 0)
+! https://github.com/AdguardTeam/AdguardFilters/issues/183355
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159665
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159538
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159034

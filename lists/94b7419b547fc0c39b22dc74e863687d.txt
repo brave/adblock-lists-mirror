@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: nPi7XWetPdcV7z4vUDamFw
-! Diff-Path: ../patches/1/1-s-1720690661-3600.patch
+! Checksum: vxXLAv4/aO2rIitoLtZejQ
+! Diff-Path: ../patches/1/1-s-1720719417-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.15
-! TimeUpdated: 2024-07-11T09:31:16+00:00
+! Version: 2.0.92.16
+! TimeUpdated: 2024-07-11T17:31:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7616,6 +7616,8 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+cheb.ru##body .topbanpda
+||afisha21.ru/*/ban/*.$image
 zr.ru#$?#div[class^="styled__SuspendableElement-"]:has(> div[data-relap-id]) { remove: true; }
 zr.ru#$?#div[class^="styled__SuspendableElement-"]:has(> div[id^="unit_"]) { remove: true; }
 senkuro.com##div[id^="R-A-"]
@@ -11422,7 +11424,7 @@ tvboryspil.com##div[class^="articles-list__item relative xl:h-160px lg:h-125px"]
 tv.pokaz.me,online.viks.tv###reclamanemoya
 brodude.ru##.single__banner
 ||nv-online.info/wp-content/uploads/*/darida_banner_desktop.png
-kinoafisha.info,onlinestreams.ru,gamemag.ru##a[href^="https://ads.adfox.ru/"]
+gastronom.ru,kinoafisha.info,onlinestreams.ru,gamemag.ru##a[href^="https://ads.adfox.ru/"]
 ||cdn.leon.ru/*/*banners/$image
 ||prostoporno.*/img/brand-
 porno-island.*,torrent-soft.net##a[href^="https://is.gd/"]

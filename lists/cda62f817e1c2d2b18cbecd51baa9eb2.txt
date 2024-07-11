@@ -177,6 +177,7 @@ exploader.net##+js(set, load_daotag, true)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24220
 *$script,domain=veev.to,redirect-rule=noopjs
+veev.to##+js(set, Object.prototype.callDetected, noopFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24420
 /smartserve-$badfilter
@@ -189,3 +190,6 @@ pcguide.com#@#.wepc-takeover
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183083
 m.yahoo.co.jp#@#body:style(overflow: auto !important; height: auto !important;)
+
+! https://javlion.xyz/v/dihop0h4qg04 bait
+/popup.*&ads=$badfilter

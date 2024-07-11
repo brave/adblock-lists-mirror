@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5prkuYKpLOW++xT9voeZXw
-! Version: 202407111440
+! Checksum: +Z9FGJgRzUUVEWEAowL9JA
+! Version: 202407111540
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-11 14:40 UTC
+! Last modified: 2024-07-11 15:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -47929,6 +47929,9 @@ s-court.me##+js(set-cookie, cookie_accept, true)
 ! mediaite.com
 mediaite.com##+js(set-cookie, am-sub, 1)
 ||consentmanager.net^$script,domain=mediaite.com,important
+! abp.nl
+abp.nl##.overflow-hidden:style(overflow: auto !important;)
+abp.nl##div.cookies-pop-up
 ! fanboy_newsletter_specific_uBO.txt
 ! uBO Sepecific fixes
 theconversation.com##.MuiDialog-root
@@ -54179,6 +54182,7 @@ vtimes.io#@#.cookies-modal:not(body):not(html)
 vtimes.io#@#.cookies-modal__background
 hotspotty.net,little-clogs-holidays.co.uk#@#.cookies-not-set:not(body)
 diy.com#@#.cookies-policy
+abp.nl#@#.cookies-pop-up
 elrow.com#@#.cookies-popup
 dominospizza.pl#@#.cookies-visible
 logon.slc.co.uk#@#.cookies-wrap

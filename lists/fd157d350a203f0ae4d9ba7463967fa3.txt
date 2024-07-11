@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Svp/6EfR1pWW7Wu8SsrKPw
-! Version: 202407111201
+! Checksum: zjG4JSHgvPGp8I7GOwZ+1g
+! Version: 202407111301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Jul 2024 12:01 UTC
+! Last modified: 11 Jul 2024 13:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24445,7 +24445,6 @@ tvc.ru##.b-overlay-soc
 pdalife.ru##.b-popup
 vashgorod.ru##.c-popup
 games-two.su##.ckf-box
-esputnik.com##.cl-dialog[style*="position: fixed"]
 riafan.ru##.cookie-agreement-wrapper
 crimezone.in.ua##.custom-modal
 jurnalu.ru##.demo
@@ -24528,6 +24527,7 @@ ruskline.ru##body > div[id^="money"]
 dnpmag.com,trendymen.ru##body > div[id^="popup-"]
 pikabu.ru##body > iframe[src*="redirect_uri"]
 daz3d.ru##body > span[id^="s"][style]
+esputnik.com##body.cl-noscroll > .cl-dialog[style*="position: fixed"]
 pinterest.com##div[class*="ScreenBanner"]
 snob.ru##div[class*="popup-eventSubscribe"]
 noworries.news##div[class*="remodal"]

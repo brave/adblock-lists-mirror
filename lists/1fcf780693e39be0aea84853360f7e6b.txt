@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /tvnBjGBvo9IQQng7op+aw
-! Diff-Path: ../patches/224/224-s-1720683427-3600.patch
+! Checksum: JE6Hat8CCKSewGlc8ovbiA
+! Diff-Path: ../patches/224/224-s-1720687035-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.18.83
-! TimeUpdated: 2024-07-11T07:33:51+00:00
+! Version: 2.1.18.84
+! TimeUpdated: 2024-07-11T08:33:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -76,6 +76,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||cengqinglin.cn^
 ||sprewcereous.com^
 ||shouldercommandmentlimitless.com^
 ||ad.ettoday.net^$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
@@ -2797,6 +2798,9 @@ jable.tv##a[href="http://uus52.com/"]
 jable.tv##.badge
 jable.tv##a[href*="?banner="]
 jable.tv##.uu-ads
+! https://github.com/AdguardTeam/AdguardFilters/issues/183400
+mxdm.xyz##+js(abort-current-script, Function, new Function(document[)
+$script,third-party,denyallow=cdn.yinghuazy.xyz|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|cloudflare.net|rabbitstream.net|x.com,_____,domain=mxdm.xyz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178577
 ! https://github.com/AdguardTeam/AdguardForWindows/issues/4227
 ! nfmovies.com

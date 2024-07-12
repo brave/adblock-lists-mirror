@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qs8sA4ol7t8OBUl4cb3i4g
-! Diff-Path: ../patches/1/1-s-1720784214-3600.patch
+! Checksum: 8rrmsuNVsOe5EVu4dQaqrA
+! Diff-Path: ../patches/1/1-s-1720787893-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.17
-! TimeUpdated: 2024-07-12T11:31:18+00:00
+! Version: 2.0.92.18
+! TimeUpdated: 2024-07-12T12:31:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18039,6 +18039,7 @@ meduza.global.ssl.fastly.net,meduza.io##.DFPBanner-root
 meduza.global.ssl.fastly.net,meduza.io##div.App-banner
 !
 ! fontanka.ru
+fontanka.ru###app > div > div:has(> div[id^="adv_"])
 fontanka.ru##a[href^="https://www.fontanka.ru/"][href*="#lenta-btn"]
 fontanka.ru##article ~ div:has(div.flickity-slider)
 fontanka.ru##div[class]:has(> a[href^="https://people.sovcombank.ru/"])

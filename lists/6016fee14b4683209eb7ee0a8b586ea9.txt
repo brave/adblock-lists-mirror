@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EfYIqNP5dT0mXx3ETZTMjQ
-! Diff-Path: ../patches/16/16-s-1720766233-3600.patch
+! Checksum: B7mX/wvYwCRPYBoZgwZxaA
+! Diff-Path: ../patches/16/16-s-1720802254-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.55
-! TimeUpdated: 2024-07-12T06:33:41+00:00
+! Version: 2.0.45.57
+! TimeUpdated: 2024-07-12T16:33:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -114,6 +114,8 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/183492s
+@@||soins-infirmiers.com/*/adblocker.blogads.css
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182577
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182488
 ||cdn.assets02.nicematin.com/build/js/viewpay.*.js
@@ -17104,7 +17106,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||idurarweb.com/file/manual/conception_site_
 ||idurarweb.com/file/manual/formation_infographie_
 ||iframe.lachainemeteo.com^
-||igg-games.com/wp-content/uploads/2021/02/hh1.gif
+||igg-games.com/wp-content/uploads/20*.gif
 ||igg-games.com/wp-content/uploads/2024/02/aaa.jpg
 ||igg-games.com/wp-content/uploads/2024/02/hhh3.png
 ||igg-games.com/wp-content/uploads/2024/02/sss.jpg

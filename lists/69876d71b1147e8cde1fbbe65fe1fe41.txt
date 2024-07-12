@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Albj7bx4DLy/C2exSOM3lg
-! Diff-Path: ../patches/13/13-s-1720787894-3600.patch
+! Checksum: l8YImcm7BhCxUM5EKFqsfg
+! Diff-Path: ../patches/13/13-s-1720795082-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.35
-! TimeUpdated: 2024-07-12T12:33:59+00:00
+! Version: 2.0.52.37
+! TimeUpdated: 2024-07-12T14:34:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5545,12 +5545,10 @@ golvartv596.xyz,golvartv597.xyz,golvartv598.xyz,golvartv599.xyz,golvartv600.xyz,
 ||video.twimg.com/ext_tw_video/*/pu/**/*.m4s$redirect=noop-1s.mp4,domain=ifra.strmrdrfronf.click,media
 ! 78 is source of an actual domain
 ! amp5 is source of a domain for mobile
+selcuksportshd78.biz##.ps
 selcuksportshdamp5.xyz,selcuksportshd78.biz#$?#body { background-image: none !important; }
 ! selcuksportshd*.xyz - frequently changed domains
-||selcuksportshd*.xyz/img/madrid-wp*.jpg
 ||selcuksportshd*.xyz/img/*.gif
-||selcuksportshd*.xyz/img/m-ad-*.gif
-||selcuksportshd*.*/*yxp.gif
 ||selcuksportshd*.*/images/grnd/*.jpg
 [$domain=/(^\|.+\.)selcuksportshd\d+\.xyz/]##.footer
 [$domain=/(^\|.+\.)selcuksportshd\d+\.xyz/]##.socials a:is(.meritroyal, .iptv, .streamradar)

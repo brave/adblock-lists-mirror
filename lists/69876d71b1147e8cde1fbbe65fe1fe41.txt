@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qJXAx/eQonXBTMjsbSfHBA
-! Diff-Path: ../patches/13/13-s-1720262192-3600.patch
+! Checksum: zLGr6YAkiqH/Mp/p+I1spQ
+! Diff-Path: ../patches/13/13-s-1720784214-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.33
-! TimeUpdated: 2024-07-06T10:32:51+00:00
+! Version: 2.0.52.34
+! TimeUpdated: 2024-07-12T11:33:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5463,10 +5463,11 @@ isguc.org##td[width="200"] a[target="_blank"] img[width="200"][alt]
 ||xyzsports*.xyz/assets/images/ras/
 ||xyzsports*.xyz/assets/images/das/
 ||xyzsports*.xyz/assets/images/bcd/
+||xyzsports*.xyz/assets/images/fgh/
 ||xyzsports*.xyz/assets/images/pgskn_hovarda.jpeg
-xyzsports113.xyz,xyzsports114.xyz,xyzsports115.xyz,xyzsports116.xyz,xyzsports117.xyz,xyzsports118.xyz,xyzsports119.xyz,xyzsports120.xyz,xyzsports121.xyz,xyzsports122.xyz###sticky-footer
-xyzsports113.xyz,xyzsports114.xyz,xyzsports115.xyz,xyzsports116.xyz,xyzsports117.xyz,xyzsports118.xyz,xyzsports119.xyz,xyzsports120.xyz,xyzsports121.xyz,xyzsports122.xyz###banners
-xyzsports113.xyz,xyzsports114.xyz,xyzsports115.xyz,xyzsports116.xyz,xyzsports117.xyz,xyzsports118.xyz,xyzsports119.xyz,xyzsports120.xyz,xyzsports121.xyz,xyzsports122.xyz##.headbar
+xyzsports164.xyz,xyzsports113.xyz,xyzsports114.xyz,xyzsports115.xyz,xyzsports116.xyz,xyzsports117.xyz,xyzsports118.xyz,xyzsports119.xyz,xyzsports120.xyz,xyzsports121.xyz,xyzsports122.xyz###sticky-footer
+xyzsports164.xyz,xyzsports113.xyz,xyzsports114.xyz,xyzsports115.xyz,xyzsports116.xyz,xyzsports117.xyz,xyzsports118.xyz,xyzsports119.xyz,xyzsports120.xyz,xyzsports121.xyz,xyzsports122.xyz###banners
+xyzsports164.xyz,xyzsports113.xyz,xyzsports114.xyz,xyzsports115.xyz,xyzsports116.xyz,xyzsports117.xyz,xyzsports118.xyz,xyzsports119.xyz,xyzsports120.xyz,xyzsports121.xyz,xyzsports122.xyz##.headbar
 ||xyzsprtsfrmr1.site/assets/images/das/*.gif
 xyzsprtsfrmr1.site##div[data-free-banner]
 ! TODO: remove the comments below after the issue is fixed

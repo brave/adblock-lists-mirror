@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.3.3
+! Version: 3.7.3.4
 
 ! General
 
@@ -491,6 +491,11 @@ bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,
 ! Motor Presse Stuttgart
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de
 
+! Nation Media Group (Kenya)
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz##+js(rc, nmgp, div.article-page .nmgp)
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz##+js(rc, hidden, div.article-page .hidden)
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz##div.modal,[id*='wall'],section.wall-guard,div#article-general-spinner
+
 ! New York Magazine
 curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, /nymcid$/)
 ||cloudfront.net/embed/widget/subx*.js$script,domain=curbed.com|grubstreet.com|nymag.com|thecut.com|vulture.com
@@ -625,9 +630,6 @@ marketnews.com##+js(ra, class, div.body-description)
 ||cloudfront.net/js/prometeo-media/$script,domain=menorca.info|ultimahora.es
 meritnation.com##.view-full-answer 
 meritnation.com##+js(rc, maxHeight75px, div.exp_content.maxHeight75px)
-monitor.co.ug,mwananchi.co.tz,nation.africa,thecitizen.co.tz##+js(rc, nmgp, div.article-page .nmgp)
-monitor.co.ug,mwananchi.co.tz,nation.africa,thecitizen.co.tz##+js(rc, hidden, div.article-page .hidden)
-monitor.co.ug,mwananchi.co.tz,nation.africa,thecitizen.co.tz##div.modal,[id*='wall'],div#article-general-spinner
 ||moscout.com$inline-script
 museumsassociation.org##+js(rc, paywall, body.paywall)
 museumsassociation.org##+js(ra, style, body[style], stay)

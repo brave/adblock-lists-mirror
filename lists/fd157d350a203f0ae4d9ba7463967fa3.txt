@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: a4X2LXBpkAzqPTJRpUAm9g
-! Version: 202407132001
+! Checksum: PsM/j1G1rH8scG0VXnmcwg
+! Version: 202407132101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Jul 2024 20:01 UTC
+! Last modified: 13 Jul 2024 21:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11656,6 +11656,7 @@ kerch.fm###center_left > .informer
 rabota.kharkov.ua###central > table > tbody > tr > .noprint
 newsland.com###channelsFeed > [data-block-type="channel-card"] ~ :not([data-block-type="channel-card"])
 finget.ru###chart_a
+game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib###chessday
 vk.com###chrome_bar_content
 okrain.net.ua###citata
 zoodrug.ru###clone[style*="250px"]
@@ -19006,7 +19007,7 @@ sinoptik.ua##div[style^="margin"][style$="width: 300px;"]
 freesoft.ru##div[style^="margin-left:"] > a[href="#"]
 onlinetv.one##div[style^="margin: 20px 0;min-height:"]
 24tv.ua##div[style^="min-height: 250px;"][style*=" 50px"]
-cadelta.ru##div[style^="min-height: 250px;"][style*="background:"]
+cadelta.ru,modfarm.ru##div[style^="min-height: 250px;"][style*="background:"]
 smart-lab.ru##div[style^="min-height: 250px;"][style*="font-size: 0;"]
 liveposts.ru##div[style^="min-height: 700px;"]
 open3dmodel.com##div[style^="min-height:"][style$="px;"]
@@ -23220,6 +23221,7 @@ lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,s
 ~e.mail.ru,mail.ru,sportmail.ru##.daynews > table tr > td ~ td ~ td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru##.mailru-visibility-check
 mail.ru##.ph-project-promo-container
+~e.mail.ru,mail.ru,~octavius.mail.ru##.tgb-wrapper
 ~e.mail.ru,mail.ru,sportmail.ru##.viewbox__holder .viewbox__side
 ~e.mail.ru,mail.ru,sportmail.ru##.viewbox__holder .viewbox__side-loader ~ *
 ~e.mail.ru,mail.ru##[data-logger-parent="sidebarDoubleRight"]
@@ -23368,6 +23370,7 @@ love.mail.ru##.link-ad
 ||banners.mail.ru^$third-party
 ||bs.mail.ru^$image,domain=mail.ru
 ||horo.mail.ru/*/fast-slot.js
+||limg.imgsmail.ru/re/c/desktop-*.css?_$xmlhttprequest
 ||mamba.ru/images/*/promo/
 ||media-stat.mail.ru^
 ||mradx.net/img/$subdocument

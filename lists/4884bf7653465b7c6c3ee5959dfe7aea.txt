@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ypXVXLpLAtZ0M4onkIm4OA
-! Diff-Path: ../patches/9/9-s-1720683428-3600.patch
+! Checksum: HZUpb0iO2qcdbKpcYr1RVQ
+! Diff-Path: ../patches/9/9-s-1720877811-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.71
-! TimeUpdated: 2024-07-11T07:33:24+00:00
+! Version: 2.0.25.72
+! TimeUpdated: 2024-07-13T13:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -267,6 +267,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/183544
+@@||www3.doubleclick.net/|$domain=acortalink.me
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182228
 r7.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181874
@@ -419,6 +421,7 @@ animeszone.net##+js(no-fetch-if, pagead2.googlesyndication.com)
 megacanaisonline.me##div[id][class^="popup"][class$="wrap"][style]
 megacanaisonline.me##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159034
+acortados.com,acortalink.me##+js(no-fetch-if, /ads-twitter\.com|pagead|googleads|doubleclick/, , opaque)
 acortados.com,todoandroid.live,gadgetzona.net,qwanturankpro.com,desbloquea.me,mega-enlace.com##+js(no-fetch-if, method:HEAD)
 ! https://github.com/uBlockOrigin/uAssets/issues/19312
 softwareany.net##+js(addEventListener-defuser, load, detect-modal)
@@ -1665,7 +1668,9 @@ paky3.me,pelismart.com,pelismarthd.com##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111452
 tiohentai.xyz##+js(set-constant, loadingAds, undefined)
 tiohentai.xyz##+js(abort-current-script, document.addEventListener, create_)
+! https://github.com/AdguardTeam/AdguardFilters/issues/183544
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111261
+acortalink.me##+js(no-setTimeout-if, window.location.href)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109027
 pelispedia-v1.wtf##+js(window.open-defuser)
 pelispedia-v1.wtf##+js(nano-setInterval-booster, Loading player, , 0.02)

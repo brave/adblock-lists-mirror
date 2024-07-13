@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.3.4
+! Version: 3.7.4.0
 
 ! General
 
@@ -117,6 +117,7 @@ connaissancedesarts.com##div.ad-container
 crusoe.com.br##div#gpt-leaderboard,div.ads_desktop,div.catchment-box
 csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
+cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker)
 dagsavisen.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
 dailywire.com###post-body-text > div > div:style(height: auto !important;)
 discovermagazine.com##body:style(overflow: auto !important;)

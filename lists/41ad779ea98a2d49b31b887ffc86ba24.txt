@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i78cihbRgWKSB2PMmje2sg
-! Version: 202407141515
+! Checksum: TOT/5sn6o+fN9wblEwFgfA
+! Version: 202407141640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-14 15:15 UTC
+! Last modified: 2024-07-14 16:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -48440,6 +48440,10 @@ logicool.co.jp##body[style="overflow: hidden;"]:style(overflow: auto !important;
 ! https://launer.com/c/women
 launer.com##.modal:has([style^='background-image: url("/assets/newsletter-'])
 launer.com##html:style(overflow: auto !important)
+!
+soundproofcow.com##.sgpb-popup-overlay
+soundproofcow.com##.sgpb-popup-dialog-main-div-wrapper
+soundproofcow.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! fanboy_newsletter_shopping_specific_uBO.txt
 ! .modal/.modal-backdrop
 trutone.ca,frontrunners.ca,fruugo.co.uk,lull.com,otterbox.com,pulseuniform.com,saksfifthavenue.com,shop.pbs.org,szucstermekek.com,zumub.com##.modal
@@ -51729,7 +51733,7 @@ lartigiano.gr###CookiesSection
 traderetail.gr###NMCookie_container
 restiasuites.gr###advert-once
 stigmap.gr###btm_terms
-whatsup.gr###ck_cookies
+frogmobile.gr,whatsup.gr###ck_cookies
 eudoxus.gr###consentPlaceholder
 dod.gr###cookies_component
 kteohellas.gr###cookiesettings-dialog

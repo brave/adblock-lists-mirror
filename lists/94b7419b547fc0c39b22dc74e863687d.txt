@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: YjW2Fdl3BOIRrNeTpubxdg
-! Diff-Path: ../patches/1/1-s-1720798627-3600.patch
+! Checksum: 9zDh2dn1D9RmL9SOS4qL1A
+! Diff-Path: ../patches/1/1-s-1721043684-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.19
-! TimeUpdated: 2024-07-12T15:31:10+00:00
+! Version: 2.0.92.20
+! TimeUpdated: 2024-07-15T11:31:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5238,7 +5238,7 @@ forums.overclockers.ru#@##yandex_ad_1
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87125
 apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top###chessday
-apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top###ads_script
+apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top###as_script
 rustorka.com,rustorka.net,rustorkacom.lib##body > div[style*="background-color:"][style*="max-width:"][style*="height:"]
 $removeheader=location,domain=zannn.top|innal.top
 apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,naylo.top,zannn.top,innal.top##+js(remove-node-text, script, /ads_script|checkCookie|chess/)

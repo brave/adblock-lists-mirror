@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8rdShX1S2mdoInvqQEFXCg
-! Diff-Path: ../patches/1/1-s-1721061428-3600.patch
+! Checksum: uA4wyFSwEgi+1XZDzQhTsg
+! Diff-Path: ../patches/1/1-s-1721115417-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.23
-! TimeUpdated: 2024-07-15T16:31:08+00:00
+! Version: 2.0.92.24
+! TimeUpdated: 2024-07-16T07:31:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4416,7 +4416,7 @@ pikabu.ru##+js(abort-on-property-read, Object.prototype.shouldShowStickyAd)
 pikabu.ru##+js(abort-on-property-write, Ya)
 pikabu.ru##+js(no-setTimeout-if, _sendAnalytics)
 pikabu.ru##+js(json-prune, data, errors)
-pikabu.ru##+js(remove-node-text, script, /.innerHTML.*cancelAnimationFrame/)
+pikabu.ru##+js(remove-node-text, script, /.innerHTML.*cancelAnimationFrame|\(new A_D\(/)
 ! sports.ru
 sports.ru##+js(json-prune, direct rtbAuctionInfo)
 sports.ru##+js(set-constant, Ya.adfoxCode.create, noopFunc)

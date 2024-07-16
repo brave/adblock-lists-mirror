@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bselsNkcI7rPol0QD/bfsA
-! Version: 202407161101
+! Checksum: HS/9T/WwxddvZkGwpPDitw
+! Version: 202407161201
 ! Title: IndianList
-! Last modified: 16 Jul 2024 11:01 UTC
+! Last modified: 16 Jul 2024 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -713,7 +713,7 @@ _advt.jpg|
 /advt/*$domain=himdarshan.com
 /Banner-$domain=indias18.com
 /banner-$domain=navakal.in
-/banner/*$domain=arthparkash.com|firlive.com|jogsanjogtimes.com|kanvkanv.com|keralafinance.com|khabor.com|laksam.com|nbs24.org|tamil.com|thereport24.com
+/banner/*$domain=arthparkash.com|binodonsarabela.com|firlive.com|jogsanjogtimes.com|kanvkanv.com|keralafinance.com|khabor.com|laksam.com|nbs24.org|tamil.com|thereport24.com
 /banners/*$domain=bajroshakti.com|digiana.com|karobardaily.com|tamil.srilankamirror.com|tcvonline.co.in|thaiveedu.com
 /bigyaapan/*$domain=baahrakhari.com|capitaldainik.com|godawarinews.com|khelpati.com|lumbinitimes.com|nayadainiki.com|nepalipublic.com|nepalsamaya.com|newsgriha.com|ninglashainionline.com|setopati.com|sidhakhabar.com|surakshyanews.com|swasthyakhabar.com
 /bigyaapan^$domain=kalikanews.com|khulaasa.com|nepalitwa.com|nepallive.com|shilapatra.com
@@ -1349,7 +1349,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||bikalpadainik.com/wp-content/uploads/2020/07/Shivanagarjun-ad.jpg
 ||bikanerhulchul.com/wp-content/uploads/2021/01/mr-bika-
 ||bikashnews.com/wp-content/uploads/2022/08/Digital-Fraud-1230X100-px.gif
-||binodonsarabela.com/upload/images/banner/7864default-resort-image.jpg
 ||binodonsarabela.com/upload/images/news/new-york-city-pass-comparison-guide.jpg
 ||bishasangbad.com/wp-content/uploads/2021/05/11761255419551933506-1.jpg
 ||bishasangbad.com/wp-content/uploads/2021/05/5150172069964630920.gif
@@ -3200,7 +3199,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||nayapatrikadaily.com/uploads/advertise/
 ||nayasadak.com/users_upload/
 ||nbs24.org/nbs-
-||nbs24.org^*/walton
+||nbs24.org/walton
 ||nchs.edu.lk^$third-party,domain=ada.lk
 ||neervely.ca/images/bala.jpg
 ||nepalaaja-files-storage.sfo2.digitaloceanspaces.com^*/1000x100prabhu-bank-gif2.gif
@@ -4131,10 +4130,9 @@ perfection-ias-upsc$domain=nextbihar.com
 ||shamolynews24.com/wp-content/uploads/2019/08/02.jpg
 ||shamoybarta.com/wp-content/uploads/2020/10/Hridoy-
 ||shamprotikshawdesh.com^*/dr.-
-||sharebarta24.com/wp-content/uploads/2022/02/ads2.gif
-||sharebarta24.com/wp-content/uploads/2023/12/Sikder-Insurance.gif
 ||sharebarta24.com/wp-content/uploads/2024/01/NRB-Bank-
-||sharebarta24.com^*/Best-Holdings
+||sharebarta24.com/wp-content/uploads/2024/06/Techno-Drugs-Ltd.gif
+||sharebarta24.com^*/ads2.gif
 ||sharebazarnews.com/company-archive/wp-content/uploads/2020/09/LBS-Sticker-_970-x-150-px_2-4-Sep.jpg
 ||sharebazarnews.com/wp-content/uploads/2020/09/Energypac_sharebazar_770x75.gif
 ||sharetimes24.com/wp-content/uploads/2020/10/dominagead.gif
@@ -4830,6 +4828,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||zoftcdn.com^*/blueocean.jpg
 ||zoftcdn.com^*/citysun.jpg
 ||zoftcdn.com^*/vesta.jpg
+||zoombangla.com/jamuna/
 !------------------------Specific element hiding rules------------------------!
 ! *** indianlist:IndianList/specific_hide.txt ***
 livebihar24news.com###AD_FLOAT
@@ -7178,8 +7177,8 @@ sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 ajkercrimetimes.com##.notice_single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 hariyalinepal.com##.nt_ads_space img
 livehindustan.com##.ntwrk-wdgt
@@ -8537,6 +8536,7 @@ janprahar.com##div:has(> ins)
 ajkalerkhobor.com,cinemainbox.com,doonhorizon.in,marathiworld.com,maxmaharashtra.com,maxwoman.in,natunsylhet24.com,nayanjagriti.com,telugugateway.com,teluguglobal.com##div:has(> ins.adsbygoogle)
 khulnagazette.com,spnewsbd.com##div:has(> p > ins.adsbygoogle)
 bholanews.com##div:has(> p>img.wp-image-23118)
+zoombangla.com##div:has(> pubguru)
 vinnabarta.com##div:not(.tab-header) ~ .add
 punjabiherald.co.nz##div[aria-label*="-Advt-"]
 punjabiherald.co.nz##div[aria-label*=".gif"]

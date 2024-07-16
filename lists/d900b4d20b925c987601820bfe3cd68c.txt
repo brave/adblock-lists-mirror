@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Qyv1oVE6+lh8QpVWeoMqhg
-! Diff-Path: ../patches/7/7-s-1721144272-3600.patch
+! Checksum: CrfhtWUoDmGJaFRdzTnm9w
+! Diff-Path: ../patches/7/7-s-1721151425-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.17
-! TimeUpdated: 2024-07-16T15:33:37+00:00
+! Version: 2.0.54.18
+! TimeUpdated: 2024-07-16T17:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2308,7 +2308,7 @@ tumadouga.jp##.index_banner_space > div[class^="ad-"]
 tuma.jp##.wrapper > div.shadow-box:has(> div.ad_sfr)
 lettuceclub.net###lcn-s_list_infeed1_gam
 pathee.com##header ~ div[class^="sc-"]:not([id]) > div[class^="sc-"]:not([id]) > div[class^="sc-"]:not([id]) > div[class^="sc-"]:not([id]):has(> div[style="min-height:250px"])
-pathee.com##div[style="min-height:250px"]
+odaibako.net,pathee.com##div[style="min-height:250px"]
 ||jbr-cs.com/af/$third-party
 adultgeek.net##div[style="padding:20px 0;text-align:center;font-size:20px;background-color:#FFF;max-width:1202px;line-height:180%;"]
 h-douga.xyz##.contents-width > span > a[href^="https://www.sokmil.com/av/"][target="_blank"][rel]
@@ -3478,10 +3478,6 @@ mudasure.com##.koukoku-top
 mudasure.com##.side-body:nth-last-child(2)
 newsclip.be###block-3
 yokohama-sports.com,newsclip.be##[id^="_ad_"]
-odaibako.net##.min-h-\[300px\]
-odaibako.net##div[style="min-height:290px"]
-odaibako.net##div[style="width: 360px; height: 290px;"]
-odaibako.net##.css-5rphlb.eayex090
 anime.eiga.com###bnrTwoColumnArea
 waifu2x.net##div[style="width: 90%;height:120px"]
 dousyoko.net##.banner_ws1
@@ -5481,7 +5477,7 @@ news.ameba.jp##div[class^="SpAd"]
 huffingtonpost.jp##.leaderboard-flex-placeholder
 macaro-ni.jp##.articleShow__nativeAd
 ox-tv.co.jp,mantan-web.jp,macaro-ni.jp##.yadsOverlay
-ac-illust.com,photo-ac.com,mitok.info,entamega.com,getnews.jp,webcartop.jp##div[style="min-height: 250px;"]
+odaibako.net,ac-illust.com,photo-ac.com,mitok.info,entamega.com,getnews.jp,webcartop.jp##div[style="min-height: 250px;"]
 juken.oricon.co.jp,response.jp,getnews.jp,withonline.jp,jprime.jp##div[style="min-height:250px;"]
 otajo.jp##iframe[src^="https://rcm-jp.amazon.co.jp/e/cm?"]
 2chmatome2.jp###gn_overlay_wrapper
@@ -10133,7 +10129,6 @@ ibarakinews.jp#?#div[class^="pr_list_contentsbox"] > a > div > img[src^="https:/
 jomo-news.co.jp#?#.top-articles > div[id^="div-gpt-"]:upward(1)
 athleterecipe.com#?#.not-athleterecipe > aside.ad:upward(1)
 deneblog.jp#?#.plugin1_outline > div > div.plugin-freearea > center > a[href="https://shadowverse-evolve.com/"]:upward(4)
-odaibako.net#?#.flex-grow > main > div[class^="sc-"]:has(> div[class^="sc-"] > div[class^="sc-"] div[id^="div-gpt-ad-"])
 ear-phone-review.com#?#.card.example-1:upward(1)
 ear-phone-review.com#?#.hatena-module-html > div > script:only-child:not([src]):upward(2)
 newmatoan.com#?#.divh1:contains(PR)
@@ -10345,7 +10340,7 @@ ibarakinews.jp#?##_popIn_recommend_carousel2_div > div._popIn_recommend_articles
 25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com#?#div[id^="_popIn_recommend_"] ul._popIn_infinite_page > li > a[class*="_popIn_recommend_article_ad"]:upward(1)
 topics.or.jp#?##_popIn_recommend ul._popIn_infinite_page > li > a._popIn_recommend_article_ad:upward(2)
 daily.co.jp#?#._popIn_recommend_container a._popIn_recommend_article_ad:upward(._popIn_recommend_container)
-tss-tv.co.jp,knb.ne.jp,dime.jp,qjweb.jp,jocr.jp,projectdesign.jp,fujitv-view.jp,fishingjapan.jp,bepal.net,mbs.jp,oricon.co.jp,hira2.jp,ameblo.jp,sitakke.jp,numero.jp,am-our.com,animageplus.jp,animeanime.jp,asahi.com,autocar.jp,books.j-cast.com,cafend.net,careerconnection.jp,cinemacafe.net,curazy.com,dailyportalz.jp,gamespark.jp,getnavi.jp,hinata.me,inside-games.jp,intojapanwaraku.com,japanese.joins.com,kanaloco.jp,matome.response.jp,mensnonno.jp,moneyforward.com,mynavi.jp,news.nifty.com,news.tv-asahi.co.jp,ryukyushimpo.jp,saitama-np.co.jp,smt.docomo.ne.jp,taishu.jp,uhb.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp##._popIn_infinite_page > li:has(> a[class*="_popIn_recommend_article_ad"])
+otv.co.jp,tss-tv.co.jp,knb.ne.jp,dime.jp,qjweb.jp,jocr.jp,projectdesign.jp,fujitv-view.jp,fishingjapan.jp,bepal.net,mbs.jp,oricon.co.jp,hira2.jp,ameblo.jp,sitakke.jp,numero.jp,am-our.com,animageplus.jp,animeanime.jp,asahi.com,autocar.jp,books.j-cast.com,cafend.net,careerconnection.jp,cinemacafe.net,curazy.com,dailyportalz.jp,gamespark.jp,getnavi.jp,hinata.me,inside-games.jp,intojapanwaraku.com,japanese.joins.com,kanaloco.jp,matome.response.jp,mensnonno.jp,moneyforward.com,mynavi.jp,news.nifty.com,news.tv-asahi.co.jp,ryukyushimpo.jp,saitama-np.co.jp,smt.docomo.ne.jp,taishu.jp,uhb.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp##._popIn_infinite_page > li:has(> a[class*="_popIn_recommend_article_ad"])
 sp.uta-net.com,otonasalone.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
 !
@@ -10691,6 +10686,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_japanese
 !
 !
 !
+! https://github.com/tofukko/filter/issues/98
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183263
 tennisclassic.jp#@#.ad-sp
 ! https://github.com/tofukko/filter/issues/97

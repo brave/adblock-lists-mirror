@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: zJnMz5PAWavuYyVK6g+C5Q
-! Diff-Path: ../patches/7/7-s-1721133629-3600.patch
+! Checksum: xBXT6bgn+BGw2rTeWykajA
+! Diff-Path: ../patches/7/7-s-1721136978-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.15
-! TimeUpdated: 2024-07-16T12:35:24+00:00
+! Version: 2.0.54.16
+! TimeUpdated: 2024-07-16T13:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -617,10 +617,6 @@ audio-sound-premium.com,tojav.net##+js(no-fetch-if, pagead2.googlesyndication.co
 audio-sound-premium.com,tojav.net##div[id][class^="popup"][class$="wrap"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142796
 asobeans.jp#@#.ad_block
-! https://github.com/AdguardTeam/AdguardFilters/issues/142790
-ssbsblg.blogspot.com##+js(remove-attr, hidden, html[hidden])
-ssbsblg.blogspot.com##+js(abort-current-script, atob, /documentEl[\s\S]*?_0x/)
-ssbsblg.blogspot.com#$#.btmads { position: absolute !important; left: -3000px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140596
 logworker.net#$##unblk { display: none !important; }
 logworker.net#$#.entry-content { display: block !important; }

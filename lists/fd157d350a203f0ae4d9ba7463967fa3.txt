@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wixoccG8etNydarF2NFZ9Q
-! Version: 202407161601
+! Checksum: RA29gm+/jqcuCsXDt6slAQ
+! Version: 202407161701
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Jul 2024 16:01 UTC
+! Last modified: 16 Jul 2024 17:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23142,6 +23142,7 @@ checkadblock.ru##.warning
 ||checkadblock.ru^$csp=script-src 'self'
 !
 ! GISMeteo domains
+gismeteo.ru#?#.cities-popular:-abp-has(> .list:empty)
 gismeteo.by##.column2 > .section-rss
 gismeteo.ru##.content-column > .section-media
 gismeteo.kz,gismeteo.ru##.content-column ~ .content-column > .section-rss

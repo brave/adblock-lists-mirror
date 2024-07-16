@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: xBXT6bgn+BGw2rTeWykajA
-! Diff-Path: ../patches/7/7-s-1721136978-3600.patch
+! Checksum: Qyv1oVE6+lh8QpVWeoMqhg
+! Diff-Path: ../patches/7/7-s-1721144272-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.16
-! TimeUpdated: 2024-07-16T13:32:32+00:00
+! Version: 2.0.54.17
+! TimeUpdated: 2024-07-16T15:33:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1739,12 +1739,13 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+sasatto.jp##.l-block > div:has(> div[class^="rectangle"])
+sasatto.jp##.l-secondary > div.l-widget:has(> div[class^="rectangle"])
 toyokeizai.net##.special-articles > div.special-articles__item:has(> div[id^="div-gpt-ad-pc-"])
 otv.co.jp##.list_ad
 otv.co.jp##.o_aside__pure__ad
 otonano-shumatsu.com##.container > div[style]:has(> div.adv-bb)
 otonano-shumatsu.com##.logly-block
-otonano-shumatsu.com##.popin-block
 wealthadvisor.co.jp##.bottom_prarea
 go2senkyo.com##.m_left_column_long_banner
 jprime.jp##div[class^="dfp-"]

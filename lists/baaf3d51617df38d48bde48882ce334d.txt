@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /nYbDjw50+Ljv9Yg3YdcnQ
-! Version: 202407160440
+! Checksum: 5IFiv+gR/S/yB0j+2LeGrQ
+! Version: 202407160540
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-07-16 04:40 UTC
+! Last modified: 2024-07-16 05:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -135,7 +135,6 @@
 ||insidesources.com/wp-content/themes/insidesources/js/jquery.fancybox.js
 ||irishstar.com/newsletter-preference-centre
 ||listrakbi.com^$script,domain=ruralking.com
-||loader.wisepops.com^$domain=grist.org
 ||news.atptour.com/p/$subdocument
 ||newsletter.bdnews24.com^
 ||nscreenmedia.com/wp-content/uploads/subscribe-nscreen-newsletter.jpg
@@ -152,6 +151,7 @@
 ||thejewishstar.com/images/enews-ad.png
 ||tinypass.com/api/tinypass.min.js$script,domain=bbcgoodfood.com|billboard.com|rawstory.com|refinery29.com|rollingstone.com|sifted.eu|thedailybeast.com|theintercept.com|thenation.com|wwd.com
 ||waterfordwhispersnews.com/wp-content/themes/therex-child/js/_newsletter-article-signup.js
+||wisepops.com^$domain=grist.org|prospect.org
 !------------------------General/Specific element hiding rules-------------------------!
 ! fanboy_newsletter_general_hide.txt
 ###Bloque_EX_Newsletter
@@ -2139,6 +2139,7 @@ hypebeast.com##.article-email-signup-wrapper
 manilatimes.net##.article-embedded-newsletter-form
 pressdemocrat.com##.article-inline-promo
 israelnationalnews.com##.article-join-button
+indiatimes.com##.article-newsletter
 brookings.edu##.article-newsletter-bottom-toolbar
 reuters.com##.article-prompt__container__3uXJV
 wionews.com##.article-registration-form

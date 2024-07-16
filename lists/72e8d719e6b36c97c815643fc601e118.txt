@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.4.0
+! Version: 3.7.4.1
 
 ! General
 
@@ -356,7 +356,7 @@ thetimes.com##+js(ra, style, body[style], stay)
 theweek.com##+js(rc, paywall-locker, div.paywall-locker)
 theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)
-||timeshighereducation.com/sites/default/files/*/js__*.js$script,~third-party
+/\.timeshighereducation\.com\/((books|features|news|people)\/|.+((\w)+(\-)+){3,})/$inline-script
 tt.com##+js(rc, exclusive-elem, .exclusive-elem)
 tt.com##div.adblock-warning
 ||tuttosport.com/_next/static/chunks/pages/news/%5B*.js$script,~third-party

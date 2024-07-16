@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7iPetsgINSgfLKwErCrNBg
-! Diff-Path: ../patches/1/1-s-1721140617-3600.patch
+! Checksum: vE7mPKNCfWab4UgtVJMfsQ
+! Diff-Path: ../patches/1/1-s-1721144267-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.26
-! TimeUpdated: 2024-07-16T14:31:12+00:00
+! Version: 2.0.92.27
+! TimeUpdated: 2024-07-16T15:31:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7621,6 +7621,7 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+cq.ru##+js(set-constant, initBanners, noopFunc)
 vidak.icu,pb.wtf###page_contents > div > a[target="_blank"] > img
 vidak.icu,pb.wtf###main_content > div > a[target="_blank"] > img
 vidak.icu,pb.wtf##table > tbody[id^="post_"]:has(.post_pp > a[target="_blank"])
@@ -10350,7 +10351,7 @@ tourister.ru##.sk1100_right_adv
 sport.ru##.article-content > hr
 sport.ru##.article-details > hr
 old-games.ru##li[data-author='Ads Master']
-/\/\/cq.ru\/\d{3}\w{1}\d{1}$/$domain=cq.ru
+/\/\/cq.ru\/\w{2}\d{2}\w{2}$/$domain=cq.ru
 ||storage.pravo.ru/file/banner/
 ||service.pravo.ru/pravo/banner/
 ||footboom.com/js/ab-ignore.js
@@ -18103,7 +18104,7 @@ rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutr
 rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###main_content_wrap > table.vf-tor > tbody > tr:not([class]) td[style="padding: 6px 4px 8px;"]
 rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.ref-topic-guest
 rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###main-nav > ul.floatR
-rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:has(> a[href^="https://go.nordvpn.net/"])
+rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.attach td[colspan="3"] > ul.middot-separated > li:has(> a[href="viewtopic.php?t=6529617"])
 rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###page_header > div#main-nav + div[style] > a[target="_blank"][style]
 rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.t-body-txt-ad
 rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.attach > tbody > tr[class="row3 tCenter"]:last-child

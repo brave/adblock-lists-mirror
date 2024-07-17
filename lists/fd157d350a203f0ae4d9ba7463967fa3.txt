@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ei/EvFWjYE+S8hibYca1RQ
-! Version: 202407172001
+! Checksum: D8nUWraBJfppG7hSR2hI9g
+! Version: 202407172051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Jul 2024 20:01 UTC
+! Last modified: 17 Jul 2024 20:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23797,7 +23797,6 @@ sports.ru##.navigation-right-column-banner
 sports.ru##.navigation-top__specials + div:empty,.navigation-top__specials
 sports.ru##.news-item__content > p > strong > a[rel="nofollow"]
 sports.ru##.one-card[data-img_desktop^="https://dumpster.cdn.sports.ru/"]
-sports.ru##.page-layout:empty
 sports.ru##.place-for-ad
 sports.ru##.poll-variant__coeff
 sports.ru##.poll__ad-label
@@ -23842,6 +23841,7 @@ sports.ru,tribuna.com##a[href*="utm_campai"]
 sports.ru##a[href="https://trbna.co/2u3V2dO"]
 sports.ru##a[href^="https://sprts.cc/"]
 sports.ru##a[href^="https://zen.yandex.ru/"]
+sports.ru##body > div[class^="br-lt"] > :not(.page-layout)
 sports.ru##div[class*="SALES"] > .accordion__handle
 sports.ru#?#div[class*="material-list--additional-block"] > .material-list__item:-abp-has(a[href^="https://sprts.cc/"])
 tribuna.com##div[class*="rb-widget"]
@@ -23854,13 +23854,11 @@ sports.ru##img[src*="s5o.ru/source/_desktop/aliens/"]
 sports.ru##p > a[rel="nofollow"] > img[height][width]
 sports.ru#?#p:-abp-has(> a[href]:-abp-contains(М.Видео))
 sports.ru##style:first-child ~ [class^="gift__"]
-||photobooth.cdn.sports.ru/preset/message/4/dc/e51ad068e4b749967cd8350270e81.png
+||dumpster.cdn.sports.ru/d/0d/0a7f418ea4ce61f1070bb186f88c0.$image
 ||s5o.ru/source/_desktop/aliens/$~image
 ||s5o.ru/source/_desktop/assets/00*.jpg
 ||s5o.ru/source/_desktop/build/banners/
 ||s5o.ru/source/special/
-||s5o.ru/storage/dumpster/$~image
-||s5o.ru/storage/dumpster/*.jpg|
 ||senoval.sports.ru/cross-recommender/
 ||senoval.sports.ru/snatch-checker/
 ||sports.ru/css/promo.
@@ -24104,6 +24102,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 ! переходы
 /*clyd=$popup,domain=dzen.ru
 /*icllcd=$popup,domain=dzen.ru
+/*yaqpil=$popup,domain=dzen.ru
 /*ychid=$popup,domain=dzen.ru
 /*ychyd=$popup,domain=dzen.ru
 /*yciild=$popup,domain=dzen.ru

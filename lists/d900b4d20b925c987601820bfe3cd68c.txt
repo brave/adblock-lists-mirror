@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QVXQcl8EUMGDcJUBsgbUWA
-! Diff-Path: ../patches/7/7-s-1721209052-3600.patch
+! Checksum: f5+mwMLLESyDX66A6L2ryw
+! Diff-Path: ../patches/7/7-s-1721212629-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.20
-! TimeUpdated: 2024-07-17T09:33:29+00:00
+! Version: 2.0.54.21
+! TimeUpdated: 2024-07-17T10:33:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1739,6 +1739,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+business-mail.jp##article > div:not([class]):has(> p[align="center"] > ins.adsbygoogle)
 sasatto.jp##.l-block > div:has(> div[class^="rectangle"])
 sasatto.jp##.l-secondary > div.l-widget:has(> div[class^="rectangle"])
 toyokeizai.net##.special-articles > div.special-articles__item:has(> div[id^="div-gpt-ad-pc-"])
@@ -8910,7 +8911,7 @@ yomiuri.co.jp##div[class^="p-ad-dfp"]
 yomiuri.co.jp##[id^="ad_dfp"]
 nikkansports.com###adUnit32
 nikkansports.com###headerAdBnr2022
-n-seikei.jp,blogmura.com##div[class^="ad"]
+business-mail.jp,n-seikei.jp,blogmura.com##div[class^="ad"]
 ||gameranbu.jp/js/scrole_ad_
 gameranbu.jp##.taboola-recommend-span
 gameranbu.jp##.side_recomend_trac

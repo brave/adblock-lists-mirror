@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: CrfhtWUoDmGJaFRdzTnm9w
-! Diff-Path: ../patches/7/7-s-1721151425-3600.patch
+! Checksum: NRuNHyNq8eLHZYrqgn9FVA
+! Diff-Path: ../patches/7/7-s-1721173022-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.18
-! TimeUpdated: 2024-07-16T17:33:10+00:00
+! Version: 2.0.54.19
+! TimeUpdated: 2024-07-16T23:33:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -497,7 +497,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
-exploader.net##+js(set-constant, load_daotag, true)
+exploader.net##+js(remove-attr, id, .information > div[id])
 exploader.net##+js(no-xhr-if, .js)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181591
 iwb.jp##+js(addEventListener-defuser, DOMContentLoaded, getComputedStyle(a).height)

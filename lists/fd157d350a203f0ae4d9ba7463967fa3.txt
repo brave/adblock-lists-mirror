@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fgAMRPW3Jdv+L8vusD16Aw
-! Version: 202407170600
+! Checksum: j/6wPDQQoK/1Suu6Oid3SA
+! Version: 202407170701
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Jul 2024 06:00 UTC
+! Last modified: 17 Jul 2024 07:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14250,7 +14250,7 @@ marathonec.ru##.fullwidthbanner-container
 zerocoolpro.biz##.funbox
 anison.fm##.fw.topbanner
 rubryka.com,test-nmo.ru,theuk.one##.g
-dok-film.net,howdyho.net##.g-ads
+dok-film.net,howdyho.net,howdyho.pro##.g-ads
 volga.news##.g-banner
 ysia.ru##.g-dyn
 nagadala.com##.g-single
@@ -14505,7 +14505,7 @@ meteoprog.ua##.informer[id^="mp_banner_"]
 lostpix.com##.infotext
 europaplus.ru##.infox
 education.ua##.inl-blk
-howdyho.net#?#.inner > .default:-abp-has(> header > h1:-abp-contains(РЕКЛАМА))
+howdyho.net,howdyho.pro#?#.inner > .default:-abp-has(> header > h1:-abp-contains(РЕКЛАМА))
 snn-mn.ru##.inner > .widget_media_image
 totori.ru##.inner-wrap > #header
 24tv.ua##.inner-wrap > .nav-additional
@@ -22997,7 +22997,7 @@ anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.story__header:-abp-has(> div:empty)
-fonmod.com,howdyho.net,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
+fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 dzen.ru#?#[class]:-abp-properties(/--banner-color:/)
 liveinternet.ru,sdamgia.ru##[data-container]
@@ -25905,7 +25905,7 @@ au-ok.com##p[style="border:3px solid #C1FF0A;background-color:#d5d5d1;padding:10
 ||csgohelp.ru/assets/app/js/checkIn.js
 ||electric-house.ru/forum/script_el.js
 ||fanforum.ru/uploads/set_resources_$script
-||howdyho.net/media/js/main-pn5-ru.js
+||howdyho.*/media/js/main-pn5-ru.js
 ||in-english.club/statistic/my.js
 ||itcrowd.top/templates/yootheme/block.js
 ||moi-detsad.ru/wp-content/cache/autoptimize/js/autoptimize_*.js

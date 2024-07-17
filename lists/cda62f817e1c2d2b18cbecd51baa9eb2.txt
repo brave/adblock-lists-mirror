@@ -153,11 +153,11 @@ kimcartoon.li###gameover > div:has(> img[style="width: 100%;"])
 kimcartoon.li,kc.linksgen.com,kisscartoon.se##+js(nostif, userAgent)
 ! kimcartoon.li###divContentVideo:style(display: block !important;)
 ! kimcartoon.li###centerDivVideo > div[id]:has(> img[src^="https://i.imgur.com"])
-kimcartoon.li##+js(rmnt, script, dcmarvel)
 
 ! exploader.net ads, anti-adb
 exploader.net#@#+js(set, load_daotag, true)
-exploader.net##.information > div[id]:remove-attr(id)
+exploader.net#@#+js(ra, id, .information > div[id])
+exploader.net##+js(acs, Element.prototype.innerHTML)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24220
 veev.to##+js(set, XMLHttpRequest.prototype.readyState, true)

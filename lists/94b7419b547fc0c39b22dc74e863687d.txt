@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9zz4QpghFrebAV6/YeIn7Q
-! Diff-Path: ../patches/1/1-s-1721212624-3600.patch
+! Checksum: tsRNAa9W3A4VoW4+R0+99Q
+! Diff-Path: ../patches/1/1-s-1721216258-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.31
-! TimeUpdated: 2024-07-17T10:31:21+00:00
+! Version: 2.0.92.32
+! TimeUpdated: 2024-07-17T11:31:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7622,6 +7622,8 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+||avatars.mds.yandex.net/get-adfox-content/$domain=abw.by
+abw.by##.ad-branding
 ||effect.habr.com/a|
 softportal.com##.TblOBan
 ||i38.ru/images/banners/$image
@@ -18532,6 +18534,8 @@ gazeta.ru##.smi2_incut
 sports.ru###branding-layout>.page-layout:empty
 ! start background images (no other way to get rid of them in Safari
 ! we need to update this list from time to time
+||dumpster.cdn.sports.ru/d/0d/0a7f418ea4ce61f1070bb186f88c0.webp
+||dumpster.cdn.sports.ru/f/12/58a6c2d10270bbd4b54fcf107e185.svg
 ||dumpster.cdn.sports.ru/4/73/88d781ce68174f5e2c800639520e1.webp
 ||s5o.ru/storage/simple/ru/edt/43/11/82/bc/rue92b5aab321.jpg
 ||s5o.ru/storage/simple/ru/edt/e3/9d/ce/42/ruea3735fad78.jpg
@@ -18543,6 +18547,9 @@ sports.ru###branding-layout>.page-layout:empty
 ||s5o.ru/storage/simple/ru/edt/ea/bd/3c/ef/rue20c480ea77.jpg
 ||s5o.ru/storage/simple/ru/edt/bd/05/61/db/ruee04afced56.jpg
 ! end of background images
+sports.ru##.columns-layout__main > div > div.carousel-of-cards:has(div[data-link])
+sports.ru#$#body[class] > div[class^="br-lt"] { background: #e5e7e9 !important; margin-top: 0 !important; padding-top: 120px !important; }
+sports.ru#$?#div[class^="br-lt"] > div[class]:not(:has(div)) { remove: true; }
 sports.ru##.frame:has(> div[data-banner-type])
 sports.ru##div[data-content-name="banner-static"]
 ||senoval.sports.ru/adblock-checker/analyticSender.es.js

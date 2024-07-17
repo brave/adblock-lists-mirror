@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pyvFBxG7zeUfmk2rKsyXqA
-! Diff-Path: ../patches/16/16-s-1721003817-3600.patch
+! Checksum: s9ZZ9eBPcs7SQ8sLq/lpfQ
+! Diff-Path: ../patches/16/16-s-1721212625-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.59
-! TimeUpdated: 2024-07-15T00:33:38+00:00
+! Version: 2.0.45.60
+! TimeUpdated: 2024-07-17T10:33:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -873,6 +873,7 @@ $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.
 !
 !
 !
+moneyvox.fr##.main div[class]:has(> img[mam-campaign="Ban"])
 ||ads-canalplus.akamaized.net/*.mp4$media,redirect=noop-1s.mp4
 wiflix.date##center[style="padding: 20px;"]
 lephoceen.fr##div[class^="ad_ad_"]

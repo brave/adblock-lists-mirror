@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: u6qDvDpfUsbWcwJz4GgzRA
-! Version: 202407171801
+! Checksum: wMm6DRi1rVWV6s5V5U6JlA
+! Version: 202407171851
 ! Title: EasyList Germany
-! Last modified: 17 Jul 2024 18:01 UTC
+! Last modified: 17 Jul 2024 18:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -4347,7 +4347,7 @@ popkultur.de##.sc-button[href^="https://www.amazon.de/"]
 servus.com,terramatermagazin.com##.sda
 sport.sky.de##.sdc-site-au__leaderboard
 sport.sky.de##.sdc-site-au__mpu-1
-golem.de,rheinische-anzeigenblaetter.de,t-online.de,watson.de##.sdgSlotContainer
+augsburger-allgemeine.de,golem.de,rheinische-anzeigenblaetter.de,t-online.de,watson.de##.sdgSlotContainer
 sportdeutschland.tv##.sdtv-gothaer
 trvlcounter.de##.second_slot
 ladies.de##.section-banner
@@ -5367,14 +5367,7 @@ mediamarkt.at,mediamarkt.de,saturn.de##div[data-test="mms-product-card"]:has(div
 jungefreiheit.de##div[data-widget_type="shortcode.default"]:has(.adsbygoogle)
 mobile.de##div[style="min-height:250px"]:has(#SRP_BILLBOARD_ADSENSE)
 jungefreiheit.de##div[style="text-align: center;"]:has(.adsbygoogle)
-windowspro.de##div[style]:has(> a[onclick*="://www.windows-pro.net/"])
-windowspro.de##div[style]:has(a[onclick*="&utm_"])
-windowspro.de##div[style]:has(a[onclick*="/pcs/click"])
-windowspro.de##div[style]:has(a[onclick*="://windows-pro.net/"])
-windowspro.de##div[style]:has(a[onclick*="://www.windowspro.de/"])
-windowspro.de##div[style]:has(a[onclick*="adurl"])
-windowspro.de##div[style]:has(a[onclick*="xai"])
-windowspro.de##div[style]:has(div[style] > p > a[onclick*="://www.windows-pro.net/"])
+windowspro.de##div[style]:has(a[onclick])
 mein-mmo.de##li.article:has([data-type="sponsored"])
 dogforum.de##li:has(.wbbXdLocationAfter1stPostAsPost)
 dogforum.de##li:has(.wbbXdLocationPostList)

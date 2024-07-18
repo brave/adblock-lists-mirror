@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: HttJqkl1mqc8ri9wYWD+Tw
-! Diff-Path: ../patches/224/224-s-1721299058-3600.patch
+! Checksum: tqBa3RV3LYm2uWMiLna0MQ
+! Diff-Path: ../patches/224/224-s-1721320638-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.19.21
-! TimeUpdated: 2024-07-18T10:34:09+00:00
+! Version: 2.1.19.22
+! TimeUpdated: 2024-07-18T16:33:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -865,8 +865,8 @@ v-wb.youku.com##+js(set-constant, Object.prototype.adData, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54359
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26318
 ! https://forum.adguard.com/index.php?threads/youku-com-v-qq-com.30749/
-youku.com##+js(adjust-setTimeout, e-, , 0.02)
-youku.com##+js(adjust-setTimeout, r--, , 0.02)
+||ott.cibntv.net/*/ad/*.ts?ccode=$xmlhttprequest,domain=v.youku.com
+youku.com##+js(adjust-setTimeout, , , 0.02)
 m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87232
 qciss.net##+js(window.open-defuser, 0, qciss.net)

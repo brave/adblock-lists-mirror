@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VyRhIMhbIG0igndnMgfEDw
-! Version: 202407180540
+! Checksum: tRzSGDmcKnywdI/hjm3cCw
+! Version: 202407180740
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-18 05:40 UTC
+! Last modified: 2024-07-18 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35419,6 +35419,7 @@ basket4ballers.com###linkTop
 whtop.com###menu-back
 ebin.pub###myBtnGoToTop
 musicredone.com###myBtnScroll
+delanceyplace.com###nekoToTop
 kohls.com,samsclub.com###oo_tab
 macromill.com,mhi.com,smth.jp###pageTop
 census.gov,chugai-pharm.co.jp,nyk.com###pagetop
@@ -41416,6 +41417,7 @@ spectator.com.au##.cm-form-container
 medpagetoday.com##.cme-join
 unherd.com##.code-block-4
 evolvepolitics.com##.code-block-6
+delanceyplace.com##.color2.boxFocus
 mv-voice.com,paloaltoonline.com##.comment-hunter-block
 sacurrent.com##.comp-landing-newslettersignup
 manofmany.com##.comp-newsletter-box
@@ -41457,6 +41459,7 @@ itsfoss.com##.cta__inner
 kuow.org##.cta_newsletters_explore
 the74million.org##.cta_snippet
 bigissue.com##.ctas-container
+delanceyplace.com##.ctct-embed-signup
 washingtonmonthly.com##.ctct-form-block
 tnc.news##.ctct_form-2
 forbes.com.au##.curated-content-block__newsletter
@@ -42663,6 +42666,7 @@ advancedsciencenews.com#?#.et_pb_section:-abp-contains(Sign up for our weekly ne
 babylonbee.com#?#.bg-gray-50:-abp-contains(Fake news)
 babylonbee.com#?#.hidden:-abp-contains(Fake news)
 businessinsider.in#?#.mx-auto.container:-abp-contains(NEWSLETTER)
+coder.com#?#.MuiBox-root:-abp-contains(Subscribe to our Newsletter)
 gript.ie#?#.v-card.v-card--flat:-abp-contains(Sign up to receive)
 guitar.com#?#.w-full:-abp-contains(Mailing)
 heraldextra.com#?#h3.section_name:-abp-contains(Newsletter)
@@ -43981,7 +43985,7 @@ plough.com##+js(remove-cookie, ArticlePaywallList)
 ! startribune.com (login/reg check)
 startribune.com##+js(remove-cookie, client_id)
 ! Mouse out nags
-winnipegfreepress.com,abc10.com,12news.com,ksdk.com,whas11.com,wfmynews2.com,wbir.com,wzzm13.com,wltx.com,wqad.com,wnep.com,wgrz.com,cbs8.com,firstcoastnews.com,kare11.com,wtsp.com,ajc.com,wfaa.com,9news.com,fox2now.com,wcnc.com,13newsnow.com,wsvn.com,abc15.com,wwltv.com,wkyc.com,wthr.com,11alive.com,wcnc.com,wusa9.com,wfaa.com,9news.com,fox2now.com,abc15.com,wwltv.com,wkyc.com,king5.com,11alive.com##+js(aeld, /^(mouseout|mouseleave)$/)
+wiz.io,winnipegfreepress.com,abc10.com,12news.com,ksdk.com,whas11.com,wfmynews2.com,wbir.com,wzzm13.com,wltx.com,wqad.com,wnep.com,wgrz.com,cbs8.com,firstcoastnews.com,kare11.com,wtsp.com,ajc.com,wfaa.com,9news.com,fox2now.com,wcnc.com,13newsnow.com,wsvn.com,abc15.com,wwltv.com,wkyc.com,wthr.com,11alive.com,wcnc.com,wusa9.com,wfaa.com,9news.com,fox2now.com,abc15.com,wwltv.com,wkyc.com,king5.com,11alive.com##+js(aeld, /^(mouseout|mouseleave)$/)
 ! t-nation.com 
 t-nation.com##.toggle_lb_scrolling_mobile
 t-nation.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
@@ -43998,6 +44002,8 @@ brainly.co.id##body.sg-dialog-no-scroll:style(overflow: auto !important; positio
 analyticsvidhya.com##+js(nostif, loginModal)
 ! https://github.com/uBlockOrigin/uAssets/issues/22323 (login nag)
 quillbot.com##+js(set-local-storage-item, mode-quills, $remove$)
+! science.org (login/reg nag)
+science.org##+js(cookie-remover, MAID)
 ! csmonitor.com
 csmonitor.com##.stickyMessenger-cta
 csmonitor.com##+js(set-local-storage-item, csm_unique_stories, $remove$)
@@ -48210,6 +48216,7 @@ treblezine.com###newsletter-popup
 treblezine.com##body,html:style(height: auto !important; overflow: auto !important)
 ! pv-magazine-usa.com
 pv-magazine-usa.com###newsletter-modal
+pv-magazine-usa.com##.modal-backdrop
 pv-magazine-usa.com##body,html:style(height: auto !important; overflow: auto !important)
 ! substack.com
 experimental-history.com,thebignewsletter.com,honest-broker.com,henrikkarlsson.xyz,honest-broker.com,henrikkarlsson.xyz,computerenhance.com,friendlyatheist.com,unchartedterritories.tomaspueyo.com,construction-physics.com,sambowman.co,asiasentinel.com,understandingai.org,hamiltonnolan.com,aporiamagazine.com,garbageday.email,jacobwolf.report,semianalysis.com,dossier.today,engineeringleadership.xyz,piratewires.com,slowboring.com,flowstate.fm,popular.info,newsletter.banklesshq.com,antiracismnewsletter.com,racket.news,eugyppius.com,dkb.blog,duffelblog.com,theankler.com,fullstackeconomics.com,substack.com,platformer.news##.intro-popup

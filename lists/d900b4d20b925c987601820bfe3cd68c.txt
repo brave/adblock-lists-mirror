@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6tqGYW0RuhaNTrKpZcUlkg
-! Diff-Path: ../patches/7/7-s-1721280963-3600.patch
+! Checksum: vNmHp+IBsWOMpZywIidJOQ
+! Diff-Path: ../patches/7/7-s-1721295553-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.29
-! TimeUpdated: 2024-07-18T05:32:32+00:00
+! Version: 2.0.54.30
+! TimeUpdated: 2024-07-18T09:35:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -500,7 +500,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
-exploader.net##+js(remove-node-text, script, !window.load_daotag)
+exploader.net##+js(remove-node-text, script, $.ajax)
 exploader.net##+js(no-xhr-if, .js)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181591
 iwb.jp##+js(addEventListener-defuser, DOMContentLoaded, getComputedStyle(a).height)
@@ -1168,8 +1168,6 @@ twi-fans.com#$#.fixed.data-\[state\=open\]\:animate-in { display: none !importan
 twi-fans.com#$#body[style="pointer-events: none;"] { pointer-events: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178408
 2game.info#$#.sponsored-loop300x250 { position: absolute !important; left: -4000px !important; }
-! https://github.com/uBlockOrigin/uAssets/issues/23212
-service.webgoto.net#$#.image_box[style*="amazon.co"] { background: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160407
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174081
 telling.asahi.com#$#.p-header-billboard { min-height: 0 !important; }
@@ -2199,7 +2197,6 @@ buywrite.jp##.c-infoBar
 buywrite.jp##div[id^="fourm_video_"]
 service.webgoto.net##.j_pv_20:has(a[href^="https://www.amazon.co.jp"][target="_blank"])
 service.webgoto.net##[data-is^="riot-fee"]:not(:has(.re_ph_2 > a[href^="https://donation.yahoo.co.jp/search/?"]))
-service.webgoto.net##a[href^="https://www.amazon.co.jp"][target="_blank"]
 sirogohan.com##.ad-halfwrap
 yamakei-online.com###movie_ad
 city.takasaki.gunma.jp##.content5:has(#top_banner_7_list)
@@ -10587,6 +10584,7 @@ vip-front.video.g.fc2.com,video.laxd.com,video.fc2.com##[class^="c-ad"]:not(.c-a
 !
 ! itest.5ch.net,itest.bbspink.com
 ||itest.5ch.net/assets/img/*-300x250.png
+itest.5ch.net##.ad_5th_300x250
 itest.5ch.net,itest.bbspink.com###floatingBottomAdsMain
 itest.5ch.net##div[id^="topAdheader-"]
 itest.5ch.net###subback > li[id][class*="_"]
@@ -10708,8 +10706,6 @@ famitsu.com##+js(set-constant, TagProvider.cleanup, noopFunc)
 ! Recommend hidden
 rankingoo.net#@#.widget_swell_ad_widget
 ! https://twitter.com/_webgoto/status/1779190832840753612
-service.webgoto.net#@$#:matches-path(/amafav/).image_box[style*="amazon.co"] { background: none !important; }
-service.webgoto.net#@#:matches-path(/amafav/)a[href^="https://www.amazon.co.jp"][target="_blank"]
 ! TEST unblock ranking https://github.com/AdguardTeam/AdguardFilters/issues/176290
 @@||i2i.jp/view/index.php$domain=erostopics.net
 ! Unbreak ranking

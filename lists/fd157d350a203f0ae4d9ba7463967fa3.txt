@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 56VGwZunyiYQ/M72O9KKiA
-! Version: 202407181051
+! Checksum: GbLpRtD1ec4sEFnTxx1vzw
+! Version: 202407181201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Jul 2024 10:51 UTC
+! Last modified: 18 Jul 2024 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22990,7 +22990,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/fh$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/kv$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 livejournal.com#?#.body-content > div[class]:-abp-has(> [class*="-shtorka-commercial"])
 anidub.vip,anidubonline.com##.plyr__menu
@@ -23368,7 +23368,7 @@ love.mail.ru##.link-ad
 ! Блокировка ресурсов в основном на самом mail.ru
 //r.mail.ru/b$subdocument
 //rs.mail.ru/b$third-party,domain=~km.ru
-|https://mail.ru/res/*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0
+|https://mail.ru/res/*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0
 ||1l-hit.mail.ru^
 ||ad.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru
 ||an.mail.ru/count/$domain=~e.mail.ru|~o2.mail.ru

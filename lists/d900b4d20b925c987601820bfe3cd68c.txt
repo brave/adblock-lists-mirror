@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Uz9CMq9cOa6jzHEAk7hHEg
-! Diff-Path: ../patches/7/7-s-1721313516-3600.patch
+! Checksum: kfa2Cw3suET/zO58WlDAqA
+! Diff-Path: ../patches/7/7-s-1721316985-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.32
-! TimeUpdated: 2024-07-18T14:34:17+00:00
+! Version: 2.0.54.33
+! TimeUpdated: 2024-07-18T15:32:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4210,8 +4210,8 @@ moez-m.com##.font_pr4
 moez-m.com###top2_left
 moez-m.com##.entry-body > center > table[width="430"]:not([cellspacing])
 moez-m.com##.solinkimag
-||ota-goods.info/json/widget.php$third-party
-||figsoku.net/rank/load.php
+||ota-goods.info^$third-party
+figsoku.net##a[href*="px.a8.net/svt/ejp"]
 figsoku.net##.checker-related-wrap
 figsoku.net##.tokka
 figsoku.net##div[class^="spadd"]
@@ -7434,9 +7434,6 @@ jmty.jp##.p-adsense-in-list
 jmty.jp##.p-custom-search-ad
 jmty.jp##.p-adsense-list-right-column-high-block
 jmty.jp##.u-margin-xl-t > .u-margin-m-b[style^="height: 300px;"]
-news24.jp###bigSkyscraperBanner
-news24.jp###regularBanner
-news24.jp###sideRectBanner
 kabutan.jp##.bg-ash-200[style="height: 94px;"]
 kabutan.jp##div[style="clear:both;overflow:hidden;max-height:90px;min-height:90px;"]
 ||kabutan.jp/js/rand_ads.js
@@ -7563,7 +7560,6 @@ autos.goo.ne.jp##.ads_h253
 mfujin.blog.jp##.page-article-side > div.plugin-memo:first-child
 mfujin.blog.jp##.page-article-side > div.plugin-popular_articles_with_image + div.plugin-memo
 tsukiji.or.jp##.l-pr
-news.tbs.co.jp##.cp-pcAd
 ||jalan.net/jalan/doc/ad/
 ||jalan.net/jalan/doc/top/js/targetingAdSearchlist.js
 ||jalan.net/js/gl_SwBanner_YadSyo.js
@@ -8373,7 +8369,6 @@ toremaga.com###ar_w300px > div.mb14px
 member.toremaga.com###ar_w655px
 i.best-hit.tv##.row > div[class^="col-md-"] > div[style^="text-align:center;margin-bottom:"] > table[border="0"]
 kanasoku.info###headrank2:first-child
-mudainodocument.com,kanasoku.info##.adset-Cover
 iwate-np.co.jp##.high-CMSbox
 iwate-np.co.jp##.ad:not(.wrap > .ad)
 iwate-np.co.jp##.ad-lmc

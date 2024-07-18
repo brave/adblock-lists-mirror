@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: VfarA+QJu9i67b4/Z2faNQ
-! Diff-Path: ../patches/1/1-s-1721316982-3600.patch
+! Checksum: /H3yVXj/BVrpctoSQjcxgA
+! Diff-Path: ../patches/1/1-s-1721324227-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.39
-! TimeUpdated: 2024-07-18T15:31:16+00:00
+! Version: 2.0.92.40
+! TimeUpdated: 2024-07-18T17:31:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7904,7 +7904,7 @@ wordparts.ru##div[class^="ad"][style="width:100%;float:left;padding:10px;overflo
 winitpro.ru##.targetHolder
 windows-school.ru##div[id^="alfaweb"]
 ||garticphone.com/videos/gio.mp4$media,redirect=noop-0.1s.mp3
-oper.ru###container > div[style$="text-align: center;"] > a[href][target="_blank"]
+oper.ru###container > div[style$="text-align: center;"]:has(> a[href][target="_blank"])
 ||aapi.yp.ru/content/Banners/
 yp.ru##.main-wrapper > a[href][target="_blank"]
 yp.ru###wrapper > a[href][target="_blank"]

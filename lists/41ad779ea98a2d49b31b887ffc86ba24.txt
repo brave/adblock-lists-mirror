@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w6mxPxhXbqH3S76+EQTNaQ
-! Version: 202407192140
+! Checksum: m73Z+RaJfO+djh0g2USdPA
+! Version: 202407192240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-19 21:40 UTC
+! Last modified: 2024-07-19 22:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37580,6 +37580,7 @@ rohan.co.uk###ccpop
 duffay-publicite.com###ch-cookie-consent-modal
 zealy.io###chakra-toast-manager-bottom-right
 cigionline.org###cigi-cookie-consent-container
+srnnews.com###cipa
 news.cision.com###cision-cookie-policy-banner
 uptimerobot.com###ck-consent
 ietstech.com###ck-note
@@ -38533,6 +38534,7 @@ cmon.sg##.cmon-privacy-disclaimer
 aia.com.sg##.cmp-experiencefragment
 aia.com##.cmp-notification-action-panel
 manulife.com##.cmp-ntfbanner
+testerup.com##.cmpbox
 evoestate.com##.cnc-container
 cnn.com##.cnn-toast--tos
 courthousenews.com##.cns-cg-modal__overlay
@@ -44457,6 +44459,7 @@ godbolt.org##+js(set-cookie, privacy_status, 1)
 projectenglish.com.pl##+js(set-cookie, privacy_settings, 1)
 sae.fsc.ccoo.es##+js(set-cookie, config, 1, , reload, 1)
 piusx-college.nl##+js(set-cookie, hideCookieNotification, true, , reload, 1)
+forgeofempires.com##+js(set-cookie, CookieNotification, 1)
 yoomoney.ru##+js(set-cookie, has_accepted_gdpr, 1)
 vod.warszawa.pl##+js(set-cookie, app-cookie-consents, 1)
 projectenglish.com.pl##+js(set-cookie, analitics_cookies, 0)
@@ -46768,9 +46771,10 @@ vaillant.de,vaillant.ba,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vail
 ! cn.momondo.com
 cn.momondo.com##.R9-Overlay
 cn.momondo.com##body,html:style(overflow: auto !important; position: initial !important;)
-! postbank.de
-postbank.de##.cmpboxBG
-postbank.de##body,html:style(overflow: auto !important; position: initial !important;)
+! .cmpbox
+empfohlen.de##.cmpboxBG
+empfohlen.de##.cmpbox
+empfohlen.de##body,html:style(overflow: auto !important; position: initial !important;)
 ! ages.at
 ages.at,ubook.at###supi
 ages.at,ubook.at##body,html:style(position: static !important; overflow: auto !important; width: auto !important;)

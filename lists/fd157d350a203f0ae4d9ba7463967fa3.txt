@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Jw4k8oJzJ7A8kCszwQstrA
-! Version: 202407191301
+! Checksum: HpMH5psupmaLeVNX43M+aQ
+! Version: 202407191351
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Jul 2024 13:01 UTC
+! Last modified: 19 Jul 2024 13:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17973,7 +17973,6 @@ rogoff.club##body > div[id][style^="height"]:not(#id)
 ukr.bio##body > div[id^="brands"]
 mobiltelefon.ru##body > div[id^="float_head"] > div[id^="bg-"]
 virusinfo.info##body > div[id^="headbr"]
-fapreactor.com,pornreactor.cc##body > div[id^="inter"]
 steampass.ru##body > div[id^="ips_"]
 pornolomka.com.ru##body > div[id^="pw"]
 emuzic.ru##body > div[onclick^="window.open"]
@@ -19945,6 +19944,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /images/brand.$image,domain=izbezhat-nakazania.com|strela-online.com|theflash-tv.com|vskazke-tv.com
 /images/brand/*$domain=amuzic.ru|emuzic.ru|ifin.kz
 /images/jet$image,domain=60-fps.net|soft-windows.info|windows-soft.info
+/images/menubars/ru-dating.$domain=fapreactor.com|pornreactor.cc
 /images/partners/*$domain=argumenti.ru|fonarevka.ru|profit-maker.org
 /images_banner/*$domain=xn----7sbaegss0bebjcb2g.xn--p1ai
 /img/banners/*$domain=chelseablues.ru|geonavigator.ge|gotoshop.ua|grinkod.spb.ru|konkurent.ru|mashina.kg|navigator.az|primpress.ru|profootball.ua|sq.com.ua|ternopillive.com|winternete.ru
@@ -23369,7 +23369,6 @@ love.mail.ru##.link-ad
 ! Блокировка ресурсов в основном на самом mail.ru
 //r.mail.ru/b$subdocument
 //rs.mail.ru/b$third-party,domain=~km.ru
-|https://mail.ru/res/*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0
 ||1l-hit.mail.ru^
 ||ad.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru
 ||an.mail.ru/count/$domain=~e.mail.ru|~o2.mail.ru

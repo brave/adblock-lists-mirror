@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 2mFN8OTU0cUt3IQoogJXng
-! Diff-Path: ../patches/7/7-s-1721399855-3600.patch
+! Checksum: xN9dHYprdaH5CsYUybKvaQ
+! Diff-Path: ../patches/7/7-s-1721407033-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.39
-! TimeUpdated: 2024-07-19T14:33:35+00:00
+! Version: 2.0.54.41
+! TimeUpdated: 2024-07-19T16:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -499,8 +499,6 @@
 !
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/183713
-javball.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
 !+ NOT_PLATFORM(ios, ext_android_cb)
 exploader.net##+js(no-xhr-if, .js)
@@ -3375,6 +3373,7 @@ city.fukaya.saitama.jp##.bannerRMod
 asahi.com###ytplayer1-ad
 asahi.com##.p-ad-area
 pandachirari.com##.entry_adv
+etude000.com##.ps-widget > div.top-ad:has(.img_container2)
 etude000.com##.container7
 etude000.com##.bc
 etude000.com###side-fixed > div.thk_ps_widget
@@ -3600,7 +3599,6 @@ game-pc-bu.com,i486.mods.jp###block-4
 manga-comic-netabare.com##div[id^="manga-"]
 xn--btr874bhs1ao5h.xyz,vegetables01.xyz##.article-body > center
 gogen-ejd.info###widgets-wrap-sidebar > section.widget_text
-ad-link.jp##.ssp_promotion_add
 gendama.jp##div > div > p[style="margin:0; text-align:center;"]
 gendama.jp##div[style$="0; float:left;"] > p[style="margin: auto; text-align:center;"]
 gpoint.co.jp##.sspbox
@@ -3835,7 +3833,7 @@ kandatasokuho.com##div[style^="margin-bottom:5px;width:832px overflow:auto;heigh
 jav380.com###myad_alert_80
 ||520click.com/adpic_images/
 shirotomaster.com##div[id^="myplace-"]
-etude000.com,nknews.jp,glamoroustube.com,pizapoteto.com###related-box
+nknews.jp,glamoroustube.com,pizapoteto.com###related-box
 roote.ekispert.net##iframe[src*="/iframe/ad/"]
 roote.ekispert.net##.excite_sp_footer_area
 ||ekispert.net/assets/adRequest-*.js
@@ -3958,7 +3956,6 @@ moqlog.jp##.pcbill
 tekoki-fuzoku-joho.com,ita-do.com##.ad01
 ita-do.com##.pcAd01
 friends-esl.com,sql55.com##div[class^="ad-slot"]
-||153.120.62.146/ad_wp/
 cityheaven.net##div[class^="logojack_button"]
 fujoho.jp##.carousel_ad
 forzastyle.com##.doublead
@@ -4227,9 +4224,7 @@ figsoku.net##.sum
 ||ldblog.jp/livedoorad/$subdocument
 ||asianoneta.blog.jp/js/smf$script,~third-party
 asianoneta.blog.jp##.ad_topress
-umamusume.net###amabox
-umamusume.net###main > div.custom-html-widget > div.pc-first
-umamusume.net##.ad8
+umamusume.net##div[class^="ad-inner"]
 sabuibo.net###entry-list > div.entry-block:first-child
 russianbeauties.jp###dmm-bottomad-column
 russianbeauties.jp###pickup-ninja-recommend
@@ -5860,7 +5855,7 @@ storia.takeshobo.co.jp###r-googleads
 ||mangalifewin.takeshobo.co.jp/usr-data/units/bJava/disp.php
 news.nicovideo.jp##div[style="width:auto;height:90px;margin:0 0 15px 0"]
 news.nicovideo.jp###billboard_container
-kyobun.co.jp,thenewslens.com,huffingtonpost.jp,gqjapan.jp,news.nicovideo.jp,peing.net##.ad-container
+umamusume.net,kyobun.co.jp,thenewslens.com,huffingtonpost.jp,gqjapan.jp,news.nicovideo.jp,peing.net##.ad-container
 media.moneyforward.com##.mp-recommends-text
 media.moneyforward.com##div[class^="mp-fixed-ads"]
 saruwakakun.com##.ct
@@ -10690,6 +10685,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_japanese
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/176181
+etude000.com#@#.top-ad
 ! https://github.com/tofukko/filter/issues/98
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183263
 tennisclassic.jp#@#.ad-sp

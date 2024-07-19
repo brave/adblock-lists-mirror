@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HpMH5psupmaLeVNX43M+aQ
-! Version: 202407191351
+! Checksum: wniAvKOM7mB80uSkFR7AQg
+! Version: 202407191501
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Jul 2024 13:51 UTC
+! Last modified: 19 Jul 2024 15:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23011,6 +23011,7 @@ sdamgia.ru##center > div[id][style]
 dzen.ru#?#div:-abp-has(> style:-abp-contains(yatag))
 cq.ru#?#div:-abp-properties(content: "Реклама")
 dzen.ru#?#div:-abp-properties(position: relative !important)
+otvet.mail.ru#?#div:empty:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}|min-height: calc.|min-height: .+.(cm|in|lh|mm|pt)|height: 250px/)
 pikabu.ru##div[class*="page-story__"] div[style=""]
@@ -23314,6 +23315,7 @@ pets.mail.ru#?#[data-qa="ArticlesList"] > div:-abp-has(> .pypo-slot)
 pets.mail.ru##div[class^="Gallery__slideSide_"]
 ! Ответы
 otvet.mail.ru##a[href^="https://t.mail.ru/redir/"]
+otvet.mail.ru##body div div[class*="adv-slot-"]
 otvet.mail.ru##div[data-pos]
 otvet.mail.ru#?#div[style^="top: "]:-abp-has(> div > div[class=""]:empty)
 otvet.mail.ru##div[style^="top:"] ~ div[style^="top:"] > div > div[class=""] + div:last-child

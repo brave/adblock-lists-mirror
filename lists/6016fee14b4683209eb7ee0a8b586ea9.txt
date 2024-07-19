@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: AG45Y5jDLvxM407xZYBydg
-! Diff-Path: ../patches/16/16-s-1721299056-3600.patch
+! Checksum: rq+f5oTEJq8mP7xGw+pouA
+! Diff-Path: ../patches/16/16-s-1721345810-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.61
-! TimeUpdated: 2024-07-18T10:34:01+00:00
+! Version: 2.0.45.62
+! TimeUpdated: 2024-07-18T23:33:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3329,7 +3329,6 @@ alfresco-holidays.com,alfresco-holidays.nl,alfresco-camping.de,eurocamp.co.uk#@#
 /ads/*.php?_=
 /ads/*/300_
 /ads/*/iframe?
-/ads/*_ad_
 /ads/*_habillage_
 /ads/120/600/*
 /ads/160x
@@ -17321,7 +17320,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||lcd-compare.com/images/main/*/pub.jpg
 ||le1er.net/pub-
 ||le2minutes.com/pub/
-||leboncoin.fr^*-habillage-
 ||lebuteur.com/danone/
 ||lebuteur.com/data/gilette.jpg
 ||lebuteur.com/data/hs.jpg
@@ -21570,6 +21568,7 @@ pixmania.com###highlight-new
 touslesprix.com###hleft
 amateur2sexe.fr###home-p2
 webcamtoy.com###home-sponsor
+leboncoin.fr###home-top-banner
 ma-reduc.com###home-top-offers
 manga-news.com###homePromoEd
 manageo.fr###homeSolutionsWrapper

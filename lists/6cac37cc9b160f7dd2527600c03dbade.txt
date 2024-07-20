@@ -1728,6 +1728,9 @@ kimdesene.org##+js(nowoif)
 ! https://github.com/uBlockOrigin/uAssets/issues/24271
 /^https?:\/\/[a-z]{8,15}\.xyz\/$/$xhr,3p,to=xyz,method=head,header=x-trace2-id
 /^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,to=com,method=head,header=x-trace2-id
+! https://github.com/uBlockOrigin/uAssets/issues/24561
+/^https?:\/\/[a-z]{8,15}\.xyz\/$/$xhr,3p,to=xyz,method=head,header=x-trace3-id
+/^https?:\/\/[a-z]{8,15}\.com\/$/$xhr,3p,to=com,method=head,header=x-trace3-id
 
 ! kumapoi. info detection
 kumapoi.info##+js(noeval-if, ads)
@@ -2574,3 +2577,6 @@ tokuzilla.net##.btn-warning[href="#watch"]:remove-attr(onclick)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183713
 javball.com##+js(no-fetch-if, adsbygoogle)
 javball.com##+js(aopr, popns)
+
+! https://github.com/uBlockOrigin/uAssets/issues/24561
+eurostreaming.casino##+js(acs, document.documentElement, break;case $.)

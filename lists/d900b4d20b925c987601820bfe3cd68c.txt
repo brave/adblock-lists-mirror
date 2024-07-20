@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: zOMBO/0p4zfc3qtUm3vopw
-! Diff-Path: ../patches/7/7-s-1721486214-3600.patch
+! Checksum: vaVJe8QZtPyL82H99DSzxw
+! Diff-Path: ../patches/7/7-s-1721489805-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.45
-! TimeUpdated: 2024-07-20T14:33:06+00:00
+! Version: 2.0.54.46
+! TimeUpdated: 2024-07-20T15:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -500,7 +500,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
-exploader.net##+js(remove-node-text, script, /\$\.ajax|result === false/)
+exploader.net##+js(remove-node-text, script, /\$\.ajax|document\.getElementById\(\'([0-9A-z]+)\'\)\.style\.display = \'block\';\n?document\.getElementById\(\'([0-9A-z]+)\'\)\.style\.display = \'none\';\n?\}\n?[0-9A-z]+ = false;\n?if \([0-9A-z]+\) \{\n?document\.getElementById\(\'\1\'\)/)
 !+ NOT_PLATFORM(ios, ext_android_cb)
 exploader.net##+js(no-xhr-if, .js)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181591
@@ -1744,6 +1744,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||api.twieromanga.com/api/headerancherad
 weathernews.jp##.pc[style="text-align: center; min-height: 100px;"]
 weathernews.jp###sub > section.dmenu-non:has(> div[style="width: 100%; margin: 0px auto 10px; text-align: center;"] > div[id^="div-gpt-"])
 weathernews.jp#$##footer[style="margin-bottom: 100px;"] { margin-bottom: 0 !important; }
@@ -5966,6 +5967,7 @@ how-to-inc.com##.adblocks
 game8.jp###g8-ad-placement-pc_side_head
 game8.jp##.l-jack__top_container
 game8.jp##.track_mario
+doujin.koe-koe.com##.ranking > li > a[href^="https://ac.congrab.com/"]
 koe-koe.com###comment_list > div[style$="height:80"]
 koe-koe.com###mane_ad
 koe-koe.com##.nan_ad
@@ -9501,7 +9503,6 @@ masterwiki.net#?##content > center:has(> script[src="http://pagead2.googlesyndic
 nishinippon.co.jp#?#.l-section-side h2.c-heading-side-h2--otherStyle__text:upward(.l-section-side)
 ldblog.jp,blogo.jp#?#.plugin-memo:has(> div.side > a[href*="www.dlsite"])
 ascii2d.net#?#.col-lg-4 > .p-t-1:has(> h5:contains(広告))
-urahame.com#?#h2.MuiStack-root > div.MuiStack-root:has(> div.MuiBox-root > script[src^="https://adtest.pages.dev"])
 news.tennis365.net#?##cntAreaR > div[style*="padding:"]:has(div[id^="div-gpt-"])
 shikaku-fan.net#?#div[align="center"]:has(> ins.adsbygoogle)
 stds.jp#?#.content > .obj_centering:has(ins.adsbygoogle)

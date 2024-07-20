@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mt25OCg+c+yP4n6Xay9NVw
-! Diff-Path: ../patches/7/7-s-1721478968-3600.patch
+! Checksum: zOMBO/0p4zfc3qtUm3vopw
+! Diff-Path: ../patches/7/7-s-1721486214-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.43
-! TimeUpdated: 2024-07-20T12:32:29+00:00
+! Version: 2.0.54.45
+! TimeUpdated: 2024-07-20T14:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1744,7 +1744,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
-weathernews.jp##.pc:has(> .ad-box:only-child)
+weathernews.jp##.pc[style="text-align: center; min-height: 100px;"]
+weathernews.jp###sub > section.dmenu-non:has(> div[style="width: 100%; margin: 0px auto 10px; text-align: center;"] > div[id^="div-gpt-"])
+weathernews.jp#$##footer[style="margin-bottom: 100px;"] { margin-bottom: 0 !important; }
 doujinantena.top##div[style^="max-width: 1200px; width: 92%; height: 400px;"]
 dic.pixiv.net###d_toparticle_flux_ad
 ||comedydouga.com/temu_ads2.png
@@ -6474,6 +6476,7 @@ s.cinemacafe.net,rbbtoday.com##.aside-box-ad
 ga-m.com##.entry-content > p > a[href^="https://hb.afl.rakuten.co.jp/hgc/"]
 ga-m.com##.entry-content > p > a[href^="https://www.amazon.co.jp/gp/search"]
 ga-m.com###text-38
+||faq.gigafile.nu/wp-content/uploads/2023/02/rrd2.jpg
 ||speed.gigafile.nu/wp-content/uploads/*-300x250.jpg
 speed.gigafile.nu##.l-sidebar > aside.widget_text
 ||src.gigafile.nu/banner/
@@ -6481,6 +6484,7 @@ speed.gigafile.nu##.l-sidebar > aside.widget_text
 shortener.gigafile.nu##.fixed-bottom
 shortener.gigafile.nu##div[class^="my-ad"]
 choosar.gigafile.nu##.wrap_pr_300_sky
+gigafile.nu##.image-area:has(> ins.adsbygoogle)
 gigafile.nu##.gf-slot-728
 gigafile.nu###bigup2
 gigafile.nu###fuji-fns
@@ -6490,7 +6494,8 @@ gigafile.nu##.pr_contents
 gigafile.nu##div[style^="border:1px solid #CCC;width:300px;margin:"]
 report-newage.com##.content > div[align="center"]
 report-newage.com##.l-sidebar > aside.widget_search + aside.widget_text
-seibikai.co.jp,report-newage.com##.l-sidebar > aside.widget_text:last-child
+seibikai.co.jp##.l-sidebar > aside.widget_text:last-of-type
+report-newage.com##.l-sidebar > aside.widget_text:last-child
 infoany.blog.fc2.com##.side-menu:last-child
 valorant4jp.com###HTML4
 valorant4jp.com###after-ad

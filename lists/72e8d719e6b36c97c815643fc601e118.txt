@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.4.1
+! Version: 3.7.5.0
 
 ! General
 
@@ -612,8 +612,7 @@ inman.com##div.content-wrap > div:not([class]):style(margin: 5% !important)
 inman.com##.ism-article-block
 ||cloudfront.net/imonkey-blog-*.min.js$script,domain=insidermonkey.com
 ipsoa.it##+js(ra, style, div.paywall)
-||irishnews.com/*/js/bundle.js$script,~third-party
-||irishnews.com/*/js/mpppaywall.js$script,~third-party
+||irishnews.com/arc/subs/p.min.js$script,~third-party
 ||jornaldocomercio.com/*/json/paywall.json$xmlhttprequest,~third-party
 jornaljoca.com.br##+js(acis, $, paywall)
 kunststoffe.de,qz-online.de##+js(ra, style, div[style^="filter: blur"], stay)

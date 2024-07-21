@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JWcVD5oIs9bBUxHSN6ZtZA
-! Version: 202407210240
+! Checksum: 9n9prj2fazShX/JHJbRPkQ
+! Version: 202407210340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-21 02:40 UTC
+! Last modified: 2024-07-21 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32433,7 +32433,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter_reg_widget
 ##.newsletter_register
 ##.newsletter_rodape
-##.newsletter_root_inner
 ##.newsletter_sidebar
 ##.newsletter_sign_like
 ##.newsletter_signup_footer
@@ -36371,6 +36370,7 @@ seattletimes.com##.article-share
 mymodernmet.com##.article-share-container
 wionews.com##.article-share-data
 freebeacon.com##.article-share-icons
+businesstraveller.com##.article-share-outer
 babylonbee.com,notthebee.com##.article-shareables
 cosmosmagazine.com,forbes.com,phillyvoice.com##.article-sharing
 forexlive.com##.article-slot__socials
@@ -48134,6 +48134,9 @@ njbiz.com,apnews.com,inquirer.com,heraldnet.com,thehill.com,newsnationnow,therec
 ! .fancybox-container
 scetv.org,berkeleyearth.org##.fancybox-container
 scetv.org,berkeleyearth.org##body:style(overflow: auto !important; position: initial !important;)
+! businesstraveller.com
+businesstraveller.com###newsletter-signup-popup
+businesstraveller.com##body:style(overflow: auto !important; position: initial !important;)
 ! posylka.de
 posylka.de##.modal-custom--overlay
 posylka.de##html,body:style(overflow: auto !important; position: initial !important;)

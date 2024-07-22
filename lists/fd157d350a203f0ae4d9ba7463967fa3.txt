@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jJAgT88gz4BbxW48p3+XLQ
-! Version: 202407221651
+! Checksum: FzVPwXpd0PO43L0q0OmbpQ
+! Version: 202407221751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Jul 2024 16:51 UTC
+! Last modified: 22 Jul 2024 17:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22993,7 +22993,6 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ! Pikabu (ловушка для обфускации)
 ||pikabu.ru/sa$xmlhttprequest,domain=pikabu.ru
 ! селекторы
-livejournal.com#?#.body-content > div[class]:-abp-has(> [class*="-shtorka-commercial"])
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
@@ -23005,11 +23004,12 @@ liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
 liveinternet.ru##[data-wrapper]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
+livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 sdamgia.ru##center > div[id][style]
-dzen.ru#?#div:-abp-has(> style:-abp-contains(yatag))
+dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
 cq.ru#?#div:-abp-properties(content: "Реклама")
 dzen.ru#?#div:-abp-properties(position: relative !important)
 otvet.mail.ru#?#div:empty:-abp-properties(content: "Реклама")
@@ -24094,6 +24094,7 @@ dzen.ru##div[class^="advert-panel"]
 dzen.ru##div[class^="floor-card-rtb_"]
 dzen.ru##div[class^="floor-skeleton-card__skeletonCardWrapper"]
 dzen.ru#?#div[class^="grid__row-"]:-abp-has(> div[class^="video-card-ad"])
+dzen.ru##div[class^="short-video-sidebar-placeholder"]:empty
 dzen.ru##div[data-name^="zen2"]
 dzen.ru#?#div[data-testid="article-showcase-card"]:-abp-has(> [data-testid="card-rtb"])
 dzen.ru##iframe[style="display: block; border-width: 0px;"]:not([id])
@@ -24109,6 +24110,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*clyd=$popup,domain=dzen.ru
 /*icllcd=$popup,domain=dzen.ru
 /*yaqpil=$popup,domain=dzen.ru
+/*ybqpil=$popup,domain=dzen.ru
 /*ychid=$popup,domain=dzen.ru
 /*ychyd=$popup,domain=dzen.ru
 /*yciild=$popup,domain=dzen.ru

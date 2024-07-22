@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i0UDYcl6JDxDL6eF5ebaAA
-! Version: 202407220215
+! Checksum: RaS731lD9nKUVpHzMqob+A
+! Version: 202407220340
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-07-22 02:15 UTC
+! Last modified: 2024-07-22 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4363,6 +4363,8 @@ njbiz.com,apnews.com,inquirer.com,heraldnet.com,thehill.com,newsnationnow,therec
 ! .fancybox-container
 scetv.org,berkeleyearth.org##.fancybox-container
 scetv.org,berkeleyearth.org##body:style(overflow: auto !important; position: initial !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/24572
+telecom.economictimes.indiatimes.com##+js(nostif, show-login-layer-article)
 ! businesstraveller.com
 businesstraveller.com###newsletter-signup-popup
 businesstraveller.com##body:style(overflow: auto !important; position: initial !important;)

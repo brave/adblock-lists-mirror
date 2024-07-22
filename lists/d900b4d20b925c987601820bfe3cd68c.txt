@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LxI7tqID4pdFkvH4r9sEDw
-! Diff-Path: ../patches/7/7-s-1721659029-3600.patch
+! Checksum: eMUGkm1PrPtRsmuDJXspbQ
+! Diff-Path: ../patches/7/7-s-1721662716-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.54
-! TimeUpdated: 2024-07-22T14:33:10+00:00
+! Version: 2.0.54.55
+! TimeUpdated: 2024-07-22T15:34:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2380,8 +2380,6 @@ g-soku.blog.jp#?##more > b:has(> a[href^="https://www.amazon.co.jp/"])
 g-soku.blog.jp#?##more > div.t_b:has(> div.ninja-recommend-block)
 tv-tokyo.co.jp###footerPcBanner
 famitsu.com#?#div[class] > div.l-contents-block:has(> div.heading > a[href="/ranking/amazon/"])
-lovemangaraw.net,mangaraw.asia###jp-smart-banner
-lovemangaraw.net,mangaraw.asia##.text-center[style^=" height: 300px; overflow: hidden; max-width: 100%;"]
 urapic.com###left-box > br
 urapic.com##.relate_dl ~ h3.midashi
 urapic.com##.entry-body > div[style="margin:0;padding:5px;font-size:12px;word-break: break-all;"]
@@ -4046,7 +4044,7 @@ wazap.com##.bodyFootBanner
 mudainodocument.com,nieru.net###float-bnr2
 oyako-kufu.com##.footer-google-ads
 oyako-kufu.com##.google-ads-item
-||urasma.com^$subdocument,~third-party
+||urasma.com^$subdocument
 point-g.rakuten.co.jp##.rad-table-existItemDisplay
 blog.jp##.advArea
 exawarosu.net##.l-parts-a > div.side
@@ -5778,7 +5776,8 @@ crefan.jp##.wrapper > div.container > div[align="center"]:not([class]):not([id])
 ||cravelweb.com/wp-content/uploads/*_banner_336x280.jpg
 keisan.casio.jp###adv_bottom
 keisan.casio.jp##a[id^="honkaku"]
-ura-akiba.jp###rank_goods
+||ura-akiba.jp^$subdocument
+ura-akiba.jp##.sidebar > div.rankcontainer[id^="hot_"]
 ||apollomaniacs.com/0kk_rak_h_n_large.htm
 apollomaniacs.com##.kk_gen_h
 apollomaniacs.com##.kk_ggl_h
@@ -9094,6 +9093,8 @@ gendai.media###GB_pc_inread_mov + div[style="min-height: 250px; overflow: hidden
 gendai.media###GB_pc_inread_mov
 gunji.blog.jp##a[title*="_300x250_"]
 ||widget.iid-network.jp/assets/widget.js
+new-akiba.com##.top-column-sidelist2
+new-akiba.com##.amazon-sidelist
 new-akiba.com###bannerB2
 gadgetdamage.blog.fc2.com##.wrecbox
 gadgetdamage.blog.fc2.com##.topimg > .fc2aspace:empty

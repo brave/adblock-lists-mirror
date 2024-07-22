@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6foR4JeuM1lgC2J77U1fzA
-! Version: 202407221301
+! Checksum: aQQnof+jUL9WpG0OsBShyw
+! Version: 202407221351
 ! Title: EasyList China
-! Last modified: 22 Jul 2024 13:01 UTC
+! Last modified: 22 Jul 2024 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1009,7 +1009,7 @@ newduba.cn###jq_youxi
 ###piao_div_3[style*="width:140px;"]
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
-###play[style="padding: 10px;"] > a[href="/0705.html"]
+###play[style="padding: 10px;"] > a[href*=".xmcdn.com"]
 ###player-bottom-ads
 ###playerAdvLayer
 ###player_banner[style*="fixed;"]
@@ -1706,6 +1706,9 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+!
+||grondrens.com^
+||oyretuk.top^
 !
 ||dv4ku.icu^
 ##a[href*=".68hantang.com"]
@@ -3349,7 +3352,6 @@ newduba.cn###jq_youxi
 ||zxfdbr.xyz^
 ||zxqiwe.cn^
 ||zyfnbl.xyz^
-!
 ##a[href*=".cgn8j9f4j3g.com:"]
 ##a[href*=".cvezsacxz.com/"]
 ##a[href*=".downok.com"]

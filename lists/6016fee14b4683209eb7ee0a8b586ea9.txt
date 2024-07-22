@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: RhdvFR3tYbcQNQbKmardWA
-! Diff-Path: ../patches/16/16-s-1721637463-3600.patch
+! Checksum: PfM7nnvFAvb01LiVJyFBeg
+! Diff-Path: ../patches/16/16-s-1721648207-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.63
-! TimeUpdated: 2024-07-22T08:34:12+00:00
+! Version: 2.0.45.65
+! TimeUpdated: 2024-07-22T11:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -202,7 +202,7 @@ japscan.lol##.notice-message
 japscan.lol###promo.sticky-top
 japscan.lol##.text-center > a[target="_blank"] > img
 ||japscan.lol/imgs/jopy/best.gif
-japscan.lol##+js(remove-node-text, script, /ApoZow|'(map'|\/imgs\/|ads?-\d+|ad-img-slot|ad_inview_area|div-leader-ad)|\['style'\]\['display'\]|\.length;var|\.substr\(0|\.reduce\(\(acc\, curr\)|g1hnttodBEe8apl|_adbn_|adheader|\"\/00|DklzSoz|Countdown/)
+japscan.lol##+js(remove-node-text, script, /ApoZow|'(map'|\/imgs\/|ads?-\d+|ad-img-slot|ad_inview_area|div-leader-ad)|\['style'\]\['display'\]|\.length;var|\.substr\(0|\.reduce\(\(acc\, curr\)|g1hnttodBEe8apl|_adbn_|adheader|\"\/00|DklzSoz|Countdown|mpl=kdel|String.fromCharCode\(127\)/)
 ! Fixes popups
 japscan.lol##+js(addEventListener-defuser, DOMContentLoaded, /\['classList'\][\s\S]*?\['target'\]/)
 ! Fixes incorrect blocking - search does not work
@@ -1615,6 +1615,8 @@ app.molotov.tv##+js(no-xhr-if, /ping?token=)
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/184097
+@@||sohosystems.co.za/gfx/banners/$~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182156
 pisos.com#@#div[data-ad-id]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181751

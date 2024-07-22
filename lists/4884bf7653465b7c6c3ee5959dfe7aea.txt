@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: k1wT/B+3z93ftJKkDe4dpQ
-! Diff-Path: ../patches/9/9-s-1721641090-3600.patch
+! Checksum: owDyTP6ei6lUNf84U7QbIw
+! Diff-Path: ../patches/9/9-s-1721648211-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.77
-! TimeUpdated: 2024-07-22T09:34:26+00:00
+! Version: 2.0.25.78
+! TimeUpdated: 2024-07-22T11:32:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2141,6 +2141,7 @@ globo.com,amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.c
 ! ##body .banner
 meiobit.com,brasilparalelo.com.br,tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+poseidonhd2.co##.got-dvr
 lavozdegalicia.es##div[class^="ad"]
 lavozdegalicia.es#$#.tophead-ad { display: none !important; }
 lavozdegalicia.es#$#body { padding-top: 0 !important; }

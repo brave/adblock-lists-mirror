@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +Z7FHvPMjqPS37IleJvc6Q
-! Version: 202407220440
+! Checksum: HcOnzNHVC7XhRcLv2Ygrcg
+! Version: 202407220540
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-07-22 04:40 UTC
+! Last modified: 2024-07-22 05:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3446,6 +3446,7 @@ babylonbee.com#?#.bg-gray-50:-abp-contains(Fake news)
 babylonbee.com#?#.hidden:-abp-contains(Fake news)
 businessinsider.in#?#.mx-auto.container:-abp-contains(NEWSLETTER)
 coder.com#?#.MuiBox-root:-abp-contains(Subscribe to our Newsletter)
+ctpost.com#?#.px20.pb32:-abp-contains(Sign up for)
 gript.ie#?#.v-card.v-card--flat:-abp-contains(Sign up to receive)
 guitar.com#?#.w-full:-abp-contains(Mailing)
 heraldextra.com#?#h3.section_name:-abp-contains(Newsletter)
@@ -4344,6 +4345,10 @@ scetv.org,berkeleyearth.org##.fancybox-container
 scetv.org,berkeleyearth.org##body:style(overflow: auto !important; position: initial !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/24572
 telecom.economictimes.indiatimes.com##+js(nostif, show-login-layer-article)
+! chicagotribune.com (newsletter overlay)
+chicagotribune.com##+js(rc, modal-open, , stay)
+chicagotribune.com##.modal-scrollable
+chicagotribune.com##.connext-modal-backdrop
 ! businesstraveller.com
 businesstraveller.com###newsletter-signup-popup
 businesstraveller.com##body:style(overflow: auto !important; position: initial !important;)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ugwyJd6yqUaKFmJKI3Yx1A
-! Version: 202407220415
+! Checksum: WV2P1K8WX4UCGdvciPuUKg
+! Version: 202407220515
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-22 04:15 UTC
+! Last modified: 2024-07-22 05:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42597,6 +42597,7 @@ babylonbee.com#?#.bg-gray-50:-abp-contains(Fake news)
 babylonbee.com#?#.hidden:-abp-contains(Fake news)
 businessinsider.in#?#.mx-auto.container:-abp-contains(NEWSLETTER)
 coder.com#?#.MuiBox-root:-abp-contains(Subscribe to our Newsletter)
+ctpost.com#?#.px20.pb32:-abp-contains(Sign up for)
 gript.ie#?#.v-card.v-card--flat:-abp-contains(Sign up to receive)
 guitar.com#?#.w-full:-abp-contains(Mailing)
 heraldextra.com#?#h3.section_name:-abp-contains(Newsletter)
@@ -42605,6 +42606,7 @@ reclaimthenet.org#?#.elementor-section:-abp-contains(Subscribe for)
 reclaimthenet.org#?#.elementor-widget-container:-abp-contains(tired of censorship)
 taskandpurpose.com#?#.wp-block-quote:-abp-contains(inbox daily)
 theatlantic.com#?#.LostInventoryMessage_root__YllYq:-abp-contains(newsletter)
+theguardian.com#?#[data-testid="contributions-liveblog-epic"]:-abp-contains(daily newsletter)
 yourstory.com#?#.mt-\[2rem\]:-abp-contains(newsletter)
 !! medium
 codeburst.io,medium.com##[class][style="bottom: 0px;"]
@@ -48096,6 +48098,10 @@ scetv.org,berkeleyearth.org##.fancybox-container
 scetv.org,berkeleyearth.org##body:style(overflow: auto !important; position: initial !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/24572
 telecom.economictimes.indiatimes.com##+js(nostif, show-login-layer-article)
+! chicagotribune.com (newsletter overlay)
+chicagotribune.com##+js(rc, modal-open, , stay)
+chicagotribune.com##.modal-scrollable
+chicagotribune.com##.connext-modal-backdrop
 ! businesstraveller.com
 businesstraveller.com###newsletter-signup-popup
 businesstraveller.com##body:style(overflow: auto !important; position: initial !important;)

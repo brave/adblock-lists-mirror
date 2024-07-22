@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xq5aX+0w5+CaKJDC1gel8w
-! Version: 202407220701
+! Checksum: HS16D1zKuPrYFAh76hRYaQ
+! Version: 202407220801
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Jul 2024 07:01 UTC
+! Last modified: 22 Jul 2024 08:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16106,6 +16106,7 @@ starhit.ru,uralweb.ru##.tgb
 vbr.ru##.tgb-content
 parents.ru,wday.ru##.tgb__heading
 telegraf.com.ua##.tgr-ads
+vedomosti.ru##.the-header__top a[href*="?erid="]
 ria.ru#?#.the-in-carousel__item:-abp-has(> [data-has-banner])
 vedomosti.ru##.the-loader
 shraibikus.com,topdaynews.ru##.theiaStickySidebar
@@ -22990,7 +22991,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/kv$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/sa$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 livejournal.com#?#.body-content > div[class]:-abp-has(> [class*="-shtorka-commercial"])
 anidub.vip,anidubonline.com##.plyr__menu
@@ -23666,6 +23667,7 @@ r0.ru##div[class^="News__adv"]
 gazeta.ru##div[id^="_g_exchange_"]
 avtorambler.com,rambler.ru##div[id^="rcmw-container-"][id*="-horizontal-"]
 rambler.ru##div[id^="rnet_"]
+avtorambler.com,rambler.ru##div[style^="height: 290px"][style*="overflow: hidden"]
 rambler.ru##div[style^="min-height: 140px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 240px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 250px"]

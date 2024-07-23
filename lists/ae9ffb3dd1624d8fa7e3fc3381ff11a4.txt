@@ -11048,10 +11048,6 @@ spokesman.com##+js(aopr, Connext)
 ! https://github.com/uBlockOrigin/uAssets/issues/6404
 medihelp.life##+js(aopw, ai_adb_overlay)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/ddrhoq/blockadblock_on_a_website/f2m9oa4/
-watchmynameisearl.com##+js(nobab)
-watchmynameisearl.com##+js(aopr, AaDetector)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6406
 @@||guiamuriae.com.br^$ghide
 ||guiamuriae.com.br/*.gif$image
@@ -11139,9 +11135,6 @@ tamilyogi.*##+js(acs, String.fromCharCode, 'shift')
 
 ! https://github.com/NanoMeow/QuickReports/issues/2029
 @@||tvpc.us^$ghide
-
-! https://github.com/NanoMeow/QuickReports/issues/2031
-siacoinfaucet.info##+js(acs, document.getElementById, adsBlocked)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57396
 parzibyte.me##+js(acs, jQuery, ai_adb)
@@ -12987,12 +12980,6 @@ brandstofprijzen.info##+js(aeld, load, antiblock)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49892
 theandroidpro.com##+js(aopr, adBlockDetected)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/49925
-tiny.do##+js(aopr, app_vars.force_disable_adblock)
-tiny.do###download3:style(display: block !important;)
-tiny.do##a[href^="https://mob1ledev1ces.com"]
-tiny.do##.banner
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89560
 netfuck.net##+js(aeld, DOMContentLoaded, adsBlocked)

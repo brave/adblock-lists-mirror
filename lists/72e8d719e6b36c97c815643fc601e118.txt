@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.5.1
+! Version: 3.7.6.0
 
 ! General
 
@@ -273,9 +273,10 @@ profil.at##div#cfs-paywall-container,div.consentOverlay
 ||kinja-static.com/assets/*/regwalled-content.*.js$script,domain=qz.com
 ||reuters.com/arc/subs/p.min.js$script,~third-party
 ||revistaoeste.com/wp-content/*/js/app.*.js$script,~third-party
-revistaoeste.com##+js(rc, hidden, div.hidden[data-url])
+||revistaoeste.com/revista/$inline-script
+revistaoeste.com##+js(ra, class, div.loading_content)
 revistaoeste.com##+js(rc, expandable, div.expandable)
-revistaoeste.com##div.is-locked,div.subscribe-panel
+revistaoeste.com##svg.spinner-eclipse
 ||rugbypass.com/plus/$inline-script
 rugbypass.com##.plus-article-offer
 rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
@@ -660,6 +661,8 @@ publishersweekly.com##div#contentdiv.loggedOutOnly
 rockdelux.com##+js(ra, class|style, body, stay)
 rockdelux.com##+js(ra, style, div#body, stay)
 rockdelux.com##div.bg-paywall
+rotowire.com##+js(ra, class, div.pw-content)
+rotowire.com##div.paywall-full,div.article-preview-fader
 ||schwaebische-post.de/sub/js/pc-offer-west.js$script,~third-party
 ||shrm.org/*/js/paywall*.js$script,~third-party
 /\.solicitorsjournal\.com\/_next\/static\/chunks\/\d.+\.js/$script,~third-party

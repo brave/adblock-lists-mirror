@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1LYuzf/xkp+W5HDPDiUN/w
-! Version: 202407230951
+! Checksum: vaRQhTuOyq0J1XoC1R+PrA
+! Version: 202407231101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jul 2024 09:51 UTC
+! Last modified: 23 Jul 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13699,6 +13699,7 @@ shuba.life##.c-banner
 drive2.com,drive2.ru#?#.c-block:-abp-has(> .c-dv-sns)
 drive2.com,drive2.ru#?#.c-block:-abp-has(> [id^="adfox_"])
 vsplanet.net##.c-center > .cols ~ *
+drive2.ru##.c-darkening-hover-container ~ :not(.c-darkening-hover-container) > div[id]
 drive2.ru##.c-dv-p
 drive2.com##.c-dv-sns
 dsnews.ua#?#.c-feed__list-item:-abp-has(> .c-feed__item > .c-r)

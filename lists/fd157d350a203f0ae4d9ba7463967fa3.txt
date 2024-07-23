@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 75KeITqH/QIsLlrHbdpYBg
-! Version: 202407231700
+! Checksum: hBYt9qBllyLAMPws0kp4lA
+! Version: 202407231801
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jul 2024 17:00 UTC
+! Last modified: 23 Jul 2024 18:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12719,7 +12719,6 @@ russian.rt.com##.Mirtesen-root
 do.ru##.MyOpacity1
 tonkosti.ru##.NoCurTips
 forums.sumy.ua##.Notices.PanelScroller
-pogoda21.ru##.PageCap > table .nodivs > a
 zerocoolpro.biz##.PanelScroller
 games-archive.net##.PostContent > noindex > center
 russiandc.com##.R
@@ -24247,11 +24246,10 @@ cher-poisk.ru,govoritsatka.ru,govorituzhnik.ru,kaluga-poisk.ru,koryazhma-poisk.r
 !
 ! Чебоксаркие сайты
 ! скрытие
-zarulem.ws###begin #userlinks
 21forum.ru,forum.na-svyazi.ru,forum.zarulem.ws###ipbwrapper > div[align="center"]
+pogoda21.ru##.PageCap > table .nodivs > a
 21forum.ru,forum.na-svyazi.ru,forum.zarulem.ws##.borderwrap > [id^="p_row_"] ~ table[width="100%"]:not([id^="p_row_"])
 pokupki21.ru##.main_width > div[align="center"]
-.ru/*.swf|$third-party,domain=21forum.ru|afisha21.ru|cheb.ru|cheb.ws|cheboksary.ws|kugesi.ru|na-svyazi.ru|zarulem.ws
 cheb.ru,na-svyazi.ru##.ru200200
 na-svyazi.ru##.ru320140
 cheb.ru,cheb.ws,cheboksary.ws,kugesi.ru##.ru360120
@@ -24260,9 +24258,8 @@ na-svyazi.ru,zarulem.ws##.ru56070
 cheb.ru,cheb.ws##.ru56080
 cheb.ru,cheboksary.ws,kugesi.ru,na-svyazi.ru##a[href*="/ad.adriver."]
 21forum.ru,forum.na-svyazi.ru,forum.zarulem.ws##div[style="width:900px; margin: 5px auto 5px auto"]
-21forum.ru,afisha21.ru,cheb.ru,cheb.ws,cheboksary.ws,kugesi.ru,na-svyazi.ru,zarulem.ws##td[align][height="200"]
-21forum.ru,afisha21.ru,cheb.ru,cheb.ws,cheboksary.ws,kugesi.ru,na-svyazi.ru,zarulem.ws##td[background$=".gif"]
-21forum.ru,afisha21.ru,cheb.ru,cheb.ws,cheboksary.ws,kugesi.ru,na-svyazi.ru,zarulem.ws##td[style*="background:"][style*=".gif)"]
+afisha21.ru,cheb.ru,pogoda21.ru##noindex > a[target="_blank"][rel="nofollow"]
+zarulem.ws##td[style^="text-align:center;width:50%"]
 ! блокировка
 /img/*$object,domain=21forum.ru|cheb.ru|na-svyazi.ru
 /img/bg/*$domain=21forum.ru|cheb.ru|na-svyazi.ru
@@ -24277,6 +24274,8 @@ cheb.ru,cheboksary.ws,kugesi.ru,na-svyazi.ru##a[href*="/ad.adriver."]
 ||afisha.cheb.ru/css/ban/
 ||afisha.cheb.ru/css/bg/*.gif?id=
 ||afisha.cheb.ru/css/bg/*.gif?uid=
+||afisha21.ru/css/ban/*.gif?id=
+||afisha21.ru/css/bg/*.gif?id=
 ||alexey.blog21.ru^
 ||cheb-rielt.ru^
 ||chebfm.ru^

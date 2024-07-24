@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: THnV6DOppTX5+aiKhiLoyw
-! Version: 202407241301
+! Checksum: eCiOlsmRfzap+4werY0yhA
+! Version: 202407241401
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Jul 2024 13:01 UTC
+! Last modified: 24 Jul 2024 14:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17422,6 +17422,7 @@ autodmir.ru##a[href="javascript:;"][class="vetrine"]
 aromatmasla.ru##a[href="span class="]
 zmi.ck.ua##a[href] > .img-responsive
 drive2.ru##a[href] > div > div > div > div
+drive2.ru##a[href] > div > div > div > span
 doska.fi##a[href] > img[src*="/images/et"]
 ebooks.skin##a[href] > img[src*="img/yandex"]
 allrepack.ru##a[href] > img[style*="display:"]
@@ -18092,6 +18093,7 @@ gdz.ninja,gdzotputina.club,gdzputina.net,reshebnik.com,spishi.fun,zoobrilka.net#
 player.rudub.online#?#div:-abp-has(> a[href*="://bit.ly/"])
 serveradmin.ru#?#div:-abp-has(> a[href*="otus"])
 drive2.ru#?#div:-abp-has(> a[href] > div > div > div > div)
+drive2.ru#?#div:-abp-has(> a[href] > div > div > div > span)
 anwap.film#?#div:-abp-has(> a[href]:not([href^="/films/"]):not([href^="/serials/"]) > div)
 fragrantica.ru#?#div:-abp-has(> a[href^="/goto.php"])
 serveradmin.ru#?#div:-abp-has(> a[href^="https://serveradmin.ru/devops"])
@@ -21418,7 +21420,8 @@ lada.kz/uploads/banners/
 ||mcrate.su/vip/
 ||mctop.su/media/img/b/
 ||mcuns.ru/*.php$script,domain=mcuns.ru
-||mds.yandex.net/get-
+||mds.yandex.net/get-bstor/
+||mds.yandex.net/get-vh/
 ||me.fo/*/images/banner
 ||me3.com.ua/static/banners/
 ||meat-expert.ru^*banner$image

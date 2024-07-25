@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QALx9gr7+yrj7tXqqP7Dfw
-! Version: 202407251651
+! Checksum: V8pw/Z9/6Ua+B8BucDULXw
+! Version: 202407251751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jul 2024 16:51 UTC
+! Last modified: 25 Jul 2024 17:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -8381,6 +8381,7 @@ _tizers.
 ||pelicansource.com^$third-party
 ||pentoch.com^$third-party
 ||peoplemobile.ru^
+||perfectlinestarter.com^$third-party
 ||perfecttds.net^$third-party
 ||perfmelab.com^$third-party
 ||peromut.com^$third-party
@@ -17049,6 +17050,7 @@ pirate-party.ru,piratemedia.net##a[href*=".sim-networks.com/index.php?pid="]
 ctc-rnd.ru##a[href*=".space"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[href*=".vkplay.ru"]
 wintorrents.ru##a[href*=".wintorrents.ru"]
+eurointegration.com.ua##a[href*=".xyz/"] div
 1tv.ru,drive.ru,f1news.ru,film.ru,gamemag.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
 dks.com.ua,enovosty.com,expert.in.ua,galas.te.ua,galinfo.com.ua,nbnews.com.ua,plitkar.com.ua,rivnepost.rv.ua,tenews.org.ua,ukrnews24.net,varta1.com.ua##a[href*="//besplatka.ua"]
 360tv.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bst.bratsk.ru,coop-land.ru,energyfm.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,ixbt.com,kommersant.ru,life.ru,metronews.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,mydecor.ru,mywebpc.ru,naked-science.ru,new-magazine.ru,news.ru,nsn.fm,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pnz.ru,regnum.news,regnum.ru,rifey.ru,rusnext.ru,russian.rt.com,rutube.ru,sm.news,sovsport.ru,sport-express.ru,sportsdaily.ru,super.ru,syzran-small.ru,teleprogramma.pro,thegirl.ru,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,ura.news,utyug.info,vz.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
@@ -19160,6 +19162,7 @@ smotretonline.ucoz.org##iframe[src^="http://kinohouse.ucoz.ru"]
 www.mp4upload.com##iframe[src^="https://www.mp4upload.com/"][src$=".html"]
 forum.watch.ru##iframe[style="width: 100%; height: 60px;"]
 forum.watch.ru##iframe[style="width:100%; height:110px;"]
+eurointegration.com.ua##iframe[title="3rd party ad content"]
 torrnado.ru##img.Text[src^="/images/"]
 tulactive.ru##img.aligncenter[src*="kadastr"]
 volzsky.ru##img.b
@@ -19278,7 +19281,7 @@ sarafannoeradio.org##img[width="829"][height="90"]
 demiart.ru##img[width="900"][height="100"]
 post-tracker.ru##img[width^="8"][height^="3"][src$=".gif"]
 gizmod.ru##index > .entry
-audiotag.info,computer76.ru,enovosty.com,epravda.com.ua,eurointegration.com.ua,finget.ru,fraza.com,inforesist.org,ostro.org,real-vin.com,stravy.net,videoredaktor.ru,volyninfo.com##ins
+audiotag.info,computer76.ru,enovosty.com,epravda.com.ua,finget.ru,fraza.com,inforesist.org,ostro.org,real-vin.com,stravy.net,videoredaktor.ru,volyninfo.com##ins
 peugeot-club.net,vjazhi.ru##ins[style^="display:inline"]
 stopgame.ru#?#li:-abp-has(> [href="https://zen.yandex.ru/stopgame"])
 argumenti.ru#?#li:-abp-has(> span:-abp-contains(Новости партнеров))
@@ -21073,6 +21076,7 @@ lada.kz/uploads/banners/
 ||hrk.aero/wp-content/themes/hrk-new/*banners/
 ||hromadske.radio/assets/banners/
 ||hsl.com.ua/*parimatch$image
+||html-load.com/loader.min.js$domain=eurointegration.com.ua
 ||html-template.ru/images/banners/
 ||htmlbook.ru/files/$object
 ||htmlbook.ru/sites/default/files/$object
@@ -23013,10 +23017,12 @@ sdamgia.ru##[data-name="partial-container"]
 liveinternet.ru##[data-wrapper]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
+dzen.ru##a[href] > div > div > div > div
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 sdamgia.ru##center > div[id][style]
+dzen.ru#?#div:-abp-has(> a[href] > div > div > div > div)
 dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
 cq.ru#?#div:-abp-properties(content: "Реклама")
 dzen.ru#?#div:-abp-properties(position: relative !important)
@@ -23031,6 +23037,8 @@ sdamgia.ru##div[id^="yandex_vario"]
 liveinternet.ru##div[style*="!important; "]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 ~3igames.mail.ru,~account.mail.ru,~auto.mail.ru,~biz.mail.ru,~blog.mail.ru,~bonus.mail.ru,~calendar.mail.ru,~calls.mail.ru,~cloud.mail.ru,~connect.mail.ru,~deti.mail.ru,~dobro.mail.ru,~e.mail.ru,~gibdd.mail.ru,~health.mail.ru,~help.mail.ru,~hi-tech.mail.ru,~horo.mail.ru,~kino.mail.ru,~lady.mail.ru,~love.mail.ru,mail.ru,~mcs.mail.ru,~minigames.mail.ru,~my.mail.ru,~news.mail.ru,~o2.mail.ru,~octavius.mail.ru,~okminigames.mail.ru,~otvet.mail.ru,~pets.mail.ru,~player-smotri.mail.ru,~pogoda.mail.ru,~top.mail.ru,~touch.mail.ru,~tv.mail.ru#?#html:-abp-has(> .stylus[id^="stylus"]) body > main [slot] > *:-abp-has(.adchoise)
+eurointegration.com.ua##iframe[src="about:blank"] {remove:true;}
+eurointegration.com.ua##script[id][data-sdk] {remove:true;}
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)

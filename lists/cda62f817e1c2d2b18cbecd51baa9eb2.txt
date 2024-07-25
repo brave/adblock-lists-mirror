@@ -104,7 +104,7 @@ jytechs.in,dev.miuiflash.com,djxmaza.in,thecubexguide.com##+js(rpnt, script, wpe
 
 ! https://github.com/uBlockOrigin/uAssets/issues/23806
 japscan.lol#@#+js(rmnt, script, "/ApoZow|'(map'|\/imgs\/|ads?-\d+|ad-img-slot|ad_inview_area|div-leader-ad)|\['style'\]\['display'\]|\.length;var|\.substr\(0|\.reduce\(\(acc, curr\)|g1hnttodBEe8apl|_adbn_/")
-japscan.lol##+js(rmnt, script, /while \(!!\[\]\)|String\(\)\.fromCharCode|\.join\(\w+\)\.split\(\w+\)|"undefined"|_\$|\$_|\[\d+\][^=]*==|\.join|\.substr|\.charAt|\.reduce|!!|\$document|Function\s*;|var [^=]+=window\[|=\s*\[[^\]]*]/)
+japscan.lol##+js(rmnt, script, /while \(!!\[\]\)|String\(\)\.fromCharCode|\.join\(\w+\)\.split\(\w+\)|"undefined"|_\$|\$_|\[\d+\][^=]*==|\.join|\.substr|\.charAt|\.reduce|!!|\$document|Function\s*[\,;]|var [^=]+=window\[|=\s*\[[^\]]*]/)
 japscan.lol##+js(aost, onload, inlineScript)
 japscan.lol##+js(acs, JSON.stringify, function)
 japscan.lol##+js(acs, Object.entries, function)
@@ -134,6 +134,10 @@ client.falixnodes.net##+js(rpnt, script, (window.loadscript, (window.loadscript 
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2320
 freemcserver.net##+js(nosiif, 0x)
+freemcserver.net##+js(nostif, ){}})
+freemcserver.net##+js(nostif, ')]());})
+freemcserver.net##+js(nostif, );}catch()
+freemcserver.net##+js(nostif, ;});})
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24217
 ! kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(aost, jQuery.fn.html, /^(?!.*jquery).*(Scripts|inlineScript)/i)
@@ -171,6 +175,8 @@ exploader.net#@#+js(no-xhr-if, .js)
 @@||daotag.com/tag/$script,domain=exploader.net
 ||exploader.net/js/$script,badfilter
 exploader.net###preview_images > span[class^="tracking_"] > div[style="position: fixed;"] > div[data-pr]
+exploader.net#@#div[style*="1120px;"][style*="450px;"]:style(height: 0 !important; overflow: hidden !important;)
+exploader.net##article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"]:style(position: absolute !important; left: -3000px !important;)
 !#if env_mobile
 exploader.net###firstpop
 !#endif

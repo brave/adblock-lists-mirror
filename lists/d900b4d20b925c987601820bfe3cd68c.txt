@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: uWHtSrOQ/d01Yo3YVI1DaA
-! Diff-Path: ../patches/7/7-s-1721925458-3600.patch
+! Checksum: lcoKhxjmnKcCHfOYWDgLqQ
+! Diff-Path: ../patches/7/7-s-1721950615-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.76
-! TimeUpdated: 2024-07-25T16:33:34+00:00
+! Version: 2.0.54.77
+! TimeUpdated: 2024-07-25T23:33:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1744,6 +1744,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+corp.rakuten.co.jp#$#.mno-pitari { padding-top: 0 !important; }
+corp.rakuten.co.jp#$##pitari_area { display: none !important; }
 basketballking.jp##div[style="text-align: center; margin:30px 0 30px 0;"]
 basketballking.jp##.container > div.free-html
 apptopic.com##.adcode-mix
@@ -5520,7 +5522,7 @@ okazurand.net##.adowidgets
 okazurand.net##.ado-area
 meaning.jp##div[style^="height:250px; width:300px"]
 hominis.media##.pr-ad
-fril.jp,rakuten.co.jp###mkdiv_header_pitari
+news.infoseek.co.jp,fril.jp,rakuten.co.jp###mkdiv_header_pitari
 ||furima-assist.com/banner/
 fril.jp,mercari.com,yahoo.co.jp##.furima-assist-ad-wrapper
 world-best-news.doorblog.jp,news-channel.doorblog.jp##.footerBnr

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 47sGmOwUStefaRzlMbsZMQ
-! Diff-Path: ../patches/224/224-s-1721957783-3600.patch
+! Checksum: Q8IJ4Dmyu4DjJjv37lkEtg
+! Diff-Path: ../patches/224/224-s-1721964974-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.19.56
-! TimeUpdated: 2024-07-26T01:32:59+00:00
+! Version: 2.1.19.57
+! TimeUpdated: 2024-07-26T03:32:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4782,6 +4782,7 @@ newduba.cn###jq_youxi
 ||ketlwsd.top^
 ||dy10000.net^
 ||hbbynt.xyz^
+||cwerilxf.top^
 ||kwgqaqf.icu^
 ||uicdns.xyz^
 ||qzsvwo.xyz^
@@ -9000,7 +9001,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 ||yy18.info^*thanks$popup
 $image,third-party,domain=lady1.top
 $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
-$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.net
+$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.com|xiaoxintv.net
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zzzzz688.com
 .194007.com/4058.gif

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: j8VEnfNkwopvauCiv/i2jw
-! Diff-Path: ../patches/1/1-s-1721997423-3600.patch
+! Checksum: /nbrd8cTChU3Q/jMlpDS3Q
+! Diff-Path: ../patches/1/1-s-1722001056-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.55
-! TimeUpdated: 2024-07-26T12:31:10+00:00
+! Version: 2.0.92.56
+! TimeUpdated: 2024-07-26T13:31:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4136,6 +4136,9 @@ http://w7.ru^$third-party
 ||хельга.рф^$third-party
 ||эхх.рф^
 !
+! AD Factor
+||193.200.64.24^
+!
 ! under.site
 ||206.54.181.250^
 !
@@ -7624,6 +7627,9 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+frankmedia.ru##.adaptive-banner
+frankmedia.ru##.post-sidebar__item:has(> div.banner)
+||frankmedia.ru/banners?id=
 retailer.ru##.full-width-header-area
 seolik.ru##+js(set-constant, block_detected_User, undefined)
 seolik.ru##.alert_top_site
@@ -8460,7 +8466,7 @@ igromania.ru,kanobu.ru##.ad-brending
 malfurik.online##.carou
 super.ru#?##root div[class] > div[class]:has(> div[class^="_"] > div[id^="adfox_"])
 syzran-small.ru##.bancode
-cisoclub.ru,trafficcardinal.com,kursiv.media,moskvichmag.ru,netex.co.il,in-scale.ru,moscowtimes.ru,ukraina.ru,mipped.com,diapazon.kz,bloknot.ru##.banner
+frankmedia.ru,cisoclub.ru,trafficcardinal.com,kursiv.media,moskvichmag.ru,netex.co.il,in-scale.ru,moscowtimes.ru,ukraina.ru,mipped.com,diapazon.kz,bloknot.ru##.banner
 vkusno.plus##.region-banner
 vkusno.plus##.region-sidebar-second
 vkusno.plus##.region-featured-bottom

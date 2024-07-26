@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: bet2M2hGRYF4Y1wrlrEXEA
-! Diff-Path: ../patches/7/7-s-1721997428-3600.patch
+! Checksum: 2m71XdtUdPs6HepsPf3U9A
+! Diff-Path: ../patches/7/7-s-1722004649-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.78
-! TimeUpdated: 2024-07-26T12:33:03+00:00
+! Version: 2.0.54.80
+! TimeUpdated: 2024-07-26T14:33:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -750,6 +750,7 @@ intaa.net#$##adstop { display: block !important; height: 51px !important; }
 @@||yoshidakenkou.net^$generichide
 yoshidakenkou.net##.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88158
+battlecats-db.com#$#body { display: block!important; }
 battlecats-db.com#@#ins.adsbygoogle[data-ad-client]
 battlecats-db.com#@#ins.adsbygoogle[data-ad-slot]
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=battlecats-db.com
@@ -1534,8 +1535,8 @@ jikayosha.jp#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
-/^https:\/\/(?!www)[a-z]{3,}\.[a-z]{5,}\.[a-z]{3,5}\/item-(?=[a-z]{0,9}\d)[0-9a-z]{10}\.html$/$document,match-case,domain=biz|click|lat|mom|one
-/^https:\/\/(?!www)[a-z]{3,}\.[a-z]{5,}\.[a-z]{3,5}\/[a-z]{6,}\/(?=[a-z]*[0-9A-Z])[0-9A-Za-z]{8,10}\.html$/$document,match-case,domain=biz|click|lat|mom|one
+/^https:\/\/(?!www)[a-z]{3,}\.[a-z]{5,}\.[a-z]{3,5}\/item-(?=[a-z]*\d)[0-9a-z]{8,10}\.html$/$document,match-case,domain=biz|click|lat|mom|one
+/^https:\/\/(?!www)[a-z]{3,}\.[a-z]{5,}\.[a-z]{3,5}\/[a-z]{6,}\/(?=[0-9a-z]{0,9}[A-Z])[0-9A-Za-z]{10}\.html$/$document,match-case,domain=biz|click|lat|mom|one
 /W08Myr0hotline0JP07/*$document
 /?Rfunccode=*&nextfunc=$document,domain=cn
 .one/Sign|$document
@@ -7271,9 +7272,6 @@ ekitan.com##.na-bottom-wrap
 ekitan.com##.na-wrap
 ekitan.com##.sidebar-ad-item
 animeanime.jp,cinemacafe.net,rbbtoday.com,response.jp,techno-edge.net,roundup-gamers.jp,gamebusiness.jp,gamespark.jp,inside-games.jp##.af_box
-map.goo.ne.jp##.shopinfo_ads
-map.goo.ne.jp###map-areamatch_wide
-map.goo.ne.jp###lnavi_site-cross
 popmaster.jp##.kakomi-maru
 ||moemoeanime.blog.jp/moemoeanime.html
 tools4music.info##.ads-related
@@ -10255,7 +10253,6 @@ ytv.co.jp#?#.relation-block > div.OUTBRAIN:upward(1)
 woman.mynavi.jp#?#.l-main > .p-aside-section:has(> div > div > div > div[id^="div-gpt-"])
 woman.mynavi.jp#?#.p-aside-section > div[id^="div-gpt-ad-"]:upward(1)
 full-count.jp#?#.l-sidebar-ads > li:not(:has(> a[href^="https://full-count.jp"]))
-map.goo.ne.jp#?#.event-cards__item > a.event-card--banner:upward(1)
 mangalove.me#?#ul[class^="list-comic-"] > li > div.native-ad-wrap:upward(1)
 apollomaniacs.com#?#.kk_sidebar_items > div.item_box_sdb:has(> p.item_box-image > a[href^="https://www.amazon.co"])
 jbpress.ismedia.jp#?#.m-article-colm-list > div#recommend_pc:upward(1)

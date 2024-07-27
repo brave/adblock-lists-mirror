@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dpqNwy9mlorvZcdmPxwPXg
-! Version: 202407262240
+! Checksum: koA3f1QaEZzbdj3A/WPyhA
+! Version: 202407270015
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-07-26 22:40 UTC
+! Last modified: 2024-07-27 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3060,6 +3060,7 @@ straitstimes.com##.st-newsletter
 statnews.com##.stat-hubspot-signup
 oceana.mi.us##.stay_connected
 alaraby.co.uk,fbi.gov,newarab.com,puck.news##.sticky-footer
+monarchmoney.com##.sticky-signup
 tn.com.ar##.sticky_top
 interacnetwork.com##.stripe--newsletter
 barrons.com##.style--newsletter-signup-bottom--1Spc175x
@@ -4475,10 +4476,13 @@ logicool.co.jp##body[style="overflow: hidden;"]:style(overflow: auto !important;
 ! https://launer.com/c/women
 launer.com##.modal:has([style^='background-image: url("/assets/newsletter-'])
 launer.com##html:style(overflow: auto !important)
-!
+! soundproofcow.com
 soundproofcow.com##.sgpb-popup-overlay
 soundproofcow.com##.sgpb-popup-dialog-main-div-wrapper
 soundproofcow.com##body,html:style(overflow: auto !important; position: initial !important;)
+! monarchmoney.com
+monarchmoney.com##.modal__overlay
+monarchmoney.com##body:style(overflow: auto !important; position: initial !important;)
 ! fanboy_newsletter_specific_ABP.txt
 ! Sorted alphabetically by the domain
 cmswire.com#?#section:-abp-has(.footer__join-us-form)

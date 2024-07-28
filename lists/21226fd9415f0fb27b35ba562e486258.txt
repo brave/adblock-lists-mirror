@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 9l030OhRrZX8Wkn+8CBg5w
+! Checksum: 4OFyN1ZF4PucDCwTeju1pA
 ! Title: Easylist Cookie List
-! Updated: 2024-07-28 04:40 UTC
+! Updated: 2024-07-28 06:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -19927,6 +19927,7 @@ paymentcloudinc.com##.cookiebtn
 bairdwarner.com##.cookieinfo
 autotoll.com.hk##.cookies-agreement-container
 gstarcad.net##.cookies-ask
+credential.net##.cookies-banner
 gomosafer.com##.cookies-body
 eandt.theiet.org##.cookies-consent-edit-link-container
 eib.org##.cookies-home_overlay
@@ -22289,7 +22290,6 @@ wifiwien.at,wifikaernten.at,wifi.at##+js(rc, modal-open, , stay)
 5asec.pt,tui.dk,tui.fi,tui.no,tui.se##+js(rc, no-scroll, body, stay)
 pollfish.com##+js(rc, show-cookie-consent, , stay)
 werkenbijtrekpleister.nl,werkenbijkruidvat.be,rassenlijst.info,werkenbijiciparisxl.nl##+js(rc, is-active-cookiebar, , stay)
-tesa-labtec.com,tesatape.ru,tesa.com##+js(rc,  -locked, , stay)
 flightradar24.com##+js(remove-class, has-banner, body.has-banner, stay)
 apk-vk.at##+js(rc, pointerevents, , stay)
 vietnamairlines.com##+js(rc, cookie-accept-required, , stay)
@@ -22315,6 +22315,7 @@ uhrzeit123.de##+js(set-cookie, ga-disable, true)
 marinelink.com##+js(set-cookie, GDPR, 9)
 ocean.io##+js(set-cookie, cookies, false)
 waves.is##+js(set-cookie, cookies_accepted, 0)
+tesa.com##+js(set-cookie, cookies_informed, true)
 top4mobile.*##+js(set-cookie, cookies-agreed, 1)
 top4mobile.*##+js(set-cookie, cookies-analytical, 0)
 gls-group.eu##+js(set-cookie, gls-cookie-policy, accepted)

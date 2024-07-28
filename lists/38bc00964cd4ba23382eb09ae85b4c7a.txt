@@ -3503,10 +3503,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ! https://github.com/uBlockOrigin/uAssets/pull/21759
 ||counter-strike2-official.net^$all
 
-! https://transparencyreport.google.com/safe-browsing/search?url=http:%2F%2Fapp0w.ltd%2F
-! http://telegram.app0w.ltd/?rcd=c61d5 - Scam telegram
-||app0w.ltd^$all
-
 ! https://github.com/uBlockOrigin/uAssets/issues/22129
 ||primeleech.com^$all
 
@@ -3645,6 +3641,10 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ! https://urldna.io/scan/6691a7694c7663c24c140091
 ! https://www.virustotal.com/gui/url/ac43f39d914e0e7121c999f26b7bac7beceaa932f7478d68c4ce7df6dc78ed07
 ||hand-to-hand.cfolks.pl^$all,to=~ram.co.za
+
+! wetransfer.com
+||wetransfers.fr^$all,to=~wetransfer.com
+||cragrle.whf.bz/wetransfert/$all,to=~wetransfer.com
 
 ! intesasanpaolo.com
 ! https://urldna.io/scan/66a0d0d33b59511de9602564
@@ -3849,6 +3849,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||pages.dev/errors/validateCaptcha^$doc
 
 ! alibaba
+||hologramid.cn^$all,to=~alibaba.com
+||alibaba-shopvip.com^$all,to=~alibaba.com
 ||topmarifle.life^$all,to=~alibaba.com
 ! https://www.virustotal.com/gui/url/8ee2dacea4476d9971ccde03ffc968c6d2401e08c5273b8945dba4ea9c03069d
 ||shopvip-alibaba.com^$all,to=~alibaba.com
@@ -3998,6 +4000,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ! https://www.virustotal.com/gui/url/dd581161abc02c436e7f1d3096ebc651b98bf4ff3eeea81cff8ba76b6b9ca277
 ||play.funfourmob.com^$all
 ! instagram
+||mediacontrolcenters.com/instagram.com/$all
 ! https://www.virustotal.com/gui/url/8fb4a3808af3e2dc52bb055171b6750d8141871cd7e7a1e8bb3457294ddd5437
 ||privrendom.com^$all
 ! facebook
@@ -4096,6 +4099,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||st-invite.com^$all
 ||gtm.you1.cn^$all
 ||steamxiazai.cn^$all
+||s.team-pn.com^$all
 ||steamcommunitylog.chez.com^$all
 ||steam.workshop*.com^$doc
 /^https:\/\/stea[a-z]{1,4}o[mn][a-z]{4,7}y[a-z]?\.com\//$doc,domain=com|~steamcommunity.com
@@ -4176,7 +4180,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||hab-sharepoint.weebly.com^$all
 ||iamnew.powerappsportals.com^$all
 ||post.nationalrent.ru^$all
-||hyuiko.live^$all
 ||gocolonial.local-user.com^$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||od.atami.no/one_drive.html$all
@@ -4195,8 +4198,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||hergunavantaj.com.tr^$all
 ! https://www.virustotal.com/gui/url/121614b7a02a5f9bfe0df6bea30184ef2c28a03df07b6ae41c489de241554344
 ||irrigationservices.co^$all
-! https://www.virustotal.com/gui/url/a718d596ee202aef01133915018feedcb6b3402730a4246dd4c7329d60729faf
-||adobesecurequotelink.ru^$all
 ! https://www.virustotal.com/gui/url/4c3fa27636d4439e79b4f6a05f2c3859897425727bf985a5afe5047266e462ff
 ||copynet.com.mx/Message%20Centre/$all
 ! https://www.virustotal.com/gui/url/64fb53355d445fd7b50685886e43e364285a48a660701a553cfbfd925c1a371c
@@ -4232,11 +4233,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ! telegram
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
-||haveplentymusic.com^$all
-||sozdor9s.com^$all
 ||newappmssg.ru^$all
-||teleagram.icu^$all
-||telesgram.work^$all
 ||telegrambotsolution.pages.dev^$all
 /^https:\/\/www\.telegramk[a-z]\.com\//$domain=com|~telegram.org
 ||telegramkv.com^$all
@@ -4265,7 +4262,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||mybluehost.me/2us/verification/$doc
 ! https://urldna.io/scan/6683cfb811bd32bf9fb75225
 ! https://www.virustotal.com/gui/url/25aea0e999fad6210accce6965b498b4794ae442233ece87290293486f17d432
-||zxb.bgd.mybluehost.me^$all
 ||mybluehost.me/uspshome/$doc
 ! https://urldna.io/scan/668915c66ba77bfb3cacea3c
 ! https://www.virustotal.com/gui/url/2cffc82255b1724b4e9083c350c2c3d73ff9366ee6ab15d6c0bc37ab6c7b8066
@@ -4329,6 +4325,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||sviluppo.host/df/pass.php^$doc,domain=~swisscom.ch
 ! https://www.virustotal.com/gui/url/b125bd6b92439b436f012c539b1601915c8146703187c0b86119a4fe0c8d8e82
 ||mybluehost.me/sssssssssssssss/$doc,domain=~swisscom.ch
+! https://www.virustotal.com/gui/url/30b8b4ed87742d205e71d3d8d045cc07108bd46aa060e4bd0cbd788719e06dec
+||mybluehost.me/comssss/$doc,domain=~swisscom.ch
 ! https://www.virustotal.com/gui/url/aaaf519966c47df9632c128df1d10e6d85ba70f07a5dc2843b2c091dfbe25a73
 ||codeanyapp.com/swiss-login/$doc
 
@@ -4345,7 +4343,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||ledgerwallive.com^$all,to=~ledger.com
 ||mantanetworkcn.com^$all,to=~manta.network
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,domain=~uniswap.org
-||sei-io.web.app^$all,to=~sei.io
 ||web3mainnetdapp.pages.dev^$all
 ||web3connectfix.pages.dev^$all
 ||clinitex.fr/META5KYC/$doc,domain=~metamask.io
@@ -4369,9 +4366,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||tokenap.app^$all,to=~token.im
 ||tokenax.app^$all,to=~token.im
 app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([class]) > iframe#external-frame[src="https://im136.mom/"]:not([class])
-! opensea
-||opensea-nft.web.app^$all,to=~opensea.io
-||paslanmazspider.org/bin/$all,to=~opensea.io
 ! pancakeswap
 /^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,domain=vercel.app|~pancakeswap.finance
 ||pancakeswap-*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
@@ -4385,9 +4379,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
 ||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
 ||bigbauer.com^$all,to=~gmx.com
-||sacredtreespirit.com^$all,to=~ups.com
 ||lkmw88.com^$all,to=~mercadolibre.com
-||hologramid.cn^$all,to=~alibaba.com
 ||seguro.serasaexperian.site^$all,to=~serasa.com.br
 ||vangphutai.com^$all,to=~vangphutai.vn
 ||snapscrttm.serv00.net^$all,to=~snapchat.com

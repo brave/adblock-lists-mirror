@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: zyKKU7Uth5TIDEJeQGmxbA
-! Diff-Path: ../patches/7/7-s-1722148623-3600.patch
+! Checksum: 8eOUnZ6QfJPtFekn35CPcQ
+! Diff-Path: ../patches/7/7-s-1722163004-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.82
-! TimeUpdated: 2024-07-28T06:33:08+00:00
+! Version: 2.0.54.83
+! TimeUpdated: 2024-07-28T10:33:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1746,6 +1746,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||adacomi.com/banner_in/
 ||daotag.com^$script,xmlhttprequest
 atmarkit.co.jp###RcolRectangle
 game.hiroba.dpoint.docomo.ne.jp##+js(adjust-setTimeout, window.ADGMAD.repair_bonus, 30000, 0.001)
@@ -8139,7 +8140,7 @@ nordot.app###js-ur
 dic.nicovideo.jp##.article > div[style="margin-left: -4px;"] + ul[style="margin-left: -4px;"]
 dic.nicovideo.jp##div[id^="dic_sp_300x250_"]
 automesseweb.jp###ads-pc-top-super
-nlab.itmedia.co.jp,number.bunshun.jp,financial-field.com,news.nifty.com,automesseweb.jp##div[id^="logly-lift-"]
+qiita.com,nlab.itmedia.co.jp,number.bunshun.jp,financial-field.com,news.nifty.com,automesseweb.jp##div[id^="logly-lift-"]
 yahoo.co.jp##.yads-overlay
 4610.adultav55.com##.belowVideoBanner
 pokemon-matome.net##.blogparts_freeArea:last-child

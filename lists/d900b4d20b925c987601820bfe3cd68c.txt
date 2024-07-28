@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ONsVMb5j3gZME5u6n3sAIw
-! Diff-Path: ../patches/7/7-s-1722177426-3600.patch
+! Checksum: TX0cEBM2FdbrdzKCau7GZg
+! Diff-Path: ../patches/7/7-s-1722191807-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.85
-! TimeUpdated: 2024-07-28T14:33:18+00:00
+! Version: 2.0.54.86
+! TimeUpdated: 2024-07-28T18:33:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1357,8 +1357,6 @@ blog.livedoor.jp#$#:matches-path(/goldennews)#side-column[style^="position: fixe
 hrs-game.main.jp,main-hrs-game.ssl-lolipop.jp#$#.ads_native { visibility: hidden !important;margin: 0 !important; }
 ! bottom placeholder on comic viewer
 firecross.jp#$##stage { max-height: 100% !important; }
-! placeholder essentially for ads
-ero-kawa.com#$#footer { height: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109086
 avgle.com#$##player_3x2_close { opacity: 0 !important; height: 300px !important; }
 ! e.g. https://novel.prcm.jp/novel/4sbJOxhOgFkRTVqwSq3E/chapter/11DldoiXpkz0nEVk4erG
@@ -6143,7 +6141,7 @@ car.rakuten.co.jp##.portal-info-swiper
 netoff.co.jp###main > div.slider
 netoff.co.jp###main > div.mab10.tac[style="padding-bottom:3px;"]
 genshin-matomech.umadacchi.net###block-11
-sexx.fans,fnjpnews.com###block-9
+fnjpnews.com###block-9
 ichimanabiblog.com,k-knuckles.jp,utagejima.jp###block-7
 utagejima.jp##.su-animate
 ||four-foods.com/etc/rrd/$third-party

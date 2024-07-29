@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: SIwFRwbRFeMI/Wd8QOuoaA
-! Diff-Path: ../patches/16/16-s-1722238643-3600.patch
+! Checksum: kNplNnOCTeovAkgW1iVHag
+! Diff-Path: ../patches/16/16-s-1722249482-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.69
-! TimeUpdated: 2024-07-29T07:33:42+00:00
+! Version: 2.0.45.70
+! TimeUpdated: 2024-07-29T10:33:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -714,8 +714,6 @@ funradio.fr,rtl2.fr,rtl.fr##+js(set-constant, getAudioAdUrl, noopFunc)
 ! Fixing delay in the video player
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112961
 seriepourvous.com##+js(remove-attr, href, a[href]#clickfakeplayer)
-! https://github.com/AdguardTeam/AdguardFilters/issues/104938
-scan-manga.com##+js(abort-current-script, document.getElementById, window.open)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105459
 mapcustomizer.com##+js(remove-class, with-ad, div)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100793
@@ -2035,8 +2033,6 @@ preciouslifemovie.com#@##tab-ad
 @@||wgplayer.com/friv5online.com/wgAds.*.conf.js$domain=friv5online.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102922
 @@||trplus.com.tw/_ui/responsive/*/trplusLcatePage_ADV.js$domain=trplus.com.tw
-! https://github.com/AdguardTeam/AdguardFilters/issues/104938
-scan-manga.com#@##pub_head
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105339
 programme-tv.net#@#[data-ads-core]
 @@||tra.scds.pmdstatic.net/advertising-core/*/core-ads.js$domain=programme-tv.net

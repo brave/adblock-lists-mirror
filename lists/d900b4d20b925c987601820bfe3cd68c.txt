@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mMo7Uv82RffJtD2DMgo72w
-! Diff-Path: ../patches/7/7-s-1722249486-3600.patch
+! Checksum: Lfj/TMdKCsZnPpfvySo0TA
+! Diff-Path: ../patches/7/7-s-1722256770-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.91
-! TimeUpdated: 2024-07-29T10:33:08+00:00
+! Version: 2.0.54.92
+! TimeUpdated: 2024-07-29T12:34:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2924,6 +2924,7 @@ dcnenkin.jp##.img_banner
 dcnenkin.jp###modal_mti
 datazoo.jp###navi
 datazoo.jp##div[class^="AD"]
+gentosha-go.com###ggo_250_wrapper
 happy-travel.jp##a[target="_blank"][rel^="nofollow"][href*="ad"]
 gentosha-go.com##.side-banner > a:not([href^="https://gentosha-go.com/"]) > img
 joshinweb.jp##td[align="center"][height="250"]
@@ -4202,7 +4203,6 @@ avdouga.net##.entry_pickup_fam
 avdouga.net##.right_bar > div.bar_title:first-child
 jpnumber.com##.frame-300-gray
 jpnumber.com###sponsor-link
-chat.smaero.jp##.room_adv
 koe-koe.com###nan_ad
 ||blogring.info/blogparts-img?$third-party
 femimatsu.com##.Article__content > a[href^="https://www.amazon.co.jp/dp/"]
@@ -5800,6 +5800,9 @@ javstore.net##img[title="aaaaa"]
 bamka.info,kaimyou.biz###st_custom_html_widget-14
 japan-secure.com##.ad-top-label
 bukidobi.com,sagi-site.com,xn--icktho51ho02a0dc.com,korewaeroi.com,switchsoku.com,sabatech.jp##.widgetSticky
+speed.rbbtoday.com##.random-banner
+rbbtoday.com##.main-amazon-ranking
+rbbtoday.com##.gigaindex .detail .arti-body.af
 rbbtoday.com,sabatech.jp##iframe[style="width:120px;height:240px;"]
 crefan.jp##.wrapper > div.container > div[align="center"]:not([class]):not([id])
 ||cravelweb.com/wp-content/uploads/*-banner.jpg

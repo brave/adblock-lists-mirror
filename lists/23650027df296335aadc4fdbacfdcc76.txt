@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: SFccNt37U5Jo1tg5abPFaw
-! Diff-Path: ../patches/8/8-s-1721932625-3600.patch
+! Checksum: PFXxCdAWDkMvhPlOJ9CZFw
+! Diff-Path: ../patches/8/8-s-1722278239-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.14
-! TimeUpdated: 2024-07-25T18:33:15+00:00
+! Version: 2.0.7.15
+! TimeUpdated: 2024-07-29T18:33:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1660,6 +1660,8 @@ omroepwest.nl#$#.adcontainer-Rectangle { position: absolute!important; left: -40
 ! Good: example.org###rek; ||example.com/ads/
 ! Bad: example.org#@##banner_ad (for instance, should be in allowlist.txt or in antiadblock.txt)
 !
+voetbalzone.nl##div[class^="ad-wrapper"]
+voetbalzone.nl##.fco-openweb-ad
 gptoday.net###gptoday_ros_foxtrot_rectangle-halfpage
 etos.nl##div[class^="gam-banner--"]
 npo.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , /stream-link)

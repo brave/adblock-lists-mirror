@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: y94dlJ5BmLtdTq4Iu+6ODA
-! Diff-Path: ../patches/1/1-s-1722263868-3600.patch
+! Checksum: 6sim3UUJ2LXy0Dq3ABoe9Q
+! Diff-Path: ../patches/1/1-s-1722274616-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.60
-! TimeUpdated: 2024-07-29T14:31:35+00:00
+! Version: 2.0.92.62
+! TimeUpdated: 2024-07-29T17:31:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7627,6 +7627,10 @@ ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru
 !
 !
 !
+fastpic.org##div[style$="min-width: 300px; z-index: 99;"]
+fastpic.org##div[style="min-height: 650px;"]
+fastpic.org###mainContainer > div.row:has(> div.col > div[style="min-height: 260px;"])
+fontanka.ru##.gridTwoThirdLaptop a.RBdb:has(> div > div.RBal + div.RBrz > svg)
 davno.ru##div[style="margin:20px 0px;overflow:hidden;min-height:240px;"]
 sp.freehat.cc###prgm-block
 frankmedia.ru##.adaptive-banner
@@ -7654,7 +7658,7 @@ abw.by##.ad-branding
 softportal.com##.TblOBan
 ||i38.ru/images/banners/$image
 ||i38.ru/images/stories/vidget/$image
-rosbalt.ru##div[data-provider="adfox"]
+bel.ru,rosbalt.ru##div[data-provider="adfox"]
 cq.ru##+js(set-constant, initBanners, noopFunc)
 vidak.icu,pb.wtf###page_contents > div > a[target="_blank"] > img
 vidak.icu,pb.wtf###main_content > div > a[target="_blank"] > img
@@ -7674,7 +7678,7 @@ afisha.ru#?#div[data-test="PAGE-BLOCK"] > div > section:has(> div[data-test="SEC
 doramiru.org##.speedbar + div:has(> div[id^="adfox_"])
 lostfilm.tv##.lstfml > a[style^="display:block;width:100%;padding-top:"]
 /\/images\/(hod|pacany)\.jpg/$domain=redheadsound.studio
-redheadsound.studio##div[class^="dle_b_"]
+myfanstv.net,redheadsound.studio##div[class^="dle_b_"]
 5koleso.ru##.right-col:has(> div[class*="banner-"])
 ru.savefrom.net##+js(window.open-defuser)
 ru.savefrom.net##+js(set-constant, clickAds.init, noopFunc)

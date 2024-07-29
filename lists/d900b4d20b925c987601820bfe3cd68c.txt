@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: xwtacuFkX922rS75Nl+S6Q
-! Diff-Path: ../patches/7/7-s-1722238646-3600.patch
+! Checksum: SiBRMo8metNekKoBotEyLQ
+! Diff-Path: ../patches/7/7-s-1722242329-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.88
-! TimeUpdated: 2024-07-29T07:33:20+00:00
+! Version: 2.0.54.89
+! TimeUpdated: 2024-07-29T08:34:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1774,7 +1774,7 @@ musicman.co.jp#$##is_header_banner { margin-top: 0px !important; }
 w.atwiki.jp##.amaquick-box
 w.atwiki.jp##iframe[width="728px"][height="90px"]
 crank-in.net###bannerin
-qiita.com##.p-items_main > div:not([class], [id]) > aside[class^="style-"]:has(> div:not([class], [id]):only-child > div[class^="style-"]:only-child > div[class^="style-"] > div[data-testid="ArticleAdsAfterBody_AdUnit"])
+qiita.com##.p-items_main > div:not([class], [id]) > aside[class^="style-"]:has(> div:only-child:not([class], [id]) > div[class^="style-"]:only-child > div[class^="style-"] > div[data-testid="ArticleAdsAfterBody_AdUnit"])
 ||api.twieromanga.com/api/headerancherad
 weathernews.jp##.pc[style="text-align: center; min-height: 100px;"]
 weathernews.jp###sub > section.dmenu-non:has(> div[style="width: 100%; margin: 0px auto 10px; text-align: center;"] > div[id^="div-gpt-"])

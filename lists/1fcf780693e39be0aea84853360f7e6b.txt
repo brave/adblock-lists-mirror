@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UGvbhHYkc4Ev31ObrytELA
-! Diff-Path: ../patches/224/224-s-1722249484-3600.patch
+! Checksum: GD8FDinWLcsFMIpusTX7bQ
+! Diff-Path: ../patches/224/224-s-1722289015-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.19.72
-! TimeUpdated: 2024-07-29T10:33:41+00:00
+! Version: 2.1.19.73
+! TimeUpdated: 2024-07-29T21:33:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1459,7 +1459,6 @@ dcard.tw#?##comment-anchor > section > div[style] > div[data-index]:has(> div[cl
 tw.stock.yahoo.com#?#.news > div[class="bd quote"]:has(ul > li > .geminiAd)
 lihkg.com#?##rightPanel div[id^="page-"] ~ div[class] > div > div[style^="display:"] ins.adsbygoogle:upward(div[style^="display:"])
 ithome.com#?#.bl > li:has(> a[href*="/lapin."])
-adrama.to#?#.post_sidebar > div.side_box:has(div[id^="mynewads_"])
 hao.360.com#?#.cube-container div.cube-mod:has(span.adMark)
 dacota.tw#?#section[class*="widget_text"] > .widget-wrap > .textwidget > div[class^="Zi_ad"]:upward(3)
 dcard.tw#?#div[data-index] > article:contains(贊助活動)
@@ -2549,7 +2548,6 @@ tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
 tw.stock.yahoo.com##td > div.ysm
 ||vip1.loli.net/2020/02/17/A9jmsY41EwiUzou.png$domain=ddrk.me
 mikanani.me##a[href][onclick*="'ad'"] > img[src^="/images/Masha/"]
-adrama.to###container > div[style*="margin-right: 2px;"][style*="width: 300px;"]
 ||nfmovies.com/pic/tu/banner-*.jpg
 ||hsex.men/view/img/*.gif
 ctwant.com##.l-ad__wrapper

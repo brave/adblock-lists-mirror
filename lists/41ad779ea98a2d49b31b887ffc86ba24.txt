@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CslvIcjnEOdPPmWXlUlFhA
-! Version: 202407290515
+! Checksum: r2h7IF8Zz3VSuZni1l5QXQ
+! Version: 202407290615
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-29 05:15 UTC
+! Last modified: 2024-07-29 06:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44494,6 +44494,7 @@ hot.si##+js(set-cookie, permission_statistic_cookies, 0)
 hot.si##+js(set-cookie, permission_funktional_cookies, 1)
 hot.si##+js(set-cookie, cookieconsent, 1)
 crenolibre.fr##+js(set-cookie, cookieconsent, true)
+monarchmoney.com##+js(set-cookie, cookieconsent, deny)
 e-pole.pl##+js(set-cookie, epole_cookies_settings, true)
 dopt.com##+js(set-cookie, dopt_consent, false)
 keb-automation.com##+js(set-cookie, privacy-statement-accepted, true, , reload, 1)
@@ -47255,6 +47256,8 @@ thebulletin.org,npr.org,vice.com,forward.com,nationalobserver.com,washingtontime
 ! 404media.co
 broadbandbreakfast.com,404media.co##.outpost-cta
 broadbandbreakfast.com,404media.co##body,html:style(overflow: auto !important; position: initial !important;)
+! monarchmoney.com
+monarchmoney.com##+js(set-cookie, exit-intent, true)
 ! hollywoodunlocked.com
 hollywoodunlocked.com##.featherlight
 hollywoodunlocked.com##body,html:style(overflow: auto !important; position: initial !important;)

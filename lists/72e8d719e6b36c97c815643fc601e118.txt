@@ -9,8 +9,6 @@
 ! General
 
 ||amplitude.com^$xmlhttprequest,third-party
-/arc/subs/p.min.js$script,third-party
-@@/arc/subs/p.min.js$script,domain=nzherald.co.nz
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
 ||blueconic.net^$third-party
@@ -43,6 +41,8 @@ gadget.pico.tools##+js(json-prune, locked)
 ||wallkit.net/js/$script,third-party
 ||weborama.fr/js/$script,third-party
 ||zephr.com/zephr-browser/$third-party
+/arc/subs/p.min.js$script,third-party
+@@/arc/subs/p.min.js$script,domain=nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party
 /evolok/*/ev-widgets.min.js$script,~third-party
 /paywall/evercookie_get.js$script,~third-party

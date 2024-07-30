@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jtyEDlMlcP5pWH4KwBqvAg
-! Version: 202407300615
+! Checksum: g9Ip3zakcL+1iV3jVgDgxQ
+! Version: 202407300740
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-30 06:15 UTC
+! Last modified: 2024-07-30 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34539,6 +34539,8 @@ scribd.com##div[data-testid="bottom-right-mrec"]
 scribd.com##div[data-testid="sticky-wrapper"]
 softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
+! :has
+stuff.co.nz#?#.common-html-frame.html-content:-abp-contains(how much)
 ! Paging overlays (previous/next page)
 archdaily.com###article-navigation
 eurosport.com###article-portal-container

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 00RSNN7S/ngYehxvjgMNMA
-! Version: 202407301140
+! Checksum: bWTKGmjqB9aXjaQB9yOwyA
+! Version: 202407301240
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-07-30 11:40 UTC
+! Last modified: 2024-07-30 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2470,6 +2470,7 @@ boomlive.in##.info-container2
 swissinfo.ch##.infobox
 thebulletin.org##.infobox-icon-above-title
 nypost.com,pagesix.com##.inline-module--newsletter
+restofworld.org##.inline-newsletter
 businessinsider.com,ekathimerini.com,insider.com##.inline-newsletter-form
 bloomberg.com##.inline-newsletter-top
 themarshallproject.org,utilitydive.com##.inline-signup
@@ -3425,6 +3426,7 @@ newswire.ca#?#.pull-right.inline-gallery-container:-abp-contains(Post this)
 notthebee.com#?#.bg-gray-50:-abp-contains(Want to stay informed)
 reclaimthenet.org#?#.elementor-section:-abp-contains(Subscribe for)
 reclaimthenet.org#?#.elementor-widget-container:-abp-contains(tired of censorship)
+salon.com#?#[style="text-align:center"]:-abp-contains(newsletter)
 skepticalraptor.com#?#.wp-block-group__inner-container:-abp-contains(Discover)
 taskandpurpose.com#?#.wp-block-quote:-abp-contains(inbox daily)
 theatlantic.com#?#.LostInventoryMessage_root__YllYq:-abp-contains(newsletter)
@@ -4478,7 +4480,6 @@ monarchmoney.com##body:style(overflow: auto !important; position: initial !impor
 ! fanboy_newsletter_specific_ABP.txt
 ! Sorted alphabetically by the domain
 cmswire.com#?#section:-abp-has(.footer__join-us-form)
-engadget.com#?#.rwd-outer-container:-abp-has(.newsletter-footer)
 headphonesty.com#?#div:-abp-has(> form[action*="subscribe"])
 relationshiphero.com#?#div:-abp-has(> .EmailSubscriber)
 !---------------------------------Allowlists----------------------------------!

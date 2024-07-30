@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: y5wHBOLKZv8cK7sL+zcV/A
-! Diff-Path: ../patches/7/7-s-1722339454-3600.patch
+! Checksum: c8wmLtGImrzxfRL2cw6IjQ
+! Diff-Path: ../patches/7/7-s-1722343050-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.54.96
-! TimeUpdated: 2024-07-30T11:33:24+00:00
+! Version: 2.0.54.97
+! TimeUpdated: 2024-07-30T12:33:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3581,9 +3581,7 @@ sweetchocolate.blogterest.net##.blockAreaHeader
 ||townnews.co.jp/entry_ad.json
 ||koko-soccer.com/assets/img/base/side_title_contents.jpg
 fu.minkabu.jp##div[class^="ad_hide"]
-adult-gazou.me,dougle.one,oppai-paipai.com##.head-pick
-||oppai-paipai.com/out-link/
-||oppai-paipai.com/pickup/
+adult-gazou.me,dougle.one##.head-pick
 encount.press##.script_box
 ||sikopedia.com/wp-content/themes/sango-sikopedia/sokuhou/iframe.php
 jnews1.com##.side > a[href^="http://www.amazon.co.jp/gp/"]
@@ -5554,7 +5552,6 @@ iko-yo.net##.c-ad--tieup
 iko-yo.net##.c-ad--w468
 iko-yo.net##.c-ad_container
 iko-yo.net,keibana.com##.l-header__ad
-oppai-paipai.com##.movie-player-block
 ||js.gazo.space^$domain=~av.av4.xyz
 ||js.gazo.space/tagjpa.php?
 ||media-radar.jp/widget/$third-party

@@ -4,11 +4,13 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.6.2
+! Version: 3.7.6.3
 
 ! General
 
 ||amplitude.com^$xmlhttprequest,third-party
+/arc/subs/p.min.js$script,third-party
+@@/arc/subs/p.min.js$script,domain=nzherald.co.nz
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
 ||blueconic.net^$third-party
@@ -598,6 +600,7 @@ businessden.com##div#copperpress-paywall
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
 connexionfrance.com##+js(cookie-remover, /^/)
 connexionfrance.com##div#subscribe-banner
+||dailymail.co.uk/static/mol-adverts/$script
 divisare.com##div.blocker
 divisare.com##+js(ra, style, body[style], stay)
 dominionpost.com##+js(rc, entry-content, article > div.entry-content)

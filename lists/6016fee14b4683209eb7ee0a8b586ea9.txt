@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Dbhu5VVItX0j8jBWkfx1Pg
-! Diff-Path: ../patches/16/16-s-1722379023-3600.patch
+! Checksum: kSfZrffmG/pOZeLXjjrlTQ
+! Diff-Path: ../patches/16/16-s-1722447409-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.75
-! TimeUpdated: 2024-07-30T22:33:37+00:00
+! Version: 2.0.45.76
+! TimeUpdated: 2024-07-31T17:33:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -670,8 +670,10 @@ jeune-gay.fr##+js(set-cookie, p_view, true)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164927
 occasions.decathlon.fr##+js(set-constant, FastClick, noopFunc)
 occasions.decathlon.fr##+js(set-constant, FastClick.attach, noopFunc)
+! https://github.com/AdguardTeam/AdguardFilters/issues/185148
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157906
-! 20min.ch - fixes video player
+! lessentiel.lu, 20min.ch - fixes video player
+lessentiel.lu,20min.ch##+js(adjust-setTimeout, setTimeoutIds_, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182538
 empire-stream.net##+js(set-constant, empire.pop, undefined)
 empire-stream.net##+js(set-constant, empire.direct, undefined)
@@ -1610,6 +1612,9 @@ app.molotov.tv##+js(no-xhr-if, /ping?token=)
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185148
+!+ NOT_PLATFORM(windows, mac, android, ext_chromium, ext_opera)
+@@||tdn.da-services.ch/current/lessentiel_durable.js$domain=lessentiel.lu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184097
 @@||sohosystems.co.za/gfx/banners/$~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182156

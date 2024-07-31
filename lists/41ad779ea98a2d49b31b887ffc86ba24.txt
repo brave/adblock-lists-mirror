@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9xp0MXUe0Sb+GxKpyNjMOA
-! Version: 202407312040
+! Checksum: gtJQYvJvJ5C0wk/jIK1O/Q
+! Version: 202407312240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-31 20:40 UTC
+! Last modified: 2024-07-31 22:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32326,7 +32326,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||phoenix-widget.com^$third-party
 ||pippity.com^$third-party
 ||placehold.it^$third-party
-||placeholder.com^$third-party
+||placeholder.com^$third-party,domain=~astrobin.com
 ||platform.loyaltylion.com^
 ||plaxo.com^$third-party
 ||player.anyclip.com^$script,third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~ksat.com|~news4jax.com|~wsls.com
@@ -44869,6 +44869,8 @@ tredy-fashion.de##+js(acis, jQuery, synchronizeCookieNoteCookie)
 hildegardis-krankenhaus.de,st-agatha-krankenhaus.de##+js(acis, document.createElement, consent.cookiebot.com)
 connect.de##+js(acis, document.createElement, delivery/cmp)
 archiveofourown.org##+js(acis, $j, acceptTOS)
+! https://github.com/uBlockOrigin/uAssets/issues/24681
+xe.com##button:has-text(Accept):upward(section)
 ! Admiral popups
 titantv.com,musicfeeds.com.au,minecraftalpha.net,worldpopulationreview.com,boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
 ! :remove()

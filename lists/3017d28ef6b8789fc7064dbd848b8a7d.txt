@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202408012153
+! Version: 202408012247
 ! Title: EasyPrivacy
-! Last modified: 01 Aug 2024 21:53 UTC
+! Last modified: 01 Aug 2024 22:47 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2644,6 +2644,7 @@
 /x.gif?
 /x_track.php?
 /xgemius.js
+/xinhua_webdig.js
 /xiti.js
 /xml/pv.xml?
 /xn_track.min.js
@@ -3200,6 +3201,7 @@ omni.soundestlink.com$image
 ||fastfinch.co^
 ||fastgull.io^
 ||fasttiger.io^
+||featuregates.org^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||ffe390afd658c19dcbf707e0597b846d.de^
 ||fn-pz.com^
@@ -12572,7 +12574,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.seznam.cz^
 ||counter.cnw.cz^
 ||h.imedia.cz^
-||h.seznam.cz/hit/
+||h.seznam.cz/hit
 ||h.seznam.cz/js/dot-small.js
 ||hit.skrz.cz^
 ||i.imedia.cz^
@@ -13947,6 +13949,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intent.pcworld.idg.com.au^
 ||intent.techadvisor.com^
 ||internal-analytics.odoo.com^
+||internal-e.posthog.com^
 ||internetslang.com/jass/
 ||intg.snapchat.com^
 ||intuitvisitorid.api.intuit.com^
@@ -14863,6 +14866,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
 ||youtube.com/youtubei/v1/log_event?
+||youtube.com/youtubei/v1/player/heartbeat?
 ||youtube.googleapis.com/youtubei/v1/log_event?
 ||youtubekids.com/api/stats/ads?
 ||youtubekids.com/api/stats/qoe?
@@ -52235,6 +52239,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 ! Portuguese
 ||audience-mostread.r7.com^
 ||click.uol.com.br^
+||csplog.kwai-pro.com^
 ||dejavu.mercadolivre.com.br^
 ||dn.pt/tag/
 ||dna.uol.com.br^
@@ -52250,6 +52255,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 ||log-ads.r7.com^
 ||logger.rm.uol.com.br^
 ||logger.uol.com.br^
+||logsdk.kwai-pro.com^
 ||matt.mercadolivre.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.

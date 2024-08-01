@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3mQ3RiQcq4Jt8VGHoLbDNg
-! Version: 202407312340
+! Checksum: uJjyQpEt3/fw+ewAcuDvXw
+! Version: 202408010115
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-31 23:40 UTC
+! Last modified: 2024-08-01 01:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1651,9 +1651,7 @@ _social_footer_
 /pp-t-a-c.js
 ! fanboy_newsletter_general_block.txt
 -footer-newsletter.
--newsletter-popup.
 -newsletterwidget.
--square-newsletter.
 /ame-newsletter-public.js
 /banner/newsletter.jpg
 /banner/newsletter.png
@@ -1664,7 +1662,6 @@ _social_footer_
 /bloc_newsletter.jpg
 /blocknewsletter.js
 /Components/newsletter/*
-/email_newsletter_
 /embeds/newsletter/*
 /ENewsletter_
 /feedburner-subscription-widget/style.css
@@ -1677,10 +1674,7 @@ _social_footer_
 /layout/newsletter.png
 /leadin-subscribe.min.js
 /mailup-email-and-newsletter-subscription-form/*
-/media/newsletters/*
 /mega-subscribe-popup/js/script.js
-/modals/newsletter&
-/modals/newsletter?
 /Netsteps_NewsletterPopup/js/newsletter-popup.min.js
 /newsletter-300x250.jpg
 /newsletter-300x250.png
@@ -1702,7 +1696,6 @@ _social_footer_
 /newsletter-subscription-$~stylesheet
 /newsletter/popup-
 /newsletter/popup/*
-/newsletter2011_
 /newsletter_banner.jpg
 /newsletter_banner.png
 /newsletter_wdgts.js
@@ -1723,6 +1716,7 @@ _social_footer_
 /ps_emailsubscription.js
 /rdstation-popup.min.js
 /sapo_newsletters.js
+/section-newsletter-popup.js
 /subscribe-popup.js
 /subscriber.newsletter.js
 /td-newsletter/style.css
@@ -35627,7 +35621,7 @@ oneindia.com###youtube_promo
 always-on.com.au###zeen_retina_image-3
 tennis.com##.-sharebar
 nhl.com,petri.com##.-social
-ynetnews.com##.AccordionShareWrapper
+ynet.co.il,ynetnews.com##.AccordionShareWrapper
 scrippsnews.com##.ActionBar
 kpbs.org##.ActionBar-items
 newatlas.com##.ActionLink
@@ -35658,7 +35652,7 @@ sfstandard.com##.PopupSharer_container__Nhcrt
 whatcar.com##.ReviewSocialSection_reviewSocialSection__qzV0o
 manofmany.com##.ShareBar_listItem__6t0E_
 hoorayteams.com##.Share_share__FQTKw
-ynetnews.com##.SiteArticleSocialShareNew1280
+ynet.co.il,ynetnews.com##.SiteArticleSocialShareNew1280
 futurework.org.au##.SiteFooter_socials
 veteranstoday.news##.Social
 amusingplanet.com##.SocialButtons
@@ -35716,6 +35710,7 @@ cosmosmagazine.com,forbes.com,phillyvoice.com##.article-sharing
 forexlive.com##.article-slot__socials
 newrepublic.com,thetech.com##.article-social
 heraldscotland.com##.article-sticky-social
+jpost.com##.article-subline-inner-share-buttons
 dailystar.com.lb,eurekalert.org##.article-tools
 businesstech.co.za##.article-top-bar-share
 nationalreview.com##.article-utility-nav
@@ -36028,6 +36023,7 @@ atlanticcouncil.org##.gta-hover-share-container
 jam-news.net##.has-medium-font-size.has-background
 hard-drive.net##.hd-discord
 gmanetwork.com##.hdr-social-links
+jpost.com##.header-a
 airlive.net##.header-alert
 nova-magazine.net##.header-info-text
 israelnationalnews.com##.header-nav-addons-link
@@ -36646,6 +36642,7 @@ reuters.com##div[class^="social__container_"]
 semafor.com##div[class^="styles_shareWrapper_"]
 abc.net.au##div[data-component="ShareUtility"]
 artforum.com##div[data-component="social-media"]
+haaretz.com##div[data-test="shareBar"]
 land.nrw##div[data-type="social_feed"]
 askmefast.com##div[style="clear:both;position:absolute;top:20px;left:0px"]
 ea.com##ea-social-links
@@ -41139,6 +41136,7 @@ indyweek.com,thefrisc.com,wisconsinwatch.org##.is-layout-constrained
 floridasportsman.com##.is-newsletter
 frommybowl.com,lgbtqnation.com##.is-style-default
 fatherly.com##.jNY
+israelhayom.com##.jeg_button_1
 desmog.com##.jet-popup
 ianbetteridge.com,vvng.com##.jetpack-subscribe-modal
 jamaica-gleaner.com##.jg-newsletter-sign-up
@@ -49554,7 +49552,10 @@ excelsior.com.mx###social-top-node
 europapress.es###subnavegacionFixed
 horoscoponegro.com###text-23
 acento.com.do###verticalShare
+ynetespanol.com##.ArticleBottomShareComponent
+ynetespanol.com##.ArticleHeaderShareComponent
 bluradio.com,caracoltv.com##.ArticlePage-google-news
+ynetespanol.com##.ArticleSideShareComponent
 deportv.gov.ar##.BarraRedesNot
 revistacromos.com.co##.Button_google
 elespectador.com##.Button_googleAlert

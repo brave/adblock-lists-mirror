@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IckhQ482vAHGfPHny3xuqw
-! Diff-Path: ../patches/13/13-s-1722353827-3600.patch
+! Checksum: nKIAdZMw+xRctiDGYuBqzw
+! Diff-Path: ../patches/13/13-s-1722501472-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.57
-! TimeUpdated: 2024-07-30T15:33:18+00:00
+! Version: 2.0.52.58
+! TimeUpdated: 2024-08-01T08:34:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1873,7 +1873,7 @@ odatv.com##.swiper-wrapper > a[href^="https://www.odatv.com/"] ~ a:not([href^="h
 ||hops1s.site/radisoninside.gif
 turkiyegazetesi.com.tr##.masthead-cls
 ||haber18.com/canbunlar/
-diziyoutv.com,720pizle.ai##a[target="_blank"] > .alert
+yabancidizi.io,diziyoutv.com,720pizle.ai##a[target="_blank"] > .alert
 ||tranimaci.*/vast.js
 ||tranimaci.*/pop*.js
 ||filmbari.com/casmas.webp
@@ -2023,7 +2023,7 @@ haberkibris.com##.mainCenter > div[style*="margin-right:"]
 basarisiralamalari.com#?#.owl-stage > div.owl-item:has(> div.ads)
 basarisiralamalari.com#?#.owl-dots > div.owl-dot:contains(/^R$/)
 hakimiyet.com##div[class*="reklam"]
-hakimiyet.com#$?#.swiper > div.swiper-wrapper  > div.swiper-slide:has(> a[href^="/reklam/ads/"]) { remove: true; }
+hakimiyet.com#$?#.swiper > div.swiper-wrapper > div.swiper-slide:has(> a[href^="/reklam/ads/"]) { remove: true; }
 sporx.com##div[style*="min-height: 250px;"][style*="text-align: center;"]
 superhaber.com#?#.container > .row > .col-md-6:has(> .adpro)
 neguzelsozler.com#?#.innerContainer div.row > div[class^="col-"] > div[style^="margin:"]:has(> ins.adsbygoogle)
@@ -2190,7 +2190,7 @@ yenimesaj.com.tr##body > div[style="margin: auto; width: 100%; height: 250px; te
 fulltimehdfilmizle.*##a[href^="https://azureiptv1.site/"]
 ||storj-cloud.cdn.ampproject.org/i/s/storj.cloud/f/fv/*.gif$domain=sinefy2.com
 720pizle.*##.top-bnr
-dizipub.club,filmmodu.co,roketdizi.co,sinefy2.com,dizilla.*,diziroll.*,720pizle.*###mPlayerFd
+yabancidizi.io,dizipub.club,filmmodu.co,roketdizi.co,sinefy2.com,dizilla.*,diziroll.*,720pizle.*###mPlayerFd
 diziroll.*##.series-watch-player a[target="_blank"] > img
 ||storj-cloud.cdn.ampproject.org^$domain=roketdizi.co|diziroll.*|720pizle.*
 ||storj-cloud.cdn.ampproject.org/i/s/storj.cloud/f/fv/hovardahatfoot.gif

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Haeb15IRtIwrftIOEQPKtQ
-! Version: 202408010651
+! Checksum: j+j6o0wsqa6OEiXdZilT3Q
+! Version: 202408010801
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Aug 2024 06:51 UTC
+! Last modified: 01 Aug 2024 08:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23248,9 +23248,9 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,sportmail.ru#?#tbody:-abp-has(> tr > td > [class*="daynews__item"]) > tr > td ~ td ~ td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru##tr > .daynews__spring
 ! Главная
-~e.mail.ru,mail.ru,~octavius.mail.ru##.fssnjse__arcoee
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.stripe-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.tgb-wrapper
+~e.mail.ru,mail.ru,~octavius.mail.ru##[class*="__arcoee"]
 ! Почта
 e.mail.ru,octavius.mail.ru###app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru###app-canvas .layout__overflow-container > .slot
@@ -24096,6 +24096,7 @@ dzen.ru##.article-right-ad-block
 dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
 dzen.ru##.zen-ui-viewport-expansion__container:empty
 dzen.ru##.zenad-card-rtb
+dzen.ru##[aria-label="Карточка этажа"] > div[class]:not([class*="wrapper"])
 dzen.ru##[aria-label^="Peкл"]
 dzen.ru##[aria-label^="Карточк"][aria-label*=" p"][aria-label*="кл"]
 dzen.ru##[aria-label^="Карточк"][aria-label*=" рекл"]
@@ -24110,6 +24111,7 @@ dzen.ru##div[class*="_position_articleBottom"]
 dzen.ru##div[class*="_position_feedSingleCard"]
 dzen.ru##div[class*="_rightAdWrapper"]
 dzen.ru##div[class*="_topBannerContainer"]
+dzen.ru##div[class*="card-widh-ad_"]
 dzen.ru##div[class^="advert-panel"]
 dzen.ru##div[class^="floor-card-rtb_"]
 dzen.ru##div[class^="floor-skeleton-card__skeletonCardWrapper"]
@@ -24129,7 +24131,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 ! переходы
 /*clyd=$popup,domain=dzen.ru
 /*icllcd=$popup,domain=dzen.ru
-/*qpil=$popup,domain=dzen.ru
+/*pil=$popup,domain=dzen.ru
 /*ychid=$popup,domain=dzen.ru
 /*ychyd=$popup,domain=dzen.ru
 /*yciild=$popup,domain=dzen.ru

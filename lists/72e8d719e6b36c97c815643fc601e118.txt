@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.6.3
+! Version: 3.7.7.0
 
 ! General
 
@@ -42,7 +42,7 @@ gadget.pico.tools##+js(json-prune, locked)
 ||weborama.fr/js/$script,third-party
 ||zephr.com/zephr-browser/$third-party
 /arc/subs/p.min.js$script,third-party
-@@/arc/subs/p.min.js$script,domain=nzherald.co.nz
+@@/arc/subs/p.min.js$script,domain=latercera.com|nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party
 /evolok/*/ev-widgets.min.js$script,~third-party
 /paywall/evercookie_get.js$script,~third-party
@@ -137,7 +137,6 @@ elespanol.com##div.full-suscriptor-container
 elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--closed)
 ||elobservador.com.uy/shares$xmlhttprequest,~third-party
 ||elpais.com.uy/user/authStatus$script,~third-party
-||elpais.com/arc/subs/p.min.js$script,~third-party
 elpais.com##div#ctn_freemium_article:remove()
 elpais.com##div#ctn_premium_article:remove()
 eltiempo.com##+js(rc, modulos, div.modulos)
@@ -190,7 +189,6 @@ inkl.com##div.gradient-container
 interestingengineering.com##+js(ra, class, div[class*="Product_makeBlur__"])
 interestingengineering.com##div#paywall-div
 ||irishexaminer.com/pu_examiner/scripts/engage/$script,~third-party
-||irishnews.com/arc/subs/p.min.js$script,~third-party
 japantimes.co.jp##+js(cookie-remover, xbc)
 journaldemontreal.com,journaldequebec.com##+js(rc, composer-content, div.article-main-txt.composer-content)
 journaldunet.com##div.reg_wall
@@ -212,7 +210,7 @@ kurier.at##div#cfs-paywall-container
 ||glanacion.com/*/metering/*.js$script,domain=lanacion.com.ar
 lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
 lanacion.com.ar##+js(set-local-storage-item, /^/, $remove$)
-||latercera.com/arc/subs/p.min.js$script,~third-party
+latercera.com##div.pw-frontier:remove()
 ||californiatimes.com/meteringjs/$script,domain=latimes.com|sandiegouniontribune.com
 ||ev.lavanguardia.com$xmlhttprequest,~third-party
 lavanguardia.com,mundodeportivo.com##span.content-ad,span.hidden-ad,span.ad-unit,div.ad-div
@@ -274,7 +272,6 @@ philosophynow.org##+js(cookie-remover, /^/)
 profil.at##+js(ra, class|style, div.paywall)
 profil.at##div#cfs-paywall-container,div.consentOverlay
 ||kinja-static.com/assets/*/regwalled-content.*.js$script,domain=qz.com
-||reuters.com/arc/subs/p.min.js$script,~third-party
 ||revistaoeste.com/wp-content/*/js/app.*.js$script,~third-party
 ||revistaoeste.com/revista/$inline-script
 revistaoeste.com##+js(ra, class, div.loading_content)

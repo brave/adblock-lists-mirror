@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.7.0
+! Version: 3.7.7.1
 
 ! General
 
@@ -260,6 +260,7 @@ nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div#dock-container
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
 ! athletic
 nytimes.com##div[id^="slideup-"],div[id*="overlay"],div#article-container-grid div:empty:not([data-rjs]),#paywall,div.ad-container
+nytimes##iframe[src*="regwall"]:remove()
 nytimes.com##body[class]:style(overflow:visible !important; position:relative !important)
 ||nzherald.co.nz/sales/public/v*/entitlements$xmlhttprequest,~third-party
 nzherald.co.nz##+js(set, Fusion.globalContent.isPremium, false)

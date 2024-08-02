@@ -145,6 +145,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||1abzar.ir/abzar/tools/post-view^$script,3p
 ||1abzaar.ir/abzar/tools/no-selects.js^$script,3p
 ||1abzaar.ir/abzar/tools/no-rightclick.js^$script,3p
+||1abzar.ir/abzar/tools/behesht/?mod=$script,3p
 
 ||abzarfa.com/services/minicounter^$script
 ||abzarfa.com/services/onlineusres^$script
@@ -293,6 +294,7 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||magnetadservices.com^
 ||merita.ir^
 ||mitrarank.ir^
+
 
 ! >> N <<
 ||niloblog.com/ads.js^$script,1p
@@ -2128,6 +2130,10 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! https://github.com/MasterKia/PersianBlocker/pull/243
+||mihantrader.com/media/images/ad^$image,1p
+mihantrader.com##div.text-white:has(> div:has-text(AD))
+
 musictag.ir##+js(nowoif)
 ||counter.musictag.ir^$1p
 musictag.ir##body:style(cursor: revert !important;)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ORKAhfom5NaehvnM5yYxjA
-! Version: 202408021501
+! Checksum: v+U070xsRAynD6tYk/5yfg
+! Version: 202408021551
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Aug 2024 15:01 UTC
+! Last modified: 02 Aug 2024 15:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -48,7 +48,6 @@ $third-party,popup,domain=2ip.ru
 ||namba.tj^$popup,domain=namba.tj
 ||onelink.me^$popup,domain=2ip.io|2ip.ru|2ip.ua
 ||otus.ru/*utm_$third-party,popup
-||playground.ru/*/promo/$popup
 ||rusvpn.com^$popup,domain=tornado.3dn.ru
 ||special.playground.info/haval$popup
 ||topofgames.com^*?path=$popup
@@ -21063,8 +21062,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||hwp.ru/images/mid/h-anons.
 ||hydrus.cc^$third-party,script
 ||i.kidstaff.com.ua/
-||i.playground.ru/e/5IsYX9ZPez27f_M6XOapUg.jpeg
-||i.playground.ru/e/CtVNnvs7kmBYygAmOmltAg.jpeg
 ||i.ua^*_brandpage_
 ||i2.kidstaff.com.ua/
 ||ibusiness.ru^*/netlab/style.css?
@@ -22987,7 +22984,6 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
-playground.ru##.signin-aside > .footer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.story__header:-abp-has(> div:empty)
 fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)

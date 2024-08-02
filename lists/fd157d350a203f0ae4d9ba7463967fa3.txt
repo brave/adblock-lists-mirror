@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3fCEoRFwv+lQcKfavDGZEw
-! Version: 202408021201
+! Checksum: VEnKq9Lqn8UrT5XzeFllTQ
+! Version: 202408021301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Aug 2024 12:01 UTC
+! Last modified: 02 Aug 2024 13:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1005,7 +1005,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##.directadvert-block
 ##.e-ta-rg
 ##.flat_ads_block
-##.fp-player > div[style^="position: absolute; inset: 0px; overflow: hidden; z-index:"][style$="background: transparent; display: block;"]
+##.fp-player > div[style^="position: absolute; inset: 0px; overflow: hidden; z-index:"][style*="background: transparent"][style$="display: block;"]
 ##.gaminator
 ##.goha_ads
 ##.goha_ads_acceptable
@@ -5520,6 +5520,7 @@ _tizers.
 ||dwtes.com^$third-party
 ||dxasracer.bid^$third-party
 ||dxracers.accountant^$third-party
+||dyaconiconelino.com^$third-party
 ||dyagiti.ru^$third-party
 ||dygadan.info^$third-party
 ||dyjdj358q.com^$third-party

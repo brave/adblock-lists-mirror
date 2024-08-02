@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: woHF5FDkLPJVcvUm8rmauw
-! Version: 202408020140
+! Checksum: 50vv1fD7qUuZ2YoGBL2oQA
+! Version: 202408020215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-02 01:40 UTC
+! Last modified: 2024-08-02 02:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -46802,8 +46802,8 @@ larca.de###wsConsentLayer
 larca.de##.modal-backdrop
 larca.de##body,html:style(overflow: auto !important; position: initial !important;)
 ! 220.lv
-220.lv,pigu.lt,kaup24.ee,hansapost.ee,hobbyhall.fi##.c-modal-container--cookies
-220.lv,pigu.lt,kaup24.ee,hansapost.ee,hobbyhall.fi##body,html:style(overflow: auto !important; position: initial !important;)
+220.lv,pigu.lt,kaup24.ee,hansapost.ee,hobbyhall.fi##+js(set-cookie, CA_DT_V2, 0, , reload, 1)
+220.lv,pigu.lt,kaup24.ee,hansapost.ee,hobbyhall.fi##+js(set-cookie, CA_DT_V3, 0)
 ! cvut.cz
 cvut.cz###ctu-cm
 cvut.cz##body,html:style(overflow: auto !important; position: initial !important;)

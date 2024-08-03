@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HMvsegL2aUEpqItLz4E92w
-! Version: 202408030040
+! Checksum: V8WM1O/8HtpCT6bNbKMNvQ
+! Version: 202408030140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-03 00:40 UTC
+! Last modified: 2024-08-03 01:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43452,6 +43452,9 @@ csmonitor.com##+js(set-local-storage-item, csm_unique_stories, $remove$)
 ! deepl.com (login nag and app popup)
 deepl.com##+js(set-local-storage-item, LMT_freeUserUsageBlock, $remove$)
 deepl.com##+js(set-local-storage-item, onboardingData, $remove$)
+! https://github.com/uBlockOrigin/uAssets/issues/24709
+yoreparo.com##.cta-bajo-pregunta + div[class^="div-block"]
+yoreparo.com##.post.blur:style(filter: none !important;)
 ! https://github.com/uBlockOrigin/uAssets/pull/20135
 github.com##button[data-testid="copilot-popover-button"]
 ! watchsomuchproxy.com

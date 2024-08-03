@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.7.1
+! Version: 3.7.7.2
 
 ! General
 
@@ -151,6 +151,8 @@ etc.se##+js(ra, class, div.bg-gradient-white, stay)
 etc.se##div[class$="-ad"]
 euobserver.com##+js(rc, show, div.membership-upsell.show)
 exame.com##+js(set-local-storage-item, pywllcount, $remove$)
+||specials.fd.nl/_next/static/chunks/framework-*.js$script,~third-party
+specials.fd.nl##div[class^="Opening_contentContainer"],section[class^="ScrollyText_"]:style(color: white)
 fieldandstream.com##div[class^="mailmunch-"]
 fieldandstream.com##+js(ra, class, html[class])
 ||financialexpress.com/*/min/premiumStoryContent.js$script,~third-party

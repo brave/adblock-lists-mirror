@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Brt1Ac+gjyt9K3kJFePv2Q
-! Diff-Path: ../patches/16/16-s-1722620170-3600.patch
+! Checksum: owK9BVVr19PV86vbTGsI/A
+! Diff-Path: ../patches/16/16-s-1722674161-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.45.84
-! TimeUpdated: 2024-08-02T17:32:48+00:00
+! Version: 2.0.45.85
+! TimeUpdated: 2024-08-03T08:32:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -117,6 +117,7 @@ capital.fr#@#.plainAd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183492s
 @@||soins-infirmiers.com/*/adblocker.blogads.css
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182577
+tvaplus.ca##+js(set-constant, ima, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182488
 ||cdn.assets02.nicematin.com/build/js/viewpay.*.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178842
@@ -874,6 +875,7 @@ $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.
 !
 !
 !
+tvaplus.ca##div[data-testid="ad-container"]
 tesla-mag.com##.sidebar-inner-wrap > section[id^="block-"]
 dealabs.com##div[id$="FuseZonePortal"]
 moneyvox.fr##.main div[class]:has(> img[mam-campaign="Ban"])

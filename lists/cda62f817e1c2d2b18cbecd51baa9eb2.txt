@@ -93,7 +93,7 @@ japscan.lol##+js(acs, eval, function)
 japscan.lol##+js(acs, document.getElementById, function)
 japscan.lol##+js(acs, addEventListener, String.fromCharCode)
 !japscan.lol##+js(aeld, DOMContentLoaded, /=>\{.+?;[$-_0-9A-z]{1\,10}\([$-_0-9A-z]{1\,10}\)===[$-_0-9A-z]{1\,10}&&[$-_0-9A-z]{1\,10}\(\).{5\,500};\}/)
-japscan.lol##+js(aeld, DOMContentLoaded, /['"]{2}\}; var/)
+japscan.lol##+js(aeld, DOMContentLoaded, )();})
 @@||japscan.lol^$ghide
 japscan.lol#@##blur-inter
 japscan.lol#@##promo.sticky-top
@@ -131,7 +131,7 @@ kimcartoon.li,kc.linksgen.com,kisscartoon.se##+js(set, isAdb, false)
 kimcartoon.li,kc.linksgen.com,kisscartoon.se##+js(no-fetch-if, bidgear)
 kimcartoon.li,kc.linksgen.com,kisscartoon.se##+js(trusted-replace-argument, document.getElementById, 0, undefined, condition, divContentVideo)
 ! @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=kimcartoon.li
-kimcartoon.li,kc.linksgen.com,kisscartoon.se##+js(acs, $, divContentVideo)
+kimcartoon.li,kc.linksgen.com,kisscartoon.se##+js(acs, $, Func())
 kimcartoon.li,kc.linksgen.com,kisscartoon.se###divContentVideo:style(display: block !important;)
 kimcartoon.li,kc.linksgen.com,kisscartoon.se###centerDivVideo > div[id]:has(> img[src^="https://i.imgur.com"])
 @@||kc.linksgen.com^$frame,1p,strict1p

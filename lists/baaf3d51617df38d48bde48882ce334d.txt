@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BpnC/f+1Z6Jze8Cci3E6Tw
-! Version: 202408040215
+! Checksum: ohM3aMv7CGo6jDTpg5VGrw
+! Version: 202408040340
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-08-04 02:15 UTC
+! Last modified: 2024-08-04 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2088,6 +2088,7 @@ cnet.com##.c-newsletterInlineUnit
 globalnews.ca,zdnet.com##.c-newsletterSignup
 noovomoi.ca##.c-newslettersticky
 chasingcars.com.au##.c-notification-bar
+texastribune.org##.c-plugin--flush > .c-plugin__inner
 folger.edu##.c-post__blog-sign-up
 eatthis.com##.c-postup-widget
 newstalkzb.co.nz##.c-promo
@@ -3437,6 +3438,7 @@ reclaimthenet.org#?#.elementor-widget-container:-abp-contains(tired of censorshi
 salon.com#?#[style="text-align:center"]:-abp-contains(newsletter)
 skepticalraptor.com#?#.wp-block-group__inner-container:-abp-contains(Discover)
 taskandpurpose.com#?#.wp-block-quote:-abp-contains(inbox daily)
+texastribune.org#?#p.t-links-underlinedy:-abp-contains(Sign up for The Brief)
 theatlantic.com#?#.LostInventoryMessage_root__YllYq:-abp-contains(newsletter)
 theguardian.com#?#[data-testid="contributions-liveblog-epic"]:-abp-contains(daily newsletter)
 theskimm.com#?#.bg-soft-teal:-abp-contains(Subscribe)
@@ -3512,7 +3514,7 @@ context.news,defector.com,dirt.fyi,goop.com,hellgatenyc.com,nationalworld.com,st
 !! newsletterSign
 scientificamerican.com##[class*="newsletterSign"]
 !! insider.com/businessinsider.com
-businessinsider.com,insider.com##.inline-newsletter-signup
+businessinsider.com,inc.com,insider.com##.inline-newsletter-signup
 !! #newsletterForm
 applefirmwares.com###newsletterForm
 !! .newsletter-subscription

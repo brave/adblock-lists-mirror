@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9j+bbPEiOVfyC1utC7o9ug
-! Diff-Path: ../patches/1/1-s-1722616644-3600.patch
+! Checksum: 0gcore29h+O9GAdJxKjEVQ
+! Diff-Path: ../patches/1/1-s-1722850643-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.80
-! TimeUpdated: 2024-08-02T16:31:22+00:00
+! Version: 2.0.92.81
+! TimeUpdated: 2024-08-05T09:31:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18785,10 +18785,10 @@ rg.ru##div[class^="NewsFeedList_banner"]
 ||assets.ficbook.net/assets/dist/advertisement.*.js
 ||fbassets.teinon.net/assets/dist/advertisement.*.js
 ficbook.com##.fb-ads
-ficbook.com,ficbook.net##body .fb-ads-block
-ficbook.com,ficbook.net##.rkl-block
-ficbook.com,ficbook.net##.rkl-banner
-ficbook.com,ficbook.net##div[id^="one_klick_"]
+ficbook.me,ficbook.com,ficbook.net##body .fb-ads-block
+ficbook.me,ficbook.com,ficbook.net##.rkl-block
+ficbook.me,ficbook.com,ficbook.net##.rkl-banner
+ficbook.me,ficbook.com,ficbook.net##div[id^="one_klick_"]
 !
 ! Special rules for AdGuard websites' test pages. The only purpose of these
 ! rules is to make test pages work so that users could verify that AdGuard

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TZVCQdTX/40UH+UzqD1axw
-! Diff-Path: ../patches/13/13-s-1722839825-3600.patch
+! Checksum: XOZIlb6UAyCSnBdUO+3Gnw
+! Diff-Path: ../patches/13/13-s-1722843436-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.62
-! TimeUpdated: 2024-08-05T06:33:08+00:00
+! Version: 2.0.52.63
+! TimeUpdated: 2024-08-05T07:33:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5563,6 +5563,7 @@ sporligtv480.live,sporligtv481.live,sporligtv482.live,sporligtv483.live,sporligt
 ! asyaanimeleri*.com - frequently changed domains
 asyaanimeleri01.com,asyaanimeleri02.com,asyaanimeleri03.com,asyaanimeleri04.com,asyaanimeleri05.com,asyaanimeleri06.com###overplay
 ! ugurfilm*.com - frequently changed domains
+ugurfilm7.com,ugurfilm8.com,ugurfilm9.com,ugurfilm10.com,ugurfilm11.com,ugurfilm12.com,ugurfilm13.com,ugurfilm14.com,ugurfilm15.com,ugurfilm16.com##a[href][target="_blank"] > img
 ugurfilm7.com,ugurfilm8.com,ugurfilm9.com,ugurfilm10.com,ugurfilm11.com,ugurfilm12.com,ugurfilm13.com,ugurfilm14.com,ugurfilm15.com,ugurfilm16.com#$?#body > header { margin-bottom: 0 !important; }
 ugurfilm7.com,ugurfilm8.com,ugurfilm9.com,ugurfilm10.com,ugurfilm11.com,ugurfilm12.com,ugurfilm13.com,ugurfilm14.com,ugurfilm15.com,ugurfilm16.com##a[href="https://ucuncusinema.com/"]
 /reklampopup*.js$domain=ugurfilm7.com|ugurfilm8.com|ugurfilm9.com|ugurfilm10.com|ugurfilm11.com|ugurfilm12.com|ugurfilm13.com|ugurfilm14.com|ugurfilm15.com|ugurfilm16.com

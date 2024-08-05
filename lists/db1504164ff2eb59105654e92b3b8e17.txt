@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HTSYsZWF0V+O/uy70n88NA
-! Version: 202408051351
+! Checksum: QyrpWbfip26Ep9tZ6DuxxA
+! Version: 202408051501
 ! Title: EasyList China
-! Last modified: 05 Aug 2024 13:51 UTC
+! Last modified: 05 Aug 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1712,6 +1712,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
 !
+||w0054.com^
+||xlmdtiyqbkygtfkh.com^
 ##a[href="https://yk63.me"]
 ||uvyuqzx.cn^
 ||letlwsl.top^
@@ -10400,6 +10402,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+huya.com##.ab-wrap
+huya.com#?#.item-pic:-abp-has(>.img-tips)
 hcbbs.com##a[href*="&adid="]
 hcbbs.com###portal_block_3441
 huya.com##.component-ab

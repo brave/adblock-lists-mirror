@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4wcU27YLZkpZcKyZtyqTgg
-! Diff-Path: ../patches/1/1-s-1722854245-3600.patch
+! Checksum: kYIbqOPyAvZs0RQxdVXOwA
+! Diff-Path: ../patches/1/1-s-1722861753-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.82
-! TimeUpdated: 2024-08-05T10:31:20+00:00
+! Version: 2.0.92.83
+! TimeUpdated: 2024-08-05T12:31:09+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5247,20 +5247,21 @@ vk.city4me.com#$##goo_rekm { height: 101px!important; position: absolute!importa
 forums.overclockers.ru#@##yandex_ad_1
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87125
-apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###chess
-apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###chessday
-apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###as_script
+monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###chess
+monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###chessday
+monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###as_script
 rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top##body > div[style*="background-color:"][style*="max-width:"][style*="height:"]
 $removeheader=location,domain=zannn.top|innal.top
-apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##+js(remove-node-text, script, /ads_script|checkCookie|chess/)
-apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##+js(no-setTimeout-if, /[echaysd]+/)
-apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top#$##e7af0de8b4 { height: 16px !important; }
+monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##+js(remove-node-text, script, /ads_script|checkCookie|chess/)
+monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##+js(no-setTimeout-if, /[echaysd]+/)
+monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top#$##e7af0de8b4 { height: 16px !important; }
+monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##+js(no-setTimeout-if, chessday)
 !
 ! rustorka.com
 /rustorka.\w+\/forum\/(?!login.php)/$removeheader=location
 /naylo.top\/forum\/(?!login.php)/$removeheader=location
 /games-pc.top\/forum\/(?!login.php)/$removeheader=location
-apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##+js(no-setTimeout-if, chessday)
+monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##+js(no-setTimeout-if, chessday)
 !
 tapochek.net##+js(set-constant, antiadblock, undefined)
 ! tapochek.net - fixing first click

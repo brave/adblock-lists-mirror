@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qQAtXmk5CZcAfGhHvAGF4g
-! Diff-Path: ../patches/7/7-s-1722857869-3600.patch
+! Checksum: 4A9+8jp9stMNow4WiXGSjg
+! Diff-Path: ../patches/7/7-s-1722861817-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.12
-! TimeUpdated: 2024-08-05T11:33:33+00:00
+! Version: 2.0.55.13
+! TimeUpdated: 2024-08-05T12:33:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1744,6 +1744,12 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||ryusoku.com/static/embed-bottom.html
+ryusoku.com###embed-bottom-iframe
+||beigeturtle97.sakura.ne.jp^$subdocument
+manga.nicovideo.jp###ads_pc_seiga_footer
+manga.nicovideo.jp###float-bnr-container
+golfnetwork.co.jp##div[class^="ad_banner"]
 natuero-dougakan.com#?#.side-menu:has(> h4:contains(/^PR/))
 natuero-dougakan.com##p[align="center"] > a[target="_blank"] > img
 akiba-souken.com##.middleBnr
@@ -2163,6 +2169,7 @@ bipblog.com##.main_center_body_text div[align="center"]:has(> a[href^="https://a
 j-baseball.club##.ad-space-top-footer
 j-baseball.club##.ad-space-top-header
 blog.janjan.net##.entry-content > p.has-text-align-center
+||nan-net.jp/*/banner_in/
 ||nan-net.com/banner_in/
 ||mbady.nan.co.jp/mbadv5?
 nan-net.com##.thread_body > div[style^="margin-top:50px;background-color:#FFF;"]
@@ -5009,6 +5016,7 @@ baseball.yahoo.co.jp##.sn-banner > a[href*="adj.st/open/"]
 sports.yahoo.co.jp##.cm-videoEmbedSub__banner
 rentry.jp###menu-sticky_ad
 twpro.jp##.ads-banner-box
+soccerdigestweb.com##.right_ad_c
 soccerdigestweb.com###pc_all_right_1st
 soccerdigestweb.com##.towcolumnBan_area
 ibarakinews.jp##.textad_box
@@ -5465,12 +5473,10 @@ webcg.net##.single-gallery-ad-hol-block
 webcg.net##.webcg-1030
 jidoushatounan.com##.banner_set:not(.pl_banner_top)
 ||jidoushatounan.com/wp/wp-content/uploads/2018/06/a2m_jtj.jpg
-erogamescape.dyndns.org###toContents + div[style="margin-bottom: 20px;"]
-erogamescape.dyndns.org###nav_2 > div[style="margin-bottom: 10px;"]
-erogamescape.dyndns.org###ad_banner_widesky
-erogamescape.dyndns.org###ad_rudel_1
-erogamescape.dyndns.org###ad_rudel_2
-erogamescape.dyndns.org###advertisement_amazon
+erogamescape.org,erogamescape.dyndns.org###adv_dmm_main
+erogamescape.org,erogamescape.dyndns.org###toContents + div[style="margin-bottom: 20px;"]
+erogamescape.org,erogamescape.dyndns.org###ad_rudel_1
+erogamescape.org,erogamescape.dyndns.org###ad_rudel_2
 phileweb.com###rightBanner_1
 city.yachiyo.chiba.jp,phileweb.com###topBanner
 sirabee.com,fumumu.net##.entryBottomBanner

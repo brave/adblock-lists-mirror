@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jiS1tW5hnkVshgt3YGBy7Q
-! Version: 202408060115
+! Checksum: tWq5VscYKFyFbo7EaAlIWg
+! Version: 202408060215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-06 01:15 UTC
+! Last modified: 2024-08-06 02:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34479,6 +34479,21 @@ gettr.com##img[alt="GETTR coin"]
 ! :has
 propublica.org#?#.bb-aside:-abp-contains(Get in Touch)
 stuff.co.nz#?#.common-html-frame.html-content:-abp-contains(how much)
+! youtube popups
+music.youtube.com#?#ytmusic-mealbar-promo-renderer.ytmusic-popup-container:-abp-contains(Premium)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(How are your)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(How interested)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(Live TV)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(YouTube Premium)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(background play)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(better TV)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(cable box)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(cable reimagined)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(hidden fees)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(of YouTube TV)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(on YouTube TV)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(unlimited DVR)
+www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(with YouTube TV)
 ! Paging overlays (previous/next page)
 archdaily.com###article-navigation
 eurosport.com###article-portal-container

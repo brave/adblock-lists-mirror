@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Yfv2TTasTjvD9Wvvwt15Cw
-! Diff-Path: ../patches/224/224-s-1722937050-3600.patch
+! Checksum: 3mBqLcbr+YYz1RKLps/X9w
+! Diff-Path: ../patches/224/224-s-1722940648-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.20.6
-! TimeUpdated: 2024-08-06T09:33:59+00:00
+! Version: 2.1.20.7
+! TimeUpdated: 2024-08-06T10:33:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4765,6 +4765,7 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+###index_banner[src*=".meituan.net"]
 ##script + .header_rmb
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -13481,6 +13482,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+supercloudsms.com##.container > div > a[id]
+tmioe.com##.singlegg
 kdslife.com###mainRightTopAd
 huya.com##.ab-wrap
 huya.com#?#.item-pic:-abp-has(>.img-tips)
@@ -16948,7 +16951,7 @@ sina.cn##.p_newsmore
 actoys.net##.p_top_ad
 cssmoban.com##.page-banner
 contents.internet.apps.samsung.com##.page-bar
-element-plus.org##.page-content-main-a
+element-plus.org##.page-content-main-b
 qidian.com##.page-ops
 boce.com##.page10Box1 > a[href^="http"]:not([href*="boce."])
 cngold.org##.pageAdv

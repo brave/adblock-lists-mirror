@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: AAJDAKL3K9pnXlqRUGFOsw
-! Diff-Path: ../patches/1/1-s-1722879417-3600.patch
+! Checksum: KqhE12lzoLopRcrI6PBUyA
+! Diff-Path: ../patches/1/1-s-1722951668-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.86
-! TimeUpdated: 2024-08-05T17:31:16+00:00
+! Version: 2.0.92.87
+! TimeUpdated: 2024-08-06T13:31:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5942,8 +5942,6 @@ cdntvpotok.com,cdnpotok.com,only-tv.org,oneliketv.com##+js(window.open-defuser, 
 hochu.tv##+js(abort-on-property-read, ABN)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98275
 ddgroupclub.win##+js(abort-current-script, Math.ceil, x.charCodeAt)
-! https://github.com/AdguardTeam/AdguardFilters/issues/50821
-kinokong.pro##+js(abort-on-property-read, ABN)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56094
 zloekino.su,zloekino.ru##+js(window.open-defuser, stargate)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49307
@@ -6259,8 +6257,6 @@ stranamam.ru#$#.branding-container { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98282
 sobaka.ru#$#.b-site-body { padding-top: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98711
-! https://github.com/AdguardTeam/AdguardFilters/issues/97393
-kinokong.pro#$##wrapper { margin-top: 64px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98812
 73online.ru#$#.head-b { margin: 0 auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98284
@@ -7603,6 +7599,8 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+kinokong.*#$#body > div#wrapper[style^="margin-top: 267px;"] { margin-top: 100px !important; }
+kinokong.*##.ad-branding
 cyberleninka.ru##.bibloid_serp
 moscowtimes.ru##div[y-name="banner"]
 adme.media##div[style="min-height:295px"]
@@ -10363,7 +10361,6 @@ intex-press.by##.google-ads-inside
 atorent.site##.message > div[style] a[rel="nofollow"] > img
 lebwa.tv##.filter-head-color:not(.text-center)
 lebwa.tv##.filter-intro-text:not(.text-center)
-kinokong.pro##div[style="margin: 6px 0;text-align: center;height:255px;"]
 pcprogs.net##noindex > center > a[rel="nofollow"]
 myshows.me##.clickioadunit300x600
 73online.ru##.right-b
@@ -14661,7 +14658,6 @@ zerocoolpro.biz##.zerocool-banner-sidebar-top
 cn.ru##.zilfond
 .zoomby.ru/a/
 /*.mp4$domain=letitbit.net
-/*.php?id=$domain=kinokong.net
 /*.php?img$domain=kinogb.club
 /*.php?uid=$domain=audioknigi-online.com|rutorka.net
 /*/*/*/*.js?p=*&amp$third-party,domain=hdkino.biz|lostfilm-hd.online
@@ -14705,7 +14701,7 @@ cn.ru##.zilfond
 /pornoberloga.com\/js\/[a-zA-Z0-9]{6,8}.js/$domain=pornoberloga.com
 /protjs/*$domain=adult-torrent.com|appspot.com|armourbook.com|dsvload.net|estasos.ru|foto-click.net|free-tor.com|freeimg.ru|imgbase.ru|imgclick.ru|joyreactor.cc|kinozal.website|kubik3.ru|kvn.ipb.su|lookszone.ru|lrfreelander.ru|mskd-ru.net|nolamers.net|nude-moon.com|online-torg.club|pawno-info.ru|payforpic.ru|piccash.net|picclick.ru|piccloud.ru|picusha.net|pix-x.net|playlist24.ru|pornolabs.org|pornopda.net|pslan.com|publicagent.ru|reactor.cc|soft-portal.club|svetmonet.ru|torrent-telik.com|torrents-club.org|traht.org|unionpeer.com|unionpeer.org|uralsoft.net|uzhgorod.name|мой-торрент.рф
 /rover/*.js$domain=noob-club.ru
-/show.php?id=$third-party,domain=bobfilm1.net|hronika.info|kino-dom.org|kino-live2.org|kinobanda.net|kinogo.co|kinokong.net|kinokrad.net|libtor.net|smotri-filmi.net|tfilm.me
+/show.php?id=$third-party,domain=bobfilm1.net|hronika.info|kino-dom.org|kino-live2.org|kinobanda.net|kinogo.co|kinokrad.net|libtor.net|smotri-filmi.net|tfilm.me
 /someshit*.js$domain=dolinadom.com|poseloks.ru
 /src.js|$domain=123ru.net|forum.ru-board.com|multgo.ru
 /stabs2.clock.ru\/pr\d+\//$domain=forum.watch.ru
@@ -15527,7 +15523,6 @@ zpppstop.ru##div[id^="zpppstop-stgroup-wrap"]
 3dnews.ru##div[id^=div-gpt-ad]
 intex-press.by##div[itemprop="articleBody"] > div > div[style="background-color: #f3f3f3;width: 80px;text-align: -webkit-center;padding: 2px;"]
 wintorrents.ru##div[onclick$="_bubbling(event);"]
-kinokong.net##div[onclick$="_cancel_bubbling(event);"]
 hdkinoklub.ru##div[onclick*="window.open"]
 findanime.me,grouple.co,librebook.ru,mintmanga.com##div[onclick="ga('send', 'event', 'adwise', 'click', 'under_player')"][style]
 forum.trade-print.ru##div[onclick="rbs_click_init(this);"]
@@ -16041,7 +16036,6 @@ webware.ru/*/clients/
 ||ad.admitad.com^$popup,domain=howdyho.net
 ||ad.demotivation.me^
 ||ad.mail.ru/vp/*&duration=$domain=vk.com
-||adforce.kinokong.net^
 ||adst.fwdcdn.com/frame/partners/*.html
 ||adultfriendfinder.com/go/page/js_im_box?$third-party
 ||adultmult.*/img/background.jpg
@@ -16625,9 +16619,6 @@ webware.ru/*/clients/
 ||kinohabr.net/*.php|$script
 ||kinohome.org/*/index.html
 ||kinoklad.net/uploads/posts/*_amigno
-||kinokong.biz/engine/classes/kek/kek.js
-||kinokong.cc/engine/classes/kek/kek.js
-||kinokong.net/templates/smartphone/js/random_youtube*.js
 ||kinokongo.cc/*.php|$script
 ||kinokrad.net/_brand/
 ||kinokraft.net/offergate/amigo.png

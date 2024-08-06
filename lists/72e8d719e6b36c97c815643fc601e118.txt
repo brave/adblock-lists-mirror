@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.7.2
+! Version: 3.7.7.4
 
 ! General
 
@@ -41,7 +41,7 @@ gadget.pico.tools##+js(json-prune, locked)
 ||wallkit.net/js/$script,third-party
 ||weborama.fr/js/$script,third-party
 ||zephr.com/zephr-browser/$third-party
-/arc/subs/p.min.js$script,third-party
+/arc/subs/p.min.js$script,~third-party
 @@/arc/subs/p.min.js$script,domain=latercera.com|nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party
 /evolok/*/ev-widgets.min.js$script,~third-party
@@ -65,8 +65,7 @@ artnet.com##div.article-body:style(display:block !important;)
 artnet.com##div[id^="issuem-leaky-paywall-"]
 magazine.atavist.com##+js(set-local-storage-item, /^/, $remove$)
 ||automobilwoche.de/sites/camw/files/js/js_-YBiL*.js$script,~third-party
-||axios.com/api/v1/licenses
-axios.com##div[data-cy="pro-paywall"],div[class^="Modal_paywallContainer"],div.apexAd
+axios.com##div[data-cy="pro-paywall"],div[class^="Modal_paywallContainer"]
 axios.com##+js(ra, style, html[style], stay)
 bizjournals.com##+js(ra, style, article div[style="display: none;"], stay)
 bizjournals.com##+js(ra, style, .paywalled-content[style], stay)
@@ -137,6 +136,7 @@ elespanol.com##div.full-suscriptor-container
 elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--closed)
 ||elobservador.com.uy/shares$xmlhttprequest,~third-party
 ||elpais.com.uy/user/authStatus$script,~third-party
+||verne.elpais.com/*.html$inline-script
 elpais.com##div#ctn_freemium_article:remove()
 elpais.com##div#ctn_premium_article:remove()
 eltiempo.com##+js(rc, modulos, div.modulos)

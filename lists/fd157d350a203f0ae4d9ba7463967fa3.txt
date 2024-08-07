@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vc9nizqPZqxj0bNpLveeEw
-! Version: 202408071451
+! Checksum: G3yv5bvKVOR4WbW1RpIVjA
+! Version: 202408071541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Aug 2024 14:51 UTC
+! Last modified: 07 Aug 2024 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15005,6 +15005,7 @@ onliner.by##.news-media__preview > a:not([href*="onliner.by/"]) > img
 onliner.by#?#.news-promo:-abp-has(> .news-promo__details)
 armyinform.com.ua##.news-section_items > li.link > a[target="_blank"] > img
 onliner.by##.news-text > * > a[href^="https://catalog.onliner.by/"][href*="utm_"]
+football24.ua#?#.news-text > .insert:-abp-has(> a[target="_blank"])
 onliner.by##.news-text > .news-media a[href^="https://catalog.onliner.by/"]
 onliner.by##.news-tidings__item.js-closable
 onliner.by##.news-widget
@@ -15549,6 +15550,7 @@ cofp.ru#?#.right_coll > .moduletable:-abp-has(> h3:-abp-contains(Рекламн�
 fanday.net##.right_colum > section:first-child
 egamersworld.com##.right_column > .bets + .side_bookmakers
 raskraska.com##.right_column > noindex
+eurointegration.com.ua##.right_column_content > [href][target="_blank"]
 otzyvua.net##.right_column_one > div[class^="mainblock h"]
 karavan.tver.ru##.right_con > :not(.city_paper)
 glavpost.ua##.right_content noindex
@@ -22998,12 +23000,12 @@ sdamgia.ru##[data-name="partial-container"]
 liveinternet.ru##[data-wrapper]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
-dzen.ru##a[href^="https://dzen.ru/"] div > div > div > div
+dzen.ru##a[href^="https://dzen.ru/"]:not(.ui-lib-embed-view-base__link) div > div > div > div
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 sdamgia.ru##center > div[id][style]
-dzen.ru#?#div:-abp-has(> a[href^="https://dzen.ru/"] div > div > div > div)
+dzen.ru#?#div:-abp-has(> a[href^="https://dzen.ru/"]:not(.ui-lib-embed-view-base__link) div > div > div > div)
 dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
 cq.ru#?#div:-abp-properties(content: "Реклама")
 dzen.ru#?#div:-abp-properties(position: relative !important)

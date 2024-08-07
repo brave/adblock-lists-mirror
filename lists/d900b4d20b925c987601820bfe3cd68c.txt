@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MIfhIawL8GuUnJtxPpzPaQ
-! Diff-Path: ../patches/7/7-s-1722965831-3600.patch
+! Checksum: J8YHgzn9K3+bUDaxGta5Jw
+! Diff-Path: ../patches/7/7-s-1722987406-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.18
-! TimeUpdated: 2024-08-06T17:33:24+00:00
+! Version: 2.0.55.19
+! TimeUpdated: 2024-08-06T23:32:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7789,7 +7789,7 @@ fx-koryaku.com##.textwidget > center > a[target="_blank"]
 ||dmm.co.jp^$domain=exploader.net
 ||exploader.net/d/$image
 ||dmm.co.jp^$popup,domain=exploader.net
-exploader.net###preview_images > div[style="max-width: 560px; position: relative; height: 302px;"] > div.h_items[style="margin-bottom: 10px;"]
+exploader.net###preview_images > div[style^="max-width: 560px; position: relative; height: "] > div.h_items[style="margin-bottom: 10px;"]
 exploader.net###preview_images > span[class^="tracking_"] > div[style="position: fixed;"] > div[data-pr]
 exploader.net###newfiles > ul.list > li[style*="height: 120px;"]
 exploader.net###wrapper > div[data-style][style*="fixed"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EN2avQoy1qsHMqJu83C8mQ
-! Diff-Path: ../patches/1/1-s-1722955136-3600.patch
+! Checksum: uFZZDG6YCETMgjEn+EVMzg
+! Diff-Path: ../patches/1/1-s-1723023477-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.88
-! TimeUpdated: 2024-08-06T14:32:24+00:00
+! Version: 2.0.92.89
+! TimeUpdated: 2024-08-07T09:31:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7352,6 +7352,7 @@ $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.
 !
 !
 !
+home.ss.ge##main div[id^="adoceanadvertlineg"][class*="Banner"][class^="sc-"]
 meteopost.com##td[valign="top"] > div[align="center"]:has(> ins.adsbygoogle)
 goloskarpat.info##.gkad
 newsarmenia.am##.partner
@@ -11044,7 +11045,6 @@ allbasketball.org##div[class^="block-catfish"]
 ||allbasketball.org/templates/AB2014/images/catfish/
 ||allbasketball.org/templates/AB2014/front/js/block-catfish*.js
 allmmorpg.ru##a[href^="https://allmmorpg.ru/index"][target="_blank"]
-tgstat.com,tgstat.ru##.slick-slider
 avito.ru##.avito-ads-placeholder
 avito.ru##.item-price-banner
 lostpix.com##.infotext

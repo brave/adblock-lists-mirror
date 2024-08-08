@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/bpc-clone/bypass-paywalls-clean-filters
 ! License: MIT; https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/LICENSE
 ! Last modified: 
-! Version: 3.7.7.4
+! Version: 3.7.7.5
 
 ! General
 
@@ -171,7 +171,6 @@ foreignpolicy.com##+js(rc, content-gated, body:not(.is-fp-insider) div.content-g
 fortune.com##+js(ra, class, div.paywallActive)
 foxnews.com##+js(ra, class, div[class*="gated-overlay"])
 foxnews.com##div.article-gating-wrapper
-||freiepresse.de/*-artikel$inline-script
 ||ftm.eu/js/routing$script,~third-party
 ||ftm.nl/js/routing$script,~third-party
 ftm.eu,ftm.nl##div.banner-pp,a.readmore

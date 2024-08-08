@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wXsqEkop3XvdfH/2hqd3Sw
-! Diff-Path: ../patches/1/1-s-1723124464-3600.patch
+! Checksum: eMIzQUYNr58qqc2eSDImzw
+! Diff-Path: ../patches/1/1-s-1723127847-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.92.95
-! TimeUpdated: 2024-08-08T13:31:36+00:00
+! Version: 2.0.92.96
+! TimeUpdated: 2024-08-08T14:31:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7627,6 +7627,7 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+championat.com##div.infographic-duel[data-champ]
 /uploads/rek/*$domain=animestars.org
 kommersant.ru##a[href^="https://hd.kinopoisk.ru/"]
 m24.ru##div[style^="width:300px;height:600px"]
@@ -17670,6 +17671,10 @@ freezpic.ru##iframe
 ren.tv,tverigrad.ru##a[href^="http://smi2.net/"]
 itc.ua,devby.io,profile.ru,glavred.info,pushkino.tv,tglink.ru,mos.news,nvdaily.ru,objectiv.tv,warnet.ws##.partners
 apachan.net,astromeridian.ru,forums.rusmedserv.com,gamemag.ru,igrigo.net,igru-xbox.net,itbukva.com,kino-go.co,kinokrad.co,miytvideo.ru,repackov.net,seeyoupage.ru,torrentum.ru,tourister.ru,warfiles.ru##body > noindex
+!
+! The Moscow Times
+moscowtimes.eu,moscowtimes.news,moscowtimes.ru##div[y-name="banner"]
+moscowtimes.eu,moscowtimes.news,moscowtimes.ru##.banner
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184250
 !

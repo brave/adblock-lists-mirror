@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: m8fGADhOHJqpCyDWY+03dQ
-! Diff-Path: ../patches/7/7-s-1723117147-3600.patch
+! Checksum: 6ztqviN4HUCYooefrS6nGg
+! Diff-Path: ../patches/7/7-s-1723131466-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.27
-! TimeUpdated: 2024-08-08T11:33:36+00:00
+! Version: 2.0.55.28
+! TimeUpdated: 2024-08-08T15:33:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1040,8 +1040,6 @@ betweenjpandkr.blog##+js(remove-node-text, #text, PR:)
 fashionpost.jp##+js(set-constant, ads_data, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160835
 dvdrev.com##+js(remove-node-text, #text, 関連動画)
-! https://github.com/AdguardTeam/AdguardFilters/issues/160020
-japaneseasmr.top##+js(window.open-defuser)
 ! skip ad
 portal.game.sycasualgames.com##+js(nano-setInterval-booster, timerId, 1000)
 ! ex. https://fm.sekkaku.net/mail/1303202134/
@@ -1145,8 +1143,6 @@ ponta.abstractpainting.work##+js(adjust-setTimeout, [native code], 3000, 0.25)
 ponta.abstractpainting.work##+js(adjust-setTimeout, [native code], 4000, 0.2)
 ponta.abstractpainting.work##+js(set-constant, FIRST_DELAY, 0)
 ponta.abstractpainting.work##+js(set-constant, NEXT_DELAY, 0)
-! https://github.com/AdguardTeam/AdguardFilters/issues/54943
-jp-xvideos.info##+js(addEventListener-defuser, click, event.triggered)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54027
 dotti2.jp,pochitto2.jp##+js(set-constant, sec, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54025
@@ -1201,7 +1197,6 @@ ryukyushimpo.jp#$?#main > .homepage:not(:matches-css(max-width: 1150px)) { margi
 vip-front.video.g.fc2.com,video.fc2.com#$#.main_ad_head_wide { padding-top: 0 !important; }
 video.fc2.com#$#.c-ad-103 { height: 0 !important; }
 map.yahoo.co.jp#$#.App__contentsMap[style="height: calc(100% - 50px);"] { height: 100% !important; }
-profile.ameba.jp#$#.big-footer-article__container { width: 656px !important; }
 umaroidblog.com#$##sidebar[style^="height:"] { height: auto !important; }
 maonline.jp#$#.media_article .articlegroups .d-block:not(:first-of-type) { border-top: none !important; padding-top: 0 !important; }
 peko-step.com#$##cgrig_base_pic { grid-auto-rows: auto !important; }
@@ -1322,8 +1317,8 @@ news-postseven.com#$#body[style^="overflow:"] { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119817
 minkabu.jp#$#.ly_content_wrapper { margin-bottom: 0!important; }
 ! overlay leftover
-naitter.hippy.jp,pictab.art,b2.sakki2022.com,my-nikki.net,ero-gazou.jp#$#.pum-overlay { display: none !important; }
-naitter.hippy.jp,pictab.art,b2.sakki2022.com,my-nikki.net,ero-gazou.jp#$#.pum-open { overflow: auto !important; }
+naitter.hippy.jp,pictab.art,my-nikki.net,ero-gazou.jp#$#.pum-overlay { display: none !important; }
+naitter.hippy.jp,pictab.art,my-nikki.net,ero-gazou.jp#$#.pum-open { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117400
 mapion.co.jp#$##map_yads { display: none !important; }
 mapion.co.jp#$##result_nav { bottom: 0 !important; }
@@ -1453,7 +1448,6 @@ buhidoh.net#$##center-left { height: auto !important; }
 saikyo-jump.com#$#.right-container { position: static !important; }
 kosoch.com#$##plugin2[style^="position: fixed"] { position: static !important; }
 blog.livedoor.jp#$#:matches-path(/kinisoku)#aside[style] { position: static !important; }
-kandatasokuho.blog.fc2.com#$##left { position: static !important; }
 anige-sokuhouvip.com#$##scroll.fixed { position: static !important; }
 itaishinja.com,digital-thread.com,kyousoku.net,oryouri.2chblog.jp#$##sub { position: static !important; }
 gahalog.2chblog.jp#$##sidebar[style^="position: fixed"] { position: static !important; }
@@ -2887,7 +2881,6 @@ ske48matome.net,dragoooon.com,corriente.top,sundaygamer.net##.adbox
 ||stds.jp/wp-content/uploads/*_300_250.webp
 stds.jp###amzout
 ||yimg.jp/images/listing/tool/yads/
-profile.ameba.jp##div[class$="__google-ad"]
 ||fusetter.com/uimg/7_1692858648000.jpg
 ||static.navinavi-hoken.com/*/dist/navinavi_hoken_com/images/banner-
 navinavi-hoken.com##.ml-auto > .insurance-container > .text-center
@@ -5729,7 +5722,7 @@ i-bbs.sijex.net##font[color="#FF0033"] > center > div[align="center"]
 ||biglobe.ne.jp/~kouaiu/eroamime.gif
 ||biglobe.ne.jp/~kouaiu/APPLE468_60.GIF
 ||e-nls.com^$domain=i-bbs.sijex.net|moetataiken.com|pwrtube.com
-||ebook-assets.dmm.co.jp^$domain=i-bbs.sijex.net|jp-xvideos.info|opantsu.fun
+||ebook-assets.dmm.co.jp^$domain=i-bbs.sijex.net|opantsu.fun
 i-bbs.sijex.net##center > b > a[href^="http://track.bannerbridge.net/click.php"][target="_blank"]
 i-bbs.sijex.net##center > table[cellpadding="5"][bgcolor="#d3d3d3"]
 i-bbs.sijex.net##center > strong > table[border="5"][frame="void"]
@@ -7908,7 +7901,7 @@ ryusoku.com##.article-footer-amazon
 ryusoku.com###primary > div[style^="width:700px;"]
 pcrecommend.com,ryusoku.com##div[style^="height:250px"]
 ||chixi.jp/img.php?filename=b_
-||pics.dmm.co.jp/digital/$domain=chat.shalove.net|urapic.com|roshutu-shuuti.net|i-bbs.sijex.net|jp-xvideos.info|opantsu.fun|ukemi-no-kiwami.work|m.erosoku.biz|yaruo18book.com|2ji.pink|tifer2.jp
+||pics.dmm.co.jp/digital/$domain=chat.shalove.net|urapic.com|roshutu-shuuti.net|i-bbs.sijex.net|opantsu.fun|ukemi-no-kiwami.work|m.erosoku.biz|yaruo18book.com|2ji.pink|tifer2.jp
 ||chat.shalove.net/PrintAd
 front-row.jp###floating-banner
 front-row.jp##.after-btn-fb-nice-ad-pc

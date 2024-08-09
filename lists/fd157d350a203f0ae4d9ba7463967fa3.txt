@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: S2iWoCyQmvJ1Ywv/g80a4Q
-! Version: 202408090851
+! Checksum: 1gOkI+b5r8PN66vqsR6SwA
+! Version: 202408090951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Aug 2024 08:51 UTC
+! Last modified: 09 Aug 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13761,7 +13761,7 @@ zamunda.ch,zamunda.net##.clickads
 glazey.info##.client
 literaguru.ru##.clinic-image
 gorodkiev.com.ua##.clr[style]
-allhen.online,doramatv.live,findanime.net,grouple.co,koro.life,librebook.me,mintmanga.live,mose.live,readmanga.live,readmanga.me,selflib.me,selfmanga.live##.co_ba
+allhen.online,doramatv.live,doramatv.one,findanime.net,grouple.co,koro.life,librebook.me,mintmanga.live,mose.live,readmanga.live,readmanga.me,selflib.me,selfmanga.live##.co_ba
 024.by,ampercar.com,autogeek.com.ua,bolshoyulov.ru,femmie.ru,fuzzmusic.ru,gadgets-help.ru,gubdaily.ru,hersonweek.net,itbusiness.com.ua,itsider.com.ua,kakbog.com,kovi.ru,mmr.net.ua,nnews.com.ua,o-polze.com,pcminipro.ru,poravkrym.ru,villaved.ru,vsviti.com.ua##.code-block
 prozoro.net.ua##.code-block-34
 vsekamni.net#?#.code-block:-abp-has(> .content_rb)
@@ -18108,7 +18108,7 @@ liveresult.ru#?#div:-abp-has(> div[style="color:#D42A28"])
 koolinar.ru#?#div:-abp-has(> header ~ a[href][rel="sponsored"])
 gdzguru.com#?#div:-abp-has(> img[src*="ops."])
 computer76.ru,rp5.am,rp5.by,rp5.co.nz,rp5.co.uk,rp5.kz,rp5.md,rp5.ru,videoredaktor.ru#?#div:-abp-has(> ins)
-doramatv.live#?#div:-abp-has(> noindex > script)
+doramatv.live,doramatv.one#?#div:-abp-has(> noindex > script)
 fragrantica.ru#?#div:-abp-has(> sup)
 football.kulichki.net#?#div:-abp-has(> table > tbody a[href*="kulichki.com/advert"])
 only-paper.ru#?#div:not(.adv-wrapper):-abp-has(> ins)
@@ -18148,7 +18148,7 @@ the-village.ru##div[class*="-BannerPlaceholder-"]
 servernews.ru##div[class*="-banner"]
 noi.md##div[class*="-bnr"]
 moskva.fm,piter.fm##div[class*="-branding-"] > a[target="_blank"]
-doramatv.live,grouple.co,librebook.me,mintmanga.live,mose.live,readmanga.live,selflib.me,selfmanga.live##div[class*="-brnd"]
+doramatv.live,doramatv.one,grouple.co,librebook.me,mintmanga.live,mose.live,readmanga.live,selflib.me,selfmanga.live##div[class*="-brnd"]
 kinoafisha.info##div[class*="-fix "][class$="as-desktop"]
 sibnet.ru##div[class*="2023"][class*="root"]
 mmo13.ru##div[class*="300x600"]
@@ -20563,7 +20563,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||cloud.*rutor.org/$script
 ||cloud.tvigle.ru^$script,domain=moevideo.net|playreplay.net|playvideolink.com|videochart.net
 ||cloudfront.net/partner-code/loaders/context_
-||cloudfront.net^$domain=5litra.ru|abc-people.com|allhen.online|cima4u.tv|debfile.com|doramatv.live|findanime.net|grouple.co|ilenta.com|leporno.org|librebook.me|mintmanga.live|mose.live|nowa.cc|online-fix.me|raidcall.com|raidcall.com.ru|readmanga.live|selflib.me|selfmanga.live|thg.ru|windata.ru
+||cloudfront.net^$domain=5litra.ru|abc-people.com|cima4u.tv|debfile.com|ilenta.com|leporno.org|nowa.cc|online-fix.me|raidcall.com|raidcall.com.ru|thg.ru|windata.ru
 ||cloudstatic.eva.ru^*/banner/
 ||club.foto.ru/images/banner/
 ||club^$third-party,script,xmlhttprequest,domain=kino-teatr.ua|kot-i-koshka.ru

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1gOkI+b5r8PN66vqsR6SwA
-! Version: 202408090951
+! Checksum: q4ncVC4a4QoNr/iQ7C4l4Q
+! Version: 202408091051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Aug 2024 09:51 UTC
+! Last modified: 09 Aug 2024 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1300,6 +1300,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="://lobar.site/r/"]
 ##a[href*="://loderkkis.ru"]
 ##a[href*="://manysoftlink.ru/"]
+##a[href*="://matchnow.info"]
 ~mediasyndicate.ru##a[href*="://mediasyndicate.ru"][href*="banner"]
 ~mt-pbs.te.ua##a[href*="://mt-pbs.te.ua"][target="_blank"] > img
 ##a[href*="://mysoftrotate.ru/"]
@@ -5120,6 +5121,7 @@ _tizers.
 ||corulka.net^$third-party
 ||corulu.com^$third-party
 ||costaction.com^$third-party
+||costumefilmimport.com^$third-party
 ||cotsta.ru^$third-party
 ||counterpartonline.ru^$third-party
 ||counterparttv.ru^$third-party
@@ -13761,7 +13763,7 @@ zamunda.ch,zamunda.net##.clickads
 glazey.info##.client
 literaguru.ru##.clinic-image
 gorodkiev.com.ua##.clr[style]
-allhen.online,doramatv.live,doramatv.one,findanime.net,grouple.co,koro.life,librebook.me,mintmanga.live,mose.live,readmanga.live,readmanga.me,selflib.me,selfmanga.live##.co_ba
+ahen.me,doramatv.live,doramatv.one,findanime.net,grouple.co,koro.life,librebook.me,mintmanga.one,mose.rocks,readmanga.live,selflib.me,selfmanga.live##.co_ba
 024.by,ampercar.com,autogeek.com.ua,bolshoyulov.ru,femmie.ru,fuzzmusic.ru,gadgets-help.ru,gubdaily.ru,hersonweek.net,itbusiness.com.ua,itsider.com.ua,kakbog.com,kovi.ru,mmr.net.ua,nnews.com.ua,o-polze.com,pcminipro.ru,poravkrym.ru,villaved.ru,vsviti.com.ua##.code-block
 prozoro.net.ua##.code-block-34
 vsekamni.net#?#.code-block:-abp-has(> .content_rb)
@@ -18148,7 +18150,7 @@ the-village.ru##div[class*="-BannerPlaceholder-"]
 servernews.ru##div[class*="-banner"]
 noi.md##div[class*="-bnr"]
 moskva.fm,piter.fm##div[class*="-branding-"] > a[target="_blank"]
-doramatv.live,doramatv.one,grouple.co,librebook.me,mintmanga.live,mose.live,readmanga.live,selflib.me,selfmanga.live##div[class*="-brnd"]
+ahen.me,doramatv.live,doramatv.one,grouple.co,librebook.me,mintmanga.one,mose.rocks,readmanga.live,selflib.me,selfmanga.live##div[class*="-brnd"]
 kinoafisha.info##div[class*="-fix "][class$="as-desktop"]
 sibnet.ru##div[class*="2023"][class*="root"]
 mmo13.ru##div[class*="300x600"]
@@ -24765,7 +24767,6 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 @@||festyy.com^$generichide
 @@||ficbook.net^$generichide
 @@||forum.vorota.de^$generichide
-@@||forums.overclockers.ru^$generichide
 @@||freelansim.ru/users/sign_in|$generichide
 @@||freeopenvpn.org^$generichide
 @@||gdeposylka.ru/auth/login|$generichide

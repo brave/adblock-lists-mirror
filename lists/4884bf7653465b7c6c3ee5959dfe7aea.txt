@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Mwo8BuA/NaiO0cGWzpZ3qg
-! Diff-Path: ../patches/9/9-s-1723138606-3600.patch
+! Checksum: 7pZE6ojMBtpnjyrmsSj5bg
+! Diff-Path: ../patches/9/9-s-1723189031-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.25.99
-! TimeUpdated: 2024-08-08T17:33:02+00:00
+! Version: 2.0.26.0
+! TimeUpdated: 2024-08-09T07:33:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2165,6 +2165,8 @@ globo.com,amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.c
 ! ##body .banner
 meiobit.com,brasilparalelo.com.br,tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+yugenapp.lat##.fixed.left-0.min-h-\[250px\].min-w-\[250px\]
+yugenapp.lat##div[id][style^="min-width:250px;min-height:250px;"]
 ||api-branch-handle.anroll.net/services/adcash/autotag
 eurosport.es##div[class*="-advert"]
 putinho.net###text-html-widget-2
@@ -2429,7 +2431,6 @@ visortmo.com##body :not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="ht
 visortmo.com#?#body :not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"]:has(> .thumbnail > style:contains(/pplr\d+_|n.?..?_|height[\s\S]*?opacity[\s\S]*?background-image/))
 visortmo.com#?#body :not(div[class="col-4 mx-0 px-0"]:not([style])) > a[href^="https://visortmo.com/library/"]:has(> style:contains(/pplr\d+_|n.?..?_|(height|background-size)[\s\S]*?background-image/))
 visortmo.com#$?#body style:contains(/position[\s\S]*?::before[\s\S]*?background-image[\s\S]*?width[\s\S]*?height/):has(+ a[href^="https://visortmo.com/library/"]) { remove: true; }
-yugenmangas.net.br##.ads-flot
 gartic.com.br###shopIntUm
 vrum.com.br##.ad-banner
 vrum.com.br#?#.category-list-post:has(> .ad-banner)
@@ -3205,8 +3206,7 @@ oplanetatv.clickgratis.com.br##.block-ads-wrapper
 oplanetatv.clickgratis.com.br##.ads:not(.prebid)
 oplanetatv.clickgratis.com.br##.ads-block:not(.prebid)
 comoacaba.com##.aawp
-yugenmangas.com##.site-header + .c-top-second-sidebar
-mangapt.com,yugenmangas.com##.body-wrap > .c-bottom-sidebar
+mangapt.com##.body-wrap > .c-bottom-sidebar
 mangapt.com##.body-wrap > .c-top-second-sidebar
 diariodenavarra.es##.sticky_horizontal
 melhoresdestinos.com.br##div[class*="banner"]
@@ -3443,7 +3443,6 @@ culturageek.com.ar###sidebar div.theiaStickySidebar
 businessinsider.es##div[class^="mega__BackgroundAds-"]
 metropoles.com##.m-banner-wrap
 lawebdelprogramador.com##.publi_robapaginas
-yugenmangas.com###teaser2
 ||tribunaavila.com/uploads/advertisings/
 maxitorrent.com##.bgshadow
 maxitorrent.com##.boxintersitial
@@ -3500,7 +3499,7 @@ lapoliticaonline.*###header-banner-wrapper
 onepieceex.net##.banner-resposivo
 tecmundo.com.br##p > a[href^="https://bit.ly/"][target="_blank"] > span > img
 ||img.ibxk.com.br/*/banner-*.png$domain=tecmundo.com.br
-g24.gal,levelup.com,eldiario.es,tuasaude.com,yugenmangas.org,yugenmangas.net.br,globo.com,eltiempo.com,gauchazh.clicrbs.com.br,hobbyconsolas.com,larepublica.pe,vozpopuli.com##.ad-container
+g24.gal,levelup.com,eldiario.es,tuasaude.com,globo.com,eltiempo.com,gauchazh.clicrbs.com.br,hobbyconsolas.com,larepublica.pe,vozpopuli.com##.ad-container
 hobbyconsolas.com##div[class^="ad-slot_"]
 hobbyconsolas.com##div[class^="placeholder_placeholder"]
 vozpopuli.com##.home_1_ad

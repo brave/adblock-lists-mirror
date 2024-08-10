@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8lPOcqB3hwTJPwUPSYbs/A
-! Diff-Path: ../patches/7/7-s-1723264635-3600.patch
+! Checksum: APix1nhyKnExp+5nzEK7YA
+! Diff-Path: ../patches/7/7-s-1723268194-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.37
-! TimeUpdated: 2024-08-10T04:33:09+00:00
+! Version: 2.0.55.38
+! TimeUpdated: 2024-08-10T05:32:55+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -825,9 +825,6 @@ video.tv-tokyo.co.jp#@#.ad-placeholder
 380cc.cc#$##playertopads { height: 51px!important; position: absolute!important; left: -3000px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20703
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20116
-! https://github.com/AdguardTeam/AdguardFilters/issues/7918
-avgle.com#@#img[src*=".php"]
-avgle.com#@#iframe[width="728"][height="90"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9094
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||nasubiblog.com^$generichide
@@ -1707,7 +1704,7 @@ ebisu-fridaynight.com,kitaro38.com,pc-bto.net,sikopedia.com,mitsuch.com,collieme
 gazlog.jp,yosk8.com,houkaistarrail.game-chan.net,koikatsu-portal.com,gamestlike.com,sorae.info,adtechmanagement.com,game-oruhachiv.com,shellbys.com,sugi9532.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 ! ##body .code-block
 kashi-mo.com##:matches-path(/media)body .code-block
-naporitansushi.com,daebak.tokyo,news.codetheworld.io,nhasachmienphi.com,xn--gmq92kd2rm1kx34a.com,mizugigurabia.com,news.dogforms.com,news.nguoimua.vn,news.thich.com.vn,news.animalworlds.xyz,news.yamahamoto.net,news.baovephapluat.vn,news.nenbiet.org,news.shouldibuythattoy.com,news.xomsach.com,news.autonewscenter.com,news.fandom.vn,spoilerplus.net,news.congdongytb.com,apple-geeks.com,echigo-inakataiken.jp,spread-sports.jp,summertravel.info,zundad.com,oreno-erohon.com,mangarawtop.at,dxr.jp,eizone.xyz,okayadokari.info,kojintekibikematomeblog.com,bl-archive.net,volx.jp,imishin.jp,iqossan.com,eromanga-sora.com,yunikons.com,anitubu.com,happymackeyblog.com,nuki-dokoro.com,eizone.info,cocoseka.gamewiki.jp,spirituabreath.com,travel.spot-app.jp,chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##body .code-block
+hoingaydi.com,naporitansushi.com,daebak.tokyo,news.codetheworld.io,nhasachmienphi.com,xn--gmq92kd2rm1kx34a.com,mizugigurabia.com,news.dogforms.com,news.nguoimua.vn,news.thich.com.vn,news.animalworlds.xyz,news.yamahamoto.net,news.baovephapluat.vn,news.nenbiet.org,news.shouldibuythattoy.com,news.xomsach.com,news.autonewscenter.com,news.fandom.vn,spoilerplus.net,news.congdongytb.com,apple-geeks.com,echigo-inakataiken.jp,spread-sports.jp,summertravel.info,zundad.com,oreno-erohon.com,mangarawtop.at,dxr.jp,eizone.xyz,okayadokari.info,kojintekibikematomeblog.com,bl-archive.net,volx.jp,imishin.jp,iqossan.com,eromanga-sora.com,yunikons.com,anitubu.com,happymackeyblog.com,nuki-dokoro.com,eizone.info,cocoseka.gamewiki.jp,spirituabreath.com,travel.spot-app.jp,chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##body .code-block
 ! ##.amazon
 karukantimes.com,hosyusokuhou.jp,vtuber-matomeruyon.blog.jp,gensin.blog.jp,newser.cc,kitizawa.com,pokebrary.blog.jp,i2chmeijin.com,oryouri.2chblog.jp,usi32.com,arrowknee-livedoor.blog.jp,itainews.com,syurabahazard.com,honwaka2ch.livedoor.biz,lovelivematocha.com,ysokuhou.blog.jp,carrot.dreamlog.jp,grasoku.com,ikarishintou.com,dark-soku.blog.jp,onihimechan.com,kinsoku.blog.jp,nandemo-uketori.com,jumpsokuhou.com,birthofblues.livedoor.biz,moeplus.com,copysoku.com,onecall2ch.com,getnews.jp,ebitsu.net,news.2chblog.jp,chomagireko.blog.jp,tarosoku.com,0taku.livedoor.biz,haijin-boys.com,hamusoku.com,ascii2d.net##.amazon
 ! ##.adsense
@@ -2491,8 +2488,10 @@ erocommu.jp##.sidebar:has(> div > div.plugin-freearea > a[href*="e-nls.com/acces
 hametaro.net##.sidemenu_content:has(> div.plg_body > div.plugin-freearea > a[href="https://superfreesex.blog.2nt.com/"])
 ||cross-way.net/market-value/wp-content/uploads/2023/12/banner.png$third-party
 doujin-master.fc2.xxx###l-sidecontents > aside.plugin_first:first-child
+motimoti3d.jp##+js(abort-on-stack-trace, document.write, fc2.com/motimoti3d/dl)
 $script,third-party,denyallow=fc2.com|googleapis.com|llnwd.net,domain=motimoti3d.jp
-@@/^https:\/\/file\.blog\.fc2\.com\/motimoti3d\/jsic\/(?:cmlo|cmrt|rtms)\.js$/$script,domain=motimoti3d.jp
+@@||file.blog.fc2.com/motimoti3d/jsic/$script,domain=motimoti3d.jp
+@@||file.blog.fc2.com/motimoti3d/rdiv.js|$domain=motimoti3d.jp
 @@||file.blog.fc2.com/motimoti3d/lightbox/js/lightbox3.js|$domain=motimoti3d.jp
 @@||file.blog.fc2.com/motimoti3d/audiojs/audio.min.js|$domain=motimoti3d.jp
 ||fc2.com/motimoti3d/$script,domain=motimoti3d.jp
@@ -4899,6 +4898,7 @@ shopping.yahoo.co.jp##div[class^="style_Ad"]:empty
 ||vtuber-post.com/wp-content/uploads/2021/12/PC_w1200_h170_3.jpg
 ||tool2.nan-net.com/doujin/oldman.jpg
 teach-me.biz##.ad2x
+hime.me,konyoku.net,toukou.tv,tuma.jp##img[width="728"]
 /\/pc(?:max)?728(?:200)?[a-z]?\.png$/$image,~third-party,domain=hime.me|konyoku.net|toukou.tv|tuma.jp
 /ads/pcmax728200$image,domain=tumadouga.jp
 /goods1.jpg$domain=hime.me|konyoku.net|toukou.tv|tuma.jp

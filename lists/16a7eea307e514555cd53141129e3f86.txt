@@ -4810,7 +4810,7 @@ citibank.com.sg##+js(set, populateClientData4RBA, noopFunc)
 mytempsms.com#@##container-ad
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19211
-||dynatrace.com^$script,redirect-rule=noopjs,domain=bcbstx.com
+||dynatrace.com^$script,redirect=noopjs,domain=bcbstx.com
 
 ! https://247sports.com/player/chance-robinson-46114146/ video breakage
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=247sports.com,important
@@ -4984,7 +4984,6 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=sonyliv.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19996
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=theonion.com
 ||adsafeprotected.com^$script,redirect-rule=noopjs,domain=theonion.com
 theonion.com##+js(nano-stb, b(), 3000)
 theonion.com##+js(nano-stb, ads, *)

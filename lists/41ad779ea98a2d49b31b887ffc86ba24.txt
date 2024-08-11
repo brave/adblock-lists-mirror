@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NLae/woJAb5CWFH0Q0/GwQ
-! Version: 202408110540
+! Checksum: eyEWn9SAm25s8Fb8lzYFeA
+! Version: 202408110640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-11 05:40 UTC
+! Last modified: 2024-08-11 06:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -23277,8 +23277,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cm-notification-container
 ##.cm-user-message
 ##.cm-wrapper-wrapper.inner
-##.cm_disclaimer
-##.cm_disclaimer-banner
 ##.cmc-cookie-policy-banner
 ##.cmnstr-activated
 ##.cmp-app_gdpr
@@ -40126,6 +40124,7 @@ x.com##.r-5kkj8d.r-153w4nv.r-1e4ma89.r-qq4cyc.css-175oi2r
 x.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
 ! Custom Filters
 primevideo.com##.DVWebNode-conditional-site-wide-wrapper:has([data-testid="consent-reject-all-endpoint"])
+blog.smithsecurity.biz##.fixed:has-text(cookies)
 istockphoto.com#?#.warning:-abp-has([data-cookie-type])
 moebelix.at#?#body > div > div:-abp-has(#jentis_consent)
 play.google.com#?#.gb_g:-abp-contains(cookie)
@@ -47317,6 +47316,9 @@ akaanseutu.fi,alueviesti.fi,kiuruvesilehti.fi,lempaala.ideapark.fi,lvs.fi,olutpo
 akaanseutu.fi,alueviesti.fi,kiuruvesilehti.fi,lempaala.ideapark.fi,lvs.fi,olutposti.fi,orivedensanomat.fi,pirmediat.fi,radiosun.fi,shl.fi,urjalansanomat.fi,ylojarvenuutiset.fi##+js(aeld, scroll, innerHeight)
 ! anna.fi
 anna.fi##+js(set, tcfAllowUseCookies, true)
+! .cm_disclaimer
+oklo.com##.cm
+oklo.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! historianet.fi,tieku.fi
 historianet.fi,tieku.fi##.topscroll-banner
 historianet.fi,tieku.fi##+js(set, cicc.cookie_cat_functional, true)

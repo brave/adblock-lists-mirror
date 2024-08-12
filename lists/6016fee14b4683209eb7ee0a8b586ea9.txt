@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: sOL9ZMsLNDevKY7uSKM75A
-! Diff-Path: ../patches/16/16-s-1723444672-3600.patch
+! Checksum: Hfa0Jpkr9AjivqStM1luYQ
+! Diff-Path: ../patches/16/16-s-1723466353-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.1
-! TimeUpdated: 2024-08-12T06:33:46+00:00
+! Version: 2.0.46.2
+! TimeUpdated: 2024-08-12T12:33:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -645,6 +645,8 @@ $script,redirect-rule=noop.js,domain=tf1info.fr
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/186121
+1jour1film.cyou##+js(remove-attr, href, a[href]#clickfakeplayer)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181954
 sudouest.fr##+js(adjust-setTimeout, return t(), *, 0.001)
 ! https://github.com/uBlockOrigin/uAssets/issues/23806

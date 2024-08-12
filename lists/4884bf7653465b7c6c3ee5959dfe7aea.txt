@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: iAfd37965iTbk88kVnbTMA
-! Diff-Path: ../patches/9/9-s-1723462720-3600.patch
+! Checksum: qtSILb59ps6Z1/2Y11TfKg
+! Diff-Path: ../patches/9/9-s-1723466373-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.6
-! TimeUpdated: 2024-08-12T11:33:28+00:00
+! Version: 2.0.26.7
+! TimeUpdated: 2024-08-12T12:33:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1514,8 +1514,6 @@ peru21.pe#@#.adstop
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/186121
-1jour1film.cyou##+js(remove-attr, href, a[href]#clickfakeplayer)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186078
 gamesperu2021.blogspot.com##+js(abort-current-script, document.addEventListener, window.open)
 ! https://github.com/uBlockOrigin/uAssets/issues/24632

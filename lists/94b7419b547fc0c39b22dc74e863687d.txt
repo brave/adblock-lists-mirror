@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: HfiTtm6u+epJxAykJKCKDg
-! Diff-Path: ../patches/1/1-s-1723556262-3600.patch
+! Checksum: VTB5AzsK+Ltr3yAgeVAeQw
+! Diff-Path: ../patches/1/1-s-1723570594-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.4
-! TimeUpdated: 2024-08-13T13:30:53+00:00
+! Version: 2.0.93.5
+! TimeUpdated: 2024-08-13T17:30:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7655,7 +7655,6 @@ afisha.ru##div[data-test*="HONEY-AD"]
 afisha.ru##div[role="list"] > div[class]:has(> div[data-test*="HONEY-AD"])
 svoboda.org###wrowblock-30947_21
 mk.ru###ya_feed_cont
-sortiraparis.com###contenu div.slots:has(> div[id^="unq_fmt_"])
 ysia.ru##div[class^="advads-"]
 sports.kz##.right_poll:has(> div.content_poll > iframe[title="Shaiba"])
 sports.kz##div[class^="ads"]

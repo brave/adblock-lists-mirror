@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: pOc5WZs1Qpmxjeo2bw8jlQ
+! Checksum: YFhv0Y/3lDwOZVDodd+nmg
 ! Title: Easylist Cookie List
-! Updated: 2024-08-13 03:40 UTC
+! Updated: 2024-08-13 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -21978,6 +21978,7 @@ primevideo.com##.DVWebNode-conditional-site-wide-wrapper:has([data-testid="conse
 blog.smithsecurity.biz##.fixed:has-text(cookies)
 istockphoto.com#?#.warning:-abp-has([data-cookie-type])
 moebelix.at#?#body > div > div:-abp-has(#jentis_consent)
+news.abs-cbn.com#?#.MuiBox-root:-abp-contains(Welcome,)
 play.google.com#?#.gb_g:-abp-contains(cookie)
 sonarhome.pl#?#.fixed:-abp-has(.cookies-scrollbar)
 studocu.com#?#.undefined:-abp-has([data-test-selector="click-the-cookie-banner"])

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0EprjakKribKuvt/XXOyuQ
-! Version: 202408130901
+! Checksum: GMeAgd1qBSL0c13ZdOVRUA
+! Version: 202408131001
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Aug 2024 09:01 UTC
+! Last modified: 13 Aug 2024 10:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23009,8 +23009,11 @@ pikabu.ru#?#.story__header:-abp-has(> div:empty)
 fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 dzen.ru#?#[class]:-abp-properties(/--banner-color:/)
+www.drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
+www.drive2.ru##[data-sticky-adtune]
+www.drive2.ru##[data-test="AdKebabAndLabel--adLabelContent"]
 liveinternet.ru##[data-wrapper]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
@@ -23018,7 +23021,10 @@ dzen.ru##a[href^="https://dzen.ru/"]:not(.ui-lib-embed-view-base__link) div > di
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
-~3igames.mail.ru,~account.mail.ru,~auto.mail.ru,~biz.mail.ru,~blog.mail.ru,~bonus.mail.ru,~calendar.mail.ru,~calls.mail.ru,~cloud.mail.ru,~connect.mail.ru,~deti.mail.ru,~dobro.mail.ru,~e.mail.ru,~gibdd.mail.ru,~health.mail.ru,~help.mail.ru,~hi-tech.mail.ru,~horo.mail.ru,~kino.mail.ru,~lady.mail.ru,~love.mail.ru,mail.ru,~mcs.mail.ru,~minigames.mail.ru,~my.mail.ru,~news.mail.ru,~o2.mail.ru,~octavius.mail.ru,~okminigames.mail.ru,~otvet.mail.ru,~pets.mail.ru,~player-smotri.mail.ru,~pogoda.mail.ru,~top.mail.ru,~touch.mail.ru,~tv.mail.ru#?#body[style="overflow: unset; max-height: unset;"] div:-abp-has(> div > div:-abp-properties(background-color: var(--home-portal-color-skeleton-secondary)))
+~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] article:empty
+~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] p:empty
+~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] section:empty
+~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] span:empty:not(.ph-marusia)
 sdamgia.ru##center > div[id][style]
 dzen.ru#?#div:-abp-has(> a[href^="https://dzen.ru/"]:not(.ui-lib-embed-view-base__link) div > div > div > div)
 dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
@@ -23035,6 +23041,8 @@ sdamgia.ru##div[id^="yandex_vario"]
 liveinternet.ru##div[style*="!important; "]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 eurointegration.com.ua##iframe[src="about:blank"] {remove:true;}
+www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
+www.drive2.ru##iframe[style="opacity: 1;"]
 eurointegration.com.ua##script[id][data-sdk] {remove:true;}
 liveinternet.ru##style + div > div > div > div > div a
 !#endif

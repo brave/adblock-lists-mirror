@@ -1,9 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: GIaRmknzDgCdMTSgjR5RHQ
+! Checksum: jvEpCEqhidAedr3AlEcQYQ
+! Diff-Path: ../patches/9/9-s-1723531028-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.7
-! TimeUpdated: 2024-08-12T12:33:17+00:00
+! Version: 2.0.26.8
+! TimeUpdated: 2024-08-13T06:33:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1569,7 +1570,7 @@ beautyskincarebrasil.com##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177524
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161356
 infoinvest.org,receitastop.click,receitasvegana.com,megacurioso.online,gastroponto.com,nossoprato.online,receitasdafazenda.com##+js(set-local-storage-item, last_ads, yes)
-modsimuladores.com,assistirfilmesdaluna.com,vejaideias.com.br,jogoscompleto.xyz##+js(adjust-setTimeout, atualizar, *, 0.02)
+cryptobr.biz,modsimuladores.com,assistirfilmesdaluna.com,vejaideias.com.br,jogoscompleto.xyz##+js(adjust-setTimeout, /atualizar|hided/, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161249
 fazercurriculo.online,usandoapp.com##+js(adjust-setTimeout, .delay, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161246
@@ -1844,7 +1845,7 @@ tuhentaionline.com##+js(abort-on-property-read, Pub2)
 !--------------------------------------!
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185949
-infoinvest.org,receitastop.click#$#.hided { display: block !important; }
+cryptobr.biz,infoinvest.org,receitastop.click#$#.hided { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177517
 elmueble.com#$#header { top: 0 !important; }
 elmueble.com#$#.admobile { display: none !important; }

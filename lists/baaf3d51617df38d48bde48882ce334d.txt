@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZyCTSvHp8mi8RQRwakc6Ng
-! Version: 202408130640
+! Checksum: IGNfW2zoc9hFgrQdf9qVfQ
+! Version: 202408130740
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-08-13 06:40 UTC
+! Last modified: 2024-08-13 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1439,6 +1439,7 @@
 ! fanboy_newsletter_specific_hide.txt
 insiderintelligence.com###ArticleNewsletterBottom
 3f-filippi.com###BannerNewsletter_Container
+newsmax.com###EmailSignupContainer
 air1.com,klove.com###FooterSignUp
 commerce.gov###GD-snippet-form
 kitchenparade.com###HTML1
@@ -3113,7 +3114,7 @@ media4growth.com##.subscribe-ltr
 techpout.com##.subscribe-medium
 meetup.com##.subscribe-modal
 gizmodo.com.au,kotaku.com.au,lifehacker.com.au##.subscribe-newsletter
-wccftech.com,westhawaiitoday.com##.subscribe-now
+hawaiitribune-herald.com,wccftech.com,westhawaiitoday.com##.subscribe-now
 longislandpress.com,metro.us##.subscribe-now-box
 thecanary.co##.subscribe-panel
 tpain.com##.subscribe-popup
@@ -3195,6 +3196,7 @@ cntraveller.com,them.us##.ticker-view
 ncaa.com##.tile-newsletter
 moneysavingexpert.com##.tip-email-popup
 thejakartapost.com##.tjp-newsletter-box
+the-tls.co.uk##.tls-newsletter__block
 ba-bamail.com##.tm-desk-reg-box-wrapper
 ba-bamail.com##.tm-join-box
 themedialine.org##.tml-in-content-block--subscribe
@@ -4019,6 +4021,8 @@ stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therec
 stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therecord.com,thespec.com,wellandtribune.ca##body,html:style(overflow: auto !important; position: initial !important;)
 ! Mouse out news/sub nags
 todaysparent.com,straitstimes.com,dlnews.com##+js(aeld, /^(mouseout|mouseleave)$/)
+! the-tls.co.uk
+the-tls.co.uk##+js(set-local-storage-item, tls_newsletter_visibility, true)
 ! breachmedia.ca
 breachmedia.ca##+js(set-cookie, cp_style_3841, true)
 ! breakingenergy.com

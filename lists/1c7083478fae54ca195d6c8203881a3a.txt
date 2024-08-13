@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.7.8.0
+! Version: 3.7.8.1
 
 ! General
 
@@ -201,8 +201,8 @@ kompas.id##kompasid-paywall,div.paywall.block
 krautreporter.de##.js-article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
-ksta.de,rundschau-online.de##+js(ra, class|style, div.paywalled-content, stay)
-ksta.de,rundschau-online.de##div.dm-paywall-wrapper,div.dm-slot
+ksta.de,rundschau-online.de##+js(ra, style, div[data-article-content], stay)
+ksta.de,rundschau-online.de##div.dm-paywall-wrapper,div.dm-slot,div.dm-zephr-banner
 ||cleverpush.com^$script,domain=ksta.de|rundschau-online.de
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=kurier.at
 kurier.at##+js(ra, class|style, div.paywall)
@@ -696,8 +696,6 @@ stockunlock.com##div.css-coxdc8
 trailsoffroad.com##.paywall
 vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
 ||zeitzeichen.net/sites/default/files/js/js_*.js$script,~third-party
-zvw.de##+js(rc, paywall, .paywall)
-zvw.de##.nfy-products-teaser,.nfy-banner
 
 ! General (amp)
 ||cdn.ampproject.org/*/amp-access-$script

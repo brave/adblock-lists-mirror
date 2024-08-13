@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: jE+IrdMIS/7yWLXixYKyMg
-! Diff-Path: ../patches/224/224-s-1723534619-3600.patch
+! Checksum: PjY5Sj6gGM5x2kNvBfGVkQ
+! Diff-Path: ../patches/224/224-s-1723538227-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.20.38
-! TimeUpdated: 2024-08-13T07:33:20+00:00
+! Version: 2.1.20.39
+! TimeUpdated: 2024-08-13T08:33:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -969,9 +969,6 @@ nxpaaq.com#$##mainContent { display: block !important; }
 pansci.asia#$##firstSingle { padding: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94092
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/90063
-applefans.today#$#body { overflow: auto !important; }
-applefans.today#$#.tipi-overlay { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29572
 ltn.com.tw#$#.whitecon > .related[data-desc="相關新聞"] > li:nth-child(5) { margin-right: 0!important; margin-left: 20px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13236
@@ -1021,6 +1018,7 @@ haoweichi.com#$#.adsbygoogle { height: 1px !important; }
 v2rayssr.com#$##wrapfabtest { height: 1px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83713
 51cto.com#$#.top_bg { height: 60px !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/90063
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68621
 applefans.today#$#body { overflow: auto !important; }
 applefans.today#$#.tipi-overlay { display: none !important; }

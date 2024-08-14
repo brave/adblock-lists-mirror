@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MDSQFlaM3LR0CklHFKH/iA
-! Diff-Path: ../patches/7/7-s-1723635407-3600.patch
+! Checksum: g9rY7TN+YvRxupi8/8fIxQ
+! Diff-Path: ../patches/7/7-s-1723642749-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.50
-! TimeUpdated: 2024-08-14T11:32:56+00:00
+! Version: 2.0.55.51
+! TimeUpdated: 2024-08-14T13:34:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1737,8 +1737,12 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+sabatech.jp##.l-sidebar > aside.widget_media_image
+gizmodo.jp#$?#.s-Ranking_TabItem:last-child:contains(Amazon) { remove: true; }
+gizmodo.jp#$?#.s-Ranking_ListContainerWrapper:has(> .-amazon) { remove: true; }
 ||oricon.co.jp/_ajax/job/get.php
-oricon.co.jp##.block-sub.block-sub-latest:has(.lnk_kjbox)
+oricon.co.jp##.block-sub-news tbody:has(> tr > td > div[class^="gmossp_"])
+oricon.co.jp##.block-sub-latest:has(> .lnk_kjbox)
 keibana.com##.news__detail__ad
 baby.blogmura.com##.subscription-flow
 nanjpride.blog.jp##.article-body-inner > table[height="250"]

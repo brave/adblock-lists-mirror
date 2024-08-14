@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pRcbfxikkvEUxPjY5ro9IQ
-! Version: 202408140801
+! Checksum: t4iKmu1cbAOMkU0CAko1Gg
+! Version: 202408140851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Aug 2024 08:01 UTC
+! Last modified: 14 Aug 2024 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6102,6 +6102,7 @@ _tizers.
 ||get1xzone.com^$third-party
 ||get2.fun^$third-party
 ||getads.ru^$third-party
+||getandgo.ru^$third-party
 ||getelem.ru^$third-party
 ||getgale.info^$third-party
 ||getmygeo.com^$third-party
@@ -15888,6 +15889,7 @@ festyy.com##.skip-advert
 fc-zenit.ru##.sl-foot
 kerch.fm#?#.slick-slide:-abp-has(div:-abp-contains(На правах рекламы))
 lib.rus.ec,posters.ec##.slide_anons
+kommersant.ru#?#.slider-commercial .multimedia__item:-abp-has(.spend__text > .spend__tag:-abp-contains(/^Партнерский /))
 rayon.in.ua##.slider-main
 yanzori.rbsmi.ru##.slider-main > .single-item > a[href]:not([href*="yanzori"])
 gorodvkusa.ru,sat-expert.com##.slider-wrapper
@@ -16503,8 +16505,6 @@ irr.by,irr.ru##.wrBanerPlace noindex
 avtosreda.ru##.wrap > noindex
 vse42.ru##.wrap-adplace-frame
 kurer-sreda.ru##.wrap-inf4x4
-abnews.ru##.wrap-sindicate
-abnews.ru##.wrap-yandex
 prosadiogorod.ru##.wrap_flat_ads_block
 osvita.ua##.wrapbanner
 novy.tv##.wrapper > #header > a[href][target="_blank"] > img
@@ -16714,7 +16714,7 @@ protocol.ua##[class^="headerBanner"] > .top
 brainstorage.me,freelansim.ru,moikrug.ru,tmfeed.ru##[class^="menu"][class*="special"]
 gig-torrent.ru##[class^="mgedwn"]
 zona.media##[class^="mz-advert-"]
-sm.news##[class^="partner"]
+abnews.ru,sm.news##[class^="partner"]
 fishki.net##[class^="partner-post"]
 vc.ru##[class^="post-branding-"]
 hwp.ru##[class^="promo"]
@@ -16944,7 +16944,7 @@ gorvesti.ru,xn--b1ats.xn--80asehdb##[src*="/files/rk/"]
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##[src*="/frontend/assets/advert/"]
 bazr.ru##[src*="/global/banner/"]
 ilenta.com##[src*="/images/banner/"]
-fakty.ua##[src*="/images/banners/"]
+abnews.ru,fakty.ua##[src*="/images/banners/"]
 sport-express.ua##[src*="/img/sadse/"]
 allrefrs.ru##[src*="/imgr/"]
 gecid.com##[src*="/inc/getBanIf."]
@@ -19955,7 +19955,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /gorilla.php?token$domain=pavlodar.news|pavon.kz
 /html5banner/*$domain=animevost.org|animevost.top|vost.pw
 /iframe/*$domain=rutr.life|rutracker.lib|rutracker.net|rutracker.nl|rutracker.org
-/images/banners/*$domain=19rus.info|19rusinfo.ru|1tvnet.ru|33strausa.ru|8vp.ru|agroxxi.ru|alfa-form.ru|altgazeta.ru|aniplay.tv|antimuh.ru|archiportal-crimea.ru|arendator.ru|aum.news|bez-smenki.ru|bitpump.ru|biwork.ru|bryansktoday.ru|buzday.ru|buzulukday.ru|bvedomosti.ru|cars.ru|coil32.ru|conversion.im|cryptoff.org|csmania.ru|cxem.net|darkmoney.at|dtpptz.ru|ecm-journal.ru|erotix-tv.com|express-prigorod.ru|fakty.ua|fermagid.ru|firtka.if.ua|fitsport.ru|forpost.lviv.ua|fuzz-magazine.ru|hd-systems.com.ua|house.kg|hv-info.ru|hype.tech|info-ua.com|infokam.su|inforeactor.ru|itc.ua|itexpert.org.ua|izmacity.com|kaluga.ru|kamchatinfo.com|karelia.ru|kazfootball.kz|kids.to-var.com|km.ru|ko44.ru|korabel.ru|kramatorsk.info|kyiv-independent.com|lifetambov.ru|mc.today|mebelminsk.by|medicalj.ru|memstatus.ru|mirnov.ru|mos-holidays.ru|moscow-post.com|motoforum.ru|motovibor.ru|moya-semya.ru|mycity.by|nakanune.ru|nashdisk.ru|naurfo.ru|ndn.info|nevasport.ru|newgdz.com|newgubakha.ru|news.soundex.ru|ng.kz|ngregion.ru|nsday.ru|numama.ru|ok-inform.ru|orenday.ru|osvita.ua|out-club.ru|perevolockday.ru|planet-today.ru|planetaskazok.ru|poiskvps.ru|pretenziy.ru|profidom.com.ua|prosports.kg|prosports.kz|rabota-kovrov.ru|rabota.kharkov.ua|radioclub.ua|rbc.ru|ria-m.tv|ria56.ru|ridna.ua|rtr24.ru|ruslife.eu|saltday.ru|sevastopol.su|sevkavportal.ru|shans.com.ua|skoda-club.org.ua|smolnarod.ru|sorochinskday.ru|sostav.ua|sp.tomica.ru|starkosino.ru|study.ru|tenstars.ru|ternopoliany.te.ua|trassae95.com|trisosny.ru|tv-gubernia.ru|ua-independent.com|uff.uz|ufocar.ru|ukrlife.tv|valetudo.ru|vdv-kavkaz.ru|vjazhi.ru|vmeste.tv|vp.donetsk.ua|vsatke.ru|vse-pro-sport.com.ua|vseprosport.by|vseprosport.kz|vseprosport.ru|yablor.ru|zamena-podshipnikov.ru|zrenue.com|zvid.org
+/images/banners/*$domain=19rus.info|19rusinfo.ru|1tvnet.ru|33strausa.ru|8vp.ru|abnews.ru|agroxxi.ru|alfa-form.ru|altgazeta.ru|aniplay.tv|antimuh.ru|archiportal-crimea.ru|arendator.ru|aum.news|bez-smenki.ru|bitpump.ru|biwork.ru|bryansktoday.ru|buzday.ru|buzulukday.ru|bvedomosti.ru|cars.ru|coil32.ru|conversion.im|cryptoff.org|csmania.ru|cxem.net|darkmoney.at|dtpptz.ru|ecm-journal.ru|erotix-tv.com|express-prigorod.ru|fakty.ua|fermagid.ru|firtka.if.ua|fitsport.ru|forpost.lviv.ua|fuzz-magazine.ru|hd-systems.com.ua|house.kg|hv-info.ru|hype.tech|info-ua.com|infokam.su|inforeactor.ru|itc.ua|itexpert.org.ua|izmacity.com|kaluga.ru|kamchatinfo.com|karelia.ru|kazfootball.kz|kids.to-var.com|km.ru|ko44.ru|korabel.ru|kramatorsk.info|kyiv-independent.com|lifetambov.ru|mc.today|mebelminsk.by|medicalj.ru|memstatus.ru|mirnov.ru|mos-holidays.ru|moscow-post.com|motoforum.ru|motovibor.ru|moya-semya.ru|mycity.by|nakanune.ru|nashdisk.ru|naurfo.ru|ndn.info|nevasport.ru|newgdz.com|newgubakha.ru|news.soundex.ru|ng.kz|ngregion.ru|nsday.ru|numama.ru|ok-inform.ru|orenday.ru|osvita.ua|out-club.ru|perevolockday.ru|planet-today.ru|planetaskazok.ru|poiskvps.ru|pretenziy.ru|profidom.com.ua|prosports.kg|prosports.kz|rabota-kovrov.ru|rabota.kharkov.ua|radioclub.ua|rbc.ru|ria-m.tv|ria56.ru|ridna.ua|rtr24.ru|ruslife.eu|saltday.ru|sevastopol.su|sevkavportal.ru|shans.com.ua|skoda-club.org.ua|smolnarod.ru|sorochinskday.ru|sostav.ua|sp.tomica.ru|starkosino.ru|study.ru|tenstars.ru|ternopoliany.te.ua|trassae95.com|trisosny.ru|tv-gubernia.ru|ua-independent.com|uff.uz|ufocar.ru|ukrlife.tv|valetudo.ru|vdv-kavkaz.ru|vjazhi.ru|vmeste.tv|vp.donetsk.ua|vsatke.ru|vse-pro-sport.com.ua|vseprosport.by|vseprosport.kz|vseprosport.ru|yablor.ru|zamena-podshipnikov.ru|zrenue.com|zvid.org
 /images/bnr/*$domain=napensii.ua|ogo.ua
 /images/brand.$image,domain=izbezhat-nakazania.com|strela-online.com|theflash-tv.com|vskazke-tv.com
 /images/brand/*$domain=amuzic.ru|emuzic.ru|ifin.kz
@@ -20172,6 +20172,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||aacalc.ru/images/Banner
 ||abc-people.com/banners/
 ||abc.inoprosport.ru/
+||abnews.ru/dog/
 ||abs.firstvds.ru^
 ||abv-soft.ru/block_script$script
 ||acc.cv.ua/images/acc_rek/

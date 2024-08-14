@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FuRzMulY20tZr7YDazO47Q
-! Diff-Path: ../patches/7/7-s-1723649854-3600.patch
+! Checksum: iw9HWgR7r8MRTvJPQyFdwA
+! Diff-Path: ../patches/7/7-s-1723671380-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.53
-! TimeUpdated: 2024-08-14T15:32:46+00:00
+! Version: 2.0.55.54
+! TimeUpdated: 2024-08-14T21:32:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -484,7 +484,6 @@
 ||kok.eroterest.net^
 ||ad-hatena.com^
 ||advert.punyu.com^
-||gum.dlbooks.to^
 !---------------------------------------------------------------------------!
 !-------------- Anti-adblock rules -----------------------------------------!
 !---------------------------------------------------------------------------!
@@ -577,8 +576,6 @@ puzzle-ch.com##+js(no-setTimeout-if, block)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151651
 blog.housinkai.com,kakenhi.net,seesaa.net##+js(addEventListener-defuser, DOMContentLoaded, interstitialAd)
 ||blog.seesaa.jp/visual/*/common/js/footer.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/149137
-eromanga-numa.com#@#.ad_widget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148073
 lemino.docomo.ne.jp##+js(no-xhr-if, doubleclick.net)
 @@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=lemino.docomo.ne.jp
@@ -3621,7 +3618,7 @@ sweetchocolate.blogterest.net##.blockAreaHeader
 ||townnews.co.jp/entry_ad.json
 ||koko-soccer.com/assets/img/base/side_title_contents.jpg
 fu.minkabu.jp##div[class^="ad_hide"]
-adult-gazou.me,dougle.one##.head-pick
+adult-gazou.me##.head-pick
 encount.press##.script_box
 ||sikopedia.com/wp-content/themes/sango-sikopedia/sokuhou/iframe.php
 jnews1.com##.side > a[href^="http://www.amazon.co.jp/gp/"]
@@ -4617,8 +4614,6 @@ javmix.tv##div[style$="background: repeating-linear-gradient(45deg, #fff 0, #fff
 pingporn.ru,xvideos-dl.com,nyahentai.re,asmr18.fans,twivideo.net,javfan.one,jav.direct,openloadpro.com,hhmanga.com,doujinantena.top,spankbang-dl.com,javprime.net,popjav.in,javmix.tv##div[style^="max-width: 1"][style*="height: 400px;"][style$="background-color: #fff;"]
 pingporn.ru,xvideos-dl.com,nyahentai.re,asmr18.fans,twivideo.net,javfan.one,jav.direct,openloadpro.com,hhmanga.com,doujinantena.top,spankbang-dl.com,javprime.net,popjav.in,javmix.tv##.home-h:has(+ div[style^="max-width: 1"][style*="height: 400px;"][style$="background-color: #fff;"])
 sankei.com##.main-items > div[id*="static-div-gpt-ad-"] + div[id^="fusion-static-enter"] + .custom-html-feature > hr
-dougle.one##.outlink-b
-dougle.one##.container_top_widget
 pref.gunma.jp##.footbnr
 naporitansushi.com###ai_widget-5
 naporitansushi.com###ai_widget-6
@@ -4629,9 +4624,8 @@ tousatu-club.com,plus1world.com,panchirasan.site,ani-chat.net,kimootoko.net##.po
 erodou.tousatu.fun##.widget-below-comment-form:not(.widget_new_entries)
 moez-m.com,xn--f6q12aj29i.com,shicony.com,nihongoka.com,saitamarket.com,erodou.tousatu.fun,womanlife.online##.widget-single-content-bottom
 ||mgstage.com/php/api/widget_affiliate.php
-erodouga-onaking.com,danchitsuma.bishojo-oppai.com,etude000.com,anianierosuki.work,ero-mag.site###col3
-ero-mag.site###execphp-4
-ero-mag.site,hiwaijosi.net##.erKokMidashi
+erodouga-onaking.com,danchitsuma.bishojo-oppai.com,etude000.com,anianierosuki.work###col3
+hiwaijosi.net##.erKokMidashi
 hiwaijosi.net##.horizontal-list
 ||dmm.co.jp/images/affiliate_banner/$third-party
 kanjitisiki.com##.menu-ads
@@ -5237,8 +5231,8 @@ boxil.jp##div[class*="-adsense"]
 dokuha.jp##.margin-bottom-md > a[target="_blank"][href^="https://search.rakuten.co.jp"]
 jwing.net##.sub > div[style="width:200px; margin: 20px auto 20px;"]
 chomanga.org###ad-double-rectangle
-novel18.biz,summertravel.info,mangarawtop.at,apk-live.com###idIframe ~ div.content-text.lh-16
-novel18.biz,summertravel.info,mangarawtop.at,apk-live.com###idIframe ~ div.text-center.mb-3
+novel18.biz,summertravel.info,mangarawtop.at###idIframe ~ div.content-text.lh-16
+novel18.biz,summertravel.info,mangarawtop.at###idIframe ~ div.text-center.mb-3
 naporitansushi.com###ai_widget-3
 hobbytimes.jp##.alignce > p
 resemom.jp##.sidebox[style*="1000px; margin-top"]
@@ -7182,7 +7176,6 @@ e-mansion.co.jp##.main_present_thread > div.padding > div.right.column
 jitenon.jp##.ads_wraptop2
 ||ero-mangalife.com/life.$subdocument
 av-sharing.com,okazurand.net##.affiliate-api-widget
-dougle.one##.ad_3rec
 macsoft.jp##.freebox
 macsoft.jp##.side-topad > .widget_text
 ||utaten.com/js/user/SidebarFollowAd.js
@@ -11150,5 +11143,5 @@ ironsaga-msoku.xyz,takushoku.info#@#.ad.widget
 ringo-no-mori.jp#@#.ad-bnr
 arukikata.co.jp#@#.ad_btn
 25news.jp,xn--0et88ccz6awh1a.biz#@#.has-ad
-cotoro.net,dougle.one,favoriteslibrary-books.com,hakenreco.com,shellbys.com,tipstour.net#@#.bottom_ad
+cotoro.net,favoriteslibrary-books.com,hakenreco.com,shellbys.com,tipstour.net#@#.bottom_ad
 920ryu.blog.fc2.com#@##scroll_ad

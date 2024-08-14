@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: L8oBn429ObZ7CT925beTmQ
-! Diff-Path: ../patches/9/9-s-1723649855-3600.patch
+! Checksum: 6c0WFACaRr92qKrgbM9QiA
+! Diff-Path: ../patches/9/9-s-1723671380-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.15
-! TimeUpdated: 2024-08-14T15:32:51+00:00
+! Version: 2.0.26.16
+! TimeUpdated: 2024-08-14T21:32:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2344,7 +2344,7 @@ razaoautomovel.com##body .s-incontent-ads
 canaltech.com.br##div[class^="flex h-[100px]"][class*="items-center"][class*=":h-[250px]"]
 periodicocorreo.com.mx##div[style*="bottom: 0px !important; width: 100% !important; max-height: 100px !important;"]
 abola.pt#?#.content-box:has(> div.news-item > div.info:contains(/Notícia Patrocinada/i))
-canalrural.com.br##.spaa-container
+sempreupdate.com.br,canalrural.com.br##.spaa-container
 fdr.com.br##.code-block[data-amp-original-style^="margin: 8px auto; text-align: center;"]
 abril.com.br##.ads-infinite-list
 ||azscore.com.br/rating/bk-widget/$third-party

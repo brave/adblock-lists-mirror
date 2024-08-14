@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NzDyGsb38UDjeJR9Q8+QEA
-! Version: 202408140900
+! Checksum: kpSo9poHvASeoq8xr8SxqA
+! Version: 202408141000
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2024-08-14 09:00 UTC
+! Last modified: 2024-08-14 10:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -600,6 +600,8 @@ asia.nikkei.com,businesspost.ie,rappler.com##body:style(height: auto !important;
 !flipboard.com##.modal-overlay
 !flipboard.com##body:style(overflow: visible!important; position: static!important;)
 !flipboard.com##.outbound-link.button--primary
+! google.com/maps
+google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 ! behance.net (in-app overlay)
 behance.net##.js-vue-mobile-app-upsell
 behance.net##body,html:style(overflow: auto !important; position: initial !important;)

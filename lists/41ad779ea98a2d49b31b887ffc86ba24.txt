@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ECjVbBDnN9jNW2tkJh/scg
-! Version: 202408140815
+! Checksum: HKBA7ih18iQbAIW+Yea4vg
+! Version: 202408140940
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-14 08:15 UTC
+! Last modified: 2024-08-14 09:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37878,6 +37878,7 @@ elitedaily.com##.bp
 tango.me##.bpEVj
 brainandlife.org##.breaking-container
 group.pingan.com##.browser-notification
+retrorealmsgame.com##.bt-cookie-flyout
 icanschool.eu##.btncn2
 handy-games.com##.bugme
 desiindian-brighton.co.uk,royalspiceworthing.com##.bxUGXS
@@ -43204,6 +43205,8 @@ asia.nikkei.com,businesspost.ie,rappler.com##body:style(height: auto !important;
 !flipboard.com##.modal-overlay
 !flipboard.com##body:style(overflow: visible!important; position: static!important;)
 !flipboard.com##.outbound-link.button--primary
+! google.com/maps
+google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 ! behance.net (in-app overlay)
 behance.net##.js-vue-mobile-app-upsell
 behance.net##body,html:style(overflow: auto !important; position: initial !important;)

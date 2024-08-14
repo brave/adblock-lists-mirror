@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ncoODd3XubxMBwf86douCg
-! Diff-Path: ../patches/13/13-s-1723588584-3600.patch
+! Checksum: jcTdMLrTDuvWWBNgyMt/zg
+! Diff-Path: ../patches/13/13-s-1723631833-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.83
-! TimeUpdated: 2024-08-13T22:32:46+00:00
+! Version: 2.0.52.85
+! TimeUpdated: 2024-08-14T10:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -76,6 +76,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||rqr97sfd.xyz^
 ||siberreklam.com^$third-party
 ||baglanbize.net^
 ||revotas.com^$third-party
@@ -743,6 +744,7 @@ dizipal700.com,dizipal701.com,dizipal702.com,dizipal703.com,dizipal704.com,dizip
 ##.fuck-ivr
 ##.fuck-ivr ~ p[style^="background-color:"]
 !
+##body > div[style^="bottom:0;height:50px;left:0;position:fixed;right:0;"][style$="width:100%;z-index:999999"]
 ###footer_fad
 ##.play_ust_txt
 ##.g-title > div.containerAds
@@ -938,7 +940,7 @@ dizipal700.com,dizipal701.com,dizipal702.com,dizipal703.com,dizipal704.com,dizip
 !*****
 ! START: Clickunders
 ! puShown
-filmerotixxx.com,filmfc.com,filmizletv18.com,onlinefilmizle.site,playerzz.xyz,filmjr.org,asfilmizle.com,dizikral.com,dizifast.net,dizikral.com,filmhe.com,tranimaci.*,hdfilmizle.site,sinepal1.vip,hdsinemax.com,hdfilmizle.org,siyahfilmizle.*,tafdi4.com,tafdi5.com,elzemfilm.org,tafdi3.com,anizle.com,hdfilmseyircisi.org,kozfilm.com,hdfilmizle.in,dizicaps.*,filmizletv1.*,diziyou.co,fullhdfilmizle.*,filmizlew.net,fullfilmizle.*,sinepal.*,dizimag.eu,bumfilmizle1.com,yabancidizilertv.*,1080hdfilmizle.com,hdfilmcehennemi.*,yabancidizibax.com,sinemangoo.org,sexfilmleriizle.com,fullhdfilm.pro,geziforumu.com,efendim.xyz,dizipaltv.net,fluffcore.com,hdfilmfullizle.com,hdfilmcehennemizle.com,netfullfilmizle3.com,filmmodu.info,izlekolik.*,arrowizle.com,hdfilmifullizle.com,jokerfilmizle.com,720pfilmiizle.net,filmcus.com,filmizlew.org,zoof1.xyz,sinemakolik.net,sinefilmizlesen.com,zarize.com,burdenfly.com,zzerotik.com,filmgo.org,sinemafilmizle.net,fullhdfilmiizle.org,filmkuzusu1.com,hdfilmcix.net,sinemadelisi.com,hdsexfilmizle.com,erotikfilmtube.com,dizipal.*,filmizletv.*,tekparthdfilmizle.*,pornoanne.com,dizikorea.*,diziyo.*,diziboxx.com,dafflix.*,turkaliz.com,vkfilmizle.net,dizimov.*,filmizlet.net,pornorips.com,bumfilmizle.com,shirl.club,evrenselfilmlerim.org,turkcealtyazilipornom.com,fullhdfilmmodu2.*,sinema.cx,hdfilmizletv.net,pembetv18.*,sinemaizle.co,hdfilmcehennem.live,efullizle.com,asyafanatiklerim.com,dizilost.com,fullhdfilmdeposu.com,tranimeizle.*,volsex.com,divx720pfilmizle.org##+js(set-constant, puShown, true)
+sinemakolik.org,filmerotixxx.com,filmfc.com,filmizletv18.com,onlinefilmizle.site,playerzz.xyz,filmjr.org,asfilmizle.com,dizikral.com,dizifast.net,dizikral.com,filmhe.com,tranimaci.*,hdfilmizle.site,sinepal1.vip,hdsinemax.com,hdfilmizle.org,siyahfilmizle.*,tafdi4.com,tafdi5.com,elzemfilm.org,tafdi3.com,anizle.com,hdfilmseyircisi.org,kozfilm.com,hdfilmizle.in,dizicaps.*,filmizletv1.*,diziyou.co,fullhdfilmizle.*,filmizlew.net,fullfilmizle.*,sinepal.*,dizimag.eu,bumfilmizle1.com,yabancidizilertv.*,1080hdfilmizle.com,hdfilmcehennemi.*,yabancidizibax.com,sinemangoo.org,sexfilmleriizle.com,fullhdfilm.pro,geziforumu.com,efendim.xyz,dizipaltv.net,fluffcore.com,hdfilmfullizle.com,hdfilmcehennemizle.com,netfullfilmizle3.com,filmmodu.info,izlekolik.*,arrowizle.com,hdfilmifullizle.com,jokerfilmizle.com,720pfilmiizle.net,filmcus.com,filmizlew.org,zoof1.xyz,sinemakolik.net,sinefilmizlesen.com,zarize.com,burdenfly.com,zzerotik.com,filmgo.org,sinemafilmizle.net,fullhdfilmiizle.org,filmkuzusu1.com,hdfilmcix.net,sinemadelisi.com,hdsexfilmizle.com,erotikfilmtube.com,dizipal.*,filmizletv.*,tekparthdfilmizle.*,pornoanne.com,dizikorea.*,diziyo.*,diziboxx.com,dafflix.*,turkaliz.com,vkfilmizle.net,dizimov.*,filmizlet.net,pornorips.com,bumfilmizle.com,shirl.club,evrenselfilmlerim.org,turkcealtyazilipornom.com,fullhdfilmmodu2.*,sinema.cx,hdfilmizletv.net,pembetv18.*,sinemaizle.co,hdfilmcehennem.live,efullizle.com,asyafanatiklerim.com,dizilost.com,fullhdfilmdeposu.com,tranimeizle.*,volsex.com,divx720pfilmizle.org##+js(set-constant, puShown, true)
 ! isShow
 tekfullfilmizle5.com##+js(set-constant, isShow, true)
 ! initPu
@@ -952,6 +954,8 @@ shirl.club,altporno.xyz##+js(abort-on-property-read, oV1)
 ! END: Clickunders
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/186287
+1dizifilmizle.com##+js(abort-on-property-read, elemDiv)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179591
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177389
 dizigom1.tv##+js(no-setTimeout-if, /img[\s\S]*?\.gif/)
@@ -1687,7 +1691,7 @@ itemci.com#$#body { background: none !important; }
 !
 ! Images hosting. Used for advertising on many sites
 !+ NOT_OPTIMIZED
-://i.hizliresim.com^$domain=sinemangoo.org|sexfilmleriizle.com|filmsezonu.com|ajans32.com|haber32.com.tr|buyuktorbali.com|technopat.net|ertehaber.com|duzcetv.com|unyenethaber.com|haberant.com|dizilost.com|medya32.com|balfilmizle1.com|malatyamegahaber.com|zerotikk.com|jokerfilmizle.com|erotikfilmtube.com|kozfilm.com|birasyadizi.com|asyadiziizle.com|dizicaps.*|hdfilmizleamk.*|muglayenigun.com
+://i.hizliresim.com^$domain=1dizifilmizle.com|diziplus.*|dizifast.net|sinemangoo.org|sexfilmleriizle.com|filmsezonu.com|ajans32.com|haber32.com.tr|buyuktorbali.com|technopat.net|ertehaber.com|duzcetv.com|unyenethaber.com|haberant.com|dizilost.com|medya32.com|balfilmizle1.com|malatyamegahaber.com|zerotikk.com|jokerfilmizle.com|erotikfilmtube.com|kozfilm.com|birasyadizi.com|asyadiziizle.com|dizicaps.*|hdfilmizleamk.*|muglayenigun.com
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5969
 /images/banner/*$domain=yalovagazetesi.com|haber46.com.tr|cukurovaexpres.com|ciddigazete.com|karamangundem.com|tercihiniyap.net|alanyapostasi.com.tr|pratikhaber.com|sonhaber.eu
@@ -1745,6 +1749,12 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+1dizifilmizle.com##.banners-container
+pllsfored.co,taraftarium.co##+js(set-constant, config.adv, {})
+||pllsfored.co^$image,third-party
+elle.com.tr##.abg245
+elle.com.tr#$#main.content-index { margin-top: 0px !important; }
+||sinemakolik.org/Sinemakolik-pop.js
 ||fullfilmizlebaba.com/s-m1.js
 ||filmerotixxx.com/pop*.js
 ajansspor.com##.game-banner
@@ -2028,7 +2038,6 @@ beinsports.com.tr##.ad-fixture-standing-masthead-banner
 cumhuriyet.com.tr###sticky-player
 cumhuriyet.com.tr##.col-md-12.mb20[style^="width:100%; aspect-ratio:"]
 sikayetvar.com##.promo-banner
-||webteizle.live/taxi.js
 hentaizm.fun##.pa-container
 hentaizm.fun#?##leftC > .filmborder:has(> .filmcontent > .tam > a:contains(Sponsor Reklam))
 haberkibris.com#$?#.mansetSlider li:has(img[src*="//haberkibris.com/banner2/"]) { remove: true; }
@@ -3047,7 +3056,7 @@ inegolonline.com##.boxStyle[style^="height:"]
 inegolonline.com##iframe[src^="https://ads.inegolonline.com/"]
 41saat.com##.genel > div[style^="width: 980px; height: auto; margin:"]
 ||41saat.com/wp-content/uploads/*/*/toraman-reklam-980.jpg
-diziplus.co,dizikorea.*,dizivap.*,dizivid.co,diziday1.com,filmzal.*##.player-top-ad a
+dizifast.net,diziplus.*,dizikorea.*,dizivap.*,dizivid.co,diziday1.com,filmzal.*##.player-top-ad a
 arabamkacyakar.com##.ads_aky
 memurlar.net##.widget-970x250
 memurlar.net##.widget-336x280
@@ -5476,26 +5485,15 @@ yabancidizi.*##.prevideo
 ||yabancidizi.*/v/?m=0|
 ||yabancidizi.*/v/?m=1|
 !
-! webteizle3.com - frequently changed domains
-||webteizle*.com/ajax/malker.asp
-||webteizle*.com/i/unknown.png
-||webteizle*.com/i/vid-onu-*.mp4$media,redirect=noop-0.1s.mp3
-webteizle3.com,webteizle4.com,webteizle5.com,webteizle6.com,webteizle7.com,webteizle8.com,webteizle9.com,webteizle10.com,webteizle11.com,webteizle12.com#?##header:has(> div[id^="malker-header-"]:only-child)
-webteizle3.com,webteizle4.com,webteizle5.com,webteizle6.com,webteizle7.com,webteizle8.com,webteizle9.com,webteizle10.com,webteizle11.com,webteizle12.com#$?##sol > #embed:has(iframe) ~ #video-onu2 { remove: true; }
-webteizle3.com,webteizle4.com,webteizle5.com,webteizle6.com,webteizle7.com,webteizle8.com,webteizle9.com,webteizle10.com,webteizle11.com,webteizle12.com##div[id^="malker_video_"]
-webteizle3.com,webteizle4.com,webteizle5.com,webteizle6.com,webteizle7.com,webteizle8.com,webteizle9.com,webteizle10.com,webteizle11.com,webteizle12.com##div[id^="malker-video-"]
-webteizle3.com,webteizle4.com,webteizle5.com,webteizle6.com,webteizle7.com,webteizle8.com,webteizle9.com,webteizle10.com,webteizle11.com,webteizle12.com##img[alt="reklam"]
-webteizle3.com,webteizle4.com,webteizle5.com,webteizle6.com,webteizle7.com,webteizle8.com,webteizle9.com,webteizle10.com,webteizle11.com,webteizle12.com#$#body { background-image: none !important; }
-webteizle3.com,webteizle4.com,webteizle5.com,webteizle6.com,webteizle7.com,webteizle8.com,webteizle9.com,webteizle10.com,webteizle11.com,webteizle12.com#$#body #site { margin-top: 0px !important; }
-webteizle3.com,webteizle4.com,webteizle5.com,webteizle6.com,webteizle7.com,webteizle8.com,webteizle9.com,webteizle10.com,webteizle11.com,webteizle12.com##+js(set-constant, isShow, true)
-[$domain=/(^\|.+\.)webteizle\d+\.com/]#?##header:has(> div[id^="malker-header-"]:only-child)
-[$domain=/(^\|.+\.)webteizle\d+\.com/]#$?##sol > #embed:has(iframe) ~ #video-onu2 { remove: true; }
-[$domain=/(^\|.+\.)webteizle\d+\.com/]##div[id^="malker_video_"]
-[$domain=/(^\|.+\.)webteizle\d+\.com/]##div[id^="malker-video-"]
-[$domain=/(^\|.+\.)webteizle\d+\.com/]##img[alt="reklam"]
-[$domain=/(^\|.+\.)webteizle\d+\.com/]#$#body { background-image: none !important; }
-[$domain=/(^\|.+\.)webteizle\d+\.com/]#$#body #site { margin-top: 0px !important; }
-[$domain=/(^\|.+\.)webteizle\d+\.com/]##+js(set-constant, isShow, true)
+! webteizle - frequently changed domains
+||webteizle*.info/*/malker
+||webteizle*.info/i/vid-onu-*.mp4$media,redirect=noop-0.1s.mp3
+webteizle.info,webteizle1.info,webteizle2.info,webteizle3.info,webteizle4.info,webteizle5.info,webteizle6.info,webteizle7.info,webteizle8.info,webteizle9.info,webteizle10.info###site > div[id="header"]
+webteizle.info,webteizle1.info,webteizle2.info,webteizle3.info,webteizle4.info,webteizle5.info,webteizle6.info,webteizle7.info,webteizle8.info,webteizle9.info,webteizle10.info#$?##sol > #embed:has(iframe) ~ #video-onu2 { remove: true; }
+webteizle.info,webteizle1.info,webteizle2.info,webteizle3.info,webteizle4.info,webteizle5.info,webteizle6.info,webteizle7.info,webteizle8.info,webteizle9.info,webteizle10.info##img[alt="reklam"]
+webteizle.info,webteizle1.info,webteizle2.info,webteizle3.info,webteizle4.info,webteizle5.info,webteizle6.info,webteizle7.info,webteizle8.info,webteizle9.info,webteizle10.info#$#body { background-image: none !important; }
+webteizle.info,webteizle1.info,webteizle2.info,webteizle3.info,webteizle4.info,webteizle5.info,webteizle6.info,webteizle7.info,webteizle8.info,webteizle9.info,webteizle10.info#$#body #site { margin-top: 0px !important; }
+webteizle.info,webteizle1.info,webteizle2.info,webteizle3.info,webteizle4.info,webteizle5.info,webteizle6.info,webteizle7.info,webteizle8.info,webteizle9.info,webteizle10.info##+js(set-constant, isShow, true)
 !
 ! dizi.life - frequently changed domains
 ||dizi*.life/assets/img/bg.jpg

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8AkjqQwYGx/6cGw+cUeOsw
-! Version: 202408142140
+! Checksum: aC+awJRR+GtI7qesGCUNgw
+! Version: 202408150215
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-08-14 21:40 UTC
+! Last modified: 2024-08-15 02:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1587,7 +1587,7 @@ atlasobscura.com###homepage-newsletter-component
 motherjones.com###homepage-newsletter-promo
 motherjones.com###homepage-subscription-promo
 wikihow.com###hp_newsletter
-blog.plerion.com###hs-web-interactives-bottom-anchor
+blog.plerion.com,zaui.com###hs-web-interactives-bottom-anchor
 collato.com,phillymag.com###hs-web-interactives-top-anchor
 entrepreneur.com###hsNewletterFooterSub-container
 thehustle.co###hs_cos_wrapper_blog_post_simple_sticky_cta
@@ -2156,6 +2156,7 @@ wired.com##.consumer-marketing-unit--display-rail
 hagerty.co.uk##.contact-box--article
 pokcas.com##.contact-wrapper
 sportspromedia.com##.content-block-sidebar-form
+smartertravel.com##.content-newsletter
 tracebit.com##.content31_newsletter
 commondreams.org##.content_newsletter_wrapper
 defenseone.com##.conversion-module
@@ -2359,6 +2360,7 @@ mychicagosteak.com##.form-version-cid-1
 flotrack.org##.form-view
 rebelnews.com##.form-wrap
 shenandoahah.com##.form__container
+thechurchnews.com##.form__wrapper
 cnevpost.com,saabplanet.com,valuewalk.com##.formkit-form
 algemeiner.com##.formnews
 neurologyadvisor.com,ophthalmologyadvisor.com,optometryadvisor.com##.fr-dialogmodal
@@ -2419,7 +2421,7 @@ forkast.news##.has-blue-grey-very-light-background-color
 coloradosun.com##.has-light-gray-background-color
 healthyfitnessmeals.com##.has-quaternary-background-color
 favfamilyrecipes.com##.has-quinary-background-color
-aircargonext.com,baltimoremagazine.com,cargofacts.com,govtech.com,gvwire.com,interlochenpublicradio.org,interrupt.memfault.com,medcitynews.com##.hbspt-form
+aircargonext.com,baltimoremagazine.com,cargofacts.com,deseret.com,govtech.com,gvwire.com,interlochenpublicradio.org,interrupt.memfault.com,medcitynews.com##.hbspt-form
 architectmagazine.com,jlconline.com##.hd-promo
 biztechmagazine.com##.hdr-top
 theprovince.com##.header-breaking__secondary
@@ -2949,6 +2951,7 @@ sainsburysmagazine.co.uk##.section--blue.section
 backstage.com##.section--newsletter
 mygenefood.com##.section--optin
 247wallst.com##.section-email-sub
+findlaw.com##.section-newsletter
 billyparisi.com,kimpetras.com##.section-subscribe
 searchenginejournal.com##.sej-subscribe-form
 searchenginejournal.com##.sej-widget
@@ -4021,7 +4024,7 @@ stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therec
 stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therecord.com,thespec.com,wellandtribune.ca##.modal-backdrop
 stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therecord.com,thespec.com,wellandtribune.ca##body,html:style(overflow: auto !important; position: initial !important;)
 ! Mouse out news/sub nags
-todaysparent.com,straitstimes.com,dlnews.com##+js(aeld, /^(mouseout|mouseleave)$/)
+todaysparent.com,straitstimes.com,dlnews.com,zaui.com##+js(aeld, /^(mouseout|mouseleave)$/)
 ! the-tls.co.uk
 the-tls.co.uk##+js(set-local-storage-item, tls_newsletter_visibility, true)
 ! breachmedia.ca

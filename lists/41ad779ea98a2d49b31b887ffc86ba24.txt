@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r1KQQE4FyfGxsabYI0gipg
-! Version: 202408150140
+! Checksum: yu+r1DEdLKVjvpuvr/9W5A
+! Version: 202408150315
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-15 01:40 UTC
+! Last modified: 2024-08-15 03:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34503,6 +34503,8 @@ gettr.com##img[alt="GETTR coin"]
 dailysignal.com#?#.tds-content > p:-abp-contains(Donate now)
 propublica.org#?#.bb-aside:-abp-contains(Get in Touch)
 stuff.co.nz#?#.common-html-frame.html-content:-abp-contains(how much)
+! google popups
+google.com##.Ryrdad:has-text(Please help us improve)
 ! youtube popups
 music.youtube.com#?#tp-yt-paper-dialog.ytmusic-popup-container:-abp-contains(/family plan|Premium|ad-free|background play|kept playing/)
 www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(/How are your|How interested|Live TV|Wish videos|background play|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads/)
@@ -36550,6 +36552,7 @@ atlantablackstar.com##.stay-social
 digit.in##.stay_connected
 cartercenter.org##.stayconnectedwrap
 msn.com##.stb-bsb
+tnmt.com##.sti-share-box
 deutschland.de##.sticky-bar
 sundayworld.co.za##.sticky-buttons
 barrons.com##.sticky-header__sharetoolsContainer
@@ -40372,7 +40375,7 @@ atlasobscura.com###homepage-newsletter-component
 motherjones.com###homepage-newsletter-promo
 motherjones.com###homepage-subscription-promo
 wikihow.com###hp_newsletter
-blog.plerion.com###hs-web-interactives-bottom-anchor
+blog.plerion.com,zaui.com###hs-web-interactives-bottom-anchor
 collato.com,phillymag.com###hs-web-interactives-top-anchor
 entrepreneur.com###hsNewletterFooterSub-container
 thehustle.co###hs_cos_wrapper_blog_post_simple_sticky_cta
@@ -40941,6 +40944,7 @@ wired.com##.consumer-marketing-unit--display-rail
 hagerty.co.uk##.contact-box--article
 pokcas.com##.contact-wrapper
 sportspromedia.com##.content-block-sidebar-form
+smartertravel.com##.content-newsletter
 tracebit.com##.content31_newsletter
 commondreams.org##.content_newsletter_wrapper
 defenseone.com##.conversion-module
@@ -41144,6 +41148,7 @@ mychicagosteak.com##.form-version-cid-1
 flotrack.org##.form-view
 rebelnews.com##.form-wrap
 shenandoahah.com##.form__container
+thechurchnews.com##.form__wrapper
 cnevpost.com,saabplanet.com,valuewalk.com##.formkit-form
 algemeiner.com##.formnews
 neurologyadvisor.com,ophthalmologyadvisor.com,optometryadvisor.com##.fr-dialogmodal
@@ -41575,6 +41580,7 @@ thenationalnews.com##.newsletter_subscribe_container
 themoscowtimes.com##.newsletterbanner
 christiantoday.com##.newsletterbox
 flatpanelshd.com##.newslettercontainer
+tnmt.com##.newsletterpopup
 almanac.com##.newsletters-signup-wrapper
 bocanewsnow.com##.newsletterwidgetminimal-6
 therealnews.com##.newspack-lightbox
@@ -41604,6 +41610,7 @@ nowtoronto.com##.nt-sidebar-newsletter
 advisor.ca##.nua-newsletter
 businesstraveller.com##.nw-ns-main
 as.com##.nwl
+tnmt.com##.nwl-teaser__wrap
 lawandcrime.com##.o-callout__newsletter
 outsideonline.com##.o-content-cta
 ft.com##.o-message
@@ -47458,7 +47465,7 @@ stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therec
 stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therecord.com,thespec.com,wellandtribune.ca##.modal-backdrop
 stcatharinesstandard.ca,thepeterboroughexaminer.com,niagarafallsreview.ca,therecord.com,thespec.com,wellandtribune.ca##body,html:style(overflow: auto !important; position: initial !important;)
 ! Mouse out news/sub nags
-todaysparent.com,straitstimes.com,dlnews.com##+js(aeld, /^(mouseout|mouseleave)$/)
+todaysparent.com,straitstimes.com,dlnews.com,zaui.com##+js(aeld, /^(mouseout|mouseleave)$/)
 ! the-tls.co.uk
 the-tls.co.uk##+js(set-local-storage-item, tls_newsletter_visibility, true)
 ! breachmedia.ca

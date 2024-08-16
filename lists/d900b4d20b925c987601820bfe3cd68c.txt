@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Wv2PIktrLEZpTuGVx49VfA
-! Diff-Path: ../patches/7/7-s-1723764967-3600.patch
+! Checksum: mKZkYkS4VoseSHuDY6vHhw
+! Diff-Path: ../patches/7/7-s-1723782984-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.58
-! TimeUpdated: 2024-08-15T23:32:29+00:00
+! Version: 2.0.55.59
+! TimeUpdated: 2024-08-16T04:32:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -497,8 +497,6 @@
 !
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/186214#issuecomment-2291142927
-||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=gizmodo.jp,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
 exploader.net##+js(spoof-css, article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"] > div, left, auto)
 exploader.net#$#article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"] { position: absolute !important; left: -3000px !important; }
@@ -1727,6 +1725,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+gizmodo.jp###sideCxItem_bottomRanking
 searchkoreanews.jp##.m-adArea
 searchkoreanews.jp##.contents_side > div.pc:has(> ul.m-bannerList)
 weathernews.jp##article > section.block:has(> div[style] > div[id^="div-gpt-ad"])

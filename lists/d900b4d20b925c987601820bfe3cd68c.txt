@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mKZkYkS4VoseSHuDY6vHhw
-! Diff-Path: ../patches/7/7-s-1723782984-3600.patch
+! Checksum: z+w5ZUsQcrVQlfMnPM+31Q
+! Diff-Path: ../patches/7/7-s-1723786590-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.59
-! TimeUpdated: 2024-08-16T04:32:36+00:00
+! Version: 2.0.55.60
+! TimeUpdated: 2024-08-16T05:32:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3333,8 +3333,6 @@ saku-city.mamafre.jp###bottomBanner
 ||city.saku.nagano.jp/banner/
 city.saku.nagano.jp##div[class^="top_kokoku_"]
 jmanga.*##div[style^="max-width:700px"]
-city.urasoe.lg.jp##.class_area18.ng-tns-c168-0
-||prdurbanosursapp1.blob.core.windows.net/common-bannerlogo/$domain=city.urasoe.lg.jp
 gihyo.jp##.m-listitem--ad
 musicman.co.jp##.bannerBox
 ||tool2.nan-net.com/doujin/depression1.jpg
@@ -5952,7 +5950,7 @@ stockweather.co.jp###hdBnr
 stockweather.co.jp###rnvBnr
 jah.ne.jp##body > center > table[cellspacing="3"] > tbody > tr:last-child
 jah.ne.jp##table[width="145"][border="1"]
-dabun.net,shikakude.com###advertisement
+city.urasoe.lg.jp,dabun.net,shikakude.com###advertisement
 shikakude.com###gads
 jalan.net###btm_banner
 4travel.jp##.u_adBox
@@ -6285,6 +6283,7 @@ weeklyandmonthly.com##.ads_bygoogle
 ontomo-mag.com##.l-ad-first
 ontomo-mag.com##.p-ad-wrap02
 ||gakufu.gakki.me/banner/banner_hookup_
+gakufu.gakki.me##.amazonmusic
 gakufu.gakki.me##.ad_geniee
 ||doga.hikakujoho.com/assets/common/img/brand/banner/
 doga.hikakujoho.com##.cv_btn_02-box

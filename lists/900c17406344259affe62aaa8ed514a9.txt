@@ -100,7 +100,7 @@ agroreview.com##+js(abort-on-property-read, advanced_ads_ready)
 amazinghis.ru,moj-pes.ru##+js(abort-on-property-read, anOptions)
 sports.ru##+js(abort-on-property-read, antiadblockCallback)
 shrlink.top##+js(abort-on-property-read, app_vars.force_disable_adblock)
-eurointegration.com.ua##+js(abort-on-property-read, as_retry)
+eurointegration.com.ua,pravda.com.ua##+js(abort-on-property-read, as_retry)
 friends.in.ua,gidonline.eu##+js(abort-on-property-read, atob)
 vprognoze.ru##+js(abort-on-property-read, bannersBillboard)
 terrikon.com##+js(abort-on-property-read, bdy)
@@ -478,7 +478,6 @@ tvzvezda.ru##pjsdiv[id^="oframe"] [style="animation-play-state: running;"]
 porno365.*##+js(abort-on-property-read, bc_blocks)
 porno365.*##+js(abort-on-stack-trace, Object.prototype.parallax, window.onload)
 pornopuk.com,huyamba.tv,piratam.net,piratca.net,porn720.biz,pornoakt.*,sexitorrent.com,sextor.org,domahatv.com,torrent-pirat.com,xtorrent.net,rapidzona.tv,xxxrip.net,xxxtor.com,hentai-share.one,3dn.ru##+js(abort-current-inline-script, document.querySelectorAll, popMagic)
-eurointegration.com.ua##script[id][data-sdk]:remove()
 kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class*="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] [class^="TextContent_text"] > p:-abp-contains(/^Реклама:/)) [class^="material-content_"] a[href][target="_blank"]:not([href^="https://kanobu.ru/"]):style(color: inherit !important; pointer-events: none !important)
 igromania.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class*="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] [class^="TextContent_text"] > p:-abp-contains(/^Реклама:/)) [class^="material-content_"] a[href][target="_blank"]:not([href^="https://www.igromania.ru/"]):style(color: inherit !important; pointer-events: none !important)
 3dnews.kz,3dnews.ru##video[autoplay="autoplay"]:remove-attr(autoplay)
@@ -674,7 +673,7 @@ otzovik.com##^script:has-text(an.yan)
 hvylya.net,i.ua,ivona.ua,kriminal.tv,meteofor.com.ua,mport.ua,nv.ua,zv.zp.ua##^script:has-text(attachShadow)
 cq.ru##^script:has-text(window.initBanners)
 www.ukr.net##^script:has-text(znc|track)
-eurointegration.com.ua##^script[onload*="error-report.com"]
+eurointegration.com.ua,pravda.com.ua##^script[onload*="error-report.com"]
 gazeta.ru,lenta.ru,secretmag.ru,wmj.ru##iframe[src^="https://vp.rambler.ru/player/"] ~ svg
 gazeta.ru,lenta.ru,secretmag.ru,wmj.ru##iframe[src^="https://vp.rambler.ru/player/"]:style(position: relative !important)
 ||vp.rambler.ru/player/$csp=media-src 'self',domain=championat.com|lenta.ru|gazeta.ru|rambler.ru|~vp.rambler.ru|secretmag.ru|wmj.ru

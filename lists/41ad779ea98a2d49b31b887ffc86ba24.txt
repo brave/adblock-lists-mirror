@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MA4LVxCoi3gJT5Wf5VOp5w
-! Version: 202408171140
+! Checksum: kejodgSgn2STp4JgZ5k8SA
+! Version: 202408171215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-17 11:40 UTC
+! Last modified: 2024-08-17 12:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31596,6 +31596,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter-email-signup
 ##.newsletter-fields
 ##.newsletter-fixed
+##.newsletter-fixed-container
 ##.newsletter-flex-text
 ##.newsletter-flex-text_boxy
 ##.newsletter-fly-in
@@ -35797,7 +35798,7 @@ news18.com##.article_socials
 telegraphindia.com##.astkysharebox
 dictionary.com##.atw-socials
 news.artnet.com##.author-links
-secretchicago.com##.author-share-buttons
+secretchicago.com,secretldn.com##.author-share-buttons
 proprivacy.com##.author-social-icons
 adweek.com##.aw-social-share-container
 bnnbloomberg.ca##.b-share-bar
@@ -40108,8 +40109,8 @@ airnewzealand.eu,aluminiosbrinas.com,arlingtoncemetery.mil,arthrex.com,aueb.gr,a
 !! .bottom_notice
 autoacores.com,auxbonnesoccasions.fr,campersclassifieds.com,dogbreedersgallery.com,follam.com,komdaame.com,le-vide-grenier.net,lexylist.com,makina.si,milpasiones.com,nuli.at,ocazie.ro,orozje.eu,realestate.ro,ukads.org,vente-achat-commerces.fr,weltcars.com##.bottom_notice
 !! #fancybox-overlay/#fancybox-wrap
-aeerc.com,centreceramique.nl,eplan.at,eplan.ch,eplan.co.uk,eplan.de,eplan.es,eplan.hr,fusacq.com,illicopharma.com,kathond.be,kathond.com,kathond.de,kathond.nl,motointegrator.de,optisweb.com,petcure.de,petcure.nl###fancybox-overlay
-aeerc.com,centreceramique.nl,eplan.at,eplan.ch,eplan.co.uk,eplan.de,eplan.es,eplan.hr,fusacq.com,illicopharma.com,kathond.be,kathond.com,kathond.de,kathond.nl,motointegrator.de,optisweb.com,petcure.de,petcure.nl###fancybox-wrap
+aeerc.com,centreceramique.nl,eplan.at,eplan.ch,eplan.co.uk,eplan.de,eplan.es,eplan.hr,fusacq.com,illicopharma.com,kathond.be,kathond.com,kathond.de,kathond.nl,krikri.gr,motointegrator.de,optisweb.com,petcure.de,petcure.nl###fancybox-overlay
+aeerc.com,centreceramique.nl,eplan.at,eplan.ch,eplan.co.uk,eplan.de,eplan.es,eplan.hr,fusacq.com,illicopharma.com,kathond.be,kathond.com,kathond.de,kathond.nl,krikri.gr,motointegrator.de,optisweb.com,petcure.de,petcure.nl###fancybox-wrap
 !! .elementor-location-popup
 calabria7.it,firstbanknigeria.com,radioromanista.it,theatremusicaloperette.fr,whatson.is##.elementor-location-popup
 !! elementor-popup-modal
@@ -40309,7 +40310,7 @@ healthcareitnews.com,mobihealthnews.com###boxes-box-subsctiption_middle
 businesspost.ie###bp_piano_homepage_newsletter_container
 tmz.com###browser-notifications-prompt
 film-news.co.uk,game-news.co.uk,music-news.com,theatre-news.com###buy-tickets
-dreambigtravelfarblog.com,founderreports.com,interacnetwork.com###cbox
+dreambigtravelfarblog.com,englandexplore.com,founderreports.com,interacnetwork.com###cbox
 gatestoneinstitute.org,globalvoices.org,ibtimes.com.au,sinya.com.tw,westhawaiitoday.com###cboxOverlay
 gatestoneinstitute.org###cboxWrapper
 ambcrypto.com###cm-embed_signup
@@ -41402,6 +41403,7 @@ consummateathlete.com,pstribune.com##.mailpoet_form_popup_overlay
 leadership.ng,openculture.com##.mailster-form
 markammay.com##.markamayNewsletter
 theglobeandmail.com##.marketing-container-wrapper
+greatvaluevacations.com##.marketing-footer__subscribe-content
 blog.lastpass.com##.marketo
 aei.org##.marketo-form-block
 cspdailynews.com,restaurantbusinessonline.com##.marketo-newsletter-form
@@ -41503,6 +41505,7 @@ presstv.ir##.news-signup-container
 the-line-up.com##.newsLettetPb
 ksl.com##.newsSignup
 morningconsult.com##.news__subscribe
+touristengland.com##.news_letter_box
 whmi.com##.newsextras
 as.com##.newsl-suscribe__content
 financialit.net##.newslatter-s
@@ -42574,7 +42577,6 @@ valitutpalat.fi##a[href="https://uutiskirje.valitutpalat.fi"]
 moottori.fi#?#.item.sidebar.reader-comp.main-gray-bg:-abp-has(a[href="/tilaa-moottorin-uutiskirje/"])
 ! Greek
 epoliteia.gr##.dialog-lightbox-widget
-aftodioikisi.gr##.newsletter-fixed-container
 ! Hebrew
 10dakot.co.il##.aside_subscribe
 mekomit.co.il##.newsletter-popup
@@ -47457,6 +47459,10 @@ mediaite.com##+js(set-cookie, am-sub, 1)
 ! abp.nl
 abp.nl##.overflow-hidden:style(overflow: auto !important;)
 abp.nl##div.cookies-pop-up
+! urban-rivals.com
+urban-rivals.com##.modal-backdrop
+urban-rivals.com##.modal-dialog
+urban-rivals.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! fanboy_newsletter_specific_uBO.txt
 ! uBO Sepecific fixes
 theconversation.com##.MuiDialog-root
@@ -51380,6 +51386,7 @@ restiasuites.gr###advert-once
 stigmap.gr###btm_terms
 frogmobile.gr,whatsup.gr###ck_cookies
 eudoxus.gr###consentPlaceholder
+krikri.gr###cookSETwin
 dod.gr###cookies_component
 kteohellas.gr###cookiesettings-dialog
 huli.gr###cp

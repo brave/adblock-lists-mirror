@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vmrV73EaOWnXhvjpfoFIjQ
-! Diff-Path: ../patches/16/16-s-1723898200-3600.patch
+! Checksum: ScwHarKoAJVL+3L4ytqtIA
+! Diff-Path: ../patches/16/16-s-1723980991-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.9
-! TimeUpdated: 2024-08-17T12:33:04+00:00
+! Version: 2.0.46.10
+! TimeUpdated: 2024-08-18T11:33:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -202,6 +202,7 @@ ebookdz.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 monumentum.fr##+js(abort-current-script, document.getElementById, Blocking Ads)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179837
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147842
+@@||japscan.lol^$xmlhttprequest,~third-party
 japscan.lol#@#[class^="copine"]
 @@||japscan.lol/adcount.js$~third-party
 @@||japscan.lol^$generichide

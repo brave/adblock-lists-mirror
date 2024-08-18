@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mJHr5WUQ9f/0JOcwY/EeZQ
-! Diff-Path: ../patches/9/9-s-1723872977-3600.patch
+! Checksum: +gEFIiYLM3WKLnZYG27ubA
+! Diff-Path: ../patches/9/9-s-1723980994-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.23
-! TimeUpdated: 2024-08-17T05:32:43+00:00
+! Version: 2.0.26.24
+! TimeUpdated: 2024-08-18T11:32:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -268,6 +268,8 @@
 !
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/24938
+financeiropronto.vip##+js(set-local-storage-item, last_ads, yes)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186247
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=turismando.net
 ||turismando.net/wp-content/themes/Turismando/assets/js/jQdB.js
@@ -808,12 +810,10 @@ audiotools.in##+js(abort-current-script, EventTarget.prototype.addEventListener,
 /asb1.js$domain=anitube.vip|hinatasoul.com
 @@||ads.anitube.vip^$xmlhttprequest,domain=anitube.vip|hinatasoul.com
 @@||popads.net/js/adblock.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com
 anitube.vip,hinatasoul.com##+js(set-constant, detectedAdblock, noopFunc)
-anitube.vip,hinatasoul.com##+js(no-xhr-if, /pagead2\.googlesyndication\.com|outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/)
-anitube.vip,hinatasoul.com##+js(no-fetch-if, /pagead2\.googlesyndication\.com|outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/)
-! Scriptlets are injected too late - https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2855
-! and $redirect rule doesn't work because responseURL is checked and it doesn't return original URL
-! TODO: change hint to PLATFORM(ios, ext_android_cb, ext_safari) when issue will be fixed
+anitube.vip,hinatasoul.com##+js(no-fetch-if, /outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/)
+! Fix for DNS filtering
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157756
 ! Link from anitube.vip
 dicasgostosas.com##+js(no-setTimeout-if, hasAdblock)

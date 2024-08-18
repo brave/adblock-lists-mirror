@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: EE6XAdQ44/HI25+l+8ehZQ
+! Checksum: qY+Ed/Uct87HOy/N7TjjUQ
 ! Title: Easylist Cookie List
-! Updated: 2024-08-18 04:15 UTC
+! Updated: 2024-08-18 05:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23288,6 +23288,7 @@ column.com##+js(set-local-storage-item, cookieAllowed, false)
 jito.network##+js(set-local-storage-item, hasConsentedPH, no)
 my-account.storage-mart.com##+js(set-local-storage-item, StorageMartCookiesPolicySeen, true)
 santander.rewardgateway.co.uk##+js(set-cookie, cookie_preferences, 10)
+news.abs-cbn.com##+js(set-cookie, uninavIsAgreeCookie, true)
 santander.rewardgateway.co.uk##+js(set-cookie, cookie_consent_status, allow)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
 lifesum.com##+js(set-local-storage-item, accepted-cookies, [])

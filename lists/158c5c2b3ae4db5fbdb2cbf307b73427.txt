@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rEpPbXzjgsVvzujnrNV8Zg
-! Version: 202408172250
+! Checksum: mUSwB34Let1blPQcMj5DEA
+! Version: 202408180011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Aug 2024 22:50 UTC
+! Last modified: 18 Aug 2024 00:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2839,11 +2839,8 @@ afisha.ru##div[class^="Footer_social"]
 360tv.ru##div[class^="Footer_socialBox"]
 1tv.ru##div[class^="Footer_socialIcons"]
 diletant.media##div[class^="Footer_social__media"]
-tass.ru##div[class^="Footer_wrapper__social_links"]
 ctc.ru##div[class^="HeaderVerticalNav_socialLinkSet"]
 images.rambler.ru##div[class^="ImageBig__share"]
-tass.ru##div[class^="MenuInner_social"]
-tass.ru##div[class^="Menu_social_outer"]
 afisha.ru##div[class^="NewsItem_social"]
 rg.ru##div[class^="RgVideoComponent_shareContent"]
 rg.ru##div[class^="ShareInContent_"]
@@ -2854,6 +2851,7 @@ rg.ru##div[class^="Share_root"]
 360tv.ru##div[class^="Share_shareButton"]
 tribuna.com##div[class^="SharedSocialButtons"]
 www.1tv.ru##div[class^="SocialBlock_"]
+tass.ru##div[class^="SocialLinks_container"]
 daily.afisha.ru##div[class^="SocialPlate_Container"]
 atas.info,bel.ru##div[class^="Socials"]
 newizv.ru##div[class^="Socials_socials"]
@@ -4260,7 +4258,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 !
 ! Специфические только для ABP/AB правила
 !#if ext_abp
-||cdnvideo.ru/newtass/libs/jwplayer.js$script,domain=tass.ru
+||tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.
 !#endif
 ! *** ruadlist:bitblock/annoyance_specific_hide.txt ***
 ebanoe.it###Action_bar
@@ -4607,7 +4605,6 @@ geniusmarketing.me###top-banner
 forum.ixbt.com###top_annc
 kinometro.ru###top_link
 russian-fiancee.com###top_logo
-tass.ru###top_page_box
 nnmclub.ro,nnmclub.to###topcontrol
 pb.wtf,piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,vidak.icu#?##topocs_maine > tbody[class^="row"]:-abp-has(> tr > .message .post_font_size_20 > a)
 agents.media###trigger_donate
@@ -6212,6 +6209,7 @@ kp.kg,kp.kz,kp.md,kp.ru#?#div[class]:-abp-has(> div[class] > div[class] > input[
 ctc.ru##div[class^="AcceptCookie_placeholder"]
 delfi.ee##div[class^="C-modal"]
 ainews.kz##div[class^="Confirm_root"]
+tass.ru##div[class^="CookieAcceptance_container"]
 metaratings.ru##div[class^="CookieAllowance"]
 ati.su##div[class^="CookieBanner"]
 x5club.ru,x5id.ru##div[class^="CookieNotice_"]
@@ -6220,7 +6218,6 @@ sberbank.com,sberbank.ru##div[class^="CookieWarning-"]
 vprok.ru##div[class^="CookiesAlert_policy"]
 kuper.ru##div[class^="CookiesConcent_"]
 novayagazeta.eu##div[class^="CookiesInformer_"]
-tass.ru##div[class^="Cookies_container"]
 meduza.io##div[class^="EmailSubscription-module-root"]
 meduza.io##div[class^="Footer"][class*="form"]
 daily.afisha.ru##div[class^="Footer_App"]
@@ -6229,7 +6226,6 @@ www.afisha.ru##div[class^="Footer_aside"]
 ctc.ru##div[class^="Footer_externalLinks"]
 tribuna.com##div[class^="Footer_footer__apps"]
 www.afisha.ru##div[class^="Footer_qr-code"]
-tass.ru##div[class^="Footer_sources"]
 meduza.io##div[class^="GDPRPanel"]
 afisha.ru##div[class^="HeaderAdvert"] a[href*="afisha.ru/"]
 daily.afisha.ru##div[class^="Layout_Layout"] > a > div
@@ -6912,7 +6908,7 @@ www.kinopoisk.*##header[style*="--header-height:"][style*="px"] > div > img:styl
 www.kinopoisk.*##header[style*="--header-height:"][style*="px"] div[class^="styles_logoContainer"] a[href*="utm_"]:not([href^="/"]):not([href^="www.kinopoisk.ru"]):style(pointer-events: none !important)
 ! Специфические только для ABP/AB правила
 !#if ext_abp
-tass.ru##div[class^="tass_pkg_standard_widget-"]
+tass.ru##div[class^="LoopChannelLayout_widget"]
 !#endif
 !
 ! - "Тяжёлая артиллерия" против хитрой рекламы --------------------------------

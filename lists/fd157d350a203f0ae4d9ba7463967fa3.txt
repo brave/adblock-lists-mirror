@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PbnYrIkLyi3P8a10jDr6Fg
-! Version: 202408191501
+! Checksum: 02+FVF46WmgF45y+G+4qgw
+! Version: 202408191551
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Aug 2024 15:01 UTC
+! Last modified: 19 Aug 2024 15:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12861,6 +12861,7 @@ fireman.club##.ads-popup
 medialeaks.ru##.ads-run-blocks
 klubok.com##.ads-separator
 cn.ru##.ads-soloway
+in-poland.com##.adsContainer
 meteobar.com##.adsDesktop
 meta.ua##.ads_240
 topradio.me##.ads_R
@@ -17793,6 +17794,7 @@ kapriz.info##a[target][href*="/go.php?url="] > img[src^="/"]
 pb.wtf,piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,vidak.icu##a[title*="аккаунты к популярным порно"]
 divxplayer.ml,haes.tech,hcdn.online,metaverseid.tk,player.cvary.org##a[title="For video ad companies"]
 lostfilm.info##a[title="LostFilm.INFO"] > div[style*="height"]
+rg.ru##a[title="Дзен"]
 radiotrek.rv.ua##a[title="Реклама"]
 ixbt.com##a[title="Яндекс Зен"]
 3dnews.kz,3dnews.ru##a[title^="3DNews"][title*="Дзен"]
@@ -19909,7 +19911,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /^https?://(animevost.org|[^\s]+\.animevost.top|[^\s]+\.vost.pw)/[0-9]{2}.png$/$image,domain=animevost.org|animevost.top|vost.pw
 /^https?://[^\s]+(\/eu_widget|\/news_widget\/|\/widget\/)/$third-party,subdocument,domain=agroter.com.ua|cvnews.cv.ua|ifnews.org.ua|lvnews.org.ua|rvnews.rv.ua|tenews.org.ua|ternopillive.com|uanews.org.ua
 /^https?://[a-z0-9]+\.in\.net/+[-a-z0-9_?&=]{25,}/$third-party,xmlhttprequest,domain=aniqit.com|anivod.com|kinoxam.ru|kodik.biz|kodik.cc|kodik.info|kodikdb.com|u-cdn.org|u-cdn.top|u-play.pro|u-stream.in|video.animejoy.ru|video.doramatv.su
-/^https?://www\.spletnik\.ru/[^\s]{70,}/$script,xmlhttprequest,domain=spletnik.ru
 /^https?://www\.stratege\.ru\/misc\/[a-z0-9]{25,}/$image,domain=stratege.ru
 /ad*.tutu.ru^*_*.php|
 /adata/*$domain=pindosoff.net|pornosvideo.info|pornovkisku.com|teplomontag.net
@@ -20019,7 +20020,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /service/display/|$script,domain=povarenok.ru|stranamam.ru
 /site/showbanner/*$domain=latifundist.com
 /skin/edu$script,domain=semestr.online|semestr.ru
-/sm\.news/[^\s]{80,}/$script,domain=sm.news
 /static/banners/*$domain=gagadget.com|vse-sto.com.ua
 /static/js/build/adidas.min.js$domain=auto43.ru|dom43.ru|gorodkirov.ru|job43.ru
 /storage/banners/*$domain=1sn.ru|banki.loans|sportliga.com
@@ -22974,13 +22974,6 @@ igdz1.ru^$script,domain=igdz.ru
 !#if ext_abp
 ! запросы
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
-/^https?://24smi\.org/*[/]*[/][^\s]{80,}/$script,domain=24smi.org
-/^https?://[a-z0-9]+\.razlozhi\.ru\/[^\s]{45,}/$script,domain=razlozhi.ru
-/^https?://pogoda\.onliner\.by/*[/]*[/][^\s]{70,}/$xmlhttprequest,domain=pogoda.onliner.by
-/^https?://relax-fm\.ru/*[/]*[/][^\s]{80,}/$script,xmlhttprequest,domain=relax-fm.ru
-/^https?://rg\.ru/*[/]*[/][^\s]{80,}/$script,xmlhttprequest,domain=rg.ru
-/^https?://tech\.onliner\.by/*[/]*[/][^\s]{40,}/$script,domain=tech.onliner.by
-/^https?://www\.e1\.ru/*[/]*[/][^\s]{80,}/$script,xmlhttprequest,domain=www.e1.ru
 ://pikabu.ru/$csp=script-src 'self' * 'unsafe-inline' data:
 @@||imasdk.googleapis.com/$xmlhttprequest,domain=volley.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=besthdwallpaper.com
@@ -25758,6 +25751,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||olegon.ru/ads/$script,domain=olegon.ru
 @@||online.ua/adsence.js|$domain=online.ua
 @@||opel-omega.ru^*?adType=$script,domain=opel-omega.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=in-poland.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|daz3d.ru|di.fm|fcportables.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|xpicture.ru|yvid.ru
 @@||patents.su/assets/themes/patents/js/main/$script,domain=patents.su
 @@||peers.tv/cnplayer/imasdk/$domain=peers.tv
@@ -25775,6 +25769,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||radioscope.in.ua/res/js/app.js?ads=1|$xmlhttprequest,domain=radioscope.in.ua
 @@||rem-tv.net^*/advert.js|$script,domain=rem-tv.net
 @@||remont-aud.net/pubads.ads.js|$script,domain=remont-aud.net
+@@||resources.infolinks.com/js/infolinks_main.js|$script,domain=in-poland.com
 @@||revdepo.com/static/advertisement.js|$script,domain=audioz.download|mac-torrent-download.net
 @@||ringside24.com/static/js/advert-min.js|$script,domain=ringside24.com
 @@||ru-skript.ru/templates/ruhacker/images/*logo.png
@@ -25904,7 +25899,7 @@ tsn.ua##.c-aside__port
 bidbaits.ru##.cover-msg
 tarkov-market.com##.disable-adblock
 internetsms.org##.fade[class^="modal"]
-allbasketball.org,fashion2news.com,hotallnews.today,ilenta.com,kreschatic.kiev.ua,moyens.net,newspad.ru,pimpletv.ru,portaltele.com.ua,pravda.com.ua,tales.org.ua,ukranews.com,wormax.io,zazloo.ru##.fc-ab-root
+allbasketball.org,fashion2news.com,hotallnews.today,ilenta.com,in-poland.com,kreschatic.kiev.ua,moyens.net,newspad.ru,pimpletv.ru,portaltele.com.ua,pravda.com.ua,tales.org.ua,ukranews.com,wormax.io,zazloo.ru##.fc-ab-root
 hdkinoteatr.com##.fixedBg
 hdkino.biz##.full-news td[bgcolor]
 trupornolabs.org##.header > .red

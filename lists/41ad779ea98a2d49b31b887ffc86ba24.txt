@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yhqZtoW2RO3UTHJURgSz7g
-! Version: 202408190240
+! Checksum: J5hP79jIq2QKr0yhfsOFtw
+! Version: 202408190315
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-19 02:40 UTC
+! Last modified: 2024-08-19 03:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21354,6 +21354,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###tracking_consent_modal
 ###tracking_hinweis
 ###trackingcookie-banner
+###transcend-cookie-banner
 ###tranzystorcookies
 ###travelta-cookie-bar
 ###triad_gdpr_consent
@@ -33416,6 +33417,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||synology.com/js/syno/syno_cookie_element.js
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl|swisscom.ch
 ||terencehill.com/modules/hicookielaw/
+||transcend-cdn.com^$domain=shutterfly.com
 ||transcendcdn.eventbrite.com^
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
@@ -54335,7 +54337,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||tiwag.at/typo3conf/ext/bh/Resources/*/cookie-popup.$~third-party
 @@||topocentras.lt/js/CookieConsent-$~third-party
 @@||trafficengland.com/resources/
-@@||transcend-cdn.com/cm/$script,domain=jmusports.com
 @@||trinitymedia.ai/player/$script,subdocument
 @@||tripcdn.com/modules/ibu/online-flight/common-cookie-banner.$domain=trip.com
 @@||tv.sibbo.net/v2/sibbo-cmp-core.js$script,domain=atresplayer.com

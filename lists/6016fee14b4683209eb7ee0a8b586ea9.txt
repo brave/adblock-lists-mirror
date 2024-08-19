@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JGFr+kezdVbpsk8oo+/Tnw
-! Diff-Path: ../patches/16/16-s-1723984596-3600.patch
+! Checksum: pCeifNyfiMU50k2h5D1zWg
+! Diff-Path: ../patches/16/16-s-1724038600-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.11
-! TimeUpdated: 2024-08-18T12:33:11+00:00
+! Version: 2.0.46.12
+! TimeUpdated: 2024-08-19T03:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -202,7 +202,7 @@ ebookdz.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 monumentum.fr##+js(abort-current-script, document.getElementById, Blocking Ads)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179837
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147842
-@@||japscan.lol^$xmlhttprequest,~third-party
+@@||japscan.lol^$image,xmlhttprequest,~third-party
 japscan.lol#@#[class^="copine"]
 @@||japscan.lol/adcount.js$~third-party
 @@||japscan.lol^$generichide
@@ -924,9 +924,9 @@ h2-mobile.fr#?##main-container .blog__content:has(> .title-wrap--pr > h3:contain
 h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigital-adslot-"])
 cosmopolitan.fr##.External
 /japs/*_1200x2000_banner_fr.jpg$xmlhttprequest,domain=japscan.lol
+japscan.lol##a.donate[href^="https://www.longosto.shop"]
 japscan.lol###blur-inter
 japscan.lol###interstitial
-japscan.lol##a[target="_blank"].donate
 japscan.lol##.card.copines
 japscan.lol##a[href^="https://candy.ai/"][target="_blank"]
 japscan.lol##a[href^="https://candy.ai/"][target="_blank"] + p.mainTitle

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: WtKa3vibehzJB5fIUAzZqQ
-! Diff-Path: ../patches/13/13-s-1724068411-3600.patch
+! Checksum: 0zmq3bDE/2GXqxvENZ7fzw
+! Diff-Path: ../patches/13/13-s-1724132188-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.52.97
-! TimeUpdated: 2024-08-19T11:33:22+00:00
+! Version: 2.0.52.98
+! TimeUpdated: 2024-08-20T05:33:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1675,6 +1675,8 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+sondakika.com##div[id^="native_masthead_"][id*="x"]
+sondakika.com##.content-container > aside:has(> div[style^="height:"]:only-child > #reklamGoster:only-child)
 ||dcdlplayerd91af.xyz/e.$image
 takvim.com.tr###membrana-zone
 yeniasya.com.tr##+js(set-constant, PopBanner, undefined)
@@ -2806,7 +2808,7 @@ ordugazete.com,imaret.com.tr,afyonhaber.com##.img_position_left
 altyazilifilmizle3.com,evrenselfilm1.com,seyredeger.com,indirmedenfilmizle.vip##.zfc-ads
 jetfilmizle.*###movie-sidebar > a[target="_blank"]
 bolgegundem.com,yenihaberden.com##.fixed-pub
-720pizle.*,sinema.cx,erotikfilmleri.org,erotikfilmsitesi.online,yetiskinfilmizle.xyz,dizivex.com,burasiduzce.com,coin-turk.com,turkerotikfilm.com##center > a[target="_blank"] > img
+720pizle.*,sinema.cx,erotikfilmsitesi.online,yetiskinfilmizle.xyz,dizivex.com,burasiduzce.com,coin-turk.com,turkerotikfilm.com##center > a[target="_blank"] > img
 yeniakit.com.tr##.sticky-ads
 dactylogagnant.click###adStop
 yildizkisafilm.org,dactylogagnant.click,dizipal1001.com,yvt2bm7hzgtt.cloud,movietube32.xyz,sinema.cx##.pppx
@@ -4197,8 +4199,6 @@ konhaber.com##.sagSabitKose
 konhaber.com##.ziledoviz
 haberler.com##div[style="width: 970px; height: 250px; margin: 0 auto 15px auto;"]
 haberler.com##.haberler-grids > div[class^="haberler-item"][id^="widget_div_"]
-bodrumhaberpostasi.com##.header > div.surmansetu
-bodrumhaberpostasi.com##.kutu
 ||yatvitrini.com/images/*banner
 ||yatvitrini.com/images/XY2.gif
 ||tarsusakdeniz.com/Depo/Banner/
@@ -5136,7 +5136,7 @@ webtekno.com##.ads-300x250-sidebar
 webtekno.com##.ads-masthead__horizontal
 haber7.com##.ads.ads.square
 fethiyehaber.com##.ads630
-umraniyegundemi.com,sonsaat.com.tr,batmangapgazetesi.com,kentvizyonhaber.com,bodrumhaberpostasi.com,apron24.com,afyonhaber.com##.ads640
+umraniyegundemi.com,sonsaat.com.tr,batmangapgazetesi.com,kentvizyonhaber.com,apron24.com,afyonhaber.com##.ads640
 akademikpersonel.org,halkinhabercisi.com##.adsWidgetSidebar
 kanal7.com##.ads_kare
 kanal7.com##.ads_kule

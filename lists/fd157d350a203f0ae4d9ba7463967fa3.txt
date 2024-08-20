@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tcGGVb0qgtwrTmLI1Sn+gQ
-! Version: 202408201651
+! Checksum: OJfC8gRjDyj6Oxpox3ZEfQ
+! Version: 202408201801
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Aug 2024 16:51 UTC
+! Last modified: 20 Aug 2024 18:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20351,6 +20351,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||auto.ria.com/images/branding/banner/
 ||auto.ru/wwwboards/img/banner_
 ||auto62rus.ru/img/Mnogo3D.
+||autofill.yandex.ru^$domain=pikabu.ru|sport-express.ru
 ||autogener.ru/img/abp/
 ||autoinfo24.ru/upload/images/banner
 ||autolada.ru/images/banner/
@@ -24597,7 +24598,6 @@ tonnews.ru##body > div[id^="fancybox"]
 supertabak.ru##body > div[id^="jBox"]
 ruskline.ru##body > div[id^="money"]
 dnpmag.com,trendymen.ru##body > div[id^="popup-"]
-pikabu.ru##body > iframe[src*="redirect_uri"]
 daz3d.ru##body > span[id^="s"][style]
 esputnik.com##body.cl-noscroll > .cl-dialog[style*="position: fixed"]
 pinterest.com##div[class*="ScreenBanner"]

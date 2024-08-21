@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4u0NUUZ3PXP6LCuUqrJqjA
-! Version: 202408210900
+! Checksum: iyxNba0AsrkhbtgChWkO0g
+! Version: 202408211100
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2024-08-21 09:00 UTC
+! Last modified: 2024-08-21 11:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -319,6 +319,7 @@ sp.live.nicovideo.jp##.ga-ns-app-alert-dialog
 ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,ebay.pl##.gadget-banner-wrapper
 goobike.com##.gb_appbnrs
 boredpanda.com,citizen.com,coincodex.com##.get-app
+gemini.google.com##.get-app-banner
 imgur.io##.get-app-block
 coincodex.com##.get-app-wrapper
 citizen.com##.get-modal.modal
@@ -529,6 +530,7 @@ fedex.com##trk-shared-smart-app-banner
 voicy.jp##v-sp-download
 reddit.com##xpromo-top-button
 ! :has
+gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
 linkedin.com#?#div#public_post_contextual-sign-in:-abp-contains(Sign in to view more content)
 thepointsguy.com#?#.noVerticalPad:-abp-contains(Download the TPG App)
 ! Advanced element hiding rules for Adblock Plus

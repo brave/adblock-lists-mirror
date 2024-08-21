@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: uQ5g4QiztxLi6XPR0hmf3Q
-! Diff-Path: ../patches/9/9-s-1724171916-3600.patch
+! Checksum: FpNjcG0h8JQQd9T2u9qjxA
+! Diff-Path: ../patches/9/9-s-1724251024-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.28
-! TimeUpdated: 2024-08-20T16:33:10+00:00
+! Version: 2.0.26.29
+! TimeUpdated: 2024-08-21T14:32:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -815,11 +815,12 @@ caroloportunidades.com.br#$##player { display: block !important; }
 caroloportunidades.com.br##+js(no-xhr-if, popads.net)
 caroloportunidades.com.br##+js(no-setTimeout-if, hasAdblock)
 @@||popads.net/js/adblock.js$xmlhttprequest,domain=caroloportunidades.com.br
+! https://github.com/AdguardTeam/AdguardFilters/issues/186902
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184038
 /asb1.js$domain=anitube.vip|hinatasoul.com
-@@||ads.anitube.vip^$xmlhttprequest,domain=anitube.vip|hinatasoul.com
-@@||popads.net/js/adblock.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com
+@@||ads.anitube.vip^$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com
+@@||popads.net/js/adblock.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com
 anitube.vip,hinatasoul.com##+js(set-constant, detectedAdblock, noopFunc)
 anitube.vip,hinatasoul.com##+js(no-fetch-if, /outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/)
 ! Fix for DNS filtering
@@ -2219,6 +2220,7 @@ globo.com,amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.c
 ! ##body .banner
 meiobit.com,brasilparalelo.com.br,tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+cnnbrasil.com.br##.custom__ad__element
 peliculasyserieslatino.me##+js(remove-attr, href, a[xhref="javascript:void(0)"][target="_blank"])
 peliculasyserieslatino.me##+js(adjust-setTimeout, conta)
 torrentjogos.com.br##+js(window.open-defuser, ?key=)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fq7WsLFeNu/GwA18fGTUSA
-! Version: 202408212151
+! Checksum: rkyzbG5mK5cZ3KwKiOeDIg
+! Version: 202408212301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Aug 2024 21:51 UTC
+! Last modified: 21 Aug 2024 23:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22973,6 +22973,7 @@ igdz1.ru^$script,domain=igdz.ru
 ! Правила для ресурсов, которые их создатели сделали несовместимыми с адблоком
 !#if ext_abp
 ! запросы
+$csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 ://pikabu.ru/$csp=script-src 'self' * 'unsafe-inline' data:
 @@||imasdk.googleapis.com/$xmlhttprequest,domain=volley.ru
@@ -23038,7 +23039,6 @@ liveinternet.ru##div[style*="!important; "]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
-eurointegration.com.ua,pravda.com.ua#?#script[id][data-sdk] {remove:true;}
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)

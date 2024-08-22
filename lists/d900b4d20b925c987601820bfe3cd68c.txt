@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FZLv2qpehV143z3Wq9+5Fg
-! Diff-Path: ../patches/7/7-s-1724319418-3600.patch
+! Checksum: uc46wwrFHcEXVNG2OabOtA
+! Diff-Path: ../patches/7/7-s-1724326667-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.73
-! TimeUpdated: 2024-08-22T09:33:06+00:00
+! Version: 2.0.55.74
+! TimeUpdated: 2024-08-22T11:33:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1642,8 +1642,8 @@ n.lat/login|$document
 /lps/index?ad_cd=*&lp_cd=$document
 |http://*/log_index.php$document
 /regist_execute.html$document
-/^https:\/\/(?!www)[a-z]{3,5}\.[a-z]{5,10}\.[a-z]{3,5}\/item-(?:(?=[a-z]*\d)[0-9a-z]{10}|\d{8})\.html$/$document,match-case,domain=art|biz|cc|cfd|click|cloud|club|fun|homes|info|lat|life|me|mom|one|online|shop|site|store|top|world|xyz
-/^https?:\/\/(?!www)[a-z]{3,5}\.[0-9a-z]{4,10}\.[a-z]{2,6}\/[a-z]{3,15}\/(?=[a-z]{0,9}[0-9A-Z])[0-9A-z]{10}\.html$/$document,match-case,domain=art|biz|cc|cfd|click|cloud|club|fun|homes|info|lat|life|me|mom|one|online|shop|site|store|top|world|xyz
+/^https:\/\/(?!www)[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{3,5}\/item-(?:(?=[a-z]*\d)[0-9a-z]{10}|\d{8})\.html$/$document,match-case,domain=art|biz|cc|cfd|click|cloud|club|fun|homes|info|lat|life|lol|me|mom|one|online|shop|site|store|top|world|xyz
+/^https?:\/\/(?!www)[a-z]{3,5}\.[0-9a-z]{4,10}\.[a-z]{2,6}\/[a-z]{3,15}\/(?=[a-z]{0,9}[0-9A-Z])[0-9A-z]{10}\.html$/$document,match-case,domain=art|biz|cc|cfd|click|cloud|club|fun|homes|info|lat|life|lol|me|mom|one|online|shop|site|store|top|world|xyz
 .com/ae/login.php?openid.pape.max_auth_age=0&openid.return_to=%$document
 /?AC=*&IC=$document,domain=com|fun|online|site
 .asp?AC=*&IC=$document,domain=com|fun|online|site
@@ -5019,7 +5019,7 @@ mensnonno.jp##.post-foot-ad
 city.akiruno.tokyo.jp###zone04_bg
 joqr.co.jp##.article-inner > .article-box._center._inner_break_horiz-sp
 roboanime.com##div[class^="article-body"] > div[style="border-style: solid; border-width: 1px; padding: 10px 5px 10px 20px;border-color: #ffffcc; background-color: #ffffcc"]
-neo-blood.co.jp##.wp-block-st-blocks-my-box[style^="background-color:#fff;border-color:#"]
+neo-blood.co.jp##.wp-block-st-blocks-my-box[style^="background-color:#fff"]
 ||virusbuster.jp/aff/$third-party
 collepic.net##div[id^="ad_game"]
 collepic.net##div[style="width: 760px; min-height: 500px;"]
@@ -7933,7 +7933,7 @@ jpon.xyz,gogo.gs##.ad4
 1048s.com##.first.fblock
 1048s.com##.last.fblock
 biz.hino-tama.com##span.lastChild.small_letter[style^="position:absolute;right:10px;"]
-blog.kaerucloud.com,csharpprogram.com,economical.co.jp,tokyoupdate.jp,paso-kake.com,hoshujapan.jp,parlourfullslotl.com,nijisenmon.work,mayukitchen.com,xn--eckl0bk7f7cc4od8az005k0ssb.xyz,2week.net,nullnote.com###scrollad
+solodc2017.com,blog.kaerucloud.com,csharpprogram.com,economical.co.jp,tokyoupdate.jp,paso-kake.com,hoshujapan.jp,parlourfullslotl.com,nijisenmon.work,mayukitchen.com,xn--eckl0bk7f7cc4od8az005k0ssb.xyz,2week.net,nullnote.com###scrollad
 ||ac-affiliate.com/data.php?
 yugalab.net###navi_recommend
 yugalab.net##div[id$="_ads"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Apddgg1HGMnEC0D/83kwYQ
-! Version: 202408221001
+! Checksum: RcBc/+A/ogIH3mXFK8tWEQ
+! Version: 202408221101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Aug 2024 10:01 UTC
+! Last modified: 22 Aug 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15241,6 +15241,7 @@ krymr.com##.pg-title--ymla
 fansector.info##.pg_content_nav > a[href][target="_blank"]
 seasonvar.ru##.pgs-player > div[align="center"]
 alensat.org##.phpbb-ads-center
+multitran.com##.pic
 moeobrazovanie.ru##.pinBnFs
 nick-name.ru##.place
 eva.ru##.place-content-center
@@ -21573,6 +21574,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||mult-porno.*/front/js/unwanted.js
 ||mult-porno.*/front/js/vads.js
 ||multik-online.net/trotator/
+||multitran.com/gif/iv.mp4
 ||multiwork.org^$subdocument,domain=allbest.ru
 ||multmer.org^$object
 ||music.yandex.ru/iframe/$domain=burninghut.ru
@@ -22911,7 +22913,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||you-anime.ru/vg/
 ||youhack.ru^$object
 ||youtube-nocookie.com^$domain=proporno.org
-||youtube.com/embed/$domain=4put.ru|androeed.ru|anime-365.ru|fbsearch.ru|geomap.com.ua|hdrabbit.ru|lostpix.com|multitran.com|newstudio-online.tv|sbornik-music.ru|sinonim.org|smotret-anime.online|subject.com.ua|ukrlit.net|zarlit.com
+||youtube.com/embed/$domain=4put.ru|androeed.ru|anime-365.ru|fbsearch.ru|geomap.com.ua|hdrabbit.ru|lostpix.com|newstudio-online.tv|sbornik-music.ru|sinonim.org|smotret-anime.online|subject.com.ua|ukrlit.net|zarlit.com
 ||youtube.com/embed/?enablejsapi=$domain=168.ru
 ||youtube.com^*modestbranding$subdocument,domain=moevideo.net|penzainform.ru|playreplay.me|playreplay.net|playvideolink.com|thesame.tv|videochart.net
 ||yp.ru/content/Banners/
@@ -23004,6 +23006,7 @@ pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-
 pikabu.ru#?#.story__header:-abp-has(> div:empty)
 fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
+@@||ozon.ru/highlight/kursk-$elemhide
 dzen.ru#?#[class]:-abp-properties(/--banner-color:/)
 www.drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]

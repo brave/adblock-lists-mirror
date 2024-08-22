@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pzE2v2+oXdyAL5o96X+huA
-! Version: 202408221551
+! Checksum: +Mo5+f+KFRUWpOKRcnlhHQ
+! Version: 202408221651
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Aug 2024 15:51 UTC
+! Last modified: 22 Aug 2024 16:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6195,6 +6195,8 @@ sberindex.ru##div[class*="Layout__cookiePanel"]
 rutube.ru##div[class*="__player__"] div[class*="disclaimer"]
 lifehacker.ru#?#div[class*="container"] div[class*="article-card__"]:-abp-has(> [class*="article-card"] .lh-article-card-meta__partner)
 lifehacker.ru#?#div[class*="container"] div[class*="article-card__"]:-abp-has(> [class*="article-card"] .lh-article-card-meta__promo)
+ren.tv##div[class*="dzenFoxButtonsContainer"]
+ren.tv##div[class*="dzenFoxButtonsContainer"] + .news-delimiter
 agroxxi.ru##div[class*="gsubs"]
 ntop.tv##div[class*="header-banner"]
 gameout.ru##div[class*="mailpoet_form"]
@@ -6509,6 +6511,7 @@ www.kinopoisk.ru##[class*="styles_plusDesktopBranding"]
 www.kinopoisk.ru##a.kinopoisk-header-featured-menu__item ~ a.kinopoisk-header-featured-menu__item
 www.kinopoisk.ru##a[href*="/watch/?from_block="]
 www.kinopoisk.ru##a[href^="https://yandex.ru/alice/"][class*="banner"]
+www.kinopoisk.ru##body[class*="styles_body"] > .ReactModalPortal
 www.kinopoisk.ru##div[class*=" styles_rootPlus"] > div > div[class^="styles_upperFrame__"]
 www.kinopoisk.ru##div[class*=" styles_rootPlus"] > div[class^="styles_frameContainer__"]
 www.kinopoisk.ru##div[class*="styles_basicInfoSection"] div[class^="styles_header_"] > div[class^="styles_root_"] > div[class^="styles_blockTitle_"]

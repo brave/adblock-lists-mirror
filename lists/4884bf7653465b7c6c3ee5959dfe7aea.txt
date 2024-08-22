@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: GOfQmHaWWVchQdgDavhivw
-! Diff-Path: ../patches/9/9-s-1724254659-3600.patch
+! Checksum: JH00xzZyLuRxzhefn5aDSQ
+! Diff-Path: ../patches/9/9-s-1724341043-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.30
-! TimeUpdated: 2024-08-21T15:33:14+00:00
+! Version: 2.0.26.31
+! TimeUpdated: 2024-08-22T15:33:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -269,6 +269,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186815
+@@||popads.net/js/adblock.js$xmlhttprequest,domain=isekaibrasil.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=isekaibrasil.com
 @@||ads.anitube.vip^|$xmlhttprequest
 @@||ads.anitube.vip/*.php|$xmlhttprequest
@@ -820,8 +821,8 @@ caroloportunidades.com.br##+js(no-setTimeout-if, hasAdblock)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184038
 /asb1.js$domain=anitube.vip|hinatasoul.com
 @@||ads.anitube.vip^$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com
-@@||popads.net/js/adblock.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com
+@@||popads.net/js/adblock.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|animeyabu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|animeyabu.org
 anitube.vip,hinatasoul.com##+js(set-constant, detectedAdblock, noopFunc)
 anitube.vip,hinatasoul.com##+js(no-fetch-if, /outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/)
 ! Fix for DNS filtering

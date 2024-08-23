@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZGlTKdkb1gUjYvOW2gpgUA
-! Diff-Path: ../patches/1/1-s-1724351794-3600.patch
+! Checksum: u8Zcc1VIw2mu5KiUjH2AqA
+! Diff-Path: ../patches/1/1-s-1724423824-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.31
-! TimeUpdated: 2024-08-22T18:31:01+00:00
+! Version: 2.0.93.32
+! TimeUpdated: 2024-08-23T14:31:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11506,7 +11506,6 @@ newsyou.info##.post > p > a[target="_blank"][rel="nofollow"]
 tvboryspil.com##div[class^="articles-list__item relative xl:h-160px lg:h-125px"]
 ||trs-production.s3.amazonaws.com/media/upload_images/banner_images/$domain=tvboryspil.com
 ||cdnpotok.com/*/tv.php$popup
-||z.cdn.trafficbass.com/load?$popup
 tv.pokaz.me,online.viks.tv###reclamanemoya
 brodude.ru##.single__banner
 ||nv-online.info/wp-content/uploads/*/darida_banner_desktop.png

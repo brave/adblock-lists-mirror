@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y2/qFBPlVi4B1K7yVpnFdA
-! Version: 202408240951
+! Checksum: xGIerlsh1bZZHHKX9cmCEw
+! Version: 202408241051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Aug 2024 09:51 UTC
+! Last modified: 24 Aug 2024 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12364,6 +12364,7 @@ om1.ru###screenGlideAdb
 winxland.ru###script_block
 technical.city###scroll_banner_container
 webdiana.ru###scrollable
+pravda.ru###scrolling-news-list > div[style^="min-height:3"]
 partnerkin.com###sdv_branding
 hubs.ua###secondary > #text-2
 keysportal.com#?##secondary > .sidebar-widget:-abp-has([id^="yandex_rtb"])
@@ -15800,6 +15801,7 @@ prostopleer.com##.sidebar-a330-content
 glavpost.com##.sidebar-banner-block
 diletant.media##.sidebar-banner-wrap
 theuk.one#?#.sidebar-block:-abp-has(> .sticky .comm-blog)
+pikabu.ru##.sidebar-block_half
 pikabu.ru##.sidebar-block_placeholder
 web-shpargalka.ru##.sidebar-blocks-block[style="height: 1700px;"]
 moika78.ru##.sidebar-border
@@ -23021,7 +23023,7 @@ liveinternet.ru##[data-wrapper]
 dzen.ru##[data_name="visibility-slot"]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
-dzen.ru##a[href^="https://dzen.ru/"]:not(.ui-lib-embed-view-base__link) div > div > div > div
+dzen.ru##a[href^="https://dzen.ru/"]:not(.ui-lib-embed-view-base__link):not([class*="tabContent"]) div > div > div > div
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
@@ -23030,7 +23032,7 @@ www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] section:empty
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] span:empty:not(.ph-marusia)
 sdamgia.ru##center > div[id][style]
-dzen.ru#?#div:-abp-has(> a[href^="https://dzen.ru/"]:not(.ui-lib-embed-view-base__link) div > div > div > div)
+dzen.ru#?#div:-abp-has(> a[href^="https://dzen.ru/"]:not(.ui-lib-embed-view-base__link):not([class*="tabContent"]) div > div > div > div)
 dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
 cq.ru#?#div:-abp-properties(content: "Реклама")
 dzen.ru#?#div:-abp-properties(position: relative !important)

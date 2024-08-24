@@ -156,7 +156,7 @@ vestivrn.ru##+js(abort-on-property-read, video.preroll)
 sinoptik.ua##+js(abort-on-property-read, vpb)
 tapochek.net##+js(abort-on-property-read, web_script)
 4studio.com.ua,cikavosti.com,dialogs.org.ua,fakty.ua,gorodkiev.com.ua,informator.ua,kriminal.tv,pingvin.pro,technoportal.com.ua,u-news.com.ua,uanews.org.ua,volynpost.com##+js(abort-on-property-read, weekCallbacks)
-bombardir.ru,comp-service.kiev.ua,inforesist.org##+js(abort-on-property-read, window.alert)
+bombardir.ru,comp-service.kiev.ua,inforesist.org,www.xcom-shop.ru##+js(abort-on-property-read, window.alert)
 softportal.com##+js(abort-on-property-read, window.block)
 tornado.3dn.ru##+js(abort-on-property-read, wrapper.addEventListener)
 80-e.ru,doramatv.live,examenpdd.com,rg.ru,ura.news##+js(abort-on-property-read, yaContextCb)
@@ -330,7 +330,7 @@ frontend.vh.yandex.ru##+js(set-constant, Object.prototype.autoplay, false)
 eagleplatform.com##+js(set-constant, Object.prototype.autoplay, null)
 embed.dugout.com##+js(set-constant, Object.prototype.autostart, noopFunc)
 sports.ru##+js(set-constant, Object.prototype.branding, undefined)
-kp.kg,kp.kz,kp.md,kp.ru,mk.ru,ohotniki.ru,portalvirtualreality.ru,radiokp.ru,sportkp.ru,wday.ru,woman.ru,www.fontanka.ru##+js(set-constant, Object.prototype.changeVisible, noopFunc)
+dni.expert,dni.ru,kp.kg,kp.kz,kp.md,kp.ru,lifehacker.ru,mk.ru,ohotniki.ru,portalvirtualreality.ru,radiokp.ru,sportkp.ru,wday.ru,woman.ru,womanhit.ru,www.fontanka.ru##+js(set-constant, Object.prototype.changeVisible, noopFunc)
 ati.su##+js(set-constant, Object.prototype.createBannerItem, null)
 24smi.org##+js(set-constant, Object.prototype.detect, noopFunc)
 examenpdd.com##+js(set-constant, Object.prototype.detectAdblock, noopFunc)
@@ -523,7 +523,6 @@ kinoafisha.info##videotronic-player:remove-attr(data-video-autoplay)
 ||v*.plrjs.org/*.xml|$important,xmlhttprequest,redirect=noop.txt
 ||video.matchtv.ru/iframe/feed/*autostart=1$subdocument,removeparam=autostart
 ||video.matchtv.ru/iframe/feed/*autostart=1$subdocument,removeparam=skin_name
-||viqeo.tv/*/vq_starter.js$third-party,script,domain=dni.ru|~dom.mail.ru|kanobu.ru|~lady.mail.ru|lifehacker.ru|mail.ru|pravda.ru|sportmail.ru|womanhit.ru
 ||vk.com/video_ext.php?$third-party,subdocument,removeparam=autoplay,domain=~mediahope.ru
 ||vk.com/video_ext.php?*autoplay=1$removeparam=js_api,domain=mail.ru
 ||widgets.kinopoisk.ru/discovery/trailer/*&loop=1&autoplay=1$subdocument,domain=www.kinopoisk.ru
@@ -692,7 +691,7 @@ gazeta.ru,lenta.ru,secretmag.ru,wmj.ru##iframe[src^="https://vp.rambler.ru/playe
 ! VIQEO автоплей на Shkulev Media, только для десктопов
 !#if !env_mobile
 7days.ru,cdn.viqeo.tv,kinonews.ru,kp.kg,kp.kz,kp.md,kp.ru,mk.ru,ohotniki.ru,portalvirtualreality.ru,radiokp.ru,sportkp.ru,wday.ru,woman.ru,www.fontanka.ru##+js(addEventListener-defuser, visibilitychange, captureContext)
-116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru##+js(set-constant, Object.prototype._requestIframeData, noopFunc)
+116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru##+js(set-constant, Object.prototype._playerAdded, noopFunc)
 !#endif
 !
 !#if env_mv3

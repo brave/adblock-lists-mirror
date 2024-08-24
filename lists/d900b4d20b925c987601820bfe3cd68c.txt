@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mrB9t09NkG/3JHu+Xp5zuA
-! Diff-Path: ../patches/7/7-s-1724406365-3600.patch
+! Checksum: cdNMZFqICETIoNAGvgpksA
+! Diff-Path: ../patches/7/7-s-1724503154-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.77
-! TimeUpdated: 2024-08-23T09:40:42+00:00
+! Version: 2.0.55.78
+! TimeUpdated: 2024-08-24T12:34:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1643,8 +1643,8 @@ n.lat/login|$document
 /lps/index?ad_cd=*&lp_cd=$document
 |http://*/log_index.php$document
 /regist_execute.html$document
-/^https:\/\/(?!www)[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{3,5}\/item-(?:(?=[a-z]*\d)[0-9a-z]{10}|\d{8})\.html$/$document,match-case,domain=art|biz|cc|cfd|click|cloud|club|fun|homes|info|lat|life|lol|me|mom|one|online|shop|site|store|top|world|xyz
-/^https?:\/\/(?!www)[a-z]{3,5}\.[0-9a-z]{4,10}\.[a-z]{2,6}\/[a-z]{3,15}\/(?=[a-z]{0,9}[0-9A-Z])[0-9A-z]{10}\.html$/$document,match-case,domain=art|biz|cc|cfd|click|cloud|club|fun|homes|info|lat|life|lol|me|mom|one|online|shop|site|store|top|world|xyz
+/^https:\/\/(?!www)[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{3,5}\/item-(?:(?=[a-z]*\d)[0-9a-z]{10}|\d{8})\.html$/$document,match-case,domain=art|baby|biz|cc|cfd|click|cloud|club|fun|homes|info|lat|life|lol|me|mom|one|online|shop|site|store|top|world|xyz
+/^https?:\/\/(?!www)[a-z]{3,5}\.[0-9a-z]{4,10}\.[a-z]{2,6}\/[a-z]{3,15}\/(?=[a-z]{0,9}[0-9A-Z])[0-9A-z]{10}\.html$/$document,match-case,domain=art|baby|biz|cc|cfd|click|cloud|club|fun|homes|info|lat|life|lol|me|mom|one|online|shop|site|store|top|world|xyz
 .com/ae/login.php?openid.pape.max_auth_age=0&openid.return_to=%$document
 /?AC=*&IC=$document,domain=com|fun|online|site
 .asp?AC=*&IC=$document,domain=com|fun|online|site
@@ -1729,6 +1729,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+joshi-spa.jp##.csw-content-box:has(> div.csw-content-footer > span.csw-ad-icon)
+qiita.com##div[data-testid="popup-lapras-signup"]
 himanatokiniyaruo.com##div[id^="sponsor"]
 himanatokiniyaruo.com###footer > div:has(> iframe[style*="300px"][style*="250px"])
 weblio.jp###rightMiddleBnrId
@@ -10366,7 +10368,6 @@ blog.jp#?#.plugin-memo > div.side > img[src*="a8.net/"]:upward(2)
 elog-ch.com#?#.d_line > img[src$="/cat20.gif"]:upward(1)
 elog-ch.com#?##content > h2:contains([PR])
 elog-ch.net#?#[class^="caption"]:contains(PR)
-grapee.jp,hochi.news#?#.csw-content-box:not(.ise-ad) > div.csw-content-footer:not(.csw-off) > span.csw-ad-icon:contains(PR):upward(2)
 xtech.nikkei.com###sticky1 > section.l-asideSection:has(div[id^="div-gpt-"])
 xtrend.nikkei.com##.articles-list-item:has(> div[id^="div-gpt-"])
 asahi.com##.module-top-ad

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: boaoI2d7V9nktLgiaGHCXQ
-! Diff-Path: ../patches/224/224-s-1724380621-3600.patch
+! Checksum: QZM8CTR/uA7L6m7pPGVYYQ
+! Diff-Path: ../patches/224/224-s-1724456192-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.20.76
-! TimeUpdated: 2024-08-23T02:33:26+00:00
+! Version: 2.1.20.77
+! TimeUpdated: 2024-08-23T23:33:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4810,6 +4810,13 @@ newduba.cn###jq_youxi
 ||wfsmya.xyz^
 ||eacdf119.cn^
 ||kewrutd.top^
+||irqaci.xyz^
+||bojyvp.xyz^
+||acewdf118.cn^
+||baijs09.shop^
+||doujs09.shop^
+||nhbprf.xyz^
+||acdrewrf711.cn^
 ||pwfqjp.xyz^
 ||weacdf211.cn^
 ||tufzdj.xyz^
@@ -13627,6 +13634,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||imgclh.com/imgs/2024/08/07/569cfb2f078e0c42.
 ||pfkgl.top/images/*.gif
 ||laowangblog.com^*-ad
+||256856.com/fei-ad/
 szxx.com.cn###A0
 cn.bing.com##.b_bza_pole
 wenxuecity.com##DIV[class^="Inarticle_"]
@@ -13635,6 +13643,7 @@ supercloudsms.com##.container > div > a[id]
 tmioe.com##.singlegg
 kdslife.com###mainRightTopAd
 huya.com##.ab-wrap
+ying35.com#?#table:-abp-has(a[href*="/fei-ad"])
 huya.com#?#.item-pic:-abp-has(>.img-tips)
 hcbbs.com##a[href*="&adid="]
 hcbbs.com###portal_block_3441
@@ -18315,7 +18324,7 @@ chinacsbs.com##a[href^="/plus/view.php?aid="]
 fx112.com##a[href^="/union."]
 jr22.xyz##a[href^="ad."]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
-vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/main/"]
+131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/main/"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
 90oo.com##a[href^="http"]:not([href*=".90oo."]) > img[src*="/tp/"]

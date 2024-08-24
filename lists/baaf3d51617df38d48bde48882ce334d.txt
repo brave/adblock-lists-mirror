@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SjTX2TpN0xrX4lCh9CArKw
-! Version: 202408240515
+! Checksum: 5nBnbW3KCGc+J/iHp1ai2Q
+! Version: 202408240640
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-08-24 05:15 UTC
+! Last modified: 2024-08-24 06:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3003,6 +3003,7 @@ searchenginejournal.com##.sej-widget
 iphoneincanada.ca##.send-footer
 ianvisits.co.uk##.sendysubscribe
 dailyedge.ie,thejournal.ie##.separator-newsletter-redesign
+jxnl.co##.seva-form
 alldayidreamaboutfood.com,inspiredtaste.net##.seva-overlay
 webmd.com##.sf-nls-wrapper
 creativedestructionmedia.com,delacortereview.org,floridianpress.com,marktechpost.com,mediaplaynews.com,reasonstobecheerful.world,thefullpint.com##.sgpb-popup-dialog-main-div-wrapper
@@ -3534,6 +3535,7 @@ marginalrevolution.com#?#section.sidebar-section:-abp-contains(email)
 montanafreepress.org#?#.has-background.has-dark-gray-background-color:-abp-contains(Sign up)
 neo4j.com#?#.sidebar-item-container:-abp-contains(Email me)
 newsroom.co.nz#?#.has-background:-abp-contains(/newsletter|inbox/)
+newsroom.ucla.edu#?#.promo-card-primary:-abp-contains(Check your inbox)
 newswire.ca#?#.pull-right.inline-gallery-container:-abp-contains(Post this)
 notthebee.com#?#.bg-gray-50:-abp-contains(Want to stay informed)
 pcmag.com#?#.md\:decorative-horizontal-lines:-abp-contains(subscribe)
@@ -4349,7 +4351,7 @@ sfpublicpress.org##+js(rc, pum-open, stay, html)
 capx.co##.pum
 capx.co##div#wrapper:style(filter: none !important)
 ! readergrev.com (substack)
-readergrev.com##+js(set-cookie, popup_closed, true)
+readergrev.com,objectivebayesian.com##+js(set-cookie, popup_closed, true)
 ! scottishlegal.com
 scottishlegal.com###subscribeModal
 scottishlegal.com##.modal-backdrop

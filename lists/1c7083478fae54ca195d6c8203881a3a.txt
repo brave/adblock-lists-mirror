@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.7.9.3
+! Version: 3.8.0.0
 
 ! General
 
@@ -71,6 +71,8 @@ axios.com##div[data-cy="pro-paywall"],div[class^="Modal_paywallContainer"]
 axios.com##+js(ra, style, html[style], stay)
 bizjournals.com##+js(ra, style, article div[style="display: none;"], stay)
 bizjournals.com##+js(ra, style, .paywalled-content[style], stay)
+bizjournals.com##+js(ra, style, html, stay)
+bizjournals.com##+js(ra, inert, div#__nuxt[inert])
 bizjournals.com##div[data-dev="CxWidget_article:wall"],div#cxense-paywall,div[id^="headlessui-dialog-"]
 ! bloomberg.com: disable Dark Reader extension
 ||cm.bloomberg.com^$xmlhttprequest,~third-party
@@ -493,9 +495,6 @@ dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeit
 .com/wp-content/plugins/loader-wp/static/loader.min.js$script,~third-party,domain=bostonherald.com|denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pressenterprise.com|twincities.com
 bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,twincities.com##[subscriptions-section="content-not-granted"]
-
-! Medium (custom) sites for userscript: redirect to webcache.googleusercontent.com
-||cdn-client.medium.com/lite/static/js/main.*.js$script,domain=webcache.googleusercontent.com
 
 ! Motor Presse Stuttgart
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de

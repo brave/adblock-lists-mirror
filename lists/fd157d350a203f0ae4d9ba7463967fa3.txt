@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xGIerlsh1bZZHHKX9cmCEw
-! Version: 202408241051
+! Checksum: c1Bn93nRL+zoLYmQtTTYJA
+! Version: 202408241201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Aug 2024 10:51 UTC
+! Last modified: 24 Aug 2024 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1772,7 +1772,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /baner_$domain=~aplica.pl|~brabrabra.ua|~campworld.com.ua|~churchjc.com|~food16.ru|~nenc.gov.ua|~pcmart.com.ua|~pizzamel.ru|~planetarium.dn.ua|~tambov.gov.ru|~triatek.com.ua|~uslugi.mosreg.ru|~work-pulse.ru|~zippo.net.ua
 /baners/*$domain=~altera-auto.ru|~mgpk.bntu.by|~mirofox.ru|~redbubbles.ru|~vyviska.com.ua|~xn--100-8cdz0be5b.xn--p1ai|~xn--40-6kcayb8aoh7afog0b.xn--p1ai
 /banmas/index.php?informer=
-/banner.gif$domain=~e.aviasales.ru|~litehd.tv|~russia-tv.online|~work-pulse.ru
+/banner.gif$domain=~e.aviasales.ru|~litehd.tv|~russia-tv.online|~work-pulse.ru|~xcom-shop.ru
 /banner.png$third-party,domain=~drakescans.com|~github.com|~kirmuseum.org
 /banner2.gif
 /banner_$object
@@ -24156,6 +24156,7 @@ dzen.ru##div[class*="_position_feedSingleCard"]
 dzen.ru##div[class*="_rightAdWrapper"]
 dzen.ru##div[class*="_topBannerContainer"]
 dzen.ru##div[class*="card-widh-ad_"]
+dzen.ru##div[class*="tsar__container"]
 dzen.ru##div[class^="advert-panel"]
 dzen.ru##div[class^="floor-card-rtb_"]
 dzen.ru##div[class^="floor-skeleton-card__skeletonCardWrapper"]
@@ -25867,6 +25868,7 @@ rap-me.online#@#.adv-banner
 tests24.su#@##header-ad
 textstudio.co#@#.adsbyyahoo
 tnt-online.ru#@#div[id^="adfox_"]
+xcom-shop.ru#@#.ad-placeholder
 zhurnaly.biz#@#.ad-block
 zhurnaly.biz#@#.item-ads
 !
@@ -25994,7 +25996,6 @@ au-ok.com##p[style="border:3px solid #C1FF0A;background-color:#d5d5d1;padding:10
 ||texnic.ru/jq/san.js
 ||under-prog.ru/wp-content/plugins/eazy-ad-unblocker/
 ||webwintop.ru/wp-content/plugins/$script
-||xcom-shop.ru/local/templates/.default/js/local/check-block-apps.min.js
 ||yagramotniy.ru/templates/edv/js/_extra/
 !
 ! - Против "бесконечной загрузки страниц" -------------------------------------

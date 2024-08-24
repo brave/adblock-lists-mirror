@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: I0WqfxLAdTi3oRux1fDyiQ
-! Version: 202408241015
+! Checksum: mHnFtDMWzGhAWWzs22iBDA
+! Version: 202408241140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-24 10:15 UTC
+! Last modified: 2024-08-24 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33450,6 +33450,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! fundingchoicesmessages (consents)
 ||fundingchoicesmessages.google.com^
 ! fanboy_newsletter_specific_block.txt
+/pum-site-scripts.js$domain=coloradotimesrecorder.com|fatgirlskinny.net|hypebot.com|matomo.org|mercadonegro.pe|moneymagpie.com|sfpublicpress.org|thurrott.com|total-croatia-news.com|verdadeiroolhar.pt
 ||afrik21.africa/wp-content/themes/afrik21/images/news.png
 ||api.piano.io^$domain=theintercept.com
 ||app.viralsweep.com^$domain=insidethemagic.net
@@ -47906,9 +47907,8 @@ nieuwsblad.be##body:style(overflow: auto !important;)
 ! oled-info.com
 oled-info.com##+js(set-cookie, awpopup_501941328, 1)
 ! .pum
-mercadonegro.pe,total-croatia-news.com,australiangolfdigest.com.au,sfpublicpress.org,matomo.org,coloradotimesrecorder.com,artificialintelligence-news.com,thurrott.com,hypebot.com,fatgirlskinny.net,moneymagpie.com,verdadeiroolhar.pt,thecanary.co##.pum
-mercadonegro.pe,total-croatia-news.com,australiangolfdigest.com.au,matomo.org,coloradotimesrecorder.com,artificialintelligence-news.com,thurrott.com,hypebot.com,fatgirlskinny.net,moneymagpie.com,verdadeiroolhar.pt,thecanary.co##html:style(overflow:auto !important)
-sfpublicpress.org##+js(rc, pum-open, stay, html)
+australiangolfdigest.com.au,matomo.org,coloradotimesrecorder.com,artificialintelligence-news.com,thurrott.com,hypebot.com,fatgirlskinny.net,moneymagpie.com,verdadeiroolhar.pt,thecanary.co##.pum
+australiangolfdigest.com.au,matomo.org,coloradotimesrecorder.com,artificialintelligence-news.com,thurrott.com,hypebot.com,fatgirlskinny.net,moneymagpie.com,verdadeiroolhar.pt,thecanary.co##html:style(overflow:auto !important)
 ! pum + overlay
 capx.co##.pum
 capx.co##div#wrapper:style(filter: none !important)
@@ -53252,7 +53252,7 @@ hosting.com.tr##.contract-popup
 soneksbilgisayar.com##.cookie-agreement-module
 hepsijet.com##.cookie-policy_cookiePolicy__9xbaz
 pinarsu.com.tr##.cookieContent
-beinsports.com.tr##.cookie_cookie__3NG06
+beinsports.com.tr##.cookie_cookieConsentWrapper__jDLdN
 e-bargello.com,pt.com.tr##.cp
 neredekal.com##.css-1fl0mfv
 tatildekirala.com##.css-1px8sx

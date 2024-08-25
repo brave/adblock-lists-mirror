@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XmqTB7Tvp9c66mDFUEaaoQ
-! Version: 202408242215
+! Checksum: vRGvjJYbexEK+HZODmY5Vw
+! Version: 202408242315
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-24 22:15 UTC
+! Last modified: 2024-08-24 23:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44125,6 +44125,7 @@ uhrzeit123.de##+js(set-cookie, ga-disable, true)
 marinelink.com##+js(set-cookie, GDPR, 9)
 thegraph.com##+js(set-cookie, cookie-consent, false)
 esim.redteago.com##+js(set-cookie, nCookieVisible, 2)
+tester.userbrain.com##+js(set-cookie, CookieConsent, false)
 stonly.com##+js(set-cookie, cookieHidden, true)
 camp-fire.jp##+js(set-cookie, terms_agreement_popup_agreed, true, , reload, 1)
 my2n.com##+js(set-cookie, consent_panel, 1)
@@ -54452,6 +54453,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||swisstph.ch/*/gdpr.min.js$~third-party
 @@||swnsdigital.com/*/webtoffee-gdpr-cookie-consent/$~third-party
 @@||tefl.com/lib/jquery.cookiebar.js
+@@||tester.userbrain.com/js/cookieconsent.js$script,~third-party
 @@||theautopian.com/content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js
 @@||tinder.com/static/build/chunks/CookiePolicyBanner-$script
 @@||tiom.pl/static/js/cookieconsent.min.js$~third-party

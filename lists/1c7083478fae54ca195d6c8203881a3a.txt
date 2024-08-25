@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.0.0
+! Version: 3.8.0.1
 
 ! General
 
@@ -216,7 +216,7 @@ kurier.at##div#cfs-paywall-container
 lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
 lanacion.com.ar##+js(set-local-storage-item, /^/, $remove$)
 latercera.com##div.pw-frontier:remove()
-||californiatimes.com/meteringjs/$script,domain=latimes.com|sandiegouniontribune.com
+||latimes.com/meteringjs/$script,~third-party
 ||ev.lavanguardia.com$xmlhttprequest,~third-party
 lavanguardia.com,mundodeportivo.com##span.content-ad,span.hidden-ad,span.ad-unit,div.ad-div
 ledevoir.com##+js(cookie-remover, pw6)
@@ -492,9 +492,9 @@ dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeit
 .nl/_/zh/worker$xmlhttprequest,~third-party
 
 ! MediaNews Group
-.com/wp-content/plugins/loader-wp/static/loader.min.js$script,~third-party,domain=bostonherald.com|denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pressenterprise.com|twincities.com
-bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
-bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,twincities.com##[subscriptions-section="content-not-granted"]
+.com/wp-content/plugins/loader-wp/static/loader.min.js$script,~third-party,domain=bostonherald.com|denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pressenterprise.com|sandiegouniontribune.com|twincities.com
+bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,sandiegouniontribune.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,sandiegouniontribune.com,twincities.com##[subscriptions-section="content-not-granted"]
 
 ! Motor Presse Stuttgart
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de

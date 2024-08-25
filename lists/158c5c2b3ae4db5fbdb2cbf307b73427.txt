@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bC6MwkEqn/DxoWXFXXk+7Q
-! Version: 202408251001
+! Checksum: uY3M6z/2n9/E9ciGgsQa9g
+! Version: 202408251101
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Aug 2024 10:01 UTC
+! Last modified: 25 Aug 2024 11:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -869,7 +869,10 @@ shazoo.ru##.bg-black > .mx-auto > div > div:last-child
 liveresult.ru#?#.bg-light:-abp-has(.icon-favorite-on)
 woman.ua##.bl-share
 doramalive.ru##.block-alert
+readovka.news##.block-community-tg
 avtoradio.ru##.block-menu-snet > .icon-set
+readovka.news,readovka67.ru##.block-mosthot
+readovka.news,readovka67.ru##.block-navigation > ul > li:first-child
 lgoty-vsem.ru,tehnikoved.ru##.block-share
 censor.net##.block-share-link
 myseason.club##.block-small-login-social
@@ -1303,6 +1306,7 @@ argumentiru.com##.head_soc
 glavpost.ua##.head_social
 facenews.ua##.header .icon
 moika78.ru,nevasport.ru##.header-box__social
+readovka.news,readovka67.ru##.header-community
 kyivvlada.com.ua##.header-custom-button
 uazmi.org##.header-inner > nav ~ .fx-mq-md
 tulapressa.ru##.header-left_space-link
@@ -6800,6 +6804,7 @@ dzen.ru##div[class*="__bannerContainer"]
 dzen.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class*="desktop-interview-modal"]
 dzen.ru##div[class*="linkBro-"]
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##div[class*="sidebar"] .no-ads
+dzen.ru##div[class*="web2app-advert-qr-banner__container"]
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class^="DistrSmartbanner"]
 360.yandex.ru##div[class^="TopLine_wrapper_"]
 dzen.ru##div[class^="auth-popup-feed-trigger__container-"]
@@ -6809,7 +6814,6 @@ dzen.ru##div[class^="dzen-desktop--flash-modal"]
 dzen.ru##div[class^="feed-scrolling-snackbar__container"]
 dzen.ru##div[class^="float-interview__float-"]
 dzen.ru##div[class^="snackbar-context-provider"]
-dzen.ru##div[class^="web2app-advert-qr-banner__container"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##div[data-apiary-widget-name="@MarketNode/EntryPointPopup"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##div[data-apiary-widget-name="@marketfront/MediaCarousel"]
 market.yandex.by,market.yandex.kz,market.yandex.ru##div[data-apiary-widget-name="@marketplace/WebimChat"]

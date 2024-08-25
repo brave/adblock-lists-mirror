@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: j2vMQnouYVwMVgTQFha3JA
-! Diff-Path: ../patches/16/16-s-1724585813-3600.patch
+! Checksum: OokacKESgCLKiKRSEDTQlg
+! Diff-Path: ../patches/16/16-s-1724603854-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.26
-! TimeUpdated: 2024-08-25T11:33:23+00:00
+! Version: 2.0.46.27
+! TimeUpdated: 2024-08-25T16:33:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -927,7 +927,7 @@ h2-mobile.fr#?##main-container .blog__content:has(> .title-wrap--pr > h3:contain
 h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigital-adslot-"])
 cosmopolitan.fr##.External
 /japs/*_1200x2000_banner_fr.jpg$xmlhttprequest,domain=japscan.lol
-japscan.lol##body > .container.text-center > div.mt-3 > a.Aikoi.donate[href^="http"]:not([href^="https://www.japscan.lol"]) > img.img-fluid[src^="/imgs/onc/"]
+japscan.lol##body > .container.text-center > div.mt-3 > a.Aikoi.donate[href^="http"][href*="/?utm_"] > img.img-fluid[src^="/imgs/onc/"]
 japscan.lol##.aikoi.donate
 japscan.lol##.navbar-nav > li.nav-item:last-child > a.donate[target="_blank"][rel="noopener noreferrer nofollow"]
 japscan.lol##.card.copines

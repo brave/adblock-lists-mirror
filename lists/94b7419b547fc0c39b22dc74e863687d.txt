@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: F+lCggxlzDOVRA34iXPtGw
-! Diff-Path: ../patches/1/1-s-1724679407-3600.patch
+! Checksum: l2wQ5T46Dh17/c401GInqg
+! Diff-Path: ../patches/1/1-s-1724693779-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.37
-! TimeUpdated: 2024-08-26T13:31:05+00:00
+! Version: 2.0.93.38
+! TimeUpdated: 2024-08-26T17:31:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7643,6 +7643,9 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+motogonki.ru##div[style^="overflow:"]:has(> a[href] > img[title^="Реклама."])
+||motogonki.ru/images/adv/*.jpg
+motogonki.ru###widget
 ||shikimori.one/assets/globals/events/*/*.png
 shikimori.*##.news_wall > article.b-news_wall-topic:has(> a[href] > .status-line div.promo)
 shikimori.*##.b-news-topic.b-topic-preview:has(> div.inner > footer div.promo.other)

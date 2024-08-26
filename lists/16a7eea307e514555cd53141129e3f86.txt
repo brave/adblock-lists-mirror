@@ -5663,7 +5663,7 @@ forum.dji.com##+js(set, sensorsDataAnalytic201505.track, noopFunc)
 ||pubscholar.cn/static/common/fingerprint.js^$script,1p,redirect=fingerprint2.js,important
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/1enh6ip/issues_with_channel_4/
-@@||v.fwmrm.net/ad/p/1?*html5_live^$script,domain=channel4.com
+@@||v.fwmrm.net/ad/*html5_live^$script,domain=channel4.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24870
 hltv.org#@#.playerOfTheWeekContainer
@@ -5683,7 +5683,6 @@ macrotrends.net##+js(set, clicky.goal, noopFunc)
 @@||cdn.adsninja.ca/adsninja_worker_caller.js$script,domain=dualshockers.com|gamerant.com
 @@||cdn.adsninja.ca/adsninja_client$script,css,domain=dualshockers.com|gamerant.com
 @@*$ghide,domain=dualshockers.com|gamerant.com
-dualshockers.com,gamerant.com#@#+js(abort-on-property-read, googletag)
 dualshockers.com,gamerant.com##[id^="adsninja-ad-zone-div-gpt-ad"]
 dualshockers.com,gamerant.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
 dualshockers.com,gamerant.com##[class*="ad-zone-container-content-character-count-repeatable"]
@@ -5707,3 +5706,7 @@ topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 @@||micro.rubiconproject.com/prebid/dynamic/$script,domain=worldsurfleague.com
 @@||securepubads.g.doubleclick.net/pagead/ima_ppub_config$xhr,domain=worldsurfleague.com
 ||pubads.g.doubleclick.net/gampad/ads?*www.worldsurfleague.com$xhr,redirect=noop-vmap1.0.xml:5,domain=imasdk.googleapis.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/25049
+eservice.directauto.com##+js(set, gtm, {})
+eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)

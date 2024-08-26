@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wQgArpTJEg3TYmBdatDlGg
-! Diff-Path: ../patches/7/7-s-1724603857-3600.patch
+! Checksum: BPaneGBHvSgbOvTLKNThAg
+! Diff-Path: ../patches/7/7-s-1724672626-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.79
-! TimeUpdated: 2024-08-25T16:33:14+00:00
+! Version: 2.0.55.80
+! TimeUpdated: 2024-08-26T11:33:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1729,6 +1729,12 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+mtame.jp###contents_right > div.banner_nor:has(> a[href="https://mtame.jp/digital_marketing/industry_marketing/"]) ~ div.banner_nor
+news.yahoo.co.jp###contentsWrap > div[class]:has(> div[class] > div[id^="yads_"])
+ekme-pk2.hateblo.jp##.entry-content > p:has(> a[href^="http://x4.namidaame.com/"])
+ekme-pk2.hateblo.jp##.entry-content > div[align="center"] > p:has(> script[src^="//xml.affiliate.rakuten.co.jp/"])
+ekme-pk2.hateblo.jp##.entry-content > div[align="center"] > p:has(> script[src^="//xml.affiliate.rakuten.co.jp/"]) ~ p
+skypenguin.net##.entry-content > div.block-box:has(> div.wp-block-columns > div.wp-block-column div.wp-block-button > a[href^="https://amzn.to/"])
 joshi-spa.jp##.csw-content-box:has(> div.csw-content-footer > span.csw-ad-icon)
 qiita.com##div[data-testid="popup-lapras-signup"]
 himanatokiniyaruo.com##div[id^="sponsor"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: khvf95OERz7nKn2Zp/HPbA
-! Diff-Path: ../patches/7/7-s-1724776703-3600.patch
+! Checksum: y/KaoQ2nsfF85mlH8cdD/g
+! Diff-Path: ../patches/7/7-s-1724780192-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.90
-! TimeUpdated: 2024-08-27T16:33:32+00:00
+! Version: 2.0.55.91
+! TimeUpdated: 2024-08-27T17:32:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -364,7 +364,7 @@
 ||mediad.co.jp^
 ||mediba.jp^
 ||moba8.net^
-||mopo.jp^$third-party
+||static.mopo.jp^$third-party
 ||myiads.com^
 ||octopuspop.com^$third-party
 ||redirectvoluum.com^
@@ -1692,7 +1692,7 @@ kanjitisiki.com,city.imizu.toyama.jp,research-er.jp,city.kakegawa.shizuoka.jp,yu
 ! ##.rectangle
 news.nifty.com,topics.or.jp,japandesign.ne.jp,wazap.com,beasoku.com,twi55.com,dark-soku.blog.jp,relazo.net,ramenhuhu.com,travel.aumo.jp,tv-tokyo.co.jp,erodouga-s.com,gourmet.aumo.jp,eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
 ! ##.sponsored
-ebisu-fridaynight.com,kitaro38.com,pc-bto.net,sikopedia.com,mitsuch.com,collieme.com,otaku-sheepwolf.com,dq10beginner-media.com,kitaharima-hi.com,trendydenden.com,apexheadline.com,webantena.net,11874.click,eternalcollegest.com,yukawanet.com,9-bit.jp,gardenstory.jp,yuu01.jp,gaddet.com,matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
+pcfreebook.com,ebisu-fridaynight.com,kitaro38.com,pc-bto.net,sikopedia.com,mitsuch.com,collieme.com,otaku-sheepwolf.com,dq10beginner-media.com,kitaharima-hi.com,trendydenden.com,apexheadline.com,webantena.net,11874.click,eternalcollegest.com,yukawanet.com,9-bit.jp,gardenstory.jp,yuu01.jp,gaddet.com,matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
 ! ###fix_sidebar
 gazlog.jp,yosk8.com,houkaistarrail.game-chan.net,koikatsu-portal.com,gamestlike.com,sorae.info,adtechmanagement.com,game-oruhachiv.com,shellbys.com,sugi9532.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 ! ##body .code-block
@@ -1729,11 +1729,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+jinsei-kyukeityu.xyz##.header_message_wrap
 navi.lol-gg.net##.adpc
 yomuno.jp##.article_sp_bottom_ad_container
 courrier.jp##.sponser_drink_area
 car-me.jp##body > div[style^="position:fixed;bottom:"]
-mtame.jp###contents_right > div.banner_nor:has(> a[href="https://mtame.jp/digital_marketing/industry_marketing/"]) ~ div.banner_nor
 news.yahoo.co.jp###contentsWrap > div.YOUcY + div.cyaYcX:has(> div.jOKwHf:only-child > div.pFymB[id^="yads_"])
 ekme-pk2.hateblo.jp##.entry-content > p:has(> a[href^="http://x4.namidaame.com/"])
 ekme-pk2.hateblo.jp##.entry-content > div[align="center"] > p:has(> script[src^="//xml.affiliate.rakuten.co.jp/"])

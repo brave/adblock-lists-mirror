@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QQ6Pvp/2UhAcviBTlgCpyg
-! Diff-Path: ../patches/224/224-s-1724737004-3600.patch
+! Checksum: PJ9xooBYPG4QSZtpcRX6cQ
+! Diff-Path: ../patches/224/224-s-1724769460-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.20.88
-! TimeUpdated: 2024-08-27T05:33:21+00:00
+! Version: 2.1.20.89
+! TimeUpdated: 2024-08-27T14:33:56+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13660,10 +13660,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||gg.7976.top^
 ||abody.39.net^
 szxx.com.cn###A0
+supercloudsms.com##a[style="display: block;"]
 cn.bing.com##.b_bza_pole
 wenxuecity.com##DIV[class^="Inarticle_"]
 18183.com##.ad1
-supercloudsms.com##.container > div > a[id]
 tmioe.com##.singlegg
 kdslife.com###mainRightTopAd
 huya.com##.ab-wrap
@@ -18418,7 +18418,6 @@ howbuy.com##a[href^="https://www.howbuy.com/advertisement/"]
 kelatv.com##a[href^="https://www.kelatv.com/api/go."]
 sojson.com##a[href^="https://www.sojson.com/ad/"]
 iqiyi.com##a[id^="100000"]
-supercloudsms.com##.container > a[id]
 mse.360.cn##a[id^="banner"]
 moxing.net##a[marked][href*=".taobao.com"]
 frdic.com,godic.net##a[onclick*="/ads/"]

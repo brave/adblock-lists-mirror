@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3j2GjwMjp1UrLapI3THpjg
-! Diff-Path: ../patches/7/7-s-1724740588-3600.patch
+! Checksum: jqcRHd5+bvpDbF8KRMe5iw
+! Diff-Path: ../patches/7/7-s-1724755027-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.85
-! TimeUpdated: 2024-08-27T06:32:53+00:00
+! Version: 2.0.55.86
+! TimeUpdated: 2024-08-27T10:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6653,6 +6653,7 @@ toushichannel.net###side-fix
 namaeuranai.biz,note.affi-sapo-sv.com,toushichannel.net##div[style$="height:280px;"]
 n-switch.com##.main-adsense
 pokemongo-kouryakumatome.net###links-left > section.-freeArea:last-child
+moguravr.com##.mg-ads-inarticle
 moguravr.com##.mg-ads-placement
 coliss.com###sponsorsTop
 coliss.com###sponsors

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ndSuPCNq2Uhh4yS/QaQV2Q
-! Version: 202408270951
+! Checksum: gPA2P2QizVmJwQupmcJrNg
+! Version: 202408271101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Aug 2024 09:51 UTC
+! Last modified: 27 Aug 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1677,6 +1677,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 .richbanner.
 .ru.com/script.js|$third-party,script
 .ru/next.html?$third-party,script
+.ru/script.js?sid=$third-party,script
 .sextizer.
 .site/show/?id=*&r=
 .site/up/?id=*&r=
@@ -11036,6 +11037,7 @@ _tizers.
 ||zsdat.com^$third-party
 ||zseut.com^$third-party
 ||zslhmw.com^$third-party
+||zszhfffyd.ru^$third-party
 ||ztgm17.ru^$third-party
 ||ztmol.club^$third-party
 ||zu-zu.ru^$third-party

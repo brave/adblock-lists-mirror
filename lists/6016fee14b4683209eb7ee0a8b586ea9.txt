@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MIFWB/Og7LOgjSQF3c+KpA
-! Diff-Path: ../patches/16/16-s-1724801786-3600.patch
+! Checksum: 0YabVBTqP1meFlqtCGVFIw
+! Diff-Path: ../patches/16/16-s-1724819790-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.31
-! TimeUpdated: 2024-08-27T23:32:57+00:00
+! Version: 2.0.46.32
+! TimeUpdated: 2024-08-28T04:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -925,11 +925,8 @@ cookomix.com##.AdMB
 h2-mobile.fr#?##main-container .blog__content:has(> .title-wrap--pr > h3:contains(Annonces))
 h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigital-adslot-"])
 cosmopolitan.fr##.External
-/japs/*_1200x2000_banner_fr.jpg$xmlhttprequest,domain=japscan.lol
-japscan.lol##.navbar-nav > li.nav-item:nth-child(4):not(:empty):has(> a[href="/donate/"])
-japscan.lol##.navbar-nav > li.nav-item:nth-child(7):not(:empty):has(> a[href="/donate/"])
-japscan.lol##body > .container.text-center > div.mt-3 > a.Aikoi.donate[href*="/?utm_"]:not([href^="https://www.google"]):not([href^="https://www.japscan"]) > img.img-fluid[src^="/imgs/onc/"]
-japscan.lol##.aikoi.donate
+japscan.lol##body > .container.text-center > div.mt-3 > a.Aikoi.donate[href^="https://"][href*="/?utm_source=manga&utm_"]:not([href^="https://www.google"]):not([href^="https://www.japscan"]) > img.img-fluid[src^="/imgs/onc/"]
+japscan.lol##.navbar-nav > li.nav-item:nth-child(8) > a.donate
 japscan.lol##.card.copines
 japscan.lol##a[href^="https://candy.ai/"][target="_blank"]
 japscan.lol##a[href^="https://candy.ai/"][target="_blank"] + p.mainTitle

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FDc15puT1t1qlcPrSlqkfQ
-! Diff-Path: ../patches/224/224-s-1724863028-3600.patch
+! Checksum: 2zxdouzK2gt8YGW8r88wlA
+! Diff-Path: ../patches/224/224-s-1724881006-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.20.95
-! TimeUpdated: 2024-08-28T16:33:16+00:00
+! Version: 2.1.20.96
+! TimeUpdated: 2024-08-28T21:33:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1477,7 +1477,6 @@ flyblog.cc,maxfoodfun.com#?#.article-body > div[style]:has(> div[style] > div[id
 waerfa.com#?#.content-area > div#content > div > div.item:has(> a:not([href*="waerfa.com/"]) > img)
 duba.com#?#.newslist > .news_ctm_wrap:has(> .ctm_ad)
 sina.cn#?#.page_main > .specSlide2Wrap:has(> div > #midThreeAds)
-yasehub.com#?#.video-list > ul > li.video-item:has(> div[class] > .video-thumb > .video-thumb-image[style^="background-image: url('https://static2.yaseok.com/uploads/"])
 buzzorange.com#?#.sidebar > section[id^="text-"]:has(> .textwidget > .dfped)
 v2ex.com#?##Rightbar > .box:has(> .inner > .adsbygoogle)
 ac-room.cc#?#.waterfall > div.waterfall-box > div.waterfall-item:has(> div.ad)
@@ -2430,11 +2429,6 @@ hfxbs.cc##body > a:not([href*="hfxbs.cc"]):not([href^="/"]) > img
 hkdm688.com##.bb01
 ||63ys.com/*/gct.js
 ||shanyu178.com/agg$script
-yasehub.com##.container > fieldset[style*="text-align: center; border: 1px solid"]
-yasehub.com##.video-thumb > .video-thumb-image[style^="background-image: url('https://static2.yaseok.com/uploads/"]
-yasehub.com##.aasdwa
-yasehub.com##.container > div[class] > div#list_asiall > div a[target="_blank"] > img
-yasehub.com##div[style*="position: absolute;"][style*="text-align: center;"][style*="align-items: center;"]
 xgan.cn##body > center > a[target="_blank"][rel="nofollow"]
 xgan.cn##.bottom_fixed
 xgan.cn##.container center > a[target="_blank"] > img

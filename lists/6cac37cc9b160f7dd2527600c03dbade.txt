@@ -3028,3 +3028,11 @@ kenitv.me##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP/)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25073
 ||heraldnet.com/wp-content/plugins/incognito_dectector/
+
+! https://ptube.pipio.site/ anti-adb, timer
+ptube.pipio.site###videoDiv
+ptube.pipio.site###video-container:style(display: block !important;)
+||ptube.pipio.site/adblock.js
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/187059
+zone-telechargement.ing##+js(acs, setTimeout, aclib.runPop)

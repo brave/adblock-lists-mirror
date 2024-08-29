@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6Lrt9n5Fn4mvcyzdUtXgEg
-! Diff-Path: ../patches/1/1-s-1724931389-3600.patch
+! Checksum: TyshLoYndKM5jz6ciJHU9w
+! Diff-Path: ../patches/1/1-s-1724938684-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.45
-! TimeUpdated: 2024-08-29T11:31:07+00:00
+! Version: 2.0.93.46
+! TimeUpdated: 2024-08-29T13:31:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4493,13 +4493,8 @@ docs-python.ru#$#pre { color: #212529 !important; user-select: text !important; 
 @@||staticmv.mediavitrina.ru/yastatic/ads.js$domain=player.mediavitrina.ru
 ! antiadblock
 yvid.ru##+js(no-fetch-if, pagead2.googlesyndication.com)
-! https://github.com/AdguardTeam/AdguardFilters/issues/129116
-gorodrabot.by##+js(abort-on-property-read, adfoxAsyncParams)
-||an.yandex.ru/partner-code-bundles/*.js$domain=gorodrabot.by,redirect=noop.js,important,script
-||an.yandex.ru/system/context.js$xmlhttprequest,domain=gorodrabot.by,redirect=noop.js,important
-@@||gorodrabot.by^$generichide
-@@||an.yandex.ru/partner-code-bundles/*.js$domain=gorodrabot.by
-@@||an.yandex.ru/system/context.js$xmlhttprequest,domain=gorodrabot.by
+! https://github.com/AdguardTeam/AdguardFilters/issues/187471
+gorodrabot.by##+js(abort-on-stack-trace, Promise, loadAdvManager)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127540
 @@||cdnneedtv.ru/spor/jquerymin18.js$domain=cdnneedtv.ru
 sweet-tv.net,cdnneedtv.ru##+js(set-constant, canRunAds, true)

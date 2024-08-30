@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JovZ8C+ZmeElQvczhjob4g
-! Diff-Path: ../patches/1/1-s-1725014188-3600.patch
+! Checksum: hTx3kjsKluv7aRk6jyH1+g
+! Diff-Path: ../patches/1/1-s-1725021498-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.51
-! TimeUpdated: 2024-08-30T10:31:05+00:00
+! Version: 2.0.93.52
+! TimeUpdated: 2024-08-30T12:31:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4592,12 +4592,6 @@ tas-ix.net##+js(set-constant, ab, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71175
 camsclips.org#@#.ads-iframe
 @@||camsclips.org/player/player_ads.html
-! https://github.com/AdguardTeam/AdguardFilters/issues/68783
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=loveanime.live
-@@||anime.anidub.life/adfox.js$domain=loveanime.live
-@@||adservice.google.md/adsid/integrator.js$domain=loveanime.live
-||anime.anidub.life/adfox.js$script,xmlhttprequest,redirect=noop.js,domain=loveanime.live,important
-||adservice.google.md/adsid/integrator.js$script,xmlhttprequest,redirect=noop.js,domain=loveanime.live,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67948
 @@||get.optad360.io/sf/*/plugin.min.js$domain=debilizator.tv
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs-contrib-ads.min.js$domain=debilizator.tv
@@ -5404,7 +5398,6 @@ kino-dom.org###my_abadiv
 kino-dom.org#$##all_players { display: block!important; }
 ! http://forum.adguard.com/showthread.php?8355
 @@||serpens.nl/serial/*/iframe$elemhide
-! http://forum.adguard.com/showthread.php?8483
 ! http://forum.adguard.com/showthread.php?8193
 @@||zserials.me/serial/*/iframe$elemhide
 ! http://forum.adguard.com/showthread.php?7979
@@ -5852,16 +5845,12 @@ okminigames.mail.ru##+js(set-constant, NO_ADV, 1)
 agroreview.com##+js(addEventListener-defuser, click, data-advadsredirect)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136551
 public-porn.xyz##+js(set-constant, biads.initCli, noopFunc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/131267
-anidub.com##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128369#issuecomment-1236068069
 fastpic.org##+js(abort-current-script, document.querySelector, stick)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128427
 adultepic.com,xxxtube2022.com,fuck-xxx-movies.com##+js(abort-on-property-read, userout)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127540
 sweet-tv.net,cdnneedtv.ru##+js(window.open-defuser)
-! https://github.com/AdguardTeam/AdguardFilters/issues/127528
-online.anidub.com,online.anidub.club##+js(abort-on-property-write, bg)
 ! https://github.com/uBlockOrigin/uAssets/issues/13230
 https-xvideos.com##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116089
@@ -6458,9 +6447,6 @@ bizlida.by#$#body { height: unset !important; }
 e1.ru#$#.global-wrapper._branding { padding: 0 !important; }
 ! torrentbay.co - удаление отступа сверху
 torrentbay.co#$#.pagecontent { margin-top: 0 !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/52901
-anime.anidub.life,online.anidub.com#$#.content > div.speedbar { padding-top: 0 !important; margin: 0 0 !important; }
-anime.anidub.life,online.anidub.com#$##main > div:not([class*="wrap-"]) { visibility: hidden !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59475
 video.porno365.click#$#body { padding: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59059
@@ -8651,7 +8637,6 @@ adult-images.ru#?#td[width="195"][align="left"] > table:has(a[href^="https://pop
 adult-images.ru#?#td.t_bg > center:has(> a[target="_blank"] > img)
 adult-images.ru#?#div:has(> a[href^="https://teasermedia.net"])
 gorodrabot.ru#?#div.flex-xs:has(> div[id*="_R-A-"])
-anidub.com#?#div[style^="background: url(\"https://online.anidub.com/templates/"] > div[id]:matches-css(height: 250px)
 wotpack.ru#$?#.br_wrap:has(> div) { padding-top: 0!important; background: none!important; }
 vesti-ua.net#?##dle-content > .mob2 > .related_news_block:has(> section > noindex > script#MediaMetricsInject)
 vesti-ua.net#?#.last_news_widget:has(> noindex > div#psh_wrp)
@@ -9091,7 +9076,6 @@ economics-prorok.com#?##sidebar > ul#widgetlist > li.widget:has(> div.textwidget
 economics-prorok.com#?##sidebar > ul#widgetlist > li.widget:has(> div.textwidget > div[id^="MIXADV"])
 tele.ru#?#.sidebar > div.widget:has(div[id^="gnezdo_ru_"])
 fayloobmennik.cloud#?#div[class^="block_download"] > div[class^="block_share"]:has(div[align="center"] > h3:contains(Реклама))
-anime.anidub.life#$?#body > div:not([id]):not([class]) > div[id]:not([class]):not([id="loginchap"]):not([id="menuconter"]):not([id="slideout"]):not([id="buffervideoload"]) { remove: true; }
 sintetiki.net#?#.one_prod_col_sidebar > div[class^="one_prod"]:has(> div.banner_block_adaptive)
 megapolisonline.ru#?#.content > div.block-title:has(> span.block-title__text:contains(Статьи наших партнёров))
 kanobu.ru#?#.c-content_left > aside[class]:has(> div[id^="AdFox_banner_"])
@@ -9641,9 +9625,6 @@ avito.ru##div[class^="advert-serp-block-wrapper-"]
 darktorrent.ru##.page__main a[href][target="_blank"][rel="nofollow"] > img
 ua.news##aside > div[align="center"] > a[target="_blank"] > img
 cursorinfo.co.il##div[class^="code-block code-block-"][style="margin-top:15px!important;"]
-tr.anidub.com##header::after
-tr.anidub.com###content::before
-tr.anidub.com###content::after
 torrent-stop.org##center > p > a[target="_blank"]
 ||sakhaday.ru/banners/
 stelegram.ru##.fpm_5_modal-overlay
@@ -9698,11 +9679,6 @@ oterraria.ru###adv_fon
 oterraria.ru###custom_html-14
 ||oterraria.ru/wp-content/uploads/*/gamershopru*.jpg
 oterraria.ru##div[class^="code-block"][style*="text-align: center;"]
-online.anidub.com,online.anidub.club###banner
-online.anidub.com,online.anidub.club##.popular
-online.anidub.com,online.anidub.club##div[style^=" width: 240px;  height: 400px;"]
-online.anidub.com,online.anidub.club##center > a[target="_blank"] > img
-||online.anidub.club/player/vast.php
 expert.ru##.free-month
 ranobehub.org##.list > a.item--plus
 miasskiy.ru###custom_html-21
@@ -9727,7 +9703,6 @@ fomag.ru##.popular-art-head
 lpgenerator.ru##.vitamin
 gatchina3000.ru##table[width="700"][height="300"]
 rubryka.com##.after-content-advertisment
-online.anidub.com##div[class$="wrap-main"]:not(.wrap-center)::before
 hrodna.life##.widget-a-wrap
 secretmag.ru##.sideColumn div.wrapper
 pravda-nn.ru##.post__partners
@@ -17626,7 +17601,7 @@ webware.ru/*/clients/
 ||ру-порно.com/teasernet/
 ||скачатьофис.рф/*.php?q=$script
 ||форум-мебельщиков.рф/banner/
-anime.anidub.life,online.anidub.com,only-soft.org,4allforum.com,aviasales.ru,gazetapik.ru,link.ac,nakarte.rambler.ru,ping-admin.ru,sotovik.ru###banner
+only-soft.org,4allforum.com,aviasales.ru,gazetapik.ru,link.ac,nakarte.rambler.ru,ping-admin.ru,sotovik.ru###banner
 small-games.info##div[align="center"] > a > img
 tvfru.ru##div[id^="teaser_"]
 svoekino.club##div[class^="reklama"]
@@ -17951,14 +17926,6 @@ vost.pw,animevost.am,smotret-anime-365.ru,animevost.online,animevost.org,animero
 vost.pw,animevost.am,smotret-anime-365.ru,animevost.online,animevost.org,animerost.org,animevost.am,agorov.org##div[class^="headbg"] > a[target="_blank"]
 vost.pw,animevost.am,smotret-anime-365.ru,animevost.online,animevost.org,animerost.org,animevost.am,agorov.org#?##centerBlock > div:has(> center > a[target="_blank"])
 vost.pw,animevost.am,smotret-anime-365.ru,animevost.online,animevost.org,animerost.org,animevost.am,agorov.org#?#div[id^="moduleLeft"]:has(> div[class] center)
-!
-! anidub
-anime.anidub.life#?#.wrap > div[style]:has(> center > div[id^="adfox_"])
-online.anidub.com#?#.wrap > div[style]:has(> div[id^="adfox_"])
-||loveanime.live^$media,domain=anime.anidub.life|online.anidub.com
-anime.anidub.life,online.anidub.com##div[style*="width: 240px"][style*="height: 400px"]
-anime.anidub.life,online.anidub.com##.plyr__ads
-anime.anidub.life,online.anidub.com##div[style^="width: 240px;height: 400px;"]
 !
 4pda.to##a[href*="//4pda.to/honor/?utm_"]
 ||4pda.*/st/ztm?
@@ -18889,9 +18856,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_russian
 ! razlozhi.ru - удаление отступа справа
 ! wasd.tv - preroll ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49088
-! https://github.com/AdguardTeam/AdguardFilters/issues/58733
 ! oneseasons.club - preroll ads
-! anidub.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39998
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29629
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27033
@@ -19035,10 +19000,6 @@ login.scdl.net#@#.bannerRight
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117014
 @@||en.bongacash.com/js/videojs/video.js$domain=animalpornrocks.co
 @@||en.bongacash.com/js/videojs/videojs_5.vast.vpaid.min.js$domain=animalpornrocks.co
-! https://github.com/AdguardTeam/AdguardFilters/issues/116317
-@@||anidub.link/player/js/anidub-ad2.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/113797
-@@||online.anidub.com/player/js/anidub-ad*.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114150
 @@||login.admitad.com^
 ! https://forum.adguard.com/index.php?threads/http-oneliketv-net.47460/
@@ -19243,8 +19204,6 @@ ozon.ru#@#.ad7
 @@||coinmarketcap.com^$domain=clona.ru
 ! rns.online - fixing slider
 @@||ssp.rambler.ru/capirs_async.js$domain=rns.online
-! https://github.com/AdguardTeam/AdguardFilters/issues/45111
-@@||moevideo.biz/vast$domain=anime.anidub.life
 ! https://forum.adguard.com/index.php?threads/36021/
 @@||nativerent.ru/api/$domain=nativerent.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44357

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 1m/BVg2uvwmzg59PFsqK6w
-! Diff-Path: ../patches/7/7-s-1724945882-3600.patch
+! Checksum: vYnRfboTR2Dp+/jxpPr21w
+! Diff-Path: ../patches/7/7-s-1725021503-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.97
-! TimeUpdated: 2024-08-29T15:33:53+00:00
+! Version: 2.0.55.98
+! TimeUpdated: 2024-08-30T12:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -82,7 +82,6 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 !
-||avhduwvirosl.com^
 ||cdn.rossoad.com^
 ||adma.xsrv.jp^$third-party
 ||amazones-tools.com^$third-party
@@ -1732,6 +1731,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+les-koko.com##.item_area
+les-koko.com##div[id^="bnc_ad_"]
 tvguide.or.jp##div[id^="taboola"]
 ameblo.jp##:matches-path(/nao-angel-smile)#entryBody > div[style]:has(> div.pickCreative_root)
 kokopyon.net##.topentry_text
@@ -6730,6 +6731,7 @@ chimolog.co##.adsbox
 sbapp.net##div[class^="gads-space"]
 hkokuhaku.com###ad_234x
 hkokuhaku.com##.syosai
+maidonanews.jp##.layout-main > div.module-ad
 maidonanews.jp##.module-ad__item
 yorozoonews.jp#$?#.module-list-articles__item[style="padding:0px"] { remove: true; }
 maidonanews.jp,yorozoonews.jp##.module-ad-header
@@ -9092,6 +9094,7 @@ audioreview.m1001.coreserver.jp###side-fixed a[href^="//af.moshimo.com/af/c/clic
 kashi-mo.com##.rectangle_bnr
 yahoo.co.jp###lrec
 ibbs.info##.ad_data
+blog.esuteru.com##.quote_area.article_detail_margin > table[cellpadding="5"][style="border-collapse:separate;border-spacing:5px;border:none 0"]:has(a[href*="amazon.co.jp"][target="_blank"] > img)
 blog.esuteru.com##.azrank_quote
 blog.esuteru.com##.siteAside > div.ad-aside:nth-child(-n+2)
 blog.esuteru.com,jin115.com###gStickyAd

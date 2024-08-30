@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TaSv1WaA/EdXzQFUIJSz/w
-! Diff-Path: ../patches/13/13-s-1724830618-3600.patch
+! Checksum: 8w5O2oTjtrPEkanN4wBYLQ
+! Diff-Path: ../patches/13/13-s-1725021498-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.9
-! TimeUpdated: 2024-08-28T07:33:08+00:00
+! Version: 2.0.53.10
+! TimeUpdated: 2024-08-30T12:33:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1508,7 +1508,7 @@ dizipal1.cloud,dizipal2.cloud,dizipal4.cloud,dizipal5.cloud,dizipal9.cloud,dizip
 ! Removing branded background
 !
 hdfilmcehennemi.*,filmizlehdfilm.com,hdfilmizlesene.org,contentx.me,siyahfilmizle.*,fullhdfilmizle.*,fullhdfilmizlesenebox.org,pchocasi.com.tr,jetfilmizle.*,dizilab9.*,dizilab8.*,fullhdfilmizletv.*,filmizletv.*,turkcealtyazi.org#$#html > body { background-image: none !important; }
-izlehdfilm.net#$#body { background-image: none !important; background-color: #171717 !important; }
+hdfilmcehennemi.so,izlehdfilm.net#$#body { background-image: none !important; background-color: #171717 !important; }
 itemci.com#$#body { background: none !important; }
 !
 !

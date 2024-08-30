@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: vYnRfboTR2Dp+/jxpPr21w
-! Diff-Path: ../patches/7/7-s-1725021503-3600.patch
+! Checksum: /UeiVXij79Lig/CtO8xj8g
+! Diff-Path: ../patches/7/7-s-1725025026-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.55.98
-! TimeUpdated: 2024-08-30T12:33:03+00:00
+! Version: 2.0.55.99
+! TimeUpdated: 2024-08-30T13:33:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1731,6 +1731,17 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+anal.bbsnet.info###lcBox > div#centerBox > center:last-child
+anal.bbsnet.info,ms.bbsnet.info###lcBox > div#centerBox > div.contentfree:has(> div.siteshokai)
+anal.bbsnet.info,ms.bbsnet.info###lcBox > div#centerBox > h2:has(+ div.contentfree > div.siteshokai)
+ms.bbsnet.info###lcBox > div#centerBox > h2:has(+ div.wf)
+sm.bbsnet.info###lcBox > div#centerBox > div.contentfree2
+sm.bbsnet.info###lcBox > div#centerBox > h2:has(+ div.contentfree2)
+anal.bbsnet.info##.pcbanner
+anal.bbsnet.info##.textbanner
+smpt.webrental.org###mainBox > div.mainBack > div.bbsBox.smpt:has(> p > a[href*="/go.php"])
+smpt.webrental.org###mainBox > h2:has(+ div.mainBack > div.bbsBox.smpt > p > a[href*="/go.php"])
+smpt.webrental.org##.sp-topad
 les-koko.com##.item_area
 les-koko.com##div[id^="bnc_ad_"]
 tvguide.or.jp##div[id^="taboola"]

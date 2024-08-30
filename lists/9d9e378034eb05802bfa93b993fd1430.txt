@@ -4570,9 +4570,11 @@ derstandard.at,derstandard.de##+js(nostif, event, 3000)
 @@||relay-client-c03.iocnt.net^$script,domain=derstandard.at|derstandard.de
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15407
+! https://github.com/uBlockOrigin/uAssets/issues/15748
 ||tirexo.*^$csp=default-src 'unsafe-inline' 'self' *.gstatic.com *.googleapis.com *.jquery.com
 tirexo.*##+js(nowoif)
 ||tirexo.*/main.js?v=$script,1p
+tirexo.*##[href^="https://dl-protect.link/req-direct-url"]
 tirexo.*##[href^="https://dl-protect.net/get-premium-url"]
 tirexo.*##[style]:has-text(PREMIUM)
 
@@ -5281,12 +5283,13 @@ emturbovid.com,findjav.com,mmtv01.xyz,stbturbo.xyz,streamsilk.com##+js(trusted-r
 /ab/thejsfile.js
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16106
+! https://github.com/uBlockOrigin/uAssets/issues/15770
 *$3p,denyallow=b-cdn.net|cloudflare.com|dailymotion.com|dmcdn.net|facebook.com|facebook.net|fbcdn.net|fontawesome.com|google.com|gstatic.com|iconfinder.com|jquery.com|llnwi.net|tmdb.org,domain=zone-telechargement.*
 zone-telechargement.*##+js(aeld, popstate)
 zone-telechargement.*##+js(nowoif)
 zone-telechargement.*##+js(no-fetch-if, /^/)
 ||zone-telechargement.*/main.js?v=$script,1p
-zone-telechargement.*##a[href^="https://dl-protect.link/req-direct-url"]
+zone-telechargement.*,wawacity.*##a[href^="https://dl-protect.link/req-direct-url"]
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/zso4pp/
 alphaporno.com,anyporn.com,bravoporn.com,bravoteens.com,crocotube.com,hellmoms.com,hellporno.com,sex3.com,tubewolf.com,xbabe.com,xcum.com,zedporn.com##+js(set, vastEnabled, false)

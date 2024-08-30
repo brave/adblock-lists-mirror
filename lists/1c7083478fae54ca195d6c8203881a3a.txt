@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.1.0
+! Version: 3.8.1.1
 
 ! General
 
@@ -400,8 +400,7 @@ ajc.com##+js(set, Fusion.globalContent.content_restrictions.content_code, 0)
 ||wgchrrammzv.com/prod/ajc/loader.min.js$script,domain=dayton.com|daytondailynews.com|journal-news.com|springfieldnewssun.com
 
 ! Crain Communications
-.com/*/js_$script,domain=360dx.com|adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|rubbernews.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
-360dx.com,adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,genomeweb.com,modernhealthcare.com,plasticsnews.com,precisionmedicineonline.com,rubbernews.com,sustainableplastics.com,tirebusiness.com,utech-polyurethane.com##+js(ra, class, body[class])
+.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|rubbernews.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
 european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.1.1
+! Version: 3.8.1.2
 
 ! General
 
@@ -272,6 +272,7 @@ nzherald.co.nz##+js(set, Fusion.globalContent.isPremium, false)
 nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction)
 /\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script
 paloaltoonline.com##+js(cookie-remover, /^/)
+||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
 pourleco.com##+js(ra, style, div[class*="article-"][style])
 pourleco.com##div[data-pleco-poool^="paywall"],div[data-pleco-transition="fade"]
 philosophynow.org##+js(cookie-remover, /^/)
@@ -671,6 +672,7 @@ skepticalinquirer.org##+js(rc, google-bot, div.google-bot, stay)
 ||spectrejournal.com/wp-content/plugins/elementor/*/dialog.min.js$script,~third-party
 splainer.in##+js(rc, hide-section, .hide-section)
 splainer.in##.subscription-prompt
+||splinter.com/wp-content/themes/pastemagazine/js/pm_custom.js$script,~third-party
 stateaffairs.com##div.c-memberships-message
 stateaffairs.com##+js(rc, access-restricted, body.access-restricted)
 strangematters.coop##+js(cookie-remover, pmpro_lpv_count)

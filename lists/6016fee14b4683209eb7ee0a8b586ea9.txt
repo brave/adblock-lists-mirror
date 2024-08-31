@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: sEI3G6kJLztPGImH5b0LBA
-! Diff-Path: ../patches/16/16-s-1725079016-3600.patch
+! Checksum: gNKfVBJaYfvdR2tLugcFAg
+! Diff-Path: ../patches/16/16-s-1725125826-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.41
-! TimeUpdated: 2024-08-31T04:33:18+00:00
+! Version: 2.0.46.42
+! TimeUpdated: 2024-08-31T17:33:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -938,7 +938,7 @@ h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigi
 cosmopolitan.fr##.External
 japscan.lol##body > .container.text-center > div.mt-3[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][href^="https://www."][href*="/?utm_source=manga&utm_"]:not([href^="https://www.google"]):not([href^="https://www.japscan"]):not([href^="https://www.example"]) > img.img-fluid[src^="/imgs/onc/"]
 japscan.lol##.navbar-nav > li.nav-item > a[href^="https://www.origoclick.com/manga/?type=nav&"]
-japscan.lol###sidebar > .card > .card > a.aikoi.donate[target="_blank"][rel="noopener noreferrer nofollow"] img
+japscan.lol##body > .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_"][target="_blank"][rel="noopener noreferrer nofollow"] img
 japscan.lol##.card.copines
 japscan.lol##a[href^="https://candy.ai/"][target="_blank"]
 japscan.lol##a[href^="https://candy.ai/"][target="_blank"] + p.mainTitle

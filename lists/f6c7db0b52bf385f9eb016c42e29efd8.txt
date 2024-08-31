@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 20240831170221984
+! Version: 20240831180418157
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
 ! Title: ABPVN List
-! Last modified: 31 Aug 2024 17:02:22 UTC+7
-! Diff-Path: patches/20240831170221984.patch#abpvn_ublock
+! Last modified: 31 Aug 2024 18:04:18 UTC+7
+! Diff-Path: patches/20240831180418157.patch#abpvn_ublock
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -495,6 +495,7 @@ fastscans.net##a[href^="https://shope.ee"]
 file.gocmod.com##div.ad
 forum.gocmod.com##.ad-manager-forum-list-bottom
 forum.gocmod.com##.ad-manager-forum-list-top
+forum.gocmod.com##.ad-manager-forum-view-top
 forum.gocmod.com##.ad-manager-header
 forum.gocmod.com##.ad-manager-thread-view-bottom
 forum.gocmod.com##.ad-manager-thread-view-top
@@ -735,7 +736,7 @@ phimss.net##.ads-sp
 phimtuoitho.tv,tvhayw.org##.catfish-bottom
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz##.t_logo
 phimvietsub.pro,subnhanh.xyz##.sticky_bottom
-phimvuihd.org,hh3dhay.life,phim18u.net,phim24h.mobi,xem14.com,hh3dhay.pro,vutruphim.tv,3dchill.shop,hh3dhay.life##.float-ck-center-lt
+phimvuihd.org,hh3dhay.life,phim18u.net,phim24h.mobi,xem14.com,hh3dhay.pro,vutruphim.tv,3dchill.shop##.float-ck-center-lt
 phimyeuthichb.com##.sticky-footer
 phunumoi.net.vn,nhipcaudautu.vn##div[id^="ads_"]
 phuongtrinhhoahoc.com##.shadow-card + .mt-2

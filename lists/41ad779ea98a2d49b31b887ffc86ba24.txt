@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WsFFlvj9W4JyCUJ/HjUPsg
-! Version: 202408310640
+! Checksum: JboYSRYNmC12bec8r471Vg
+! Version: 202408310715
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-08-31 06:40 UTC
+! Last modified: 2024-08-31 07:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -45461,6 +45461,9 @@ breakwaterit.co.uk,unternehmensregister.de,transparenzregister.de,bundesanzeiger
 !! .cc
 dpp.cz##.cc
 dpp.cz##body,html:style(height: auto !important; overflow: auto !important)
+! brightdata.com
+brightdata.com##.cookies_popup_overlay
+brightdata.com##+js(rc, brd_cookies_bar_popup_shown, html, stay)
 ! roshtein.com
 roshtein.com##.CookieConsent_wrapper__lsbBi
 roshtein.com##*:style(filter: none !important;opacity:1 !important;pointer-events:auto !important)

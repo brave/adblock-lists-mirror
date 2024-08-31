@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: PxzHYK/XVZIXljegM7US+A
+! Checksum: mr2flAYf1iE3x6CX68w6cQ
 ! Title: Easylist Cookie List
-! Updated: 2024-08-31 05:40 UTC
+! Updated: 2024-08-31 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23669,6 +23669,9 @@ breakwaterit.co.uk,unternehmensregister.de,transparenzregister.de,bundesanzeiger
 !! .cc
 dpp.cz##.cc
 dpp.cz##body,html:style(height: auto !important; overflow: auto !important)
+! brightdata.com
+brightdata.com##.cookies_popup_overlay
+brightdata.com##+js(rc, brd_cookies_bar_popup_shown, html, stay)
 ! roshtein.com
 roshtein.com##.CookieConsent_wrapper__lsbBi
 roshtein.com##*:style(filter: none !important;opacity:1 !important;pointer-events:auto !important)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pNjnSTvfRM6OikNQIgaeVw
-! Diff-Path: ../patches/7/7-s-1725125827-3600.patch
+! Checksum: qK7G6eWqEQ464ORJICcPbA
+! Diff-Path: ../patches/7/7-s-1725147404-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.3
-! TimeUpdated: 2024-08-31T17:33:13+00:00
+! Version: 2.0.56.4
+! TimeUpdated: 2024-08-31T23:32:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10699,6 +10699,7 @@ vip-front.video.g.fc2.com,video.laxd.com,video.fc2.com##[class^="c-ad"]:not(.c-a
 ||nijigen-erogazou.com^$script,third-party
 !
 ! itest.5ch.net,itest.bbspink.com
+itest.5ch.net#$#div[itemprop="itemListElement"][style="margin-top: 100px;"] { margin-top: 0 !important; }
 ||itest.5ch.net/assets/img/*-300x250.png
 itest.5ch.net##.ad_5th_300x250
 itest.5ch.net,itest.bbspink.com##div[id$="AdsMain"]

@@ -2990,7 +2990,10 @@ melaniezettofrais.online##+js(nostif, sandbox)
 1jour1film.cyou###fakeplayer
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25054
-jokersportshd.org,tennis.stream##+js(nowoif, /aff|jump/)
+! https://github.com/uBlockOrigin/uAssets/issues/25143
+jokerscores.com,jokersportshd.org,tennis.stream##+js(nowoif, /aff|jump/)
+||clearonclick.com^$popup
+||clearonclick.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25059
 @@||101soundboards.com^$ghide
@@ -3105,3 +3108,6 @@ pak-mcqs.net##+js(aopw, _pop)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25141
 visalist.io##+js(no-fetch-if, adsbygoogle)
+
+! https://github.com/uBlockOrigin/uAssets/issues/25147
+multimovies.*###clickfakeplayer:remove-attr(href)

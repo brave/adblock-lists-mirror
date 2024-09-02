@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UQv0EbgrxnN/LlndkG7hvg
-! Diff-Path: ../patches/16/16-s-1725302216-3600.patch
+! Checksum: fVZDpDkTsyDmrtGimBobSw
+! Diff-Path: ../patches/16/16-s-1725316593-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.44
-! TimeUpdated: 2024-09-02T18:33:14+00:00
+! Version: 2.0.46.45
+! TimeUpdated: 2024-09-02T22:33:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -211,9 +211,6 @@ japscan.lol#@#.tangoai
 japscan.lol#@#[class^="copine"]
 @@||japscan.lol/adcount.js$~third-party
 @@||japscan.lol^$generichide
-japscan.lol##.blur-background
-japscan.lol##.text-center > a[target="_blank"] > img
-||japscan.lol/imgs/jopy/best.gif
 japscan.lol##+js(abort-current-script, addEventListener, String.fromCharCode)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147701
 trustmyscience.com##.adb-border
@@ -937,12 +934,9 @@ cookomix.com##.AdMB
 h2-mobile.fr#?##main-container .blog__content:has(> .title-wrap--pr > h3:contains(Annonces))
 h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigital-adslot-"])
 cosmopolitan.fr##.External
-japscan.lol##body > .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
+japscan.lol##body > .container.text-center > div.mt-3[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][href^="https://www."][href*="/?utm_source=manga&utm_"]:not([href^="https://www.google"]):not([href^="https://www.japscan"]):not([href^="https://www.example"]) > img.img-fluid[src^="/imgs/onc/"]
 japscan.lol##.navbar-nav > li.nav-item > a[href^="https://www.origoclick.com/manga/?type=nav&"]
-japscan.lol##body > .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_"][target="_blank"][rel="noopener noreferrer nofollow"] img
-japscan.lol##.card.copines
-japscan.lol##a[href^="https://candy.ai/"][target="_blank"]
-japscan.lol##a[href^="https://candy.ai/"][target="_blank"] + p.mainTitle
+japscan.lol##body > .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 femina.fr##.p-aside
 femina.fr##.p-inread
 femina.fr##.p-pave
@@ -1122,7 +1116,6 @@ lereportersablais.com###stream-item-widget-11
 freemaths.fr###annonce-haut
 freemaths.fr###annonce-footer
 nostalgie.fr##div[class^="StyledAds"]
-japscan.lol##a[href^="https://bit.ly/"] > img
 emu-france.com##.sidebar > div.widget_polls-widget ~ div > a[onclick^="javascript:window.open('"]
 emu-france.com##.sidebar > div.widget_polls-widget ~ div > a[target="_blank"]
 lachainemeteo.com##div[id^="mban_atf-"]

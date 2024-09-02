@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ABl69XWiwfc8rtN0HfK04Q
-! Diff-Path: ../patches/7/7-s-1725295057-3600.patch
+! Checksum: kw+QfiW0OSHXEVKuau+WoQ
+! Diff-Path: ../patches/7/7-s-1725298598-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.11
-! TimeUpdated: 2024-09-02T16:32:53+00:00
+! Version: 2.0.56.12
+! TimeUpdated: 2024-09-02T17:32:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -82,6 +82,8 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 !
+||creative-klepon-3f0ecb.netlify.app^
+||effulgent-stroopwafel-efb9ce.netlify.app^
 ||cdn.rossoad.com^
 ||adma.xsrv.jp^$third-party
 ||amazones-tools.com^$third-party
@@ -1732,6 +1734,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+seikeidouga.blog.jp##div[align="center"] > span[style="color: #FF0000;"]
+seikeidouga.blog.jp##.blog_ad2
 eorzean.info###leftbar-inner > a[href="http://www.eorzean.info/archives/3415373.html"] ~ a
 eorzean.info###leftbar-inner > a[href="http://www.eorzean.info/archives/3415373.html"] ~ img
 eorzean.info###leftbar-inner > a[href="http://www.eorzean.info/archives/3415373.html"] + br + div ~ div
@@ -6876,6 +6880,10 @@ n-styles.com##.entry center
 timeout.jp##div[class^="_inlineAdWrapper_"]
 timeout.jp##div[id^="ad-promo-"]
 timeout.jp##div[id^="ad-side-"]
+amaebi.co##.article__content > div > a[href^="https://jp.mercari.com/user/profile/"] > img.pict
+ebitsu.net##a[target="_blank"]:not([href*="ebitsu.net"]):not([href*="amaebi.co"]):not([href^="https://www.youtube.com"]) > img.pict
+ebitsu.net##.side > b > span[style="color: rgb(255, 0, 0);"]
+ebitsu.net##.plugin-memo > div.side > div.plugin-memo:has(> div.side > div[id^="bnc_ad_"])
 ebitsu.net##.itemTitle
 all-nationz.com,kyarabetsunijiero.net##.right-column-inner > div.plugin-memo:first-child
 gamedaradara.doorblog.jp,seikeidouga.blog.jp,kyarabetsunijiero.net,ebitsu.net##.left-column-inner > div.plugin-memo:last-child

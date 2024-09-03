@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: q7EfdBgQQBHYdSb8tu1Emg
-! Diff-Path: ../patches/7/7-s-1725363425-3600.patch
+! Checksum: GqQ17uU6YJAulIjmbED+KQ
+! Diff-Path: ../patches/7/7-s-1725370654-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.14
-! TimeUpdated: 2024-09-03T11:32:44+00:00
+! Version: 2.0.56.15
+! TimeUpdated: 2024-09-03T13:33:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -387,7 +387,6 @@
 ||ad.land.to^
 ||ad.net-tool.jp^
 ||ads.metropolis.co.jp^
-||ads.nicovideo.jp^
 ||api.unthem.com^$third-party
 ||arms.livedoor.net^
 ||assoc-amazon.jp^$third-party
@@ -1734,6 +1733,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||ads.nicovideo.jp^$script,xmlhttprequest
 kotobank.jp##header > div[id^="payment"]
 seikeidouga.blog.jp##div[align="center"] > span[style="color: #FF0000;"]
 seikeidouga.blog.jp##.blog_ad2
@@ -11122,6 +11122,8 @@ webcartop.jp#@#.single-ads
 ||penta.a.one.impact-ad.jp^$script,redirect=noop.js,domain=nissan.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107680
 @@||rmp.rakuten.co.jp/js/aa.js$domain=24.rakuten.co.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/105095
+@@||res.ads.nicovideo.jp/assets/js/ads2.js$domain=sp.seiga.nicovideo.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98787 fix related posts on mobile
 eromanga-school.com#@#.related-ad-area
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97511

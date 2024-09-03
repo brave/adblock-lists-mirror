@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: fVZDpDkTsyDmrtGimBobSw
-! Diff-Path: ../patches/16/16-s-1725316593-3600.patch
+! Checksum: cxpipjBSiA4rOWEJR8Axgg
+! Diff-Path: ../patches/16/16-s-1725345397-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.45
-! TimeUpdated: 2024-09-02T22:33:05+00:00
+! Version: 2.0.46.46
+! TimeUpdated: 2024-09-03T06:33:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -125,8 +125,10 @@ adala-news.fr##+js(set-constant, penci_options_set.ad_blocker_detector, false)
 @@||soins-infirmiers.com/*/adblocker.blogads.css
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182577
 tvaplus.ca##+js(set-constant, ima, {})
+! https://github.com/AdguardTeam/AdguardFilters/issues/187802
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182488
-||cdn.assets02.nicematin.com/build/js/viewpay.*.js
+||cdn.assets*.nicematin.com/build/js/viewpay.*.js
+nicematin.com##+js(addEventListener-defuser, DOMContentLoaded, adblock)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178842
 @@||cinemaclock.com/adpartner.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176244
@@ -887,6 +889,8 @@ $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.
 !
 !
 !
+nicematin.com##aside > .desktop-right-col-sticky > .sticky-multi-level-container:has(> .sticky-content > .ad-slot-container)
+nicematin.com##aside > .desktop-right-col-sticky > .sticky-next-level > .sticky-multi-level-container:has(> .sticky-content > .ad-slot-container)
 charentelibre.fr###main-before-content-container
 lemonde.fr##.services:not(:has(div[data-services-name*="Le Monde"][data-services-name$="Mémorable"]))
 lemonde.fr#?#.zone > div.area:has(> div.area__title > p:contains(Contenus partenaires))
@@ -1625,6 +1629,8 @@ app.molotov.tv##+js(no-xhr-if, /ping?token=)
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/187802
+nicematin.com#@?#section:-abp-has(.brand:-abp-contains(sponsorisé))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187600
 @@||viherpeukalot.fi/shop_layout/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186663

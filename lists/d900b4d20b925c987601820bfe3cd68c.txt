@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9GzXYAwXdi77/HDvk+s2HA
-! Diff-Path: ../patches/7/7-s-1725316595-3600.patch
+! Checksum: q7EfdBgQQBHYdSb8tu1Emg
+! Diff-Path: ../patches/7/7-s-1725363425-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.13
-! TimeUpdated: 2024-09-02T22:32:44+00:00
+! Version: 2.0.56.14
+! TimeUpdated: 2024-09-03T11:32:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1734,13 +1734,13 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+kotobank.jp##header > div[id^="payment"]
 seikeidouga.blog.jp##div[align="center"] > span[style="color: #FF0000;"]
 seikeidouga.blog.jp##.blog_ad2
 eorzean.info###leftbar-inner > a[href="http://www.eorzean.info/archives/3415373.html"] ~ a
 eorzean.info###leftbar-inner > a[href="http://www.eorzean.info/archives/3415373.html"] ~ img
 eorzean.info###leftbar-inner > a[href="http://www.eorzean.info/archives/3415373.html"] + br + div ~ div
 baseballking.jp##.kakomi
-baseballking.jp##.post-body > div[style]:has(> div[id^="div-gpt-ad-"])
 mizugigurabia.com##.entry-content > p > a[href^="https://amzn.to"]
 gekibuzz.com##div[id^="text-"]:has(span[style="color: #ff0000;"])
 dragon-quest.jp##.adbox_top3
@@ -1750,8 +1750,6 @@ dragon-quest.jp,final-fantasy.cc,toragame.com###right_area
 zozovideo.com##.body-content > div[style="margin: 0 0 15px 0; padding: 5px; font-size: 12px; word-break: break-all;"] ~ p:has(> a.btn-user-submit[target="_blank"])
 ||ddd-smart.net/*.php
 ||rise.enhance.co.jp/adu.js
-mainichikirei.jp##.ad_text
-mainichikirei.jp##.article__inner > div[style]:contains(- 広告 -)
 nanohanana.com##.hoverner-link
 anal.bbsnet.info###lcBox > div#centerBox > center:last-child
 anal.bbsnet.info,ms.bbsnet.info###lcBox > div#centerBox > div.contentfree:has(> div.siteshokai)
@@ -10253,7 +10251,6 @@ calligra.design,dddfont.com,frames-design.com,fukidesign.com,kage-design.com#?#.
 auctions.yahoo.co.jp#?#div[class^="LayoutMain-sc"] > aside[class^="Component-sc"]:has(> div[id^="adS"])
 auctions.yahoo.co.jp#?#div[class^="LayoutMain-sc"] > section[class^="Component-sc"]:last-of-type:has(> div[id^="adS"])
 inakadaisuki.com#?#.post > table[style]:has(> tbody > tr > td > .adsbygoogle)
-bbs.shitagi.org#?#table[width="780"] > tbody > tr > td[height][bgcolor="#ff0080"][align="center"] > font:upward(2)
 tabikobo.com#?#.main > .newTemp > p:last-child:has(> .adsbygoogle)
 jigen.net#?#.section > div.clear:has(> a[href^="https://amazon.co.jp/"])
 uraaka-joshi.com#?##pickup-block > .grid:has(iframe[src*="/ad-d/"])

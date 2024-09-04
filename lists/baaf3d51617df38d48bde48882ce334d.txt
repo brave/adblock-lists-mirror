@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z7a5JeQNwmx7W2FwJuUMuw
-! Version: 202409041940
+! Checksum: pNgUefKdXA6W+m5atNlCLQ
+! Version: 202409042040
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-09-04 19:40 UTC
+! Last modified: 2024-09-04 20:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4378,8 +4378,8 @@ australiangolfdigest.com.au,matomo.org,coloradotimesrecorder.com,artificialintel
 ! pum + overlay
 capx.co##.pum
 capx.co##div#wrapper:style(filter: none !important)
-! readergrev.com (substack)
-readergrev.com,objectivebayesian.com##+js(set-cookie, popup_closed, true)
+! newsletter popup
+readergrev.com,objectivebayesian.com,monopoly.marketecture.tv,jointhefollowup.com##+js(set-cookie, popup_closed, true)
 ! scottishlegal.com
 scottishlegal.com###subscribeModal
 scottishlegal.com##.modal-backdrop
@@ -4602,8 +4602,6 @@ shojiwax.com,skepticalraptor.com##+js(set-cookie, jetpack_post_subscribe_modal_d
 apotekfordeg.no##.newsletter-modal
 apotekfordeg.no##.modal-backdrop
 apotekfordeg.no##body:style(overflow: auto !important; position: initial !important;)
-! jointhefollowup.com
-jointhefollowup.com##+js(set-cookie, popup_closed, true)
 ! spring.org.uk
 spring.org.uk##.hustle-popup
 spring.org.uk##body,html:style(overflow: auto !important; position: initial !important;)

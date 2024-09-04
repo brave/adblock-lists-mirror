@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8Q9SdX/v1+571KQMQC7Img
-! Version: 202409041840
+! Checksum: letNlUEtv6yDFWdtqLMdpA
+! Version: 202409042040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-04 18:40 UTC
+! Last modified: 2024-09-04 20:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44203,6 +44203,7 @@ uhrzeit123.de##+js(set-cookie, ga-disable, true)
 marinelink.com##+js(set-cookie, GDPR, 9)
 thegraph.com##+js(set-cookie, cookie-consent, false)
 blog.documentfoundation.org##+js(set-cookie, ytprefs_gdpr_consent, 1, , reload, 1)
+my.eneba.com##+js(set-cookie, cconsent, 1000)
 blitzortung.org##+js(set-cookie, CONSENT, 15)
 esim.redteago.com##+js(set-cookie, nCookieVisible, 2)
 tester.userbrain.com##+js(set-cookie, CookieConsent, false)
@@ -48023,8 +48024,8 @@ australiangolfdigest.com.au,matomo.org,coloradotimesrecorder.com,artificialintel
 ! pum + overlay
 capx.co##.pum
 capx.co##div#wrapper:style(filter: none !important)
-! readergrev.com (substack)
-readergrev.com,objectivebayesian.com##+js(set-cookie, popup_closed, true)
+! newsletter popup
+readergrev.com,objectivebayesian.com,monopoly.marketecture.tv,jointhefollowup.com##+js(set-cookie, popup_closed, true)
 ! scottishlegal.com
 scottishlegal.com###subscribeModal
 scottishlegal.com##.modal-backdrop
@@ -48247,8 +48248,6 @@ shojiwax.com,skepticalraptor.com##+js(set-cookie, jetpack_post_subscribe_modal_d
 apotekfordeg.no##.newsletter-modal
 apotekfordeg.no##.modal-backdrop
 apotekfordeg.no##body:style(overflow: auto !important; position: initial !important;)
-! jointhefollowup.com
-jointhefollowup.com##+js(set-cookie, popup_closed, true)
 ! spring.org.uk
 spring.org.uk##.hustle-popup
 spring.org.uk##body,html:style(overflow: auto !important; position: initial !important;)

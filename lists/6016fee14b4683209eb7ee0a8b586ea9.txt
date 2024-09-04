@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4hcz6wLzH3PCW1HUXW/a4w
-! Diff-Path: ../patches/16/16-s-1725370650-3600.patch
+! Checksum: wbg0kuEGZ9FHL+4WdrYW4w
+! Diff-Path: ../patches/16/16-s-1725439023-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.48
-! TimeUpdated: 2024-09-03T13:33:29+00:00
+! Version: 2.0.46.49
+! TimeUpdated: 2024-09-04T08:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -205,14 +205,16 @@ ebookdz.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 monumentum.fr##+js(abort-current-script, document.getElementById, Blocking Ads)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179837
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147842
-japscan.lol##+js(spoof-css, body > .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img, display, inline)
-japscan.lol##+js(spoof-css, .navbar-nav > li.nav-item > a[href^="https://www.origoclick.com/manga/?type=nav&"], display, block)
+japscan.lol##+js(no-fetch-if, method:/HEAD|GET/)
+$xmlhttprequest,redirect-rule=noop.txt,domain=japscan.lol
+japscan.lol##+js(spoof-css, .navbar-nav > li.nav-item > a[href^="https://www.origoclick.com"], display, block)
 @@||google.$image,domain=japscan.lol
 @@||japscan.lol^$image,xmlhttprequest,~third-party
 japscan.lol#@#.tangoai
 japscan.lol#@#[class^="copine"]
 @@||japscan.lol^$script,~third-party
 @@||japscan.lol^$generichide
+@@||i.ibb.co^$xmlhttprequest,domain=japscan.lol
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147701
 trustmyscience.com##.adb-border
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146165
@@ -935,8 +937,8 @@ h2-mobile.fr#?##main-container .blog__content:has(> .title-wrap--pr > h3:contain
 h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigital-adslot-"])
 cosmopolitan.fr##.External
 japscan.lol##body > .container.text-center > div.mt-3[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][href^="https://www."][href*="/?utm_source=manga&utm_"]:not([href^="https://www.google"]):not([href^="https://www.japscan"]):not([href^="https://www.example"]) > img.img-fluid[src^="/imgs/onc/"]
-japscan.lol##.navbar-nav > li.nav-item > a[href^="https://www.origoclick.com/manga/?type=nav&"]
-japscan.lol##body > .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
+japscan.lol##.navbar-nav > li.nav-item > a[href^="https://www.origoclick.com"]
+japscan.lol##:matches-path(/^\/$/)body > style + .container:first-of-type > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_medium=extra_large&"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 femina.fr##.p-aside
 femina.fr##.p-inread
 femina.fr##.p-pave

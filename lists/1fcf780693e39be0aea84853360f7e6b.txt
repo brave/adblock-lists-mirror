@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LYCzSwrtaNlOG2U9LzdYbw
-! Diff-Path: ../patches/224/224-s-1725453662-3600.patch
+! Checksum: s+h5w3bFUjZvtTo7ZS3FPg
+! Diff-Path: ../patches/224/224-s-1725457068-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.21.31
-! TimeUpdated: 2024-09-04T12:37:24+00:00
+! Version: 2.1.21.32
+! TimeUpdated: 2024-09-04T13:34:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -76,13 +76,9 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
-||uetlwst.top^
-||qetlwsy.top^
 ||cengqinglin.cn^
-||sprewcereous.com^
 ||shouldercommandmentlimitless.com^
 ||ad.ettoday.net^$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
-||ttad125.com^
 ||996js123.com^
 ||tagtoo.co^$third-party
 ||ad.886112.xyz^
@@ -90,22 +86,11 @@
 ||98765.pw^
 ||cdn.holmesmind.com^$third-party
 ||aziekg.xyz^
-||max211.top^
 ||st-fly.b-cdn.net^
 ||ggsfq.xyz^$third-party
 ||noafoaji.xyz^
 ||bilec.xyz^
-||vkjsnvk.com^
-||yruws6.com^
 ||mlstx.cn^
-||yh18h8s.com^
-||qhx1h2g.com^
-||jh16csf.com^
-||kl91ccp.com^
-||kxm1b0u.com^
-||sa8zdui.com^
-||pr88vhg.com^
-||gw1jvhs.com^
 ||p97387hj.xyz^
 ||tfcdn.jingmiuyyds.com^$all
 ||vzttq.brfvyrrp.com^$all
@@ -119,7 +104,6 @@
 ||uu3192uu.com^
 ||ue8im.com^
 ||uu8811uu.com^
-||u1055.com^
 ||beacher56.xyz^
 ||666579.xyz^
 ||zhibo128x1.xyz^
@@ -137,7 +121,6 @@
 ||dian.brecm.xyz^
 ||awoudsoo.xyz^
 ||1200555.com^
-||kzepp.com^
 ||n0611.com^
 ||jcreje.com^
 ||99886aaa.com^
@@ -149,7 +132,6 @@
 ||73652253191.com^$third-party
 ||ymdxl.com^
 ||wildwist.com^
-||876920.com^
 ||mg.xhkvff.cn^
 ||mc.mwgpg.cn^
 ||pm.poqwua.cn^
@@ -180,7 +162,6 @@
 ||cxdcn9c.fjshxjs.cn^$third-party
 ||sdofp9c.cddrhx.cn^$third-party
 ||dat1.jzjxmj.com^$third-party
-||dlads.cn^$third-party
 ||dns.chuzushijian.cn^$third-party
 ||j.sdqoi2d.com^$third-party
 ||7daystodie.cn^$third-party
@@ -274,7 +255,6 @@
 ||web.51fishplace.com^$third-party
 ||cdntlz.cn^$third-party
 ||m.qhxcdmfj.cn^$third-party
-||emdcadvertise.eastmoney.com^
 ||szjyfund.com^$third-party
 ||y.21haodianmt.com^$third-party
 ||156.233.32.123^$third-party
@@ -291,8 +271,6 @@
 ||ulukaris.com^$third-party
 ||itadapi.ithome.com.tw^
 ||zjgfq.com^$third-party
-!+ NOT_OPTIMIZED
-||1002.men^
 !
 ! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
 ! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
@@ -434,8 +412,6 @@ ekamus.info#$#.adsbygoogle { height: 1px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151297
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127739
 dyxs23.com,dyxs20.com,dyxs15.com,dyxs14.com,dyxs13.com,dyxs12.com,dyxs11.com##.popupicon
-! https://github.com/AdguardTeam/AdguardFilters/issues/127451
-hkcards.com#@##ad-slot
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124442
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124117
@@ -541,9 +517,7 @@ linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^
 ||itad.linetv.tw/api/v2/vmap?ad_id=$xmlhttprequest,redirect=noop.txt
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
-@@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30495
-@@||ez3c.tw/js/adblockDetector.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30422
 itshokunin.cc#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)
@@ -589,10 +563,6 @@ slashlook.com#$#body.modal-open { padding-right: 0!important; overflow: visible!
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=setn.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13235
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/11819
-tt1069.com#@##adbrite
-! https://github.com/AdguardTeam/AdguardFilters/issues/6826
-@@||digiland.tw/advert.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/7596
 @@||ani.gamer.com.tw^$generichide
 @@||i2.bahamut.com.tw/JS/ad/animeLogo.js^$domain=ani.gamer.com.tw
@@ -2991,8 +2961,6 @@ world.huanqiu.com#@#.ad_all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88595
 !+ NOT_OPTIMIZED
 @@||img.ads.tvb.com/news/min.js$domain=news.tvb.com
-!+ NOT_OPTIMIZED
-@@||tvb.com^*/videojs.ads.
 !+ NOT_OPTIMIZED
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=news.tvb.com
 !+ NOT_OPTIMIZED

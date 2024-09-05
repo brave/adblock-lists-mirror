@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409051001
+! Version: 202409051153
 ! Title: EasyList
-! Last modified: 05 Sep 2024 10:01 UTC
+! Last modified: 05 Sep 2024 11:53 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -149,7 +149,6 @@
 /a/?ad=
 /a/display.php?$script
 /ab_fl.js$script
-/ablck/frolod.js
 /ad--unit.htm
 /ad-125.
 /ad-bottom.
@@ -187,7 +186,6 @@
 /ad_bottom.js
 /ad_break?
 /ad_campaign?
-/ad_code.js
 /ad_common.js
 /ad_counter.aspx
 /ad_display.js
@@ -347,7 +345,7 @@
 /adscontroller.js
 /adscroll.js
 /adsdelivery/*$subdocument
-/adserv.
+/adserv.$script
 /adserve/*$script
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver2.
@@ -393,7 +391,7 @@
 /adv/mjx.js
 /adv_468.
 /adv_out.js$third-party
-/adv_teasers.js
+/adv_teasers.js$script
 /adv_vert.js
 /AdvAdsV3/*$script,stylesheet
 /advanced-ads-$domain=~wordpress.org
@@ -404,7 +402,6 @@
 /advert3.
 /advert4.
 /advert6.
-/advert8.
 /advert?
 /advertbanner.
 /advertising/banners/*$image
@@ -450,7 +447,7 @@
 /api-ads.
 /api.ad.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
-/Api/Ad.
+/api/ad.$script
 /api/ads?
 /apopwin.js
 /app/manga/themes/*/ads/pop.js
@@ -547,7 +544,6 @@
 /direct.hd?n=
 /discourse-adplugin-$script
 /displayad?
-/displayAdFrame.
 /dmcads_$script
 /doubleclick.aspx
 /doubleclick.min
@@ -590,7 +586,6 @@
 /footer_ad.js
 /footer_ad.php
 /footer_ads.php
-/footerad.
 /footerads.
 /fro_lo.js
 /froloa.js
@@ -24212,19 +24207,16 @@ browsershots.org#@#.advert_area
 ||d24ak3f2b.top^
 ||d26e83b697.com^
 ||d29gqcij.com^
-||d2a4qm4se0se0m.cloudfront.net^
 ||d2af63b326.com^
 ||d2d7bba154.com^
 ||d2e3e68fb3.com^
 ||d2ship.com^
-||d2uu46itxfd65q.cloudfront.net^
 ||d36f31688a.com^
 ||d37914770f.com^
 ||d3befd5a11.com^
 ||d3c.life^
 ||d3c.site^
 ||d3da127b69.com^
-||d3o9njeb29ydop.cloudfront.net^
 ||d44501d9f7.com^
 ||d483501b04.com^
 ||d4b138a7aa.com^
@@ -24440,7 +24432,6 @@ browsershots.org#@#.advert_area
 ||dazedengage.com^
 ||dazeoffhandskip.com^
 ||dazhantai.com^
-||dazu57wmpm14b.cloudfront.net^
 ||db20da1532.com^
 ||db5f3a82ab.com^
 ||db72c26349.com^
@@ -25752,7 +25743,6 @@ browsershots.org#@#.advert_area
 ||dsultra.com^
 ||dswqtkpk.com^
 ||dsxwcas.com^
-||dt3y1f1i1disy.cloudfront.net^
 ||dt4ever.com^
 ||dt51.net^
 ||dtadnetwork.com^
@@ -54638,6 +54628,7 @@ browsershots.org#@#.advert_area
 ||72075223.xyz^$document,popup
 ||72560514.xyz^$document,popup
 ||74142961.xyz^$document,popup
+||75690049.xyz^$document,popup
 ||7608d5.xyz^$document,popup
 ||7841ffda.xyz^$document,popup
 ||78b78ff8.xyz^$document,popup
@@ -60470,6 +60461,7 @@ browsershots.org#@#.advert_area
 ||d29dzo8owxlzou.cloudfront.net^
 ||d29i6o40xcgdai.cloudfront.net^
 ||d29mxewlidfjg1.cloudfront.net^
+||d2a4qm4se0se0m.cloudfront.net^
 ||d2a80scaiwzqau.cloudfront.net^
 ||d2b4jmuffp1l21.cloudfront.net^
 ||d2bbq3twedfo2f.cloudfront.net^
@@ -60611,6 +60603,7 @@ browsershots.org#@#.advert_area
 ||d2uap9jskdzp2.cloudfront.net^
 ||d2udkjdo48yngu.cloudfront.net^
 ||d2uhnetoehh304.cloudfront.net^
+||d2uu46itxfd65q.cloudfront.net^
 ||d2uy8iq3fi50kh.cloudfront.net^
 ||d2uyi99y1mkn17.cloudfront.net^
 ||d2v02itv0y9u9t.cloudfront.net^
@@ -60881,6 +60874,7 @@ browsershots.org#@#.advert_area
 ||dagd0kz7sipfl.cloudfront.net^
 ||dal9hkyfi0m0n.cloudfront.net^
 ||day13vh1xl0gh.cloudfront.net^
+||dazu57wmpm14b.cloudfront.net^
 ||db033pq6bj64g.cloudfront.net^
 ||db4zl9wffwnmb.cloudfront.net^
 ||dba9ytko5p72r.cloudfront.net^
@@ -61000,6 +60994,7 @@ browsershots.org#@#.advert_area
 ||dsh7ky7308k4b.cloudfront.net^
 ||dsnymrk0k4p3v.cloudfront.net^
 ||dsuyzexj3sqn9.cloudfront.net^
+||dt3y1f1i1disy.cloudfront.net^
 ||dtakdb1z5gq7e.cloudfront.net^
 ||dtmm9h2satghl.cloudfront.net^
 ||dtq9oy2ckjhxu.cloudfront.net^
@@ -62033,6 +62028,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||pafvertizing.crazygames.com^
 ||pahaplayers.click/ch/adcashdirect.php
 ||pandora.com/api/v1/ad/
+||pandora.com/web-client-assets/displayAdFrame.
 ||paste.fo/*jpeg$image
 ||pasteheaven.com/assets/images/banners/
 ||pastemagazine.com/common/js/ads-
@@ -69295,7 +69291,6 @@ cgpress.org##li > div[id^="cgpre-"]
 bestbuy.com##li.embedded-sponsored-listing
 cultbeauty.co.uk,dermstore.com,skinstore.com##li.sponsoredProductsList
 laredoute.be,laredoute.ch,laredoute.co.uk,laredoute.com,laredoute.de,laredoute.es,laredoute.fr,laredoute.gr,laredoute.it,laredoute.nl,laredoute.pt,laredoute.ru##li[class*="sponsored-"]
-yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 linkedin.com##li[data-is-sponsored="true"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
 duckduckgo.com##li[data-layout="products_middle"]
@@ -69475,6 +69470,7 @@ petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
+cargurus.com##[data-cg-ft="car-blade"]:has([data-eyebrow^="FEATURED"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
 wayfair.com##[data-hb-id="Card"]:has([data-node-id^="ListingCardSponsored"])
 avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
@@ -69562,6 +69558,7 @@ autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[dat
 bbc.com##li[class*="-ListItem"]:has(div.dotcom-ad)
 yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
+yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])

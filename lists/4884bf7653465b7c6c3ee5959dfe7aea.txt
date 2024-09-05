@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: bZS5RgYXpyqaHaKSC7ihHA
-! Diff-Path: ../patches/9/9-s-1725450021-3600.patch
+! Checksum: hEnavNA9bgVnj3hkle97Ng
+! Diff-Path: ../patches/9/9-s-1725529082-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.49
-! TimeUpdated: 2024-09-04T11:34:27+00:00
+! Version: 2.0.26.50
+! TimeUpdated: 2024-09-05T09:33:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2223,6 +2223,7 @@ globo.com,amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.c
 ! ##body .banner
 meiobit.com,brasilparalelo.com.br,tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+itforum.com.br##body > .container:has(> .row:only-child > div:only-child > div:only-child > div[id^="div-gpt-ad"])
 canaltech.com.br#?#main + div.fixed:has(> div[id^="div-gpt-ad"])
 canaltech.com.br#?#main div.justify-center:has(> span:contains(Conteúdo apoiado por))
 cnnbrasil.com.br##.sidebar__item--ad
@@ -5568,7 +5569,7 @@ animeonline.ninja##+js(abort-on-property-read, area51)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182434
 player.seriesgod.com,player.pelisgod.com##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165937
-! Rule $referrerpolicy is required for apps, becasue source of vast.js is not detected and due to this it's not blocked
+! Rule $referrerpolicy is required for apps, because source of vast.js is not detected and due to this it's not blocked
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38330
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30298
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)

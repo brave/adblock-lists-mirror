@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e1Vacvcm2h760rMPXFW/fw
-! Version: 202409050901
+! Checksum: 5NDRFglRvuKJXenB+nVsUg
+! Version: 202409050951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Sep 2024 09:01 UTC
+! Last modified: 05 Sep 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24163,6 +24163,7 @@ dzen.ru##div[class*="_rightAdWrapper"]
 dzen.ru##div[class*="_topBannerContainer"]
 dzen.ru##div[class*="card-widh-ad_"]
 dzen.ru##div[class*="card-with-ad__"]
+dzen.ru##div[class*="piacehoder"]:empty
 dzen.ru##div[class*="tsar__container"]
 dzen.ru##div[class^="advert-panel"]
 dzen.ru##div[class^="floor-card-rtb_"]
@@ -25885,6 +25886,7 @@ zhurnaly.biz#@#.item-ads
 ! - hide & block
 pornhub.com###abAlert
 d3ward.github.io###ad_ctd
+seolik.ru###alert_top_site
 tvvse.my1.ru###cont-i > span[style*="color:red"]
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru###container > center:nth-child(-n+3)
 fm-app.ru,tvapp.su,yootv.ru###content > div[style*="fixed"]
@@ -25972,7 +25974,6 @@ anime-free.ru,pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="dis
 fashion2news.com,hotallnews.today,newspad.ru##body > div[id][class]
 24pdd.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
 kurs.com.ua,ontvtime.ru,skidkaonline.ru,ternopillive.com##body > div[style*="background-color:"][style*="z-index:"]
-seolik.ru##body > div[style^="background-color:"]
 gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 ritsatv.ru##body > marquee[style*="red"]
 motorpage.ru##body.noscroll::before

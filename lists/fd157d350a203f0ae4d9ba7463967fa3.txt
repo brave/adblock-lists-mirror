@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yTcfbu8QKfcIxVLTemCCCQ
-! Version: 202409052001
+! Checksum: ia8IRNfZVFkI0vKDbtWqaw
+! Version: 202409052101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Sep 2024 20:01 UTC
+! Last modified: 05 Sep 2024 21:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3983,7 +3983,6 @@ _tizers.
 ||62.109.18.206^$third-party
 ||6598kn9gpf.ru^$third-party
 ||6c5xnntfvi.com^$third-party
-||6i7y3i.ru^$third-party
 ||6jfvnf69jx.ru^$third-party
 ||6rn05mmbct.ru^$third-party
 ||6t5n9h77m8.com^$third-party
@@ -5054,6 +5053,7 @@ _tizers.
 ||cobrand.ria.com^$third-party
 ||cocabollla.site^$third-party
 ||codata.ru^
+||code.*.ru/|$third-party,script
 ||code.roadvel.ru^$third-party
 ||codedome.online^$third-party
 ||codeextrarich.net^
@@ -23294,7 +23294,6 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.stripe-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.tgb-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.zenad-card-rtb
-~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] > div > style ~ div[id*="-"]
 ! Почта
 e.mail.ru,octavius.mail.ru###app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru###app-canvas .layout__overflow-container > .slot
@@ -24703,6 +24702,8 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 ||lektsia.info/js/services/boxBeforeClosingShare.js
 ||life.ru/_next/static/chunks/2793.
 ||linkis.com/ajax/get-popup-html$xmlhttprequest
+||litnet.com/common/*/confirm_age/
+||litnet.com/common/js/jquery.cookie.min.js
 ||live-hd.ru/fb24.htm
 ||mailget.net^$third-party
 ||makataka.ru/templates/Default/style/fancy/

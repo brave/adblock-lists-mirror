@@ -14,6 +14,8 @@
 ! Bad:  $removeparam=utm_id,domain=example.org (for instance, should be in specific.txt)
 !
 !
+! Unidentified email subscription system
+$removeparam=_bhlid
 ! Not identified. Popular on Japanese sites
 $removeparam=_bdadid
 ! a8.net
@@ -365,6 +367,8 @@ $removeparam=fb_source
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/187863
+||camsoda.com^$removeparam=id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188010
 ||aeza.net^$removeparam=ref
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187850

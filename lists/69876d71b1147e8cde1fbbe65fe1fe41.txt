@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mbKRY85ME8V4gkhKYEa8jw
-! Diff-Path: ../patches/13/13-s-1725529077-3600.patch
+! Checksum: EIKTtV8s5+3/cHMEqb8J/g
+! Diff-Path: ../patches/13/13-s-1725532640-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.15
-! TimeUpdated: 2024-09-05T09:33:10+00:00
+! Version: 2.0.53.16
+! TimeUpdated: 2024-09-05T10:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5328,7 +5328,7 @@ sporx.com##div[style$="position: relative; margin-top: 10px; min-height: 350px;"
 canakkaleolay.com##div[style="margin-top:20px;"] > div.container > div.col-md-4 > p img.img-responsive
 webaslan.com##div[style="min-height: 255px; width: 300px; margin-left: auto; margin-right: auto;"]
 magazin.com.tr##div[style="position:relative;float:left;width:492px;"] > a > img
-antoloji.com##div[style="width: 300px; height: 250px;"]
+technopat.net,antoloji.com##div[style="width: 300px; height: 250px;"]
 gazetevatan.com##div[style="width:610px; height:250px;"]
 kurtulusgazetesi.com.tr##div[style="width:970px; height:90px;"]
 dogruses.com##div[style^="background:url(images/banner_"]

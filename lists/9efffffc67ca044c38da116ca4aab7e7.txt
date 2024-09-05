@@ -367,6 +367,8 @@ $removeparam=fb_source
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/187866
+||kwiky.com^$removeparam=AFNO
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187874
 ||ai-porn.ai^$removeparam=ref
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187863
@@ -1425,6 +1427,9 @@ $removeparam=stm_source,domain=shopee.ph|shopee.co.th|shopee.co.id
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=history_adids
 ! https://github.com/AdguardTeam/AdguardFilters/issues/129287
 ||dzen.ru/api/*/launcher/stats/$image,xmlhttprequest,removeparam
+||dzen.ru^$removeparam=from
+||dzen.ru^$removeparam=cl4url
+||dzen.ru^$removeparam=tst
 ||dzen.ru^$document,removeparam=clid
 ||dzen.ru^$removeparam=yredirect
 ||dzen.ru^$removeparam=stid

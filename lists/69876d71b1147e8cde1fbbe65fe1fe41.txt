@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: U/Ztq1sPP/rIsrEq3Mz3aw
-! Diff-Path: ../patches/13/13-s-1725572173-3600.patch
+! Checksum: PL0h/NnrgF+K0GA+OpVTGQ
+! Diff-Path: ../patches/13/13-s-1725619007-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.18
-! TimeUpdated: 2024-09-05T21:32:53+00:00
+! Version: 2.0.53.19
+! TimeUpdated: 2024-09-06T10:33:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1676,6 +1676,8 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+gunes.com##.row > div[class]:has(> a[href="/kobi"])
+gunes.com##.row > div[class^="col-"]:has(> div.ads-area)
 haberler.com###fixedDiv
 emlak.mitula.com.tr##div[class^="serp__wrapper__main__afs"]
 mynet.com##.cart-list > figure[isshowcase]
@@ -2003,9 +2005,6 @@ teknodiot.com##div[id^="stream-item-125-widget-"]
 teknodiot.com###text-434
 teknodiot.com###custom_html-119
 teknodiot.com###tie-block_1130
-gunes.com#?#.pagination > li:has(> a[href^="https://pubads.g.doubleclick.net/"])
-gunes.com##div[style*="width:310px"][style*="height:620px"]
-gunes.com##div[style*="width:610px"][style*="height:250px"]
 boxerdergisi.com.tr##.ContentBoxContainerPadding10 > div[style^="text-align:center;width:336px;height:280px;"]
 bafrahaber.com##.manset_alti_reklam_mk
 /img/rek/*$domain=kocaelihaberci.com|bidunyahaber.net|kandiraninsesi.com
@@ -3289,8 +3288,6 @@ lastikcim.com.tr##.sidebarAdvertisement
 ||egemanset.com/resim/ad/
 yenicaggazetesi.com.tr##div[id^="adhouse-"]
 gunes.com##div[class^="fullAd"]
-gunes.com##div[style^="width: 980px; height: 100px; margin:"]
-gunes.com##div[style^="width:980px; margin:0px auto; padding-bottom:"]
 savunmasanayist.com##.theiaStickySidebar > div[id^="text-"]
 cozumpark.com###gp-header-area a[target="_blank"] > img
 transfermarkt.com.tr##.werbung
@@ -5117,7 +5114,7 @@ haberler.com###pageskin_ng
 hurriyet.com.tr###plusNewsListRightBlock
 yeniduzen.com###pnlFanbox
 a24.com.tr###popup-container
-gunes.com,aksam.com.tr,platinonline.com###popupustdiv
+aksam.com.tr,platinonline.com###popupustdiv
 sechaber.com.tr###post-thumbnail > .print > div[style]
 balikesirhaberajansi.com##.reklam-header
 konhaber.com###reklam1
@@ -5140,7 +5137,7 @@ yapimagazin.com##.ReklamLink
 belge.com.tr##.ReklamMenu
 hurriyet.com.tr##.ad-logo
 gazetevatan.com##.ad617
-memurlar.net,sgkrehberi.com,haberler.com,aksam.com.tr,gunes.com,platinonline.com,star.com.tr##.adm-ads-area
+memurlar.net,sgkrehberi.com,haberler.com,aksam.com.tr,platinonline.com,star.com.tr##.adm-ads-area
 webtekno.com##.ads-300x250-sidebar
 webtekno.com##.ads-masthead__horizontal
 haber7.com##.ads.ads.square

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LOeSU3DDNwf7ySVB7FCzlQ
-! Diff-Path: ../patches/7/7-s-1725633413-3600.patch
+! Checksum: tXbAHBguV8ydNUApUQyneQ
+! Diff-Path: ../patches/7/7-s-1725637043-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.27
-! TimeUpdated: 2024-09-06T14:33:00+00:00
+! Version: 2.0.56.28
+! TimeUpdated: 2024-09-06T15:32:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1008,8 +1008,6 @@ nasubiblog.com,kyukyoku-matome.com##.widget_pc_ad
 itest.bbspink.com#$#.footer-with-ad { padding-bottom: 10px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180461
 akibablog.blog.jp##+js(abort-current-script, document.write, sitejack)
-! https://github.com/AdguardTeam/AdguardFilters/issues/179821
-twi-fans.com##+js(addEventListener-defuser, /touchmove|wheel/, preventDefault())
 ! Leftover
 kasegeru.blog.jp##+js(remove-node-text, #text, /スポンサードリンク：?|楽天広告：/)
 ! Ads
@@ -1149,9 +1147,6 @@ cmnw.jp##+js(set-constant, sec, 0)
 nlab.itmedia.co.jp#$##globalHeader { min-height: 0 !important; margin: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112640
 eromovie-s.com#$#.movie-watch { display: block !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/179821
-twi-fans.com#$#.fixed.data-\[state\=open\]\:animate-in { display: none !important; }
-twi-fans.com#$#body[style="pointer-events: none;"] { pointer-events: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178408
 2game.info#$#.sponsored-loop300x250 { position: absolute !important; left: -4000px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160407
@@ -5212,7 +5207,7 @@ seijiyama.jp##.koukoku1
 seijiyama.jp##.koukoku2
 seijiyama.jp##.ranking_prbox
 aprico-media.com##.u-ta-center:not(.u-mt-10):not(#new_comment > .u-ta-center)
-kumanichi.com,rkb.jp##div[style$="min-height: 250px;"]
+er-animal.jp,kumanichi.com,rkb.jp##div[style$="min-height: 250px;"]
 meaning.jp,qoly.jp##div[style="height:90px; width:728px;"]
 er-animal.jp###pc_article_right_1
 ecodb.net##.hd2
@@ -6072,7 +6067,6 @@ net-frx.com##.postman22-nw255
 net-frx.com##.botmads
 rankingoo.net,sirabee.com,toyokeizai.net##.related
 thebest-1.com##.ads_fix_height_pc
-||cdn-images.net/ad/$third-party
 store.united-arrows.co.jp###glr_popup
 unitedcinemas.jp##.sideAd_300x250
 tokion.jp##div[class*="tkn-ad--top-billboard"]
@@ -8871,6 +8865,7 @@ alc.co.jp###news > ul
 alc.co.jp###container > div[style^="width:1100px; "]
 ||aacdn.jp/js/aa/matome/ad.js
 news.allabout.co.jp##.layout_sidebar > div.obtain-height
+allabout.co.jp###fourm_video
 allabout.co.jp##div[data-tracking-zone^="parts-common-adFirst"]
 allabout.co.jp##div[id^="sys_aa_pc_placement"]
 allabout.co.jp##.aa_content-side > div[data-tracking-zone] > div.obtain-height

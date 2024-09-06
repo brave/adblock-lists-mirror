@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KC9eCQtmvUfv78YbVtPrPQ
-! Version: 202409062115
+! Checksum: vCysmHc1XCUKt//dtBA91A
+! Version: 202409062240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-06 21:15 UTC
+! Last modified: 2024-09-06 22:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43592,10 +43592,10 @@ flightradar24.com##+js(set-cookie, map_new_features_new_flightradar24_com_label_
 ! https://github.com/uBlockOrigin/uAssets/issues/23164
 shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
 ! m.youtube.com 
-m.youtube.com##.ytm-bottom-sheet-overlay-renderer-container[style="transform: translateY(0px);"]
-m.youtube.com##.YtWebScrimDialogContainer
-m.youtube.com##.YtWebScrimHostModernOverlay
-m.youtube.com##body:style(overflow: auto !important; position: initial !important;)
+!m.youtube.com##.ytm-bottom-sheet-overlay-renderer-container[style="transform: translateY(0px);"]
+!m.youtube.com##.YtWebScrimDialogContainer
+!m.youtube.com##.YtWebScrimHostModernOverlay
+!m.youtube.com##body:style(overflow: auto !important; position: initial !important;)
 ! zillow.com
 zillow.com##.app-upsell-banner
 zillow.com###pfs-upsell:remove()

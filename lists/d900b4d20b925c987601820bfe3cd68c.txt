@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: tXbAHBguV8ydNUApUQyneQ
-! Diff-Path: ../patches/7/7-s-1725637043-3600.patch
+! Checksum: I+CSQS98YmVfoSmxprDQ0g
+! Diff-Path: ../patches/7/7-s-1725640661-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.28
-! TimeUpdated: 2024-09-06T15:32:54+00:00
+! Version: 2.0.56.29
+! TimeUpdated: 2024-09-06T16:33:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1730,6 +1730,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+vitup.jp##.mh-posts-1
 ||i.socdm.com^$media,redirect=noop-1s.mp4
 ||imgbbs.dtn.jp/adv-$script
 imgbbs.dtn.jp##.panel-default:last-child
@@ -2104,7 +2105,6 @@ football-zone.net##a[id*="side_banner_abema_"]
 comic-walker.com##div[class^="AdSection_"]
 taishurx.jp##.catchup
 taishurx.jp##div.bnr
-twi-fans.com##.fixed.lg\:h-\[320px\]
 ||s.yimg.jp/images/finance/nisa/image/banner/sbi/$domain=finance.yahoo.co.jp
 finance.yahoo.co.jp###contents > div[class^="_"] > div[class^="_1"] > div[class^="_2"] > div[class*=" _"]:has(> #subAdTop)
 finance.yahoo.co.jp##main > div[class^="_"] > div[class] > div[class^="wP-"] > div[class]:has(> div[id^="ad_"][class])
@@ -5359,6 +5359,9 @@ game-i.daa.jp##.adsSpRect
 adultblogranking.com##.adtext
 adultblogranking.com,blog.with2.net##.ads-a
 adultblogranking.com##.rank > li[id]
+olive-hitomawashi.com##.ly_main_inner[style^="margin-top: 50px; "]
+olive-hitomawashi.com##div[style="width: 728px; height: 90px;"]
+olive-hitomawashi.com##div[style^="display: inline-block; min-width: 300px; min-height: 250px"]
 ||nanigoto.net/?u=ad_amazon/
 nanigoto.net##div[style="width:100%;height:90px;"]
 nanigoto.net##div[style="width:336px;height:280px;"]
@@ -6682,7 +6685,7 @@ moguravr.com##.mg-ads-placement
 coliss.com###sponsorsTop
 coliss.com###sponsors
 coliss.com##.txtBodyA1
-bisyoujyox.com,managadx.com,manjirushi.com,manpiix.com,nyuugyou.com,oyabunx.com,samuraixx.com,xn--hckl3e1e8a8ajin0czf.net,xn--icktho25pncf.biz##.hentry > p[style^="text-align"]
+bisyoujyox.com,managadx.com,manjirushi.com,manpiix.com,nyuugyou.com,oyabunx.com,samuraixx.com,xn--hckl3e1e8a8ajin0czf.net##.hentry > p[style^="text-align"]
 ||wp.com/img.happymail.co.jp/$third-party
 ||angel-group.net/adv/$third-party
 ||amazonaws.com/image-af-next-com/$third-party
@@ -6785,7 +6788,7 @@ sexynude007.com##.plugin2_outline:first-child
 sexynude007.com##.plugin2_outline:nth-child(n+5)
 sexynude007.com##div[style^="width:1000px; height:250px"]
 j-oosk.com,ghibli-tosidensetu.com##.al-c
-mamana.jp,bluesea0925.com,alpaca76.com,how-to-sexfriends.com,managadx.com,manjirushi.com,manpiix.com,nyuugyou.com,oyabunx.com,samuraixx.com,xn--hckl3e1e8a8ajin0czf.net,xn--icktho25pncf.biz,oreteki-design.com##.titleunder.add
+mamana.jp,bluesea0925.com,alpaca76.com,how-to-sexfriends.com,managadx.com,manjirushi.com,manpiix.com,nyuugyou.com,oyabunx.com,samuraixx.com,xn--hckl3e1e8a8ajin0czf.net,oreteki-design.com##.titleunder.add
 connpass.com##.side_ads_area
 doujin-rpgfan.com##.AdsArea
 doujin-rpgfan.com##.AdsArea + table + table

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409071050
+! Version: 202409071143
 ! Title: EasyList
-! Last modified: 07 Sep 2024 10:50 UTC
+! Last modified: 07 Sep 2024 11:43 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -300,7 +300,7 @@
 /ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top.
-/ads/video/controller.php
+/ads/video/*$script
 /ads/view.php
 /ads/xtcore.
 /ads1.
@@ -342,7 +342,6 @@
 /adserver?
 /adserving.
 /adsforwp-front.min.css
-/adsheader.
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
@@ -357,7 +356,7 @@
 /adsserv.
 /adsserver.
 /adsservice.
-/adstracking.
+/adsTracking.$script
 /adstream.
 /adswrapper.
 /ads~adsize~
@@ -399,7 +398,6 @@
 /advtBanner.
 /adx2.
 /adz/js/adz.$script
-/adzones.js
 /aff-ads.
 /aff/banners/*$image
 /aff/images/*$image
@@ -446,9 +444,7 @@
 /awaps-ad-sdk-$script
 /awe2.js
 /ban.php?
-/ban300.html
 /ban300.php
-/ban728.html
 /ban728.php
 /ban728x90.$image
 /banman/ad.aspx
@@ -634,8 +630,8 @@
 /jspopunder.min.js$script
 /keyade.js
 /layerad.js
-/lazyad-loader.js
-/lazyad-loader.min.js
+/lazyad-loader.js$script
+/lazyad-loader.min.js$script
 /lazyload.ads?
 /left_ads.js
 /leftad.js$script
@@ -894,16 +890,16 @@
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
 /stickyad.js
-/stickyads.js
+/stickyads.js$script
 /style_ad.css$stylesheet
 /suurl4.php?
 /suurl5.php
-/suv4.js
+/suv4.js$third-party
 /suv5.js$third-party
 /sync2ad.js
 /taboola-footer.js
-/taboola-header.js
-/taboola_7.4.1.js
+/taboola-header.js$script
+/taboola_8.9.1.js$script
 /taboola_header.js
 /taboolaarticle.min.js
 /targetingAd.js
@@ -1217,7 +1213,6 @@ _widget_ad.
 -prebid/
 .prebid-bundle.
 .prebid.$domain=~prebid.org
-/_js/prbd_6.19.0.js
 /ad/postbid_handler1.0.9.js
 /gpt-prebid.js
 /pbjsandwich.
@@ -61670,6 +61665,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||bibleh.com/b2.htm
 ||biblehub.com/botmenu
 ||biblemenus.com/adframe
+||bigsquidrc.com/wp-content/themes/bsrc2/js/adzones.js
 ||bioinformatics.org/images/ack_banners/
 ||bit.com.au/scripts/js_$script
 ||bitchute.com/static/ad-sidebar.html
@@ -62239,6 +62235,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||uxmatters.com/images/sponsors/
 ||v3cars.com/load-ads.php
 ||vastz.b-cdn.net/hsr/HSR*.mp4
+||vectips.com/wp-content/themes/vectips-theme/js/adzones.js
 ||videogameschronicle.com/ads/
 ||vidstream.pro/AB/pioneersuspectedjury.com/
 ||vidzstore.com/popembed.php
@@ -62828,6 +62825,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||hentaifox.com/js/slider.js
 ||hentaihere.com/arkNVB/
 ||hentaini.com/img/ads/
+||hentairider.com/banners/
 ||hentairules.net/gal/new-gallery-dump-small.gif
 ||hentaiworld.tv/banners-script.js
 ||herexxxtube.com/tmp/
@@ -64776,6 +64774,7 @@ downloads.digitaltrends.com##.ad-kargo
 kenyans.co.ke##.ad-kenyans
 kenyans.co.ke##.ad-kenyans-wrapper
 heise.de##.ad-ldb-container
+revolvermag.com##.ad-leaderboard-head
 apksum.com##.ad-left
 radiopaedia.org##.ad-link-grey
 citynews.ca##.ad-load
@@ -64944,7 +64943,7 @@ wionews.com##.ads-box-300x300
 dnaindia.com,wionews.com##.ads-box-970x90
 dnaindia.com,wionews.com##.ads-box-d90-m300
 thefinancialexpress.com.bd##.ads-carousel-container
-gosunoob.com,indianexpress.com,matrixcalc.org,phys.org,roblox.com,spotify.com,wccftech.com##.ads-container
+gosunoob.com,indianexpress.com,matrixcalc.org,philstarlife.com,phys.org,roblox.com,spotify.com,wccftech.com##.ads-container
 pcquest.com##.ads-div-style
 samehadaku.email##.ads-float-bottom
 thetruthaboutcars.com##.ads-fluid-wrap
@@ -67038,6 +67037,7 @@ firstpost.com##.newadd
 farminguk.com##.news-advert-button-click
 hurriyetdailynews.com##.news-detail-adv
 myflixer.to##.news-iframe
+blabbermouth.net##.news-single-ads
 dailysocial.id##.news__detail-ads-subs
 firstpost.com##.newtopadd
 moddb.com##.nextmediaboxtop
@@ -67296,6 +67296,8 @@ premiumtimesng.com##.premi-texem-campaign
 banjohangout.org,fiddlehangout.com,flatpickerhangout.com,mandohangout.com,resohangout.com##.premiere-sponsors
 sulekha.com##.premium-banner-advertisement
 pixabay.com##.present-g-item
+bangpremier.com##.presentation-space
+bangpremier.com##.presentation-space-m-panel
 flobzoo.com##.preview2bannerspot
 manutd.com##.primary-header-sponsors
 tech.hindustantimes.com##.primeDay
@@ -71250,6 +71252,7 @@ pornhub.com##[srcset*="bloB:"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
 xozilla.com##[style="height: 220px !important; overflow: hidden;"]
+hentairider.com##[style="height: 250px;padding:5px;"]
 eporner.com##[style="margin: 20px auto; height: 275px; width: 900px;"]
 vjav.com##[style="width: 728px; height: 90px;"]
 missav.ai,missav.com,missav.ws,missav123.com,missav789.com,myav.com##[x-show$="video_details'"] > div > .list-disc

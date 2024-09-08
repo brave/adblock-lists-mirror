@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409080838
+! Version: 202409081138
 ! Title: EasyList
-! Last modified: 08 Sep 2024 08:38 UTC
+! Last modified: 08 Sep 2024 11:38 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -126,7 +126,6 @@
 .org/script/compatibility.js$third-party
 .ph/ads/
 .php/ad/
-.php/ads/
 .php?ad=
 .php?adsid=
 .php?adv=
@@ -149,7 +148,7 @@
 /a/?ad=
 /a/display.php?$script
 /ab_fl.js$script
-/ad--unit.htm
+/ad--unit.htm|
 /ad-125.
 /ad-choices-$image
 /ad-choices.
@@ -293,7 +292,6 @@
 /ads/spacer.
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
-/ads/square.
 /ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top.
@@ -508,14 +506,14 @@
 /discourse-adplugin-$script
 /displayad?
 /dmcads_$script
-/doubleclick.min
+/doubleclick.min$script
 /drsup-admanager-ajax.js$script
 /dynamicad?
 /ec5bcb7487ff.js$script
 /exitpop.js$script
 /exitpopunder.js
 /exitpopup.js$script
-/exitsplash.php
+/exitsplash.php$script
 /exoads/*$script
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
@@ -548,7 +546,7 @@
 /fro_lo.js
 /froloa.js
 /frontend_loader.js$script
-/ftt2/js.php
+/ftt2/js.php$script
 /funcript*.php?pub=
 /gdpr-ad-script.js
 /get/?go=1&data=
@@ -630,7 +628,7 @@
 /localads.aspx
 /log_ad?
 /mads.php?
-/maven/am.js
+/maven/am.js$script
 /mbads?
 /mcad.php
 /media/ads/*$image
@@ -675,7 +673,6 @@
 /pagead/1p-user-list/*$image
 /pagead/conversion.js
 /pagead/lvz?
-/pagead/osd.
 /pageear.js$script
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
@@ -731,7 +728,7 @@
 /popunder?
 /popup-domination/*$~stylesheet
 /popup2.js$script
-/popup3.js
+/popup3.js$script
 /popup_ad.js$script
 /popup_ad.php
 /popup_code.php
@@ -958,7 +955,7 @@
 /wpxbz-theme.js$script
 /www/delivery/*$script,subdocument
 /xads.php
-/xpopup.js
+/xpopup.js$script
 /yhs/ads?
 /zcredirect?
 /~cdn/ads/*
@@ -1215,7 +1212,6 @@ _widget_ad.
 /prebid9.$script
 /prebid?
 /prebid_$script,third-party
-/prebidAdcall.
 /prebidlink/*$script
 /pubfig.min.js
 /tagman/*$domain=~abelssoft.de
@@ -52650,6 +52646,7 @@ browsershots.org#@#.advert_area
 ||adblocker-instant.xyz^$document
 ||adclickbyte.com^$document
 ||adfgetlink.net^$document
+||adglare.net^$document
 ||aditms.me^$document
 ||adlogists.com^$document
 ||admachina.com^$document
@@ -54631,6 +54628,7 @@ browsershots.org#@#.advert_area
 ||7fc8.site^$document,popup
 ||814272c4.xyz^$document,popup
 ||83887336.xyz^$document,popup
+||84631949.xyz^$document,popup
 ||88129513.xyz^$document,popup
 ||88545539.xyz^$document,popup
 ||89263907.xyz^$document,popup
@@ -64031,6 +64029,7 @@ mzzcloud.life,rabbitstream.net###overlay-container
 mp4upload.com###overlayads
 drivevideo.xyz###overlays
 animetrilogy.com,animexin.vip###overplay
+phpbb.com###page-footer > h3
 vure.cx###page-inner > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 vure.cx###page-inner > div > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 accuradio.com###pageSidebarWrapper
@@ -64561,6 +64560,8 @@ sporcle.com##.IMGgi
 streamingsites.com##.IPdetectCard
 80.lv##.ImagePromo_default
 yandex.com##.ImagesViewer-SidebarAdv
+doodle.com##.JupiterLayout__left-placement-container
+doodle.com##.JupiterLayout__right-placement-container
 inverness-courier.co.uk##.LLKGTX
 nyctourism.com##.Layout_mobileStickyAdContainer__fCbCq
 kentonline.co.uk##.LeaderBack
@@ -66626,6 +66627,7 @@ autolist.com##.jsx-2866408628
 garticphone.com##.jsx-3256658636
 essentiallysports.com##.jsx-4249843366
 conservativefiringline.com##.jtpp53
+doodle.com##.jupiter-placement-header-module_jupiter-placement-header__label__caUpc
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
 fastcompany.com##.jw-floating-dismissible
@@ -66786,6 +66788,7 @@ greatbritishlife.co.uk##.lp_track_vertical2
 foodandwine.com##.lrs__wrapper
 lowes.com##.lws_pdp_recommendations_southdeep
 lowes.com##.lws_pdp_recommendations_sponsored
+phpbb.com##.lynkorama
 thestreet.com##.m-balloon-header
 politifact.com##.m-billboard
 aol.com##.m-gam__container
@@ -66903,6 +66906,7 @@ stripes.com##.min-h90
 motortrend.com,mumsnet.com##.min-w-\[300px\]
 theland.com.au##.min-w-mrec
 moviemeter.com##.minheight250
+phpbb.com##.mini-panel:not(.sections)
 kitco.com##.mining-banner-container
 ar15.com##.minis
 247sports.com##.minutely-wrapper
@@ -68437,7 +68441,7 @@ jagranjosh.com##[class*="_BodyAd_"]
 top.gg##[class*="__AdContainer-"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
-cointelegraph.com##[class*="ad-slot"]
+cointelegraph.com,doodle.com##[class*="ad-slot"]
 bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,newsbtc.com,philnews.ph,watcher.guru##[class*="clickout-"]
 manabadi.co.in##[class*="dsc-banner"]
 startribune.com##[class*="htlad-"]
@@ -68553,6 +68557,7 @@ coles.com.au##[data-testid="ad"]
 kijiji.ca##[data-testid="adsense-container"]
 gozofinder.com##[data-testid="advert"]
 coles.com.au##[data-testid="banner-container-desktop"]
+walmart.com##[data-testid="carousel-ad"]
 petco.com##[data-testid="citrus-widget"]
 argos.co.uk##[data-testid="citrus_products-carousel"]
 theweathernetwork.com##[data-testid="content-feed-ad-slot"]
@@ -68567,7 +68572,6 @@ you.com##[data-testid="microsoft-ads"]
 washingtonpost.com##[data-testid="outbrain"]
 washingtonpost.com##[data-testid="placeholder-box"]
 theweathernetwork.com##[data-testid="pre-ad-text"]
-abcnews.go.com##[data-testid="prism-static-embed"]
 abcnews.go.com##[data-testid="prism-sticky-ad"]
 zillow.com##[data-testid="right-rail-ad"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="sponsored-bar"]
@@ -68679,6 +68683,7 @@ topfiveforex.com##[href^="https://olymptrade.com/"]
 topfiveforex.com##[href^="https://omibet.io/"]
 windows-noob.com##[href^="https://patchmypc.com/"]
 unknowncheats.me##[href^="https://proxy-seller.com/"]
+multi.xxx##[href^="https://prtord.com/"]
 cryptonews.com##[href^="https://rapi.cryptonews.com/"]
 tcbscans.com##[href^="https://readcbr.com/"]
 rebelnews.com##[href^="https://rebelne.ws/"]
@@ -69064,7 +69069,6 @@ timeout.com##div[class^="_sponsoredContainer_"]
 crictracker.com##div[class^="ad-block-"]
 sfchronicle.com##div[class^="ad-module-"]
 fodors.com,thehulltruth.com##div[class^="ad-placeholder"]
-cointelegraph.com##div[class^="ad-slot_"]
 reuters.com##div[class^="ad-slot__"]
 gamingdeputy.com##div[class^="ad-wrapper-"]
 goodrx.com##div[class^="adContainer"]

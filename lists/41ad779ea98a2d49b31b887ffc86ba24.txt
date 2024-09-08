@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bbEbjfTTtVM+cqfofaUnbw
-! Version: 202409080415
+! Checksum: w4JFDndbFKLfQnyP7Kq4yg
+! Version: 202409080515
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-08 04:15 UTC
+! Last modified: 2024-09-08 05:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40912,6 +40912,7 @@ pressdemocrat.com##.article-inline-promo
 israelnationalnews.com##.article-join-button
 972mag.com,indiatimes.com##.article-newsletter
 brookings.edu##.article-newsletter-bottom-toolbar
+britishheritage.com##.article-newsletter-signup-cta
 valetmag.com##.article-newsletterFooterModule-container
 reuters.com##.article-prompt__container__3uXJV
 wionews.com##.article-registration-form
@@ -44271,6 +44272,7 @@ uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 marinelink.com##+js(set-cookie, GDPR, 9)
 thegraph.com##+js(set-cookie, cookie-consent, false)
+headout.com,london-tickets.co.uk##+js(set-cookie, consent-state, true)
 kosmas.cz##+js(set-cookie, was_cookie_consent, no)
 blog.documentfoundation.org##+js(set-cookie, ytprefs_gdpr_consent, 1, , reload, 1)
 my.eneba.com##+js(set-cookie, cconsent, 1000)
@@ -48408,6 +48410,9 @@ urbanoutfitters.com##+js(set-local-storage-item, modalViewed, 1)
 dollartree.com###email-signup-template
 dollartree.com##.modal-backdrop
 dollartree.com##body,html:style(overflow: auto !important; position: initial !important;)
+! wahaca.co.uk
+wahaca.co.uk##.oxy-modal-backdrop
+wahaca.co.uk##+js(rc, oxy-modal-active, body, stay)
 ! linenbee.com
 linenbee.com##.newsletter__lightbox
 linenbee.com##body,html:style(overflow: auto !important; position: initial !important;)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QLbz+E+FQ/UA3ZbY8iivIQ
-! Diff-Path: ../patches/7/7-s-1725885490-3600.patch
+! Checksum: Wr5OfBQU05h3E7vuhN1ntQ
+! Diff-Path: ../patches/7/7-s-1725892636-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.36
-! TimeUpdated: 2024-09-09T12:33:38+00:00
+! Version: 2.0.56.37
+! TimeUpdated: 2024-09-09T14:33:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1731,6 +1731,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+baseballchannel.jp##.post-adv-text
+baseballchannel.jp##.pc_adv
 ||gamespark.jp/base/scripts/recruitmentBoxUpdater.js
 wealthadvisor.co.jp#$#nav:not(.fixed):not([id]) { top: 132px !important; }
 money.smt.docomo.ne.jp##div[id^="companies-detail-banner-ad-"]
@@ -3717,7 +3719,7 @@ newsweekjapan.jp##.ad-teads-nw-box
 newsweekjapan.jp###nw-associate
 deaisns1.com,olch.biz##a[href="http://dir.spdoga1.net/e-top/deaivv.php"]
 ||olch.biz/css/ad.css
-jiji.com###sp-overlay
+jiji.com###sp-overlay:not(#style_important)
 tver.jp##iframe[src^="https://tead.tver.jp/web/TEAD_banner"]
 gameo.jp,googirl.jp##iframe[id^="IFTG"]
 ||blozoo.info/linktool/generate/blogparts/

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: h7dEctRj3fpBmS86l7mdQQ
-! Diff-Path: ../patches/13/13-s-1725986374-3600.patch
+! Checksum: K2xIn42sTNcplmEq2/CqFw
+! Diff-Path: ../patches/13/13-s-1725993405-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.26
-! TimeUpdated: 2024-09-10T16:35:17+00:00
+! Version: 2.0.53.27
+! TimeUpdated: 2024-09-10T18:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5495,6 +5495,12 @@ filmizlehdfilm.com,filmizletv.*,fullfilmizle.*,fullfilmizle.cc,fullhdfilmizle.*,
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.*,fullfilmizle.cc,fullhdfilmizle.*,fullhdfilmizletv.*,hdfilmcehennemi.*,hdfilmcix.org,hdfilmizlesene.org,sinema.cx##+js(set-constant, reklamsayisi, 1)
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.*,fullfilmizle.cc,fullhdfilmizle.*,fullhdfilmizletv.*,hdfilmcehennemi.*,hdfilmcix.org,hdfilmizlesene.org,sinema.cx##+js(nano-setInterval-booster, sec--, *, 0.001)
 !
+! dizipal*.com - frequently changed domains
+! https://x.com/dizipalSx
+[$domain=/dizipal\d+.com/]##.alert
+[$domain=/dizipal\d+.com/]##a[target="_blank"][rel="nofollow"]
+[$domain=/dizipal\d+.com/]##.rounded.m-auto .bg-black > a[href][target="_blank"]
+[$domain=/dizipal\d+.com/]###header-o > .px-5:has(> a[target="_blank"])
 ! yabancidizi - frequently changed domains
 yabancidizi.*##+js(nano-setInterval-booster, timeleft, *, 0.02)
 yabancidizi.*#$#body > main#wrapper { margin-top: 0 !important; }

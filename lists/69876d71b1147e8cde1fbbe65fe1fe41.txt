@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: RZSlhXtRDkZERFQc4gGLyQ
-! Diff-Path: ../patches/13/13-s-1725903398-3600.patch
+! Checksum: iH7xdgyXrb+37mfE22Czeg
+! Diff-Path: ../patches/13/13-s-1725925019-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.23
-! TimeUpdated: 2024-09-09T17:33:05+00:00
+! Version: 2.0.53.24
+! TimeUpdated: 2024-09-09T23:33:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -903,7 +903,7 @@ dizipal700.com,dizipal701.com,dizipal702.com,dizipal703.com,dizipal704.com,dizip
 ##a[href*="adsrv.eacdn.com"][rel="nofollow"]
 ##a[href*="bbelements.com/please/track/adClick/"]
 ##a[href*="med4ad.com/adv/"]
-##a[href^="http://ad.donanimhaber.com"]
+##a[href*="//ad.donanimhaber.com"]
 ##a[href^="http://adserv.ontek.com.tr/"]
 ##a[href^="http://adserver.advrstcdn.com/getad.php"]
 ##a[href^="http://izlenzi.com/campaign/"]

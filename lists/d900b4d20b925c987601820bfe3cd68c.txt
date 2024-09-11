@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JI4e29FI5ne5wJwZ6pO30w
-! Diff-Path: ../patches/7/7-s-1726047412-3600.patch
+! Checksum: 2SozZuZuDdrJk9XEvuHKmQ
+! Diff-Path: ../patches/7/7-s-1726051058-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.43
-! TimeUpdated: 2024-09-11T09:32:57+00:00
+! Version: 2.0.56.44
+! TimeUpdated: 2024-09-11T10:33:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2273,6 +2273,8 @@ jpprepper.com,blog.janjan.net##.entry-content > p.has-text-align-center
 ||nan-net.jp/*/banner_in/
 ||nan-net.com/banner_in/
 ||mbady.nan.co.jp/mbadv5?
+nan-net.com##div[style="margin-botom:0px;min-height:100px;margin:0 20px;"]
+nan-net.com##div[style="border-bottom:1px solid #555;padding:20px 20px;"]
 nan-net.com##.thread_body > div[style^="margin-top:50px;background-color:#FFF;"]
 nan-net.com##iframe[id^="bottomad"]
 nan-net.com###middleadv-nex
@@ -10381,7 +10383,6 @@ w.atwiki.jp#?##wikibody > h3[id^="id_"] > span[style="font-weight: bold;"] > cen
 lyrical-nonsense.com#?#.lyricside > span.ezoic-ad:upward(1)
 dailyshincho.jp#?#.c-box-ad:not(:has(a[href$="/recruit1/"]))
 5chan.jp#?#.linklist > li > a[target="_blank"]:contains([PR])
-nan-net.com#?#td > div.bbs_box > iframe[src^="//tool2.nan-net.com"]:upward(1)
 kakaku.com#?#.alignC > div.mTop10 > div[style]:contains(-PR-)
 otekomachi.yomiuri.co.jp#?#.wp-caption-text:contains(※楽天ブックスにリンクします)
 koro-pokemon.com#?##side > h2.h2s:contains(スポンサーリンク)

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20240908
+! Version: 20240911
 
 ! General element hiding rules
 ##amp-ad
@@ -2467,6 +2467,7 @@ anandtech.com##div#side_ad
 anandtech.com##div#side_ad2
 anandtech.com##div#side_ad3
 anandtech.com##div.header_ad
+androidauthority.com##div[data-ad-type]
 androidcentral.com##div.adunit-wrap
 androidpub.com##div.dLink
 anewsa.com##div#ir_bnr2
@@ -5247,11 +5248,13 @@ m.nocutnews.co.kr##div.ct2>div.con_b>div[style="text-align: center; padding:8px 
 m.nocutnews.co.kr##div.v_ad
 m.nocutnews.co.kr##iframe[src^="/ad/adnca.html"]
 m.ohmynews.com##article.article_body>div[style="width:100%; text-align:center; overflow:hidden; position:relative;"]
+m.ohmynews.com##body>div[style="margin: 0px; padding: 0px; width: 100%; height: 50px;"]
 m.ohmynews.com##div#adDaum
 m.ohmynews.com##div#adDaum_top
 m.ohmynews.com##div#ad_box
 m.ohmynews.com##div.ad_box_outline
 m.ohmynews.com##div.adfork_slide_banner
+m.ohmynews.com##div.article_header>div[style="margin: 0px; padding: 0px; height: 55px;"]
 m.ohmynews.com##main>div.ad:not([id])
 m.osen.co.kr##div[id^="ad_area_"]
 m.pann.nate.com##div.ad_area
@@ -6221,6 +6224,7 @@ ohmynews.com##div.AD-160x600
 ohmynews.com##div.ad_area620
 ohmynews.com##div.ad_footer
 ohmynews.com##div.ad_scroll
+ohmynews.com##div.aside>div[style="height: 270px; margin: 0px; padding: 0px;"]
 ohmynews.com##div.aside_google_ad
 ohmynews.com##div.wing_gallery_banner
 ohmynews.com##div[class^="ad_scroll_"]
@@ -6537,6 +6541,7 @@ reddit.com##div[id^="overlay-sidebar-atf-"]
 reddit.com##div[id^="overlay-sidebar-btf-"]
 reddit.com##div[id^="sidebar-atf-"]
 reddit.com##div[id^="sidebar-btf-"]
+reddit.com##shreddit-comments-page-ad
 redstate.com##article.large-card>div.ad
 redstate.com##div.ad-300x250
 redstate.com##div.banner-ad

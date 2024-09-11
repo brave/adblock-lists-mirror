@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: eEcYavjNBQHlM72kdTQxyQ
-! Diff-Path: ../patches/1/1-s-1726054631-3600.patch
+! Checksum: dxzH60JlfLvkL5E4fokr+A
+! Diff-Path: ../patches/1/1-s-1726058244-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.72
-! TimeUpdated: 2024-09-11T11:31:03+00:00
+! Version: 2.0.93.73
+! TimeUpdated: 2024-09-11T12:31:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6151,7 +6151,7 @@ stavka.tv#$#.PromoPopup { display: none !important; }
 stavka.tv#$#body[class] { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163800
 zoneofgames.ru##+js(remove-attr, style, body[style^="padding-top:"])
-zoneofgames.ru#$#div.branding { background-url: none !important; }
+zoneofgames.ru#$#div.branding { background-image: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162448
 botanichka.ru#$#body.td-background-link { cursor: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158165
@@ -20043,6 +20043,15 @@ ex-press.live#$#div[data-content-hero-id="app-layout"] { background-image: none 
 !
 ! NOTE: Specific
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/188494
+stan.kz##.admanager_block
+||stan.kz/js/admanager_v*.js
+stan.kz##[class^="branding_"]
+stan.kz##.adbuttons
+stan.kz##.sport_slider_main
+stan.kz##img[style*="width: 1200px;"][style*="height: 200px;"]
+stan.kz##img[style*="width: 1200px;"][style*="height: 172px;"]
+stan.kz##.x_logo
 !-------------------------------------------------------------------------------!
 !
 ! TODO: remove inclusions below after releasing 'AdGuard for Safari' and 'Content Blocker for Android'

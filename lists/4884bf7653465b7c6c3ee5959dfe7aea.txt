@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: IlxRLeFRjwB/StVb+SOqaw
-! Diff-Path: ../patches/9/9-s-1725979038-3600.patch
+! Checksum: CxoIE/jIUVBEgIYNrcyBXw
+! Diff-Path: ../patches/9/9-s-1726036606-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.54
-! TimeUpdated: 2024-09-10T14:33:27+00:00
+! Version: 2.0.26.55
+! TimeUpdated: 2024-09-11T06:33:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2294,7 +2294,8 @@ lavozdegalicia.es#$#body { padding-top: 0 !important; }
 eltiempo.com##div[content-ad-type]
 portalbsd.com.br##.row > div[style^="height:"]:has(> div[class^="text-"] > a[href][target="_blank"] > img[src^="images/publicidade/"])
 portalbsd.com.br##.row > div.col-md-12:has(> div.panel > center > a[href][target="_blank"] > img[src^="images/publicidade/"])
-jobsibe.com##.body-wrap > div[class^="c-sidebar c-top-"]:not(:has(div[class*="widget-manga-popular"]))
+marcialhub.xyz##.sidebar-hidden > .ad + .c-sidebar
+marcialhub.xyz,jobsibe.com##.body-wrap > div[class^="c-sidebar c-top-"]:not(:has(div[class*="widget-manga-popular"]))
 pelisenhd.org###image_banner_turk_id
 elchapuzasinformatico.com###pc_sidebar_300x600_1
 elchapuzasinformatico.com##body .ads:not(#style_important)

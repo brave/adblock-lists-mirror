@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 86gT3qiOiB0egiJA81lA1w
-! Diff-Path: ../patches/9/9-s-1726137426-3600.patch
+! Checksum: 9Un0nzilulDzoxYuWYIxdQ
+! Diff-Path: ../patches/9/9-s-1726166201-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.58
-! TimeUpdated: 2024-09-12T10:33:01+00:00
+! Version: 2.0.26.59
+! TimeUpdated: 2024-09-12T18:32:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1444,6 +1444,10 @@ peru21.pe#@#.adstop
 ! Bad: example.org##.adv (should be in specific.txt)
 !
 !
+###banner-728x90-area
+###banner-300x600-area
+##div[id^="banner-300x250-"]
+##div[id^="banner-970x250-"]
 ##a[href*="/jump/next.php"][id="gpujs_link"]
 ##a[href^="https://ads.impulsosocial.online/"]
 ##.pubContainer
@@ -3595,7 +3599,6 @@ forum.zwame.pt###adslot-top-lead
 portal.zwame.pt##.theiaStickySidebar > #custom_html-2
 elconfidencial.com##.revUnit--placeholder
 scherzo.es,noticiasdatv.uol.com.br##.banner_wrapper
-noticiasdatv.uol.com.br##div[id^="banner-300x250-"]
 mrpiracy.top##center > a[class^="super-r-button"] > img
 ||mrpiracy.top/assets/refleczomrpiracy.gif
 lasexta.com##.show-ads
@@ -5534,7 +5537,6 @@ uol.com.br###banner-300x250-area
 uol.com.br###banner-468x60-1-area
 uol.com.br###banner-468x60-area
 uol.com.br###banner-608x90-area
-uol.com.br###banner-728x90-area
 uol.com.br###banner-top
 uol.com.br###banners120x36
 bol.uol.com.br###bxShoppingLateral

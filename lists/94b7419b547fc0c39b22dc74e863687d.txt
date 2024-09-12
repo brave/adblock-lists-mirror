@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: u8LRjiAaa5qtRvLnv/x70g
-! Diff-Path: ../patches/1/1-s-1726148236-3600.patch
+! Checksum: K2z42VdV+GsiqQ164LsSvg
+! Diff-Path: ../patches/1/1-s-1726162591-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.80
-! TimeUpdated: 2024-09-12T13:31:01+00:00
+! Version: 2.0.93.81
+! TimeUpdated: 2024-09-12T17:30:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7634,6 +7634,7 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+yoomoney.ru##div[data-offer-block-id]
 hdmegafon.ru##.advestising-popup
 hdmegafon.ru##.ex-banner__img
 hdmegafon.ru##.ex-banner
@@ -17711,9 +17712,8 @@ ozon.ru##img[elementtiming*="Banner"]
 ozon.ru##div[class] > div[data-widget="island"]:has(> div > div[data-widget="objectBannerList"])
 !
 ! 2gis
-2gis.ru##div[class^="_"] > div:not([class]) > ._mq2eit:has(> a[href*="/branches/"])
+2gis.ru##div[class^="_"] > div:not([class]) > ._mq2eit:has(> a[href*="/firm/"])
 2gis.ru##nav._aj9s2a > ul > li:has(> div > svg[width="70"][height="32"])
-2gis.ru##._mq2eit:has(> a[class="_x4ac6o"][href*="/firm/"] > div > img[src^="https://ams2-cdn.2gis.com/"])
 2gis.ru##iframe[width="336px"][srcdoc^="<html>"]
 ||2gis.*/ads/advise/
 2gis.*#?#span[class]:contains(/[Рр]еклама/)

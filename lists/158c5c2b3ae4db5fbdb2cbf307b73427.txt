@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B+59MlcwHwxu7kRDOeVBDw
-! Version: 202409121301
+! Checksum: ZY3cpmZGzybHEji6fsNuYA
+! Version: 202409121401
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Sep 2024 13:01 UTC
+! Last modified: 12 Sep 2024 14:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -109,7 +109,6 @@ _vkontakte.png
 ##.fb_iframe_widget:not(.fb-post):not(.fb-video)
 ##.film-brief > .social-mediablock
 ##.film-line .social-mediablock
-##.flex-promo-series .full-soc-text
 ##.follows-channel_ok
 ##.follows-channel_telegram
 ##.follows-channel_yandexzen
@@ -139,7 +138,6 @@ _vkontakte.png
 ##.mc-tg-subscribe
 ##.menu-telegram
 ##.mrc__share
-##.novelty-banner
 ~ok.ru##.od-share
 ##.odkl-klass
 ##.odkl-klass-s
@@ -1631,6 +1629,7 @@ allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note
 allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note ~ hr
 cross.expert##.notify
 cameralabs.org##.notlabs
+fanserial.fun,fanserialstv.net##.novelty-banner
 takiedela.ru##.np-footer-contacts__socials
 takiedela.ru##.np-socials
 bobr.by##.null-share__block
@@ -3476,7 +3475,6 @@ _userbar_$image
 ##.noticeCookiesContent
 ##.notification-cookies
 ##.notification-wrapper-bottom
-##.novelty-banner ~ .dle_b_help > a[href="/help.html"]
 ##.np-cookie-notice
 ##.optanon-alert-box-wrapper
 ##.orakul-azure-block
@@ -4743,6 +4741,7 @@ lifehacker.ru##.arrow-menu [name="Ozon"]
 narutoplanet.ru##.art-header-jpeg
 vm.ru##.article--subscribes
 1prime.ru##.article-aggr
+fanserial.fun,fanserialstv.net##.article-aside-promo
 360tv.news#?#.article-body > div:-abp-has(> [href^="https://news.google.com/publications/"])
 androidinsider.ru##.article-body > p > code.large-text
 championat.com##.article-content > .external-article
@@ -5095,6 +5094,7 @@ rosbalt.ru##.fixed[style^="z-index:"]
 kommersant.ru##.fixed_bottom
 kisameev.ru##.fixed_cookie
 nalog.ru##.fixed_shortcut_vc
+fanserial.fun,fanserialstv.net##.flex-promo-series > .right-col > noindex
 informator.ua##.flex.post__subscribe-banner
 ichip.ru##.float-subscribe
 playground.ru##.float-teaser

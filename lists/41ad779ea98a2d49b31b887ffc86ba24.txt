@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wYhtROqgDTa2W9uqdq1n8g
-! Version: 202409112340
+! Checksum: lKBPNSs4C3sMAerOlYSy3Q
+! Version: 202409120040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-11 23:40 UTC
+! Last modified: 2024-09-12 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42175,6 +42175,7 @@ gizmodo.com.au,kotaku.com.au,lifehacker.com.au##.subscribe-newsletter
 hawaiitribune-herald.com,wccftech.com,westhawaiitoday.com##.subscribe-now
 longislandpress.com,metro.us##.subscribe-now-box
 thecanary.co##.subscribe-panel
+insider.fitt.co##.subscribe-pop-up-bar
 blog.rootsofprogress.org,tpain.com##.subscribe-popup
 politics.co.uk##.subscribe-popup-container
 aciafrica.org,catholicnewsagency.com##.subscribe-post
@@ -48149,6 +48150,9 @@ scottishlegal.com##body,html:style(overflow: auto !important; position: initial 
 dailytarheel.com###dth-borderless-modal
 dailytarheel.com##.modal-backdrop
 dailytarheel.com##body,html:style(overflow: auto !important; position: initial !important;)
+! insider.fitt.co
+insider.fitt.co##.fitt-subscribe-pop-up-window
+insider.fitt.co##+js(rc, subscribe-pop-active, body, stay)
 ! bucketlistly.blog
 bucketlistly.blog##.footer-newsletter-wrapper
 bucketlistly.blog##.modal-overlay

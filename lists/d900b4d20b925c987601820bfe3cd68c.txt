@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: cfDty2w+F3ZwF3+ZFPfGew
-! Diff-Path: ../patches/7/7-s-1726141050-3600.patch
+! Checksum: KHovKhYVhIaLQ+3r1rs1nA
+! Diff-Path: ../patches/7/7-s-1726151832-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.49
-! TimeUpdated: 2024-09-12T11:32:58+00:00
+! Version: 2.0.56.50
+! TimeUpdated: 2024-09-12T14:32:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1509,6 +1509,7 @@ jikayosha.jp#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+||b-cdn.net/admin%20pop/$document
 .cn/member/login.php?aid=net-service$document
 .cn/ap/signin?openid.*&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp$document
 jcb*/tetsuzuki/login.htm|$document,domain=com|org
@@ -1731,6 +1732,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+tv-watch.net##div[id^="watch-"]
 digital.hakoshin.jp##.hk-pc-column-margin > section:has(.hk-ad-wrap)
 ||jbbs.shitaraba.net/img/portal/bakuno1_660x206.jpg
 joytokey.net##.entry-content > p:last-child > a[href^="https://www.amazon.co.jp/gp/search?"][rel="noopener"]

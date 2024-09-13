@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EPR8pNodM/GQKZrRnmHOPg
-! Diff-Path: ../patches/13/13-s-1726227406-3600.patch
+! Checksum: Js+OmhKA3UwmttgAo10EOQ
+! Diff-Path: ../patches/13/13-s-1726234641-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.33
-! TimeUpdated: 2024-09-13T11:33:01+00:00
+! Version: 2.0.53.34
+! TimeUpdated: 2024-09-13T13:33:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1667,6 +1667,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+haberler.com##div[id^="detay_mobile_336x280_"]
 tclira.com##div[data-widget_type] > .elementor-widget-container > a[target="_blank"]:not([href*="tclira.com"], [href*="news.google.com"]) > img
 hayalistic.com.tr##html > iframe[id][style*="position:"][style*="display:"]
 hayalistic.com.tr#$?#html > iframe[style*="position:"] { remove: true; }

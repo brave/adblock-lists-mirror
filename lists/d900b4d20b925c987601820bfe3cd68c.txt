@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: xqY/9cMAAGMfVESdX9bPrQ
-! Diff-Path: ../patches/7/7-s-1726231036-3600.patch
+! Checksum: X3ilMpWP+/ftyB3Utkjl0Q
+! Diff-Path: ../patches/7/7-s-1726238259-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.54
-! TimeUpdated: 2024-09-13T12:32:24+00:00
+! Version: 2.0.56.55
+! TimeUpdated: 2024-09-13T14:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4029,6 +4029,7 @@ paipan-holic.com##.eroterest_partsv2
 ||pachinkas.net/p-ad*$subdocument
 xn--68jza6c6j4c9e9094b.jp###text2 > p:first-child
 ||minnano-av.com/top_center_bn/
+minnano-av.com,minnano-anime.com##iframe[src^="/top_center_bn/"]
 ||mycarrotsoup.com//promo/$third-party
 fc2hub.com##.card[style="margin: 15px 0px"]
 fc2hub.com##.col-xl-8 > div.row > div.col > div.card.d-lg-block

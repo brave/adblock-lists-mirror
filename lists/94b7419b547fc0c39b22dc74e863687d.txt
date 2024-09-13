@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: K2z42VdV+GsiqQ164LsSvg
-! Diff-Path: ../patches/1/1-s-1726162591-3600.patch
+! Checksum: LxhCSc0nPzBBm61LbbTQwA
+! Diff-Path: ../patches/1/1-s-1726184185-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.81
-! TimeUpdated: 2024-09-12T17:30:58+00:00
+! Version: 2.0.93.82
+! TimeUpdated: 2024-09-12T23:31:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18933,6 +18933,7 @@ player.ex.co#@##ad-container
 ! Good: example.org#@#.ad
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/187103
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164877
 @@||yandex.ru/ads/system/adsdk.js$domain=kino.tricolor.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187958

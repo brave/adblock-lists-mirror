@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FRQibjOANFic3XxW5Tu+8g
-! Diff-Path: ../patches/1/1-s-1726234641-3600.patch
+! Checksum: W3dsSlPbf6p9yphVGcn4Lw
+! Diff-Path: ../patches/1/1-s-1726241851-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.93.85
-! TimeUpdated: 2024-09-13T13:31:08+00:00
+! Version: 2.0.93.86
+! TimeUpdated: 2024-09-13T15:31:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -885,6 +885,7 @@ ucoz.ru/informer/
 ! Ads on uCoz sites
 ##div[id^="_u_ablock_"]
 !
+##div[data-banner-name]
 ##.ipsAdvertisement
 ##.adv-news-within
 ##div[id^="yandex_rtb"]
@@ -7634,6 +7635,7 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+food.ru##div[class^="rightsideBannersBlock_"]
 cnews.ru##.objects_row > div.cnb-zone:has(> a:not([href*="cnews.ru"]))
 cnews.ru##.token-info
 yoomoney.ru##div[data-offer-block-id]
@@ -10986,7 +10988,6 @@ mmo13.ru###wallpaper_container
 yablyk.com,trucoteca.com,deep-review.com##div[class^="code-block code-block-"][style*="margin: 8px auto; text-align: center;"]
 starhit.ru##.spec-projects_wrap
 rtvi.com##.div-adv
-rtvi.com##div[data-banner-name]
 nnovosti.info##div[class="w-100 bg-white p-3 text-center mb-4 d-none d-lg-block"]
 virtmachine.ru##.ADSENSE_REKLAMA
 ||static.channels247.net/static.js

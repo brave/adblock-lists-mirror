@@ -735,6 +735,16 @@ okiemrolnika.pl##+js(no-fetch-if, adsbygoogle)
 ! https://github.com/uBlockOrigin/uAssets/issues/25185
 megane.com.pl##+js(no-fetch-if, googlesyndication)
 
+! <<<<< RU AdList >>>>>
+! https://github.com/uBlockOrigin/uAssets/issues/25014#issuecomment-2346541996
+!#if cap_html_filtering
+@@||plrjs.org/*.xml^$3p,xhr
+||plrjs.org/*.xml^$3p,xhr,replace=/^.+$/<VAST version="3.0"><\/VAST>/s
+||cdn.plrjs.com/player/*.js^$3p,script,replace=/preroll/nopreroll/g
+!#else
+||plrjs.org/*.xml^$3p,xhr,redirect=noopvast-3.0
+!#endif
+
 ! END: Regional lists
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169660
@@ -3204,6 +3214,9 @@ soft98.ir,~forum.soft98.ir###abddh > *, div:has(> header + div > [data-href="htt
 ! https://github.com/uBlockOrigin/uAssets/issues/25302
 swiftuploads.com##+js(ra, onclick, button[onclick*="open"])
 swiftuploads.com##+js(nowoif)
+||ajrkm3.com^
+||hrmdw8da.net^
+||yyceztc8.click^
 
 ! https://en-thunderscans.com/ detection
 en-thunderscans.com##+js(nostif, getComputedStyle(testAd))

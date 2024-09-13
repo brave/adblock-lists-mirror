@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rF+Ch02UwpSrvfNBWxJJjA
-! Version: 202409131040
+! Checksum: 5TaW9swtKz1G67bIrhSaDQ
+! Version: 202409131140
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-09-13 10:40 UTC
+! Last modified: 2024-09-13 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4536,6 +4536,8 @@ theinformation.com##+js(set-cookie, marketing-modal-closed-1, 2)
 ! 6sqft.com
 6sqft.com##.exit-intent-popup
 6sqft.com##body:style(overflow: auto !important; position: initial !important;)
+! in.investing.com (forced signin)
+in.investing.com##+js(set-cookie, r_p_s_n, 1)
 ! investors.com
 investors.com##.exit-intent-modal
 investors.com##body:style(overflow: auto !important; position: initial !important;)

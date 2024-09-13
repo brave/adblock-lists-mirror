@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mjX61z03rpkd18Hln8415g
-! Version: 202409131115
+! Checksum: 6+ZFc90RTPuEAAwHSluHWA
+! Version: 202409131215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-13 11:15 UTC
+! Last modified: 2024-09-13 12:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31665,7 +31665,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter-signup-component
 ##.newsletter-signup-container
 ##.newsletter-signup-container2
-##.newsletter-signup-dialog
 ##.newsletter-signup-dnd
 ##.newsletter-signup-form
 ##.newsletter-signup-home
@@ -41202,6 +41201,7 @@ aeon.co##.dZRtZo
 plough.com##.daily-callout-list
 timesofisrael.com##.daily-edition-signup
 scmagazine.com##.daily-scan-form
+democracynow.org##.daily_digest
 beermenus.com##.dark-gradient-bg
 thenationalnews.com##.defaultstyled__StyledNewsletterForm-sc-1n48v8y-8
 defiantamerica.com##.defia-right-rail-newsletter
@@ -43930,6 +43930,8 @@ sportsbusinessjournal.com##.paywall-footer-container
 ! apnews.com
 apnews.com##.fancybox-overlay-fixed
 apnews.com##body,html:style(overflow: auto !important; position: initial !important;)
+! democracynow.org
+democracynow.org##+js(set-cookie, campaign_seen_today, true)
 ! reuters.com (top banner)
 reuters.com##.site-header__inner__ZJDlb:style(top:0 !important)
 ! pawread.com (forced login, https://github.com/uBlockOrigin/uAssets/issues/24198)
@@ -48259,6 +48261,8 @@ theinformation.com##+js(set-cookie, marketing-modal-closed-1, 2)
 ! 6sqft.com
 6sqft.com##.exit-intent-popup
 6sqft.com##body:style(overflow: auto !important; position: initial !important;)
+! in.investing.com (forced signin)
+in.investing.com##+js(set-cookie, r_p_s_n, 1)
 ! investors.com
 investors.com##.exit-intent-modal
 investors.com##body:style(overflow: auto !important; position: initial !important;)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: m9DLW4jKqvD0+HooPDAhxg
-! Diff-Path: ../patches/16/16-s-1726151829-3600.patch
+! Checksum: C4XAiGPBTFyQ9cQWbcCCrQ
+! Diff-Path: ../patches/16/16-s-1726285012-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.69
-! TimeUpdated: 2024-09-12T14:33:17+00:00
+! Version: 2.0.46.70
+! TimeUpdated: 2024-09-14T03:33:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -205,8 +205,7 @@ ebookdz.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 monumentum.fr##+js(abort-current-script, document.getElementById, Blocking Ads)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179837
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147842
-japscan.lol##+js(spoof-css, .navbar-nav > li.nav-item > a[href^="https://www.origoclick.com"], top, auto)
-japscan.lol#$#.navbar-nav > li.nav-item > a[href^="https://www.origoclick.com"] { position: absolute !important; top: -4000px !important; }
+japscan.lol#$#.navbar-nav > li.nav-item:has(> a[href^="https://www.origoclick.com"]) { position: absolute !important; bottom: 5000px !important; }
 $script,xmlhttprequest,redirect-rule=noop.js,domain=japscan.lol
 @@$image,domain=japscan.lol
 @@||japscan.lol^$image,xmlhttprequest,script,~third-party

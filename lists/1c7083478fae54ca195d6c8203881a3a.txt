@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.3.2
+! Version: 3.8.3.3
 
 ! General
 
@@ -416,7 +416,7 @@ italian.tech,moda.it##div#ph-paywall:remove()
 italian.tech,moda.it##+js(ra, style, div#article-body, stay)
 
 ! Groupe La Dépêche
-centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##+js(ra, style, div.article-paywall)
+centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##+js(ra, style|data-state, div.p402_premium)
 centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##div.paywall
 
 ! Groupe SudOuest.fr

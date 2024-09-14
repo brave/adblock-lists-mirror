@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bJYIYk/PkDvsx7YuxUS37w
-! Version: 202409140140
+! Checksum: fxDnSDmcS9V8HGifgGzLQA
+! Version: 202409140240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-14 01:40 UTC
+! Last modified: 2024-09-14 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38037,6 +38037,7 @@ aplus.com##.c206
 prepler.com##.c2696372827
 eyetvforum.com##.cAnnouncementPageTop
 protonradio.com##.cCHHbz
+ada.com##.cDLTkj
 seascanner.co.uk##.cMfuAJ
 shadow.tech##.cPoFwU
 whatsonstage.com##.cRXBfl
@@ -43682,6 +43683,8 @@ shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
 !m.youtube.com##.YtWebScrimDialogContainer
 !m.youtube.com##.YtWebScrimHostModernOverlay
 !m.youtube.com##body:style(overflow: auto !important; position: initial !important;)
+! fogaonet.com
+fogaonet.com##+js(set-cookie, fn_cookie_whatsapp_alert, 1)
 ! zillow.com
 zillow.com##.app-upsell-banner
 zillow.com###pfs-upsell:remove()
@@ -44306,6 +44309,9 @@ uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 marinelink.com##+js(set-cookie, GDPR, 9)
 queensfishandchipsgloucester.co.uk##+js(set-cookie, COOKIES_ACCEPTED, true)
+nuevoloquo.ch##+js(set-cookie, tos_consent, allow)
+fogaonet.com##+js(set-cookie, fn_cookie_banner, 1)
+zbiornik.com##+js(set-cookie, adult_confirm, 1)
 bitbucket.io##+js(set-cookie, atl-gdpr-consent, 0010000)
 ton.org##+js(set-cookie, cookies-allowance, true)
 sutterhealth.org##+js(set-cookie, _acceptsEssential, true)
@@ -45483,6 +45489,7 @@ workwide.de##+js(set-session-storage-item, cookieModal2, 1)
 erco.com##+js(set-session-storage-item, cookieMessageDisagree, true)
 communitycrimemap.com##+js(set-session-storage-item, disclaimerOpened, 1)
 smartwielen.lu##+js(set-session-storage-item, terms-and-policy-accepted, true)
+blockchain.com##+js(set-session-storage-item, dismissedTrackingBanner, true)
 fatalmodel.com##+js(set-session-storage-item, CookieTerm18, true)
 brightonandhovealbion.com##+js(set-session-storage-item, cookie_reject, true)
 ssga.com##+js(set-session-storage-item, cookieConfirmed, true)
@@ -51620,6 +51627,7 @@ studeersnel.nl##._21b991318444
 alex-soze.nl,almar-products.nl,leyuzu.nl,vanbeekkappers.nl##._2mmyb
 studeersnel.nl##._cbad9bafd417
 gogoblog.nl##.absolute-dialog
+quartier-rouge.be,redlights.be##.agecheck-wrapper
 rotaserve.com##.avg
 vakantiegevoel.nl##.background-fade
 bibliotheeknijkerk.nl,bibliotheeknoord-veluwe.nl##.backgroundoverlay
@@ -52909,6 +52917,7 @@ novayagazeta.eu##.Je58f
 etm.ru##.MuiAlert-standardSuccess
 maxi-retail.ru##.NotificationCookie_cookie__1jdBx
 citilink.ru##.PersonalDataConfirm
+livetex.ru##.SmartCaptcha-Shield_position_bottom
 mts.ru##.ToastRoot_wrapper__PFLGm
 hoff.ru##.Toastify__toast-container
 detmir.ru##.X

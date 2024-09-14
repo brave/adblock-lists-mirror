@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7K+L0IfvrSsBYbzrzLMJFw
-! Version: 202409141000
+! Checksum: ekQrBwaWrlGQ+6OCqO3jNQ
+! Version: 202409141100
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2024-09-14 10:00 UTC
+! Last modified: 2024-09-14 11:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -549,6 +549,7 @@ voicy.jp##v-sp-download
 reddit.com##xpromo-top-button
 ! :has
 gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
+abc.net.au#?#[data-component="RelatedCard"]:-abp-contains(Stream your favourite shows)
 linkedin.com#?#div#public_post_contextual-sign-in:-abp-contains(Sign in to view more content)
 thepointsguy.com#?#.noVerticalPad:-abp-contains(Download the TPG App)
 ! Advanced element hiding rules for Adblock Plus

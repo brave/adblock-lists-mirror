@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OSPDCdiw3Bn6KCVsr55nGQ
-! Version: 202409142215
+! Checksum: KPI6uVQ1FDfFmUdyqU3VPg
+! Version: 202409142340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-14 22:15 UTC
+! Last modified: 2024-09-14 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1848,6 +1848,8 @@ _social_footer_
 ##.vjs-pip-y-bottom
 ! medium nag
 ##div.l > .acu.act
+! flipcard
+##[name="bridged-flipcard-div"]
 ! Google signin popup
 ###credential_picker_container
 ###credential_picker_iframe
@@ -32200,6 +32202,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||feedblitz.com^$third-party
 ||feedburner.com^$image,third-party
 ||flashgroup.com^$third-party
+||flipcard.bridged.media^$third-party
 ||fluidsurveys.com^$third-party
 ||folloyu.com^$third-party
 ||foursixty.com^$third-party
@@ -34058,6 +34061,7 @@ damemagazine.com##.article-support-bump
 damemagazine.com##.article-top-donate-bump
 aarp.org##.backgroundParsys
 curseforge.com,freecodecamp.org,gwaramedia.com,letterboxd.com,monkeytype.com,singsnap.com,wikipedia.org##.banner
+odessa-journal.com##.banner-article-1
 flaticon.com##.banner-campaign
 icij.org##.banner-donation-default-inline
 icij.org##.banner-donation-default-sidebar
@@ -35830,6 +35834,7 @@ techcrunch.com##.article__floating-wrap
 english.nv.ua##.article__footer__additional_share
 u.today##.article__gnews
 rt.com##.article__google-news
+odessa-journal.com##.article__hictory-descr_share
 armeniasputnik.am,noticiabrasil.net.br,spnfa.ir,sputnik-abkhazia.info,sputnik-georgia.com,sputnik-ossetia.com,sputnik.af,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.tj,sputnikarabic.ae,sputnikglobe.com,sputniknews.africa,sputniknews.cn,sputniknews.com,sputniknews.com.tr,sputniknews.in,sputniknews.jp,sputniknews.lat,sputniknews.ru,sputniknews.uz,sputniknews.vn,sputniknewsbr.com.br,sputnikportal.rs##.article__news-services-subscribe
 thenewhumanitarian.org##.article__post-share
 ecowatch.com##.article__share-buttons
@@ -37803,6 +37808,7 @@ wolframalpha.com##._a_yb
 medicinechest.co.uk##._aju
 app.heygen.com##._contain_1b2mk_1
 incogni.com##._cookie-consent_tpc72_1
+neuralink.com##._cookiePopup_hshe1_11
 bitvavo.com##._cookiePresenter_isjkl_1
 pixiv.net##._gdpr-notify-header
 dic.pixiv.net##._gdpr-notify-header_replace
@@ -43936,7 +43942,7 @@ apnews.com##.fancybox-overlay-fixed
 apnews.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! news.mongabay.com
 news.mongabay.com###hs-web-interactives-top-anchor
-news.mongabay.com####body,html:style(overflow: auto !important; position: initial !important;)
+news.mongabay.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! democracynow.org
 democracynow.org##+js(set-cookie, campaign_seen_today, true)
 ! reuters.com (top banner)
@@ -45291,6 +45297,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
 column.com##+js(set-local-storage-item, cookieAllowed, false)
 iqoption.com##+js(set-local-storage-item, cookie_usage_accepted, 1)
+dopesnow.com,montecwear.com##+js(set-local-storage-item, cookieBannerShown, true)
 sonyliv.com##+js(set-local-storage-item, cookie_acceptance, true)
 sonyliv.com##+js(set-local-storage-item, analytics_cookies_acceptance, true)
 cwallet.com##+js(set-local-storage-item, ns_cookies, 1)

@@ -219,8 +219,6 @@ latercera.com##div.pw-frontier:remove()
 ||latimes.com/meteringjs/$script,~third-party
 ||ev.lavanguardia.com$xmlhttprequest,~third-party
 lavanguardia.com,mundodeportivo.com##span.content-ad,span.hidden-ad,span.ad-unit,div.ad-div
-lavialibera.it##+js(ra, class, div.text-preview)
-lavialibera.it##div.save_modal
 ledevoir.com##+js(cookie-remover, pw6)
 legrandcontinent.eu##+js(rc, paywall|pw|softwall, body)
 lejdd.fr,parismatch.com,public.fr###poool-container,#poool-widget-content,#poool-widget,.forbidden
@@ -626,6 +624,8 @@ kunststoffe.de,qz-online.de##+js(ra, style, div[style^="filter: blur"], stay)
 kunststoffe.de,qz-online.de##dialog#paywall-dialog
 ||lasvegasadvisor.com/opt/*.js$script,~third-party
 ||lasvegasadvisor.com/js/access.min.js$script,~third-party
+lavialibera.it##+js(ra, class, div.text-preview)
+lavialibera.it##div.save_modal
 legalbites.in##+js(ra, class, div.hide.paywall-content)
 legalbites.in##div#subscription_paid_message,div.restricted_message > div.story
 lepetitjournal.net##.message-restricted-woocommerce

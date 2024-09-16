@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: EbswyguJYs/FH11oDTWB4w
-! Diff-Path: ../patches/9/9-s-1726285015-3600.patch
+! Checksum: E3xr90Cm/AzXtz+YNZe5sg
+! Diff-Path: ../patches/9/9-s-1726472196-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.60
-! TimeUpdated: 2024-09-14T03:33:00+00:00
+! Version: 2.0.26.62
+! TimeUpdated: 2024-09-16T07:33:02+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1658,8 +1658,8 @@ hentaikai.com,superhq.net##+js(abort-on-property-write, protData)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173473
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173197
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142854
-cuevana3.*,gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(window.open-defuser)
-cuevana3.*,gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(abort-on-property-read, cJsEdge)
+pelispedia.life,cuevana3.*,gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(window.open-defuser)
+pelispedia.life,cuevana3.*,gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##+js(abort-on-property-read, cJsEdge)
 player.cuevana3.*,player.gnula.*,player.poseidonhd2.co,player.cuevana2espanol.*,player.cuevana.*##+js(nano-setInterval-booster, countdown, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140890
 pobre.wtf##+js(set-constant, ads, false)
@@ -2228,6 +2228,9 @@ globo.com,amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.c
 ! ##body .banner
 meiobit.com,brasilparalelo.com.br,tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+nmas.com.mx##div[class*="advertising"]
+lasestrellas.tv##.bg-stripes-light-iconPromo
+mega.cl###top
 culturaocio.com##.adv-container
 elotrolado.net##.sliderxl
 elotrolado.net##.tophome300x600
@@ -2346,7 +2349,6 @@ rdnews.com.br##body > .header-mb-full.hidden-xs:has(> div[id^="div-gpt-"])
 swisscows.com##.item-a8r-web
 okpeliz.com##+js(window.open-defuser)
 mirandogratis.com##a[target="_blank"] > img
-pelispedia.io##a[rel="nofollow"][style]
 yaske.org,zpelis.com,locopelis.com##div[class^="adsbutt_"]
 hardwaresfera.com##.widget_aawp_widget_bestseller
 seriesonline.cloud,veronline.*,verseries.cc,streamgratis.biz##.movie-xyz > a[rel]
@@ -2859,7 +2861,7 @@ istoe.com.br##div[style^="width: 100%; min-height: 250px;"]
 laopinion.com.co##div[class^="pauta"]
 ||player.*/assets/vast_*.xml
 cuevana3.*,gnula.*,poseidonhd2.co,cuevana2espanol.*,cuevana.*##a[rel*="sponsored"] img
-/edgeSystem*.js$domain=cuevana.*|cuevana2espanol.*|poseidonhd2.co|gnula.*|cuevana3.*
+/edgeSystem*.js$domain=cuevana.*|cuevana2espanol.*|poseidonhd2.co|gnula.*|cuevana3.*|pelispedia.life
 ffcv.es##.hidden-xs.zn_section
 dw-anime.net###custom_html-60
 autoscout24.es##.hf-top-old
@@ -4250,7 +4252,6 @@ desdesoria.es###publiheader
 desdesoria.es###columnapublicidad
 desdesoria.es###mediacolumna
 desdesoria.es##.advertising-corte-interstitial
-||pelispedia.tv/Native.html
 tvfree.me###sp-above_body_1
 tvfree.me###sp-left > .module
 tvfree.me##.row-fluid > #sp-content1
@@ -4328,7 +4329,7 @@ cine-online.eu##body #expandirBotones
 cine-online.eu##body > .add
 verepeliculas.com,cine-online.eu##.fake_player
 ||animalog.biz/barra.php
-mkv-paste.com,comandotorrents.com,pelispedia.tv##center > a[href][target="_blank"] > img
+mkv-paste.com,comandotorrents.com##center > a[href][target="_blank"] > img
 televisionparatodos.tv##p > a[href][rel="noopener"][target="_blank"] > img
 ||televisionparatodos.tv/wp-content/uploads/*/verenvivo.jpg
 elgrantv.com###floatLayer[style]

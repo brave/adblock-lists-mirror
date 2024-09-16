@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.3.4
+! Version: 3.8.3.5
 
 ! General
 
@@ -572,6 +572,10 @@ theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
 !##div#didomi-host
 ##+js(rc, didomi-popup-open, body.didomi-popup-open)
 
+! flip-pay
+||flip-pay.com/*/flip-pay.js$script,third-party,domain=clareecho.ie|thedailymash.co.uk
+clareecho.ie##+js(rc, td-post-content, div.td-post-content)
+
 ! custom sites
 .com/webfiles/*/js/metering.js$script,third-party,domain=hbook.com|libraryjournal.com|slj.com
 20minutes.fr##+js(rc, qiota_reserve, div.qiota_reserve)
@@ -682,7 +686,6 @@ subscriptioninsider.com##div.dialog-widget
 /\.subscriptioninsider\.com\/.+\/((\w)+(\-)+){3,}/$inline-script
 !#endif
 thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container)
-||flip-pay.com/clients/dailymash/flip-pay.js$script,domain=thedailymash.co.uk
 ||thedriftmag.com/wp-content/plugins/drift-paywall-plugin/$script,~third-party
 thegardenisland.com##+js(ra, style, #single-paywall)
 thegardenisland.com###single-login-box,#single-excerpt

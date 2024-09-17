@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MgIRpZUIn2dBFW7ZMSlMpA
-! Diff-Path: ../patches/16/16-s-1726576690-3600.patch
+! Checksum: p4Zxy3Y+YC+cKWrwaOHI0w
+! Diff-Path: ../patches/16/16-s-1726580218-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.46.77
-! TimeUpdated: 2024-09-17T12:34:03+00:00
+! Version: 2.0.46.78
+! TimeUpdated: 2024-09-17T13:33:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -114,6 +114,8 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/188979
+sekai.one###adblock-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186309
 ||statics.liberation.fr/newsite/js/cmp/gtm.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185935
@@ -945,7 +947,7 @@ h2-mobile.fr#?##main-container .blog__content:has(> .title-wrap--pr > h3:contain
 h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigital-adslot-"])
 cosmopolitan.fr##.External
 japscan.lol##body > .container.text-center > div.mt-3[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][href^="https://www."][href*="/?utm_source=manga&utm_"]:not([href^="https://www.google"]):not([href^="https://www.japscan"]):not([href^="https://www.example"]) > img.img-fluid[src^="/imgs/onc/"]
-japscan.lol##:matches-path(/^\/$/)body > style + .container:first-of-type > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_medium=extra_large&"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
+japscan.lol##body > style + .container:first-of-type > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_medium=extra_large&"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 femina.fr##.p-aside
 femina.fr##.p-inread
 femina.fr##.p-pave

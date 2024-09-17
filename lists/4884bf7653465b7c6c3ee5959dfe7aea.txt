@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MI3aG2tV+TY5ycbxBzzm8g
-! Diff-Path: ../patches/9/9-s-1726483007-3600.patch
+! Checksum: 2FtTTDb6AZNaxEWQH7M0VQ
+! Diff-Path: ../patches/9/9-s-1726551404-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.64
-! TimeUpdated: 2024-09-16T10:33:00+00:00
+! Version: 2.0.26.65
+! TimeUpdated: 2024-09-17T05:32:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2315,7 +2315,7 @@ elchapuzasinformatico.com##body .ads:not(#style_important)
 elimparcial.com##div[id^="arcad-feature-"]
 otvfoco.com.br##div[id*="ZONA_IAB_"]
 otvfoco.com.br##.row > div:has(> div.ads-bg)
-eltiempo.es##.mods-box
+clima.com,eltiempo.es##.mods-box
 tvn-2.com##aside[data-ad-type]
 portaldozacarias.com.br##.publicidade-esq
 mundodonghua.com##.container > .col-md-9 > .pl-15:has(> h4 > .fa-ad)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 9mblLJbrHNyuDy47ao0CPQ
-! Diff-Path: ../patches/7/7-s-1726749459-3600.patch
+! Checksum: D6uYim3IhQxwvMwFjwQ/6g
+! Diff-Path: ../patches/7/7-s-1726753034-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.74
-! TimeUpdated: 2024-09-19T12:33:07+00:00
+! Version: 2.0.56.75
+! TimeUpdated: 2024-09-19T13:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1509,6 +1509,7 @@ jikayosha.jp#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-
 /openstrap/js/meerkat_side_double_ad.js
 /wp-content/plugins/amazonjs/*
 /wp-content/themes/CashLINESystem/js/modal.$script
+/wp-content/uploads/2024/09/fanza_ad$image
 !
 ! Malware/Phishing
 ||b-cdn.net/admin%20pop/$document
@@ -4865,7 +4866,6 @@ news.golfdigest.co.jp###before-container
 golfdigest.co.jp###adsYahoo
 ||wp.com/s3-ap-northeast-1.amazonaws.com/image-af-next-com/
 math-fun.net##.toc
-mm9845.com##div[style^="position:fixed;"][style*="cursor:pointer"]
 burusoku-vip.com,netakomori.blog.jp,heartlife-matome.com,matome-tarou.ldblog.jp,valorantchannel.net##.amazon.Default
 kochike.jp##.sdr-banner
 ||solty.biz/amazon.js$third-party
@@ -5215,7 +5215,6 @@ newsmomonga.com##.post div[align="center"]
 newsmomonga.com##.post div[align="center"] + br
 newsmomonga.com##.post div[align="center"] + br + hr
 nc-net.or.jp##.box-pr-image-01
-mori.nc-net.or.jp###ok_ad_side
 news.denfaminicogamer.jp##a[id^="dfng_center_banner"]:not([href^="https://news.denfaminicogamer.jp"])
 gyutte.jp###gt_sp_all_header
 gyutte.jp###gt_sp_all_footer
@@ -7461,7 +7460,6 @@ ramen.walkerplus.com##.side__ads
 hamakore.yokohama##.sideBlock:first-child
 otoriyose.net###wrapper > div[style="text-align:center;padding-bottom:15px;"]
 ||atja.jp/clogif/ad_disp.php
-moneymore.jp##.header-widget
 /\/right\/(?:[a-z]+([a-z_]+\d{2})?|[0-9a-z_-]*(?:bnr|banner)[0-9a-z-_]*)\.(?:gif|jpg|png)$/$image,~third-party,domain=goonews.jp
 ||goonews.jp/common/img/header/beforward_bnr.gif
 newtoku.jp###left-contents > div.side-hc > dl + dl:nth-child(-n+7)
@@ -8430,7 +8428,7 @@ navitime.co.jp##.section-ad-3
 navitime.co.jp##.section-ad-4
 navitime.co.jp##.footer-rect-ad-frame
 navitime.co.jp###main-page-frame > div[style="display:flex;justify-content:center;align-items:center;height:120px;width:100%;"]
-bitwave.showcase-tv.com,n-tel.co.jp,enrichoneslife.com##.l-sidebar > aside.widget_custom_html:first-child
+reyuu-japan.com,bitwave.showcase-tv.com,enrichoneslife.com##.l-sidebar > aside.widget_custom_html:first-child
 kurusoku.com##.first-article > div[style="background:#E065A0; padding:5px; border:0px dotted #ff0000;"]
 kurusoku.com##div[style^="width:778px;height:270px"]
 smart-flash.jp##.postAds
@@ -9608,7 +9606,6 @@ pokemon-matome.net#?#.blogparts_freeArea:has(a[href^="https://www.amazon.co.jp/e
 seiyufan.livedoor.biz#?#aside.section-box:has(> div.plugin-ad)
 gowomengo.press,cidresweet.com,chiebiyori.com,coco2i.com,favoriteslibrary-books.com,753ya.net#?#.grid_post-box > div.post-box-contents > ins.adsbygoogle:upward(2)
 markezine.jp#?#.l-sidebar_inner > div.c-secondarysection:has(> div.c-secondarysection_header > p.c-secondarysection_heading:contains(スポンサーサイト))
-news.merumo.ne.jp#?#.c-section__title--ranking:contains(あなたにおすすめ)
 enrichoneslife.com#?#.widget_custom_html a[href^="https://app.seedapp.jp"]:upward(.widget_custom_html)
 portal.auone.jp#?#.news__item > div.news__item--ad:upward(1)
 javbus.com#?#.container > div.row:has(> div.text-center > script[src^="https://poweredby.jads.co/"])
@@ -10808,6 +10805,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_japanese
 !
 !
 !
+! self-link
+@@||goonews.jp/common/img/sub/right/g0121_goonet_ryutsu_bnr_h.jpg
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176181
 etude000.com#@#.top-ad
 ! https://github.com/tofukko/filter/issues/98

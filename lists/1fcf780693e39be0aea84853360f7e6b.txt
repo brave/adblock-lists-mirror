@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ZFmnx8CLlu0HqCGyrwr4HQ
-! Diff-Path: ../patches/224/224-s-1726799800-3600.patch
+! Checksum: ejV4eqc9Wg15mM1QnOgY7A
+! Diff-Path: ../patches/224/224-s-1726825187-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.22.21
-! TimeUpdated: 2024-09-20T02:33:29+00:00
+! Version: 2.1.22.22
+! TimeUpdated: 2024-09-20T09:36:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13216,7 +13216,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ufile.cc/pps.js
 ||dajiadu8.com/17mb/script/ad.js
 /mpc/*$domain=52xkdy.com|fydy8.com
+||ads.yeeyi.com^
 szxx.com.cn###A0
+yeeyi.com##.js_handle_right
 raenonx.cc##div[style="display: flex; justify-content: center; align-items: center; position: relative;"] > iframe
 wantgoo.com##.fab-ad
 wantgoo.com##div[type="adv"]
@@ -18430,7 +18432,6 @@ rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
 hz66.com##div[style="width: 300px; height: 250px; float: left; position: relative;"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
 zol.com.cn##div[style="width: 300px; height: 250px; position: fixed; right: 0px; bottom: 0px; z-index: 9999; display: block;"]
-yeeyi.com##div[style="width: 300px; margin-right: -30px; position: relative; top: 0px;"] > a
 tuwan.com##div[style="width: 360px;margin-top:10px;"]
 1point3acres.com##div[style="width: 450px; min-height: 210px;"]
 jijidown.com##div[style="width: 500px;"]:last-child

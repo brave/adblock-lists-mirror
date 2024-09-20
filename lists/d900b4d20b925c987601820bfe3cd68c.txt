@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: UM+TOT7WaLmkm8w2hDVUyw
-! Diff-Path: ../patches/7/7-s-1726825189-3600.patch
+! Checksum: VDCCxzvZZRmKOAALZYJ0+g
+! Diff-Path: ../patches/7/7-s-1726839467-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.56.79
-! TimeUpdated: 2024-09-20T09:35:38+00:00
+! Version: 2.0.56.80
+! TimeUpdated: 2024-09-20T13:33:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1736,11 +1736,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
-purelovers.com##.k_footer-body > div.k_row:has(script[src^="https://js.ad-stir.com/"])
-mapion.co.jp##section:has(> div.sec-col-recommend)
-mapion.co.jp##.pickup-bnr
-mapion.co.jp##a[href^="https://www.toppan.co.jp/"]
-p-game.jp##a[href="https://myhome-cloud.net/"]
+purelovers.com##.k_footer-body > div.k_row:has(> div > div[style^="width:300px"])
+p-game.jp##a[href="https://myhome-cloud.net/"] > img
 openworldnews.net##blockquote:has(> div.amazon)
 wjsm.co.jp###dcms_layoutPageBlock > section[class^="dlb_box"]
 teyvatsokuho.com##.home-post

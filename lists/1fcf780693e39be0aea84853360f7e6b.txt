@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: GMvQHVhlfiagkfjqx0LgYw
-! Diff-Path: ../patches/224/224-s-1727073401-3600.patch
+! Checksum: xPIytq+1EMtefkshUUZbSw
+! Diff-Path: ../patches/224/224-s-1727084255-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.22.46
-! TimeUpdated: 2024-09-23T06:33:25+00:00
+! Version: 2.1.22.47
+! TimeUpdated: 2024-09-23T09:33:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2808,6 +2808,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/189328
+@@||int.mwbbiz.com/static/*/videoShow.js$domain=91porny.com
+@@||int.mwbbiz.com/static/*/app.js$domain=91porny.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188514
 huya.com#@##banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187167
@@ -13258,6 +13261,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 /cuid/*$domain=colamanga.com
 ||tsdm39.com/img01/MP3/GG/
 szxx.com.cn###A0
+cn.bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 hdhive.online#?#.mt-4:-abp-has(>.text-lg)
 cnyes.com#?#.content-main > div:-abp-has(>div[id^="div-gpt-ad"])
 cnyes.com#?#article > div:-abp-has(>div[id^="div-gpt-ad"])

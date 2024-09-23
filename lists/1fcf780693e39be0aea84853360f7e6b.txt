@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ki3Wi+KrtvjpvdDwUYCKog
-! Diff-Path: ../patches/224/224-s-1727095003-3600.patch
+! Checksum: B0UOmfdaIRwVC6EMcsEZrA
+! Diff-Path: ../patches/224/224-s-1727105833-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.22.49
-! TimeUpdated: 2024-09-23T12:33:05+00:00
+! Version: 2.1.22.50
+! TimeUpdated: 2024-09-23T15:33:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1081,6 +1081,7 @@ $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.
 !
 !
 !
+8724ck.cc##body > div[style] > a[href][target="_blank"]
 news.cnyes.com##.content-main > div:empty
 news.cnyes.com##.content-main > div:has(> div[id^="div-gpt-"])
 news.cnyes.com##article > div:has(> div[id^="div-gpt-"])
@@ -1129,7 +1130,7 @@ ifoodie.tw##.ad-container
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
-*.gif$domain=8724ck.cc|aeahsck.cc
+.gif|$domain=8724ck.cc|aeahsck.cc
 ||imgsrc.baidu.com/*/pic/*.jpg$domain=8724ck.cc|aeahsck.cc
 8724ck.cc,aeahsck.cc##.stui-vodlist  > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 huya.com###ab-item
@@ -4731,6 +4732,7 @@ newduba.cn###jq_youxi
 ||gmmlmo.xyz^
 ||iwatero.top^
 ||dssddf33.fun^
+||kwaterd.top^
 ||rvnaxwqe.icu^
 ||uaoaig.xyz^
 ||xnqboqc.icu^
@@ -13262,6 +13264,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 /cuid/*$domain=colamanga.com
 ||tsdm39.com/img01/MP3/GG/
 szxx.com.cn###A0
+cn.bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 cn.bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 hdhive.online#?#.mt-4:-abp-has(>.text-lg)
 cnyes.com#?#.content-main > div:-abp-has(>div[id^="div-gpt-ad"])

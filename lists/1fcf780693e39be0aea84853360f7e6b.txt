@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: RIdZ34l2wu6Afgx7pKEQ1Q
-! Diff-Path: ../patches/224/224-s-1727141790-3600.patch
+! Checksum: wdPXUgqoPOfe7vo633S9Cg
+! Diff-Path: ../patches/224/224-s-1727145346-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.22.53
-! TimeUpdated: 2024-09-24T01:33:13+00:00
+! Version: 2.1.22.54
+! TimeUpdated: 2024-09-24T02:32:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4723,6 +4723,7 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||swaterb.top^
 ||jcppcmqa.icu^
 ||nmmemzi.icu^
 ||nahjzx.xyz^
@@ -13272,6 +13273,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 /cuid/*$domain=colamanga.com
 ||tsdm39.com/img01/MP3/GG/
 szxx.com.cn###A0
+baidu.com##.container_frs:has(>.voice_room_card_frs[data-url*="yylive"])
+baidu.com##.container:has(>.bottom-section>.item_voice_room[data-yysid])
 baidu.com#?#.container:-abp-has(>.bottom-section>.item_voice_room[data-yysid])
 baidu.com#?#.container_frs:-abp-has(>.voice_room_card_frs[data-url*="yylive"])
 cn.bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])

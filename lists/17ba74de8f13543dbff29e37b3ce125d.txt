@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409241145
+! Version: 202409241452
 ! Title: EasyList
-! Last modified: 24 Sep 2024 11:45 UTC
+! Last modified: 24 Sep 2024 14:52 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -16,8 +16,6 @@
 ! 
 ! -----------------------General advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_general_block.txt ***
-&pcid=*&rid=
-&sadbl=1$third-party
 -ad-300x600-
 -ad-458x80.
 -ad-bottom-
@@ -159,6 +157,7 @@
 /ad.html?
 /ad.min.js$script
 /ad/a.aspx?
+/ad/ad_common.js$script
 /ad/dfp/*$script
 /ad/err?
 /ad/getban?
@@ -180,7 +179,6 @@
 /ad_bottom.js$script
 /ad_break?
 /ad_campaign?
-/ad_common.js$script
 /ad_counter.aspx$ping
 /ad_header.js$script
 /ad_home.js$script
@@ -331,7 +329,6 @@
 /adv-socialbar-scroll.js$script
 /adv.css?
 /adv_out.js$third-party
-/adv_teasers.js$script
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
 /advanced-ads-$domain=~wordpress.org
@@ -535,6 +532,7 @@
 /jquery.dfp.js?$script
 /jquery.dfp.min.js?$script
 /jquery.openxtag.js$script
+/js/ad_common.js$script
 /js/advRotator.js$script
 /jsAds-1.4.min.js$script
 /jshexi.hj?lb=
@@ -1100,7 +1098,8 @@ _widget_ad.
 _prebid.js
 _prebid8.
 ! 
-&sadbl=1&chu=
+&sadbl=1&abtg=$third-party
+&sadbl=1&chu=$third-party
 ?zoneid=*&ab=1
 ! linkbucks.com script
 /webservices/jsparselinks.aspx?$script
@@ -54042,6 +54041,7 @@ browsershots.org#@#.advert_area
 ||98140548.xyz^$document,popup
 ||9814b49f.xyz^$document,popup
 ||98383163.xyz^$document,popup
+||98853171.xyz^$document,popup
 ||9bc639da.xyz^$document,popup
 ||a49ebd.xyz^$document,popup
 ||a5d2d040.xyz^$document,popup

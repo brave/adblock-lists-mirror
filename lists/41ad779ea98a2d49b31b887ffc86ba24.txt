@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tvJlhc0Uf5Q2aOKcVuissg
-! Version: 202409251015
+! Checksum: SbIsamnYDJl0cMlvVY8oKQ
+! Version: 202409251115
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-25 10:15 UTC
+! Last modified: 2024-09-25 11:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31597,8 +31597,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter-fields
 ##.newsletter-fixed
 ##.newsletter-fixed-container
-##.newsletter-flex-text
-##.newsletter-flex-text_boxy
 ##.newsletter-fly-in
 ##.newsletter-flyout-wrap
 ##.newsletter-foot
@@ -32080,41 +32078,20 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div[data-newsletter-1]
 ##div[data-newsletter-2]
 ##gannett-atoms-component-newsletter-cta
-##hl-newsletter-cta
 ##journey-inline-newsletter
-! huntspost.co.uk/redditchadvertiser.co.uk
-###po-inline-article-above
 ! stltoday.com/buffalonews.com
 ##div[id^="pu-email-form-"]
 ! beursduivel.be,debeurs.nl,belegger.nl
 ###ctl00_NewsletterFooter_UpdateForm
 ! substack
-###ghost-portal-root > .gh-portal-triggerbtn-iframe
 ##.markup.body > .subscribe-widget
-##.markup.body > .subscription-widget-wrap
-##.post-end-cta-full
+##.pc-reset > ._container_cjrxc_1
 ##.single-post-container > .subscribe-footer
-##div[class*="frontend-components-SubscribePrompt-"]
-! spot-im newsletter (israelnationalnews.com)
-##[data-spot-im-class="card-container"]
-! wix sites
-###WIX_ADS
 ! alextimes.com
 ##.cpcta-flyin
-! gastongazette.com
-###dialog-message.slideDown
-! medium.com related newsletters
-##.js-stickyFooter.u-fixed
 ! nlgate Newsletter
 ###nlgate
 ###nlgate-overlay-0
-! Various uk Football splashes
-###splash_mask
-###splash_mask + #splash_box
-! columbiasportswear.co.uk / columbiasportswear.fi etc
-##.overflow-wrapper > #notify-bar
-! cartoonnetwork.es/cartoonnetwork.fr
-##.front-page > #sliding-popup
 !-------------------------Third-party blocking rules--------------------------!
 ! fanboy_annoyance_thirdparty.txt
 ||1worldonline.com^$third-party
@@ -42539,6 +42516,7 @@ gzeromedia.com##div[id^="sNewsletter_"]
 niemanlab.org##div[style^="border: 1px dashed #a51c30; color: #333;"]
 pcmag.com##div[x-init*="initNewsletter"]
 dailydot.com##footer
+medicalnewstoday.com##hl-newsletter-cta
 ign.com##iframe[width="100%"][height="100%"]
 bbc.com##img[alt="News Daily banner"]
 michiganmedicine.org##labcoat-promo
@@ -48655,6 +48633,13 @@ vat19.com##body,html:style(height: auto !important; overflow: auto !important)
 ! #shopify-section-newsletter-popup
 magnumboots.com,wilcooffroad.com,detroitmodular.com,metrocheese.com,bwpsales.com,fitnessav.com,gronkfitnessproducts.com,hockeylion.ca,justcloseoutscanada.ca,kitchenutopia.ca,lakshmistores.com###shopify-section-newsletter-popup
 magnumboots.com,wilcooffroad.com,detroitmodular.com,metrocheese.com,bwpsales.com,fitnessav.com,gronkfitnessproducts.com,hockeylion.ca,justcloseoutscanada.ca,kitchenutopia.ca,lakshmistores.com##body,html:style(height: auto !important; overflow: auto !important)
+! columbiasportswear
+columbiasportswear.it##+js(set-cookie, Columbia_IT_emailPopup, 1)
+columbiasportswear.at##+js(set-cookie, Columbia_AT_emailPopup, 1)
+columbiasportswear.de##+js(set-cookie, Columbia_DE_emailPopup, 1)
+columbiasportswear.fr##+js(set-cookie, Columbia_FR_emailPopup, 1)
+columbiasportswear.es##+js(set-cookie, Columbia_ES_emailPopup, 1)
+columbiasportswear.co.uk##+js(set-cookie, Columbia_UK_emailPopup, 1)
 ! logitech.com
 logitech.com##.email-subscription-modal
 logitech.com##body,html:style(overflow: auto !important; position: initial !important;)

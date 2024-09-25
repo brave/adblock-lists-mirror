@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8Rg+6F3W2/fJI2QAezmPxQ
-! Version: 202409251040
+! Checksum: rYd3HQFtgISiR0FxeDkzkg
+! Version: 202409251140
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-09-25 10:40 UTC
+! Last modified: 2024-09-25 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1401,41 +1401,20 @@
 ##div[data-newsletter-1]
 ##div[data-newsletter-2]
 ##gannett-atoms-component-newsletter-cta
-##hl-newsletter-cta
 ##journey-inline-newsletter
-! huntspost.co.uk/redditchadvertiser.co.uk
-###po-inline-article-above
 ! stltoday.com/buffalonews.com
 ##div[id^="pu-email-form-"]
 ! beursduivel.be,debeurs.nl,belegger.nl
 ###ctl00_NewsletterFooter_UpdateForm
 ! substack
-###ghost-portal-root > .gh-portal-triggerbtn-iframe
 ##.markup.body > .subscribe-widget
-##.markup.body > .subscription-widget-wrap
-##.post-end-cta-full
+##.pc-reset > ._container_cjrxc_1
 ##.single-post-container > .subscribe-footer
-##div[class*="frontend-components-SubscribePrompt-"]
-! spot-im newsletter (israelnationalnews.com)
-##[data-spot-im-class="card-container"]
-! wix sites
-###WIX_ADS
 ! alextimes.com
 ##.cpcta-flyin
-! gastongazette.com
-###dialog-message.slideDown
-! medium.com related newsletters
-##.js-stickyFooter.u-fixed
 ! nlgate Newsletter
 ###nlgate
 ###nlgate-overlay-0
-! Various uk Football splashes
-###splash_mask
-###splash_mask + #splash_box
-! columbiasportswear.co.uk / columbiasportswear.fi etc
-##.overflow-wrapper > #notify-bar
-! cartoonnetwork.es/cartoonnetwork.fr
-##.front-page > #sliding-popup
 ! fanboy_newsletter_specific_hide.txt
 insiderintelligence.com###ArticleNewsletterBottom
 3f-filippi.com###BannerNewsletter_Container
@@ -3539,6 +3518,7 @@ gzeromedia.com##div[id^="sNewsletter_"]
 niemanlab.org##div[style^="border: 1px dashed #a51c30; color: #333;"]
 pcmag.com##div[x-init*="initNewsletter"]
 dailydot.com##footer
+medicalnewstoday.com##hl-newsletter-cta
 ign.com##iframe[width="100%"][height="100%"]
 bbc.com##img[alt="News Daily banner"]
 michiganmedicine.org##labcoat-promo

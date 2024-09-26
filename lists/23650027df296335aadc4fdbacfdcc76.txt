@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: bq4TXB89htZn+zjLbEFXEw
-! Diff-Path: ../patches/8/8-s-1727372299-3600.patch
+! Checksum: JdpOhL/gMDPnygSPOL+qaQ
+! Diff-Path: ../patches/8/8-s-1727375791-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.22
-! TimeUpdated: 2024-09-26T17:33:57+00:00
+! Version: 2.0.7.23
+! TimeUpdated: 2024-09-26T18:32:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -500,17 +500,19 @@ _advertentieleaderboardhome.
 ||go2.go2cloud.org^$popup
 @@||2mdn.net/instream/html5/ima3.js$script,domain=autoblog.bbvms.com|omroepbrabant.nl
 @@||ads.nextday.media/prebid/jw-video/7.43.0.min.js$domain=vi.nl
+@@||ads.viralize.tv/display/?zid=$script,domain=crime-nieuws.nl
 @@||advertising-module.api.dpgmedia.cloud/video/$xmlhttprequest,domain=sportnieuws.nl
 @@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=radioluisteren.fm
 @@||cdn.bluebillywig.com/scripts/prebid/*/bluebillywig_pbjs.js$script,domain=autoblog.bbvms.com
 @@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=radioluisteren.fm
 @@||files.skoften.net/website/lib/vjs/plugins/ads/videojs.ads.min.js$script,~third-party
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=vtm.be
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dailybuzz.nl|skoften.net|sportnieuws.nl|vtm.be|weerplaza.nl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=crime-nieuws.nl|dailybuzz.nl|skoften.net|sportnieuws.nl|vtm.be|weerplaza.nl
 @@||improvedigital.com/pbw/headerlift.min.js$domain=spelletjes.nl
 @@||js.spotx.tv/ados/v1/106185.js$script,domain=radioluisteren.fm
 @@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|radio.nl|welingelichtekringen.nl
 @@||mmcdn.nl/tags/vkmag.com/pagina.js$script,domain=vkmag.com
+@@||monetize-static.viralize.tv/viralize_player_content.$script,domain=crime-nieuws.nl
 @@||search.spotxchange.com/js/spotx.js$script,domain=radioluisteren.fm
 @@||sync.search.spotxchange.com/partner?source=easi$image,domain=radioluisteren.fm
 @@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
@@ -935,10 +937,11 @@ rkcwaalwijk.nl,webcam-harlingen.nl,webcam-maastricht.nl##.carousel
 halstadcentraal.nl##.carouselbanner_left
 fonkonline.nl##.carrousel-wrapper
 motorfietsblog.nl##.cbcontent
+monitor.iex.nl##.centerbanner
 autoscout24.be,autoscout24.nl##.cl-billboad-wrapper
 bitcoinmagazine.nl##.clickout-relative
 rd.nl##.codalt-container
-techgaming.nl##.code-block
+gfcnieuws.com,techgaming.nl##.code-block
 bol.com##.consideration-display
 twentefans.nl##.content-action
 juf-milou.nl##.content_blok_reclame
@@ -1052,6 +1055,7 @@ gic.nl##.lead
 speeleiland.nl##.leader-below-game
 rendez-vous.be##.leaderBoard
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,pcactive.nl,psv.nl,sneeuwhoogte.nl,sport-planet.eu,sportid.be,tenniskrant.be,tradeidee.nl,voetbalkrant.com,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
+monitor.iex.nl##.leaderboard-down
 atv.be,robtv.be,tvl.be,tvoost.be##.leaderboardWrap
 blikopnieuws.nl##.ligatus-sidebar-block
 escortgirls.be,sexguide.nl,topescort.nl##.link-buttons-container
@@ -1130,7 +1134,7 @@ girlpowerradio.nl##.proradio-owl-sponsorcarousel
 europa-landbouwmachines.nl,hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
 gocar.be##.pub-leaderboard-top
 nedporno.com##.publ11s-b0ttom
-iex.nl##.publisher-sh-spot
+iex.nl,tostrams.nl##.publisher-sh-spot
 gamer.nl##.px-\[24px\].bg-backgroundLighter.w-full.md\:w-fit.rounded-\[8px\].md\:mb-0.mb-\[16px\]
 simone.nl,wfm.be##.qt-sponsor
 rbsradio.be##.qt-sponsors
@@ -1334,6 +1338,7 @@ rtl.nl##div[data-adslot-variant]
 basketball.nl##div[data-component="partner"]
 telefoonboek.nl##div[data-role="csaads"]
 meerradio.nl##div[id="pristineslider.12"]
+drimble.nl##div[id^="ASTAGQ_"]
 motokicx.com##div[id^="adtemplate"]
 alblasserdamsnieuws.nl##div[id^="albla-"]
 sexjobs.nl##div[id^="banner-"]

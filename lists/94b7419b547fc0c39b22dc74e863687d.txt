@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: c8GVbXaWFNIOjSvM9ySIPA
-! Diff-Path: ../patches/1/1-s-1727275088-3600.patch
+! Checksum: sddHeQXkYIbVdN13TtX1qA
+! Diff-Path: ../patches/1/1-s-1727343411-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.94.11
-! TimeUpdated: 2024-09-25T14:31:05+00:00
+! Version: 2.0.94.12
+! TimeUpdated: 2024-09-26T09:31:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7555,6 +7555,8 @@ kodik*/adv-vast/
 ! Good: example.org###rek; ||example.com/ads/
 ! Bad: example.org#@##banner_ad (for instance, should be in allowlist.txt or in antiadblock.txt)
 !
+! ##.banner
+sfera.fm,frankmedia.ru,cisoclub.ru,trafficcardinal.com,kursiv.media,moskvichmag.ru,netex.co.il,in-scale.ru,ukraina.ru,mipped.com,diapazon.kz,bloknot.ru##.banner
 ! `/upload/rk/` - URL and element hiding rule
 /upload/rk/*$domain=ivanovonews.ru|gorodn.ru|bits.media|devyatka.ru|gazeta-n1.ru|gorod48.ru|hi-fi.ru|innov.ru|k1news.ru|ktostroit.ru|likeni.ru|meteo-tv.ru|mos.news|newkaliningrad.ru|newsroom24.ru|nta-nn.ru|openbusiness.ru|personalaudio.ru|podrobno.uz|portamur.ru|radugaskidok.ru|rigma.info|securitylab.ru|seonews.ru|shoes-report.ru|sportfm.ru|tvcom-tv.ru|ural56.ru|vladtv.ru|wotafaq.com|ya62.ru|zebra-tv.ru|skisport.ru|marketing.by|rabochy-put.ru|vegetarian.ru|gorodarmavir.ru|estetmedicina.ru|afanasy.biz|itmed.org|actualcomment.ru|pushkino.tv|olimpfm.ru|vn.ru|buzulukinform.ru|prado-club.su|tvr.by|fomag.ru|eg-online.ru|ng58.ru|mediaryazan.ru|m-strana.ru
 ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru,innov.ru,k1news.ru,ktostroit.ru,likeni.ru,meteo-tv.ru,mos.news,newkaliningrad.ru,newsroom24.ru,nta-nn.ru,openbusiness.ru,personalaudio.ru,podrobno.uz,portamur.ru,radugaskidok.ru,rigma.info,securitylab.ru,seonews.ru,shoes-report.ru,sportfm.ru,tvcom-tv.ru,ural56.ru,vladtv.ru,wotafaq.com,ya62.ru,zebra-tv.ru,skisport.ru,marketing.by,rabochy-put.ru,vegetarian.ru,gorodarmavir.ru,estetmedicina.ru,afanasy.biz,itmed.org,actualcomment.ru,pushkino.tv,olimpfm.ru,vn.ru,buzulukinform.ru,prado-club.su,tvr.by,fomag.ru,eg-online.ru,ng58.ru,mediaryazan.ru,m-strana.ru##img[src^="/upload/rk/"]
@@ -8478,7 +8480,6 @@ igromania.ru,kanobu.ru##.ad-brending
 malfurik.online##.carou
 super.ru#?##root div[class] > div[class]:has(> div[class^="_"] > div[id^="adfox_"])
 syzran-small.ru##.bancode
-frankmedia.ru,cisoclub.ru,trafficcardinal.com,kursiv.media,moskvichmag.ru,netex.co.il,in-scale.ru,ukraina.ru,mipped.com,diapazon.kz,bloknot.ru##.banner
 vkusno.plus##.region-banner
 vkusno.plus##.region-sidebar-second
 vkusno.plus##.region-featured-bottom

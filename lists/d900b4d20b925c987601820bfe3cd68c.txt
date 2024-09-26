@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: H+gNZnymGp0rvvZ5jRjlUw
-! Diff-Path: ../patches/7/7-s-1727365045-3600.patch
+! Checksum: GCRhAIRFsW8S1VYQfslOyQ
+! Diff-Path: ../patches/7/7-s-1727368629-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.13
-! TimeUpdated: 2024-09-26T15:33:08+00:00
+! Version: 2.0.57.14
+! TimeUpdated: 2024-09-26T16:32:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1067,7 +1067,7 @@ uraaka-joshi.com##+js(addEventListener-defuser, playing, VAST_TARGET)
 ! skip ad
 collepic.net##+js(nano-setInterval-booster, .run()}, 1000)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68275
-javcup.com,yavtube.com##+js(no-setTimeout-if, getAdCookie)
+javcup.com##+js(no-setTimeout-if, getAdCookie)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133218
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114915
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111968
@@ -1726,6 +1726,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+saga-s.co.jp##.pc-top-ad-text
 ||pathee.com/mapi/jobs?
 osusume.mynavi.jp##.OSN_container
 osusume.mynavi.jp##.content_widget
@@ -5171,6 +5172,7 @@ ibarakinews.jp#?#.post-image:has(> section.clear + figcaption:contains(【AD】)
 ibarakinews.jp##.textad_box
 ibarakinews.jp##.l-ad3
 jomo-news.co.jp##.m-ad-double
+yama.minato-yamaguchi.co.jp###columnnews-container + div:not([class]) > a[style="font-size:65%;text-decoration: none;padding-left:10px;"][onclick^="gtag("]
 yama.minato-yamaguchi.co.jp##.PRBOX
 yama.minato-yamaguchi.co.jp##.texad
 yama.minato-yamaguchi.co.jp##.texmongon
@@ -6347,6 +6349,8 @@ sagatv.co.jp##table[style="border:none;text-align:center;"][width="660"]
 fpsjp.net###widget-container-footer
 climbing-net.com##.normal
 climbing-net.com##.txt-banner
+||nishinippon.co.jp/api/v2/job_offers/
+nishinippon.co.jp###jobOffer
 nishinippon.co.jp##.c-ad-side
 hokkaido-np.co.jp##.PrPr
 hokkaido-np.co.jp##.detailAdsense
@@ -7898,7 +7902,7 @@ plus-a.net,itmedia.co.jp,pasoble.jp,figsoku.net,mysqlweb.net,nlab.itmedia.co.jp,
 blog.skeg.jp##.gad-articletop
 blog.skeg.jp##.gad-sidetop
 fx-koryaku.com##.ad-single
-akabane-shinbun.com,tsusshinofudeblog.com,bigyond2.com,fx-koryaku.com##.sponsor
+4gamer.net,akabane-shinbun.com,tsusshinofudeblog.com,bigyond2.com,fx-koryaku.com##.sponsor
 fx-koryaku.com##center > a[rel="nofollow"] > img
 fx-koryaku.com##div[style*="text-align: center;"] > p[style="text-align: center;"] > strong
 fx-koryaku.com##.textwidget > center > a[target="_blank"]
@@ -8169,6 +8173,7 @@ nnn.co.jp##.txt_pr
 matomehub.jp##.adv_bottom
 ||matomedane.jp/js/right_navi/
 geek.sc##.normal-sidebar a[href^="https://www.amazon.co.jp/gp/"]
+||smart-bdash.com/reception-script/$domain=shinmai.co.jp
 shinmai.co.jp##.h-\[250px\].w-\[300px\]
 shinmai.co.jp##.max-w-\[1100px\] > div.pt-6.pb-8.border-app-text
 shinmai.co.jp##.text-app-text > div.h-\[266px\].bg-app-bg
@@ -8649,6 +8654,7 @@ cmnw.jp##.add_2
 cmnw.jp##.prtxt
 jnews1.com,cmnw.jp##.side_pr
 t-mall.kantangame.com##.adsbygoogle-noablate
+game.hiroba.dpoint.docomo.ne.jp,kantangame.com###gb_pc_banner_contents
 game.hiroba.dpoint.docomo.ne.jp,kantangame.com##.c-ad-750-100
 game.hiroba.dpoint.docomo.ne.jp,kantangame.com##.c-ad-game-footer
 game.hiroba.dpoint.docomo.ne.jp,kantangame.com##.c-game-side-menu__ad-wrap
@@ -8656,6 +8662,7 @@ t-mall.tsite.jp##.primary-content > div[class] > div#aqua + p[align="center"]
 t-mall.tsite.jp###cont01 > div.heightLine-5:has(> div#pc-tmall-gamelist-gamelist)
 t-mall.tsite.jp##.pc.game_bnr
 t-mall.tsite.jp##.sp.game_bnr
+photo-ac.com###ac-main-content > div.ac-p-2.bg-light.ac-mb-4.ac-d-lg-block
 photo-ac.com##.theme-ads-box-no-border
 javbus.com##a[target="_blank"] > img[src^="/ads/"]
 ||img-c.net^$domain=mutyun.com
@@ -8690,12 +8697,9 @@ allcinema.net###area-site-footer-ad
 allcinema.net###area-site-header-ad
 ||allcinema.net/js/min.ad.js
 ||javcup.com/pop/$popup
-||yavtube.com/pop/$popup
 javcup.com##.btn[href="/aff/chat"]
-yavtube.com##.fluid_initial_play.transform-active
 famitsu.com##.article-body__contents-pr-primary
 famitsu.com##.banner-footer-rect-container
-anonymous-post.mobi##ad.widget_custom_html
 ||popin.cc/popin_video6_ads-min.js
 syosetu.org##div[data-cptid][style]
 syosetu.org##div[style$="height:90px; width:728px;"]
@@ -8782,6 +8786,7 @@ hamusoku.com###sub div.plugin-recent_articles + div.plugin-memo
 hamusoku.com##span[style="font-size: 125%;"] > b > a[href^="https://amzn.to/"]
 gundamlog.com,kichimamasenki.com,jiji-kue.com,en.user-info.net,girlsvip-matome.com,asianoneta.blog.jp,hamusoku.com##.plugin-memo:first-child
 hamusoku.com##.topbox
+373news.com##.mns_bn_text
 373news.com###header_billboard
 373news.com##.mns_bn[style$="height:250px"]
 ||sponichi.co.jp/*_banner_new_v3.webp
@@ -8807,6 +8812,7 @@ dot.asahi.com##.a-ad
 dot.asahi.com##.g-ad-side
 ascii.jp###artAds
 ascii.jp##.pickwrap
+chunichi.co.jp##.sub-container-wrp > div.cmp-lst001 > div.l-artlst001 > ul.list > li.item[style^="min-height:9"]:has(> div[id^="div-gpt-"])
 chunichi.co.jp##.l-container-narrow
 chunichi.co.jp##.header > div.cmp-bnr001
 chunichi.co.jp##.pt-40.ta-c.cscmp-lst002
@@ -9240,6 +9246,8 @@ android-smart.com###gadgets
 android-smart.com##.pstft
 android-smart.com##div[style="margin:16px 0 0 -8px"]
 tokyomotion.net##.nva-center
+4gamer.net#$#body:not(.custom_1):not(.custom_2):not(.template_news):not([id]) { margin-top: 0 !important; background-position-y: 0% !important; }
+4gamer.net##.wide_banner
 4gamer.net##.custom_title_list_2
 4gamer.net##.g123_ranking_ad
 4gamer.net##.slidead_smartphone_top

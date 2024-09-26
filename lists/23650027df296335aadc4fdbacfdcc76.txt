@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ehdDCclGZzrcpbZAJAAP3g
-! Diff-Path: ../patches/8/8-s-1727361433-3600.patch
+! Checksum: bq4TXB89htZn+zjLbEFXEw
+! Diff-Path: ../patches/8/8-s-1727372299-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.20
-! TimeUpdated: 2024-09-26T14:33:06+00:00
+! Version: 2.0.7.22
+! TimeUpdated: 2024-09-26T17:33:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -801,7 +801,9 @@ deondernemer.nl##.\-mb-10.box-content.flex.hidden.items-center.p-4.md\:mb-0.md\:
 christelijknieuws.nl,dartfreakz.nl,thehike.nl,zozwanger.nl##.a-single
 rtveen.nl##.aas_zone
 rivierenland-radio.nl##.aba
+newsbit.nl##.acf-block-cta-conversion-rating
 autozine.nl,banden.autoweek.nl,beleggersbelangen.nl,besteproduct.nl,bright.nl,dumpert.nl,eurosport.nl,gpblog.com,hetnieuwsvandaag.be,indebuurt.nl,koopplein.nl,limburger.nl,persinfo.org,rd.nl,sport.be,tellows.nl,tradeidee.nl,tripadvisor.nl,voetbalnieuws.nl,voetbalprimeur.nl,wijlimburg.nl,xgn.nl##.ad
+crypto-insiders.nl##.ad-category
 filmtotaal.nl##.ad-centering
 babybytes.nl,bruzz.be,omroepflevoland.nl,pu.nl,sportuitslagen.org,trendalert.nl##.ad-container
 voetbal.com##.adbox
@@ -819,6 +821,7 @@ adodenhaag.nl,spelletje.nl##.adv
 nuus.be##.adv-link
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##.adv-tekst
 filmtotaal.nl,intermediair.nl##.advert
+newsbit.nl##.advert-converting-bar
 juf-milou.nl##.adverteerdersblok
 startlijstjes.nl##.advertentieblock
 autoweek.nl##.advertise
@@ -933,6 +936,7 @@ halstadcentraal.nl##.carouselbanner_left
 fonkonline.nl##.carrousel-wrapper
 motorfietsblog.nl##.cbcontent
 autoscout24.be,autoscout24.nl##.cl-billboad-wrapper
+bitcoinmagazine.nl##.clickout-relative
 rd.nl##.codalt-container
 techgaming.nl##.code-block
 bol.com##.consideration-display
@@ -979,6 +983,7 @@ motorrijder.be##.elementor-widget-container > a > img
 radiocontinu.nl##.eskimo-carousel-container
 noordkopcentraal.nl##.ewic-slider-pro-widget
 pornoplekje.nl##.exitpopup-modal-window
+crypto-insiders.nl##.exp-google-ad
 musicmeter.nl##.external
 escortgirls.be,sexguide.nl,topescort.nl##.fBanners
 fd.nl##.fd-message
@@ -1320,7 +1325,7 @@ omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-fok.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
+fok.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
@@ -1350,6 +1355,9 @@ routenet.nl##div[style*="width:730px; height:90px;"]
 waldnet.nl##div[style="clear: both; height: auto; text-align: center; padding-top: 50px; padding-bottom: 50px;"]
 waldnet.nl##div[style="height: 300px;"]
 bitcoinmagazine.nl,f1maximaal.nl,indeleiderstrui.nl##div[style="height:52px;"]
+nextplay.nl,welingelichtekringen.nl##div[style="margin-top:0px;min-height:250px"]
+nextplay.nl,welingelichtekringen.nl##div[style="margin-top:0px;min-height:252px"]
+nextplay.nl,welingelichtekringen.nl##div[style="margin-top:0px;min-height:90px"]
 voetbalrotterdam.nl##div[style="max-width: 728px; width: 100%; height: 90px;"]
 voetbalrotterdam.nl##div[style="max-width:300px; width:100%; height:250px;"]
 gamereactor.nl##div[style="min-height: 600px; margin-bottom: 20px;"]

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.4.3
+! Version: 3.8.5.0
 
 ! General
 
@@ -260,7 +260,7 @@ nrc.nl##div[id$="modal__overlay"],div.header__subscribe-bar,div.banner
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
 ||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
-||nytimes.com/graphql/v2$xmlhttprequest,~third-party
+||nytimes.com/svc/onsite-messaging/query$xmlhttprequest,~third-party
 ||mwcm.nyt.com/$script,domain=nytimes.com
 nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div#dock-container,div.pz-ad-box
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
@@ -690,6 +690,8 @@ subscriptioninsider.com##div.dialog-widget
 !#if (adguard_app_ios)
 /\.subscriptioninsider\.com\/.+\/((\w)+(\-)+){3,}/$inline-script
 !#endif
+thecore.in##+js(ra, class, div.paywall-content)
+thecore.in##div.story,div#subscription_paid_message,div#footer_login_wall
 thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container)
 ||thedriftmag.com/wp-content/plugins/drift-paywall-plugin/$script,~third-party
 thegardenisland.com##+js(ra, style, #single-paywall)

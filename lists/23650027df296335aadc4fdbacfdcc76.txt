@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ahf3/OGMscI6Isb9vzeZkA
-! Diff-Path: ../patches/8/8-s-1727386570-3600.patch
+! Checksum: xOLPqjIEsG/8wK7wKrsqWw
+! Diff-Path: ../patches/8/8-s-1727440661-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.26
-! TimeUpdated: 2024-09-26T21:32:39+00:00
+! Version: 2.0.7.27
+! TimeUpdated: 2024-09-27T12:33:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -661,6 +661,7 @@ pornoplekje.nl###exitpopup-modal
 fcupdate.nl###fcupdate\.nl_web_billboard_970x250_1
 fcupdate.nl###fcupdate\.nl_web_billboardskin_970x250
 androidplanet.nl,iphoned.nl###featured-header
+androidworld.be###fh-placeholder
 footballtransfers.com###footballtransfers\.com_ros_alpha_leaderboard-billboard
 footballtransfers.com###footballtransfers\.com_ros_bravo_rectangle-halfpage
 alkmaarguardians.nl###footer
@@ -817,7 +818,7 @@ vlaamskijken.nl,voetbalvandaag.be##.adds
 beurs.nl##.addslot
 loemedia.nl##.adlead
 westerwoldeactueel.nl##.adr-wrapper
-cinenews.be,handbal.nl,openrotterdam.nl,viamichelin.be,viamichelin.nl,vkmag.com,wegdamnieuws.nl##.ads
+cinenews.be,clint.be,handbal.nl,openrotterdam.nl,viamichelin.be,viamichelin.nl,vkmag.com,wegdamnieuws.nl##.ads
 treinreiziger.nl##.ads-adsense-treinreiziger-horizontaal
 treinreiziger.nl##.ads-adsense-treinreiziger-horizontaal-5
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
@@ -1143,6 +1144,7 @@ gamer.nl##.px-\[24px\].bg-backgroundLighter.w-full.md\:w-fit.rounded-\[8px\].md\
 simone.nl,wfm.be##.qt-sponsor
 rbsradio.be##.qt-sponsors
 nedporno.com##.r11ght-pl4yer-169
+dagelijksestandaard.nl,viraal.nl##.raw-html-component
 belegger.nl,debeurs.nl,eurobench.com##.recommendbanner
 wasmachines.nl##.rectangle
 iex.nl##.rectanglemid
@@ -1155,7 +1157,7 @@ gamer.nl##.rs-banner
 racesport.nl##.rs_sponsorbanners_widget
 motorblog.nl##.sale
 oisterwijknieuws.nl##.sam-container
-androidworld.nl,dagelijksestandaard.nl,dartsnieuws.com,f1maximaal.nl,indeleiderstrui.nl,vkmag.com##.sda
+androidworld.be,androidworld.nl,dagelijksestandaard.nl,dartfreakz.nl,dartsnieuws.com,f1maximaal.nl,indeleiderstrui.nl,vkmag.com##.sda
 scholieren.com##.searchvertorial
 dutchcowboys.nl##.section-a-dvertise
 tvgids.nl##.section-banner
@@ -1335,7 +1337,7 @@ omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-fok.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
+fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,tvblik.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]

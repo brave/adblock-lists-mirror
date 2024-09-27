@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 7GOGYHiz4PiHeBH8bdbSnw
-! Diff-Path: ../patches/7/7-s-1727426213-3600.patch
+! Checksum: WkP9MLmCqiVqEYVvdfUprA
+! Diff-Path: ../patches/7/7-s-1727429850-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.15
-! TimeUpdated: 2024-09-27T08:33:04+00:00
+! Version: 2.0.57.16
+! TimeUpdated: 2024-09-27T09:33:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1726,6 +1726,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||umanity.jp/increment_ad_show_count
 moneypost.jp##.sw-Banner
 saga-s.co.jp##.pc-top-ad-text
 ||pathee.com/mapi/jobs?
@@ -8017,7 +8018,7 @@ ryusoku.com###primary > div[style^="width:700px;"]
 pcrecommend.com,ryusoku.com##div[style^="height:250px"]
 ||chixi.jp/img.php?filename=b_
 ||pics.dmm.co.jp/digital/$domain=chat.shalove.net|urapic.com|roshutu-shuuti.net|i-bbs.sijex.net|opantsu.fun|ukemi-no-kiwami.work|m.erosoku.biz|yaruo18book.com|2ji.pink|tifer2.jp
-||chat.shalove.net/PrintAd
+/PrintAd?$domain=3751chat.com|chat.shalove.net|chat.luvul.net|skypemeet.net
 front-row.jp###floating-banner
 front-row.jp##.after-btn-fb-nice-ad-pc
 theriver.jp##.related-posts

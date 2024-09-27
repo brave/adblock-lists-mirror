@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kd656rNVNfeHzJpdkgOlww
-! Diff-Path: ../patches/8/8-s-1727444278-3600.patch
+! Checksum: DHafkbXMK8gbgzRc0+Jdnw
+! Diff-Path: ../patches/8/8-s-1727447924-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.28
-! TimeUpdated: 2024-09-27T13:33:30+00:00
+! Version: 2.0.7.29
+! TimeUpdated: 2024-09-27T14:34:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -168,7 +168,7 @@ _advertentieleaderboardhome.
 ||t.bazarow.com^$third-party
 ||traffic.12flirt.com^
 ||viralize.tv/display/$domain=startpagina.nl
-||wertuipsertj34.azurewebsites.net^$xmlhttprequest,domain=npo.nl
+||wertuipsertj34.azurewebsites.net^$xmlhttprequest
 ||widget.vpnnederland.nl^$domain=nzbserver.com
 ||widgets.skyscanner.net^$domain=puuropreis.nl
 ||windows.net/banners/$domain=agf.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
@@ -661,7 +661,7 @@ pornoplekje.nl###exitpopup-modal
 fcupdate.nl###fcupdate\.nl_web_billboard_970x250_1
 fcupdate.nl###fcupdate\.nl_web_billboardskin_970x250
 androidplanet.nl,iphoned.nl###featured-header
-androidworld.be###fh-placeholder
+androidworld.be,androidworld.nl###fh-placeholder
 footballtransfers.com###footballtransfers\.com_ros_alpha_leaderboard-billboard
 footballtransfers.com###footballtransfers\.com_ros_bravo_rectangle-halfpage
 alkmaarguardians.nl###footer
@@ -942,6 +942,7 @@ halstadcentraal.nl##.carouselbanner_left
 fonkonline.nl##.carrousel-wrapper
 motorfietsblog.nl##.cbcontent
 monitor.iex.nl##.centerbanner
+techzine.nl##.chimney
 autoscout24.be,autoscout24.nl##.cl-billboad-wrapper
 bitcoinmagazine.nl##.clickout-relative
 rd.nl##.codalt-container
@@ -1151,6 +1152,7 @@ iex.nl##.rectanglemid
 iex.nl##.rectanglewrap
 nnieuws.be##.region-banner-diamond
 halstadcentraal.nl##.respbanners
+id.nl##.richtext_richtext-cta__ldQ3j
 2dehands.be,marktplaats.nl##.right-banner-root-container
 zeelandnet.nl##.row--bnr-between
 gamer.nl##.rs-banner
@@ -1337,7 +1339,7 @@ omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,tvblik.nl,voetbal14.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class^="r89-"]
+fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,tvblik.nl,voetbal14.nl,voetbalnieuws.be,webwoordenboek.nl,whiskymonkeys.com,wielernieuws.be##div[class^="r89-"]
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]

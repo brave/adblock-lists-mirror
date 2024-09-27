@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /CLUyI10uOG/AkTXC0o5aw
-! Diff-Path: ../patches/1/1-s-1727455016-3600.patch
+! Checksum: 7AXFa/gKPbZlQZR+6DnAVQ
+! Diff-Path: ../patches/1/1-s-1727458610-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.94.16
-! TimeUpdated: 2024-09-27T16:31:10+00:00
+! Version: 2.0.94.17
+! TimeUpdated: 2024-09-27T17:31:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7697,8 +7697,6 @@ lostfilm.tv##.lstfml > a[style^="display:block;width:100%;padding-top:"]
 /\/images\/(hod|pacany)\.jpg/$domain=redheadsound.studio
 myfanstv.net,redheadsound.studio##div[class^="dle_b_"]
 5koleso.ru##.right-col:has(> div[class*="banner-"])
-ru.savefrom.net##+js(window.open-defuser)
-ru.savefrom.net##+js(set-constant, clickAds.init, noopFunc)
 /[a-z]*.world\/\d+\.js/$domain=xhdvideo.life
 360.ru##+js(remove-attr, style, article div[style*="250px"][style^="--"])
 72.ru##div[class^="draggable_"] > div[class^="wrap_"]:has(> div > a[href$="#lenta-btn"])
@@ -14987,7 +14985,7 @@ novostioede.ru##a[rel="nofolow"] > img
 062.ru##a[style*="width: 100;    height: 100"]
 post-tracker.ru##a[style*="width:500px; height:80px;"]
 loveradio.ru##a[style^="display:block;height:550px;;width:100%;"]
-rivne.media,zlatopil.com##a[target="_blank"] > img
+winrar-all.ru,rivne.media,zlatopil.com##a[target="_blank"] > img
 x-torrent.pro##a[target="_blank"] > img[alt="Скачать"]
 uhta24.ru##a[target="_blank"]:not([href^="/"]) > img[alt]
 livelib.ru##a[target="_blank"][href*="www.livelib.ru/gopromo"]

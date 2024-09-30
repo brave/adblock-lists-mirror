@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: POsamEC+ML0pisU9Y52o3A
-! Diff-Path: ../patches/7/7-s-1727699826-3600.patch
+! Checksum: zkTzI6hwz9awrwjiBe3ttA
+! Diff-Path: ../patches/7/7-s-1727703462-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.24
-! TimeUpdated: 2024-09-30T12:32:45+00:00
+! Version: 2.0.57.25
+! TimeUpdated: 2024-09-30T13:33:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2259,7 +2259,7 @@ l-o-l.net##div[class^="im-pr"]
 xvideos-dl.com##.header_link[href^="https://go.bbrdbr.com"]
 mizugigurabia.com##.widget-footer-center
 koimemo.com##.l-main__adlabel
-matome-plus.com##.amazonwrapper
+matome-plus.com,matome-plus.net##.amazonwrapper
 okbizcs.okwave.jp##.c-ad-box
 pazusoku.com##.ad-box-02
 passlotime.com,pazusoku.com##.responsibe-adsense-wrap
@@ -9090,13 +9090,14 @@ gamer.ne.jp##div[class^="adInfeed"]
 gamer.ne.jp##div[class^="adRecommend_"]
 ||blog.seesaa.jp/js/insert-ad.min.js
 ||colorfulbox.jp/common/img/bnr/$third-party
-geinoukame.com##div[style*="width: 822px;height:600px;overflow: scroll;"]
-geinoukame.com##div[style*="width:100%;height:400px;overflow:auto;"]
-taiyoukou-navi.info###main > div[id^="space"][style="text-align:center"]
+geinoukame.com###main_body > table > tbody > tr > td > center
+geinoukame.com##.menu_title:contains(/スポンサードリンク|記事|【PR】/)
+geinoukame.com##div[id^="g_floating_area"]
+geinoukame.com##div[style$="width: 625x;height:210px"]
+taiyoukou-navi.info###main > div.freespace
 cinematoday.jp###ct-ad-ydn-overlay
 cinematoday.jp##.ct-ad
 gamespark.jp###ad_above_comment_html
-matome-plus.*##.amazontotalboxtest
 news.2chblog.jp##table[height="300"][width="750"]
 kyodo.co.jp##a[href^="http://www.kyoeikasai.co.jp/"]
 /\/kyodopress_cms\/wp-content\/(themes\/kyodopress\/img_banner\/(?!bn_newspaper\.gif)|banners).*/$image,domain=kyodo.co.jp
@@ -9526,18 +9527,15 @@ mapion.co.jp#?##Main > div > div.OUTBRAIN:upward(1)
 vogue.co.jp#?#div[data-test-id="TeaserFourUpCol"] > div > div[id^="ad-"]:upward(2)
 gendai.media#?#div[style$="height: 250px;"] + div.elementSectionHeadingsWithSuffix:has(+ .OUTBRAIN)
 gendai.media#?#.blockContainer > div[id^="logly-"]:upward(1)
-seikatsu-hyakka.com#?#.widget_text script[src^="//cdn.gmossp-"]:upward(.widget_text)
-gaccom.jp#?#.mdl-card > div > ul.bukken-list:upward(2)
-gaccom.jp#?#.mdl-card > div > ul.realestate-list:upward(2)
-gaccom.jp#?#.box_top > div.box_btm > ul.bukken-list:upward(2)
-gaccom.jp#?#.box_top > div.box_btm > ul.realestate-list:upward(2)
-gaccom.jp#?#.box_top > div.box_btm > ul.recipe-side-img-area:upward(2)
-kurukura.jp#?#.ad-bnr:upward(1)
+gaccom.jp##.sub-row div.box:has(> div.content > div.juku-widget-item)
+gaccom.jp##.sub-row div.box:has(> div.content > div.widget-item p.price)
+gaccom.jp##.box_top:has(> div.box_btm > .bukken-list)
+gaccom.jp##.box_top:has(> div.box_btm > .realestate-list)
+gaccom.jp##.box_top:has(> div.box_btm > .recipe-side-img-area)
 tap-biz.jp#?#.section > div[id^="div-gpt-ad"]:upward(1)
 tap-biz.jp#?#.section > div > div[class^="col-"] > div[id^="div-gpt-ad"]:upward(3)
-diamond-rm.net#?#.rblock > div.rad:upward(1)
-diamond-rm.net#$?#div[id^="plist"] > div > div[id^="div-gpt-ad"] { remove: true; }
-gekimatosoku.com#?#.waku-zentai > div.ako1:upward(1)
+diamond-rm.net##.rblock:has(> div.rad)
+diamond-rm.net#$?#div[id^="plist"] > div:not([class]) { remove: true; }
 npodb.info#?#.text-center > small:contains(PR)
 woman.nikkei.com##.l-section > ul.p-articleList > li:has(> div[id^="div-gpt-ad"])
 stats-japan.com#?#.title_right_top:contains(SPONSORED)

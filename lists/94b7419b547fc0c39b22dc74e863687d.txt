@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 51NcT/IGe+6JEE3KLXtm+g
-! Diff-Path: ../patches/1/1-s-1727694537-3600.patch
+! Checksum: 1s+XJ0wL6eqZMIFgIPNhmw
+! Diff-Path: ../patches/1/1-s-1727703458-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.94.19
-! TimeUpdated: 2024-09-30T10:46:02+00:00
+! Version: 2.0.94.20
+! TimeUpdated: 2024-09-30T13:30:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7567,6 +7567,7 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+opennet.ru##div[style="background-color: #E9EAD6; width:100%; height: 62px;"]
 antik-forum.ru##a[href^="https://antiqueauction.ru/"] > img
 mk.ru##[class^="good-place_"]
 sravni.ru##div[class^="article_spec-wrapper"]

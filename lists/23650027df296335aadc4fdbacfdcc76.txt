@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /+J4FvH50EEVww+yUJ+cyQ
-! Diff-Path: ../patches/8/8-s-1727710654-3600.patch
+! Checksum: WtD4uVCfEO89v9FDd70rig
+! Diff-Path: ../patches/8/8-s-1727717875-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.30
-! TimeUpdated: 2024-09-30T15:33:07+00:00
+! Version: 2.0.7.32
+! TimeUpdated: 2024-09-30T17:33:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -722,7 +722,6 @@ boerderij.nl###rb_logolink_box
 fcutrecht.net###reclame
 mnm.be,stubru.be###reclameblok-wrapper
 nashvilletv.nl###ribbon
-rtlnieuws.nl###rtln-ad-advertorial
 motorfietsblog.nl###shopside
 franska.nl###shopsuiteApplication
 vagina.nl###side-fish-hooks
@@ -815,6 +814,7 @@ filmtotaal.nl##.ad-centering
 babybytes.nl,bruzz.be,omroepflevoland.nl,pu.nl,sportuitslagen.org,trendalert.nl##.ad-container
 voetbal.com##.adbox
 sozio.nl##.adchannel
+faillissementsdossier.nl##.adcontainer
 nieuwsmotor.nl##.add-background
 vlaamskijken.nl,voetbalvandaag.be##.adds
 beurs.nl##.addslot
@@ -823,6 +823,7 @@ westerwoldeactueel.nl##.adr-wrapper
 cinenews.be,clint.be,handbal.nl,openrotterdam.nl,viamichelin.be,viamichelin.nl,vkmag.com,wegdamnieuws.nl##.ads
 treinreiziger.nl##.ads-adsense-treinreiziger-horizontaal
 treinreiziger.nl##.ads-adsense-treinreiziger-horizontaal-5
+faillissementsdossier.nl##.adsbybinq
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 adodenhaag.nl,spelletje.nl##.adv
 nuus.be##.adv-link
@@ -899,7 +900,7 @@ voetbalnieuws.nl##.betting-article-insert
 vi.nl##.betting-provider-row
 bieos-omroep.nl##.bieos-widget
 autosport.nl##.bigbanner
-gamer.nl,rtlnieuws.nl##.billboard
+faillissementsdossier.nl,gamer.nl##.billboard
 iex.nl,tostrams.nl##.billboardwrap
 tostrams.nl##.billboardwrap-bottom
 iex.nl##.billboardwrapdown
@@ -996,6 +997,7 @@ pornoplekje.nl##.exitpopup-modal-window
 crypto-insiders.nl##.exp-google-ad
 musicmeter.nl##.external
 escortgirls.be,sexguide.nl,topescort.nl##.fBanners
+voetbalzone.nl##.fco-openweb-ad
 fd.nl##.fd-message
 heracles.nl##.fixed-ads
 ml5.nl##.fl-module-uabb-image-carousel
@@ -1178,7 +1180,6 @@ radiobingo.be##.single-partners
 proshop.nl##.site-background-banner
 proshop.nl##.site-home-banner
 proshop.nl##.site-top-banner
-rtlnieuws.nl##.six_articles_with_ad__ad
 geenstijl.nl##.slajeslag
 infinance.nl##.slickcarousel
 unitednews.sr##.slider-container
@@ -1449,7 +1450,6 @@ linda.nl#?#.article-row_article:-abp-has(.article-row_category.category-label_la
 mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)
 mnm.be#?#.grid-item.grid-item-pebble:-abp-has(#pebble-label:-abp-contains(Advertentie))
 nieuwsopbeeld.nl#?#.td_module_wrap:-abp-has(.td-post-category:-abp-contains(Gesponsord))
-rtlnieuws.nl#?#.autoscalable-block-wrapper:-abp-has(.entity-block-title:-abp-contains(Van onze partners))
 tijd.be#?#.o-hpgrid__row-tijdconnect:-abp-has(h2:-abp-contains(Gesponsorde inhoud))
 tostrams.nl#?#section.network:-abp-has(.contentheader.contentheader--network:-abp-contains(Gesponsorde links))
 vi.nl#?#.c-articles-list__item.c-articles-list__item--highlight:-abp-has(.c-tag.c-articles-list__label:-abp-contains(Advertorial))

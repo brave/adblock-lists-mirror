@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: WtD4uVCfEO89v9FDd70rig
-! Diff-Path: ../patches/8/8-s-1727717875-3600.patch
+! Checksum: fPcEHSrx61ZfsFfBhlUXOw
+! Diff-Path: ../patches/8/8-s-1727725075-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.32
-! TimeUpdated: 2024-09-30T17:33:43+00:00
+! Version: 2.0.7.33
+! TimeUpdated: 2024-09-30T19:33:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -259,6 +259,7 @@ _advertentieleaderboardhome.
 ||gratissextube.be/banners/
 ||greenkeeper.nl/upload/banners/
 ||greenkeeper.nl/upload/relaties/
+||groentennieuws.nl^*/banners/
 ||halstadcentraal.nl/images/banners/
 ||handbalstartpunt.nl/content/schoonkapje.gif
 ||handbalstartpunt.nl/images/mizuno-small.jpg
@@ -853,7 +854,7 @@ yachtfocus.com##.av
 salvora.nl##.avia-content-slider1
 hookers.nl##.axd-container
 stadszaken.nl##.b-side
-afkortingen.nu,agf.nl,beursduivel.be,bpnieuws.nl,dutchitchannel.nl,executive-people.nl,filmladder.nl,folderz.nl,groentennieuws.nl,ibestuur.nl,iexprofs.nl,klasse.be,metalfan.nl,nrc.nl,nu.nl,oogtv.nl,retaildetail.be,retaildetail.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be,tvgids.nl,uiennieuws.nl,uitslagen.nl,unity.nu,uw-folder.nl,waldnet.nl##.banner
+afkortingen.nu,agf.nl,beursduivel.be,bpnieuws.nl,dutchitchannel.nl,executive-people.nl,filmladder.nl,folderz.nl,ibestuur.nl,iexprofs.nl,klasse.be,metalfan.nl,nrc.nl,nu.nl,oogtv.nl,retaildetail.be,retaildetail.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be,tvgids.nl,uiennieuws.nl,uitslagen.nl,unity.nu,uw-folder.nl,waldnet.nl##.banner
 nieuwsuitnijmegen.nl##.banner-box-1
 goudengids.be##.banner-boxes
 speeleiland.nl##.banner-btf-side-rectangle
@@ -1342,7 +1343,7 @@ omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,tvblik.nl,voetbal14.nl,voetbalnieuws.be,webwoordenboek.nl,whiskymonkeys.com,wielernieuws.be##div[class^="r89-"]
+fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,skoften.net,tvblik.nl,voetbal14.nl,voetbalnieuws.be,webwoordenboek.nl,whiskymonkeys.com,wielernieuws.be##div[class^="r89-"]
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
@@ -1378,6 +1379,8 @@ nextplay.nl,welingelichtekringen.nl##div[style="margin-top:0px;min-height:252px"
 nextplay.nl,welingelichtekringen.nl##div[style="margin-top:0px;min-height:90px"]
 voetbalrotterdam.nl##div[style="max-width: 728px; width: 100%; height: 90px;"]
 voetbalrotterdam.nl##div[style="max-width:300px; width:100%; height:250px;"]
+skoften.net##div[style="min-height: 250px;"]
+skoften.net##div[style="min-height: 265px;"]
 gamereactor.nl##div[style="min-height: 600px; margin-bottom: 20px;"]
 waldnet.nl##div[style="padding-top: 30px; padding-bottom: 30px;"]
 landbouwgrond.nu##div[style="width: 100%; height: 320px;"]

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.5.0
+! Version: 3.8.5.1
 
 ! General
 
@@ -30,7 +30,7 @@
 ||js.pelcro.com^$script,third-party
 /xbuilder/experience/execute$xmlhttprequest,~third-party
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
-@@||piano.io^$domain=auto-swiat.pl|businessinsider.com.pl|forbes.pl|hbr.org|japantimes.co.jp|komputerswiat.pl|newsweek.pl|onet.pl
+@@||piano.io^$domain=asia.nikkei.com|auto-swiat.pl|businessinsider.com.pl|forbes.pl|hbr.org|japantimes.co.jp|komputerswiat.pl|newsweek.pl|onet.pl
 @@||cdn.tinypass.com/api/tinypass.min.js$script,domain=ajc.com
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
 ||api.pico.tools/popup/null/*$xmlhttprequest,~third-party

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yBEAZ9YJVKaQCeEb1Mzr2w
-! Diff-Path: ../patches/7/7-s-1727761004-3600.patch
+! Checksum: aj1teuOXJAxbicsiM/ZvaQ
+! Diff-Path: ../patches/7/7-s-1727775596-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.27
-! TimeUpdated: 2024-10-01T05:32:55+00:00
+! Version: 2.0.57.28
+! TimeUpdated: 2024-10-01T09:35:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1764,7 +1764,7 @@ korewaeroi.com##div[style*="min-height: 250px;"]
 baseball.yahoo.co.jp##a[href^="https://pacificleague.com/setup/plan"] > img
 croissant-online.jp##.single-infeed
 tsumanne.net##.thre > object[data="/imobile.php"]
-j-baseball.club##a[style^="box-sizing:border-box;"]
+j-basketball.club,j-baseball.club##a[style^="box-sizing:border-box;"]
 xn--gck1f423k.xn--1bvt37a.tools##div[class^="amazonHomeAd_"]
 xn--gck1f423k.xn--1bvt37a.tools##.fresnel-greaterThanOrEqual-maxContent
 adult-machiko.com##.entry_detail > a[onclick^="_gaq.push"] > img

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6XmniHBq3U3/DR78szTeCg
-! Version: 202410010940
+! Checksum: Hox6p+5UQyNfiZ8Sh1Y6jA
+! Version: 202410011040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-10-01 09:40 UTC
+! Last modified: 2024-10-01 10:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1635,6 +1635,7 @@ _social_footer_
 /zebra_cookie.js
 /zgdpr.min.js
 /zigcookie.js
+/zoner-cookies.js
 ://ccm.*/app.js?
 ! autoscout24
 /as24-cmp/consent-banner/*
@@ -44315,12 +44316,12 @@ marinelink.com##+js(set-cookie, GDPR, 9)
 camra.org.uk##+js(set-cookie, camra_experience_cookie_consent, 1)
 stroga-festival.de##+js(set-cookie, third-party, required, , reload, 1)
 queensfishandchipsgloucester.co.uk##+js(set-cookie, COOKIES_ACCEPTED, true)
+ieq-systems.de##+js(set-cookie, cookienotification, 1)
 startrescue.co.uk##+js(set-cookie, _cookieconsentv2, 1)
 eneba.com##+js(set-cookie, cconsent, 1)
 eltiempo.com##+js(set-cookie, cookies-info, true)
 galaxykayaks.ro##+js(set-cookie, cookies_and_content_security_policy, false)
 mywot.com##+js(set-cookie, cookies_consent_disclaimer, false)
-app.zasta.de##+js(set-cookie, CookieConsent, true)
 intramuros.org##+js(set-cookie, intramuros-cookie-consent, true)
 intramuros.org##+js(set-cookie, intramuros-analytics, false)
 nucom.odoo.dev##+js(set-cookie, website_cookies_bar, true)
@@ -44979,7 +44980,7 @@ ilarahealth.com##+js(set-cookie, cookies-accepted, true, , reload, 1)
 songtradr.com##+js(set-cookie, cpaccepted, true)
 logo.pt##+js(set-cookie, cookieMessageDismissed, 1)
 logo.pt##+js(set-cookie, LG_COOKIE_CONSENT, 0)
-flexwhere.co.uk,flexwhere.de,pricewise.nl,getunleash.io,dentmania.de,free.navalny.com,latoken.com##+js(set-cookie, CookieConsent, true)
+app.zasta.de,softlist.com.ua,flexwhere.co.uk,flexwhere.de,pricewise.nl,getunleash.io,dentmania.de,free.navalny.com,latoken.com##+js(set-cookie, CookieConsent, true)
 empathy.com,labs.epi2me.io##+js(set-cookie, CookieConsent, false)
 flexwhere.co.uk,flexwhere.de##+js(set-cookie, gatsby-plugin-google-tagmanager, false)
 waitrose.com##+js(set-cookie, wtr_cookie_consent, 1)

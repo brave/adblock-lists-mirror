@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: poluRJTL0DbTDnHzlD5q+Q
-! Diff-Path: ../patches/1/1-s-1727779028-3600.patch
+! Checksum: qoIal+GJvff+LLvX6gZ4PQ
+! Diff-Path: ../patches/1/1-s-1727782660-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.94.24
-! TimeUpdated: 2024-10-01T10:31:02+00:00
+! Version: 2.0.94.26
+! TimeUpdated: 2024-10-01T11:31:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4574,7 +4574,7 @@ reshebnik.com#@##AD_Top
 reshebnik.com#@##homead
 reshebnik.com#@##ad-lead
 ! 'flashvars.protect_block'
-smaxim.net,seksaed.com,meb.weaeko2es.com,private-records.com,ruxv3ds.com,seksoeb.com,russkoe21.com,camsclips.biz,bessporno.me,privat-zapisi.video,pornobomba.org,720video.me,720video.tv,bessporno.tv,ebalovo.*,lenkino.*,porno-tour.*,pornomoll.*,ru-xvideos.me,tolkorus.info##+js(set-constant, flashvars.protect_block, '')
+smaxim.*,seksaed.com,meb.weaeko2es.com,private-records.com,ruxv3ds.com,seksoeb.com,russkoe21.com,camsclips.biz,bessporno.me,privat-zapisi.video,pornobomba.org,720video.me,720video.tv,bessporno.tv,ebalovo.*,lenkino.*,porno-tour.*,pornomoll.*,ru-xvideos.me,tolkorus.info##+js(set-constant, flashvars.protect_block, '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73223
 pornobit.mobi##+js(no-setTimeout-if, innerText, 2000)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110698
@@ -9673,7 +9673,7 @@ vinbazar.com##.link_image
 vinbazar.com##.link_img
 gorodche.ru##.amp-more-posts
 /public/jtnews/services/auto/avito?$domain=e1.ru|ngs55.ru
-smaxim.ru,filmozavr.net##.table
+smaxim.*,filmozavr.net##.table
 ||filmozavr.com/static/js/popUpBottomCorner.js
 ||vestiprim.ru/reimg
 vestiprim.ru##.sidebar > .sidebar-module:not(.short-news)
@@ -18729,6 +18729,7 @@ player.ex.co#@##ad-container
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189257
+! TODO: remove it when the issue is fixed https://github.com/AdguardTeam/AdGuardExtra/issues/545
 ! aglint-disable-next-line
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189493
 @@||ssp.rambler.ru/capirs_async.js$domain=championat.com

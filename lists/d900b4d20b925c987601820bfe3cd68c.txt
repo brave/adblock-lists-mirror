@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kk7WO9OqECXKYBOOFNo5Hw
-! Diff-Path: ../patches/7/7-s-1727782664-3600.patch
+! Checksum: 2dVBN2brB2udBpWrFKbD/A
+! Diff-Path: ../patches/7/7-s-1727786246-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.29
-! TimeUpdated: 2024-10-01T11:33:33+00:00
+! Version: 2.0.57.30
+! TimeUpdated: 2024-10-01T12:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -82,6 +82,7 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 !
+||indexad.net^
 ||recruitbox.media.iid.jp^
 ||creative-klepon-3f0ecb.netlify.app^
 ||effulgent-stroopwafel-efb9ce.netlify.app^
@@ -1728,6 +1729,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||mxmkitchen.com/ooi_rss/bottom.js
+dorosoku.com###pcArticleAds
+hanshintigers1.blog.jp##iframe[src="http://hanshintigers1.blog.jp/rss.html"]
 getnews.jp##div[style="min-height:215px;margin:20px;"]
 matomecup.com#?##left > div.plugin1_outline:has(> div.plugin1_title:contains(ＰＲ))
 youravhost.net##div[id^="im-"]
@@ -5833,10 +5837,16 @@ excite.co.jp###ad300x250
 excite.co.jp###timesale
 excite.co.jp##.ec-ranking-article
 excite.co.jp##div[id^="exad"]
-newsoku.blog##.content_fixed_addsspot_300_600_pc
+newsoku.blog##a[href^="//ck.jp.ap.valuecommerce.com/servlet/referral"]
+newsoku.blog##div[class$="addsspot_300_600_pc"]
+newsoku.blog###simplicityclassictextwidget-29
 newsoku.blog###simplicityclassictextwidget-35
 newsoku.blog###simplicityclassictextwidget-36
 newsoku.blog###simplicityclassictextwidget-37
+newsoku.blog###simplicityclassictextwidget-38
+newsoku.blog###simplicityclassictextwidget-39
+newsoku.blog###simplicityclassictextwidget-40
+newsoku.blog###simplicityclassictextwidget-41
 newsoku.blog##div[style*="height:280px"][style*="text-align:center"]
 newsoku.blog##div[style^="width:300px;height:600px;"]
 at-s.com##.detailMainBannerGA01
@@ -10549,6 +10559,8 @@ youpouch.com##.widget_text:first-child
 /^https?:\/\/[0-9a-z]{5,10}\.duckdns/$document,domain=duckdns.org
 !
 !
+blog.livedoor.jp##div[class^="article-body"] > div[style="border-top:1px dashed #c0c0c0; margin-top:30px; padding:10px;"] ~ a[href^="http://www.amazon.co.jp/exec/"][target="_blank"][rel="nofollow"]
+blog.livedoor.jp##.plugin-memo:has(> div.side > p > a[href^="http://www.amazon.co.jp/exec/"][target="_blank"][rel="nofollow"] > img)
 blog.livedoor.jp##.kiji > .article_main > div.krb-amzlt-box
 blog.livedoor.jp##.kiji .menu_cont3[style="text-align:center"] > table[width="100%"][border=""]
 blog.livedoor.jp##.kiji .menu_title3:has(+  .menu_cont3[style="text-align:center"] > table[width="100%"][border=""])

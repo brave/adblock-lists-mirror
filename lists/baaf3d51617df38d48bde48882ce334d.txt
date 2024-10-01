@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OZgH8VsQyFGjW9SFlBDICQ
-! Version: 202410010640
+! Checksum: 9woeKm5+aWRBQacX487QCg
+! Version: 202410010740
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-10-01 06:40 UTC
+! Last modified: 2024-10-01 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4340,6 +4340,8 @@ syfy.com##body,html:style(overflow: auto !important; position: initial !importan
 ! nieuwsblad.be (newsletter overlay)
 nieuwsblad.be##.cj-root
 nieuwsblad.be##body:style(overflow: auto !important;)
+! money.com (signup nag
+money.com##+js(rc, open-pw, body, stay)
 ! oled-info.com
 oled-info.com##+js(set-cookie, awpopup_501941328, 1)
 ! .pum

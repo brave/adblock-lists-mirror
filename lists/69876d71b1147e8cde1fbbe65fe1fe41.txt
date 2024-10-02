@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0CafqOHd7GIDhddixNlc1g
-! Diff-Path: ../patches/13/13-s-1727800690-3600.patch
+! Checksum: AYI7E0dVgBI+y7xk6Yjuhg
+! Diff-Path: ../patches/13/13-s-1727858405-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.64
-! TimeUpdated: 2024-10-01T16:33:51+00:00
+! Version: 2.0.53.65
+! TimeUpdated: 2024-10-02T08:35:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1704,7 +1704,6 @@ inatflix9.xyz##.adv
 inatflix9.xyz##div[style^="bottom:0;height:50px;"]
 cumhuriyet.com.tr##.row:has(> div[class^="col-"] > div[style*="aspect-ratio"] > div[id^="div-gpt-ad"])
 cumhuriyet.com.tr##.inad-text
-cumhuriyet.com.tr##.row > div.col-xs-12:has(> div[id^="div-gpt-ad"])
 ||dizipal.vip/celta.js
 gunes.com##.row > div[class]:has(> a[href="/kobi"])
 gunes.com##.row > div[class^="col-"]:has(> div.ads-area)

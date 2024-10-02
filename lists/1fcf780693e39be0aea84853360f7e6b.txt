@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: VEgXRq3XrJbBTqqmSPhRxQ
-! Diff-Path: ../patches/224/224-s-1727847398-3600.patch
+! Checksum: dU4KNWSxxBdTspOljqMCyQ
+! Diff-Path: ../patches/224/224-s-1727851023-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.22.99
-! TimeUpdated: 2024-10-02T05:33:30+00:00
+! Version: 2.1.23.0
+! TimeUpdated: 2024-10-02T06:33:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1089,9 +1089,11 @@ wap.yushuwu.cloud##+js(noeval-if, WebSocket)
 83novel.com##.page-content > div[style]:has(> script[src="https://a.magsrv.com/ad-provider.js"])
 koc.com.tw##.single_ads
 69xx03608.xyz##.jsv-layer
-quote.eastmoney.com##.head_adbox
-quote.eastmoney.com##iframe[src^="//same.eastmoney.com/"]
-quote.eastmoney.com##iframe[src^="//fund.eastmoney.com/trade/hqb_hq.html"]
+eastmoney.com##.head_adbox
+eastmoney.com###search > .ads
+eastmoney.com##iframe[src^="//same.eastmoney.com/"]
+eastmoney.com##iframe[src*=".eastmoney.com/banner/"]
+eastmoney.com##iframe[src^="//fund.eastmoney.com/trade/hqb_hq.html"]
 today.line.me##.adModule-root
 news.owlting.com##.profit-wrapper
 news.cnyes.com##.content-main > div:empty

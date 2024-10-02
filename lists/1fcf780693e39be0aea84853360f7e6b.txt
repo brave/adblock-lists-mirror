@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: lAv+7U8WSvfPDYKGpE9Hxg
-! Diff-Path: ../patches/224/224-s-1727829395-3600.patch
+! Checksum: i5KV/Ljodk61o0jGOR3IzQ
+! Diff-Path: ../patches/224/224-s-1727836573-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.22.95
-! TimeUpdated: 2024-10-02T00:33:17+00:00
+! Version: 2.1.22.96
+! TimeUpdated: 2024-10-02T02:33:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4763,6 +4763,7 @@ newduba.cn###jq_youxi
 ||mqwtgq.xyz^
 ||vrdfxioe.icu^
 ||ceryt111.fun^
+||kloojzn.icu^
 ||ieryt111.fun^
 ||cwwgqu.xyz^
 ||ckyriuf.icu^
@@ -13393,6 +13394,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 /cuid/*$domain=colamanga.com
 ||tsdm39.com/img01/MP3/GG/
 szxx.com.cn###A0
+wenxuecity.com###gg_viewBottom
+wenxuecity.com##.sharewechat + .otherposts
 ysgc.fun,ysgc.tv##.swiper-slide > a[target="_blank"]
 ysgc.fun,ysgc.tv##.myui-panel_bd > div > a[target="_blank"]
 msn.cn##gaming-discover-strip
@@ -18897,7 +18900,7 @@ weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_auth
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(/商|上新|好物/))
 weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
-wenxuecity.com#?#div[class]:-abp-has(>.adlab_border)
+wenxuecity.com#?#div:-abp-has(>label[class^="adlab"])
 wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 x6d.com#?#li:-abp-has(>.myad)
 yahoo.com#?#.js-stream-content:-abp-has(a[href*=".promotions."])

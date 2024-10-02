@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: V5bABJCK36xxmG0Iwsyf+w
-! Diff-Path: ../patches/13/13-s-1727865447-3600.patch
+! Checksum: czyOvTmmSx5abxo/bZ7x9w
+! Diff-Path: ../patches/13/13-s-1727872892-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.66
-! TimeUpdated: 2024-10-02T10:33:31+00:00
+! Version: 2.0.53.67
+! TimeUpdated: 2024-10-02T12:36:13+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1916,7 +1916,6 @@ kocuce.com##body > center > a > img[style="max-width: 100%"]
 kocuce.com,mmotutkunlari.com##.slickModal
 mmotutkunlari.com##.arkaplan-container
 mmotutkunlari.com##.tanitim_alani
-cumhuriyet.com.tr##div[class^="col-sm-"] > div.row:has(> div > div[id^="div-gpt-ad"])
 sozcu.com.tr##._sidebar-kesfet
 /image\.fanatik\.com\.tr\/i\/fanatik\/75\/770x0\/(65aeb1ab8e04ea7f5b5e8079|65abf128ef6fdd3cbe14659e|6595061b6e3b9a5771e091b2|650e8aa980a0330f306cc17f|64c9319180a0323578c70c0e|657c5980df15856dfa0626de|65a4423ad75f861790da28ba)\.jpg/$domain=fanatik.com.tr
 fotomac.com.tr##.swiper-wrapper > div.swiper-slide:has(> a[href^="http://tinyurl.com/"])

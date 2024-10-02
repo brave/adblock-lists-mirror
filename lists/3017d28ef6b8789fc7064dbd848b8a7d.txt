@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202410022200
+! Version: 202410022245
 ! Title: EasyPrivacy
-! Last modified: 02 Oct 2024 22:00 UTC
+! Last modified: 02 Oct 2024 22:45 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -319,6 +319,7 @@
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
+/api/front/v2/observability$ping
 /api/internal/pixel?
 /api/ipv4check?
 /api/log-visit
@@ -749,6 +750,7 @@
 /dm.tlo?id=
 /dmp/pixel.js
 /dmu2panalytics/ajax_call.php?
+/dnx-event-collector/*
 /doctracking.js
 /dolWebAnalytics.js
 /dom-event-tracker.min.js
@@ -10843,6 +10845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ns.rvmkitt.com^
 ||nude.hu/html/track.js
 ||nvidia.partners/telemetry/
+||nwr.static.mmcdn.com^
 ||o.aolcdn.com/js/mg1.js
 ||observe-nexus.pointandplace.com^
 ||observer.ip-label.net^
@@ -12226,10 +12229,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||info.elba.at^$third-party
 ||insene.de/tag/$third-party
 ||iqcontentplatform.de/tracking/
+||liberty.schip.io/liberty-metrics/
 ||live.cxo.name^
 ||liveviewer.ez.no^
 ||log.worldsoft-cms.info^
 ||lr-port.de/tracker/
+||m.mobile.de/svc/track/
 ||mapandroute.de/log.xhr?
 ||marktjagd.de/proxy/trackings/
 ||mastertag.kpcustomer.de^

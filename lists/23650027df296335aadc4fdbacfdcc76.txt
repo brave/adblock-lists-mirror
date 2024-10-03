@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0k2ycAbnGXyxUh65NB4QTQ
-! Diff-Path: ../patches/8/8-s-1727897808-3600.patch
+! Checksum: Zt/w15M7SEci2guWF8Yazg
+! Diff-Path: ../patches/8/8-s-1727978856-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.37
-! TimeUpdated: 2024-10-02T19:32:56+00:00
+! Version: 2.0.7.38
+! TimeUpdated: 2024-10-03T18:01:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -947,6 +947,7 @@ volleybal.nl##.card-banner-large
 rkcwaalwijk.nl,webcam-harlingen.nl,webcam-maastricht.nl##.carousel
 halstadcentraal.nl##.carouselbanner_left
 fonkonline.nl##.carrousel-wrapper
+gva.be,hbvl.be,nieuwsblad.be,standaard.be##.cba_container_grid
 motorfietsblog.nl##.cbcontent
 monitor.iex.nl##.centerbanner
 techzine.nl##.chimney
@@ -1067,6 +1068,7 @@ gic.nl##.lead
 speeleiland.nl##.leader-below-game
 rendez-vous.be##.leaderBoard
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,pcactive.nl,psv.nl,sneeuwhoogte.nl,sport-planet.eu,sportid.be,tenniskrant.be,tradeidee.nl,voetbalkrant.com,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
+moviemeter.nl##.leaderboard-bar
 monitor.iex.nl##.leaderboard-down
 atv.be,robtv.be,tvl.be,tvoost.be##.leaderboardWrap
 blikopnieuws.nl##.ligatus-sidebar-block
@@ -1082,7 +1084,7 @@ techpulse.be##.magazine-sidebar-block
 live-voetbal.com##.match-bet
 ga-eagles.nl##.match-sponsor
 mediacourant.nl##.mc-adv
-metronieuws.nl,want.nl##.mha_container
+autovisie.nl,beautify.nl,bedrock.nl,culy.nl,famme.nl,manners.nl,metronieuws.nl,nsmbl.nl,want.nl##.mha_container
 demorgen.be,flair.nl,humo.be,libelle.nl,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.mid1-container
 mijn-tv-gids.be##.midzone
 autobahn.eu##.min-h-280.min-h-md-250
@@ -1261,6 +1263,7 @@ nnieuws.be##.view-vw-banners
 rubenweytjens.be##.view-weather-ads-view
 vi.nl##.vinl-promotionBar
 2dehands.be,marktplaats.nl##.vip-banner-top-sticky-container
+moviemeter.nl##.vod-widget-container
 wordfeudhelp.nl##.w-full.my-6.text-center.hoog
 autobahn.eu,dingenvoorvrouwen.nl,playboy.nl##.wb-label
 osuradio.nl##.wdslider
@@ -1345,7 +1348,7 @@ omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,skoften.net,tvblik.nl,voetbal14.nl,voetbalnieuws.be,webwoordenboek.nl,whiskymonkeys.com,wielernieuws.be##div[class^="r89-"]
+fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,klusidee.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,skoften.net,tvblik.nl,voetbal14.nl,voetbalnieuws.be,webwoordenboek.nl,whiskymonkeys.com,wielernieuws.be##div[class^="r89-"]
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
@@ -1455,6 +1458,7 @@ linda.nl#?#.article-column_article:-abp-has(.category-label_label:-abp-contains(
 linda.nl#?#.article-row_article:-abp-has(.article-row_category.category-label_label:-abp-contains(Advertorial))
 mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)
 mnm.be#?#.grid-item.grid-item-pebble:-abp-has(#pebble-label:-abp-contains(Advertentie))
+moviemeter.nl#?#.footer-artikelen:has(.footer-h6:-abp-contains(Partners))
 nieuwsopbeeld.nl#?#.td_module_wrap:-abp-has(.td-post-category:-abp-contains(Gesponsord))
 tijd.be#?#.o-hpgrid__row-tijdconnect:-abp-has(h2:-abp-contains(Gesponsorde inhoud))
 tostrams.nl#?#section.network:-abp-has(.contentheader.contentheader--network:-abp-contains(Gesponsorde links))

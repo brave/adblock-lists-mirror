@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: JSOczJFSgRB6ynLiLXD8Hw
-! Diff-Path: ../patches/9/9-s-1727793429-3600.patch
+! Checksum: aE13oKb3NisfoCLdAo5K2g
+! Diff-Path: ../patches/9/9-s-1727984196-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.73
-! TimeUpdated: 2024-10-01T14:33:01+00:00
+! Version: 2.0.26.74
+! TimeUpdated: 2024-10-03T19:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -268,6 +268,8 @@
 !
 !
 !
+! file4go.net (Brazilian file hoster - window.alert adblock)
+file4go.net##+js(no-xhr-if, widgets.outbrain.com)
 ! https://github.com/uBlockOrigin/uAssets/issues/24987
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesup.info|animeyabu.net|animeyabu.org|drstonebr.com|goanimes.vip|goyabu.us|meuanime.info|otakuanimess.net
 @@||popads.net/js/adblock.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesup.info|animeyabu.net|animeyabu.org|drstonebr.com|goanimes.vip|goyabu.us|meuanime.info|otakuanimess.net

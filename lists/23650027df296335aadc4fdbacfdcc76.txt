@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BO/Lb53Dvcs3aSBKYeuGlQ
-! Diff-Path: ../patches/8/8-s-1728052694-3600.patch
+! Checksum: uMa0E7uIzPSFBX84c9KVcw
+! Diff-Path: ../patches/8/8-s-1728056207-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.39
-! TimeUpdated: 2024-10-04T14:34:03+00:00
+! Version: 2.0.7.40
+! TimeUpdated: 2024-10-04T15:32:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1018,6 +1018,7 @@ handbal.be##.footer-top
 anoniem-surfen.nl##.footer-widget-1
 ajax1.nl##.footer__footer-fat
 feyenoordpings.nl,twentefans.nl##.footer__partners
+voetbalverslaafd.nl##.footer__partners-wrapper
 rtvgo.nl##.footeradd
 burggolf.nl##.footercontent
 uecl-voetbal.nl,uel-voetbal.nl##.footerderden
@@ -1039,10 +1040,12 @@ schaatsen.nl##.header-partners-logo
 wos.nl##.header-right
 anoniem-surfen.nl##.header-widget-region
 golf.be##.header__bottom
+4gamers.be##.header__combell
 ajax.nl##.header__partner-link
 eredivisie.nl##.header__top__partners
 arenalokaal.nl##.header_banner
 zeelandnet.nl##.hero-banner
+psvinside.nl##.hide-ad-small
 basketbal.vlaanderen##.holder--divider-top
 oogtv.nl##.home-banner
 funda.nl##.home-billboard
@@ -1059,6 +1062,7 @@ dansendeberen.be##.inhype-bb-block-header
 radiopros.be##.inside-left-sidebar
 dolcevia.com##.ira-container.ira-format-block > .bookingaff
 reformatorischeomroep.nl##.item-banner
+defeijenoorder.nl##.jet-banner
 beursgorilla.nl##.js--billboard
 beursgorilla.nl##.js--rect
 iex.nl##.js-banner
@@ -1278,7 +1282,7 @@ indebuurt.nl##.widget-tabs--partners
 wos.nl##.widget.rounded-lg.lg\:rounded-2xl.p-1.lg\:p-4.border.overflow-visible.lg\:w-full.lg\:max-w-\[754px\].\!mx-auto
 autoblog.nl##.widget_ab_sidebar
 nieuws.nl##.widget_add_widget
-christelijknieuws.nl,ecobioliving.eu,groningerkrant.nl,iculture.nl,klapjes.nl,nljug.org,tiener-sexverhalen.nl,transport-online.nl##.widget_custom_html
+christelijknieuws.nl,ecobioliving.eu,groningerkrant.nl,iculture.nl,klapjes.nl,nljug.org,tiener-sexverhalen.nl,transport-online.nl,visionair.nl##.widget_custom_html
 mannenstyle.nl##.widget_execphp
 riskcompliance.nl##.widget_itarget_banners
 ajaxreport.nl,feyenoordreport.nl,livestreamvandaag.be,onlinekraslotenrss.nl,psvreport.nl,voetbal4u.com,voetbalsnafu.nl##.widget_links
@@ -1349,7 +1353,7 @@ omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,klusidee.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,skoften.net,tvblik.nl,voetbal14.nl,voetbalnieuws.be,webwoordenboek.nl,whiskymonkeys.com,wielernieuws.be##div[class^="r89-"]
+ditjesendatjes.nl,fem-fem.nl,fok.nl,gloednieuw.nl,gpinfo.com,headliner.nl,klusidee.nl,looopings.nl,lovereality.nl,mannenzaken.nl,nextplay.nl,nieuws365.be,puna.nl,reality.nl,showblad.nl,showupdate.nl,skoften.net,tvblik.nl,voetbal14.nl,voetbalnieuws.be,webwoordenboek.nl,whiskymonkeys.com,wielernieuws.be##div[class^="r89-"]
 klimaatinfo.nl##div[class^="space_"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
@@ -1411,7 +1415,7 @@ prewarcar.nl##img[width="160"][height="92"]
 climaximaal.nl##img[width="200"]
 webstick.nl##img[width="220"]
 dartfreakz.nl##img[width="250"][height="250"]
-creditexpo.nl,dagbladdewest.com,dagelijksestandaard.nl,fiets.nl,luister.nl,negerin.nl,ninefornews.nl,omroeprsh.nl,ucl-voetbal.nl,unitednews.sr##img[width="300"]
+creditexpo.nl,dagbladdewest.com,dagelijksestandaard.nl,fiets.nl,luister.nl,negerin.nl,ninefornews.nl,omroeprsh.nl,psvinside.nl,ucl-voetbal.nl,unitednews.sr##img[width="300"]
 regio-voetbal.nl##img[width="300"][height="100"]
 advocatie.nl,goedkoopstekeukensduitsland.nl,lflmagazine.nl,mannennieuws.nl,streamwijzer.be,teqnation.com,thatsgaming.nl,yourlittleblackbook.me##img[width="300"][height="250"]
 ciaotutti.nl##img[width="300px"]
@@ -1461,6 +1465,7 @@ mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)
 mnm.be#?#.grid-item.grid-item-pebble:-abp-has(#pebble-label:-abp-contains(Advertentie))
 moviemeter.nl#?#.footer-artikelen:has(.footer-h6:-abp-contains(Partners))
 nieuwsopbeeld.nl#?#.td_module_wrap:-abp-has(.td-post-category:-abp-contains(Gesponsord))
+psvinside.nl#?#.td_block_template_1:has(.block-title:-abp-contains(Partners))
 tijd.be#?#.o-hpgrid__row-tijdconnect:-abp-has(h2:-abp-contains(Gesponsorde inhoud))
 tostrams.nl#?#section.network:-abp-has(.contentheader.contentheader--network:-abp-contains(Gesponsorde links))
 vi.nl#?#.c-articles-list__item.c-articles-list__item--highlight:-abp-has(.c-tag.c-articles-list__label:-abp-contains(Advertorial))

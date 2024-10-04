@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Huj6KX0/7BfpyvbNyxbBuA
-! Diff-Path: ../patches/7/7-s-1728038231-3600.patch
+! Checksum: ylH61mFe4rvjscThB6IxDg
+! Diff-Path: ../patches/7/7-s-1728041817-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.40
-! TimeUpdated: 2024-10-04T10:33:08+00:00
+! Version: 2.0.57.41
+! TimeUpdated: 2024-10-04T11:32:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1746,17 +1746,15 @@ ibarakinews.jp##.l-grid-banner
 ibarakinews.jp##div[class^="l-ad"]
 mangakl.top##.theiaStickySidebar > .ai-sticky-widget
 mangakl.top##.entry-content > div[style="text-align: center;padding: 15px 0;width: 339px;height: 286px;width: 100%;"]
-adacomi.com##body > div[style^="text-align:center;"]
+adacomi.com##div[style="text-align:center;min-height:100px;margin-bottom:20px;padding 0 20px;"]
 ||static.rtrp.jp/static/js/retrip-adspace-targeting.*.js
 ||images.j-baseball.club/banner/*.jpg
-h178.com##div[class^="substitute-area-"]
-h178.com##div[style]:has(> div[id] > script[src^="//ads.themoneytizer.com/"])
-h178.com##div[class^="col-"] > h1 ~ div[style]:has(> a[href^="https://j-"])
+h178.com##.list-group > div[style^="box-sizing:border-box;"][style*="overflow:hidden;"][style*="width:100%;"]
 okurin.bitpark.co.jp##.cap
 okurin.bitpark.co.jp##.h_cap
 okurin.bitpark.co.jp##.contents_banner_area
 okurin.bitpark.co.jp##.top_banner_area
-||dl-asset.cyberlink.com/web/stat/edms/jpn/affiliate/2023Q4/*/250x250.jpg$domain=vip-jikkyo.net
+||cyberlink.com/*/edms/jpn/affiliate/$image,third-party
 overseas.antenam.info##.header.clearfix
 blog.livedoor.jp##div[class^="article-body"] > div:not([class]):not([id]) > a[style="font-family: \"MS PGothic\";"][target="_blank"][rel="noopener sponsored"]
 ||myaf.estore.co.jp/ShopServe/$third-party
@@ -6939,7 +6937,7 @@ doujin-rpgfan.com##.AdsArea
 doujin-rpgfan.com##.AdsArea + table + table
 doujin-rpgfan.com##.right-column-inner > div.plugin-memo
 wiki.yjsnpi.nu##div[id^=im-][style="min-height: 90px; margin-bottom: 1rem;"]
-numan.tokyo,news.denfaminicogamer.jp,wiki.yjsnpi.nu##div[style$="min-height:250px;"]
+adacomi.com,numan.tokyo,news.denfaminicogamer.jp,wiki.yjsnpi.nu##div[style$="min-height:250px;"]
 oshiete-kun.net##.goods
 michaelsan.livedoor.biz##.main > div > a[style][href*="amazon.co.jp/"]
 dragonquestwalk.blog.jp##.l-sidebar-b > div.plugin-memo:last-of-type

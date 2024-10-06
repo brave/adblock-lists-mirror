@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: tNfT3181eW3g38cF8eooXw
-! Diff-Path: ../patches/7/7-s-1728207405-3600.patch
+! Checksum: wz7WTmszTouTjH0zhGKAzA
+! Diff-Path: ../patches/7/7-s-1728221815-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.46
-! TimeUpdated: 2024-10-06T09:33:08+00:00
+! Version: 2.0.57.47
+! TimeUpdated: 2024-10-06T13:33:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1744,6 +1744,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+newsphere.jp##div[style="height: 250px;"]
 minna-antenna.com##.adup
 minna-antenna.com##.addown
 mangakl.top##.theiaStickySidebar > .ai-sticky-widget
@@ -5756,7 +5757,7 @@ news.ameba.jp##div[class^="SpAd"]
 huffingtonpost.jp##.leaderboard-flex-placeholder
 macaro-ni.jp##.articleShow__nativeAd
 ox-tv.co.jp,mantan-web.jp,macaro-ni.jp##.yadsOverlay
-watch.impress.co.jp,odaibako.net,ac-illust.com,photo-ac.com,mitok.info,entamega.com,getnews.jp,webcartop.jp##div[style="min-height: 250px;"]
+newsphere.jp,watch.impress.co.jp,odaibako.net,ac-illust.com,photo-ac.com,mitok.info,entamega.com,getnews.jp,webcartop.jp##div[style="min-height: 250px;"]
 juken.oricon.co.jp,response.jp,getnews.jp,withonline.jp,jprime.jp##div[style="min-height:250px;"]
 otajo.jp##iframe[src^="https://rcm-jp.amazon.co.jp/e/cm?"]
 2chmatome2.jp###gn_overlay_wrapper

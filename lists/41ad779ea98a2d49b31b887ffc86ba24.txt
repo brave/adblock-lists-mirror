@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SS+gx2kiHE4+euFPSULowA
-! Version: 202410060940
+! Checksum: 9QvfrqAg6nmRyNjbn77zRg
+! Version: 202410061040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-10-06 09:40 UTC
+! Last modified: 2024-10-06 10:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43985,6 +43985,8 @@ uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 marinelink.com##+js(set-cookie, GDPR, 9)
 againstdata.com##+js(set-cookie, dad_consent, true)
+spuntinoheathrow.com##+js(set-cookie, essential_cookies_enabled, true)
+spuntinoheathrow.com##+js(set-cookie, google_cookies_enabled, false)
 camra.org.uk##+js(set-cookie, camra_experience_cookie_consent, 1)
 parkguellonline.cat##+js(set-cookie, valCookie1, 1)
 stroga-festival.de##+js(set-cookie, third-party, required, , reload, 1)
@@ -45303,6 +45305,10 @@ tnt.it##.cookie-message
 puravita.ch###cookie-banner-modal
 puravita.ch##.modals-overlay
 puravita.ch##body:style(overflow: auto !important; position: initial !important;)
+! dw.com
+dw.com###cmpwrapper
+dw.com##body[style="overflow: hidden;"]:style(overflow: auto !important;)
+dw.com##+js(set, Object.prototype.hasConsent, trueFunc)
 !! .CookieModal
 coiffhair.com##.CookieModal
 coiffhair.com##.CookieContainerOverlay

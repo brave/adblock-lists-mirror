@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 2FOOqCSoiRVS0QGz6tFmAw
-! Diff-Path: ../patches/8/8-s-1728319023-3600.patch
+! Checksum: GWMfUGZ8n9VT7KtoF9sDGA
+! Diff-Path: ../patches/8/8-s-1728322568-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.42
-! TimeUpdated: 2024-10-07T16:32:39+00:00
+! Version: 2.0.7.43
+! TimeUpdated: 2024-10-07T17:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -395,6 +395,7 @@ _advertentieleaderboardhome.
 ||vtm.be^*-header-$domain=koken.vtm.be
 ||waarzo.nl/imagestore/banners/
 ||waarzo.nl/imagestore/site-banners/
+||waldnet.nl/images/ac/
 ||wanttoknow.nl^*Banner
 ||watersport-tv.nl/content/31400/pages/clnt/
 ||webcam-aalsmeer.nl/media/banners/
@@ -593,7 +594,7 @@ filmtotaal.nl###adf-autonative-2
 filmtotaal.nl,lonelyplanet.nl###adf-billboard
 lonelyplanet.nl###adf-billboard-2
 filmtotaal.nl###adf-rectangle
-apintie.sr###ads
+112brabant.nl,112nederland.nl,apintie.sr,gelrenieuws.nl,noordernieuws.nl###ads
 openingstijden.com###adsense_CSA
 veto.be###advert-campaign
 rtveen.nl###advertenties
@@ -796,6 +797,7 @@ telegraaf.nl##.ComponentRotation
 iex.nl##.ContentPartner
 guruwatch.nl##.LargeRectangle
 iexgeld.nl##.LeaderboardContainer
+topgear.nl##.Pnvp__ad
 iexgeld.nl##.Rectangle
 belegger.nl,beursduivel.be,beursonline.nl,debeurs.nl,eurobench.com##.Rectangle-wrapper
 telegraaf.nl##.SectionPage__bannerWrapper
@@ -1249,6 +1251,8 @@ live-voetbal.com##.top-match
 demorgen.be,flair.nl,humo.be,libelle.nl,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.top1-container
 escortgirls.be,sexguide.nl,topescort.nl##.topBanners
 negerin.nl##.topban
+waldnet.nl##.topdesk
+waldnet.nl##.topmob
 feyenoord.nl##.totoOdds
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 computable.be,computable.nl##.true-logo

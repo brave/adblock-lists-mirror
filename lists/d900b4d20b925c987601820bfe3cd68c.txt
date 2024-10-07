@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: wz7WTmszTouTjH0zhGKAzA
-! Diff-Path: ../patches/7/7-s-1728221815-3600.patch
+! Checksum: T01Wi3mREyn8c0Csy5taXg
+! Diff-Path: ../patches/7/7-s-1728290214-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.47
-! TimeUpdated: 2024-10-06T13:33:06+00:00
+! Version: 2.0.57.48
+! TimeUpdated: 2024-10-07T08:32:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1744,6 +1744,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+city.ibaraki-koga.lg.jp##.adv-area-wrapper
+police.pref.fukuoka.jp##.bg_pattern:has(> .ad-banner-font)
+kyodemo.net##.panel div[style*="text-align:"]
 newsphere.jp##div[style="height: 250px;"]
 minna-antenna.com##.adup
 minna-antenna.com##.addown
@@ -5351,7 +5354,7 @@ ecodb.net##.hd2
 city.funabashi.lg.jp##.boxSideBnrArea
 city.nagareyama.chiba.jp,city.ichinomiya.aichi.jp,city.noda.chiba.jp,city.kawanishi.hyogo.jp,city.sagamihara.kanagawa.jp,city.suita.osaka.jp,city.zama.kanagawa.jp,city.obihiro.hokkaido.jp,city.kokubunji.tokyo.jp,city.takarazuka.hyogo.jp,city.utsunomiya.tochigi.jp,lg.jp###sadbg
 city.fujimi.saitama.jp##.container_09
-city.gamagori.lg.jp,city.sado.niigata.jp,city.daito.lg.jp,pref.kumamoto.jp,city.azumino.nagano.jp###top_kokoku
+city.bibai.hokkaido.jp,city.gamagori.lg.jp,city.sado.niigata.jp,city.daito.lg.jp,pref.kumamoto.jp,city.azumino.nagano.jp###top_kokoku
 city.chita.lg.jp###fixedAdv
 city.fuji.shizuoka.jp###containerBottom
 city.komaki.aichi.jp,city.fujieda.shizuoka.jp###kokoku-area
@@ -6251,7 +6254,7 @@ teratail.com##div[class*="_questionBottomAdArea_"]
 suki-kira.com#?#.comment-container + hr:has(+ script + ins.adsbygoogle)
 suki-kira.com##.sk-container > div#ngwordModal + div.text-xs-center
 suki-kira.com##.text-xs-center[style="min-height: 90px;width:100%;"]
-teniteo.jp,city.shinjuku.lg.jp,kodansha.co.jp,digiday.jp,whatext.com,psmk2.net,10mtv.jp##.advertisement
+city.akabira.hokkaido.jp,teniteo.jp,city.shinjuku.lg.jp,kodansha.co.jp,digiday.jp,whatext.com,psmk2.net,10mtv.jp##.advertisement
 10mtv.jp##div[style^="width:610px; height:260px"]
 corriente.top##div[style="width: 970px; margin: 0 auto 30px;"]
 e-earphone.jp##.header-area-bn

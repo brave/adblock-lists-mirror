@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: T01Wi3mREyn8c0Csy5taXg
-! Diff-Path: ../patches/7/7-s-1728290214-3600.patch
+! Checksum: qK43esxnok16xh/sucI5gA
+! Diff-Path: ../patches/7/7-s-1728301734-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.48
-! TimeUpdated: 2024-10-07T08:32:35+00:00
+! Version: 2.0.57.50
+! TimeUpdated: 2024-10-07T11:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1744,9 +1744,10 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+pref.yamaguchi.lg.jp##.footer_banner_box
 city.ibaraki-koga.lg.jp##.adv-area-wrapper
 police.pref.fukuoka.jp##.bg_pattern:has(> .ad-banner-font)
-kyodemo.net##.panel div[style*="text-align:"]
+kyodemo.net###blist > nav.panel > div[style^="border-bottom:1px solid"][style*="text-align:"]
 newsphere.jp##div[style="height: 250px;"]
 minna-antenna.com##.adup
 minna-antenna.com##.addown
@@ -3294,7 +3295,7 @@ sugutoku.tasdesign.jp##div[id^="relatedsearches"]
 sugutoku.tasdesign.jp##div[class^="ad-box-"]
 gamingdeputy.com,genshin-matomech.umadacchi.net###block-10
 ||town.hokkaido-mori.lg.jp/_files/*/banner_
-city.adachi.tokyo.jp###tmp_advertisement
+pref.osaka.lg.jp,city.adachi.tokyo.jp###tmp_advertisement
 asken.jp##aside[id^="ad_"]
 ||uma-log.net/wp-content/uploads/2023/07/app_banner_
 /wp-content/plugins/amagetti/*$script,domain=gfoodd.com|nintendoevery.com
@@ -4586,7 +4587,7 @@ okinny.heypo.net###images > div[style="text-align:center;margin-bottom:50px;"]
 okinny.heypo.net##div[style$="overflow:hidden;"] > table[width="1050"][bgcolor="#000000"]
 sportiva.shueisha.co.jp###Sportiva_pc_article_UnderTitle
 mamastar.jp##.adarea01
-city.saitama.lg.jp,city.funabashi.lg.jp##.p-topAd
+city.asahikawa.hokkaido.jp,pref.wakayama.lg.jp,city.saitama.lg.jp,city.funabashi.lg.jp##.p-topAd
 refind2ch.org##.flux_ad_overlay
 takenokosokuhou.com##.module--rss_affiliate
 vague.style##.side-column > .add-container

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qK43esxnok16xh/sucI5gA
-! Diff-Path: ../patches/7/7-s-1728301734-3600.patch
+! Checksum: um4lzh8nO8iXDOpzpg3muQ
+! Diff-Path: ../patches/7/7-s-1728304581-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.50
-! TimeUpdated: 2024-10-07T11:32:27+00:00
+! Version: 2.0.57.51
+! TimeUpdated: 2024-10-07T12:32:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1744,9 +1744,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+kyoiku.pref.ibaraki.jp###banner-area
 pref.yamaguchi.lg.jp##.footer_banner_box
 city.ibaraki-koga.lg.jp##.adv-area-wrapper
-police.pref.fukuoka.jp##.bg_pattern:has(> .ad-banner-font)
+police.pref.fukuoka.jp##.ad-banner-font
+police.pref.fukuoka.jp##.ad-small-font
 kyodemo.net###blist > nav.panel > div[style^="border-bottom:1px solid"][style*="text-align:"]
 newsphere.jp##div[style="height: 250px;"]
 minna-antenna.com##.adup
@@ -6168,7 +6170,7 @@ stockweather.co.jp###hdBnr
 stockweather.co.jp###rnvBnr
 jah.ne.jp##body > center > table[cellspacing="3"] > tbody > tr:last-child
 jah.ne.jp##table[width="145"][border="1"]
-city.urasoe.lg.jp,dabun.net,shikakude.com###advertisement
+pref.kochi.lg.jp,city.urasoe.lg.jp,dabun.net,shikakude.com###advertisement
 shikakude.com###gads
 jalan.net###btm_banner
 4travel.jp##.u_adBox

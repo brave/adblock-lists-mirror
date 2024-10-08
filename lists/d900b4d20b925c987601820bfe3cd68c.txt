@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: bzrOzC2aJtSVeUyo+5iLoQ
-! Diff-Path: ../patches/7/7-s-1728408992-3600.patch
+! Checksum: UR04l2lZo7/OBysFc3NYqA
+! Diff-Path: ../patches/7/7-s-1728423374-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.60
-! TimeUpdated: 2024-10-08T17:32:33+00:00
+! Version: 2.0.57.61
+! TimeUpdated: 2024-10-08T21:32:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2519,7 +2519,6 @@ search.yahoo.co.jp##.AdBannerCarousel
 milk-key.com##.item-list > li.item:has(> div[class^="iads_"])
 numa2.jp##.partner_button
 purple-novel.com##div[class^="iads_"]
-mangaraw.onl##.w-full.text-center.h-auto > p.p-2.text-sm.text-gray-500
 xn--icktho51ho02a0dc.com##.l-sidebar > aside[class="widget"]:has(> div.execphpwidget a[href^="https://www.sokmil.com/"][href*="affi="])
 ameblo.jp###entryBody > div:not([class]):empty ~ div:not([class]) > .pickCreative_root
 akabane-shinbun.com##.cps-post-main > p:has(> ins.adsbygoogle)

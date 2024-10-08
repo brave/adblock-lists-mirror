@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.6.0
+! Version: 3.8.6.1
 
 ! General
 
@@ -29,7 +29,7 @@
 ||js.pelcro.com^$script,third-party
 /xbuilder/experience/execute$xmlhttprequest,~third-party
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
-@@||piano.io^$domain=asia.nikkei.com|auto-swiat.pl|businessinsider.com.pl|forbes.pl|hbr.org|japantimes.co.jp|komputerswiat.pl|newsweek.pl|onet.pl
+@@||piano.io^$domain=auto-swiat.pl|businessinsider.com.pl|forbes.pl|hbr.org|japantimes.co.jp|komputerswiat.pl|newsweek.pl|onet.pl
 @@||cdn.tinypass.com/api/tinypass.min.js$script,domain=ajc.com
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
 ||api.pico.tools/popup/null/*$xmlhttprequest,~third-party
@@ -595,6 +595,8 @@ amboss.com##+js(cookie-remover, ssobma)
 amboss.com##div#optly-remaining-articles-banner,div[class^="InfoBanner_InfoBanner"]
 ||artsprofessional.co.uk/*/js/content_paywall.js$script,~third-party
 ||atribuna.com.br/assets/js-v*/story.js$script,~third-party
+babi.sh##+js(ra, style, div[style*="filter:blur"], stay)
+babi.sh##div[style="width: 100%; opacity: 1; transform: none;"]
 bisnow.com##+js(ra, style, div.story-container > p[style], stay)
 bisnow.com##div.storyLogin
 bizwest.com##div.fp-paywall

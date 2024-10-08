@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rUqF+t7XPPE8Cz/cJEGgzA
-! Diff-Path: ../patches/7/7-s-1728376608-3600.patch
+! Checksum: 0Ts9A0eeF9h+hZn7u6FGew
+! Diff-Path: ../patches/7/7-s-1728387385-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.56
-! TimeUpdated: 2024-10-08T08:32:38+00:00
+! Version: 2.0.57.57
+! TimeUpdated: 2024-10-08T11:32:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -492,8 +492,7 @@ yourfones.net##+js(spoof-css, ins.adsbygoogle, display, block)
 mytry.jp#@#.ad_box
 mytry.jp#$#body > #container { display: block !important; }
 ! anti-adb
-wiki.yjsnpi.nu#$#.ad { height: 0 !important; }
-@@||wiki.yjsnpi.nu/plugins/betube-ads/$xmlhttprequest,domain=wiki.yjsnpi.nu
+@@||wiki.yjsnpi.nu^$image,xmlhttprequest,~third-party
 @@||wiki.yjsnpi.nu^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190069
 gunauc.net##+js(no-fetch-if, pagead2.googlesyndication.com)
@@ -1745,12 +1744,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 deneblog.jp#?#.plugin1_outline:contains(スポンサーバナー)
-kahoku.news##.vr2_pickup-main
 ||kaigai-antenna.com/ads/
 kaigai-antenna.com##.posts > div[id]:not([class])
 overjoyed.info##.dfad:has(> ins.adsbygoogle)
 ||kijonotakuhaibin.com/ads/
-kijonotakuhaibin.com##div[id^="articleAd"]
+kijyomita.com,kijonotakuhaibin.com##div[id^="articleAd"]
 kyoiku.pref.ibaraki.jp###banner-area
 pref.yamaguchi.lg.jp##.footer_banner_box
 city.ibaraki-koga.lg.jp##.adv-area-wrapper
@@ -5280,7 +5278,6 @@ thetv.jp###rewardModal
 city.matsuyama.ehime.jp###lokokoku
 web.pref.hyogo.lg.jp,city.koriyama.lg.jp##.footer_banner
 ||d20aeo683mqd6t.cloudfront.net/*/banner/becos/becos-tj-banner
-deneblog.jp#?##first > div.plugin1_outline > div.plugin1_outline:contains(スポンサーバナー)
 deneblog.jp###eqlast
 deneblog.jp###shadowv
 deneblog.jp##.page_navi > center > a:not([href^="https://deneblog.jp"]):not([href^="/blog-entry-"]):not([href*="fc2.com"]) > img

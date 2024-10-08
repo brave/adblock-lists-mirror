@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Dmv2mMoytOnJAwzhvqZ61g
-! Diff-Path: ../patches/13/13-s-1728297713-3600.patch
+! Checksum: 1KMdA0VcX0vHH6SGy+6YNA
+! Diff-Path: ../patches/13/13-s-1728387381-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.70
-! TimeUpdated: 2024-10-07T10:37:32+00:00
+! Version: 2.0.53.71
+! TimeUpdated: 2024-10-08T11:32:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -332,7 +332,7 @@ iyibeslenme.net,teknop.net,kirtkirtla.com,ozgunbilgi.com##+js(set-constant, adbl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190065
 ! https://github.com/uBlockOrigin/uAssets/issues/25421
 gecmisi.com.tr##+js(no-setInterval-if, showAdBlockMessage)
-gecmisi.com.tr##+js(no-setTimeout-if, adElement.innerHTML, 1000)
+gecmisi.com.tr##+js(no-setTimeout-if, /adElement\.innerHTML|=document\[_0x/)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186286
 promy.pro##+js(set-constant, canRunAds, true)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183763

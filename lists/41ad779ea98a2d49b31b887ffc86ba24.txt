@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MUZzzP/R1KKDwZ63+vnHxg
-! Version: 202410092115
+! Checksum: IEKqXja4oU5SvqD8mIR3bg
+! Version: 202410092215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-10-09 21:15 UTC
+! Last modified: 2024-10-09 22:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -30968,8 +30968,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.mc-newsletter-alertes
 ##.mc-newsletter-image
 ##.mc-newsletter-signup
-##.mc4wp-ajax
-##.mc4wp-form
 ##.md-newsletter
 ##.memo-newsletter-widget
 ##.mf-subscribe-widget
@@ -44050,6 +44048,9 @@ weatherbug.com##+js(set-cookie, WB_CookieNotification, 1)
 saleor.io##+js(set-cookie, cookieConfirmation, true)
 publibike.ch##+js(set-cookie, gdpr2_required, true)
 publibike.ch##+js(set-cookie, gdpr2, true)
+onlinelekarna.cz##+js(set-cookie, DmCookiesAccepted, true)
+onlinelekarna.cz##+js(set-cookie, DmCookiesAnalytics, false)
+onlinelekarna.cz##+js(set-cookie, DmCookiesMarketing, false)
 makeresearchpay.com##+js(set-cookie, user_cookie_consent, false, , reload, 1)
 tandartsenpraktijk-simons.tandartsennet.nl##+js(set-cookie, cookies-marketing, N)
 bcorporation.net,knime.com##+js(set-cookie, gatsby-gdpr-google-tagmanager, false)
@@ -53853,6 +53854,7 @@ afcdp.net#@##cooky
 allocine.fr#@##didomi-host
 abc.es,as.com,auto.it,corrieredellosport.it,elcomercio.es,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@##didomi-notice
 bankinter.com#@##divCookie
+onlinelekarna.cz#@##dm-cookie-popup-container
 aireuropa.com#@##ensModalWrapper[role]
 aireuropa.com#@##ensNotifyBanner
 nocookielaw.com#@##eu-cookie-law

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: a5sIZDpegHzY/u1wZhinYg
-! Diff-Path: ../patches/9/9-s-1728408992-3600.patch
+! Checksum: foqzd+qncDyGz4oRNlInCg
+! Diff-Path: ../patches/9/9-s-1728455786-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.26.79
-! TimeUpdated: 2024-10-08T17:32:38+00:00
+! Version: 2.0.26.80
+! TimeUpdated: 2024-10-09T06:32:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1584,6 +1584,8 @@ terra.com.br##+js(adjust-setTimeout, resumeVideoFromAd, *, 0.001)
 receitasdocheff.online##+js(set-local-storage-item, last_ads, yes)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174378
 pobreflix.vc##+js(remove-attr, href, a[href]#clickfakeplayer)
+! https://github.com/AdguardTeam/AdguardFilters/issues/190509
+uol.com.br##+js(set-constant, URL_VAST_YOUTUBE, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159573
 uol.com.br##+js(set-constant, __configuredDFPTags, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171264
@@ -2224,6 +2226,7 @@ globo.com,amomeupet.org,cifras.com.br,gaz.com.br,placar.com.br,futebolinterior.c
 ! ##body .banner
 meiobit.com,brasilparalelo.com.br,tvonline.fan,laprensagrafica.com,ahoragranada.com,correio24horas.com.br,cnnespanol.cnn.com,motociclismo.es,sub100.com.br,theenemy.com.br,manhwas.net,rpp.pe,ambito.com,economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.*,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##body .banner
 !
+bandaancha.eu##.adDsBlAt
 inteh.biz##div[id^="downpart"] > #block
 lasexta.com##div[id^="taboola-container-"]
 poder360.com.br##aside > .box-advertising
@@ -5625,6 +5628,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_spanish
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190509
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189639
 poder360.com.br#@#.box-advertising
 ! https://github.com/uBlockOrigin/uAssets/issues/25051

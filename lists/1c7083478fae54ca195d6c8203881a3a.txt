@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.6.1
+! Version: 3.8.6.2
 
 ! General
 
@@ -575,6 +575,7 @@ theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
 @@||consentmanager.net$script,third-party
 #@#.cmpwrapper
 @@||sdk.privacy-center.org^$script,third-party
+@@/wrapperMessagingWithoutDetection.js$script,~third-party,domain=handelsblatt.com
 !##div#didomi-host
 ##+js(rc, didomi-popup-open, body.didomi-popup-open)
 

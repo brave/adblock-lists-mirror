@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.6.2
+! Version: 3.8.6.4
 
 ! General
 
@@ -597,6 +597,7 @@ amboss.com##div#optly-remaining-articles-banner,div[class^="InfoBanner_InfoBanne
 ||artsprofessional.co.uk/*/js/content_paywall.js$script,~third-party
 ||atribuna.com.br/assets/js-v*/story.js$script,~third-party
 babi.sh##+js(ra, style, div[style*="filter:blur"], stay)
+babi.sh##+js(ra, style, div[style*="; overflow: hidden"][style*="; height:"], stay)
 babi.sh##div[style="width: 100%; opacity: 1; transform: none;"]
 bisnow.com##+js(ra, style, div.story-container > p[style], stay)
 bisnow.com##div.storyLogin

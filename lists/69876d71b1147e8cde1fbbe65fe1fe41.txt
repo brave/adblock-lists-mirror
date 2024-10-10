@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: sGoUqcGJe0/CyIstG7i08w
-! Diff-Path: ../patches/13/13-s-1728542209-3600.patch
+! Checksum: Z8mKBdJxC2ZpILLEdLw/Og
+! Diff-Path: ../patches/13/13-s-1728560180-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.73
-! TimeUpdated: 2024-10-10T06:32:47+00:00
+! Version: 2.0.53.74
+! TimeUpdated: 2024-10-10T11:32:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1775,7 +1775,11 @@ dizikral.com#$#body > header { margin-top: 0 !important; }
 ||sinetiktok.com/supermert$script
 filmgo.org#$##video > div#videos { display: block !important; }
 filmgo.org#$#.once-reklam { display: none !important; }
-sabah.com.tr##a[href^="/finans/altin?"]
+sabah.com.tr##.currency-view
+sabah.com.tr###resmiIlanArticles
+sabah.com.tr##.topDetail > div.col-sm-12:has(> div.advert)
+sabah.com.tr###contextual > div[style*="min-height"]:has(> div[data-wbzone="native_advertorial"])
+sabah.com.tr###nativeAdvertorialZone
 sabah.com.tr##.nativeAdContent
 koctas.com.tr##.gowit
 ||assets.gowit.com/live/$domain=koctas.com.tr

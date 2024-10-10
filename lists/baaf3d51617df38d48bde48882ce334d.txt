@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Q8izfFDIiv2jZd478+7hJA
-! Version: 202410092240
+! Checksum: 1Cmr5a+FxvnLMAhaTRo6Ug
+! Version: 202410100015
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-10-09 22:40 UTC
+! Last modified: 2024-10-10 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4617,6 +4617,9 @@ magnolia.com##+js(set-local-storage-item, BRANCH_BANNER_PAGE_LOAD, 1)
 magnolia.com##+js(set-local-storage-item, EMAIL_CAPTURE_MODAL_STOP, 1)
 ! core.app (newsletter)
 core.app##+js(set-local-storage-item, show-email-intake-form, false)
+! snopes.com
+snopes.com###modal-box
+snopes.com##body:style(overflow: auto !important; position: initial !important;)
 ! interestingengineering.com
 interestingengineering.com##+js(set-local-storage-item, hasShownPopup, true)
 ! https://github.com/easylist/easylist/issues/19438

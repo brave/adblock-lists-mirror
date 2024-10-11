@@ -3384,6 +3384,7 @@ roselife.site##a[href][onclick="this.remove()"]
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189490
 uploadmall.com#@#.AdSense
+uploadmall.com#@#.advblock
 uploadmall.com##+js(set, navigator.brave, undefined)
 uploadmall.com##+js(nowoif, zigi_tag_id, 10, obj)
 @@||dcbbwymp1bhlf.cloudfront.net^$script,domain=uploadmall.com
@@ -3488,3 +3489,6 @@ vidlink.pro##+js(aopr, aclib)
 ||eyewondermedia.com^$all
 ^clickid=*&sourceid=$doc
 *$script,3p,domain=vidlink.pro
+
+! https://www.ilgazzettino.it/nordest/rovigo/rissa_minorenni_bottiglia_faccia-8407348.html - waiting time for ads
+ilgazzettino.it##+js(set, jwDefaults.advertising, {})

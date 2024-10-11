@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: s9WRlAFO5dfR+IkxSGYiSA
-! Diff-Path: ../patches/224/224-s-1728635791-3600.patch
+! Checksum: ovb2Fg98tOObo6pB9vniWw
+! Diff-Path: ../patches/224/224-s-1728639389-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.23.67
-! TimeUpdated: 2024-10-11T08:33:12+00:00
+! Version: 2.1.23.68
+! TimeUpdated: 2024-10-11T09:33:08+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -76,6 +76,24 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||666hh999gg.com^
+||776.jstatic.xyz^
+||kmqianneng66.com^
+||cg-pao-tu.nanyanglk.com^
+||cos1999.top^
+||cosmo202.top^
+||d24fnxkxwarvg8.cloudfront.net^
+||files.xtpag.top^
+||img.175532.com^
+||img.911787.com^
+||img.qxwoiv.com^
+||tu0379199038.cc^
+||n55ylc001.vip^
+||tu5551976196.cc^
+||dpjzr.top^
+||n55cpw.vip^
+||xpjcg.oss-accelerate.aliyuncs.com^
+||qxwoiv.com^
 ||krbulhb.com^
 ||wl.uqwjdhgv.top^
 ||mm.wxc.cc^
@@ -731,6 +749,9 @@ popbee.com##.adblocker
 !
 ##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
+! 91porny
+! https://github.com/AdguardTeam/AdguardFilters/issues/190664
+##header + main > div[class$=" block"][id="rd0"][data-v-app]
 !---------------------------------------------------------------------------!
 !-------------- General javascript, CSS and HTML extensions ----------------!
 !---------------------------------------------------------------------------!
@@ -1015,6 +1036,10 @@ apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
 ! Bad: .org/ads/$domain=example.org (for instance, should be in specific.txt)
 !
 !
+! 91porny
+! https://github.com/AdguardTeam/AdguardFilters/issues/190664
+/^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
+:8686/8888/*.gif$third-party,image
 ! Ads on many porn sites
 /960x60.
 /template/chiav/img/*.png

@@ -2063,13 +2063,6 @@ mrgay.*##.right
 mypapercraft.net##+js(nofab)
 mypapercraft.net##.ezoic-ad
 
-! https://github.com/uBlockOrigin/uAssets/issues/985
-sintelevisor.com,tvpor-internet.com##+js(nowebrtc)
-||livesports.pw/adblock.js$script,1p,redirect=fuckadblock.js-3.2.0
-@@||sintelevisor.com^$ghide
-||sintelevisor.com/tv/asarasa.html$frame,1p
-sintelevisor.com###floatLayer
-
 ! https://github.com/uBlockOrigin/uAssets/issues/993
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=supergames.com
 ||adservice.google.com.*/adsid/integrator.js?domain=player.tubia.com$xhr,redirect=nooptext
@@ -2763,14 +2756,6 @@ pinsystem.co.uk##+js(rmnt, script, deblocker)
 boysfood.com##+js(aopw, encodeURIComponent)
 boysfood.com###pause-container
 
-! https://github.com/uBlockOrigin/uAssets/issues/1375
-submityourflicks.com##+js(aopr, ExoLoader.serve)
-submityourflicks.com##+js(aopr, decodeURI)
-submityourflicks.com##+js(set, flashvars.adv_pause_html, '')
-submityourflicks.com##.aside
-submityourflicks.com##.spot
-||submityourflicks.com/sw.js$script,1p
-
 ! https://github.com/uBlockOrigin/uAssets/issues/1381
 sextingforum.net##+js(aopw, stagedPopUnder)
 
@@ -3342,15 +3327,6 @@ birdsandblooms.com,bombshellbling.com,dorkly.com,dryscalpgone.com,eclypsia.com,f
 thisisfutbol.com##+js(aopr, PerformanceLongTaskTiming)
 pcwelt.de##+js(aopr, proxyLocation)
 sixsistersstuff.com##+js(aopr, Int32Array)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/57638
-moondoge.co.in##+js(ra, src, iframe#claimAd)
-moondoge.co.in##iframe#claimAd:style(max-height:1px !important;max-width:1px !important)
-moondoge.co.in##div.flexContentAd, .btn-sm.btn-coin, .flexBefore, .flexAfter
-moondoge.co.in###advert-space > iframe:style(visibility: collapse !important)
-moondoge.co.in##[src^="//coinad.com/ads/"]:style(visibility: collapse !important)
-moondoge.co.in##.captchaAd:style(visibility: collapse !important)
-||localbitcoins.com^$3p
 
 ! https://github.com/NanoAdblocker/NanoFilters/commit/f711954f407c43329b5d242a7516a5a38c3bee4e#commitcomment-28218753
 revealname.com##+js(set, $.fx.off, true)

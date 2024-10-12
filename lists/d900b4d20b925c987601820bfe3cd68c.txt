@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: AOEvqQzoFlBaNKZXjNXG8A
-! Diff-Path: ../patches/7/7-s-1728736575-3600.patch
+! Checksum: yopn7d7NcVx7CG02yeyPEw
+! Diff-Path: ../patches/7/7-s-1728747375-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.71
-! TimeUpdated: 2024-10-12T12:32:35+00:00
+! Version: 2.0.57.72
+! TimeUpdated: 2024-10-12T15:32:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -494,7 +494,7 @@ yourfones.net##+js(spoof-css, ins.adsbygoogle, display, block)
 mytry.jp#@#.ad_box
 mytry.jp#$#body > #container { display: block !important; }
 ! anti-adb
-wiki.yjsnpi.nu##+js(set-constant, tamperingDetection, false)
+wiki.yjsnpi.nu##+js(abort-on-stack-trace, document.querySelectorAll, yjsnpi.js)
 @@||wiki.yjsnpi.nu^$image,xmlhttprequest,~third-party
 @@||wiki.yjsnpi.nu^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190069
@@ -4274,6 +4274,7 @@ idkeijiban.com,kakaoid.com,deai.twitterid.net,leaked.jp,2ch-c.net,the-3rd.net,ha
 kodate-ru.com,sumu-lab.com,sumu-log.com##.respnsvad
 520call.me,video.520cc.cc###inplayer
 sutekicookan.com##.e-wiki_middle_responsive_kk_conf
+||doujinnomori.com/*.php$script
 doujinnomori.com##.wrap > a.site-link-box
 ||shinshi-manga.net/ad/
 ddd-smart.net##iframe[src*="/www/delivery/"]

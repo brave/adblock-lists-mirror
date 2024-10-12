@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: lQAed2YumuXyCPtWp+A5fw
-! Diff-Path: ../patches/7/7-s-1728707765-3600.patch
+! Checksum: AOEvqQzoFlBaNKZXjNXG8A
+! Diff-Path: ../patches/7/7-s-1728736575-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.70
-! TimeUpdated: 2024-10-12T04:32:23+00:00
+! Version: 2.0.57.71
+! TimeUpdated: 2024-10-12T12:32:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -494,8 +494,7 @@ yourfones.net##+js(spoof-css, ins.adsbygoogle, display, block)
 mytry.jp#@#.ad_box
 mytry.jp#$#body > #container { display: block !important; }
 ! anti-adb
-wiki.yjsnpi.nu##+js(remove-class, mw-file-element)
-wiki.yjsnpi.nu##+js(remove-class, lazy-image-placeholder)
+wiki.yjsnpi.nu##+js(set-constant, tamperingDetection, false)
 @@||wiki.yjsnpi.nu^$image,xmlhttprequest,~third-party
 @@||wiki.yjsnpi.nu^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190069

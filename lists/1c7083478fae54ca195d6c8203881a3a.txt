@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.6.7
+! Version: 3.8.7.0
 
 ! General
 
@@ -43,10 +43,11 @@ gadget.pico.tools##+js(json-prune, locked)
 /arc/subs/p.min.js$script,~third-party
 @@/arc/subs/p.min.js$script,domain=latercera.com|nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party
+/evolok/*/ev-em.min.js$script,~third-party
+@@/evolok/*/ev-em.min.js$script,~third-party$domain=vikatan.com
 /evolok/*/ev-widgets.min.js$script,~third-party
 /paywall/evercookie_get.js$script,~third-party
 /shared-content/art/tncms/api/access.*.js$script,~third-party
-/wp-content/*/ev-em.min.js$script,~third-party
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party
 /zephr/feature$xmlhttprequest
 
@@ -249,6 +250,7 @@ loeildelaphotographie.com##+js(ra, style, img[style*="blur"])
 medscape.com##.AdUnit,div[id^="ads-"]
 mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > div.tdb-block-inner)
 ||motorsportmagazine.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
+||ev.mundodeportivo.com$xmlhttprequest,~third-party
 mv-voice.com##+js(cookie-remover, /^/)
 ||cdn.registerdisney.go.com$script,domain=nationalgeographic.com
 nautil.us##+js(cookie-remover, /^(arc|sfa)$/)

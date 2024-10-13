@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.7.0
+! Version: 3.8.7.1
 
 ! General
 
@@ -635,6 +635,8 @@ ipsoa.it##+js(ra, style, div.paywall)
 jornaljoca.com.br##+js(acis, $, paywall)
 kunststoffe.de,qz-online.de##+js(ra, style, div[style^="filter: blur"], stay)
 kunststoffe.de,qz-online.de##dialog#paywall-dialog
+||lapost.com$inline-script
+lapost.com##+js(ra, style, div.article-content, stay)
 ||lasvegasadvisor.com/opt/*.js$script,~third-party
 ||lasvegasadvisor.com/js/access.min.js$script,~third-party
 lavialibera.it##+js(ra, class, div.text-preview)

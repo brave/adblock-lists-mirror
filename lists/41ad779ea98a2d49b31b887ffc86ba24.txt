@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hWvw3rLzRz5AeRsRHMG3ig
-! Version: 202410130615
+! Checksum: 6W8RdupN1zpykNFLAk+uhg
+! Version: 202410130715
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-10-13 06:15 UTC
+! Last modified: 2024-10-13 07:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33956,6 +33956,7 @@ gettr.com##img[alt="GETTR coin"]
 ! :has
 nzherald.co.nz##.element-action-button:has-text(SHARE YOUR STORY)
 laravel-news.com##.mt-10:has-text(Laravel Jobs)
+twitter.com,x.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
 dailysignal.com#?#.tds-content > p:-abp-contains(Donate now)
 positive.news#?#.pb--medium:-abp-contains(Be part of the solution)
 propublica.org#?#.bb-aside:-abp-contains(Get in Touch)
@@ -37954,6 +37955,7 @@ adrianaallen.com##.flash-fixed-bottom
 change.org##.flash-message-announcement
 deutscheam.com,dws.com##.flash-message__wrapper
 kicker.com##.flex-container
+if.openages.com##.flex.cookie_wrap
 wiki.bedrock.dev##.float
 drivereasy.com,gatestoneinstitute.org,iobit.com##.float-bar
 reddit.watch##.float-bottom
@@ -43895,6 +43897,7 @@ billetterie.auditorium-lyon.com##+js(set-cookie, ga_consentement, 0)
 marinelink.com##+js(set-cookie, GDPR, 9)
 againstdata.com##+js(set-cookie, dad_consent, true)
 inspections.vcha.ca##+js(set-cookie, agreedToCookiesanon, 1)
+floodlit.org##+js(set-cookie, pum-937, true)
 spuntinoheathrow.com##+js(set-cookie, essential_cookies_enabled, true)
 spuntinoheathrow.com##+js(set-cookie, google_cookies_enabled, false)
 pzw.org.pl##+js(set-cookie, cookiepolicyinfo_new2, true)

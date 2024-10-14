@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: K2FSZ7UrH5aDrjHSH72Rvw
-! Diff-Path: ../patches/16/16-s-1728887778-3600.patch
+! Checksum: tvQVGk1KJ8HncfaQDsqjgw
+! Diff-Path: ../patches/16/16-s-1728902193-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.47.27
-! TimeUpdated: 2024-10-14T06:32:55+00:00
+! Version: 2.0.47.28
+! TimeUpdated: 2024-10-14T10:32:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -115,6 +115,8 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190815
+larvf.com#@#.AdsBox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188979
 sekai.one###adblock-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186309
@@ -899,6 +901,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 !
 !
 !
+larvf.com##.External.is-empty
 lexpress.mu#?#p.text-right:contains(/^Publicité$/)
 lexpress.mu#?#.place-items-center:has(> div:only-child:not([class],[id]) > p.text-right:contains(/^Publicité$/))
 lexpress.mu##.place-items-center:has(> div:only-child:not([class], [id]) > p.text-right ~ script[src^="https://adserve."])

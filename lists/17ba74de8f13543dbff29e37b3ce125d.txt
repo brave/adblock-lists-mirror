@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202410141145
+! Version: 202410141402
 ! Title: EasyList
-! Last modified: 14 Oct 2024 11:45 UTC
+! Last modified: 14 Oct 2024 14:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -52295,6 +52295,7 @@ browsershots.org#@#.advert_area
 ||46276192.xyz^$document,popup
 ||466c4d0f.xyz^$document,popup
 ||47296536.xyz^$document,popup
+||48304789.xyz^$document,popup
 ||485728.xyz^$document,popup
 ||48a16802.site^$document,popup
 ||48d8e4d6.xyz^$document,popup
@@ -60035,6 +60036,7 @@ $script,stylesheet,third-party,xmlhttprequest,domain=up-4ever.net
 $script,third-party,domain=hitomi.la|rule34hentai.net
 @@||ajax.googleapis.com^$script,domain=rule34hentai.net
 @@||cloudflare.com^$script,domain=rule34hentai.net
+@@||fluidplayer.com^$script,domain=rule34hentai.net
 ! urlcash.net
 |http://$script,xmlhttprequest,domain=urlcash.net
 |https://$script,xmlhttprequest,domain=urlcash.net

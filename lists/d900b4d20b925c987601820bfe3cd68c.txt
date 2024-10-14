@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Kcy/dmbysSbW1Je+lUkp8g
-! Diff-Path: ../patches/7/7-s-1728895000-3600.patch
+! Checksum: LE4MmoxEWKUJXKXHRbGApA
+! Diff-Path: ../patches/7/7-s-1728898580-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.57.78
-! TimeUpdated: 2024-10-14T08:32:30+00:00
+! Version: 2.0.57.79
+! TimeUpdated: 2024-10-14T09:32:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6959,6 +6959,9 @@ connpass.com##.side_ads_area
 doujin-rpgfan.com##.AdsArea
 doujin-rpgfan.com##.AdsArea + table + table
 doujin-rpgfan.com##.right-column-inner > div.plugin-memo
+wiki.yjsnpi.nu###mw-content-text > div[style^="display: flex; flex-wrap: wrap; min-height: 250px; min-width:"][style$="justify-content: center;"]
+wiki.yjsnpi.nu##.mw-parser-output > div[style="text-align: center; margin: 0.5rem 0;"]
+wiki.yjsnpi.nu##.im[style="min-height: 90px; margin-bottom: 1rem;"]
 wiki.yjsnpi.nu##div[id^=im-][style="min-height: 90px; margin-bottom: 1rem;"]
 adacomi.com,numan.tokyo,news.denfaminicogamer.jp,wiki.yjsnpi.nu##div[style$="min-height:250px;"]
 oshiete-kun.net##.goods

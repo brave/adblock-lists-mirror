@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.7.1
+! Version: 3.8.7.2
 
 ! General
 
@@ -364,7 +364,7 @@ thetimes.com##body:style(overflow: auto !important;)
 theweek.com##+js(rc, paywall-locker, div.paywall-locker)
 theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)
-/\.timeshighereducation\.com\/((books|features|news|people)\/|.+((\w)+(\-)+){3,})/$inline-script
+/\.timeshighereducation\.com\/((books|features|news|people)\/|.+(\w+-){3,})/$inline-script
 tt.com##+js(rc, exclusive-elem, .exclusive-elem)
 tt.com##div.adblock-warning
 ||tuttosport.com/_next/static/chunks/pages/news/%5B*.js$script,~third-party
@@ -500,11 +500,6 @@ bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,
 ! Motor Presse Stuttgart
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de
 
-! Nation Media Group (Kenya)
-businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz##+js(rc, nmgp, div.article-page .nmgp)
-businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz##+js(rc, hidden, div.article-page .hidden)
-businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz##div.modal,[id*='wall'],section.wall-guard,div#article-general-spinner
-
 ! New York Magazine
 curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, /nymcid$/)
 ||cloudfront.net/embed/widget/subx*.js$script,domain=curbed.com|grubstreet.com|nymag.com|thecut.com|vulture.com
@@ -545,7 +540,7 @@ beleggersbelangen.nl##+js(rc, no-account, div.no-account)
 beleggersbelangen.nl##+js(ra, style, div.content-inner[style])
 beleggersbelangen.nl##div.unlimited-access
 !#if (env_firefox)
-/\.(femmesdaujourdhui|flair|knack|levif|libelle)\.be\/.+\/((\w)+(\-)+){3,}/$inline-script
+/\.(femmesdaujourdhui|flair|knack|levif|libelle)\.be\/.+\/(\w+-){2,}/$inline-script
 !#endif
 
 ! TechTarget sites
@@ -694,7 +689,7 @@ strangematters.coop##+js(cookie-remover, pmpro_lpv_count)
 subscriptioninsider.com##+js(rc, dialog-prevent-scroll, body.dialog-prevent-scroll, stay)
 subscriptioninsider.com##div.dialog-widget
 !#if (adguard_app_ios)
-/\.subscriptioninsider\.com\/.+\/((\w)+(\-)+){3,}/$inline-script
+/\.subscriptioninsider\.com\/.+\/(\w+-){3,}/$inline-script
 !#endif
 thecore.in##+js(ra, class, div.paywall-content)
 thecore.in##div.story,div#subscription_paid_message,div#footer_login_wall

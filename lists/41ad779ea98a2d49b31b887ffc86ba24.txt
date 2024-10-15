@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: degpz8CqDpRc/r0hqHNULw
-! Version: 202410150740
+! Checksum: jXLL57Jeb0YpNVRqPMBfpw
+! Version: 202410150840
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-10-15 07:40 UTC
+! Last modified: 2024-10-15 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34943,6 +34943,7 @@ san.com##.wp-block-san-app-download
 bisnis.com##.wrapper__ads-download
 oculus.com##.xz9dl7a.x83z2og.x12qgom3
 tumblr.com##.y8Hml
+startpage.com##[aria-label^="app"]
 i.redd.it,reddit.com##[bundlename="bottom_bar_xpromo"]
 travala.com##[class*="BannerApp_container"]
 qwant.com##[class*="DownloadQwantApp-module_"]
@@ -34992,6 +34993,7 @@ reddit.com##xpromo-top-button
 ! :has
 gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
 m.iyf.tv##.container:has(> div.download-title)
+mail.proton.me##[aria-label="Notification"]:has-text(app)
 abc.net.au#?#[data-component="RelatedCard"]:-abp-contains(Stream your favourite shows)
 linkedin.com#?#div#public_post_contextual-sign-in:-abp-contains(Sign in to view more content)
 thepointsguy.com#?#.noVerticalPad:-abp-contains(Download the TPG App)

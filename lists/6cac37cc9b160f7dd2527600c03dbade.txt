@@ -3554,3 +3554,10 @@ nexdrive.*##.code-block
 ||wetnesstommer.com^
 ||demowebcode.online^$all
 ||t.co^$frame,3p,domain=uqozy.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/25679
+stream4free.*##+js(aeld, load, nextFunction)
+stream4free.*###promo
+||stream4free.tv/*.php^$frame,1p
+||shebudriftaiter.net^
+||audiencegarret.com^

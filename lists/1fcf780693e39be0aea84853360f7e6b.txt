@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mjW+OYNk/813gbNOVBfePw
-! Diff-Path: ../patches/224/224-s-1729082241-3600.patch
+! Checksum: 60LtNv0zQIH0Z8GG2fBTEQ
+! Diff-Path: ../patches/224/224-s-1729085868-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.23.92
-! TimeUpdated: 2024-10-16T12:33:54+00:00
+! Version: 2.1.23.93
+! TimeUpdated: 2024-10-16T13:33:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13600,6 +13600,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||mydyxs.com/mpc/
 szxx.com.cn###A0
+vidhub.me,vidhub.tv##.promotelink
 6parknews.com##div[style="width:990px;height:140px;margin-left:auto;margin-right:auto;text-align:center;"]
 element-plus.org##.page-sidebar-top
 wenxuecity.com##div[id*="gg_"]

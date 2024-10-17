@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.8.0
+! Version: 3.8.8.1
 
 ! General
 
@@ -367,8 +367,6 @@ thewrap.com##+js(cookie-remover, blaize_session)
 /\.timeshighereducation\.com\/((books|features|news|people)\/|.+(\w+-){3,})/$inline-script
 tt.com##+js(rc, exclusive-elem, .exclusive-elem)
 tt.com##div.adblock-warning
-||tuttosport.com/_next/static/chunks/pages/news/%5B*.js$script,~third-party
-tuttosport.com##div[class^="AdUnit_"]
 unherd.com##+js(ra, id, div#premiumcontent)
 unherd.com##div#premiumpreview
 /\.vn\.at\/.+\/\d{4}\//$inline-script

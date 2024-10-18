@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mdJqD3pfh3CzbsGLTUmMmQ
-! Diff-Path: ../patches/16/16-s-1729258622-3600.patch
+! Checksum: YpC3glm/UdwmE0ohurqHbA
+! Diff-Path: ../patches/16/16-s-1729269439-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.47.40
-! TimeUpdated: 2024-10-18T13:33:33+00:00
+! Version: 2.0.47.41
+! TimeUpdated: 2024-10-18T16:33:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -115,6 +115,8 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/191116
+||minenode.fr/dashboard/function/js/AzurHOSTS/pubs.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191055
 marieclaire.fr#@#.AdsBox
 marieclaire.fr#$#body { overflow: auto !important; }

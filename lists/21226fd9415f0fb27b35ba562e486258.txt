@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: aJIOwou3AXZfGBpZESY07Q
+! Checksum: QOhmn56czfa7da7DyqOhtg
 ! Title: Easylist Cookie List
-! Updated: 2024-10-18 07:40 UTC
+! Updated: 2024-10-18 08:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23492,6 +23492,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
 mobilefuse.com##+js(set-local-storage-item, cookies_policy_acceptance, denied)
+safe.global##+js(set-local-storage-item, SAFE__analyticsPreference, false)
 data.carbonmapper.org##+js(set-local-storage-item, termsOfUseAccepted, true)
 avica.link##+js(set-local-storage-item, agreeCookie, true)
 madeiramadeira.com.br##+js(set-local-storage-item, lgpd-agree, 1)

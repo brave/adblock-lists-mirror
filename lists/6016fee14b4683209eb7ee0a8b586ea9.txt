@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: a68gzNXqyh7EcWTA04rAnA
-! Diff-Path: ../patches/16/16-s-1729186593-3600.patch
+! Checksum: DX1b1iYLyiFRVu67dGsYOQ
+! Diff-Path: ../patches/16/16-s-1729233429-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.47.38
-! TimeUpdated: 2024-10-17T17:33:18+00:00
+! Version: 2.0.47.39
+! TimeUpdated: 2024-10-18T06:33:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -115,6 +115,12 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/191055
+marieclaire.fr#@#.AdsBox
+marieclaire.fr#$#body { overflow: auto !important; }
+marieclaire.fr#$##overlay { display: none !important; }
+marieclaire.fr#$?#.qiota_onboard:has(> div.AdBlockModal) { display: none !important; }
+||static.qiota.com/assets/getQiota.js$domain=marieclaire.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190815
 larvf.com#@#.AdsBox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188979
@@ -662,6 +668,9 @@ $script,redirect-rule=noop.js,domain=tf1info.fr
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/191055
+! Fix video player loading delay
+marieclaire.fr##+js(adjust-setTimeout, /userConsentProcess|this===/, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186121
 1jour1film.cyou##+js(remove-attr, href, a[href]#clickfakeplayer)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181954
@@ -901,6 +910,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 !
 !
 !
+marieclaire.fr##.External:has(> .googleAd:only-child)
 larvf.com##.External.is-empty
 lexpress.mu#?#p.text-right:contains(/^Publicité$/)
 lexpress.mu#?#.place-items-center:has(> div:only-child:not([class],[id]) > p.text-right:contains(/^Publicité$/))

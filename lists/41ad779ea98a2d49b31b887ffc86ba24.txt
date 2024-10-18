@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oEctqD3jq1mGDFdvI0oaNw
-! Version: 202410180140
+! Checksum: fMqVK08qVWOnRyTTXn5isA
+! Version: 202410180240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-10-18 01:40 UTC
+! Last modified: 2024-10-18 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34190,7 +34190,7 @@ delanceyplace.com###nekoToTop
 kohls.com,samsclub.com###oo_tab
 kyodo.co.jp###page-top
 macromill.com,mhi.com,smth.jp###pageTop
-census.gov,chugai-pharm.co.jp,nyk.com###pagetop
+census.gov,chugai-pharm.co.jp,daiichi-kamotsu.co.jp,nhk.or.jp,nyk.com,webtsc.com###pagetop
 bingplaces.com###pagination_Arrow
 nouvelles.umontreal.ca###retour-haut
 accessoires-asus.com###retourHaut
@@ -43325,6 +43325,8 @@ m.investing.com##.withAppBanner:style(top:0 !important)
 ! newsbreak.com
 newsbreak.com##.bottom-0.fixed
 newsbreak.com##body:style(height: auto !important; overflow: auto !important)
+! hide language popup
+s.tabelog.com##+js(set-cookie, ignore_language_guide, true)
 ! deribit.com
 deribit.com##+js(set-local-storage-item, appCardSeen, true)
 ! vrbo.com
@@ -48840,7 +48842,6 @@ kotobank.jp###myPaymentModal
 280blocker.net,biglobe.ne.jp###page-top
 tabelog.com###page-up
 radionikkei.jp###page_top
-daiichi-kamotsu.co.jp,nhk.or.jp,webtsc.com###pagetop
 yahoo.co.jp###pg_top
 sofmap.com###remote_cs
 ec-store.net###rt\.popup-overlay_rt_popup_sws

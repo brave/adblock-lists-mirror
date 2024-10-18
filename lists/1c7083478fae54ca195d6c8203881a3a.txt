@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.8.8.1
+! Version: 3.8.8.2
 
 ! General
 
@@ -481,7 +481,7 @@ dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeit
 ||loader.masthead.me^$script,domain=centralmaine.com|pressherald.com|sunjournal.com
 
 ! McClatchy Group
-||mcclatchy.com/mcc-paywall.js$script,third-party
+||mcclatchy.com/mcc-paywall-new.js$script,third-party
 
 ! Mediahuis Belgie & Limburger.nl
 /extra/assets/resources/js/zephrIntegration.js$script,~third-party,domain=gva.be|hbvl.be|nieuwsblad.be|standaard.be|limburger.nl

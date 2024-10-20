@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: k8De9AIPBHmW5Pujtcpdgg
-! Diff-Path: ../patches/7/7-s-1729417004-3600.patch
+! Checksum: l0kfHsgB4fe0XftVdWDJEg
+! Diff-Path: ../patches/7/7-s-1729435019-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.58.8
-! TimeUpdated: 2024-10-20T09:33:01+00:00
+! Version: 2.0.58.9
+! TimeUpdated: 2024-10-20T14:33:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -494,10 +494,7 @@ yourfones.net##+js(spoof-css, ins.adsbygoogle, display, block)
 mytry.jp#@#.ad_box
 mytry.jp#$#body > #container { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190943
-wiki.yjsnpi.nu##+js(set-constant, _0x89427a, noopFunc)
 $subdocument,redirect-rule=noop.html,domain=wiki.yjsnpi.nu
-wiki.yjsnpi.nu##+js(set-constant, DOMTokenList.prototype.remove, noopFunc)
-wiki.yjsnpi.nu##+js(set-constant, HTMLElement.prototype.remove, noopFunc)
 wiki.yjsnpi.nu#$#body img, body .Inmbox, body .lazy-image-placeholder { width: auto !important; height: auto !important; opacity: 1 !important; visibility: visible !important; display: block !important; color: unset !important; background: none !important; }
 wiki.yjsnpi.nu#$##comments-loading { display: none !important; }
 @@||wiki.yjsnpi.nu^$image,xmlhttprequest,~third-party

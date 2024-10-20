@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: i7f2d0CffDQ4YufRrKziRA
-! Diff-Path: ../patches/13/13-s-1729265817-3600.patch
+! Checksum: oj8D0OoWkAfl2U6G+SjMJw
+! Diff-Path: ../patches/13/13-s-1729413352-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.53.82
-! TimeUpdated: 2024-10-18T15:32:59+00:00
+! Version: 2.0.53.83
+! TimeUpdated: 2024-10-20T08:32:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1664,6 +1664,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 /service/advertchannels?$xmlhttprequest,redirect=noop.txt,domain=mardinhaber.com.tr|gidahatti.com|bolugundem.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+gecmisi.com.tr##div[id^="aswift_"]
 hangikredi.com###__next > div.relative:has(> a[href^="https://8fl2.tr.adj.st/"])
 diyetkolik.com##div[style^="min-height:100px;"]
 fullindirsene.net##a[href^="https://kingads2.org/"]

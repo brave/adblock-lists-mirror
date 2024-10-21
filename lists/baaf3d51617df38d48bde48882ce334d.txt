@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Eqt17DfkR3jeP+SJ0otGuQ
-! Version: 202410210940
+! Checksum: GOd7sEJF9GRqhNApfGDi9Q
+! Version: 202410211140
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-10-21 09:40 UTC
+! Last modified: 2024-10-21 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3514,13 +3514,14 @@ extremetech.com##section > .mt-8
 christianpost.com##section[class^="inline-newsletter"]
 regain.us##section[data-testid="newsletter-section"]
 ! specific
-theverge.com##.duet--cta--newsletter
+polygon.com,theverge.com##.duet--cta--newsletter
 ! theprovince.com/winnipegsun.com/canoe.com/o.canada.com/financialpost.com/nationalpost.com
 ##.newsletter-widget__new-story-page
 ! :has
 businesstimes.com.sg##.border-gray-175:has-text(BT in your inbox)
 calgaryherald.com,edmontonjournal.com,montrealgazette.com,ottawacitizen.com,thestarphoenix.com##.callout:has-text(inbox)
 interestingengineering.com##.t-bg-surface-zero.t-p-6:has-text(Newsletter)
+polygon.com##[class]:has(> .duet--cta--newsletter)
 advancedsciencenews.com#?#.et_pb_row_1_tb_body:-abp-contains(Sign up for our weekly newsletter)
 advancedsciencenews.com#?#.et_pb_section:-abp-contains(Sign up for our weekly newsletter)
 babylonbee.com#?#.bg-gray-50:-abp-contains(Fake news)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z390XB2mzs8luUYlZ7WIpg
-! Version: 202410221540
+! Checksum: c6REbg6KGHzWKdsusFKGHw
+! Version: 202410221615
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-10-22 15:40 UTC
+! Last modified: 2024-10-22 16:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -45777,8 +45777,9 @@ bionic.co.uk##body,html:style(overflow: auto !important; position: initial !impo
 ! sogeti.
 sogeti.ie,sogeti.de,sogeti.fi,sogeti.be,sogeti.lu,sogeti.no,sogeti.es,sogeti.se,sogeti.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! nytimes.com
-! nytimes.com###complianceOverlay
-! nytimes.com##body:style(overflow: auto !important;)
+! nytimes.com###complianceOverlay:remove()
+!nytimes.com##+js(rc, fides-no-scroll, div, stay)
+!nytimes.com##body:style(overflow: auto !important;)
 ! raja
 raja.fr,rajapack.at,rajapack.be,rajarani.de,rajapack.co.uk,rajapack.cz,rajapack.de,rajapack.dk,rajapack.es,rajapack.hu,rajapack.it,rajapack.nl,rajapack.no,rajapack.pl,rajapack.pt,rajapack.se,rajapack.sk##.js-otsdk
 raja.fr,rajapack.at,rajapack.be,rajarani.de,rajapack.co.uk,rajapack.cz,rajapack.de,rajapack.dk,rajapack.es,rajapack.hu,rajapack.it,rajapack.nl,rajapack.no,rajapack.pl,rajapack.pt,rajapack.se,rajapack.sk##body,html:style(overflow: auto !important; position: initial !important;)

@@ -476,7 +476,7 @@ ozon.ru##div[data-widget="banner"]:matches-path(/my/reviews/promo):style(display
 pronpic.org##div[style="color:red;font-size:25px;"], .adblock_loock
 fanserial.fun,fanserialstv.net,hdrezka.*,rezka.*##+js(set-constant, Object.prototype.preroll, undefined)
 hdrezka.*,rezka.*##+js(abort-current-inline-script, document.getElementsByTagName, AMSP.loadAsset)
-howdyho.*##+js(no-setInterval-if, 1e3)
+howdyho.*##+js(no-setInterval-if, 'height()')
 howdyho.*##+js(set-attr, #progress-value, data-timer, 16)
 dzen.ru##iframe[style^="position:"][style*="absolute"][srcdoc]:remove()
 m.rp5.*#@#.adsbygoogle
@@ -586,6 +586,7 @@ e.mail.ru##body:not(#id) > div[style="position: absolute; visibility: hidden; to
 ! newapp
 e.mail.ru,octavius.mail.ru##+js(addEventListener-defuser, /click|destroy|mousedown/, , elements, .html-fishing)
 e.mail.ru,octavius.mail.ru##+js(href-sanitizer, [data-cke-saved-href^="https://checklink.mail.ru/proxy?"])
+e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, MIMIC_FORCE)
 e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, _runBatch, 100)
 e.mail.ru,octavius.mail.ru##+js(set-constant, Object.prototype.hasAdBlock, null)
 e.mail.ru,octavius.mail.ru##body > div > .letter-list-item-adv:style(display: block !important)

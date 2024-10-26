@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 593341Vn32aNyRqqldVNTg
-! Version: 202410262140
+! Checksum: e7RbynxHU+UvQxafmzq+MA
+! Version: 202410262240
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-10-26 21:40 UTC
+! Last modified: 2024-10-26 22:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3529,8 +3529,10 @@ polygon.com,theverge.com##.duet--cta--newsletter
 ! theprovince.com/winnipegsun.com/canoe.com/o.canada.com/financialpost.com/nationalpost.com
 ##.newsletter-widget__new-story-page
 ! :has
+foxnews.com##.advanced.embed-media:has-text(Get a daily look)
 businesstimes.com.sg##.border-gray-175:has-text(BT in your inbox)
 calgaryherald.com,edmontonjournal.com,montrealgazette.com,ottawacitizen.com,thestarphoenix.com##.callout:has-text(inbox)
+cjr.org##.row > .entry-content > p:has-text(daily newsletter)
 interestingengineering.com##.t-bg-surface-zero.t-p-6:has-text(Newsletter)
 polygon.com##[class]:has(> .duet--cta--newsletter)
 advancedsciencenews.com#?#.et_pb_row_1_tb_body:-abp-contains(Sign up for our weekly newsletter)

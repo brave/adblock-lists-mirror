@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.0.1
+! Version: 3.9.0.2
 
 ! General
 
@@ -20,8 +20,7 @@
 ||evolok.net^$third-party
 ||fewcents.co/*/paywall*.js$script,third-party
 ||hadrianpaywall.com^$third-party
-||ippen.space^$third-party
-/sub/js/pc-offer-west.js$script,~third-party
+.de/sub/js/pc-offer-west.js$script,~third-party
 ||js.matheranalytics.com^$script,third-party
 ||newsmemory.com?meter$third-party
 ||olytics.omeda.com^$third-party

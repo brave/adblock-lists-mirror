@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.0.2
+! Version: 3.9.0.3
 
 ! General
 
@@ -68,7 +68,7 @@ asia.nikkei.com##+js(rc, tp-modal-open, body.tp-modal-open, stay)
 magazine.atavist.com##+js(set-local-storage-item, /^/, $remove$)
 ||tonos.gjirafa.tech/init/access$xmlhttprequest,domain=atlantico.fr
 ||automobilwoche.de/sites/camw/files/js/js_-YBiL*.js$script,~third-party
-axios.com##div[data-cy="pro-paywall"],div[class^="Modal_paywallContainer"]
+axios.com##div[data-cy="pro-paywall"],div[class^="Modal_"]
 axios.com##+js(ra, style, html[style], stay)
 bizjournals.com##+js(ra, style, article div[style="display: none;"], stay)
 bizjournals.com##+js(ra, style, .paywalled-content[style], stay)

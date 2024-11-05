@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.1.0
+! Version: 3.9.1.1
 
 ! General
 
@@ -700,6 +700,8 @@ solarserver.de##div.paywall-box
 stockunlock.com##div[class*="-root"][class*="css-"]:style(filter: none !important; pointer-events: auto !important)
 stockunlock.com##div.css-coxdc8
 ||thenationalpulse.com/wp-content/*/assets/js/national-pulse.js$script,~third-party
+||thetablet.org$inline-script
+thetablet.org##+js(rc, gated-content, body.gated-content)
 tidningenridsport.se##+js(ra, class|style, div.mctos)
 tidningenridsport.se##+js(rc, cli-barmodal-open, body.cli-barmodal-open)
 tidningenridsport.se##div.locked

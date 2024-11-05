@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M+8pLw75Etf5hmZpXE6jwQ
-! Version: 202411051040
+! Checksum: MHCul52DUL49RbrMN8R/LA
+! Version: 202411051140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-11-05 10:40 UTC
+! Last modified: 2024-11-05 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31901,6 +31901,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||channel.io/plugin/$media
 ||chat.octadesk.services/embed/static/media/$media
 ||chatango.com/pcache/sounds/
+||chatbot.denizbank.com/Content/media/$media
 ||chatplus.jp/app/s/sound/
 ||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
@@ -36332,9 +36333,9 @@ jagranjosh.com##ul[class^="Details_Social_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 !! :has
 ruwix.com##.widget-title:has-text(Share this page!)
-neon.tech#?#.justify-between.items-center:-adp-contains(Share:)
-newskarnataka.com#?#.elementor-button-wrapper:-adp-contains(Social Media)
-newsroom.ucla.edu#?#.promo-card-muted:-adp-contains(RSS feed)
+neon.tech#?#.justify-between.items-center:-abp-contains(Share:)
+newskarnataka.com#?#.elementor-button-wrapper:-abp-contains(Social Media)
+newsroom.ucla.edu#?#.promo-card-muted:-abp-contains(RSS feed)
 openculture.com#?#.execphpwidget:-abp-contains(FREE UPDATES!)
 !! .social-sharing
 byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,malaymail.com,maxabout.com,ncbi.nlm.nih.gov,news24.com,nu.nl,politico.eu,thepostmillennial.com##.social-sharing
@@ -39124,7 +39125,7 @@ roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,r
 !! .adn-message
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
 !! __tealiumGDPRcpPrefs
-comparethemarket.com###__tealiumGDPRcpPrefs
+comparethemarket.com,pepperl-fuchs.com###__tealiumGDPRcpPrefs
 !! .cookiebar
 ammeraalbeltech.com##.cookiebar
 !! #cliSettingsPopup
@@ -44009,6 +44010,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 billetterie.auditorium-lyon.com##+js(set-cookie, ga_consentement, 0)
+funnycase.pl##+js(set-cookie, funnycase_cookie_policy_v2, 1, , reload, 1)
 vmake.ai##+js(set-cookie, VMAKE_COOKIE_POLICY, 0)
 athleticsreg.ca##+js(set-cookie, accepted_cookie_policy, false)
 marinelink.com##+js(set-cookie, GDPR, 9)

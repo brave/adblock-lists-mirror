@@ -2889,9 +2889,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||orga29.com^$doc
 ||the-latest-version.com^$doc
 
-! https://twitter.com/1ZRR4H/status/1623067548781539339
-||soft-pro.site^$all
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142492
 ||apkmirror.co^$all
 ||webogram.org^$all
@@ -3923,7 +3920,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||telegra.ph/BT-Business-Communications-$all,to=~bt.com
 
 ! gov phishing site
-||thanhtrapcrt.online^$all,to=~thanhtra.gov.vn
 ! https://www.virustotal.com/gui/url/19c07d4e7c627a1f83900c509ce73b828247b3bb932713383e5569e7e2671882
 ! https://www.virustotal.com/gui/url/3184ee7bcf4b3d443307b36cf33e2c1e078747f6618534fc944442ae1b323e4c
 ||pttgov*.top^$doc,to=top|~ptt.gov.tr
@@ -3933,6 +3929,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||seeproc.com.br^$all,to=~my.gov.au
 ||homeinboxlogin.com^$all,to=~my.gov.au
 ||notice-ausreport.com^$all,to=~my.gov.au
+! gov.vn
+||thanhtrapcrt.online^$all,to=~thanhtra.gov.vn
+||jetkingncsc.online^$all,to=~ncsc.gov.vn
+
 ! gov.uk
 ||liveflo.qxlva.io^$all,to=~gov.uk
 ||student-finance-auth.firebaseapp.com^$all,to=~gov.uk
@@ -5158,6 +5158,16 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||thongtincancuoc.com^$all,to=~chinhphu.vn
 ||vietcp.com^$all,to=~dichvucong.gov.vn
 ||ccbcavn.cc^$all,to=~gov.vn
+
+! https://khonggianmang.vn/uploads/2024_CBT_43_c3bec6c039.pdf
+/^https:\/\/amazon[a-z]\d\.com\//$doc,to=com
+||amazoul.site^$all
+||amazonl0.com^$all
+||amazoni2.com^$all
+||dienlanhdienmayxanhvn.com^$all,to=~dienmayxanh.com
+||sendo1.com^$all,to=~sendo.vn
+||evnnpcs.com^$all,to=~evn.com.vn
+||korshoptiktok.com^$all,to=~tiktok.com
 
 ! https://social.immibis.com/notice/AjwiBkDIwtyORTzsAq
 ||msk.su^$all

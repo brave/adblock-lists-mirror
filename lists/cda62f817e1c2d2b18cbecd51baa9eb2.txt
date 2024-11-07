@@ -149,12 +149,13 @@ caroloportunidades.com.br,coempregos.com.br,foodiesgallery.com##+js(nostif, hasA
 
 ! https://github.com/uBlockOrigin/uAssets/issues/20401
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xhr,domain=infinityscans.xyz|infinityscans.net
+@@||pagead2.googlesyndication.com/tag/js/gpt.js|$xhr,domain=infinityscans.xyz|infinityscans.net
 *$script,redirect-rule=noopjs,domain=infinityscans.xyz|infinityscans.net
 infinityscans.xyz,infinityscans.net##+js(no-fetch-if, /api\/collect|api\/chapter/)
 infinityscans.xyz,infinityscans.net##+js(rmnt, script, platformVersion)
-infinityscans.xyz,infinityscans.net##+js(rpnt, script, /\"\"\) \{\s*\(function\(\){var [a-zA-Z]{8}=atob\(\'.*?\)\;\}\)\(\);/, "") {)
-||enigmaswhereas.com^$all
-||highmanapts.com^$all
+infinityscans.xyz,infinityscans.net##+js(rpnt, script, /\(xhr\) \{\s*\(function\(\){var [a-zA-Z]{8}=atob\(\'.*?\)\;\}\)\(\);/, (xhr) {)
+infinityscans.xyz,infinityscans.net##+js(trusted-replace-outbound-text, atob, window.matchMedia('(display-mode: standalone)').matches, true)
+infinityscans.xyz,infinityscans.net##+js(nowoif, _blank)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19935
 sportnews.to,soccershoes.blog##+js(aeld, DOMContentLoaded, adsSrc)
@@ -212,9 +213,9 @@ img-load.com##html:style(visibility: collapse !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25809
 !#if cap_html_filtering
-xfreehd.com##^script:has-text(/nativeads|navigator\.brave|\.abk_msg|\.innerHTML|ad blocker|manipulation/)
+xfreehd.com##^script:has-text(/popMagic|nativeads|navigator\.brave|\.abk_msg|\.innerHTML|ad block|manipulation/)
 !#else
-xfreehd.com##+js(rmnt, script, /nativeads|navigator\.brave|\.abk_msg|\.innerHTML|ad blocker|manipulation/)
+xfreehd.com##+js(rmnt, script, /popMagic|nativeads|navigator\.brave|\.abk_msg|\.innerHTML|ad block|manipulation/)
 !#endif
 xfreehd.com##+js(nostif, /\.append|\.innerHTML|undefined|\.css|blocker|flex|\$\('|obfuscatedMsg/)
 
@@ -233,3 +234,6 @@ gecmisi.com.tr##+js(trusted-replace-argument, document.querySelector, 0, json:"d
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192434
 nogizaka46-matome.jp#@##headerafficode
+
+! tracking ping like computerbase.de/nlylev
+/^https?:\/\/www\.computerbase\.de\/[a-zA-Z_]{1,10}$/$xhr,1p,method=post,domain=computerbase.de

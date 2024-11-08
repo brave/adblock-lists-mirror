@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: a5ttA1jwCOsa/O5QOxGPmQ
-! Version: 202411082100
+! Checksum: 8zpfoLfz7kPjkzJIYh5RQQ
+! Version: 202411082200
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2024-11-08 21:00 UTC
+! Last modified: 2024-11-08 22:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -579,6 +579,8 @@ puuilo.fi##body:style(overflow: auto !important)
 ! autoevolution.com
 autoevolution.com###notif_asker_div
 autoevolution.com##body,html:style(height: auto !important; overflow: auto !important)
+! threads.net
+threads.net##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 ! phonearena.com
 phonearena.com###pa-survey-modal
 phonearena.com##.pa-modal-backdrop

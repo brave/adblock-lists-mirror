@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.1.3
+! Version: 3.9.1.4
 
 ! General
 
@@ -158,8 +158,6 @@ etc.se##+js(ra, class, div.bg-gradient-white, stay)
 etc.se##div[class$="-ad"]
 euobserver.com##+js(rc, show, div.membership-upsell.show)
 exame.com##+js(set-local-storage-item, pywllcount, $remove$)
-||specials.fd.nl/_next/static/chunks/framework-*.js$script,~third-party
-specials.fd.nl##div[class^="Opening_contentContainer"],section[class^="ScrollyText_"]:style(color: white)
 fieldandstream.com##div[class^="mailmunch-"]
 fieldandstream.com##+js(ra, class, html[class])
 ||financialexpress.com/*/min/premiumStoryContent.js$script,~third-party

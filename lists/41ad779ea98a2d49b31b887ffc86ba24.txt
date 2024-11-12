@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uRFgBv1RO84haFXmcv6l6Q
-! Version: 202411120115
+! Checksum: wg1yK0OmngZ9MNZ7x7CHfw
+! Version: 202411120240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-11-12 01:15 UTC
+! Last modified: 2024-11-12 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43534,6 +43534,10 @@ dailynewshungary.com##+js(set-local-storage-item, wp_dark_mode_active, 1)
 linux.do##.custom-gated-topic-container
 linux.do##body.topic-in-gated-category:remove-class(topic-in-gated-category)
 linux.do##.topic-in-gated-category .container.posts::before:style(background: transparent !important;)
+! ground.news
+ground.news##.react-responsive-modal-root:has-text(Get Started)
+ground.news##.z-1000:has-text(Get Started)
+ground.news##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 ! cnn.com reg/login nag
 cnn.com##+js(set-local-storage-item, perm_cnn_regwall_v1, $remove$)
 cnn.com##+js(set-local-storage-item, REG_WALL_METER, $remove$)

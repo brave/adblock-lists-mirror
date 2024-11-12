@@ -1242,10 +1242,6 @@ audiostereo.pl##div[style="margin-bottom: 10px;"] > a[href][target="_blank"], [h
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57801
 freelistenonline.com##+js(set, fuckAdBlock._options.baitClass, null)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/57806
-freedeepweb.blogspot.com##+js(nosiif, visibility, 1000)
-freedeepweb.blogspot.com##+js(nostif, nextFunction)
-
 ! https://github.com/NanoAdblocker/NanoFilters/issues/522
 fabioambrosi.it##+js(nostif, ad)
 
@@ -1427,9 +1423,6 @@ emoji.gg##+js(no-xhr-if, adsbygoogle)
 ! https://github.com/NanoMeow/QuickReports/issues/4243
 tattle.life##+js(nostif, prompt, 1000)
 tattle.life##.visitorAdPost
-
-! https://github.com/NanoMeow/QuickReports/issues/4246
-tutorials-technology.info##+js(nostif, ai_adb)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58602
 veryfiles.com##+js(nosiif, visibility, 1000)
@@ -2160,10 +2153,6 @@ prinxy.app##.sticky-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62284
 angeloyeo.github.io##+js(nosiif, visibility, 1000)
 
-! https://github.com/NanoMeow/QuickReports/issues/4587
-@@||thehacktoday.com^$ghide
-thehacktoday.com##ins.adsbygoogle
-
 ! https://github.com/NanoMeow/QuickReports/issues/4588
 annabelle.ch##+js(aopr, _sp_._networkListenerData)
 
@@ -2173,12 +2162,9 @@ csgo-ranks.com##+js(nosiif, visibility, 1000)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62483
 androidgreek.com##+js(aopr, adBlockDetected)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/62519
-sshagan.net##+js(acs, addEventListener, google_ad_client)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/12712
 *$script,domain=ad-doge.com,redirect-rule=noopjs
-ad-doge.com##+js(nostif, ab, 2000)
+ad-doge.com##+js(nostif, _0x)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8665
 fshost.me##+js(acs, onload, ajax)
@@ -2240,18 +2226,11 @@ jacksorrell.tv##+js(acs, jQuery, adblocker)
 ! https://github.com/uBlockOrigin/uAssets/issues/12296
 9xmovies.*##+js(nowoif)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/62717
-satoshiquiz.com##+js(nosiif, visibility, 1000)
-satoshiquiz.com##.ad
-satoshiquiz.com##.slideshow-container
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62854
+cgtips.org##+js(rmnt, script, /adblock|var Data.*];/)
 link.cgtips.org##+js(acs, addEventListener, google_ad_client)
 link.cgtips.org##+js(set, countdown, 0)
-cgtips.org##+js(nostif, css_class.show)
 cgtips.org##div[class*="better-ads-listitemad"]:remove()
-! https://github.com/AdguardTeam/AdguardFilters/issues/149917
-cgtips.org##+js(nostif, .data?)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7860
 saradahentai.com,hentaiarena.com##+js(aopr, document.dispatchEvent)

@@ -221,9 +221,6 @@ xfreehd.com##+js(nostif, /\.append|\.innerHTML|undefined|\.css|blocker|flex|\$\(
 gecmisi.com.tr#@#+js(trusted-replace-argument, document.querySelector, 0, json:".adsbygoogle", condition, .adsbygoogle.adsbygoogle-noablate)
 gecmisi.com.tr##+js(trusted-replace-argument, document.querySelector, 0, json:"div[align='center']", condition, .adsbygoogle.adsbygoogle-noablate)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/192434
-nogizaka46-matome.jp#@##headerafficode
-
 ! https://github.com/uBlockOrigin/uAssets/issues/20620#issuecomment-2465802971
 music.amazon.*#@##overlay:has([href*="privacyprefs/"])
 
@@ -231,6 +228,7 @@ music.amazon.*#@##overlay:has([href*="privacyprefs/"])
 blog.livedoor.jp##+js(rmnt, script, selectRandomProduct)
 blog.livedoor.jp##.ads_more ~ .article-main2 > div[style*="margin:"][style*="#"]:has(img[src*="amazon."])
 blog.livedoor.jp##.kiziue > #product-container
+blog.livedoor.jp##:matches-path(/goldennews/)a[href^="https://www.amazon.co.jp"],a[href^="https://amzn.to"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25966#issuecomment-2473824597
 ||downdetector.com/cdn-cgi/trace$badfilter

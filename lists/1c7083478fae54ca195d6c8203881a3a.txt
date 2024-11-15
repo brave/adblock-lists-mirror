@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.1.5
+! Version: 3.9.2.0
 
 ! General
 
@@ -28,7 +28,7 @@
 ||js.pelcro.com^$script,third-party
 /xbuilder/experience/execute$xmlhttprequest,~third-party
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
-@@||piano.io^$domain=auto-swiat.pl|businessinsider.com.pl|forbes.pl|hbr.org|japantimes.co.jp|komputerswiat.pl|newsweek.pl|onet.pl
+@@||piano.io^$domain=hbr.org|japantimes.co.jp
 @@||cdn.tinypass.com/api/tinypass.min.js$script,domain=ajc.com
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
 ||api.pico.tools/popup/null/*$xmlhttprequest,~third-party
@@ -515,13 +515,8 @@ curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, 
 crikey.com.au,inc-aus.com,smartcompany.com.au##+js(cookie-remover, blaize_session)
 
 ! Ringier Axel Springer Polska
-businessinsider.com.pl##+js(cookie-remover, xbc)
+auto-swiat.pl,businessinsider.com.pl,forbes.pl,komputerswiat.pl,newsweek.pl,onet.pl##+js(ra, class|style, div.contentPremium[style])
 businessinsider.com.pl##div#content-premium-offer
-newsweek.pl##+js(ra, class|style, div.contentPremium[style])
-newsweek.pl##+js(ra, class, div.videoPremiumWrapper)
-newsweek.pl##+js(ra, class, div.embed__mainVideoWrapper)
-newsweek.pl##+js(ra, class, div#contentPremiumPlaceholder[class])
-onet.pl##+js(cookie-remover, xbc)
 
 ! Roularta Media Groep
 ||artsenkrant.com/js/responsive/rmgModal.js$script,~third-party

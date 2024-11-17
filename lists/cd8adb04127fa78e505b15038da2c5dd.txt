@@ -1767,15 +1767,6 @@ samfw.com##+js(acs, jQuery, banner)
 lewdstars.com##.ads-muted-control
 lewdstars.com##.widget_custom_html
 
-! https://github.com/uBlockOrigin/uAssets/issues/10543
-romadd.com##+js(no-fetch-if, googlesyndication)
-romadd.com##+js(nano-sib, download)
-@@||romadd.com^$ghide
-romadd.com##ins.adsbygoogle
-romadd.com##.ads
-romadd.com##.widget_custom_html
-romadd.com###floating_ads_bottom_textcss_container
-
 ! https://github.com/uBlockOrigin/uAssets/issues/8915
 ||biguz.net/vast$xhr,1p
 
@@ -1946,14 +1937,13 @@ kitabmarkaz.xyz##+js(aopr, __Y)
 ! short-zero.com bab
 short-zero.com##+js(nosiif, visibility, 1000)
 
-! adz7short.space,goldenfaucet.io,croclix.me anti-adb
-@@/viewad.$css,script,domain=adz7short.space|short.croclix.me|short.goldenfaucet.io
+! adz7short.space,croclix.me anti-adb
+@@/viewad.$css,script,domain=adz7short.space|short.croclix.me
 adz7short.space##+js(ra, href, #continue)
 @@||adz7short.space^$ghide
 adz7short.space###banner_slider_right
 adz7short.space,short.croclix.me##.leaderboard
 short.croclix.me##.banner-container
-short.goldenfaucet.io##.rectangles
 ||offers4all.net^$frame,3p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81856
@@ -1982,15 +1972,7 @@ thotvids.com##+js(aeld, click, overlay)
 ! mizugigurabia.com anti-adb
 mizugigurabia.com##+js(acs, document.addEventListener, google_ad_client)
 
-! py.md popup
-py.md##+js(nano-sib, countdown)
-
 ||joinads.me^$3p
-
-! https://github.com/uBlockOrigin/uAssets/issues/9521
-cubehosting.me##+js(nosiif, visibility, 1000)
-cubehosting.me##+js(noeval-if, _0x)
-cubehosting.me##+js(acs, document.addEventListener, google_ad_client)
 ||affilixxl.de^$3p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82216
@@ -2040,11 +2022,6 @@ gayck.com##+js(set, flashvars.adv_pause_html, '')
 romhustler.org##+js(nano-sib, timer.remove)
 romhustler.org##.tower_ad_desktop
 
-! streampourvous. com popups
-streampourvous.com##+js(aopr, LieDetector)
-streampourvous.com##+js(ra, href, #clickfakeplayer)
-frebieesforyou.net##+js(nowoif)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/9024
 github.com##[src^="https://spotlights-feed.github.com/spotlights/octoprint/"]:upward(article[class])
 
@@ -2083,10 +2060,6 @@ akwam.*,eg-akw.com,khsm.io,xn--mgba7fjn.cc##+js(aopw, afScript)
 akwam.*##+js(nosiif, visibility, 1000)
 akwam.*##.ads
 eg-akw.com,xn--mgba7fjn.cc##+js(aeld, load, 2000)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/n93qlv/ublock_origin_keeps_getting_detected/gxm709u/
-coolsanime.org,toonvideos.me##+js(acs, document.addEventListener, nextFunction)
-||toonvideos.me^$3p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/n99vzj/anyway_to_evade_adblock_detected_on_netpornix/
 netpornix.*##div#responseads:style(display:block !important)
@@ -2205,9 +2178,6 @@ edn.com###custom_html-5
 edn.com###footerAdWrap
 ||omeda.com^$3p
 
-! https://github.com/uBlockOrigin/uAssets/issues/10916
-||badana.me^
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83758
 sexywomeninlingerie.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 ||wafflegirl.com/galleries/banner/$3p
@@ -2228,28 +2198,19 @@ watchmovierulz.*##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9155
 ! streamsb_galaxy
-anigogo.net,animepl.xyz,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,faptiti.com,fbgo.*,goana.xyz,gomovizplay.com,hlsplayer.xyz,javplaya.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com,xvideostream.net##+js(aopr, __Y)
-anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gomovizplay.com,hlsplayer.xyz,kinoking.cc,lvturbo.com,oxl.one,playersb.com,sbanh.com,sbasian.pro,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbface.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblona.com,sblongvu.com,sbnet.one,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com##+js(aopr, mm)
-sbembed1.com,sbvideo.*##+js(aopr, console.clear)
-cloudemb.com##+js(nowoif, !/^\/d\//)
-cloudemb.com##+js(set, console.clear, noopFunc)
+anigogo.net,animepl.xyz,fbgo.*,javplaya.com,sbbrisk.com,sbchill.com,sbchip.*,sbflix.*,sbplay.*,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,streamsb.*,viewsb.com##+js(aopr, __Y)
+anigogo.net,fbgo.*,kinoking.cc,lvturbo.com,sbbrisk.com,sbchill.com,sbchip.*,sbflix.*,sbplay.*,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,streamsb.*,viewsb.com##+js(aopr, mm)
 streamsb.*##+js(nowoif)
-sbfull.com,streamsb.*,view345.com##+js(aopr, DoodPop)
-sbembed.com,streamsb.*##body > div[style*="z-index:"]
-sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
-oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
+streamsb.*##+js(aopr, DoodPop)
+streamsb.*##body > div[style*="z-index:"]
+sbplay.*##+js(set, console.clear, noopFunc)
 sbplay.*##^script:has-text(debugger)
 ! https://github.com/uBlockOrigin/uAssets/issues/17141
-cloudemb.com##+js(set, isadb, false)
-||app.adjust.net.in^
-||eisasbeau.buzz^
 ||linkspoint.xyz/sw.js$script,1p
 ||weakermumrespect.com^
 ! https://github.com/uBlockOrigin/uAssets/issues/18860
 sbot.cf##[id^="parentframe"]
 sbot.cf##+js(window.open-defuser)
-! https://sbasian.pro/d/ksnf8h4wn05p.html popup
-||sbasian.pro/js/mainpc.js
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83844
 sharetext.me##+js(set, isAdBlockActive, false)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8ZrqUJaVJEZmPbDM8wTDaw
-! Version: 202411180540
+! Checksum: vdaqFUEzKhVlwDwcAClqLA
+! Version: 202411180640
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-11-18 05:40 UTC
+! Last modified: 2024-11-18 06:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33923,6 +33923,8 @@ washingtonmonthly.com#?#.wp-block-group__inner-container:-abp-contains(Support t
 ! google popups
 google.com##.Ryrdad:has-text(Please help us improve)
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
+! youtube playables
+www.youtube.com###content > .ytd-rich-section-renderer:has-text(YouTube Playables)
 ! youtube popups
 music.youtube.com#?#tp-yt-paper-dialog.ytmusic-popup-container:-abp-contains(/family plan|Premium|ad-free|background play|kept playing/)
 www.youtube.com#?#tp-yt-paper-dialog.ytd-popup-container:-abp-contains(/Become a member|How are your|How interested|Live TV|Wish videos|background play|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature/)
@@ -41634,6 +41636,7 @@ sainsburysmagazine.co.uk##.section--blue.section
 backstage.com##.section--newsletter
 mygenefood.com##.section--optin
 usrtk.org##.section-callout-newsletter
+crowdsupply.com##.section-email-signup
 247wallst.com##.section-email-sub
 findlaw.com,topgear.nl##.section-newsletter
 billyparisi.com,davidlebovitz.com,kimpetras.com##.section-subscribe

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pDSDiEKixM0XgE4xXWKDbg
-! Version: 202411212140
+! Checksum: aM1BcqN7UaQz+jcGpMdo1A
+! Version: 202411212240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-11-21 21:40 UTC
+! Last modified: 2024-11-21 22:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32797,7 +32797,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||synology.com/js/syno/syno_cookie_element.js
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl|swisscom.ch
 ||terencehill.com/modules/hicookielaw/
-||transcend-cdn.com^$domain=1password.com|anaconda.com|gofundme.com|kickstarter.com|lifetouch.com|shutterfly.com|vimeo.com
+||transcend-cdn.com^$domain=1password.com|anaconda.com|gofundme.com|kickstarter.com|lifetouch.com|patreon.com|shutterfly.com|vimeo.com
 ||transcendcdn.eventbrite.com^
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
@@ -45103,6 +45103,7 @@ posthog.com##+js(set-local-storage-item, cookie_consent, no)
 shop.ba.com##+js(set-local-storage-item, iag-targeting-consent, "no")
 shop.ba.com##+js(set-local-storage-item, iag-performance-consent, "no")
 greubelforsey.com##+js(set-local-storage-item, rgpd.consent, 1)
+lukify.app##+js(set-local-storage-item, _lukCookieAgree, 2)
 studiobookr.com##+js(set-local-storage-item, cookiesAllowed, false)
 getgrass.io##+js(set-local-storage-item, cookiePreference, 1)
 popcornmovies.to##+js(set-local-storage-item, cookiePolicy, true)

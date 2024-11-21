@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6DZfXX2nuLZld92TeCK+GQ
-! Diff-Path: ../patches/16/16-s-1732171099-3600.patch
+! Checksum: 5xOMvM6/4mQ39TY0UFZQvQ
+! Diff-Path: ../patches/16/16-s-1732207167-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.48.14
-! TimeUpdated: 2024-11-21T06:34:35+00:00
+! Version: 2.0.48.16
+! TimeUpdated: 2024-11-21T16:35:25+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -224,9 +224,9 @@ monumentum.fr##+js(abort-current-script, document.getElementById, Blocking Ads)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147842
 japscan.lol##+js(no-setTimeout-if, getElementById)
 japscan.lol##+js(addEventListener-defuser, load, setTimeout)
-japscan.lol##+js(remove-node-text, script, /function\(Baby|\+'a'|\+parseInt|\+String|log'|fromCharCode'|createElement'|querySel'|\\x22return|;\}\(\)\)\);\}\}\(\)\)\);|jso\$/)
+japscan.lol##+js(remove-node-text, script, /\+'a'|\+parseInt|\+String|log'|fromCharCode'|createElement'|querySel'|clipPath'|catch'|forEach'|\\x22return|90\.jpg|soft\$|\.nextElementSibling|style\.width|return eval|document\(\)|String\(\)/)
 japscan.lol#$#.navbar-nav > li#navpromo2.nav-item > a[href^="http://www.toueapo.shop/"] { text-indent: -5000px !important; }
-japscan.lol##+js(addEventListener-defuser, DOMContentLoaded, /Parfum|China|\+'oa|=>\s*\{\s*var|'ct'/)
+japscan.lol##+js(addEventListener-defuser, DOMContentLoaded, /Amazon|Russia|\(0x|\+''|'un'/)
 $script,xmlhttprequest,redirect-rule=noop.js,domain=japscan.lol
 @@$image,domain=japscan.lol
 @@||japscan.lol^$image,xmlhttprequest,script,~third-party
@@ -306,6 +306,8 @@ rustica.fr##+js(abort-on-property-write, dtctAB)
 @@||systemed.fr/*.iads.js
 systemed.fr##+js(abort-on-property-write, dtctAB)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105651
+crunchyscan.fr##+js(no-fetch-if, adskeeper.co.uk)
+@@||jsc.adskeeper.co.uk/c/r/crunchyscan.fr$xmlhttprequest,domain=crunchyscan.fr
 crunchyscan.fr##+js(abort-current-script, document.write, alert)
 crunchyscan.fr##+js(abort-current-script, setTimeout, bloqueur)
 crunchyscan.fr##+js(abort-current-script, Promise, alert)

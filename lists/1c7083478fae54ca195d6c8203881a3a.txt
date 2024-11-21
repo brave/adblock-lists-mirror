@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.3.0
+! Version: 3.9.3.1
 
 ! General
 
@@ -68,7 +68,7 @@ asia.nikkei.com##+js(rc, tp-modal-open, body.tp-modal-open, stay)
 magazine.atavist.com##+js(set-local-storage-item, /^/, $remove$)
 ||tonos.gjirafa.tech/init/access$xmlhttprequest,domain=atlantico.fr
 ||automobilwoche.de/sites/camw/files/js/js_-YBiL*.js$script,~third-party
-axios.com##div[data-cy="pro-paywall"],div[class^="Modal_"]
+axios.com##div[data-cy="pro-paywall"],div[class^="Modal_paywall"],div[class^="Modal_cta"]
 axios.com##+js(ra, style, html[style], stay)
 bizjournals.com##+js(ra, style, article div[style="display: none;"], stay)
 bizjournals.com##+js(ra, style, .paywalled-content[style], stay)
@@ -335,8 +335,9 @@ the-scientist.com##div.gated-fader,div#Modal
 theatlantic.com##+js(cookie-remover, articleViews)
 theatlantic.com##img[class*="Image_lazy__"]:style(opacity: 1 !important)
 theatlantic.com##aside#paywall,div[class^="LostInventoryMessage_"]
-||cloudfunctions.net/gated-countRead$xmlhttprequest,domain=thediplomat.com
-thediplomat.com##+js(rc, dpl-preview, article.dpl-preview, stay)
+||cloudfunctions.net/gated-countView$xmlhttprequest,domain=thediplomat.com
+thediplomat.com##+js(rc, h-96, article>section.h-96)
+thediplomat.com##aside.bg-gradient-to-b
 theglobeandmail.com##+js(set, Fusion.globalContent._id, '')
 thehindu.com,thehindubusinessline.com##+js(set, window.Adblock, false)
 thehindu.com,thehindubusinessline.com##+js(set, window.isNonSubcribed, false)

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.3.2
+! Version: 3.9.3.3
 
 ! General
 
@@ -104,7 +104,7 @@ cnn.com##+js(ra, style, html[style], stay)
 cnn.com##+js(set-local-storage-item, /reg_?wall/i, $remove$)
 columbian.com##+js(cookie-remover, blaize_session)
 chronicle.com,philanthropy.com##div[data-content-summary]
-chronicle.com,philanthropy.com##+js(ra, hidden|ppajfrg86rdhoubtirllb2bf1xsaknzus, div[class*="Page-articleBody"][hidden], stay)
+chronicle.com,philanthropy.com##+js(ra, hidden|ppajfrg86rdhoubtirllb2bf1xsaknzus, div[class~="contentBody" i][hidden], stay)
 ! cicero.de: url+?amp
 cicero.de##+js(rc, teasered-content, .teasered-content)
 cicero.de##.teasered-content-fader

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bcNNvn9RSlTVYRtrQEI8UA
-! Version: 202411250300
+! Checksum: AHAm+E2HnlX9fsZKrM+2AQ
+! Version: 202411250500
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2024-11-25 03:00 UTC
+! Last modified: 2024-11-25 05:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -785,6 +785,8 @@ fogaonet.com##+js(set-cookie, fn_cookie_whatsapp_alert, 1)
 zillow.com##.app-upsell-banner
 zillow.com###pfs-upsell:remove()
 zillow.com##.exposed-filters:style(top:0 !important)
+zillow.com##+js(aeld, /^(mouseout|mousedown|mouseenter|mouseleave)$/)
+zillow.com##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown|oncopy|oncut|onclick)
 ! food.ndtv.com
 food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
 ! LaraPush

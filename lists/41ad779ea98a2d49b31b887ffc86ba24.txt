@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /GVEVEtcKaAMSLH37A7Big
-! Version: 202411250240
+! Checksum: 5Ot/Te1xsMUI74WVRi3b7w
+! Version: 202411250440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-11-25 02:40 UTC
+! Last modified: 2024-11-25 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32795,6 +32795,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||stromnetz-hamburg.de/matomo/js/
 ||synology.com/js/syno/syno_cookie_element.js
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl|swisscom.ch
+||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||terencehill.com/modules/hicookielaw/
 ||transcend-cdn.com^$domain=1password.com|anaconda.com|gofundme.com|kickstarter.com|lifetouch.com|patreon.com|shutterfly.com|vimeo.com
 ||transcendcdn.eventbrite.com^
@@ -43511,6 +43512,8 @@ fogaonet.com##+js(set-cookie, fn_cookie_whatsapp_alert, 1)
 zillow.com##.app-upsell-banner
 zillow.com###pfs-upsell:remove()
 zillow.com##.exposed-filters:style(top:0 !important)
+zillow.com##+js(aeld, /^(mouseout|mousedown|mouseenter|mouseleave)$/)
+zillow.com##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown|oncopy|oncut|onclick)
 ! food.ndtv.com
 food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
 ! LaraPush

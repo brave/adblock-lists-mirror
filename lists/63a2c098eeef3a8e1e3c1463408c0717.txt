@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20241114
+! Version: 20241128
 
 ! General element hiding rules
 ##amp-ad
@@ -3101,8 +3101,7 @@ dailypharm.com##div.rigthSideAD
 dailypharm.com##div.topAd
 dailyrecord.co.uk##div.gpt
 dailysecu.com##div.banner_box
-damoang.net##a[data-dd-action-name="Boards Ads Banner"]
-damoang.net##a[data-dd-action-name="Sidebar Ads Banner"]
+damoang.net##div.da-bn-container
 danawa.com##div.banner_type4
 danawa.com##div.category_btm_banner
 danawa.com##div.event_banner
@@ -6636,6 +6635,7 @@ segye.com##ul.hotnewsAD
 sejonghub.com##div.mb-3.mb-sm-4>div.carousel.carousel-fade[id^="carousel_"]
 sejonghub.com##div.mb-3.mb-sm-4>div.carousel.carousel-fade[id^="carousel_"]+div.shadow-line
 seoul.co.kr##div.articleBottomAD
+seoul.co.kr##div.bottomAD
 seoul.co.kr##div.viewContent>div[style="width: 100%; text-align: center; margin: 40px auto 20px;"]
 seoul.co.kr##div.viewContent>div[style="width:100%;text-align:center;margin:40px auto 20px;"]
 seoul.co.kr##iframe[src^="/ad/iconad_seoul_iframe.html"]

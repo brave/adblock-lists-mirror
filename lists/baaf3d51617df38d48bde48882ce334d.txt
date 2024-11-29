@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 74WMBSx9W4LJFDorQcAEJQ
-! Version: 202411290740
+! Checksum: D28F7C1svXpZgGim8Jf42g
+! Version: 202411290940
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-11-29 07:40 UTC
+! Last modified: 2024-11-29 09:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -100,7 +100,6 @@
 ||link.sportal.blikk.hu/join/
 ! Italian
 ||newsletter.beautydea.it^
-||pagamentidigitali.it^*/newsletter.jpg
 ! Japanese
 ||nikkei.com/edit/topic/briefing_newsletter_
 ! Spanish
@@ -4055,6 +4054,7 @@ dilei.it,quifinanza.it###box_newsletter
 diritto.it,leggioggi.it,rollingstone.it###exitpopup-modal
 financecommunity.it###footernews
 ilfattoalimentare.it###frm-mltchnl
+pagamentidigitali.it###hs-web-interactives-bottom-anchor
 mag1861.it###newsletter-footer-form
 frankmerenda.com###ppsPopupBgOverlay
 fides.org###subcribe-nl
@@ -4554,6 +4554,10 @@ money.com##+js(rc, open-pw, body, stay)
 plantpowercouple.com##+js(set-cookie, awpopup_450030403, 1)
 ! commondreams.org newsletter pop
 commondreams.org##+js(set-cookie, popupShown, true)
+! pagamentidigitali.it
+pagamentidigitali.it###hs-interactives-modal-overlay
+pagamentidigitali.it###hs-web-interactives-top-anchor
+pagamentidigitali.it##body,html:style(overflow: auto !important; position: initial !important;)
 ! oled-info.com
 oled-info.com##+js(set-cookie, awpopup_501941328, 1)
 ! .pum

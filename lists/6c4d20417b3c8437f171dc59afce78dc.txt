@@ -1499,20 +1499,11 @@ portalwrc.pl##+js(aeld, contextmenu)
 answersafrica.com##+js(acs, document.oncontextmenu)
 answersafrica.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
 
-! https://github.com/uBlockOrigin/uAssets/issues/6273
-zerodot1.gitlab.io##+js(set-constant, document.oncontextmenu, undefined)
-zerodot1.gitlab.io##+js(ra, oncontextmenu|onselectstart|ondragstart)
-zerodot1.gitlab.io##+js(set-constant, alert, trueFunc)
-zerodot1.gitlab.io##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
-
 ! thewpclub .net right click, select, copy
 /wp-content/plugins/content-protector-pack/*
 
 ! https://github.com/NanoMeow/QuickReports/issues/1822
 tomsguide.com##+js(aopr, _sp_._networkListenerData)
-
-! https://github.com/NanoMeow/QuickReports/issues/1485#issuecomment-531303011
-pluspremieres.nz##+js(ra, oncontextmenu)
 
 ! https://github.com/NanoMeow/QuickReports/issues/1832
 @@||flightaware.com^$ghide
@@ -1634,12 +1625,6 @@ anisubindo.*##+js(aopw, disableSelection)
 ! mbahhanif .site select / copy
 mbahhanif.site##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
 
-! worldofbitco .in select - copy
-worldofbitco.in##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
-
-! https://github.com/uBlockOrigin/uAssets/issues/6471
-glitterphoto.net##.adBlocked
-
 ! https://github.com/NanoMeow/QuickReports/issues/2119
 @@||dumpert.nl^$ghide
 
@@ -1726,8 +1711,8 @@ skidrowreloaded.com##+js(rmnt, script, copyprotect)
 adevarul.ro##+js(aopr, addLink)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6659
-hindipix.*,hqq.tv##+js(set, console.debug, trueFunc)
-hindipix.*,hqq.tv##+js(set, console.clear, trueFunc)
+hindipix.*##+js(set, console.debug, trueFunc)
+hindipix.*##+js(set, console.clear, trueFunc)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2476
 kusonime.com##+js(acs, document.oncontextmenu)
@@ -2842,9 +2827,6 @@ animesanka.com##+js(acs, document.onkeydown)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59573
 witz.io###moneyMakerHolder
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/59574
-leevz.io###leevz-io_300x250
-
 ! citas .in handling copy
 citas.in##+js(aeld, copy)
 
@@ -2881,9 +2863,6 @@ sketchful.io###moneySquare
 
 ! icy-veins .com premium proposal
 icy-veins.com##+js(nostif, premium)
-
-! https://github.com/uBlockOrigin/uAssets/issues/7697
-phimmedia.info##+js(acs, window.oncontextmenu)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60100
 download.mokeedev.com##div.center-align

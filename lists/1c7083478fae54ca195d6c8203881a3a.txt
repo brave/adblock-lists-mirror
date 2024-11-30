@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.4.1
+! Version: 3.9.4.2
 
 ! General
 
@@ -435,12 +435,10 @@ diariocorreo.pe,elcomercio.pe,gestion.pe##div[class^="content_gpt"]
 ! Grupo El Mercurio
 ||elmercurio.com/assets/js/merPramV2.js$script,~third-party
 ||elmercurio.com/assets/js/vendor/modal.js$script,~third-party
-||lasegunda.com/assets/js/merPramV2.js$script,~third-party
-||lasegunda.com/assets/js/vendor/modal.js$script,~third-party
-||emol.cl/assets/js/merPramV2.js$script,domain=elmercurio.com|lasegunda.com
-||emol.cl/assets/js/vendor/modal.js$script,domain=elmercurio.com|lasegunda.com
-elmercurio.com,lasegunda.com##+js(rc, lessreadmore, article.lessreadmore, stay)
-elmercurio.com,lasegunda.com##div[id*="bt_readmore_"]
+||emol.cl/assets/js/merPramV2.js$script,domain=elmercurio.com
+||emol.cl/assets/js/vendor/modal.js$script,domain=elmercurio.com
+elmercurio.com##+js(rc, lessreadmore, article.lessreadmore, stay)
+elmercurio.com##div[id*="bt_readmore_"]
 ||australvaldivia.cl/impresa/*/assets/vendor.js$script,~third-party
 ||mercuriovalpo.cl/impresa/*/assets/vendor.js$script,~third-party
 ||pasedigital.cl/API/User/Status$script,domain=australvaldivia.cl|mercuriovalpo.cl

@@ -517,10 +517,6 @@ phimsexkhongche.net##.under-video-block > center
 jav720.net##.video-player-area > center
 ||i.pinimg.com/564x/$domain=jav720.net|phimsexkhongche.net
 
-! jetseotools .com anti adb
-@@||jetseotools.com^$ghide
-jetseotools.com##ins.adsbygoogle
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/kyg7zo/annoying_popups_everywhere/
 usagoals.*##+js(nowoif)
 ||cdn777.net/site/binance-banner.jpg$image
@@ -556,9 +552,6 @@ easylinkref.com##center > a[href][target=_blank] > img
 ! https://www.reddit.com/r/uBlockOrigin/comments/l1sn4x/adblock_detected_on_w3layout/
 w3layouts.com##+js(nostif, show)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/72816
-desishoot.fun##.islemag-content-right > .widget_custom_html
-
 ! https://github.com/easylist/easylist/issues/6982
 ||getsexgames.com/templates/sexgames/$image,1p
 getsexgames.com##.center > table[cellspacing="5"] > tbody > tr:last-child:has(> td > h1)
@@ -576,13 +569,7 @@ pornachi.com##.sponsor
 ##.wps-player__happy-inside
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72825
-1shorten.com##+js(aopr, app_vars.force_disable_adblock)
-1shorten.com,publicananker.com,rodjulian.com##+js(nosiif, visibility, 1000)
-1shorten.com##+js(set, blurred, false)
-dreamcheeky.com,fidlarmusic.com,publicananker.com,rezence.com,rodjulian.com##+js(nano-sib, counter, 2000)
-rodjulian.com##+js(noeval)
-1shorten.com##.banner
-rodjulian.com###baolink1s
+rezence.com##+js(nano-sib, counter, 2000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8492
 ! hd-pornos. com => info
@@ -591,15 +578,7 @@ hd-pornos.*###spezial_column
 hd-pornos.*##div[id="wrapper_content"] > aside
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8493
-pornojenny.com##+js(nostif, checkVisible)
-pornojenny.com##.spc_height_80
-pornojenny.com##.vjs-overlay
-||pornojenny.com/cpanel/*.php$xhr
-||chatntr.com/widget?affiliate$frame,3p
-pornojenny.com##div[id="wrapper_content"] > aside
-pornojenny.com###wa_10
-@@||pornojenny.com^$ghide
-pornojenny.com##[href^="https://www.handy-sextreffen.info/"]:upward(.grid_box)
+pornojenny.net,pornolisa.com##.adsbyexoclick:upward(1)
 
 ! kickass sites
 ! https://github.com/uBlockOrigin/uAssets/issues/8497
@@ -5040,10 +5019,6 @@ androidacy.com##+js(rmnt, script, charCodeAt)
 @@||fundingchoicesmessages.google.com^$domain=androidacy.com
 @@||production-api.androidacy.com^$script,1p
 
-! https://github.com/uBlockOrigin/uAssets/issues/10978
-film01stream.ws##+js(ra, href, .mvi-cover)
-film01stream.ws##.f-inner
-
 ! https://github.com/uBlockOrigin/uAssets/issues/10981
 m4ufree.*##+js(aopr, BetterJsPop)
 
@@ -5076,9 +5051,6 @@ javside.com##+js(aopr, AaDetector)
 katmoviefix.*##+js(aopr, Request)
 katmoviefix.*##+js(noeval-if, ads)
 
-! livesexporn. net popunder
-livesexporn.net##+js(acs, onload, Math)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/11029
 g3g.*##.text-center.alert-danger.alert-dismissible.alert
 
@@ -5102,10 +5074,11 @@ pornstargold.com##canvas
 pornstargold.com###popup
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11059
-askpaccosi.com,crypto4tun.com##+js(no-fetch-if, googlesyndication)
-askpaccosi.com,crypto4tun.com##+js(no-xhr-if, googlesyndication)
-askpaccosi.com,crypto4tun.com##[id^="wpsafe-wait"]
-askpaccosi.com,crypto4tun.com###wpsafe-generate, #wpsafe-link:style(display: block !important)
+askpaccosi.com##+js(no-fetch-if, googlesyndication)
+askpaccosi.com##+js(no-xhr-if, googlesyndication)
+askpaccosi.com##+js(no-xhr-if, ad)
+askpaccosi.com##[id^="wpsafe-wait"]
+askpaccosi.com###wpsafe-generate, #wpsafe-link:style(display: block !important)
 askpaccosi.com###wcfloatDiv4
 askpaccosi.com##.av_pop_modals_1
 
@@ -5121,13 +5094,6 @@ cam-video.xxx###float-video
 ##[href^="https://buycheaprdp.com/"]
 ##[href^="https://bestbuyrdp.com/"]
 ##[href^="https://buycheaphost.net/"]
-
-! antiadb insurance. iptvsetupguide. com
-insurance.iptvsetupguide.com##+js(no-fetch-if, ads)
-insurance.iptvsetupguide.com##+js(nano-sib)
-
-! antiadb bitcoinslink. site
-@@||bitcoinslink.site^$ghide
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11075
 codecap.org##+js(aopr, Request)

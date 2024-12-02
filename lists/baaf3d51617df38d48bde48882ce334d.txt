@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: a03NHtOZfRzkTPfYJBGwIw
-! Version: 202412020315
+! Checksum: uCcicIPy4kKDrGHdkFr1uQ
+! Version: 202412020340
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-12-02 03:15 UTC
+! Last modified: 2024-12-02 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4575,6 +4575,8 @@ capx.co##.pum
 capx.co##div#wrapper:style(filter: none !important)
 ! newsletter popup
 lowpass.cc,readergrev.com,objectivebayesian.com,monopoly.marketecture.tv,jointhefollowup.com##+js(set-cookie, popup_closed, true)
+! streamily.com
+streamily.com##+js(set-cookie, email_modal, true)
 ! revolvermag.com
 revolvermag.com##.emma-show
 revolvermag.com##body,html:style(height: auto !important; overflow: auto !important)

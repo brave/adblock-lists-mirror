@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.4.3
+! Version: 3.9.4.4
 
 ! General
 
@@ -38,7 +38,8 @@ gadget.pico.tools##+js(json-prune, locked)
 ||sophi.io^$third-party
 ||steadyhq.com^$script,third-party
 ||wallkit.net/js/$script,third-party
-||zephr.com/zephr-browser/$third-party
+||zephr.com/zephr-browser/$script,third-party
+@@||zephr.com/zephr-browser/$script,domain=theverge.com
 /arc/subs/p.min.js$script,~third-party
 @@/arc/subs/p.min.js$script,domain=latercera.com|nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party

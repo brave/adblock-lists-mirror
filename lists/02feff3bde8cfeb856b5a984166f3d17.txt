@@ -372,9 +372,6 @@ bg-gledai.*##+js(no-fetch-if, googlesyndication)
 ! https://github.com/NanoMeow/QuickReports/issues/3718
 @@||lesechos.fr^$ghide
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/54722
-coinxfaucet.com##+js(aopr, adBlockDetected)
-
 ! https://github.com/NanoMeow/QuickReports/issues/3721
 @@||ploudos.com^$ghide
 
@@ -387,7 +384,7 @@ beegsexxx.com##.preview:has(> .prev > script[data-ad_sub])
 beeg.party##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7301
-spankbang.cc,spank-and-bang.com##+js(acs, decodeURI, decodeURIComponent)
+spank-and-bang.com##+js(acs, decodeURI, decodeURIComponent)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7301
 tubxporn.com##+js(aopr, exoJsPop101)
@@ -416,10 +413,9 @@ sythe.org###topadplaceholder
 wg-gesucht.de##+js(acs, $, detectAdBlocker)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54800
-hdmp4mania1.net##+js(nosiif, visibility, 1000)
 mp4mania1.net##+js(aopr, LieDetector)
 mp4mania1.net##.advert
-mp4mania1.net,hdmp4mania1.net##.prop_native1
+mp4mania1.net##.prop_native1
 ! https://github.com/NanoMeow/QuickReports/issues/3751
 ||undefined^$script,redirect=noopjs
 ||d3g5ovfngjw9bw.cloudfront.net^$script,redirect=noopjs
@@ -500,9 +496,6 @@ eroasmr.com##+js(trusted-rpnt, script, vastTag, v)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166506
 gaystream.pw##+js(aopr, adsbyjuicy)
-gaystream.online##+js(nowoif)
-gaystream.online##+js(nostif, afterOpen)
-gaystream.cloud##+js(aopr, __Y)
 gaystream.pw##.a-block
 
 ! twistedporn .com popup
@@ -721,9 +714,6 @@ l2top.co###bannerads-background
 mtabrasil.com.br##.banner
 redheadpassions.com,transpassions.com###header_ad_banner
 viewster.co##.ads
-
-! sonline .pro popups
-sonline.pro##+js(nowoif)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3859
 xda-developers.com##+js(rc, twig-body)
@@ -1833,7 +1823,7 @@ cointelegraph.com##div[class*="componentAdbutler_"]
 t-rocforum.de##+js(acs, $, prompt)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4398
-hyundaitucson.info##+js(aopr, adBlockEnabled)
+hyundaitucson.info##+js(rmnt, script, /adb|offsetWidth/i)
 hyundaitucson.info##.display_ads
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60310
@@ -1846,8 +1836,6 @@ ciudadblogger.com##+js(aeld, load, onload)
 cidade.iol.pt##+js(nostif, adblock detection)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60365
-telemporio4.blogspot.com##+js(noeval-if, debugger)
-telemporio4.blogspot.com##+js(acs, addEventListener, google_ad_client)
 @@||tel-emporio10.blogspot.com^$ghide
 *$image,redirect-rule=2x2.png,domain=tel-emporio10.blogspot.com
 

@@ -144,18 +144,13 @@ poophq.com,veev.to##+js(no-xhr-if, /\/preroll\.engine$/)
 @@*$ghide,domain=poophq.com|veev.to
 veev.to#@#.avb-active
 
-! https://github.com/uBlockOrigin/uAssets/issues/24575
-@@||widgets.outbrain.com/outbrain.js$xhr,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
-animefire.info,animesonlinecc.us,animesonliner4.com,animesup.info,animeyabu.net,animeyabu.org,anitube.us,anitube.vip,caroloportunidades.com.br,dattebayo-br.com,drstonebr.com,flyanimes.cloud,goanimes.vip,goyabu.us,hinatasoul.com,isekaibrasil.com,meuanime.info,otakuanimess.net,superanimes.in##+js(trusted-prevent-xhr, outbrain.com, outbrain)
-caroloportunidades.com.br,coempregos.com.br,foodiesgallery.com##+js(nostif, hasAdblock)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/20401
 infinityscans.xyz,infinityscans.net,infinityscans.org##+js(no-fetch-if, /api\/collect|api\/chapter|api-chapter/)
 infinityscans.xyz,infinityscans.net,infinityscans.org##+js(rpnt, script, /\(async function\(\)\{try\{let.*?\]\(\)\;\}\}\(\)\);/)
 infinityscans.xyz,infinityscans.net,infinityscans.org##+js(trusted-replace-outbound-text, atob, window.matchMedia('(display-mode: standalone)').matches, true)
 infinityscans.xyz,infinityscans.net,infinityscans.org##+js(nowoif, _blank)
 infinityscans.xyz,infinityscans.net,infinityscans.org##div[class="alert alert-danger alert-dismissible fade show m-0 p-0"]:has-text(uBlock Origin)
-@@*$script,denyallow=googletagmanager.com|bidgear.com,domain=infinityscans.xyz|infinityscans.net|infinityscans.org
+@@*$script,denyallow=googletagmanager.com|bidgear.com|googlesyndication.com,domain=infinityscans.xyz|infinityscans.net|infinityscans.org
 ||gd2sfh.infinityscans.net^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19935
@@ -184,15 +179,12 @@ file-1bl9ruic-moon.com,file-kg88oaak-embed.com,file-mi11ljwj-embed.com,file-zz40
 *$frame,csp=sandbox allow-downloads allow-forms allow-modals allow-same-origin allow-scripts,from=filemoon.*
 !#endif
 ||hpilzison-r.online^
-||1xzf53lo.xyz^
-||jjmrmeovo.world^
 ||kaarheciqa.xyz^
 ||klh3j19w.xyz^
 ||gxfh59u4.xyz^
 ||nubileforward.com^
 ||op3xdork.xyz^
 ||skvxbool.xyz^
-||vawk0ap3.xyz^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190943
 wiki.yjsnpi.nu###mw-content-text div[style] a:is([href*="contents.fc2.com"],[href*="dmm.co.jp"]):style(font-size: 0 !important;)
@@ -236,9 +228,6 @@ bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2[class*="b_algo"][
 exploader.net#@#article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"]:style(position: absolute !important; clip:rect(1px,1px,1px,1px) !important;)
 exploader.net#@#+js(spoof-css, article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"], clip, auto)
 exploader.net#@#+js(spoof-css, a[href^="https://al.dmm.co"], display, block)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/1h3u2b9/visiting_bkcom_burger_king_with_ublock_origin_on/
-||d1wix2gc2cgqis.cloudfront.net^$badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/26299
 entra.news,microsoftsecurityinsights.com,substack.com#@#+js(trusted-set-cookie, intro_popup_last_hidden_at, $currentDate$, , , reload, 1)

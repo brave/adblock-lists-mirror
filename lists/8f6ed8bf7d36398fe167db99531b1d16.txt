@@ -644,6 +644,7 @@ forum.4tuning.ro#?#[style="min-height: 260px;"]:-abp-has([id^="adocean"])
 4tuning.ro##.news-fb-comments
 
 gsp.ro#?#[class^="banner"]:not(*:-abp-has(.related-in-article))
+||gsp.ro/usr/widgets/*/cptm*$image
 ||gsp.ro/*/widgets*.gif$image
 ||gsp.ro^*banner$image
 ||gsp.ro/*widgets/*betfair
@@ -787,8 +788,6 @@ ziare.com##[id^="div-gpt-ad"]
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=savoriurbane.com
 @@/adsid/integrator.js$script,domain=savoriurbane.com
 @@||pagead2.googlesyndication.com/getconfig/$xmlhttprequest,domain=savoriurbane.com
-
-||i0.wp.com/arenait.ro/files/*/banner$image,domain=arenait.ro
 
 b365.ro#?#.height-250:-abp-has(.strawberry-ads)
 
@@ -1066,6 +1065,8 @@ cristianmargarit.ro##.textwidget
 7media.md##.p-b-30
 
 arenait.ro##[href^="https://msi.gm/"]
+arenait.ro##.widget_text img
+
 
 @@||stireadeazi.ro^$generichide
 stireadeazi.ro#?#.inside-right-sidebar:-abp-contains(ads)
@@ -1110,7 +1111,6 @@ stiridesibiu.ro##.adcontainer
 weradio.ro##[id^="werad"]
 weradio.ro#?#.textwidget:-abp-contains(Publicitate)
 ||weradio.ro/*banner*$image
-
 
 ||curier.ro^*/banner/$image
 ||curier.ro^*/publicitate/$image
@@ -1768,8 +1768,6 @@ newsbucuresti.ro##[href="https://www.indagra-food.ro/"]
 
 bucataras.ro##.grv-product-box
 bucataras.ro##.recomandations
-
-1tap.ro##[href^="https://freakhosting.com/"]
 
 diacritice.ro##.space
 

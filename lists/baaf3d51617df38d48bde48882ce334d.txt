@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CilS3We7QqWtKPGeedFwhA
-! Version: 202412080940
+! Checksum: 3EDGdNlsj1oiPFUsurdJqg
+! Version: 202412081040
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-12-08 09:40 UTC
+! Last modified: 2024-12-08 10:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4484,6 +4484,8 @@ travelcaffeine.com##.featherlight
 travelcaffeine.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! sfstandard.com
 sfstandard.com##body:style(height: auto !important; overflow: auto !important)
+! https://github.com/uBlockOrigin/uAssets/issues/26337
+action.com##+js(set-local-storage-item, newsletterPopupCount, 1)
 ! theverge.com
 theverge.com##.zephr-overlay
 theverge.com##.zephr-zone-footer

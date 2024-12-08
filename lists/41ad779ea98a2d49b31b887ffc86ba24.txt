@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bAJEuCNJ1k4ablAIg+5KLA
-! Version: 202412080915
+! Checksum: XSMh4Ccscg2as7SvyoAxNA
+! Version: 202412081015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-08 09:15 UTC
+! Last modified: 2024-12-08 10:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -46381,7 +46381,6 @@ corrieredellosport.it,tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,al
 corrieredellosport.it,tuttosport.com,mitele.es,as.com,mein-mmo.de,vecernji.hr,allocine.fr,francetvinfo.fr,leboncoin.fr##body,html:style(overflow: visible !important; padding-right: 0 !important; overflow-y: visible !important; overflow-x: visible !important)
 !! Didomi noop
 elconfidencial.com,euromaster.de,lavanguardia.com,strefabiznesu.pl,jofogas.hu,gamepro.de,melty.fr##+js(set, Didomi, noopFunc)
-gamestar.de##+js(rmnt, script, Didomi)
 ! mkb.hu
 mkb.hu###gdpr-consent-modal
 mkb.hu##body,html:style(overflow: auto !important; position: initial !important;)
@@ -47783,6 +47782,8 @@ travelcaffeine.com##.featherlight
 travelcaffeine.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! sfstandard.com
 sfstandard.com##body:style(height: auto !important; overflow: auto !important)
+! https://github.com/uBlockOrigin/uAssets/issues/26337
+action.com##+js(set-local-storage-item, newsletterPopupCount, 1)
 ! theverge.com
 theverge.com##.zephr-overlay
 theverge.com##.zephr-zone-footer

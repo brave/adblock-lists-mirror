@@ -215,12 +215,12 @@ karistudio.com##p.chapter_content:style(display: block !important; visibility: v
 ! https://github.com/uBlockOrigin/uAssets/issues/20907
 cursomecanet.com##+js(no-fetch-if, https, , '{"statusText": "", "type": "cors"}')
 cursomecanet.com##+js(aost, fetch, .js?)
-cursomecanet.com##a[href][target="_blank"] img:upward(div[id][style]):style(display: block !important;)
-cursomecanet.com##a[href][target="_blank"] img:upward(div[id][style]) + div[id][style*="color:"]
+cursomecanet.com##a[href][target="_blank"]:upward(div[id][style]):style(display: block !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25344
 ! https://github.com/uBlockOrigin/uAssets/pull/26342
-bing.com##+js(trusted-replace-argument, DOMTokenList.prototype.contains, 0, , condition , /^b_algo$/)
+! https://github.com/uBlockOrigin/uAssets/issues/26393
+bing.com#@#+js(trusted-replace-argument, DOMTokenList.prototype.contains, 0, , condition , /^b_algo$/)
 bing.com##li.b_algo:has(> .b_title a[href^="https://www.bing.com/aclk?"])
 bing.com##li.b_algo:has(> h2 > a[href^="https://www.bing.com/aclk?"])
 
@@ -245,3 +245,7 @@ entra.news,microsoftsecurityinsights.com,substack.com#@#+js(trusted-set-cookie, 
 
 ! https://github.com/uBlockOrigin/uAssets/issues/26348
 @@||ac.cnstrc.com^$xhr,domain=bjs.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/26392
+#@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
+#@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]

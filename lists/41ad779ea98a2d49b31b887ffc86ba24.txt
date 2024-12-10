@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cOZSOx9FjhF9RJZXqIxnxQ
-! Version: 202412100315
+! Checksum: YFy5OAQKRApP7tl0v4h5UQ
+! Version: 202412100440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-10 03:15 UTC
+! Last modified: 2024-12-10 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14181,6 +14181,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###ciar_cookie-accept-cookies
 ###ciasteczka
 ###ciasteczka-box
+###ciasteczka-info
 ###ciasteczkaInfoContainer
 ###ciasteczka_alert
 ###ciasteczko
@@ -22200,17 +22201,13 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cart_cookie
 ##.cartware_cookieconsent
 ##.case-cookie-alert
-##.cav2-notification_cookie
 ##.cb-banner
 ##.cb-cookie-bar
 ##.cb-cookie-popup
 ##.cb-cookieConsentBanner
-##.cb01-cookie-bar
 ##.cb_msgCookie
-##.cbannercontainer-sq_cp
 ##.cbar-wrapper
 ##.cbar_banner
-##.cbb-cookie-info
 ##.cbc-cookie-notice
 ##.cbc-cookie-notice__wrapper
 ##.cc-banner
@@ -22242,10 +22239,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cc-notification
 ##.cc-onconsent-analytics
 ##.cc-onconsent-social
-##.cc-policy
-##.cc-policy-overlay
 ##.cc-privacy-bottom-container
-##.cc-stop-overlay
 ##.cc-type-opt-in.cc-floating
 ##.cc-window-banner
 ##.cc-window.cookie
@@ -22262,29 +22256,14 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cc_cookie_message
 ##.cc_dialog.cc_css_reboot
 ##.cc_disclaimer_box
-##.cc_gccp-wrapper
-##.cc_overlay_lock
-##.ccbar.ccpane
 ##.ccbar_pos_bottom
-##.ccbarbody .ccpane
-##.ccc > .ccc-popup
 ##.ccc-widget
-##.ccc_banner-wrapper
-##.cccenter-show-banner
 ##.cccookie-area
-##.ccdiv
 ##.ccg-cookie-consent-banner
 ##.cck-consent-bar
-##.cck-msg
 ##.cckBannerInner
 ##.ccklayer
-##.cclayerBottom.cclayer
-##.cclist.ccpane
-##.ccm-CookieConsentPopup
-##.ccm-banner-small
-##.ccm-bottom-slide
-##.ccmcss_oic
-##.ccp-overlay-fullscreen
+##.cclayerBottom
 ##.ccpa-alert
 ##.ccpa-banner
 ##.ccpa-banner-container
@@ -22296,7 +22275,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.ccpa-notice-wrapper
 ##.ccpa-notification
 ##.ccpa-notification-banner
-##.ccpa-notification-banner_1-0
 ##.ccpa-overlay
 ##.ccpa-popup
 ##.ccpa-slideup
@@ -22307,10 +22285,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.ccpa_opt_out_reset
 ##.ccpabar
 ##.ccpacookie-banner
-##.ccwrap
-##.cczcook_banner-wrapper
-##.cd__cookie
-##.cdl-cookies
 ##.cdp-cookies-alerta
 ##.ce-banner-html
 ##.ce-cookie-banner
@@ -22327,25 +22301,16 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cerezbilgisi
 ##.cerezsorgula
 ##.cf-annoying-eu-cookie-message
-##.cf__main-block
-##.cfmCookieLayer
-##.cfrcookiebar
 ##.cg-cookie-policy-disclaimer
 ##.cg-cookie-warning
 ##.cg-cookies-banner
-##.cgu-cookie-overlay-shadow
 ##.ch-cookie-consent
 ##.ch2-dialog-bottom
 ##.change-cookie-settings
 ##.check-accept-google-analytics
-##.checkCookie
-##.checkcookie
-##.checkcookies
 ##.chimunthu-lgpd-bar-main
-##.choc-banner
 ##.chr-cookie-banner
 ##.chsoft-cookies
-##.chsoft-cookies-main
 ##.ci-privacy-hint
 ##.ci-rodo-footer
 ##.ciacho
@@ -38631,6 +38596,7 @@ perlego.com##[aria-label="cookie banner"]
 norwegianholidays.com##[aria-label="cookieconsent"]
 app.wooclap.com##[aria-labelledby="cookie-banner-title"]
 weedmaps.com##[aria-labelledby="notification_label"]
+porsche.com##[ccpa="true"]
 picarto.tv##[class*="CookieCompliance_"]
 kaspersky.com##[class*="CookiesAccept"]
 plente.com##[class*="SnackbarMessages__snackbar_"]
@@ -51171,6 +51137,8 @@ groene.nl##.c-notice
 qps.nl##.cc--window
 medischcontact.nl##.cc-popup
 bouter.nl##.cc_root
+fiber.nl##.ccm-banner-small
+fiber.nl##.ccm-bottom-slide
 vergelijk.nl##.cg-82
 vergelijk.nl##.cg-97
 dnzb.nl##.chJfPB
@@ -51456,6 +51424,7 @@ awilime.com##.afcoo
 almaimotthona.hu##.aszfLayerContent
 rtlmost.hu##.bTPlRG
 avalonpark.hu##.c-widget
+mnb.hu##.cb01-cookie-bar
 royalora.hu##.cc-holder
 milanoajto.hu##.cdisclaimer
 maxigumi.hu##.content-bottom-fullwidth

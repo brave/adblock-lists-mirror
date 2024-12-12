@@ -1003,8 +1003,8 @@ bharathwick.com##+js(rmnt, script, deblocker)
 ! https://github.com/uBlockOrigin/uAssets/issues/22851
 ! https://github.com/uBlockOrigin/uAssets/issues/24468
 ! https://github.com/uBlockOrigin/uAssets/commit/b8ec336f4f3ea793750d553129b58df543cc338d#commitcomment-139593195
-animesuge.to,aniwave.*,anix.to,bflix.to,bflixhd.to,flixflare.to,flixhive.to,flixhq.bz,flixtorz.to,fmovies24.to,hurawatch.bz,hurawatch2.to,losmoviesz.to,mangafire.to,moviestowatch.id,soap2dayx.to,watchseriesx.to##+js(nowoif, _blank)
-animesuge.to,aniwave.*,anix.to,anix.vc,bflix.to,bflixhd.to,fboxz.to,flixflare.to,flixhive.to,flixhq.bz,flixtorz.to,fmovies24.to,hurawatch.bz,hurawatch2.to,losmoviesz.to,mangafire.to,moviestowatch.id,soap2dayx.to,watchseriesx.to##+js(set-cookie, __pf, 1)
+aniwave.*,mangafire.to##+js(nowoif, _blank)
+aniwave.*,mangafire.to##+js(set-cookie, __pf, 1)
 !#if cap_html_filtering
 aniwave.*##^script:has-text(document.write)
 !#else
@@ -1251,11 +1251,7 @@ rt3dmodels.com##+js(rmnt, script, deblocker)
 plc4me.com##+js(rmnt, script, deblocker)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/22120
-@@*$ghide,domain=tutoriales-virales.blogspot.com|tyvpaste.blogspot.com|librospreuniversitariospdf.blogspot.com|preu-pdf-paste.blogspot.com
-
-! https://old.reddit.com/r/uBlockOrigin/comments/19c3qch/
-@@||fernsehzone.online^$ghide
-fernsehzone.online##.adsbygoogle
+@@*$ghide,domain=tutoriales-virales.blogspot.com|tyvpaste.blogspot.com|preu-pdf-paste.blogspot.com
 
 ! krx18.com
 krx18.com##center > [src*="/ads/"]
@@ -1294,6 +1290,8 @@ hole-io.com##.webgl-content:style(width: 100% !important;)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171445
 x-x-x.tube##+js(aopr, popns)
+x-x-x.tube##+js(rmnt, script, location)
+x-x-x.tube##+js(set-cookie, aawsmackeroo0, 1)
 
 ! Video ads on nsfw sites
 /theme/002/js/application.js?2.0|$script,1p,replace=/video\.maxPop/0/

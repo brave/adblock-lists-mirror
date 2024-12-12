@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.5.2
+! Version: 3.9.5.3
 
 ! General
 
@@ -207,9 +207,9 @@ journaldunet.com##+js(ra, style, div.entry_reg_wall[style])
 krautreporter.de##.js-article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
+ksta.de,rundschau-online.de##+js(cookie-remover, anon_cookie)
 ksta.de,rundschau-online.de##+js(ra, style, div[data-article-content], stay)
 ksta.de,rundschau-online.de##div.dm-paywall-wrapper,div.dm-slot,div.dm-zephr-banner
-||cleverpush.com^$script,domain=ksta.de|rundschau-online.de
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=kurier.at
 kurier.at##+js(ra, class|style, div.paywall)
 kurier.at##div#cfs-paywall-container

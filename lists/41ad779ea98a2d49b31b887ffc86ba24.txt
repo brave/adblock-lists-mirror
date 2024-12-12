@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9wE/4ToYMFxFcEauYH56JA
-! Version: 202412121015
+! Checksum: BdhRBoZGJIPdekqMaGQ6KA
+! Version: 202412121115
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-12 10:15 UTC
+! Last modified: 2024-12-12 11:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14928,7 +14928,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie-notif
 ###cookie-notifcation-banner
 ###cookie-notifica
-###cookie-notification
 ###cookie-notification-banner
 ###cookie-notification-banner-wrapper
 ###cookie-notification-bar
@@ -38505,6 +38504,7 @@ jooble.org##[data-test-name="_termsOfServices"]
 intermatic.com##[data-test-selector="drawer_CookiePolicy"]
 backmarket.com##[data-test="banner"]
 pleo.io##[data-testid="cookie-banner-wrapper"]
+trello.com##[data-testid="cookies-consent-banner"]
 airhelp.com##[data-testid="cookiesNotice"]
 spectrum.ieee.org##[data-toggle-property="gdpr"]
 oneclickcover.com##[data-v-5f675fc8]
@@ -43732,6 +43732,7 @@ uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 billetterie.auditorium-lyon.com##+js(set-cookie, ga_consentement, 0)
 readly.com##+js(set-cookie, ReadlyCookieConsent, 7, , reload , 1)
+dresscode-knoppers.de##+js(set-cookie, trackingAccepted, true)
 taiwantrade.com##+js(set-cookie, _cmsCookieaccept, Y)
 grizly.hu,grizly.sk,grizly.ro,grizly.pl,grizly.cz##+js(set-cookie, mCs-chk, 1)
 beta-accounts.paradoxinteractive.com##+js(set-cookie, cookies_accepted, true)
@@ -45344,6 +45345,10 @@ veiligverkeer.be,rodekruis.be,workshopsveiligverkeer.be,vsv.be###cookieconsent-o
 !! .cookie-preferences-forms
 nationaltrust.org.uk##.cookie-preferences-forms
 nationaltrust.org.uk##body:style(position: static !important; overflow: auto !important; width: auto !important;)
+!! reliablecontrols.com
+reliablecontrols.com###cookieNotice
+reliablecontrols.com##.modal-backdrop
+reliablecontrols.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 !! .c-cookie-preferences
 unitedutilities.com##.c-cookie-preferences
 unitedutilities.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -54032,7 +54037,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
 @@||pohjanmaanhyvinvointi.fi^*/pwd-cookie-consent.
-@@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
+@@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|velliv.dk|whiteaway.com|whiteaway.no|whiteaway.se
 @@||portal-frontend.plarium.com/client/cookiesbanner.js$script,~third-party
 @@||portal.aae.at^*/cookieconsent.js$script,~third-party
 @@||portal.energie-graz.at/kundenportal/css/cookieconsent/$~third-party

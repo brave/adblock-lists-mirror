@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: sbggSBAv3Xrd28Q5Pen+Cg
+! Checksum: yygC+IxjuYhB4C0bqs5T/g
 ! Title: Easylist Cookie List
-! Updated: 2024-12-12 09:40 UTC
+! Updated: 2024-12-12 10:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23782,6 +23782,10 @@ par71.de,jawoll.de,moebel-as.de,buss-wohnen.de,mline.com,bikebox-shop.de,electro
 !! lpi.org
 lpi.org###BorlabsCookieBox
 lpi.org##body:style(overflow: auto !important; position: initial !important;)
+! istore.co.za
+istore.co.za##.header-slideout-overlay-cookie
+istore.co.za##.cookie
+istore.co.za##+js(rc, no-scroll, body, stay)
 !! .filter-modal-background
 tulodz.pl,solarkurier.pl,satkurier.pl##.filter-modal-background
 tulodz.pl,solarkurier.pl,satkurier.pl##body,html:style(overflow: auto !important; position: initial !important;)

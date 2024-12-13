@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: HdzkqFFqccgxFkJ9UoddyQ
+! Checksum: LJXP6ghE4TBusjvYIdROCw
 ! Title: Easylist Cookie List
-! Updated: 2024-12-13 11:15 UTC
+! Updated: 2024-12-13 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3141,7 +3141,6 @@
 ###cookie-info-panel
 ###cookie-info-pannel
 ###cookie-info-rodo
-###cookie-info-text
 ###cookie-info-wrapper
 ###cookie-infobar
 ###cookie-inform
@@ -6421,7 +6420,6 @@
 ###gdpr-cookie-hint
 ###gdpr-cookie-info
 ###gdpr-cookie-law
-###gdpr-cookie-message
 ###gdpr-cookie-message-container
 ###gdpr-cookie-message-overlay
 ###gdpr-cookie-notice
@@ -11353,7 +11351,6 @@
 ##.cookie-info-overlay
 ##.cookie-info-slider
 ##.cookie-info-strip
-##.cookie-info-text
 ##.cookie-info-wrapper
 ##.cookie-info__panel
 ##.cookie-info__panel--show
@@ -17629,7 +17626,6 @@
 ##div.cookie-hint
 ##div.cookie-hinweis
 ##div.cookie-hold
-##div.cookie-info
 ##div.cookie-msg
 ##div.cookie-notice
 ##div.cookie-notice-big
@@ -22150,6 +22146,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 billetterie.auditorium-lyon.com##+js(set-cookie, ga_consentement, 0)
+dirtbikexpress.co.uk##+js(set-cookie, _dbe_cookies_accepted, 1)
 readly.com##+js(set-cookie, ReadlyCookieConsent, 7, , reload , 1)
 dresscode-knoppers.de##+js(set-cookie, trackingAccepted, true)
 taiwantrade.com##+js(set-cookie, _cmsCookieaccept, Y)
@@ -23990,6 +23987,9 @@ mujkaktus.cz##body:style(position: static !important; overflow: auto !important;
 ! adidas.co.ma
 adidas.co.ma##.veil
 adidas.co.ma##body:style(position: static !important; overflow: auto !important; width: auto !important;)
+! swd-darmstadt.de
+swd-darmstadt.de###cookie-notice
+swd-darmstadt.de##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 ! internetaptieka.lv
 internetaptieka.lv##.cookie-notify__wrap
 internetaptieka.lv##body:style(position: static !important; overflow: auto !important; width: auto !important;)
@@ -29320,7 +29320,6 @@ japanrailpass.net#@##cookie-accept
 feierabend.de,vrtranspoint.fi#@##cookie-banner
 praca.by#@##cookie-confirm
 channel4.com#@##cookie-consent-banner
-unobike.com#@##cookie-info
 bike-supply.de#@##cookie-jar
 mypensiontracker.co.uk#@##cookie-law
 gogolf.fi#@##cookie-law-info-again
@@ -29433,8 +29432,6 @@ squla.nl#@#.cookie-info-block
 stilord.com,stilord.de,stilord.fr,stilord.pl#@#.cookie-info-box
 qatarairways.com#@#.cookie-info-container
 mediamarkt.de,mediamarkt.nl#@#.cookie-info-modal
-asialadies.de,avladies.de,badeladies.de,behaarteladies.de,bizarrladies.de,busenladies.de,deutscheladies.de,devoteladies.de,dominanteladies.de,erfahreneladies.de,escorts24.de,exklusivladies.de,fkk24.de,grosseladies.de,hobbyladies.de,jungeladies.de,kollegin.de,kussladies.de,ladies.de,latinaladies.de,massierendeladies.de,mollyladies.de,nsladies.de,nymphomaneladies.de,orientladies.de,osteuropaladies.de,piercingladies.de,rasierteladies.de,schokoladies.de,tattooladies.de,tsladies.de,zaertlicheladies.de,zierlicheladies.de#@#.cookie-info-text
-asialadies.de,avladies.de,badeladies.de,behaarteladies.de,bizarrladies.de,busenladies.de,deutscheladies.de,devoteladies.de,dominanteladies.de,erfahreneladies.de,escorts24.de,exklusivladies.de,fkk24.de,grosseladies.de,hobbyladies.de,jungeladies.de,kollegin.de,kussladies.de,ladies.de,latinaladies.de,massierendeladies.de,mollyladies.de,nsladies.de,nymphomaneladies.de,orientladies.de,osteuropaladies.de,piercingladies.de,rasierteladies.de,schokoladies.de,tattooladies.de,tsladies.de,zaertlicheladies.de,zierlicheladies.de#@#.cookie-info:not(body):not(html)
 foodnetwork.it,kramp.com#@#.cookie-message:not(html):not(body)
 tennisassa.fi#@#.cookie-monster
 findagrave.com#@#.cookie-msg

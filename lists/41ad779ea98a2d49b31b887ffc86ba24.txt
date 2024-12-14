@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1l+/PiKz5+nMwTti/fquPg
-! Version: 202412141115
+! Checksum: 6yMT3Yc69J3Hqbcp7Qua2Q
+! Version: 202412141215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-14 11:15 UTC
+! Last modified: 2024-12-14 12:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15866,7 +15866,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie_consent_popup
 ###cookie_consent_wall
 ###cookie_cont
-###cookie_container
 ###cookie_content
 ###cookie_control_popup
 ###cookie_controller
@@ -44672,6 +44671,7 @@ posthog.com##+js(set-local-storage-item, cookie_consent, no)
 shop.ba.com##+js(set-local-storage-item, iag-targeting-consent, "no")
 shop.ba.com##+js(set-local-storage-item, iag-performance-consent, "no")
 uc.pt##+js(set-local-storage-item, userDeniedCookies, 1)
+tme.eu##+js(set-local-storage-item, necessary_cookie_confirmed, true)
 tennessine.co.uk##+js(set-local-storage-item, cookies, 0)
 greubelforsey.com##+js(set-local-storage-item, rgpd.consent, 1)
 snipp.gg##+js(set-local-storage-item, hasConsent, false)
@@ -47197,6 +47197,9 @@ lisbonsaobentohotel.pt##body,html:style(overflow: auto !important; position: ini
 ! reserved.com
 reserved.com###cookiebanner
 reserved.com##body,html:style(overflow: auto !important; position: initial !important;)
+! eplanusa.com
+eplanusa.com###cookie_container
+eplanusa.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! above9.travel
 above9.travel##.backdrop-blur-1
 above9.travel##body,html:style(overflow: auto !important; position: initial !important;)
@@ -53576,6 +53579,7 @@ cam.start.canon,s-court.me#@#.cookie_accept
 crazy-factory.com#@#.cookie_banner
 pressassociation.com#@#.cookie_bar
 security.nl#@#.cookie_consent:not(body):not(html)
+igraonice.hr#@#.cookie_gdpr
 withings.com#@#.cookie_message
 mitsubishielectric.com#@#.cookie_policy
 inkblot.art,marokko.nl#@#.cookiealert

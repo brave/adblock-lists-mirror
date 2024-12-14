@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b9PBlg/UENHaP8+XcfMKyQ
-! Version: 202412140640
+! Checksum: B0eVjliqBy3OW2RjcXPvew
+! Version: 202412140740
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-14 06:40 UTC
+! Last modified: 2024-12-14 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -47195,6 +47195,9 @@ talksport.com,loudersound.com,impulse.de,pcgamer.com,infoworld.com,kiplinger.com
 ! lisbonsaobentohotel.pt
 lisbonsaobentohotel.pt##.tpl-cookie
 lisbonsaobentohotel.pt##body,html:style(overflow: auto !important; position: initial !important;)
+! reserved.com
+reserved.com###cookiebanner
+reserved.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! above9.travel
 above9.travel##.backdrop-blur-1
 above9.travel##body,html:style(overflow: auto !important; position: initial !important;)
@@ -53940,6 +53943,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||securiti.ai^$script,domain=alaskaair.com|hertz.at|hertz.co.uk|hertz.de|hertz.es|hertz.fi|hertz.fr|hertz.ie|hertz.it|hertz.no|hertz.pt|hertz.se
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js
+@@||shop.tudelft.nl/*/Amasty_GdprFrontendUi/$script,~third-party
 @@||sonnenverlauf.de/scripts/cookieconsent.min.js$~third-party
 @@||sourcepoint.mgr.consensu.org^$domain=t3n.de
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com

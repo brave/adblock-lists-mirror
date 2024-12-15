@@ -3617,6 +3617,7 @@ uploadmall.com#@#.advblock
 uploadmall.com##+js(set, navigator.brave, undefined)
 uploadmall.com##+js(nowoif, zigi_tag_id, 10, obj)
 @@||dcbbwymp1bhlf.cloudfront.net^$script,domain=uploadmall.com
+@@||publisher.linkvertise.com/cdn/linkvertise.js$script,domain=uploadmall.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25435
 app.involve.asia#@#.ads-banner
@@ -4451,3 +4452,9 @@ youtubetowav.net##+js(nowoif, _blank)
 ||wiki.yjsnpi.nu/comments/$script,replace=/(\);\}\}function [A-Za-z]+\([A-Za-z]?\)\{const [a-z]+=[A-Z]\,(?:const )?[a-z]+=[A-Z]).{500\,2000}\]\(\)\)\);\}/\$1}/
 wiki.yjsnpi.nu##^script[src^="/w/load.php?lang=ja&modules="][defer]:not(async)
 !#endif
+
+! https://github.com/uBlockOrigin/uAssets/issues/26475
+filmizleplus.cc##+js(rpnt, script, /(function reklamla\([^)]+\) {)/, $1rekgecyen(0);)
+
+! naruldonghua .com detection
+naruldonghua.com##+js(noeval-if, adsbygoogle)

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202412161156
+! Version: 202412161230
 ! Title: EasyList
-! Last modified: 16 Dec 2024 11:56 UTC
+! Last modified: 16 Dec 2024 12:30 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -379,7 +379,7 @@
 /ban.php?
 /ban728x90.$image
 /banman/ad.aspx$image
-/banner-ad.$~script
+/banner-ad.$~script,~xmlhttprequest
 /banner-ads-rotator/*$script,stylesheet
 /banner-ads/*$image,domain=~1agosto.com
 /banner-affiliate-$image
@@ -622,7 +622,6 @@
 /plugins/popunderpro/*$script
 /plugins/thirstyaffiliates/*$script,stylesheet
 /plugins/ultimate-popunder/*$~stylesheet
-/plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
 /pop_8/pop_8_$script
 /popin-min.js$script

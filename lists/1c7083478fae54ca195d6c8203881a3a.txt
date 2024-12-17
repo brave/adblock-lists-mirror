@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.6.1
+! Version: 3.9.6.2
 
 ! General
 
@@ -313,6 +313,8 @@ spektrum.de##+js(rc, pw-premium, article.pw-premium)
 ||spglobal.com$inline-script
 spglobal.com##.article__overlay
 spglobal.com##+js(ra, class, html, stay)
+standardmedia.co.ke##+js(ra, id, div#js-enabled)
+standardmedia.co.ke##div#js-disabled
 staradvertiser.com##div.fade
 staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
 staradvertiser.com##+js(rc, overflow-hidden, body.overflow-hidden)

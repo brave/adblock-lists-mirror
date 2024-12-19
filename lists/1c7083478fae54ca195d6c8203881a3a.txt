@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.6.2
+! Version: 3.9.6.3
 
 ! General
 
@@ -39,7 +39,6 @@ gadget.pico.tools##+js(json-prune, locked)
 ||steadyhq.com^$script,third-party
 ||wallkit.net/js/$script,third-party
 ||zephr.com/zephr-browser/$script,third-party
-@@||zephr.com/zephr-browser/$script,domain=theverge.com
 /arc/subs/p.min.js$script,~third-party
 @@/arc/subs/p.min.js$script,domain=latercera.com|nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party
@@ -326,6 +325,7 @@ study.com##div.article-cutoff-div
 ||suomensotilas.fi/wp-content/plugins/epflpw/js/pw.js$script,~third-party
 suomensotilas.fi##+js(rc, epfl-pw-obscured, div.epfl-pw-obscured)
 ||telegraph.co.uk/martech/js/$script,~third-party
+tempo.co##+js(ra, class, article>div:not([class]) div.overflow-hidden, stay)
 tes.com##+js(cookie-remover, /tg_paywall/)
 tes.com##+js(ra, class, div.tg-paywall-body-overlay)
 tes.com##div.js-paywall-info,div.tg-paywall-message

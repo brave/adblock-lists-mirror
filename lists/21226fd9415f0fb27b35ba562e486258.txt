@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: t7c4VQDj2hXJpl1Ty42tpA
+! Checksum: N0W0hGa2JPOtsolLuOplew
 ! Title: Easylist Cookie List
-! Updated: 2024-12-19 11:15 UTC
+! Updated: 2024-12-19 12:15 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -5143,7 +5143,6 @@
 ###cookiesWarningLoginPopUp
 ###cookiesWarningMessage
 ###cookiesWidget
-###cookiesWindow
 ###cookiesWrap
 ###cookiesWrapper
 ###cookies[data-region-id="cookies"]
@@ -10209,10 +10208,8 @@
 ##.c-consentcookie
 ##.c-consentcookie--active
 ##.c-cookie--disclaimer
-##.c-cookie-banner
 ##.c-cookie-banner--default
 ##.c-cookie-banner-container
-##.c-cookie-banner__wrapper
 ##.c-cookie-banner_background
 ##.c-cookie-banner_modal
 ##.c-cookie-block
@@ -12884,7 +12881,6 @@
 ##.cookiesWarning
 ##.cookiesWarning-container
 ##.cookiesWarningContainer
-##.cookiesWindow
 ##.cookiesWr
 ##.cookiesWrap
 ##.cookiesWrapper
@@ -24126,6 +24122,10 @@ igbce.de##body:style(overflow: auto !important; position: initial !important;)
 ! kbv.de
 116117.de,kbv.de###dialog_layer
 116117.de,kbv.de##body:style(overflow: auto !important; position: initial !important;)
+! .c-cookie-banner
+mainlinemenswear.co.uk##.c-cookie-banner
+mainlinemenswear.co.uk##.c-cookie-banner__wrapper
+mainlinemenswear.co.uk##html:style(overflow: auto !important; position: initial !important;)
 ! theateramrand.de
 theateramrand.de###cookiebannerModal
 theateramrand.de##+js(rc, messages-active, , stay)

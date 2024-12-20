@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202412201224
+! Version: 202412201602
 ! Title: EasyList
-! Last modified: 20 Dec 2024 12:24 UTC
+! Last modified: 20 Dec 2024 16:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -18,11 +18,9 @@
 ! *** easylist:easylist/easylist_general_block.txt ***
 -ad-300x600-
 -ad-458x80.
--ad-bottom-
 -ad-manager/$~stylesheet
 -ad-right.
 -ad-sidebar.
--ad-unit.
 -ad-util.
 -ad.jpg.pagespeed.
 -ads-banner.
@@ -40,7 +38,6 @@
 -page-ad.
 -page-peel/
 -PcmModule-Taboola-
--peel-ads-
 -popexit.
 -popunder.
 -publicidad.
@@ -848,7 +845,6 @@
 ://pt.*?psid=$third-party
 ://sli.*/imp?s=$image
 ://uads.$third-party,xmlhttprequest
-=half-page-ad&
 ?ab=1&zoneid=
 ?adspot_$domain=~sponichi.co.jp
 ?adunitid=
@@ -1088,7 +1084,6 @@ _prebid.js
 ! 
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
-?zoneid=*&ab=1
 ! linkbucks.com script
 /webservices/jsparselinks.aspx?$script
 ! domain parking redirection
@@ -1125,7 +1120,7 @@ _atblockdetector/
 -120x600.
 -120x600_
 -160-600.
--160x600-
+-160x600-$image,subdocument
 -160x600.
 -160x600_
 -300-250.
@@ -25978,6 +25973,7 @@ browsershots.org#@#.advert_area
 ||gjonfartyb.com^
 ||gjwos.org^
 ||gk79a2oup.com^
+||gkaosmmuso.com^
 ||gkbhrj49a.com^
 ||gkbvnyk.com^
 ||gkcltxp.com^
@@ -28612,6 +28608,7 @@ browsershots.org#@#.advert_area
 ||jhulubwidas.com^
 ||jhwo.info^
 ||jicamadoless.com^
+||jicamasosteal.shop^
 ||jiclzori.com^
 ||jifflebreasts.com^
 ||jighucme.com^
@@ -36733,6 +36730,7 @@ browsershots.org#@#.advert_area
 ||rungoverjoyed.com^
 ||runicforgecrafter.com^
 ||runingamgladt.com^
+||runklessubact.top^
 ||runmixed.com^
 ||runningdestructioncleanliness.com^
 ||runtnc.net^
@@ -37789,6 +37787,7 @@ browsershots.org#@#.advert_area
 ||skirtastelic.shop^
 ||skirtimprobable.com^
 ||skivingepileny.top^
+||skjbqcqgw.com^
 ||skltrachqwbd.com^
 ||skohssc.cfd^
 ||skolvortex.com^
@@ -40898,6 +40897,7 @@ browsershots.org#@#.advert_area
 ||utarget.pro^
 ||utarget.ru^
 ||utecsfi.com^
+||utendpacas.top^
 ||uthorner.info^
 ||uthounie.com^
 ||utilitypresent.com^
@@ -47410,6 +47410,7 @@ browsershots.org#@#.advert_area
 ||jfkc5pwa.world^$popup
 ||jggegj-rtbix.top^$popup
 ||jhsnshueyt.click^$popup
+||jicamasosteal.shop^$popup
 ||jillbuildertuck.com^$popup
 ||jjcwq.site^$popup
 ||jjmrmeovo.world^$popup
@@ -61024,6 +61025,7 @@ yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
 youtube.com###masthead-ad
+youtube.com###mealbar-promo-renderer
 youtube.com###player-ads
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
 youtube.com##.YtdShortsSuggestedActionStaticHostContainer

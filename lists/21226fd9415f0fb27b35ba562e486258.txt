@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: ndoh6UsAzkphtrgJygU9Xw
+! Checksum: OLQ8MbhYye11V8w5le8QWg
 ! Title: Easylist Cookie List
-! Updated: 2024-12-19 22:40 UTC
+! Updated: 2024-12-20 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -11073,7 +11073,6 @@
 ##.cookie-consent-wrapper
 ##.cookie-consent.bottom
 ##.cookie-consent.invers
-##.cookie-consent.show
 ##.cookie-consent.shown
 ##.cookie-consent[data-closable]
 ##.cookie-consent[data-controller]
@@ -22147,6 +22146,7 @@ travelinsured.com##+js(set-cookie, CookieDisclaimer, 1)
 gdpr.twitter.com##+js(set-cookie, twtr_pixel_opt_in, N)
 mora.hu##+js(set-cookie, RBCookie-Alert, 1)
 confused.com##+js(set-cookie, CookieConsentV4, false)
+reclutamiento.defensa.gob.es##+js(set-cookie, MDEF_COOKIE_CONSENT_1595777, true, , reload, 1)
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at,cic.ch,vu.lt##+js(set-cookie, cookieconsent_status, allow)
 tryhackme.com##+js(set-cookie, cookieconsent_status, dismiss)
 ilsaggiatore.com##+js(set-cookie, cookies_analytics_enabled, 0, , reload, 1)

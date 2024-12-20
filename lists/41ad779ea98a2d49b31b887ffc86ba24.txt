@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HG5xseJXiN9vNrcUptmv4Q
-! Version: 202412192215
+! Checksum: Da5GG+LH2khTimH7J5/ujA
+! Version: 202412192340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-19 22:15 UTC
+! Last modified: 2024-12-19 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -22697,7 +22697,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-consent-wrapper
 ##.cookie-consent.bottom
 ##.cookie-consent.invers
-##.cookie-consent.show
 ##.cookie-consent.shown
 ##.cookie-consent[data-closable]
 ##.cookie-consent[data-controller]
@@ -43593,6 +43592,7 @@ travelinsured.com##+js(set-cookie, CookieDisclaimer, 1)
 gdpr.twitter.com##+js(set-cookie, twtr_pixel_opt_in, N)
 mora.hu##+js(set-cookie, RBCookie-Alert, 1)
 confused.com##+js(set-cookie, CookieConsentV4, false)
+reclutamiento.defensa.gob.es##+js(set-cookie, MDEF_COOKIE_CONSENT_1595777, true, , reload, 1)
 physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at,cic.ch,vu.lt##+js(set-cookie, cookieconsent_status, allow)
 tryhackme.com##+js(set-cookie, cookieconsent_status, dismiss)
 ilsaggiatore.com##+js(set-cookie, cookies_analytics_enabled, 0, , reload, 1)

@@ -765,9 +765,6 @@ sydan.fi##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2
 ! Video - Targeting cookie
 thejournal.ie##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A1)
 
-! Mandatory + Functional - chat doesn't work
-cmore.fi##+js(trusted-set-cookie, OptanonConsent, groups=1%3A1%2C2%3A0%2C3%3A1%2C4%3A0%2C5%3A0%2CBG40%3A0%2CBG41%3A0%2CBG42%3A0, 1year)
-
 ! https://www.europe1.fr/direct-video
 ! Video - Content cookie
 europe1.fr##+js(trusted-set-cookie, euconsent-v2, CPuy0IAPuy0IAAHABBENDNCgAAAAAAAAAAAAJNFB_G5cSWNhOHJvY9tUaQ0HwFR4o6AgDgCZA4wBCRIAMIwF0GAAIEBAIAgAAAAEAAJAAAAEAAHAAAAAAIEBASCIAEAAIBAAICAAAAABQgAACABJGwAAEAAAAEQEABQAgAIAQBuAQEAAAAAAAAAAAAgBAABBAAAAAAAgAAAIAAAAAAgAEAAAAAAAAAAAABAAEAAAAAEAAABIaADAAEExRUAGAAIJihIAMAAQTFEQAYAAgmKMgAwABBMUdABgACCYpCADAAEExSUAGAAIJilIAMAAQTFA.YAAAAAAAAAAA)
@@ -2009,3 +2006,6 @@ dave.com##+js(trusted-set-cookie, daveConsentChoices, '{"analytics_storage":"den
 
 ! Necessary + functional
 nordnet.fi##+js(trusted-set-cookie, consent_cookie, functional%2Cnecessary, 1year, , reload, 1)
+
+! Necessary + functional
+sportamore.com##+js(trusted-set-cookie, _pandectes_gdpr, eyJzdGF0dXMiOiJjdXN0b20iLCJ0aW1lc3RhbXAiOjE3MzQ3OTQ2MjQsInByZWZlcmVuY2VzIjo2LCJpZCI6IjY3NjZkZDgxY2VmNzg3NzE0ZjU4YzAxZSJ9, 1year)

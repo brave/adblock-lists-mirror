@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: csz2di8qqgQhxqu7rgGa9A
-! Version: 202412230815
+! Checksum: 1SWr+Gn/9ehPstGTz8131g
+! Version: 202412230915
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-23 08:15 UTC
+! Last modified: 2024-12-23 09:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -27772,8 +27772,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.show.udc-ovr
 ##.showGDPR
 ##.showPrivacyCookie
-##.show[class*="cookie-notice"]
-##.show_cookie:not(body):not(html)
 ##.show_cookies
 ##.showed-cookie-notice
 ##.showed.cookies
@@ -28929,7 +28927,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div.cookie-consent-popup
 ##div.cookie-consent-show
 ##div.cookie-consent-window
-##div.cookie-details
 ##div.cookie-directive
 ##div.cookie-disclamer
 ##div.cookie-disclosure
@@ -43330,6 +43327,7 @@ uhrzeit123.de##+js(set-cookie, ga-disable, true)
 yambits.co.uk##+js(set-cookie, acceptcookies, no, , reload, 1)
 tutu.ru##+js(set-cookie, disclaimer_show, 1)
 couplechallenge.com,gavelo.com,allgaeuer-wanderimkerei.de,kristallkraft-pferdefutter.de,everjump.fit,okimono.nl,snocks.com,pureness.se,quiet-books.com,pfotenmond.de,dynmcyou.com,geurwolkje.nl,hodalump-ratschkatl.de,mamm.ch,saricurls.de,snockscoffee.com,hodalump.com,alljigsawpuzzles.*##+js(set-cookie, _pandectes_gdpr, 1)
+shop.kurhessen-therme.de##+js(set-cookie, cookies_mandatory, true)
 traqq.com##+js(set-cookie, CookieAccept, true)
 fantasypros.com##+js(set-cookie, fp_policy, 1)
 ol-webshop.com##+js(set-cookie, cookie_consent_user_accepted, true)
@@ -46799,9 +46797,6 @@ dabbolig.dk##body,html:style(overflow: auto !important; position: initial !impor
 skforsyning.dk##.lbOuterWrapper
 skforsyning.dk##.lbOverlay
 skforsyning.dk##body,html:style(height: auto !important; overflow: auto !important)
-! dr.dk
-dr.dk###drcc-overlay
-dr.dk##body,html:style(height: auto !important; overflow: auto !important)
 ! pasteleria.com
 pasteleria.com###cookieAlertModal
 pasteleria.com##.modal-backdrop

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.6.5
+! Version: 3.9.6.6
 
 ! General
 
@@ -14,6 +14,7 @@
 ||blueconic.net^$third-party
 /[a-z]{1}\d{2,3}\.\w+\.(co(m|\.uk)|net|org)\/script\.js/$script,~third-party
 ||cxense.com^$script,third-party
+||cxense.com^$script,domain=bizjournals.com,important
 @@||cxense.com^$script,domain=journaldemontreal.com|journaldequebec.com|wsj.com
 ||ensighten.com/*/Bootstrap.js$script,third-party
 ||evolok.net^$third-party

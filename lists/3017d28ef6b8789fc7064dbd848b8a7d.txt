@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202412252045
+! Version: 202412252200
 ! Title: EasyPrivacy
-! Last modified: 25 Dec 2024 20:45 UTC
+! Last modified: 25 Dec 2024 22:00 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -14427,7 +14427,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ph.thenextweb.com^
 ||phonearena.com/_track.php
 ||pi.ai/proxy/api/event
-||pie.org/collect?
+||pie.org/g/collect?
 ||pikbest.com/?m=Stats&
 ||ping.hashnode.com^
 ||ping.hungama.com^
@@ -15457,8 +15457,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$script,redirect=noop.js,important
 ||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$script,redirect=noop.js,important
 ! GPC
-visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
+livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ! Clear GPC storage item
 visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 ! server-side GTM

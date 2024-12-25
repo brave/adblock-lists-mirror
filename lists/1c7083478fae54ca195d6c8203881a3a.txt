@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.6.6
+! Version: 3.9.6.7
 
 ! General
 
@@ -616,7 +616,6 @@ gothamist.com##div.wall-wrapper
 hcn.org##+js(ra, content, meta[name="UID"])
 heatmap.news##+js(ra, style, div.body-description, stay)
 heatmap.news##div.regwall-container
-||heraldo.es/noticias/$inline-script
 inman.com##+js(rc, paywalled-block, .paywalled-block)
 inman.com##+js(ra, class, div.entry-content-inner)
 inman.com##div.content-wrap > div:not([class]):style(margin: 5% !important)
@@ -655,11 +654,11 @@ narcity.com##+js(ra, style, div.body-description[style], stay)
 narcity.com##div#login-wall,div#overlay,div.brid-container,div.brandsnippet-article,div[class$='ad-wrapper']
 ||newbostonpost.com/*/paywall/js/main.js$script,~third-party
 newoxfordreview.org##+js(rc, not-viewable, div.not-viewable)
-nu.nl##+js(rc, authorized-content, div.authorized-content)
+nu.nl##+js(rc, authorized-content, div.authorized-content, stay)
+nu.nl##+js(rc, semi-authorized-content, div.semi-authorized-content, stay)
 nu.nl##article#LOGIN
 ||odt.co.nz/bwtw/scripts/tw.js$script,~third-party
 odt.co.nz##+js(ra, property, div[property="content:encoded"])
-onet.pl##+js(cookie-remover, /^xbc/)
 ||opovo.com.br/*/js/auth/auth_new_menu.min.js$script,~third-party
 ||pebmed.com.br/wp-content/*/paywall/dist/js/app.js$script,~third-party
 ||perspectivemedia.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party

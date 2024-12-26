@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: qi93OwI11ejjztD+qzeJYg
+! Checksum: utZCQNM4+saTMJycGMK++Q
 ! Title: Easylist Cookie List
-! Updated: 2024-12-26 09:40 UTC
+! Updated: 2024-12-26 10:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -12522,7 +12522,6 @@
 ##.cookies-info-box
 ##.cookies-info-container
 ##.cookies-info-static
-##.cookies-info:not(html):not(body)
 ##.cookies-info_banner
 ##.cookies-infobar
 ##.cookies-information
@@ -12648,7 +12647,6 @@
 ##.cookies-stripe
 ##.cookies-style
 ##.cookies-tema-blanco
-##.cookies-text
 ##.cookies-tip
 ##.cookies-tooltip
 ##.cookies-top
@@ -21857,6 +21855,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 yambits.co.uk##+js(set-cookie, acceptcookies, no, , reload, 1)
+investmap.pl##+js(set-cookie, rodo, 1, , reload, 1)
 tutu.ru##+js(set-cookie, disclaimer_show, 1)
 bigbank.nl##+js(set-cookie, _ck_decision, 1)
 berkeleygroup.digital##+js(set-cookie, BGDESKTOP_TERMS, 1)
@@ -23639,6 +23638,9 @@ malerblatt-medienservice.de,architekturbuch.de,medienservice-holz.de,leuchtstark
 !! .cookies-widget--light
 habitatparisien.com,giens.com,the-only-place.com,nerjaparadiserentals.com,rent-paris.com,mallorcaprivilege.com,rentlikehome.com,le-regent.fr,ma-villa-en-provence.fr,sleepaways.com,zewelcome.com,locastay.com,majordome-prive.fr,tahitiresidences.com,clickyourflat.com,benakey.com,conciergerie-remigriffoul.com,anderslocation.com,pelican-paros.com,smrraurisapartments.com,rose-vacances.com,casavaleriosb.com,carlton-riviera-cannes.com,sivotavillashotel.com,booking-locly.com,benakey.com,bookingsync.com##.cookies-widget--light
 habitatparisien.com,giens.com,the-only-place.com,nerjaparadiserentals.com,rent-paris.com,mallorcaprivilege.com,rentlikehome.com,le-regent.fr,ma-villa-en-provence.fr,sleepaways.com,zewelcome.com,locastay.com,majordome-prive.fr,tahitiresidences.com,clickyourflat.com,benakey.com,conciergerie-remigriffoul.com,anderslocation.com,pelican-paros.com,smrraurisapartments.com,rose-vacances.com,casavaleriosb.com,carlton-riviera-cannes.com,sivotavillashotel.com,booking-locly.com,benakey.com,bookingsync.com##body,html:style(overflow: auto !important; position: initial !important;)
+!! #cookies-popup
+sumissura.com###cookies-popup
+sumissura.com##body,html:style(overflow: auto !important; position: initial !important;)
 !! _modal_outer_
 steirerjobs.at,eliis.eu,flip.ro,zvsaar.de,visittallinn.ee,inbank.ee,ekoplaza.nl,offshoreleaks.icij.org##div[id*="_modal_outer_"]
 steirerjobs.at,eliis.eu,flip.ro,zvsaar.de,visittallinn.ee,inbank.ee,ekoplaza.nl,offshoreleaks.icij.org##body,html:style(overflow: auto !important; position: initial !important;)

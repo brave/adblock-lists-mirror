@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f0BajIv6/nIzQ0IucrcVkg
-! Version: 202412270940
+! Checksum: adglN7RfrK0mnEAlqjSGtg
+! Version: 202412271015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-27 09:40 UTC
+! Last modified: 2024-12-27 10:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36528,6 +36528,7 @@ m.tomtop.com##.bm_dialog
 m.tomtop.com##.bm_dialogBg
 alle.com##.bnjRmV
 copilot.microsoft.com##.bnp_cookie_banner
+nhm.ac.uk##.body-overlay
 ulysse.com##.border-dark-10.border.rounded.shadow
 educative.io##.border-primary-lightP1.border-t.flex-col.flex
 algolia.com##.bot-0.left-0
@@ -47446,6 +47447,8 @@ history.com##body,html:style(overflow: auto !important; position: initial !impor
 mbt-store.com###newsletterModal
 mbt-store.com##.modal-backdrop
 mbt-store.com##.index-wrap:style(overflow: auto !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/26631
+filhub.gr##+js(abort-on-property-read, pum_popups)
 ! explorersweb.com
 explorersweb.com###newsletterModal
 explorersweb.com##.modal-backdrop

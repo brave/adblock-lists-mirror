@@ -154,20 +154,18 @@ file-1bl9ruic-moon.com,file-kg88oaak-embed.com,file-mi11ljwj-embed.com,file-sp32
 !#if env_firefox
 *$frame,csp=sandbox allow-downloads allow-forms allow-modals allow-same-origin allow-scripts,from=filemoon.*
 !#endif
+! https://github.com/easylist/easylist/commit/814f9c556fd29795dc6160bfb8a96d4ea0fa9984
 ||hpilzison-r.online^
 ||kaarheciqa.xyz^
 ||klh3j19w.xyz^
 ||nubileforward.com^
 ||skvxbool.xyz^
+! ^^^Remove after 4,Jan. 2025
 
 ! Ad-Shield
 *##span[id^="img_"][class^="img_"] > style:first-child + div[style*="relative"] > iframe[src][marginwidth][width][style]:style(mask-image: linear-gradient(transparent, transparent) !important; -webkit-mask-image: linear-gradient(transparent, transparent) !important; z-index: -2147483647 !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/26487
 dogdrip.net,infinityfree.com,smsonline.cloud,webdesignledger.com##+js(trusted-replace-outbound-text, Number.prototype.toString, '/^-?\d{9,10}$/', )
-
-! https://github.com/uBlockOrigin/uAssets/issues/25990
-||karistudio.com/wp-content/themes/blogarise-child/check2.js$important
-karistudio.com##p.chapter_content:style(display: block !important; visibility: visible !important; opacity: 1 !important; transform: none !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25344
 ! https://github.com/uBlockOrigin/uAssets/pull/26342
@@ -191,9 +189,6 @@ www.chip.de##^script:has-text(/ \=\=\= [0-9]{1,2}\) \{ \}/)
 !#else
 www.chip.de##+js(rmnt, script, / \=\=\= [0-9]{1,2}\) \{ \}/)
 !#endif
-
-! https://github.com/AdguardTeam/AdguardFilters/commit/c09e55758c06f929992118a6cd378a1c9351f37f#r150671062
-9db.jp#@##footer
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195130
 altema.jp###sidebar-in > div.widget_text:has(.tuika-widget > a[href*="utm_"])

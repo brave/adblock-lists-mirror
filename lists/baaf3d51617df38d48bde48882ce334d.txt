@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: piI35evDzjngtqWy+4Qwlw
-! Version: 202412290340
+! Checksum: zV33pkusAWUJobuNrvZVpA
+! Version: 202412290540
 ! Title: Fanboy's Newsletter List
-! Last modified: 2024-12-29 03:40 UTC
+! Last modified: 2024-12-29 05:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4679,6 +4679,8 @@ mbt-store.com##.modal-backdrop
 mbt-store.com##.index-wrap:style(overflow: auto !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/26631
 filhub.gr##+js(abort-on-property-read, pum_popups)
+! huckmag.com
+huckmag.com##+js(set-cookie, huck-newsletter-popup, true)
 ! explorersweb.com
 explorersweb.com###newsletterModal
 explorersweb.com##.modal-backdrop

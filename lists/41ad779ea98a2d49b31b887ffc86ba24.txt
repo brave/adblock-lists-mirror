@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6vIoqiq0VgKVFZ9air5PiA
-! Version: 202412291340
+! Checksum: NlD5tWCLk6VDLUKnl/7EQA
+! Version: 202412291540
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-29 13:40 UTC
+! Last modified: 2024-12-29 15:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42686,7 +42686,7 @@ tradingview.com##+js(nostif, window.loginStateChange.subscribe)
 nerdwallet.com##._1y2JXo
 nerdwallet.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! r34.app
-r34.app##+js(set-local-storage-item, statistics-appOpenedCount, 0)
+r34.app##+js(set-local-storage-item, statistics-appOpenedCount, 1)
 ! vox.com
 vox.com##+js(set-local-storage-item, vox_article_readcount, $remove$)
 vox.com##+js(set-local-storage-item, vox_article_readcount_count, $remove$)

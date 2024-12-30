@@ -74,6 +74,7 @@ japscan.lol##+js(aost, onload, inlineScript)
 japscan.lol##+js(aeld, DOMContentLoaded, /Niger|Charger|GoodDay|funct'|t'\+'y/)
 japscan.lol##.navbar-nav > li#navpromo2.nav-item:style(height: 0 !important;)
 japscan.lol##+js(norafif, /^/)
+japscan.lol##+js(spoof-css, .navbar-nav > li#navpromo2.nav-item, height, auto)
 ||japscan.lol/zjs/$script,replace=/function GoodDay\(\)\{.+?\}\}\}//
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
@@ -191,8 +192,8 @@ altema.jp###sidebar-in > div.widget_text:has(.tuika-widget > a[href*="utm_"])
 altema.jp##.koukoku_common_tag
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153796
-rekidai-info.github.io##+js(nostif, /location\.href\s*=\s*"about:blank"\s*\)\s*\}\s*$/)
-rekidai-info.github.io##+js(nosiif, /location\.href\s*=\s*"about:blank"\s*\)\s*\}\s*$/)
+rekidai-info.github.io##+js(nostif, /location\[.+\]\s*=\s*[$\w]+\(\d+\)\s*\)\s*\}/)
+rekidai-info.github.io##+js(nosiif, /location\[.+\]\s*=\s*[$\w]+\(\d+\)\s*\)\s*\}/)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195216
 ||status.techtarget.itmedia.co.jp^$badfilter

@@ -74,7 +74,7 @@ japscan.lol##+js(aost, onload, inlineScript)
 japscan.lol##+js(aeld, DOMContentLoaded, /Niger|Charger|GoodDay|funct'|t'\+'y/)
 japscan.lol##.navbar-nav > li#navpromo2.nav-item > a:style(height: 0 !important;)
 japscan.lol##+js(norafif, /^/)
-japscan.lol##+js(spoof-css, .navbar-nav > li#navpromo2.nav-item > a, height, auto)
+japscan.lol##+js(spoof-css, .navbar-nav > li#navpromo2.nav-item > a, height, 40px)
 ||japscan.lol/zjs/$script,replace=/function GoodDay\(\)\{.+?\}\}\}//
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
@@ -177,6 +177,7 @@ exploader.net##+js(trusted-replace-argument, window.addEventListener, 0, json:"D
 exploader.net##article div:not(article>div[style="width: 750px;margin-left: auto;margin-right: auto;"],article>div[style="width: 750px;margin-left: auto;margin-right: auto;"]>div[style="float: right;width: 180px;"],[class="information"],[class="information"]+[class="thumbnail"],[class="information"]>[class="warning"],[class="information"]>[class="d_"]):watch-attr(style,class):has(div:not([style]):not([class]) div a[href^="https://al.dmm.co.jp"],article>#freefiles>#sort,article>#freefiles>[class="list"])
 exploader.net##+js(ra, class|style, article div:not(article>div[style="width: 750px;margin-left: auto;margin-right: auto;"]\,article>div[style="width: 750px;margin-left: auto;margin-right: auto;"]>div[style="float: right;width: 180px;"]\,[class="information"]\,[class="information"]+[class="thumbnail"]\,[class="information"]>[class="warning"]\,[class="information"]>[class="d_"]\,article>#freefiles>#sort\,article>#freefiles>[class="list"]), complete)
 exploader.net##+js(trusted-set, document.readyState, json:"complete", runAt, 2)
+exploader.net##+js(aeld, DOMContentLoaded, count_group)
 *$image,redirect-rule=32x32.png,domain=exploader.net
 
 ! https://github.com/easylist/easylistgermany/issues/216

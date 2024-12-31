@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YR2/K7HCvp9JVATg5B+oiQ
-! Version: 202412312040
+! Checksum: UZ1jUBcdUPZGljXXkQ/egw
+! Version: 202412312140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-12-31 20:40 UTC
+! Last modified: 2024-12-31 21:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38528,7 +38528,7 @@ decovarrubias.es,q10gestion.com###sliding-popup-cookies
 !! .qc-cmp2-container
 centrometeoitaliano.it,in.gr,oraridiapertura24.it,order-order.com##.qc-cmp2-container
 !! .cookie-consent
-560theanswer.com,abconcerts.be,congeo.nl,forcepoint.com,geeksforgeeks.org,inleed.se,merosch.nl,niaiu.pl,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,vinkkoeltechniek.com,werkenbijversluis.nl##.cookie-consent
+560theanswer.com,abconcerts.be,congeo.nl,forcepoint.com,geeksforgeeks.org,inleed.se,merosch.nl,niaiu.pl,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl##.cookie-consent
 !! cookiesConsentModal
 latitudeandlongitude.net###cookiesConsentModal
 !! #my-ctc-widget
@@ -44345,6 +44345,9 @@ shop.ba.com##+js(set-local-storage-item, iag-targeting-consent, "no")
 shop.ba.com##+js(set-local-storage-item, iag-performance-consent, "no")
 uc.pt##+js(set-local-storage-item, userDeniedCookies, 1)
 geizhals.at##+js(set-local-storage-item, dnt_message_shown, 1)
+webhallen.com##+js(set-local-storage-item, necessaryConsent, true)
+webhallen.com##+js(set-local-storage-item, marketingConsent, false)
+webhallen.com##+js(set-local-storage-item, personalisationConsent, false)
 olx.com.br##+js(set-local-storage-item, open_modal_update_policy, 1)
 unobike.com##+js(set-local-storage-item, cookieinfo, 1)
 mod.io##+js(set-local-storage-item, cookies, 1)

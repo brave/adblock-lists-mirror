@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202412310957
+! Version: 202412311016
 ! Title: EasyList
-! Last modified: 31 Dec 2024 09:57 UTC
+! Last modified: 31 Dec 2024 10:16 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -54299,6 +54299,7 @@ canadianlisted.com###adcsacl
 odditycentral.com###add_160x600
 lifenews.com###adds
 livemint.com###adfreeDeskSpace
+oisd.nl###adguardbnnr
 seowebstat.com###adhead-block
 freepik.com###adobe-pagination-mkt-copy
 onworks.net###adonworksbot
@@ -59536,6 +59537,7 @@ coralspringstalk.com##.wpbdp-listings-widget-list
 tejanonation.net##.wpcnt
 americanfreepress.net,sashares.co.za##.wppopups-whole
 theregister.com##.wptl
+fontawesome.com##.wrap-ad
 warezload.net##.wrapper > center > center > [href]
 memeburn.com,ventureburn.com##.wrapper--grey
 hotnewhiphop.com##.wrapper-Desktop_Header
@@ -61473,6 +61475,7 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 tripadvisor.com#?#.AaFRW:-abp-contains(Sponsored)
 shoprite.com##div[class^="Row"]:has(div[data-component] a[data-testid] picture source[media="(min-width: 1024px)"] + img[class*="ImageTextButtonImage"][src*=".jpg"])
+regexlearn.com#?#.w-full.mb-3:has(a[href="/learn/regex-for-seo"])
 kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:-abp-contains(Sponsored Articles)
 shopee.sg#?#.shopee-search-item-result__item:-abp-contains(Ad)
 shopee.sg#?#.shopee-header-section__content:-abp-contains(Ad)

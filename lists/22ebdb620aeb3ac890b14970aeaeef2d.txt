@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zn3SMzzABUA080psQSs+uQ
-! Version: 202501020400
+! Checksum: wzY5jW68qA44nOjC6Q0lXA
+! Version: 202501020500
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2025-01-02 04:00 UTC
+! Last modified: 2025-01-02 05:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -810,6 +810,8 @@ newsbreak.com##body:style(height: auto !important; overflow: auto !important)
 s.tabelog.com##+js(set-cookie, ignore_language_guide, true)
 ! deribit.com
 deribit.com##+js(set-local-storage-item, appCardSeen, true)
+! tubitv.com app
+tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
 ! vrbo.com
 vrbo.com###app-layer-customer-notification-centered-sheet-dialog
 vrbo.com##+js(rc, has-uitk-sheet, body, stay)

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: o5NLr+QCU5D0qu13Q9POrA
+! Checksum: eAPEHg9sSyeHsuwTjVfRBg
 ! Title: Easylist Cookie List
-! Updated: 2025-01-01 22:40 UTC
+! Updated: 2025-01-01 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1645,7 +1645,6 @@
 ###ac_cookie_bar
 ###ac_cookiebanner
 ###ac_cookiesvalidation
-###acb-banner
 ###accept-cookie-bar
 ###accept-cookie-box
 ###accept-cookie-compliance-section
@@ -23516,8 +23515,9 @@ vivantis.it,vivantis-shop.at,vivantis.hu,vivantis.ro,vivantis.cz,vivantis.sk##bo
 bulk.com##.amgdprjs-bar-template
 bulk.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! #cookieModal
-argos-tradein.co.uk,maandag.be,flixable.com,nmsu.edu,higcapital.es###cookieModal
-argos-tradein.co.uk,maandag.be,flixable.com,nmsu.edu,higcapital.es##body,html:style(overflow: auto !important; position: initial !important;)
+argos-tradein.co.uk,limogeshabitat.fr###cookieModal
+argos-tradein.co.uk,limogeshabitat.fr##.modal-backdrop
+argos-tradein.co.uk,limogeshabitat.fr##body,html:style(overflow: auto !important; position: initial !important;)
 !! .sgpb-popup-overlay
 ematic.co.za##.sgpb-popup-overlay
 ematic.co.za##.sgpb-popup-dialog-main-div-wrapper
@@ -24749,10 +24749,6 @@ lovebookonline.com,varma.fi##body,html:style(overflow: auto !important; position
 ! lekarenvkocke.sk
 lekarenvkocke.sk##.modal
 lekarenvkocke.sk##.modal-backdrop
-! limogeshabitat.fr (using #cookieModal instead of modal to prevent fp)
-limogeshabitat.fr##.modal-backdrop
-limogeshabitat.fr###cookieModal
-limogeshabitat.fr##body,html:style(overflow: auto !important; position: initial !important;)
 ! kanalsportowy.pl
 kanalsportowy.pl##.app-cmp
 kanalsportowy.pl##body:style(overflow: auto !important; position: initial !important;)

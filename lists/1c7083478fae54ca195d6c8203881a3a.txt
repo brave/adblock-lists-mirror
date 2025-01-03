@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.8.0
+! Version: 3.9.8.1
 
 ! General
 
@@ -338,9 +338,7 @@ texasmonthly.com##div.promo-in-body
 the-scientist.com##+js(rc, paywall, div.paywall)
 the-scientist.com##div.gated-fader,div#Modal
 ||theartnewspaper.com/_next/static/chunks/pages/access-allowed-*.js$script,~third-party
-||theatlantic.com/_next/static/chunks/pages/*/archive/$script,~third-party
-theatlantic.com##+js(cookie-remover, articleViews)
-theatlantic.com##img[class*="Image_lazy__"]:style(opacity: 1 !important)
+||theatlantic.com/zephr/decision-engine$xmlhttprequest,~third-party
 theatlantic.com##aside#paywall,div[class^="LostInventoryMessage_"]
 ||cloudfunctions.net/gated-countView$xmlhttprequest,domain=thediplomat.com
 thediplomat.com##+js(rc, h-96, article>section.h-96)

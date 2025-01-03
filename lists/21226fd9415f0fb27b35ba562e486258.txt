@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: QIfeW+7c1vdTEsTMufiD2A
+! Checksum: XhRooaBdIXaic+MiJHh+gA
 ! Title: Easylist Cookie List
-! Updated: 2025-01-03 01:40 UTC
+! Updated: 2025-01-03 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1012,7 +1012,6 @@
 ###AlertaCookies
 ###AllowCookieContainer
 ###AllowCookiesMessage
-###AllowCookiesModal
 ###AllowCookiesWrapper
 ###AnalyticsPrompt
 ###AppCookieBar
@@ -21993,6 +21992,7 @@ woolsocks.eu##+js(set-cookie, ws-cookie-Techniques, true)
 topuniversities.com,uza.be,5asec.ch,wizards.com##+js(set-cookie, cookie-agreed, 2)
 mandarinstone.com##+js(set-cookie, ud_accept_marketing_cookies, no)
 mandarinstone.com##+js(set-cookie, ud_accept_analytical_cookies, no)
+app.aave.com##+js(set-cookie, userAcceptedAnalytics, false)
 kitepackaging.co.uk##+js(set-cookie, cookie_consent, yes)
 kitepackaging.co.uk##+js(set-cookie, cookie_consent_options, 3)
 parkenflughafen.de##+js(set-cookie, consentIsSetByUser, true, , reload, 1)
@@ -28232,6 +28232,7 @@ valher.si##tr > td
 !
 ! ---------- Spanish ----------
 !
+gruposalinas.pandape.computrabajo.com###AllowCookiesModal
 almacen-informatico.com###Informacion
 northgate.es###WindowLoad
 ayudatpymes.com###__bg
@@ -28373,6 +28374,7 @@ solarventi.es##.mfp-bg
 solarventi.es##.mfp-wrap
 casafernando.es##.mobile-undersized-upper.mobile-forcehide
 karolviajes.es##.modal-avisos
+gruposalinas.pandape.computrabajo.com##.modal-backdrop
 servihabitat.com##.modal-condiciones
 rodilla.es##.modals-wrapper
 pcexpansion.es##.mostrar

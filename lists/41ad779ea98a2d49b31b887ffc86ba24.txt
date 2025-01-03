@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F7FXhlhdK2jtqmzw5AWNVA
-! Version: 202501030115
+! Checksum: fW3SVZG7A5EqHsfLMPEsog
+! Version: 202501030215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-03 01:15 UTC
+! Last modified: 2025-01-03 02:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12636,7 +12636,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###AlertaCookies
 ###AllowCookieContainer
 ###AllowCookiesMessage
-###AllowCookiesModal
 ###AllowCookiesWrapper
 ###AnalyticsPrompt
 ###AppCookieBar
@@ -43478,6 +43477,7 @@ woolsocks.eu##+js(set-cookie, ws-cookie-Techniques, true)
 topuniversities.com,uza.be,5asec.ch,wizards.com##+js(set-cookie, cookie-agreed, 2)
 mandarinstone.com##+js(set-cookie, ud_accept_marketing_cookies, no)
 mandarinstone.com##+js(set-cookie, ud_accept_analytical_cookies, no)
+app.aave.com##+js(set-cookie, userAcceptedAnalytics, false)
 kitepackaging.co.uk##+js(set-cookie, cookie_consent, yes)
 kitepackaging.co.uk##+js(set-cookie, cookie_consent_options, 3)
 parkenflughafen.de##+js(set-cookie, consentIsSetByUser, true, , reload, 1)
@@ -52233,6 +52233,7 @@ valher.si##tr > td
 !
 ! ---------- Spanish ----------
 !
+gruposalinas.pandape.computrabajo.com###AllowCookiesModal
 almacen-informatico.com###Informacion
 northgate.es###WindowLoad
 ayudatpymes.com###__bg
@@ -52374,6 +52375,7 @@ solarventi.es##.mfp-bg
 solarventi.es##.mfp-wrap
 casafernando.es##.mobile-undersized-upper.mobile-forcehide
 karolviajes.es##.modal-avisos
+gruposalinas.pandape.computrabajo.com##.modal-backdrop
 servihabitat.com##.modal-condiciones
 rodilla.es##.modals-wrapper
 pcexpansion.es##.mostrar

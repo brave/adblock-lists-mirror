@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.8.2
+! Version: 3.9.8.3
 
 ! General
 
@@ -84,7 +84,7 @@ bloomberg.com##+js(set-local-storage-item, history, $remove$)
 ||bloombergadria.com/*/news/$inline-script
 bloombergadria.com##+js(ra, style, article[style])
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
-/\.businessinsider\.com\/chunks\/scripts\/\d.+\.js/$script,~third-party
+/\.businessinsider\.com\/chunks\/scripts\/\d.+\.js/$script,domain=businessinsider.com,~third-party
 businessinsider.jp##+js(ra, hidden, div.piano-paywall-container[hidden])
 ||businesspost.ie/api/tinypass.min.js$script,~third-party
 cartacapital.com.br##+js(rc, contentSoft, div.contentSoft)
@@ -271,7 +271,7 @@ nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div#dock-container
 ||nzherald.co.nz/sales/public/v*/entitlements$xmlhttprequest,~third-party
 nzherald.co.nz##+js(set, Fusion.globalContent.isPremium, false)
 nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction)
-/\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script
+/\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script,domain=observador.pt
 paloaltoonline.com##+js(cookie-remover, /^/)
 ||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
 pb.pl##+js(ra, class, section.o-article-content)
@@ -288,7 +288,7 @@ profil.at##div#cfs-paywall-container,div.consentOverlay
 revistaoeste.com##+js(ra, class, div.loading_content)
 revistaoeste.com##+js(rc, expandable, div.expandable)
 revistaoeste.com##svg.spinner-eclipse
-/\.rugbypass\.com\/plus\/\w/$inline-script
+/\.rugbypass\.com\/plus\/\w/$inline-script,domain=rugbypass.com
 rugbypass.com##.plus-article-offer
 rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
 rugbypass.com##+js(rc, fade, .fade)
@@ -359,7 +359,7 @@ thepointmag.com##div.overlay,div#tpopup-
 thequint.com##div.zsqcu
 thequint.com##+js(ra, class|style, div#story-body-wrapper, stay)
 ||thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.js$~third-party
-/\.thesaturdaypaper\.com\.au\/.+\/(\w+-){3,}/$inline-script
+/\.thesaturdaypaper\.com\.au\/.+\/(\w+-){3,}/$inline-script,domain=thesaturdaypaper.com.au
 thesaturdaypaper.com.au##div.paywall-hard-always-show
 thetimes.com##html:style(overflow: auto !important;)
 thetimes.com##body:style(overflow: auto !important;)
@@ -372,7 +372,7 @@ tt.com##+js(rc, exclusive-elem, .exclusive-elem)
 tt.com##div.adblock-warning
 unherd.com##+js(ra, id, div#premiumcontent)
 unherd.com##div#premiumpreview
-/\.vn\.at\/.+\/\d{4}\//$inline-script
+/\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
 ||washingtonpost.com/subscribe/static/tetro-client/fusion/tetro.min.js$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
@@ -544,7 +544,7 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 ||epochbase.com/libs/paywall*.js$script,third-party
 ||epochbase.com/rules/get$xmlhttprequest,third-party
 ||epochbase.eu/rules/get$xmlhttprequest,third-party
-/\/epoch\.org\.il\/.+\/\d{5,}\//$inline-script
+/\/epoch\.org\.il\/.+\/\d{5,}\//$inline-script,domain=epoch.org.il
 
 ! Tribune Publishing Company
 .com/wp-content/plugins/loader-wp/static/loader.min.js$script,~third-party,domain=baltimoresun.com|capitalgazette.com|chicagotribune.com|courant.com|dailypress.com|mcall.com|nydailynews.com|orlandosentinel.com|pilotonline.com|sun-sentinel.com
@@ -677,7 +677,7 @@ rotowire.com##div.paywall-full,div.article-preview-fader
 ||schwaebische-post.de/sub/js/pc-offer-west.js$script,~third-party
 ||shrm.org/*/js/paywall*.js$script,~third-party
 skepticalinquirer.org##+js(rc, google-bot, div.google-bot, stay)
-/\.solicitorsjournal\.com\/_next\/static\/chunks\/\d.+\.js/$script,~third-party
+/\.solicitorsjournal\.com\/_next\/static\/chunks\/\d.+\.js/$script,domain=solicitorsjournal.com,~third-party
 ||spectrejournal.com/wp-content/plugins/elementor/*/dialog.min.js$script,~third-party
 splainer.in##+js(rc, hide-section, .hide-section)
 splainer.in##.subscription-prompt
@@ -688,7 +688,7 @@ strangematters.coop##+js(cookie-remover, pmpro_lpv_count)
 subscriptioninsider.com##+js(rc, dialog-prevent-scroll, body.dialog-prevent-scroll, stay)
 subscriptioninsider.com##div.dialog-widget
 !#if (adguard_app_ios)
-/\.subscriptioninsider\.com\/.+\/(\w+-){3,}/$inline-script
+/\.subscriptioninsider\.com\/.+\/(\w+-){3,}/$inline-script,domain=subscriptioninsider.com
 !#endif
 thecore.in##+js(ra, class, div.paywall-content)
 thecore.in##div.story,div#subscription_paid_message,div#footer_login_wall

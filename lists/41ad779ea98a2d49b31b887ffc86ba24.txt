@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7szcP/jN6ZDoe1FxUAVouw
-! Version: 202501052115
+! Checksum: auMEVpBtiapiS4TO5nlK1Q
+! Version: 202501052215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-05 21:15 UTC
+! Last modified: 2025-01-05 22:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18617,7 +18617,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###m-cookie
 ###m-cookie-info
 ###m-cookie-overlay
-###m-cookienotice
 ###m-global-disclaimer
 ###m-notification-cookie
 ###m31CookieInfo
@@ -43099,7 +43098,7 @@ al.com,allkpop.com,calendarpedia.co.uk,ccn.com,cinemablend.com,cleveland.com,com
 claritin.ca##+js(aopr, cookieconsent.Popup)
 podleze-piekielko.pl##+js(aopr, cookieman)
 sss.fi##+js(aeld, load, function(){if(s.readyState==XMLHttpRequest.DONE)
-elgiganten.dk,elgiganten.se,elkjop.no,gigantti.fi##+js(set, cicc.cookie_cat_statistic, true)
+elgiganten.dk,elgiganten.se,gigantti.fi##+js(set, cicc.cookie_cat_statistic, true)
 fimfiction.net##+js(set, config.requireCookieConsent, false)
 fruugo.at,fruugo.be,fruugo.cz,fruugo.de,fruugo.dk,fruugo.es,fruugo.fi,fruugo.gr,fruugo.hu,fruugo.ie,fruugo.it,fruugo.lu,fruugo.nl,fruugo.pl,fruugo.pt,fruugo.ro,fruugo.sk##+js(set, window.consentManagementEnabled, false)
 ! Generichide fixes
@@ -43251,6 +43250,7 @@ uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 reseau.ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 neokyo.com##+js(set-cookie, __cookie_consent, false)
+roofingmegastore.co.uk##+js(set-cookie, cookienotice, true)
 yambits.co.uk##+js(set-cookie, acceptcookies, no, , reload, 1)
 investmap.pl##+js(set-cookie, rodo, 1, , reload, 1)
 overleaf.com##+js(set-cookie, oa, 0)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EDZ7UdFsHf7NJO79SuPsvw
-! Version: 202501051215
+! Checksum: 3AvjMeEmG9vBUchjrwB0/Q
+! Version: 202501051315
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-05 12:15 UTC
+! Last modified: 2025-01-05 13:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12901,7 +12901,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###CookiesBestaetigen
 ###CookiesBox
 ###CookiesCompliance
-###CookiesConfirmation
 ###CookiesContainer
 ###CookiesCtrl
 ###CookiesDisclaimer
@@ -22654,7 +22653,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-icerik
 ##.cookie-identification
 ##.cookie-image-wrapper
-##.cookie-img
 ##.cookie-info-background
 ##.cookie-info-banner
 ##.cookie-info-bar
@@ -22910,7 +22908,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-pane--shown
 ##.cookie-panel-content
 ##.cookie-panel-overlay
-##.cookie-permission
 ##.cookie-permission--backdrop
 ##.cookie-permission--dim
 ##.cookie-permission-banner
@@ -23031,11 +23028,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-rodo--center
 ##.cookie-rodo-dialog
 ##.cookie-rogla-div
-##.cookie-row
 ##.cookie-rules-wrapper
 ##.cookie-runway
 ##.cookie-script-content
-##.cookie-section
 ##.cookie-set-pop-up
 ##.cookie-setting-bottom-bar
 ##.cookie-setting-message
@@ -38116,6 +38111,9 @@ evertiq.*##.cc-container
 !! .overlay-gdpr-consent/.overlay-wrapper
 lsl.com,sexlivecam.co.uk##.overlay-gdpr-consent
 lsl.com,sexlivecam.co.uk##.overlay-wrapper
+! norma
+norma-online.de,norma.fr##.cookie-info-v24
+norma-online.de,norma.fr##.modal-backdrop.cookie-info
 ! wayfair
 wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 ! roninwear.
@@ -43259,6 +43257,7 @@ overleaf.com##+js(set-cookie, oa, 0)
 bayernlabo.de,bayernlb.de##+js(set-cookie, layerCookie, true, , reload, 1)
 orszak.org##+js(set-cookie, privacy_popup, true, , reload, 1)
 prosenectute.ch##+js(set-cookie, cookieDisclaimerShown, true)
+truckmall.cz,truckmall.sk##+js(set-cookie, cookies_confirmed, 1, , reload, 1)
 bayernlabo.de,bayernlb.de##+js(set-cookie, video, true)
 great.gov.uk##+js(set-cookie, cookie_preferences_set, true)
 tutu.ru##+js(set-cookie, disclaimer_show, 1)
@@ -50111,6 +50110,7 @@ pcwarehouse.be##div[style*="width: 100%; background-color: #474747; padding-top:
 staige.tv##fanpage-cookie-notice
 oebv.net##form > div
 staige.tv##player-overlay
+emilfrey.ch##revolution-e00460-cookie-overlay
 jobs.ams.at##sn-cookie-banner
 mainz.de##sp-consent-banner
 cuxlandparks.de##sw-cookiemessage

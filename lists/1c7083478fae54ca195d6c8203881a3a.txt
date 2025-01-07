@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.9.0
+! Version: 3.9.9.1
 
 ! General
 
@@ -224,9 +224,6 @@ ledevoir.com##+js(cookie-remover, pw6)
 legrandcontinent.eu##+js(rc, paywall|pw|softwall, body)
 lejdd.fr,parismatch.com,public.fr###poool-container,#poool-widget-content,#poool-widget,.forbidden
 lejdd.fr,parismatch.com,public.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
-livelaw.in##+js(rc, hide, div.paywall-content.hide)
-livelaw.in##+js(rc, restricted_message, div.restricted_message)
-livelaw.in##div#subscription_paid_message,div.subscribeNow
 ||livemint.com/lm-img/subscription/$script,~third-party
 livemint.com##+js(rc, paywall, div.paywall)
 labusinessjournal.com##+js(cookie-remover, /^/)

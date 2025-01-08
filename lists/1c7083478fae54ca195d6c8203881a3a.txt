@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.9.1
+! Version: 3.9.9.2
 
 ! General
 
@@ -470,7 +470,7 @@ topagrar.com##div.paywall-package
 cz.de,dewezet.de,dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeitung.de,ln-online.de,lvz.de,maz-online.de,ndz.de,neuepresse.de,op-marburg.de,ostsee-zeitung.de,paz-online.de,remszeitung.de,rga.de,rnd.de,saechsische.de,siegener-zeitung.de,szlz.de,sn-online.de,solinger-tageblatt.de,tah.de,torgauerzeitung.de,waz-online.de##+js(set, Fusion.globalContent.isPaid, false)
 
 ! Maine Trust for Local News
-||loader.masthead.me^$script,domain=centralmaine.com|pressherald.com|sunjournal.com
+||bc.*.com/script.js$script,~third-party,domain=centralmaine.com|pressherald.com|sunjournal.com
 
 ! McClatchy Group
 ||mcclatchy.com/mcc-paywall-new.js$script,third-party
@@ -490,9 +490,8 @@ bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,
 ! Motor Presse Stuttgart
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de
 
-! New York Magazine
-curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, /nymcid$/)
-||cloudfront.net/embed/widget/subx*.js$script,domain=curbed.com|grubstreet.com|nymag.com|thecut.com|vulture.com
+! New York Magazine sites
+||zeddit.com/*/SiteScript.js$script,third-party,domain=curbed.com|grubstreet.com|nymag.com|thecut.com|vulture.com
 
 ! NHST Media Group
 ||subscription-static-global.nhst.tech$script,domain=tradewindsnews.com

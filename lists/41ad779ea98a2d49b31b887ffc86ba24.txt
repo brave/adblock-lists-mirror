@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4JAUT9kLwz147+IPLanDQQ
-! Version: 202501090540
+! Checksum: oeuxHr1bDVoG0Jlk8cuXVA
+! Version: 202501090740
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-09 05:40 UTC
+! Last modified: 2025-01-09 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -47366,7 +47366,8 @@ nobroker.in##body.overflow-hidden:style(overflow: auto !important;)
 ! huckmag.com
 huckmag.com##+js(set-cookie, huck-newsletter-popup, true)
 ! greencarreports.com https://github.com/uBlockOrigin/uAssets/issues/26767
-greencarreports.com##.newsletter-signup:style(max-height:0px;visibility: hidden; important)
+greencarreports.com##.sign-up-overlay
+greencarreports.com##.newsletter-signup:style(max-height:0px;visibility: hidden !important;)
 ! explorersweb.com
 explorersweb.com###newsletterModal
 explorersweb.com##.modal-backdrop

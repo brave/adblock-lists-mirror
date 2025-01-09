@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6H/DEPdwOHqBDvJvcSdY6w
-! Version: 202501090540
+! Checksum: Orc9W+Crz5RDwURGbbDi8w
+! Version: 202501090640
 ! Title: Fanboy's Newsletter List
-! Last modified: 2025-01-09 05:40 UTC
+! Last modified: 2025-01-09 06:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4690,7 +4690,8 @@ nobroker.in##body.overflow-hidden:style(overflow: auto !important;)
 ! huckmag.com
 huckmag.com##+js(set-cookie, huck-newsletter-popup, true)
 ! greencarreports.com https://github.com/uBlockOrigin/uAssets/issues/26767
-greencarreports.com##.newsletter-signup:style(max-height:0px;visibility: hidden; important)
+greencarreports.com##.sign-up-overlay
+greencarreports.com##.newsletter-signup:style(max-height:0px;visibility: hidden !important;)
 ! explorersweb.com
 explorersweb.com###newsletterModal
 explorersweb.com##.modal-backdrop

@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: HBgCkdfFaiULd8dQ3C2mlQ
-! Version: 202501091134
+! Checksum: YwBLvuFlf1mED4w9rkj6mA
+! Version: 202501041709
 ! Title: Hufilter for uBO
-! Last modified: 09 Jan 2025 11:34 UTC
+! Last modified: 04 Jan 2025 17:09 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1348,7 +1348,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||pcguru.hu/uploads/banners/*.jpg$image
 ||pcpult.hu/*/banner/$image
 ||pcworld.hu/bannerek/$image
-||performax.cz^$third-party
 ||piacesprofit.hu/files/skin/$image
 ||pornolize.com/*?clickTAG=
 ||port-network.com/sponsoration_elements/
@@ -1857,6 +1856,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||gravity.com^$third-party
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
+||performax.cz^$third-party
 ||targetix.net^$third-party
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party

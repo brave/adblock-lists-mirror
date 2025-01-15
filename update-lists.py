@@ -98,7 +98,10 @@ def move_downloaded_file(filename, url, output_dir):
     output_file_path = os.path.join(output_dir, output_file_name)
 
     try:
-        validate_checksum(filename)
+        if url.startswith("https://easylist-downloads.adblockplus.org/"):
+            print(f"ignoring checksum calculation for {url}")
+        else:
+            validate_checksum(filename)
         logger.info(f"moving {filename} to {output_file_path}")
         shutil.move(filename, output_file_path)
     except Exception as e:

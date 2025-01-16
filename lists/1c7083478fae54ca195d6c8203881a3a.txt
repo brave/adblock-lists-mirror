@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.0.1
+! Version: 4.0.0.2
 
 ! General
 
@@ -28,7 +28,7 @@
 ||js.pelcro.com^$script,third-party
 /xbuilder/experience/execute$xmlhttprequest,~third-party
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
-@@||piano.io^$domain=hbr.org|japantimes.co.jp|scmp.com
+@@||piano.io^$domain=hbr.org|japantimes.co.jp
 @@||cdn.tinypass.com/api/tinypass.min.js$script,domain=ajc.com
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
 ||api.pico.tools/popup/null/*$xmlhttprequest,~third-party
@@ -296,7 +296,6 @@ sciencenews.org##+js(cookie-remover, blaize_session)
 sciencesetavenir.fr##div.amorce.manual
 sciencesetavenir.fr##+js(ra, class|hidden, .user-paying-content)
 ||scientificamerican.com/api/tinypass.min.js$script,~third-party
-scmp.com##+js(cookie-remover, xbc)
 scotsman.com##+js(ra, class, div.premium)
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-user-messaging-main-bundle.js$script,~third-party

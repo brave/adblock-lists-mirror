@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 3.9.9.2
+! Version: 4.0.0.0
 
 ! General
 
@@ -706,9 +706,10 @@ vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0
 ||zeitzeichen.net/sites/default/files/js/js_*.js$script,~third-party
 
 ! General (amp)
-||cdn.ampproject.org/*/amp-access-$script
-||cdn.ampproject.org/*/amp-subscriptions-$script
-@@||cdn.ampproject.org/*/amp-access-$script,domain=cambridge.org
+||ampproject.org/*/amp-access-$script
+||ampproject.org/*/amp-subscriptions-$script
+@@||ampproject.org/*/amp-access-$script,domain=cambridge.org|cmjornal.pt
+@@||ampproject.org/v0/amp-consent-$script
 
 artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,sportico.com,staradvertiser.com,theathletic.com,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,sportico.com,staradvertiser.com,theathletic.com,wsj.com##[subscriptions-section="content-not-granted"]

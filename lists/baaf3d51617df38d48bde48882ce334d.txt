@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cso4j6rPQPzPPp/JlLX2Ww
-! Version: 202501172040
+! Checksum: jZqRe7xcp+jZqmNpB/lw2A
+! Version: 202501172140
 ! Title: Fanboy's Newsletter List
-! Last modified: 2025-01-17 20:40 UTC
+! Last modified: 2025-01-17 21:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4708,6 +4708,8 @@ greencarreports.com##.sign-up-overlay
 greencarreports.com##.newsletter-signup:style(max-height:0px;visibility: hidden !important;)
 ! egopowerplus.com
 egopowerplus.com##+js(set-cookie, newsletterModal, true)
+! vokey.com
+vokey.com##+js(set-cookie, enewsOptin, 1)
 ! explorersweb.com
 explorersweb.com###newsletterModal
 explorersweb.com##.modal-backdrop

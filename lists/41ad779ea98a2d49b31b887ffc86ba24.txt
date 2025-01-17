@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AKJXWb9HchVwJI6YVUFLjA
-! Version: 202501172115
+! Checksum: KFF18CCxs33Oe9YkpAIAcg
+! Version: 202501172215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-17 21:15 UTC
+! Last modified: 2025-01-17 22:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33334,6 +33334,7 @@ genius.com##div[class*="AndroidBannermobile_"]
 thescore.com##div[class*="GetTheAppModal_"]
 giphy.com##div[class*="OpenInAppContainer-"]
 thescore.com##div[class^="GetTheApp__fullScreenContainerScrolldown--"]
+corcoran.com##div[class^="PWAInstallBanner"]
 m.aliexpress.ru##div[class^="PseudoSmartBanner_"]
 sp.live.nicovideo.jp##div[class^="___overlay_"][data-overlay-role="cover"]
 kraken.com##div[class^="fc-94f32b27"]
@@ -47041,6 +47042,8 @@ greencarreports.com##.sign-up-overlay
 greencarreports.com##.newsletter-signup:style(max-height:0px;visibility: hidden !important;)
 ! egopowerplus.com
 egopowerplus.com##+js(set-cookie, newsletterModal, true)
+! vokey.com
+vokey.com##+js(set-cookie, enewsOptin, 1)
 ! explorersweb.com
 explorersweb.com###newsletterModal
 explorersweb.com##.modal-backdrop

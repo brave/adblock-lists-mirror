@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B/4syLDL944Z8poSMcRH4w
-! Version: 202501181140
+! Checksum: 4V4JkMrpcSMyfCGoRKying
+! Version: 202501181240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-18 11:40 UTC
+! Last modified: 2025-01-18 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -45200,6 +45200,11 @@ stewes.de##+js(set, HB.CookieSettings.init, noopFunc)
 gadgethacks.com##+js(set, WHT.ShowConsentForm, trueFunc)
 ! qastack.fr
 qastack.fr##+js(set, useGDPR, false)
+! sinsay.com
+sinsay.com###cookiebanner
+sinsay.com###cookieBannerOverlay
+sinsay.com##+js(rc, block-scroll, html, stay)
+sinsay.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! xvideos.com
 xvideos.com##+js(set, xv.disclaimer.displayCookiePopup, noopFunc)
 ! revijahak.hr

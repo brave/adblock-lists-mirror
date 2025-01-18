@@ -161,12 +161,7 @@ brr-55bsolwf-moo.com,brr-69xwmut5-moo.com,file-1bl9ruic-moon.com,file-kg88oaak-e
 0cbcq8mu.com,2cf0xzdu.com,4k2h4w04.xyz,a6iqb4m8.xyz,afl3ua5u.xyz,jmzkzesy.xyz##+js(nowoif)
 0cbcq8mu.com,2cf0xzdu.com,4k2h4w04.xyz,a6iqb4m8.xyz,afl3ua5u.xyz,jmzkzesy.xyz##+js(acs, Math, localStorage['\x)
 0cbcq8mu.com,2cf0xzdu.com,4k2h4w04.xyz,a6iqb4m8.xyz,afl3ua5u.xyz,jmzkzesy.xyz##^script:has-text(/popunder|\(\)\{try\{localStorage\[/)
-! https://www.reddit.com/r/uBlockOrigin/comments/1hxrnnm/why_is_ublock_blocking_me_from_watching_videos_on/
-!#if env_firefox
-*$frame,csp=sandbox allow-downloads allow-forms allow-modals allow-same-origin allow-scripts,from=filemoon.*
-!#endif
 ||j-mxponyz.love^
-/script/preurl.php?r=*$popup,doc
 
 ! Ad-Shield
 dogdrip.net##html[lang="ko"] [id^="img_"][style]:has(iframe[frameborder="0"][style]):style(clip-path: circle(0) !important;)
@@ -237,3 +232,6 @@ app-ranking.net#@#.haj
 
 ! https://github.com/uBlockOrigin/uAssets/issues/26823
 /^https?:\/\/[a-z0-9]{6,20}\.[a-z]{6,20}\.co\.in\//$all,to=co.in,badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/26878
+||gstatic.com/atari/embeds/*/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.5oZHy0SiJxw.O%2Fd%3D1%2Frs%3DAHpOoo-Hry6DG-RE4t9kNz_t6hiwmwXOmA%2Fm%3D__features__&r=$frame,domain=sites.google.com,badfilter

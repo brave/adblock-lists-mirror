@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VJGNrrldOfv02xgS3cxlgA
-! Version: 202501191201
+! Checksum: 8TRrOQm/pZfyJYpZFpksig
+! Version: 202501191301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Jan 2025 12:01 UTC
+! Last modified: 19 Jan 2025 13:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18396,7 +18396,7 @@ ytvideo.ru##div[class][data-aid]
 dorognoe.ru,europaplus.ru,radio7.ru,retrofm.ru##div[class][data-element*="BANNER"]
 mk.ru,prnt.sc##div[class][style*="important"]
 rlocman.ru##div[class][style="background-color:#fcfcee;padding:10px"]
-hentailib.me,mangalib.me,ranobelib.me,slashlib.me##div[class][style="margin-top: 20px; margin-bottom: 20px;"]
+hentailib.me,mangalib.me,ranobelib.me,slashlib.me,yaoilib.net##div[class][style="margin-top: 20px; margin-bottom: 20px;"]
 puzzleheap.ru##div[class][style^="height:"][id]:empty
 livejournal.com#?#div[class][style^="height:"][style*="background-color: black; position: relative;"]:-abp-has([src*="docking"][src*="eaglecdn"])
 news.pn##div[class][style^="width:"][style$="300px;"]
@@ -22534,6 +22534,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||step2nature.ru/upload/alexkova.popupad/$image
 ||stereohead.ru/_main_page/images/
 ||stgkrf.ru/*.php?$xmlhttprequest
+||stoigr.org/uploads/sslsldny.
 ||stopgame.ru/dist/*/stalcraft
 ||storage.googleapis.com/html5banners/$domain=komedra.com|milliarderr.com
 ||storage.gorod55.ru/promo/
@@ -23827,7 +23828,7 @@ pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###page_header > div[style^="p
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###pl-speedbar
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###tor-fl-bgn
 $third-party,object,subdocument,domain=pornolab.biz|pornolab.cc|pornolab.lib|pornolab.net
-pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net#?#.forums tr[id^="f-"]:-abp-has(.topic_icon[src$="/folder_lock.gif"])
+pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net#?#.forums > tbody > tr[id]:-abp-has(> td script)
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##.med.bordered.attach > tbody > .tCenter ~ .tCenter + tr
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##.med.bordered.attach > tbody > tr.row1 ~ .row3
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##.med.bordered.attach > tbody > tr.row1 ~ .row3 ~ *

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: R1Scx7ANigOoU90jN8PopA
-! Version: 202501201051
+! Checksum: 36rq9k706LA+pwA5NPwfwA
+! Version: 202501201201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Jan 2025 10:51 UTC
+! Last modified: 20 Jan 2025 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24285,6 +24285,8 @@ disk.yandex.ru,disk.yandex.*##a[href][style*="storage.mds.yandex.net/get-bstor/"
 disk.yandex.ru,disk.yandex.*##div[class^="direct"]:not([class^="directory-content"])
 docviewer.yandex.ru,docviewer.yandex.*##.js-doc-html > div[class^="pages_"] > div[class]:empty
 docviewer.yandex.ru,docviewer.yandex.*##.with-bottom-direct > div[class] > div[class]:empty
+eda.yandex.ru##[data-testid="open-advert-modal-button"]
+eda.yandex.ru##div[class^="banner_"]
 mail.yandex.ru,mail.yandex.*##div[class*="DirectLine"]
 mail.yandex.ru,mail.yandex.*#?#.js-scroller-right:-abp-has(> div:only-child)
 mail.yandex.ru,mail.yandex.*#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]

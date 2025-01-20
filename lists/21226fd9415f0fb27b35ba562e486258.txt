@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: DwZ54fLLhKjgS7ed6Y6oPg
+! Checksum: awnGl4T/ePXsPsEdIavlWA
 ! Title: Easylist Cookie List
-! Updated: 2025-01-20 00:40 UTC
+! Updated: 2025-01-20 01:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -21226,6 +21226,9 @@ theateramrand.de##+js(set-cookie, cookiebanner, essential)
 hachettebookgroup.com##+js(set-cookie, cookie__privacy_policy, 1)
 nike.com.pe##+js(set-cookie, consent, true, , reload, 1)
 salsajeans.com##+js(set-cookie, plg_cp, 1, , reload, 1)
+dbschenkerarkas.com.tr,dbschenker-seino.jp,dbschenker.com##+js(set-cookie, privacy-notice-responded, 0)
+dbschenkerarkas.com.tr,dbschenker-seino.jp,dbschenker.com##+js(set-cookie, allow-marketing-tracking, false)
+dbschenkerarkas.com.tr,dbschenker-seino.jp,dbschenker.com##+js(set-cookie, allow-statistical-tracking, false)
 aubi-plus.de##+js(set-cookie, cm-accepted, true)
 protan-elmark.*##+js(set-cookie, analytics, false)
 protan-elmark.*##+js(set-cookie, marketing, false)
@@ -21492,7 +21495,7 @@ gdpr.twitter.com##+js(set-cookie, twtr_pixel_opt_in, N)
 mora.hu##+js(set-cookie, RBCookie-Alert, 1)
 confused.com##+js(set-cookie, CookieConsentV4, false)
 reclutamiento.defensa.gob.es##+js(set-cookie, MDEF_COOKIE_CONSENT_1595777, true, , reload, 1)
-physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at,cic.ch,vu.lt,chromeindustries.com##+js(set-cookie, cookieconsent_status, allow)
+oeko-tex.com,physikinstrumente.de,karlknauer.de,schoeck.com,resonate.coop,northgatevehiclehire.ie,badhall.at,cic.ch,vu.lt,chromeindustries.com##+js(set-cookie, cookieconsent_status, allow)
 tryhackme.com##+js(set-cookie, cookieconsent_status, dismiss)
 ilsaggiatore.com##+js(set-cookie, cookies_analytics_enabled, 0, , reload, 1)
 forum.digitalfernsehen.de##+js(set-cookie, xf_notice_dismiss, 1)
@@ -22380,6 +22383,9 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-other, false)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
+ccaf.io##+js(set-local-storage-item, Analytics:accepted, false)
+ccaf.io##+js(set-local-storage-item, GDPR:accepted, true)
+dbschenkerarkas.com.tr,dbschenker-seino.jp,dbschenker.com##+js(set-local-storage-item, cookie_usage_acknowledged_2, 1)
 scinapse.io##+js(set-local-storage-item, a_c, true)
 shop.ba.com##+js(set-local-storage-item, iag-targeting-consent, "no")
 shop.ba.com##+js(set-local-storage-item, iag-performance-consent, "no")
@@ -23252,21 +23258,11 @@ biathlonworld.com##body,html:style(overflow: auto !important; position: initial 
 keychronpoland.com##.cc-theme-classic.cc-window
 keychronpoland.com###pandectes-banner
 keychronpoland.com##body,html:style(overflow: auto !important; position: initial !important;)
-! oeko-tex.com
-oeko-tex.com##.cc-window-blocker
-oeko-tex.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! sogeti.
 sogeti.ie,sogeti.de,sogeti.fi,sogeti.be,sogeti.lu,sogeti.no,sogeti.es,sogeti.se,sogeti.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! raja
 raja.fr,rajapack.at,rajapack.be,rajarani.de,rajapack.co.uk,rajapack.cz,rajapack.de,rajapack.dk,rajapack.es,rajapack.hu,rajapack.it,rajapack.nl,rajapack.no,rajapack.pl,rajapack.pt,rajapack.se,rajapack.sk##.js-otsdk
 raja.fr,rajapack.at,rajapack.be,rajarani.de,rajapack.co.uk,rajapack.cz,rajapack.de,rajapack.dk,rajapack.es,rajapack.hu,rajapack.it,rajapack.nl,rajapack.no,rajapack.pl,rajapack.pt,rajapack.se,rajapack.sk##body,html:style(overflow: auto !important; position: initial !important;)
-! scottsofstow.co.uk
-scottsofstow.co.uk###consent-manager
-scottsofstow.co.uk##+js(rc, consent-manager--popup, body, stay)
-scottsofstow.co.uk##+js(rc, consent-manager-open, body, stay)
-! traxmag.com
-traxmag.com##.popin-overlay
-traxmag.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! #cb-cookieoverlay
 tfl.gov.uk###cb-cookieoverlay
 tfl.gov.uk##body,html:style(overflow: auto !important; position: initial !important;)
@@ -23274,9 +23270,6 @@ tfl.gov.uk##body,html:style(overflow: auto !important; position: initial !import
 gov.ie##.cookiejs-banner-wrapper
 gov.ie##.modal-backdrop
 gov.ie##body,html:style(overflow: auto !important; position: initial !important;)
-!! #cookies-alert
-ibersun.es###cookies-alert
-ibersun.es##body,html:style(height: auto !important; overflow: auto !important)
 !! #cookienotice_box
 daa-sh.de,daa-muenchen.de,daa-bremen.de,daa-augsburg.de,cyberone.de,daa-duisburg.de,daa-aachen.de,daa-hochrhein.de,daa-freiburg.de,daa-reutlingen.de,daa-aalen.de,daa-mainz.de,fachschule-sozialpaedagogik-dresden.de,daa-kassel.de,daa-ingolstadt.de,daa-landau.de,fachschule-sozialpaedagogik-berlin.de,logopaedieschule-osnabrueck.de,daa-pforzheim.de,daa-kempten.de,daa-albstadt.de,daa.de,daa-saarbruecken.de,daa-nordrhein.de,daa-moenchengladbach.de,ths-software.de,daa-friedberg.de,daa-trier.de,daa-bamberg.de,daa-wiesbaden.de,daa-goeppingen.de,daa.de,daa-coburg.de,daa-singen.de,daa-kirchheim.de,daa-giessen.de,daa-koblenz.de,daa-betzdorf.de,altenpflegeschule-st-ingbert.de,lasso.de###cookienotice_box
 daa-sh.de,daa-muenchen.de,daa-bremen.de,daa-augsburg.de,cyberone.de,daa-duisburg.de,daa-aachen.de,daa-hochrhein.de,daa-freiburg.de,daa-reutlingen.de,daa-aalen.de,daa-mainz.de,fachschule-sozialpaedagogik-dresden.de,daa-kassel.de,daa-ingolstadt.de,daa-landau.de,fachschule-sozialpaedagogik-berlin.de,logopaedieschule-osnabrueck.de,daa-pforzheim.de,daa-kempten.de,daa-albstadt.de,daa.de,daa-saarbruecken.de,daa-nordrhein.de,daa-moenchengladbach.de,ths-software.de,daa-friedberg.de,daa-trier.de,daa-bamberg.de,daa-wiesbaden.de,daa-goeppingen.de,daa.de,daa-coburg.de,daa-singen.de,daa-kirchheim.de,daa-giessen.de,daa-koblenz.de,daa-betzdorf.de,altenpflegeschule-st-ingbert.de,lasso.de##body,html:style(overflow: auto !important; position: initial !important;)
@@ -23287,17 +23280,6 @@ hifi-punkten.se,larsbengtsson.se,ljudmakarn.se##html,body:style(position: static
 ! torfs.be
 torfs.be##.cookie-banner-fullscreen
 torfs.be##html,body:style(position: static !important; overflow: auto !important; width: auto !important;)
-! zawszepomorze.pl
-zawszepomorze.pl##+js(rc, zp-gtm-scripts--blur, , stay)
-zawszepomorze.pl##.zp-gtm-scripts-modal-wrapper
-! coupondojo.com
-coupondojo.pl,coupondojo.com###rodo-message
-coupondojo.pl,coupondojo.com##.modal-backdrop
-coupondojo.pl,coupondojo.com##body,html:style(overflow: auto !important; position: initial !important;)
-! ccaf.io 
-ccaf.io##.cookie__overlay
-ccaf.io##.cookie
-ccaf.io##body,html:style(overflow: auto !important; position: initial !important;)
 ! racshop.co.uk
 racshop.co.uk###cookieBanner
 racshop.co.uk##.modal-backdrop
@@ -24805,9 +24787,6 @@ hsbc.com.mt,hsbc.nl,hsbc.co.uk,hsbc.se,hsbc.es,hsbc.at,hsbc.cz,hsbc.dk,hsbc.com,
 ! __tealiumGDPRecModal
 arero.de,beam.co.uk,jazztel.com###__tealiumGDPRecModal
 arero.de,beam.co.uk,jazztel.com##body,html:style(overflow: auto !important; position: initial !important;)
-! dbschenker
-dbschenker-seino.jp,dbschenker-digital.cn,dbschenker.com,dbschenkerarkas.com.tr##.dialog--open
-dbschenker-seino.jp,dbschenker-digital.cn,dbschenker.com,dbschenkerarkas.com.tr##body,html:style(overflow: auto !important; position: initial !important;)
 ! pickup.de
 pickup.de##.cookie-box
 pickup.de##.hfTMvA

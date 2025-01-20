@@ -84,7 +84,7 @@ sandratableother.com##+js(set, console.clear, undefined)
 ! https://github.com/uBlockOrigin/uAssets/issues/23806
 *$image,redirect-rule=1x1.gif,domain=japscan.lol
 japscan.lol##+js(norafif, /^/)
-japscan.lol##+js(trusted-set-attr, .navbar-nav > li#navpromo2.nav-item > a, href, 'https://www.example.com/?test=http://www.toueapo.shop/')
+japscan.lol##+js(trusted-set-attr, .navbar-nav > li#navpromo2.nav-item > a, href, 'https://www.example.org/?test=http://www.toueapo.shop/')
 ||japscan.lol/zjs/$script,replace=/function GoodDay\(\)\{.+?\}\}\}//
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
@@ -203,7 +203,8 @@ www.chip.de##+js(rmnt, script, /[a-zA-Z0-9]{10,20}\; \} \}/)
 !#endif
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153796
-rekidai-info.github.io##+js(nostif, /aframe|querySelector/)
+rekidai-info.github.io#@#+js(nostif, /aframe|querySelector/)
+rekidai-info.github.io##+js(nostif, /aframe|querySelector/, 1000-)
 rekidai-info.github.io##+js(nosiif, location[_0x)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/20907

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: EG7x9FucOtBTOe/ZobLcXg
+! Checksum: /tmwOXlIiIbpHe9UZsOzcw
 ! Title: Easylist Cookie List
-! Updated: 2025-01-21 08:15 UTC
+! Updated: 2025-01-21 09:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -7866,6 +7866,7 @@
 ###rgdp.rgpd
 ###rgpb.rgpd
 ###rgpd-accept-cookies
+###rgpd-background
 ###rgpd-band
 ###rgpd-banner
 ###rgpd-bar-container
@@ -19883,6 +19884,7 @@ trello.com##[data-testid="cookies-consent-banner"]
 airhelp.com##[data-testid="cookiesNotice"]
 spectrum.ieee.org##[data-toggle-property="gdpr"]
 oneclickcover.com##[data-v-5f675fc8]
+atlassian.net##[data-vc="banner-container-component"]
 reddit.com##[reddit-cookie-banner]
 stuffthatworks.health##[role="alertdialog"]
 academy.com##[role="complementary"]
@@ -21894,6 +21896,7 @@ calm.com##+js(set-cookie, has-agreed-to-cookies, false)
 pubgesports.com##+js(set-cookie, essential, Y)
 pubgesports.com##+js(set-cookie, analytics, N)
 pubgesports.com##+js(set-cookie, functional, N)
+pcworld.com##+js(set-cookie, hide-generic-overlay-techhive, true)
 outwrite.com##+js(set-cookie, gradeproof_shown_cookie_warning, true)
 sberbank.com##+js(set-cookie, sber.pers_notice_en, 1)
 sbermarket.ru##+js(set-cookie, cookies_consented, yes)

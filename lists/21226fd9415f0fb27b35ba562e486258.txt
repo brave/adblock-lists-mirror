@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: y+CH4HNGiN1akxw2kPmNFQ
+! Checksum: OscrN0KiLGEOVlZt+BinjA
 ! Title: Easylist Cookie List
-! Updated: 2025-01-22 10:40 UTC
+! Updated: 2025-01-22 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -10750,7 +10750,6 @@
 ##.cookie-consent-jolt
 ##.cookie-consent-layer
 ##.cookie-consent-local
-##.cookie-consent-manager
 ##.cookie-consent-message
 ##.cookie-consent-notice
 ##.cookie-consent-notify
@@ -16669,7 +16668,6 @@
 ##div.cookieBackgaround
 ##div.cookieBanner
 ##div.cookieBar
-##div.cookieConsent
 ##div.cookieDisclaimer
 ##div.cookieHolder
 ##div.cookieMessage
@@ -21228,6 +21226,10 @@ dpp.cz##+js(set-cookie, consent_analytics_storage, denied)
 dpp.cz##+js(set-cookie, consent_is_cleared_20230908, true)
 dpp.cz##+js(set-cookie, consent_is_set, true)
 xlogic.org##+js(set-cookie, wpca_consent, 1)
+bygge-anlaegsavisen.dk##+js(set-cookie, acceptCookies, Functional)
+swissaccounting.org##+js(set-cookie, __hs_opt_out, yes)
+nsa-us.com##+js(set-cookie, CA, false)
+feinaactiva.gencat.cat##+js(set-cookie, cookie-consent, essential)
 puratos.*##+js(set-cookie, functionalCookieAccepted, true)
 ostrzegamy.online,memo-book.pl##+js(set-cookie, rodo-acceptace, 1)
 waitrose.com##+js(set-cookie, wtr_cookie_consent, 1)
@@ -25290,6 +25292,7 @@ laposte.fr###privacy-overlay
 planetsurfcamps.com###ps-consent
 fromage-beaufort.com###rgpd-form
 extramiante.fr###rgpdmask
+bymycar.fr###sd-cmp
 capital.fr###sp-consentModal
 serrure-pas-cher.fr###tarteaucitronRoot
 abc-toulouse.fr###trackingbannerpopin
@@ -26815,7 +26818,7 @@ asf.com.pt###asfCookiesBar
 portugalglobal.pt###barramensagem
 oantagonista.com.br###card-cookies
 assertivasolucoes.com.br###ck-container
-tudosaladeaula.com###consent-box-lgpd
+sempreupdate.com.br,tudosaladeaula.com###consent-box-lgpd
 cliper.pt###cook
 ipn.pt###cookie-law-panel
 staples.pt###cookie-new-cconsent-bar

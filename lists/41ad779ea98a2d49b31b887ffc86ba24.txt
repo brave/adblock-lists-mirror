@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zFXp3v3nn+SqJAxWLEJS0Q
-! Version: 202501221140
+! Checksum: pH5cZ7PVOV/9n9pIIst/IA
+! Version: 202501221240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-22 11:40 UTC
+! Last modified: 2025-01-22 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -22376,7 +22376,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-consent-jolt
 ##.cookie-consent-layer
 ##.cookie-consent-local
-##.cookie-consent-manager
 ##.cookie-consent-message
 ##.cookie-consent-notice
 ##.cookie-consent-notify
@@ -28295,7 +28294,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div.cookieBackgaround
 ##div.cookieBanner
 ##div.cookieBar
-##div.cookieConsent
 ##div.cookieDisclaimer
 ##div.cookieHolder
 ##div.cookieMessage
@@ -42787,6 +42785,8 @@ dpp.cz##+js(set-cookie, consent_is_set, true)
 xlogic.org##+js(set-cookie, wpca_consent, 1)
 bygge-anlaegsavisen.dk##+js(set-cookie, acceptCookies, Functional)
 swissaccounting.org##+js(set-cookie, __hs_opt_out, yes)
+nsa-us.com##+js(set-cookie, CA, false)
+feinaactiva.gencat.cat##+js(set-cookie, cookie-consent, essential)
 puratos.*##+js(set-cookie, functionalCookieAccepted, true)
 ostrzegamy.online,memo-book.pl##+js(set-cookie, rodo-acceptace, 1)
 waitrose.com##+js(set-cookie, wtr_cookie_consent, 1)
@@ -47102,7 +47102,7 @@ temu.com###bg_pc_benefit_download_modal_container_id
 temu.com##body:style(overflow: auto !important; position: initial !important;)
 ! ringkestore.com
 ringkestore.com##pop-up
-ringkestore.com##body:style(overflow: auto !important; position: initial !important;)
+ringkestore.com##body,html:style(overflow: auto !important; position: initial !important;)
 !------------------------Rules for international sites------------------------!
 ! fanboy_annoyance_international.txt
 !
@@ -50901,7 +50901,7 @@ asf.com.pt###asfCookiesBar
 portugalglobal.pt###barramensagem
 oantagonista.com.br###card-cookies
 assertivasolucoes.com.br###ck-container
-tudosaladeaula.com###consent-box-lgpd
+sempreupdate.com.br,tudosaladeaula.com###consent-box-lgpd
 cliper.pt###cook
 ipn.pt###cookie-law-panel
 staples.pt###cookie-new-cconsent-bar

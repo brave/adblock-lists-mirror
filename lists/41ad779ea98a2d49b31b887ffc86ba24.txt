@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LhY8jD3ZW/NnXkTXZhMaZg
-! Version: 202501220040
+! Checksum: kePrF0fKmg27hl7XIWPv8g
+! Version: 202501220140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-22 00:40 UTC
+! Last modified: 2025-01-22 01:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -45986,8 +45986,7 @@ happyplates.com##body:style(overflow: auto !important; position: initial !import
 icvs2023.conf.tuwien.ac.at##.darken
 icvs2023.conf.tuwien.ac.at##body,html:style(overflow: auto !important; position: initial !important;)
 !! #cookie-wall
-favi.sk,favi.hu,favi.hr,favi.it,favi.se,favi.co.uk,favi.ro,favi.pl,favi.cz###cookie-wall
-favi.sk,favi.hu,favi.hr,favi.it,favi.se,favi.co.uk,favi.ro,favi.pl,favi.cz##body,html:style(overflow: auto !important; position: initial !important;)
+favi.*##+js(set-cookie, __Host-cookie-consent, 8, , reload, 1)
 !! .cookie-wall
 ansons.de##.cookie-wall
 ansons.de##.cw-modal-overlay

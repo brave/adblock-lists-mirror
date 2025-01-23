@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xqnPVaSLrXB1rRU7mwQQzA
-! Version: 202501230000
+! Checksum: CracL/VZ/pKw2rN+pbev1A
+! Version: 202501230200
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2025-01-23 00:00 UTC
+! Last modified: 2025-01-23 02:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -681,6 +681,8 @@ player.fm##.bottom-promo
 player.fm##body,html:style(overflow: auto !important; position: initial !important;)
 ! wunderground.com
 wunderground.com##+js(rc, enable-sda, body, stay)
+! tubitv app nag
+tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
 ! m.economictimes.com
 m.economictimes.com###prominentOverlay
 m.economictimes.com##body,html:style(overflow: auto !important; position: initial !important;)

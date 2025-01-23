@@ -139,14 +139,6 @@ azrom.net##+js(href-sanitizer, a[href^="https://azrom.net/"][href*="?url="], ?ur
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139845
 blogmado.com##+js(nano-sib, time, , 0.02)
 ||ibb.co^$image,domain=blogmado.com
-||noropianicnephrocytebites.com^$all
-
-! https://github.com/uBlockOrigin/uAssets/issues/16315
-! https://github.com/uBlockOrigin/uAssets/issues/16368
-livsavr.co##+js(aeld, DOMContentLoaded, adsBlocked)
-livsavr.co##+js(no-xhr-if, googlesyndication)
-livsavr.co##+js(nostif, adsBlocked)
-@@||ezojs.com/detroitchicago/cmbv2.js$script,domain=livsavr.co
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/10a31f2/
 ||secretflying.com^$1p,frame,redirect-rule=noopframe
@@ -165,24 +157,18 @@ sportshub.to,topsporter.net##+js(nostif, show)
 sportshub.to,topsporter.net##+js(acs, document.onkeypress)
 sportshub.to,topsporter.net##+js(acs, document.oncontextmenu)
 sportshub.to,topsporter.net##+js(no-xhr-if, doubleclick)
-sportfacts.net###footy-side-menu
-sportfacts.net##.footy-related-posts
-sportfacts.net##.scroller
-sportfacts.net###footy_post_extensions-2
-sportfacts.net##+js(aopr, document.oncontextmenu)
-||sportfacts.net/sticky.html$frame
 topsporter.net,sportshub.to##^script:has-text(/ConsoleBan|alert|AdBlocker/)
 !#if !cap_html_filtering
 topsporter.net,sportshub.to##+js(rmnt, script, /ConsoleBan|alert|AdBlocker/)
 !#endif
 @@*$ghide,domain=sportshub.to|topsporter.net
-sportfacts.net,sportshub.to,sportnews.to##+js(no-fetch-if, googlesyndication)
-sportfacts.net,sportshub.to,sportnews.to##+js(no-xhr-if, googlesyndication)
-*$xhr,redirect-rule=nooptext,domain=sportfacts.net|sportshub.to|sportnews.to|werfgt.fun
+sportshub.to,sportnews.to##+js(no-fetch-if, googlesyndication)
+sportshub.to,sportnews.to##+js(no-xhr-if, googlesyndication)
+*$xhr,redirect-rule=nooptext,domain=sportshub.to|sportnews.to|werfgt.fun
 /fox/plugins/aoa/js/aoa-functions.js^
 ||sportshub.to/fox/plugins/block/js/$script
 ||sportnews.to/fox/plugins/block/js/$script
-sportfacts.net,sportnews.to##+js(aopr, antiAdBlockerHandler)
+sportnews.to##+js(aopr, antiAdBlockerHandler)
 topsporter.net##+js(no-fetch-if, /^/)
 sportnews.to##.aoa_overlay
 sportnews.to#@#.ads-by-google
@@ -234,24 +220,7 @@ proxer.me###stream_message_overlay
 ! https://github.com/uBlockOrigin/uAssets/issues/16343
 allotech-dz.com##+js(acs, eval, replace)
 
-! https://github.com/uBlockOrigin/uAssets/issues/16344
-@@*$ghide,domain=btc25.org|doge25.in
 ||domain.com/ads.html$frame,3p,redirect=noopframe
-btc25.org,doge25.in##+js(acs, document.createElement, adsBlocked)
-btc25.org,doge25.in##+js(acs, document.getElementById, Swal.fire)
-btc25.org,doge25.in##+js(no-xhr-if, czilladx)
-btc25.org,doge25.in###wcfloatDiv4
-btc25.org##.ads
-btc25.org##center > ins:upward(center)
-doge25.in##.alert-success.alert .ads
-doge25.in##.row.text-center > .ads
-doge25.in##[id^="hbagency_space"]
-doge25.in##center > .ads
-doge25.in##center > ins
-doge25.in##div[style] > ins:upward(div)
-doge25.in##+js(aeld, load, htmls)
-doge25.in##^script:has-text(htmls)
-btc25.org##+js(rmnt, script, htmls)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16347
 darkwanderer.net,truckingboards.com##+js(nostif, show)
@@ -450,9 +419,6 @@ cpuid.com##.widget-block[class*="widget-advert"]
 ! https://github.com/uBlockOrigin/uAssets/issues/16476
 zerotopay.com##+js(aeld, load, onload)
 
-! https://github.com/uBlockOrigin/uAssets/issues/16480
-myownguess.in##+js(set, detectAdBlock, noopFunc)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/16482
 pobre.*##+js(no-fetch-if, ads)
 pobre.*##+js(nowoif)
@@ -460,10 +426,6 @@ pobre.*###bannerOverLay
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16477
 @@||519.*^$ghide
-
-! https://github.com/uBlockOrigin/uAssets/issues/16492
-futemax.app##+js(acs, setTimeout, admc)
-futemax.app##.alertWS
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16496
 alttyab.net##+js(nostif, show)
@@ -509,11 +471,8 @@ techclips.net##+js(nostif, sadbl)
 
 ! ads/popups
 2umovies.*##+js(acs, atob, decodeURIComponent)
-doplay.store##+js(nowoif)
-doplay.store##+js(aopr, doSecondPop)
 mmsbee.*##+js(aost, Element.prototype.matches, litespeed)
 8xmovies.*##+js(nowoif)
-||techgates.link^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16510
 ||cryptocoinsad.com/ads/$frame
@@ -555,17 +514,13 @@ streamcheck.link##+js(rmnt, script, runPop)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16508
 ! https://github.com/uBlockOrigin/uAssets/issues/17383
-bestsolaris.com,daddylivehd.*,tutelehd.*,unbiasedsenseevent.com,watchtvchh.*,weakstream.org##+js(acs, setTimeout, admc)
-crackstreamshd.click,daddylivehd.*,freelivetvon.com,tvpclive.com,worldstreams.click##+js(aopw, u_cfg)
-daddylivehd.*,earthquakecensus.com,footyhunter.lol,gamerarcades.com,poscitech.click,starlive.stream,utopianwilderness.com,wecast.to##+js(nostif, sadbl)
-nowlive1.me##+js(rmnt, script, popundersPerIP)
-sportsonline.si,forgepattern.net##+js(acs, JSON.parse, atob)
-focus4ca.com,gamerarcades.com,volokit2.com##+js(json-prune, *, *.adserverDomain)
+bestsolaris.com,daddylivehd.*,tutelehd.*,watchtvchh.*##+js(acs, setTimeout, admc)
+daddylivehd.*,worldstreams.click##+js(aopw, u_cfg)
+daddylivehd.*,footyhunter.lol,poscitech.click,wecast.to##+js(nostif, sadbl)
+forgepattern.net##+js(acs, JSON.parse, atob)
+volokit2.com##+js(json-prune, *, *.adserverDomain)
 dlhd.sx##+js(aost, document.createElement, onerror)
-/adblock.php$script,domain=daddylivehd.*|freelivetvon.com|poscitech.click|tvpclive.com
-||switchcast2.com/z-$script
-||cdn.trafficbass.com^$popup,3p
-*$script,3p,denyallow=fastly.net|jquery.com|jsdelivr.net|hwcdn.net,domain=worldstreams.click
+/adblock.php$script,domain=daddylivehd.*|poscitech.click
 ! https://www.reddit.com/r/uBlockOrigin/comments/135yt7g/
 /adpup/*.js$script,3p
 /t.salamus1.lol/*$script

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DX2cPLGDQd7dSepKjf9Cmg
-! Version: 202501251941
+! Checksum: 7DTYZDkkX8qekKgXRuzQuA
+! Version: 202501252041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jan 2025 19:41 UTC
+! Last modified: 25 Jan 2025 20:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23148,6 +23148,8 @@ howdyho.net,howdyho.pro#@#div[id^="yandex_rtb"]
 ! селекторы
 growhow.in.ua###custom-background-css {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
+vk.com,vk.ru###feed_rows > .feed_row > .mailru-visibility-check {remove:true;}
+vk.com,vk.ru###feed_rows > .feed_row > div[data-media-type] {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
 e.mail.ru##.layout__column_right-indented
 mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
@@ -23204,8 +23206,6 @@ sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
 liveinternet.ru##style + div > div > div > div > div a
-vk.*###feed_rows > .feed_row > .mailru-visibility-check {remove:true;}
-vk.*###feed_rows > .feed_row > div[data-media-type] {remove:true;}
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки

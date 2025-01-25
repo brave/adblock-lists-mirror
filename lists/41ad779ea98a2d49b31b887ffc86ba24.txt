@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oD0d7Y1kkYOzIo0KcM6EtA
-! Version: 202501252140
+! Checksum: 3F/FF4otvwYsMy+OZz4vfQ
+! Version: 202501252315
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-25 21:40 UTC
+! Last modified: 2025-01-25 23:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -43976,6 +43976,9 @@ posthog.com##+js(set-local-storage-item, cookie_consent, no)
 evium.de##+js(set-local-storage-item, tracking-state-v2, deny)
 ickonic.com##+js(set-local-storage-item, consentMode, 1)
 abs-cbn.com##+js(set-local-storage-item, uninavIsAgreeCookie, true)
+puregoldprotein.com##+js(set-local-storage-item, cookiesAccepted, true)
+puregoldprotein.com##+js(set-local-storage-item, adsAccepted, false)
+puregoldprotein.com##+js(set-local-storage-item, analyticsAccepted, false)
 adef-emploi.fr,lumieresdelaville.net##+js(set-local-storage-item, analytics_gdpr_accept, yes)
 adef-emploi.fr,lumieresdelaville.net##+js(set-local-storage-item, youtube_gdpr_accept, yes)
 ccaf.io##+js(set-local-storage-item, Analytics:accepted, false)
@@ -45127,9 +45130,6 @@ bektv.plus,bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,
 !! #cc-main
 bliink.io,analytics-debugger.com,istories.media,kroo.com,shipoffoolsgame.com###cc-main
 bliink.io,analytics-debugger.com,istories.media,kroo.com,shipoffoolsgame.com##body,html:style(overflow: auto !important; position: initial !important;)
-! puregoldprotein.com
-puregoldprotein.com##.cookieConsentDialog
-puregoldprotein.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! kidioui.fr
 kidioui.fr##.cookieACK
 kidioui.fr##body,html:style(overflow: auto !important; position: initial !important;)

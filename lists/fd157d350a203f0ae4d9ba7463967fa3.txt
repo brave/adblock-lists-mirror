@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BzW1/ITQN//yiyxJUsZWaQ
-! Version: 202501251041
+! Checksum: nGWP25rwytTgFxweP+dTgQ
+! Version: 202501251141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jan 2025 10:41 UTC
+! Last modified: 25 Jan 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14188,6 +14188,7 @@ anypictures.ru##.featured
 syl.ru#?#.featured_articles > .header:-abp-contains(/^Новости партнеров|^Также читайте/)
 pravoved.ru##.feed-bnnrs--right
 report.az##.feed-col > div[style^="height:"]
+vk.com,vk.ru##.feed_row ._post_content > .page_block
 online.fliphtml5.com##.fh5---banner---container
 allboxing.ru#?#.field-item > p:-abp-has(noindex [href*="adfox.ru"])
 allboxing.ru#?#.field-item > p:-abp-has(noindex [href*="pari.ru"])

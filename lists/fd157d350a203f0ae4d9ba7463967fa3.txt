@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KO0XFTSLHNVMcpsu0zYH1g
-! Version: 202501261041
+! Checksum: fvtFEHKFAG7E9TpJbHVI+w
+! Version: 202501261141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Jan 2025 10:41 UTC
+! Last modified: 26 Jan 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13163,6 +13163,8 @@ ixbt.com,ixbt.games,ixbt.market,ixbt.pro##.b-adfox
 tut.by##.b-aditem
 primpress.ru##.b-adv-marker
 siliconrus.com##.b-adv-micro
+www.abok.ru##.b-advert__horizontal
+www.abok.ru##.b-advert__vertical
 news.sportbox.ru##.b-advertise
 pulscen.ru##.b-advertising
 astrakhan-24.ru##.b-adverts
@@ -13183,6 +13185,7 @@ sibdepo.ru##.b-block--banner
 ixbt.com##.b-block__parterslist
 svpressa.ru##.b-blockquote-partner
 liga.net##.b-blocks
+www.abok.ru#?#.b-blocks:-abp-has(> .b-advert__vertical)
 sobaka.ru##.b-body-brand-banner
 sobaka.ru##.b-body-sidebar__banners
 hata.by##.b-card__sale
@@ -13220,6 +13223,7 @@ drom.ru##.b-media-cont_theme_adverts
 friday.ru##.b-mts-logo
 altapress.ru##.b-nav li > a:not([href^="/"]):not([href*="altapress"])
 bigmir.net##.b-net-preview
+www.abok.ru##.b-news__preview .bannerWrapper
 104.ua##.b-obozrevatel-top
 catalog.onliner.by##.b-offers-promo
 f1news.ru##.b-other-news
@@ -14186,6 +14190,7 @@ pravoved.ru##.feed-bnnrs--right
 report.az##.feed-col > div[style^="height:"]
 vk.com,vk.ru##.feed_row ._post_content > .page_block
 vk.com,vk.ru##.feed_row > :not([id^="post"]) > ._post_content
+vk.com,vk.ru##.feed_row > :not([id^="post"]) > div[class=""]
 vk.com,vk.ru##.feed_row > [style]
 vk.com,vk.ru##.feed_row > [theme]
 online.fliphtml5.com##.fh5---banner---container
@@ -16859,6 +16864,7 @@ click-or-die.ru##[data-cfpa]
 vgorodekirove.ru##[data-click]
 tvtver.ru##[data-comment*="reklama"]
 examenpdd.com,liveinternet.ru##[data-container="outer"]
+rosteplo.ru##[data-content*="ERID"]
 gdz4you.com##[data-controller="SearchInputController"] ~ .well-container
 vgae.ru##[data-count="b/s/"]
 itc.ua##[data-course]
@@ -19314,6 +19320,7 @@ akademekb.ru##img[id^="cradv_"]
 bitmakler.com##img[onclick*="bitmakler.com/go.php"]
 nnportal.org##img[onclick^="countAdClick"]
 consol-games.com,consol-games.net##img[src*="/600_200"]
+rosteplo.ru##img[src*="/Image/rek/"]
 salonav.com##img[src*="/SAV_banners/"]
 newformat.info##img[src*="/_img/ban/"]
 ktv-ray.ru##img[src*="/advert/"]
@@ -19557,6 +19564,7 @@ mnogo-krolikov.ru##span[style*="background: #ffe348"]
 snow-motion.ru##span[style="cursor: pointer;"][onclick]:not([onclick*="snow-motion.ru"])
 yepman.ru##span[style="font-size:14px;"]
 yepman.ru##span[style="font-size:14px;"] + *
+forum.abok.ru##span[style^="color: #4F4F4F; font-size: 6pt; text-align: left;"]
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##sport[name="soccer"]
 nuriknur.ucoz.com##strong > span[style="color:red"]
 onliner.by#?#strong:-abp-contains(нож блокировщику)
@@ -19685,6 +19693,8 @@ anchem.ru##td[width="100%"][align="center"] > a[href] > img
 stulchik.net##td[width="120"][valign="top"] a[href][target="_blank"]
 lada-granta.net,lkforum.ru##td[width="150"][align="right"][valign="top"]
 www.ruhim.ru##td[width="150"][height="210"]
+forum.abok.ru##td[width="165px"] > .borderwrap:first-child
+forum.abok.ru##td[width="165px"] > .borderwrap:first-child + hr
 mob39.ru##td[width="190"] > .table[width="190"]
 nwcod.com##td[width="2"] + .slink[align="center"] > :not(#dle-content)
 filebase.ws##td[width="200"][valign="top"] > a[href]
@@ -20992,6 +21002,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||forscreen.com/*.php|
 ||fortuna.live/banners/
 ||forum-gta.com^$script,domain=phpbb3.x-tk.ru
+||forum.abok.ru/_banners/
+||forum.abok.ru/style_images/ip.boardpr/rek.
 ||forum.adult-torrent.com^
 ||forum.astrakhan.ru/*.swf$object
 ||forum.atvclub.ru/js/audentio/ad_styler/
@@ -22243,6 +22255,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||roem.ru^$object
 ||rose.ixbt.com/banner/
 ||rosrealt.ru/pics/design2/
+||rosteplo.ru/Image/rek/
 ||rostovmama.ru/bypass/*.php?zone=
 ||rotabanner.kulichki.com^
 ||rpod.ru/i/b/
@@ -23148,66 +23161,66 @@ howdyho.net,howdyho.pro#@#div[id^="yandex_rtb"]
 ||yandex.$domain=howdyho.net|howdyho.pro
 ||yastatic.$domain=howdyho.net|howdyho.pro
 ! селекторы
-growhow.in.ua###custom-background-css {remove:true;}
-playground.ru###dfpPrerollDelay {remove:true;}
-vk.com,vk.ru###feed_rows > .feed_row > .mailru-visibility-check {remove:true;}
-vk.com,vk.ru###feed_rows > .feed_row > div[data-media-type] {remove:true;}
-the-geek.ru###wp-custom-css {remove:true;}
-e.mail.ru##.layout__column_right-indented
-mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
+@@||ozon.ru/highlight/kursk-$elemhide
+android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
-pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
-fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
-android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
-@@||ozon.ru/highlight/kursk-$elemhide
-dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
+cq.ru#?#div:-abp-properties(content: "Реклама")
 drive2.ru##[data-container="outer"]
-liveinternet.ru,sdamgia.ru##[data-container]
-sdamgia.ru##[data-name="partial-container"]
 drive2.ru##[data-sticky-adtune]
 drive2.ru##[data-test="AdKebabAndLabel--adLabelContent"]
-dzen.ru,liveinternet.ru##[data-wrapper]
+drive2.ru##div[class$="--equal"] > div[class] > div:not([class]):not([id])
+drive2.ru##div[class$="--equal"] > div[class] > div[id]:not(:empty)
+drive2.ru#?#div:-abp-properties(min-height: 555px)
+drive2.ru,liveinternet.ru,sdamgia.ru##div[data-name="adWrapper"]
 dzen.ru##[data_name]
-lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
-livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
 dzen.ru##a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class]
-pikabu.ru##article.story[data-text-length="1"]
+dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
+dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
+dzen.ru#?#div:-abp-properties(position: relative !important)
+dzen.ru,liveinternet.ru##[data-wrapper]
+e.mail.ru##.layout__column_right-indented
+e.mail.ru##div[class=""] > div[class=""] > div[class=""]
+fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
+growhow.in.ua###custom-background-css {remove:true;}
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
+lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
+liveinternet.ru##div[style*="!important; "]
+liveinternet.ru##style + div > div > div > div > div a
+liveinternet.ru,sdamgia.ru##[data-container]
+livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
+mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
+otvet.mail.ru#?#div:empty:-abp-properties(content: "Реклама")
+pikabu.ru##article.story[data-text-length="1"]
+pikabu.ru##div[class*="page-story__"] div[style=""]
+pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
+pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}|min-height: calc.|min-height: .+.(cm|in|lh|mm|pt)|height: 250px/)
+playground.ru###dfpPrerollDelay {remove:true;}
+pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
+rg.ru##div[id][class*="__"]:empty
+sdamgia.ru##[data-name="partial-container"]
+sdamgia.ru##center > div[id][style]
+sdamgia.ru##div[class^="google_ad_left"]
+sdamgia.ru##div[id^="yandex_vario"]
+sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
+the-geek.ru###wp-custom-css {remove:true;}
+vk.com,vk.ru###feed_rows > .feed_row > .mailru-visibility-check {remove:true;}
+vk.com,vk.ru###feed_rows > .feed_row > div[data-media-type] {remove:true;}
+www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
+www.drive2.ru##iframe[style="opacity: 1;"]
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
-~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] :not(a):not(li):not(.weather-header__title) > span:not([style]):-abp-properties(overflow-x: hidden)
-~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] article:-abp-properties(overflow-x: hidden)
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > article
-~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > div:-abp-properties(overflow-x: hidden)
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > p
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > section
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > span:not(.container)
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) span[style=""]
+~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] :not(a):not(li):not(.weather-header__title) > span:not([style]):-abp-properties(overflow-x: hidden)
+~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] article:-abp-properties(overflow-x: hidden)
+~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > div:-abp-properties(overflow-x: hidden)
 ~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]):not([style]) div:-abp-has(div:-abp-properties(font-size: 24px))
 ~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] p:-abp-properties(overflow-x: hidden)
 ~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] section:-abp-properties(overflow-x: hidden)
-sdamgia.ru##center > div[id][style]
-dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
-cq.ru#?#div:-abp-properties(content: "Реклама")
-drive2.ru#?#div:-abp-properties(min-height: 555px)
-dzen.ru#?#div:-abp-properties(position: relative !important)
-otvet.mail.ru#?#div:empty:-abp-properties(content: "Реклама")
-drive2.ru##div[class$="--equal"] > div[class] > div:not([class]):not([id])
-drive2.ru##div[class$="--equal"] > div[class] > div[id]:not(:empty)
-pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
-pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}|min-height: calc.|min-height: .+.(cm|in|lh|mm|pt)|height: 250px/)
-pikabu.ru##div[class*="page-story__"] div[style=""]
-e.mail.ru##div[class=""] > div[class=""] > div[class=""]
-sdamgia.ru##div[class^="google_ad_left"]
-drive2.ru,liveinternet.ru,sdamgia.ru##div[data-name="adWrapper"]
-rg.ru##div[id][class*="__"]:empty
-sdamgia.ru##div[id^="yandex_vario"]
-liveinternet.ru##div[style*="!important; "]
-sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
-www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
-www.drive2.ru##iframe[style="opacity: 1;"]
-liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eAG5JsQo596O8s6xhHqGVA
-! Version: 202501261841
+! Checksum: iLA6DEWV5NcqeWVdqpOd/Q
+! Version: 202501261941
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Jan 2025 18:41 UTC
+! Last modified: 26 Jan 2025 19:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1651,7 +1651,7 @@ allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note
 allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note ~ hr
 cross.expert##.notify
 cameralabs.org##.notlabs
-fanserial.fun,fanserialstv.net##.novelty-banner
+fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.novelty-banner
 takiedela.ru##.np-footer-contacts__socials
 takiedela.ru##.np-socials
 bobr.by##.null-share__block
@@ -2598,6 +2598,8 @@ dracon-zet.ru#?#[align="center"]:-abp-has(> div[align="center"] > .ya-share2)
 lelang.su##[alt="Поделись с друзьями"]
 kiev24.ua,kyiv24.com##[aria-label="Facebook"]
 vladday.ru##[aria-label="Footer Navigation - Social Links"]
+vsaduidoma.com##[aria-label="Left Sidebar Sidebar"] > .widget > .widget-first
+vsaduidoma.com##[aria-label="Right Sidebar Sidebar"] > .widget-last
 mivmeste.info##[aria-label="Share via link"]
 theuk.one##[aria-label="facebook"]
 xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##[aria-label="Баннер соцсети"]
@@ -3948,7 +3950,6 @@ rbkgames.com##iframe[src^="https://player.twitch.tv?autoplay=true"][src*="rbkgam
 ||tickercentral.com^$third-party
 ||tickersbycindy.com^$third-party
 ||torrent.proxylife.org^$third-party
-||travelpayouts.com^$third-party,domain=~jetravel.ru
 ||traviangp.com^$third-party
 ||ubars.ru^$third-party
 ||ult-tex.net/counts/
@@ -4843,7 +4844,7 @@ lifehacker.ru##.arrow-menu [name="Ozon"]
 narutoplanet.ru##.art-header-jpeg
 vm.ru##.article--subscribes
 1prime.ru##.article-aggr
-fanserial.fun,fanserialstv.net##.article-aside-promo
+fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.article-aside-promo
 360tv.news#?#.article-body > div:-abp-has(> [href^="https://news.google.com/publications/"])
 androidinsider.ru##.article-body > p > code.large-text
 championat.com##.article-content > .external-article
@@ -5571,6 +5572,7 @@ yk-news.kz##.notify-block
 holodilnik.ru##.notify-layer--cookie
 piluli.ru##.notiny
 smartpress.by##.noty_layout
+fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.novelty-banner
 olx.ua##.observe-search-banner
 okino.ua##.on-story-tags_subscribe
 moniheal.com##.one-news__banner--bottom

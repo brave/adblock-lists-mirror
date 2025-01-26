@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0IUbidGSuDBRuC1vWCGtbw
-! Version: 202501261841
+! Checksum: S4Tekf1brLs66iOE7QElPQ
+! Version: 202501261941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Jan 2025 18:41 UTC
+! Last modified: 26 Jan 2025 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3593,6 +3593,7 @@ _tizers.
 ||trafunder.$third-party
 ||trailerstube.ru^$third-party
 ||travelpayouts.com/content?promo_id=$third-party,image,object
+||travelpayouts.com^$third-party,domain=~jetravel.ru
 ||tremona.ru^$third-party
 ||trening-maximum.ru^$third-party
 ||trusearch.net/affblock/
@@ -3752,6 +3753,7 @@ _tizers.
 ||yottos.com$third-party
 ||yournewhosting.com/images/$third-party
 ||yousticker.com/load/$third-party
+||youtravel.me/widgets/admitad/$third-party
 ||ysexy.org^$third-party
 ||yuga.ru^$third-party
 ||zadarma.com^*/banner$third-party
@@ -12830,7 +12832,6 @@ bryansktoday.ru##.a-d-v
 gdetraffic.com##.a-insertion
 autocentre.ua,cheline.com.ua,itechua.com,te.ua,ternopillive.com,uamotors.com.ua##.a-single
 hitfile.net##.a-video-block
-vsaduidoma.com##.a111
 mail.kz##.a6
 zagorod.spb.ru##.a990_90
 peterburg2.ru##.a__link
@@ -14189,7 +14190,6 @@ syl.ru#?#.featured_articles > .header:-abp-contains(/^Новости партн�
 pravoved.ru##.feed-bnnrs--right
 report.az##.feed-col > div[style^="height:"]
 vk.com,vk.ru##.feed_row ._post_content > .page_block
-vk.com,vk.ru##.feed_row > :not([id^="post"]) > div[class*="_"]
 vk.com,vk.ru##.feed_row > :not([id^="post"]) > div[class=""]
 vk.com,vk.ru##.feed_row > [style]
 vk.com,vk.ru##.feed_row > [theme]
@@ -15404,6 +15404,7 @@ rbkgames.com##.poster-grid-item > a[target="_blank"]:first-child ~ a[target="_bl
 agrotimes.ua##.poster-modal
 iphones.ru##.postitem__dpd_block
 denzadnem.com.ua##.postmeta-primary ~ .hr1[style="border-bottom-color:#eee"]
+vk.com,vk.ru##.postredesign
 zx-pk.ru#?#.posts > [id^="post_"]:-abp-has(> .postdetails > .userinfo > [title*="Advertiser"] )
 anadyr.org#?#.posts-container > .card:-abp-has(> div > [id^="yandex_rtb_"])
 anadyr.org#?#.posts-container > .card:-abp-has(> iframe[src*="/banners/"])
@@ -16604,6 +16605,7 @@ provce.ck.ua##.wp_image_wrap
 giantessa.ru##.wpb_text_column
 pravda.if.ua##.wpb_wrapper > .td_block_single_image
 pravda.if.ua##.wpb_wrapper > .tdm_block_inline_image
+vsaduidoma.com##.wppopups-whole
 irr.by,irr.ru##.wrBanerPlace noindex
 avtosreda.ru##.wrap > noindex
 vse42.ru##.wrap-adplace-frame
@@ -18484,6 +18486,7 @@ kaktutzhit.by##div[class^="banner"][class$="rightSide"] > .banner:nth-of-type(1)
 cisoclub.ru##div[class^="banner"][class*="LENTA"]
 meteo.ua##div[class^="banner-"]
 hh.ru##div[class^="banner-place"]
+znanierussia.ru##div[class^="banner-under-"]
 irr.by,securitylab.ru##div[class^="banner_"]
 caravan.su##div[class^="banner_header"]
 mnmag.ru##div[class^="banner_right"]
@@ -23682,16 +23685,16 @@ mirtesen.ru##[id^="unit_"]
 !
 ! зеркала MySeria.NET https://vk.com/myserianet
 ! частные
-fanserial.fun,fanserialstv.net##.article-aside-promo a[href][target="_blank"]
-fanserial.fun,fanserialstv.net##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
-fanserial.fun,fanserialstv.net##.flex-promo-series > .right-col a[href][target="_blank"]
+fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.article-aside-promo a[href][target="_blank"]
+fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
+fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.flex-promo-series > .right-col a[href][target="_blank"]
 ! общие
 ##.article-aside-promo a[href][target="_blank"]
 ##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
 ##.flex-promo-series > .right-col a[href][target="_blank"]
 ! запросы
-/player/fan.xml$domain=fanserial.fun|fanserialstv.net
-@@||v*.plrjs.org/*.xml?rand=$xmlhttprequest,domain=fanserial.fun|fanserialstv.net
+/player/fan.xml$domain=fanserial.fun|fanserial.pw|fanserial.tv|fanserialstv.net
+@@||v*.plrjs.org/*.xml?rand=$xmlhttprequest,domain=fanserial.fun|fanserial.pw|fanserial.tv|fanserialstv.net
 !
 ! Одноклассники
 ok.ru###hook_Block_AsideColumn img:first-child ~ div:not(#hook_Block_CompactFooter)

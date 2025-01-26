@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.1.1
+! Version: 4.0.1.2
 
 ! General
 
@@ -42,9 +42,11 @@ gadget.pico.tools##+js(json-prune, locked)
 /arc/subs/p.min.js$script,~third-party
 @@/arc/subs/p.min.js$script,domain=latercera.com|nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party
-/evolok/*/ev-em.min.js$script,~third-party
+/evolok/*/ev-em.min.js$script
+/evolok/ev-em.min.js$script
 @@/evolok/*/ev-em.min.js$script,~third-party$domain=vikatan.com
-/evolok/*/ev-widgets.min.js$script,~third-party
+/evolok/*/ev-widgets.min.js$script
+/evolok/ev-widgets.min.js$script
 /paywall/evercookie_get.js$script,~third-party
 /shared-content/art/tncms/api/access.*.js$script,~third-party
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party
@@ -660,7 +662,6 @@ odt.co.nz##+js(ra, property, div[property="content:encoded"])
 ||perspectivemedia.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 perspectivemedia.com##div.hustle-ui
 popbitch.com##+js(ra, class, div[class*="-premium"])
-||corprensa.com/la-prensa/evolok/$script,domain=prensa.com
 psypost.org##+js(cookie-remover, issuem_lp)
 publishersweekly.com##+js(ra,class|style,div#contentdiv.loggedInOnly,stay)
 publishersweekly.com##div#contentdiv.loggedOutOnly

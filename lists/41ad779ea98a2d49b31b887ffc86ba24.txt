@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XfyBa4VwLER6kYsWrAgxHQ
-! Version: 202501272040
+! Checksum: FbGQ/MdPyy2/FE2Adcp8hg
+! Version: 202501272240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-27 20:40 UTC
+! Last modified: 2025-01-27 22:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -19881,7 +19881,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###table-cookie
 ###tarteaucitron-overlay
 ###tarteaucitron-root
-###tarteaucitronAlertBig
 ###tavisocookies
 ###taxiCookieConsent
 ###tbCookieConsent
@@ -27390,7 +27389,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.tancmbnr
 ##.tao-cookie-hint
 ##.tar_cookiesBar
-##.tarteaucitronAlertBigBottom
 ##.tarteaucitronBeforeVisible
 ##.taxcodeandprivacy-cookienotice-bar
 ##.tbcookie
@@ -28369,6 +28367,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##section.cookie-popup
 ##section.cookie__privacy
 ##section.cookies_banner
+! ovega.com/azoproducts.com/culturelle.com/up4products.com
+##.isense-cookieconsent-wrapper
 ! utreraweb.com/mmexpression.es/dicep.es
 ###capa_aviso_cookies
 ##.cookies_aviso_escudo
@@ -35502,7 +35502,7 @@ equilar.com,ffonts.net,whatfontis.com###sticky-popup
 firefoxosdevices.org###storage-notice
 strava.com###stravaCookieBanner
 streamify.io###streamify-gdpr
-kameleoon.com###tarteaucitronRoot
+kameleoon.com,plazario2.com###tarteaucitronRoot
 tatsubuilder.com###tatsu-header-container
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###taw > div > [data-ved]
 kaec.net,thelawpages.com###terms
@@ -36141,6 +36141,7 @@ acquire.io,dfine.at,esim.guru##.cookie-popup_component
 neevo.definedcrowd.com##.cookie-preferences-alert
 up.ac.za##.cookie-preferences-container
 lavueltaholanda.com##.cookie-prefs-wrapper
+astonmartinf1.com##.cookie-prompt
 eagle.cool##.cookie-promt
 lenovo.com##.cookie-remind-warpper
 mymetpolicepension.equiniti.com##.cookie-section-fixed-top
@@ -43866,7 +43867,7 @@ depop.com##+js(set-cookie, gdpr__depop__functional, true)
 thenounproject.com##+js(set-cookie, cookie_consent, 1, , reload, 1)
 pricehubble.com##+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)
 ilmotorsport.de##+js(set-cookie, cookieMsg, true, , reload, 1)
-karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com##+js(set-cookie, cookie-consent, true)
+karate.com,psbank.ru,myriad.social,exeedme.com,followalice.com,netbird.io##+js(set-cookie, cookie-consent, true)
 dndbeyond.com##+js(set-cookie, cookie-consent, denied)
 news.samsung.com##+js(set-cookie, COOKIECONSENT, false)
 tibber.com##+js(set-cookie, tibber_cc_essential, approved, , reload, 1)
@@ -46558,6 +46559,10 @@ headphonebar.com,jolinne.com##body:style(overflow: auto !important; position: in
 house.suntory.com##.overlay-newsletter
 house.suntory.com##.modal-backdrop
 house.suntory.com##body,html:style(overflow: auto !important; position: initial !important;)
+! suzukicycles.com
+suzukicycles.com##.popup-promo
+suzukicycles.com##.modal-backdrop
+suzukicycles.com##+js(rc, modal-open, body, stay)
 ! partsinmotion.co.uk
 partsinmotion.co.uk###fancybox-overlay
 partsinmotion.co.uk##body,html:style(overflow: auto !important; position: initial !important;)

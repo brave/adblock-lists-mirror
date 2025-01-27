@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A/4M59uTLTgVcHzBAbxNlg
-! Version: 202501270741
+! Checksum: nbv+K6/tpPIz4C4yXqU7Uw
+! Version: 202501270841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Jan 2025 07:41 UTC
+! Last modified: 27 Jan 2025 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18611,6 +18611,7 @@ gorod.cn.ua##div[class^="pos"][class*="_"]
 vk.com,vk.ru##div[class^="post"][class$="style"]
 eanews.ru##div[class^="post-"] > section[class^="styled__Wrapper-sc-"]
 tsn24.ru##div[class^="post-banner"]
+vk.com,vk.ru##div[class^="post202"]
 pln-pskov.ru##div[class^="pr__news"][style="padding-right: 0 !important;"]
 aliexpress.ru#?#div[class^="product-snippet_ProductSnippet__grid"] > [data-product-id]:-abp-has(> div > div[class^="product-snippet_ProductSnippet__description"] > div[class^="product-snippet_ProductSnippet__block"] > div[class^="product-snippet_ProductSnippet__ext"]:-abp-contains(Реклама))
 soft.sibnet.ru##div[class^="programm_block-ad"]
@@ -23149,7 +23150,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?rodbv=$xmlhttprequest
+||pikabu.ru/ajax/*?bvmyx=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

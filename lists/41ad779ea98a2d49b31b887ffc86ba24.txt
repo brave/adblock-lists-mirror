@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KP2pbZHEqIIo76Tes5MNLg
-! Version: 202501270540
+! Checksum: 38SNU2m/CGdv75wP4RBJ2A
+! Version: 202501270715
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-27 05:40 UTC
+! Last modified: 2025-01-27 07:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41970,6 +41970,9 @@ player.fm##body,html:style(overflow: auto !important; position: initial !importa
 wunderground.com##+js(rc, enable-sda, body, stay)
 ! tubitv app nag
 tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
+! makerworld
+makerworld.com##.MuiModal-root.MuiDialog-root:has-text(Open in Bambu Handy)
+makerworld.com##body:style(overflow: auto !important; position: initial !important;)
 ! m.economictimes.com
 m.economictimes.com###prominentOverlay
 m.economictimes.com##body,html:style(overflow: auto !important; position: initial !important;)

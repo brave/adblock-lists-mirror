@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kUiwT9JsKzxV3Q8Bx11JLQ
-! Version: 202501281841
+! Checksum: EC4R27zc8n1vJwLY2GdDFQ
+! Version: 202501281941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Jan 2025 18:41 UTC
+! Last modified: 28 Jan 2025 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11874,6 +11874,7 @@ inpot.ru###ezobann
 bitcryptonews.ru###faq-index
 turmush.kg###fb_bottom_like
 myparcels.ru###featured-wants
+vk.com,vk.ru###feed_rows > .feed_row[style=""]
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > [class^="PostHeaderSubtitle"] > [class]:-abp-contains(/Community ad|Реклама|Рэклама|жарнама/))
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo [onclick*="ads_params:"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo [onmouseover*="AdsLight"])
@@ -23169,6 +23170,7 @@ howdyho.net,howdyho.pro#@#div[id^="yandex_rtb"]
 growhow.in.ua###custom-background-css {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 vk.com,vk.ru###feed_rows > .feed_row > div:not([id])
+vk.com,vk.ru###feed_rows > .feed_row > div[id]:not([data-post-id])
 vk.com,vk.ru#?##feed_rows > .feed_row:-abp-has(.PostHeaderSubtitle:-abp-contains(/[Реклама]/))
 the-geek.ru###wp-custom-css {remove:true;}
 e.mail.ru##.layout__column_right-indented

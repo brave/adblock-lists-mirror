@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Xg+lS23pCBeFnOM3R6iMww
-! Version: 202501282141
+! Checksum: o+b6v2keT/HVtfJ5eMAXow
+! Version: 202501282241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Jan 2025 21:41 UTC
+! Last modified: 28 Jan 2025 22:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23170,9 +23170,10 @@ howdyho.net,howdyho.pro#@#div[id^="yandex_rtb"]
 growhow.in.ua###custom-background-css {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 vk.com,vk.ru###feed_rows > .feed_row > div:not([id])
-vk.com,vk.ru###feed_rows > .feed_row > div[id]:not([data-post-id])
 vk.com,vk.ru#?##feed_rows > .feed_row:-abp-has(.PostHeaderSubtitle:-abp-contains(/[Реклама]/))
+vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([data-post-id])
 the-geek.ru###wp-custom-css {remove:true;}
+vk.com,vk.ru##.feed_row > [data-post-id]:not([id^="post-"])
 e.mail.ru##.layout__column_right-indented
 mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
 anidub.vip,anidubonline.com##.plyr__menu

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lMxi/KkUPd2vsp9BuFe5Iw
-! Version: 202501290941
+! Checksum: UOUJn4YO9eitXRoEMBIsYQ
+! Version: 202501291041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Jan 2025 09:41 UTC
+! Last modified: 29 Jan 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23174,6 +23174,7 @@ vk.com,vk.ru#?##feed_rows > .feed_row:-abp-has(.PostHeaderSubtitle:-abp-contains
 vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([data-post-id])
 the-geek.ru###wp-custom-css {remove:true;}
 vk.com,vk.ru##.feed_row > [data-post-id]:not([id^="post-"])
+vk.com,vk.ru##.feed_row > [data-post-id][id^="post-"] > :not([class="_post_content"])
 e.mail.ru##.layout__column_right-indented
 mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
 anidub.vip,anidubonline.com##.plyr__menu

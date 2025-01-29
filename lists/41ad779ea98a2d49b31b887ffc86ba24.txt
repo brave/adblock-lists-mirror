@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CDuqL9jV2nLyZygKwK9n3Q
-! Version: 202501291315
+! Checksum: LzFcjscz3xh1Ez/K9Kbkaw
+! Version: 202501291340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-29 13:15 UTC
+! Last modified: 2025-01-29 13:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37998,7 +37998,7 @@ decovarrubias.es,q10gestion.com###sliding-popup-cookies
 !! .qc-cmp2-container
 centrometeoitaliano.it,in.gr,oraridiapertura24.it,order-order.com##.qc-cmp2-container
 !! .cookie-consent
-560theanswer.com,abconcerts.be,adbro.com,bitstamp.net,congeo.nl,doaj.org,forcepoint.com,geeksforgeeks.org,inleed.se,letsgomartin.com,merosch.nl,niaiu.pl,noor-book.com,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,truyenyy.vip,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl##.cookie-consent
+560theanswer.com,abconcerts.be,adbro.com,bitstamp.net,congeo.nl,doaj.org,forcepoint.com,geeksforgeeks.org,inleed.se,letsgomartin.com,merosch.nl,mutualart.com,niaiu.pl,noor-book.com,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,truyenyy.vip,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl##.cookie-consent
 !! cookiesConsentModal
 latitudeandlongitude.net###cookiesConsentModal
 !! #spopupCont
@@ -42386,6 +42386,9 @@ theolivepress.es##+js(remove-cookie, issuem_lp)
 ! plough.com
 plough.com##.article-paywall 
 plough.com##+js(remove-cookie, ArticlePaywallList)
+! mutualart.com login wall 
+||mutualart.com/Ajax/AjaxLoader/Popup
+mutualart.com##.modal-backdrop
 ! startribune.com (login/reg check)
 startribune.com##+js(remove-cookie, client_id)
 ! accuradio.com (login nag)

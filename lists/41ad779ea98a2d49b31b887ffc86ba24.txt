@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kXzgiyo8UMVu8BVQ3inUYA
-! Version: 202501290040
+! Checksum: 4hqkQGzp4e1SMvkU0iILNw
+! Version: 202501290140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-29 00:40 UTC
+! Last modified: 2025-01-29 01:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -24216,6 +24216,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cs-cookie-bar-container
 ##.cs-cookie-overlay
 ##.cs-info-wrapper
+##.csm-cookie-consent
 ##.csppp-container
 ##.cspx-cookies-bar
 ##.css-cookie-banner
@@ -44041,6 +44042,7 @@ cvut.cz##+js(set-local-storage-item, ctu-cm-n, 1)
 cvut.cz##+js(set-local-storage-item, ctu-cm-a, 0)
 cvut.cz##+js(set-local-storage-item, ctu-cm-m, 0)
 evium.de##+js(set-local-storage-item, tracking-state-v2, deny)
+spectrumtherapeutics.com##+js(set-local-storage-item, cookiesAccepted, true)
 happyplates.com##+js(set-local-storage-item, consentAccepted, true)
 happyplates.com##+js(set-local-storage-item, marketingConsentAccepted, false)
 ickonic.com##+js(set-local-storage-item, consentMode, 1)
@@ -44950,8 +44952,8 @@ eurogamer.nl,eurogamer.es,eurogamer.cz,eurogamer.net,eurogamer.pl,eurogamer.pt,r
 eurogamer.nl,eurogamer.es,eurogamer.cz,eurogamer.net,eurogamer.pl,eurogamer.pt,rockpapershotgun.com,vg247.com##+js(set, BrockmanAllowedCookies.targeting, true)
 eurogamer.nl,eurogamer.es,eurogamer.cz,eurogamer.net,eurogamer.pl,eurogamer.pt,rockpapershotgun.com,vg247.com##+js(set, BrockmanAllowedCookies.functional, true)
 ! #onetrust-consent-sdk
-eatingwell.com,thespruce.com,parents.com###onetrust-consent-sdk
-eatingwell.com,thespruce.com,parents.com##html:style(overflow: auto !important; position: initial !important;)
+liquor.com,eatingwell.com,thespruce.com,parents.com###onetrust-consent-sdk
+liquor.com,eatingwell.com,thespruce.com,parents.com##html:style(overflow: auto !important; position: initial !important;)
 ! howstuffworks.com
 howstuffworks.com##div#onetrust-consent-sdk
 howstuffworks.com##+js(set-cookie, gdpr_opt_in, 1)

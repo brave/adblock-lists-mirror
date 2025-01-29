@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DNY00HX9q+fEezy6bh1Kvg
-! Version: 202501292115
+! Checksum: ut0xgHxvGt29nfMOpTvTFA
+! Version: 202501292140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-29 21:15 UTC
+! Last modified: 2025-01-29 21:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32953,7 +32953,7 @@ map.baidu.com##.bottom-banner-float
 myhome.nifty.com##.bottom-follow-modal
 commaful.com##.bottom-section-signup
 ixigo.com##.bottom-sheet
-m.facebook.com,www.facebook.com##.bottom.fixed-container.m[data-actual-height]
+m.facebook.com,www.facebook.com##.bottom.fixed-container.m:has-text(Get the best experience)
 cityam.com##.breaking-news_liveblog
 smocca.jp##.c-box-app_banner
 warbyparker.com##.c-gCMvLL-dXDTjd-animation-open
@@ -38387,6 +38387,7 @@ studocu.com##.undefined:has([data-test-selector="click-the-cookie-banner"])
 istockphoto.com##.warning:has([data-cookie-type])
 app.filen.io##.z-50:has-text(This site uses cookies)
 unsplash.com##[open]:has(a[href="/cookies"])
+chat.mistral.ai##[role="dialog"]:has-text(cookies)
 moebelix.at##body > div > div:has(#jentis_consent)
 yogainternational.com##div[class^="elements__Banner-"]:has(> div > a[href$="-privacy-policy"])
 ! googlefunding consent warning

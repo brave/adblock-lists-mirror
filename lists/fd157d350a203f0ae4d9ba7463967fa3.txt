@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5GrvQCaJq/N0e/sS7dZwwQ
-! Version: 202501291241
+! Checksum: rMT91ZldjsnmtzxN25Qxrg
+! Version: 202501291341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Jan 2025 12:41 UTC
+! Last modified: 29 Jan 2025 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23184,6 +23184,7 @@ fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
+vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostHeaderS)
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
 drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]

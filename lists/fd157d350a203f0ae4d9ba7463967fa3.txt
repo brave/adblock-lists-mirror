@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PjyW/GoVk9H2HTeyPH0Q7A
-! Version: 202501301841
+! Checksum: jnb4+Zs16CaJq3PsapLdWQ
+! Version: 202501301941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jan 2025 18:41 UTC
+! Last modified: 30 Jan 2025 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18541,6 +18541,7 @@ igraemsa.ru##div[class^="content__banner"]
 food.ru##div[class^="cookieNotice"]
 walking-dead.me##div[class^="cpa"]
 doctorpiter.ru,marieclaire.ru,maximonline.ru,mydecor.ru,parents.ru,psychologies.ru,starhit.ru,thegirl.ru,vokrugsveta.ru,wday.ru,woman.ru##div[class^="creative-placeholder"]
+doska.ykt.ru##div[class^="d-expreriment_adv"]
 finzz.ru##div[class^="dgd_"]
 arz-biz.ru##div[class^="direkt-"]
 prazdnovik.ru##div[class^="distr"]
@@ -23186,11 +23187,7 @@ fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
-vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.FallBackTitle)
-vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.FobosMoon)
-vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostFoxderS)
-vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostHeaderS)
-vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostLisS)
+vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.HTitleData)
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
 drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.1.3
+! Version: 4.0.2.0
 
 ! General
 
@@ -122,8 +122,7 @@ citywire.com##registration-widget,div.alert--locked
 ||zonda.clarin.com^$script,domain=clarin.com|ole.com.ar
 ||codesports.com.au/*/news-story/$inline-script
 ||commentary.org/*/js/dg-locker-public.js$script,~third-party
-||connaissancedesarts.com/wp-content/cache/*.js$script,~third-party
-connaissancedesarts.com##div.ad-container
+||connaissancedesarts.com/wp-content/*/vendor/iptools-jquery-inview.min.js$script,~third-party
 ||paywall.correiodopovo.com.br$script,~third-party
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
 ||cronista.com/files/cachefiles/987*.js$script,~third-party

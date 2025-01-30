@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b/CGtjAqOCrePRgaD8Z5dw
-! Version: 202501292341
+! Checksum: 4oE5cFpSrVFhAcLB6r0zAA
+! Version: 202501300101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Jan 2025 23:41 UTC
+! Last modified: 30 Jan 2025 01:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18288,6 +18288,7 @@ rg.ru##div[class*="YandexAD"]
 fex.net##div[class*="__ads-"]
 mydiv.net##div[class*="__bot-ad"]
 mydiv.net##div[class*="__top-ad"]
+sovsport.ru##div[class*="_bonusLogo"]
 poltavawave.com.ua##div[class*="_place__"]
 www.eg.ru##div[class*="_promocodes "]
 rg.ru##div[class*="adBox"]
@@ -18508,6 +18509,7 @@ delovoymir.biz##div[class^="bnmd_"]
 finversia.ru##div[class^="bnr-"]
 forum.sibmama.info,forum.sibmama.ru##div[class^="bnrb"]
 pohudet.org##div[class^="bodyclick"]
+sovsport.ru##div[class^="bonus-rating"]
 meta.ua,xsport.ua##div[class^="bookmaker"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai#?#div[class^="boxFormWrapper"]:-abp-has(> div[class^="link"] a[href*="/images/reklama/"])
 kerch.fm##div[class^="bp_"][class*="-block"]
@@ -18582,7 +18584,6 @@ football24.ru##div[class^="leon"]
 domik.ua##div[class^="link_brand"]
 manikyres.ru##div[class^="m1"]
 sovsport.ru##div[class^="main-menu_affiliateItem"] *
-sovsport.ru##div[class^="main-menu_bonusLogo"]
 sovsport.ru##div[class^="main-menu_other"]
 stolica-s.su##div[class^="market"]
 itc.ua,mc.today##div[class^="max-"]
@@ -19432,7 +19433,6 @@ old.myshows.me##main > .contAlt
 allcarz.ru#?#main > .container > .site-content:-abp-has(> .content-banner)
 protanki.tv##main > .hidden
 mediaryazan.ru##main > .hide-on-mobiles > div[class="sideblock"]:first-child
-2ch.hk,2ch.life#?#main > .main__block:-abp-has(> [src*="https://rutube.ru/"])
 besplatnyeprogrammy.ru#?#main > article.post:-abp-has(> header > .mainpage_title > [title^="InstallPack"])
 tsn.ua#?#main > aside.u-divider--t:-abp-has(> iframe[src*="/partner-news?"])
 adme.media##main > div[data-sharing-target] ~ div:nth-child(-n+9):not([data-sharing-target])
@@ -22330,7 +22330,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||rutrk.org/
 ||rutube.ru/api/advert/
 ||rutube.ru/play/embed/*?autostart$subdocument,domain=7days.ru|vokrug.tv
-||rutube.ru^$domain=2ch.hk|2ch.life|ditey.com|nashamama.com
+||rutube.ru^$domain=ditey.com|nashamama.com
 ||ruxox.ru/js/plears.js
 ||rybalka.com/images/forum_buttons/
 ||rybolov.ee/reklaam/
@@ -23184,6 +23184,7 @@ fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
+vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.FallBackTitle)
 vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostFoxderS)
 vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostHeaderS)
 vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostLisS)

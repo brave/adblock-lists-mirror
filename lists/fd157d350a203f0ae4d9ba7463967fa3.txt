@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M3w78pssZvNLlBn0Yk0nkA
-! Version: 202501301041
+! Checksum: nt3LKWuicksdvrtc/r1ozA
+! Version: 202501301141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jan 2025 10:41 UTC
+! Last modified: 30 Jan 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13904,6 +13904,7 @@ samara24.ru##.common_left > [id^="rep_"] > .bl_main
 samara24.ru##.common_right_banners
 kinoafisha.info##.companyButton
 rabota.md##.company_related-banner
+doska.ykt.ru##.compilations section.compilation-section--desktop:nth-child(-n+2)
 sdamgia.ru##.con_warper > div[class$="_block"]
 sdamgia.ru##.con_wraper ~ div[class] > div:not([class="content"])
 vsitv.org##.conrek
@@ -16853,6 +16854,7 @@ buhgalter.com.ua,buhgalter911.com,factor.ua,tsn.ua,unian.info,unian.net,unian.ua
 banki.ru##[data-adfox-container]
 vse42.ru##[data-adplace-inited]
 18000.com.ua##[data-ads]
+doska.ykt.ru##[data-adurl]
 teknoblog.ru##[data-advadstrackid]
 bryansknovosti.ru,novozybkov.su#?#[data-alias="Copyright"] .widget-area > .widget_text:not(:last-child):-abp-has(script)
 vc.ru##[data-analytics*="native"]
@@ -23151,7 +23153,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?htypn=$xmlhttprequest
+||pikabu.ru/ajax/*?akejb=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23185,6 +23187,7 @@ android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkaco
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
 vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.FallBackTitle)
+vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.FobosMoon)
 vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostFoxderS)
 vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostHeaderS)
 vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.PostLisS)

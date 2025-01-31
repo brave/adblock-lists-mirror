@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1bdabVAVwh+mduNw6zpJ7A
-! Version: 202501310941
+! Checksum: la5A7p5CUj1ySXzFzEmU9g
+! Version: 202501311041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 Jan 2025 09:41 UTC
+! Last modified: 31 Jan 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23154,7 +23154,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?akejb=$xmlhttprequest
+||pikabu.ru/ajax/*?odakm=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23187,7 +23187,7 @@ fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
-vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.HTitleData)
+vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.MSecondTitle)
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
 drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]

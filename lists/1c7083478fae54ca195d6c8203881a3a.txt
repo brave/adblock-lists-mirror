@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.2.0
+! Version: 4.0.2.1
 
 ! General
 
@@ -254,7 +254,7 @@ nautil.us##+js(cookie-remover, /^(arc|sfa)$/)
 newsday.com##+js(ra, class, html[class])
 newrepublic.com##div.article-scheduled-modal
 ||blink.net/*/blink-sdk.js$script,domain=newrepublic.com|thebaffler.com
-||townnews.com/*/tncms/*/scripts/engage.min.js$script,third-party,domain=nola.com|theadvocate.com
+||townnews.com/*/tncms/*/scripts/engage.min.js$script,third-party,domain=nola.com|shreveportbossieradvocate.com|theadvocate.com
 nrc.nl##+js(cookie-remover, counter)
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
 nrc.nl##div[id$="modal__overlay"],div.header__subscribe-bar,div.banner

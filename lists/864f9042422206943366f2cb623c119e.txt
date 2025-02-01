@@ -2874,3 +2874,9 @@ karkkainen.com##+js(trusted-set-cookie, CookieInformationConsent, '{"website_uui
 
 ! https://github.com/uBlockOrigin/uAssets/issues/27019 - Accept all
 cmp.focus.de##+js(trusted-click-element, button.accept-all)
+
+! https://github.com/uBlockOrigin/uAssets/issues/27023
+vinmonopolet.no##+js(trusted-click-element, .btn-primary)
+
+! https://github.com/uBlockOrigin/uAssets/issues/27044
+wolt.com##+js(trusted-click-element, div[data-test-id="CookieConsentsBanner.Root"] button[data-test-id="decline-button"], '', 1000)

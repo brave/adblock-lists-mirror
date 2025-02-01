@@ -91,6 +91,7 @@ japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
+japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > .text-center > a.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 ! START: Counter Liste FR rules
 japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 japscan.lol#@#div.container > [href]
@@ -229,3 +230,7 @@ rekidai-info.github.io##+js(nosiif, location[_0x)
 ! https://github.com/easylist/easylist/commit/9b7a9a7f2c9caddd825bbc571800d0d785bf533d temp
 ekitan.com,kissanadu.com#@#.sidebar-ad:not(.adsbygoogle)
 job.inshokuten.com,kurukura.jp,netmile.co.jp#@#.ad-area:not(.text-ad)
+
+! https://github.com/uBlockOrigin/uAssets/issues/27015
+myreadingmanga.info##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
+||myreadingmanga.info/vjs/mrm_

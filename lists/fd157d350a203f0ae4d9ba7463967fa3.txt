@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kuYkUjS/f3hR+JHKRjXxOQ
-! Version: 202502010941
+! Checksum: 5B2eDvq/AJjw9RkQyM0mcw
+! Version: 202502011041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Feb 2025 09:41 UTC
+! Last modified: 01 Feb 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1347,6 +1347,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="://topclicks.club/"]
 ##a[href*="://topsofto.ru/"]
 ##a[href*="://tracker.partnersmelbet.ru/"]
+##a[href*="://tracker.rioaffi.com/"]
 ##a[href*="://ufiler-download.ru/"]
 ##a[href*="://ufiler-pro.ru/"]
 ##a[href*="://viewfilesup.ru/"]
@@ -19358,6 +19359,7 @@ zmi.ck.ua##img[src*="/img/andora"]
 chelseablues.ru##img[src*="/img/banners/"]
 pimpletv.ru##img[src*="/img/mars_"]
 pimpletv.ru##img[src*="/img/melbet"]
+pimpletv.ru##img[src*="/img/riobet"]
 old-games.ru##img[src*="/img/rkl/"]
 playmarket-for-pc.com,playmarket-pc.com,roblox-pc.com##img[src*="/img/wizard."]
 dwg.ru##img[src*="/imgnew/"]
@@ -22018,6 +22020,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||pik-tv.com/embed/$domain=freshrecords.ru
 ||pimpletv.ru/wp-content/uploads/img/mars_
 ||pimpletv.ru/wp-content/uploads/img/melbet
+||pimpletv.ru/wp-content/uploads/img/riobet_
 ||pimpletv.ru^*branding.
 ||ping-admin.ru/i/b/
 ||piratski.ru/*_banner.
@@ -23189,7 +23192,7 @@ fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
-vk.com,vk.ru#?#[class="_post_content"]:-abp-has(.TGrosFox)
+vk.com,vk.ru#?#[class="_post_content"]:-abp-has([class*="Fox"])
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
 drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]

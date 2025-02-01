@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.2.1
+! Version: 4.0.2.2
 
 ! General
 
@@ -169,6 +169,7 @@ financialexpress.com##+js(rc, paywall, .paywall)
 financialexpress.com##div.pcl-wrap
 ||folha.uol.com.br/paywall/js/$script,~third-party
 ||paywall.folha.uol.com.br^$script,xmlhttprequest,~third-party
+forbes.com##+js(ra, class, html[class], stay)
 forbes.com##+js(ra, class, body[class], stay)
 forbes.com.au##+js(cookie-remover, blaize_session)
 ||foreignaffairs.com/modules/custom/fa_paywall_js/js/paywall.js$script,~third-party

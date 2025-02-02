@@ -101,6 +101,19 @@ www.msn.com##+js(json-prune-fetch-response, properties.componentConfigs.slidesho
 www.msn.com##+js(json-prune-fetch-response, *, list.[].link.kicker, propsToMatch, /content/v1/cms/api/amp/Document)
 msn.com##.vd-ad
 
+! https://github.com/uBlockOrigin/uAssets/issues/5940
+camhub.world##+js(nostif, visibility, 2000)
+||camhub.world/player/player_ads.html$frame,1p,redirect=noopframe
+! camhub.cc anti-adb/popunder
+camhub.cc##.table
+camhub.cc##+js(nostif, innerText, 2000)
+camhub.cc##+js(set, flashvars.popunder_url, '')
+! https://github.com/uBlockOrigin/uAssets/issues/10011
+camhub.*##.popunder-opener
+camhub.cc##.asside-link
+camhub.cc##.link-offer
+camhub.cc##+js(set, openPop, noopFunc)
+
 ! END: Rules from filters.txt
 
 ! START: Regional lists
@@ -437,3 +450,9 @@ exploader.net##+js(trusted-rpnt, script, /^var \w+=\[.+/, (()=>{let e=[];documen
 
 ! https://github.com/uBlockOrigin/uAssets/issues/27050
 blog-dnz.com##+js(set, isAdBlocked, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/1949
+! https://www.offidocs.com/media/system/app/viewnovnc_ext_chromium.php?urlpathx=https%3A%2Fwww.offidocs.com
+stream.offidocs.com##+js(no-fetch-if, /ip-acl-all.php)
+stream.offidocs.com##.image-container:has(> a[href^="https://amzn.to/"])
+stream.offidocs.com##.image-container:has(> a[href^="https://track.flexlinkspro.com/"])

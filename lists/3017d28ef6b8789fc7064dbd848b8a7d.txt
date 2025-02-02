@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202502020443
+! Version: 202502021244
 ! Title: EasyPrivacy
-! Last modified: 02 Feb 2025 04:43 UTC
+! Last modified: 02 Feb 2025 12:44 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1854,6 +1854,7 @@
 /referrer_tracking.js
 /reftracker.js
 /renderTimingPixel.
+/report_ga_events/*
 /report_visit.php
 /reportData/nm.gif?
 /reporting/metrics
@@ -10496,6 +10497,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gu-pix.appspot.com^$third-party
 ||gubagoo.com/modules/tracking/
 ||gubagoo.io/c/$image
+||gw.conversionsapigateway.com^
 ||h-bid.com^$third-party
 ||h2porn.com/new-hit/?
 ||hadrianpaywall.com/views
@@ -13704,6 +13706,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.vivatube.com^
 ||cnt.xhamster.com^
 ||codecademy.com/analytics/
+||coincarp.com/cdn-cgi/trace
+||coincarp.com/script/events.js
 ||coincheckup.com/report_events/
 ||coincodex.com/cdn-cgi/trace
 ||cointelegraph.com/pixel?
@@ -51912,6 +51916,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||kn007.net/snmp.php
 ||l.web.huya.com^
 ||le.com/op/
+||log-upload-os.hoyolab.com^
 ||log-upload-os.hoyoverse.com^
 ||log.bitauto.com^
 ||log.flight.qunar.com^

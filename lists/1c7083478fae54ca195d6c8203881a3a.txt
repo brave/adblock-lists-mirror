@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.2.2
+! Version: 4.0.2.3
 
 ! General
 
@@ -717,8 +717,8 @@ vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0
 @@||ampproject.org/*/amp-access-$script,domain=cambridge.org|cmjornal.pt
 @@||ampproject.org/v0/amp-consent-$script
 
-artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,sportico.com,staradvertiser.com,theathletic.com,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
-artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,sportico.com,staradvertiser.com,theathletic.com,wsj.com##[subscriptions-section="content-not-granted"]
+artnet.com,barrons.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+artnet.com,barrons.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,wsj.com##[subscriptions-section="content-not-granted"]
 amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,newsday.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 theathletic.com##div[amp-access*="NOT granted"]
 

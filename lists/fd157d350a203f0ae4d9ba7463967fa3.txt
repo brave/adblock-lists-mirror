@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wXrOo8G7gm6ephMS/Ll93A
-! Version: 202502031341
+! Checksum: G7DxjZgkHOC3TLXQNKpPQg
+! Version: 202502031441
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Feb 2025 13:41 UTC
+! Last modified: 03 Feb 2025 14:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5309,6 +5309,7 @@ _tizers.
 ||dasftresns.com^$third-party
 ||dashslesh.com^$third-party
 ||dasterx.ru^$third-party
+||datafeed.bet^$third-party
 ||dataforthis.site^$third-party
 ||datamind.ru^$third-party
 ||datariver.ru^$third-party
@@ -16871,7 +16872,7 @@ itc.ua##[data-course]
 starhit.ru##[data-creative]
 banki.ru##[data-dfp-container]
 briefly.ru##[data-disclaimer*="Реклама"]
-basaru.net.ru,lexxs.us,superkarate.ru,topfile.tj,uzmov.net,weblance.com.ua##[data-dlebclicks]
+basaru.net.ru,gooool365.org,lexxs.us,superkarate.ru,topfile.tj,uzmov.net,weblance.com.ua##[data-dlebclicks]
 arguments.kyiv.ua,dailynews.kyiv.ua,elegantwoman.kyiv.ua,glamour.kyiv.ua,lady.kyiv.ua,medicalanswers.com.ua,news24.in.ua,ua-novosti.info,ua-vestnik.com,useti.org.ua,womanlife.kyiv.ua,zhenskiy.kyiv.ua##[data-element_type="widget"] a[rel="nofollow"]
 gdetraffic.com##[data-gcat="ads"]
 gamer-info.com##[data-gmimplid]
@@ -16904,7 +16905,7 @@ satellitetvforum.info##[data-phpbb-ads-id]
 odds.ru##[data-popup="bonus"]
 shuba.life##[data-product]
 cheezu.ru##[data-provider="yandex"]
-shuba.life##[data-purchase-ingredients-url] button[id]
+shuba.life#?#[data-purchase-ingredients-url] button:-abp-has(> [src*="/silpo."])
 ozon.ru##[data-replace-layout-path] > div[style="height:300px;"]
 ozon.ru##[data-replace-layout-path]:only-child > div[style^="min-width:"][style*="height:"]
 goldsrc.ru##[data-role="primaryNavBar"] a[href^="http://csserv.ru/"]
@@ -17318,7 +17319,7 @@ minecraft15.my1.ru##a[href*="barbarisnews.ru"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##a[href*="bear"]
 cybersport.ru,dltv.org,prodota.ru##a[href*="betboom.bet"]
 okrain.net.ua##a[href*="billing.hostpro.ua"]
-aacalc.ru,agronews.ua,ain.ua,ampercar.com,app2top.ru,argumenti.ru,arminfo.info,autogeek.com.ua,bib.bz,blizzardheroes.ru,csgo-guides.ru,daxshat.site,for-ua.info,gameinside.ua,games-vam.ru,goal24.live,gooool365.org,ilenta.com,img2txt.com,kontrolnaya-rabota.ru,korsars.pro,kritka.su,kurkul.com,liveball7.gq,liveball8.ml,mezha.media,modsfire.com,newstudio.tv,onliner.by,onlinevideoconverter.com,pesni-tut.com,photoshop-besplatno.org,prosportua.com,psm7.com,real-game.net,rutracker-2017.org,skachat-igri-besplatno.info,soft-windows.info,stopgame.ru,tochka.net,topvideo.tj,torrent-shyter.net,trupornolabs.org,ua.news,vc.ru,vgtimes.ru,windows-soft.info,xn--80ac9aeh6f.xn--p1ai,z-music.org,zbirna.com,zoneofgames.ru,zserials.cc##a[href*="bit.ly"]
+aacalc.ru,agronews.ua,ain.ua,ampercar.com,app2top.ru,argumenti.ru,arminfo.info,autogeek.com.ua,bib.bz,blizzardheroes.ru,csgo-guides.ru,daxshat.site,for-ua.info,gameinside.ua,games-vam.ru,goal24.live,ilenta.com,img2txt.com,kontrolnaya-rabota.ru,korsars.pro,kritka.su,kurkul.com,liveball7.gq,liveball8.ml,mezha.media,modsfire.com,newstudio.tv,onliner.by,onlinevideoconverter.com,pesni-tut.com,photoshop-besplatno.org,prosportua.com,psm7.com,real-game.net,rutracker-2017.org,skachat-igri-besplatno.info,soft-windows.info,stopgame.ru,tochka.net,topvideo.tj,torrent-shyter.net,trupornolabs.org,ua.news,vc.ru,vgtimes.ru,windows-soft.info,xn--80ac9aeh6f.xn--p1ai,z-music.org,zbirna.com,zoneofgames.ru,zserials.cc##a[href*="bit.ly"]
 bitmakler.com##a[href*="bitmakler.com/go.php"]
 blogspot.ru##a[href*="bolotov.com.ua"]
 595.ucoz.net##a[href*="bolshoyvopros.ru/"]
@@ -21121,7 +21122,9 @@ igdz1.ru^$script,domain=igdz.ru
 ||goodread.ru/tiz*/
 ||googletagmanager.com/gtm.js?$domain=inc-news.ru|intellitest.me|ivi.ru|pogoda.com|vesti.kz
 ||googleusercontent.com/hk/oobRfTyrFtxXAuFWNle3KfDteO/www.5.ua/files/img/bg/*.jpg.
-||gooool365.org/betli_
+||gooool365.org/betli_$script
+||gooool365.org/ggpop$script
+||gooool365.org/uploads/*.html$subdocument
 ||gordonua.com/user/*/branding-
 ||gorod.cn.ua/banner
 ||gorod.cn.ua/image/upload/
@@ -23169,9 +23172,9 @@ vk.com,vk.ru#?##feed_rows > .feed_row:-abp-has(.PostHeaderSubtitle:-abp-contains
 vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([data-post-id])
 the-geek.ru###wp-custom-css {remove:true;}
 vk.com,vk.ru##._post_content > .post
-vk.com,vk.ru#?#._post_content:-abp-has(> .PostHeader ~ .wall_text)
 vk.com,vk.ru##.feed_row > [data-post-id]:not([id^="post-"])
 vk.com,vk.ru##.feed_row > [data-post-id][id^="post-"] > :not([class="_post_content"])
+vk.com,vk.ru##.feed_row > [data-post-id][id^="post-"]:not([data-post-author-id])
 vk.com,vk.ru#?#.feed_row > [id^="post-"] > ._post_content:-abp-has(> :first-child:not(.PostHeader))
 e.mail.ru##.layout__column_right-indented
 mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]

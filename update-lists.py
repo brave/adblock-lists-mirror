@@ -106,6 +106,7 @@ def move_downloaded_file(filename, url, output_dir):
         shutil.move(filename, output_file_path)
     except Exception as e:
         logger.exception(f"An exception happened while processing {filename}")
+        sentry_sdk.capture_exception(e)
         os.remove(filename)
 
     return output_file_path
@@ -134,6 +135,7 @@ async def fetch_and_save_url(url, output_dir):
             aiohttp.ClientResponseError,
             aiohttp.client_exceptions.ClientConnectorError,
         ) as e:
+            sentry_sdk.capture_exception(e)
             logging.exception(f"An exception happened while processing {url}")
 
 

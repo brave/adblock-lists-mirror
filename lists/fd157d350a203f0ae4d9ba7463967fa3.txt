@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tmGxCShl4JeyIdkGbS3xvA
-! Version: 202502060841
+! Checksum: JwElb3YQv6BFq7zdsZ2pLg
+! Version: 202502060941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Feb 2025 08:41 UTC
+! Last modified: 06 Feb 2025 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12639,8 +12639,7 @@ price.ua###top-categories-autoscroll > #main-autoscroll
 ex-press.by###top-layout
 chinaspb350.ru###top-lighthouse
 buhgalter.com.ua,trinixy.ru###top-line
-yap.ru.yaplakal.com###top-line > .pop-up
-yap.ru,yaplakal.com###top-line > div > a[href][onclick*="open_popup"]
+yap.ru.yaplakal.com###top-line > noindex
 cont.ws###top-page-ads
 37.ru###top-pannel
 dyvys.info###top-random-banner
@@ -23173,13 +23172,14 @@ howdyho.net,howdyho.pro#@#div[id^="yandex_rtb"]
 growhow.in.ua###custom-background-css {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 vk.com,vk.ru###feed_rows > .feed_row > div:not([id])
+vk.com,vk.ru###feed_rows > .feed_row ~ :not(.feed_row)
 vk.com,vk.ru#?##feed_rows > .feed_row:-abp-has(.PostHeaderSubtitle:-abp-contains(/[Реклама]/))
 vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([data-post-id])
 the-geek.ru###wp-custom-css {remove:true;}
 vk.com,vk.ru##._feed_rows > div:not([id]):not([class])
 vk.com,vk.ru##._post_content > .post
-vk.com,vk.ru#?#._post_content:-abp-has(.PostHeaderInfo > div ~ div)
 vk.com,vk.ru#?#._post_content:-abp-has([src^="https://r0."])
+vk.com,vk.ru##._post_content[style=""]
 vk.com,vk.ru##.feed_row > [data-post-id]:not([id^="post-"])
 vk.com,vk.ru##.feed_row > [data-post-id][id^="post-"] > :not([class="_post_content"])
 vk.com,vk.ru##.feed_row > [data-post-id][id^="post-"]:not([data-post-author-id])

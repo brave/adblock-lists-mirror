@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.2.4
+! Version: 4.0.3.0
 
 ! General
 
@@ -595,6 +595,7 @@ brusselstimes.com##+js(ra, style, div[style*="height: 0;"], stay)
 businessden.com,richmondbizsense.com##+js(ra, class, div.cp-paywall-user)
 businessden.com,richmondbizsense.com##div#copperpress-paywall
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
+||cnv-medien.de$inline-script
 connexionfrance.com##+js(cookie-remover, /^/)
 connexionfrance.com##div#subscribe-banner
 ||dailymail.co.uk/static/mol-adverts/$script

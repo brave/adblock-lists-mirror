@@ -3107,3 +3107,6 @@ puolenkuunpelit.com##+js(trusted-set-cookie, cookiefirst-consent, %7B%22necessar
 tavaratalohurrikaani.fi##+js(trusted-set-local-storage-item, consentMode, '{"functionality_storage":"granted","security_storage":"granted","analytics_storage":"denied","personalization_storage":"granted","ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied"}')
 tavaratalohurrikaani.fi##+js(trusted-set-cookie, user_allowed_save_cookie_v2, %7B%224%22%3A1%7D, 1year)
 tavaratalohurrikaani.fi##+js(trusted-set-cookie, user_allowed_save_cookie, %7B%224%22%3A1%7D, 1year)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1ija5dl/gett_rid_of_cookies_consent_popup_with_scriptlets/ - functionality
+svtplay.se##+js(trusted-set-cookie, cookie-consent-1, '{"required_storage":true,"functionality_storage":true,"statistics_storage":false,"ad_storage":false}')

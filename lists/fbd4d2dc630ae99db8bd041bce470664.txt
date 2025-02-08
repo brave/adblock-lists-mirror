@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: H4ZuXBZn4dD2Etu6hbk6vw
-! Version: 202502081241
+! Checksum: /+EIZFGKGzAMtrmTIRGn0Q
+! Version: 202502081331
 ! Title: EasyList Germany
-! Last modified: 08 Feb 2025 12:41 UTC
+! Last modified: 08 Feb 2025 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5350,7 +5350,6 @@ t-online.de##section[data-stage-layout^="custom_nativendo_"]
 !! :has()
 boersennews.de###bnTickerContainer:has(#bnTickerAdNotice)
 chip.de###dlcharts-list + div:has(a[title*="Avast Free Antivirus"])
-chip.de##.Button__Wrapper:has(a[href^="https://x.chip.de/linktrack/button/"][href*="&type=text&"])
 baur.de##.MuiBox-root:has(a[href^="//b.fr3.eu.criteo.com/rm?"])
 mobile.de##.Q8G_R:has(div[data-testid="SRP_BILLBOARD-container"])
 berlinstadtservice.de##.a.block04:has(a[href^="https://www.awin1.com/"])
@@ -5374,7 +5373,6 @@ ibooks.to##.code-block:has(i.fa-cloud-download-alt)
 feuerwehrmagazin.de##.excerpt-tile.cell.small-12.medium-6:has(.advertorials)
 print.de##.excerpt-tile.cell:has(.advertorials)
 vergleichswelt.app##.fads-zeile:has(.fads-anzeige-text)
-chip.de##.fb-align-content-start:has(a[href^="https://x.chip.de/linktrack/button/"][href*="&type=text&"])
 prad.de##.first-list > li:has(a[href^="https://bit.ly/"])
 prad.de##.first-list > li:has(a[href^="https://ipn.idealo.de/ts/"])
 prad.de##.first-list > li:has(a[href^="https://tracking.s24.com/"])
@@ -5495,7 +5493,6 @@ carpediem.life#?#.post-overview:-abp-has(div:-abp-contains(Anzeige))
 celleheute.de#?#div.YzqVVZ:-abp-has(span.wixui-rich-text__text:-abp-contains(Anzeigen))
 chip.de#?#a:-abp-properties(min-height: 250px;)
 chip.de#?#a[href^="https://www.chip.de/downloads/"]:-abp-has(div[id]:-abp-contains(Werbung))
-chip.de#?#div:-abp-properties(min-height: 250px;)
 chip.de#?#div[data-vr-contentbox^="teaser-"]:-abp-has(div.Label__Content--Text:-abp-contains(Anzeige))
 computerbase.de#?#div.text-asset.text-width:-abp-has(p.text-width:-abp-contains(Anzeige))
 computerbild.de#?#article.gridArea__teaserM:-abp-has(div.teaserBlock__label:-abp-contains(Anzeige))

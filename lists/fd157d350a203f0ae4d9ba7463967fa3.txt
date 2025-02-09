@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vwTornjTmaN3Y1bELS2GpA
-! Version: 202502090841
+! Checksum: vjTHKPo4rhQKPLGBrO34XQ
+! Version: 202502090941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Feb 2025 08:41 UTC
+! Last modified: 09 Feb 2025 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4224,6 +4224,7 @@ _tizers.
 ||afruits.ru^$third-party
 ||afterview.ru^
 ||againandagain.biz^$third-party
+||agenteimmobiliare.info^$third-party
 ||agitazio.com^
 ||agrohod.ru^$third-party
 ||ahaclub.ru^$third-party
@@ -8818,6 +8819,7 @@ _tizers.
 ||r-publick.info^$third-party
 ||r.interakt.ru^$third-party
 ||r0.mail.ru^
+||r0.mradx.net^
 ||r01.website^$third-party
 ||r0tl.info^$third-party
 ||r0wa9z6t8t.ru^$third-party
@@ -15558,7 +15560,7 @@ fonzo.ru,hemingway-lib.ru,kinogo.biz,oka.fm,sex-empire.tv,sms24.info,sms24.me,te
 buzulukday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##.rek,.rek ~ .ramka
 med-heal.ru##.rek-bar
 lenov.ru##.rek-but
-lenov.ru##.rek-top
+lenov.ru,yapolitic.ru##.rek-top
 sport.kg##.rek-widgets
 baginya.org##.rek1
 okaygorod.com##.rek_ban a[href]:not([href^="https://okaygorod.com/"])
@@ -17076,6 +17078,7 @@ shans.com.ua##[src*="images/banners"]:not([src="images/banners/lin.gif"])
 7themes.su##[src*="promo_res"]
 ixbt.com##[src*="rose.ixbt.com/banner/"]
 sibnet.ru##[src*="sibnet.ru/iframe-wink"]
+ski.ru##[src*="ski.ru/vertelka/"]
 forum.zoneofgames.ru##[src*="trk.mail.ru/"]
 clubsandero.ru##[src="//an.yandex.ru/system/context.js"] ~ iframe
 rutor.org.ru##[src="/download32.png"]
@@ -19057,7 +19060,6 @@ wtftime.ru##div[style*="min-height: 200px;"]
 euro-football.ru,liveresult.ru##div[style*="min-height:"][style*="00px"]
 chipmaker.ru##div[style*="min-height:100px;"]
 tsn.ua##div[style*="opacity: 40%"]
-binmovie.org##div[style*="width: 240px; height: 600px"]
 anidub.vip,anidubonline.com##div[style*="width: 240px;"][style*="height: 400px;"]
 pb.wtf,piratbit.fun,piratbit.org,piratbit.top##div[style="background: #a94442;padding: 5px;font-size: 16px;"]
 mediazavod.ru##div[style="background: #fff;padding: 10px; margin-bottom: 20px;"]
@@ -20585,7 +20587,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||bigcinema.tv/uploads/partner/
 ||bigkyiv.com.ua/wp-content/plugins/firebox/media/public/js/firebox.js
 ||bikepost.ru/plugins/banneroid/
-||binmovie.org/banners/
 ||biofile.ru/css/*.jpg
 ||biomolecula.ru/media/bnr-images/
 ||bisnesideya.ru/wp-content/uploads*/banner$image
@@ -22432,6 +22433,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||siniy-ekran.ru/rb_
 ||sitefaktov.ru/js/*.js|$script,domain=sitefaktov.ru
 ||sixinch.org/banners/$image
+||ski.ru/vertelka/
 ||slavgorod.com.ua/AdTemp/
 ||slavutich.cn.ua/image/banners/
 ||slivki.by/banner/
@@ -23173,6 +23175,8 @@ howdyho.net,howdyho.pro#@#.g-ads
 howdyho.net,howdyho.pro#@#div[id^="yandex_rtb"]
 ||yandex.$domain=howdyho.net|howdyho.pro
 ||yastatic.$domain=howdyho.net|howdyho.pro
+!
+vk.*#?#head > style:-abp-contains(/adchoice/i) {remove:true;}
 ! селекторы
 growhow.in.ua###custom-background-css {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
@@ -23183,6 +23187,7 @@ vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([data-post-id])
 the-geek.ru###wp-custom-css {remove:true;}
 vk.com,vk.ru##._feed_rows > div:not([id]):not([class])
 vk.com,vk.ru##._post_content > .post
+vk.com,vk.ru#?#._post_content:-abp-has(.Efxztiz1tCs6S5IDhTuN)
 vk.com,vk.ru#?#._post_content:-abp-has(.l2Q63U68RkAXQkXEoJnJ)
 vk.com,vk.ru#?#._post_content:-abp-has([src^="https://r0."])
 vk.com,vk.ru##._post_content[style=""]

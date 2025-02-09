@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nC3Ob5BiOzVrLp5XaqpMTg
-! Version: 202502091900
+! Checksum: fcnlT9M7/bNY/pH3KyIWQA
+! Version: 202502092000
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2025-02-09 19:00 UTC
+! Last modified: 2025-02-09 20:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -699,6 +699,8 @@ m.yelp.com,m.yelp.co.uk,m.yelp.ca,m.yelp.com.au,m.yelp.co.nz,m.yelp.dk,m.yelp.de
 ! thedesignlove.com
 thedesignlove.com##.cp-overlay
 thedesignlove.com##body,html:style(overflow: auto !important; position: initial !important;)
+! sigmalive.com
+sigmalive.com##+js(set-local-storage-item, push-notifications, no)
 ! linkedin.com
 linkedin.com##.promo-bottom-sheet
 linkedin.com##.promo

@@ -137,7 +137,8 @@ poophq.com,veev.to##+js(rmnt, script, /__abburi|ad-provider\.js|while\\x20\(true
 ||adsco.re^$xhr,important,domain=poophq.com|veev.to
 poophq.com,veev.to##+js(no-xhr-if, 162.252.214.4, true)
 !#else
-poophq.com,veev.to##+js(nosiif, !grecaptcha.render()
+poophq.com,veev.to##+js(nosiif, !captchaInstance = grecaptcha.render("#captchaDownload"\, {sitekey: )
+poophq.com,veev.to##+js(nosiif, /\"ad\"\+\"s\"\+\"co\"|\+0\]\[0\+|\'p\'\+\'ow\'|\'t\'\+\'r\'\+\'\'\+\'ig\'|\+llndk|t\[\'state\'\]|catch\(err\)\{\}\;var|\"e3\"\)\}\)\,|\"\+Math\[|52295|\+\"\/a\"\+\"\.j\"\+\"s\"/)
 !#endif
 *$script,3p,domain=poophq.com|veev.to,redirect-rule=noopjs
 *$other,3p,denyallow=veevcdn.co,domain=poophq.com|veev.to
@@ -203,10 +204,10 @@ smsonline.cloud##html[data-theme][lang] [id^="img_"][style]:has(iframe[framebord
 /^https:\/\/www\.[0-9a-f]{4,8}(?:-(?:\d{4}-){3}[0-9a-f]{12})?\.(?:live|site|xyz)\/script\/[.0-9A-Za-z]+\.js$/$script,3p,match-case,to=live|site|xyz,header=x-length
 ! https://github.com/uBlockOrigin/uAssets/issues/26487
 dogdrip.net,infinityfree.com,slashdot.org,smsonline.cloud##+js(no-fetch-if, -load.com/script/, length:101)
-dogdrip.net,infinityfree.com,slashdot.org,smsonline.cloud##+js(nostif, )](this\,..., 4000-6000)
+dogdrip.net,infinityfree.com,slashdot.org,smsonline.cloud##+js(nostif, )](this\,..., 3000-6000)
 slashdot.org##+js(aeld, , )](this\,...)
 -load.com/script/$xhr,domain=smsonline.cloud
-smsonline.cloud##+js(nostif, (new Error(, 4000-6000)
+smsonline.cloud##+js(nostif, (new Error(, 3000-6000)
 smsonline.cloud##aside[class^="css-"]:has(> p:has-text(Advertisement) + ins.adsbygoogle)
 ! https://github.com/easylist/easylist/commit/3eb1065a41497b1e7522863233e729b53d422d3c
 ||report.error-report.com^$frame,badfilter

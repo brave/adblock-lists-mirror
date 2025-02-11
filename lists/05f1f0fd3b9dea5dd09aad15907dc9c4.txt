@@ -636,5 +636,8 @@ videezy.com##+js(acs, $, underpop)
 ! https://teracourses.com/ar/courses/cSharp - anti-adb
 teracourses.com##+js(nostif, adBlockerModal)
 
-! mastkhabre. com detection
-mastkhabre.com##+js(rmnt, script, /adsbygoogle|detectAdBlock/)
+! https://www.cmtracker.net/ - anti-adb
+cmtracker.net##+js(no-xhr-if, adsbygoogle)
+
+! swiss-sport.tv anti adblock
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=swiss-sport.tv

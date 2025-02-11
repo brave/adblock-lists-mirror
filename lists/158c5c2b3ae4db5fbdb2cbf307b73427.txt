@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Os9bZGRauqp40SXO7Aoytw
-! Version: 202502110941
+! Checksum: P06hlYXjnJLXWt1F56vt+g
+! Version: 202502111041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Feb 2025 09:41 UTC
+! Last modified: 11 Feb 2025 10:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6273,6 +6273,7 @@ thebell.io##app-subscription-header-form
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://specials.sports.ru/"])
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://trbna.co/"])
 animaunt.org##article > .sub-info > .button
+dtf.ru#?#article > figure:-abp-has(> .block-wrapper__content a[href*="64s1"])
 it-actual.ru##article > footer > div[class]:not(.post-ratings)
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
 avtorambler.com,rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container-"])

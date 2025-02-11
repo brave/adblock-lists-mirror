@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202502110809
+! Version: 202502111027
 ! Title: EasyList
-! Last modified: 11 Feb 2025 08:09 UTC
+! Last modified: 11 Feb 2025 10:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -56886,6 +56886,7 @@ swisscows.com##.advrts--text
 bearingarms.com,hotair.com,pjmedia.com,redstate.com,townhall.com,twitchy.com##.advs
 allevents.in##.advt-text
 pravda.com.ua##.advtext
+slashdot.org##.adwrap
 groovyhistory.com,lifebuzz.com,toocool2betrue.com,videogameschronicle.com##.adwrapper
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 revolver.news##.af-slim-promo
@@ -57136,7 +57137,7 @@ historydaily.org,israelnationalnews.com,pwinsider.com,spaceref.com,usahealthcare
 wpneon.com##.banner-week
 news.net##.banner-wr
 admonsters.com##.banner-wrap
-aki-h.com,benzinga.com,primewire.link##.banner-wrapper
+aki-h.com,benzinga.com,primewire.link,slashdot.org##.banner-wrapper
 depositfiles.com,dfiles.eu##.banner1
 gsprating.com##.banner2
 coinalpha.app##.bannerAdv
@@ -60632,6 +60633,8 @@ steroid.com##[href*="anabolics.com"]
 cnx-software.com##[href*="banner"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,analyticsinsight.net,ancient-origins.net,animeidhentai.com,arabtimesonline.com,asura.gg,biblestudytools.com,bitcoinworld.co.in,christianity.com,cnx-software.com,coingolive.com,csstats.gg,digitallydownloaded.net,digitbin.com,domaingang.com,downturk.net,fresherslive.com,gizmochina.com,glitched.online,glodls.to,guidedhacking.com,hackernoon.com,hubcloud.day,indishare.org,kaas.am,katfile.com,khmertimeskh.com,litecoin-faucet.com,mbauniverse.com,mediaite.com,mgnetu.com,myreadingmanga.info,newsfirst.lk,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,railcolornews.com,resultuniraj.co.in,retail.org.nz,ripplesnigeria.com,rtvonline.com,ryuugames.com,sashares.co.za,sofascore.com,thinknews.com.ng,timesuganda.com,totemtattoo.com,trancentral.tv,vumafm.co.za,yugatech.com,zmescience.com##[href*="bit.ly/"]
 beforeitsnews.com,in5d.com,mytruthnews.com,thetruedefender.com##[href*="hop.clickbank.net"]
+tumblr.com##[href*="smartadserver.com/click?"]
+tumblr.com##[href*="smartadserver.com/click?"] + div[class]
 cnx-software.com##[href*="url2.cnx-software.com/"]
 cnx-software.com##[href*="url3.cnx-software.com/"]
 linuxlookup.com##[href="/advertising"]

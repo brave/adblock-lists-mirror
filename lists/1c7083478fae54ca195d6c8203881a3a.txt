@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.3.2
+! Version: 4.0.4.0
 
 ! General
 
@@ -532,6 +532,9 @@ beleggersbelangen.nl##div.unlimited-access
 !#if (env_firefox)
 /\.(femmesdaujourdhui|flair|knack|levif|libelle)\.be\/.+\/(\w+-){2,}/$inline-script
 !#endif
+
+! Tamedia.ch Group
+24heures.ch,bazonline.ch,derbund.ch,tagesanzeiger.ch,tdg.ch##+js(cookie-remover, xbc)
 
 ! TechTarget sites
 computerweekly.com,lemagit.fr,techtarget.com##+js(rc, paywall, div.paywall, stay)

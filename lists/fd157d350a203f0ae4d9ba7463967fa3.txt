@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TU8RVasv+rTKxJXJkjRyAw
-! Version: 202502141141
+! Checksum: 7ouX8Geme4UaiEuFSBchPw
+! Version: 202502141241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Feb 2025 11:41 UTC
+! Last modified: 14 Feb 2025 12:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23144,7 +23144,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?ZA3lk=$xmlhttprequest
+||pikabu.ru/ajax/*?ZA4lk=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23193,7 +23193,7 @@ android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkaco
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
-drive2.ru,shedevrum.ai##[data-container="outer"]
+drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
 drive2.ru##[data-sticky-adtune]
@@ -23234,6 +23234,7 @@ e.mail.ru##div[class=""] > div[class=""] > div[class=""]
 sdamgia.ru##div[class^="google_ad_left"]
 drive2.ru,liveinternet.ru,sdamgia.ru##div[data-name="adWrapper"]
 rg.ru##div[id][class*="__"]:empty
+shedevrum.ai##div[id^="header_block_"]
 sdamgia.ru##div[id^="yandex_vario"]
 liveinternet.ru##div[style*="!important; "]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *

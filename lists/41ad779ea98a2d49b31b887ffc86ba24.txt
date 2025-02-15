@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: unEr/tr1gikGNO1Vp5rRwA
-! Version: 202502142240
+! Checksum: JhWILV6AYMXtmrAnBKUeuA
+! Version: 202502150015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-02-14 22:40 UTC
+! Last modified: 2025-02-15 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14716,7 +14716,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie-legislation
 ###cookie-lightbox
 ###cookie-line
-###cookie-list
 ###cookie-mask
 ###cookie-melding
 ###cookie-melding-container
@@ -25626,7 +25625,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.jw-widget-show-cookies-policy
 ##.k4-cookie
 ##.kacookie-cm-window
-##.kadence-conversion-banner
 ##.kakor-bar
 ##.kali-cc-bandeau
 ##.kb-ck-bar-notify-block
@@ -31637,6 +31635,7 @@ churchmilitant.com##.body-copy > div > [href="/user/subscribe"]
 gofugyourself.com##.books
 inthesetimes.com##.border-red
 kompas.id##.bottom-0
+thesaturdaypaper.com.au##.bottom-piano-banner
 arxiv.org##.bps-banner
 mcsweeneys.net##.breaking-news-container
 prospect.org##.bright-blue-big
@@ -42394,7 +42393,7 @@ plough.com##+js(remove-cookie, ArticlePaywallList)
 ! article counter
 firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 !  politico.com login wall
-politico.com,politico.eu,bbc.com##+js(cookie-remover, xbc)
+politico.com,politico.eu,bbc.com,themonthly.com.au,thesaturdaypaper.com.au##+js(cookie-remover, xbc)
 ! tncms login wall
 niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.com,wellandtribune.ca##+js(remove-cookie, /^tncms:meter:/)
 ! mutualart.com login wall 
@@ -45230,8 +45229,6 @@ thefp.com##body:style(overflow: scroll !important)
 ! modalnewsletter___BV_modal_outer_
 kftv.com###modalnewsletter___BV_modal_outer_
 kftv.com##body:style(overflow: auto !important; position: initial !important;)
-! thesaturdaypaper.com.au force signin
-themonthly.com.au,thesaturdaypaper.com.au##+js(set-local-storage-item, rl, $remove$)
 ! health.harvard.edu
 health.harvard.edu##.sticky-popup
 health.harvard.edu##body:style(overflow: auto !important; position: initial !important;)

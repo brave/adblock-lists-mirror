@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sF3eg0jM1vxqYUvQmCSZmQ
-! Version: 202502151041
+! Checksum: h5zGm2vVqzXsC11mdnz0vQ
+! Version: 202502151131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Feb 2025 10:41 UTC
+! Last modified: 15 Feb 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11751,7 +11751,6 @@ kerch.fm###center_left > .informer
 rabota.kharkov.ua###central > table > tbody > tr > .noprint
 newsland.com###channelsFeed > [data-block-type="channel-card"] ~ :not([data-block-type="channel-card"])
 finget.ru###chart_a
-vk.com###chrome_bar_content
 okrain.net.ua###citata
 zoodrug.ru###clone[style*="250px"]
 gg.xooxo.cc###closed-vid
@@ -12793,7 +12792,6 @@ myshows.me##.CommentBanner
 meduza.io##.DFPBanner-root
 comedy-radio.ru,radioromantika.ru,relax-fm.ru,veseloeradio.ru##.D_Top
 euro2016.cc##.DmWidget
-vk.com##.EcommFeedItemsBlock
 nulled.cc##.EstBS-bnContent
 fakty.ua##.FKY_VIDEO
 myshows.me#?#.Grid-in .GridItem:-abp-has(> div [class*="advertiser"])
@@ -12827,7 +12825,7 @@ novayagazeta.ru##._1ysoK
 yap.ru,yaplakal.com##.__axcode__
 gamestar.ru##.__b-popup1__
 vk.com,vk.ru##._ads_block_data_w
-vk.com##._ads_promoted_post_data_w
+vk.com,vk.ru##._ads_promoted_post_data_w
 n1.ru,telesputnik.ru##._banner
 nakanune.ru##._block-banner
 anilib.me##._container--indent > div[style="margin-bottom: 15px;"]
@@ -12935,8 +12933,6 @@ cn.ru##.ads-soloway
 in-poland.com##.adsContainer
 meta.ua##.ads_240
 topradio.me##.ads_R
-vk.com##.ads_ads_box
-vk.com##.ads_ads_news_wrap
 obrazovaka.ru##.ads_banner_right
 infoyarsk.com##.ads_body_page
 androidphone.su##.ads_desktop
@@ -17972,7 +17968,6 @@ magtimes.info##aside img[src^="http://magtimes.info/wp-content/uploads/"]
 poligon.by##aside#sidebar > a[href]
 postal.ninja##aside.tm-sidebar-a [class*="block"]
 tvc.ru##aside.w-full
-vk.com##aside[aria-label="Актуальные новости"]
 uznayvse.ru##aside[class*="cls_placeholder"]
 yamal-media.ru##aside[class^="articlePartnerNews_"]
 hromadske.radio##aside[class^="main_container Banner"]
@@ -22878,9 +22873,11 @@ igdz1.ru^$script,domain=igdz.ru
 ||vipromo.biz/tizer$domain=wow-girls.ru
 ||virusinfo.info/images/bgrd.png
 ||virusinfo.info^*/brand/
+||vk.com/*/ads_light.
 ||vk.com/ads_light.php$image
 ||vk.com/ads_rotate.php
 ||vk.com/dist/web/aliexpress_feed_recommendations_carousel.
+||vk.com/dist/web/mrtarg.
 ||vk.com/js/al/aes_light.js$script,domain=~vk.com
 ||vkaznu.ru^*.php$script
 ||vkurske.com/banners/
@@ -23170,7 +23167,7 @@ growhow.in.ua###custom-background-css {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 vk.com,vk.ru###feed_rows > .feed_row > div:not([id])
 vk.com,vk.ru###feed_rows > .feed_row ~ :not(.feed_row)
-vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([data-post-id])
+vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([id^="feed_repost"]):not([data-post-id])
 the-geek.ru###wp-custom-css {remove:true;}
 vk.com,vk.ru##._feed_rows > div:not([id]):not([class])
 vk.com,vk.ru##._post_content > .post
@@ -23183,7 +23180,6 @@ vk.com,vk.ru##._post_content[style=""]
 vk.com,vk.ru##.feed_row > [data-post-id]:not([id^="post"])
 vk.com,vk.ru##.feed_row > [data-post-id][id^="post"] > :not([class="_post_content"])
 vk.com,vk.ru##.feed_row > [data-post-id][id^="post"]:not([post_view_hash])
-vk.com,vk.ru##.feed_row > [data-post-id][id^="post"][post_view_hash]:not([data-post-track-code])
 vk.com,vk.ru#?#.feed_row > [id^="post-"] > ._post_content:-abp-has(> :first-child:not(.PostHeader))
 vk.com,vk.ru##.feed_row > div[class$=" post"]
 e.mail.ru##.layout__column_right-indented
@@ -23228,6 +23224,7 @@ cq.ru#?#div:-abp-properties(content: "Реклама")
 drive2.ru#?#div:-abp-properties(min-height: 555px)
 dzen.ru#?#div:-abp-properties(position: relative !important)
 otvet.mail.ru#?#div:empty:-abp-properties(content: "Реклама")
+vk.com,vk.ru##div:first-child:not(.page_block) ~ .feed_row > [data-post-id][id^="post"][post_view_hash]:not([data-post-track-code])
 drive2.ru##div[class$="--equal"] > div[class] > div:not([class]):not([id])
 drive2.ru##div[class$="--equal"] > div[class] > div[id]:not(:empty)
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: efxd41AGFMVMbQ08d/vCIQ
-! Version: 202502161141
+! Checksum: r9JSldLf+fo+1WkQyHqfVQ
+! Version: 202502161241
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Feb 2025 11:41 UTC
+! Last modified: 16 Feb 2025 12:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1050,6 +1050,7 @@ uakino.me##.dle_b_telegram
 inform-progulka.by##.dmi-menu-social
 sportkp.ru,teleprogramma.pro##.dna-share-buttons
 meddaily.ru##.doctor_block ~ table[width]
+sports.ru##.document-share-button
 doramy.club##.doramvk
 newformat.info##.dpsp-share-text
 2x2.su##.dropdown
@@ -1116,6 +1117,7 @@ novynarnia.com##.facebook_comments
 travelask.ru##.facts__share-buttons
 ixbt.com##.fancybox-button--share
 bhub.com.ua##.fatfooter .widget-title
+sports.ru##.favorite-social-network
 glavnoe.ua##.fb-blue
 geniusmarketing.me,liga.net##.fb-comments
 4eva.ru##.fb-controls
@@ -1723,6 +1725,7 @@ kinogo.media##.pod-playertg
 zetfliks.vip,zetflixxx.vip##.podel
 prufy.ru##.podelitsa
 sports.ru,tribuna.com##.poll-share
+sports.ru##.poll-widget__share
 kurufin.ru##.polotno + .add1
 720hd.club##.pon
 peterburg2.ru##.popover-container
@@ -2944,6 +2947,8 @@ start.rt.ru##div[class^="StyledFooterInfoBlockSocialIcons-"]
 atas.info,bel.ru##div[class^="Subscribe_subscribe"]
 news.finance.ua##div[class^="Subscriptions"]
 rg.ru##div[class^="VideoShare_share"]
+tribuna.com##div[class^="_footer__social-media"]
+tribuna.com##div[class^="_shared-socia-buttons"]
 stopgame.ru##div[class^="_youtube-promo_"]
 hightech.plus,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="article-social"]
 yamal-media.ru##div[class^="article_ShareBlockWrapper"]
@@ -4448,6 +4453,7 @@ it-actual.ru###content > article ~ :not(article):not(.zap):not(#comments):not(#n
 galas.te.ua###content > table
 7ya.ru###content_container > div[class*="specprojects"]
 genesis-mining.ru,gopractice.ru,inscience.news,proglib.io###cookie
+gazprombank.ru###cookie-accept
 cian.ru,eva.ru###cookie-agreement
 1000sovetov.ru,svpressa.ru###cookie-bar
 besplatka.ua###cookie-bottom
@@ -4475,6 +4481,7 @@ rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href*="oleg-prognoz.h
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/news/"][href*="skidk"])
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/soft/obzor/"])
 filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone###dle-content > article ~ div a[href$="/pro.html"]
+anitube.in.ua###dle-content > noindex
 lols.ru###dle-content td[style="padding-left:20px;"] > noindex
 varianty.lviv.ua###donate-popup
 docs-python.ru###donate-row
@@ -5145,7 +5152,7 @@ milknews.ru##.digest-subscribe
 soccer.ru##.disabled-block
 findhow.org##.disclaimer-block
 amway.ua,kz.amway.com##.disclaimer-container
-burdastyle.ru##.disclame_block
+burdastyle.ru,imedia.ru##.disclame_block
 ichip.ru,ivd.ru,lisa.ru,playboyrussia.com##.disclamer
 2mm.ru##.discraimler
 ukranews.com##.dispatch
@@ -6283,6 +6290,7 @@ sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://trbna.co
 animaunt.org##article > .sub-info > .button
 dtf.ru#?#article > figure:-abp-has(> .block-wrapper__content a[href]:-abp-contains(пополнить Steam))
 it-actual.ru##article > footer > div[class]:not(.post-ratings)
+anitube.in.ua##article > noindex
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
 avtorambler.com,rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container-"])
 sports.ru#?#article.piwikTrackContent:-abp-has(a[href^="https://trbna.co/"])
@@ -6366,7 +6374,6 @@ deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
 varlamovru.livejournal.com##div[class$="container__aside"] .j-w-youtube
 ren.tv##div[class*=" InformationBlockBtm_"]
 znanija.com##div[class*=" Tooltip-module__brn-tooltip-box--"][class*="-start-arrow-only--"]
-gazprombank.ru##div[class*="-cookie-accept"]
 homecredit.ru##div[class*="BlockCookies-"]
 domclick.ru##div[class*="CookieAlert"]
 www.1tv.ru##div[class*="Footer_footerApplications"] > div:first-child
@@ -6435,6 +6442,7 @@ novayagazeta.ru##div[class^="Subscription_root"]
 premium.mts.ru##div[class^="ToastRoot_wrapper_"]
 meduza.io##div[class^="TopBar-"][class*="root"]
 stopgame.ru#?#div[class^="_content"] > p:-abp-has(> a[href*="boosty"])
+tribuna.com##div[class^="_footer__apps"]
 emall.by##div[class^="accept-cookies_all"]
 forumodua.com##div[class^="ad_inform_message"]
 liga.net##div[class^="adfree_button"]

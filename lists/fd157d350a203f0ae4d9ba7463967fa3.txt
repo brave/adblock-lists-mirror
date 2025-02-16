@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7znd7b/CCXJtacLaztyxRw
-! Version: 202502161141
+! Checksum: uZMSEDbAvLHvmy5k7ngLVw
+! Version: 202502161241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Feb 2025 11:41 UTC
+! Last modified: 16 Feb 2025 12:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24111,9 +24111,11 @@ cyber.sports.ru##.match-teaser__betting-bar
 sports.ru#?#.material-list__item:-abp-has(.content-label:-abp-contains(/Реклама|Pеклама/))
 sports.ru##.middle-banner-place
 sports.ru##.nav-list__widget-wrapper .promo-block
+sports.ru##.navigation-left-banner
 sports.ru##.navigation-right-column-banner
 sports.ru##.navigation-top__specials + div:empty,.navigation-top__specials
 sports.ru##.news-item__content > p > strong > a[rel="nofollow"]
+sports.ru##.news-layout__frame
 sports.ru##.one-card[data-img_desktop^="https://dumpster.cdn.sports.ru/"]
 sports.ru##.place-for-ad
 sports.ru##.poll-variant__coeff
@@ -24165,12 +24167,14 @@ sports.ru#?#div[class*="material-list--additional-block"] > .material-list__item
 tribuna.com##div[class*="rb-widget"]
 tribuna.com##div[class^="BookmakerGift_bookmaker-gift_"]
 tribuna.com##div[class^="Main_main-layout__empty-block"]
+tribuna.com##div[class^="_banner_"]
 sports.ru##div[data-control-noinit="Common.BetsTabs"]
 sports.ru##div[data-control="Common.AutoInit"]
 sports.ru##div[data-control^="Common.Bets"]
 sports.ru##img[src*="s5o.ru/source/_desktop/aliens/"]
 sports.ru##p > a[rel="nofollow"] > img[height][width]
 sports.ru#?#p:-abp-has(> a[href]:-abp-contains(М.Видео))
+tribuna.com##span[class^="_comments__loader"][class*="_spinner_"]
 sports.ru##style:first-child ~ [class^="gift__"]
 ||dumpster.cdn.sports.ru/d/0d/0a7f418ea4ce61f1070bb186f88c0.$image
 ||s5o.ru/source/_desktop/aliens/$~image

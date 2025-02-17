@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uhhySY0FL8XV9N2hg6UKuA
-! Version: 202502162315
+! Checksum: 84BtqEKDY3TBOH2wjxw63A
+! Version: 202502170040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-02-16 23:15 UTC
+! Last modified: 2025-02-17 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14598,7 +14598,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie-directive-container
 ###cookie-directive-note
 ###cookie-discalimer
-###cookie-disclaimer
 ###cookie-disclaimer-bar
 ###cookie-disclaimer-box
 ###cookie-disclaimer-footer
@@ -19301,13 +19300,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###privacy-policy-panel
 ###privacy-policy-popup
 ###privacy-policy-updated
-###privacy-pop-up
-###privacy-popup
-###privacy-popup-container
-###privacy-shield
 ###privacy-statement-wrapper
-###privacy-toast
-###privacy-update
 ###privacyAndCookieNoticePanel
 ###privacyAndCookiesConfirmation
 ###privacyAnnouncement:not(body)
@@ -25400,7 +25393,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.js-cookie-configurator
 ##.js-cookie-confirm
 ##.js-cookie-confirmation
-##.js-cookie-consent
 ##.js-cookie-consent-banner
 ##.js-cookie-consent-bar
 ##.js-cookie-consent-block
@@ -43402,6 +43394,7 @@ teamtailor.com##+js(set-cookie, _ttCookiePermissions, no)
 autobassadone.fi##+js(set-cookie, av-cookieConsent, false)
 scharoun-theater-wolfsburg-webshop.tkt-datacenter.net##+js(set-cookie, cookieBannerConfirmed, 0, , reload, 1)
 ethiopianairlines.com##+js(set-cookie, sf-tracking-consent, true, , , reload, 1)
+ponal.de##+js(set-cookie, ponal_cookie_consent, 1, , reload, 1)
 ticketingcine.fr##+js(set-cookie, alertCookie, 1, , reload, 1)
 agenziavista.it##+js(set-cookie, gdpr, 1)
 bitecode.dev##+js(set-cookie, hideCookieBanner, true)
@@ -44350,6 +44343,7 @@ communitycrimemap.com##+js(set-session-storage-item, disclaimerOpened, 1)
 smartwielen.lu##+js(set-session-storage-item, terms-and-policy-accepted, true)
 html5games.com##+js(set-session-storage-item, fa-games-consent-given, true)
 shop-apotheke.com,redcare.it,shop-apotheke.at,farmaline.be##+js(set-session-storage-item, sae-conversational-consent-msg-closed, true)
+beenverified.com##+js(set-session-storage-item, privacyPopupShown, true)
 prosciutteriasandaniele.it##+js(set-session-storage-item, DS_COOKIENOTIFY_CLOSED, true)
 blockchain.com##+js(set-session-storage-item, dismissedTrackingBanner, true)
 fatalmodel.com##+js(set-session-storage-item, CookieTerm18, true)
@@ -51511,7 +51505,6 @@ superdoc.bg,suzuki.co.nz#@#.js-cookie
 geleidehond.nl#@#.js-cookie-alert
 uniroyal.pl#@#.js-cookie-banner
 frankfurt-school.de#@#.js-cookie-bar
-hildesheimer-allgemeine.de#@#.js-cookie-consent
 overdrive.com#@#.js-cookie-modal
 newpharma.be#@#.js-cookie-policy
 mymuesli.com#@#.js-cookies-consent

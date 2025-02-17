@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ufMO7j9Ymq0JilD2ZBMIBg
-! Version: 202502171041
+! Checksum: PqMP6GyJuDqutxQ+Auv6lg
+! Version: 202502171141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Feb 2025 10:41 UTC
+! Last modified: 17 Feb 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14881,6 +14881,7 @@ dni.ru##.main_wrapper > div[class="column column_left"]
 myfreeproject.com#?#.mainb > .main_block:-abp-has(> #slides > #reklama)
 csgolife.ru#?#.mainb > .main_block:-abp-has(> center > .slider)
 dungeonmaster.ru##.mainbanner
+interfax.ru,sport-interfax.ru##.mainblock ~ .mainblock .infinitblock::before
 the-cinema.online##.maincont > center
 torrents-soft.net##.maincont > div:nth-last-of-type(2) > a > img
 bookskeeper.ru##.maincont > div[class="clr"]
@@ -23145,6 +23146,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
 ||pikabu.ru/ajax/*?ZA4lk=$xmlhttprequest
+||pikabu.ru/ajax/*?ZA5lk=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

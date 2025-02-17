@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bAkgK/tSkxzeVmQLzClttw
-! Version: 202502172141
+! Checksum: y3DrJxr4ADO5hDpZJKNKYA
+! Version: 202502172241
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Feb 2025 21:41 UTC
+! Last modified: 17 Feb 2025 22:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2615,6 +2615,7 @@ mivmeste.info##[aria-label="Share via link"]
 theuk.one##[aria-label="facebook"]
 xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##[aria-label="Баннер соцсети"]
 mivmeste.info##[aria-label="Панель соцсетей"]
+uznayvse.ru##[aria-label="Поделиться в социальных сетях"]
 domclick.ru,ozon.ru,wink.ru##[aria-label="Поделиться"]
 rutube.ru##[aria-label="Присоединяйтесь в социальных сетях"]
 afisha.ru##[aria-label="Социальные сети"]
@@ -3057,6 +3058,7 @@ tvc.ru#?#footer > div:-abp-has(> div > nav > a[class*=" bg-icon-"][target="_blan
 culture.ru##footer > div:first-child > div > div:last-child > div > div:last-child
 hardwareluxx.ru#?#footer > h4:-abp-contains(Социальные сети)
 litr.cc##footer > section ~ section
+uznayvse.ru##footer a.ds_icon_button
 dline-media.com##footer a[href$="media"][target="_blank"]
 banki.ru##footer a[target="_blank"][rel][data-title]
 zaycev.net##footer a[target="_blank"][title^="Официальн"]
@@ -3122,6 +3124,7 @@ www1.ru#?#main ~ .relative:nth-child(-n+3):-abp-has([href^="https://t.me/"])
 market.yandex.ru,market.yandex.*##[data-autotest-social-name]
 proxima.net.ua##nav .text-center .dropdown-toggle
 ixbt.com##nav > .grid > .lg\:inline-flex
+uznayvse.ru##nav[aria-label="Социальные сети"]
 prichernomorie.com.ua##nobr
 businessua.com##noindex > .g-icon
 bin.ua##noindex > a[onclick*="_in_text"]
@@ -4763,6 +4766,7 @@ apteka.ru##.CookieNotify
 i.ua##.Disclaimer
 forbes.ru##.DlLPK
 smpbank.ru##.E_KUV0ozvj
+vk.com,vk.ru##.FeedBlockWrap
 ren.tv##.Footer_2LPPF > .news-delimiter
 myshows.me##.Footer__apps
 meduza.io##.InfoPanel-informer
@@ -5682,7 +5686,6 @@ eurointegration.com.ua##.post__text > .image-box > a[href][target="_blank"]
 thebell.io##.post_content.newsletter > .break-wrapper:nth-last-of-type(-n+2)
 thebell.io#?#.post_content.newsletter > h4:-abp-contains(ПАРТНЕРЫ THE BELL)
 thebell.io#?#.post_content.newsletter > h4:-abp-contains(ПАРТНЕРЫ THE BELL) ~ [class]
-uznayvse.ru##.post_soc_share_cont_alone
 fbc.ua##.post_subscribe
 cont.ws##.post_toolbar__meta
 cont.ws##.post_toolbar__promo

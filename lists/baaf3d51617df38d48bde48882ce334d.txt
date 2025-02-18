@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XBZoGe/ofOSXvdD+42vlVw
-! Version: 202502180640
+! Checksum: YvpmdT4NxLGssNH5c/mdSQ
+! Version: 202502180740
 ! Title: Fanboy's Newsletter List
-! Last modified: 2025-02-18 06:40 UTC
+! Last modified: 2025-02-18 07:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3016,7 +3016,7 @@ foreigndesknews.com,hackread.com##.pk-subscribe-form-wrap
 ny1.com##.playerBlocker
 crikey.com.au##.pm-todays-newsletter-block
 dot.la##.pop-up-content
-intergameonline.com,pbs.org##.popup
+intergameonline.com##.popup
 commondreams.org##.popup--backdrop
 thecooldown.com,wanderlust.co.uk##.popup-box
 busbeestyle.com##.popup-modal
@@ -3341,7 +3341,6 @@ iflscience.com##.subscribeBox
 zookeys.pensoft.net##.subscribeForEmail
 controleng.com##.subscribePromo
 bartendersbusiness.com##.subscribeToOurNewsletter
-pbs.org##.subscribe__box
 thejc.com##.subscribe__footer
 dualipa.com##.subscribe__form
 pbs.org##.subscribe__form-wrapper
@@ -3727,6 +3726,7 @@ thecooldown.com##.has-medium-font-size:has-text(Join our free newsletter)
 comicbook.com##.has-primary-dark-background-color:has-text(Sign up)
 thebarbedwire.com##.has-secondary-background-color:has-text(Subscribe)
 babylonbee.com##.hidden:has-text(Fake news)
+esports.gg##.inset-0.fixed:has-text(Sign up)
 autonews.com##.lg\:u-max-w-\[345px\]:has-text(Sign up)
 mensjournal.com##.m-detail--body > p:has-text(Sign up for the)
 commoncog.com##.md\:px-2.py-10:has-text(Subscribe to the newsletter)
@@ -4427,6 +4427,8 @@ jewishinsider.com##.subscribeModalOuter
 jewishinsider.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! artribune.com
 artribune.com##+js(set-cookie, m6e-newsletter, 1)
+! pbs.org
+pbs.org##+js(set-cookie, popupIsClosed, 1)
 ! duluthtrading.com
 duluthtrading.com##+js(set-local-storage-item, emailLightBox, true)
 ! globoshoes.com

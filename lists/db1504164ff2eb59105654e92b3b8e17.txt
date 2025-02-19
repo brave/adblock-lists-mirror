@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tbu46/M5YxjpT+Rn4BgoZg
-! Version: 202502190441
+! Checksum: KMhobLf1wfZ97GnUVAAA4A
+! Version: 202502190541
 ! Title: EasyList China
-! Last modified: 19 Feb 2025 04:41 UTC
+! Last modified: 19 Feb 2025 05:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1743,6 +1743,7 @@ newduba.cn###jq_youxi
 ||rsohvot.xyz^
 ||o4q.fun^
 ||jshilr.icu^
+||hcinvdu.top^
 ||zavgrj.icu^
 ||stogmos.com^
 ||zooj.cn^$third-party
@@ -9658,7 +9659,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ixkw3.cc/wp-content/themes/wpMyTube/assets/js/mobile.
 ||52xkdy.com/pmc/
 ||dfcfw.com/download/D25411840164398846730_w690h389.
+||178.com/misc/self/*_ads
 !------------------------Specific element hiding rules------------------------!
+178.com,nga.cn,ngabbs.com##[style^="background"][style*="vertical-align"]
 eastmoney.com##div[style^="position: fixed; z-index:"]
 g-mh.org,godamh.com##.adshow
 nodejs.cn###pagead0

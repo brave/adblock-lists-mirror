@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bUia9lMvqHB/tHZnq5Bq/g
-! Version: 202502200040
+! Checksum: oAjw0/8Nidi7kwjiA1AQtw
+! Version: 202502200140
 ! Title: Fanboy's Newsletter List
-! Last modified: 2025-02-20 00:40 UTC
+! Last modified: 2025-02-20 01:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4431,6 +4431,9 @@ jewishinsider.com##body,html:style(overflow: auto !important; position: initial 
 artribune.com##+js(set-cookie, m6e-newsletter, 1)
 ! pbs.org
 pbs.org##+js(set-cookie, popupIsClosed, 1)
+! natlawreview.com newsletter popup
+natlawreview.com###spb-block-popup-newsletter
+natlawreview.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! duluthtrading.com
 duluthtrading.com##+js(set-local-storage-item, emailLightBox, true)
 ! globoshoes.com

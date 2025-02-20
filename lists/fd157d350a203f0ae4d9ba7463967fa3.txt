@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6K8rOAN067f02S4ZNTNVbA
-! Version: 202502201541
+! Checksum: qpg/XwfKz3aDbKYiSc6vGw
+! Version: 202502201641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Feb 2025 15:41 UTC
+! Last modified: 20 Feb 2025 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4311,9 +4311,12 @@ _tizers.
 ||andsedrit.com^$third-party
 ||andumb.com^$third-party
 ||anidublink.ru^
+||anilibriadub.ru^$third-party
+||anilibriaz.ru^
 ||animegofan.ru^
 ||animegofans.ru^$third-party
 ||animesvost.ru^
+||anistarbests.ru^$third-party
 ||ankunding.biz^$third-party
 ||annienne.com^
 ||annrdf.com^$third-party
@@ -10652,6 +10655,7 @@ _tizers.
 ||widetunel.ru^$third-party
 ||widget.mediastealer.com^$third-party
 ||widget.socialmart.ru^$third-party
+||wikianimez.ru^$third-party
 ||wildianing.ru^$third-party
 ||wildmikky.com^$third-party
 ||wildownload.ru^$third-party
@@ -11742,7 +11746,6 @@ prankota.com###c7b82880e
 prankota.com###cab741974
 copypast.ru###calcs1
 sportnet.live###carouselPrintstok
-wikianime.tv###catalog > a[href^="/anime/promo"]
 kurs.com.ua###catfishWrap
 webcam-erotic.tv###center > div[style^="height: 250px"]
 dugtor.ru###center-block > noindex
@@ -12475,7 +12478,6 @@ spletnik.ru###side_ads_content
 5litra.ru###side_left > .bnav ~ *
 5litra.ru###side_right > .side_right_bl ~ *
 finobzor.ru,politobzor.net,vsluh.net,warfiles.ru###sidebar
-wikianime.tv###sidebar .section[style^="padding-top:"]
 servers-rust.ru#?##sidebar .toggled:-abp-has(> .mob_quad_banner)
 kakbog.com,kulinarnayamozaika.ru,z-city.com.ua###sidebar .widget_text
 remontcompa.ru###sidebar .yashare-auto-init ~ :not(em)
@@ -19444,7 +19446,6 @@ oane.ws##noindex > .lastnews
 luxvaz.ru##noindex > .linkPar
 sportsdaily.ru##noindex > .news__description
 consmed.ru##noindex > .normal_tahoma
-wikianime.tv##noindex > .section
 siteua.org##noindex > [class$="-block"]
 forumhouse.ru##noindex > [style*="display: block;"]
 macosworld.ru##noindex > a > [width="250"][height="250"]
@@ -22956,7 +22957,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||wi-fi.ru/mtt/
 ||widget.ironfriends.ru/
 ||wifika.ru/bannerbro/img/
-||wikianime.tv^*/brand/
 ||wild-mistress.ru/wmbanner/
 ||windakeys.ru^*.php$script
 ||windata.ru/wp-content/plugins/popup-with-fancybox/
@@ -25965,7 +25965,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||adbetnet.advertserve.com/js/libcode*.js|$script,domain=livesport.ws
 @@||adfox.ru/crossdomain.xml$domain=carambatv.ru
 @@||admitad.com/3rd-party/$script,domain=pravera.ru
-@@||adprofits.ru^*/eStreamNoAutoPlay.js|$script,domain=wikianime.tv
 @@||ads.digitalcaramel.com/js/trainzland.ru.js$script,domain=trainzland.ru
 @@||ads.exoclick.com/ad99uip8i.php
 @@||adserver.juicyads.com/js/jads.js|$script,domain=stasyan.ga

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pTcANAZhEsaX1aA0T2YKjQ
-! Version: 202502201141
+! Checksum: RREev+uBNYb8NLyVJWw6wg
+! Version: 202502201241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Feb 2025 11:41 UTC
+! Last modified: 20 Feb 2025 12:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1541,7 +1541,6 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[onclick*="trtkp.ru"]
 me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table table[bgcolor="#dbdbdb"] td[bgcolor="#fafafa"]
 me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][bgcolor]
-~vk.com,~vk.ru##div[class*="notifier_baloon_"]
 ##div[class*="relap"][class*="-rec-item"]
 ##div[class*="spklw"][data-type="ad"]
 ##div[class*="td-a-rec-id-"]
@@ -1557,7 +1556,6 @@ me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][
 ##div[data-id^="div-gpt-ad-"]
 ##div[data-server-rendered="true"] > div[id^="block-"]
 ##div[data-server-rendered="true"] > div[id^="la-"]
-~vk.com,~vk.ru##div[id$="notifiers_wrap"]
 ##div[id*="Teaser_Block"]
 ##div[id^="CGCandy"]
 ##div[id^="Crt-"][style]
@@ -23141,7 +23139,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?6mL0d=$xmlhttprequest
+||pikabu.ru/ajax/*?al1J9=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

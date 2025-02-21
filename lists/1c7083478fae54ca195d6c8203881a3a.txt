@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.5.0
+! Version: 4.0.5.1
 
 ! General
 
@@ -254,6 +254,7 @@ mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > 
 mv-voice.com##+js(cookie-remover, /^/)
 ||cdn.registerdisney.go.com$script,domain=nationalgeographic.com
 nautil.us##+js(cookie-remover, /^(arc|sfa)$/)
+||loader.newsday.com$script,~third-party
 newsday.com##+js(ra, class, html[class])
 newrepublic.com##div.article-scheduled-modal
 ||blink.net/*/blink-sdk.js$script,domain=newrepublic.com|thebaffler.com
@@ -729,7 +730,7 @@ vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0
 
 artnet.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 artnet.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##[subscriptions-section="content-not-granted"]
-amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,newsday.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 theathletic.com##div[amp-access*="NOT granted"]
 
 ! French/Belgian sites

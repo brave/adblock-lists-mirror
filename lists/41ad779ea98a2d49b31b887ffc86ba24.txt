@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bu+FZx4MSnwFi+J/jkVnGw
-! Version: 202502212140
+! Checksum: 4iCzuM1tMRlmYlWu7GNMbQ
+! Version: 202502212215
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-02-21 21:40 UTC
+! Last modified: 2025-02-21 22:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14913,7 +14913,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie-settings-container
 ###cookie-settings-dlg
 ###cookie-settings-layer
-###cookie-settings.cookie-settings
 ###cookie-shadow
 ###cookie-site-container
 ###cookie-site-container-box
@@ -24866,7 +24865,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.gdpr-modal-block
 ##.gdpr-modal-notify
 ##.gdpr-modal-overlay
-##.gdpr-modal-wrapper
 ##.gdpr-msg
 ##.gdpr-notice
 ##.gdpr-notice-container
@@ -42674,6 +42672,9 @@ jobs2work.*,magdeleyns.be,omniwood.be,sandboxservices.be##+js(set-cookie, cookie
 thepensionsregulator.gov.uk##+js(set-cookie, TPR_Cookie_CONSENT, Reject)
 enescofrance.com,enesco.co.uk##+js(set-cookie, acceptCookieCookie, true)
 enescofrance.com,enesco.co.uk##+js(set-cookie, enableNonEssentialCookies, false)
+gasometer.de##+js(set-cookie, cookie_consent_statistics, false)
+gasometer.de##+js(set-cookie, cookie_consent_shown, true)
+gasometer.de##+js(set-cookie, cookie_consent_external-media, true)
 throttleman.com,lanidor.com##+js(set-cookie, c_aceitaNecessarios, true)
 throttleman.com,lanidor.com##+js(set-cookie, c_aceitaFuncionais, false)
 throttleman.com,lanidor.com##+js(set-cookie, c_aceitaAnaliticos, false)
@@ -47809,6 +47810,7 @@ volkswagen-commercial-vehicles.be,volkswagen.be###cookiemgmt
 neumaerker.de###cookienote-bg-layer
 sweez.ch###cookiesBanner_background
 sweez.ch###cookiesBanner_wrapper
+tech-review.de###cookiesInfosBackground
 backstagepro.de###cookiescript_injected_wrapper
 wieisdemol.be###cover-div
 ewtc.de###cp

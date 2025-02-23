@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Z49QRJipoh4YU9ded59kIQ
+! Checksum: CoagfBfh1bc8JJYda6xBpw
 ! Title: Easylist Cookie List
-! Updated: 2025-02-23 10:40 UTC
+! Updated: 2025-02-23 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -147,7 +147,6 @@
 /common-cookie-bar.min.js
 /consent-banner-
 /consent-box.js
-/consent-layer-loader.js
 /consent-manager.js
 /consent-manager.min.js
 /consent-modal.js
@@ -19949,6 +19948,9 @@ evertiq.*##.cc-container
 !! .overlay-gdpr-consent/.overlay-wrapper
 lsl.com,sexlivecam.co.uk##.overlay-gdpr-consent
 lsl.com,sexlivecam.co.uk##.overlay-wrapper
+! flipsnack.com
+flipsnack.com###cookieNotification
+flipsnack.com##.modal-backdrop
 ! norma
 norma-online.de,norma.fr##.cookie-info-v24
 norma-online.de,norma.fr##.modal-backdrop.cookie-info
@@ -21024,6 +21026,7 @@ thepensionsregulator.gov.uk##+js(set-cookie, TPR_Cookie_CONSENT, Reject)
 enescofrance.com,enesco.co.uk##+js(set-cookie, acceptCookieCookie, true)
 enescofrance.com,enesco.co.uk##+js(set-cookie, enableNonEssentialCookies, false)
 cursoemvideo.com##+js(set-cookie, cookie_notice_accepted, true)
+svenskhalsokost.se##+js(set-cookie, cookieaccept, required, , reload, 1)
 barnardos.org.uk##+js(set-cookie, consentBanner, closed)
 gasometer.de##+js(set-cookie, cookie_consent_statistics, false)
 gasometer.de##+js(set-cookie, cookie_consent_shown, true)

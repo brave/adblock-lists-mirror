@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5ygE69CCppWRwyZi8BiTNA
-! Version: 202502240841
+! Checksum: LkbLu82wb1q5g4Y3CRyb4A
+! Version: 202502240941
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Feb 2025 08:41 UTC
+! Last modified: 24 Feb 2025 09:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1763,6 +1763,7 @@ champion.com.ua,epravda.com.ua,pravda.com.ua##.post_article_social > .button
 champion.com.ua,pravda.com.ua##.post_news_social
 1kr.ua,epravda.com.ua,pravda.com.ua##.post_social
 ratel.kz##.post_social_item
+mezha.media##.post_social_wrapper
 glavcom.ua##.post_socials
 fbc.biz.ua##.post_subscribe
 winreview.ru##.postmeta + noindex
@@ -1869,7 +1870,6 @@ kp.ua##.sb-subscribe
 beauty.ua#?#.sb-tabs-itm:-abp-has(> .sb-tabs-title:-abp-contains(Facebook))
 viva.ua#?#.sb-tabs:-abp-has(span:-abp-contains(Facebook))
 delfi.ua##.sbookmarks
-mezha.media##.sc-list
 detector.media##.sc_links
 tokar.ua##.scl
 tokar.ua##.scl-sbsc
@@ -2361,7 +2361,7 @@ gecid.com##.tel
 animestars.ru##.telega
 mskgazeta.ru##.telega_box
 banki.ua##.telegatestbox
-business-gazeta.ru,city-n.ru,fakty.ua,gordonua.com,gorodkiev.com.ua,hvylya.net,kinogo.biz,kinoukr.com,meteonova.ru,mi100.info,novostivmire.com,sakhaday.ru,seralityt.online,serialstuts.online,sfera.fm,sport.ua,uaserials.com,uaserials.pro,usionline.com,vseseriipodriad.ru,zaborona.com,zn.ua##.telegram
+bfm.ru,business-gazeta.ru,city-n.ru,fakty.ua,gordonua.com,gorodkiev.com.ua,hvylya.net,kinogo.biz,kinoukr.com,meteonova.ru,mi100.info,novostivmire.com,sakhaday.ru,seralityt.online,serialstuts.online,sfera.fm,sport.ua,uaserials.com,uaserials.pro,usionline.com,vseseriipodriad.ru,zaborona.com,zn.ua##.telegram
 securitylab.ru,uatv.ua##.telegram-block
 anifap.com,proglib.io##.telegram-btn
 informburo.kz##.telegram-card
@@ -6113,6 +6113,7 @@ live24.ru##.ya-news
 xboxland.net##.ya-partner__list
 kaifolog.ru##.yandexh,.yandexh + .atextbox
 yesasia.ru##.yesasia_subscribe
+bfm.ru##.youtube
 liga.net##.youtube-block
 livesport.ru##.zz_cars_twin
 0calc.es,0calc.fr,0calc.in,0calc.ru,0rechner.de,nu.nl,web2.0calc.com,web2.0calc.ru##[action="/cookieconsent"]

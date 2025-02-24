@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IDZN8qPqYorF6I0p+ynUDA
-! Version: 202502240340
+! Checksum: 68Xm80TIytWW0Q2GvpptUw
+! Version: 202502240440
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-02-24 03:40 UTC
+! Last modified: 2025-02-24 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42391,6 +42391,10 @@ plough.com##.article-paywall
 plough.com##+js(remove-cookie, ArticlePaywallList)
 ! inscribed.app popup
 inscribed.app##+js(set-local-storage-item, hasVisitedBefore, true)
+! demo popup
+salary.com###sal-demoform-container
+salary.com##.modal-backdrop
+salary.com##body:style(overflow: auto !important; position: initial !important;)
 ! article counter
 firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 !  politico.com login wall
@@ -44123,6 +44127,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
 springmerchant.com##+js(set-local-storage-item, modal_cookies, 1)
+veed.io##+js(set-local-storage-item, trainingDataConsent, true)
 varusteleka.com##+js(set-local-storage-item, cookieConsent, false)
 zoho.com##+js(set-local-storage-item, zglobal_Acookie_optOut, 3)
 femibion.rs##+js(set-local-storage-item, cookie, true)

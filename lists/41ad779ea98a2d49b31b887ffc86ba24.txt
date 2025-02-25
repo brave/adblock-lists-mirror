@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3c4ikyDUNMpeoDXxOXGQ8w
-! Version: 202502252140
+! Checksum: uOmuOiwJYExYm7Pytmx2jA
+! Version: 202502252315
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-02-25 21:40 UTC
+! Last modified: 2025-02-25 23:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -22316,7 +22316,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-consent-container-v2
 ##.cookie-consent-ctr
 ##.cookie-consent-darkener
-##.cookie-consent-dialog
 ##.cookie-consent-div
 ##.cookie-consent-embed-overlay
 ##.cookie-consent-flyout
@@ -42736,6 +42735,7 @@ bremerhaven.de##+js(set-cookie, GDPRp, no)
 openreach.com##+js(set-cookie, EssentialCookie, true)
 salzer.at##+js(set-cookie, cookiesAllowRequired, true)
 strmix.com##+js(set-cookie, CookieConsent, Necessary)
+asko.com##+js(set-cookie, cookieconsent_status_ESSENTIAL, ALLOW)
 qioz.fr##+js(set-cookie, accept_cookies, 0)
 volonclick.it##+js(set-cookie, COOKIES_CONSENT, 0)
 teplickedorty.cz##+js(set-cookie, DmCookiesAccepted, true)
@@ -43072,7 +43072,7 @@ blog.documentfoundation.org##+js(set-cookie, ytprefs_gdpr_consent, 1, , reload, 
 my.eneba.com##+js(set-cookie, cconsent, 1000)
 blitzortung.org##+js(set-cookie, CONSENT, 15)
 esim.redteago.com##+js(set-cookie, nCookieVisible, 2)
-tester.userbrain.com##+js(set-cookie, CookieConsent, false)
+tester.userbrain.com,milvus.io,empathy.com,labs.epi2me.io##+js(set-cookie, CookieConsent, false)
 fydeos.io##+js(set-cookie, cookie_consent, necessary)
 autos.suzuki.com.mx##+js(set-cookie, suzuki-accept-cookie, true)
 stonly.com##+js(set-cookie, cookieHidden, true)
@@ -43774,7 +43774,6 @@ songtradr.com##+js(set-cookie, cpaccepted, true)
 logo.pt##+js(set-cookie, cookieMessageDismissed, 1)
 logo.pt##+js(set-cookie, LG_COOKIE_CONSENT, 0)
 app.zasta.de,softlist.com.ua,flexwhere.co.uk,flexwhere.de,pricewise.nl,getunleash.io,dentmania.de,free.navalny.com,latoken.com,secfi.com##+js(set-cookie, CookieConsent, true)
-empathy.com,labs.epi2me.io##+js(set-cookie, CookieConsent, false)
 flexwhere.co.uk,flexwhere.de##+js(set-cookie, gatsby-plugin-google-tagmanager, false)
 waitrose.com##+js(set-cookie, wtr_cookie_consent, 1)
 waitrose.com##+js(set-cookie, wtr_cookies_functional, 1)

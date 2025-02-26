@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hb+9ZDrNXz3s1LbcIt9zlQ
-! Version: 202502261441
+! Checksum: y0r1PXgh/W3CmfAhUmI/eg
+! Version: 202502261541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Feb 2025 14:41 UTC
+! Last modified: 26 Feb 2025 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1971,6 +1971,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /news.php?sid=*&bn=$third-party,script
 /newsanons/*?advert[]=
 /nodelmag/ytjs.php
+/onCl1ckCU/?_=
 /out.php?sid=$script
 /output/index/*$third-party,script
 /ovp.php?ver=*&autoplay=$third-party,subdocument
@@ -4089,6 +4090,7 @@ _tizers.
 ||adluxe.ru^$third-party
 ||admag.pro^$third-party
 ||admail.am^$third-party
+||admaster.click^$third-party
 ||admaxer.ru^$third-party
 ||admediator.ru^$third-party
 ||admelon.ru^$third-party
@@ -4600,6 +4602,7 @@ _tizers.
 ||bfgvqx.com^$third-party
 ||bg1kfdzzsq.ru^$third-party
 ||bgaeedihjgbachfecj.ru^$third-party
+||bgajeddhdcjhbijhgaj.world^$third-party
 ||bgclck.me^$third-party
 ||bgdmmb.com^$third-party
 ||bget.ru/adblock$third-party
@@ -24091,18 +24094,16 @@ utro.ru##div[class^="partners-block"]
 ||zoom.cnews.ru/inc/bpic/
 !
 ! Spaces и зеркала
-strip2.in,strip2.xxx,usersporn.com###sidebar > div[class]:last-child
-google-cloud.services,strip2.in,strip2.xxx,usersporn.com###siteContent > div:not([id]):not([class]) ~ div[class]
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.info,spac1.me,spac1.net,spac1.org,spac1.ru,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.global,spcs.life,spcs.me,spcs.network,spcs.news,spcs.pro,spcs.pub,spcs.reviews,spcs.social,strip2.in,strip2.xxx,usersporn.com##.rightbar__reklama
-gdespaces.com,gdespaces.net,google-cloud.services,spac.me,spac.run,spac.wtf,spac1.com,spac1.info,spac1.me,spac1.net,spac1.org,spac1.ru,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.global,spcs.life,spcs.me,spcs.mobi,spcs.network,spcs.news,spcs.pro,spcs.pub,spcs.reviews,spcs.social,strip2.in,strip2.xxx,usersporn.com##.tiled_cap
-strip2.in,strip2.xxx,usersporn.com##.tiles_wrapper > .js-file_item ~ div:not([class*="tiled"])
-/^(?!.*(spac.me)).*$/$third-party,script,domain=gdespaces.com|gdespaces.net|google-cloud.services|spac.me|spac.run|spac.wtf|spac1.com|spac1.info|spac1.me|spac1.net|spac1.org|spac1.ru|spaces-blogs.com|spaces.im|spcs-files.xyz|spcs.bio|spcs.global|spcs.life|spcs.me|spcs.mobi|spcs.network|spcs.news|spcs.pro|spcs.pub|spcs.reviews|spcs.social|strip2.in|strip2.xxx|usersporn.com
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.info,spac1.me,spac1.net,spac1.org,spac1.ru,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.global,spcs.life,spcs.me,spcs.mobi,spcs.network,spcs.news,spcs.pro,spcs.pub,spcs.reviews,spcs.social#?#div[class]:-abp-has(> a[title] ~ a[title] > div[class])
-gdespaces.com,gdespaces.net,google-cloud.services,spac.me,spac.run,spac.wtf,spac1.com,spac1.info,spac1.me,spac1.net,spac1.org,spac1.ru,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.global,spcs.life,spcs.me,spcs.mobi,spcs.network,spcs.news,spcs.pro,spcs.pub,spcs.reviews,spcs.social,strip2.in,strip2.xxx,usersporn.com##div[id][class][style="min-height:150px"]
-!#if ext_abp
+strip2.club,strip2.in,strip2.xxx,usersporn.com###sidebar > div[class]:last-child
+google-cloud.services,strip2.club,strip2.in,strip2.xxx,usersporn.com###siteContent > div:not([id]):not([class]) ~ div[class]
+gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.life,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com##.rightbar__reklama
+gdespaces.com,gdespaces.net,google-cloud.services,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.life,spcs.me,spcs.mobi,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com##.tiled_cap
+strip2.club,strip2.in,strip2.xxx,usersporn.com##.tiles_wrapper > .js-file_item ~ div:not([class*="tiled"])
+/^(?!.*(spac.me)).*$/$third-party,script,domain=gdespaces.com|gdespaces.net|google-cloud.services|spac.me|spac.run|spac.wtf|spac1.com|spac1.net|spac1.org|spaces-blogs.com|spaces.im|spcs-files.xyz|spcs.bio|spcs.life|spcs.me|spcs.mobi|spcs.network|spcs.pro|spcs.reviews|spcs.social|strip2.club|strip2.in|strip2.xxx|usersporn.com
+gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.life,spcs.me,spcs.mobi,spcs.network,spcs.pro,spcs.reviews,spcs.social#?#div[class]:-abp-has(> a[title] ~ a[title] > div[class])
+gdespaces.com,gdespaces.net,google-cloud.services,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.life,spcs.me,spcs.mobi,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com##div[id][class][style="min-height:150px"]
 ! Temporary rule, until denyallow in ABP-MV3 is implemented
-||world/$third-party,script,domain=gdespaces.com|gdespaces.net|google-cloud.services|spac.me|spac.run|spac.wtf|spac1.com|spac1.info|spac1.me|spac1.net|spac1.org|spac1.ru|spaces-blogs.com|spaces.im|spcs-files.xyz|spcs.bio|spcs.global|spcs.life|spcs.me|spcs.mobi|spcs.network|spcs.news|spcs.pro|spcs.pub|spcs.reviews|spcs.social|strip2.in|strip2.xxx|usersporn.com
-!#endif
+||world/$third-party,script,domain=gdespaces.com|gdespaces.net|google-cloud.services|spac.me|spac.run|spac.wtf|spac1.com|spac1.net|spac1.org|spaces-blogs.com|spaces.im|spcs-files.xyz|spcs.bio|spcs.life|spcs.me|spcs.mobi|spcs.network|spcs.pro|spcs.reviews|spcs.social|strip2.club|strip2.in|strip2.xxx|usersporn.com
 !
 ! Sports.ru, а также by.tribuna.com, ua.tribuna.com
 sports.ru###top-ad

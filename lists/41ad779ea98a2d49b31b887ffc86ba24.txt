@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VcY1298pAyQoOIaDxjqSmA
-! Version: 202502271140
+! Checksum: vEnXREQJfwYTOrsUw4TWAA
+! Version: 202502271240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-02-27 11:40 UTC
+! Last modified: 2025-02-27 12:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32077,6 +32077,7 @@ r34.app##figure.-mx-1.mt-4
 softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
 ! :has
+twitter.com,x.com###layers[style="z-index: 1;"]:has(div[role="dialog"] a[href="/i/premium_sign_up"][style])
 airfry.pro##.bg-gradient-to-br:has-text(Cookbook)
 nzherald.co.nz##.element-action-button:has-text(DO YOU KNOW MORE)
 nzherald.co.nz##.element-action-button:has-text(SHARE YOUR STORY)

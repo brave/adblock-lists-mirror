@@ -2212,10 +2212,12 @@ pussyspace.com,pussyspace.net##+js(aost, navigator.userAgent, exopop.browser.is)
 pussyspace.com,pussyspace.net##+js(aeld, load, exoJsPop101)
 pussyspace.com,pussyspace.net##+js(norafif, exoframe)
 pussyspace.com,pussyspace.net##+js(aeld, /^loadex/)
+pussyspace.com,pussyspace.net##+js(aopr, KLCsakdwF)
 pussyspace.com,pussyspace.net##a[href$="/live/meet-and-fuck/"]
 pussyspace.com,pussyspace.net##a:matches-attr(/^on/=/event/)
 pussyspace.com,pussyspace.net##a:matches-attr(/-h?ref/)
 pussyspace.com,pussyspace.net###alphabet, #channels, #divx-container, #hmenu, #inform, #nowlooking, #playerCamBox, #playerMenu, #qcat, #showPlayer, #tabel_tagslist, #video_content, #web_cam, .BaseRoomContents, .buttons, .carouselTopScroll, .carusel-keys-box-ps, .footerdesc, .in_top, .load_more_rel, .mainBoxTitle, .pagIno, .playerContent100pr, .relatedVideo, .right-160px, .videos-related, footer, header, [href^="/webcams.php"]:others()
+pussyspace.com,pussyspace.net##div[class][style="display: inline-block; vertical-align: top;"]
 ||pussyspace.*/live/meet-and-fuck/$all
 ||pussyspace.*/js/all.js?v=gitcache_gulp_
 ||pussyspace.*/lazyload.im
@@ -9257,12 +9259,6 @@ voyageforum.com##+js(nostif, AdBlock)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wuxiaworld.com
 @@||pubads.g.doubleclick.net/gampad/ads*wuxiaworld.com$xhr,domain=imasdk.googleapis.com
 
-! https://forums.lanik.us/viewtopic.php?f=62&t=34830
-g5u.pw##A[href$=".html"][rel="nofollow norefferer noopener"]
-! https://github.com/abp-filters/abp-filters-anti-cv/issues/247
-g5u.pw##+js(acs, Object.defineProperty, XMLHttpRequest)
-||g5u.pw/sw.js$script,1p
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6056
 artribune.com##+js(aost, Object, mark)
 artribune.com##^script:has-text(window.adsbygoogle)
@@ -9294,18 +9290,6 @@ up-load.io##.ads
 
 ! ketubanjiwa.com anti adb
 ketubanjiwa.com##+js(nostif, blockUI, 2000)
-
-! https://github.com/uBlockOrigin/uAssets/issues/6065
-direct-link.net,link-to.net,direkt-wissen.com##+js(nano-sib, countdown)
-direct-link.net,direkt-wissen.com,link-to.net##+js(nano-sib, web_counter)
-direct-link.net,direkt-wissen.com,link-to.net##+js(nano-sib, video_counter)
-direct-link.net,link-to.net##+js(nano-stb, notification_state, 12000)
-direct-link.net,direkt-wissen.com,link-to.net##+js(set, app.addonIsInstalled, trueFunc)
-direct-link.net,direkt-wissen.com##+js(nostif, nextFunction, 2000)
-||direct-link.net^$xhr,1p
-@@||direct-link.net/*/click$xhr,1p
-@@||link-to.net/*/click$xhr,1p
-direct-link.net,link-to.net##.redirect-overlay
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6067
 rlslog.net##+js(aeld, load)

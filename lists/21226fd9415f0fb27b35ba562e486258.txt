@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: UhqG1DziWl+HU6Orcqx+wA
+! Checksum: AWoOar3/PXijIn+rhGR4YQ
 ! Title: Easylist Cookie List
-! Updated: 2025-02-28 22:15 UTC
+! Updated: 2025-02-28 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3550,7 +3550,6 @@
 ###cookieConsentWrapperConHolder
 ###cookieConsent_Div
 ###cookieCont
-###cookieContainer
 ###cookieContener
 ###cookieContent
 ###cookieContraption
@@ -21007,6 +21006,7 @@ mbanc.com##+js(rc, ccpa-banner, , stay)
 ! set-cookie
 toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
+nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 autotrader.ca##+js(set-cookie, cbnr, 1)
 harry-gerlach.de,schulze-immobilien.de##+js(set-cookie, privacyPolicyAccept, 0, , reload, 1)
 wifiwien.at,wifikaernten.at,bgld.wifi.at##+js(set-cookie, consent, true)

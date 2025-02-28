@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kwcC186Q8sP4JOE6DrBFNA
-! Version: 202502280941
+! Checksum: 6iucYMQXO/Qdiub7UwuCLA
+! Version: 202502281041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Feb 2025 09:41 UTC
+! Last modified: 28 Feb 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11617,6 +11617,8 @@ pesenok.ru,songpros.ru,songspro.ru###amigo_btn
 allcrimea.net###anews_bigtizer
 thequestion.ru###answers div[style*="overflow:hidden"]
 komedra.com###apext
+dtf.ru#?##app:-abp-has(> .bar > .header [href="/auth"]) .content-list > .content:-abp-has(> .content-header > .author > [href="/u/903841-gamespayberryru"])
+dtf.ru#?##app:-abp-has(> .bar > .header [href="/auth"]) .content-list > .content:-abp-has(> .content-header > .author > [href="/u/954970-kupikod"])
 ecology.md###article > .right-block
 varta1.com.ua###article-content > header > h1:first-child + div > div[style^="--position-aspect-ratio:"]
 agropolit.com###article_banner
@@ -13969,7 +13971,6 @@ ohotniki.ru##.content-footer__subscription
 fairtop.in##.content-images
 masterok.livejournal.com##.content-inner > .entry-wrap > .disabledcomments
 footballtransfer.com.ua##.content-inner > noindex
-dtf.ru#?#.content-list > .content:-abp-has(> .content-header > .author > [href="/u/903841-gamespayberryru"])
 animespirit.tv##.content-middle > .leading-publishers:first-child
 anistar.org,astar.bz,online-star.org,online-stars.org##.content-pravo > .news-list ~ div[class^="center"]
 podillyanews.com##.content-reclame
@@ -23158,7 +23159,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?Tt92y=$xmlhttprequest
+||pikabu.ru/ajax/*?5B2pd=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

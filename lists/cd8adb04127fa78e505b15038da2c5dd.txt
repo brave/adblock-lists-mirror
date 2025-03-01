@@ -2798,9 +2798,6 @@ samehadaku.*##.box_item_berlangganan_popup
 ! https://www.reddit.com/r/uBlockOrigin/comments/oz31hz/adblock_detected/
 mediapemersatubangsa.com##+js(acs, document.addEventListener, google_ad_client)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/90217
-*$script,3p,denyallow=gstatic.com,domain=la123movies.com
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89900
 ! https://github.com/MajkiIT/polish-ads-filter/pull/20116
 pornofan.pl###inplayerADS
@@ -2845,9 +2842,8 @@ timesnowmarathi.com##[class^="section"]:has(> .ad-div)
 ! https://github.com/uBlockOrigin/uAssets/issues/9746
 isekaisubs.web.id##+js(aost, String.prototype.charCodeAt, ai_)
 
-! blasensex.com popunder and ads
-blasensex.com##+js(aopr, jsUnda)
-blasensex.com##.w300
+! blasensex.com popunder
+blasensex.com##+js(acs, document.querySelectorAll, popMagic)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9749
 @@||cheat.hax4you.net^$ghide

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: +G0tcueeAJ/k9INe6O7FnA
+! Checksum: 0ZAIg9VvQiycAvR214pwDA
 ! Title: Easylist Cookie List
-! Updated: 2025-03-01 01:40 UTC
+! Updated: 2025-03-01 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -17170,7 +17170,7 @@
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl|swisscom.ch
 ||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||terencehill.com/modules/hicookielaw/
-||transcend-cdn.com^$domain=1password.com|anaconda.com|eyeconic.com|gofundme.com|kickstarter.com|lifetouch.com|patreon.com|shutterfly.com|vimeo.com|vsp.com|vspdirect.com
+||transcend-cdn.com^$domain=1password.com|anaconda.com|chubbiesshorts.com|eyeconic.com|gofundme.com|kickstarter.com|lifetouch.com|patreon.com|shutterfly.com|vimeo.com|vsp.com|vspdirect.com
 ||transcendcdn.eventbrite.com^
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
@@ -21009,6 +21009,8 @@ mbanc.com##+js(rc, ccpa-banner, , stay)
 toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
+gobranded.com##+js(set-cookie, BRANDED_COOKIES_CONSENT, DECLINED)
+gobiernodecanarias.org##+js(set-cookie, cookies_analitycs_allowed, true)
 autotrader.ca##+js(set-cookie, cbnr, 1)
 harry-gerlach.de,schulze-immobilien.de##+js(set-cookie, privacyPolicyAccept, 0, , reload, 1)
 wifiwien.at,wifikaernten.at,bgld.wifi.at##+js(set-cookie, consent, true)
@@ -22479,6 +22481,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
 esto.eu##+js(set-local-storage-item, cookie_accepted, true)
 sanluisgarbage.com##+js(set-local-storage-item, has-seen-ccpa-notice, true)
+wildberries.ru##+js(set-local-storage-item, wbx__cookieAccepted, true)
 cryptorank.io##+js(set-local-storage-item, show_cookies_popup, false)
 springmerchant.com##+js(set-local-storage-item, modal_cookies, 1)
 veed.io##+js(set-local-storage-item, trainingDataConsent, true)

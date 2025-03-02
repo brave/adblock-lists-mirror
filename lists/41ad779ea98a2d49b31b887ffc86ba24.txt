@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +pAY8FzaxnqcNC1djdP5fA
-! Version: 202503020240
+! Checksum: dMzZisccGG0LyQE0jacuwg
+! Version: 202503020340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-02 02:40 UTC
+! Last modified: 2025-03-02 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42681,6 +42681,7 @@ ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 gobranded.com##+js(set-cookie, BRANDED_COOKIES_CONSENT, DECLINED)
 gobiernodecanarias.org##+js(set-cookie, cookies_analitycs_allowed, true)
+blaze.*,blaze.bet.br##+js(set-cookie, accept_policy_regulation, 1)
 mcdonaldsneighbourhood.co.nz##+js(set-cookie, ks_cookie_consent, 1, , reload, 1)
 timeoutdoors.com##+js(set-cookie, CMSCookieLevel, 1000, , reload, 1)
 autotrader.ca##+js(set-cookie, cbnr, 1)
@@ -44154,7 +44155,9 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
 esto.eu##+js(set-local-storage-item, cookie_accepted, true)
+bhaskar.com##+js(set-local-storage-item, HAS_ACCEPTED_PRIVACY_POLICY, true)
 supabase.com##+js(set-local-storage-item, supabase-consent-ph, false)
+app.getgrass.io##+js(set-local-storage-item, cookieConsent, essential)
 sanluisgarbage.com##+js(set-local-storage-item, has-seen-ccpa-notice, true)
 wildberries.ru##+js(set-local-storage-item, wbx__cookieAccepted, true)
 cryptorank.io##+js(set-local-storage-item, show_cookies_popup, false)
@@ -44982,9 +44985,9 @@ hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.
 hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
 hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 !! betway
-betway.de##+js(set-cookie, BETWAY_ENSIGHTEN_PRIVACY_Analytics, 0)
-betway.de##+js(set-cookie, BETWAY_ENSIGHTEN_PRIVACY_Marketing, 0)
-betway.de##+js(set-cookie, bwui_cookieToastDismissed, true)
+betway.*##+js(set-cookie, BETWAY_ENSIGHTEN_PRIVACY_Analytics, 0)
+betway.*##+js(set-cookie, BETWAY_ENSIGHTEN_PRIVACY_Marketing, 0)
+betway.*##+js(set-cookie, bwui_cookieToastDismissed, true)
 !! sliding-popup-cookies
 fundacionasla.com###sliding-popup-cookies
 fundacionasla.com##body,html:style(overflow: auto !important; position: initial !important;)

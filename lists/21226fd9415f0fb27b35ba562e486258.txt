@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: rWHRXqOW+Ca/dgAKqPCuzw
+! Checksum: vwTNlz4T4e1NPs9vexIj1w
 ! Title: Easylist Cookie List
-! Updated: 2025-03-02 04:15 UTC
+! Updated: 2025-03-02 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -22491,6 +22491,7 @@ posthog.com##+js(set-local-storage-item, cookie_consent, no)
 esto.eu##+js(set-local-storage-item, cookie_accepted, true)
 bhaskar.com##+js(set-local-storage-item, HAS_ACCEPTED_PRIVACY_POLICY, true)
 novaventa.com##+js(set-local-storage-item, cookiesAceptadas, true)
+privacy.com.br##+js(set-local-storage-item, privacy.com.br, accepted)
 supabase.com##+js(set-local-storage-item, supabase-consent-ph, false)
 app.getgrass.io##+js(set-local-storage-item, cookieConsent, essential)
 sanluisgarbage.com##+js(set-local-storage-item, has-seen-ccpa-notice, true)
@@ -22530,7 +22531,8 @@ cvut.cz##+js(set-local-storage-item, ctu-cm-m, 0)
 r-ulybka.ru##+js(set-local-storage-item, cookieAndRecommendsAgreement, true)
 voltadol.at##+js(set-local-storage-item, cookiebanner-active, false)
 evium.de##+js(set-local-storage-item, tracking-state-v2, deny)
-gpuscout.nl##+js(set-local-storage-item, cookieConsent, true)
+gpuscout.nl,remanga.org##+js(set-local-storage-item, cookieConsent, true)
+shonenjumpplus.com##+js(set-local-storage-item, 202306151200.shown.production, true)
 engeldirekt.de##+js(set-local-storage-item, consent, [])
 haleon-gebro.at##+js(set-local-storage-item, cookiebanner:extMedia, false)
 haleon-gebro.at##+js(set-local-storage-item, cookiebanner:statistic, false)

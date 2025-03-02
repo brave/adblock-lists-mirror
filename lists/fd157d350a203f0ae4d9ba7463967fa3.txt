@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W5Y4lNl2F9N3wwPFBU7fkQ
-! Version: 202503021741
+! Checksum: y01YQ3QzXIo7D8Ka4Vvxqg
+! Version: 202503021841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Mar 2025 17:41 UTC
+! Last modified: 02 Mar 2025 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1532,6 +1532,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href^="https://relap.io/"][href*="promo_ad_link"]
 ##a[href^="https://wcm-ru.frontend.weborama.fr/fcgi-bin/dispatch.fcgi?"]
 ##a[href^="https://www.juicer.io?referrer="]
+~litres.ru##a[href^="https://www.litres.ru/"][href$="#buy_now_noreg"]
 ##a[onclick*="/link-fes.ru"]
 ##a[onclick*="https://dzen.ru/news/?favid="]
 ~media-rotate.com##a[onclick*="media-rotate.com"]
@@ -12880,6 +12881,7 @@ moskva.fm,piter.fm##.ad-branding-block
 igromania.ru,kanobu.ru##.ad-brending
 delfi.ee##.ad-container
 kirovnet.ru##.ad-forum-block
+blackwot.ru##.ad-free-button
 1927.kiev.ua##.ad-modal
 akniga.org,newsvideo.su##.ad1
 akniga.org,newsvideo.su,orda.kz##.ad2
@@ -13494,6 +13496,7 @@ vesti.kz##.betconest
 officelife.media##.betera-widget
 myfootball.top##.bets
 1927.kiev.ua##.bets-block
+ska.ru##.betting
 proagro.com.ua##.bg-banner
 mmotop.ru##.bg-general
 agronom.top##.bg-gray
@@ -14870,6 +14873,7 @@ glavred.info,glavred.net##.main-partners
 protdt.ru##.main-post-content > p[style] > strong
 loveread.info##.main-right > div:not([class])[style^="margin-bottom:20px"]
 football.ua##.main-right > div[style^="width: 300px;"]
+ska.ru##.main-section-adfox
 salonav.com##.main-sidebar > .mom_custom_text ~ .mom_custom_text
 vedomosti-ua.com#?#.main-sidebar > .row > div:-abp-has(.active:-abp-contains(Реклама))
 autostat.ru##.mainBannerBlockCenter
@@ -16991,7 +16995,6 @@ depositfiles.com##[id^="ads_zone"]
 forum.krasmama.ru##[id^="adv_"]
 tuzlist.ru##[id^="adv_orders_"]
 forum.astrakhan.ru##[id^="agat_plus_banner"]
-blackwot.ru##[id^="ai_widget"]
 bestradio.fm,elsyst.gnomio.com,forum.niiot.net,freeopenvpn.org,ghame.ru,htmlweb.ru,kulichki.net,ph4.ru,pvpru.com,videoredaktor.ru##[id^="aswift_"]
 forum.mista.ru,unews.pro##[id^="banner"]
 rabota.kharkov.ua##[id^="banner_"]
@@ -25074,6 +25077,7 @@ drukarnia.com.ua##header ~ section[role="dialog"]
 @@||auth.wi-fi.ru^$generichide
 @@||ava-avto.ru^$generichide
 @@||avcore.ru^$generichide
+@@||blackwot.ru^$generichide
 @@||browserleaks.com^$generichide
 @@||cdnstreamfree.com^$generichide
 @@||cdnstreamlive.com^$generichide
@@ -26005,7 +26009,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||awaps.yandex.net^$script,domain=delovoe.tv|lentv24.ru|piter.tv|smexo.tv
 @@||balashover.ru/ads/www/delivery/ajs.php$script,domain=balashover.ru
 @@||bambergerkennanchitinous.com/.adframesrc.$script,domain=porjati.net
-@@||blackwot.ru/*.js|$domain=blackwot.ru
 @@||c6v.ru/adsbygoogle.js$domain=c6v.ru
 @@||capricornus.cc/*.js?_=$third-party,script
 @@||cash4brands.ru/static/js/$script,domain=cash4brands.ru
@@ -26094,7 +26097,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||smaxim.*/player/stats.php?event=Init,|$image,~third-party
 @@||st.s5o.ru/source/_desktop/$xmlhttprequest,domain=sports.ru
 @@||stalker-mods.*/images/icons/*_|$image,~third-party,domain=stalker-mods.clan.su|stalker-mods.su
-@@||static-mon.yandex.net/static/main.js?pid=$xmlhttprequest,domain=reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru
+@@||static-mon.yandex.net/static/main.js?pid=$xmlhttprequest,domain=reshu.by|reshuent.kz|sdamgia.ru|sports.ru
 @@||static.1tv.ru/player/*/banner.gif$domain=1tv.ru
 @@||static.baik.ru/static/js/apps-js/adv/google_advert.*.js|$script,domain=www.irk.ru
 @@||static.doubleclick.net/instream/ad_status.js|$xmlhttprequest,domain=tehnografi.com
@@ -26133,7 +26136,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||yandex.ru/ads/system/adsdk.js$script,domain=aniboom.one|api-video.khl.ru|gisher.org|karaoke.ru|kino.tricolor.tv|limehd.tv|m24.ru|peers.tv|player.mediavitrina.ru|ren.tv|rutube.ru
 @@||yandex.ru/ads/system/context.js|$domain=examenpdd.com|forum.qrz.ru|yvid.ru
 @@||yandex.ru/ads/system/context.js|$script,domain=tvzvezda.ru
-@@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=ai-next.ru|blackwot.ru|reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru|strategium.ru
 @@||yarik-sat.com/reklama/*.js|$script,domain=yarik-sat.com
 @@||yastatic.net/safeframe-bundles/0.83/host.js|$script,domain=examenpdd.com
 @@||zx-pk.ru/abp/adblock_detector.js|$script,domain=zx-pk.ru

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: BXks23BVuyibcy/iWkXKgQ
+! Checksum: TVS9AOVQSewefoiHqGcRlw
 ! Title: Easylist Cookie List
-! Updated: 2025-03-03 08:15 UTC
+! Updated: 2025-03-03 09:15 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3870,7 +3870,6 @@
 ###cookieUsageBanner
 ###cookieUsageHint
 ###cookieUsageMessage
-###cookieUsageNotification
 ###cookieUsagePopIn
 ###cookieUsagePopup
 ###cookieUse
@@ -9034,8 +9033,6 @@
 ##.S01M97-CookieAlert--overlay
 ##.SCK_Banner
 ##.SLNotificationBar
-##.SP-ConsentBanner
-##.SP-ConsentBanner__spacer
 ##.SP-CookieUsageNotification
 ##.Section-Cookie
 ##.Seeems-EuCookie-Notification
@@ -22140,7 +22137,7 @@ gigasport.at,gigasport.de,gigasport.ch##+js(set-cookie, consentAll, 1)
 velleahome.gr##+js(set-cookie, hide_cookies_consent, 1)
 nicequest.com##+js(set-cookie, nicequest_optIn, 1)
 handelsbanken.no,handelsbanken.com,handelsbanken.co.uk,handelsbanken.se,handelsbanken.dk,handelsbanken.fi##+js(set-cookie, shb-consent-cookies, false)
-ilarahealth.com##+js(set-cookie, cookies-accepted, true, , reload, 1)
+ilarahealth.com,paderborn.de##+js(set-cookie, cookies-accepted, true, , reload, 1)
 songtradr.com##+js(set-cookie, cpaccepted, true)
 logo.pt##+js(set-cookie, cookieMessageDismissed, 1)
 logo.pt##+js(set-cookie, LG_COOKIE_CONSENT, 0)
@@ -23329,9 +23326,9 @@ bliink.io,analytics-debugger.com,istories.media,kroo.com,shipoffoolsgame.com##bo
 kidioui.fr##.cookieACK
 kidioui.fr##body,html:style(overflow: auto !important; position: initial !important;)
 ! loopearplugs.com
-hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##.cc-window-wrapper
-hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
-hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
+brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##.cc-window-wrapper
+brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
+brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 !! betway
 betway.*##+js(set-cookie, BETWAY_ENSIGHTEN_PRIVACY_Analytics, 0)
 betway.*##+js(set-cookie, BETWAY_ENSIGHTEN_PRIVACY_Marketing, 0)
@@ -27238,6 +27235,7 @@ washingtonpost.com#@#.gdpr-consent
 washingtonpost.com#@#.gdpr-consent-container
 simoncuchillerias.com#@#.gdpr-consent-tabs
 simoncuchillerias.com#@#.gdpr-consent-tabs-v2
+weareethos.com#@#.gdpr-cookie-notice
 cerave.es#@#.gdpr-cookies
 standaard.be#@#.gdpr-dialog
 slovnaftludom.sk#@#.gdpr-footer

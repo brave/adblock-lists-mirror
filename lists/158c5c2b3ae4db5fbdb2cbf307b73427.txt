@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Rr3SW099ce/ot3O5Gmbj8A
-! Version: 202503041041
+! Checksum: m47GjvIYtdhSCPFMutqlRg
+! Version: 202503041141
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 04 Mar 2025 10:41 UTC
+! Last modified: 04 Mar 2025 11:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1194,7 +1194,7 @@ livelib.ru,oka.fm##.footer-soc
 pasy.media##.footer-soc-share
 moyens.net##.footer-social
 mc.today##.footer-social-desktop
-2x2.su##.footer-social-list
+2x2.su,statbet.com##.footer-social-list
 growhow.in.ua,mediasat.info,prosportua.com##.footer-social-wrap
 1istochnik.ru##.footer-socialbox
 sports.ru##.footer-socials
@@ -1956,6 +1956,8 @@ xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##.shr-txt
 sibnet.ru##.sibnet-footer__social
 weaponland.ru##.side > .bookmark
 foto.ua##.side-banner-social
+redheadsound.studio##.side-block.first
+redheadsound.studio##.side-block.first + .side-block > div[class^="side-block__"]
 psychologies.ru##.side-block_soc-tabs
 gadgetstyle.com.ua#?#.side-blok:-abp-has(.twitter-timeline )
 coldfilm.biz#?#.side-box:-abp-has(#vk_groups)
@@ -2287,6 +2289,7 @@ openmedia.io##.ss-ic
 maximum.ru##.ss_block
 vp.donetsk.ua#?#.ssptab:-abp-has(> .tabs_buttons #facebook)
 gorodkiev.com.ua##.starttable
+statbet.com##.stat-social
 sova.live##.stats__share
 tokar.ua##.stck-mn
 peoples.ru##.sticky > .widget:first-child
@@ -2448,6 +2451,7 @@ mybryansk.ru##.topLine
 russian7.ru##.topSoc
 eurointegration.com.ua##.top__social__item
 bugaga.ru##.top_links > .rss > a[href^="http"]:not([href*="//bugaga.ru"])
+sportanalytic.com##.top_options
 kp40.ru##.top_social_links
 allboxing.ru##.top_social_links > li:not(.auth-profile)
 ixbt.com##.topic-footer-panel-soc
@@ -2474,6 +2478,7 @@ korrespondent.net##.unipopup
 magnit.ru##.unit-footer-socials
 korrespondent.net#?#.unit-rubric:-abp-has(> ul > #lifacebook)
 www.pravda.com.ua##.unit_sp_place
+statbet.com##.up-share
 game-pool.ru##.upnews
 mobile-review.com##.upper__social > a[href^="http"]:not([href*="mobile-review.com"])
 prk.city##.uptolike-div
@@ -5071,6 +5076,7 @@ silver.ru#?#.column:-abp-has(> div[class^="banner"]:first-child)
 sports.ru#?#.columns-layout__left > .aside-news-block:-abp-has(> h3 > [href*="/news/bet/"])
 prostotech.com##.comments > .content_adv
 kino-teatr.ru##.comments_block > [itemprop="review"] ~ .content_block
+sportanalytic.com##.common_content_news > .block__head
 dopobr73.ru##.confirm
 pxtracker.org,vtracker.org##.confirm-blocked
 edgecenter.ru##.confirmed_cookie
@@ -5777,7 +5783,6 @@ overclockers.ru##.right-blog-wrap
 kaifolog.net##.right-col > noindex
 tulapressa.ru##.right-news_company
 gazeta.uz##.rightAppstore
-sportanalytic.com#?#.rightModules > .block:-abp-has(> .bc [type="submit"])
 trends.rbc.ru##.right__oprosso
 ruskline.ru##.right_banner_inner_1
 video.sibnet.ru##.right_column > #menu_profile ~ .block1[style]

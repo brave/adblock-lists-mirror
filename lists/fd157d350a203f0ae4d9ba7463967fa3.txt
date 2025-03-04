@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ueROrTBjdg0dDrlitieE6A
-! Version: 202503041441
+! Checksum: /PuBjnrf/hwIQzh6RUrp4w
+! Version: 202503041541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Mar 2025 14:41 UTC
+! Last modified: 04 Mar 2025 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19831,7 +19831,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||utarget.ru^$csp=sandbox allow-same-origin;
 ||utarget.ru^$csp=script-src
 ||www.liveinternet.ru/|$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' i.li.ru
-||www.ukr.net^$csp=frame-src 'self' *.ukr.net *.sinoptik.ua kinoafisha.ua *.twitter.com *.google.com
+||www.ukr.net^$csp=frame-src 'self' *.ukr.net sinoptik.ua kinoafisha.ua *.twitter.com *.google.com
 ||yadistr.ru^$csp=script-src
 ||yandex.ru/turbo?text=https*fishki.net$csp=connect-src
 !
@@ -20967,6 +20967,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||fiat-avtocity.ru/swf/
 ||fiat-vag.ru/comebacker/
 ||files.vse.kz/branding/$image
+||filmix.*/vast_fx.
 ||filmozavr.com/static/background.
 ||filmozavr.com/static/casino/
 ||filmozavr.com/static/js/popUpBottomCorner.js
@@ -26154,9 +26155,9 @@ daz3d.ru,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
 draug.ru,print-post.com#@##reklama
+gdz-raketa.ru,izi-invest.ru,kakoysegodnyaprazdnik.ru,leingpt.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#@#div[id^="yandex_rtb"]
 green-way.com.ua#@#.adWrapper
 iphones.ru#@##sponsorText
-izi-invest.ru,kakoysegodnyaprazdnik.ru,leingpt.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#@#div[id^="yandex_rtb"]
 kakoysegodnyaprazdnik.ru,mmo13.ru,no-steamserv.ru,vesti.ru#@#.adv
 kisameev.ru,myseria.pro,openssource.biz,zazloo.ru#@#.reklama
 liga.net#@##bottomAd

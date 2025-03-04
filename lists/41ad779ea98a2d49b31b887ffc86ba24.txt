@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zCYGqW446P1T17qj9Fqpkw
-! Version: 202503041315
+! Checksum: m9Tp7CUw8flE329GG85ecw
+! Version: 202503041340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-04 13:15 UTC
+! Last modified: 2025-03-04 13:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42340,6 +42340,8 @@ gmarket.co.kr##+js(set, document.onmousedown, noopFunc)
 ! For the overlay
 !www.youtube.com###ytd-watch-flexy[player-unavailable] #player-container-outer.ytd-watch-flexy:style(visibility: visible !important;)
 !www.youtube.com###yt-playability-error-supported-renderers:style(display: none !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/20586#issuecomment-2695739357
+m.youtube.com##+js(json-prune, overlay.bottomSheetOverlayRenderer, overlay.bottomSheetOverlayRenderer.displayImmediately)
 ! https://github.com/uBlockOrigin/uAssets/issues/21076
 grammarly.com##.ReactModalPortal:has-text(confidence)
 grammarly.com##body:style(overflow: auto !important;)

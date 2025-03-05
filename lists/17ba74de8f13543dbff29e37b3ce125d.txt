@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202503051139
+! Version: 202503051249
 ! Title: EasyList
-! Last modified: 05 Mar 2025 11:39 UTC
+! Last modified: 05 Mar 2025 12:49 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -52454,6 +52454,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||js.syosetu.top^
 ||jsdelivr.net/gh/$domain=chrome-stats.com|edge-stats.com|firefox-stats.com
 ||kaas.am/hhapia/
+||katfile.com/images/$image,domain=filepv.com
 ||kendrickcoleman.com/images/banners/
 ||kentent.stre4mplay.one^
 ||kickassanimes.info/a_im/
@@ -53501,9 +53502,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||pornerbros.com/lolaso/
 ||pornforrelax.com/kiadtgyzi/
 ||porngals4.com/img/b/
-||porngames.tv/images/skyscrapers/
-||porngames.tv/js/banner.js
-||porngames.tv/js/banner2.js
+||porngames.tv/js/hs43jgM.js
 ||porngo.tube/tdkfiololwb/
 ||pornhat.com/banner/
 ||pornhub.*/_xa/ads
@@ -61596,7 +61595,7 @@ vndevtop.com###sidebar_right
 pornhub.com,pornhub.org###singleFeedSection > .emptyBlockSpace
 adult-sex-games.com###skyscraper
 porngames.games###slide-ads
-adultgamesworld.com###slideApple
+adultgamesworld.com,porngames.tv###slideApple
 hentaifox.com###slider
 javfor.tv###smac12403o0
 xbooru.com,xxxymovies.com###smb
@@ -61677,7 +61676,6 @@ boyfriendtv.com##.adblock
 iporntoo.com##.adbox-inner
 ftopx.com##.add-block
 sex3.com##.add-box
-gamcore.com##.add_game.d-none
 playvids.com##.add_href_jsclick
 4kporn.xxx,babesandstars.com,cam-video.xxx,crazyporn.xxx,cumlouder.com,gosexy.mobi,hoes.tube,hog.tv,javcl.com,javseen.tv,kartavarna.com,love4porn.com,marawaresearch.com,mobilepornmovies.com,mypornstarbook.net,pichunter.com##.ads
 pornx.to##.ads-above-single-player
@@ -62109,6 +62107,7 @@ fapality.com##.ntw-a
 rule34.xxx##.nutaku-mobile
 boundhub.com##.o3pt
 bdsmx.tube##.oImef0
+porngames.tv##.one-top-link
 lustgalore.com##.opac_bg
 pornchimp.com,pornxbox.com,teenmastube.com,watchmygf.mobi##.opt
 bbporntube.pro##.opve-bns-bl
@@ -62241,8 +62240,7 @@ porngfy.com##.single-sponsored
 babestare.com##.single-zone
 sexvid.xxx##.site_holder
 porn-monkey.com##.size-300x250
-simply-hentai.com##.skyscraper
-porngames.tv##.skyscraper_inner
+porngames.tv,simply-hentai.com##.skyscraper
 pornhub.com##.sniperModeEngaged
 thelittleslush.com##.snppopup
 boycall.com##.source_info
@@ -62667,7 +62665,6 @@ pornhub.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporngay.com##
 pornhub.com##img[srcset]
 mature.community,milf.community,milf.plus,pornhub.com##img[width="300"]
 sexmummy.com##img[width="468"]
-gamcore.com##li.d-md-block > a[rel]
 mrjav.net##li[id^="video-interlacing"]
 pictoa.com##nav li[style="position: relative;"]
 boundhub.com##noindex
@@ -62694,7 +62691,6 @@ porngames.com##.contentbox:has(iframe[src^="//"])
 kimochi.info##.gridlove-posts > .layout-simple:has(.gridlove-archive-ad)
 tokyomotion.com##.is-gapless > .has-text-centered:has(> div > .adv)
 4kporn.xxx,crazyporn.xxx,hoes.tube,love4porn.com##.item:has(> [class*="ads"])
-gamcore.com##.item:has(> [href^="/games/fuckyou/"])
 vagina.nl##.list-item:has([data-idzone])
 adultgamesworld.com##.masonry-layout__panel:has(a[href^="https://access-the-website.com/"])
 darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##.no-gutters > .col-6:has(> #special-block)
@@ -62728,6 +62724,22 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 ! ABP CSS injection filters
 otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
+! 69games.xxx/gamcore/porcore.com
+classic.gamcore.com###center > .flashes > .wide:has(> a[href][rel])
+69games.xxx###footer
+gamcore.com###preloader_2
+69games.xxx###right
+69games.xxx,gamcore.com###tvnotice
+gamcore.com##.add_game.d-none
+gamcore.com##.item:has(> [href^="/games/fuckyou/"])
+gamcore.com##.row > .d-md-block
+69games.xxx##[class^="leaderboard"]
+gamcore.com##[href*="/ads/"]
+69games.xxx##[id*="tvadbody"]
+classic.gamcore.com##[id]:has(> .warningbox)
+69games.xxx##[id^="center"] .I:has(> [class=""][href])
+69games.xxx,porcore.com##body > [id][style^="position: fixed; top: 0px;"]
+gamcore.com##li.d-md-block > a[rel]
 ! -----------------------Allowlists to fix broken sites------------------------!
 ! *** easylist:easylist/easylist_allowlist.txt ***
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com

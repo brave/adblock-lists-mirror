@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F/L0XVT860gjZk/ISN56sA
-! Version: 202503050040
+! Checksum: YiY3WP1X/KnFC6MMqO89uQ
+! Version: 202503050115
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-05 00:40 UTC
+! Last modified: 2025-03-05 01:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -20776,7 +20776,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.accookie
 ##.accord_cookies
 ##.acepta_cookies
-##.aceptar_cookies
 ##.acris-cookie-consent:not(.is--modal)
 ##.act-cookie-notification
 ##.action-cookie
@@ -24947,7 +24946,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.gdpr_v2
 ##.gdpr_wrapper
 ##.gdprbar
-##.gdprbox
 ##.gdprbox__wrapper--simple
 ##.gdprboxcolor
 ##.gdprcookie
@@ -28125,7 +28123,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div.cookie-notice-visible
 ##div.cookie-notice-wrapper
 ##div.cookie-padding
-##div.cookie-panel
 ##div.cookie-parent
 ##div.cookie-policy-banner
 ##div.cookie-policy-head
@@ -42753,7 +42750,8 @@ pepperstone.com##+js(set-cookie, acceptedCookies, checked)
 f1store4.formula1.com##+js(set-cookie, mktck, false)
 brasiltec.ind.br##+js(set-cookie, cookie_accept, 1)
 lassociation.fr##+js(set-cookie, rgpdLassoCheck, 1)
-elpicazo.org,varaderey.es##+js(set-cookie, cookies_aceptadas, true, , reload, 1)
+elpicazo.org,varaderey.es,top-car-hire.com##+js(set-cookie, cookies_aceptadas, true, , reload, 1)
+bookings.hermesairports.com##+js(set-cookie, cookie_choice_made, decline)
 community.creative-assembly.com##+js(set-cookie, consent_cookies, 1)
 okto.tv##+js(set-cookie, disclaimer-saved, 1)
 vandemoortel.de##+js(set-cookie, cookieConsent_given, , reload, 1)
@@ -43320,6 +43318,7 @@ galaxy.com##+js(set-cookie, bannerDissmissal, true, ,reload, 1)
 petdesk.com,inmuebles24.com##+js(set-cookie, allowCookies, true)
 ivyexec.com##+js(set-cookie, COOKIE-POLICY-ACCEPT, true)
 railtech.com##+js(set-cookie, gdpr, accept)
+infotainment.mazdahandsfree.com##+js(set-cookie, gdpr, accepted)
 lottehotel.com##+js(set-cookie, essentialCookie, Y)
 lottehotel.com##+js(set-cookie, checkCookie, Y)
 lottehotel.com##+js(set-cookie, analyticsCookie, N)
@@ -43924,6 +43923,7 @@ woltair.cz##+js(set-cookie, CM_BANNER, false)
 rostics.ru##+js(set-cookie, set-cookie, cookieAccess, 1)
 hife.es##+js(set-cookie, hife_eu_cookie_consent, 1)
 isarradweg.de,lilcat.com##+js(set-cookie, cookie-consent, accepted, , reload, 1)
+yuboto-telephony.gr##+js(set-cookie, yuboto-telephony.gr_CookiesAcceptedN, 1)
 hot.si##+js(set-cookie, permission_marketing_cookies, 0)
 hot.si##+js(set-cookie, permission_statistic_cookies, 0)
 hot.si##+js(set-cookie, permission_funktional_cookies, 1)
@@ -51595,6 +51595,7 @@ packeasy.ch#@#.cookieconsent-wrapper
 hardware.info#@#.cookiecontainer
 book-n-drive.de#@#.cookiedialog
 keobeer.com.cy#@#.cookienote
+top-car-hire.com#@#.cookies-box
 trading212.com#@#.cookies-consent-popup
 esa.nask.pl#@#.cookies-footer
 mydealz.de#@#.cookies-message

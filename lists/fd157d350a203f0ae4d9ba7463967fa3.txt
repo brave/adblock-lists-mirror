@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kHPZCdfJ6Z6RVHlrVeJ/ow
-! Version: 202503051541
+! Checksum: lSXPpR40f7iviQffsyc+6w
+! Version: 202503051641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Mar 2025 15:41 UTC
+! Last modified: 05 Mar 2025 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19798,11 +19798,11 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||24smi-*/top/$csp=script-src
 ||24smi.*/top/$csp=script-src
 ||24top.*/top/$csp=script-src
+||adblock.turtlecute.org^$csp=connect-src 'self'; script-src https://adblock.turtlecute.org/js/index.js
 ||an.yandex.ru/count/$csp=script-src
 ||azbne.net^$csp=sandbox allow-same-origin;
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
 ||crossout.net/*free?*&r=$csp=sandbox allow-same-origin;
-||d3ward.github.io/toolz/adblock$csp=connect-src 'self'; script-src https://d3ward.github.io/toolz/js/adblock.js
 ||drive.google.com/file/d/1VmzdhLB_-DcnBtUbKfQPnNvsEp_2gnsy/$csp=script-src
 ||driverpack.io^$csp=sandbox allow-same-origin;
 ||driverpaksolution.ru^$csp=sandbox allow-same-origin;
@@ -26177,12 +26177,11 @@ zhurnaly.biz#@#.item-ads
 !
 ! - hide & block
 pornhub.com,pornhub.org###abAlert
-d3ward.github.io###ad_ctd
+adblock.turtlecute.org###ad_ctd
 seolik.ru###alert_top_site
 tvvse.my1.ru###cont-i > span[style*="color:red"]
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru###container > center:nth-child(-n+3)
 fm-app.ru,tvapp.su,yootv.ru###content > div[style*="fixed"]
-d3ward.github.io###cts_test
 satdx.club###darkenwrapper
 3dtuning.com###detected
 imagebam.com###hideifpossible.box_wait
@@ -26295,8 +26294,8 @@ chaynikam.info##div[id^="mdl_ctnr_"]
 zazloo.ru##div[style="background: darkorange; padding: 10px;"]
 rt02.ru##img[alt*="реклам"]
 onliner.by##img[src="https://content.onliner.by/news/1100x5616/eb7d2f564b229c0da9f39ec11eb7d529.png"]
-d3ward.github.io##main > ._bg-red
 au-ok.com##p[style="border:3px solid #C1FF0A;background-color:#d5d5d1;padding:10px;"]
+adblock.turtlecute.org##section ._bg-orange
 ||anivisual.net/back/scss.js
 ||csgohelp.ru/assets/app/js/checkIn.js
 ||electric-house.ru/forum/script_el.js

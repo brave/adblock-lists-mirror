@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DgcVdWvAT47/sAX0eOH1ng
-! Version: 202503051741
+! Checksum: CN2SLRZEgo8pwxJAFg9X9g
+! Version: 202503051841
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Mar 2025 17:41 UTC
+! Last modified: 05 Mar 2025 18:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3230,6 +3230,7 @@ auto.mail.ru##.sharelist_justify
 pets.mail.ru##a[class*="VKAppBanner__root"]
 otvet.mail.ru##a[title="Поделиться"]
 deti.mail.ru#?#button:-abp-has(> .button__inner:-abp-contains(Поделиться))
+mail.ru,sportmail.ru##button[title="Поделиться"]
 player-smotri.mail.ru##div[class^="SharingOptionsScrollContainer-"]
 player-smotri.mail.ru##div[class^="WrapperPersonalRatingButton-"]
 my.mail.ru##div[class^="sp-video__item-page-new__share"]

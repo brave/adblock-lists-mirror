@@ -64,7 +64,7 @@ def validate_checksum(filename):
 
     # Normalize data
     data = re.sub(r"\r", "", data)
-    data = re.sub(r"\n+", "\n", data)
+    data = re.sub(r"\n+\Z", "\n", data)
 
     # Calculate new checksum
     checksum_expected = hashlib.md5(data.encode("utf-8")).digest()

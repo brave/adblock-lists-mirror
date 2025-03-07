@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202503070941
+! Version: 202503071042
 ! Title: EasyList
-! Last modified: 07 Mar 2025 09:41 UTC
+! Last modified: 07 Mar 2025 10:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -774,6 +774,8 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! Filemoon
+?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
 ://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
@@ -9491,6 +9493,7 @@ _800x80_
 ##.advert--placeholder
 ##.advert--right-rail
 ##.advert--square
+##.advert--sticky
 ##.advert-100
 ##.advert-120x90
 ##.advert-160x600
@@ -54604,7 +54607,7 @@ open.spotify.com###leaderboard-ad-element
 thebaltimorebanner.com###leaderboard-ad-v2
 vocm.com###leaderboard-area
 bbc.com###leaderboard-aside-content
-abbynews.com,biv.com,kelownacapnews.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,sootoday.com,surreynowleader.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com,vicnews.com###leaderboard-container
+abbynews.com,biv.com,kelownacapnews.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,revelstokereview.com,sootoday.com,surreynowleader.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com,vicnews.com###leaderboard-container
 farooqkperogi.com###leaderboard-content
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
@@ -57107,6 +57110,7 @@ getcomics.org##.getco-content_2
 flickr.com##.getty-search-view
 flickr.com##.getty-widget-view
 marketsfarm.com##.gfm-ad-network-ad
+law.cornell.edu##.gfs
 ganjingworld.com##.ggAdZone_gg-banner-ad_zone__wK3kF
 cometbird.com##.gg_250x250
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
@@ -58480,6 +58484,8 @@ box-core.net,mma-core.com##.rsky
 voxelmatters.com##.rss-ads-orizontal
 rswebsols.com##.rsws_banner_sidebar
 nextofwindows.com##.rtsidebar-cm
+run247.com##.run24-300x250-in-post
+run247.com##.run24-content
 freewebarcade.com##.rxads
 freewebarcade.com##.rxse
 aerotime.aero##.s-banner

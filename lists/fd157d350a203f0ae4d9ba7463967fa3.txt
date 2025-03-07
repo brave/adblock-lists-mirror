@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3jGhuazKPqMwrYAHR1+Lvw
-! Version: 202503071841
+! Checksum: Qzu4DcsuwNavfJyI1bJkPw
+! Version: 202503071941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Mar 2025 18:41 UTC
+! Last modified: 07 Mar 2025 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22638,7 +22638,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||talk.$domain=dugtor.ru
 ||tamboff.ru/other/forum/banners
 ||tap.az/embed/
-||tapochek.net/z_loader.php
 ||tayga.info/banners/
 ||tayga.info/design/banner/
 ||tdaily.ru/api/ad|$xmlhttprequest
@@ -23167,6 +23166,8 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportana
 @@||s.zmctrack.net/z|$xmlhttprequest
 @@||s.znctrack.net/z|$xmlhttprequest
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
+@@||tapochek.net/ajax.php|$xmlhttprequest,domain=tapochek.net
+@@||tapochek.net/torinfo.php|$xmlhttprequest,domain=tapochek.net
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
@@ -23175,6 +23176,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
+||tapochek.net^$xmlhttprequest
 ! howdyho - набор правил для проверки таймаута рецидивов
 @@||yandex.ru/ads/meta/*?target-ref=$xmlhttprequest,domain=howdyho.net|howdyho.pro
 @@||yandex.ru/ads/system/context.js|$script,domain=howdyho.net|howdyho.pro

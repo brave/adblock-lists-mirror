@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
 ! Title: Greek AdBlock Filter
-! Version: 2025011901
+! Version: 2025030807
 ! Expires: 2 days
 ! Homepage: https://github.com/kargig/greek-adblockplus-filter
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -132,6 +132,8 @@
 ||gazzetta.gr/sites/all/themes/basic/images/banners/PokerStar*.jpg
 ||gazzetta.gr/sites/default/files/Anytime*.jpg
 ||geoloc12.geovisite.com:82/private/geocounter.js
+||goodnet.gr/files/goodnet/banners/*.jpg$image
+||goodnet.gr/files/goodnet/banners/*.gif$image
 ||gossip-tv.gr/images/banner
 ||gossip-tv.gr/media/com_news/ads/*$image
 ||gossip-tv.gr/media/com_skins/skins/
@@ -514,6 +516,7 @@ car.gr##ol > li:has([href*="funshop.gr"])
 car.gr##ol > li:has(.carzilla-ad)
 car.gr##.below-facets-ad
 car.gr##.carzilla-ad > li
+carandmotor.gr##.buy_now_form
 clickatlife.gr###adLinks
 cnn.gr##div[class="story-textlinks row"]
 contra.gr###adtxtlink
@@ -563,6 +566,7 @@ dialogos.com.cy##a.notrack
 dialogos.com.cy##aside
 dokari.gr##.side
 dokari.gr##.static
+e-enimerosi.com##.penci-widget-sidebar
 e-go.gr###advsliding352
 e-go.gr##.deal
 e-go.gr##div[class="agores"]
@@ -611,6 +615,7 @@ enikos.gr###article-inread-ad-container
 enimerosi.com##video
 enimerosi.com##.skinBanner
 enimerosi.com##.sw-banner
+enimerosi.com##.detail-right-sd
 ethnos.gr##.deal
 ethnos.gr##.sls
 ethnos.gr##.srs
@@ -670,6 +675,7 @@ gazzetta.gr##A[href^="http://www.bet365.gr/"]
 gazzetta.gr##A[href*="http://www.novibet.com/Handlers/"]
 gazzetta.gr##A[href*="http://www.sportingbet.gr/paradise-poker/"]
 gazzetta.gr##A[href*="https://www.playbet.com/portal/"]
+goodnet.gr##div.col-side__subdivision:nth-of-type(2) > .callout > .callout__content
 gossip-tv.gr###textlinks
 gossip-tv.gr##.bottom-popout.is-open
 greekddl.com##DIV[id="floatit"]
@@ -826,6 +832,7 @@ milaraki.com##A[href*="http://www.ez-smoke.net/"]
 milaraki.com##A[href*="http://www.indolucky7.com/sbobet/sbobet.html"]
 milaraki.com##A[href*=spinpalace]
 milaraki.com##A[href="http://www.mp4converter.net/dvd-ripper-mac.html"]
+moneyonline.gr##.article-fullcontent > div:has-text(ADVERTISEMENT)
 monobala.gr##.mt-0.text-center.banner
 monobala.gr##.banner
 monobala.gr##.order-md-1.order-0.sidebar-widget
@@ -923,6 +930,7 @@ pcsteps.gr###text-65
 pcsteps.gr##div.single-subscribe-block
 philenews.com##aside
 pitsirikos.net###text-19
+player.real.gr##.advertisement
 politis.com.cy##.banner
 politis.com.cy##.tw-50[style^=overflow]
 politis.com.cy#?#.mobile-reverse:has(div[id^=div-gpt-])
@@ -969,6 +977,7 @@ serraikanea.gr###sp-right
 serraikanea.gr##.sp-page-title
 serraikanea.gr##.sppb-section-content-center
 sexgr.net#?#.left-col:-abp-has(h3:-abp-contains(Advertise))
+simerini.sigmalive.com##.ad-container
 skai.gr##.banner
 skai.gr##.skin.news[href="https://www.facebook.com/NAIstinEllada\a "]
 skai.gr##DIV#jw_wwg
@@ -1043,6 +1052,7 @@ subs4free.com###ad-box-right
 subs4free.com##A[href*="http://serve.williamhillcasino.com/"]
 supersyntages.gr###box-block-block-12
 tanea.gr##.textlink
+techaholic.gr##.a-wrap
 techgear.gr###fasa
 techgear.gr###text-39
 techgear.gr##.mobile_adv

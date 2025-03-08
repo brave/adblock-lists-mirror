@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oC36jXRsS2FYO72LFuYUbA
-! Version: 202503081941
+! Checksum: PTqo0u+xWRCWkdSlEOa/WQ
+! Version: 202503082041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Mar 2025 19:41 UTC
+! Last modified: 08 Mar 2025 20:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4197,6 +4197,7 @@ _tizers.
 ||advtise.ru^$third-party
 ||advtracker.ru^$third-party
 ||advweb.ru^
+||adwadvert.com.ua^$third-party
 ||adwels.ru^$third-party
 ||adwidgets.ru^$third-party
 ||adwise.agency^$third-party
@@ -19796,6 +19797,7 @@ ictv.ua,vikna.tv##div[id^="div-gpt-ad-"]
 $csp=script-src-attr 'none',domain=volyn.com.ua
 .infox.sg^$csp=script-src
 .softoroom.org^$csp=default-src 'unsafe-inline',domain=~gzip.softoroom.org|~m.softoroom.org
+/bens/vinos.js$csp=sandbox allow-same-origin;
 /gateway/aHR0c$csp=script-src
 |http*//fastpic.org/$csp=frame-src 'self'
 |http*//fastpic.org/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fastpic.org
@@ -23168,8 +23170,6 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportana
 @@||s.zmctrack.net/z|$xmlhttprequest
 @@||s.znctrack.net/z|$xmlhttprequest
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
-@@||tapochek.net/ajax.php|$xmlhttprequest,domain=tapochek.net
-@@||tapochek.net/torinfo.php|$xmlhttprequest,domain=tapochek.net
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
@@ -23178,7 +23178,6 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
-||tapochek.net^$xmlhttprequest
 ! howdyho - набор правил для проверки таймаута рецидивов
 @@||yandex.ru/ads/meta/*?target-ref=$xmlhttprequest,domain=howdyho.net|howdyho.pro
 @@||yandex.ru/ads/system/context.js|$script,domain=howdyho.net|howdyho.pro

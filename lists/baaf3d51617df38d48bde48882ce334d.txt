@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3TY2WE1bL2qEqpZGDYGG2w
-! Version: 202503082340
+! Checksum: UMy/vqVxqjBV90Vlurk4lA
+! Version: 202503090040
 ! Title: Fanboy's Newsletter List
-! Last modified: 2025-03-08 23:40 UTC
+! Last modified: 2025-03-09 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1886,7 +1886,6 @@ wbur.org##.WallOfLinks_actions__cAUTE
 cnbc.com##.WildcardEmbed-wrapper
 timesnownews.com##._37K4.RUE6
 thelogic.co##.__form-wrapper
-macleans.ca##.__wrap__2golE.nl-signup > div > .inner
 friendlyatheist.com##._background_1mspu_85
 thefiscaltimes.com,thewalrus.ca##._form
 kilgorenewsherald.com##._inline-form
@@ -3664,6 +3663,7 @@ nature.com##div.c-site-messages
 bustle.com##div.lqj:last-child
 usnews.com##div.mb5 > react-trigger
 nature.com##div.nature-briefing
+macleans.ca##div.wp-block > .nl-signup
 thepointsguy.com##div[class*="EmailSignUp_"]
 thenightly.com.au##div[class*="StyledFormContainer"]
 theatlantic.com##div[class^="BottomLeaflets_newsletter_"]
@@ -4941,6 +4941,9 @@ tweaktown.com###newsletterModal
 tweaktown.com##+js(rc, modal-open, body, stay)
 ! 30seconds.com
 30seconds.com##+js(set-cookie, uf_signup_bar, 1)
+! macleans.ca
+macleans.ca##.__show__pMA1C.__wrap__jEIal:has-text(to your inbox)
+macleans.ca##body,html:style(overflow: auto !important; position: initial !important;)
 ! magnolia.com
 magnolia.com##+js(set-local-storage-item, BRANCH_BANNER_PAGE_LOAD, 1)
 magnolia.com##+js(set-local-storage-item, EMAIL_CAPTURE_MODAL_STOP, 1)

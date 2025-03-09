@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hPG4Y20cjeYS07xxHZj19A
-! Version: 202503091831
+! Checksum: dyMi0Gu4LdN4fUoryEyRGQ
+! Version: 202503091931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Mar 2025 18:31 UTC
+! Last modified: 09 Mar 2025 19:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4127,6 +4127,7 @@ _tizers.
 ||ads.vk.com/|$xmlhttprequest,domain=~ads.vk.com
 ||ads2.bid^$third-party
 ||adsclick.ru^$third-party
+||adseedtech.com^$third-party
 ||adselector.ru^$third-party
 ||adservob.com^$third-party
 ||adservone.com^$third-party
@@ -12578,9 +12579,9 @@ mignews.com###smart_banner
 tyndex.ru###snippetprice
 animestars.ru###snow
 onlinetambov.ru###socAds
+agro-business.com.ua###sp-breadcrumb
 download-software.ru###sp-component .custom
 trend-city.ru###sp-left
-agro-business.com.ua###sp-right .custom > p > a > img
 igra-prestoloff.cx#?##sp-right > .sp-inner > .module:-abp-has([id*="ScriptRoot"])
 igra-prestoloff.cx#?##sp-right > .sp-inner > .module:-abp-has([onerror])
 hi.dn.ua,slavinfo.dn.ua###sp-top-banners

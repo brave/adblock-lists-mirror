@@ -132,7 +132,7 @@ poophq.com,veev.to,doods.to##+js(no-xhr-if, 162.252.214.4, true)
 !#else
 poophq.com,veev.to,doods.to##+js(trusted-set, adscoreLibLoader.state, json:"loading")
 poophq.com,veev.to,doods.to##+js(set, window.adscoreLibLoader._init, true)
-poophq.com,veev.to,doods.to##+js(trusted-set, window.__ascvertkn, json:"AA")
+poophq.com,veev.to,doods.to##+js(trusted-set, window.__ascvertkn, json:"AAA")
 /dl?op=aa&cmd=ga&_a=$xhr,1p,important,domain=poophq.com|veev.to|doods.to
 ||a.pemsrv.com/ad-provider.js$xhr,important,domain=poophq.com|veev.to|doods.to
 !#endif
@@ -233,3 +233,6 @@ okwave.jp#@#.adfunnel.user_ranking
 
 ! https://github.com/easylist/easylist/issues/21268
 ||applicationinsights.io^$3p,badfilter
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1j76tpa/adblock_detected_site_gledaitvlive/
+gledaitv.*##+js(no-fetch-if, method:HEAD)

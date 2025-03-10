@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UkwFoO8WE/9lEoGoDE926Q
-! Version: 202503101641
+! Checksum: qIvScA0dYhsiA1kz6UWSng
+! Version: 202503101741
 ! Title: EasyList Germany
-! Last modified: 10 Mar 2025 16:41 UTC
+! Last modified: 10 Mar 2025 17:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -1104,6 +1104,7 @@ wetter.com#@#div[id^="div-gpt-"]
 ||prospekt38.de^*/widget.php?anbieter_id=$subdocument,third-party
 ||publisher.outtra.com^$third-party
 ||questler.de/gfx/banner/$third-party
+||qvid2.b-cdn.net^
 ||rabattcorner.ch/iframe/$subdocument,third-party
 ||ranksider.de/img/banner/$third-party
 ||rastplatzsex.com/banner/$third-party
@@ -1880,6 +1881,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||lowbeats.de/site/wp-content/banners/
 ||loz-news.de/images/banners/
 ||lustvollesgeheimnis.com/banner/
+||m.queer.de^$image
 ||macgadget.de/mgbanner/
 ||mailcdn.de/w.php?$domain=mail.de
 ||mainpost.de/storage/image/*_kickers-sponsor-
@@ -3556,6 +3558,7 @@ musiker-board.de##.anzC
 ntg24.de##.anzeige + .slider
 ntg24.de##.anzeige + p
 designtagebuch.de##.anzeige-links
+meerwasser-lexikon.de##.anzeigeInfo
 ariva.de##.anzeigeText
 lippe-news.de##.anzeige_content
 motorsport-total.com##.anzeige_teas_rect

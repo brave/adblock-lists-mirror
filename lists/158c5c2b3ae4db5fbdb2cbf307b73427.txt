@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eR4lKoBVt29I5bI70fYI2w
-! Version: 202503111041
+! Checksum: 2L4rKDbL8TjK0h8Z09XFsg
+! Version: 202503111141
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Mar 2025 10:41 UTC
+! Last modified: 11 Mar 2025 11:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -949,6 +949,7 @@ online.ua##.c-card-socials
 dron.media#?#.c-content > ul:-abp-has(> li em [href*="://t.me/"])
 forbes.ua##.c-footer-socials
 shuba.life##.c-footer-socials__list
+shuba.life##.c-footer__socials
 suspilne.media##.c-header-social
 forbes.ua,lviv.media##.c-header-socials
 shuba.life##.c-header__socials
@@ -5053,7 +5054,7 @@ sports.ru##.c-read-also
 delo.ua##.c-special-list
 shuba.life##.c-subs
 babel.ua##.c-subs-social
-online.ua##.c-subscribe
+online.ua,shuba.life##.c-subscribe
 culture.ru##.c-subscription-widget
 delo.ua##.c-support
 sports.ru##.c-tag-header__mobile-apps

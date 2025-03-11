@@ -995,6 +995,8 @@ forum-xiaomi.com##+js(nostif, show)
 ! https://github.com/easylist/easylist/pull/21305
 @@||pagead2.googlesyndication.com/gampad/ads?*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_Collapse_Autoplay_$domain=imasdk.googleapis.com,badfilter
 @@||pagead2.googlesyndication.com/gampad/ads?*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_In-Post_ClicktoPlay_$domain=imasdk.googleapis.com,badfilter
+@@||pagead2.googlesyndication.com/gampad/ads?*laurelberninteriors.com*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_Collapse_Autoplay_$domain=imasdk.googleapis.com
+@@||pagead2.googlesyndication.com/gampad/ads?*laurelberninteriors.com*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_In-Post_ClicktoPlay_$domain=imasdk.googleapis.com
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=laurelberninteriors.com,important
 !#if ext_devbuild
 laurelberninteriors.com>>##+js(no-xhr-if, laurelberninteriors.com, war:noop-vast4.xml)
@@ -1009,3 +1011,6 @@ laurelberninteriors.com##+js(no-xhr-if, method:POST)
 laurelberninteriors.com##+js(no-fetch-if, /adthrive|gumgum|doubleclick/)
 laurelberninteriors.com##+js(no-xhr-if, /adthrive|gumgum|doubleclick/)
 laurelberninteriors.com##+js(set-cookie, __adblocker, false, , reload, 1)
+
+! https://github.com/uBlockOrigin/uAssets/issues/27512
+darts-scoring.com##+js(no-fetch-if, googlesyndication)

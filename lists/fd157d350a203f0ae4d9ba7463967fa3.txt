@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hJxLp+XoMty4VI2ZLchiSg
-! Version: 202503120741
+! Checksum: oRNgqvvqJDuWPnBYqGn8dQ
+! Version: 202503120841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Mar 2025 07:41 UTC
+! Last modified: 12 Mar 2025 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1951,7 +1951,6 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /lhzbsrfkjf/js/*$third-party,script
 /linkexchange/*
 /load-promo/*
-/mapsview/gomaps5.js$third-party
 /marketgid_$domain=~marketgid.com
 /marketplace.asp?
 /media/banners/*
@@ -1998,7 +1997,6 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /rbt_banner/*
 /rcl/all/*
 /rcl/ban/*
-/reader/filezone.js$third-party
 /redirect/cpa/*
 /redtram.$domain=~redtram.com
 /reklama6.
@@ -19465,6 +19463,7 @@ bezzamorochek.com##mark > strong
 charming-face.ru##marquee
 9sx.ru##marquee[scrollamount]
 mob39.ru##meta + center > table[cellspacing="0"][cellpadding="0"][border="0"]
+mult-porno.*,sex-studentki.*##.vpsembedmob
 uploads.ru##nav
 www1.ru##nav > .hidden > .list-reset > a[target="_blank"]
 sprashivalka.com##nav > .items > a[href]:not([href^="/"]):not([href^="https://sprashivalka.com/"])
@@ -20773,6 +20772,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||coolinbox.ru/suprenta/
 ||copypast.ru/re*/$image,object
 ||copyright.ru*/?file=
+||cosplay-porn.*/front/js/all_a.js
+||cosplay-porn.*/front/js/unwanted.js
 ||cpainform.ru/uploads/images/banner/
 ||cpainform.ru/uploads/images/promo/
 ||cpasee.com/styles/default/banner/$image
@@ -21746,8 +21747,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||mskins.net/themes/mc/assets/promo/
 ||mt5.com^*/popup/popup.js
 ||mu-kgt.ru/*/widget/contract/
+||mult-porno.*/front/js/all_a.js
 ||mult-porno.*/front/js/unwanted.js
-||mult-porno.*/front/js/vads.js
 ||multik-online.net/trotator/
 ||multitran.com/gif/iv.mp4
 ||multiwork.org^$subdocument,domain=allbest.ru
@@ -22421,8 +22422,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||severstalclub.ru/pic/bimages/
 ||sevnews.info^*/adv_banners/
 ||sevnews.info^*/flash/
+||sex-studentki.*/front/js/all_a.js
 ||sex-studentki.*/front/js/unwanted.js
-||sex-studentki.*/front/js/vads.js
 ||sexgamesbox.com/images/
 ||sexoporno.su^*/sam-pro-
 ||sfera.fm/assets/media/bannery/
@@ -23905,6 +23906,7 @@ forums.overclockers.ru#?#table > tbody > tr:-abp-has(> [class^="profile"]:-abp-c
 ||overclockers.ru/webservice/getPipPlace?
 !
 ! Pornolab.NET
+pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###banner-stub
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###latest_news > div
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###main_content_wrap > #latest_news > table[width="100%"] > tbody > tr > td[width="100%"] ~ *
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###main_content_wrap > #latest_news > table[width="100%"] > tbody > tr ~ *

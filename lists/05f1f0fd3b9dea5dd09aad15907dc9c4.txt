@@ -1010,9 +1010,5 @@ dramafren.net###btnOpnWinDiv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=ryderjet.com
 ||ryderjet.com/assets/jquery/css100.js
 
-! https://github.com/uBlockOrigin/uAssets/issues/27524
-!#if env_mobile
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=timesofindia.indiatimes.com
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/$script,domain=timesofindia.indiatimes.com
-timesofindia.indiatimes.com##+js(no-fetch-if, /doubleclick|googlesyndication/)
-!#endif
+! https://github.com/AdguardTeam/AdguardFilters/issues/200629
+njavtv.com##+js(set-session-storage-item, _x_popped, {})

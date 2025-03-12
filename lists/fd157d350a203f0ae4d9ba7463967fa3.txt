@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PecgUrmnvQ2K+SyEvoUWow
-! Version: 202503120641
+! Checksum: hJxLp+XoMty4VI2ZLchiSg
+! Version: 202503120741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Mar 2025 06:41 UTC
+! Last modified: 12 Mar 2025 07:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10668,6 +10668,7 @@ _tizers.
 ||whisla.com^$third-party
 ||whiteboxdigital.ru^$third-party
 ||whiteippcode.com^$third-party
+||whtmyco.com^$third-party
 ||widefox.ru^$third-party
 ||widetunel.ru^$third-party
 ||widget.mediastealer.com^$third-party
@@ -14365,6 +14366,8 @@ travelask.ru##.gallery-sidead__ad
 rbkgames.com##.game-description-text a[class][href][target="_blank"]:not([href^="/"]):not([href^="https://rbkgames.com/"])
 shaiba.kz##.game-info__bottom
 gamasexual.com,gamasexual.ru##.game-preview-wrap > :not([class="game-preview"])
+myfin.by##.game__label
+myfin.by##.game__partner-logo
 myplaycity.ru##.gamepage_download_left
 myplaycity.ru##.gamepage_download_right
 flashplayer.ru##.gametiles > div[id][style]
@@ -16911,6 +16914,7 @@ om1.ru##[data-io-article-url] .content-block
 forbes.ru#?#[data-io-article-url] > footer > div[class]:-abp-has(> .undefined)
 ozon.ru##[data-lcp-name*="anner-"]
 myukraina.com.ua##[data-link*="goo.gl"]
+myfin.by##[data-link*="winline.by"]
 rocketdockfree.ru##[data-msetup]
 woman.ru##[data-name*="Banner"]
 re.kufar.by#?#[data-name="ad_in_listing"] > article:-abp-has(> div > [id^="adfox_"])
@@ -23181,7 +23185,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?t2f6w=$xmlhttprequest
+||pikabu.ru/ajax/*?z13sr=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24036,6 +24040,7 @@ avtorambler.com,rambler.ru##div[style^="order:"][style*="-1"]
 |rambler.ru/*/okko-metrics
 ||img.championat.com/brand/
 ||kraken.rambler.ru^$domain=~kraken.rambler.ru
+||lenta.ru/fenwick
 ||rcmjs.rambler.ru/static/rcmw/rcmw.*.horizontal.
 ||rcmjs.rambler.ru/static/recommender.js
 ||ssp.rambler.ru^$domain=~ssp.rambler.ru

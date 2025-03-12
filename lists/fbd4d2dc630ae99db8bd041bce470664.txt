@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JKJTT0zf7NZYNzHB+RrCuw
-! Version: 202503121541
+! Checksum: vWFaRfPXp1m+Jkj2SbLbRw
+! Version: 202503121641
 ! Title: EasyList Germany
-! Last modified: 12 Mar 2025 15:41 UTC
+! Last modified: 12 Mar 2025 16:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5600,12 +5600,6 @@ chip.de##.Button__Wrapper:has(a[href^="https://x.chip.de/linktrack/button/"][hre
 chip.de##.dlcharts + div:not(.List) {remove:true;}
 chip.de##.ft-charts-main > div:not(.List):not(.caps) {remove:true;}
 ! top-level domain wildcard
-kaufland.*##.exp-vision__ext-wrapper--spad
-kaufland.*##.product--spa
-kaufland.*##.product--sponsored
-kaufland.*##.spads-recommender
-kaufland.*##.sponsored-brand-products-container
-kaufland.*##.teaser-orchestration__wrapper--online
 !------------------Ausnahmeregeln zum Beheben von Problemen-------------------!
 ! *** easylistgermany:easylistgermany/easylistgermany_allowlist.txt ***
 @@/iqadcontroller.$script,domain=manager-magazin.de

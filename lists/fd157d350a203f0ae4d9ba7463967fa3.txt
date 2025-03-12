@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oRNgqvvqJDuWPnBYqGn8dQ
-! Version: 202503120841
+! Checksum: Xr9KR49qaXi+c5GBRVX4Ng
+! Version: 202503120941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Mar 2025 08:41 UTC
+! Last modified: 12 Mar 2025 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19820,6 +19820,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||an.yandex.ru/count/$csp=script-src
 ||azbne.net^$csp=sandbox allow-same-origin;
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
+||cosplay-porn.$csp=connect-src 'self' blob: data:
 ||crossout.net/*free?*&r=$csp=sandbox allow-same-origin;
 ||drive.google.com/file/d/1VmzdhLB_-DcnBtUbKfQPnNvsEp_2gnsy/$csp=script-src
 ||driverpack.io^$csp=sandbox allow-same-origin;
@@ -19834,11 +19835,13 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||idealmedia.io$csp=script-src
 ||lis-gor.com/$csp=sandbox allow-same-origin;
 ||modsfire.com/download/*/$csp=script-src 'unsafe-eval' data:
+||mult-porno.$csp=connect-src 'self' blob: data:
 ||news-sphere.com^$csp=script-src
 ||nsportal.ru/download/$csp=frame-src 'self'
 ||obfusgated.com/*/tools/ad-block-test$csp=connect-src 'self';
 ||opensharing.org/img/images/$csp=script-src 'unsafe-inline' 'unsafe-eval' opensharing.org/img/
 ||psysovet24.ru^$csp=script-src 'self' * blob: data:
+||sex-studentki.$csp=connect-src 'self' blob: data:
 ||skam.online^$csp=script-src 'self' * 'unsafe-eval' data:
 ||smartmama.com.ua^$csp=media-src 'none'
 ||statusklic.info^$csp=sandbox allow-same-origin;

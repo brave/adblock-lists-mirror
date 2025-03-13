@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.6.1
+! Version: 4.0.6.2
 
 ! General
 
@@ -13,9 +13,8 @@
 ||loader-cdn.azureedge.net^$third-party
 ||blueconic.net^$third-party
 /[a-z]{1}\d{2,3}\.\w+\.(co(m|\.uk)|net|org)\/script\.js/$script,~third-party
-||cxense.com^$script,third-party
+||cxense.com^$script,third-party,domain=~journaldemontreal.com|~journaldequebec.com|~wsj.com
 ||cxense.com^$script,domain=bizjournals.com,important
-@@||cxense.com^$script,domain=journaldemontreal.com|journaldequebec.com|wsj.com
 ||ensighten.com/*/Bootstrap.js$script,third-party
 ||evolok.net^$third-party
 ||fewcents.co/*/paywall*.js$script,third-party
@@ -39,14 +38,10 @@ gadget.pico.tools##+js(json-prune, locked)
 ||steadyhq.com^$script,third-party
 ||wallkit.net/js/$script,third-party
 ||zephr.com/zephr-browser/$script,third-party
-/arc/subs/p.min.js$script,~third-party
-@@/arc/subs/p.min.js$script,domain=latercera.com|nzherald.co.nz
+/arc/subs/p.min.js$script,~third-party,domain=~latercera.com|~nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party
-/evolok/*/ev-em.min.js$script
-/evolok/ev-em.min.js$script
-@@/evolok/*/ev-em.min.js$script,~third-party$domain=vikatan.com
-/evolok/*/ev-widgets.min.js$script
-/evolok/ev-widgets.min.js$script
+/evolok/*ev-em.min.js$script,domain=~vikatan.com
+/evolok/*ev-widgets.min.js$script
 /paywall/evercookie_get.js$script,~third-party
 /shared-content/art/tncms/api/access.*.js$script,~third-party
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party
@@ -696,6 +691,8 @@ skepticalinquirer.org##+js(rc, google-bot, div.google-bot, stay)
 splainer.in##+js(rc, hide-section, .hide-section)
 splainer.in##.subscription-prompt
 ||splinter.com/wp-content/themes/pastemagazine/js/pm_custom.js$script,~third-party
+standcolumbia.org##+js(ra, class, div.stu-lock-content, stay)
+standcolumbia.org##div.stu-blur-overlay
 stateaffairs.com##div.c-memberships-message
 stateaffairs.com##+js(rc, access-restricted, body.access-restricted)
 strangematters.coop##+js(cookie-remover, pmpro_lpv_count)
@@ -728,9 +725,8 @@ vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0
 ||zeitzeichen.net/sites/default/files/js/js_*.js$script,~third-party
 
 ! General (amp)
-||ampproject.org/*/amp-access-$script
+||ampproject.org/*/amp-access-$script,domain=~cambridge.org|~cmjornal.pt
 ||ampproject.org/*/amp-subscriptions-$script
-@@||ampproject.org/*/amp-access-$script,domain=cambridge.org|cmjornal.pt
 @@||ampproject.org/v0/amp-consent-$script
 
 artnet.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##+js(ra, subscriptions-section, [subscriptions-section="content"])

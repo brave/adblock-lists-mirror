@@ -1032,3 +1032,7 @@ porno-365.*##+js(aost, document.createElement, Object.init)
 ! https://github.com/uBlockOrigin/uAssets/issues/27553
 freevpn.us##+js(noeval-if, adbl)
 freevpn.us##.myTestAd
+
+! https://github.com/uBlockOrigin/uAssets/issues/27556
+*$script,xhr,3p,denyallow=bootstrapcdn.com|cloudflare.com|fastly.net|hdtvcloud.com|jquery.com|jsdelivr.net|zencdn.net,domain=hakunamatata5.org|overtakefans.com
+

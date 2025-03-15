@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1/D5zLjJhWsbv8ZB1/QOWA
-! Version: 202503152141
+! Checksum: gIsRdfbn7Hb0+ENruIX67g
+! Version: 202503152241
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Mar 2025 21:41 UTC
+! Last modified: 15 Mar 2025 22:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7104,7 +7104,9 @@ dzen.ru##.zen-page .content div[class*="__bannerMain"]
 /^https?:\/\/strm\.yandex\.ru\/get\/[^\s]{1300,}$/$xmlhttprequest,domain=dzen.ru|naydex.net
 ~e.mail.ru,mail.ru,~octavius.mail.ru##:not(.grid__main-col) > .tgb-wrapper
 @@||ad.mail.ru/adp/*=resplash&q=$xmlhttprequest,domain=mail.ru
-@@||yandex.ru/ads/system/context.js|$script,domain=e.mail.ru|octavius.mail.ru
+@@||shedevrum.ai^$generichide
+@@||static-mon.yandex.net/static/main.js?pid=shedevrum|$xmlhttprequest,domain=shedevrum.ai
+@@||yandex.ru/ads/system/context.js|$script,domain=e.mail.ru|octavius.mail.ru|shedevrum.ai
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body > :not(div[style*=" -"]) .mailru-visibility-check
 dzen.ru#?#div:-abp-has(> .mg-grid__item_type_card > div[class*="loader_animated"])
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class*="Serp"] div[class$="-Incut"][style^="margin-bottom:"]

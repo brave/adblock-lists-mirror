@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /qv8Gr1XEfAsVL+XrrLx8w
-! Version: 202503150941
+! Checksum: 9zs8y+S9jdGp38GkWLNfJA
+! Version: 202503151041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Mar 2025 09:41 UTC
+! Last modified: 15 Mar 2025 10:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1726,6 +1726,7 @@ anibests.ru,anijutsu.ru,animegofans.ru,animesenpai.ru,anistars.ru,jutsubest.ru,t
 amedias.ru,kinogo-net.la##.player-section > .player-box ~ div[style*="5px"]
 films-online.club##.pluso-text
 kinogo.media##.pod-playertg
+telegraf.news##.pod_photo
 zetfliks.vip,zetflixxx.vip##.podel
 prufy.ru##.podelitsa
 sports.ru,tribuna.com##.poll-share
@@ -4673,6 +4674,7 @@ kurs.com.ua###popupConsent ~ .background-popup
 sovetromantica.com###popup_elem
 finuslugi.ru###portal-root > div[class*="plate_"]
 lifehacker.ru###post-content > .widgets-renderer
+telegraf.news###post-content > div.content-vis-auto
 forum.ixbt.com###privacy_alert
 fishki.net###privacypolicy
 mind.ua###progressBar
@@ -4799,6 +4801,7 @@ myshows.me##.Footer__apps
 meduza.io##.InfoPanel-informer
 sinoptik.ua##.ItOHEpcj
 meduza.io##.Layout-module-banner
+vkvideo.ru##.LeftMenuAppPromo
 forbes.ru##.Lms0V
 sportrecs.com##.MuiContainer-disableGutters
 ai-next.ru,ecomonitor62.ru##.MuiSnackbar-root
@@ -4818,6 +4821,7 @@ meduza.io##.SupportPanel-module-root
 auto.ru##.TaxiPromoForTruckDrivers
 lux.fm##.UNI-feedback-trigger
 vkvideo.ru##.VideoOwnerInfo
+vkvideo.ru##.VideoQuickLogin
 audi-club.ru##.XenAdvShop
 instagram.com##.ZUqME.N9d2H
 2gis.by,2gis.kz,2gis.ru##._1jefphjl
@@ -4862,6 +4866,7 @@ one.ua##.alert-secondary
 proekt.media##.alerts
 gecid.com##.alogo > .lleft ~ *
 artlebedev.ru##.als-cookie-button
+telegraf.news##.ancr-sticky
 newsru.co.il##.andr
 meteonova.ru##.android
 userstyles.org##.android_button_banner
@@ -7109,6 +7114,7 @@ e.mail.ru,octavius.mail.ru##div[class*="layout"] .letter-list-item-adv
 e.mail.ru,octavius.mail.ru##div[class*="layout"] .promo-block-letter
 dzen.ru##div[class^="article-"][class*="-placeholder__root"]
 mail.ru##div[class^="tg"][class*="-wrapper_"]
+mail.ru##div[id^="mailru"]
 mail.yandex.ru,mail.yandex.*###js-mail-layout-content-header > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 ||dzen.ru/zen-partner/$third-party

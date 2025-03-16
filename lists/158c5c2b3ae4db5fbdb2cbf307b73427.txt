@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VAbeH66CfPEb78tKlKc/vQ
-! Version: 202503161441
+! Checksum: mYfv1XZb7ZkEB094FaUOFw
+! Version: 202503161541
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Mar 2025 14:41 UTC
+! Last modified: 16 Mar 2025 15:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -787,6 +787,7 @@ siliconrus.com##.b-article__social
 tut.by##.b-articleshare
 asiapoisk.com##.b-blog_social
 auto.vesti.ru##.b-doc__share
+tochka.by##.b-foot-social
 primpress.ru##.b-footer__links > div[class^="offset"]
 svpressa.ru##.b-footer__social-container
 mel.fm##.b-footer__socials
@@ -4441,7 +4442,6 @@ rshb.ru###alert.bottom
 naruto-brand.ru#?##allEntries > div[id^="entryID"]:-abp-has(a[href][target="_blank"])
 ok.ru###anonymPageContent > div[data-promo]
 tapochek.net###aposnow
-5ka.ru###app > .message
 mamba.ru#?##app section:-abp-has(> div[class] > form#closeCookieBanner)
 vk.com###app_container_outer + div[style]
 terrikon.com###appeal
@@ -4485,7 +4485,7 @@ moya-planeta.ru###content > .white_header_text
 it-actual.ru###content > article ~ :not(article):not(.zap):not(#comments):not(#nav-below)
 galas.te.ua###content > table
 7ya.ru###content_container > div[class*="specprojects"]
-genesis-mining.ru,gopractice.ru,inscience.news,proglib.io###cookie
+genesis-mining.ru,gopractice.ru,inscience.news,life.com.by,proglib.io###cookie
 gazprombank.ru###cookie-accept
 cian.ru,eva.ru###cookie-agreement
 1000sovetov.ru,svpressa.ru###cookie-bar
@@ -4494,6 +4494,7 @@ rsb.ru###cookie-fixed-popup
 inforesist.org,root-nation.com###cookie-notice
 greenpost.ua###cookie-popup
 psychol-ok.ru###cookie_agreement_div
+1c.ru###cookie_consent_panel
 softportal.com###cookie_wrapper
 rosava.com###cookiemaster
 vtb.ru###cookiemsgoffpls
@@ -4615,6 +4616,7 @@ volnamobile.ru###message-block-cookie
 1jazz.ru###mfn-rev-slider
 livemaster.ru###mobile-app-banner-hand
 olx.ua###mobileAppsbadge
+belgazprombank.by###modal-cookies
 symmetron.ru###modal-info
 animejoy.ru###modalbox
 myjane.ru###moon-calendar
@@ -5145,7 +5147,7 @@ pravda.ru##.cookie-container
 mosoblgaz.ru##.cookie-modal-wrapper
 rushop.lg.com##.cookie-mode__wrap
 rfs.ru##.cookie-notation
-europaplus.ru,mkb.ru##.cookie-notification
+alfabank.by,europaplus.ru,mkb.ru##.cookie-notification
 fb.ru##.cookie-notify__wrapper
 fireman.club,labirint.ru##.cookie-policy
 mts.ru##.cookie-popup
@@ -5231,7 +5233,6 @@ ansedo.com##.dont-kill-us-please
 gnatkovsky.com.ua##.donts
 silver.ru##.download-app-button-wrapper
 translate.ru##.download-mobile
-5ka.ru##.drLLvMwi-
 starhit.ru##.ds-subscribe
 vc.ru##.dstr-fl
 vc.ru##.dstr-unit
@@ -6203,6 +6204,8 @@ economistua.com##[data-owo-type]
 ozon.ru##[data-paginator-loader]
 poltavawave.com.ua##[data-platform]
 my.ua##[data-policy-wrapper]
+5ka.ru##[data-qa="cookies"]
+motor.ru##[data-qa="lb-content"] ~ [data-qa="lb-footer"] ~ div
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
 fosshub.com##[data-section-content-type="donate"]
 ictvukraine.tv,obozrevatel.com,zahid-sad.com##[data-storage-item*="cookiename_"]
@@ -6370,6 +6373,7 @@ povarenok.ru##body > .dr
 unn.com.ua##body > .fancybox-opened
 unn.com.ua##body > .fancybox-overlay:not(.fancybox-overlay-fixed)
 www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasales.ru,www.aviasales.ua,www.aviasales.uz##body > .footer ~ [src^="https://pay.google.com/"] + div[class]
+www.drweb.ru##body > .grid > .fixed
 megaserial.net##body > .lenta
 texterra.ru##body > .mfp-bg
 texterra.ru##body > .mfp-wrap
@@ -6527,6 +6531,7 @@ avito.ru##div[class^="seller-safety-seller"]
 ctrs.com.ua##div[class^="sidePopupContainer"]
 zr.ru##div[class^="styled__CookieDisclaimerContainer"]
 eanews.ru##div[class^="styled__Notice-sc-"]
+auchan.ru##div[class^="styles_acceptCookieAlert"]
 kufar.by##div[class^="styles_webpush_banner"]
 parlament.ua##div[class^="subscribe-text-block"]
 okko.tv##div[class^="toast-list_containerDown"]
@@ -6581,7 +6586,6 @@ gamer-mods.ru##div[style^="height:"][style*="gamer-mods.ru/Noviygod"][style*=".g
 outlook.live.com##div[tabindex][role="region"][aria-label] > div + div > div > .ms-FocusZone ~ div[class]:not([role]) > button
 youla.ru#?#div[width="0.25"]:-abp-has(> div > a[href*=".com/"][href*="/app"][title][target="_blank"])
 socportal.info##div[x-lazyload*="g-ytsubscribe"]
-auchan.ru##footer + div[class]
 vinnitsa.info##footer + div[class] + div[class]
 nplus1.ru##footer > .fixed
 sport-tv.by##footer > .nav > .bottom > .right
@@ -6664,6 +6668,7 @@ avtorambler.com,rambler.ru#?#section > nav ~ div div:-abp-has(> div > [id^="rcmw
 nsn.fm#?#section:-abp-has(> div > div > form)
 rutube.ru##section[aria-label="Cкачать приложения"]
 allsks.ru##section[class*="a-cookies"]
+kaspersky.ru##section[data-at-selector="cookie-banner"]
 habr.com##section[id^="promo_block_"]
 goha.ru##span[id^="scrollto"]
 streamzone.org##span[style*="3.0em;"]
@@ -6920,7 +6925,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.adv_pos_popup
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.app-promo-button
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-page__container .footer__links > .links-section:last-of-type
 ya.ru##.b-sethome
-dzen.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-statcounter + div[class] > div[id][class]
+yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-statcounter + div[class] > div[id][class]
 forms.yandex.ru##.b-statcounter ~ .popup2
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.card-layer-channel-footer-with-sharing-view .like-tooltip__wrapper
 ya.ru##.complex-feed
@@ -6983,6 +6988,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.t-construct-adapter__pseudo-fast
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.techno-promo
 ya.ru##.tooltip_theme_services
 ya.ru##.tooltip_theme_services-angle.popup2_direction_right-top
+dzen.ru,sportsdzen.ru##.trapPopupContainer
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.universal-stripe
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.urok-promo
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.yabrowser-promo

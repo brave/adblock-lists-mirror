@@ -3458,14 +3458,9 @@ chat.tchatche.com##+js(aopw, adBlckActive)
 chat.tchatche.com##+js(nosiif, AB.html)
 chat.tchatche.com##+js(set, feedBack.showAffilaePromo, noopFunc)
 chat.tchatche.com##+js(set, ShowAdvertising, {})
+tchatche.com##+js(rmnt, script, 'Brave')
 
-! https://github.com/uBlockOrigin/uAssets/issues/19181
-194.110.247.242##+js(acs, eval, replace)
-194.110.247.242##.gmr-bannerpopup
-
-! https://www.reddit.com/r/uBlockOrigin/comments/15a5ta4/block_discreet_sotwe_ads/
 ! https://github.com/uBlockOrigin/uAssets/issues/19354
-! sotwe.com##.tweet-card .v-responsive.media-carousel-image .v-responsive__content img[alt]:not([alt*="https://t.co/"]):upward(.tweet-card)
 sotwe.com##.tweet-card .v-responsive.media-carousel-image .v-responsive__content img[alt]:not(:matches-attr(alt="/.*\shttps:\/\/t\.co\/[\w]{10}$/")):upward(.tweet-card)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19188
@@ -3602,12 +3597,12 @@ teknisitv.com,paylaterin.com##+js(aost, decodeURIComponent, autoptimize)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/dv0n5w/torrentgalaxy_ads/
 ! https://github.com/uBlockOrigin/uAssets/issues/19729
-*$script,3p,denyallow=bootstrapcdn.com|disqus.com|disquscdn.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=torrentgalaxy.*|tgx.rs
-torrentgalaxy.*,tgx.rs##+js(aost, String.prototype.charCodeAt, $)
-torrentgalaxy.*,tgx.rs##.alert
-/\/common\/images\/[a-z0-9]{1,5}\-[a-z0-9]{1,5}\.png$/$match-case,image,1p,domain=torrentgalaxy.*|tgx.rs
-torrentgalaxy.*,tgx.rs##a[href^="/hx?r0ff3r="][href$="&tfh"], #stopad, .kdguszftmyrvenilh, a[onmouseout="#"][href], img[src^="/common/images/"][alt="wide"][data-src="bin"]
-torrentgalaxy.*,tgx.rs##body > [id] > div[class]:only-child > div[class]:first-child > div[class][style="padding: 0px 7px;max-width:445px;"] > div:first-child:not([class]):has(> div:only-child #stopad)
+*$script,3p,denyallow=bootstrapcdn.com|disqus.com|disquscdn.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=torrentgalaxy.*
+torrentgalaxy.*##+js(aost, String.prototype.charCodeAt, $)
+torrentgalaxy.*##.alert
+/\/common\/images\/[a-z0-9]{1,5}\-[a-z0-9]{1,5}\.png$/$match-case,image,1p,domain=torrentgalaxy.*
+torrentgalaxy.*##a[href^="/hx?r0ff3r="][href$="&tfh"], #stopad, .kdguszftmyrvenilh, a[onmouseout="#"][href], img[src^="/common/images/"][alt="wide"][data-src="bin"]
+torrentgalaxy.*##body > [id] > div[class]:only-child > div[class]:first-child > div[class][style="padding: 0px 7px;max-width:445px;"] > div:first-child:not([class]):has(> div:only-child #stopad)
 ||startgaming.net/*&utm_source$doc,popup
 ||startgaming.net/*affil=Torrentgalaxy$doc,popup
 
@@ -3686,7 +3681,7 @@ edmdls.com,freshremix.net,scenedl.org##+js(set, loadpagecheck, noopFunc)
 hentaibooty.com##+js(acs, jQuery, popupAt)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158680
-@@||google-analytics.com/debug/collect?$xhr,domain=10bye.com
+@@||google-analytics.com/debug/*collect?$xhr,domain=10bye.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19342
 txori.com##+js(nostif, adblock)
@@ -4912,7 +4907,7 @@ cimanow.cc###ad1
 cimanow.cc##section[aria-label="details"] a[id][target="_blank"]
 cimanow.online##+js(ra, href, [target="_blank"], stay)
 cimanow.cc,cimanow.online##+js(acs, document.createElement, MutationObserver)
-cimanow.cc,cimanow.online,freex2line.online##+js(overlay-buster)
+freex2line.online##+js(overlay-buster)
 ||freex2line.online/*/?redirect$doc,urlskip=?redirect -base64
 ||flashtalking.com^$image,redirect=2x2.png,domain=cimanow.cc|cimanow.online
 cimanow.cc##main > a[id][target="_blank"]

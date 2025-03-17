@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O7YFyDAu9FeSrSpbqXOq2g
-! Version: 202503172040
+! Checksum: Fs2zY2HzMOlCduK15BTIAA
+! Version: 202503172140
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-17 20:40 UTC
+! Last modified: 2025-03-17 21:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37380,6 +37380,7 @@ academy.com##[role="complementary"]
 journalofdigitalhistory.org##[style*="position: fixed; bottom: 0px;"]
 forbesafrica.com##[style*="position: fixed; left: 0px; top: 0px;"]
 radioplayer.vistaradio.ca##[style="padding-left:0px !important;"]
+idealist.org##[style="position: sticky; bottom: 0px; left: 0px; width: 100%; z-index: 9999;"]
 jabref.org##[style^="background-color: rgb(24, 28, 31);"]
 tascaly.com##[style^="position: fixed; left: 3%; right: 3%;"]
 goodboy.ninja##[style^="width: 100%; height: 100%; position: fixed;"]
@@ -38383,7 +38384,7 @@ studocu.com##.undefined:has([data-test-selector="click-the-cookie-banner"])
 istockphoto.com##.warning:has([data-cookie-type])
 app.filen.io##.z-50:has-text(This site uses cookies)
 unsplash.com##[open]:has(a[href="/cookies"])
-canva.com##[role="dialog"]:has-text(But first, cookies)
+canva.com##[role="dialog"]:has-text(/cookie/i)
 chat.mistral.ai##[role="dialog"]:has-text(cookies)
 moebelix.at##body > div > div:has(#jentis_consent)
 aainflight.com##div[class^="_toastContainer_"]:has-text(We care about your privacy)

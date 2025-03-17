@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 4dyBcgQIQpU83tlVJEgiMw
+! Checksum: jJIbqI7r7cGgQXH+wbRcOA
 ! Title: Easylist Cookie List
-! Updated: 2025-03-17 21:15 UTC
+! Updated: 2025-03-17 22:15 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -20766,7 +20766,7 @@ studocu.com##.undefined:has([data-test-selector="click-the-cookie-banner"])
 istockphoto.com##.warning:has([data-cookie-type])
 app.filen.io##.z-50:has-text(This site uses cookies)
 unsplash.com##[open]:has(a[href="/cookies"])
-canva.com##[role="dialog"]:has-text(But first, cookies)
+canva.com##[role="dialog"]:has-text(/cookie/i)
 chat.mistral.ai##[role="dialog"]:has-text(cookies)
 moebelix.at##body > div > div:has(#jentis_consent)
 aainflight.com##div[class^="_toastContainer_"]:has-text(We care about your privacy)

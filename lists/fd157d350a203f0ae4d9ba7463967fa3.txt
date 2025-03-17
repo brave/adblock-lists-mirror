@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aQ1sCw6iSghGGD86ZWrjcA
-! Version: 202503171341
+! Checksum: bKPn/GnYSPLaSSR5exnNtg
+! Version: 202503171441
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Mar 2025 13:41 UTC
+! Last modified: 17 Mar 2025 14:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19839,7 +19839,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||ex.24smi.info^$csp=script-src
 ||exoclick.com^$csp=sandbox allow-same-origin;
 ||folltiz.site^$csp=script-src
-||forum.ru-board.com/*.cgi?*=5&topic=51141$csp=img-src 'self' addons.mozilla.org raw.githubusercontent.com
+||forum.ru-board.com/*.cgi?*=5&topic=51141$csp=img-src 'self' http://forum.ru-board.com/ https://forum.ru-board.com/ addons.mozilla.org raw.githubusercontent.com
 ||forums.rusmedserv.com/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: https://forums.rusmedserv.com/clientscript/ cse.google.com *.google.com/cse/ *.googleapis.com
 ||gdz-ru.work/subscribe/$csp=sandbox allow-same-origin;
 ||hawk.live/$csp=sandbox allow-same-origin;

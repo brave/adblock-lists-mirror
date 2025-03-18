@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202503180923
+! Version: 202503181010
 ! Title: EasyList
-! Last modified: 18 Mar 2025 09:23 UTC
+! Last modified: 18 Mar 2025 10:10 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1235,6 +1235,7 @@ _800x100.
 _800x80_
 ! *** easylist:easylist/easylist_general_block_popup.txt ***
 &adb=y&adb=y^$popup
+&cbiframe=$popup
 &fp_sid=pop$popup,third-party
 &popunder=$popup
 &popundersPerIP=$popup
@@ -1294,6 +1295,7 @@ _800x80_
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
+=ppd&bdm=$popup
 =ppd&r=$popup
 ! Commonly used popup scripts on movie/tv streaming sites
 |javascript:*setTimeout$popup
@@ -19262,7 +19264,7 @@ browsershots.org#@#.advert_area
 ||bewoobaton.com^
 ||bewperspiths.top^
 ||beyanmaan.com^
-||beyourxfriend.com
+||beyourxfriend.com^
 ||bf-ad.net^
 ||bfast.com^
 ||bfjhhdmznjh.club^
@@ -21263,7 +21265,7 @@ browsershots.org#@#.advert_area
 ||comparepoisonous.com^
 ||compareproprietary.com^
 ||compassionatebarrowpine.com^
-||compassionatecheek.com
+||compassionatecheek.com^
 ||compassionaterough.pro^
 ||compatriotelephant.com^
 ||compellingtremblegenial.com^
@@ -21753,10 +21755,8 @@ browsershots.org#@#.advert_area
 ||criticizewiggle.com^
 ||crjpgate.com^
 ||crjpingate.com^
-||crmentjg.com
 ||crmentjg.com^
 ||crmpt.livejasmin.com^
-||crmtt.livejasmin.com
 ||croakedrotonda.com^
 ||crockejection.com^
 ||crockerycrowdedincidentally.com^
@@ -22825,7 +22825,7 @@ browsershots.org#@#.advert_area
 ||dl-rms.com^
 ||dle-news.xyz^
 ||dlfvgndsdfsn.com^
-||dlmonitize.com
+||dlmonitize.com^
 ||dlrectdates.com^
 ||dlski.space^
 ||dmavtliwh.global^
@@ -25728,7 +25728,7 @@ browsershots.org#@#.advert_area
 ||globaloffers.link^
 ||globalsuccessclub.com^
 ||globaltraffico.com^
-||globalwoldsinc.com
+||globalwoldsinc.com^
 ||globeofnews.com^
 ||globeshyso.com^
 ||globoargoa.net^
@@ -25849,7 +25849,7 @@ browsershots.org#@#.advert_area
 ||goaserv.com^
 ||goasrv.com^
 ||goatauthut.xyz^
-||goatmod.xyz
+||goatmod.xyz^
 ||goatsnulls.com^
 ||gobacktothefuture.biz^
 ||gobetweencomment.com^
@@ -27211,7 +27211,7 @@ browsershots.org#@#.advert_area
 ||i65wsmrj5.com^
 ||i7ece0xrg4nx.com^
 ||i8xkjci7nd.com^
-||i98jio988ui.world
+||i98jio988ui.world^
 ||i99i.org^
 ||ia4d7tn68.com^
 ||iaculturerpartment.org^
@@ -29512,7 +29512,6 @@ browsershots.org#@#.advert_area
 ||lmboiwvudolya.com^
 ||lmdfmd.com^
 ||lmgyjug31.com^
-||lmj8i.pro
 ||lmj8i.pro^
 ||lmmxifhgdlxfth.com^
 ||lmn-pou-win.com^
@@ -30036,7 +30035,7 @@ browsershots.org#@#.advert_area
 ||maleliteral.com^
 ||malelocated.com^
 ||malignantbriefcaseleading.com^
-||malikiresids.com
+||malikiresids.com^
 ||malletdetour.com^
 ||malleteighteen.com^
 ||mallettraumatize.com^
@@ -33079,7 +33078,6 @@ browsershots.org#@#.advert_area
 ||pastureacross.com^
 ||pasxfixs.com^
 ||patagonpotence.com^
-||patakaendymal.top
 ||patakaendymal.top^
 ||patalogs.com^
 ||patchassignmildness.com^
@@ -34140,7 +34138,7 @@ browsershots.org#@#.advert_area
 ||prime-ever.com^
 ||prime-vpnet.com^
 ||primedirect.net^
-||primeleech.com
+||primeleech.com^
 ||primevalstork.com^
 ||princesinistervirus.com^
 ||princessdazzlepeacefully.com^
@@ -35108,7 +35106,6 @@ browsershots.org#@#.advert_area
 ||ranchsatin.com^
 ||randanvivific.shop^
 ||randiul.com^
-||randomadsrv.com
 ||randomadsrv.com^
 ||randomassertiveacacia.com^
 ||randomdnslab.com^
@@ -38311,7 +38308,7 @@ browsershots.org#@#.advert_area
 ||supposedbrand.com^
 ||supposedlycakeimplication.com^
 ||suppressedanalogyrain.com^
-||suppressedbottlesenjoyable.com
+||suppressedbottlesenjoyable.com^
 ||supqajfecgjv.com^
 ||supremeden.com^
 ||supremeoutcome.com^
@@ -40197,7 +40194,7 @@ browsershots.org#@#.advert_area
 ||upcomingmonkeydolphin.com^
 ||upcurlsreid.website^
 ||updaight.com^
-||update-mac.com
+||update-mac.com^
 ||updateadvancedgreatlytheproduct.vip^
 ||updatecompletelyfreetheproduct.vip^
 ||updateenow.com^
@@ -40607,7 +40604,6 @@ browsershots.org#@#.advert_area
 ||vfyhwapi.com^
 ||vfzqtgr.com^
 ||vg4u8rvq65t6.com^
-||vg876yuj.click
 ||vg876yuj.click^
 ||vgfhycwkvh.com^
 ||vhbeyeqaukjui.xyz^
@@ -42321,7 +42317,6 @@ browsershots.org#@#.advert_area
 ||ytihp.com^
 ||ytimm.com^
 ||ytransionscorma.com^
-||ytru4.pro
 ||ytru4.pro^
 ||ytsa.net^
 ||yttompthree.com^

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DHipgn33pcQHnl9K824QEA
-! Version: 202503181041
+! Checksum: 7Ed1Yzq4PYwxTPmNAhZ1Lw
+! Version: 202503181141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Mar 2025 10:41 UTC
+! Last modified: 18 Mar 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13087,7 +13087,6 @@ delovoymir.biz##.art_dzen
 osvita.ua##.artbanner
 luxurynet.ru##.artbannersplus
 newsoboz.org##.articl_center > noindex
-ukranews.com##.article > noindex
 riamo.ru##.article--external
 penzadoctor.ru##.article-banner
 techdigest.ru##.article-banner-side
@@ -20170,6 +20169,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /jwpsrv.js|$script,domain=anistar.org|astar.bz|online-star.org|online-stars.org
 /klama/*$domain=superhumor.ru|voffka.com
 /load_zahav.js$domain=zahav.ru
+/m/news.php?id=$domain=zagonka.net|zagonka.tv|zagonko.org|zagonkop.gb.net|zagonkov.gb.net|zogonka.org
 /manifest.json$domain=fairytail-online.ru|happy-biock.info|happy-block.info|howto-news.info
 /media/index$domain=gdz-putina.fun|gdz.fm|gdz.ninja|gdz.ru|gdzguru.com|gdzotputina.club|gdzputina.net|megaresheba.com|megaresheba.ru|resheba.me|reshebnik.com|spishi.fun|xn--c1acj.xn--p1acf|xn--c1acj.xn--p1ai|zoobrilka.net
 /metrika/?token=$subdocument,domain=fast-fiml.ru|fast-torrent.club|fast-torrent.ru|fast-torrent.su|filmpotok.ru|kinomuch.ru|nebeda.net|pickfilm.ru|veleto.ru|vixim.ru
@@ -23205,7 +23205,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?pqy6w=$xmlhttprequest
+||pikabu.ru/ajax/*?qqy6w=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -26318,6 +26318,7 @@ au-ok.com##p[style="border:3px solid #C1FF0A;background-color:#d5d5d1;padding:10
 adblock.turtlecute.org##section ._bg-orange
 forums.overclockers.ru##tr > td[nowrap="nowrap"][style^="color: red;"][style$="font-weight: bold"]
 ||anivisual.net/back/scss.js
+||cdn.commoninja.com^$domain=sochi.camera
 ||csgohelp.ru/assets/app/js/checkIn.js
 ||electric-house.ru/forum/script_el.js
 ||fanforum.ru/uploads/set_resources_$script

@@ -174,9 +174,14 @@ dogdrip.net##html[lang="ko"] [id^="img_"][style]:has(iframe[frameborder="0"][sty
 infinityfree.com##html[lang][dir="ltr"] [id^="img_"][style]:has(iframe[frameborder="0"][style]):style(clip-path: circle(0) !important;)
 smsonline.cloud##html[data-theme][lang] [id^="img_"][style]:has(iframe[frameborder="0"][style]):style(clip-path: circle(0) !important;)
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""][amp-version="2502032353000"]
+~dogdrip.net,~infinityfree.com,~smsonline.cloud##a[href^="https://07c225f3.online/contents/"]:not([href*="/95/"]):not([href*="/802/"])
+~dogdrip.net,~infinityfree.com,~smsonline.cloud##a[href^="https://html-load.com/contents/"]:not([href*="/95/"]):not([href*="/984/"])
 07c225f3.online,content-loader.com,css-load.com,html-load.com,img-load.com##body:not(:has(> [id^="img_"][class^="img_"][style="width: auto;"]:only-child)):style(filter: opacity(0) !important; pointer-events: none !important;)
 *$~script,~frame,~xhr,domain=07c225f3.online|content-loader.com|css-load.com|html-load.com|img-load.com
 @@/-1/*$domain=07c225f3.online|content-loader.com|css-load.com|html-load.com|img-load.com
+*$script,frame,xhr,domain=07c225f3.online|html-load.com
+@@/802/*$script,frame,xhr,domain=07c225f3.online
+@@/984/*$script,frame,xhr,domain=html-load.com
 /^https:\/\/www\.[0-9a-f]{4,8}(?:-(?:\d{4}-){3}[0-9a-f]{12})?\.(?:live|site|xyz)\/script\/[-.0-9A-Za-z]+\.[-A-Za-z]{2,30}\.js$/$script,3p,match-case,to=live|site|xyz,header=x-length
 ! https://github.com/uBlockOrigin/uAssets/issues/26487
 dogdrip.net,infinityfree.com,smsonline.cloud##+js(no-fetch-if, -load.com/script/, length:101)
@@ -196,10 +201,6 @@ bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://ww
 ! https://www.reddit.com/r/uBlockOrigin/comments/1j76tpa/adblock_detected_site_gledaitvlive/
 ! https://www.reddit.com/r/uBlockOrigin/comments/197760n/adblock_detected_httpswwwbggledailive/
 bg-gledai.*,gledaitv.*##+js(no-fetch-if, method:HEAD)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/200690
-||fujoho.jp/index.php$frame,3p,badfilter
-#@#.fujoho_custom_banner
 
 ! https://github.com/easylist/easylist/commit/5e62c9a6b725b4023a7ea07a84d90a8a74c8bb05
 @@||f-tra.com^$script,domain=pokemoncenter-online.com

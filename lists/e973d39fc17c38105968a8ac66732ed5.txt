@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Qf4Lu/WcStY5NLvIeDamWQ
-! Version: 202503191841
+! Checksum: 4EL7/7SlV7uWNKhj1LDBeg
+! Version: 202503191941
 ! Title: EasyList Spanish
-! Last modified: 19 Mar 2025 18:41 UTC
+! Last modified: 19 Mar 2025 19:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1617,6 +1617,7 @@ formulatv.com##div[class^="pub-"]
 cokitos.com,liderendeportes.com,mundoplus.tv,resultadostris.com##div[class^="r89-"]
 purochocolate.life,tumascota.life##div[class^="tumas-"]
 huffingtonpost.es##div[data-adtype]
+musica.com##div[data-fuse]
 antena3.com,atresmedia.com,lasexta.com,melodia-fm.com##div[data-mod="ads"]
 tudn.com,univision.com##div[data-widget-type="Advertisement"]
 eleconomista.es##div[id^="300x"]
@@ -1636,7 +1637,7 @@ enteratelatino.org##div[id^="enter-"]
 generacionxbox.com##div[id^="gener-"]
 horajaen.com##div[id^="horaj-"]
 elnacional.com.do##div[id^="publicidad-"]
-prensalibre.com##div[id^="r89-"]
+ciudadredonda.org,prensalibre.com##div[id^="r89-"]
 weedmagazine.net##div[id^="weedm-"]
 mariskalrock.com##div[id^="wmd-anuncio-"]
 perfil.com##div[style*="min-height: 250px;"]
@@ -1698,6 +1699,7 @@ radiocarve.uy##img[width="970"][height="120"]
 elmercurioweb.com##img[width="980"]
 lagaceta.com.ec##rs-slides
 forocoches.com##section[style="min-width: 300px; height: 640px"]
+cine.com##td[style^="height:90px; width:970px;"]
 ! :has()
 forocoches.com###sidebar > div > section:has(.fixed_adslot)
 elpais.com.uy##.Page-above.loaded:has(div[class^="GoogleDfpAd"])

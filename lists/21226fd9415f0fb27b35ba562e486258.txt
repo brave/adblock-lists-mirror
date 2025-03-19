@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: WIjC0uet9fdVkYtS89x/Kw
+! Checksum: 4Etdw8rwZUQarVI9RLlObg
 ! Title: Easylist Cookie List
-! Updated: 2025-03-18 22:40 UTC
+! Updated: 2025-03-19 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -21093,6 +21093,11 @@ dirk.nl##+js(set-cookie, cookies-banner-shown, true)
 lemke.de,hsk.de##+js(set-cookie, cookies-allowed, 00000)
 compra.fredolsen.es##+js(set-cookie, cookiesDirective_, N)
 esa.nask.pl##+js(set-cookie, GA_COOKIE_SMOG, accepted)
+eda.ru##+js(set-cookie, CookiesAccept, accept)
+banco.bradesco##+js(set-cookie, cookieFunction, false)
+banco.bradesco##+js(set-cookie, cookieMarketing, false)
+banco.bradesco##+js(set-cookie, cookiePerformance, false)
+banco.bradesco##+js(set-cookie, lgpd, true, , reload, 1)
 napojecerveny.cz##+js(set-cookie, DmCookiesAccepted, true)
 napojecerveny.cz##+js(set-cookie, DmCookiesAnalytics, false)
 napojecerveny.cz##+js(set-cookie, DmCookiesMarketing, false)
@@ -25808,6 +25813,7 @@ assertivasolucoes.com.br###ck-container
 sempreupdate.com.br,tudosaladeaula.com###consent-box-lgpd
 editorajuspodivm.com.br###consent-google
 cliper.pt###cook
+banco.bradesco###cookie-cta
 ipn.pt###cookie-law-panel
 staples.pt###cookie-new-cconsent-bar
 klminfo.com.br###cookiesmodal

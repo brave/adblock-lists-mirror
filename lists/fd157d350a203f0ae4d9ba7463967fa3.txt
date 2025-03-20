@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: apEcxXNpQ11Dx4sJqA892g
-! Version: 202503201441
+! Checksum: /d6xgrdv06YrvYDgh4hjyg
+! Version: 202503201541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Mar 2025 14:41 UTC
+! Last modified: 20 Mar 2025 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15315,6 +15315,7 @@ allboxing.ru,dyvys.info,glavred.info,glavred.net,gorodkirov.ru,ictv.ua,unian.inf
 zi.ua##.partner-news-content
 rusplt.ru##.partner-news-wrapper
 tochka.net##.partner-news:not(.b_crosswidget)
+itc.ua##.partner-posts
 maximum.fm##.partner-recomendation
 lifehacker.ru##.partner-strip
 zaxid.net##.partner-wrap-block
@@ -16544,6 +16545,7 @@ au-ok.com#?#.widget-sidebar:-abp-has(> div .adsbygoogle)
 au-ok.com#?#.widget-sidebar:-abp-has(> div > [id^="adfox_"])
 mnogovoprosov.ru#?#.widget-sidebar:-abp-has([src*="/wp-content/uploads/"][src*="/ban"][src*="er"])
 mnogovoprosov.ru#?#.widget-sidebar:-abp-has(p > script)
+itc.ua##.widget-spec-projects
 zanmsk.ru#?#.widget-title:-abp-contains(Наши партнеры)
 pkzsk.info#?#.widget-title:-abp-contains(Новости партнёров)
 stravy.net#?#.widget-title:-abp-contains(Реклама)
@@ -16580,7 +16582,7 @@ grippua.com.ua#?#.widget_custom_html:-abp-has(a[href*="utm_campai"])
 bitva-ex.ru#?#.widget_custom_html:-abp-has(span:-abp-contains(Реклама партнера))
 blagden.ru##.widget_custom_html:last-child
 actual.today##.widget_exchange_rates_widget
-aplik.ru,discover24.ru,edurusnews.ru,holostyak.site,inforuss.info,krashevseh.ru,lentaruss.ru,mezha.media,mobnovelty.ru,smiruss.ru,soderzhanki2.ru,trud-ost.ru##.widget_execphp
+aplik.ru,discover24.ru,edurusnews.ru,holostyak.site,inforuss.info,itc.ua,krashevseh.ru,lentaruss.ru,mezha.media,mobnovelty.ru,smiruss.ru,soderzhanki2.ru,trud-ost.ru##.widget_execphp
 censor.net##.widget_header aside
 animalbox.ru##.widget_html_javascript_adder
 podskazki.info##.widget_hugeit_slider_widget

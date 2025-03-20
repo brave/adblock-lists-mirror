@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hCJlAbROUOdqiDHRYGeRgg
-! Version: 202503202211
+! Checksum: LnmXbB2y5OYnxnzn5Z+AUA
+! Version: 202503202301
 ! Title: EasyList Germany
-! Last modified: 20 Mar 2025 22:11 UTC
+! Last modified: 20 Mar 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5613,6 +5613,7 @@ zentrum-der-gesundheit.de#?#span:-abp-contains(/ANZ|EIGE/) + div
 chip.de##.dlcharts + div:not(.List) {remove:true;}
 chip.de##.ft-charts-main > div:not(.List):not(.caps) {remove:true;}
 ! top-level domain wildcard
+obi.*##[data-ae-slot="pdp_old_banner"]
 !------------------Ausnahmeregeln zum Beheben von Problemen-------------------!
 ! *** easylistgermany:easylistgermany/easylistgermany_allowlist.txt ***
 @@/iqadcontroller.$script,domain=manager-magazin.de

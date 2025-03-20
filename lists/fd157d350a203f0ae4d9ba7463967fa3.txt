@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HDQq718NcRHJhswop0q95g
-! Version: 202503201341
+! Checksum: apEcxXNpQ11Dx4sJqA892g
+! Version: 202503201441
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Mar 2025 13:41 UTC
+! Last modified: 20 Mar 2025 14:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23235,6 +23235,7 @@ vk.com,vk.ru###feed_rows > .feed_row > div:not([id])
 vk.com,vk.ru###feed_rows > .feed_row ~ :not(.feed_row)
 vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([id^="feed_repost"]):not([data-post-id])
 vk.com,vk.ru###main_feed:not(.feed_submit_only_shown) div:first-child:not(.page_block) ~ .feed_row > [data-post-id][id^="post"][post_view_hash]:not([data-post-track-code])
+flightsim.su###tie-popup-adblock {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
 vk.com,vk.ru##._feed_rows > div:not([id]):not([class])
 vk.com,vk.ru##._post_content > .post

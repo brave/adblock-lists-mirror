@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 20250321093058623
+! Version: 20250321122626844
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
 ! Title: ABPVN List
-! Last modified: 21 Mar 2025 09:30:58 UTC+7
-! Diff-Path: patches/20250321093058623.patch#abpvn_ublock
+! Last modified: 21 Mar 2025 12:26:26 UTC+7
+! Diff-Path: patches/20250321122626844.patch#abpvn_ublock
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -42,7 +42,7 @@
 /core/*$script,domain=gamek.vn|genk.vn|kenh14.vn|cafef.vn|thanhnien.vn
 /disable-devtool.min.js$script
 /giadinhonline.vn/files/qc/*
-/i.imgur.com/*.gif$domain=keonhacai55.chat|motchill77.com|www.phimdinhcao.online|xoilacxj.cc|vebozy.cc|cakhiavv.cc|listnhacai88.com|xoilaczz63.live|xemtivingon.org|mitomtvb.cc|paulwesterberg.com|plcdn.xyz|phimmoi.ing
+/i.imgur.com/*.gif$domain=keonhacai55.chat|motchill66.com|www.phimdinhcao.online|xoilacxj.cc|vebozy.cc|cakhiavv.cc|listnhacai88.com|xoilaczz63.live|xemtivingon.org|mitomtvb.cc|paulwesterberg.com|plcdn.xyz|phimmoi.ing
 /js/ads.js$script,~third-party,domain=~vipurl.in
 /mmo/*$xmlhttprequest,image,domain=vuighe4.com
 /newchill/*gif$image
@@ -152,7 +152,7 @@
 ||mocfun.net/uploads/banners/
 ||motchiill.la^*.gif$image
 ||motchill10.com/public/upload/ads/ads.js$script,~third-party
-||motchill77.com/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=motchill77.com
+||motchill66.com/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=motchill66.com
 ||motchillb.org/banner$image
 ||motchillid.my/js/ads_xx.js
 ||motphimtv.im^*.gif$image
@@ -184,7 +184,7 @@
 ||qthang.net/js/blocker$script,~third-party
 ||quaivatdienanh.com/*banner$image
 ||quangcaosanpham.com/images/$third-party
-||quoracdn.net^$image,domain=motchill77.com
+||quoracdn.net^$image,domain=motchill66.com
 ||raovat.tuoitre.vn^$domain=tuoitre.vn
 ||raovatdidong.vn/images/$domain=muabanraovat.com
 ||s1.truyentranh3q.com^*.gif$image
@@ -226,7 +226,6 @@
 ||tructiep.vn/website/adv/
 ||truyen4u.pro$csp=script-src 'self' 'unsafe-inline'
 ||truyenconect.com/uploads/*-truyenconect_com-*.
-||truyentuan.xyz/wp-content/banners
 ||truyenwikidich.net/static/js/adx/$script
 ||tudomuaban.com/public/upload/ad/
 ||tuviso.com/public/media//banner/
@@ -337,7 +336,6 @@
 ||tags.fly-ads.net^
 ||tags.native-ad.net^
 ||toathoule.com^
-||truyentuan.xyz^$subdocument,~third-party
 ||tvc.biphim.club^
 ||v9banners.com^
 ||vads.net.vn^
@@ -597,9 +595,9 @@ mn.mediastation.live##.images-top-pl
 monkeyd.com.vn###affLayer
 monkeyd.com.vn##.justify-content-center.d-flex.mx-3.mx-lg-4.mt-3 > [href]
 motchill.gold##.overlay-1
-motchill77.com,www.phimdinhcao.online##.banner-container
-motchill77.com,www.phimdinhcao.online##.banner-preload
-motchill77.com,www.phimdinhcao.online##.catfish-top
+motchill66.com,www.phimdinhcao.online##.banner-container
+motchill66.com,www.phimdinhcao.online##.banner-preload
+motchill66.com,www.phimdinhcao.online##.catfish-top
 motphimchill.cx###catfish_ad_top
 mphim14.org##.adv_phim
 mphim14.org##.fixed_bottom
@@ -659,7 +657,7 @@ tapchikientruc.com.vn###topbn
 techrum.vn##.block:has(.block-container>.block-body>a[href])
 techrum.vn##.block:has(.block-container>.block-body>ins)
 tenovi.net###ad_balloon
-tenovi.net,truyentuan.xyz##.adpia_banner
+tenovi.net##.adpia_banner
 thanhnien.vn##.asd-headt
 thanhnien.vn##.detail__foru
 thanhnien.vn##.mb-40.section__qadd
@@ -725,21 +723,12 @@ truyenqqto.com##div#ad_info
 truyensieuhay.com##.footer-info
 truyensieuhay.com,hhtrungquoc6.com,hhtq9.vip,animeweb.vip,hhtq3d.net###topbanner
 truyentranh3q.com##.ads-banner
-truyentuan.xyz###banner_preload
-truyentuan.xyz##.doc-truyen-ads-d1
-truyentuan.xyz##.doc-truyen-ads-d2
 tuoitre.vn###LeaderBoardTop
 tuoitre.vn###admbackground
 tuoitre.vn###adsMainFooter
-tuoitre.vn##.Mobile_Masthead_TTO_Wrapper
-tuoitre.vn##.adm-bot
 tuoitre.vn##.box-qad
 tuoitre.vn##.content-amuasam
-tuoitre.vn##.detail__qc
 tuoitre.vn##.section__r-vietlot
-tuoitre.vn##.wrapper-ads-mb
-tuyengiao.vn##.clearfix.adregion
-tuyengiao.vn##.visible-md.header-banners
 tv.tvhayhd.org##.navbar-ex8-collapse
 tvhaiss.com##.ai-viewport-1
 tvhayr.org##.catfish-bottom
@@ -865,8 +854,8 @@ www.o-study.net###IMAGE635>.ladi-transition.ladi-image
 www.o-study.net###IMAGE639>.ladi-transition.ladi-image
 www.o-study.net###POPUP648
 www.phim.world##.block.translate-x-\[-50\%\].left-2\/4.z-\[1\].bottom-\[-6px\].fixed.mx-auto.md\:container.md\:px-0.px-4.w-screen
-www.phimdinhcao.online,motchill77.com##.BanerTop100
-www.phimdinhcao.online,motchill77.com##.adv-300-right
+www.phimdinhcao.online,motchill66.com##.BanerTop100
+www.phimdinhcao.online,motchill66.com##.adv-300-right
 www.saostar.vn###mobi-sapo
 www.saostar.vn###mobi-top
 www.saostar.vn###page-skin-top-holder
@@ -1128,6 +1117,7 @@ phim18hd.cam##.under-player-pc-banner
 phim18vip.vip,pheclipsexvn.com,phimsexvietnam.co##.quang-cao
 phim18vip.vip,phimsexvietnam.co,pheclipsexvn.com###pc-preload-modal
 phim18vip.vip,phimsexvietnam.co,sieudamsexviet.com###popup
+phimsexav.pro,phimsex19x.pro##.quangcaomobile
 phimsexvietnam.co##.top-float-ck
 phimsexvl69.net,quat69.pro,trangsexdam.net,vlxxai.net,sexsoc.info###f186fb23a33995d91ce3c2212189178c8
 phym18.lol##.black-layout>div:nth-child(2)
@@ -1201,7 +1191,6 @@ www.gaingon18.me###iklan-atas-wrapper
 xem.javkche.info##[onclick^="__a.hide"]
 xem.javkche.info##div:has([class$="-modal"])
 xemphimjav.com##.pum-overlay
-xemphimonline.pro,phimsex19x.pro##.quangcaomobile
 xemsex.me,vlgaimup.pro,sexhihiz.org##.xx-ads
 xiuren.org###bannerIn
 xiuren.org###exoIMFrame
@@ -1289,9 +1278,8 @@ truyenqqtet.com,viet69.xin##+js(acs, Promise, break;case)
 truyenqqto.com##+js(acs, WebAssembly, localStorage)
 truyensextv.com##+js(acs, document.addEventListener, popup)
 truyensieuhay.com,hayhaytv.site,quangcaoyenbai.com,phimchill.life,thuvienhd.biz,tv.tvhayhd.org,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,sexhihiz.org,anime47.help,teamlanhlung3.shop##+js(aopr, document.cookie)
-truyentuan.xyz##+js(acs, $, btpop)
 ungtycomicsvip.org##+js(acs, document.body.addEventListener, window.open)
-vailonxx.co,motchill77.com##+js(acs, jQuery, window.open)
+vailonxx.co,motchill66.com##+js(acs, jQuery, window.open)
 vaoroi14.live##+js(set, adsPlayer, '')
 vaoroi14.live##+js(set, adsTvcs, '')
 veryfiles.com##+js(aopr, nFNcksmwU)
@@ -1308,7 +1296,7 @@ www.iosviet.com##+js(set, timer, 0)
 www.nettruyenupp.com##+js(aopr, sp)
 www.o-study.net##.backdrop-popup
 www.o-study.net##body:style(position: static !important)
-www.phimdinhcao.online,motchill77.com,xnhau.fun,teamlanhlung3.shop##+js(aopr, localStorage)
+www.phimdinhcao.online,motchill66.com,xnhau.fun,teamlanhlung3.shop##+js(aopr, localStorage)
 www.saostar.vn##div.layout.pt-mobi-top:style(padding-top: 0 !important)
 www.saostar.vn##header.bg-white:style(margin-top: 0px !important)
 www.toptruyentv2.pro##+js(acs, setTimeout, open)

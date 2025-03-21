@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EpjexONRANbcdovu/q9HqQ
-! Version: 202503210941
+! Checksum: 33QI4xoA++KBKv/87weujw
+! Version: 202503211041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Mar 2025 09:41 UTC
+! Last modified: 21 Mar 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -8650,6 +8650,7 @@ _tizers.
 ||procratre.today^$third-party
 ||profiledbase.com^$third-party
 ||profiprobest.ru^$third-party
+||programmatic.ru^$third-party
 ||programmatica.com^$third-party
 ||projectpoi.com^$third-party
 ||proligtb.com^
@@ -19086,6 +19087,7 @@ reshak.ru##div[style*="height:325px;"]
 euro-football.ru,liveresult.ru##div[style*="height:400px;"]
 nemo-crack.org##div[style*="hot-game.info"]
 narutoplanet.ru##div[style*="margin-top: 9.5px;"]
+trychatgpt.ru##div[style*="min-height"][style*="max-height"]
 wtftime.ru##div[style*="min-height: 200px;"]
 euro-football.ru,liveresult.ru##div[style*="min-height:"][style*="00px"]
 chipmaker.ru##div[style*="min-height:100px;"]
@@ -23209,6 +23211,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportana
 @@||s.zmctrack.net/z|$xmlhttprequest
 @@||s.znctrack.net/z|$xmlhttprequest
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
+@@||statika.mpsuadv.ru/scripts/*.js|$script,domain=trychatgpt.ru
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
@@ -24822,6 +24825,7 @@ psm7.com###psm-messenger-subscribe-popup
 bilshe.com,businessua.com,multikino.com###reachMedia
 kote.ws###register_popup
 maam.ru###registr
+trychatgpt.ru###root > div > footer ~ div.fixed[style]
 bvedomosti.ru###sbox-overlay
 bvedomosti.ru###sbox-window
 bilshe.com,businessua.com,multikino.com###shadowMedia
@@ -25954,7 +25958,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||yaberemenna.info/openx/www/delivery/ai.php?filename=$domain=yaberemenna.info
 @@||yaberemenna.info/openx/www/delivery/ajs.php?zoneid=7&$domain=yaberemenna.info
 @@||yandex.ru/ads/$domain=magnit.ru
-@@||yandex.ru/ads/system/context.js|$script,domain=1prime.ru|gismeteo.ru|konohatv.org|tnt-online.ru|trychatgpt.ru
+@@||yandex.ru/ads/system/context.js|$script,domain=1prime.ru|gismeteo.ru|konohatv.org|tnt-online.ru
 @@||yandex.ru/ads/system/header-bidding.js$script,domain=gismeteo.ru|trainzland.ru
 @@||yandex.ru/metrika/informer.js
 @@||yandex.ru/search/site/?*search$third-party,script

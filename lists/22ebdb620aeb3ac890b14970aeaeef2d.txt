@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h4PZhRnoqAYp6fBPRPxjAA
-! Version: 202503222100
+! Checksum: LUmfFUP1/ss83CBOCKrS0g
+! Version: 202503222200
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2025-03-22 21:00 UTC
+! Last modified: 2025-03-22 22:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -813,6 +813,8 @@ zillow.com##+js(aeld, /^(mouseout|mouseleave)$/)
 zillow.com##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown|oncopy|oncut|onclick)
 ! news.bitcoin.com (Fix top)
 news.bitcoin.com##.hsnyER.sc-fEpuOf:style(top:0 !important)
+! https://github.com/uBlockOrigin/uAssets/issues/27693
+deepl.com##+js(set-session-storage-item, LMT_browserExtensionPromo.displayed, true)
 ! benzinga.com
 benzinga.com##.shadow-xl:has-text(Would you like to be notified)
 ! food.ndtv.com

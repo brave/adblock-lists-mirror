@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gsZiHjjBlWXCWhqt42HXqA
-! Version: 202503221331
+! Checksum: d4iYW/Vnl6FkWA+RAGQCbQ
+! Version: 202503221441
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Mar 2025 13:31 UTC
+! Last modified: 22 Mar 2025 14:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -934,6 +934,7 @@ superkarate.ru##.btn-social-wrapper
 audioknigi-online.ru##.btn-vk
 amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,stavropol.media,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.btn_fly_share
 infoindustria.com.ua##.button-telegram
+braz-rus.pro#?#.button:-abp-has(> .icon > [style*="/share"])
 doramax.org##.button[onclick*=".soc_buttons"]
 qiq.ws##.buttonbox
 vgorodekirove.ru##.buttond
@@ -2722,6 +2723,7 @@ alau.kz##[data-widget_type="image.default"] ~ [data-widget_type="vinazine-block-
 fastpic.org##[id*="footer"] a[href*="twitter.com"]
 sovkusom.ru##[id^="essbsocialfanscounterwidget"]
 growhow.in.ua##[id^="instagram-feed-widget"]
+braz-rus.pro##[id^="oframeplayer-"] > pjsdiv[style*="top: 25px;"]
 ebooks.skin##[id^="share"]
 factorio.su##[id^="vkapi_"]
 kaskad.tv#?#[itemprop="articleBody"] + div .uk-first-column:-abp-has(> a[href^="https://vk.com/"])
@@ -5089,6 +5091,7 @@ kino-sayt.net##.cap
 xn--80aeev7a.xn--j1amh##.car-top
 osnova.news#?#.card:-abp-has(> div > a[href^="https://news.google.com/publications/"])
 softportal.com##.cardPageDescMain > div[id][style]
+braz-rus.pro##.card__inner-premium
 livejournal.com##.cat-widget__card-wrap--selfpromo
 www.onliner.by##.catalog-offers
 hotline.ua##.catalog-promo-products

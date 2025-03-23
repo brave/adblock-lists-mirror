@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HC8q7FX+rWWv/RExS+H4aQ
-! Version: 202503231041
+! Checksum: yDTWZjvBhH7AP/SsmsLf6A
+! Version: 202503231141
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Mar 2025 10:41 UTC
+! Last modified: 23 Mar 2025 11:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -315,6 +315,7 @@ com,ru##[data-rambler-share]
 ||a-comics.ru/pics5/1btn/
 ||aimp.ru^*/counter
 ||allbest4free.ru/head.
+||animeone.cc/rek/animeone-telegram.
 ||bar.love.mail.ru^$domain=~mail.ru
 ||bryansknovosti.ru/ss/
 ||connect.facebook.net^$script,domain=www.liveinternet.ru
@@ -2057,7 +2058,7 @@ footboom1.com##.soc-btn-open__label
 slovo.ws##.soc-butt
 veganstvo.info##.soc-button
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.soc-buttons
-kinokino.tv,yummyanime.org##.soc-channels
+animeone.cc,kinokino.tv,yummyanime.org##.soc-channels
 lordserial.run##.soc-channels__item
 rzd-partner.ru##.soc-group-menu
 webkarapuz.ru,xn--m1ah5a.net##.soc-group-wrap
@@ -2144,6 +2145,7 @@ pravda.ru##.social-desktop
 agronews.ua##.social-element
 politros.com##.social-foot-title
 tonkosti.ru##.social-friends
+smotrim.ru##.social-groups
 zi.ua##.social-header-icos
 4eva.ru,darada.co##.social-header-wrap
 bragazeta.ru,hronikers.com##.social-icon
@@ -2423,6 +2425,7 @@ inkorr.com##.tg-box
 08sportbar.online,777sportba.com,777sportba.org,barsportbar.com,channels247.net,file-mods.ru,goool7.ws,lenov.ru,mangabuff.ru,newinform.com,s7yours.com,sbautumn.com,sport365hd.net,sport7.biz,sportbar.biz,sportbarchik88.com,sporting7.pw,sporting77.com,spotless365.net##.tg-button
 moika78.ru##.tg-info-text
 click-or-die.ru##.tg-news-banner
+animeone.cc##.tg-popup-overlay
 lada.kz##.tg-subscribe
 agroportal.ua##.tgBlock
 aspi.com.ua##.tg_subscribe
@@ -2691,6 +2694,7 @@ mediazona.by,mediazona.ca,zona.media##[data-js-selector="show-social-list"]
 vgolos.ua##[data-key="index_in_lviv"]
 kufar.by##[data-name^="share-button"]
 all-episodesfun.com##[data-permalink*="://all-episodes"][data-permalink$="/news/telegramanonce"]
+stopgame.ru##[data-plugins="share"]
 sheensay.ru##[data-pr^="Поделиться"]
 livejournal.com##[data-rd-type="rd-post-view-social"]
 ozon.ru##[data-replace-layout-path] > [data-replace-layout-path]:first-child ~ div:last-child > div:only-child > button.undefined
@@ -5694,6 +5698,7 @@ yummy-anime.ru,yummyani.me,yummyani.meme##.player-alert-container
 filmaniaz.net##.player-warning-br
 sports.ru##.plistaList > a[data-campaign]
 sports.ru##.plistaList > a[data-category="Акция"]
+animeone.cc##.pmovie__fas
 vm.ru##.podcasts-show-subscription
 syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##.podpis
 akkordam.ru##.podpiska
@@ -18632,6 +18637,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 /dealsaver/widget/*
 /detectIncognito.js
 /dreamgrow-scroll-triggered-box/js/script.js
+/ecomsend.js
 /ExitIntentPopUp.js
 /fartscroll.js
 /jquery.simplemodal.$script,domain=breakingdefense.com
@@ -19661,6 +19667,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||donorbox.org/embed/$third-party
 ||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
+||ecomsend.com^$third-party
 ||eff.org/bloggers/badges/$third-party
 ||emsecure.net^$subdocument,third-party
 ||engage.im^$third-party

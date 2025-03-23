@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: yr9xPLqzvWjux1JX5gK8hw
+! Checksum: V9nuue49QA2+YY4+PkIE7A
 ! Title: EasyList Hebrew
-! Last modified: 11 Mar 2025 14:58 UTC
+! Last modified: 23 Mar 2025 02:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -696,7 +696,6 @@ zohar-trends.com##*
 ||sdarotil.top^
 ||seret.live^
 ||tvfeel.cc^
-
 !
 !----------------------Whitelists to fix broken sites-------------------------!
 !
@@ -760,7 +759,7 @@ zohar-trends.com##*
 @@||bipbip.co.il/Style/Ads.css
 @@||callil.co.il/content/Ads/$image,~third-party
 @@||cdn.flowplayer.com/releases/native/stable/plugins/google-analytics.min.js$script,domain=ynet.co.il
-@@||cdn.taboola.com/libtrc/inn-hebrew/loader.js$domain=www.inn.co.il
+@@||cdn.taboola.com/libtrc/inn-hebrew/loader.js$script,domain=inn.co.il
 @@||cdn.taboola.com/libtrc/reshet-reshet/loader.js$script,domain=13news.co.il|13tv.co.il
 @@||cdn.taboola.com/libtrc/wallail-hamal/loader.js$script,domain=hamal.co.il
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/$script,domain=hamal.co.il|sheee.co.il|walla.co.il
@@ -801,7 +800,7 @@ zohar-trends.com##*
 @@||old-games.org^$document
 @@||pagead2.googlesyndication.com/omsdk/$script,domain=ynet.co.il
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=sport5.co.il
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=haaretz.co.il|isramedia.net|mako.co.il|pc-dev.co.il|pc.co.il|sport5.co.il|themarker.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=haaretz.co.il|inn.co.il|isramedia.net|mako.co.il|pc-dev.co.il|pc.co.il|sport5.co.il|themarker.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=pitaronfree.blogspot.co.il|pitaronfree.blogspot.com
 @@||partner.googleadservices.com/gpt/pubads_$script,domain=13news.co.il|13tv.co.il|haaretz.co.il|one.co.il|themarker.com
 @@||pas-rahav.com/creativitys
@@ -889,6 +888,7 @@ bizportal.co.il##.bottom-sticky-strip
 camoni.co.il###closeMobileBanner
 camoni.co.il##.bannerWrapMobile
 camoni.co.il##.bannerWrapMobileBottom
+doublepass.sport5.co.il###top_banners_mobile_place2
 foodik.co.il##.sticky-banner.banner-con
 hashulchan.co.il##.banner-placeholder-hashulchan
 israelhayom.co.il##.adunit.ih-adunit
@@ -918,6 +918,7 @@ m.n12.co.il##[href^="https://mobile.mako.co.il/news-law_guide"]
 m.n12.co.il##[src="https://img.mako.co.il/2024/02/13/NEWPOSTER.jpg"]
 m.n12.co.il,mobile.mako.co.il###maavaron-container
 m.news1.co.il###ctl00_pnlBanner96Container
+m.news1.co.il###ctl00_pnlMainMasterPageSmallBannerContainer
 m.one.co.il##.ad-winner-button
 m.one.co.il##[id*="_ucAdArticleAfterCategory_"]
 m.one.co.il##[id*="_ucAdMiddleArticle_"]

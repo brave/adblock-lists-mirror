@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x91H86J/Tx7BDfqip5g6tA
-! Version: 202503240115
+! Checksum: vr6AxjLFCz3OZeANcsXBAA
+! Version: 202503240240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-24 01:15 UTC
+! Last modified: 2025-03-24 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31703,6 +31703,7 @@ brighteon.com##.index_top_banner
 theinertia.com##.inertia-contribute-home
 thespinoff.co.nz##.infinite-scroll-divider
 road.cc##.info-subscription-box
+mayoclinic.org##.internal-promo-stack-order
 opb.org##.internal_promotion
 mayoclinic.org##.internalads
 jewishnews.co.uk##.issuu
@@ -31734,6 +31735,7 @@ pravda.com.ua##.m_banner
 thereader.mitpress.mit.edu##.ma-don-cont
 captimes.com##.main-sidebar-wrap
 investors.com##.market-banner
+mayoclinic.org##.mayoad
 tedium.co##.md-adbox
 privacyguides.org##.md-banner
 themedialine.org##.mdl-section-donate-banner
@@ -31783,6 +31785,7 @@ eff.org##.pane-site-banner
 independentaustralia.net##.panelSubscription
 blizzardwatch.com##.patreon-sidebar
 wnd.com##.paypal-donate
+mayoclinic.org##.placeHolder
 damninteresting.com##.plea
 jacobin.com##.po-sr-sb__container
 bigissue.com##.polaris__flexible-cta
@@ -37576,6 +37579,8 @@ all3dp.com,meteo.it,unitedmusic.com###iubenda-cs-banner
 laportecontemporaine.shop,meesterslijpers.nl###ism-consent-box
 !! .cookie-alert
 cdek.ru,elektrikstore.hu,pushwoosh.com,salon24.pl,shoei-helmets.com,tipik.hu##.cookie-alert
+!! .amgdprjs-bar-template
+ctt.de,landyschemist.com##.amgdprjs-bar-template
 !! .cookie-notification
 e-recharge.net,iahsap.com,jobs.tuwien.ac.at,leitor.net,mangalivre.net,netshoes.com.br,prostokvashino.ru##.cookie-notification
 !! .cookie-alert-show
@@ -38370,11 +38375,10 @@ x.com##.css-175oi2r.r-12vffkv[style^="position: absolute; bottom: 0px; width: 10
 cun.edu.co,join.chat,milkinkstudio.com,worklouder.cc##.dialog-lightbox-message:has-text(/Cookies/i)
 eda.ru##.ejn6mx64.emotion-8zds09:has-text(cookies)
 sonarhome.pl##.fixed:has(.cookies-scrollbar)
-blog.smithsecurity.biz##.fixed:has-text(cookies)
+bc.co,blog.smithsecurity.biz,diatribe.org##.fixed:has-text(cookies)
 sniffies.com##.footer:has-text(By using our platform)
 play.google.com##.gb_g:has-text(cookie)
 twitch.tv##.hLgTAv:has-text(Terms of Sale)
-bc.co##.left-0.fixed:has-text(cookies)
 alohaprofile.com##.md\:right-\[40px\]:has-text(By continuing to use our site)
 clickscope.org##.t8b87:has-text(Privacy Policy Notice)
 privatekeys.pw##.toast:has-text(We use cookies)
@@ -38594,6 +38598,7 @@ breathedreamgo.com###fluentform_6
 eatwell101.com###flyinbutton
 openspeedtest.com###footBox3
 aulart.com###footer-aulart-newsletter
+agfundernews.com###footer-cta-wrapper
 nomadicmatt.com###footer-email
 independent.co.uk###footerPrompt
 glutenfreepalate.com###form-subscribe
@@ -38743,12 +38748,14 @@ rawstory.com###piano-infobar-container
 brusselstimes.com###piano-single-before-ads-jobs
 hyperallergic.com###pico_prompt
 ign.com###pit-below-all-content
+goodrx.com###placement-replace-newsletter-inline
 newsshopper.co.uk###po-inline-article-above
 angioproteomie.com,artdaily.cc,radioandmusic.com,researchnews.cc###popup
 focus-gesundheit.de###popup-background
 kyivindependent.com###popup-banner-subscription-ecom
 kyivindependent.com###popup-banner-subscription-store
 inhope.org###popup-home
+getvitaminlab.com###popup-mask
 timeout.com###popup-newsletter
 peoplesworld.org###popupModal
 nitrokey.com###popup_newsletter
@@ -40517,6 +40524,7 @@ moneycontrol.com##.tech_newsletter
 artificialintelligence-news.com##.techforge-subscribe-widget
 fangoria.com##.terror-teletype
 turningleftforless.com##.text-2
+agfundernews.com##.text-7
 jpl.nasa.gov##.text-center.bg-gray-light
 nymag.com,thecut.com,vulture.com##.text-form-wrapper
 nodejs.libhunt.com##.text-strong-invite
@@ -40726,6 +40734,7 @@ wsj.com##[data-inset_type="newsletterinset"]
 insideottawavalley.com##[data-lpos="headlines-newsletter"]
 sundayworld.com##[data-mht-widget="signu-up-black-background"]
 thisismoney.co.uk##[data-newsletter]
+goodrx.com##[data-qa="NewsletterSignUpAlert"]
 nytimes.com##[data-scp="newsletter"]
 walletinvestor.com##[data-section="header_top"]
 walletinvestor.com##[data-section="news_header_top"]
@@ -48090,7 +48099,6 @@ kbc.be##.aem-trustarc__spinner
 statistik-berlin-brandenburg.de##.afs-cookie-banner
 ajs-bw.de,kbaur-gmbh.com,tus-almena.de##.alertbanner
 muehlbacher.de##.alm--is-muehlbacher-cookie
-ctt.de##.amgdprjs-bar-template
 aktieninvestor.net,klaus-grillt.de,promobricks.de,shop.ls-klima.de##.animate__none
 1avisum.de##.announcement
 peoples.ch##.app-message-modal-background

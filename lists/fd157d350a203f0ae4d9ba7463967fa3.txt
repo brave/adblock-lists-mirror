@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UOiuoHYjPJTEzYB4EOj6bg
-! Version: 202503240941
+! Checksum: teYihCTr031c+qv1bsnWJw
+! Version: 202503241021
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Mar 2025 09:41 UTC
+! Last modified: 24 Mar 2025 10:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23229,7 +23229,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?rry6w=$xmlhttprequest
+||pikabu.ru/ajax/*?rty6w=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23320,7 +23320,6 @@ e.mail.ru##div[class=""] > div[class=""] > div[class=""]
 sdamgia.ru##div[class^="google_ad_left"]
 drive2.ru,liveinternet.ru,sdamgia.ru##div[data-name="adWrapper"]
 rg.ru##div[id][class*="__"]:empty
-pikabu.ru##div[id^="bal_"] {remove:true;}
 shedevrum.ai##div[id^="header_block_"]
 sdamgia.ru##div[id^="yandex_vario"]
 liveinternet.ru##div[style*="!important; "]

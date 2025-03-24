@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 313787VfV8fCjuIxVn0MbA
-! Version: 202503240440
+! Checksum: SaCCP+Jb4+B3GCMwyd2UEg
+! Version: 202503240515
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-24 04:40 UTC
+! Last modified: 2025-03-24 05:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -989,7 +989,7 @@ _social_footer_
 /cookiecontrol-
 /cookiecontrol.js
 /cookiecontroller.js
-/cookiecutter.js
+/cookiecutter.js|$script
 /cookiecutter.min.css
 /cookiecuttr.css
 /cookiecuttr.js
@@ -18156,7 +18156,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###js-cookie-03-popup
 ###js-cookie-alert
 ###js-cookie-approval
-###js-cookie-bar
 ###js-cookie-box
 ###js-cookie-consent
 ###js-cookie-consent-bar
@@ -25308,7 +25307,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.js-cookie-banner-blur
 ##.js-cookie-banner-container
 ##.js-cookie-banner-terminal
-##.js-cookie-bar
 ##.js-cookie-compliance:not(html):not(body)
 ##.js-cookie-configurator
 ##.js-cookie-confirm
@@ -26308,7 +26306,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.orbis-cookie-notice-form
 ##.org-cookie-mini
 ##.ort-cookie-banner
-##.osano-cm-window
 ##.oscookies
 ##.osw-privacy
 ##.ot-cookie-consent
@@ -37567,6 +37564,8 @@ rual-travel.com###cookiescript_injected_wrapper
 roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,roninwear.pt,roninwear.us###wrapper-dx-coki
 !! ##div[class^="cookie__"]
 4templates.com,epal.gg,thegoodocs.com,thewallsthotel.com##div[class^="cookie__"]
+!! .osano-cm-window
+account.bhvr.com,advancedsciencenews.com,bitwarden.com##.osano-cm-window
 !! .cmp-notification-action-panel
 aia.co.th,aia.com,aia.com.kh,aia.com.my,aia.com.ph,aia.com.sg,bpi-aia.com.ph##.cmp-notification-action-panel
 !! #ccc
@@ -51711,7 +51710,6 @@ unicredit.it#@#.infocookie
 superdoc.bg,suzuki.co.nz#@#.js-cookie
 geleidehond.nl#@#.js-cookie-alert
 uniroyal.pl#@#.js-cookie-banner
-frankfurt-school.de#@#.js-cookie-bar
 overdrive.com#@#.js-cookie-modal
 newpharma.be#@#.js-cookie-policy
 mymuesli.com#@#.js-cookies-consent

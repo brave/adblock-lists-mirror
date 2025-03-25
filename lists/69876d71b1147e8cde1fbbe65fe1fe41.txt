@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: m+JkYQ1rTQR5scG+f0cpnQ
-! Diff-Path: ../patches/13/13-s-1742845008-3600.patch
+! Checksum: cCPY3poVBAMYILyifWgQKA
+! Diff-Path: ../patches/13/13-s-1742913454-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.55.39
-! TimeUpdated: 2025-03-24T19:32:08+00:00
+! Version: 2.0.55.40
+! TimeUpdated: 2025-03-25T14:32:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2236,7 +2236,8 @@ tarotscans.com##footer > p > span[style]
 ||filmseyretizlet.com/maritbet.webp
 bloomberght.com,haberturk.com##.adv-news
 fullhdfilm.*###sidebar > div[style="margin:3px 0px;"]
-bloomberght.com,haberturk.com,yasemin.com##.masthead-top
+yeniakit.com.tr##.masthead-infinity
+yeniakit.com.tr,bloomberght.com,haberturk.com,yasemin.com##.masthead-top
 haberturk.com##.pageskin
 ||ototeknikveri.com/Advert/
 medyahaber.com##body > #kapat

@@ -453,9 +453,6 @@ incgrepacks.com##.incgr-before-content_2
 ! jattfilms. cfd ad redirect
 jattfilms.cfd###clickfakeplayer[href]:remove-attr(href)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/1i23n0u/cant_figure_out_how_to_bypass_adblock_detection/
-@@||earnvids.com/ad?type=$script
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/1i2arg8/detected_on_bypasslink/
 bypass.link##+js(no-fetch-if, googlesyndication)
 
@@ -835,9 +832,6 @@ reviewdiv.com##^script:has-text(wpquads_adblocker_check)
 reviewdiv.com##+js(rmnt, script, wpquads_adblocker_check)
 !#endif
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/199124
-pvpoke-re.com##+js(set, firstChecker, noopFunc)
-
 ! https://www.national-park.com/ - popups
 national-park.com##+js(aeld, click, window.open)
 
@@ -1164,3 +1158,7 @@ formatlibrary.com##+js(no-fetch-if, doubleclick)
 
 ! https://anime-world.co/episode/my-happy-marriage-2x1/ popup
 anime-world.co>>##+js(nowoif)
+
+! https://github.com/uBlockOrigin/uAssets/issues/27716
+##.gliaplayer-container
+||player.gliacloud.com^$3p

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 7rK4G5nQM3ZfkrUPI1Tqhw
+! Checksum: fiQAJENfnUkRKhz0AAS1gQ
 ! Title: Easylist Cookie List
-! Updated: 2025-03-26 07:40 UTC
+! Updated: 2025-03-26 09:15 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -10504,7 +10504,6 @@
 ##.cookie-banner-background
 ##.cookie-banner-backside-tealium
 ##.cookie-banner-bg
-##.cookie-banner-block
 ##.cookie-banner-blocking-div
 ##.cookie-banner-body-overlay
 ##.cookie-banner-bottom
@@ -16316,7 +16315,6 @@
 ##div.EUCookie
 ##div.PrivacyBanner
 ##div.PrivacyCookie
-##div.accept-cookie
 ##div.accept-cookies
 ##div.accept-rgpd
 ##div.acceptCookie
@@ -22411,6 +22409,7 @@ erlus.com##+js(set-local-storage-item, pc-cookie-accepted, true)
 erlus.com##+js(set-local-storage-item, pc-cookie-technical-accepted, true)
 gs1.se##+js(set-local-storage-item, allowFunctionalCookies, false)
 gs1.se##+js(set-local-storage-item, cookiesAccepted, true)
+lemwarm.com##+js(set-local-storage-item, cookieClosed, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
 form.fillout.com##+js(set-local-storage-item, explicitCookieAccept-24149, true)
 keepersecurity.com##+js(set-local-storage-item, keeper_cookie_consent, true)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GMId2VpcFp/Awf91ETAwHg
-! Version: 202503261741
+! Checksum: 5AKFZlzGG7NT4dk/iYXCeA
+! Version: 202503261841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Mar 2025 17:41 UTC
+! Last modified: 26 Mar 2025 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2114,6 +2114,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /webunder_
 /widget-a-b.js
 /wp-content/imgrekl/*
+/wp-content/plugins/*-background*/js/wpsite_clickable.js$script
 /wp-content/plugins/adsplacer_pro/*
 /wp-content/plugins/aw-bnrs/*
 /wp-content/plugins/distr-adv/*
@@ -2121,7 +2122,6 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /wp-content/plugins/flat_pm/*
 /wp-content/plugins/nativerent/static/content.js
 /wp-content/plugins/realbig-media/*
-/wp-content/plugins/wpsite-background-takeover*/js/wpsite_clickable.js$script
 /wp-json/adhelper/*
 /www/imgget/*$script
 /xhr_ab_block
@@ -3422,6 +3422,7 @@ _tizers.
 ||server.adeasy.ru^
 ||servidormensseger.hotbox.ru^
 ||setka.media^$third-party
+||setka.news^$third-party
 ||setlinks.ru^$third-party
 ||sevensteps.biz^$third-party
 ||sex-finger.com^$third-party
@@ -13337,7 +13338,6 @@ slovodel.com##.ban__wrapper
 animemobi.ru##.ban_center_screenlist
 irtafax.com.ua##.ban_h
 russiancfg.ru##.ban_rek_a
-proagro.com.ua##.ban_subhead
 libertycity.net,libertycity.ru##.banad
 get-tune.net##.banan_block
 syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##.bancode
@@ -13517,7 +13517,6 @@ officelife.media##.betera-widget
 myfootball.top##.bets
 1927.kiev.ua##.bets-block
 ska.ru##.betting
-proagro.com.ua##.bg-banner
 mmotop.ru##.bg-general
 agronom.top##.bg-gray
 myfin.by##.bg-light-blue
@@ -19257,7 +19256,6 @@ ozon.ru##header + [data-replace-layout-path] > div[class]:not([data-widget]):fir
 agronomy.com.ua##header .size-75
 finecooking.ru##header > .container-fluid
 versii.if.ua##header > [id] > div > div ~ a[href]:not([href^="/"]):not([href^="https://versii.if.ua"])
-proagro.com.ua##header > a
 orenburg.media##header > a:not([href^="/"]):not([href*="://orenburg.media/"])
 www.onliner.by##header > a[href*="utm_"]
 prosound.ixbt.com##header > div[style^="background"]
@@ -22192,6 +22190,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||prk.city/foto/bnr/
 ||pro.berdyansk.biz/img/pic/$image
 ||pro100news.info/wp-content/uploads/$object
+||proagro.com.ua/wp-content/uploads*/proagro_background$image
+||proagro.com.ua/wp-content/uploads/*1920h1080.$image
 ||procompsoft.ru/wp-content/cache/min/1/js/
 ||procvetok.com/static/*/brand
 ||prodota.ru/templates/betboom/

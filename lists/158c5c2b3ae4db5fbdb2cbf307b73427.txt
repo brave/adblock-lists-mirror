@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: grBo/y3qF06IQrDdRDQw/A
-! Version: 202503271741
+! Checksum: BjAvT4G2JdmdWWWvxo6tQQ
+! Version: 202503271841
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Mar 2025 17:41 UTC
+! Last modified: 27 Mar 2025 18:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7077,7 +7077,7 @@ market.yandex.ru,market.yandex.*##a[href^="//sovetnik.yandex.ru/"][href*="utm_ca
 market.yandex.ru,market.yandex.*##div[data-apiary-widget-name="@MarketNode/EntryPointPopup"]
 market.yandex.ru,market.yandex.*##div[data-apiary-widget-name="@marketfront/MediaCarousel"]
 market.yandex.ru,market.yandex.*##div[data-apiary-widget-name="@marketplace/WebimChat"]
-market.yandex.ru,market.yandex.*##div[data-apiary-widget-name^="@"][data-apiary-widget-name*="Promo"]:not([data-apiary-widget-name*="Promocode"])
+market.yandex.ru,market.yandex.*##div[data-apiary-widget-name^="@"][data-apiary-widget-name*="Promo"]:not([data-apiary-widget-name*="Promocode"]):not([data-apiary-widget-name*="PromoCode"])
 market.yandex.ru,market.yandex.*##div[data-zone-name="Upsale"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="plusPromo"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="promoSection"]

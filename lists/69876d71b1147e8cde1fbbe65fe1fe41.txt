@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: OkDktdqXiiyu/SIMuAe//g
-! Diff-Path: ../patches/13/13-s-1743095438-3600.patch
+! Checksum: dD8FD+JTsYXcpM5ugo2dOQ
+! Diff-Path: ../patches/13/13-s-1743109838-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.55.44
-! TimeUpdated: 2025-03-27T17:07:00+00:00
+! Version: 2.0.55.45
+! TimeUpdated: 2025-03-27T21:07:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -932,9 +932,10 @@ mgviagrtoomuch.com##+js(set-constant, window.config.match.watermark, '')
 yeppuu.com##+js(abort-on-property-write, openRandomUrl)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167825
 pllsfored.com##+js(set-constant, window.config.adv, {})
+! https://github.com/AdguardTeam/AdguardFilters/issues/201457
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165655
 ! https://github.com/AdguardTeam/AdguardFilters/issues/197202
-webdramaturkey.net,afroditscans.com##+js(abort-on-property-read, openPopup)
+webdramaturkey.*,afroditscans.com##+js(abort-on-property-read, openPopup)
 ! https://github.com/uBlockOrigin/uAssets/issues/19921
 dizipia.com##+js(abort-on-property-write, popURL)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161599
@@ -1105,10 +1106,10 @@ mobile.donanimhaber.com##+js(set-session-storage-item, pageCount, 0)
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/201457
 ! https://github.com/AdguardTeam/AdguardFilters/issues/197202
-webdramaturkey.net#$#.container { margin-top: 0px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182860
-webdramaturkey.com#$#body > .container { margin-top: 0 !important; }
+webdramaturkey.*#$#body > .container { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182795
 dizikorea.*#$#.wrapper { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182537
@@ -1973,7 +1974,7 @@ softonic.com.tr##.black-friday-ads
 sinefy3.com##.bg-cover-faker > div:not([class]):not([id]) > center
 ||storage.oyungezer.com.tr/ogz-public/ads/
 ||webdramaturkey.com/*/*.mp4
-animeizlesene.com,webdramaturkey.com##.ads-embed
+animeizlesene.com,webdramaturkey.*##.ads-embed
 ntv.com.tr#?#.slick-track > div.slick-slide > div > div.ntv-main-slider-item:has(> a[href^="http://pubads.g.doubleclick.net/"])
 ntv.com.tr#?#.slick-track > div.slick-slide > div > li.ntv-main-slider-pagination-item:has(> a[href^="http://pubads.g.doubleclick.net/"])
 /^https:\/\/www\.donanimhaber\.com\/images\/images\/[a-z_-]+[0-9]+x[0-9]+(_|-)/$domain=donanimhaber.com
@@ -5706,6 +5707,7 @@ ugurfilm7.com,ugurfilm8.com,ugurfilm9.com,ugurfilm10.com,ugurfilm11.com,ugurfilm
 ugurfilm7.com,ugurfilm8.com,ugurfilm9.com,ugurfilm10.com,ugurfilm11.com,ugurfilm12.com,ugurfilm13.com,ugurfilm14.com,ugurfilm15.com,ugurfilm16.com##a[href="https://ucuncusinema.com/"]
 /reklampopup*.js$domain=ugurfilm7.com|ugurfilm8.com|ugurfilm9.com|ugurfilm10.com|ugurfilm11.com|ugurfilm12.com|ugurfilm13.com|ugurfilm14.com|ugurfilm15.com|ugurfilm16.com
 ugurfilm7.com,ugurfilm8.com,ugurfilm9.com,ugurfilm10.com,ugurfilm11.com,ugurfilm12.com,ugurfilm13.com,ugurfilm14.com,ugurfilm15.com,ugurfilm16.com##img[alt="Reklam"]
+||ugurfilm*.com/wp-content/cache/autoptimize/autoptimize_single_*.php
 ! avrupabettv*.com - frequently changed domains
 ||avrupabettv*.com/wp-content/uploads/
 avrupabettv1.com,avrupabettv2.com,avrupabettv3.com,avrupabettv4.com,avrupabettv5.com,avrupabettv6.com,avrupabettv7.com,avrupabettv8.com,avrupabettv9.com,avrupabettv10.com,avrupabettv11.com,avrupabettv12.com,avrupabettv13.com,avrupabettv14.com,avrupabettv15.com,avrupabettv16.com,avrupabettv17.com,avrupabettv18.com,avrupabettv19.com,avrupabettv20.com,avrupabettv21.com,avrupabettv22.com##.pageskin

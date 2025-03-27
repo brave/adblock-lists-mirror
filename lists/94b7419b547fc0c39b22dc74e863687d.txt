@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: LAJnvmEPayJLNL9z148zxA
-! Diff-Path: ../patches/1/1-s-1743088281-3600.patch
+! Checksum: RGDswpqsY2sf0iCnQ6w1xg
+! Diff-Path: ../patches/1/1-s-1743109838-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.98.36
-! TimeUpdated: 2025-03-27T15:07:09+00:00
+! Version: 2.0.98.37
+! TimeUpdated: 2025-03-27T21:06:17+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7557,6 +7557,8 @@ chehov-vid.ru,161.ru,prufy.ru,ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru
 !
 !
 !
+pepelac.news##div[class*="d-md-"]:has(> div.d-flex > ins.adsbygoogle)
+ptzgovorit.ru##.sidebar-rek
 rbc.ru##.l-sticky-right-parent
 yummyanime.tv##+js(abort-current-script, document.createElement, no-referrer-when-downgrade)
 vecherka-spb.ru##section > div.flex:has(> div[class^="_smi24Container"])
@@ -19029,10 +19031,11 @@ semikolon.com#@##teasers
 @@||ads2.bid^$domain=ads2.bid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122276
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kinescope.io
+! https://github.com/AdguardTeam/AdguardFilters/issues/201519
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119850
-@@||img.ex.co/image/upload/$domain=kinoafisha.info
-@@||embed.ex.co/sdk.js$domain=kinoafisha.info
-@@||embed.ex.co/html$domain=kinoafisha.info
+@@||img.ex.co/image/upload/$domain=kinoafisha.info|ptzgovorit.ru
+@@||embed.ex.co/sdk.js$domain=kinoafisha.info|ptzgovorit.ru
+@@||embed.ex.co/html$domain=kinoafisha.info|ptzgovorit.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117907
 login.scdl.net#@#.bannerRight
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117014

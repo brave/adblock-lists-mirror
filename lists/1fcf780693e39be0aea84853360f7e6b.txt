@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: uceXoTcmmNByHHygtv2waw
-! Diff-Path: ../patches/224/224-s-1743125912-3600.patch
+! Checksum: 6N/+cAnowNchWBHuLHG9+w
+! Diff-Path: ../patches/224/224-s-1743129429-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.33.69
-! TimeUpdated: 2025-03-28T01:35:18+00:00
+! Version: 2.1.33.70
+! TimeUpdated: 2025-03-28T02:34:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19264,13 +19264,13 @@ guailie.com#@#.google-ad
 !#7
 !#8
 !#91porny.com
-91porny.org,jstv600.com,x9av7.com###main > div[id^="rd"]
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com##.footer + .block
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com###main > div[id^="rd"]
 ###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
-91porny.org,jstv600.com,x9av7.com##.footer + .block
 91porny.com##.jsv-g1
-91porny.org,jstv600.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)

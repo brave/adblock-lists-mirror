@@ -39,7 +39,6 @@ jobs:
         git add lists
         git commit -m "Automatically updated lists: $(date)" -a || true
     - name: Push changes
-      uses: ad-m/github-push-action@77c5b412c50b723d2a4fbc6d71fb5723bcd439aa # master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: lists
+      run: |
+        git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+        git push -u github lists

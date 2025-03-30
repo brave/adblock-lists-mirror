@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OpkJoH2zGLbMHbg0dXrn7w
-! Version: 202503302115
+! Checksum: WU3WPzwzT9jeh+jufW64Mg
+! Version: 202503302240
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-30 21:15 UTC
+! Last modified: 2025-03-30 22:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -37521,7 +37521,7 @@ sogeti.*###popup-cookieConsent
 ! wayfair
 wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 !! .consent-banner-root
-abrahamartimpressions.com,eriestgastropub.com,fahrschule-delert.de,geowgs84.com,thegnet.org,wernergevers.be##.consent-banner-root
+opticron.*,abrahamartimpressions.com,eriestgastropub.com,fahrschule-delert.de,geowgs84.com,thegnet.org,wernergevers.be##.consent-banner-root
 !! #cookiescript_injected
 amministrazionicomunali.it,rual-travel.com###cookiescript_injected
 !! #cookiescript_injected_wrapper
@@ -42578,6 +42578,7 @@ earlystage.pl##+js(set-cookie, analytics_storage, false)
 earlystage.pl##+js(set-cookie, functionality_storage, false)
 earlystage.pl##+js(set-cookie, personalization_storage, false)
 earlystage.pl##+js(set-cookie, security_storage, false)
+opticron.co.uk##+js(set-cookie, AllowAllCookies, 1, , reload, 1)
 ludlowbrewery.co.uk##+js(set-cookie, cookie_consent, all, , reload, 1)
 asdatyres.co.uk##+js(set-cookie, all_cookies_allowed, 1, , reload, 1)
 asdatyres.co.uk##+js(set-cookie, required_cookies_set, 1)
@@ -48910,6 +48911,7 @@ baronie.tv,baronietv.nl,buurtpas.nl###WGuzntteqh
 fiftyandmemagazine.be###acc-bottom
 grebbeberg.nl###acceptscp2012
 aktiefonline.nl###avg-container
+argenta.nl###block-argentacookiebanner
 bewustnieuwbouw.nl###c-bar
 2doc.nl###ccm_notification_host
 autentiek.nl###ciWrapper

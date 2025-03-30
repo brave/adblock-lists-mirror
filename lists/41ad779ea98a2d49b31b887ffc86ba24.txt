@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h+xZiv8l66GYcrxHIrCqSg
-! Version: 202503302015
+! Checksum: OpkJoH2zGLbMHbg0dXrn7w
+! Version: 202503302115
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-30 20:15 UTC
+! Last modified: 2025-03-30 21:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42432,6 +42432,8 @@ niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.
 ! mutualart.com login wall 
 ||mutualart.com/Ajax/AjaxLoader/Popup
 mutualart.com##.modal-backdrop
+! chatgpt.com login popup
+chatgpt.com##+js(set-session-storage-item, oai/apps/noAuthHasDismissedSoftRateLimitModal, true)
 ! hartfordbusiness.com login wall
 hartfordbusiness.com##.paywallMsgTypeTwo
 hartfordbusiness.com##.payWallOverlay

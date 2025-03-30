@@ -3053,9 +3053,11 @@ getintoway.com##+js(no-xhr-if, /googlesyndication|doubleclick/)
 ! bang14.com popup
 bang14.com##+js(acs, $, setCookie)
 
-! movierulzhd. one (chp adb det)
+! movierulzhd. one/1movierulzhd. sbs antiadb (chp adb det)
 movierulzhd.*##+js(acs, document.getElementById, adsBlocked)
-movierulzhd.*##+js(aost, document.createElement, /(?=^(?!.*(http)))/) 
+movierulzhd.*##+js(aost, document.createElement, /(?=^(?!.*(http)))/)
+123mf9.my##+js(aopr, Adcash)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rpmplay.me,redirect=google-ima.js
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/w5hu7x/
 ||messaging.sourcepoint.com^$script,domain=autocar.co.uk
@@ -4923,9 +4925,6 @@ sptfy.be##+js(set, count, 0)
 ! https://github.com/uBlockOrigin/uAssets/issues/16145
 fedscoop.com##+js(set, init_welcome_ad, noopFunc)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/138508
-gaymovies.top##+js(aopr, __Y)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138321
 xxxshake.com##+js(nowoif)
 xxxshake.com###headC
@@ -4940,14 +4939,11 @@ bravedown.com##+js(no-fetch-if, adskeeper)
 bravedown.com##+js(set-local-storage-item, a_render, true)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16166
-adzz.in,proappapk.com##+js(ra, disabled, #gotolink)
-adzz.in,proappapk.com###gotolink:style(display: block !important;)
+proappapk.com##+js(ra, disabled, #gotolink)
+proappapk.com###gotolink:style(display: block !important;)
 proappapk.com##.blogContent:has(#verify) .postBody
-*$popunder,domain=adzz.in|proappapk.com
-||iili.io^$domain=adzz.in|proappapk.com
-shareus.site##+js(nostif, _0x)
-shareus.site##+js(set, blurred, false)
-shareus.site##.box-main:has(#countdown) > .blog-item
+*$popunder,domain=proappapk.com
+||iili.io^$domain=proappapk.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16169
 crypto4yu.com##+js(aopr, Swal.fire)

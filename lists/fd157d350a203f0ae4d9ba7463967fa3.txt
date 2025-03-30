@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PJdH7SrjspsflW4UxDup5Q
-! Version: 202503301341
+! Checksum: vzf+/UbU0vfTa1yC9XEr1g
+! Version: 202503301441
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Mar 2025 13:41 UTC
+! Last modified: 30 Mar 2025 14:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13831,7 +13831,7 @@ pronovostroy.ru##.card-special-gallery--topic
 solidarnost.org##.card-yandex
 1tv.ru##.card.promo
 sovsport.ru##.cardForecast_card_container__b_Ukm > div[class^="cardForecast_btn"]
-rudub.online##.card__description__adv
+rudub.vip##.card__description__adv
 braz-rus.pro##.card__e-video
 edimdoma.ru##.card_commercial
 marketsakhcom.ru#?#.cards__col:-abp-has(> .card_cb)
@@ -16887,7 +16887,6 @@ asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##[class^="vig
 guitarplayer.ru##[class^="windowbg"] > noindex
 sports.kz##[class^="xbet"]
 buhonline.ru##[class^=sideBanner]
-ficbook.net##[data-ab-test-id]
 realist.online,zn.ua##[data-action="banners"]
 vk.com,vk.ru##[data-ad-block-uid]
 delfi.lv##[data-ad-placement]
@@ -17215,7 +17214,7 @@ onliner.by##a[href*=".betera.by"]
 creativportal.ru##a[href*=".creativportal.ru"]
 fishingsib.ru,hunting.ru##a[href*=".fhserv.ru"]:not([href^="https://image.fhserv.ru"])
 2baksa.ws##a[href*=".htm"] > img
-rudub.today##a[href*=".li"]
+ru-dub.xyz,rudub.vip##a[href*=".li"]
 texnic.ru##a[href*=".php?ad="]
 onliner.by##a[href*=".pm.by"]
 sport.tut.by##a[href*=".pm.by/"]
@@ -18953,6 +18952,7 @@ glavcom.ua##div[id^="corebanner"]
 spletnik.ru##div[id^="desktop_content_side_banner"]
 spletnik.ru##div[id^="desktop_in_"]
 webdiana.ru##div[id^="diana_"]
+game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="dimisa"]
 fainaidea.com##div[id^="divFLRA"]
 delovoymir.biz##div[id^="dm_bnr"]
 bashskazki.ru##div[id^="eadvt_wrapper"]
@@ -19058,7 +19058,6 @@ changeworks.ru##div[id^="ttiz_"]
 sdelala-sama.ru,webdiana.ru##div[id^="turp_"]
 nnovosti.info##div[id^="tvfooter"]
 asna.ru##div[id^="ut-1"]
-game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="ututusi"]
 turkishtvsoapopera.ru##div[id^="vid_over_float"]
 football24.ua,zaxid.net##div[id^="videoAdvWrapper"]
 peopletalk.ru##div[id^="video_banners-"]
@@ -19579,7 +19578,7 @@ nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru#?#p:-abp-has(> a[href*="yandex."
 sovsport.ru#?#p:-abp-has(> div[class^="button_advertisement"])
 sm.news#?#p:-abp-has(> script:-abp-contains(smi2))
 new-magazine.ru#?#p:-abp-has(> strong > a[href*="//dzen.ru/"])
-rudub.today#?#p:-abp-has(> strong a[href*=".li"])
+ru-dub.xyz#?#p:-abp-has(> strong a[href*=".li"])
 prsport.net#?#p:-abp-has(> strong:-abp-contains(/париматч/i))
 sovsport.ru#?#p:-abp-has(> strong:-abp-contains(Okko))
 frenglish.ru##p[align="center"] > a[href] > img
@@ -20129,6 +20128,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /api/branding/*$domain=lalafo.az|lalafo.kg
 /app.js|$script,domain=vesti.ru
 /arscode-ninja-popups/*$domain=animalreader.ru|mensgen.ru|vovetnam.su
+/assets/dist/advertisement.*.js$domain=ficbook.net
 /assets/files/*$domain=buzulukday.ru|nsday.ru|orenday.ru|perevolockday.ru|saltday.ru|sorochinskday.ru
 /assets/img/ads/*$domain=agroter.com.ua|tenews.org.ua
 /assets/snippets/bsystem/*$domain=buzulukday.ru|nsday.ru|orenday.ru|perevolockday.ru|saltday.ru|sorochinskday.ru
@@ -20547,7 +20547,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||asiapoisk.com/images/banner/
 ||asr.dotua.org^$image
 ||assessor.ru/*/wgt-loader.js
-||assets.ficbook.net/assets/dist/advertisement.*.js
 ||astrolibra.com/*.php?g=
 ||astromeridian.ru/assets/images/*/*/brend.$image
 ||astromeridian.ru/assets/images/*banner
@@ -23228,7 +23227,10 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportana
 ://mail.ru$csp=img-src 'self' https:
 ://pikabu.ru/$csp=connect-src https://pikabu.ru/ajax/ https://pikabu.ru/ajax.php *.pikabu.ru/ data: https://pikabu.ru/.well-known/ wss://pikabu.ru/.well-known/
 ://pikabu.ru/$csp=script-src 'self' * 'unsafe-inline' data:
+@@||dmp.mpsuadv.ru/promer$xmlhttprequest,domain=trychatgpt.ru
 @@||imasdk.googleapis.com/$xmlhttprequest,domain=volley.ru
+@@||mpsuadv.ru/event/$xmlhttprequest,domain=trychatgpt.ru
+@@||mpsuadv.ru/sbor$xmlhttprequest,domain=trychatgpt.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=besthdwallpaper.com
 @@||s.zfctrack.net/z|$xmlhttprequest
 @@||s.zhctrack.net/z|$xmlhttprequest
@@ -23267,6 +23269,7 @@ vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([id^="feed_repos
 vk.com,vk.ru###main_feed:not(.feed_submit_only_shown) div:first-child:not(.page_block) ~ .feed_row > [data-post-id][id^="post"][post_view_hash]:not([data-post-track-code])
 flightsim.su###tie-popup-adblock {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
+trychatgpt.ru##.\!min-h-72
 vk.com,vk.ru##._feed_rows > div:not([id]):not([class])
 vk.com,vk.ru##._post_content > .post
 vk.com,vk.ru#?#._post_content:-abp-has(.Efxztiz1tCs6S5IDhTuN)

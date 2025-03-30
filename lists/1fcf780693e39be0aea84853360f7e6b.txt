@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /6TyvVMT0MthI8A7qn0M+A
-! Diff-Path: ../patches/224/224-s-1743298711-3600.patch
+! Checksum: nQeC88ZZU0iL7AmMh1JKeg
+! Diff-Path: ../patches/224/224-s-1743325788-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.33.79
-! TimeUpdated: 2025-03-30T01:35:13+00:00
+! Version: 2.1.33.80
+! TimeUpdated: 2025-03-30T09:06:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3247,6 +3247,7 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 .xyz:*?x=$script,third-party
 .xyz:*?c=$script,third-party
 -*-*-*-*.panda^$script,third-party
+/haijiao3/*/popup.
 .tv/gg/
 .top/api.php?mod=ad&
 /webAdvert.php?ad_name=
@@ -12882,6 +12883,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||adasset.flixfiend.top^
 ||2345.com/guess/v1/adList
 ||ttdm.me/upload/files/sss/
+oibdgtxw.com#?#.xqbj-list-rows:-abp-has(img[z-image-loader-url*=".gif"])
 ttdm.me##.dds_w
 jin10.com##.tradinghero
 jin10.com##.quoted-price__pro

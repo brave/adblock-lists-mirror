@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1fqADFXFJV+3Py+B+mNEuQ
-! Version: 202503300931
+! Checksum: 7ShKu1p/FffBWXgKqZyS0g
+! Version: 202503301041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Mar 2025 09:31 UTC
+! Last modified: 30 Mar 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1953,6 +1953,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /lhzbsrfkjf/js/*$third-party,script
 /linkexchange/*
 /load-promo/*
+/load-xml/?id=*&roll=$third-party,xmlhttprequest
 /marketgid_$domain=~marketgid.com
 /marketplace.asp?
 /media/banners/*
@@ -4291,6 +4292,7 @@ _tizers.
 ||alli-tcod.com^$third-party
 ||alljournal.ru^$third-party
 ||alloffs.ru^$third-party
+||alloviewroll.com^$third-party
 ||allowac.com^
 ||allowandgo.link^$third-party
 ||allroll.biz^$third-party
@@ -6162,6 +6164,7 @@ _tizers.
 ||getelem.ru^$third-party
 ||getgale.info^$third-party
 ||getmygeo.com^$third-party
+||getnodejs.com^$third-party
 ||getrotai.ru^$third-party
 ||getrotaq.ru^$third-party
 ||getrotas.ru^$third-party
@@ -15821,6 +15824,7 @@ gorvesti.ru#?#.section-feed-sm > div:-abp-has(> .blnk)
 tele.ru#?#.section-heading:-abp-has(> .h-text:-abp-contains(Новости партнеров))
 bidbaits.ru##.section-marked
 ivanovonews.ru##.section-marketing-block
+gorvesti.ru##.section-r
 gorvesti.ru,xn--b1ats.xn--80asehdb##.section-r-top
 sobesednik.ru#?#.section:-abp-has(> .navbar > .flex-center > p:-abp-contains(Новости партнеров))
 aramil.city#?#.sectionColumn:-abp-has(> .subTitle:-abp-contains(/реклама/i))
@@ -17493,7 +17497,7 @@ rabota24online.ru##a[href*="rich-birds.org"]
 rosrabota.ru##a[href*="rosrabota.ru/delivery/"] > img
 uniondht.org##a[href*="rutor."]:not([href*=".rutor.org"])
 1track.ru##a[href*="smarty.sale"]
-gorvesti.ru,sovsekretno.ru##a[href*="smi2.net/"]
+gorvesti.ru##a[href*="smi2.net/"]
 softbox.tv##a[href*="softboxmarket.com"]
 sport-express.net,sport-express.ru##a[href*="sport-express.ru/rating-bookmakerov/"]
 agronomy.com.ua##a[href*="srsltid"] > img
@@ -17716,7 +17720,6 @@ sportobzor.ru##a[href^="http://activizm.ru/"]
 cbonds.ru##a[href^="http://ad.cbonds.info/"]
 homearchive.ru##a[href^="http://adslead.ru"]
 omskzdes.ru##a[href^="http://adv.omskzdes.ru/"]
-sovsekretno.ru##a[href^="http://advert.mirtesen.ru/"]
 bratsk.org##a[href^="http://agatauto.kia.ru/"]
 dl2kq.de##a[href^="http://antenna-su.ru/"]
 delfi.ee##a[href^="http://ap.delfi.ee/b?"]

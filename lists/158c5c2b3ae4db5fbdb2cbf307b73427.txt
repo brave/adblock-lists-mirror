@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /aYXVQGnZ/hLg7GneFTLAg
-! Version: 202503300931
+! Checksum: CdYFm0FWPmrmL38mS29LzA
+! Version: 202503301041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Mar 2025 09:31 UTC
+! Last modified: 30 Mar 2025 10:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1592,6 +1592,7 @@ nabat.news##.nabatsocial
 interface31.ru##.nav > li > a[target="_blank"]
 znaj.ua##.nav--social-links
 lipetskmedia.ru##.nav-bar .social-links
+gorvesti.ru##.nav-block-social
 rau.ua##.nav-block__socialmedia
 most-dnepr.info##.nav-item-socials
 bykvu.com##.nav-link-social
@@ -2221,6 +2222,7 @@ vm.ru##.social_article
 cursorinfo.co.il,flacmor.ru##.social_block
 myslo.ru##.social_block_item
 sudostroenie.info##.social_btn_top
+sovsekretno.ru##.social_button
 kinogo.la##.social_buttons
 the-flow.ru##.social_counters
 siteua.org##.social_groups
@@ -7129,6 +7131,7 @@ dzen.ru#?#.mg-grid__item_type_card:-abp-has(> div[class*="loader_animated"])
 dzen.ru#?#.news-app__heading:-abp-has(> h1:-abp-contains(Реклама))
 mail.ru#@#.tgb-wrapper
 dzen.ru##.video-card-ads
+mail.ru##.widget-uber-wrapper
 dzen.ru##.zen-page .content div[class*="__bannerMain"]
 /^https?:\/\/dzen\.ru\/[^\s]{2100,}$/$script,domain=dzen.ru
 /^https?:\/\/strm\.yandex\.ru\/get\/[^\s]{1300,}$/$xmlhttprequest,domain=dzen.ru|naydex.net

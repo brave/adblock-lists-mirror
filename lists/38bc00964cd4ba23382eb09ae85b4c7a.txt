@@ -2920,9 +2920,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||themagisk.com^$all
 ||magiskzip.*^$all
 ||magiskmodule.com^$all
-||magiskmanagerroot.com^$all
-||magisk.download^$all
-||magisk.info^$all
 ! LibreTube - Official site: libretube.dev
 ! https://github.com/libre-tube/LibreTube/issues/4409
 ||libretube.*^$all,domain=~libretube.dev,to=~libretube.dev
@@ -5148,6 +5145,13 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||dichvutonghop.vip^$all,to=~giaohangtietkiem.vn
 ||giaohangtietkiem24.com^$all,to=~giaohangtietkiem.vn
 
+! https://khonggianmang.vn/uploads/20250602_BCT_01_2025_v1_5fb3de74c1.pdf
+/^https?:\/\/amazo[a-z]{2}\d\.com\//$doc,to=com|~amazon.com
+||amazoni1.com^$all
+||amazouo9.com^$all
+||amzzcbe-cme.com^$all
+||amz-dropshipping.com^$all
+
 ! https://web.archive.org/web/20240917130138/https://social.immibis.com/notice/AjwiBkDIwtyORTzsAq
 ||bensonmarketing.msk.su^$all
 
@@ -6282,3 +6286,6 @@ uploadfox.net###ad-gs-05
 ! https://github.com/uBlockOrigin/uAssets/issues/27800
 ! https://www.youtube.com/watch?v=SBTH9n6lz9o
 ||tlauncher.org^$doc
+
+! https://www.reddit.com/r/Scams/comments/1j9omrq/ustn_never_thought_id_be_making_a_post_here/
+||amezpay.com^$doc,to=~amerimedems.com

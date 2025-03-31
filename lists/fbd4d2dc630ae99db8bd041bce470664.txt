@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: wZaXzgiJVemZdhTJr4sm7Q
-! Version: 202503311251
+! Checksum: a8F8VuKRX8wzIDGob+SyBw
+! Version: 202503311341
 ! Title: EasyList Germany
-! Last modified: 31 Mar 2025 12:51 UTC
+! Last modified: 31 Mar 2025 13:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5463,6 +5463,7 @@ connect.de##.wkTeaser:has(.promolabel)
 gebrauchtwagenberater.de##.wp-block-group:has(.wp-block-button__link)
 berlinstadtservice.de##.wrap-col.box4:has(a[href^="https://www.awin1.com/"])
 zeit.de##.zett-teaser-trio:has(.zett-teaser-trio__kicker--ad-anzeige)
+willhaben.at##[aria-hidden="true"]:has(#apn-large-leaderboard)
 dm.de##[data-dmid="product-tile"]:has([data-dmid="sponsored-marker"])
 obi.*##[data-find-artikelnummer]:has(.artikelkachel__gesponsortmarker)
 obi.*##[data-find-artikelnummer]:has([data-ui-name="find-artikelkachel-gesponsert-marker"])

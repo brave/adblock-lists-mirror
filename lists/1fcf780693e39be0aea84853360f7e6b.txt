@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: koVAbv9hAg9w0EBHKXn3WA
-! Diff-Path: ../patches/224/224-s-1743376233-3600.patch
+! Checksum: Hun8+5gTVtPu5MyzSLBQjg
+! Diff-Path: ../patches/224/224-s-1743385109-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.33.83
-! TimeUpdated: 2025-03-30T23:07:14+00:00
+! Version: 2.1.33.84
+! TimeUpdated: 2025-03-31T01:35:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4966,6 +4966,9 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 ||yasorlbeu.com^
+||jtdltu.top^
+||xsti.cn^
+||onwnomv.icu^
 ||lubrzh.top^
 ||hrwbeqv.icu^
 ||vqle.cn^
@@ -20561,6 +20564,8 @@ _rony.js$script,third-party
 .com:3*/static/lbsite/*/*.js?v=$script,third-party
 .cn/In390hG2.js$script,third-party
 .cn/nd389.js$script,third-party
+.cn/FI390rd2.js$script,third-party
+.cn/Zg389.js$script,third-party
 _vwnrsbjs?
 _vwisbjs?
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com

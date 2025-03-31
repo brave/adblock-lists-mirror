@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1VYqH897AmuK3SP6NpAsPQ
-! Version: 202503311541
+! Checksum: UkNgNUpkH02iX3slgMgX7g
+! Version: 202503311641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 Mar 2025 15:41 UTC
+! Last modified: 31 Mar 2025 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11715,6 +11715,9 @@ ketchuptv.ru###blink
 newsroom.kh.ua###block-15
 newsroom.kh.ua###block-16
 russkiiyazyk.ru###block-2
+fapvdo.ru###block-24
+fapvdo.ru###block-26
+fapvdo.ru###block-29
 growhow.in.ua###block-5
 growhow.in.ua###block-6
 anti-malware.ru###block-block-1
@@ -12255,6 +12258,7 @@ outlook.live.com###owaadbar
 wikireality.ru###p-sidebar-extlinks
 rserials.net###page > #overlay
 kv.by###page > .region-secondary-content
+fapvdo.ru###page > .users:first-child
 carsweek.ru###page > :empty
 brestcity.com###page > a[href] > img
 allunix.ru###page > center
@@ -24895,6 +24899,7 @@ pdalife.ru##.b-popup
 vashgorod.ru##.c-popup
 games-two.su##.ckf-box
 riafan.ru##.cookie-agreement-wrapper
+rutube.ru##.cookie-notify-module__cookie-consent
 championat.com##.cookie-popup
 litnet.com##.cookies-w
 crimezone.in.ua##.custom-modal
@@ -26332,6 +26337,7 @@ channels247.net,goool7.ws,sport7.biz,sportbar.biz,sportbarchik88.com,sporting77.
 animedub.ru##a[href="https://animedub.ru/adblock.html"]
 sntch.com#?#article > p:-abp-contains(/отключите блокировку рекламы!$/)
 3drubik.ru##body > #page ~ div[id][class]
+fapvdo.ru##body > #txt
 24pdd.kz##body > .preloader
 doctorrouter.ru,gamingsym.in,ranobe-novels.ru,transformator220.ru,wuxiaworld.ru##body > :not([id]):not([class]):not(script)
 mirdiets.ru,top10books.ru##body > [class*="-blackout active"]

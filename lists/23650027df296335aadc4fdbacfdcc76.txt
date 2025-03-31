@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: YPoCBjeeoi/qlJuKU9V+OA
-! Diff-Path: ../patches/8/8-s-1743091910-3600.patch
+! Checksum: lQUgcuv1dx2mIMCHHMzToA
+! Diff-Path: ../patches/8/8-s-1743455414-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.7.97
-! TimeUpdated: 2025-03-27T16:08:00+00:00
+! Version: 2.0.7.98
+! TimeUpdated: 2025-03-31T21:06:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1535,11 +1535,12 @@ vakantieplaats.nl#@#.topAds
 @@||content.hwigroup.net/images^$domain=hardware.info
 hardware.info,tweakers.net#@#.AdBar
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/201966
 ! https://github.com/AdguardTeam/AdguardFilters/issues/197442
 !+ NOT_OPTIMIZED
-hartvannederland.nl#@##topbanner_ad
+538.nl,hartvannederland.nl#@##topbanner_ad
 !+ NOT_OPTIMIZED
-@@||assets.prod.webx.talpa.digital/ad/view/$domain=hartvannederland.nl
+@@||assets.prod.webx.talpa.digital/ad/view/$domain=hartvannederland.nl|538.nl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178088
 topkleurplaat.nl##+js(no-setTimeout-if, .height() === 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177923

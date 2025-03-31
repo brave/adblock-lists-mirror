@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ONMFO0oa4EeQlOeH/pqHpA
-! Diff-Path: ../patches/7/7-s-1743354575-3600.patch
+! Checksum: McsHjgtoYvS2njnCR42pjg
+! Diff-Path: ../patches/7/7-s-1743419412-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.27
-! TimeUpdated: 2025-03-30T17:06:03+00:00
+! Version: 2.0.63.28
+! TimeUpdated: 2025-03-31T11:06:23+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1514,6 +1514,9 @@ jikayosha.jp#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-
 /wp-content/uploads/2024/09/fanza_ad$image
 !
 ! Malware/Phishing
+?ph0nq=010$document
+?ph0ne=(050)-$document
+||web.core.windows.net/media/jp.mp4
 ://dhl-*/portal_login_exp/getQuoteTab/$document
 .com/ETGate/accountData?redirectToken=$document
 ://apple-*.cn/account_int/
@@ -1675,6 +1678,7 @@ _ap/signin*?_encoding=UTF8&openid.assoc_handle=jpflex&openid.claimed_id=&action=
 /?Rfunccode=*&nextfunc=$document,to=cn|top
 /brand/detail/m*.html?zenid=$document,to=cfd|fun|shop|space|top|xyz
 /shopping/item/m*/?zenid=$document,to=cfd|fun|shop|space|top|xyz
+/mall/*.html?zenid=$document,to=cfd|fun|shop|space|top|xyz
 /mart/*.html?zenid=$document,to=cfd|fun|shop|space|top|xyz
 /^https:\/\/(?!www)[a-z]{3,5}\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:(?=[a-z]*\d)[0-9a-z]{10}|\d{8})\.html$/$document,match-case,to=art|baby|biz|blog|cc|cfd|click|cloud|club|eu|fit|fun|hair|homes|info|ink|lat|life|lol|me|mom|my|one|online|sbs|shop|site|skin|space|store|top|world|xyz
 /^https?:\/\/(?!www)[a-z]{3,5}\.[0-9a-z]{4,10}\.[a-z]{2,6}\/[a-z]{3,15}\/(?=[a-z]{0,9}[0-9A-Z])[0-9A-z]{10}\.html$/$document,match-case,to=art|baby|biz|blog|cc|cfd|click|cloud|club|eu|fit|fun|hair|homes|info|ink|lat|life|lol|me|mom|my|one|online|sbs|shop|site|skin|space|store|top|world|xyz|~livedoor.biz|~livedoor.blog

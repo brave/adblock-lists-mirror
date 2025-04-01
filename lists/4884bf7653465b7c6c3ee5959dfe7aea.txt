@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: oG2fP0+2/wt8cT8TahyhXA
-! Diff-Path: ../patches/9/9-s-1743487962-3600.patch
+! Checksum: OFBaNQFFt2GbGUeRq+LHbA
+! Diff-Path: ../patches/9/9-s-1743495154-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.29.41
-! TimeUpdated: 2025-04-01T06:09:01+00:00
+! Version: 2.0.29.42
+! TimeUpdated: 2025-04-01T08:09:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2197,6 +2197,7 @@ c5n.com,t13.cl,solowrestling.mundodeportivo.com,todojujuy.com,mendozapost.com,me
 !
 ! NOTE: Specific rules
 !
+aa.com.br#$##aa-hero-ad-frame { height: 350px !important; visibility: hidden !important; }
 serviporno.com##.ads__block
 serviporno.com##.banner-frame
 boraflix.com##div[id^="AADIV"]

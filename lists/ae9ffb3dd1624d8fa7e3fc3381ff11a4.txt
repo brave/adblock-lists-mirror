@@ -4269,12 +4269,8 @@ girlsgogames.co.uk##+js(aopr, googletag)
 ! https://github.com/NanoMeow/QuickReports/issues/2171
 ! added sites using the same ad-reinsertion script
 anallievent.com,au-di-tions.com,badgehungry.com,beingmelody.com,bloggingawaydebt.com,casutalaurei.ro,cornerstoneconfessions.com,culture-informatique.net,dearcreatives.com,disneyfashionista.com,divinelifestyle.com,dna.fr,eslauthority.com,estrepublicain.fr,fitting-it-all-in.com,heresyoursavings.com,irresistiblepets.net,julieseatsandtreats.com,justjared.com,lecturisiarome.ro,lemonsqueezyhome.com,libramemoria.com,lovegrowswild.com,magicseaweed.com,measuringflower.com,mjsbigblog.com,mommybunch.com,mustardseedmoney.com,myfunkytravel.com,onetimethrough.com,panlasangpinoymeatrecipes.com,silverpetticoatreview.com,the-military-guide.com,therelaxedhomeschool.com,the2seasons.com,zeroto60times.com##+js(aopr, __eiPb)
-adivineencounter.com,alcasthq.com,au-di-tions.com,badgehungry.com,bloggingawaydebt.com,chipandco.com,cornerstoneconfessions.com,dearcreatives.com,divinelifestyle.com,eslauthority.com,heresyoursavings.com,investingchannel.com,irresistiblepets.net,justjared.com,kompas.com,lovegrowswild.com,mjsbigblog.com,mommybunch.com,mustardseedmoney.com,myfunkytravel.com,mywomenstuff.com,onetimethrough.com,panlasangpinoymeatrecipes.com,peru21.pe,savespendsplurge.com,savvyhoney.com,silverpetticoatreview.com,tamaratattles.com,the-military-guide.com,the2seasons.com,therelaxedhomeschool.com,thetechieguy.com,truesteamachievements.com,truetrophies.com,waterheaterleakinginfo.com,zeroto60times.com##^script:has-text(axtd)
-justjared.com,truetrophies.com##+js(acs, setTimeout, isIframeNetworking)
-truetrophies.com##+js(aopr, $pxy822)
-truetrophies.com##^script:has-text(isIframeNetworking)
+adivineencounter.com,alcasthq.com,au-di-tions.com,badgehungry.com,bloggingawaydebt.com,chipandco.com,cornerstoneconfessions.com,dearcreatives.com,divinelifestyle.com,eslauthority.com,heresyoursavings.com,investingchannel.com,irresistiblepets.net,justjared.com,kompas.com,lovegrowswild.com,mjsbigblog.com,mommybunch.com,mustardseedmoney.com,myfunkytravel.com,mywomenstuff.com,onetimethrough.com,panlasangpinoymeatrecipes.com,peru21.pe,savespendsplurge.com,savvyhoney.com,silverpetticoatreview.com,tamaratattles.com,the-military-guide.com,the2seasons.com,therelaxedhomeschool.com,thetechieguy.com,waterheaterleakinginfo.com,zeroto60times.com##^script:has-text(axtd)
 alcasthq.com##+js(aopr, performance)
-alcasthq.com##+js(acs, Math.floor, axtd)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2920
 cut-fly.com##+js(nowoif)
@@ -8593,15 +8589,6 @@ reactgo.com##ins.adsbygoogle
 ! pharmaguideline.com anti adb
 pharmaguideline.com##+js(aeld, load, 2000)
 
-! https://github.com/NanoMeow/QuickReports/issues/1565
-puzzles.msn.com##+js(set, Adv_ab, false)
-puzzles.msn.com##+js(nano-sib)
-@@||puzzles.msn.com^$ghide
-@@||cdn.arkadiumhosted.com/advertisement/*/video-ads.js$script,domain=puzzles.msn.com
-@@||cdn.arkadiumhosted.com/advertisement/*/display-ads.js$script,domain=puzzles.msn.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,domain=puzzles.msn.com
-puzzles.msn.com##[class*="displayAd"], .ark-ad-message
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5988
 ||videorolls.row.aiv-cdn.net/*.mp4$media,redirect=noopmp3-0.1s,domain=amazon.com
 ! https://github.com/uBlockOrigin/uAssets/issues/14512
@@ -8779,10 +8766,6 @@ cle0desktop.blogspot.com##+js(aeld, , pop)
 
 ! voyageforum.com anti adb
 voyageforum.com##+js(nostif, AdBlock)
-
-! wuxiaworld.com anti adb
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wuxiaworld.com
-@@||pubads.g.doubleclick.net/gampad/ads*wuxiaworld.com$xhr,domain=imasdk.googleapis.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6056
 artribune.com##+js(aost, Object, mark)
@@ -9335,6 +9318,7 @@ mexa.*##+js(nowoif)
 ! https://github.com/NanoMeow/QuickReports/issues/1792
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=spieleklassiker.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=spieleklassiker.com
+||cdn.yollamedia.com^$script,domain=spieleklassiker.com,redirect=noopjs
 spieleklassiker.com##.banner
 
 ! https://github.com/NanoMeow/QuickReports/issues/1802

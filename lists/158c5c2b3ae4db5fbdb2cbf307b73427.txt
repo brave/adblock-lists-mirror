@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7nFO7liaz/jIiJ84UJGgvA
-! Version: 202504010941
+! Checksum: oBeJv/4g/MgPY9GO8CHzbw
+! Version: 202504011041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Apr 2025 09:41 UTC
+! Last modified: 01 Apr 2025 10:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -91,6 +91,7 @@ _vkontakte.png
 ###vkshare0
 ###ya_share
 ###yashare_desktop
+##.GameButtons .anticon-share-alt
 ##.addthis_table
 ##.addzakl
 ##.aentry-post__socials
@@ -361,6 +362,7 @@ com,ru##[data-rambler-share]
 ||rbc.ru/*/social-networks/
 ||redfm.ru/vk-news.php
 ||rfpro.ru/images/icons/bookmark/
+||ritsatv.ru//social/
 ||russian.rt.com/static/img/sportBanner/tg_banner.png
 ||s-msn.com/br/*/socialbuttonutility.js
 ||stalker-mods.clan.su/baner/vkpodpis
@@ -935,7 +937,7 @@ superkarate.ru##.btn-social-wrapper
 audioknigi-online.ru##.btn-vk
 amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,stavropol.media,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.btn_fly_share
 infoindustria.com.ua##.button-telegram
-braz-rus.pro#?#.button:-abp-has(> .icon > [style*="/share"])
+braz-rus.pro#?#.button:-abp-has(> [name="i-mdi-share-variant"])
 doramax.org##.button[onclick*=".soc_buttons"]
 qiq.ws##.buttonbox
 vgorodekirove.ru##.buttond
@@ -5098,7 +5100,6 @@ kino-sayt.net##.cap
 xn--80aeev7a.xn--j1amh##.car-top
 osnova.news#?#.card:-abp-has(> div > a[href^="https://news.google.com/publications/"])
 softportal.com##.cardPageDescMain > div[id][style]
-braz-rus.pro##.card__inner-premium
 livejournal.com##.cat-widget__card-wrap--selfpromo
 www.onliner.by##.catalog-offers
 hotline.ua##.catalog-promo-products

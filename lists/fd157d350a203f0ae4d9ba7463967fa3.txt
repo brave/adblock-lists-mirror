@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P0hST/Hu/gg4SfTbTFRawQ
-! Version: 202504010941
+! Checksum: 2UcN9IIwmDZzy6wA3/CTaA
+! Version: 202504011041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Apr 2025 09:41 UTC
+! Last modified: 01 Apr 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11638,6 +11638,7 @@ pesenok.ru,songpros.ru,songspro.ru###amigo_btn
 allcrimea.net###anews_bigtizer
 thequestion.ru###answers div[style*="overflow:hidden"]
 komedra.com###apext
+dtf.ru#?##app:-abp-has(> .bar > .header [href="/auth"]) .content-list > .content:-abp-has(> .content-header > .author > [href="/ggsel"])
 dtf.ru#?##app:-abp-has(> .bar > .header [href="/auth"]) .content-list > .content:-abp-has(> .content-header > .author > [href="/u/903841-gamespayberryru"])
 dtf.ru#?##app:-abp-has(> .bar > .header [href="/auth"]) .content-list > .content:-abp-has(> .content-header > .author > [href="/u/954970-kupikod"])
 ecology.md###article > .right-block
@@ -13836,7 +13837,8 @@ solidarnost.org##.card-yandex
 1tv.ru##.card.promo
 sovsport.ru##.cardForecast_card_container__b_Ukm > div[class^="cardForecast_btn"]
 rudub.vip##.card__description__adv
-braz-rus.pro##.card__e-video
+braz-rus.pro##.card__inner-premium
+braz-rus.pro##.card__re-video
 edimdoma.ru##.card_commercial
 marketsakhcom.ru#?#.cards__col:-abp-has(> .card_cb)
 kasparov.ru,ria-m.tv##.caroufredsel_wrapper
@@ -19110,7 +19112,6 @@ reshak.ru##div[style*="height:325px;"]
 euro-football.ru,liveresult.ru##div[style*="height:400px;"]
 nemo-crack.org##div[style*="hot-game.info"]
 narutoplanet.ru##div[style*="margin-top: 9.5px;"]
-trychatgpt.ru##div[style*="min-height"][style*="max-height"]
 wtftime.ru##div[style*="min-height: 200px;"]
 euro-football.ru,liveresult.ru##div[style*="min-height:"][style*="00px"]
 chipmaker.ru##div[style*="min-height:100px;"]
@@ -19507,6 +19508,7 @@ www1.ru##nav > .hidden > .list-reset > a[target="_blank"]
 sprashivalka.com##nav > .items > a[href]:not([href^="/"]):not([href^="https://sprashivalka.com/"])
 sport.ua##nav > .navbar-notifications ~ .navbar-notifications
 lostpix.com##nav ~ a > img[align="right"]
+trychatgpt.ru##nav.sticky ~ div:not([class]) > span
 glamour.ru,gq.ru##ng-banner
 glamour.ru##ng-teasers
 salex.ru##nobr > div > table
@@ -22331,6 +22333,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||rintor.space/*.js|$script
 ||riotpixels.com/ogolop/
 ||riotpixels.net/playo
+||ritsatv.ru/files/reklama
 ||rlsnet.ru/image_banner_id_
 ||rlsnet.ru/images/3dbanner
 ||rlsnet.ru/images/banners/branding/
@@ -23278,7 +23281,6 @@ vk.com,vk.ru###feed_rows > .feed_row > div:not([id])
 vk.com,vk.ru###feed_rows > .feed_row ~ :not(.feed_row)
 vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([id^="feed_repost"]):not([data-post-id])
 vk.com,vk.ru###main_feed:not(.feed_submit_only_shown) div:first-child:not(.page_block) ~ .feed_row > [data-post-id][id^="post"][post_view_hash]:not([data-post-track-code])
-trychatgpt.ru##.\!min-h-72
 vk.com,vk.ru##._feed_rows > div:not([id]):not([class])
 vk.com,vk.ru##._post_content > .post
 vk.com,vk.ru#?#._post_content:-abp-has(.Efxztiz1tCs6S5IDhTuN)
@@ -23914,6 +23916,11 @@ fontanka.ru#?#section[class^="sliderWrap_"]:-abp-has(> div > [href="/pressreleas
 59.ru,ngs.ru##ul > li > a[href*="erid="]
 59.ru,ngs.ru##ul > li > a[href*="erid="] ~ div
 fontanka.ru#?#ul > li:-abp-has(> div > div > a[href*="/?erid="])
+! игры
+ru###gs-app-wrapper
+ru##.Ba
+ru##.GameButtons__disableAds
+ru##.GameContainerInner__sb
 ! запросы
 /static/js/build/autoreloadBanner.js$domain=116.ru|14.ru|161.ru|164.ru|178.ru|26.ru|29.ru|35.ru|43.ru|45.ru|48.ru|51.ru|53.ru|56.ru|59.ru|60.ru|63.ru|68.ru|71.ru|72.ru|74.ru|76.ru|86.ru|89.ru|93.ru|chita.ru|e1.ru|ircity.ru|izh1.ru|mgorsk.ru|msk1.ru|ngs.ru|ngs22.ru|ngs24.ru|ngs42.ru|ngs55.ru|ngs70.ru|nn.ru|sochi1.ru|sterlitamak1.ru|tolyatty.ru|ufa1.ru|v1.ru|voronezh1.ru|ya62.ru
 /static/js/build/widgetAutoRu.js$domain=116.ru|14.ru|161.ru|164.ru|178.ru|26.ru|29.ru|35.ru|43.ru|45.ru|48.ru|51.ru|53.ru|56.ru|59.ru|60.ru|63.ru|68.ru|71.ru|72.ru|74.ru|76.ru|86.ru|89.ru|93.ru|chita.ru|e1.ru|ircity.ru|izh1.ru|mgorsk.ru|msk1.ru|ngs.ru|ngs22.ru|ngs24.ru|ngs42.ru|ngs55.ru|ngs70.ru|nn.ru|sochi1.ru|sterlitamak1.ru|tolyatty.ru|ufa1.ru|v1.ru|voronezh1.ru|ya62.ru
@@ -25041,6 +25048,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ||apihost.ru/images/584676.gif
 ||bagnet.org/public/js/cook_popup.js
 ||black-eyed-peas.ru/engine/classes/js/
+||cdn.hsmedia.ru/ump-webapp-public/dist/client/assets/AllowConsentNotificationsModal-$third-party
 ||chefpovarok.ru/modal.js
 ||comprofit.ru/popup/
 ||computer-genius.ru/wp-content/plugins/subscribermagnet/$script

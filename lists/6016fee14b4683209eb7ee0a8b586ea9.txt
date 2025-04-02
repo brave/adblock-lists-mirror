@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: dxB6PsVKiRjnSh5c7kVBxQ
-! Diff-Path: ../patches/16/16-s-1743527427-3600.patch
+! Checksum: UCSmwFwBXqQ+KyHm3/Y9YQ
+! Diff-Path: ../patches/16/16-s-1743585075-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.51.46
-! TimeUpdated: 2025-04-01T17:07:10+00:00
+! Version: 2.0.51.47
+! TimeUpdated: 2025-04-02T09:07:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2735,7 +2735,6 @@ alfresco-holidays.com,alfresco-holidays.nl,alfresco-camping.de,eurocamp.co.uk#@#
 -300-x-250-
 -300-x-250.
 -300x250.gif
--300x300.gif
 -300x350-
 -300x37.$image
 -320x480.
@@ -2780,7 +2779,6 @@ alfresco-holidays.com,alfresco-holidays.nl,alfresco-camping.de,eurocamp.co.uk#@#
 /2025/ads/*
 /300x250.gif
 /300x600.
-/300x600/*
 /728-x-90-
 /72890.js
 /960-120.gif
@@ -2792,7 +2790,6 @@ alfresco-holidays.com,alfresco-holidays.nl,alfresco-camping.de,eurocamp.co.uk#@#
 /ad.*/ads.
 /ad.tags.
 /ad/*/300/*
-/ad/ads.$~xmlhttprequest
 /ad/ppid.
 /ad3_
 /ad_bottom_
@@ -2838,7 +2835,6 @@ alfresco-holidays.com,alfresco-holidays.nl,alfresco-camping.de,eurocamp.co.uk#@#
 /advertising-core/*
 /advertisting-placeholder-
 /adx-dir-
-/aff_*/banners/*
 /aff_*?aff_id=
 /affiliate.js$domain=~mercari.com
 /affiliate.min.js
@@ -2899,7 +2895,6 @@ alfresco-holidays.com,alfresco-holidays.nl,alfresco-camping.de,eurocamp.co.uk#@#
 /ibd-ads/*
 /ichhar.
 /iframe.*?idzone=
-/image/ad.
 /images/ads/*$image,third-party
 /images/affiliates/*
 /images/sponsors/*$third-party
@@ -3221,7 +3216,6 @@ _ad_top|
 _ad_unit.
 _ad_view_
 _ad_viewable_
-_adagency_
 _adb&*&partnerId=
 _adcitrik_
 _AdClick_
@@ -3412,7 +3406,6 @@ _werbebanner_
 /s2iurl.php?$popup
 /splash.*?idzone=$popup
 /syndication.*&idzone=$popup
-://click.*&utm_$popup
 ://go.*?zoneid=$popup
 ://landing.*/?ats=$popup,third-party
 ://syndication.$popup,third-party
@@ -11535,8 +11528,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||freemilfporn24.com^*.gif
 ||freenduro.com/images/banners/
 ||freenews.fr/wp-content/uploads/2016/11/freenews0728x90FRNetObs.png
-||freeonline.org/detroitchicago/
-||freeonline.org/images/skin-
 ||freepik.com/coupons/popup?
 ||freepik.com/media/img/banners/
 ||frenchweb.fr/wp-content/uploads/2018/02/webinar4opportunites.jpg
@@ -15279,7 +15270,6 @@ emu-france.com###sidebar-right a > img[style^="width:"]
 mobigeeks.fr###sidebar-shell-2
 lematin.ch###sidebarSky
 glenatmanga.com###signature_chinoise > a > span
-freeonline.org###skinlink
 ezgif.com###sky
 peterhahn.fr###skyscraper
 france-alerte.com###slide
@@ -16196,7 +16186,7 @@ free-reseau.fr##a[href*="&tag=freereseaufr-"]
 meilleures-grandes-ecoles.com,meilleures-licences.com,meilleurs-masters.com##a[href*="&utm_campaign="]
 1001ebooks.com,1337x.st,1337x.to,amairgil.cz,blablastream.com,blablastream.space,cocostream.rip,cpasbien.fun,cpasfini.me,extreme-down.party,film01stream.com,film01stream.ws,filmzenstream.cloud,hds.quest,hdss.at,hdss.yachts,mistergeek.net,oxtorrent.ac,papystreaming.black,papystreaming.stream,sokrostream.tube,streamonsport.club,streampourvous.lol,supervideo.cc,topsddns.net,vfcomplet.vip,vfserie.win,voirfilms.live,voirfilmstreaming.tv,voirseries.rip,wiflix-hd.online,wiflixien.space,x1337x.eu,x1337x.ws,yggtorrent.support,zt-za.fr##a[href*=".php"]
 meilleurs-hebergeurs.com##a[href*="/-"] > img
-7-up.net,abidjan.net,algerie-eco.com,algerie-focus.com,algerie360.com,bigbike-magazine.com,bismirabbika.com,brain-magazine.fr,cnetfrance.fr,doukkalia.press.ma,freeonline.org,grimper.com,igen.fr,internetparsatellite.net,kiteboarder-mag.com,ktotv.com,lebonfap.com,letagparfait.com,macg.co,montagnes-magazine.com,mubawab.ma,nintendo-master.com,niveales.com,portail.free.fr,public.fr,radego.over-blog.com,skieur.com,skimagazine.fr,snowsurf.com,streaming-one.com,supmag.fr,tahiti-infos.com,telecharger-jeuxpc.fr,trekmag.com,unleashed.fr,upload.ac,vakarm.net,watchgeneration.fr,widermag.com,windmag.com##a[href*="//bit.ly/"]
+7-up.net,abidjan.net,algerie-eco.com,algerie-focus.com,algerie360.com,bigbike-magazine.com,bismirabbika.com,brain-magazine.fr,cnetfrance.fr,doukkalia.press.ma,grimper.com,igen.fr,internetparsatellite.net,kiteboarder-mag.com,ktotv.com,lebonfap.com,letagparfait.com,macg.co,montagnes-magazine.com,mubawab.ma,nintendo-master.com,niveales.com,portail.free.fr,public.fr,radego.over-blog.com,skieur.com,skimagazine.fr,snowsurf.com,streaming-one.com,supmag.fr,tahiti-infos.com,telecharger-jeuxpc.fr,trekmag.com,unleashed.fr,upload.ac,vakarm.net,watchgeneration.fr,widermag.com,windmag.com##a[href*="//bit.ly/"]
 abidjan.net,algerie-focus.com,algerie360.com,bc.vc,bismirabbika.com,extratorrents.ch,gum-gum-streaming.com,igen.fr,instinct-voyageur.fr,israelmagazine.co.il,jeux.com,journaldumusulman.fr,lnc.nc,macg.co,orientation-chabab.com,proxylistpro.com,tendancehotellerie.fr,watchgeneration.fr##a[href*="//goo.gl/"]
 presse-algerie.net##a[href*="/?ad="]
 amateur2sexe.fr,pornovore.fr##a[href*="/?id="]
@@ -16726,7 +16716,6 @@ zataz.com#?#.custom-sidebar:-abp-has(h3:-abp-contains(/Partenaires|Publicité/))
 @@||wifeo.com/ads/promo/advertise-publicite.gif$image,domain=wifeo.com
 @@||www.bluesteel.fr/affiliation/$~third-party
 @@||www.bna.dz/media/djmediatools/cache/300x250-$image,~third-party
-@@||www.bouyguestelecom.fr^*/catalog/product/cache/*/image/300x600/$image,~third-party
 @@||www.les-terrains.com/images/chargement_en_cours.gif|$image,~third-party
 @@||yospace.com/csm/*.mpd^$xmlhttprequest,domain=6play.fr
 @@||a.lulucdn.com/js/$script,domain=lulustream.com|luluvdo.com

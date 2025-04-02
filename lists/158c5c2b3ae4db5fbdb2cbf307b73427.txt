@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UPXy7V6B5QZM9YEjQv/oew
-! Version: 202504020641
+! Checksum: mqFPqDtk/KVLiCQWDv1ICg
+! Version: 202504020741
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 02 Apr 2025 06:41 UTC
+! Last modified: 02 Apr 2025 07:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1278,7 +1278,6 @@ comments.ua##.fotter_logo_social
 5-tv.ru##.fp-facebook
 zefix.online,zeflix.online,zetfix.online,zetflix-online.link##.fplayer > div > a[href][target="_blank"]
 allserial.org##.fplayer > div[style^="padding:"]
-liveball.cc,liveball.uno##.free
 aqua-therm.ru##.fright
 fotostrana.ru##.fs-social-wrapper
 bugaga.ru##.fsmsg.more
@@ -2424,7 +2423,6 @@ motorpage.ru##.text-right > a[class^="sc-"]
 sobesednik.ru#?#.text-right:-abp-contains(поделиться:)
 vgolos.ua##.text-telegram
 spacegid.com##.text_share
-allcarz.ru,gazeta.spb.ru,liveball.cc,liveball.uno,liveball8.ml,repost.uz,runews24.ru,yarnews.net##.tg
 liga.net##.tg-block
 inkorr.com##.tg-box
 08sportbar.online,777sportba.com,777sportba.org,barsportbar.com,channels247.net,file-mods.ru,goool7.ws,lenov.ru,mangabuff.ru,newinform.com,s7yours.com,sbautumn.com,sport365hd.net,sport7.biz,sportbar.biz,sportbarchik88.com,sporting7.pw,sporting77.com,spotless365.net##.tg-button
@@ -2529,6 +2527,7 @@ mmo13.ru##.view-social
 coub.com##.viewer__sharing__items > .viewer__sharing__item:not(.viewer__sharing__copy)
 cameralabs.org##.vivacameralabs
 api-video.khl.ru##.vjs-cola_vote-control
+api-video.khl.ru##.vjs-like-button-control
 ntv.ru##.vjs-share-screen__social
 ria.ru##.vjs-toppane-share-more
 animedub.ru,apihost.ru,waiset.su,xn--c1acj.xn--p1ai##.vk
@@ -2817,6 +2816,7 @@ ngs55.ru##a[title^="Пст. Пойдем в "]
 baby.ru,fm-app.ru,tvapp.su,yootv.ru##a[title^="Телеграм"]
 360.ru##a[type="button"][style^="--icon-color:"]
 afisha.yandex.ru,afisha.yandex.*##div[data-component="Footer_Socials"]
+allcarz.ru,gazeta.spb.ru,liveball.my,liveball.uno,liveball.*,liveball8.ml,repost.uz,runews24.ru,yarnews.net##.tg
 dp.ru##app-article-social-discussion
 24tv.ua##app-share-block
 24tv.ua,sport24.ua##app-subscription-banner
@@ -3156,6 +3156,7 @@ sud.ua#?#li > .b-news-item:-abp-has(> .b-news-item-info > h3 > a[href*="://t.me/
 argumenti.ru#?#li:-abp-has(> a[href^="https://t.me/"])
 ctc.ru##li[class="hsi-item"]
 4pda.to##li[id$="share"]
+liveball.my,liveball.uno,liveball.*##.free
 mail.yandex.ru,mail.yandex.*##.b-mail-domik__social
 tsn.ua##main .c-card__foot > div[class^="c-bar__row"] > [class^="c-bar"]
 site.ua##main > .w-full + .container + .container > div:only-child
@@ -7045,6 +7046,7 @@ disk.yandex.ru,disk.yandex.*##.mail360-banner
 disk.yandex.ru,disk.yandex.*##.mobile-badges
 disk.yandex.ru,disk.yandex.*##.top-banner
 disk.yandex.ru,disk.yandex.*##.ufo-yaplus
+disk.yandex.ru,disk.yandex.*,docs.yandex.ru,docs.yandex.*##.InfoSpace_discount
 disk.yandex.ru,disk.yandex.*,mail.yandex.ru,mail.yandex.*##.Base-Onboarding
 dzen.ru##div.Popup2[class*="city-question__tooltip"]
 dzen.ru##div.Popup2[class*="extra-trap-geolocation__tooltip"]

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.8.0
+! Version: 4.0.8.2
 
 ! General
 
@@ -155,9 +155,9 @@ enotes.com##section#enotes-paywall
 enotes.com##+js(ra, class, div.u-paywall)
 ||estadao.com.br/paywall/$script,~third-party
 ||estadao.com.br/access.js$script,~third-party
-etc.se##+js(ra, class, div.paywalled, stay)
-etc.se##+js(ra, class, div.bg-gradient-white, stay)
-etc.se##div[class$="-ad"]
+etc.se##+js(rc, teaser-section, section.teaser-section)
+etc.se##+js(rc, hidden, section.prose-feature .hidden)
+etc.se##article section.font-sans
 euobserver.com##+js(rc, show, div.membership-upsell.show)
 exame.com##+js(set-local-storage-item, pywllcount, $remove$)
 fieldandstream.com##div[class^="mailmunch-"]
@@ -375,6 +375,7 @@ tt.com##+js(rc, exclusive-elem, .exclusive-elem)
 tt.com##div.adblock-warning
 unherd.com##+js(ra, id, div#premiumcontent)
 unherd.com##div#premiumpreview
+||news.google.com/swg/_/api/v1/publication/$xmlhttprequest,domain=vice.com
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
 ||washingtonpost.com/subscribe/static/tetro-client/fusion/tetro.min.js$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party

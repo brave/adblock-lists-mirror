@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UwHGoiy3BVPhCXcsLKxpqg
-! Version: 202504020641
+! Checksum: By4CrEvIxHnxsnrA7pYohw
+! Version: 202504020741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Apr 2025 06:41 UTC
+! Last modified: 02 Apr 2025 07:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2273,7 +2273,7 @@ _tizers.
 ||servebbs.net^$third-party,script,subdocument
 !
 ||asia^$third-party,script,subdocument,xmlhttprequest,domain=~gallerix.org
-||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~dewalt.store|~forum.worldofwarships.eu|~forum.worldofwarships.ru|~hdvbplayer.tk|~herokuapp.com|~live-gol.net|~liveball.cc|~liveball.uno|~masterclub.store|~movielab.pro|~osu.ppy.sh|~panomama.ru|~pelcn.net|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vk-apps.com|~vulpecula.host
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~dewalt.store|~forum.worldofwarships.eu|~forum.worldofwarships.ru|~hdvbplayer.tk|~herokuapp.com|~live-gol.net|~liveball.cc|~liveball.gg|~liveball.my|~liveball.uno|~liveball.ws|~masterclub.store|~movielab.pro|~osu.ppy.sh|~panomama.ru|~pelcn.net|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vk-apps.com|~vulpecula.host
 !
 ! Исключения
 @@||12go.asia/dist/prod/build.*.js|$third-party,script
@@ -11854,7 +11854,6 @@ alldonors.ru###content_r_box
 youtube.com#?##contents > ytd-rich-item-renderer:-abp-has(> #content > ytd-display-ad-renderer)
 ucrazy.ru###crazy-content > div:not([id]):not([class])[style^="background-color:"]
 zzap.ru###ctl00_TopPanel_LangPanel > .top
-liveball.cc,liveball.uno###custom_brand
 oterraria.ru###custom_html-14
 zalinux.ru###custom_html-2
 winreviewer.com###custom_html-6
@@ -15212,7 +15211,6 @@ focus.ua##.o-adds
 infekc.ru##.obl
 nikopolnews.net##.oblivki
 pimpletv.ru##.odds
-liveball.cc,liveball.uno##.odds_section
 cardiologiya.com,omastopatii.ru##.offblo
 1progs.me,1progs.ru,gafki.ru,notorgames.net##.offer
 dermatitanet.ru##.offer-ac
@@ -19489,6 +19487,8 @@ polochka.net##li[class^="ss-li-"]
 zalinux.ru##li[id^="menu-item-"] > a[href^="http"]:not([href*="kali.org.ru/"]):not([href*="zalinux.ru/"])
 crackstatus.net##li[id^="slide"]
 penzainform.ru##li[style^="width: 140px; height:"][style*="max-height"]
+liveball.my,liveball.uno,liveball.*###custom_brand
+liveball.my,liveball.uno,liveball.*##.odds_section
 old.myshows.me##main > .contAlt
 allcarz.ru#?#main > .container > .site-content:-abp-has(> .content-banner)
 protanki.tv##main > .hidden
@@ -21596,6 +21596,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||live4fun.ru/bitpapa/
 ||liveangarsk.ru/files/k
 ||liveangarsk.ru/specfiles/
+||liveball.*/public/js/clickunder.js
 ||livecars.ru^*/wall_
 ||livefootball.ws^$object
 ||liveinternet.ru/cgi-bin/adt.fcgi
@@ -23250,7 +23251,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?ryy6w=$xmlhttprequest
+||pikabu.ru/ajax/*?pT6E4=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -26336,12 +26337,12 @@ spletnik.ru##.z-adblock-message
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /simple-adblock-detector/*$domain=vologdahistory.ru
 /static/libs/adetector/*$domain=cigarexpert.ru|swizz.ru|ulnar.ru|uxxa.ru
+2es.work,adventuretime.ru,ani.wtf,cdnneedtv.ru,cdnpotok.com,cdntelesee.com,cdntvpotok.com,chepok.xyz,domatv.net,hdone.net,hdru.net,hindcine.tv,kipolino.site,klplayer.website,liveball.my,liveball.uno,liveball.*,liveball7.gq,liveball8.ml,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,strah.video,t1pochek.site,tip0chek.site,tipochek.xyz,volley.ru,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|адблок|блокировщик|блокировку|фрибет/i))
 @@||ddnk.advertur.ru/*/loader.js|$script
 @@||webwintop.ru/wp-content/plugins/contact-form-7/includes/js/index.js|$script,domain=webwintop.ru
 @@||webwintop.ru/wp-content/plugins/copy-the-code/assets/js/copy-the-code.js|$script,domain=webwintop.ru
 pikabu.ru##[data-role="adb-warning"]
 channels247.net,goool7.ws,sport7.biz,sportbar.biz,sportbarchik88.com,sporting77.com#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv > img[src$="/adblock.png"])
-2es.work,adventuretime.ru,ani.wtf,cdnneedtv.ru,cdnpotok.com,cdntelesee.com,cdntvpotok.com,chepok.xyz,domatv.net,hdone.net,hdru.net,hindcine.tv,kipolino.site,klplayer.website,liveball.cc,liveball.uno,liveball7.gq,liveball8.ml,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,strah.video,t1pochek.site,tip0chek.site,tipochek.xyz,volley.ru,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|адблок|блокировщик|блокировку|фрибет/i))
 animedub.ru##a[href="https://animedub.ru/adblock.html"]
 sntch.com#?#article > p:-abp-contains(/отключите блокировку рекламы!$/)
 3drubik.ru##body > #page ~ div[id][class]

@@ -1275,3 +1275,9 @@ affordwonder.net##+js(rmnt, script, popundersPerIP)
 affordwonder.net##+js(aopr, Adcash)
 babaktv.com##.code-block
 babaktv.com##.vidoverlay
+
+! https://github.com/uBlockOrigin/uAssets/issues/27843
+opensubtitles.com##+js(set, extInstalled, true)
+
+! https://nukibooks.com/ ad
+*$script,3p,domain=nukibooks.com

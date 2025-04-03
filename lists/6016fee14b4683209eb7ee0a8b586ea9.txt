@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: DP8/20RkHvmX9a9m2Q4lCA
-! Diff-Path: ../patches/16/16-s-1743707429-3600.patch
+! Checksum: 8500TsO1MeQ1cgC/mpqbCA
+! Diff-Path: ../patches/16/16-s-1743714611-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.51.51
-! TimeUpdated: 2025-04-03T19:06:49+00:00
+! Version: 2.0.51.52
+! TimeUpdated: 2025-04-03T21:06:59+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12557,19 +12557,16 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||syskb.com^*/wordpress-notification-bar
 ||t-algerie.com/pub/
 ||ta-meteo.fr/include/$subdocument
-||tahiti-infos.com/photo/*.gif$image
-||tahiti-infos.com/photo/*_1083x90.
-||tahiti-infos.com/photo/*_banie*.
-||tahiti-infos.com/photo/*_banniere_
-||tahiti-infos.com/photo/*_habillage_
-||tahiti-infos.com/photo/banner_
-||tahiti-infos.com/photo/d6757_korando_540x120px_1x.jpg
-||tahiti-infos.com/photo/habillage_
-||tahiti-infos.com/photo/heiva_pol_
-||tahiti-infos.com/photo/mois_de_la_chance__
-||tahiti-infos.com/photo/new_korando_new.
-||tahiti-infos.com/photo/page_
-||tahiti-infos.com^*/1083x
+||tahiti-infos.com/photo/*.gif
+||tahiti-infos.com/photo/*abillage
+||tahiti-infos.com/photo/*banie
+||tahiti-infos.com/photo/*bann
+||tahiti-infos.com/photo/*crescendo
+||tahiti-infos.com/photo/*korando
+||tahiti-infos.com/photo/*x120
+||tahiti-infos.com/photo/*x150
+||tahiti-infos.com/photo/*x90.
+||tahiti-infos.com/photo/bann
 ||tayo.fr/images/igraaal.gif
 ||tayo.fr/images/igrakl-en-bas.jpg
 ||tayo.fr/images/igrKalMid.jpg
@@ -16218,6 +16215,7 @@ exefiles.com##a[href*="/recommended/"]
 centre-audition.com,easyzic.com,info-algerie.com##a[href*="/redirect."]
 booska-p.com##a[href*="/rf/"][style]
 20min.ch##a[href*="/sponsored/"]
+1001ebooks.ws##a[href*="/telebooks.html"]
 seneweb.com##a[href*="/xban/"]
 rtl.be##a[href*="://ad.doubleclick.net/"]
 fdesouche.com,forum-xiaomi.com##a[href*="://amzn.to/"]
@@ -16255,7 +16253,6 @@ jemangejemincis.fr##a[href="https://track.webgains.com/"]
 radioalgerie.dz##a[href="https://www.radioalgerie.dz/pub/"]
 igen.fr,macg.co,watchgeneration.fr##a[href^="/ad-"]
 avocat.fr,jeunesfooteux.com,ophtalmo.tv,senioractu.com,zinfos974.com##a[href^="/ads/"]
-tahiti-infos.com##a[href^="/ads/"] > .image
 tunisie-news.com##a[href^="/artpublic/banniere/click3.php?"]
 marianne.net##a[href^="/blogsecretdefense/ads/"]
 leparisien.fr##a[href^="/bons-plans/"]

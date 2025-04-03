@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: oxU910MgiYeIfogrqRxh9A
-! Diff-Path: ../patches/13/13-s-1743631856-3600.patch
+! Checksum: ASjIiZoO4nEINjpF/0L82w
+! Diff-Path: ../patches/13/13-s-1743675081-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.55.56
-! TimeUpdated: 2025-04-02T22:07:11+00:00
+! Version: 2.0.55.57
+! TimeUpdated: 2025-04-03T10:07:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -268,6 +268,8 @@ ankarakampkafasi.com,zamaninvarken.com,kredi.biz.tr,kriptoradar.com,bakimlikadin
 teknop.net,ozgunbilgi.com##+js(set-constant, adblock.check, noopFunc)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/202238
+futbolsayfasi.net###adb-enabled
 ! https://github.com/AdguardTeam/AdguardFilters/issues/196726
 menufiyatlari.com.tr#$#.adblockalert { display: none !important; }
 menufiyatlari.com.tr#$#body.ad_block_detected { overflow: auto !important; }

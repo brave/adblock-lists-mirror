@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8500TsO1MeQ1cgC/mpqbCA
-! Diff-Path: ../patches/16/16-s-1743714611-3600.patch
+! Checksum: lU0bSKAteC9TTXLjB0T46w
+! Diff-Path: ../patches/16/16-s-1743718197-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.51.52
-! TimeUpdated: 2025-04-03T21:06:59+00:00
+! Version: 2.0.51.53
+! TimeUpdated: 2025-04-03T22:06:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9534,6 +9534,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||cdn-dekbh.nitrocdn.com/*/wp-content/uploads/2021/04/*.kidludik-top.jpg
 ||cdn.*/static/js/amvn.js
 ||cdn.a9fast.com^*/misc/partner/
+||cdn.biff.travel^
 ||cdn.citytourgirls.com/static/bn/
 ||cdn.escortdude.com/static/bn/
 ||cdn.ev.mu/js/optim/gg_cc/ev/boot.js$domain=~easyviaggio.com|~easyviajar.com|~easyvols.fr|~easyvoyage.co.uk|~easyvoyage.com|~easyvoyage.de
@@ -12555,7 +12556,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||syskb.com/wp-content/uploads/*-ban.gif
 ||syskb.com/wp-content/uploads/2020/06/img_5_3_1.gif
 ||syskb.com^*/wordpress-notification-bar
-||t-algerie.com/pub/
 ||ta-meteo.fr/include/$subdocument
 ||tahiti-infos.com/photo/*.gif
 ||tahiti-infos.com/photo/*abillage
@@ -15379,7 +15379,6 @@ midilibre.fr,sudouest.fr##.ad-box
 basketusa.com##.ad-large
 eurosport.fr##.ad.mpu
 vinyculture.com##.ad2
-lastminute.com,t-algerie.com##.adContainer
 fusac.fr##.adblock
 msn.com,sourds.net##.adcontainer
 reverso.net##.adcontent
@@ -15571,6 +15570,7 @@ nintendo-master.com##.content_kelkoo_link
 lotusnoir.info##.countclick
 boredpanda.com##.cover-banner
 ma-reduc.com##.covering
+lastminute.com##.cpt-oney-block
 egaliteetreconciliation.fr##.cpt-parw
 egaliteetreconciliation.fr##.cpt-wrap
 boulanger.com##.criteoEms

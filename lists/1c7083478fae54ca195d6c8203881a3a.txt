@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.8.2
+! Version: 4.0.8.3
 
 ! General
 
@@ -218,7 +218,6 @@ ksta.de,rundschau-online.de##div.dm-paywall-wrapper,div.dm-slot,div.dm-zephr-ban
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=kurier.at
 kurier.at##+js(ra, class|style, div.paywall)
 kurier.at##div#cfs-paywall-container
-||la-croix.com/build/*/paywall*.js$script,~third-party
 ||glanacion.com/*/metering/*.js$script,domain=lanacion.com.ar
 lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
 lanacion.com.ar##+js(set-local-storage-item, /^/, $remove$)

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: SEEh3H2CvzrtneAOJgaupA
-! Diff-Path: ../patches/224/224-s-1743768882-3600.patch
+! Checksum: nybNpM5047BSBbKImTAiSA
+! Diff-Path: ../patches/224/224-s-1743775845-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.34.13
-! TimeUpdated: 2025-04-04T12:11:10+00:00
+! Version: 2.1.34.14
+! TimeUpdated: 2025-04-04T14:07:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -21,6 +21,41 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||mernrza.com^
+||xjwhtz10.com^
+||xjwhtz2.com^
+||xjwhtz3.com^
+||xjwhtz4.com^
+||xjwhtz5.com^
+||xjwhtz6.com^
+||xjwhtz7.com^
+||xjwhtz8.com^
+||xjwhtz9.com^
+||xxsmad1.com^
+||xxsmad2.com^
+||xxsmad3.com^
+||xxsmad4.com^
+||xxsmad5.com^
+||xxsmad6.com^
+||xxsmtz1.com^
+||xxsmtz10.com^
+||xxsmtz2.com^
+||xxsmtz3.com^
+||xxsmtz4.com^
+||xxsmtz5.com^
+||xxsmtz6.com^
+||xxsmtz7.com^
+||xxsmtz8.com^
+||xxsmtz9.com^
+||lh49dki80.com^
+||qxaz2xcw.com^
+||afqgqg4e.com^
+||fpoyvjgdm.com^
+||lh1dki82.com^
+||u40pdqw.com^
+||theweeklydonut.org^
+||xiaoshuotxt668.org^
+||bobobo6688.top^
 ||xj-oss.com^
 ||ookaso.com^
 ||uuaisp.com^
@@ -270,6 +305,8 @@
 ||ulukaris.com^$third-party
 ||itadapi.ithome.com.tw^
 ||zjgfq.com^$third-party
+!
+! Banana ads
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202195
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202102
@@ -769,6 +806,10 @@ popbee.com##.adblocker
 ##body > div#inplayer[align="center"]
 ##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/202277
+! https://publicwww.com/websites/%22app_tj%22/
+##.app > div.app_tj
+##body > div.zdhf
 ! 91porny
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190664
 ##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
@@ -1059,6 +1100,8 @@ apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
 ! Bad: .org/ads/$domain=example.org (for instance, should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/202277
+.com:8007/sc/*?n=$third-party,script
 ! Chinese online books
 ! Examples:
 ! - https://241028z.1iuh5l.com:9001/sc/1028?n=llvukcwa
@@ -4994,6 +5037,7 @@ newduba.cn###jq_youxi
 ||hh04040aoik.com^
 ||hh04041aoik.com^
 ||vruzexzl.com^
+||vxky.cn^
 ||dreiquksz.com^
 ||so04030koaq.com^
 ||pqnonh.top^

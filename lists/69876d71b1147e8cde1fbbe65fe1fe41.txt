@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QgAjZP3VmYeLfJHb2bjBrg
-! Diff-Path: ../patches/13/13-s-1743714611-3600.patch
+! Checksum: pEHmx51FgZEw2+phVBkBJQ
+! Diff-Path: ../patches/13/13-s-1743768880-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.55.59
-! TimeUpdated: 2025-04-03T21:06:45+00:00
+! Version: 2.0.55.61
+! TimeUpdated: 2025-04-04T12:10:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -904,7 +904,7 @@ sinetiktok.com,onlinedizi.xyz,uzaymanga.com,filmzirvesi.to,filmifullizle.online,
 ! isShow
 tekfullfilmizle5.com##+js(set-constant, isShow, true)
 ! initPu
-eldermanga.com,promy.pro,diziyoutv.com,guneykoresinemasi.com,jetfilmizletv.net,dizimax2.com,yenierotikfilm.xyz,breakingbadizle.*,diziday1.com,zipfilmizle.com,bamfilmizle.com,sinemadafilm.com,hdizlefilmleri.com,filmmoduu.com,abifilmizle.org,trfilm.net,dolufilm.org,turkifsaalemi.com##+js(abort-on-property-read, initPu)
+dizikral.live,eldermanga.com,promy.pro,diziyoutv.com,guneykoresinemasi.com,jetfilmizletv.net,dizimax2.com,yenierotikfilm.xyz,breakingbadizle.*,diziday1.com,zipfilmizle.com,bamfilmizle.com,sinemadafilm.com,hdizlefilmleri.com,filmmoduu.com,abifilmizle.org,trfilm.net,dolufilm.org,turkifsaalemi.com##+js(abort-on-property-read, initPu)
 ! initAd
 fullfilmizlebaba.com,superfilmgeldi.biz,vkfilmizlet.*,supernaturalizle.com,sinemakolik.net,hdsinemax.com,diziyo.*,fullhdabifilm.com,bettercallsaulizle.com,superfilmgeldi.net,fullhdfilmizlett1.com,filmsezonu.com,fullhdfilmizleabi.com,hdfreeizle.com,hdmixfilim.com,fullhdfilmizlepala.com##+js(abort-on-property-read, initAd)
 !
@@ -1578,6 +1578,8 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+mynet.com##body .body-banner-block
+mynet.com##.ng-sidebar > .position-relative:has(> .adv-item-box)
 vkfilmizlee.*##+js(abort-on-property-read, doOpen)
 sinetiktok.com##.sayfa-sol > a[target="_blank"]
 ||sinetiktok.com/solutions.js
@@ -5494,9 +5496,9 @@ selcuksportshd1590.xyz,selcuksportshd1591.xyz,selcuksportshd1592.xyz,selcuksport
 [$domain=/webspor\d+\.xyz/]#$?#video > style { remove: true; }
 !
 ! dizikral*.pro - frequently changed domains
-[$domain=/dizikral\d+.pro/]#$#body > header { margin-top: 0 !important; }
-[$domain=/dizikral\d+.pro/]##+js(set-constant, puShown, true)
-[$domain=/dizikral\d+.pro/]#$#body > header { margin-top: 0 !important; }
+[$domain=/dizikral(?:\d+\.pro|\.live)/]#$#body > header { margin-top: 0 !important; }
+[$domain=/dizikral(?:\d+\.pro|\.live)/]##+js(set-constant, puShown, true)
+[$domain=/dizikral(?:\d+\.pro|\.live)/]#$#body > header { margin-top: 0 !important; }
 !
 ! kuponuna*.top - frequently changed domains
 ||kuponuna*.top/r/

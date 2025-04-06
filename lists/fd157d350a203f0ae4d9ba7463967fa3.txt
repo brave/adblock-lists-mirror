@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HBwktbwLjMfV58+uYTHZaw
-! Version: 202504061241
+! Checksum: HwvyD4RMCrNpssbEQTm+KQ
+! Version: 202504061341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Apr 2025 12:41 UTC
+! Last modified: 06 Apr 2025 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14203,6 +14203,7 @@ itc.ua#?#.entry-content > p:-abp-has(> strong > a[href*="utm_campai"])
 proglazki.com##.entry-content > table[border]
 zhzh.com.ua,zhzh.info#?#.entry-galery:-abp-has(> .entry-galery-title:-abp-contains(/полезное объявление|горячие новости/i))
 livejournal.com##.entry-wrap-promo
+nullcms.ru##.epcl-banner
 livejournal.com##.eplayer-time-to-ad
 espanarusa.com##.er-banner
 cpa.rip##.eriuue-content
@@ -26372,7 +26373,7 @@ chemrise.ru##body > div[class*="ui-widget"]
 rasfokus.ru##body > div[id] > [align="center"] > a[target="_blank"]
 anime-free.ru,pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="display: block;"]
 fashion2news.com,hotallnews.today,newspad.ru##body > div[id][class]
-24pdd.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
+24pdd.ru,nullcms.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
 kurs.com.ua,ontvtime.ru,ritsatv.ru,skidkaonline.ru,ternopillive.com##body > div[style*="background-color:"][style*="z-index:"]
 gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 motorpage.ru##body.noscroll::before

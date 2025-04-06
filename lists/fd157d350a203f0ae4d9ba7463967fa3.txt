@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ow19jDhhT8jZesfiE23uLw
-! Version: 202504060531
+! Checksum: 6xwmhp/ZNxAHkK3g8QfN5Q
+! Version: 202504060641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Apr 2025 05:31 UTC
+! Last modified: 06 Apr 2025 06:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1378,6 +1378,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="awesomeredirector"]
 ##a[href*="beauty-list.ru"]
 ##a[href*="bestforexplmdb.com"]
+~betcity.ru##a[href*="betcity.ru/"]
 ##a[href*="bgrndi.com"]
 ~bigleads.ru##a[href*="bigleads.ru"]
 ~binomo.com##a[href*="binomo.com/promo"] > img
@@ -24033,6 +24034,7 @@ www.afisha.ru###yandex-zen
 lenta.ru#?#._longgrid:-abp-has(> [class*="info"] > [class*="_ad-title"])
 eda.ru#?#.ad_branding_footer div[class^="emotion"]:-abp-has(> [title="yandexzen"])
 eda.ru##.ad_branding_header > section
+championat.com##.adv-mark
 gazeta.ru##.b_nav > a[target="_blank"]
 gazeta.ru##.b_telegram
 championat.com,gazeta.ru,lenta.ru##.banner
@@ -24065,7 +24067,9 @@ mail.rambler.ru##[class*="MaillistItemAdvertPlace"]
 auto.rambler.ru,avtorambler.com##[data-auto_media-desktop*="rnet_widget"]
 doctor.rambler.ru##[data-doctor_media-desktop*="rnet_widget"]
 finance.rambler.ru##[data-finance_media-desktop*="rnet_widget"]
+championat.com##[data-goal-label="coeff_fonbet"]
 championat.com##[data-href*="okko.sport"]
+championat.com##[data-href*="utm_"]
 motor.ru##[data-motor-desktop*="exchange_block"]
 rambler.ru##[data-news_media-desktop*="rnet_widget"]
 sport.rambler.ru##[data-sport_media-desktop*="rnet_widget"]
@@ -24121,7 +24125,6 @@ avtorambler.com,rambler.ru##div[style^="min-height:400px"]
 avtorambler.com,rambler.ru##div[style^="min-height:600px"]
 avtorambler.com,rambler.ru##div[style^="order:"][style*="-1"]
 |rambler.ru/*/okko-metrics
-||img.championat.com/brand/
 ||kraken.rambler.ru^$domain=~kraken.rambler.ru
 ||lenta.ru/fenwick
 ||rcmjs.rambler.ru/static/rcmw/rcmw.*.horizontal.

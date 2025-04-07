@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: jbWa/u6SQDasRyNBhYELfw
-! Diff-Path: ../patches/7/7-s-1744020694-3600.patch
+! Checksum: aqcaK3951dy1k/1TosY2YA
+! Diff-Path: ../patches/7/7-s-1744024239-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.43
-! TimeUpdated: 2025-04-07T10:07:47+00:00
+! Version: 2.0.63.44
+! TimeUpdated: 2025-04-07T11:06:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1765,6 +1765,10 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 hotondo.work###pum-13806
 hotondo.work###st_custom_html_widget-100
 hotondo.work###st_custom_html_widget-101
+irocore.com##.rakutenlist
+irocore.com##.rakutenlist + p:has(> a[href="https://kaitorikimono.net/"])
+irocore.com##h3:has(+ p + .rakutenlist)
+irocore.com##p:has(+ .rakutenlist)
 irocore.com##.clearfix > p > a[href^="https://www.amazon.co.jp/dp/"]
 hyperwiki.jp##.ads-top-banner
 reashu.com##.entry-content .memo:has(> a[id^="h2_ue_ad"] img)

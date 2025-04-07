@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3ec/S7kOPl1iVhNtxlnq4g
-! Version: 202504071641
+! Checksum: 8lAhkDlc1dZ9U1C2AHr8Ug
+! Version: 202504071741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Apr 2025 16:41 UTC
+! Last modified: 07 Apr 2025 17:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11790,6 +11790,7 @@ rabota.kharkov.ua###central > table > tbody > tr > .noprint
 newsland.com###channelsFeed > [data-block-type="channel-card"] ~ :not([data-block-type="channel-card"])
 finget.ru###chart_a
 okrain.net.ua###citata
+megapeer.top,megapeer.vip###clickunder
 zoodrug.ru###clone[style*="250px"]
 gg.xooxo.cc###closed-vid
 3mv.ru###closing
@@ -16145,6 +16146,7 @@ payeer-gift.ru,topasnew24.com,upl.uz##.sticky-block
 tsargrad.tv##.sticky-bottom
 dorognoe.ru##.sticky-holder > .block-title.yellow
 bidbaits.ru##.sticky-promo-wrapper
+hevcclub.com##.sticky-top > div > .card:first-child
 oneprog.ru##.sticky.first
 za4eti.ru##.stl_d3 [class^="stl_"],.stl_d3 [class^="stl_"] + br
 infox.ru#?#.stlt:-abp-contains(Реклама)
@@ -18123,7 +18125,6 @@ gotps3.ru##body > a[target="_blank"]
 hmn.ru##body > center > .px_blue_fon
 chinaspb350.ru##body > center > a[href="/aliexpress.php"]
 xxuy.ru##body > center > a[href] > img[alt]
-megapeer.ru,megapeer.vip##body > center > a[href][target="_blank"]:first-child
 samlib.ru##body > center > h3 + nobr + table[width="100%"]
 drevo.uaportal.com##body > center:first-of-type
 christianka.bratstvo.org##body > center:last-child

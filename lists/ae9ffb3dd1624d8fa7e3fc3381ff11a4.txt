@@ -2390,10 +2390,6 @@ befap.com##.row-middle
 tubemania.org##+js(nowoif)
 ||tubemania.org^$frame,1p
 
-! https://github.com/NanoAdblocker/NanoDefender/issues/24#issuecomment-364821024
-wp-time.com##a[href^="https://goo.gl/"]:has(img)
-wp-time.com###pop-ad-wrap
-
 ! https://github.com/uBlockOrigin/uAssets/issues/1531
 #@#.reklama
 ##.reklama:not(.ads)
@@ -2413,10 +2409,6 @@ mejortorrent.*,mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*#
 mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*##iframe[src^="publi"]
 ||mejortorrent.*/bannner
 
-! https://github.com/uBlockOrigin/uAssets/issues/1550
-! https://forums.lanik.us/viewtopic.php?f=62&t=42535
-||downloadfullfree.com^$xhr,redirect=nooptext
-
 ! https://github.com/uBlockOrigin/uAssets/issues/911#issuecomment-366335870
 ! https://github.com/NanoMeow/QuickReports/issues/3664
 adsrt.*##+js(acs, atob, decodeURIComponent)
@@ -2428,9 +2420,6 @@ adsrt.*##+js(set, blurred, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/1555
 linclik.com##+js(set, blurred, false)
 ||kogaqmlci.com^
-
-! https://forums.lanik.us/viewtopic.php?f=62&t=39985
-rd.com##+js(acs, btoa, Adblock)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2938#issuecomment-445134813
 ||uptostream.com/assets/ads.xml$xhr,domain=imasdk.googleapis.com
@@ -3795,8 +3784,6 @@ tvserial.it##.gptslot
 ! https://github.com/uBlockOrigin/uAssets/issues/2484#issuecomment-395174594
 foumovies.*##+js(aopw, decodeURIComponent)
 fullywatchonline.com,myvidmate.*##+js(acs, atob, decodeURIComponent)
-hubfiles.ws##+js(nowoif)
-hubfiles.ws##+js(nano-stb)
 moviescounter.*##+js(aopr, LieDetector)
 moviescounter.*##+js(aeld, , _0x)
 /watchbutton11.png$image
@@ -3850,14 +3837,6 @@ worldofbitco.in,weatherx.co.in##+js(set, spoof, noopFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2540
 dailyfreebits.com##+js(acs, $, html)
-
-! https://github.com/uBlockOrigin/uAssets/issues/2538
-@@||getyourbitco.in^$ghide
-getyourbitco.in##+js(set, adBlock, false)
-
-! https://github.com/uBlockOrigin/uAssets/issues/2547
-neko-miku.com##+js(aeld, load, nextFunction)
-||player.neko-miku.com/*slot$media,redirect=noopmp4-1s,domain=neko-miku.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1322
 ! http://www.subtorrents.io/series/the-durrells/ popups
@@ -3942,16 +3921,9 @@ uii.io#@#+js(noeval)
 ! https://forums.lanik.us/viewtopic.php?p=137876#p137876
 lebensmittelpraxis.de##+js(nostif, nextFunction, 2000)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/8rnrsa
-telemundodeportes.com##+js(set, adBlockEnabled, false)
-@@||v.fwmrm.net/ad/$xhr,domain=telemundodeportes.com
-
 ! https://github.com/uBlockOrigin/uAssets/issues/2606
 ojogos.com.br##+js(set, sp_ad, true)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=witchhut.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/2605
-studopedia.org##+js(aopw, detectAdblk)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2614
 sheamateur.com##+js(aopr, __htapop)
@@ -3993,12 +3965,6 @@ usgamer.net##+js(set, _sp_.msg.displayMessage, noopFunc)
 wallpapersmania.com##.js_disabled
 wallpapersmania.com###cpa_wrap
 
-! https://github.com/uBlockOrigin/uAssets/issues/2645
-megacams.me##+js(aeld, load)
-@@||chaturbate.com/affiliates/$frame,domain=megacams.me
-megacams.me#@#a[href^="https://chaturbate.com/affiliates/"]
-@@||chaturbate.com^$popup,domain=megacams.me
-
 ! https://github.com/uBlockOrigin/uAssets/issues/2647
 sexviacam.com#@#a[href^="https://chaturbate.com/affiliates/"]
 @@||chaturbate.com^$frame,domain=sexviacam.com
@@ -4025,6 +3991,7 @@ naughtymachinima.com##.col-md-8 > a[href][target="_blank"]
 ||twincdn.com^$3p,script,image
 ||pornblade.com^$xhr,1p
 ||pornfelix.com^$xhr,1p
+hd-easyporn.com##+js(aeld, getexoloader)
 hd-easyporn.com,pornblade.com,pornfelix.com##.vjs-overlayed
 hd-easyporn.com,pornblade.com,pornfelix.com###wrapper_content > aside[id]
 pornblade.com###e_v + aside[id]

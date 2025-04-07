@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 36zCHY8IGD0eyoJgXNJjUQ
-! Diff-Path: ../patches/224/224-s-1743989923-3600.patch
+! Checksum: Jr9DXX1luQNaRqLvstMz1Q
+! Diff-Path: ../patches/224/224-s-1744020692-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.34.26
-! TimeUpdated: 2025-04-07T01:35:23+00:00
+! Version: 2.1.34.27
+! TimeUpdated: 2025-04-07T10:08:14+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1189,6 +1189,7 @@ $script,third-party,denyallow=ilfcdn.li|bytecdntp.com|fastlycdn.com|doodcdn.co|i
 !
 ! NOTE: Specific rules
 !
+1ppt.com##.lpadlist
 ||apppc.chinaz.com/statics/images/tuan
 ai-chatbot.top##header ~ form ~ div.fixed.right-14
 blog.sina.com.cn##.top-ad-info
@@ -2958,21 +2959,21 @@ netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 ! https://user-images.githubusercontent.com/3976203/273172163-25ff30a0-c988-4ec3-9e51-cf4722a90976.jpg
 ! bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
 bilibili.com#$#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { position: absolute !important; left: -3000px !important; }
-bilibili.com#$?#.container > div.feed-card:not(:has(> div > *)) { remove: true; }
-bilibili.com##.container > div.feed-card:not(:has(> div > *))
-bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
 bilibili.com##+js(json-prune, data.cm_info.ads)
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
 bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
-search.bilibili.com##.video-list > div.col_3:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="&csource="])
-search.bilibili.com#?#.video-list > div.col_3:has(> div.bili-video-card a[href*="//cm.bilibili.com/"])
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 ||api.live.bilibili.com/*/Banner
-bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
-bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
-bilibili.com#$#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
-bilibili.com#$#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
+! bilibili.com#$?#.container > div.feed-card:not(:has(> div > *)) { remove: true; }
+! bilibili.com##.container > div.feed-card:not(:has(> div > *))
+! bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
+! search.bilibili.com##.video-list > div.col_3:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="&csource="])
+! search.bilibili.com#?#.video-list > div.col_3:has(> div.bili-video-card a[href*="//cm.bilibili.com/"])
+! bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
+! bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
+! bilibili.com#$#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
+! bilibili.com#$#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
 !
 ! nivod.tv (pairs .tv + .com)
 nivod9.tv,nivod8.tv,nivod7.tv##.nav-ads
@@ -8178,6 +8179,7 @@ newduba.cn###jq_youxi
 ||zwzdjb.xyz^
 ||zxqiwe.cn^
 ||zyfnbl.xyz^
+||deafeningphone.com^
 ||7299tu75.cc^
 ||twrank.com^$third-party
 ||uu11881.com^

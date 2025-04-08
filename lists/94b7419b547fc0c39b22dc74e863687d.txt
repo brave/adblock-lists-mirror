@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: GQnZroKEbJpk2jBokNCIKA
-! Diff-Path: ../patches/1/1-s-1744035052-3600.patch
+! Checksum: 4dxLnK4eRd4HlMyoVdFmuw
+! Diff-Path: ../patches/1/1-s-1744099973-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.98.59
-! TimeUpdated: 2025-04-07T14:06:38+00:00
+! Version: 2.0.98.60
+! TimeUpdated: 2025-04-08T08:08:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5651,6 +5651,8 @@ yandex.*#?#:matches-path(/sport)div[class^="neo-"][class*="_type_native"]
 yandex.*#?#:matches-path(/sport).mg-grid__row > div.mg-grid__col:has(> div.neo-advert)
 !
 ! Yandex.Q
+yandex.*##:matches-path(/q).top-root > div[class]:has(> div[class="0"] > div > div[class] > div[id]:last-child)
+yandex.*#$#:matches-path(/q)#page > div[class]:first-child > div[class] > section[class] > div[class] ~ div > div[class]:not(:has(> div[id^="content-control-"])):not(:has(span a[href^="/q/"])) { height: 0 !important; }
 yandex.*##:matches-path(/q)header ~ div#page > div[class]:not([id]) > div[class*=" "]:first-child + div[class*=" "] + div[class*=" "] > div[class] > div[style^="will-change:"] > div:not([class]) > div[class]:last-child
 yandex.*#$?#:matches-path(/q)body.page_qArticleRoute header ~ div#page > div[class]:not([id]) > div[class*=" "]:first-child + div[class*=" "] > section[class*=" "] > div[class] + div + div > span ~ div:not(:has(> div[class] button[data-role="button"] > svg)) { height: 0 !important; }
 yandex.*#$?#:matches-path(/q)body.page_qQuestionRoute header ~ div#page > div[class]:not([id]) > div[class*=" "]:first-child + div[class*=" "] > section[class*=" "] > div[class] + div + div > div[class] > span ~ div:not(:has(> div[class] button[data-role="button"] > svg)) { height: 0 !important; }

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.0.8.4
+! Version: 4.0.9.0
 
 ! General
 
@@ -191,6 +191,8 @@ harpers.org##+js(cookie-remover, hr_session)
 hindustantimes.com##.freemium-card,.closeStory
 hindustantimes.com##+js(rc, freemiumText, .freemiumText)
 hindustantimes.com##+js(rc, open-popup, body.open-popup)
+ilfattoquotidiano.it##+js(rc, cropped, article[id].cropped)
+ilfattoquotidiano.it##div#ifq-paywall-metered
 ilsole24ore.com##+js(ra, style, body[style], stay)
 ilsole24ore.com##div.s24_adb
 ||inc42.com/wp-admin/admin-ajax.php|$xmlhttprequest,~third-party

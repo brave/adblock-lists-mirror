@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8KLawftpQPqpKRHoQdJksA
-! Version: 202504091541
+! Checksum: R0f/4hsGYaPpS/V+TBTn+w
+! Version: 202504091641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Apr 2025 15:41 UTC
+! Last modified: 09 Apr 2025 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1780,12 +1780,12 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /backlinks.
 /baner.
 /baner/*$domain=~barva.km.ua|~churchjc.com|~ferr-um.ucoz.ru|~fitlife62.ru|~helpsetup.ru|~market-oz.ru|~slovo-shop.ru|~stalker-2-2012.ucoz.net|~stocking.com.ua|~zokko.com.ua
-/baner_$domain=~aplica.pl|~brabrabra.ua|~campworld.com.ua|~churchjc.com|~food16.ru|~nenc.gov.ua|~pcmart.com.ua|~pizzamel.ru|~planetarium.dn.ua|~tambov.gov.ru|~triatek.com.ua|~uslugi.mosreg.ru|~work-pulse.ru|~zippo.net.ua
+/baner_$domain=~aplica.pl|~brabrabra.ua|~campworld.com.ua|~churchjc.com|~food16.ru|~nenc.gov.ua|~pcmart.com.ua|~pizzamel.ru|~planetarium.dn.ua|~tambov.gov.ru|~triatek.com.ua|~uslugi.mosreg.ru|~zippo.net.ua
 /baners/*$domain=~altera-auto.ru|~masterps.com.ua|~mgpk.bntu.by|~mirofox.ru|~redbubbles.ru|~vyviska.com.ua|~xn--100-8cdz0be5b.xn--p1ai|~xn--40-6kcayb8aoh7afog0b.xn--p1ai
 /banmas/index.php?informer=
-/banner.gif$domain=~e.aviasales.ru|~limehd.tv|~litehd.tv|~russia-tv.online|~work-pulse.ru|~xcom-shop.ru
+/banner.gif$domain=~e.aviasales.ru|~xcom-shop.ru
 /banner.png$third-party,domain=~drakescans.com|~github.com|~kirmuseum.org
-/banner2.gif
+/banner2.gif$domain=~limehd.tv|~litehd.tv|~pervyi-tv.online|~russia-tv.online
 /banner_$object
 /banner_l*.php?pubId=$third-party,script
 /bannerex.cgi/getbanner.js?id=
@@ -11571,7 +11571,7 @@ www.i.ua###Premium
 7days.ru###RutubePlayerNews
 urod.ru###Stage
 myzuka.club###TVZavr
-flicksbar.fun,flicksbar.info,flicksbar.mom###TopAdMb
+flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom###TopAdMb
 smartpress.by###TopBox
 videovegas.ru###VegasHeadAds
 sport-express.net,sport-express.ru###_ad_container_
@@ -13740,7 +13740,7 @@ ggscore.com##.br-body
 ggscore.com##.br-col
 riotpixels.com##.br-new
 gdeetotdom.ru##.bracing-banner
-agroinfo.kz,flicksbar.fun,flicksbar.info,flicksbar.mom,livejournal.com##.brand
+agroinfo.kz,flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom,livejournal.com##.brand
 smolensk2.ru##.brand-banner
 bnkirov.ru##.brand-bg
 gamegpu.com##.brand-block
@@ -18741,7 +18741,7 @@ root-nation.com##div[class^="td-header"] .td-stretch-content
 glavpost.com,ittour.com.ua,meta.ua,prohondroz.ru##div[class^="teaser"]
 dlltop.ru##div[class^="tm-article-banner"]
 odeve.ru##div[class^="toneBlock"]
-flicksbar.fun,flicksbar.info,flicksbar.mom##div[class^="topAd"]
+flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom##div[class^="topAd"]
 life-reactor.com##div[class^="top_baner"]
 tproger.ru##div[class^="tp-"][class$="-top-container"]
 formulalubvi.com##div[class^="traffic-video"]
@@ -23324,6 +23324,7 @@ drive2.ru##[data-sticky-adtune]
 drive2.ru##[data-test="AdKebabAndLabel--adLabelContent"]
 dzen.ru,liveinternet.ru##[data-wrapper]
 dzen.ru##[data_name]
+~dzen.ru##[href^="https://dzen.ru/"]
 vk.com,vk.ru##[id^="post-"] > ._post_content > :only-child
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
@@ -25243,6 +25244,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 @@||payeer-gift.ru^$generichide
 @@||paypress.ru^$generichide
 @@||persey.if.ua^$generichide
+@@||pervyi-tv.online^$generichide
 @@||ph4.ru^$generichide
 @@||pixcloud.ru^$generichide
 @@||pkfnpo.ru^$generichide
@@ -26235,7 +26237,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||www3.doubleclick.net/|$xmlhttprequest,domain=animix.lol
 @@||xksqb.com/native.$script,domain=gwss.ru
 @@||xn--b1ajehof.xn--80asehdb^$script,domain=xn--b1ajehof.xn--80asehdb
-@@||yandex.ru/ads/system/adsdk.js$script,domain=aniboom.one|api-video.khl.ru|gisher.org|karaoke.ru|kino.tricolor.tv|limehd.tv|m24.ru|peers.tv|player.mediavitrina.ru|ren.tv|rutube.ru
+@@||yandex.ru/ads/system/adsdk.js$script,domain=aniboom.one|api-video.khl.ru|gisher.org|karaoke.ru|kino.tricolor.tv|m24.ru|peers.tv|player.mediavitrina.ru|ren.tv|rutube.ru
 @@||yandex.ru/ads/system/context.js|$domain=examenpdd.com|forum.qrz.ru|yvid.ru
 @@||yandex.ru/ads/system/context.js|$script,domain=tvzvezda.ru
 @@||yarik-sat.com/reklama/*.js|$script,domain=yarik-sat.com

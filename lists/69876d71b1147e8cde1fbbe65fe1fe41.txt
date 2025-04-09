@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: q1OvJqLP1hTC9WYkFpWK4g
-! Diff-Path: ../patches/13/13-s-1744204714-3600.patch
+! Checksum: NLWWj0bD+qjRfYTKX6DXwg
+! Diff-Path: ../patches/13/13-s-1744222356-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.55.63
-! TimeUpdated: 2025-04-09T13:14:26+00:00
+! Version: 2.0.55.64
+! TimeUpdated: 2025-04-09T18:08:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1578,6 +1578,8 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+haberler.com###mainContent > .hbDetay:has(> article:only-child > #taboola-below-article-widget)
+haberler.com##.newsDetailAds
 mynet.com##body .body-banner-block
 mynet.com##.ng-sidebar > .position-relative:has(> .adv-item-box)
 vkfilmizlee.*##+js(abort-on-property-read, doOpen)

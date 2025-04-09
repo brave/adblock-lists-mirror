@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Ruanb5JnHjfnM9ZyDyuwrg
-! Diff-Path: ../patches/224/224-s-1744182677-3600.patch
+! Checksum: mXMSIfcIXLmUnMRzMhiYSQ
+! Diff-Path: ../patches/224/224-s-1744193576-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.34.42
-! TimeUpdated: 2025-04-09T07:07:54+00:00
+! Version: 2.1.34.43
+! TimeUpdated: 2025-04-09T10:09:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -817,6 +817,7 @@ popbee.com##.adblocker
 ##.app > div.app_tj
 ##body > div.zdhf
 ##body > div.dbfh
+##body > div.zdhf ~ div[style$=";background: #000;opacity:0.01;"]
 ! 91porny
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190664
 ##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
@@ -1092,6 +1093,8 @@ apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
 !--------------------------------------!
 ! SECTION: Chinese - HTML
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/202277
+! https://publicwww.com/websites/%22app_tj%22/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106842
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34910
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3129
@@ -5044,6 +5047,7 @@ newduba.cn###jq_youxi
 ||uucatiqnd.com^
 ||ixoe.cn^
 ||trlptm.top^
+||enbg.cn^
 ||zaiqnethl.com^
 ||pyxytj.icu^
 ||liog.cn^

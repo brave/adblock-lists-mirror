@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l39wM1bNLHeXbyC1+mh2bw
-! Version: 202504091041
+! Checksum: gYEPomWCWmBeocm5RghVMA
+! Version: 202504091141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Apr 2025 10:41 UTC
+! Last modified: 09 Apr 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10387,6 +10387,7 @@ _tizers.
 ||viaqoo.tech^$third-party
 ||viavideo.digital^$third-party
 ||vicodes.com^$third-party
+||vidalak.com^$third-party
 ||vidasys.ru^$third-party
 ||vidaugust.ru^
 ||videc10.com^
@@ -24052,6 +24053,7 @@ vp.rambler.ru##.eagleplayer-advertisement-remain-time
 vp.rambler.ru##.eplayer-time-to-ad
 finance.rambler.ru##.finance__partners
 horoscopes.rambler.ru##.fzwuC
+championat.com##.game-of-day
 championat.com##.header-bottom__adv
 championat.com##.infographic-countdown
 championat.com##.infographic-duel
@@ -24129,6 +24131,7 @@ avtorambler.com,rambler.ru##div[style^="min-height:400px"]
 avtorambler.com,rambler.ru##div[style^="min-height:600px"]
 avtorambler.com,rambler.ru##div[style^="order:"][style*="-1"]
 |rambler.ru/*/okko-metrics
+||championat.com/embeds/custom.css
 ||img.championat.com/brand/*.png
 ||kraken.rambler.ru^$domain=~kraken.rambler.ru
 ||lenta.ru/fenwick
@@ -24504,7 +24507,7 @@ yandex.ru##div[id^="R-I-"]
 ! Яндекс.Игры
 yandex.ru,yandex.*##.grid-list__game-item_adv
 yandex.ru,yandex.*##.stack > .promo
-yandex.ru,yandex.*##div[class^="FeedAdvBlockRenderer-critical-module__banner"]:empty
+yandex.ru,yandex.*##div[class^="FeedAdvBlockRenderer-"]:empty
 ! Яндекс.Музыка
 music.yandex.ru,music.yandex.*##.bar__driver-container
 music.yandex.ru,music.yandex.*##[class^="audio-advert"]

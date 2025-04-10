@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qhSkCB4TnLPHL5shOgBCMg
-! Diff-Path: ../patches/7/7-s-1744279894-3600.patch
+! Checksum: aHNsOBXY693WN5kz/MtDHA
+! Diff-Path: ../patches/7/7-s-1744287280-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.56
-! TimeUpdated: 2025-04-10T10:07:40+00:00
+! Version: 2.0.63.58
+! TimeUpdated: 2025-04-10T12:10:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1762,9 +1762,12 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+juken-mikata.net##.related_pc
+yukifx.web.fc2.com###div_leftadd_cont
+yukifx.web.fc2.com###div_leftadd_head
 ||smart-enta.com/wp-content/uploads/2024/02/sh_650x200_02.png.webp
 smart-enta.com##div[class^="banner_"]
-fujingaho.jp##.css-13k74wh
+fujingaho.jp##section[class^="css-"] > div[class^="css-"]:has(> div.ad-disclaimer)
 pleasureme.jp##.entry-content > div.button-block > a.btn-shine.has-green-background-color[href^="https://amzn.to"][target="_blank"]
 pleasureme.jp##.entry-content > div.wp-block-cocoon-blocks-micro-text:has(+ div.button-block > a.btn-shine.has-green-background-color[href^="https://amzn.to"][target="_blank"])
 pleasureme.jp##.entry-content > div.button-block:has(> a.btn-shine.has-green-background-color[href^="https://amzn.to"][target="_blank"]) + div.wp-block-cocoon-blocks-micro-text
@@ -3100,6 +3103,18 @@ s2-log.com##.ad-wrap1
 blog.2nt.com##a[href^="https://www.e-nls.com/access.php"][target="_blank"] > img[width="250px"][height="250px"]
 ||blog.with2.net/ad_frame.php
 chakuero-jyo-ho-koukanjyo.cafeblog.jp###extra div.plugin-memo > div.plugin-memo
+blog.2nt.com###center > div.ently_outline:first-child:has(> div.ently_body > div.ently_text > div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
+blog.2nt.com###left > div.body:first-of-type:has(> div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
+blog.2nt.com###left > h3:first-child:has(+ div.body > div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
+blog.2nt.com###main > div.content:nth-child(2):has(> div.entry_body > div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
+blog.2nt.com###main > div.content:nth-child(2):has(> div.entry_body > div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"]) + div.content_footer
+blog.2nt.com###main > div.entry_day:first-child:has(+ div.content > div.entry_body > div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
+blog.2nt.com##.entry:first-child > div.entry_body:has(> div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
+blog.2nt.com##.entry:first-child > div.entry-title:has(+ br + div.entry_body > div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
+blog.2nt.com##.entry:first-child > div.posted:has(> a[href$="/?overture"])
+blog.2nt.com##div[class$="_outline"]:has(> div > div.plugin-freearea > iframe[src^="http://blogparts.dmm.com"])
+blog.2nt.com##div[class$="_outline"]:has(> div > div.plugin-freearea > script[src$="dlsite.com/js/blogparts.js"])
+blog.2nt.com##div[class$="_outline"]:has(> div > div.plugin-freearea > script[src^="//adm.shinobi.jp"])
 blog.2nt.com##.header + div.plugin-freearea:has(> table div[style="margin:0;padding:5px;font-size:12px;word-break: break-all;"] > a[href^="https://www.sokmil.com/av/_item/"] > img)
 blog.2nt.com##div.content:first-child:has(> div.entry_body > div[style="text-align:center;margin-bottom:10px;"] + div[style="font-size:8px;"])
 eow.alc.co.jp##.rectangle_right
@@ -7905,6 +7920,7 @@ tools4music.info##.ads-related
 seotools.jp###seotools > div[style^="text-align:center; margin-"]
 seotools.jp##.bx-window[style$="width:300px;"]
 seotools.jp##div[style^="height: 250px;"]
+aucfree.com###FourM_video
 aucfree.com###adOvl
 aucfree.com###bread + div[style="width:100%; text-align: center; padding: 10px 0px;"]
 aucfree.com###md_similar_box

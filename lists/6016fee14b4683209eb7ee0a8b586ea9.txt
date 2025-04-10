@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: +yv+KFcomBIZu0wp7mKgAQ
-! Diff-Path: ../patches/16/16-s-1744283416-3600.patch
+! Checksum: XDC8erVuzWLSMuGRgd3A5A
+! Diff-Path: ../patches/16/16-s-1744312223-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.51.71
-! TimeUpdated: 2025-04-10T11:06:40+00:00
+! Version: 2.0.51.72
+! TimeUpdated: 2025-04-10T19:06:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1661,6 +1661,8 @@ app.molotov.tv##+js(no-xhr-if, /ping?token=)
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/202476
+$popup,domain=nathanfromsubject.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202576
 $popup,domain=do7go.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173355
@@ -4557,6 +4559,8 @@ _build=iclick-$popup
 ||abkajbvozmrkv.top^
 ||ablazesubconsciousadulate.com^
 ||ablecheap.com^
+||ablehandbookrepugnant.com^
+||ablelaunchshorts.com^
 ||ablyglossmartyr.com^
 ||abmagbychan.com^
 ||abnegateexcavator.com^
@@ -4632,6 +4636,7 @@ _build=iclick-$popup
 ||accountssticking.com^
 ||accreditedquite.com^
 ||accreteprocess.click^
+||accuracymangosixtyfold.com^
 ||accuratewistful.com^
 ||accusationfastidious.com^
 ||accusedmilkdemanded.com^
@@ -4655,7 +4660,9 @@ _build=iclick-$popup
 ||acoossa.top^
 ||acornfacilitatechecking.com^
 ||acornfarmerconnate.com^
+||acquirecardedsullen.com^
 ||acquiredcycle.com^
+||acquiredeceasedundress.com^
 ||acquiretank.com^
 ||acquitfamouscavity.com^
 ||acquitjeans.com^
@@ -4666,11 +4673,13 @@ _build=iclick-$popup
 ||actingwoodland.com^
 ||actio.systems^
 ||actionrtb.com^
+||activatormanorplausible.com^
 ||activitybump.com^
 ||activitycommence.com^
 ||actknuckleruinous.com^
 ||actoriends.info^
 ||actressact.com^
+||actscattydecode.com^
 ||actthrilled.com^
 ||actuallypartsspiral.com^
 ||actuallysicknessactually.com^
@@ -4770,6 +4779,7 @@ _build=iclick-$popup
 ||affectionatedragon.com^
 ||affectionatefurniturehypothesis.com^
 ||affectsyntaxthousand.com^
+||affidavitheadfirstonward.com^
 ||affiliatetracker.io^
 ||affirmativeinferiorfixed.com^
 ||afflatebog.top^
@@ -4784,6 +4794,7 @@ _build=iclick-$popup
 ||afraidsoil.pro^
 ||afreshexpanding.com^
 ||afreshtamper.com^
+||aftermostagrounduneasily.com^
 ||afternoongusdark.com^
 ||afternoonreeds.com^
 ||afterthoughtconsentedfame.com^
@@ -4836,6 +4847,7 @@ _build=iclick-$popup
 ||aidsbecry.click^
 ||aidsideused.live^
 ||aidsoamsaiphu.net^
+||aidsswaggertrimness.com^
 ||aifuwgcygccfp.com^
 ||ailcloister.com^
 ||ailkeyair.com^
@@ -4918,6 +4930,7 @@ _build=iclick-$popup
 ||allowssnagaffinity.com^
 ||allowsstripesdejection.com^
 ||alloybreathlesshomes.com^
+||alloystart.com^
 ||allrightpaint.com^
 ||allsprang.com^
 ||alludedeagle.com^
@@ -4926,10 +4939,12 @@ _build=iclick-$popup
 ||allusionappendslippery.com^
 ||allworldinfo4.ru^
 ||allworldinfo4.store^
+||almostextrudingmanhood.com^
 ||almsshroudy.shop^
 ||alnathmeetly.com^
 ||alnluamglbasqcb.xyz^
 ||aloftriottomato.com^
+||alonedisallowrearview.com^
 ||alonefabulous.com^
 ||alonged.com^
 ||aloofdissemble.com^
@@ -4946,6 +4961,8 @@ _build=iclick-$popup
 ||altitudehighjackhonorary.com^
 ||altogethereyesightfibber.com^
 ||aluminiumreluctanterect.com^
+||aluminumoutageprovince.com^
+||alumniheadfirstshamrock.com^
 ||alxfgnews.pro^
 ||amandeganev.shop^
 ||amanduscaster.top^
@@ -4961,6 +4978,7 @@ _build=iclick-$popup
 ||ambiguityhalfmoon.com^
 ||ambiguityhelperapathy.com^
 ||ambiguityornamenttell.com^
+||ambiguouscovertrustless.com^
 ||amendexasperatematter.com^
 ||amendmentbutterfly.com^
 ||amendsdeliveredpractical.com^
@@ -4975,6 +4993,7 @@ _build=iclick-$popup
 ||amnestyhailstone.com^
 ||amnionprunted.click^
 ||amongassessment.com^
+||amongnemesesquadrant.com^
 ||amongqueue.com^
 ||amongremember.com^
 ||amorallibrarysmother.com^
@@ -5008,14 +5027,18 @@ _build=iclick-$popup
 ||andamqhoiqmpo.xyz^
 ||andevoskolly.click^
 ||andiafanweed.top^
+||androidduvetscribble.com^
 ||androidundwelt.com^
 ||aneathbatt.top^
 ||anelerheen.top^
+||anemiakoalamothproof.com^
+||anewfeedliberty.com^
 ||angekokjarabe.click^
 ||angelaprincipal.com^
 ||angelcarrysideways.com^
 ||angerfondnessspecified.com^
 ||anglemarrowoccurs.com^
+||angrilydiameterscarcity.com^
 ||angrilyunbuttoncouch.com^
 ||anidianskirts.com^
 ||animateddanglediary.com^
@@ -5032,11 +5055,13 @@ _build=iclick-$popup
 ||announcenutshell.com^
 ||annoyancepromptlyfunding.com^
 ||annulmentsmallest.com^
+||anothereldestprogeny.com^
 ||anotherrifle.com^
 ||anothertuesdaypattern.com^
 ||anqnbzyvbkkan.top^
 ||ansariecaroche.top^
 ||antdomeneuch.click^
+||anteaterdriftrecast.com^
 ||antecedenthermichermiccheque.com^
 ||antennamarsh.com^
 ||antennascan.com^
@@ -5045,6 +5070,7 @@ _build=iclick-$popup
 ||antidiskcaught.com^
 ||antiquarianjenny.com^
 ||antiquityundeniable.com^
+||antirustexistingtaking.com^
 ||antiunbearable.com^
 ||antlermaze.com^
 ||antlerrhinoceros.com^
@@ -5058,6 +5084,7 @@ _build=iclick-$popup
 ||anxmvmski.com^
 ||anymorestaying.com^
 ||anyonemost.com^
+||anytimebananarecoil.com^
 ||anywhereconvince.com^
 ||aohqdqeaj.xyz^
 ||aozoiekopoaka.shop^
@@ -5084,10 +5111,12 @@ _build=iclick-$popup
 ||appeaserepose.com^
 ||appeasetruthinclude.com^
 ||appetitebetrayhappened.com^
+||appetitecamisolereawake.com^
 ||appetitethreatened.com^
 ||applesconvertedpansy.com^
 ||appletdejectedsounds.com^
 ||appletrelentlessfreeway.com^
+||appliancecolaprofessor.com^
 ||applicantsmilesassembly.com^
 ||applicanttowardsbureau.com^
 ||applicationsstereocanoe.com^
@@ -5124,6 +5153,7 @@ _build=iclick-$popup
 ||arcticclairvoyant.com^
 ||arcticdraft.com^
 ||arcvnnxwoikddsj.xyz^
+||ardentlydrivablepagan.com^
 ||ardourunderneath.com^
 ||areagrammanor.com^
 ||areconform.com^
@@ -5158,6 +5188,7 @@ _build=iclick-$popup
 ||articlewhistle.com^
 ||arulofalk.shop^
 ||ascensionrelativestuck.com^
+||ascentlitigateunsaved.com^
 ||asexcadrillom.com^
 ||ashinetalk.com^
 ||ashrafiaphacic.click^
@@ -5166,6 +5197,8 @@ _build=iclick-$popup
 ||asmonfernor.com^
 ||aspenpalette.com^
 ||asperityresidential.com^
+||aspiredemeaningmarvelous.com^
+||aspirincountryprofound.com^
 ||asqpniwvxea.com^
 ||assadbee.live^
 ||assignlabor.com^
@@ -5174,6 +5207,8 @@ _build=iclick-$popup
 ||assumeditch.com^
 ||assurancedangerous.com^
 ||astonishing-service.com^
+||astrologybacklightsinless.com^
+||astronautlividlyreformer.com^
 ||astylararsines.com^
 ||atadsoalsuget.net^
 ||atchshipsmotor.com^
@@ -5189,11 +5224,13 @@ _build=iclick-$popup
 ||atslowpokechan.com^
 ||atsnivychan.com^
 ||atswabluom.com^
+||attacheatableoverlabor.com^
 ||attarpantoon.click^
 ||attemptsbetween.com^
 ||attendingpets.com^
 ||atterrhagmall.shop^
 ||attictop.com^
+||attirecideryeah.com^
 ||attorchica.com^
 ||attractglamorous.com^
 ||auchoompimt.com^
@@ -5221,6 +5258,7 @@ _build=iclick-$popup
 ||autopsytan.com^
 ||autorekrb.bid^
 ||auxissouckie.net^
+||avalanchetremorunfilled.com^
 ||avaljumectk.com^
 ||aveguijdwp.com^
 ||avehistoric.com^
@@ -5245,8 +5283,10 @@ _build=iclick-$popup
 ||awavjblaaezbb.top^
 ||awcnsvikjfvh.com^
 ||awdeliverynet.com^
+||awesomeststuff.com^
 ||aweyqalylqqr.top^
 ||awhiledad.com^
+||awhilediplomagloss.com^
 ||awkbkkqmeeoaj.top^
 ||awokeembarkquicker.com^
 ||awpgnhnewonyq.xyz^
@@ -5275,14 +5315,22 @@ _build=iclick-$popup
 ||b9009ada63.com^
 ||b984ec416b.com^
 ||baarspo.ru^
+||babblegenericnastiness.com^
 ||babblelessenairline.com^
 ||babyismwestlin.click^
+||backachedimpleparalyses.com^
+||backachegrudgesiamese.com^
 ||backforward.bid^
+||backspinreentryupright.com^
+||backwashcrowdstylized.com^
 ||badayscase.live^
 ||badgerjeff.com^
+||badlandlispyippee.com^
 ||bafflecouriernoble.com^
 ||bafsvvxppgicvs.com^
 ||baggydistribution.com^
+||bagpipemonogamypercent.com^
+||baguettefactornervous.com^
 ||baihaimauve.net^
 ||baishaip.net^
 ||baitdyed.com^
@@ -5301,8 +5349,10 @@ _build=iclick-$popup
 ||bankedbaisakh.com^
 ||bankersend.com^
 ||bannermorninginterference.com^
+||bannisterflaskputdown.com^
 ||banselaunswear.casa^
 ||bansheecabful.shop^
+||banteroatresurface.com^
 ||baptismdesired.com^
 ||baptismfortune.com^
 ||bardilyshouted.com^
@@ -5312,6 +5362,8 @@ _build=iclick-$popup
 ||barking-heads.ru^
 ||barnsalodial.top^
 ||baroconobby.top^
+||barometercorrodingunease.com^
+||barrackmuppetunhealthy.com^
 ||barwalstoops.click^
 ||baseearsh.com^
 ||basereflect.com^
@@ -5336,6 +5388,7 @@ _build=iclick-$popup
 ||beachinfinitegag.com^
 ||beaglemanipulate.com^
 ||bearinggall.com^
+||bearscutte.com^
 ||beatcuqa.xyz^
 ||beatentransfer.com^
 ||beatenunfinishedguarantee.com^
@@ -5346,6 +5399,7 @@ _build=iclick-$popup
 ||beeglain.net^
 ||beerenslavearena.com^
 ||beergeneralization.com^
+||beestark.com^
 ||befoulsusaunce.click^
 ||begengaron.com^
 ||begetshowder.shop^
@@ -5357,6 +5411,7 @@ _build=iclick-$popup
 ||beigelazinessdetected.com^
 ||belgianbesin.shop^
 ||believeisabella.com^
+||belikewe.com^
 ||bellygratification.com^
 ||bemireulling.com^
 ||benchraspberry.com^
@@ -5374,6 +5429,7 @@ _build=iclick-$popup
 ||beseechpill.com^
 ||bespakerubbles.com^
 ||bespyscania.com^
+||bessttie.com^
 ||bestaffaiirs.com^
 ||bestaffair.net^
 ||bestafffair.com^
@@ -5421,28 +5477,35 @@ _build=iclick-$popup
 ||birthdependentmillennium.com^
 ||bitonlyana.live^
 ||bixoabsoams.com^
+||bizosama.com^
 ||bjmkptrpcrgtjdo.xyz^
 ||bjyc6868.com^
 ||bkrkv.com^
 ||bladdersruinousalternative.com^
 ||bladdersvictimbleak.com^
 ||bladeboyduty.com^
+||blahlivedsnowdrop.com^
+||blamingnuclearplasma.com^
 ||blankgrey.com^
 ||blanksuppoint.com^
 ||blasonsemiurn.shop^
 ||blastsfaints.shop^
 ||blastswaggons.com^
 ||blawnsodium.com^
+||blazercachefactor.com^
 ||bleedmarrow.com^
+||bleepgizmorecital.com^
 ||blewwhence.com^
 ||blindsinkaward.com^
 ||blistereasily.com^
 ||blisterlngdates.net^
 ||bllsteringdates.net^
+||bloatingexpectantretinal.com^
 ||blockedanticipated.com^
 ||blockedpriority.com^
 ||blockedvideoss.xyz^
 ||blockslurk.com^
+||blotecardthumb.com^
 ||blowingparkish.click^
 ||blsznpcpmsjmeq.com^
 ||blueberrydanelarger.com^
@@ -5461,13 +5524,16 @@ _build=iclick-$popup
 ||bnsjb1ab1e.com^
 ||bobbyscole.shop^
 ||bobetpoe.com^
+||bobsleddomesticglandular.com^
 ||bochursitulae.top^
 ||boddawkin.shop^
 ||bogoloaner.click^
 ||bogus-town.com^
 ||bohonef.com^
+||boilhumoristpacifist.com^
 ||boldlydaisy.com^
 ||bolsaifoony.com^
+||bondingcloningribcage.com^
 ||bondleapedoasis.com^
 ||bonebrick.com^
 ||bonecommittee.com^
@@ -5478,7 +5544,9 @@ _build=iclick-$popup
 ||bookletblockedcaught.com^
 ||bookwormtiger.com^
 ||boomarmoryscattered.com^
+||bootingunpickedusable.com^
 ||borghjism.com^
+||boringherbalprewashed.com^
 ||borniteeven.shop^
 ||bosscrystudious.com^
 ||bosselinorrummage.com^
@@ -5490,10 +5558,12 @@ _build=iclick-$popup
 ||botkano.info^
 ||bottlesgarage.com^
 ||bottlestonightapp.com^
+||bottlestrivingtarget.com^
 ||boughtrellyan.click^
 ||bouglema.net^
 ||bouncingcombine.com^
 ||bouwofiwoaph.net^
+||bovinetimingunsaddle.com^
 ||bowcircle.com^
 ||bowcoolstop.live^
 ||boweddrawback.com^
@@ -5503,6 +5573,10 @@ _build=iclick-$popup
 ||bowlingunauthorized.com^
 ||bowlsalb.click^
 ||bowsingchilkat.click^
+||boxcartidalvoicing.com^
+||boxlikesedativespinach.com^
+||boxycupbearerjot.com^
+||boxypluckunrelated.com^
 ||boyunaunify.shop^
 ||bpmlhyvnxjbm.com^
 ||bqltphcdmuu.xyz^
@@ -5529,6 +5603,7 @@ _build=iclick-$popup
 ||brieaafrhhjpe.com^
 ||brief-secret.com^
 ||briefcasebotany.com^
+||brigadedelegatesandbox.com^
 ||brigueeumenid.top^
 ||briiiiantsdates.com^
 ||briiilantsdates.com^
@@ -5539,6 +5614,7 @@ _build=iclick-$popup
 ||brlliiantsdates.com^
 ||brllllantsdates.net^
 ||brmwmmnleeqma.top^
+||broadsidedaisysanta.com^
 ||broganaphylly.com^
 ||bronzecedarleaf.com^
 ||bronzerkevil.com^
@@ -5546,7 +5622,9 @@ _build=iclick-$popup
 ||brotherhoodonionbuttons.com^
 ||brotherleadcape.com^
 ||broughtcontract.com^
+||browbeatcaramelstole.com^
 ||brownyduer.com^
+||browsecoherentunrefined.com^
 ||browsfincandidate.com^
 ||bruisedlungmisuse.com^
 ||brujosglozed.com^
@@ -5554,8 +5632,10 @@ _build=iclick-$popup
 ||brunettemattersrefused.com^
 ||brutalmathematics.com^
 ||bryansansone.shop^
+||bubblemayflowernephew.com^
 ||bubblyzucchini.com^
 ||buckanimateretired.com^
+||bucklechemistdensity.com^
 ||budgedsnavvle.com^
 ||budnetoil.com^
 ||bugabooreynard.top^
@@ -5570,6 +5650,7 @@ _build=iclick-$popup
 ||bumpingcarfax.com^
 ||bumpmoss.com^
 ||bumslauded.shop^
+||bundlemoviepumice.com^
 ||bureausdenning.com^
 ||burgerrelationscrash.com^
 ||burgerscapra.shop^
@@ -5584,6 +5665,7 @@ _build=iclick-$popup
 ||bushpoutquest.com^
 ||buskersvis.shop^
 ||busticsfibrose.com^
+||bustslicerstrongbox.com^
 ||busyingcambogecarib.shop^
 ||buthawk.com^
 ||buthoacm.net^
@@ -5622,6 +5704,7 @@ _build=iclick-$popup
 ||cabioagorae.click^
 ||cableharshlyilliterate.com^
 ||cablepaddle.com^
+||cacklegrievingtank.com^
 ||caesarporch.com^
 ||cagewervel.top^
 ||caicaipoop.com^
@@ -5630,23 +5713,30 @@ _build=iclick-$popup
 ||caizuwailou.net^
 ||cakesdenyconventional.com^
 ||cakesinventory.com^
+||calamitymyselfprong.com^
 ||calicheesox.com^
 ||callousannounced.com^
 ||cameradiminishunkind.com^
 ||camomilegentlemennotable.com^
+||campfirecroutondecorator.com^
 ||campusexcessively.com^
+||canceltrustingunderuse.com^
 ||candiedsquall.com^
 ||candouraggravate.com^
 ||candygainpeace.com^
+||canekilttantrum.com^
 ||cannedrestrict.com^
 ||cannetstoups.click^
+||canningpajamastint.com^
 ||cannonclam.com^
 ||cannonkit.com^
 ||cannotmoreover.com^
 ||canoeeverywhereannihilate.com^
+||canolamonthlyswapping.com^
 ||canroyastrol.click^
 ||capabilityhonorary.com^
 ||capawhile.com^
+||capitalgolfmushily.com^
 ||cappuccinoeliza.com^
 ||caprizecaprizedogcollar.com^
 ||caproinrobalo.click^
@@ -5654,6 +5744,8 @@ _build=iclick-$popup
 ||carbysae.live^
 ||carcakebedunch.com^
 ||cardflower.fun^
+||cardiganpalmreconcile.com^
+||carelessswimsuittabloid.com^
 ||cariousjan.com^
 ||caritydidicoy.click^
 ||carlozigzag.com^
@@ -5720,11 +5812,14 @@ _build=iclick-$popup
 ||chaisehoorahs.com^
 ||chaiserepiece.com^
 ||chaithoa.com^
+||chaliceguzzlerlandlord.com^
 ||chalondeacons.com^
 ||channelgardeningplaster.com^
 ||channelmarket.xyz^
 ||chappalanatum.com^
+||characterlinguinisnarl.com^
 ||charityflopchristening.com^
+||charitylingoreformer.com^
 ||charmobedience.com^
 ||chartactiveuncertain.com^
 ||chasmalsacques.shop^
@@ -5736,11 +5831,15 @@ _build=iclick-$popup
 ||cheapererred.click^
 ||checkmymedia.biz^
 ||cheesedrabat.shop^
+||chemicalssmuglyuntying.com^
 ||chertouz.net^
 ||chetsal.com^
 ||chetsoamta.net^
 ||chibchamudbank.click^
 ||chichblunder.shop^
+||chihuahuadoorstoppond.com^
+||chilihandshakewing.com^
+||chilimonoxidesalary.com^
 ||chillsymca.com^
 ||chillylanguish.com^
 ||chimbtoriest.shop^
@@ -5765,6 +5864,7 @@ _build=iclick-$popup
 ||choumoltily.net^
 ||chourgaib.net^
 ||chozeers.xyz^
+||chubbyexemplaryhardiness.com^
 ||chudaids.com^
 ||chuhoaro.com^
 ||chunderrepiner.com^
@@ -5772,10 +5872,12 @@ _build=iclick-$popup
 ||chuwhaizie.net^
 ||chytridaustral.com^
 ||cidreeth.com^
+||citadelexampleruckus.com^
 ||ciwieswaters.top^
 ||cjtraff.com^
 ||cjttdguhiqmdim.xyz^
 ||ckdxbragemqum.com^
+||clambakefreenessunclasp.com^
 ||cleardexchange.com^
 ||clicksmint.site^
 ||clicvortex.com^

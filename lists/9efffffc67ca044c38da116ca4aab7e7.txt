@@ -1322,7 +1322,6 @@ $removeparam=source_ve_path,domain=youtubekids.com|youtube-nocookie.com|youtube.
 ||etsy.com^$removeparam=click_sum
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160495
 ||myprotein.jp^$removeparam=affil
-||myprotein.jp^$removeparam=a8
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159733
 ||email.nationalgeographic.com^$removeparam=__F__
 ||email.nationalgeographic.com^$removeparam=__dU__
@@ -2862,6 +2861,8 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 !
 !
 !
+! Some a8 links on https://figure-times.com/
+@@||a8cv.amiami.jp/click/$removeparam=a8
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201922
 !+ PLATFORM(ext_ublock)
 @@||rpc.meituan.com/api/foodorder$removeparam,xmlhttprequest,domain=awp.meituan.com

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: B1mp1KPAKif0xhJCUrcXkA
-! Diff-Path: ../patches/7/7-s-1744222360-3600.patch
+! Checksum: qhSkCB4TnLPHL5shOgBCMg
+! Diff-Path: ../patches/7/7-s-1744279894-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.55
-! TimeUpdated: 2025-04-09T18:08:28+00:00
+! Version: 2.0.63.56
+! TimeUpdated: 2025-04-10T10:07:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3522,7 +3522,7 @@ game8.jp##header ~ .c-richlp__wrapper
 gameline.jp##.trvdp-box
 gotokyo.org###advert_area_0
 somanystars.net##div[id^="soman-"]
-javadrive.jp,ske48matome.net,dragoooon.com,corriente.top,sundaygamer.net##.adbox
+figure-times.com,javadrive.jp,ske48matome.net,dragoooon.com,corriente.top,sundaygamer.net##.adbox
 ||stds.jp/wp-content/uploads/*_300_250.webp
 stds.jp###amzout
 ||yimg.jp/images/listing/tool/yads/
@@ -5994,7 +5994,6 @@ workingnews117.com##.boxright
 workingnews117.com##.logbox td > div:first-child
 workingnews117.com##.more_ads
 toku.yahoo.co.jp##.cmpList__adBlock
-figure-times.com###sticky-ads
 ||type-bee.co.jp/*/shared/tapnovel-banner-$third-party
 seniorguide.jp##aside.ad
 nomad-saving.com##.entry-footer-ad
@@ -9038,7 +9037,6 @@ gigazine.net##.e_frame.e_ad
 douga-getter.com##.small.text-center > div.row > div.text-center[style="margin-top:2px;color:#6c757d"]
 dragonball-neta.com##.boxzilla-container
 dic.pixiv.net##.d_header
-dic.pixiv.net##.actions + section[style^="text-align: center; background: #FFF"]
 ||pximg.net/source/dic/javascript/ad.js
 nicovideo.jp##.PreVideoStartPremiumLinkContainer
 ||mbadw.nan.co.jp^$subdocument

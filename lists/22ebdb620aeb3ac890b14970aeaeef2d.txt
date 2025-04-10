@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Yiyspp4DsI7MmlVu9P0FWA
-! Version: 202504092100
+! Checksum: Jh/1wQABNXVTIWCdofBQdQ
+! Version: 202504100135
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2025-04-09 21:00 UTC
+! Last modified: 2025-04-10 01:35 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -27,7 +27,6 @@
 ||static.chrono24.com/lib/generated/js/app-hint-layer.
 ||tapcart.com/mobile-download-banner/banner-min.js
 !
-!------------------------General/Specific element hiding rules-------------------------!
 ! Mobile Notifications
 ###SmarterBannerContainer
 ###appInstallNotification
@@ -580,11 +579,9 @@ foxnews.com##strong:has-text(GET THE FOX NEWS APP)
 thepointsguy.com#?#.noVerticalPad:-abp-contains(Download the TPG App)
 ! Advanced element hiding rules for Adblock Plus
 analyticsindiamag.com#?#.elementor-section-content-middle[data-settings="{\"background_background\":\"classic\"}"]:-abp-has(a[href^="https://play.google.com/store/apps"])
-!-------------------------Third-party blocking rules--------------------------!
 ! Mobile notifications
 ||app.adjust.net.in/smart_banner
 ||mobi24.net^$third-party
-!------------------------Specific uBO rules ------------------------!
 ! fanboy_notifications_specific_uBO.txt
 downace.com##+js(acis, requestPermission)
 news18.com##+js(acis, serviceworker.register)
@@ -868,7 +865,6 @@ cecile.co.jp,nola-novel.com##.smartbanner-show:style(margin-top: 0 !important;)
 s.tabelog.com##body,html:style(overflow-y: auto !important;)
 s.tabelog.com###js-webtoapp-floating-banner
 s.tabelog.com###js-webtoapp-floating-banner-overlay
-!---------------------------------Allowlists----------------------------------!
 ! Mobile Notifications
 @@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party
 @@||assure.ameli.fr^*/smart-app-banner.js$~third-party

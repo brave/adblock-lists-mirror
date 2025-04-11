@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3DW8jS9h9MYP7TPUDdgyOQ
-! Diff-Path: ../patches/1/1-s-1744359179-3600.patch
+! Checksum: CTseML9UOQYtEtpeYJDPyQ
+! Diff-Path: ../patches/1/1-s-1744366249-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.98.64
-! TimeUpdated: 2025-04-11T08:08:19+00:00
+! Version: 2.0.98.65
+! TimeUpdated: 2025-04-11T10:06:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -17657,6 +17657,7 @@ gorodkirov.ru,navigator-kirov.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,
 !
 ! Mangalib
 yaoilib.net,hentailib.*,ranobelib.me,mangalib.me,anilib.me##div[style="margin-top: 20px; margin-bottom: 20px;"]
+yaoilib.net,hentailib.*,ranobelib.me,mangalib.me,anilib.me##div[data-reader-mode="vertical"] > div[style="margin-top: 8px; margin-bottom: 12px;"]
 !
 ! Sites of the same owner. Sometimes domains may be changed
 koro.life,mose.su,findani.me,selflib.me,rumix.me,selfmanga.live,doramatv.one,usagi.one,grouple.co,allhen.online,mintmanga.one,doramatv.live,librebook.me,readmanga.ru,readmanga.io##.brands > div[onclick]

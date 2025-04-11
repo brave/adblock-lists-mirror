@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k4FgkcWn57Jm2aJPnNzXKw
-! Version: 202504110941
+! Checksum: dtoj3sVNVRv5e49AtAo5xQ
+! Version: 202504111041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Apr 2025 09:41 UTC
+! Last modified: 11 Apr 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14773,6 +14773,7 @@ allboxing.ru#?#.last-news:-abp-has(> .block_title ~ [id^="unit_"])
 2000.ua##.last_articles
 footballhd.ru#?#.lastnewscat:-abp-has(> [id*="ScriptRoot"])
 ~fishki.net,yandex.ru#?#.layout__left_sticky > div[class$="-wrapper"]:-abp-has(> .related-root.typo:empty)
+eurointegration.com.ua##.layout_news > .separator::after
 ko.com.ua##.layout_right_column > p
 izvestia.kiev.ua##.lazy-load-box[style^="font-size: 0.75em;"]
 savepic.net##.lb-sideleft

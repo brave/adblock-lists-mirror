@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 6MuvcVmnNYascTCdott+tA
-! Diff-Path: ../patches/9/9-s-1744351980-3600.patch
+! Checksum: osgV0O48OpPDAbsicBDqqw
+! Diff-Path: ../patches/9/9-s-1744355457-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.29.53
-! TimeUpdated: 2025-04-11T06:09:09+00:00
+! Version: 2.0.29.54
+! TimeUpdated: 2025-04-11T07:07:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2205,6 +2205,7 @@ c5n.com,t13.cl,solowrestling.mundodeportivo.com,todojujuy.com,mendozapost.com,me
 !
 ! NOTE: Specific rules
 !
+blog.desdelinux.net###special-sidebar-template
 ||war.pe/warp.js
 portaldohost.com.br##.ipsResponsive_inlineBlock > a[target="_blank"] > img
 teknofilo.com##.it-ad-wrapper
@@ -2943,7 +2944,7 @@ elmundo.es##div[class*="ue-c-main-header__subscription"]
 derechadiario.com.ar##a[href="https://www.zbl-legal.com/"] > img
 netflu.com.br,revistaoeste.com,diariodorio.com##.autozep-outer
 ahnegao.com.br###global_topo
-megacanais.com,terrabrasilnoticias.com,psxbrasil.com.br,elrincondecabra.com,atelevisao.com,ahnegao.com.br##.code-block
+blog.desdelinux.net,megacanais.com,terrabrasilnoticias.com,psxbrasil.com.br,elrincondecabra.com,atelevisao.com,ahnegao.com.br##.code-block
 ahnegao.com.br##.sidebar-main > aside.ai_widget
 midiamax.uol.com.br###fixed-banner
 pelismx.lat,coleccionmovie.com##a[href*="?key="][target="_blank"]
@@ -3574,7 +3575,7 @@ uai.com.br,elchapuzasinformatico.com##.bg-ad
 ||elchapuzasinformatico.com/wp-content/uploads/*/Sk1n-*.jpg
 ||elchapuzasinformatico.com/wp-content/uploads/*/B4nner-*.jpg
 caracoltv.com,bluradio.com##.GoogleDfpAd-Float-Content
-animesonehd.xyz###block-7
+soploslinux.com,animesonehd.xyz###block-7
 dicionarioinformal.com.br##div[style="height:322px;"]
 somosche.com,dicionarioinformal.com.br##div[style="height:90px;"]
 jovemnerd.com.br###Position_TopFixed

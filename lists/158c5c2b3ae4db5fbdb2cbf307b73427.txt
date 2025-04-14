@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f99loB5RCeqtWFcmCdxKew
-! Version: 202504141941
+! Checksum: C26d8RtSDub5p8X1F/RNRQ
+! Version: 202504142041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Apr 2025 19:41 UTC
+! Last modified: 14 Apr 2025 20:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -939,7 +939,7 @@ superkarate.ru##.btn-social-wrapper
 audioknigi-online.ru##.btn-vk
 amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,stavropol.media,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.btn_fly_share
 infoindustria.com.ua##.button-telegram
-braz-rus.pro#?#.button:-abp-has(> [name="i-mdi-share-variant"])
+bzrus.pro#?#.button:-abp-has(> [name="i-mdi-share-variant"])
 doramax.org##.button[onclick*=".soc_buttons"]
 qiq.ws##.buttonbox
 vgorodekirove.ru##.buttond
@@ -2733,7 +2733,7 @@ alau.kz##[data-widget_type="image.default"] ~ [data-widget_type="vinazine-block-
 fastpic.org##[id*="footer"] a[href*="twitter.com"]
 sovkusom.ru##[id^="essbsocialfanscounterwidget"]
 growhow.in.ua##[id^="instagram-feed-widget"]
-braz-rus.pro##[id^="oframeplayer-"] > pjsdiv[style*="top: 25px;"]
+bzrus.pro##[id^="oframeplayer-"] > pjsdiv[style*="top: 25px;"]
 ebooks.skin##[id^="share"]
 factorio.su##[id^="vkapi_"]
 kaskad.tv#?#[itemprop="articleBody"] + div .uk-first-column:-abp-has(> a[href^="https://vk.com/"])
@@ -7125,6 +7125,8 @@ tv.yandex.ru,tv.yandex.*##.tv-teaser
 ya.ru,yandex.*#?#.dist-overlay__popup
 ya.ru,yandex.*#?#.simple-popup__overlay_shown
 ya.ru,yandex.*#?#.simple-popup__overlay_shown_true
+yandex.ru,yandex.*##button[class^="AppPromo_container_"]
+yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 !#if ext_abp
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot

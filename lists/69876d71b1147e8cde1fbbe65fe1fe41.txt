@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Td1DVaRUarRMRFhU95OdPA
-! Diff-Path: ../patches/13/13-s-1744463582-3600.patch
+! Checksum: 8KU21MjGZHKevDhylGDoZQ
+! Diff-Path: ../patches/13/13-s-1744625497-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.55.67
-! TimeUpdated: 2025-04-12T13:09:31+00:00
+! Version: 2.0.55.68
+! TimeUpdated: 2025-04-14T10:07:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -515,8 +515,8 @@ oyungibi.com##+js(set-constant, jQuery.adblock, false)
 osxinfo.net##+js(abort-current-script, $, !document.getElementById(btoa)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49271
 turkdenizcileri.com,bilgalem.blogspot.com##+js(set-constant, koddostu_com_adblock_yok, null)
-! https://github.com/AdguardTeam/AdguardFilters/issues/167228
-tekniknot.com##+js(abort-on-property-read, msender)
+! https://github.com/AdguardTeam/AdguardFilters/issues/203121
+tekniknot.com##+js(abort-on-property-read, workfile)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47184
 @@||veterinerhekimleri.com/wp-content/plugins/*/includes/adblock-detector/advertisement.js
 veterinerhekimleri.com##+js(set-constant, jQuery.adblock, false)

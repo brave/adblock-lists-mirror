@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BZvzQGh14zdGEMDTHdebFg
-! Diff-Path: ../patches/8/8-s-1744632896-3600.patch
+! Checksum: SwEFYj1Sd5D5vbSSwKwVtA
+! Diff-Path: ../patches/8/8-s-1744654344-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.8.2
-! TimeUpdated: 2025-04-14T12:10:51+00:00
+! Version: 2.0.8.3
+! TimeUpdated: 2025-04-14T18:08:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -65,6 +65,7 @@ _advertentieleaderboardhome.
 ||nonstoppartner.net^$third-party
 ||online-banners.nl^$third-party
 ||optoutadvertising.com^$third-party
+||publize.net^
 ||sponsorkliks.com^$third-party
 ||static-dscn.net^$third-party
 ||tools-affil2.com^$third-party
@@ -1430,6 +1431,7 @@ basketballbelgium.be##img[width="970"][height="250"]
 bol.com##section.js_slot-sponsored-products
 landenweb.nl##table[style="margin-left: auto; margin-right: auto; border: 1px solid; width: 100%; margin-bottom: 10px;"]
 radiocaramba.nl##table[width="120"][height="600"]
+fok.nl##.col-1.h4:has(.sponsorsTxt)
 androidplanet.nl##.group.relative.flex-shrink-0.lg\:flex-shrink.lg\:first\:col-span-2.lg\:first\:row-span-2.w-\[300px\].lg\:w-auto.flex:has(div[data-name="sponsor-logo"])
 investmentofficer.nl##.io-tape-card__wrap:has(.io-tape-card__label__sponsored)
 weer.nl##.items-center.w-full.justify-center:has(div[data-advert-placeholder-collapses])

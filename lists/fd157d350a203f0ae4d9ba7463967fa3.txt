@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Af5rcni/ziOxr0YQBZ9FVA
-! Version: 202504140741
+! Checksum: 4t9pEGlsTQpvLu43nT8NuQ
+! Version: 202504140841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Apr 2025 07:41 UTC
+! Last modified: 14 Apr 2025 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10389,6 +10389,7 @@ _tizers.
 ||viaqoo.tech^$third-party
 ||viavideo.digital^$third-party
 ||vicodes.com^$third-party
+||victorycorp.ru^$third-party
 ||vidalak.com^$third-party
 ||vidasys.ru^$third-party
 ||vidaugust.ru^
@@ -23263,7 +23264,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?o2nou=$xmlhttprequest
+||pikabu.ru/ajax/*?dmk6r=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24965,6 +24966,7 @@ winstation.ru##.overlay-wrapper.thanks
 muz-tv.ru##.ovl_pf
 alpindustria.ru##.personal > .overlay
 belsat.eu,bizua.org,growhow.in.ua,hariola.com,ukrhealth.net##.popmake-overlay
+gb.ru##.popup-wheel-overlay
 alpindustria.ru##.popup.subscribe_panel
 golbis.com##.post-top-meta[style*="fixed;"]
 hdstudio.org##.promo-bl

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: kTMeVixvexBhCRjuxmVG8g
-! Diff-Path: ../patches/7/7-s-1744628999-3600.patch
+! Checksum: 3aon4fvU8KXrkVX1i17z9g
+! Diff-Path: ../patches/7/7-s-1744704782-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.66
-! TimeUpdated: 2025-04-14T11:06:18+00:00
+! Version: 2.0.63.68
+! TimeUpdated: 2025-04-15T08:09:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -440,6 +440,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/203197
+||math-joy-life.com/build/assets/detect-*.js
 ! anti-adb
 pokegonews.net##+js(noeval-if, 広告)
 pokegonews.net##body > [id][style^="display: block; width: 99"]
@@ -5145,7 +5147,7 @@ simchange.jp##.recruit
 ||simchange.jp/wp-content/uploads/*_300-250.jpg
 formula1-data.com##.ad--inFeed
 formula1-data.com##.js--removeAdStyle
-formula1-data.com##div[class*="ad--rectangle--"]
+formula1-data.com##div[class*="adContent--"]
 formula1-data.com##article[class^="mdlGrid_"] > a[href^="https://www.amazon.co.jp/"]
 gooworld.jp##iframe[src^="https://proto2ad.durasite.net/"]
 ore-nijigazo.com##.adBox_inNews

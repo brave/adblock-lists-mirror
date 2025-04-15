@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: u6Bei5eLHYUgekHjEUwgvQ
-! Diff-Path: ../patches/7/7-s-1744740705-3600.patch
+! Checksum: wNYhydx1tJLRE1GAcTremA
+! Diff-Path: ../patches/7/7-s-1744747898-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.73
-! TimeUpdated: 2025-04-15T18:07:56+00:00
+! Version: 2.0.63.74
+! TimeUpdated: 2025-04-15T20:07:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1768,6 +1768,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+tsumanne.net##object[data^="https://creative.rmhfrtnd.com/"]
+tsumanne.net##object[data^="/inoue.html"]
 it.in-jpn.com##body > a[rel*="sponsored"]
 oninet.ne.jp##a[href^="https://hb.afl.rakuten.co.jp/hsc/"]
 oninet.ne.jp##a[href^="https://hb.afl.rakuten.co.jp/hsc/"] ~ img[src="qr-rakuten-travel-logo.png"]

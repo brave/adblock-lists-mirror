@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ysnIfwSFgvB+/lHxseYkWA
-! Version: 202504151441
+! Checksum: wGNnpvloRTUV4S4MSIl10w
+! Version: 202504151541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Apr 2025 14:41 UTC
+! Last modified: 15 Apr 2025 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18121,7 +18121,6 @@ kaztorka.org##body > :not(div):not([id]):not([class]):not([style]):not(script)
 naruto-base.tv##body > [class]:empty
 riotpixels.com##body > [class^="side-url-"]
 browserss.ru##body > [id$="_master_footer"] ~ [id$="_master_footer"] > div[id$="_master_footer_Container"] > div[id^="Layer"]
-newsyou.info##body > [id^="img_"] [id]
 edufuture.biz,popgun.ru,trupornolabs.org,xvatit.com,xxxadulttorrent.org##body > [onclick]
 naruto-base.tv##body > [target="_blank"]
 budport.com.ua,lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv5.site,mylenium.ru##body > a
@@ -19915,7 +19914,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||yandex.ru/turbo?text=https*fishki.net$csp=connect-src
 !
 ! Унифицированное правило для fundingchoicesmessages.google.com
-$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.addtoany.com *.amazonaws.com *.cloudflare.com *.dmca.com *.disqus.com *.disquscdn.com *.enduro.team *.facebook.com *.getsitecontrol.com apis.google.com cse.google.com *.google.com/cse/ *.google.com/complete/ *.google.com/recaptcha/ translate.google.com www.google.com *.googleapis.com *.googletagmanager.com *.gstatic.com/recaptcha/ *.instagram.com *.jivosite.com *.jquery.com *.keycaptcha.com *.sendpulse.com *.sharethis.com *.po.st *.threadloom.com *.tiktok.com *.trustpilot.com *.twitter.com vk.com www.youtube.com *.dev *.io *.net *.org *.ru *.ua,domain=agroter.com.ua|alensat.com|allbasketball.org|askentire.net|autonews.co.ua|autosoftos.com|babla.ru|bio-lessons.ru|callfilter.app|cardiagram.com.ua|clickthis.blog|coollib.net|delo.ua|elegantwoman.kyiv.ua|enduro.team|eurointegration.com.ua|farposst.ru|findhow.org|for-driver.info|gazeta-misto.te.ua|golos.te.ua|icon-icons.com|ilenta.com|index.minfin.com.ua|inforesist.org|kovelpost.com|kreschatic.kiev.ua|kurs.com.ua|mirlib.ru|modfix.ru|musinfo.net|ontvtime.ru|orbit-games.com|pb-news.info|perpendicular.pro|pes-files.ru|pingvin.pro|poezdato.net|poizdato.net|pravda.com.ua|rovesnyknews.te.ua|ruboard.website|skidkaonline.ru|sundries.ua|tenews.org.ua|ternopillive.com|tribun.com.ua|uapress.kyiv.ua|valorantinfo.com|vesti-ua.net|vkazivka.com|wallpapershome.ru|xn--80aaukc.xn--j1amh
+$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.addtoany.com *.amazonaws.com *.cloudflare.com *.dmca.com *.disqus.com *.disquscdn.com *.enduro.team *.facebook.com *.getsitecontrol.com apis.google.com cse.google.com *.google.com/cse/ *.google.com/complete/ *.google.com/recaptcha/ translate.google.com www.google.com *.googleapis.com *.googletagmanager.com *.gstatic.com/recaptcha/ *.instagram.com *.jivosite.com *.jquery.com *.keycaptcha.com *.sendpulse.com *.sharethis.com *.po.st *.threadloom.com *.tiktok.com *.trustpilot.com *.twitter.com vk.com www.youtube.com *.dev *.io *.net *.org *.ru *.ua,domain=agroter.com.ua|alensat.com|allbasketball.org|askentire.net|autonews.co.ua|autosoftos.com|babla.ru|bio-lessons.ru|callfilter.app|cardiagram.com.ua|clickthis.blog|coollib.net|delo.ua|elegantwoman.kyiv.ua|enduro.team|eurointegration.com.ua|farposst.ru|findhow.org|for-driver.info|gazeta-misto.te.ua|golos.te.ua|icon-icons.com|ilenta.com|index.minfin.com.ua|inforesist.org|kovelpost.com|kreschatic.kiev.ua|kurs.com.ua|mirlib.ru|modfix.ru|musinfo.net|newsyou.info|ontvtime.ru|orbit-games.com|pb-news.info|perpendicular.pro|pes-files.ru|pingvin.pro|poezdato.net|poizdato.net|pravda.com.ua|rovesnyknews.te.ua|ruboard.website|skidkaonline.ru|sundries.ua|tenews.org.ua|ternopillive.com|tribun.com.ua|uapress.kyiv.ua|valorantinfo.com|vesti-ua.net|vkazivka.com|wallpapershome.ru|xn--80aaukc.xn--j1amh
 ! ---
 $subdocument,domain=appmo.org|bookmo.org|eromo.org|hitmo.org|hotmo.org|nasimke.com|vidmo.org
 $third-party,domain=123torrent.ru|37.1.201.32|37.1.202.140|37.1.203.156|37.1.204.182|37.1.204.76|37.1.205.159|37.1.205.47|37.1.206.118|37.1.206.121|37.1.206.231|37.1.206.95|37.1.207.130|37.1.207.65|37.1.216.106|37.1.216.119|37.1.217.105|37.1.217.113|5.45.65.153|5.45.66.118|5.45.70.162|5.45.86.39|5.45.87.85|berutor.site|blackrutor.site|extrutor.org|extrutor.site|fastrutor.site|herutor.org|listrutor.org|new-rutor.org|pipitor.org|pronpic.org|prutor.site|r-tor.ru|rutor-live.tk|rutor-search.info|rutor1.site|sssrtor.ru|tracker-rutor.tk|xrutor.org|znaipticu.ru
@@ -23246,7 +23245,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||static.dzeninfra.ru/s3/zen-lib/*/dzen-layout/*_$script
 ||static.dzeninfra.ru/s3/zen-lib/*/news-site/*_$script
 !
-$csp=script-src-attr 'none',domain=eurointegration.com.ua|newsyou.info|pravda.com.ua|sportanalytic.com
+$csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportanalytic.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 ://mail.ru$csp=img-src 'self' https:
 ://pikabu.ru/$csp=connect-src https://pikabu.ru/ajax/ https://pikabu.ru/ajax.php *.pikabu.ru/ data: https://pikabu.ru/.well-known/ wss://pikabu.ru/.well-known/
@@ -23266,6 +23265,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
+||newsyou.info^$csp=script-src-elem 'self' https:
 ||pikabu.ru/ajax/*?dmk7r=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
@@ -23310,6 +23310,7 @@ vk.com,vk.ru##.feed_row > [data-post-id][id^="post"] > :not([class="_post_conten
 vk.com,vk.ru##.feed_row > [data-post-id][id^="post"]:not([post_view_hash])
 vk.com,vk.ru#?#.feed_row > [id^="post-"] > ._post_content:-abp-has(> :first-child:not(.PostHeader))
 vk.com,vk.ru##.feed_row > div[class$=" post"]
+newsyou.info##.langblock
 e.mail.ru##.layout__column_right-indented
 mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
 freesoft.ru##.modal-backdrop

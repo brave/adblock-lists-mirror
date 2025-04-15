@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: caw4+ZzxxuBuAPoO4/lwNg
-! Diff-Path: ../patches/224/224-s-1744723054-3600.patch
+! Checksum: LRIZto4oB7zluHovrLJvQw
+! Diff-Path: ../patches/224/224-s-1744726258-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.34.77
-! TimeUpdated: 2025-04-15T13:14:14+00:00
+! Version: 2.1.34.78
+! TimeUpdated: 2025-04-15T14:07:43+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2974,6 +2974,9 @@ bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 ||api.live.bilibili.com/*/Banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/200231#issuecomment-2798446587
+! The card with a rocket icon (CN IP)
+bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap .bili-video-card__stats--icon > path[d*="M16.9122 1.50323C17.4366 1.48358 17.99745 1.54938 18.4701 1.8207C18.9423 2.09168 19.28085"])
 ! bilibili.com#$?#.container > div.feed-card:not(:has(> div > *)) { remove: true; }
 ! bilibili.com##.container > div.feed-card:not(:has(> div > *))
 ! bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Vh28tcSW6IfqrXT/6DDYlw
-! Diff-Path: ../patches/7/7-s-1744723056-3600.patch
+! Checksum: 1GAAMsKtD2aa+JbTVW+N2g
+! Diff-Path: ../patches/7/7-s-1744737017-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.71
-! TimeUpdated: 2025-04-15T13:13:51+00:00
+! Version: 2.0.63.72
+! TimeUpdated: 2025-04-15T17:06:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -473,7 +473,11 @@ rxlife.net##+js(remove-node-text, script, detectAdBlock)
 rxlife.net##+js(no-fetch-if, adsbygoogle)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191181
 bm.best-hit.tv##+js(addEventListener-defuser, load, delayCheckAB)
+! https://github.com/AdguardTeam/AdguardFilters/issues/203239
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190534
+in-jpn.com,oninet.ne.jp,xth.jp##+js(set-constant, myFunc, noopFunc)
+/ad-check.js$domain=in-jpn.com|xth.jp
+/sakigake-ad-$domain=www2.oninet.ne.jp
 in-jpn.com##.sk-popup-window
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190202
 ||yourfones.net/js/adsb.js

@@ -80,7 +80,7 @@ jennifercertaindevelopment.com##+js(acs, WebAssembly, atob)
 *$image,redirect-rule=1x1.gif,domain=japscan.lol
 japscan.lol##+js(norafif, /^/)
 japscan.lol##+js(trusted-set-attr, .navbar-nav > li#navpromo2.nav-item > a, onclick, 'let a=function(){};return false;')
-japscan.lol##+js(no-fetch-if, ansuksar.com, length:400)
+japscan.lol##+js(no-fetch-if, ansuksar.com, length:600)
 ! START: Counter Liste FR rules
 japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 japscan.lol#@#div.container > [href]
@@ -206,7 +206,7 @@ pvpoke-re.com##+js(trusted-suppress-native-method, Element.prototype.insertAdjac
 pvpoke-re.com##body:style(overflow-y: auto !important;)
 pvpoke-re.com##html:style(overflow-y: auto !important;)
 pvpoke-re.com##+js(aeld, /scroll|touchmove|wheel/, function(_0x)
-pvpoke-re.com##body > div[style*="background"]:style(background: none !important;)
+pvpoke-re.com##body > div[style*="background"]:style(background: none !important; left: -4000px !important;)
 pvpoke-re.com##body > div[style*="background"] > div:style(left: -4000px !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/26441

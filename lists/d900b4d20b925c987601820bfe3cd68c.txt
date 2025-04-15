@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: hvGYN85dMbM1U5KhZsesKQ
-! Diff-Path: ../patches/7/7-s-1744719281-3600.patch
+! Checksum: Vh28tcSW6IfqrXT/6DDYlw
+! Diff-Path: ../patches/7/7-s-1744723056-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.70
-! TimeUpdated: 2025-04-15T12:10:42+00:00
+! Version: 2.0.63.71
+! TimeUpdated: 2025-04-15T13:13:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1764,6 +1764,12 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+math-joy-life.com##.md\:h-\[200px\]
+math-joy-life.com##.pt-2.mt-2:has(+ div.mt-2 > a[href^="https://px.a8.net/svt/ejp?"])
+math-joy-life.com##.swiper.md\:h-\[800px\]
+math-joy-life.com##.xl\:h-\[600px\]
+math-joy-life.com##li.p-6:has(> div.h-\[350px\] > ins.adsbygoogle)
+math-joy-life.com##li.p-6:has(> ins.adsbygoogle)
 fx.minkabu.jp##.currency_pair_ad
 fx.minkabu.jp##.footer-overlay
 genic-web.com##.article-advertisement
@@ -7033,7 +7039,7 @@ news2019.biz###custom_html-37
 tousatu-club.com,valorantnews.jp###custom_html-38
 news2019.biz###custom_html-39
 anime-torrent.com,tokyolucci.jp###custom_html-43
-iqossan.com,iphone-mania.jp###custom_html-44
+iphone-mania.jp###custom_html-44
 tiebukurojinsei.com,valorantnews.jp###custom_html-45
 iqossan.com###custom_html-49
 fpsjp.net###custom_html-54

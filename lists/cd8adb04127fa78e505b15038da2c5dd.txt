@@ -2479,31 +2479,8 @@ mangalek.com##+js(acs, String.fromCharCode, decodeURIComponent)
 ! https://github.com/uBlockOrigin/uAssets/issues/9546
 trzpro.com##+js(nano-sib, counter--)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/87638
-download.sharenulled.net##+js(aopr, app_vars.force_disable_adblock)
-download.sharenulled.net##+js(set, blurred, false)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/of8b31/golinuxcloudcom_has_big_rectangles_where_ads/
-golinuxcloud.com##.golin-adlabel:upward([class^="golin-content"])
-golinuxcloud.com##.adtag_250
-golinuxcloud.com##.adtag_600
-
 ! silenthub. net anti adb
 @@||silenthub.net^$ghide
-
-! https://github.com/uBlockOrigin/uAssets/pull/9556
-justin.mp3quack.lol##+js(aeld, click, open)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/ofkeym/how_do_i_disable_block_detection_in_this_site/
-||sentry-cdn.com^$script,redirect=noopjs,domain=proinfinity.fun
-||proinfinity.fun/*.html$frame,1p
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/87862
-lightnovelpdf.com##+js(aopr, adsBlocked)
-lightnovelpdf.com##+js(nowoif)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/87855
-comandotorrentshds.org##+js(acs, document.addEventListener, google_ad_client)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87904
 *$script,3p,denyallow=cloudflare.net|jsdelivr.net|sc.gl|unpkg.com,domain=hitprn.com
@@ -2512,12 +2489,11 @@ comandotorrentshds.org##+js(acs, document.addEventListener, google_ad_client)
 openculture.com##+js(nosiif, daadb)
 openculture.com##.no-framearound_ad_in_post
 
-! celebwhore.com,sexcams-24.com,webcamvau.com ads,popunder
+! celebwhore.com,sexcams-24.com ads,popunder
 celebwhore.com,sexcams-24.com##+js(set, flashvars.popunder_url, '')
 sexcams-24.com##+js(set, flashvars.protect_block, '')
-webcamvau.com##+js(set, flashvars.adv_pre_vast, '')
 celebwhore.com,sexcams-24.com##.table
-||wmpics.pics^$domain=sexcams-24.com|webcamvau.com
+||wmpics.pics^$domain=sexcams-24.com
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58354
 zedge.net##+js(nano-sib, (i-1))
@@ -2552,16 +2528,6 @@ hog.*##.related-view > div.title--sm
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9590
 keepvid.pw##+js(nowoif)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/85982
-! https://www.reddit.com/r/uBlockOrigin/comments/oiyor7/help_with_animes_website_anti_adblock/
-@@||blogdatecnologia.net^$ghide
-@@||diariodecasamento.com^$ghide
-@@||modaestiloeafins.com^$ghide
-@@||portalmundocurioso.com^$ghide
-@@||receitasabores.com^$ghide
-@@||turismoeviagem.com^$ghide
-blogdatecnologia.net,diariodecasamento.com,eusaudavel.net,modaestiloeafins.com,portalmundocurioso.com,receitasabores.com,turismoeviagem.com##+js(ra, class, div#player)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/oivtpz/nsfw_fuqercom_has_placeholder_banner_ads/h4y0k00/
 justcastingporn.com,justfamilyporn.com##+js(acs, document.createElement, _htas)
@@ -2623,7 +2589,7 @@ buydekhke.com##+js(aost, String.prototype.charCodeAt, ai_)
 mylinkconverter.com##a[href^="https://go.nordvpn.net/aff"] > img
 
 ! https://github.com/orgs/uBlockOrigin/teams/ublock-filters-volunteers/discussions/356
-asyadrama.com,bitcoinegypt.news,citychilli.com,talkjarvis.com##+js(nostif, css_class.show)
+citychilli.com,talkjarvis.com##+js(nostif, css_class.show)
 cardiagn.com,routech.ro##+js(acs, eval, replace)
 @@||cardiagn.com^$script,1p
 privatemoviez.*##+js(aeld, DOMContentLoaded, adsBlocked)
@@ -2647,9 +2613,6 @@ club-opel.com##ins.adsbygoogle
 ||painaltube.com/min/747b35c9/painaltube/p/
 ||painaltube.com/widget/chaturbate_cam.php?
 painaltube.com##.widget > div.widget
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/89471
-javsex.to##+js(aeld, DOMContentLoaded, adsBlocked)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/otw7nq/adblock_detected/h6zftgn/
 @@||seir-sanduk.com/$script,1p

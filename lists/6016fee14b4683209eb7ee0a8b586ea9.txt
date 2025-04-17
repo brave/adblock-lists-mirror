@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 5t1z5lXT9lZm54Imoza6hg
-! Diff-Path: ../patches/16/16-s-1744860294-3600.patch
+! Checksum: o6f/Q3IGdi6n88Jq1ODDnw
+! Diff-Path: ../patches/16/16-s-1744902651-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.51.84
-! TimeUpdated: 2025-04-17T03:21:35+00:00
+! Version: 2.0.51.85
+! TimeUpdated: 2025-04-17T15:07:16+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -196,6 +196,7 @@ ebookdz.com##+js(no-xhr-if, pagead2.googlesyndication.com)
 monumentum.fr##+js(abort-current-script, document.getElementById, Blocking Ads)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179837
 ! https://github.com/AdguardTeam/AdguardFilters/issues/1478420
+japscan.lol##+js(addEventListener-defuser, load, AndYouMe)
 japscan.lol#@#div.container > [href]
 japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 $script,xmlhttprequest,redirect-rule=noop.js,domain=japscan.lol

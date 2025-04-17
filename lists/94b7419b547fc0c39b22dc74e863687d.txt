@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: XJex1N4Ye81qUBLQIqjj9Q
-! Diff-Path: ../patches/1/1-s-1744726256-3600.patch
+! Checksum: Vtke9fP4ykdZ2l1nqx+vyQ
+! Diff-Path: ../patches/1/1-s-1744888201-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.98.74
-! TimeUpdated: 2025-04-15T14:06:50+00:00
+! Version: 2.0.98.75
+! TimeUpdated: 2025-04-17T11:05:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5274,6 +5274,8 @@ monna2.top##body div[id^="tatus"]
 ||monna2.top^$header=location
 monna2.top##+js(abort-on-property-write, tatus)
 monna2.top##+js(no-setTimeout-if, /tick/)
+! Apad Torrent Tracker
+apad2.top##body > div[style*="font-size: 18pt; margin: auto; position:relative; text-align: left; height:"]
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3011
 @@||vsetv.net/advert.js
@@ -7566,6 +7568,10 @@ chehov-vid.ru,161.ru,prufy.ru,ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru
 !
 !
 !
+||24stoma.ru/wp-content/themes/stoma/rkm/ilatan/artilcle.html
+24stoma.ru###tab1 > div[style] > div[style^="color:#bfbfbf;text-align:right;"]
+24stoma.ru###boxcontent
+24stoma.ru##div[class^="ydirect"]
 adindex.ru##.brns
 recut.ru##.col-12 > div.card-inner:has(> div.row a#more)
 artfile.me##.radv

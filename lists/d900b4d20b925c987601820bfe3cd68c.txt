@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: I+otO3EQcSrD+3EQkE3vYA
-! Diff-Path: ../patches/7/7-s-1744877570-3600.patch
+! Checksum: +Tf/Ar7FrvYdVwwvZvHdJA
+! Diff-Path: ../patches/7/7-s-1744884702-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.77
-! TimeUpdated: 2025-04-17T08:08:54+00:00
+! Version: 2.0.63.78
+! TimeUpdated: 2025-04-17T10:07:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7956,7 +7956,7 @@ tools4music.info##.ads-related
 seotools.jp###seotools > div[style^="text-align:center; margin-"]
 seotools.jp##.bx-window[style$="width:300px;"]
 seotools.jp##div[style^="height: 250px;"]
-aucfree.com###FourM_video
+aucfree.com##div[id^="FourM_"]
 aucfree.com###adOvl
 aucfree.com###bread + div[style="width:100%; text-align: center; padding: 10px 0px;"]
 aucfree.com###md_similar_box

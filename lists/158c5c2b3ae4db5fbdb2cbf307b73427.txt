@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6NKfVhXOzfAp8zFgBXmtfQ
-! Version: 202504171341
+! Checksum: ByNFm/sd8VoSh1D+BpEfWQ
+! Version: 202504171441
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Apr 2025 13:41 UTC
+! Last modified: 17 Apr 2025 14:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7130,6 +7130,7 @@ yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 !#if ext_abp
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
+mail.ru###grid:not(.grid) .widget__container ~ .widget__container > div:not([class*=" "])
 dzen.ru###ya-dist
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.AdvMastHead
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.ImagesViewer-SidebarAdv
@@ -7152,7 +7153,7 @@ dzen.ru##.zen-page .content div[class*="__bannerMain"]
 /^https?:\/\/dzen\.ru\/[^\s]{2100,}$/$script,domain=dzen.ru
 /^https?:\/\/strm\.yandex\.ru\/get\/[^\s]{1300,}$/$xmlhttprequest,domain=dzen.ru|naydex.net
 ~e.mail.ru,mail.ru,~octavius.mail.ru##:not(.grid__main-col) > .tgb-wrapper
-@@||ad.mail.ru/adp/*=resplash&q=$xmlhttprequest,domain=mail.ru
+@@||ad.mail.ru/adp/*=resplash&$xmlhttprequest,domain=mail.ru
 @@||shedevrum.ai^$generichide
 @@||static-mon.yandex.net/static/main.js?pid=shedevrum|$xmlhttprequest,domain=shedevrum.ai
 @@||yandex.ru/ads/system/context.js|$script,domain=e.mail.ru|octavius.mail.ru|shedevrum.ai

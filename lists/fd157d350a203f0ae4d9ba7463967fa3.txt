@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y3KLNZ+c4XCkVETwhanYQg
-! Version: 202504181041
+! Checksum: QQsVis71VIbXAl4bfWrUtg
+! Version: 202504181131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Apr 2025 10:41 UTC
+! Last modified: 18 Apr 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17898,6 +17898,7 @@ program-pro.ru##a[href^="https://cryptocandle.ru"]
 biqle.org,biqle.ru##a[href^="https://daftsex.github.io/"]
 www.film.ru##a[href^="https://hochuvkino.ru"]
 informator.ua##a[href^="https://inf.im/pinup_bonus"]
+softodrom.ru##a[href^="https://inspin.me"]
 milliarderr.com##a[href^="https://iqoption.com/promo/"]
 tvtver.ru##a[href^="https://kdservis.ru/"]
 ndscalc.ru##a[href^="https://kontur.ru/"]
@@ -23268,7 +23269,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?lcn25=$xmlhttprequest
+||pikabu.ru/ajax/*?lcn35=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

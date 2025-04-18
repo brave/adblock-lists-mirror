@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: AkzqnpowKHms61NyPHNdYg
-! Diff-Path: ../patches/8/8-s-1744823407-3600.patch
+! Checksum: ViKbKr/wmn+pW9fmU3SC4w
+! Diff-Path: ../patches/8/8-s-1744978487-3600.patch
 ! Title: AdGuard Dutch filter
 ! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
-! Version: 2.0.8.6
-! TimeUpdated: 2025-04-16T17:06:38+00:00
+! Version: 2.0.8.8
+! TimeUpdated: 2025-04-18T12:10:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -966,6 +966,7 @@ mr-online.nl##.elementor-element-da14229
 biflatie.nl##.elementor-location-popup
 biflatie.nl##.elementor-popup-modal
 motorrijder.be##.elementor-widget-container > a > img
+aalsmeervandaag.nl##.elementor-widget-media-carousel
 radiocontinu.nl##.eskimo-carousel-container
 noordkopcentraal.nl##.ewic-slider-pro-widget
 pornoplekje.nl##.exitpopup-modal-window
@@ -1067,7 +1068,7 @@ demorgen.be,flair.nl,humo.be,libelle.nl,margriet.nl,parool.nl,trouw.nl,volkskran
 mijn-tv-gids.be##.midzone
 autobahn.eu##.min-h-280.min-h-md-250
 scholieren.com##.min-h-90
-wegdamnieuws.nl##.mk-sponsorlink
+aalsmeervandaag.nl,wegdamnieuws.nl##.mk-sponsorlink
 wordfeudwoorden.nl##.mobblue
 radioeenhoorn.nl##.module_round_box
 marktplaats.nl##.mp-Listing--cas
@@ -1195,11 +1196,10 @@ ninefornews.nl##.stream-item
 despirituelewereld.be##.stream-item-widget
 iex.nl##.strossle-widget
 123video.nl##.stunt-wide
-dagbladdewest.com##.swiper-wrapper
+aalsmeervandaag.nl,dagbladdewest.com##.swiper-wrapper
 bekijkporno.nl##.table
 iexprofs.nl##.tagwrapper
 koken.vtm.be##.taxonomy-dedicated-header
-boottesten.nl,hoekschnieuws.nl,katholiek.nl,newspower.nu,nieuwsopbeeld.nl,railhobby.nl,regioonline.nl,rtvpapendrecht.nl,transport-online.nl,waterkant.net##.td-a-rec
 techpulse.be##.td-banner-wrap-full
 sportamerika.nl##.tdi_133
 bollenstreekomroep.nl##.tdi_36
@@ -1208,6 +1208,7 @@ elegance.nl##.tdi_58
 waterkant.net##.tdi_68
 nu.nl##.tealium
 demorgen.be,volkskrant.nl##.teaser-branded
+taaloefenen.nl##.tekstads
 nos.nl##.teletekst__banner
 startpagina.nl##.template-redesign-5-column-top-3-center-banner-outer
 deondernemer.nl##.text-center > .mt-2.box-content.flex.min-h-25.max-w-full.overflow-x-hidden.bg-background-1.p-4.md\:min-h-10
@@ -1387,6 +1388,7 @@ gamer.nl##div[style="width: 100%; height: 280px;"]
 landbouwgrond.nu##div[style="width: 100%; height: 320px;"]
 ammoniakrechten.nl,efarm.nl,fosfaat.nu,koemarkt.nl,landbouwgrond.nu,mechanisatie.nl,pluimveerechten.nu,quotum.nu,varkensrechten.nu##div[style="width:100%;height:320px;display:block;"]
 waldnet.nl##div[style^="height: 280px;"]
+sommenoefenen.nl##div[style^="max-width: 960px; height:280px;"]
 starnieuws.com##div[style^="width : 250px"]
 apintie.sr##div[style^="width: 300px; height: 180px;"]
 autosport.nl##div[style^="width: 300px; height: 427px;"]

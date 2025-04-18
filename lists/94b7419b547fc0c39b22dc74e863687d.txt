@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: KTpB2k89HZP/AI0LENXwoQ
-! Diff-Path: ../patches/1/1-s-1744974627-3600.patch
+! Checksum: GkAiyz6BeqMeMILuo1HCjw
+! Diff-Path: ../patches/1/1-s-1744978483-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.98.77
-! TimeUpdated: 2025-04-18T11:05:47+00:00
+! Version: 2.0.98.78
+! TimeUpdated: 2025-04-18T12:09:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18796,6 +18796,7 @@ zol.ru##.advertisement_main
 zol.ru###classified
 !
 ! kp.ru,kp.by,kp.kg,kp.kz,kp.md
+kp.ru#$?##app > div[data-slide] ~ div[class^="sc-"] > img[alt="Boom metrics"] ~ div[class^="sc-"] > div + div[class^="sc-"]:has(> div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"] > section[class^="sc-"] > div[class^="sc-"] > div[id^="yandex_rtb_"]) { remove: true; }
 kp.ru##div[class*="ad-slot"]
 kp.ru##div[style*="height: 250px"]
 kp.ru##div[data-metrics-news] > div[class]:has(> div.smi24__informer)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DsMb2P6rpSEXOgHlVwE2Xg
-! Version: 202504172242
+! Checksum: Xg+AWdev14OqXinzrxUTlQ
+! Version: 202504180042
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-04-17 22:42 UTC
+! Last modified: 2025-04-18 00:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18439,7 +18439,6 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ###CoockieAlert
 ###CoockiesPage
 ###Cookie-Append
-###Cookie-Banner
 ###Cookie-Consent
 ###Cookie-Container
 ###Cookie-Overlay
@@ -35781,6 +35780,7 @@ autotoll.com.hk##.cookies-agreement-container
 gstarcad.net##.cookies-ask
 credential.net##.cookies-banner
 gomosafer.com##.cookies-body
+castbox.fm##.cookies-conf
 eandt.theiet.org##.cookies-consent-edit-link-container
 airtel.in,habblet.city,seedtag.com##.cookies-container
 eib.org##.cookies-home_overlay
@@ -38167,6 +38167,8 @@ nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 elliberal.cat##+js(set-cookie, wpl_viewed_cookie, no)
 fromsmash.com##+js(set-cookie, _sucs, true)
 ecuavisa.com##+js(set-cookie, user_cookie_consent, 1)
+dillingen.bayernlab.bayern.de##+js(set-cookie, allowStats, 0)
+dillingen.bayernlab.bayern.de##+js(set-cookie, hideBanner, 1)
 todays-golfer.com##+js(set-cookie, ccpaApplies, true)
 todays-golfer.com##+js(set-cookie, ccpaConsentAll, true)
 todays-golfer.com##+js(set-cookie, ccpaReject, false)
@@ -40112,6 +40114,7 @@ workwide.de##+js(set-session-storage-item, cookieModal2, 1)
 erco.com##+js(set-session-storage-item, cookieMessageDisagree, true)
 communitycrimemap.com##+js(set-session-storage-item, disclaimerOpened, 1)
 smartwielen.lu##+js(set-session-storage-item, terms-and-policy-accepted, true)
+remington-europe.com##+js(set-session-storage-item, cookies_dismissed, 1)
 html5games.com##+js(set-session-storage-item, fa-games-consent-given, true)
 shop-apotheke.com,redcare.it,shop-apotheke.at,farmaline.be##+js(set-session-storage-item, sae-conversational-consent-msg-closed, true)
 beenverified.com##+js(set-session-storage-item, privacyPopupShown, true)
@@ -41169,6 +41172,7 @@ switchonshop.com##.cb
 sushiworldlouvain.be##.cc-banner
 snickers-workwear.de##.cc-dialog
 fahrschulefuerth.de##.cc-info--closed
+pilatesclub.de##.cc-manager-banner
 bresser.de##.cc-modal-backdrop
 aussenrollo.de##.cc-screen
 boltenhagen.reisen##.cc_overlay

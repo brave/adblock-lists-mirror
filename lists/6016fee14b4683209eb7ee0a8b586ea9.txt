@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: i6FRptVwRHrBW93GPpWXTQ
-! Diff-Path: ../patches/16/16-s-1744940345-3600.patch
+! Checksum: MYK2AZXKH/LK9A1JLvsPsA
+! Diff-Path: ../patches/16/16-s-1744946615-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.51.87
-! TimeUpdated: 2025-04-18T01:35:32+00:00
+! Version: 2.0.51.89
+! TimeUpdated: 2025-04-18T03:20:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4817,6 +4817,7 @@ _build=iclick-$popup
 ||aheadprincessmeal.com^
 ||ahimsaslatrate.com^
 ||ahtate.ru^
+||aicandy.link^
 ||aidsairdul.net^
 ||aidsbecry.click^
 ||aidsideused.live^
@@ -5610,6 +5611,7 @@ _build=iclick-$popup
 ||campusexcessively.com^
 ||candiedsquall.com^
 ||candouraggravate.com^
+||candyai.gg^
 ||candygainpeace.com^
 ||cannedrestrict.com^
 ||cannetstoups.click^
@@ -11413,7 +11415,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||comparatif-vpn.fr/wp-content/uploads/*/comparatif-vpn-
 ||compteur-gratuit.fr/images/bandeau_
 ||compteur-gratuit.fr/pub_
-||comptoir-info.com/pb/
 ||condor.dz/imgs/bannieres_accueil/294.jpg
 ||confidentielles.com/*/pubimppixel.php?
 ||confidentielles.com/bloquage_liens.js
@@ -12422,7 +12423,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||one.nbstatic.fr/media/external/
 ||online-xxxmovies.com^$script
 ||online-xxxmovies.com^*.gif
-||onlinetri.com/graphics/Z3R0D_16WEB_ONLINETRI_TBAG_header.jpg
 ||onlinevoyance.fr^$subdocument
 ||onvasortir.com/fond$image
 ||onvasortir.com/habillage_$image
@@ -12435,9 +12435,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||openspa.webhop.info/img/electrocrisan_
 ||openspa.webhop.info/img/sponsors/
 ||openstreetmap.org/assets/banners/
-||opensubtitles.org/libs/js/jquery/jquery.bpopup.min.js
-||opensubtitles.org^$subdocument,~third-party
-||opensubtitles.org^*/banners/
 ||opex360.com/pub/
 ||opinion-assurances.fr/images/assurlandlink03_2016.gif
 ||opt.be/images/db/banner/
@@ -15164,7 +15161,6 @@ ouest-france.fr###bloc_shopping
 commentcamarche.com,commentcamarche.net###bloc_sponsor
 cap-public.fr###blocflottant
 igen.fr###block-gsphere-refurb
-lepetitjournal.com###block-larubriquesponsoriseinternational
 lemouv.fr###block-lemouv_bloc-pub_ftv_right
 lemouv.fr,mouv.fr###block-lemouv_bloc-pub_ftv_top
 manga-news.com###block-up
@@ -15188,9 +15184,6 @@ flashresultats.fr,flashscore.fr###box-over-content-a
 gala.fr###box-shopping
 previmeteo.com###box_4_pub
 lameuse.be,laprovince.be###box_immovlan
-onlinetri.com###box_link_left
-onlinetri.com###box_link_right
-onlinetri.com###box_link_top
 algerie360.com###boxes
 conseils-courseapied.com###cadre-vignette-carnet
 soonnight.com###cadre_partenaire
@@ -15388,9 +15381,6 @@ windsurfjournal.com###pave300x250
 windsurfjournal.com###pave695x90
 windsurfjournal.com###paves214x157
 tube8.fr###pb_block
-comptoir-info.com###pb_lb
-comptoir-info.com###pb_sb
-comptoir-info.com###pb_sq
 charentelibre.fr,lindependant.fr###petitesAnnoncesBlock
 scan-manga.com###pob_haut
 terre.tv###point_part
@@ -15811,7 +15801,6 @@ lavenir.net##.footer--partners
 jeunesfooteux.com##.footer-actuly
 pixelads.fr##.footer-partner
 bx1.be,lephoceen.fr##.footer-partners
-tube8.fr##.footerBanner
 gameblog.fr##.footer__partners
 orange.fr##.footer_autopromo
 legagnant.com##.footer_banners
@@ -15832,7 +15821,6 @@ voyages-sncf.com##.gondola__video
 pagesjaunes.fr##.goodDealBlock
 lesoir.be##.gr-panel--entreprise
 lemondeinformatique.fr##.gradient-sponsor + .bloc-container
-tube8.fr##.gridBanner
 star7arab.com##.grid[style="width: 770px; height: 69px;"]
 footmercato.net##.gtag
 semageek.com##.h300
@@ -16153,7 +16141,6 @@ kelkoo.fr##.results-lrec
 premsgo.fr##.results-sidebar
 sante-dz.com##.revenue-wrapper
 goldenboys.fr##.right-minipub
-tube8.fr##.rightColBanner
 mappy.com##.rightHabillage
 joursferies.fr##.rightnav[style="background-color: #efefef;"]
 darty.com##.rm-format
@@ -16381,6 +16368,7 @@ presse-algerie.net##a[href*="/?ad="]
 amateur2sexe.fr,pornovore.fr##a[href*="/?id="]
 artdeseduire.com##a[href*="/?part="][target="_blank"]
 webactus.net##a[href*="/?utm_source="]
+tube8.fr##a[href*="/_xa/ads?"]
 1337x.cz,cpasbien-support.com,cpasbien4.com,gktorrent.cz,mega-torrent3.com,nextorrent2.com,nortorrent.support,nortorrent4.com,omgtorrent1.com,oxtorrent2.com,oxtorrent3.com,partage-torrent1.com,rantop.cc,torrent-p2p.my,torrent-site.com,ultimate-torrent1.com,wiflix.rent,yggtorrent2.com,yggtorrents.top,zetorrents1.com,zktorrent.support,zktorrent3.com,zone-torrent1.com##a[href*="/adsby/"]
 sosvirus.net##a[href*="/affiliate-"] > img
 maghrebemergent.com,maghrebemergent.info##a[href*="/banners/click/"]
@@ -16712,6 +16700,7 @@ cleanrider.com##[class*="min-h-"]:has([id^="optidigital-ad"])
 fr.shopping.rakuten.com##[data-productid]:has([class^="style_sponsoredAds"])
 boulanger.com##[id*="kamino"]:has(.product-list__product-sponsored)
 intermarche.com##[id^="stime-product-item"]:has(.stime-product--details__sponsored)
+comptoir.io##a:has(.prime)
 algerie-eco.com#?#.td_block_wrap:-abp-has(.block-title:-abp-contains(sponsorisés))
 aliexpress.com,aliexpress.us#?#._2FypS:-abp-has(._1rKqn:-abp-contains(/AD|Annonce|إعلان/))
 aliexpress.com,aliexpress.us#?#.search-item-card-wrapper-gallery:-abp-has([class^="multi--ax"]:-abp-contains(/AD|Annonce|إعلان/))

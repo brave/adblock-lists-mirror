@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pqkmaZrQhysgZL3Y2XSoEQ
-! Diff-Path: ../patches/7/7-s-1744971064-3600.patch
+! Checksum: 7vD1EM5iY0k+g41h2pD6Zg
+! Diff-Path: ../patches/7/7-s-1745053831-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.81
-! TimeUpdated: 2025-04-18T10:07:16+00:00
+! Version: 2.0.63.82
+! TimeUpdated: 2025-04-19T09:06:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3625,6 +3625,8 @@ rikujyokyogi.co.jp##.code-block[style$="text-align: center; display: block; clea
 /adframes.js$domain=biz-journal.jp|g-journal.jp
 watch2chan.com,2ji.pink###execphp-15
 2ji.pink###execphp-16
+eroanime-movie.com##.section-header:has(+ ul[class^="campain-list-"])
+eroanime-movie.com##ul[class^="campain-list-"]
 eroanime-movie.com##div[class^="rectangle"]
 eroanime-movie.com##.top-sponsored
 lettuceclub.net##.p-adlcn
@@ -7146,6 +7148,7 @@ travel-nippon.net##a[href^="https://click.linksynergy.com/fs-bin/click"]
 adultexpo.jp##.bfb_textBtnTextBtn
 nttdocomo.co.jp##.sec-crpTop-stop
 hinapishi.com##iframe[width="320"][height="100"]
+vipsister23.com##a[href^="https://www.dmm.co.jp"][target="_blank"]
 vipsister23.com##a[href*="https://al.dmm.co"]
 vipsister23.com##a[href*="https://www.bybit.com/jpwelcome/"]
 ||digiket.net/blog/$script,third-party

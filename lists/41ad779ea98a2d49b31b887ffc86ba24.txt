@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Tap7MAPtAq/XPWJ870BryQ
-! Version: 202504200442
+! Checksum: xU5eS3mGJkHkwsNDhrwcDg
+! Version: 202504200542
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-04-20 04:42 UTC
+! Last modified: 2025-04-20 05:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -50044,6 +50044,9 @@ worldcrunch.com##body,html:style(height: auto !important; overflow: auto !import
 bonappetit.com##.journey-unit__container
 bonappetit.com##+js(cookie-remover.js, pay_ent_pass)
 bonappetit.com##+js(cookie-remover.js, pay_ent_msmp)
+! outsports.com
+outsports.com##.arlington-campaign
+outsports.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! toysrus.ca/babiesrus.ca
 babiesrus.ca,toysrus.ca##+js(set-cookie, isNewsletterPopupShown, false, , reload, 1)
 ! clutchpoints.com (newsletter popup)

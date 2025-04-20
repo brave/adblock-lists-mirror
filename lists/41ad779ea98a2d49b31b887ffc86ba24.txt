@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Qf9wF0Eo+Mr93VxVZVER5Q
-! Version: 202504200342
+! Checksum: Tap7MAPtAq/XPWJ870BryQ
+! Version: 202504200442
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-04-20 03:42 UTC
+! Last modified: 2025-04-20 04:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -20875,7 +20875,6 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ###cookieConsentBackground
 ###cookieConsentBanner
 ###cookieConsentBannerContainer
-###cookieConsentBar
 ###cookieConsentBlock
 ###cookieConsentBlok
 ###cookieConsentBox
@@ -21109,7 +21108,6 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ###cookieOut
 ###cookieOuter
 ###cookieOuterContainer
-###cookieOverlay
 ###cookieOverlayNotify
 ###cookiePK
 ###cookiePane
@@ -34659,7 +34657,7 @@ turkishairlines.com###cookieWarningOverlay
 bulgarianproperties.com###cookie_bar_new
 semiconductor.samsung.com###cookie_component_emea
 sendgb.com###cookie_disabled
-halcyon.net###cookie_info
+halcyon.net,santionduty.com###cookie_info
 esa.int###cookie_loc
 search.podcastmusic.com,sourceaudio.com###cookie_manager
 groners.com###cookiebanner_bg
@@ -34773,7 +34771,7 @@ musicmap.info###fullscreen-overlay
 play.google.com###gb > div[style*="background-color"]
 teamspeak.com###gdpr-cookie-message
 usg.edu###gdpr-cookie-notification
-bonbon.hr,businesslive.co.za,timeslive.co.za,wantedonline.co.za###gdpr-overlay
+bonbon.hr,businesslive.co.za,eid.hr,timeslive.co.za,wantedonline.co.za###gdpr-overlay
 food52.com###gdprBannerRoot
 wallarm.com###gdpr_banner_container
 flooringsuppliescentre.co.uk###gdpr_cookie-mainWrapp
@@ -35170,6 +35168,7 @@ radioplayer.vistaradio.ca##.CookieBanner-module__wrap--1QK9t
 gobranded.com##.CookieBar_cookieBar__3qk4d
 dashfight.com##.CookieBox_safety__pt5AH
 push.org##.CookieComponent__CookieContainer-sc-thf5lr-0
+bstage.in##.CookieConfirm_container__7A6dW
 tsi.com##.CookieConsent > .o-container
 rebrandly.com##.CookieConsent__container
 elitesingles.com##.CookieConsent_cookie-consent__nuLuI
@@ -38208,6 +38207,7 @@ oesterreichsenergie.at##+js(set-cookie, oeCookiePolicyState, 0)
 ludlowbrewery.co.uk##+js(set-cookie, cookie_consent, all, , reload, 1)
 asdatyres.co.uk##+js(set-cookie, all_cookies_allowed, 1, , reload, 1)
 asdatyres.co.uk##+js(set-cookie, required_cookies_set, 1)
+omniplex.ie##+js(set-cookie, a1wcc, NECESSARY)
 swissboardforum.ch##+js(set-cookie, cookies-eu-necessary, true)
 swissboardforum.ch##+js(set-cookie, cookies-eu-statistics, false)
 swissboardforum.ch##+js(set-cookie, cookies-eu-comfort, false)
@@ -40655,8 +40655,8 @@ kidioui.fr##.cookieACK
 kidioui.fr##body,html:style(overflow: auto !important; position: initial !important;)
 ! loopearplugs.com
 !baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##.cc-window-wrapper
-tepedirect.com,baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
-tepedirect.com,baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
+desktronic.nl,tepedirect.com,baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com###gdpr-blocking-page-overlay
+desktronic.nl,tepedirect.com,baukjen.com,desktronic.co.uk,brauzz.com,hallmark.co.uk,desktronic.de,dryrobe.com,loopearplugs.com,arktis.de,flyingtiger.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
 !! betway
 betway.*##+js(set-cookie, BETWAY_ENSIGHTEN_PRIVACY_Analytics, 0)
 betway.*##+js(set-cookie, BETWAY_ENSIGHTEN_PRIVACY_Marketing, 0)
@@ -44903,6 +44903,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||notice.sp-prod.net^$subdocument,domain=telegraph.co.uk
 @@||ochotnicy.waw.pl/plugins/system/gdpr/$~third-party
 @@||oddschecker.com/cookie-policy-banner/$~third-party
+@@||omniplex.ie/script/modules/cookiecuttr.js$~third-party
 @@||onepage.io/api/v1/cookie-service/lib/$script
 @@||onetrust.com/consent/$domain=bt.com|groceries.asda.com|konami.com|nintendolife.com|panasonic.com|paramountplus.com|posti.fi|pushsquare.com|technics.com|timeextension.com|uw.co.uk
 @@||onetrust.com/request/$xmlhttprequest

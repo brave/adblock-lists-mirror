@@ -4,13 +4,14 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.0.3
+! Version: 4.1.0.4
 
 ! General
 
 ||amplitude.com^$xmlhttprequest,third-party
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
+||loader.*.com/prod/*/loader.min.js$script
 ||blueconic.net^$third-party
 /[a-z]{1}\d{2,3}\.\w+\.(co(m|\.uk)|net|org)\/script\.js/$script,~third-party
 ||cxense.com^$script,third-party,domain=~journaldemontreal.com|~journaldequebec.com|~wsj.com
@@ -50,6 +51,10 @@ gadget.pico.tools##+js(json-prune, locked)
 
 ||abril.com.br/*/abril-paywall/$script,~third-party
 adweek.com##+js(cookie-remover, blaize_session)
+ajc.com##+js(ra, class, div.story-paygate_placeholder, stay)
+ajc.com##div.video-blocker
+ajc.com##+js(set, window.Fusion.globalContent._id, 0)
+ajc.com##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
 alternatives-economiques.fr###temp-paywall
 alternatives-economiques.fr##+js(ra, style, div[data-ae-poool], stay)
 ambito.com##+js(cookie-remover, TDNotesRead)
@@ -402,13 +407,6 @@ accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,dig-in.com,
 /www\.vogue\.co\.uk\/[-\w]+/$script,~third-party
 ||voguebusiness.com/journey/compiler/build-*.js$script,~third-party
 voguebusiness.com##+js(cookie-remover, userId)
-
-! Ajc.com & Cox First Media
-ajc.com##+js(ra, class, div.story-paygate_placeholder, stay)
-ajc.com##div.video-blocker
-ajc.com##+js(set, window.Fusion.globalContent._id, 0)
-ajc.com##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
-||wgchrrammzv.com/prod/ajc/loader.min.js$script,domain=dayton.com|daytondailynews.com|journal-news.com|springfieldnewssun.com
 
 ! Crain Communications
 .com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|adage.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com

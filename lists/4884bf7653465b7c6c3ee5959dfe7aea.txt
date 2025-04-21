@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ewfB6AWLLvHfFDN0iGJTyQ
-! Diff-Path: ../patches/9/9-s-1745206089-3600.patch
+! Checksum: mP/jP9LX9JStNlNHS1OaLQ
+! Diff-Path: ../patches/9/9-s-1745237697-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.29.64
-! TimeUpdated: 2025-04-21T03:24:16+00:00
+! Version: 2.0.29.65
+! TimeUpdated: 2025-04-21T12:10:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2204,7 +2204,7 @@ c5n.com,t13.cl,solowrestling.mundodeportivo.com,todojujuy.com,mendozapost.com,me
 ! NOTE: Specific rules
 !
 americanas.com.br##div[class^="Banner_bannerWrapper"]
-||redecanais.gs/player3/query.js
+||redecanais*/player3/query.js
 reclameaqui.com.br##div[role="banner"]:has([alt~="publicidade"i])
 reclameaqui.com.br##.GoogleDFP
 animeflv.net##a[href^="https://www.tiktok.com/"] img[src="https://animeflv.net/Banner-Tiktok.jpg"]

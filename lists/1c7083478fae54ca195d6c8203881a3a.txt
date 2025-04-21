@@ -4,13 +4,12 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.0.5
+! Version: 4.1.0.6
 
 ! General
 
 ||amplitude.com^$xmlhttprequest,third-party
 ||axate.io$script,third-party
-||loader-cdn.azureedge.net^$third-party
 ||loader.*.com/prod/*/loader.min.js$script
 ||cdn.*.com/prod/*/loader.min.js$script
 ||blueconic.net^$third-party
@@ -498,16 +497,13 @@ cz.de,dewezet.de,dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-onl
 ||ndcmediagroep.nl/js/evolok/$script,third-party
 .nl/_/zh/worker$xmlhttprequest,~third-party
 
-! MediaNews Group
-.com/wp-content/plugins/loader-wp/static/loader.min.js$script,~third-party,domain=bostonherald.com|denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pressenterprise.com|sandiegouniontribune.com|twincities.com
+! MediaNews Group & Tribune Publishing Company
+.com/wp-content/plugins/loader-wp/static/loader.min.js$script,~third-party
 bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,sandiegouniontribune.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,sandiegouniontribune.com,twincities.com##[subscriptions-section="content-not-granted"]
 
 ! Motor Presse Stuttgart
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de
-
-! New York Magazine sites
-||zeddit.com/*/SiteScript.js$script,third-party,domain=curbed.com|grubstreet.com|nymag.com|thecut.com|vulture.com
 
 ! NHST Media Group
 ||subscription-static-global.nhst.tech$script,domain=tradewindsnews.com
@@ -556,9 +552,6 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 ||epochbase.com/rules/get$xmlhttprequest,third-party
 ||epochbase.eu/rules/get$xmlhttprequest,third-party
 /\/epoch\.org\.il\/.+\/\d{5,}\//$inline-script,domain=epoch.org.il
-
-! Tribune Publishing Company
-.com/wp-content/plugins/loader-wp/static/loader.min.js$script,~third-party,domain=baltimoresun.com|capitalgazette.com|chicagotribune.com|courant.com|dailypress.com|mcall.com|nydailynews.com|orlandosentinel.com|pilotonline.com|sun-sentinel.com
 
 ! additional adblocker-fix
 ||flowerstreatment.com^$third-party

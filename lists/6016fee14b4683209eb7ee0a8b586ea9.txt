@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8qSVPyIJQdQd5y7/MyWh6g
-! Diff-Path: ../patches/16/16-s-1745187017-3600.patch
+! Checksum: k7LNKdndnGEb6oLEtcaRZg
+! Diff-Path: ../patches/16/16-s-1745190635-3600.patch
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.51.93
-! TimeUpdated: 2025-04-20T22:06:49+00:00
+! Version: 2.0.51.94
+! TimeUpdated: 2025-04-20T23:07:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13094,7 +13094,12 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||yts.*/assets/$popup
 ###ADSblock
 ###ad-300_atf-label
+###ad-banner-mobile
 ###ad-banner_atf
+###ad-desktop-top-banner
+###ad-masonry
+###ad-medium-rectangle-1
+###ad-medium-rectangle-2
 ###ad3
 ###ad_video
 ###balloonads
@@ -15522,7 +15527,6 @@ rtl.be###w-leaderboard
 marocannonces.com###wafasalf
 fdesouche.com###wallpaper
 pons.com###widget_difusion
-creativejuiz.fr###widget_juiz_ads-2
 turbo.fr###widget_shopper
 wix.com###wixFooter
 wix.com###wixfooter
@@ -15680,7 +15684,6 @@ psychologies.com##.bloc_abo
 reducavenue.com##.bloc_iab
 lexpress.fr##.bloc_partenaire
 tv5.org##.bloc_promomiddle
-creativejuiz.fr,seloger.com##.bloc_pub
 premiere.fr##.bloc_rightcol.bloc_rightcol_dealjour.groupon
 public.fr##.bloc_rightcol_shopping
 jeuxvideopc.com##.block-concours_en_cours
@@ -15742,7 +15745,6 @@ test-mobile.fr##.clickright
 test-mobile.fr##.clicktop
 fourchette-et-bikini.fr##.cluj
 bienpublic.com,dna.fr,estrepublicain.fr,lalsace.fr,ledauphine.com,lejsl.com,leprogres.fr,republicain-lorrain.fr,vosgesmatin.fr##.colStickyWrapperP2
-seloger.com##.col_right__service
 mediadico.com##.cold-bloc-video-generique
 winds-up.com##.colpub
 seasons.fr##.colsEditoMainMS
@@ -16333,6 +16335,10 @@ qwantjunior.com##[data-testid="autopromoJuniorLink"]
 meteomedia.com##[data-testid="content-feed-ad-slot"]
 meteomedia.com##[data-testid="header-ad-content"]
 meteomedia.com##[data-testid="pre-ad-text"]
+seloger.com##[data-testid="serp-inline-ad"]
+seloger.com##[data-testid="serp-masthead-testid"]
+seloger.com##[data-testid="serp-side-skyscraper"]
+seloger.com##[data-testid="serp-side-skyscraper-top"]
 toutvendre.fr##[href*=".kelkoogroup.net/"]
 meteofrance.com##[href*=".xiti.com"] > img
 filecrypt.cc,filecrypt.co##[href^="javascript:"]
@@ -16710,6 +16716,7 @@ frandroid.com##.sticky-content:has([class^="HalfpageAd"])
 boulanger.com##[class*="kamino"]:has(.product-list__product-sponsored)
 cleanrider.com##[class*="min-h-"]:has([id^="optidigital-ad"])
 fr.shopping.rakuten.com##[data-productid]:has([class^="style_sponsoredAds"])
+seloger.com##[data-testid="serp-core-suggestion-card-testid"]:has([aria-haspopup])
 boulanger.com##[id*="kamino"]:has(.product-list__product-sponsored)
 intermarche.com##[id^="stime-product-item"]:has(.stime-product--details__sponsored)
 comptoir.io##a:has(.prime)

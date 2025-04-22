@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: q5TfkdJzPIYwbtPJEMF+vQ
-! Diff-Path: ../patches/1/1-s-1745309594-3600.patch
+! Checksum: EaRiD7oDe5Kp/KnEprtOTw
+! Diff-Path: ../patches/1/1-s-1745313085-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.98.81
-! TimeUpdated: 2025-04-22T08:08:34+00:00
+! Version: 2.0.98.82
+! TimeUpdated: 2025-04-22T09:06:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5076,7 +5076,6 @@ tests24.ru#$#.g_rt { height: 1px!important;}
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
 ! do not remove cookies that contain `sso_`
-! /*! v:808163 b:adblock c:loaders/context_adb */
 !
 dzen.ru,auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru##+js(cookie-remover, /blcrm|bltsr|zmFQeXtI|JPIqApiY|computer/)
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
@@ -7266,6 +7265,7 @@ mmo13.ru,altapress.ru,gastronom.ru,eg.ru,newsmaker.md,delo-vcusa.ru,tolknews.ru,
 !
 !
 !
+||yandex.ru/ads/system/context.js
 ||raw.githubusercontent.com/AsilMediaUzbek/videoreklamalar/
 ||mp3lar.net/adv.js
 unian.net,unian.ua##.bnr-block
@@ -19016,8 +19016,6 @@ mirror.co.uk#@#.affiliate
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186953
 @@||miradres.com/lat/*?season=$subdocument,domain=krayniykosmos.com
 @@||miradres.com/lat/*/uploads/kozyrki_fon.jpg$domain=kozyrki.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/181701#issuecomment-2211292350
-@@||yandex.ru/ads/system/context.js$domain=dzen.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181584
 @@||yandex.ru/ads/$domain=magnit.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178590

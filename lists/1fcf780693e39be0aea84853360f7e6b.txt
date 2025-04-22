@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: mOrEay/321zwDsunt2nWdQ
-! Diff-Path: ../patches/224/224-s-1745327844-3600.patch
+! Checksum: NwPVthm5FqDyUZx6lK+l5w
+! Diff-Path: ../patches/224/224-s-1745331071-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.35.34
-! TimeUpdated: 2025-04-22T13:13:59+00:00
+! Version: 2.1.35.35
+! TimeUpdated: 2025-04-22T14:07:46+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -803,12 +803,6 @@ popbee.com##.adblocker
 ##body > div#inplayer[align="center"]
 ##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/202277
-! https://publicwww.com/websites/%22app_tj%22/
-##.app > div.app_tj
-##body > div.zdhf
-##body > div.dbfh
-##body > div.zdhf ~ div[style$=";background: #000;opacity:0.01;"]
 ! 91porny
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190664
 ##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
@@ -1084,8 +1078,6 @@ apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
 !--------------------------------------!
 ! SECTION: Chinese - HTML
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/202277
-! https://publicwww.com/websites/%22app_tj%22/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106842
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34910
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3129
@@ -2909,6 +2901,14 @@ csdn.net###footerRightAds
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
 ||mycodes.net/js/*.js
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/202277
+! https://publicwww.com/websites/%22app_tj%22/
+! Periodically updated, so placed in this filter
+##.app > div.app_tj
+##body > div.zdhf
+##body > div.dbfh
+##body > div[style$=";background: #000;opacity:0.01;"]
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190832
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189389

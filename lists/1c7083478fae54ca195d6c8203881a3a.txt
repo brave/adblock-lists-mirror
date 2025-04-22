@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.0.7
+! Version: 4.1.1.0
 
 ! General
 
@@ -311,7 +311,7 @@ sciencesetavenir.fr##div.amorce.manual
 sciencesetavenir.fr##+js(ra, class|hidden, .user-paying-content)
 ||scientificamerican.com/api/tinypass.min.js$script,~third-party
 scientificamerican.com##+js(cookie-remover, article_meter)
-scotsman.com##+js(ra, class, div.premium)
+scotsman.com,yorkshirepost.co.uk##+js(rc, premium|no-entitlement, div.premium.no-entitlement)
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-user-messaging-main-bundle.js$script,~third-party
 sfstandard.com##+js(cookie-remover, zephr-session)

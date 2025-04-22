@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.0.6
+! Version: 4.1.0.7
 
 ! General
 
@@ -39,7 +39,7 @@ gadget.pico.tools##+js(json-prune, locked)
 ||steadyhq.com^$script,third-party
 ||wallkit.net/js/$script,third-party
 ||zephr.com/zephr-browser/$script,third-party
-/arc/subs/p.min.js$script,~third-party,domain=~latercera.com|~nzherald.co.nz
+/arc/subs/p.min.js$script,~third-party,domain=~nzherald.co.nz
 /c/assets/pigeon.js$script,~third-party
 /evolok/*ev-em.min.js$script,domain=~vikatan.com
 /evolok/*ev-widgets.min.js$script
@@ -230,7 +230,6 @@ kurier.at##div#cfs-paywall-container
 ||glanacion.com/*/metering/*.js$script,domain=lanacion.com.ar
 lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
 lanacion.com.ar##+js(set-local-storage-item, /^/, $remove$)
-latercera.com##div.pw-frontier:remove()
 ||latimes.com/meteringjs/$script,~third-party
 ||ev.lavanguardia.com$xmlhttprequest,~third-party
 lavanguardia.com,mundodeportivo.com##span.content-ad,span.hidden-ad,span.ad-unit,div.ad-div

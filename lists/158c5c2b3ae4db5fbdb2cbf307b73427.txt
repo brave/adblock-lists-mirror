@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ySS62LmPgecGwG58HXhN+Q
-! Version: 202504221941
+! Checksum: cVJuYjcbHhlVYr+UVHgpKg
+! Version: 202504222041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Apr 2025 19:41 UTC
+! Last modified: 22 Apr 2025 20:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -622,6 +622,7 @@ te4h.ru###text-4
 serveradmin.ru###text-html-widget-4
 virtualbrest.ru###text_news + noindex
 astars.club###tg-banner
+shadowcore.ru###tg-btn
 flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom###tgWrapper
 navkolokino.com###the_share
 disqus.com###thread-share-bar
@@ -2646,6 +2647,8 @@ vladday.ru##[aria-label="Footer Navigation - Social Links"]
 vsaduidoma.com##[aria-label="Left Sidebar Sidebar"] > .widget > .widget-first
 vsaduidoma.com##[aria-label="Right Sidebar Sidebar"] > .widget-last
 mivmeste.info##[aria-label="Share via link"]
+shadowcore.ru##[aria-label="Telegram"]
+shadowcore.ru##[aria-label="VK"]
 theuk.one##[aria-label="facebook"]
 xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##[aria-label="Баннер соцсети"]
 mivmeste.info##[aria-label="Панель соцсетей"]
@@ -5987,6 +5990,7 @@ nv.ua##.subscrb_form_wrap
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtonovostidnya.ru,belretail.by,blog.eva.ua,censor.net,doc-tv.ru,dynamomania.com,femmie.ru,glas.ru,inforeactor.ru,it-tehnik.ru,izhlife.ru,kod.ru,kp.kg,kp.kz,kp.md,kp.ru,kp.ua,liga.net,livelib.ru,marieclaire.ru,maximonline.ru,mydecor.ru,naukatv.ru,newinform.com,novostivl.ru,oboz.ua,obozrevatel.com,ohotniki.ru,parents.ru,polit.info,psychologies.ru,riafan.ru,rockstargame.su,rueconomics.ru,slovodel.com,spartak.ru,texty.org.ua,thegirl.ru,twizz.ru,v-variant.com.ua,vokrugsveta.ru,wday.ru,woman.ru##.subscribe
 kinometro.ru,vokrug.tv##.subscribe-block
 texterra.ru##.subscribe-block-form
+news.ati.su##.subscribe-block-place
 kubnews.ru##.subscribe-channel
 ichip.ru##.subscribe-content
 news.ru##.subscribe-discuss
@@ -6285,6 +6289,7 @@ hideogenius.com#?#[id^="oframevideoplayer"] > pjsdiv:-abp-has(> pjsdiv:-abp-cont
 fraza.com#?#[itemprop="articleBody"] > div:-abp-has(a[href^="https://news.google.com/publications/"])
 vk-smi.ru##[itemprop="articleBody"] ~ .text-center
 itsider.com.ua,mmr.net.ua##[itemtype="https://schema.org/WPAdBlock"] > a[href][target="_blank"]
+shadowcore.ru##[onclick="showBoosty();"]
 diets.ru##[onclick^="closeDailyRecipesPopup"],form[class^="dayrecipes"]
 rshb.ru#?#[role="dialog"]:-abp-has(> div > div > p > [href="/pd-policy#cookie"])
 village.com.ua##[role="subscribe"]

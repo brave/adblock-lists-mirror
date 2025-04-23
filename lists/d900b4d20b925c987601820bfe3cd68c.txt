@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: sZ0n8bls5gjr3WEsbAyGkg
-! Diff-Path: ../patches/7/7-s-1745341848-3600.patch
+! Checksum: ECyii1h9bYjROmuGRLqFBg
+! Diff-Path: ../patches/7/7-s-1745410522-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.92
-! TimeUpdated: 2025-04-22T17:06:55+00:00
+! Version: 2.0.63.93
+! TimeUpdated: 2025-04-23T12:11:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1523,6 +1523,7 @@ jikayosha.jp#$#.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed.is-pc-
 /wp-content/uploads/2024/09/fanza_ad$image
 !
 ! Malware/Phishing
+://www-dmm.*.com/rajklnc/$document
 /rms/client/LO0101001.php$document
 ?ph0nq=010$document
 ?ph0ne=(050)-$document
@@ -3735,6 +3736,7 @@ seiyufan.livedoor.biz##.sideB > p.side-title
 seimei-handan.net##.adreader
 seimei-handan.net##.adwidereader
 seimei-handan.net##.rakuten
+nazology.kusuguru.co.jp##.oembed-amazon
 nazology.kusuguru.co.jp##.amazon__category-af
 blog-bootcamp.jp##.has-text-align-center.u-mb-ctrl > span.u-fz-s
 sekkaku.net##.sekkaku-bbs-ad-point

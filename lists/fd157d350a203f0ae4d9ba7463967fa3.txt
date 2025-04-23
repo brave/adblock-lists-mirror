@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KmyOf3uyDjoHt8EjL7efdQ
-! Version: 202504230941
+! Checksum: 8Qd/Jbhs6v3+m/QqkJpXtg
+! Version: 202504231041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Apr 2025 09:41 UTC
+! Last modified: 23 Apr 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18220,7 +18220,7 @@ www.google.com,www.google.ru##body > table[style="border: 1px solid #369"]
 christianka.bratstvo.org##body > table[width="99%"] + p[align="center"]
 payeer-gift.ru##body div .banner
 om1.ru##body div[class*="-branding"]
-anifap.com,anitokyo.org,anitokyo.tv##body.playerCode > div[style^="position: absolute;"][onclick]
+anifap.com,anifap.xyz,anitokyo.org,anitokyo.tv##body.playerCode > div[style^="position: absolute;"][onclick]
 forum.flprog.ru##body.section-index .sidebar
 the-geek.ru##body::before
 livetvstream.pro,me##body[bgcolor] > #adbtm
@@ -24112,6 +24112,7 @@ www.afisha.ru##div[class^="Advert"]
 nova.rambler.ru##div[class^="DirectMKB"]
 nova.rambler.ru##div[class^="LayoutSearch"] section > article[class*=" Serp__item"]:not([class^=" Serp__item"])
 r0.ru##div[class^="News__adv"]
+afisha.ru##div[data-test*="HONEY-AD"] > [data-test="FALLBACK"] > span
 gazeta.ru##div[id^="_g_exchange_"]
 avtorambler.com,rambler.ru##div[id^="rcmw-container-"][id*="-horizontal-"]
 rambler.ru##div[id^="rnet_"]

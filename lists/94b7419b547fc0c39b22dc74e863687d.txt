@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: cBSg1L9hf23I/TZNbQxnbw
-! Diff-Path: ../patches/1/1-s-1745324103-3600.patch
+! Checksum: 8F1VvLnkj7WoXsiEM9MTew
+! Diff-Path: ../patches/1/1-s-1745375882-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.98.83
-! TimeUpdated: 2025-04-22T12:10:15+00:00
+! Version: 2.0.98.84
+! TimeUpdated: 2025-04-23T02:33:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4532,9 +4532,10 @@ vuzdoc.org,studref.com##+js(set-constant, abl, noopFunc)
 libertycity.net,libertycity.ru##+js(set-constant, adBlockEnabled, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115326
 ||itcrowd.top/templates/yootheme/block.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/203798
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96703
 ||shadowcore.ru/templates/Cirata/js/bundle.umd.js
-shadowcore.ru##+js(abort-on-property-read, justDetectAdblock)
+shadowcore.ru##+js(abort-on-stack-trace, document.createElement, checkAboba)
 ! kyivdictionary.com antiadblock
 @@||kyivdictionary.com/static/ukr_tran/js/prebid-ads.*.js
 ! rentv player antiadblock

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: W0IZEZXs5iUWhNwGyXiFBw
-! Diff-Path: ../patches/7/7-s-1745417486-3600.patch
+! Checksum: C7ceEH0+IPU29sjgblHncQ
+! Diff-Path: ../patches/7/7-s-1745424772-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.94
-! TimeUpdated: 2025-04-23T14:07:29+00:00
+! Version: 2.0.63.95
+! TimeUpdated: 2025-04-23T16:08:36+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1774,6 +1774,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+||richlink.blogsys.jp/embed/f5c8e32e-0d80-3de4-9874-bb994a143d82$domain=nwknews.jp
+nwknews.jp##div[class^="article-body"] > div.t_h > b > span[style="font-size: 125%;"]
 pref.gunma.jp###common_banner_link
 seikyuresyasokuho.com###block-9 table
 businessinsider.jp##div[class^="article_pArticle_Embed"]:has(> aside.araklet)
@@ -3426,6 +3428,7 @@ javple.com###tracking-url
 tv-aichi.co.jp##.p-news_snsarea
 klmanga.org#?##movie-last-movie > li:has(> center > ins[id])
 books.rakuten.co.jp##.flexContents__box--adBox1
+ufret.jp###full-screen-ad
 ufret.jp##.list-group-flush > a.list-group-item-action[href^="https://shop.sococo.jp"]
 ||ufret.jp/img/sococo640200.jpg
 ufret.jp##div[data-as-slot-id]
@@ -3704,6 +3707,7 @@ applealmondjp.com###BT_applejp_Inread
 applealmondjp.com##.after-header-widget-area
 jp-weathernews.com##section[class*="admid"]
 beauty.biglobe.ne.jp###s_salon > div[style^="width:calc("]
+tenki.jp##.section-wrap.mb20 > h3:has(+ div[id^="taboola-below-article-thumbnails-"])
 tenki.jp###pr-tokubetsu-banner
 hs-exp.jp##.amz-outline
 hs-exp.jp##.koruri.brown-link

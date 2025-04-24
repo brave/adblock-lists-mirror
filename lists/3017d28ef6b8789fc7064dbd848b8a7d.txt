@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504232338
+! Version: 202504240025
 ! Title: EasyPrivacy
-! Last modified: 23 Apr 2025 23:38 UTC
+! Last modified: 24 Apr 2025 00:25 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -9584,6 +9584,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com/sa7d76sa/
 ||4taps.me/analytics/
 ||51network.com^$third-party
+||682a5845.b-cdn.net^
 ||99widgets.com/counters/
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||a.emea01.idio.episerver.net^
@@ -10497,6 +10498,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feedblitz.com/imp?$third-party
 ||feedblitz.com^*.gif?$third-party
 ||feedify.net/thirdparty/json/track/
+||fgip.rosehosting.com^
 ||filament-stats.herokuapp.com^
 ||files.envoke.com^*_nvk_tracking.js
 ||filesonic.com/referral/$third-party
@@ -12642,6 +12644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||01net.com/track/
 ||abs.proxistore.com^
 ||affiliation.planethoster.info^$third-party
+||analytics.ekonsilio.io^
 ||analytics.freespee.com^
 ||analytics.valiuz.com^
 ||at.360.audion.fm^
@@ -52272,7 +52275,11 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||compteur.developpez.com^
 ||courrierinternational.com/*&vtag=
 ||datalayer.orange.fr^
+||dd.bellesdemeures.com^
 ||dd.leboncoin.fr^
+||dd.seloger-bureaux-commerces.com^
+||dd.seloger.com^
+||dd.selogerneuf.com^
 ||decathlon.net/content/tracker.v2.prod.min.js
 ||developpez.com/public/js/log.js
 ||donnons.org/log.js
@@ -52288,6 +52295,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||fr.shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
+||groupe-seloger.com/tracking-data/
 ||hits.porn.fr^
 ||hlms.ecologie.gouv.fr^
 ||horairesdouverture24.fr/ar.js
@@ -52376,6 +52384,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||res.paruvendu.fr^
 ||rts.ch^*/boreas_b01.js
 ||s5.charliehebdo.fr^
+||seloger.com/cdp-bff/analytics
 ||serv.letudiant.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
@@ -53186,9 +53195,11 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||mklik.gazeta.pl^
 ||nasza-klasa.pl^*/pp_gemius
 ||p.gazeta.pl^
+||pb.siepomaga.pl^
 ||pixel.wp.pl^
 ||rek.www.wp.pl^
 ||savecart.pl/d/
+||sentry.siepomaga.pl^
 ||squid.gazeta.pl/bdtrck/
 ||ss.woodupp.pl^
 ||stats.teledyski.info^

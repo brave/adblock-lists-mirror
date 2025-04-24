@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2p8u6Wp8CXb+RYkFnziotQ
-! Version: 202504241041
+! Checksum: TNnefupEgqn5e8met4Zqnw
+! Version: 202504241131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Apr 2025 10:41 UTC
+! Last modified: 24 Apr 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24823,7 +24823,7 @@ zarulem.ws##td[style^="text-align:center;width:50%"]
 ##body > div[class^="_"][class*=" _"][class$="_stBig"]
 ! -----------------------------------------------------------------------------
 ! *** advblock/specific_antisocial.txt ***
-! Социальные и анонсовые фичи на сайтах, блокирующие доступ к странице.
+! Социальные и анонсовые фичи на сайтах, полностью или частично блокирующие доступ к странице.
 ! Это просто запредельно неудобно, особенно если cookies периодически удаляются.
 !
 ! it-actual.ru
@@ -24932,6 +24932,7 @@ pdalife.ru##.b-popup
 vashgorod.ru##.c-popup
 games-two.su##.ckf-box
 riafan.ru##.cookie-agreement-wrapper
+news.sportbox.ru##.cookie-notice
 rutube.ru##.cookie-notify-module__cookie-consent
 championat.com##.cookie-popup
 litnet.com##.cookies-w

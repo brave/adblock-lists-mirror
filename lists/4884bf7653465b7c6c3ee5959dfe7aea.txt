@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: TBWD+Wg1e2iNxNnMMVZsPg
-! Diff-Path: ../patches/9/9-s-1745388783-3600.patch
+! Checksum: j5CS5THcmn/p6vPvKw3ccw
+! Diff-Path: ../patches/9/9-s-1745478693-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.29.68
-! TimeUpdated: 2025-04-23T06:09:10+00:00
+! Version: 2.0.29.69
+! TimeUpdated: 2025-04-24T07:07:38+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2203,6 +2203,12 @@ c5n.com,t13.cl,solowrestling.mundodeportivo.com,todojujuy.com,mendozapost.com,me
 !
 ! NOTE: Specific rules
 !
+dragonball.sullca.com###stickyBanner
+dragonball.sullca.com##body > a.fixed[target="_blank"]
+dragonball.sullca.com##.items-center > a[href="https://www.dragonball.uno/dragonball.html"][target="_blank"]
+dragonball.sullca.com#?#.items-center > a[target="_blank"]:has(> span:contains(/^Opción Ad$/))
+dragonball.sullca.com##+js(abort-on-property-write, anuncioConfig)
+dragonball.sullca.com##+js(abort-on-property-write, setRandomBanner)
 meneame.net##.ad-roba-container
 meneame.net##.ads-interlinks
 hallofseries.com##div[class^="addendo"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Um3VM9SkXEZyhmvsPEsO1w
-! Version: 202504250741
+! Checksum: vA1wjF5KF16XoJEC/FMhfA
+! Version: 202504250841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Apr 2025 07:41 UTC
+! Last modified: 25 Apr 2025 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15410,6 +15410,7 @@ pikabu.ru##.player__adfox
 lideo.ru##.player_advert
 bilshe.com#?#.playfair:-abp-has(> b:-abp-contains(/^партн/i))
 get-tune.cc,iplayer.info,ipleer.fm,mp3cc.biz,mp3iq.com##.playlist-ad
+anime-joy.online,animejoy.ru#?#.playlists-items > ul > li:-abp-contains(Dzen)
 lenkino.adult##.plb
 rp-mechanics.ru##.plusonet-sl
 kinovit.org##.pmedia_240
@@ -23274,7 +23275,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?lcn75=$xmlhttprequest
+||pikabu.ru/ajax/*?lcn85=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

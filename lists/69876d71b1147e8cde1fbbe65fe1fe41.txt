@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: cy9s4bT3Mp7mMnl8gccMxQ
-! Diff-Path: ../patches/13/13-s-1745583271-3600.patch
+! Checksum: IALg+13pHIBjeAVrAj0oJQ
+! Diff-Path: ../patches/13/13-s-1745593830-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.55.97
-! TimeUpdated: 2025-04-25T12:10:37+00:00
+! Version: 2.0.55.98
+! TimeUpdated: 2025-04-25T15:07:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1659,7 +1659,7 @@ fullhdizle.*#$#body { background-image: none !important; }
 herpet.net##.player-side-ad
 dizipal1017.com,herpet.net##.footer-ad-container
 herpet.net##div[class^="rnd-"] > a[target="_blank"] > img
-||blogger.googleusercontent.com/img/$domain=herpet.net
+||blogger.googleusercontent.com/img/$domain=herpet.net|buenosairesideal.com
 hlktrpl.cfd##body > #posterImage + .rek#adStop
 hlktrpl.cfd##body > #posterImage + .rek#adStop ~ #playerbase > #player > .playerTextReklam
 hlktrpl.cfd##body > #posterImage + .rek#adStop ~ #playerbase > #player > .jw-wrapper > .jw-logo
@@ -1788,7 +1788,7 @@ birgun.net##.adsmasthead
 tekfullfilmizle5.com##a[href="https://www.dizdize.com/"]
 efullizle.com##+js(remove-node-text, script, openRandomSite)
 1dizifilmizle.com##.banners-container
-pllsfored.co,taraftarium.co##+js(set-constant, config.adv, {})
+buenosairesideal.com,pllsfored.co,taraftarium.co##+js(set-constant, config.adv, {})
 ||pllsfored.co^$image,third-party
 elle.com.tr##.abg245
 elle.com.tr#$#main.content-index { margin-top: 0px !important; }

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: COwGVssa8QwK7H5EIhSWcw
-! Version: 202504250941
+! Checksum: jh+XRMGnOqNQNt3ZMXU1+g
+! Version: 202504251041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Apr 2025 09:41 UTC
+! Last modified: 25 Apr 2025 10:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -921,6 +921,7 @@ ovego.tv#?#.boxTable:-abp-has(#vk_groups)
 ovego.tv#?#.boxTable:-abp-has(.ya-share2)
 kinokrad.la##.boxsocbut
 noi.md##.br-ar > a[target="_blank"] > *
+mash.ru##.brhsak
 versii.if.ua#?#.brxe-block:-abp-has(> h3 + .brxe-text-basic + [class$="_social"])
 versii.if.ua#?#.brxe-post-content > p:-abp-has(> [href^="https://t.me/"])
 itsider.com.ua##.bs-vc-sidebar-column > .bs-vc-wrapper > .bs-shortcode:first-child
@@ -2675,6 +2676,7 @@ manutd.ru##[class*="new_graphic soc_"]
 ohotniki.ru##[class*="preview__social"]
 jpgazeta.ru##[class*="share_save_widget"]
 cn.ru##[class*="socnets"]
+mash.ru##[class*="styles_shares_"]
 hromadske.radio##[class^="FollowBanner"]
 ainews.kz##[class^="Footer_socials"]
 atas.info,bel.ru##[class^="LeftcolSocials_item"]
@@ -2688,6 +2690,7 @@ d1.ua##[class^="social-sharing-bot"]
 nachasi.com##[class^="style_socials_"]
 zr.ru##[class^="styled__InfoShare"]
 zr.ru##[class^="styled__StoryNoteSubscribe"]
+mash.ru##[class^="styles_socials_"]
 skam.online##[class^="telegram"]
 tengrinews.kz##[class^="tn-social-"]
 drive2.ru##[data-action="share.share"]:not([data-target="drive"])
@@ -6651,6 +6654,7 @@ vinnitsa.info##footer a[href*="/app"][target="_blank"]
 zaycev.net##footer a[target="_blank"][title^="Zaycev.net для"]
 ozon.ru#?#footer div:-abp-has(> img[src*="/qr-code_"])
 ngnovoros.ru##footer div[class][style="color:#fff"] + div[class][style="color:#fff"] > div[class]:not([style])
+mash.ru##footer ~ div[class]
 timeweb.cloud##footer ~ div[class^="core--"]
 agents.media##footer-columns
 msfree.su##form[action^="https://msfree.su/donaties/"]

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /Y8Eq6Bb4RPzAjpc7wNRQg
-! Diff-Path: ../patches/7/7-s-1745503839-3600.patch
+! Checksum: LQJrl0b+cPnJDe2bEGMUQw
+! Diff-Path: ../patches/7/7-s-1745579445-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.63.97
-! TimeUpdated: 2025-04-24T14:06:40+00:00
+! Version: 2.0.63.98
+! TimeUpdated: 2025-04-25T11:06:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1685,6 +1685,7 @@ _ap/signin*?_encoding=UTF8&openid.assoc_handle=jpflex&openid.claimed_id=&action=
 ://eki*.*.com/Personal/member/Login/index.php?oneTimeAccessID=$document
 .com/ae/login.php?openid.pape.max_auth_age=0&openid.return_to=%$document
 !
+/^https?:\/\/(?:jp|qq)\d{7,8}\.[a-z]{7,8}\.[a-z]{2,8}\//$document,to=art|asia|auction|bar|cam|click|coupons|digital|diy|food|forum|gay|guru|life|live|living|my|property|pw|rocks|run|shop|tattoo|tech|today|uno|work,match-case
 |http://t-*/cz/$document,to=monster|online|space
 /ja/payment/|$document,to=co.in|co.za
 ://eki-net-*.*/Perosnal_member/$document,to=cn|net

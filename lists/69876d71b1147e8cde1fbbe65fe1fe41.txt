@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: U7sBSlFLvAdFgVU98YNMmw
-! Diff-Path: ../patches/13/13-s-1745511128-3600.patch
+! Checksum: 350xASMq7qy7WcQ8UEzoAQ
+! Diff-Path: ../patches/13/13-s-1745575916-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.55.95
-! TimeUpdated: 2025-04-24T16:08:24+00:00
+! Version: 2.0.55.96
+! TimeUpdated: 2025-04-25T10:07:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1953,9 +1953,7 @@ cumhuriyet.com.tr##.row[style^="width:100%;"]
 sondakika.com###video_befor
 ||labmedya.com/*/bannerlar/
 ||i.ibb.co/hLY8Wrf/betwinner2.gif
-||fullfilmizlesene.net/melbet.gif
-||fullfilmizlesene.net/betwinner.gif
-||fullfilmizlesene.net/film*.js
+||fullfilmizlesene.net/modal.js
 filmizlehdizle.com,fullfilmizlesene.net##.frek
 filmizlehdizle.com,fullfilmizlesene.net##.full-page-advertising
 beinsports.com.tr##div[class^="header-firstAd_"]

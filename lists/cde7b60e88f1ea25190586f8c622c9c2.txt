@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: +KgvyrvTsX3NRT/5kPPbsA
-! Version: 202504251059
+! Checksum: 9twtQwtwREkam7LxOoK/Gw
+! Version: 202504260513
 ! Title: Hufilter for uBO
-! Last modified: 25 Apr 2025 10:59 UTC
+! Last modified: 26 Apr 2025 05:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -850,6 +850,7 @@ napinemszar.hu###sidebar
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##[style="width:300px;height:250px;"]
 napiszar.hu##[class*="banner"]
+napiszar.hu###top-banner
 napiszex.hu##.banner
 napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
@@ -952,6 +953,8 @@ port.hu##.edgebox-widget.show
 port.hu##.port-adbd
 port.hu##[class*="_spon"]
 port.hu##[class="advert fix-advert"]
+port.hu##.advertisement__sticky
+port.hu##body .advert
 portfolio.hu##.footer--partners
 portfolio.hu##[data-qa="oil-full"]
 portfolio.hu##[data-qa="oil-Layer"]

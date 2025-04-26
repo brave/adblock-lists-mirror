@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 9twtQwtwREkam7LxOoK/Gw
-! Version: 202504260513
+! Checksum: vmb5z3ECIi1COgLecRjqPw
+! Version: 202504261155
 ! Title: Hufilter for uBO
-! Last modified: 26 Apr 2025 05:13 UTC
+! Last modified: 26 Apr 2025 11:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -604,6 +604,7 @@ infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosopron.hu,infopapa.hu,infocelldomo
 infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosopron.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
 infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosopron.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
 ingatlan.com##div[id*="banner"]
+ingatlan.com###residential-park-banners
 ingatlanmagazin.com##[class*="banner"]
 ingatlanok.hu##[class*="banner"]
 internet-marketing.hu###bottompopup
@@ -1528,11 +1529,15 @@ hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
 hu##.cookie-box
+hu##.eu-cookie-compliance-banner
+hu###cookies-policy
+hu###cmplz-cookiebanner-container
 hu##app-cookie-layer
 hu###szechenyi2020
 hu###szechenyi2020-wrapper
 hu###szechenyi
 hu###szechenyi-toggle
+hu###szechenyi_2020_logo
 ! hu###qc-cmp2-container
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
@@ -1617,10 +1622,12 @@ fermentor.hu###elementor-popup-modal-384
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
 fressnapf.hu##.grey-popup-layer
+g7.hu###box-footer-newsletter
 glamour.hu##.leavingPopupLayer
 glamour.hu###articleOfferFlag
 glamour.hu###pe_confirm_optin_6
 glamour.hu###qc-cmp2-container
+gov.hu###cookiesenabled
 gsplus.hu,pcwplus.hu###web-push-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
@@ -1631,6 +1638,7 @@ gyorihir.hu###cookie_bar
 gyorplusz.hu###cookie-law-info-bar
 harmonet.hu###ajanlo_box_ah
 hasznaltauto.hu###CybotCookiebotDialog
+hasznaltauto.hu##.local-content
 haziallat.hu##[id^="cookieconsent"]
 hazipatika.com##.fb-exit-popup-container
 hazipatika.com###facebook-sharebar
@@ -1723,6 +1731,7 @@ nlc.hu##.m-pcPromoFooterLayer
 nlc.hu##div.m-articleStickySocial
 nlc.hu##div.m-breakingLayer
 noizz.hu###articleOfferFlag
+novekedes.hu##.main-cookie-bar
 nyest.hu###cookie-consent
 obi.hu##.colorbox-cookiepolicy
 offline.hu###catapult-cookie-bar
@@ -1816,7 +1825,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
 ||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
-||cmp.inmobi.com^$third-party,script,domain=telex.hu|origo.hu|atlatszo.hu|rtl.hu|videa.hu|myonlineradio.hu|hvg.hu|femina.hu|prohardver.hu|itcafe.hu|mobilarena.hu|gamepod.hu|logout.hu|fototrend.hu|hardverapro.hu|vg.hu|portfolio.hu|noizz.hu|economx.hu|budapestkornyeke.hu|bpiautosok.hu|magyarnemzet.hu|blikk.hu|nepszava.hu|magyarnarancs.hu|hirtv.hu|pestisracok.hu|autoszektor.hu|penzcentrum.hu|index.hu|media1.hu
+||cmp.inmobi.com^$third-party,script,domain=telex.hu|origo.hu|atlatszo.hu|rtl.hu|videa.hu|myonlineradio.hu|hvg.hu|femina.hu|prohardver.hu|itcafe.hu|mobilarena.hu|gamepod.hu|logout.hu|fototrend.hu|hardverapro.hu|vg.hu|portfolio.hu|noizz.hu|economx.hu|budapestkornyeke.hu|bpiautosok.hu|magyarnemzet.hu|blikk.hu|nepszava.hu|magyarnarancs.hu|hirtv.hu|pestisracok.hu|autoszektor.hu|penzcentrum.hu|index.hu|media1.hu|g7.hu
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
@@ -1828,6 +1837,10 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||penzcentrum.hu/assets/js/bioep.min.js$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||liked.hu/choice/*/cmp2*.js^$script
+||*.hu/*eu_cookie_compliance.js$script
+||*.hu/*eu_cookie_compliance.css$stylesheet
+||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
+||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
 ! This section file contains rules for bypassing anti-adblock protections.
 ! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !-------------------------------------------------------------------------------!

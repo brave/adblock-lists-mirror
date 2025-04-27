@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FtENXmgKBPEK2JZ3OigBVg
-! Diff-Path: ../patches/224/224-s-1745713839-3600.patch
+! Checksum: vvzFj8hwJm+cIzi6vSlt1Q
+! Diff-Path: ../patches/224/224-s-1745717929-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.35.73
-! TimeUpdated: 2025-04-27T00:27:20+00:00
+! Version: 2.1.35.74
+! TimeUpdated: 2025-04-27T01:35:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20744,6 +20744,8 @@ yydstxt*.com/js/cdn.
 wss://*.top/|
 wss://*.*.top/$third-party
 ##body > div[style$=";background: #000;opacity:0.01;"]
+/static/idingdian/idd.
+||tunshixingkong2.com/config/v7.js
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $csp=script-src 'self' * 'unsafe-inline',domain=biqugezw.us|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 !#Novels

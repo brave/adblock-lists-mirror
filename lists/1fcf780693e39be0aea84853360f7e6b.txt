@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: rJ7h9aUSJOR4Gmsqoesk4Q
-! Diff-Path: ../patches/224/224-s-1745817201-3600.patch
+! Checksum: HLS7sxnyylrl6xbO9DcacQ
+! Diff-Path: ../patches/224/224-s-1745828814-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.35.82
-! TimeUpdated: 2025-04-28T05:09:54+00:00
+! Version: 2.1.35.83
+! TimeUpdated: 2025-04-28T08:23:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5090,6 +5090,7 @@ newduba.cn###jq_youxi
 ||tiboha.top^
 ||knwuamd.top^
 ||bwcnmtv.top^
+||wwok04281kl.com^
 ||zbislaernv.com^
 ||xebetp.icu^
 ||inwuamo.top^
@@ -11378,8 +11379,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||kokojia.com^$third-party
 ||kostool.cn/screenshot/
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
-||koyso.com/static/js/abc.
-||koyso.com/z-
+||koyso.com/static/js/abcd.
+||koyso.com/aclib.js
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||kt51.com/images/kt51.gif

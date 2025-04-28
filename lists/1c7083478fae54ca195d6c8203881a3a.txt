@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.1.1
+! Version: 4.1.1.2
 
 ! General
 
@@ -26,7 +26,7 @@
 ||olytics.omeda.com^$third-party
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
-/xbuilder/experience/execute$xmlhttprequest,~third-party
+/xbuilder/experience/execute$xmlhttprequest,~third-party,domain=~fortune.com
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
 @@||piano.io^$domain=hbr.org|japantimes.co.jp
 @@||tinypass.com$script,domain=ajc.com|thelogic.co
@@ -184,6 +184,9 @@ foreignaffairs.com##.paywall,.loading-indicator,.messages--container--bottom
 foreignpolicy.com##body:not(.is-fp-insider) div.content-ungated
 foreignpolicy.com##+js(rc, content-gated, body:not(.is-fp-insider) div.content-gated.content-gated--main-article)
 fortune.com##+js(ra, class, div.paywallActive)
+fortune.com##+js(cookie-remover, xbc)
+fortune.com##+js(cookie-remover, pcid)
+fortune.com##div.tp-container-inner
 foxnews.com##+js(ra, class, div[class*="gated-overlay"])
 foxnews.com##div.article-gating-wrapper
 ||ftm.eu/js/routing$script,~third-party
@@ -725,8 +728,8 @@ vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0
 ||ampproject.org/*/amp-subscriptions-$script
 @@||ampproject.org/v0/amp-consent-$script
 
-artnet.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
-artnet.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##[subscriptions-section="content-not-granted"]
+artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##[subscriptions-section="content-not-granted"]
 amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 theathletic.com##div[amp-access*="NOT granted"]
 

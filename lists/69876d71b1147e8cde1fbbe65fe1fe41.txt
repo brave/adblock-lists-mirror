@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: nXipsOLAU1ti1CNf3Qv7TA
-! Diff-Path: ../patches/13/13-s-1745953819-3600.patch
+! Checksum: MXZ46vDjnV4wLxbLrBvsgA
+! Diff-Path: ../patches/13/13-s-1745957473-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.56.0
-! TimeUpdated: 2025-04-29T19:06:24+00:00
+! Version: 2.0.56.1
+! TimeUpdated: 2025-04-29T20:07:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -902,7 +902,7 @@ maxfilmizle.pro,turkifsa.xyz,fullhdfilmizlesene.*,royalfilmizle.com,sinetiktok.c
 ! isShow
 tekfullfilmizle5.com##+js(set-constant, isShow, true)
 ! initPu
-erotikhoot.com,dizikral.live,eldermanga.com,promy.pro,diziyoutv.com,guneykoresinemasi.com,jetfilmizletv.net,dizimax2.com,yenierotikfilm.xyz,breakingbadizle.*,diziday1.com,zipfilmizle.com,bamfilmizle.com,sinemadafilm.com,hdizlefilmleri.com,filmmoduu.com,abifilmizle.org,trfilm.net,dolufilm.org,turkifsaalemi.com##+js(abort-on-property-read, initPu)
+sinemakolix.com,erotikhoot.com,dizikral.live,eldermanga.com,promy.pro,diziyoutv.com,guneykoresinemasi.com,jetfilmizletv.net,dizimax2.com,yenierotikfilm.xyz,breakingbadizle.*,diziday1.com,zipfilmizle.com,bamfilmizle.com,sinemadafilm.com,hdizlefilmleri.com,filmmoduu.com,abifilmizle.org,trfilm.net,dolufilm.org,turkifsaalemi.com##+js(abort-on-property-read, initPu)
 ! initAd
 fullfilmizlebaba.com,superfilmgeldi.biz,vkfilmizlet.*,supernaturalizle.com,sinemakolik.net,hdsinemax.com,diziyo.*,fullhdabifilm.com,bettercallsaulizle.com,superfilmgeldi.net,fullhdfilmizlett1.com,filmsezonu.com,fullhdfilmizleabi.com,hdfreeizle.com,hdmixfilim.com,fullhdfilmizlepala.com##+js(abort-on-property-read, initAd)
 !
@@ -5407,8 +5407,8 @@ webdramaturkey.com#$#.embed-col.birinci { display: none !important; }
 webdramaturkey.com#$#.embed-col.ikinci { display: block !important; }
 erotizmcenneti.org,dizirella.com,burcufilm.com,filmizlersin.com#$##rk-content { display: none !important; }
 erotizmcenneti.org,dizirella.com,burcufilm.com,filmizlersin.com#$##cn-content { display: block !important; }
-filmizleson.com,sinekolik.com#$#.once-reklam { display: none !important; }
-filmizleson.com,sinekolik.com#$##videos { display: block !important; }
+filmizlemobil.net,filmizleson.com,sinekolik.com#$#.once-reklam { display: none !important; }
+filmizlemobil.net,filmizleson.com,sinekolik.com#$##videos { display: block !important; }
 sinefilmizlesen.com#$#.tab-reklam { display: none !important; }
 sinefilmizlesen.com#$#.tab-embed { display: block !important; }
 hdfreeizle.com#$#.play-that-video { display: none !important; }

@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504282344
+! Version: 202504290104
 ! Title: EasyPrivacy
-! Last modified: 28 Apr 2025 23:44 UTC
+! Last modified: 29 Apr 2025 01:04 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2612,6 +2612,7 @@
 /w.gif?
 /wa.gif?
 /wa_tracker.js
+/watchdog/hits/collect$xmlhttprequest
 /wcount.php?
 /web-analytics.js
 /web-api/log/*
@@ -10048,6 +10049,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c3metrics.medifast1.com^
 ||cache2.delvenetworks.com^
 ||cafemedia.com/topics/clickstream-event
+||calendly.com/telemetry.js
 ||californiatimes.com/privacy/$image
 ||calltrack.co^
 ||calltrk.com/companies/
@@ -11424,6 +11426,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||removeads.workers.dev^
 ||replit.app/tap/
 ||replyat.com/gadgetpagecounter.asp?
+||report.23video.com^
 ||reporting-api.gannettinnovation.com^
 ||reporting.cdndex.io^
 ||reporting.singlefeed.com^
@@ -12621,6 +12624,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quiz.stroeermediabrands.de/pub/$image
 ||retrack.q-divisioncdn.de^
 ||retresco.de^*/stats/$third-party
+||rum.mauve.eu^
 ||script.idgentertainment.de/gt.js
 ||serverkompetenz.net/cpx.php?
 ||sheego.de/ar/$third-party
@@ -53025,6 +53029,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||vinted.it/relay/events
 ||virgilio.it/clientinfo.gif?
 ||virgilio.it/js/web-vitals-evnt/tracking.js
+||vistanet.it^*/category_event.js
 ||volkswagen-italia.it^*/tracking/
 ||vvvvid.it^$ping
 ||yachtingnetwork.it/stat/

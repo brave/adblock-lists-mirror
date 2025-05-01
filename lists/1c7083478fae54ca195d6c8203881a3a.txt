@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.1.2
+! Version: 4.1.1.3
 
 ! General
 
@@ -419,6 +419,10 @@ european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
 
+! Daily Mail Group UK
+dailymail.co.uk,mailonsunday.co.uk,thisismoney.co.uk##+js(rc, is-paywalled-article, body.is-paywalled-article)
+||dailymail.co.uk/static/mol-adverts/$script
+
 ! GEDI.it sites
 ||huffingtonpost.it/*/news/$inline-script
 ||lastampa.it/*/news/$inline-script
@@ -607,7 +611,6 @@ cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
 ||cnv-medien.de$inline-script
 connexionfrance.com##+js(cookie-remover, /^/)
 connexionfrance.com##div#subscribe-banner
-||dailymail.co.uk/static/mol-adverts/$script
 divisare.com##div.blocker
 divisare.com##+js(ra, style, body[style], stay)
 dominionpost.com##+js(rc, entry-content, article > div.entry-content)

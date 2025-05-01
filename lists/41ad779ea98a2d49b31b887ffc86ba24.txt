@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8gxOpAbSLPXSzYVg6BzRjA
-! Version: 202505011142
+! Checksum: 5Rr0ule456VURni2GSsxCw
+! Version: 202505011242
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-05-01 11:42 UTC
+! Last modified: 2025-05-01 12:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38343,6 +38343,9 @@ sebo.ddns.opc-asp.de##+js(set-cookie, opc_webapp_cookiesaccepted_be264d3fecc6404
 skyrc.com##+js(set-cookie, accept-cookie-20240708, false)
 dillingen.bayernlab.bayern.de##+js(set-cookie, allowStats, 0)
 dillingen.bayernlab.bayern.de##+js(set-cookie, hideBanner, 1)
+charleskeith.com##+js(set-cookie, consentTracking, true)
+charleskeith.com##+js(set-cookie, consentTrackingPopupCookie, true)
+charleskeith.com##+js(set-cookie, ck_dnt, 1)
 todays-golfer.com##+js(set-cookie, ccpaApplies, true)
 todays-golfer.com##+js(set-cookie, ccpaConsentAll, true)
 todays-golfer.com##+js(set-cookie, ccpaReject, false)
@@ -49497,6 +49500,7 @@ ct.nl##.wpbd-form
 deondernemer.nl##[id^="newsletter_"]
 id.nl##div[class*="newsletter_content-side_"]
 ! Finnish
+siitepolytieto.fi###campaignPopup
 mobiili.fi###text-61
 tempodent.fi###wpfront-notification-bar-spacer
 tyyliniekka.fi##.hustle-popup
@@ -51628,6 +51632,7 @@ animefire.net###page-mask
 voetbalkrant.com###requestNotificationPermission
 dn.pt###sk-notifications-container
 suedtirolmobil.info##.PushModal
+siitepolytieto.fi##.block-quick-poll
 szeretlekmagyarorszag.hu##.modal-app-promo
 eltribuno.com,puntobiz.com.ar##.notificacion-modal
 cmmedia.es##.notification-modal

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PpCicywfb2OuGf5zcUWEfw
-! Version: 202505010941
+! Checksum: 4xyBLcYYctJNv/0BryxAPg
+! Version: 202505011041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 May 2025 09:41 UTC
+! Last modified: 01 May 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13958,7 +13958,7 @@ glavnoe.net,infotime.co##.comments-wrapper
 pikabu.ru##.comments__adv
 novayagazeta.ru##.comments_block div > article + div[style^="margin"]
 car.ru##.commercial
-anilibria.top##.commercial-banner
+anilibria.top,anilibria.wtf##.commercial-banner
 mgazeta.com,yantann.rbsmi.ru,yanzori.rbsmi.ru##.commercical_wrap
 sportanalytic.com##.common_content_news > .news > center
 samara24.ru##.common_left > [id^="rep_"] > .bl_main
@@ -15089,7 +15089,7 @@ hd-720.biz##.movie-full > noindex
 emu-land.net##.mreklama
 ru.motorsport.com##.ms-article-content > div[style^="overflow: hidden; padding-top:"]
 ru.motorsport.com##.ms-side-items--with-banner
-anilibria.top#?#.mt-8:-abp-has(> .commercial-banner)
+anilibria.top,anilibria.wtf#?#.mt-8:-abp-has(> .commercial-banner)
 multitest.ua##.mt_adv_block
 bigmir.net##.mtbottom_priceua
 7days.ru##.mtop
@@ -20527,6 +20527,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||anekdotov.net/show/sell/$image
 ||ani-mania.com/files/ban$subdocument
 ||ani-mania.com/seo_anime_
+||anilibria.*/api/v*/ads/
 ||anime-365.ru/promo/
 ||animechan.ru/fun/
 ||animecos.ru/templates/animecos/images/cross.

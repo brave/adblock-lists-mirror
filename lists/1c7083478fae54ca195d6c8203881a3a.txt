@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.1.3
+! Version: 4.1.1.5
 
 ! General
 
@@ -731,10 +731,9 @@ vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0
 ||ampproject.org/*/amp-subscriptions-$script
 @@||ampproject.org/v0/amp-consent-$script
 
-artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
-artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com##[subscriptions-section="content-not-granted"]
+artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com,staradvertiser.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com,staradvertiser.com##[subscriptions-section="content-not-granted"]
 amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
-theathletic.com##div[amp-access*="NOT granted"]
 
 ! French/Belgian sites
 amp.elle.fr,challenges.fr,sciencesetavenir.fr##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
@@ -765,7 +764,7 @@ amp.brisbanetimes.com.au,amp.smh.com.au,amp.theage.com.au,amp.watoday.com.au##[s
 ! Spanish/Portugese/Brazilian/Colombian sites
 amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,em.com.br,folha.uol.com.br,gazetadopovo.com.br##+js(ra, subscriptions-section, [subscriptions-section="content"])
 amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,em.com.br,folha.uol.com.br,gazetadopovo.com.br##[subscriptions-section="content-not-granted"]
-eldiario.es,elpais.com,estadao.com.br,record.pt,sabado.pt##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+eldiario.es,elpais.com,estadao.com.br,infolibre.es,sabado.pt##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Grupo Vocento
 abc.es,canarias7.es,diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es,lavozdigital.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 abc.es##+js(ra, id, body#top)

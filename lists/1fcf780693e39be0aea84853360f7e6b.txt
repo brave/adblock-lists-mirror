@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FBcEPi9VHjt2wc4rO5Wf6Q
-! Diff-Path: ../patches/224/224-s-1746232096-3600.patch
+! Checksum: J2HV862bgPFiLEYKOi7PBA
+! Diff-Path: ../patches/224/224-s-1746236310-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.36.16
-! TimeUpdated: 2025-05-03T00:24:50+00:00
+! Version: 2.1.36.17
+! TimeUpdated: 2025-05-03T01:35:03+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3360,6 +3360,7 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.alpha^$script,third-party
+/7755com-*00x*.gif
 .xyz/z/*/code.js$script,third-party
 -*-*-*-*.as^$script,third-party
 .xyz:*?x=$script,third-party
@@ -4787,7 +4788,6 @@ newduba.cn###jq_youxi
 ##.plc > .a_p
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-m-overlay
-##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
@@ -4911,7 +4911,6 @@ newduba.cn###jq_youxi
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
 ##a[href$=".cc:8443"]
-##a[href$=".php"] > img[src*=".bcebos.com"]
 ##a[href$=".xyz:8443"]
 ##a[href*=".bright.cn/?utm_"]
 ##a[href*=".com/?Extend="]
@@ -4948,9 +4947,7 @@ newduba.cn###jq_youxi
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="xchina.click/prepare."]
-##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
-##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
@@ -4969,7 +4966,7 @@ newduba.cn###jq_youxi
 ##a[href^="javascript:gl012"] + img
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
-##a[id][target="_blank"] > img[src*="help-ol.bj.bcebos.com"]
+##a[href="/iwagbwfiwehaeyh"]
 ##a[onclick$="'clicked', 'ad');"]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
@@ -5090,6 +5087,7 @@ newduba.cn###jq_youxi
 ||okpl05030ai.com^
 ||vtqhelleano.com^
 ||qqosk05030llo.com^
+||zktats.top^
 ||vldp.cn^
 ||ghgietuthz.com^
 ||qqosk05020llo.com^
@@ -12618,7 +12616,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yxdd.com^$subdocument
 ||yxdown.com/cj/
 ||yxdown.com/zt/zt/js/zt.js
-||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 ||yxzp.net/left.js
 ||yy18.info/yyads/
 ||yy8090.vip/js/abc/
@@ -12748,6 +12745,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aizhan.com/images/img/apicn.
 ||xfvod.pro/images/ad/
 ||hupu.com^*/interfaceAd/
+||dyxs39.com/statics/js/jquery.
+||yximgs.com/bs2/adcarsku/*.gif
 sojson.com##.a-d-img
 sixyin.com##.widget_custom_html
 baidu.com##a[class*="fengchaoContainer"]

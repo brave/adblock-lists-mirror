@@ -22,6 +22,7 @@
 ||fixatessoused.com^
 ||odorfulapheses.com^
 ||prewhipmamamu.com^
+||rutategpd.com^
 ||sorosehottie.com^
 ||zitzithquaff.top^
 ! https://github.com/easylist/easylist/issues/6471
@@ -1328,6 +1329,12 @@ adrianoluis.net,altevolkstrachten.de,animecast.net,armyranger.com,articletz.com,
 ! https://github.com/uBlockOrigin/uAssets/issues/12396
 ! https://github.com/uBlockOrigin/uAssets/issues/28065
 ! for-ad-inserter-sites
+!#if cap_html_filtering
+hallofseries.com,luciferdonghua.in##^script:has-text(ai_adb)
+!#else
+hallofseries.com,luciferdonghua.in##+js(rmnt, script, ai_adb)
+!#endif
+@@/wp-content/plugins/ad-inserter/js/*.js?ver=$script,xhr,1p
 ||media.net^$object,redirect=noopjs
 ||google-analytics.com^$object,redirect=noopjs
 ||doubleclick.net^$object,redirect=noopjs
@@ -1335,6 +1342,9 @@ adrianoluis.net,altevolkstrachten.de,animecast.net,armyranger.com,articletz.com,
 ||amazon-adsystem.com^$object,redirect=noopjs
 ||ezodn.com^$object,redirect=noopjs
 ||googletagmanager.com^$object,redirect=noopjs
+/468x60/*$object,redirect=noopjs
+! https://github.com/uBlockOrigin/uAssets/issues/28161
+@@||luciferdonghua.in^$1p
 
 ! !SECTION: ai_front sites
 

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 7+Z8UuqJDp2O1xInRcKqyw
+! Checksum: IR8yNLTAbpzDQWVWapETkw
 ! Title: Easylist Cookie List
-! Updated: 2025-05-04 01:10 UTC
+! Updated: 2025-05-04 02:10 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -20904,11 +20904,18 @@ fromsmash.com##+js(set-cookie, _sucs, true)
 dtksoft.com,ecuavisa.com,exaktacreative.se,goindex.lt##+js(set-cookie, user_cookie_consent, 1)
 sebo.ddns.opc-asp.de##+js(set-cookie, opc_webapp_cookiesaccepted_be264d3fecc64041f12c2afcba82edc0, 1, , reload, 1)
 skyrc.com##+js(set-cookie, accept-cookie-20240708, false)
+mycare.de##+js(set-cookie, cookie-policy-accepted-v3, true)
+mycare.de##+js(set-cookie, cc_analytics, false)
+mycare.de##+js(set-cookie, cc_advertising, false)
+netgem.com##+js(set-cookie, consent-cookie-popup, 1)
+netgem.com##+js(set-cookie, consent-cookie-vimeo, 1)
+netgem.com##+js(set-cookie, consent-cookie-youtube, 1)
 smartfilmbase.se##+js(set-cookie, allow-all, 0, , reload, 1)
 smartfilmbase.se##+js(set-cookie, user-cookies-set, 1)
 smartfilmbase.se##+js(set-cookie, analysis-cookies, 0)
 dillingen.bayernlab.bayern.de##+js(set-cookie, allowStats, 0)
 dillingen.bayernlab.bayern.de##+js(set-cookie, hideBanner, 1)
+kinderveiligheidswinkel.nl##+js(set-cookie, cookie_preference, functional)
 charleskeith.com##+js(set-cookie, consentTracking, true)
 charleskeith.com##+js(set-cookie, consentTrackingPopupCookie, true)
 charleskeith.com##+js(set-cookie, ck_dnt, 1)
@@ -21085,6 +21092,7 @@ f1store4.formula1.com##+js(set-cookie, mktck, false)
 brasiltec.ind.br,xhaccess.com,seexh.com,valuexh.life,xham.live,xhamster.com,xhamster.desi,xhamster1.desi,xhamster19.com,xhamster2.com,xhamster3.com,xhamster42.desi,xhamsterlive.com,xhchannel.com,xhchannel2.com,xhdate.world,xhopen.com,xhspot.com,xhtab4.com,xhwebsite5.com,xhwide5.com##+js(set-cookie, cookie_accept, 1)
 lassociation.fr##+js(set-cookie, rgpdLassoCheck, 1)
 elpicazo.org,varaderey.es,top-car-hire.com##+js(set-cookie, cookies_aceptadas, true, , reload, 1)
+photoacompanhantes.com##+js(set-cookie, cookies_aceptadas, 0)
 bookings.hermesairports.com##+js(set-cookie, cookie_choice_made, decline)
 community.creative-assembly.com##+js(set-cookie, consent_cookies, 1)
 okto.tv##+js(set-cookie, disclaimer-saved, 1)
@@ -21499,6 +21507,7 @@ jn.fo##+js(set-cookie, socialMediaStatus, false)
 rovia.es,platforma.eb2b.com.pl##+js(set-cookie, cookiesAccepted, 1, reload, 1)
 bayern-gegen-gewalt.de,schwanger-in-bayern.de,bayern.de##+js(set-cookie, required, 1)
 drugdiscoverynews.com##+js(set-cookie, allowsCookies, true)
+sander-apotheken.de##+js(set-cookie, cokiban, true)
 verfwebwinkel.be##+js(set-cookie, pmStorage, 1)
 wayfair.co.uk,wayfair.de,wayfair.ie##+js(set-cookie, user_cookie_prefs, 1)
 viu.com##+js(set-cookie, cookie_consent_accept, true)
@@ -23512,14 +23521,6 @@ kymppikatsastus.fi##+js(set-cookie, cookielawinfo-checkbox-toiminnalliset-evaste
 ! mediaite.com
 mediaite.com##+js(set-cookie, am-sub, 1)
 ||consentmanager.net^$script,domain=mediaite.com,important
-! photoacompanhantes.com
-photoacompanhantes.com##.lightbox
-photoacompanhantes.com##.rgpd
-photoacompanhantes.com##body,html:style(height: auto !important; overflow: auto !important)
-! kinderveiligheidswinkel.nl
-kinderveiligheidswinkel.nl##.cookie_popup_dialog
-kinderveiligheidswinkel.nl##.CookiePopupDialog-overlay
-kinderveiligheidswinkel.nl##body,html:style(overflow: auto !important; position: initial !important;)
 ! cruyff-foundation.org
 cruyff-foundation.org##.cookie-prefs-wrapper
 cruyff-foundation.org##body,html:style(height: auto !important; overflow: auto !important)
@@ -23590,23 +23591,9 @@ ivass.it##body,html:style(overflow: auto !important; position: initial !importan
 cencenelec.eu###GDPR-overlay
 cencenelec.eu##.GDPR-Popup
 cencenelec.eu##body:style(overflow: auto !important; position: initial !important;)
-! netgem.com
-netgem.com###container-rgpd-fond
-netgem.com###infos-cookies-rgpd
-netgem.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! ocre-project.eu
 ocre-project.eu###cookiePopup
 ocre-project.eu##body,html:style(overflow: auto !important; position: initial !important;)
-! mycare.de
-mycare.de###cboxOverlay
-mycare.de###cookie-settings-form
-mycare.de##body,html:style(overflow: auto !important; position: initial !important;)
-! .page-wrap--cookie-permission
-schaette.de,schaette-pferd.de##.page-wrap--cookie-permission
-schaette.de,schaette-pferd.de##body,html:style(overflow: auto !important; position: initial !important;)
-! sander-apotheken.de
-sander-apotheken.de###cokiban
-sander-apotheken.de##body,html:style(overflow: auto !important; position: initial !important;)
 ! allianz.fr
 allianz.fr###az-cmp
 allianz.fr##body,html:style(overflow: auto !important; position: initial !important;)

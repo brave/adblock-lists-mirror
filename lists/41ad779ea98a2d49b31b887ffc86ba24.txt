@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CqXGGKMguhCgDwNMiYk1ug
-! Version: 202505040142
+! Checksum: KjqDqzbZnBWXPR1C1RVT0A
+! Version: 202505040242
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-05-04 01:42 UTC
+! Last modified: 2025-05-04 02:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38370,11 +38370,17 @@ skyrc.com##+js(set-cookie, accept-cookie-20240708, false)
 mycare.de##+js(set-cookie, cookie-policy-accepted-v3, true)
 mycare.de##+js(set-cookie, cc_analytics, false)
 mycare.de##+js(set-cookie, cc_advertising, false)
+netgem.com##+js(set-cookie, consent-cookie-popup, 1)
+netgem.com##+js(set-cookie, consent-cookie-vimeo, 1)
+netgem.com##+js(set-cookie, consent-cookie-youtube, 1)
+meiosepublicidade.pt##+js(set-cookie, gdpr_consent-legacy, true)
+meiosepublicidade.pt##+js(set-cookie, gdpr_consent, true)
 smartfilmbase.se##+js(set-cookie, allow-all, 0, , reload, 1)
 smartfilmbase.se##+js(set-cookie, user-cookies-set, 1)
 smartfilmbase.se##+js(set-cookie, analysis-cookies, 0)
 dillingen.bayernlab.bayern.de##+js(set-cookie, allowStats, 0)
 dillingen.bayernlab.bayern.de##+js(set-cookie, hideBanner, 1)
+kinderveiligheidswinkel.nl##+js(set-cookie, cookie_preference, functional)
 charleskeith.com##+js(set-cookie, consentTracking, true)
 charleskeith.com##+js(set-cookie, consentTrackingPopupCookie, true)
 charleskeith.com##+js(set-cookie, ck_dnt, 1)
@@ -38551,6 +38557,7 @@ f1store4.formula1.com##+js(set-cookie, mktck, false)
 brasiltec.ind.br,xhaccess.com,seexh.com,valuexh.life,xham.live,xhamster.com,xhamster.desi,xhamster1.desi,xhamster19.com,xhamster2.com,xhamster3.com,xhamster42.desi,xhamsterlive.com,xhchannel.com,xhchannel2.com,xhdate.world,xhopen.com,xhspot.com,xhtab4.com,xhwebsite5.com,xhwide5.com##+js(set-cookie, cookie_accept, 1)
 lassociation.fr##+js(set-cookie, rgpdLassoCheck, 1)
 elpicazo.org,varaderey.es,top-car-hire.com##+js(set-cookie, cookies_aceptadas, true, , reload, 1)
+photoacompanhantes.com##+js(set-cookie, cookies_aceptadas, 0)
 bookings.hermesairports.com##+js(set-cookie, cookie_choice_made, decline)
 community.creative-assembly.com##+js(set-cookie, consent_cookies, 1)
 okto.tv##+js(set-cookie, disclaimer-saved, 1)
@@ -38982,7 +38989,7 @@ kinemaster.com##+js(set-cookie, kinemaster-cookieconstent, 1)
 sp32bb.pl##+js(set-cookie, cookie_acceptance, 1)
 jazz.fm##+js(set-cookie, jazzfm-privacy, true)
 juntadeandalucia.es##+js(set-cookie, show_msg_cookies, false)
-tidningenbalans.se,melee.gg##+js(set-cookie, CookieConsent, true, , reload, 1)
+tidningenbalans.se,melee.gg,criticalsoftware.com##+js(set-cookie, CookieConsent, true, , reload, 1)
 ymere.nl##+js(set-cookie, euconsent, 1)
 melee.gg##+js(set-cookie, FunctionalCookie, true)
 melee.gg##+js(set-cookie, AnalyticalCookie, false)
@@ -40979,14 +40986,6 @@ kymppikatsastus.fi##+js(set-cookie, cookielawinfo-checkbox-toiminnalliset-evaste
 ! mediaite.com
 mediaite.com##+js(set-cookie, am-sub, 1)
 ||consentmanager.net^$script,domain=mediaite.com,important
-! photoacompanhantes.com
-photoacompanhantes.com##.lightbox
-photoacompanhantes.com##.rgpd
-photoacompanhantes.com##body,html:style(height: auto !important; overflow: auto !important)
-! kinderveiligheidswinkel.nl
-kinderveiligheidswinkel.nl##.cookie_popup_dialog
-kinderveiligheidswinkel.nl##.CookiePopupDialog-overlay
-kinderveiligheidswinkel.nl##body,html:style(overflow: auto !important; position: initial !important;)
 ! cruyff-foundation.org
 cruyff-foundation.org##.cookie-prefs-wrapper
 cruyff-foundation.org##body,html:style(height: auto !important; overflow: auto !important)
@@ -41001,16 +41000,6 @@ frankenergie.*##body,html:style(height: auto !important; overflow: auto !importa
 energiedirect-bayern.de##.sp-dsgvo
 energiedirect-bayern.de##.sp-dsgvo-popup-overlay
 energiedirect-bayern.de##body,html:style(height: auto !important; overflow: auto !important)
-! criticalsoftware.com
-criticalsoftware.com##.ReactModalPortal
-criticalsoftware.com##body,html:style(height: auto !important; overflow: auto !important)
-! meiosepublicidade.pt
-meiosepublicidade.pt###modal
-meiosepublicidade.pt##.CookieConsent
-meiosepublicidade.pt##body,html:style(height: auto !important; overflow: auto !important)
-! generalitranquilidade.pt
-generalitranquilidade.pt##.overlay-wrapper
-generalitranquilidade.pt##body,html:style(overflow: auto !important; position: initial !important;)
 ! inshared.nl
 inshared.nl##.web-cookie-consent
 inshared.nl##.web-overlay--opened
@@ -41057,10 +41046,6 @@ ivass.it##body,html:style(overflow: auto !important; position: initial !importan
 cencenelec.eu###GDPR-overlay
 cencenelec.eu##.GDPR-Popup
 cencenelec.eu##body:style(overflow: auto !important; position: initial !important;)
-! netgem.com
-netgem.com###container-rgpd-fond
-netgem.com###infos-cookies-rgpd
-netgem.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! ocre-project.eu
 ocre-project.eu###cookiePopup
 ocre-project.eu##body,html:style(overflow: auto !important; position: initial !important;)

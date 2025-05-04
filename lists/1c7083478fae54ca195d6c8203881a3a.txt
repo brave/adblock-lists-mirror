@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.1.5
+! Version: 4.1.1.6
 
 ! General
 
@@ -371,7 +371,6 @@ thequint.com##+js(ra, class|style, div#story-body-wrapper, stay)
 ||thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.js$~third-party
 /\.thesaturdaypaper\.com\.au\/.+\/(\w+-){3,}/$inline-script,domain=thesaturdaypaper.com.au
 thesaturdaypaper.com.au##div.paywall-hard-always-show
-||thespectator.com/wp-content/themes/spectator/js/tinypass.js$script,~third-party
 thespectator.com##+js(rc, ev-meter-content-class, div.ev-meter-content-class)
 thetimes.com##html:style(overflow: auto !important;)
 thetimes.com##body:style(overflow: auto !important;)
@@ -689,6 +688,7 @@ rotowire.com##div.paywall-full,div.article-preview-fader
 ||shrm.org/*/js/paywall*.js$script,~third-party
 skepticalinquirer.org##+js(rc, google-bot, div.google-bot, stay)
 /\.solicitorsjournal\.com\/_next\/static\/chunks\/\d.+\.js/$script,domain=solicitorsjournal.com,~third-party
+speakup.it##div.paywall-container
 ||spectrejournal.com/wp-content/plugins/elementor/*/dialog.min.js$script,~third-party
 splainer.in##+js(rc, hide-section, .hide-section)
 splainer.in##.subscription-prompt

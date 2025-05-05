@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: iD2nDtsEIpjT5pI8sx57WQ
-! Diff-Path: ../patches/13/13-s-1746195054-3600.patch
+! Checksum: B4NmvWaPBEbkZJtBW3+pjQ
+! Diff-Path: ../patches/13/13-s-1746425633-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.56.9
-! TimeUpdated: 2025-05-02T14:07:02+00:00
+! Version: 2.0.56.10
+! TimeUpdated: 2025-05-05T06:09:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1810,7 +1810,7 @@ onedio.com##div[id^="before-infinie-scroll-thumbnails"]
 ||kozfilm*.org/pops-yeni.js
 filmerotikizle.com#$#.video-content > div.ads { height: 0 !important; visibility: hidden !important; }
 ||filmerotikizle.com/wp-content/litespeed/js/*ad*.js
-forum.donanimarsivi.com##.focus-ad
+joymaxtr.net,forum.donanimarsivi.com##.focus-ad
 teknosa.com##.products > ul:has(> li > div#product-item > div.prd-inner > div.prd-body > div.prd-features > span.plp-badge-text)
 fullfilmizle.cc#$#body { margin-top: 0 !important; background-image: none !important; }
 ||hdfilmcix.*/Hdfilmcix-pop.js

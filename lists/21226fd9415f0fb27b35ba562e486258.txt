@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 6+zlKyQQ8DWG/dfolEwL5g
+! Checksum: qxdtDJ2vctZ/kaIzdD2uCg
 ! Title: Easylist Cookie List
-! Updated: 2025-05-04 23:10 UTC
+! Updated: 2025-05-05 00:10 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -5194,7 +5194,6 @@
 ###cookiewarn-panel
 ###cookiewarnbar
 ###cookiewarner
-###cookiewarning
 ###cookiewarning-block
 ###cookiewarning_header
 ###cookiewarningcontainer
@@ -12344,7 +12343,6 @@
 ##.cookiewarning-container
 ##.cookiewarning-inner
 ##.cookiewarning-wrapper
-##.cookiewarning:not(body):not(html)
 ##.cookiewarning_bg
 ##.cookiewarning_fg
 ##.cookiewarning_wrapper
@@ -20907,6 +20905,7 @@ fromsmash.com##+js(set-cookie, _sucs, true)
 dtksoft.com,ecuavisa.com,exaktacreative.se,goindex.lt##+js(set-cookie, user_cookie_consent, 1)
 sebo.ddns.opc-asp.de##+js(set-cookie, opc_webapp_cookiesaccepted_be264d3fecc64041f12c2afcba82edc0, 1, , reload, 1)
 voltafinance.com##+js(trusted-set-cookie, __wr_disclaimer_source, 1)
+ghostinternational.com##+js(trusted-set-cookie, pum-9213, true)
 skyrc.com##+js(set-cookie, accept-cookie-20240708, false)
 mycare.de##+js(set-cookie, cookie-policy-accepted-v3, true)
 mycare.de##+js(set-cookie, cc_analytics, false)
@@ -21193,6 +21192,7 @@ qinetiq.com##+js(set-cookie, cookie_pref_analytics, 0)
 qinetiq.com##+js(set-cookie, cookie_pref_accept, 1, , reload, 1)
 droptica.com##+js(set-cookie, gtm-scripts-accepted-cookies-1712054031, required)
 gramatica-alemana.es##+js(set-cookie, cookiewarning, 1)
+jpralves.net##+js(set-cookie, cookiewarning, Y)
 zeoob.com##+js(set-cookie, allowed_consent, yes)
 bsh-group.com##+js(set-cookie, cookiepolicy, decline)
 amzs.si,epilog.net,skb-leasing.si##+js(set-cookie, cookie_gdpr, true, , reload, 1)
@@ -27256,7 +27256,6 @@ mymuesli.com#@##cookies_consent
 setdart.com#@##cookies_modal
 swiss-sport.tv#@##cookiescript_badge
 cla.co.uk#@##cookiescript_injected_wrapper
-succulent-plant.com,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua#@##cookiewarning
 allocine.fr#@##didomi-host
 abc.es,as.com,atresplayer.com,auto.it,corrieredellosport.it,elcomercio.es,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@##didomi-notice
 onlinelekarna.cz#@##dm-cookie-popup-container
@@ -27364,7 +27363,6 @@ hublot.com#@#.cookies_consent-show
 logo.pt#@#.cookies_container
 educhel.ru#@#.cookies_popup
 xlbygg.se#@#.cookievarning-wrap
-batterilagret.se,canal.be,samsung.com,vaillant.de,xlbygg.se#@#.cookiewarning:not(body):not(html)
 qatarairways.com#@#.cookiewrap
 abc.es,as.com,atresplayer.com,auto.it,corrieredellosport.it,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@#.didomi-notice-banner
 20minutos.es,goplay.be,ouest-france.fr,strefabiznesu.pl#@#.didomi-screen-xlarge

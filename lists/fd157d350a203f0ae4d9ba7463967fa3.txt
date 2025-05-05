@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5ycSakhKhSvcm/RFE6o29Q
-! Version: 202505051441
+! Checksum: AWIlkljBjfEWHnJs+qMTjA
+! Version: 202505051541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 May 2025 14:41 UTC
+! Last modified: 05 May 2025 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15315,6 +15315,7 @@ matematikalegko.ru##.page_Banner
 darktorrent.org##.page__main a[href][target="_blank"] > img
 businessman.ru#?#.page__section:-abp-has(> .partner)
 redheadsound.studio##.page__text > div[style^="color:"]
+redheadsound.studio##.page__text > div[style^="color:"] + p > br
 nur.kz##.page__top
 nnovosti.info##.page_content > .article_content ~ div[style^="width:"]
 djekxa.ru##.page_index.content > p a[href][target="_blank"] > img
@@ -18922,6 +18923,7 @@ andevice.ru##div[id^="ad_header"]
 indigomath.ru##div[id^="ad_id"]
 imagenizr.net##div[id^="adblock-"]
 menquestions.ru##div[id^="add_rek"]
+redheadsound.studio##div[id^="adfinity-"]
 baginya.org,topmmo-games.ru##div[id^="admitad"]
 marieclaire.ua##div[id^="admixer_"] ~ .line
 baby.ru,rb.ru,susanin.news##div[id^="adriver_banner"]

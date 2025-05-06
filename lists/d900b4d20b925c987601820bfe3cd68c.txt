@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 0ZNrW7kv69nivx9V99ggmA
-! Diff-Path: ../patches/7/7-s-1746486714-3600.patch
+! Checksum: s8Le+EVodypemvl2C6gufg
+! Diff-Path: ../patches/7/7-s-1746519229-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.64.25
-! TimeUpdated: 2025-05-05T23:07:55+00:00
+! Version: 2.0.64.26
+! TimeUpdated: 2025-05-06T08:09:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7781,6 +7781,7 @@ minkch.com###desmiss
 minkch.com##.menu-item > .external
 minkch.com##.topframe
 library.pref.osaka.jp###banner_ad
+pref.tokushima.lg.jp##.banner_ad
 ||momoiroadult.com/wp-content/uploads/*_728x$image,~third-party
 ||momoiroadult.com/wp-content/uploads/*_640_100_$image,~third-party
 ||momoiroadult.com/wp-content/uploads/*_600x500$image,~third-party

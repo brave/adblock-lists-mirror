@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qbmUf5V2tGVNDP0gfhQLSA
-! Diff-Path: ../patches/224/224-s-1746544360-3600.patch
+! Checksum: dlZagCK1xuzk2esCbMDebQ
+! Diff-Path: ../patches/224/224-s-1746562317-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.36.45
-! TimeUpdated: 2025-05-06T15:08:56+00:00
+! Version: 2.1.36.46
+! TimeUpdated: 2025-05-06T20:08:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3002,6 +3002,7 @@ netfly.*,netfly.tv##.module-tg-box
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177520
+! https://github.com/AdguardTeam/AdguardFilters/issues/204700
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202922
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176103
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134240
@@ -3010,7 +3011,7 @@ netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 ! bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
 search.bilibili.com##.video-list > div:has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .ad-feedback-entry)
 bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text)
-bilibili.com#$?#.container > .feed-card:has(>.bili-video-card.is-rcmd > div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text) { remove: true; }
+bilibili.com#$#.container > .feed-card:has(>.bili-video-card.is-rcmd > div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text)  { position: absolute!important; left: -4000px!important; }
 bilibili.com#$#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { position: absolute !important; left: -3000px !important; }
 bilibili.com##+js(json-prune, data.cm_info.ads)
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))

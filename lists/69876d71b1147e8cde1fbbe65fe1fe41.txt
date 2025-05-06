@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: K5yVs3Y19Y3cJs41opL0jA
-! Diff-Path: ../patches/13/13-s-1746519226-3600.patch
+! Checksum: 4+uY+eQP9pZut9MDrvMRoA
+! Diff-Path: ../patches/13/13-s-1746522708-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.56.17
-! TimeUpdated: 2025-05-06T08:09:41+00:00
+! Version: 2.0.56.18
+! TimeUpdated: 2025-05-06T09:07:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1578,6 +1578,7 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+||silentall.net/templates/silentallnet/images/sponrek.gif
 ||vipfilmizle.net/anasayfa%20header.gif
 golgebahcesi.com##.rutaku-banner
 tranimaci.com##a[href^="https://cutt.ly/"]:has(img)
@@ -4765,7 +4766,7 @@ temizmagazin.com##.block-image > a[target="_blank"] > img
 ||koinbulteni.com/banner/
 ||koinbulteni.com/tokenad.html
 haber46.com.tr##a[href^="https://www.haber46.com.tr/banner.php"]
-birgun.net,webtekno.com##body .ads
+silentall.net,birgun.net,webtekno.com##body .ads
 otohaber.com.tr,ahaber.com.tr##.ligatusAdvert
 ||vdcasinotv*.com/assets/uploads/banners^
 hurriyet.com.tr,www-hurriyet-com-tr.cdn.ampproject.org##.amp-dfpslot
@@ -5800,17 +5801,17 @@ sezonlukdizi3.com,sezonlukdizi4.com,sezonlukdizi5.com,sezonlukdizi6.com,sezonluk
 ! sinepal*.vip - frequently changed domains
 sinepal.vip,sinepal1.vip,sinepal2.vip,sinepal3.vip,sinepal4.vip,sinepal5.vip,sinepal6.vip,sinepal7.vip,sinepal8.vip,sinepal9.vip,sinepal10.vip,sinepal11.vip##.money
 sinepal.vip,sinepal1.vip,sinepal2.vip,sinepal3.vip,sinepal4.vip,sinepal5.vip,sinepal6.vip,sinepal7.vip,sinepal8.vip,sinepal9.vip,sinepal10.vip,sinepal11.vip##.card-money
-! canlitribun*.live - frequently changed domains
-||canlitribun*.live/r/
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live##.header_r
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live##.kapat
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live##.chat_over_reklam
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live##.full_bg
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live###xbetpu
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live##.w100p
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live##div#stream_holder > iframe#video_reklam
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live##div[class="clearfix mt10"]
-canlitribun237.live,canlitribun238.live,canlitribun239.live,canlitribun240.live,canlitribun241.live,canlitribun242.live,canlitribun243.live,canlitribun244.live,canlitribun245.live,canlitribun246.live##div[class^="r_"]
+! canlitribun*.(live|top) - frequently changed domains
+||canlitribun*/r/$image
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]##.header_r
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]##.kapat
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]##.chat_over_reklam
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]##.full_bg
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]###xbetpu
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]##.w100p
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]##div[class="clearfix mt10"]
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]##div[class^="r_"]
+[$domain=/(^\|.+\.)canlitribun\d+\.top/]##div#stream_holder > iframe#video_reklam
 [$domain=/(^\|.+\.)canlitribun\d+\.live/]##.header_r
 [$domain=/(^\|.+\.)canlitribun\d+\.live/]##.kapat
 [$domain=/(^\|.+\.)canlitribun\d+\.live/]##.chat_over_reklam

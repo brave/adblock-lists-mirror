@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: XdJPt2d8AxMzQqfQRaGsrw
-! Diff-Path: ../patches/1/1-s-1746451158-3600.patch
+! Checksum: 1f33mRL/4pC/gmV0DHgDHg
+! Diff-Path: ../patches/1/1-s-1746522708-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.99.7
-! TimeUpdated: 2025-05-05T13:14:20+00:00
+! Version: 2.0.99.8
+! TimeUpdated: 2025-05-06T09:07:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7374,7 +7374,7 @@ socportal.info##div[x-lazyload*="pagead2.googlesyndication.com"]
 socportal.info##div[x-lazyload*="ScriptRootC"]
 sib.fm#?#div[style^="min-height:"]:has(.banner)
 sib.fm##.partners-footer
-orda.kz##.ad2
+orda.kz##body .ad2
 orda.kz#?#body > div.layer0:has(> div.wrapper > div.ad1)
 food.obozrevatel.com##.idealmedia
 food.obozrevatel.com##.googleBanner

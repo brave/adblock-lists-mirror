@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r12fVxcUl0yTs+tSOudgTQ
-! Version: 202505071441
+! Checksum: 3iJSyYtZiiKi94zROYpwIg
+! Version: 202505071541
 ! Title: EasyList Spanish
-! Last modified: 07 May 2025 14:41 UTC
+! Last modified: 07 May 2025 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1027,6 +1027,7 @@ mangatigre.net###dl-banner-300-250
 diariolibre.com###dl_970x250_1
 diariolibre.com###dl_970x250_2
 diariolibre.com###dl_970x250_3
+rae.es###edit-lacaixa
 elnacional.com###en_nd_home_flat_2
 elnacional.com###en_nd_home_flat_3
 elpotosi.net###fancesaPubli
@@ -1059,6 +1060,7 @@ qmusica.tv###promo
 qmusica.tv###promoSept19A
 qmusica.tv###promoSept19B
 promiedos.com.ar###pub728
+yelmocines.es###publiboardTop
 fronteradigital.com.ve###publicidad-2
 talcualdigital.com###publicidad-slider
 avisosdeocasion.com###publicidadhub
@@ -1749,6 +1751,9 @@ lagaceta.com.ec##rs-slides
 forocoches.com##section[style="min-width: 300px; height: 640px"]
 dataclave.com.ar,dobleamarilla.com.ar,eqsnotas.com,rosarioplus.com##tadevel-ad
 cine.com##td[style^="height:90px; width:970px;"]
+! top-level domain wildcard
+atrapalo.*##.mega-advert
+atrapalo.*##.robahome
 ! :has()
 forocoches.com###sidebar > div > section:has(.fixed_adslot)
 elpais.com.uy##.Page-above.loaded:has(div[class^="GoogleDfpAd"])

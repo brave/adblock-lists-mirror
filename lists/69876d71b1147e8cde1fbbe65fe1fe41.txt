@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Q7w8PZ4qewra2tnsRCDUhQ
-! Diff-Path: ../patches/13/13-s-1746627127-3600.patch
+! Checksum: 4i5AKo/P+/drh70zzj5mGw
+! Diff-Path: ../patches/13/13-s-1746630704-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.56.21
-! TimeUpdated: 2025-05-07T14:08:09+00:00
+! Version: 2.0.56.22
+! TimeUpdated: 2025-05-07T15:07:47+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1571,6 +1571,7 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+canli-macizle.com##.sc_blogger_columns_wrap > div.text-center > a[target="_blank"] > img
 ||silentall.net/templates/silentallnet/images/sponrek.gif
 ||vipfilmizle.net/anasayfa%20header.gif
 golgebahcesi.com##.rutaku-banner
@@ -5477,13 +5478,27 @@ hdfilmcehennem.live#$##kendisi { display: block!important; }
 oyunu.com.tr#$##bir.oynama { display: none !important; }
 oyunu.com.tr#$##iki.oynama { display: block !important; }
 !
-! Justin TV - frequently changed domains
+! END: Justin TV - frequently changed domains
 ! justintv.shop
-||blogger.googleusercontent.com/img/$domain=justintv.shop|justintvsh.baby|dmlstechnology.com|justintvde.com|justin-tv.org|inattvgiris.pro|justintv.co
-justintv.shop,justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.co##.wpb_wrapper > center > a[target="_blank"]
-justintv.shop,justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.co##.wpb_wrapper > a[target="_blank"][style^="color:red; background-color:black; padding:10px; display:inline-block;"]
-justintv.shop,justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.co##a[target="_blank"][rel="noopener"] > img
-justintv.shop,justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.co##+js(set-constant, window.config.adv.enabled, 0)
+! CASE 1
+||blogger.googleusercontent.com/img/$domain=justintvsh.baby|dmlstechnology.com|justintvde.com|justin-tv.org|inattvgiris.pro|justintv.*
+justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##div[class^="footer-"]
+justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##header > a[href="/"] + ul
+justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##.wpb_wrapper > center > a[target="_blank"]
+justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##.wpb_wrapper > a[target="_blank"][style^="color:red; background-color:black; padding:10px; display:inline-block;"]
+justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##a[target="_blank"][rel="noopener"] > img
+justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##+js(set-constant, window.config.adv.enabled, 0)
+! CASE 2
+||justintvizle*.top/dimg/*.gif
+||justintvizle*.top/cdn/r/
+||selcuksports*.top/dimg/*.gif
+[$domain=/justintvizle\d+\.top/]##div[class^="footer-"]
+[$domain=/justintvizle\d+\.top/]##header > a[href="/"] + ul
+[$domain=/justintvizle\d+\.top/]##.header_r
+!
+[$domain=/selcuksports\d+\.top/]##div[class^="footer-"]
+[$domain=/selcuksports\d+\.top/]##header > a[href="/"] + ul
+! END: Justin TV
 !
 ! onPopUnderLoaded / popURL
 hdfilmizleamk.net,indirmedenfilmizle.vip,birasyadizi.com,seyredeger.com,dizilost.com##+js(abort-on-property-write, onPopUnderLoaded)

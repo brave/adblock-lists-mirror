@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: yHp6O88eB+VuaKFunttW+g
+! Checksum: +rRG7cYpznLkNQjCHlh2lQ
 ! Title: Easylist Cookie List
-! Updated: 2025-05-07 00:38 UTC
+! Updated: 2025-05-07 01:10 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -20871,7 +20871,6 @@ eduface.ru,edumsko.ru##.wrap_cookies_popup
 datakauppa.fi##[id="cookie-law-info-bar"]
 !
 ! scripts
-ubuntu.com##+js(aeld, DOMContentLoaded, js-revoke-cookie-manager)
 spotify.com##div > div[aria-live="polite"]:not([data-testid="top-result-card"])
 al.com,allkpop.com,calendarpedia.co.uk,ccn.com,cinemablend.com,cleveland.com,comicsands.com,duffelblog.com,foxvalleyfoodie.com,gamepur.com,gamerevolution.com,interestingengineering,keengamer.com,listenonrepeat.com,mandatory.com,merriam-webster.com,mlive.com,musicfeeds.com.au,newatlas.com,pgatour.com,playstationlifestyle.net,readlightnovel.org,secondnexus.com,sevenforums.com,sport24.co.za,sportsnaut.com,superherohype.com,thefashionspot.com,theodysseyonline.com,toledoblade.com,totalbeauty.com,westernjournal.com,windows101tricks.com##+js(aopr, __cmpGdprAppliesGlobally)
 claritin.ca##+js(aopr, cookieconsent.Popup)
@@ -20899,6 +20898,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 elliberal.cat##+js(set-cookie, wpl_viewed_cookie, no)
+ubuntu.com##+js(set-cookie,  _cookies_accepted, essential)
 mash.ru##+js(set-cookie, _mash_privacy_accepted, true)
 fromsmash.com##+js(set-cookie, _sucs, true)
 chatgpt.com##+js(set-cookie, oai-allow-ne, false)

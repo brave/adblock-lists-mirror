@@ -1321,6 +1321,8 @@ championdrive.co,duplex-full.lol##+js(nowoif)
 championdrive.co##+js(aeld, DOMContentLoaded, history.go)
 hoca5.com##+js(rmnt, script, delete window)
 catchthrust.net##+js(rmnt, script, popundersPerIP)
+total-sportek.to##+js(rmnt, script, /adbl/i)
+pawastreams.*##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/939
 zone.msn.com##+js(no-fetch-if, googlesyndication, length:40000-60000)
@@ -1578,3 +1580,10 @@ hornyhill.se##div[class="col-6 col-md-4 col-lg-3 col-xl-2 px-5"]:has([data-zonei
 
 ! https://github.com/uBlockOrigin/uAssets/issues/28201
 latinluchas.com##+js(no-xhr-if, googlesyndication)
+
+! https://github.com/uBlockOrigin/uAssets/issues/28209
+!#if cap_html_filtering
+live4all.net##^script:has-text(/andbox|adBlock|data-zone|histats|contextmenu|ConsoleBan/)
+!#else
+live4all.net##+js(rmnt, script, /andbox|adBlock|data-zone|histats|contextmenu|ConsoleBan/)
+!#endif

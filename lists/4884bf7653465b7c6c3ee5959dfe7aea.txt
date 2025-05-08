@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: pxFR2bSUjB3I3GK5U1IfAw
-! Diff-Path: ../patches/9/9-s-1746684860-3600.patch
+! Checksum: vuzPWwPEftSjiC1ZzA7Cpw
+! Diff-Path: ../patches/9/9-s-1746688267-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.29.78
-! TimeUpdated: 2025-05-08T06:09:54+00:00
+! Version: 2.0.29.79
+! TimeUpdated: 2025-05-08T07:07:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -828,9 +828,11 @@ receitasdaora.online,foodiesgallery.com,caroloportunidades.com.br##+js(no-setTim
 @@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|anitube.us|coempregos.com.br|animesonliner4.com|drstonebr.com|animefire.info
 @@||s4.cdnpc.net/*.css?version=v93$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|anitube.us|coempregos.com.br|animesonliner4.com|drstonebr.com|animefire.info
 @@||cdn.taboola.com/libtrc/san1go-network/loader.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|anitube.us|coempregos.com.br|animesonliner4.com|drstonebr.com|animefire.info
+@@||cdn.taboola.com/libtrc/unpkg/tfa.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|anitube.us|coempregos.com.br|animesonliner4.com|drstonebr.com|animefire.info
 coempregos.com.br,anitube.us,anitube.vip,hinatasoul.com##+js(no-setTimeout-if, hasAdblock)
 coempregos.com.br,anitube.us,anitube.vip,hinatasoul.com##+js(set-constant, detectedAdblock, noopFunc)
 coempregos.com.br,anitube.us,anitube.vip,hinatasoul.com##+js(no-fetch-if, /outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/)
+drstonebr.com,animefire.info,animesonliner4.com,coempregos.com.br,anitube.us,dattebayo-br.com,anitube.vip,hinatasoul.comssstik.io##+js(no-xhr-if, //cdn.taboola.com/libtrc/unpkg/tfa.js)
 ! Fix for DNS filtering
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157756
 ! Link from anitube.vip

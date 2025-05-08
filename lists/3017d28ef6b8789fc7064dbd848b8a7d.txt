@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505082036
+! Version: 202505082238
 ! Title: EasyPrivacy
-! Last modified: 08 May 2025 20:36 UTC
+! Last modified: 08 May 2025 22:38 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -857,6 +857,7 @@
 /event_logger
 /event_logging/*
 /eventLog.ajax
+/EventLoggerV3.min.js
 /eventLogServlet?
 /eventproxy/track
 /events-collector.
@@ -1305,6 +1306,7 @@
 /krux.js
 /kukulufinger2.js
 /LandingPageHitLog.aspx?
+/LandingPageInteractionLog.aspx?
 /lasso-ga.js
 /lead-tracking.min.js
 /leadgen/ga.js
@@ -1479,6 +1481,7 @@
 /metrics/statsd/*
 /metrics/survey/*
 /metrics/track/*
+/metrics/umd.min.js$script
 /metrics/v1/frontend/*
 /metrics/vanity/?
 /metrika.js?=
@@ -1957,6 +1960,7 @@
 /rwtag.js
 /s-pcjs.php
 /s.gif?
+/s.png?event=
 /s/js/ta-2.3.js?
 /s/vestigo/measure
 /s_code_global_context.js
@@ -2138,6 +2142,7 @@
 /statistics.js?$third-party
 /statistics/pixel/*
 /statistics/visit?id=
+/StatProviderV2.min.js
 /StatRecorder.asp?
 /stats-collect
 /stats-js.cgi?
@@ -10030,6 +10035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytic.rollout.io^
 ||analytic.xingcloud.com^$third-party
 ||analyticcdn.globalmailer.com^
+||analyticcdn.wlmediahub.com^
 ||analytics-1.cavai.com^
 ||analytics-api.klickly.com^
 ||analytics-cf.bigcrunch.com^
@@ -12029,6 +12035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||storage.syncmedia.io/libs/sm_capture_
 ||stream-log.dditscdn.com^
 ||streamads.com/view?
+||streamate.icfcdn.com/dist/getPerformanceMetrics.$script
 ||streamoptim.com/log.js
 ||streamoptim.com/log/report?
 ||streams.cablecar.sph.com.sg^
@@ -14076,6 +14083,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||alipay.com/web/bi.do?ref=
 ||aljazeera.com/thirdparty/nr.js
 ||allaboutberlin.com/whoisthere.js
+||allbbwcams.com/api/metrics
 ||allevents.in/actracker/
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat
@@ -14274,6 +14282,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||camgirls.casa/p.php
 ||cammodels.com/api/metrics
 ||campsaver.com/nelmio-js-logger/
+||cams.aebn.com/api/metrics
+||camxpress.com/api/metrics
 ||canstockphoto.com/server.php?rqst=track
 ||canva.com/_ajax/ae/createBatch
 ||capital.com^$ping
@@ -14409,6 +14419,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.barry-callebaut.com^
 ||data.cheatography.com/banana.js
 ||data.guide.photobucket.com^
+||data.jerkmate.com^
 ||data.torry.io^
 ||data.ublock-browser.com^
 ||data.webullfintech.com/event/
@@ -14703,6 +14714,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/log^$domain=~meet.google.com
 ||google.com/pagead/1p-conversion/
 ||grabify.link/api/js
+||graylog.prod.cams.run^
 ||grgnsht.nzxt.com^
 ||groove.so/unlocker.js
 ||groupon.com/analytic/
@@ -14820,6 +14832,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||javhd.com/rstat
 ||javplayer.me/*/views^
 ||javynow.com/ajax/access.php
+||jerkmatelive.com/api/metrics
 ||jetbluevacations.com/apis/v2-analytics/
 ||jfapiprod.optimonk.com^
 ||jiji.co.ke/tag_event
@@ -14933,6 +14946,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marketing.dropbox.com^
 ||marketing.taskus.com^
 ||marty.zappos.com^
+||massivecams.com/api/metrics
 ||mat6tube.com/api/stats?
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||mcc-tags.cisco.com^
@@ -15239,6 +15253,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||roblox.com/report
 ||roblox.com/www/e.png?
 ||rome.api.flipkart.com/api/1/fdp
+||royalcams.com/tools/track.php?
 ||rps-p2.rockpapershotgun.com^
 ||rps-uk.rockpapershotgun.com^
 ||rs.mail.ru^
@@ -15294,6 +15309,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sharesies.com/v1/track
 ||shavetape.cash/stat/
 ||shazam.com/services/metrics/
+||shemale.com/api/metrics
 ||shobiddak.com/logging/
 ||shopee.*/__t__$xmlhttprequest
 ||shopifysvc.com/v1/metrics
@@ -15636,6 +15652,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||truthsocial.com/instance/innovid.js
 ||trx3.famousfix.com^
 ||ts.delfi.lt^
+||tsmate.com/api/metrics
 ||tubepornstars.com/js/analytics
 ||tubi.io/datascience/logging?
 ||tubitv.com/oz/performance/
@@ -15704,6 +15721,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||visualstudio.com/v2/track
 ||vitals.groww.in/collect
 ||vivaldi.*/rep/rep.js
+||vixenlive.com/api/metrics
 ||vizcloud.co/ping/
 ||vk.com/al_video.php?act=ads_stat
 ||vk.com/al_video.php?act=inc_view_counter
@@ -15835,6 +15853,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
 ||youtubekids.com/youtubei/v1/log_event?
+||ypmate.com/api/metrics
 ||z.cdp-dev.cnn.com^
 ||z737.thestar.com^
 ||za.qeeq.com^
@@ -54416,7 +54435,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ! ! google-analytics.com/analytics.js
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|carnesvizzera.ch|cmoa.jp|ecmweb.com|enmotive.com|healthrangerstore.com|hobbyhall.fi|infoconso-multimedia.fr|jackbox.tv|k2radio.com|koel.com|kowb1290.com|ligtv.com.tr|meritonsuites.com.au|nabortu.ru|news.gamme.com.tw|novatv.bg|papajohns.com|poiskstroek.ru|rzd.ru|saturn.at|schweizerfleisch.ch|skaties.lv|stressless.com|teddyfood.com|tracking.narvar.com|tradera.com|tribuna.com|truwin.com|tuasaude.com|unicef.de|viandesuisse.ch|vox.de|westernunion.com|worldsbiggestpacman.com|xxl.se
 ! ! googletagmanager.com/gtag/js
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|showroom-live.com|skylar.com|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
 ! ! googletagmanager.com/gtag/destination?
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
 ! ! googleoptimize.com/optimize.js

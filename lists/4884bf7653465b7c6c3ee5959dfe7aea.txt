@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: woye7wb6b7O5/xK/wTcf2w
-! Diff-Path: ../patches/9/9-s-1746720791-3600.patch
+! Checksum: uovxj2UVAQbuZYdLw2d60g
+! Diff-Path: ../patches/9/9-s-1746738628-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.29.82
-! TimeUpdated: 2025-05-08T16:08:48+00:00
+! Version: 2.0.29.83
+! TimeUpdated: 2025-05-08T21:06:44+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2199,6 +2199,9 @@ c5n.com,t13.cl,solowrestling.mundodeportivo.com,todojujuy.com,mendozapost.com,me
 !
 ! NOTE: Specific rules
 !
+baixaki.com.br###new-float-ads
+baixaki.com.br##div[class^="styles_ads_placeholder"]
+megacurioso.com.br###banner-video-area
 nationalgeographicbrasil.com##div[id^="gpt--header--"]
 yelitzonpc.com##center > a[target="_blank"]
 misprogramaspc.com##.vn-green > a[target="_blank"]

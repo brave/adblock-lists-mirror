@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: +BfU5hWng2/cvIoqO3Ch7A
-! Diff-Path: ../patches/224/224-s-1746664188-3600.patch
+! Checksum: dbMF3aPpR2yhKPC+u4iiHA
+! Diff-Path: ../patches/224/224-s-1746691985-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.36.55
-! TimeUpdated: 2025-05-08T00:26:12+00:00
+! Version: 2.1.36.56
+! TimeUpdated: 2025-05-08T08:09:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1515,11 +1515,11 @@ nodejs.cn###pagead
 gvm.com.tw##.promotion_ad
 gvm.com.tw##.promotion > .sp-txt
 huya.com##.room-sidebar #public-screen-ab
-vidhub1.cc,vidhub.me,vidhub.tv##div[class^="ad"]:has(> div[class^="prom"][style] > img[onclick^="window.open"])
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][style] > img[onclick^="window.open"]
+vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"]):has(> div[class^="prom"][style] > img[onclick^="window.open"])
 vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
 vidhub1.cc,vidhub.me,vidhub.tv##.adwap
-vidhub1.cc,vidhub.me,vidhub.tv##.promolnk
-vidhub1.cc,vidhub.me,vidhub.tv##.promotelink
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][class*="nk"][style]
 technews.tw##.inside_AD
 tw100s.com##div[class="ui_adblock"]
 heho.com.tw##div[id^="heho-ml-"]
@@ -5102,6 +5102,7 @@ newduba.cn###jq_youxi
 ||sqif.cn^
 ||fmlmbf.top^
 ||uuso05081qhs.xyz^
+||qnwucny.top^
 ||ebrid.cn^
 ||wtrotilloye.com^
 ||dnjxds.top^

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dRZZuRgrI/ADd6vqxLnwIQ
-! Version: 202505081251
+! Checksum: YDDCx8ITGriuiR0AgQ6TFQ
+! Version: 202505081341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 May 2025 12:51 UTC
+! Last modified: 08 May 2025 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -26351,6 +26351,7 @@ electric-house.ru##.alert_warn
 stylenews.ru##.alm-btn-wrap
 7days2die.info#?#.articleContent > p:-abp-has(> span + strong[style])
 7days2die.info##.articleContent > p[style="display: block!important; text-align: center;"]
+vgtimes.ru#?#.article_block:-abp-has(> p > i:-abp-contains(/adblock/i))
 retail.ru##.b2-retail
 nashaplaneta.net##.badv
 img2txt.com##.bd-callout-danger

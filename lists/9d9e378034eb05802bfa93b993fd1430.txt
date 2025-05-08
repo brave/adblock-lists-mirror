@@ -270,27 +270,17 @@ derivative-calculator.net##+js(aopr, fallbackAds)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108210
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108330
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108435
-apkandroidhub.in,babymodz.com,deezloaded.com,mad.gplpalace.one,studyis.xyz##+js(no-fetch-if, googlesyndication)
-apkandroidhub.in,babymodz.com##.g-recaptcha:style(margin-top:60px !important)
-babymodz.com###footer #wpsafe-link:style(display: block !important;)
-apkandroidhub.in,babymodz.com,deezloaded.com,mad.gplpalace.one,studyis.xyz###wpsafe-generate:style(display: block !important;)
-apkandroidhub.in,babymodz.com,deezloaded.com,mad.gplpalace.one,studyis.xyz##div[id^="wpsafe-wait"]
-apkandroidhub.in,deezloaded.com,mad.gplpalace.one,studyis.xyz###wpsafe-link:style(display: block !important;)
+apkandroidhub.in,studyis.xyz##+js(no-fetch-if, googlesyndication)
+apkandroidhub.in##.g-recaptcha:style(margin-top:60px !important)
+apkandroidhub.in,studyis.xyz###wpsafe-generate:style(display: block !important;)
+apkandroidhub.in,studyis.xyz##div[id^="wpsafe-wait"]
+apkandroidhub.in,studyis.xyz###wpsafe-link:style(display: block !important;)
 rocklink.in##+js(set, blurred, false)
-techyreviewx.com##+js(nano-sib, timer, 1800)
-! https://github.com/uBlockOrigin/uAssets/issues/16237
-techyreviewx.com##.get-link:remove-attr(disabled)
-techyreviewx.com##.get-link:remove-class(disabled)
 
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/1943
 ! https://github.com/uBlockOrigin/uAssets/issues/14003
 @@||noviny.sk^$xhr,1p
 *$frame,domain=noviny.sk,redirect-rule=noopframe
-
-! piracy.moe ads
-piracy.moe##main > h2:nth-of-type(1):has-text(Sponsored)
-piracy.moe##[class*="Card_sponsored__"]
-piracy.moe##[class^="SupportBanner_banner__"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15392
 digminecraft.com##div > [id$="_slot"]:upward(div)
@@ -309,20 +299,11 @@ hispasexy.org##+js(acs, decodeURI, decodeURIComponent)
 hispasexy.org##+js(aopr, _cpp)
 hispasexy.org##+js(aopr, popns)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/108205
-mp3juices.yt##+js(nowoif, !ytcutter.net)
-
-! https://github.com/uBlockOrigin/uAssets/issues/11473
-@@||plg.ovakode.com^$ghide
-plg.ovakode.com##ins.adsbygoogle
-plg.ovakode.com##.x300bnx
-
 ! https://github.com/uBlockOrigin/uAssets/issues/11480
 javplaya.com##+js(aopr, __Y)
 
 ! https://github.com/AdguardTeam/AdguardFilters/commit/f73e930289cf09ceff902f7c71f42781551dfaaa
 javfindx.com###previewBox
-mycloudzz.com##+js(aopr, __Y)
 ||javfindx.com/sw.js
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/sdowvy/masterduelmeta_and_duelinksmeta_adblock_popups/
@@ -344,37 +325,19 @@ gcertificationcourse.com##+js(no-xhr-if, adsbygoogle)
 @@||getfree.co.in^$script,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11505
-sampledrive.in##+js(acs, eval, replace)
-sampledrive.in###block-4
-sampledrive.in###block-6
-*$script,3p,redirect=noop.js,domain=sampledrive.in|shorttrick.in
+*$script,3p,redirect=noop.js,domain=shorttrick.in
 ! https://www.reddit.com/r/uBlockOrigin/comments/17ux6t3/ublock_is_not_able_to_block_ads_on_this_website/
-sampledrive.in##+js(acs, document.createElement, onerror)
 shorttrick.in###wpsafe-generate, #wpsafe-link:style(display: block !important;)
 @@||shorttrick.in^$ghide
-||sampledrive.in/wp-content/uploads/*.js?ver=$script,1p
-sampledrive.in##+js(aeld, DOMContentLoaded, adsSrc)
-sampledrive.in##+js(aost, document.getElementById, adsBlocked)
 shorttrick.in##+js(aost, fetch, https)
 shorttrick.in##+js(aopr, checkAdsStatus)
-
-! https://github.com/uBlockOrigin/uAssets/issues/11511
-projectfreetv.one##+js(set, console.clear, undefined)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11509
 diglink.blogspot.com##+js(nano-sib)
 
-! https://github.com/uBlockOrigin/uAssets/issues/11513
-re.two.re##+js(nostif, getComputedStyle, 250)
-re.two.re##.ads
-
 ! https://github.com/uBlockOrigin/uAssets/issues/11516
 gamingvital.com##+js(acs, decodeURIComponent, ai_)
 gamingvital.com###tdi_132
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/108686
-blindhypnosis.com##.abcd
-blindhypnosis.com##.asdf:style(display: block !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11528
 javpoll.com##+js(aopr, __Y)

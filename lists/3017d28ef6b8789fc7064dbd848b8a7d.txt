@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505082238
+! Version: 202505082326
 ! Title: EasyPrivacy
-! Last modified: 08 May 2025 22:38 UTC
+! Last modified: 08 May 2025 23:26 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -376,6 +376,7 @@
 /AppMeasurement2.js
 /AppMeasurement_Module_ActivityMap.min.js
 /AppMeasurementCustom.min.js
+/apps/ba-rev/app_metrics
 /aptrk.js
 /ard.png?
 /aria-web-telemetry-
@@ -1451,6 +1452,7 @@
 /marketing-analytics.js
 /martypixel?
 /master-amg-plugin/assets/js/page-view-ga.js
+/mati.gif?v=
 /matomo-tracking.js
 /matomo.js$domain=~github.com
 /matomo.php
@@ -1973,6 +1975,7 @@
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
+/script.hash.outbound-links.pageview-props.tagged-events.js
 /script.tagged-events.js
 /script.tagged-events.outbound-links.js
 /script/pixel.js
@@ -3393,6 +3396,7 @@ omni.soundestlink.com$image
 ||googleoptimize.com^
 ||googletagmanager.com^
 ||gotoda.co^
+||greencolumnhealth.com^
 ||gsitrix.com^
 ||gw-dv.vip^
 ||hbiq.net^
@@ -10441,6 +10445,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cityzen.io/Pixel/
 ||civicscience.com/jot?
 ||ck.connatix.com^
+||cl-pbr.cxr.skeepers.io^
 ||cleantalk.org/pixel/
 ||clearspring.com/at/
 ||clearspring.com/t/
@@ -11053,6 +11058,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||highway.cablecar.sph.com.sg^
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hit.mybestpro.com^
+||hit.salesfire.co.uk^
 ||hits.dealer.com^
 ||hits.getelevar.com^
 ||hits.gokwik.co^
@@ -11748,6 +11754,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rapidspike.com/static/js/timingpcg.min.js
 ||raven.adeptmind.ai^
 ||raygun.io/events?
+||rayn.io/contextual_targeting
 ||rbl.ms/res/users/tracking/
 ||reach-id.orbit.tm-awx.com^
 ||readcube.com/assets/track_
@@ -12240,6 +12247,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.zappos.com^
 ||trackdesk.com/tracking.js
 ||tracker-dot-optimeeze.appspot.com^
+||tracker-server.high-cdn.com^
 ||tracker-v4.gamedock.io^
 ||tracker.affirm.com^
 ||tracker.au.zitcha.app^
@@ -13928,6 +13936,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||enetres.net/StatisticsV1/
 ||epimg.net/js/vr/vrs.
 ||g-stats.openhost.es^
+||groupbycloud.com/wisdom/v2/pixel
 ||madrid.report.botm.transparentedge.io^
 ||marker.konograma.com^
 ||mat.socy.es^
@@ -14220,6 +14229,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.shutterfly.com^
 ||beacon.walmart.com^
 ||beacon.wikia-services.com^
+||beacons.ai/api/next_api/rta_v1/
 ||beacons.digital.disneyadvertising.com^
 ||bearblog.dev/hit/
 ||beforeitsnews.com/core/ajax/counter/count.php^
@@ -14566,6 +14576,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.privy.com^
 ||events.reddit.com^
 ||events.redditmedia.com^
+||events.s4long.com^
 ||events.santander.co.uk^
 ||events.squarespace.com^
 ||events.turbosquid.com^
@@ -15415,6 +15426,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.wwitv.com^
 ||stats2.mytuner.mobi^
 ||statsegg.cdngeek.com^
+||stayforlong.com/api/kafka/tracking
 ||stayz.com.au/cl/data/omgpixel.json
 ||stirr.com/api/stats
 ||stockanalysis.com/cfa/
@@ -15562,6 +15574,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
 ||thisiswhyimbroke.com/api/user/tracking
 ||thriftbooks.com/scripts/sp.js
+||thronecdn.com/analytics/
 ||thtk.temu.com^
 ||tiendeo.*/_statsapi/
 ||tif.ionos.com^
@@ -53947,6 +53960,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||pccomponentes.*/api/users/tracking/
 ||pixel.europapress.net^
 ||px-intl.ucweb.com^
+||rba.es/track.action
 ||realtime.bbcl.cl^
 ||rvv.emol.com^
 ||sst.cooperativa.cl^
@@ -53961,6 +53975,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||terra.com/js/metrics/
 ||terra.com^*/td.asp?bstat
 ||todomercadoweb.es/pixel
+||tracker.atrapalo.com^
 ||tracker.jkplayers.com^
 ||trrsf.com/metrics/
 ||ubeat.tv/api/v1/sda/

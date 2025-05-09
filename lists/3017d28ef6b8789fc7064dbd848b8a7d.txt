@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505091030
+! Version: 202505091122
 ! Title: EasyPrivacy
-! Last modified: 09 May 2025 10:30 UTC
+! Last modified: 09 May 2025 11:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -5565,7 +5565,6 @@ omni.soundestlink.com$image
 ||singlefeed.com^$third-party
 ||singular.net^$third-party
 ||sirdata.eu^$third-party
-||sirdata.io^$third-party
 ||site24x7rum.com^$third-party
 ||siteapps.com^$third-party
 ||sitebro.com^$third-party
@@ -54368,7 +54367,6 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 @@||signalshares.com/webtrends.min.js$script,~third-party
 @@||simcotools.app/assets/adsense-*.js$~third-party
 @@||simpleanalyticsexternal.com^$script,domain=inleo.io
-@@||sirdata.io^$domain=abconsent.com
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snowplow.swm.digital^$domain=7plus.com.au
@@ -54750,6 +54748,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
+@@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||clarity.ms/tag/$script,domain=phileweb.com
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||cpt.geniee.jp/hb/*/wrapper.min.js$domain=hoyme.jp
@@ -54788,6 +54787,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 @@||onesignal.com/api/v1/sync/$domain=oshibuta.com
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
+@@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
 @@||rt.rtoaster.jp^$image,domain=ec-store.net
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
 @@||rtoaster.jp^$script,domain=cecile.co.jp|ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp

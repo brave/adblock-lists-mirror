@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kMIhkQfg80s3EP3Dvj4EVQ
-! Version: 202505090841
+! Checksum: WyPgyz+lRBw/y6+kjtHU5g
+! Version: 202505090941
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 May 2025 08:41 UTC
+! Last modified: 09 May 2025 09:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6618,7 +6618,7 @@ olx.kz,olx.ua,olx.uz##div[data-testid="cookies-overlay__container"]
 cnc3018.ru##div[data-widget-key="donate"]
 ozon.ru##div[data-widget="objectBannerList"]
 ozon.ru##div[data-widget="skuBrandShelf"]
-ozon.ru##div[data-widget^="bannerCarousel"]
+ozon.ru##div[data-widget^="bannerCarousel"]:not([style="height:500px;"])
 smolnarod.ru##div[id*="add_"][id*="_news"]
 semestr.online,semestr.ru#?#div[id^="Math"][id$="Block"] > div:-abp-has(> #closecookie)
 astv.ru,myslo.ru##div[id^="UserEditEventUserPlace"]

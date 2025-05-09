@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 14Wpm9RSmAYTaCStqXvpDw
-! Version: 202505082341
+! Checksum: oH09RITvnuM0jrrWhc/PaA
+! Version: 202505090101
 ! Title: EasyList China
-! Last modified: 08 May 2025 23:41 UTC
+! Last modified: 09 May 2025 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1750,6 +1750,8 @@ newduba.cn###jq_youxi
 ||fadjqqe.top^
 ||bcpxll.icu^
 ||uqkcqk.icu^
+||udyi.cn^
+||dlngzx.top^
 ||uuso05080qhs.xyz^
 ||thimhudlop.com^
 ||qiuxl11.cn^
@@ -9476,6 +9478,7 @@ meijutt.*/js/pcjs/
 ||yximgs.com/bs2/adcarsku/*.gif
 !------------------------Specific element hiding rules------------------------!
 sojson.com##.a-d-img
+smsonline.cloud##.css-17anw56
 sixyin.com##.widget_custom_html
 baidu.com##a[class*="fengchaoContainer"]
 hcbbs.com##.pcbanner
@@ -16859,6 +16862,7 @@ $script,third-party,domain=cilimao.co|cilimao.one
 cilimao.co,cilimao.one##div[class^="FixBanner"]
 ||cilimao.*/amaod/
 !#CSP filters
+$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 !#ddooo.com
 ddooo.com##.gadat_list

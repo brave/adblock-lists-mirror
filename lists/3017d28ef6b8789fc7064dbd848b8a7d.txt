@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505101308
+! Version: 202505101445
 ! Title: EasyPrivacy
-! Last modified: 10 May 2025 13:08 UTC
+! Last modified: 10 May 2025 14:45 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -119,6 +119,7 @@
 /_i?type=event&
 /_lib/ga.js
 /_owa.gif?
+/_servix/webid.aspx?$script
 /_sess/script.js
 /_stat/log/*
 /_stat/log_
@@ -10287,6 +10288,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||az.nzn.io^
 ||az693360.vo.msecnd.net^
 ||azureedge.net/javascripts/Tracking.
+||azureedge.net/sdrive/zero-tracking.js
 ||azureedge.net/track
 ||azureedge.net^*/fnix.js
 ||azurewebsites.net/api/views?
@@ -13306,6 +13308,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Croatian
 ||tracking.vid4u.org^
 ! Czech
+||1gr.cz/log/
 ||a.centrum.cz^
 ||bisko.mall.tv^
 ||c.seznam.cz^
@@ -13317,6 +13320,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||i.imedia.cz^
 ||log.cpex.cz^
 ||log.idnes.cz^
+||m.1gr.cz^
 ||mer.stdout.cz^
 ||pixel.biano.cz^
 ||pixel.cpex.cz^
@@ -53229,6 +53233,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ! Czech
 ||cc.dalten.cz^
 ||jslog.post.cz^
+||logapi.alza.cz^
 ||o2.cz^*-ga_o2cz_bundle.js?
 ||sa.kolik.cz^
 ||seznam.cz^$ping

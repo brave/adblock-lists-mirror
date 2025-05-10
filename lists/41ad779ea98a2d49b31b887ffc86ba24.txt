@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N+vOChhAvPA2ZyiDn7ZPKg
-! Version: 202505101342
+! Checksum: smC0OMQOSZ8Kwi5ErUamaw
+! Version: 202505101442
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-05-10 13:42 UTC
+! Last modified: 2025-05-10 14:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16355,6 +16355,10 @@ mingpao.com##.ssm
 takungpao.com.hk##.tkp_con_share
 ifeng.com##div[class^="index_share_box_"]
 !
+!---------- Czech Specific Social Media Elements ----------
+!
+idnes.cz,lidovky.cz,metro.cz##.artsum-social
+!
 !---------- Danish Specific Social Media Elements ----------
 !
 dr.dk##.dre-sticky-share-band
@@ -16747,9 +16751,11 @@ srad.jp##.synd
 !
 !---------- Korean Site Specific Hiding Rules ----------
 !
+businesskorea.co.kr##.article-sns
 koreatimes.com##.fab
 auction.co.kr##.sare-sns
 koreatimes.com##.twit
+businesskorea.co.kr##.user-sns
 !
 !---------- Latvian Specific Social Media Elements ----------
 !
@@ -34793,7 +34799,7 @@ turkishairlines.com###cookieWarningMessageNew
 turkishairlines.com###cookieWarningOverlay
 bulgarianproperties.com###cookie_bar_new
 semiconductor.samsung.com###cookie_component_emea
-mzanzisolutions.co.za###cookie_consent
+mkchulin.cz,mzanzisolutions.co.za###cookie_consent
 sendgb.com###cookie_disabled
 halcyon.net,santionduty.com###cookie_info
 esa.int###cookie_loc
@@ -35460,6 +35466,7 @@ osf.io##.__cookie-banner__2a81b
 radioplayer.org##.__cookiemng__
 getorca.com##.__css-cFqwsP
 unisa.edu.au##.__gdpr-container
+lgensol.com##.__notice--sticky-bottom
 wolframalpha.com##._a_yb
 medicinechest.co.uk##._aju
 app.heygen.com##._contain_1b2mk_1
@@ -35851,6 +35858,7 @@ eboblack.com,teenxy.com##.coockie_warning
 photonengine.com##.cookSetts
 chucklingcheese.co.uk##.cookie-accept-bar-v2
 syrf.org.uk##.cookie-alert-banner
+investkorea.org##.cookie-area
 pinpointproperties.com##.cookie-authority
 team.repair##.cookie-banner-inner
 businesscomparison.com##.cookie-banner-mask
@@ -37574,7 +37582,7 @@ courtika.com,essor.ca,groupedpa.com,laturquoise.ca,pmtroy.com,rockebilly.com,tre
 !! .consent-box
 ltl-chinois.fr,ostsee24.de,photofiltres.fr##.consent-box
 !! #cookie-bar
-addnoise.nl,alpha-buch.de,annualreviews.org,casinoscores.com,cesnet.cz,crossref.org,einforma.co,eshop.efko.cz,gruppovideomedia.it,gsi-one.org,ilgiardinodeilibri.it,knowablemagazine.org,lockheedmartin.com,macrosad.com,milescorts.es,pc-facile.com,promptamcs.com,querstarter.de,quesoslomogallego.com,szegedsport.hu,trwalamotywacja.pl,werkenbijwestcord.nl###cookie-bar
+addnoise.nl,alpha-buch.de,annualreviews.org,casinoscores.com,cesnet.cz,crossref.org,einforma.co,eshop.efko.cz,gruppovideomedia.it,gsi-one.org,ilgiardinodeilibri.it,knowablemagazine.org,lockheedmartin.com,macrosad.com,milescorts.es,ods.cz,pc-facile.com,promptamcs.com,querstarter.de,quesoslomogallego.com,szegedsport.hu,trwalamotywacja.pl,werkenbijwestcord.nl###cookie-bar
 !! style_container__
 bossautoukraine.com.ua,tray.io##[class^="style_container__"]
 !! .notification-bar
@@ -38171,7 +38179,7 @@ apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,do
 abnamro.com,abnamro.nl,bahia-principe.com,bahiaprinciperesidences.com,chs.net,cinemark.com,greenmangaming.com,grupo-pinero.com,grupoiberostar.com,hsbc.com.mt,iberostar.com,nh-collection.com,nh-hotels.com,oney.com,openbank.de,openbank.es,openbank.nl,openbank.pt,orange.es,sony.jp,t-systems.com,totalenergies.com,toyota.com.np,tuclothing.sainsburys.co.uk,unimelb.edu.au###__tealiumGDPRecModal
 bahia-principe.com##.c-newsletter
 !! .cadre_alert_cookies
-safevent.dk,unipi.it##.cadre_alert_cookies
+bcgourmet.it,safevent.dk,unipi.it##.cadre_alert_cookies
 !! .cookie-banner-wrapper
 herbiespizza.com,newyorkpizza.nl##.cookie-banner-wrapper
 !! .MuiDialog-root
@@ -42072,6 +42080,7 @@ fraus.cz##.container__body
 autocont.cz##.cookie-fade-window
 bidli.cz,diadny.cz,domibags.cz,ibdkurz.cz,shop-wedrink.com##.cookies-canvas
 vzdelanibudoucnosti.cz##.cookies-dialog-wrapper
+alza.cz##.cookies-info
 realbonus.cz##.cookies-popup-short
 menicka.cz##.cookies_panel_wrp
 aquapalace.cz,obchod.crew.cz##.cs
@@ -52649,6 +52658,7 @@ crowncellarandco.com.au##.site-age-gate
 bentspokebrewing.com.au##.splash
 vineonline.co.nz##.vineonline-gate-popup-0-x-modalOverlay
 vineonline.co.nz##.vineonline-gate-popup-0-x-portalContainer
+holba.cz##.vm--container
 ! Tabacco/Vapes/hemp/thc
 risecannabis.com###age-verification
 vaperoyalty.com###vape-age-gate

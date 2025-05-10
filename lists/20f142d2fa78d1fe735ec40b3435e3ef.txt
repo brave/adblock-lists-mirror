@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qTf6l0DTxej4ogqnHxwp/w
-! Version: 202505101431
+! Checksum: i5+4O2xoBvxoguxK18VZLw
+! Version: 202505101531
 ! Title: Fanboy's Social Blocking List
-! Last modified: 10 May 2025 14:31 UTC
+! Last modified: 10 May 2025 15:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12330,6 +12330,10 @@ mingpao.com##.ssm
 takungpao.com.hk##.tkp_con_share
 ifeng.com##div[class^="index_share_box_"]
 !
+!---------- Czech Specific Social Media Elements ----------
+!
+idnes.cz,lidovky.cz,metro.cz##.artsum-social
+!
 !---------- Danish Specific Social Media Elements ----------
 !
 dr.dk##.dre-sticky-share-band
@@ -12722,9 +12726,11 @@ srad.jp##.synd
 !
 !---------- Korean Site Specific Hiding Rules ----------
 !
+businesskorea.co.kr##.article-sns
 koreatimes.com##.fab
 auction.co.kr##.sare-sns
 koreatimes.com##.twit
+businesskorea.co.kr##.user-sns
 !
 !---------- Latvian Specific Social Media Elements ----------
 !

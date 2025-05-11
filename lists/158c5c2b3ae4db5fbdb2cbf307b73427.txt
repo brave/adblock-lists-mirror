@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t7Qa8qqEPISzDKibK4X9UA
-! Version: 202505111641
+! Checksum: FraSeCeEZki7tBxhJL/UqQ
+! Version: 202505111741
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 May 2025 16:41 UTC
+! Last modified: 11 May 2025 17:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -924,6 +924,7 @@ noi.md##.br-ar > a[target="_blank"] > *
 mash.ru##.brhsak
 versii.if.ua#?#.brxe-block:-abp-has(> h3 + .brxe-text-basic + [class$="_social"])
 versii.if.ua#?#.brxe-post-content > p:-abp-has(> [href^="https://t.me/"])
+forex.ua##.bs-social
 itsider.com.ua##.bs-vc-sidebar-column > .bs-vc-wrapper > .bs-shortcode:first-child
 itsider.com.ua##.bs-vc-sidebar-column div[class*="kpvmzjg"]
 studio21.ru##.bsa-twitter
@@ -2296,7 +2297,6 @@ dostfilms.info,dostfilms.site,enovosty.com##.socnet
 kinodroid.net##.socpri,.socpri ~ *
 siniy-ekran.ru##.socs
 kluch.media##.socs-div-pr
-all-episodesfun.org##.socset
 1yar.tv,amedia.lol,partnerkin.com##.socseti
 topnews.ru##.socsite
 kamchatinfo.com##.soctop
@@ -2712,7 +2712,6 @@ iphones.ru##[data-id="externalpostlist"]
 mediazona.by,mediazona.ca,zona.media##[data-js-selector="show-social-list"]
 vgolos.ua##[data-key="index_in_lviv"]
 kufar.by##[data-name^="share-button"]
-all-episodesfun.org##[data-permalink*="://all-episodes"][data-permalink$="/news/telegramanonce"]
 stopgame.ru##[data-plugins="share"]
 sheensay.ru##[data-pr^="Поделиться"]
 livejournal.com##[data-rd-type="rd-post-view-social"]
@@ -2773,7 +2772,6 @@ ogo.ua##[title="Ми у Facebook"]
 conversion.im##[title="вконтакте"]
 sportrecs.com##[title^="Sportrecs в"]
 sportrecs.com##[title^="Поделиться в"]
-all-episodesfun.org##[title^="Поделиться ссылкой"]
 dom2line.ru##a.fa[href^="http"]:not([href*="://dom2line.ru/"])
 zab.ru,zab.tv##a.header-e[target="_blank"]
 uazmi.org##a.tgch-card-footer
@@ -6003,6 +6001,7 @@ anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtonovostidnya.
 kinometro.ru,vokrug.tv##.subscribe-block
 texterra.ru##.subscribe-block-form
 news.ati.su##.subscribe-block-place
+forex.ua##.subscribe-btn
 kubnews.ru##.subscribe-channel
 ichip.ru##.subscribe-content
 news.ru##.subscribe-discuss

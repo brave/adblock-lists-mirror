@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qryiecoUJbGawT2baohquQ
-! Version: 202505121841
+! Checksum: HY3rnAyG6OHi5e5xVATUdQ
+! Version: 202505121941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 May 2025 18:41 UTC
+! Last modified: 12 May 2025 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1206,6 +1206,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="//viruniversal.com/"]
 ##a[href*="//webbrowser.club/"]
 ##a[href*="//yojlf.com"]
+##a[href*="//zen.yandex.ru/"]
 ##a[href*="/advertisesimple.info"]
 ##a[href*="/advjump.com"]
 ~advtise.net##a[href*="/advtise.net"]
@@ -1503,7 +1504,6 @@ by,~mail.ru,ru,ua##.banner_box
 ~wwwapteka.info##a[href*="wwwapteka.info"]
 ##a[href*="xxxrevpushclcdu.com"]
 ##a[href*="zdravo-med.ru"]
-~claims.ru,~livejournal.com,~vk.com##a[href*="zen.yandex."] > img:not([src*="gstatic.com"]):not([onload*="google"]):not([jsaction])
 ##a[href="http://advert.mirtesen.ru/"]
 ##a[href^="/go/ubar?"]
 ##a[href^="/go/ufiler?"]
@@ -17283,7 +17283,6 @@ adult-images.ru,imgbum.ru,screenpost.ru,xpicture.ru##a[href*="//parnuxi.biz"]
 syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##a[href*="//pulse.mail.ru/"]
 kommersant.ru##a[href*="//rusfond.ru"]
 kinoafisha.info,oper.ru##a[href*="//wink."]
-024.by,1777.ru,1istochnik.ru,7days.ru,actualnews.org,allboxing.ru,amurmedia.ru,argumenti.ru,atas.info,auto.ru,autosaratov.ru,autosport.com.ru,av.by,baby.ru,bel.ru,belkagomel.by,bidbaits.ru,carsweek.ru,chitamedia.su,chukotkamedia.ru,cnews.ru,cq.ru,ctc.ru,deita.ru,domclick.ru,eaomedia.ru,eva.ru,finam.ru,fishki.net,fontanka.ru,food.ru,friday.ru,gooool365.org,interface31.ru,intermedia.ru,irkutskmedia.ru,iz.ru,izhlife.ru,kaifolog.net,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,lipetskmedia.ru,magadanmedia.ru,mel.fm,mk.ru,nakhodka.media,nashe.ru,neva.today,new-magazine.ru,noob-club.ru,nsn.fm,om1.ru,osnmedia.ru,peopletalk.ru,politnavigator.net,politrussia.com,povarenok.ru,priamurmedia.ru,primamedia.ru,prufy.ru,radio1.ru,radiojazzfm.ru,radioultra.ru,readovka.news,realt.by,riamo.ru,rockfm.ru,rozetked.me,russian.rt.com,rusvesna.su,sakhalinmedia.ru,sevastopolmedia.ru,sm.news,smolensk-i.ru,smotrim.ru,sovets.net,sovets24.ru,sravni.ru,starhit.ru,stavropol.media,study.ru,svpressa.ru,takiedela.ru,teleport2001.ru,topnews.ru,tsargrad.tv,tv2.today,tverigrad.ru,ukraina.ru,ulanmedia.ru,ussurmedia.ru,uznayvse.ru,vm.ru,vsezdorovo.com,womanhit.ru,www.kolesa.ru,yakutiamedia.ru,ytronews.ru,zaycev.net##a[href*="//zen.yandex.ru/"]
 kritka.su,zserials.cc##a[href*="/1b.yt"]
 zserials.cc##a[href*="/1w.tf"]
 c-sgo.ru,sportliga.com##a[href*="/1xstavka"]
@@ -17585,7 +17584,6 @@ crimea.ru##a[href*="www.sko.ru/"][target="_blank"]
 sbornik-music.ru##a[href*="www.warnax.ru"]
 mastergrad.com##a[href*="www/delivery/ck.php?"]
 azbooki.ru,engisys.ru,zip1000.ru##a[href*="zasvetom.ru"]
-19rusinfo.ru,belta.by,dailystorm.ru,dni.ru,doctorpiter.ru,eg.ru,kakprosto.ru,marieclaire.ru,maximonline.ru,news.ru,newxboxone.ru,parents.ru,playboyrussia.com,psychologies.ru,sobesednik.ru,tvtver.ru,vokrugsveta.ru,woman.ru##a[href*="zen.yandex.ru"]
 compromat.group##a[href*="zenyandexru"]
 mkap.ru##a[href*="zjbi.ru"] > img
 windows64.net##a[href="#"][onclick*="_blank"]
@@ -23377,7 +23375,7 @@ drive2.ru##[data-sticky-adtune]
 drive2.ru##[data-test="AdKebabAndLabel--adLabelContent"]
 liveinternet.ru##[data-wrapper]
 mail.ru##[href*="https://dzen.ru"]
-~dzen.ru##[href^="https://dzen.ru"]
+~dzen.ru,~sportsdzen.ru##[href^="https://dzen.ru"]
 vk.com,vk.ru##[id^="post-"] > ._post_content > :only-child
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
@@ -23570,11 +23568,9 @@ kino-live2.org,kino-live8.biz#?#div[class^="right"] .ramka1:-abp-has(noindex)
 ! Комсомольская правда
 kp.kg,kp.kz,kp.md,kp.ru##[data-subscribe-zen]
 kp.kg,kp.kz,kp.md,kp.ru##[data-without-height]
-kp.kg,kp.kz,kp.md,kp.ru,radiokp.ru##a[href^="https://zen.yandex.ru/"]
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app [data-gtm-el="content-body"] ~ div > div:-abp-has(> [data-subscribe-zen])
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-has(> div:first-child + div > div:first-child > div:first-child + section > div > div > script[data-key])
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:last-child:-abp-has(> div > div > div ~ section > div > [id^="unit_"])
-kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div[class]:-abp-has(> a[draggable="false"][href^="https://zen.yandex.ru/"])
 kp.kg,kp.kz,kp.md,kp.ru##div[data-name]:not(.buttonContainer)
 ! спецпроекты, типа отдых в россии
 kp.ru##.inner-layout > div[style*="250px"]
@@ -24673,7 +24669,6 @@ ya.ru,yandex.ru,yandex.*#?##search-result > .serp-item:-abp-has(> .AdvLabel)
 ! Сайты Блокнота
 .php|$third-party,script,domain=bloknot-astrakhan.ru|bloknot-gelendzhik.ru|bloknot-kamyshin.ru|bloknot-krasnodar.ru|bloknot-krymska.ru|bloknot-moldova.ru|bloknot-morozovsk.ru|bloknot-novorossiysk.ru|bloknot-rossosh.ru|bloknot-rostov.ru|bloknot-samara.ru|bloknot-shakhty.ru|bloknot-stavropol.ru|bloknot-taganrog.ru|bloknot-volgodonsk.ru|bloknot-volgograd.ru|bloknot-volzhsky.ru|bloknot-voronezh.ru|bloknot.ru|bloknotanapa.ru|bloknotlipetsk.ru|bloknotsaratov.ru|bloknotsochi.ru|bloknottambov.ru
 /bloknotadv/*$domain=bloknot-astrakhan.ru|bloknot-gelendzhik.ru|bloknot-kamyshin.ru|bloknot-krasnodar.ru|bloknot-krymska.ru|bloknot-moldova.ru|bloknot-morozovsk.ru|bloknot-novorossiysk.ru|bloknot-rossosh.ru|bloknot-rostov.ru|bloknot-samara.ru|bloknot-shakhty.ru|bloknot-stavropol.ru|bloknot-taganrog.ru|bloknot-volgodonsk.ru|bloknot-volgograd.ru|bloknot-volzhsky.ru|bloknot-voronezh.ru|bloknot.ru|bloknotanapa.ru|bloknotlipetsk.ru|bloknotsaratov.ru|bloknotsochi.ru|bloknottambov.ru
-bloknot-astrakhan.ru,bloknot-gelendzhik.ru,bloknot-kamyshin.ru,bloknot-krasnodar.ru,bloknot-krymska.ru,bloknot-moldova.ru,bloknot-morozovsk.ru,bloknot-novorossiysk.ru,bloknot-rossosh.ru,bloknot-rostov.ru,bloknot-samara.ru,bloknot-shakhty.ru,bloknot-stavropol.ru,bloknot-taganrog.ru,bloknot-volgodonsk.ru,bloknot-volgograd.ru,bloknot-volzhsky.ru,bloknot-voronezh.ru,bloknot.ru,bloknotanapa.ru,bloknotlipetsk.ru,bloknotsaratov.ru,bloknotsochi.ru,bloknottambov.ru##a[href*="//zen.yandex.ru/"]
 bloknot-astrakhan.ru,bloknot-gelendzhik.ru,bloknot-kamyshin.ru,bloknot-krasnodar.ru,bloknot-krymska.ru,bloknot-moldova.ru,bloknot-morozovsk.ru,bloknot-novorossiysk.ru,bloknot-rossosh.ru,bloknot-rostov.ru,bloknot-samara.ru,bloknot-shakhty.ru,bloknot-stavropol.ru,bloknot-taganrog.ru,bloknot-volgodonsk.ru,bloknot-volgograd.ru,bloknot-volzhsky.ru,bloknot-voronezh.ru,bloknot.ru,bloknotanapa.ru,bloknotlipetsk.ru,bloknotsaratov.ru,bloknotsochi.ru,bloknottambov.ru##div[class*="banner"]
 !
 ! Сайты Лит-инфо

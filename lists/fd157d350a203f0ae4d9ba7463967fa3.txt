@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4OSnc1XfbYW+EdEVzs7bsA
-! Version: 202505120641
+! Checksum: ambslNpmUlDj4o8QbiuNiQ
+! Version: 202505120741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 May 2025 06:41 UTC
+! Last modified: 12 May 2025 07:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13892,6 +13892,7 @@ pulscen.ru##.chameleon
 play.tavr.media##.channel-centre > .bottom-links ~ .d-md-block
 tlgrm.ru#?#.channel-feed > .channel-feed__brick:-abp-has(> .cfeed-card > .cfeed-card-contents--banner)
 profinance.ru##.charts-ad
+mmo13.ru##.cl-block-rk
 ruwest.ru##.cl-simple-border-block
 nonameno.com#?#.clauses_block_rel .panel:-abp-has([href*="dex.browser"])
 i.ua##.clear.logo_container
@@ -16936,7 +16937,7 @@ buhonline.ru##[class^=sideBanner]
 realist.online,zn.ua##[data-action="banners"]
 vk.com,vk.ru##[data-ad-block-uid]
 delfi.lv##[data-ad-placement]
-mmo13.ru,ps4.in.ua##[data-ad-slot]
+ps4.in.ua##[data-ad-slot]
 buhgalter.com.ua,buhgalter911.com,factor.ua,tsn.ua,unian.info,unian.net,unian.ua##[data-ad]
 banki.ru##[data-adfox-container]
 vse42.ru##[data-adplace-inited]
@@ -17231,7 +17232,7 @@ litres.ru##a.logo[href*="#buy_now_noreg"][target="_blank"]
 sportsdaily.ru##a.match-mini__heading-link > .match-mini__logo
 kinobaza.net##a.red
 www.ivi.ru##a.teaserImage[target="_blank"]
-video.matchtv.ru##a.vjs-link_view-mpartner[href="https://matchtv.ru/subscriptions"]
+video.matchtv.ru##a.vjs-link[href*="://matchtv.ru/subscriptions"]
 moniheal.com##a:not([href*="moniheal.com/"]) > img[src*="/m-public/"]
 good73.net##a[\;] > img
 ren.tv##a[class*=" ya_"]

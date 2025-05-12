@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505122218
+! Version: 202505122343
 ! Title: EasyPrivacy
-! Last modified: 12 May 2025 22:18 UTC
+! Last modified: 12 May 2025 23:43 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2125,6 +2125,7 @@
 /stat/event?
 /stat/fe?
 /stat/rt/js?
+/stat/stat.php?type=
 /stat2.aspx?
 /stat2.js
 /stat?event=
@@ -2145,6 +2146,7 @@
 /statcounter.js
 /statcountex/count.asp?
 /statistic/pixel?
+/statistiche/stat.php$xmlhttprequest
 /statistics.js?$third-party
 /statistics/pixel/*
 /statistics/visit?id=
@@ -13481,6 +13483,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plug.it^*/iol_evnt_
 ||plug.it^*/track_
 ||plug.it^*/tracking_
+||rbdata.boostymark.com^
 ||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml
 ||rd.alice.it^
 ||redbee.serverside.ai^$image

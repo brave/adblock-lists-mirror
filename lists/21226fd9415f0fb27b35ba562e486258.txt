@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: zgksFM50CYSyJochjdXT+g
+! Checksum: EKuDtCSHkvdpdbx/wUdDxw
 ! Title: Easylist Cookie List
-! Updated: 2025-05-12 01:38 UTC
+! Updated: 2025-05-12 02:38 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -5633,7 +5633,6 @@
 ###ePrivacyDisclaimer
 ###eac_cookie_message
 ###eafw-cookies
-###eagerly-tools-cookie
 ###easyCookie
 ###easycookieinfo
 ###eawe_cookies_info
@@ -10687,8 +10686,6 @@
 ##.cookie-eu-msg
 ##.cookie-event-block
 ##.cookie-fade
-##.cookie-fb-title
-##.cookie-fb-top
 ##.cookie-fixed
 ##.cookie-fixed-footer
 ##.cookie-fixed-hint
@@ -16477,6 +16474,8 @@
 ##section.cookie-popup
 ##section.cookie__privacy
 ##section.cookies_banner
+! skincontact.substack.com (EU IP)
+##.cookieBanner-fZ6hup
 ! usatoday.com/ydr.com/ydr.com
 ##.gnt_pu
 ! shoptglgolf.com/store.nba.com/mlbshop.com/nflshop.com/nflshop.com (US IP)
@@ -22186,6 +22185,7 @@ mobilevikings.be##+js(set-cookie, privacy_mv, 1)
 ebikelohr.de##+js(set-cookie, COOKIES_NEWACCEPTED, 1)
 eurosender.com##+js(set-cookie, es_cookie_settings_closed, 1)
 psmw.de##+js(set-cookie, cookie_settings, 1000)
+voxweb.nl##+js(set-cookie, cookie_settings, 1)
 melectronics.ch##+js(set-cookie, cookie-banner-acceptance-state, true)
 guard.io##+js(set-cookie, cookie_consent_seen, 1)
 nokportalen.se##+js(set-cookie, cookies_allowed, yes)
@@ -22498,6 +22498,9 @@ nhnieuws.nl,omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-other, fal
 nhnieuws.nl,omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl,omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-social, true)
 receptagemini.pl##+js(set-local-storage-item, consents-analytics, false)
+bw.vdk.de##+js(set-local-storage-item, vdk-required-enabled, true)
+bw.vdk.de##+js(set-local-storage-item, vdk-iframe-enabled, true)
+bw.vdk.de##+js(set-local-storage-item, vdk-status, accept)
 netbank.avida.no##+js(set-local-storage-item, cookiesAccepted, true)
 gdh.digital##+js(set-local-storage-item, cookieBarVisible, false)
 rozklady.bielsko.pl##+js(set-local-storage-item, cookie-accepted, 1)

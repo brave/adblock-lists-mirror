@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rxt+Bq4bj7HTo5SEQkI1uQ
-! Version: 202505141041
+! Checksum: AQe81p0X5KWxDOK9tNP2Rw
+! Version: 202505141131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 May 2025 10:41 UTC
+! Last modified: 14 May 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12365,7 +12365,6 @@ fit4power.ru###promo > div > div
 macilove.com###promo-app-ap
 delovoy-kirov.ru###promo-fix
 24tv.ua###promoArticle
-klerk.ru###promoVip
 sofirus.ru###promo_bottom
 dofiga.net###ptext_15
 wmforum.2bb.ru###pun-announcement
@@ -12835,6 +12834,7 @@ glav.su#?#*:-abp-has(> div[id^="js-hb-"]:first-child)
 www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasales.ru,www.aviasales.ua,www.aviasales.uz##.--advert
 cq.ru##.--ligastavok
 knigavuhe.org##.-adfb
+26-2.ru,arbitr-praktika.ru,budgetnik.ru,buhsoft.ru,business.ru,cxychet.ru,dirsalona.ru,fd.ru,gazeta-unp.ru,gd.ru,glavbukh.ru,hr-director.ru,kdelo.ru,kom-dir.ru,law.ru,menobr.ru,pro-goszakaz.ru,pro-personal.ru,resobr.ru,rnk.ru,sekretariat.ru,stroychet.ru,trudohrana.ru,ugpr.ru,zarplata-online.ru,zdrav.ru##.ASE_brandImage
 ua-ix.biz##.Advertising
 meduza.io##.App-bannerBottom
 meduza.io##.App-bannerTop
@@ -14478,6 +14478,7 @@ ryazan.life##.grid-r
 amic.ru#?#.grid__title:-abp-contains(Новости партнеров)
 tomat-pomidor.com##.gusev
 playua.net##.h-advert
+klerk.ru##.h-header-banner-height
 peterburg2.ru##.h-menu__item--external
 casstudio.tv##.h-top-pad
 tsn24.ru#?#.h2:-abp-has(> span:-abp-contains(/^СМИ$/))
@@ -16389,6 +16390,7 @@ ebanoe.it##.top-xata > .content_wrapper
 shophelp.ru##.top-yoox
 splkirov.ru##.top2-banners
 map.cn.ua##.topAdv
+26-2.ru,arbitr-praktika.ru,budgetnik.ru,buhsoft.ru,business.ru,cxychet.ru,dirsalona.ru,fd.ru,gazeta-unp.ru,gd.ru,glavbukh.ru,hr-director.ru,kdelo.ru,kom-dir.ru,law.ru,menobr.ru,pro-goszakaz.ru,pro-personal.ru,resobr.ru,rnk.ru,sekretariat.ru,stroychet.ru,trudohrana.ru,ugpr.ru,zarplata-online.ru,zdrav.ru##.topAdvertize__wrapper
 ctc.ru,govoritmoskva.ru,karaoke.ru,megomult.ru##.topBanner
 risk.ru##.topBar
 ua-football.com##.topBook
@@ -18384,7 +18386,6 @@ noi.md##div[class*="-bnr"]
 moskva.fm,piter.fm##div[class*="-branding-"] > a[target="_blank"]
 allhen.online,doramatv.live,doramatv.one,doramatv.ru,findanime.ru,grouple.co,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one##div[class*="-brnd"]
 kinoafisha.info##div[class*="-fix "][class$="as-desktop"]
-klerk.ru##div[class*="250px"][class*="print:hidden"]
 mmo13.ru##div[class*="300x600"]
 gazetametro.ru##div[class*="AdBox"]
 rg.ru##div[class*="Adfox"]
@@ -20236,6 +20237,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /images/bnr/*$domain=napensii.ua|ogo.ua
 /images/brand.$image,domain=izbezhat-nakazania.com|strela-online.com|theflash-tv.com|vskazke-tv.com
 /images/brand/*$domain=amuzic.ru|emuzic.ru|ifin.kz
+/images/branding/*$domain=26-2.ru|arbitr-praktika.ru|budgetnik.ru|buhsoft.ru|business.ru|cxychet.ru|dirsalona.ru|fd.ru|gazeta-unp.ru|gd.ru|glavbukh.ru|hr-director.ru|kdelo.ru|kom-dir.ru|law.ru|menobr.ru|pro-goszakaz.ru|pro-personal.ru|resobr.ru|rnk.ru|sekretariat.ru|stroychet.ru|trudohrana.ru|ugpr.ru|zarplata-online.ru|zdrav.ru
 /images/jet$image,domain=60-fps.net|soft-windows.info|windows-soft.info
 /images/menubars/ru-dating.$domain=fapreactor.com|pornreactor.cc
 /images/partners/*$domain=argumenti.ru|fonarevka.ru|profit-maker.org
@@ -20627,7 +20629,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||auto.ria.com/images/branding/banner/
 ||auto.ru/wwwboards/img/banner_
 ||auto62rus.ru/img/Mnogo3D.
-||autofill.yandex.ru^$domain=fishki.net|klerk.ru|myshows.me|pikabu.ru|sport-express.net|sport-express.ru
 ||autogener.ru/img/abp/
 ||autogrodno.by/banners/
 ||autoinfo24.ru/upload/images/banner
@@ -25125,6 +25126,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ||amedia.lol/templates/*/popup/
 ||api.traq.li^$domain=champion.com.ua|epravda.com.ua|eurointegration.com.ua|pravda.com.ua
 ||apihost.ru/images/584676.gif
+||autofill.yandex.ru^$third-party
 ||bagnet.org/public/js/cook_popup.js
 ||black-eyed-peas.ru/engine/classes/js/
 ||cdn.hsmedia.ru/ump-webapp-public/dist/client/assets/AllowConsentNotificationsModal-$third-party
@@ -26445,7 +26447,7 @@ kurs.com.ua,ontvtime.ru,ritsatv.ru,skidkaonline.ru,ternopillive.com##body > div[
 gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 motorpage.ru##body.noscroll::before
 qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
-live.vkvideo.ru##div[class^="AdBlockAlert_root"]
+live.vkvideo.ru##div[class^="Notifications_root"]
 pronetblog.by##div[class^="adsensepost"]
 2baksa.ws##div[class^="ant"][class*="block"]
 hitsovet.ru,mod-wot.ru##div[class^="chp_ads_block"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bhxAsTFvppICRXfO1+y4Mw
-! Version: 202505141541
+! Checksum: qenQ1GRv0PPs01wRtQlIsQ
+! Version: 202505141641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 May 2025 15:41 UTC
+! Last modified: 14 May 2025 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13862,7 +13862,6 @@ pronovostroy.ru##.card-special-gallery--topic
 solidarnost.org##.card-yandex
 1tv.ru##.card.promo
 sovsport.ru##.cardForecast_card_container__b_Ukm > div[class^="cardForecast_btn"]
-rudub.biz##.card__description__adv
 bzrus.pro##.card__inner-premium
 bzrus.pro##.card__re-video
 edimdoma.ru##.card_commercial
@@ -17273,7 +17272,6 @@ onliner.by##a[href*=".betera.by"]
 creativportal.ru##a[href*=".creativportal.ru"]
 fishingsib.ru,hunting.ru##a[href*=".fhserv.ru"]:not([href^="https://image.fhserv.ru"])
 2baksa.ws##a[href*=".htm"] > img
-ru-dub.xyz,rudub.biz##a[href*=".li"]
 texnic.ru##a[href*=".php?ad="]
 onliner.by##a[href*=".pm.by"]
 sport.tut.by##a[href*=".pm.by/"]
@@ -19655,6 +19653,8 @@ golbis.com##p[style="text-align:left;margin-left:10px;"]
 stormo.online,stormo.tv##pjsdiv[style^="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 10000; display: block; background:"][style*="/player/loader.png"]
 brclip.com,clip-share.net,flash-player.net,frvid.com,ibb.co,jpvid.net,kzblow.info,kzclip.com,ru-clip.com,ru-clip.net,ruburn.info,ruclip.com,thclips.com,trshow.info,trvid.com,uaclips.com,vnclip.net##pp
 stratege.ru##psplus-footer
+ru-dub.xyz,rudub.*##a[href*=".li"]
+rudub.*##.card__description__adv
 liveinternet.ru##script + div[id] > div[style^="width:"]
 sftv.ru##script[src*="iwantyourpromo.com"] ~ div[align="center"]
 megaimg.ru##script[src^="http://am10.ru/"] + center

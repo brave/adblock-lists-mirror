@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 20250514020303099
+! Version: 20250514123907560
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
 ! Title: ABPVN List
-! Last modified: 14 May 2025 02:03:03 UTC+7
-! Diff-Path: patches/20250514020303099.patch#abpvn_ublock
+! Last modified: 14 May 2025 12:39:07 UTC+7
+! Diff-Path: patches/20250514123907560.patch#abpvn_ublock
 ! Diff-Expires: 60 minutes
 ! Expires: 1 days (update frequency)
 !
@@ -100,6 +100,7 @@
 ||ff.imacdn.com^$image,domain=xem1080.com
 ||file1.dangcongsan.vn^*.gif$image,domain=dangcongsan.vn
 ||forum.idichvuseo.com/images/quang-cao
+||freeimage.host^*.gif$image,domain=phimtuoitho.tv
 ||fun6668.com/Banner/$domain=mythethao.net
 ||fundingchoicesmessages.google.com^$third-party
 ||ghienphim.blog^*.gif$image,domain=xemphimviet.casa
@@ -373,7 +374,7 @@ animevietsub.lol###invideo_wrapper
 animevietsub.lol##.Ads
 animevietsub.lol##.mobile-catfish-top
 animevietsub.lol##.mobile-catfixx
-animevietsub.lol,phimtuoitho.site##.pc-catfixx
+animevietsub.lol,phimtuoitho.site,phimtuoitho.tv##.pc-catfixx
 animew.biz##div.py-2.md\:py-6.mx-auto.w-full.max-w-screen-3xl>div.relative
 apkmoddone.com###sn-Notif
 apkmoddone.com##.adNative

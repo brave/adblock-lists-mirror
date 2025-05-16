@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.2.1
+! Version: 4.1.2.4
 
 ! General
 
@@ -115,9 +115,6 @@ cnn.com##+js(set-local-storage-item, /reg_?wall/i, $remove$)
 columbian.com##+js(cookie-remover, blaize_session)
 chronicle.com,philanthropy.com##div[data-content-summary]
 chronicle.com,philanthropy.com##+js(ra, hidden|ppajfrg86rdhoubtirllb2bf1xsaknzus, div[class~="contentBody" i][hidden], stay)
-! cicero.de: url+?amp
-cicero.de##+js(rc, teasered-content, .teasered-content)
-cicero.de##.teasered-content-fader
 citywire.com##+js(rc, article-locked, .article-locked)
 citywire.com##+js(rc, m-article--locked, .m-article--locked)
 citywire.com##+js(rc, m-media-container--locked, .m-media-container--locked)
@@ -214,7 +211,6 @@ inkl.com##+js(ra, class, div.paywall)
 inkl.com##div.gradient-container
 interestingengineering.com##+js(rc, blurFilter, div.blurFilter, stay)
 interestingengineering.com##div.paywall-main-wrapper:remove()
-||irishexaminer.com/pu_examiner/scripts/engage/$script,~third-party
 japantimes.co.jp##+js(cookie-remover, xbc)
 journaldemontreal.com,journaldequebec.com##+js(rc, composer-content, div.article-main-txt.composer-content)
 journaldunet.com##div.reg_wall
@@ -349,8 +345,6 @@ the-scientist.com##div.gated-fader,div#Modal
 ||theatlantic.com/zephr/decision-engine$xmlhttprequest,~third-party
 theatlantic.com##aside#paywall,div[class^="LostInventoryMessage_"]
 ||cloudfunctions.net/gated-countView$xmlhttprequest,domain=thediplomat.com
-thediplomat.com##+js(rc, h-96, article>section.h-96)
-thediplomat.com##aside.bg-gradient-to-b
 theglobeandmail.com##+js(set, window.Fusion.globalContent._id, 0)
 thehindu.com,thehindubusinessline.com##+js(set, window.Adblock, false)
 thehindu.com,thehindubusinessline.com##+js(set, window.isNonSubcribed, false)

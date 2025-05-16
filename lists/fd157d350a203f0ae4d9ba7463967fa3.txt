@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SuUzJCDACfKWv1FW0yzlIA
-! Version: 202505160941
+! Checksum: IMeBqGWrB6tda7moi1R0Gg
+! Version: 202505161141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 May 2025 09:41 UTC
+! Last modified: 16 May 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11588,6 +11588,7 @@ myzuka.club###TVZavr
 flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom###TopAdMb
 smartpress.by###TopBox
 videovegas.ru###VegasHeadAds
+podarkus.ru###__next > div[style^="position:"] > div[style^="position:"]:empty + div:not(:last-child)
 sport-express.net,sport-express.ru###_ad_container_
 newsroom24.ru###_prizmaNE
 w98008mo.beget.tech###a_center
@@ -17989,6 +17990,7 @@ mebelminsk.by##a[rel="nofollow"][target="_new"][href^="/ref&url="]
 pcprogs.net##a[rel="nofollow,noindex"]
 culturemeter.od.ua##a[rel="noopener nofollow sponsored"]
 i2r.ru##a[style*="/banner."]
+ohmywishes.com##a[style*="/images/banner-image/"]
 nya.sh##a[style*="/imgs/a/"]
 gtorrent.cc,gtorrent.club,gtorrent.ru##a[style*="color:"] > span
 prankota.com##a[target="_blank"] + br, a[target="_blank"] + hr
@@ -18305,6 +18307,7 @@ oper.ru##dd > .body font > a[target="_blank"]
 nova-wings.ru##div > #yaMarket ~ table[width="100%"]
 grad.ua##div > .comments ~ .blok_header_title
 parnuxi.com#?#div > .mainmenu:-abp-has(> a[href*="pornolavka.pw"])
+ohmywishes.com##div > button + button ~ div > button
 mail.google.com##div.ae5
 mport.ua##div.b-widgets
 ero-top.info##div.dating
@@ -18323,6 +18326,7 @@ versii.if.ua#?#div:-abp-has(> .indication-bor-rad:-abp-contains(РЕКЛАМА))
 salonav.com#?#div:-abp-has(> .mom-ads-wrap)
 selomoe.ru#?#div:-abp-has(> .title_also:-abp-contains(Партнерский контент))
 forumhouse.ru#?#div:-abp-has(> [class$="relap-block"])
+podarkus.ru#?#div:-abp-has(> [class^="G-work-podarkus"] > a[href*="erid="])
 liveresult.ru#?#div:-abp-has(> [data-has-bookmaker-odds])
 gdzguru.com,reshebnik.com#?#div:-abp-has(> [href*="://gdz-ru.work/"])
 7themes.su,yakutsk.ru#?#div:-abp-has(> [id^="adfox_"])
@@ -18332,6 +18336,7 @@ gdz.ninja,gdzotputina.club,gdzputina.net,reshebnik.com,spishi.fun,zoobrilka.net#
 drive2.ru#?#div:-abp-has(> a[href] > div > div > div > div)
 anwap.film#?#div:-abp-has(> a[href]:not([href^="/films/"]):not([href^="/serials/"]) > div)
 fragrantica.ru#?#div:-abp-has(> a[href^="/goto.php"])
+ohmywishes.com#?#div:-abp-has(> a[style*="/images/banner-image/"]) ~ button
 point.md#?#div:-abp-has(> article > div > a[href*="/business/"])
 photoshop-besplatno.org#?#div:-abp-has(> div > [href*="bit.ly"])
 nonameno.com#?#div:-abp-has(> div > [href*="dex.browser"])
@@ -22197,6 +22202,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||pn.com.ua^*/pnimages/banners/
 ||pnz.ru^$xmlhttprequest,domain=www.penzainform.ru
 ||pobedagame.sibnet.ru^$domain=~pobedagame.sibnet.ru
+||podarkus.ru/bnrs/
 ||podfm.ru/content/promo/
 ||podfm.ru/images/branding/
 ||poezone.ru/poepoints/
@@ -22695,6 +22701,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||static.lostfilm.top/temp/wow_
 ||static.mtml.ru/iqos-promo/
 ||static.nn2.ru^*/*banner$~image
+||static.ohmywishes.com/images/banner-image/
 ||static.parastorage.com/services/wix-vod/$domain=bless-news.com
 ||static.probirka.org/images/banners/
 ||static.relax.by/images/common/journal_branding_background/

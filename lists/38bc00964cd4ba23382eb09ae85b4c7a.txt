@@ -3130,10 +3130,14 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ! https://urldna.io/scan/6810cfa63b7750001041d5a1
 ! https://www.virustotal.com/gui/url/431593176d4b5b9c6869ed9dd1809a08cbdb3f8687437d149719d774b532de77
 ||singtelmyconnect.com^$all
+! https://www.virustotal.com/gui/url/2fc292fa96412fa0b8dddcafd6f86408b74dc26c12054f302268698ff0335a6f
+||pormota-coop-ee.com^$all
 
-! ionos.com
-! https://www.virustotal.com/gui/url/d9e486fc298d617dcef3444322b3fd62e7c09f2f2fee4c97736c54f38c9d67c6
-||login-*-ionos-co-uk.jcmemoryscan.com^$all,to=~ionos.com
+! viva sorte - https://vivasorteoficial.com.br/
+||viva-asorte.com^$all
+||sorteiosbrasil.netlify.app^$all
+! https://www.virustotal.com/gui/url/e1dafd5e5db700796220c8edd9b3d567655048482efb03209578073b4c891f26
+||noticiarecentesagora.net.klebeerlopees*.meusitehostgator.com.br^$doc
 
 ! chase.com
 ||unclepigva.com^$all,to=~chase.com
@@ -4394,11 +4398,6 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ! https://www.virustotal.com/gui/url/876186ad51623f15303e6fc8565e4411545aa92a07d0c118c7cb6e3db91bba85
 ! https://www.virustotal.com/gui/url/114d0d1abadc10805bd8dbce5fec3d58f73494e989aadca11d0dc8b67f466142
 /^https:\/\/transporta[a-z]{8,9}pro\.top\/i\b/$doc,to=top|~usps.com
-! https://www.reddit.com/r/Scams/comments/1gxejx5/usps_scam_sent_me_this_httpsuinfotracklmstopus_in/
-! https://urldna.io/scan/674295237e7857a321be968d
-! https://www.virustotal.com/gui/url/924ffc9758a7ef73e36f5538969f3a27000b5743f7f18761e4aa4ffe484ac6bd
-! https://www.virustotal.com/gui/url/a4729e0a66bb9fe48da61dda6db467c5cb5525017dcdbf9efb42c2e51168342a
-/^https:\/\/[a-z]\.[a-z]{10,}\.top\/us(?:\/|$)/$doc,to=top|~usps.com
 ! https://urldna.io/scan/673d512e85f8a9a88ee409e2
 ! https://www.virustotal.com/gui/url/39e12c416f93afd6e666595aa1a1856578ea27720677fc8e7f954dd5e3a8f3f7
 /^https:\/\/[a-z]\.[a-z]{10,}\.top\/l(?:\/|$)/$doc,to=top|~usps.com
@@ -4542,7 +4541,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ! https://www.virustotal.com/gui/url/94fdcf815a75d8182fee65b9f90fcbdd03498c33f6200e0c951a1a5874b2ad1d
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
 
-||tokenp0ckht.click^$all,to=~tokenpocket.pro
+||tokenp0ckht.click^$all
 ||mememoguls.vip^$doc,to=~mememoguls.com
 ||spendabit-payment.xyz^$doc,to=~spendabit.co
 ||web-tonkeep.website^$doc,to=~tonkeeper.com
@@ -4599,7 +4598,9 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ! https://urldna.io/scan/66bb2923fc6db4b70d37ece8
 ! https://www.virustotal.com/gui/url/6bebec722c703a448f14d1650315b534ee785959080537cebada1d6120883763
 ! https://www.virustotal.com/gui/url/4e1f0d563a121e484113dcf1582323732ce110451f33e939985911c248f19c31
-||alienxchain*.pages.dev^$doc,to=~alienxchain.io
+||alienxchain*.pages.dev^$doc
+! https://www.virustotal.com/gui/url/e0f4f24fcaab6c1f540ac141d0c2088d3c5f5f6a2fad4bde212a00a676825ac3
+||xcoinspro.com^$doc
 
 ! metamask.io
 ||clinitex.fr/META5KYC/$doc,to=~metamask.io
@@ -4906,7 +4907,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||vn-eid.com^$all,to=~dichvucong.gov.vn
 
 ! https://khonggianmang.vn/uploads/2024_CBT_34_cf5513cd5e.pdf
-/^https:\/\/nz[a-z]\d{5}s\.com\//$doc,to=com|~shopee.vn
 ||558-558-559.com^$all,to=~shopee.vn
 ||nzx65821s.com^$all,to=~shopee.vn
 
@@ -5937,21 +5937,21 @@ uploadfox.net###ad-gs-05
 
 ! https://www.reddit.com/r/antivirus/comments/1hzae66/what_is_the_best_thing_to_do_after_clicking_a/
 ||grass-io.$all,to=cc|vip|~getgrass.io
-||inmotionhosting.com/~myapp/grass_air/$doc,to=~getgrass.io
+||inmotionhosting.com/~myapp/grass_air/$doc
 
 ! https://github.com/uBlockOrigin/uAssets/issues/26814
 ||pubgrlxvote.top^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/26853
-||teleqpnm.cn^$all,to=~telegram.org
+||teleqpnm.cn^$all
 
 ! https://www.malwarebytes.com/blog/news/2025/01/the-great-google-ads-heist-criminals-ransack-advertiser-accounts-via-fake-google-ads
 ! https://github.com/uBlockOrigin/uAssets/issues/26878
-||sites.google.com/view/entteraccess^$all,to=~ads.google.com
-||sites.google.com/view/helpp2k^$all,to=~ads.google.com
-||ads-overview.com^$all,to=~ads.google.com
-||adsg00gle-v3.vercel.app^$all,to=~ads.google.com
-||ads1.google.*.com^$doc,frame,to=~ads.google.com
+||sites.google.com/view/entteraccess^$all
+||sites.google.com/view/helpp2k^$all
+||ads-overview.com^$all
+||adsg00gle-v3.vercel.app^$all
+||ads1.google.*.com^$doc,frame
 
 ! https://www.reddit.com/r/phishing/comments/1i2gi5r/is_this_legit/
 ||thetollroads.texas-$all,to=~thetollroads.com
@@ -6018,9 +6018,6 @@ uploadfox.net###ad-gs-05
 ! https://www.reddit.com/r/phishing/comments/1iln9ux/is_this_a_new_scam/
 ! https://www.virustotal.com/gui/url/dd2c16c95013aa1a20b35b50301b1116d582be01d346dc048a894b480fbbee59
 ||paytoll*.top/ezdrivema^$all
-
-! https://www.reddit.com/r/Scams/comments/1in9l8t/be_careful_posting_your_resume_on_job_boards/
-||sunpass.com-$doc
 
 ! https://www.reddit.com/r/Scams/comments/1iuso58/need_help_identifying_a_text/
 ||hhcollect.co^$all

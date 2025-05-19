@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F+kse7IWtOaJ8OmjTrf8pg
-! Version: 202505191441
+! Checksum: T0VaFqHWk9HGup7QknikNw
+! Version: 202505191541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 May 2025 14:41 UTC
+! Last modified: 19 May 2025 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16208,6 +16208,7 @@ promtu.ru##.strochka
 meddaily.ru##.structure-index > div:not([id]):not([class])[style^="width"]
 meddaily.ru##.structure-index > div:not([id]):not([class])[style^="width"] + div[align="center"]
 netschool-edu22-info.ru##.su-note
+red-soft.ru#?#.su_video > ul > li:-abp-has([href*="dzen.ru/"])
 animaunt.org##.sub-info a[href][target="_blank"] > img
 novoruskino.net,ruskinonovoe.net##.sub-text
 newinform.com##.subscribe

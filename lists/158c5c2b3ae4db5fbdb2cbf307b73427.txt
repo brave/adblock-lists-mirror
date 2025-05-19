@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 43XZNIqtrLEIPLe5SSe9VQ
-! Version: 202505192041
+! Checksum: vdZ3hvSDLYRrOp2My1u6ug
+! Version: 202505192141
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 May 2025 20:41 UTC
+! Last modified: 19 May 2025 21:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2953,6 +2953,7 @@ milnavigator.com.ua##div[class*="sfsi_"]
 99px.ru##div[class*="shareicon"]
 pravda.if.ua##div[class*="social-container"]
 direct.farm#?#div[class*="social-info_action"][class*="wrapper"]:-abp-has([class*="share-button"])
+ren.tv##div[class*="socialButtonsWrapper"]
 stratege.ru##div[class*="social_box"]
 novy.tv##div[class*="social_links"]
 www.kinopoisk.ru##div[class*="styles_sidebar"] > a[href][target="_blank"] > img
@@ -4086,7 +4087,7 @@ rbkgames.com##iframe[src^="https://player.twitch.tv?autoplay=true"][src*="rbkgam
 /manifest.json$domain=championat.com|eapteka.ru|gazeta.ru|hi-chef.ru|lenta.ru|mail.ru|my.mosenergosbyt.ru|rambler.ru|riafan.ru|sportmail.ru
 /manifest.webmanifest$domain=otvet.mail.ru
 /min/js/pages/push.js$script,~third-party,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-georgia.com|sputnik-news.ee|sputnik-ossetia.com|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputniknews-uz.com
-/ololo/*$image,domain=2ch.hk|2ch.life
+/ololo/*$image,domain=2ch.hk|2ch.life|2ch.su
 /pum-site-styles-$stylesheet,domain=lhealth.info
 /push.js$script,domain=mail.ru
 /wp-content/plugins*popup-builder/*$domain=blackwot.ru|shotam.info
@@ -5071,7 +5072,7 @@ bookmate.com##.bm-document-readers
 habr.com##.bmenu_inner
 nv.ua##.bn-subscribe
 pleer.ru##.bnr
-2ch.hk,2ch.life##.board-banner
+2ch.hk,2ch.life,2ch.su##.board-banner
 parkdrive.ua##.body-advert-bg
 lifecell.ua##.bookmark-3g
 professorweb.ru##.bottom-banner
@@ -6698,7 +6699,7 @@ ratel.kz##img[alt="Ratel Telegram Channel"]
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##img[alt="Support AniLibria"]
 driveroff.net,samlab.ws##img[alt="Поддержка сайта"]
 chastnik-m.ru##img[alt="баннер"]
-2ch.hk,2ch.life##img[src*="/ololo/"]
+2ch.hk,2ch.life,2ch.su##img[src*="/ololo/"]
 tapochek.net##img[src*="images/rss_"]
 fakty.ua##img[src="/images/korabl-idi-hahuy.jpg"]
 rz.com.ua##img[src="/sites/default/files/baneri/samolechenie.jpg"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: loRuVcVfNV3PPRaCQ8yxRg
-! Version: 202505190921
+! Checksum: zLWcTLXeNtcX1iqiPqQXlA
+! Version: 202505191041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 May 2025 09:21 UTC
+! Last modified: 19 May 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12271,6 +12271,7 @@ kino-teatr.ua###ourBranding
 vashdom.ru###out_banner
 electricalschool.info###outer > #third
 woman.ru###outside-col
+kinogo.fm###overlay_u
 promodj.com###overlaybranding
 1plus1.video###ovva-player .o-pp
 outlook.live.com###owaadbar
@@ -16028,6 +16029,7 @@ penzavzglyad.ru##.sidebar.col-1
 mayday.rocks##.sidebar.column > div:empty
 mayday.rocks##.sidebar.column > h5
 erotix-tv.com,kinorai.org##.sidebar1
+speedme.ru##.sidebar300x600
 med2.ru##.sidebarAds
 vremenno.net##.sidebarBlock:first-child
 pogoda.meta.ua##.sidebar__ads
@@ -18549,6 +18551,7 @@ apteka.ru##div[class^="Eshop"]
 newsru.co.il##div[class^="HP_"]
 www.sibnet.ru##div[class^="Info_sidebar_"] a[class^="Informer_root_"]
 igromania.ru##div[class^="KeysForGamers_button"]
+tass.ru#?#div[class^="MaterialListing_chunk"] a[href]:-abp-has([class*="tass_pkg_marker"]:-abp-contains(Партнерский материал))
 igromania.ru,kanobu.ru##div[class^="MaterialSubscription_root_"]
 rg.ru##div[class^="Page_asideItem"][style^="height:"]
 tass.ru##div[class^="PartnerMaterial"]
@@ -19199,6 +19202,7 @@ gizmod.ru##div[style="float:left;width:344px;height:295px;"]
 forum.china-iphone.ru##div[style="float:right; margin-right: 5px;"]
 lleo.me##div[style="font-size:11px; margin: 0 2px 0 2px;"]
 astrohelper.ru##div[style="height: 120px;"]
+speedme.ru##div[style="height: 250px;"]
 glavred.info,glavred.net##div[style="height: 400px"]
 kirov-portal.ru##div[style="height: 90px; font-size: 1px; line-height: 1px;"]
 unews.pro##div[style="height:20px;"]:empty
@@ -24268,6 +24272,8 @@ rbc.ru##.video-player__controls__ad-countdown
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=autonews.ru|~cash.rbc.ru|rbc.ru|sportrbc.ru
 utro.ru#?#[class*="title"]:-abp-contains(/новости партнеров/i)
 rbc.ru##[data-placement]
+rbc.ru##[data-vr-zone="Главная новость"] a[href^="https://pro.rbc.ru/"]
+rbc.ru##[data-vr-zone="Главная новость"]::before
 rbc.ru##[data-vr-zone="Топ новости"] a[href*="utm_campaign"]:not([href^="https://pro.rbc.ru/"])
 rbc.ru##[data-vr-zone="Топ новости"] a[href^="https://pro.rbc.ru/"]
 rbc.ru#?#[data-vr-zone="Топ новости"] div:-abp-has(> a[href*="utm_campaign"]:not([href^="https://pro.rbc.ru/"]))

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.2.5
+! Version: 4.1.2.6
 
 ! General
 
@@ -705,6 +705,9 @@ thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container)
 ||thedriftmag.com/wp-content/plugins/drift-paywall-plugin/$script,~third-party
 thegardenisland.com##+js(ra, style, #single-paywall)
 thegardenisland.com###single-login-box,#single-excerpt
+theindianalawyer.com##+js(rc, restricted-non-subscriber, article.restricted-non-subscriber)
+theindianalawyer.com##+js(ra, style, article-content>p)
+theindianalawyer.com##div#vue-growler,div#js-modal
 ||theschooloflife.com/app/plugins/*/woocommerce.min.js$script,~third-party
 aap.thestreet.com##+js(rc, is-paywalled, body.is-paywalled)
 realmoney.thestreet.com##+js(cookie-remover, /^PWT/)

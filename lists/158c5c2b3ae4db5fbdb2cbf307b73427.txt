@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zLgZnEePQlR9+3FcHgUPlA
-! Version: 202505201251
+! Checksum: skJ9VaaheQgLEK3E8+4oQQ
+! Version: 202505201341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 May 2025 12:51 UTC
+! Last modified: 20 May 2025 13:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -357,7 +357,7 @@ com,ru##[data-rambler-share]
 ||overclockers.ru/images/buttons/
 ||photar.ru/wptelegram/widget/view/
 ||primamedia.ru^*modalblock_lite.
-||promotion.yani.tv/promo-iframe$domain=yummy-anime.ru|yummyani.me|yummyani.meme
+||promotion.yani.tv/promo-iframe$domain=yummy-ani.me|yummyani.me
 ||rambler.ru/social_counters/
 ||rbc.ru/*/social-networks/
 ||redfm.ru/vk-news.php
@@ -2851,7 +2851,7 @@ mybryansk.ru##article ~ .socShare + h2
 drukarnia.com.ua##article ~ .sticky > .justify-center
 bloomchain.ru##article ~ div[class] > .btn-link ~ [class]
 fontanka.ru#?#article ~ section:-abp-has(> div[class^="links_"])
-yummy-anime.ru,yummyani.me,yummyani.meme##aside .ban_ner
+yummy-ani.me,yummyani.me##aside .ban_ner
 kriminal.net.ua#?#aside .widget:-abp-has(> .body > .widget_html_block > [src*="facebook"])
 businessua.com##aside > #vedomosti_block ~ #vedomosti_block
 fakty.com.ua##aside > .aside-title:first-child
@@ -3102,7 +3102,7 @@ socportal.info##footer .w-full > .px-2
 mediasat.info##footer > .a-single
 zmi.ck.ua##footer > .b1
 zmi.ck.ua##footer > .b2
-yummy-anime.ru,yummyani.me,yummyani.meme##footer > .container > .one-block:first-child
+yummy-ani.me,yummyani.me##footer > .container > .one-block:first-child
 poltavske.tv##footer > .container > .row > .d-md-block ~ .d-md-block
 epochtimes.com.ua##footer > .container > .row ~ .row > div > .justify-content-center
 tsn.ua##footer > .l-row > .l-col > .c-bar__row--sin
@@ -5730,7 +5730,7 @@ pegast.ru##.pgs-top
 dw.com#?#.pictureTeaser:-abp-has([title*="Quiz"])
 oane.ws##.plaintext > h3:first-of-type
 tourpom.ru##.play-market
-yummy-anime.ru,yummyani.me,yummyani.meme##.player-alert-container
+yummy-ani.me,yummyani.me##.player-alert-container
 720hd.club,animebest.club,animevost.club,avitube.ru,dubflix.ru,hdkinorip.net,kinoslitok.net,kinospot.me,lostfilm-720.ru,timemovie.ru,wikimovie.ucoz.ru,zyx.watch##.player-warning
 filmaniaz.net##.player-warning-br
 sports.ru##.plistaList > a[data-campaign]

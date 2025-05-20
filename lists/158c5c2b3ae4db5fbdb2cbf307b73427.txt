@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tWz6icpmxk0UEB76mNnv8w
-! Version: 202505202241
+! Checksum: 3f/uaXMKy29zzsqMw88Xng
+! Version: 202505202341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 May 2025 22:41 UTC
+! Last modified: 20 May 2025 23:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3286,9 +3286,10 @@ mail.ru##.sharelist
 mail.ru,sportmail.ru##.sharelist__items
 auto.mail.ru##.sharelist_justify
 pets.mail.ru##a[class*="VKAppBanner__root"]
-otvet.mail.ru##a[title="Поделиться"]
 deti.mail.ru#?#button:-abp-has(> .button__inner:-abp-contains(Поделиться))
 mail.ru,sportmail.ru##button[title="Поделиться"]
+otvet.mail.ru##div[class*=" _PostItemVotes_"] > button + [class^="_wrapper_"] + [class^="_wrapper_"]
+otvet.mail.ru##div[class*=" _ReplyItemActionButtons"] > div[class^="_wrapper_"]:first-child
 player-smotri.mail.ru##div[class^="SharingOptionsScrollContainer-"]
 player-smotri.mail.ru##div[class^="WrapperPersonalRatingButton-"]
 my.mail.ru##div[class^="sp-video__item-page-new__share"]
@@ -3296,6 +3297,7 @@ auto.mail.ru#?#div[data-module="FixedPanel"] > div[class="block"]:-abp-has(#vk_c
 lady.mail.ru##div[data-module="Shares.Compact"]
 cloud.mail.ru##div[data-name="socialsShare"]
 mail.ru,sportmail.ru##div[data-qa="SocialButtons"]
+otvet.mail.ru##footer > [class^="_social_"]
 !
 ! Исправления после generichide
 omsi2mod.ru###share
@@ -4218,8 +4220,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||hideogenius.com/nokids.mp4
 ||hightech.fm/wp-content/themes/hightech/api/modals/
 ||home.imgsmail.ru/assets/user-settings/new-user-setting-promo.mp4
-||img.imgsmail.ru/webim/agent/images/$media,domain=otvet.mail.ru
-||img.imgsmail.ru/webim/agent/images/$object,domain=otvet.mail.ru
 ||imgsmail.ru/*/apps/game-bubble_$domain=my.mail.ru
 ||imgsmail.ru/mail/ru/images/js/myjs/mm/out/min/*/column_right$domain=my.mail.ru
 ||imgsmail.ru/mail/ru/images/js/myjs/mm/out/min/home/history/adv-post$domain=my.mail.ru
@@ -4294,7 +4294,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||on.od.ua/balls.
 ||ont.by/tv/js/*fancybox$script,stylesheet
 ||onvix.tv/beta/promo$third-party
-||otvet.mail.ru/sounds/notify
 ||overclockers.ru/static/img/bg_early.gif
 ||overclockers.ru/webservice/getPipPlace?
 ||ozone.ru/assets/*-cookie-popup.
@@ -6937,7 +6936,6 @@ e.mail.ru,octavius.mail.ru##.renovator-container
 ~e.mail.ru,mail.ru,sportmail.ru##.sticky[id^="notification"]
 e.mail.ru,octavius.mail.ru##.thread__footer
 dobro.mail.ru##.vkuiAppRoot > div[class*=" styles_visible"]
-otvet.mail.ru##.vue-floating-notifications
 mail.ru##.weather__header > .geomap-tooltip
 ~e.mail.ru,mail.ru,~tv.mail.ru##.wrapper > .tbl[class*="tbl_width"]
 love.mail.ru#?#[class]:-abp-has(> [data-name="cookie-message-close-action"])

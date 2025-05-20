@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1qkkeGARyGKhOumKP3fQQw
-! Version: 202505200242
+! Checksum: YKMwyImgYa0lCw/3gKL6Hg
+! Version: 202505200442
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-05-20 02:42 UTC
+! Last modified: 2025-05-20 04:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2387,6 +2387,7 @@ the74million.org##.republish
 usmagazine.com##.right-rail
 thenest.com##.right-rail-promo
 skeptoid.com##.right-sidebar
+techcrunch.com##.rightrail-promo
 capital.com##.riskWarning
 commondreams.org##.rm-sticky-parent
 patents.justia.com##.rotating-leads
@@ -50043,9 +50044,8 @@ sfstandard.com##body:style(height: auto !important; overflow: auto !important)
 ! https://github.com/uBlockOrigin/uAssets/issues/26337
 action.com##+js(set-local-storage-item, newsletterPopupCount, 1)
 ! theverge.com
-!theverge.com##.zephr-overlay
-!theverge.com##.zephr-zone-footer
-!theverge.com##body:style(height: auto !important; overflow: auto !important)
+theverge.com##+js(cookie-remover.js, blaize_session)
+theverge.com##+js(cookie-remover.js, blaize_tracking_id)
 ! newbalance.co.id
 newbalance.co.id###popup-newsletter
 newbalance.co.id##.modals-wrapper

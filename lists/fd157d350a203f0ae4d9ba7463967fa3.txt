@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hwcHeyVNrM6xpL7WZCqHdw
-! Version: 202505201341
+! Checksum: mbDC2uiplftlh6RLtQPWeg
+! Version: 202505201441
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 May 2025 13:41 UTC
+! Last modified: 20 May 2025 14:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15368,6 +15368,7 @@ tulapressa.ru##.part_block
 detector.media##.parthners
 chehov-vid.ru,fbr.info,ura.news##.partner
 3dtuning.com##.partner-ads
+edyna.media##.partner-articles
 lrepacks.net,rusplt.ru##.partner-block
 autosport.com.ru##.partner-content
 zahav.ru##.partner-iframe
@@ -15842,6 +15843,7 @@ rupier.com##.sb > a > img[src^="http://rupier.com/forum/"]
 med.vesti.ru##.sb-banner
 5.ua#?#.sb-block:-abp-has([id*="ScriptRoot"])
 beauty.ua,viva.ua##.sb-partners
+edyna.media#?#.sb__column > .sb__section:-abp-has(> .sb-partners)
 agroinfo.kz##.sbanner
 tornado.3dn.ru#?#.sblock:-abp-has(> .b_title > .ins:-abp-contains(Реклама))
 uaspectr.com##.sbr-slider > .pst-block > .pst-block-head
@@ -18709,6 +18711,7 @@ sovsport.ru##div[class^="main-menu_affiliateItem"] *
 sovsport.ru##div[class^="main-menu_other"]
 stolica-s.su##div[class^="market"]
 sovsport.ru##div[class^="match-day_bottom_block"]
+sovsport.ru##div[class^="matches-by-id_right"] > div[class^="st-widget_container"]
 itc.ua,mc.today##div[class^="max-"]
 baltanews.city,barnews.city,bilopillia.city,bilyayivka.city,chernihiv.city,chortkiv.city,dobronews.city,drohobych.city,energodar.city,fastivnews.city,gylyajpole.city,hadiach.city,haisyn.city,hlukhiv.city,horodok.city,izmacity.com,kagarlyk.city,kalushnews.city,kalynivka.city,kavun.city,kitsman.city,konotop.city,kremenets.city,kuma.city,lozova.city,mltpl.city,netishyn.city,nikopol.city,nizhyn.city,novakahovka.city,novograd.city,nsirogozy.city,oretsk.city,pereiaslav.city,petropavlivka.city,popasnaya.city,primorka.city,rakhiv.city,sarnynews.city,shostkanews.city,skadovsk.city,slavuta.city,starkon.city,susidy.city,svatove.city,thegard.city,tira.city,toretsk.city,troyitske.city,volnovakha.city,volodymyrets.city,yuzhkanews.city,zhmerynka.city,zoloto.city##div[class^="mc-banner"]
 metronews.ru##div[class^="metro_banner_"]

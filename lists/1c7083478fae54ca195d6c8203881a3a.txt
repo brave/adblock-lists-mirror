@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.2.7
+! Version: 4.1.3.0
 
 ! General
 
@@ -88,7 +88,7 @@ bizjournals.com##div[id^="headlessui-dialog-"],div.sheet-overlay
 bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-status], stay)
 bloomberg.com##div[id^="fortress-"]
 bloomberg.com##+js(set-local-storage-item, history, $remove$)
-||bloombergadria.com/*/news/$inline-script
+||bloombergadria.com/*/news$inline-script
 bloombergadria.com##+js(ra, style, article[style])
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
 /\.businessinsider\.com\/chunks\/scripts\/\d.+\.js/$script,domain=businessinsider.com,~third-party

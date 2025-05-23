@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.3.0
+! Version: 4.1.3.1
 
 ! General
 
@@ -89,7 +89,7 @@ bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-st
 bloomberg.com##div[id^="fortress-"]
 bloomberg.com##+js(set-local-storage-item, history, $remove$)
 ||bloombergadria.com/*/news$inline-script
-bloombergadria.com##+js(ra, style, article[style])
+bloombergadria.com##+js(ra, style, article[style], stay)
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
 /\.businessinsider\.com\/chunks\/scripts\/\d.+\.js/$script,domain=businessinsider.com,~third-party
 businessinsider.jp##+js(ra, hidden, div.piano-paywall-container[hidden])
@@ -685,6 +685,7 @@ serenitymarkets.com##+js(ra, class, div.blur_content, stay)
 ||shrm.org/*/js/paywall*.js$script,~third-party
 skepticalinquirer.org##+js(rc, google-bot, div.google-bot, stay)
 /\.solicitorsjournal\.com\/_next\/static\/chunks\/\d.+\.js/$script,domain=solicitorsjournal.com,~third-party
+||southernstar.ie/js/tollbridge.js$script,~third-party
 speakup.it##div.paywall-container
 ||spectrejournal.com/wp-content/plugins/elementor/*/dialog.min.js$script,~third-party
 splainer.in##+js(rc, hide-section, .hide-section)

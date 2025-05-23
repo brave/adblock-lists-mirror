@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9oTeKKBrT1O1eUWErA+L0w
-! Version: 202505230941
+! Checksum: 0kzZ9yunUSuaC39PlDkTJw
+! Version: 202505231041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 May 2025 09:41 UTC
+! Last modified: 23 May 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17303,7 +17303,7 @@ porno-island.site##a[href*="//goo.su/"]
 adult-images.ru,imgbum.ru,screenpost.ru,xpicture.ru##a[href*="//parnuxi.biz"]
 syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##a[href*="//pulse.mail.ru/"]
 kommersant.ru##a[href*="//rusfond.ru"]
-kinoafisha.info,oper.ru##a[href*="//wink."]
+kinoafisha.info,oper.ru,www.kinopoisk.ru##a[href*="//wink."]
 kritka.su,zserials.cc##a[href*="/1b.yt"]
 zserials.cc##a[href*="/1w.tf"]
 c-sgo.ru,sportliga.com##a[href*="/1xstavka"]
@@ -17542,7 +17542,7 @@ minecraft-inside.ru##a[href*="nfemo.com/click"]
 liveresult.ru##a[href*="odds"]
 puerrtto.livejournal.com##a[href*="offer"][target="_blank"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[href*="offer_id="]
-kinoafisha.info##a[href*="okko."]
+kinoafisha.info,www.kinopoisk.ru##a[href*="okko."]
 vtb-league.com##a[href*="olimp.bet"]:not([href*="logo_footer"])
 kkal.ru##a[href*="omniwins.ru"]
 omskinform.ru##a[href*="omskinform.ru/go/"][target="_blank"] > img
@@ -17956,6 +17956,7 @@ informator.ua##a[href^="https://inf.im/pinup_bonus"]
 softodrom.ru##a[href^="https://inspin.me"]
 milliarderr.com##a[href^="https://iqoption.com/promo/"]
 tvtver.ru##a[href^="https://kdservis.ru/"]
+www.kinopoisk.ru##a[href^="https://kino.tricolor.tv/watch/"]
 ndscalc.ru##a[href^="https://kontur.ru/"]
 itcrumbs.ru##a[href^="https://kwork.ru"]
 poebuilds.ru##a[href^="https://lucky-boys.ru/"]
@@ -17975,6 +17976,7 @@ bbcont.ru##a[href^="https://vk.com/extrasense_russia"]
 vuzopedia.ru##a[href^="https://vuzopedia.ru/adv/"]
 n1.by##a[href^="https://www.alibi.by"]
 ternopillive.com##a[href^="https://www.facebook.com/republicplatte/"]
+www.kinopoisk.ru##a[href^="https://www.ivi.ru/watch/"]
 design-for.net##a[href^="https://www.reg.ru/"]
 ebay-russia.ru##a[href^="https://www.shipito.com/"]
 imgmoney.ru##a[href^="https://www.youtube.com/"] img
@@ -23657,6 +23659,7 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,sportmail.ru##.viewbox__holder .viewbox__side
 ~e.mail.ru,mail.ru,sportmail.ru##.viewbox__holder .viewbox__side-loader ~ *
 ~e.mail.ru,mail.ru##[data-logger-parent="sidebarDoubleRight"]
+~e.mail.ru,mail.ru,sportmail.ru#?#[data-qa="WrapperContent"] div:-abp-has(> [data-rb-slot])
 ~e.mail.ru,mail.ru,sportmail.ru##[data-rb-slot]
 ~e.mail.ru,mail.ru,sportmail.ru##[data-view^="Slot"][data-adq-id]
 ~e.mail.ru,mail.ru,sportmail.ru##a[class^="rb-"][href^="https://r.mail.ru/"][target="_blank"]
@@ -23686,7 +23689,6 @@ e.mail.ru,octavius.mail.ru##.letter-list-item-adv
 news.mail.ru##.m-fixed-panel
 news.mail.ru##.r-source
 news.mail.ru##.reference-page__card ~ span:last-child
-news.mail.ru#?#[data-qa="WrapperContent"] div:-abp-has(> [data-rb-slot])
 dzen.ru##[id*="_tsar"]
 news.mail.ru##aside div > div:first-child:empty ~ div
 news.mail.ru#?#aside div:-abp-has(> div:only-child:empty)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nlKjkSKolVSDwSzQaQ5ccA
-! Version: 202505261141
+! Checksum: YmYN3dwSI8CnTwsOk2Q/kQ
+! Version: 202505261251
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 May 2025 11:41 UTC
+! Last modified: 26 May 2025 12:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1411,7 +1411,7 @@ animedia.tv##.icon-menu-share
 livelib.ru,mymsk.online##.icon-share
 ilenta.com##.icon-social
 whl.khl.ru##.iconbar > .icons > a[href*="khl.ru/"] ~ a:not([href*="khl.ru/"] )
-kommersant.ru##.iconbox__item--share
+autopilot.ru,kommersant.ru,myweekend.ru##.iconbox__item--share
 mobiledevice.ru##.icons_bar_placeholder
 sonix.tk##.iconsinit
 nabazare.blogspot.ru,spam-club.blogspot.com,spam-club.blogspot.ru##.ikonz-social
@@ -2044,7 +2044,7 @@ gorodche.ru##.site-header_social-btn[rel="noreferrer"]
 gazetaby.com,gazetaby.info,gazetaby.media##.site-social a
 edyna.media##.site-socials
 peopletalk.ru##.site__socials
-autopilot.ru,kommersant.ru##.site_menu__social
+autopilot.ru,kommersant.ru,myweekend.ru##.site_menu__social
 alllyr.ru#?#.slick-slide:-abp-has(> .div_flex)
 friday.ru##.slide-share
 vesti.ru##.slide_anons
@@ -2434,6 +2434,7 @@ motorpage.ru##.text-right > a[class^="sc-"]
 sobesednik.ru#?#.text-right:-abp-contains(поделиться:)
 vgolos.ua##.text-telegram
 spacegid.com##.text_share
+autopilot.ru##.tg-appeal
 liga.net##.tg-block
 inkorr.com##.tg-box
 08sportbar.online,777sportba.com,777sportba.org,barsportbar.com,channels247.net,file-mods.ru,goool7.ws,lenov.ru,mangabuff.ru,newinform.com,s7yours.com,sbautumn.com,sport365hd.net,sport7.biz,sportbar.biz,sportbarchik88.com,sporting7.pw,sporting77.com,spotless365.net##.tg-button
@@ -2798,7 +2799,7 @@ freesoft.ru##a[href="#share"]
 gorodkiev.com.ua##a[href="/partnernews/"]
 boevie-iskysstva.ru##a[href="https://vk.com/boevieiskysstva"]
 mykyivregion.com.ua#?#a[href]:-abp-has(> .fab)
-autopilot.ru,kommersant.ru##a[href][title="Поделиться"]
+autopilot.ru,kommersant.ru,myweekend.ru##a[href][title="Поделиться"]
 agroxxi.ru,newsua.one##a[href][title^="Наш"]
 youla.ru##a[href][title^="Поделиться"]
 peterburg2.ru##a[href^="//vk.com/"]

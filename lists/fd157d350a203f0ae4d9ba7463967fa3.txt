@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1/wNs3DlCNP+sM6+TVKZhA
-! Version: 202505271941
+! Checksum: WKyp4bSEXYVHY5oU8DVpUg
+! Version: 202505272041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 May 2025 19:41 UTC
+! Last modified: 27 May 2025 20:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -818,6 +818,7 @@ $third-party,popup,domain=2ip.ru
 ||offhealth.ru^$popup
 ||oficinadafesta.com^$popup
 ||ognyvo.ru^$popup
+||oldgamestore.store^$popup
 ||only-new.com^$popup
 ||orgsales.ru^$popup
 ||parinamatch.ru^$popup
@@ -2644,6 +2645,7 @@ _tizers.
 ||dgstr.website^$third-party
 ||dhgate.com^$third-party
 ||diamondelectric.ru/partner_block.php?
+||digiseller.com^$third-party
 ||dimpy.narod.ru^
 ||dnr.kz/test/$third-party,object
 ||dns-shop.ru/export/
@@ -11471,6 +11473,7 @@ _verified.php?code=*&server=runetki.com
 ||offhealth.ru^
 ||oficinadafesta.com^
 ||ognyvo.ru^
+||oldgamestore.store^
 ||only-new.com^
 ||orgsales.ru^
 ||parinamatch.ru^
@@ -15599,7 +15602,7 @@ gnatkovsky.com.ua##.r_sell
 rosphoto.com##.rad
 fiteria.ru##.rads
 tivix.co##.rakana
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.raleas-navbars > [date-u] > div:empty[style*="opacity:"]
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.raleas-navbarrs > [date-u] > div:empty[style*="opacity:"]
 a42.ru##.ranbne.clearfix
 aromatmasla.ru,progrib.ru##.randomizer
 animemobi.ru##.randomnews > .videorek
@@ -16596,7 +16599,6 @@ limehd.tv#?#.w-full > a[href^="/channel/"] ~ div:-abp-has(> div > [id^="yandex_r
 vgorodekirove.ru##.w_back_shapes
 livecars.ru,livesport.ru##.wall
 wallscloud.net#?#.walls_data > .item:-abp-has(> .thumbnail script)
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top#?#.war_item:-abp-has(> .war_img > a[href][target="_blank"])
 xmages.net##.we-are-featured
 securitylab.ru##.webinar-banner
 gotoshop.ua##.welcome2
@@ -16849,6 +16851,7 @@ business-gazeta.ru##[class*="__advertising-"]
 libsib.ru##[class*="_a24"]
 cq.ru##[class*="_book"]
 kino-teatr.ru##[class*="_dobro"]
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top#?#[class*="_item"]:-abp-has(> [class*="_img"] > a[href][target="_blank"])
 cq.ru##[class*="_odd"]
 pravdanews.info,ruspravda.info#?#[class*="_title"]:-abp-contains(/ партн|реклама/i)
 scarabey.org##[class*="ad-block"]
@@ -17782,7 +17785,7 @@ syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##a[href^="/index.php?go=Ban
 kidstaff.com.ua##a[href^="/informer/main.html#reklama"]
 minecraft-mods.ru##a[href^="/lp2/go.php"]
 infomir59.ru,milknews.ru##a[href^="/netcat/modules/banner/"][target="_blank"]
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href^="/oxita/"]
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href^="/ox"]
 worldoftanksgame.ru##a[href^="/play-"] > img
 myparcels.ru##a[href^="/r.php"]
 sixinch.org##a[href^="/red"]
@@ -23462,7 +23465,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-exaccess.com,gamesell.org##:not(fake-shop)
+exaccess.com,gamesell.org,oldgamestore.store##:not(fake-shop)
 apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-gamer.info,rutor-gamer.ru,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников

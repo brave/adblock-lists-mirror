@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wGq5QEkteHA5wqWaJHcl8Q
-! Version: 202505270841
+! Checksum: XUl45DyqdPvvkRktykYh/w
+! Version: 202505270941
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 May 2025 08:41 UTC
+! Last modified: 27 May 2025 09:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2851,6 +2851,7 @@ rivnepost.rv.ua##article > .uSocial-Share + p
 martrending.ru#?#article > div[class]:-abp-has(> div > a[href^="https://t.me/"])
 comments.ua,nazhyvo.kyiv.ua#?#article > p:-abp-has(> a[href^="https://t.me/"])
 ont.by#?#article > p:-abp-has(> a[href^="https://zen.yandex.ru/"])
+zmi.ck.ua#?#article > strong:-abp-has(> a[href^="https://t.me/"])
 gamegpu.com#?#article p[style="text-align: center;"]:-abp-has(> strong:-abp-contains(/ сетях/i))
 gamegpu.com##article table[style="margin-left: auto; margin-right: auto;"]
 mybryansk.ru##article ~ .socShare + h2
@@ -3100,14 +3101,14 @@ kinoferma.pro##div[style^="padding:"] > a[href^="https://vk.com/"]
 biqle.org,biqle.ru##div[title="Поделиться"]
 site.ua##div[x-data*="facebook"]
 autodaily.ru,autonews.ru,gsminfo.com.ua#?#em > strong:-abp-has(> a[href^="https://t.me/"])
+zmi.ck.ua##footer .b1
+zmi.ck.ua##footer .b2
 ctv7.ru##footer .btn_soc
 radiorecord.ru##footer .col > noindex
 protanki.tv##footer .flex-col-reverse > div[class*="flex-col"]
 playground.ru##footer .social-group-links
 socportal.info##footer .w-full > .px-2
 mediasat.info##footer > .a-single
-zmi.ck.ua##footer > .b1
-zmi.ck.ua##footer > .b2
 yummy-ani.me,yummyani.me##footer > .container > .one-block:first-child
 poltavske.tv##footer > .container > .row > .d-md-block ~ .d-md-block
 epochtimes.com.ua##footer > .container > .row ~ .row > div > .justify-content-center
@@ -6888,6 +6889,7 @@ pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutr.life,rutracker.lib,rutra
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##[class^="internal-promo-"]
 !
 ! - Mail.ru -------------------------------------------------------------------
+mail.ru###grid .promo-news
 mail.ru###grid .quiz
 mail.ru###grid .setting-promo
 mail.ru###grid .snack

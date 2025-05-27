@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0njtiCuIVFrmNL9WQzKHcw
-! Version: 202505271641
+! Checksum: TDxCkjxAZfQPfymcgRJAaQ
+! Version: 202505271741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 May 2025 16:41 UTC
+! Last modified: 27 May 2025 17:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -530,7 +530,6 @@ $third-party,popup,domain=2ip.ru
 ||fotostrana.ru/start/*/?$popup
 ||funtest-ru.com^$popup
 ||gameforge.com/landing$third-party,popup
-||gamesell.org^$third-party,popup
 ||gamesvid.go2cloud.org^$third-party,popup
 ||gas-saver.org^$third-party,popup
 ||gemius.pl/popupredir$popup
@@ -740,6 +739,7 @@ $third-party,popup,domain=2ip.ru
 ||etojackpot.com^$popup
 ||etonews.ru^$popup
 ||everinform.com^$popup
+||exaccess.com^$popup
 ||exonews.ru^$popup
 ||fastmoment.ru^$popup
 ||filetaker.ru^$popup
@@ -750,6 +750,8 @@ $third-party,popup,domain=2ip.ru
 ||fly-shops.ru^$popup
 ||fsb-russia.dtdns.net^$popup
 ||gameloft.name^$popup
+||gamesell.icu^$popup
+||gamesell.org^$popup
 ||gamezonenews.net^$popup
 ||get-news.net^$popup
 ||getdstud.io^$popup
@@ -11386,6 +11388,7 @@ _verified.php?code=*&server=runetki.com
 ||etonews.ru^
 ||everinform.com^
 ||ex.infox.sg^
+||exaccess.com^
 ||exonews.ru^
 ||fastmoment.ru^
 ||filebase.me^
@@ -11398,6 +11401,8 @@ _verified.php?code=*&server=runetki.com
 ||fsb-russia.dtdns.net^
 ||gameloft.name^
 ||gamerulet.ru^
+||gamesell.icu^
+||gamesell.org^
 ||gamezonenews.net^
 ||gemoroy-stop.biz^
 ||get-news.net^
@@ -12212,7 +12217,6 @@ k-agent.ru###middletbl_r_in > a[href="http://www.sushivenik.ru"]
 tort.fm###min-banners-block
 bestfree.ru###mine
 bankchart.com.ua###modal-cpa
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top###modals-box
 mozilla-russia.org###modex
 animevost.one,animevost.org,animevost.top,vost.pw###moduleLeft[style="border:0;"]
 ekaraganda.kz###moneyblock
@@ -15595,7 +15599,7 @@ gnatkovsky.com.ua##.r_sell
 rosphoto.com##.rad
 fiteria.ru##.rads
 tivix.co##.rakana
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.raleas-navbars > [date-u="silodesr"] > div:empty[style*="opacity:"]
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.raleas-navbars > [date-u] > div:empty[style*="opacity:"]
 a42.ru##.ranbne.clearfix
 aromatmasla.ru,progrib.ru##.randomizer
 animemobi.ru##.randomnews > .videorek
@@ -16592,9 +16596,7 @@ limehd.tv#?#.w-full > a[href^="/channel/"] ~ div:-abp-has(> div > [id^="yandex_r
 vgorodekirove.ru##.w_back_shapes
 livecars.ru,livesport.ru##.wall
 wallscloud.net#?#.walls_data > .item:-abp-has(> .thumbnail script)
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top#?#.war_item:-abp-has(> .war_img > a[href*="exaccess"])
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top#?#.war_item:-abp-has(> .war_img > a[href*="gamesell."])
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top#?#.war_item:-abp-has(> .war_img > a[href*="kartinco."])
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top#?#.war_item:-abp-has(> .war_img > a[href][target="_blank"])
 xmages.net##.we-are-featured
 securitylab.ru##.webinar-banner
 gotoshop.ua##.welcome2
@@ -16951,7 +16953,6 @@ sports.kz##[class^="sponsor_"]
 myzcloud.me,sims3pack.ru##[class^="st-br"] > *
 eanews.ru##[class^="styled__AdvLink-sc-"]
 life.ru#?#[class^="styles_title_"]:-abp-contains(Новости партнеров)
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##[class^="tLeft "] > a[target="_blank"]
 kg-portal.ru##[class^="ten_frontrow"]
 sportsdaily.ru##[class^="timetable__bet"]
 moyskelet.ru,obrazovaka.ru##[class^="tizdiv"]
@@ -17781,6 +17782,7 @@ syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##a[href^="/index.php?go=Ban
 kidstaff.com.ua##a[href^="/informer/main.html#reklama"]
 minecraft-mods.ru##a[href^="/lp2/go.php"]
 infomir59.ru,milknews.ru##a[href^="/netcat/modules/banner/"][target="_blank"]
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href^="/oxita/"]
 worldoftanksgame.ru##a[href^="/play-"] > img
 myparcels.ru##a[href^="/r.php"]
 sixinch.org##a[href^="/red"]
@@ -19095,6 +19097,7 @@ maxikarta.ru##div[id^="mega_rt_"]
 meta.ua##div[id^="meta_banner_"]
 espreso.tv,tv.meta.ua##div[id^="meta_news_block"]
 phantastike.ru##div[id^="mindmachine"]
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##div[id^="mod"][id*="box"]
 novyjgod.com##div[id^="nazar"]
 kritika24.ru##div[id^="nenadod_"]
 texdizain.net##div[id^="news-id-"] > .quote > div
@@ -20251,6 +20254,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /async.php$third-party,xmlhttprequest,domain=newsvl.ru|vl.ru
 /banner/bookmaker-$domain=vse-pro-sport.com.ua|vseprosport.by|vseprosport.kz|vseprosport.ru
 /banner_fullscreen.js|$domain=namba.kg|namba.tj
+/banners.$domain=pb.wtf|pirat.one|piratbit.fun|piratbit.org|piratbit.top
 /banners/*$image,domain=2ip.io|2ip.ru
 /banners/images/*$domain=vashurok.ru
 /bazr/*$domain=allsoch.ru|gdz.work|megaresheba.ru|pedportal.net|ronl.ru|spishy.net|zoobrilka.net
@@ -23458,6 +23462,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
+exaccess.com,gamesell.org##:not(fake-shop)
 apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-gamer.info,rutor-gamer.ru,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников

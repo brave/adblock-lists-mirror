@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gD/EKix3lvUFK4CdKi6dJw
-! Version: 202505282141
+! Checksum: sD+GBCtDvJjOOVHWmMZXVQ
+! Version: 202505282241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 May 2025 21:41 UTC
+! Last modified: 28 May 2025 22:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17290,9 +17290,10 @@ kinorium.com##a[data-original-url^="https://okko.tv/"]
 kinorium.com##a[data-original-url^="https://premier.one/"]
 kinorium.com##a[data-original-url^="https://smotreshka.tv/"]
 kinorium.com##a[data-original-url^="https://start.ru/"]
-kinorium.com##a[data-original-url^="https://tv.apple.com/"][data-original-url*="/movie/"]
+kinorium.com##a[data-original-url^="https://tv.apple.com/"]
 kinorium.com##a[data-original-url^="https://viju.ru/"]
 kinorium.com##a[data-original-url^="https://wink.ru/"]
+kinorium.com##a[data-original-url^="https://www.amediateka.ru/"]
 kinorium.com##a[data-original-url^="https://www.ivi.ru/"]
 grippua.com.ua##a[data-wpel-link="external"][target][rel*="nofollow"] > img
 menu.cc.ua,mycooking.pp.ua##a[href$=".htm"]
@@ -24187,9 +24188,11 @@ www.afisha.ru#?#[data-test="SECTION"] > [data-test="SECTION-CONTENT"]:-abp-has(>
 travel.rambler.ru##[data-travel_media-desktop*="rnet_widget"]
 weekend.rambler.ru##[data-weekend_media-desktop*="rnet_widget"]
 woman.rambler.ru##[data-woman_media-desktop*="rnet_widget"]
+avtorambler.com,rambler.ru##[id^="rambler-promo-"]
 letidor.ru,moslenta.ru,passion.ru,quto.ru##[id^="unit_"]
 eda.ru##[title="yandexzen"]
 lenta.ru##a[class="card-mini _topnews"][href^="/extlink/"]
+avtorambler.com,rambler.ru##a[href*="//ads.adfox.ru/"]
 afisha.ru##a[href*="://dzen.ru/"]
 lenta.ru##a[href*="?erid="]
 championat.com##a[href*="offer_id="]
@@ -24237,6 +24240,7 @@ avtorambler.com,rambler.ru##div[style^="min-height:600px"]
 avtorambler.com,rambler.ru##div[style^="order:"][style*="-1"]
 |rambler.ru/*/okko-metrics
 ||championat.com/embeds/custom.css
+||embeds.rambler.ru/cpa-elements/
 ||img.championat.com/brand/*.png
 ||kraken.rambler.ru^$domain=~kraken.rambler.ru
 ||lenta.ru/fenwick

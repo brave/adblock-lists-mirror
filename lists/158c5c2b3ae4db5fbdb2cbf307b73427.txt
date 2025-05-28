@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pZVOgoIVqnKL9uuYpb7i7w
-! Version: 202505281041
+! Checksum: 9noRdT/DmXW3oyjvcarlmA
+! Version: 202505281141
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 28 May 2025 10:41 UTC
+! Last modified: 28 May 2025 11:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -357,7 +357,6 @@ com,ru##[data-rambler-share]
 ||overclockers.ru/images/buttons/
 ||photar.ru/wptelegram/widget/view/
 ||primamedia.ru^*modalblock_lite.
-||promotion.yani.tv/promo-iframe$domain=yummy-ani.me|yummyani.me
 ||rambler.ru/social_counters/
 ||rbc.ru/*/social-networks/
 ||redfm.ru/vk-news.php
@@ -385,6 +384,7 @@ com,ru##[data-rambler-share]
 ||weacom.ru/static/presentations/telegram/
 ||webagent.mail.ru^$domain=~webagent.mail.ru
 ||wintorrents.ru/soc_knopki_ya.png
+||yani.tv/promo-iframe$domain=yummy-ani.me|yummy-anime.ru|yummyani.me
 ! *** ruadlist:bitblock/social_specific_hide.txt ***
 anistar.org,astar.bz,online-star.org,online-stars.org###AS_com
 kinofilms.ua###KFside > aside a[href*="facebook.com/"]
@@ -1998,6 +1998,7 @@ ukrmir.info##.sidebar > .module-social > .module-inner > .module-title
 kod.ru#?#.sidebar > .sidebar__section:-abp-has(> .social-links)
 turkcinema.org##.sidebar > .widget-wrap > .widget_text
 cikavosti.com#?#.sidebar > .widget:-abp-has([href*="//t.me/"])
+defence-ua.com##.sidebar > div:first-child + h2
 1jazz.ru#?#.sidebar aside:-abp-has(> .textwidget > .ya-share2)
 cikavosti.com##.sidebar noindex > [href^="https://cikavosti.com/goto/"]
 androidinsider.ru,appleinsider.ru,hi-news.ru##.sidebar-banner-telegram
@@ -2135,7 +2136,7 @@ hentaiz.org,nevasport.ru,podrobnosti.ua,spartak.ru##.social
 goha.ru##.social > *
 akniga.org##.social--link
 nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru##.social-additional
-football24.ua,oxu.az,sport24.ua,xsport.ua##.social-block
+defence-ua.com,football24.ua,oxu.az,sport24.ua,xsport.ua##.social-block
 fireman.club##.social-block-bottom
 abw.by##.social-block-socials
 oxu.az##.social-block2 > p
@@ -2860,6 +2861,7 @@ bloomchain.ru##article ~ div[class] > .btn-link ~ [class]
 fontanka.ru#?#article ~ section:-abp-has(> div[class^="links_"])
 yummy-ani.me,yummyani.me##aside .ban_ner
 kriminal.net.ua#?#aside .widget:-abp-has(> .body > .widget_html_block > [src*="facebook"])
+yummy-anime.ru##aside > #recommends
 businessua.com##aside > #vedomosti_block ~ #vedomosti_block
 fakty.com.ua##aside > .aside-title:first-child
 winitpro.ru##aside > .block-search

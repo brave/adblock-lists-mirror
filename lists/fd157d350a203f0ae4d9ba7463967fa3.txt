@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BxFL5yaFjlKxVQbL4aC3zA
-! Version: 202505281441
+! Checksum: Sp7uz4zLATMZjOTiSzNPlQ
+! Version: 202505281541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 May 2025 14:41 UTC
+! Last modified: 28 May 2025 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25,7 +25,7 @@
 ! = Сайты-попапы (самостоятельно открываются в новом окне) ====================
 ! *** advblock/popup.txt ***
 ! - Частные правила -----------------------------------------------------------
-$popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|cdnpotok.com|cdntvpotok.com|freescreens.ru|imgbase.ru|imgcach.ru|imgclick.ru|kolikbolik.top|oneliketv.com|payforpic.ru|picclick.ru|picclock.ru|picforall.ru|protonvideo.to|telecdn.net|tv-assia.org
+$popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|cdnpotok.com|cdntvpotok.com|freescreens.ru|imgbase.ru|imgcach.ru|imgclick.ru|kolikbolik.top|oneliketv.com|payforpic.ru|pb.wtf|picclick.ru|picclock.ru|picforall.ru|pirat.one|piratbit.fun|piratbit.org|piratbit.top|protonvideo.to|telecdn.net|tv-assia.org
 $third-party,popup,domain=2ip.ru
 &utm_campaign=$popup,domain=itc.ua|sc2tv.ru|www.film.ru
 /*utm_$popup,domain=stratege.ru
@@ -15602,7 +15602,7 @@ gnatkovsky.com.ua##.r_sell
 rosphoto.com##.rad
 fiteria.ru##.rads
 tivix.co##.rakana
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.raleas-navbarrs > [date-u] > div:empty[style*="opacity:"]
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.raleas-navbarrrs > [date-u] > div:empty[style*="opacity:"]
 a42.ru##.ranbne.clearfix
 aromatmasla.ru,progrib.ru##.randomizer
 animemobi.ru##.randomnews > .videorek
@@ -16851,7 +16851,6 @@ business-gazeta.ru##[class*="__advertising-"]
 libsib.ru##[class*="_a24"]
 cq.ru##[class*="_book"]
 kino-teatr.ru##[class*="_dobro"]
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top#?#[class*="_item"]:-abp-has(> [class*="_img"] > a[href][target="_blank"])
 cq.ru##[class*="_odd"]
 pravdanews.info,ruspravda.info#?#[class*="_title"]:-abp-contains(/ партн|реклама/i)
 scarabey.org##[class*="ad-block"]
@@ -17067,6 +17066,7 @@ ozon.ru##[data-widget="advBanner"]
 ozon.ru##[data-widget="advVideoBanner"]
 ozon.ru#?#[data-widget="freshIsland"]:-abp-has(> div > [data-widget="objectBannerList"])
 pravda.cn.ua##[data-widget_type="image.default"]
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##[date-u] .relise
 photos-models.com##[gnezdo_container_id]
 pikabu.ru##[href*="/acceptable-ads"]
 xn--80awhdeco3h.xn--p1ai,yarportal.ru##[href*="/goto.php?id="][target="_blank"] > img[src^="http://yarportal.ru/"]
@@ -17502,7 +17502,6 @@ business-gazeta.ru##a[href*="erid="]
 agronovosti.ru,sport-express.net,sport-express.ru,www.ixbt.com##a[href*="erid="][target="_blank"]
 7ba.org,7ba.ru##a[href*="erotel.org"]
 forum.amit.ru##a[href*="evroremont.amit.ru"]
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href*="exaccess"]
 ilenta.com,lelang.su,rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org,shopping.nv.ua##a[href*="fas.st/"]
 pwcats.info##a[href*="fastrader.ru"]
 sport.ua,vringe.com##a[href*="favbet"][target="_blank"]
@@ -17513,7 +17512,6 @@ allhockey.ru##a[href*="fonbet.ru"]
 juventus.ru##a[href*="football-shopping.ru"]
 erichware.net##a[href*="freebitco.in"]
 aacalc.ru,noob-club.ru##a[href*="funpay.ru"]
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href*="gamesell."]
 gsett.ru##a[href*="ggsel"]
 gtp-tabs.ru##a[href*="goaway.php"]
 3torrent.org,4allwomen.ru,4k-kino.net,7days2die.info,7torrents.net,a-age.ru,aacalc.ru,aces.gg,androidsmartfony.com,app2top.ru,arsenaltula.ru,audioskazki.net,avtovod.com.ua,cheb.ru,cheboksary.ws,chepetsk.ru,disgustingmen.com,ebanoe.it,f-igri.ru,farap.ru,filmasik.com.ua,for-ua.info,game-pool.ru,games--torrent.ru,geekteam.pro,gorod55.ru,gtp-tabs.ru,hdkino.biz,igri-torrent.net,igryday.ru,ilenta.com,javadevblog.com,kino-teatr.ua,kinonews.ru,kinoplace.org,kinotorka.ru,klubok.com,kontrolnaya-rabota.ru,kritka.su,microstock.ru,mixsoft.org,mobiltelefon.ru,namba.kg,newrutor.net,noob-club.ru,nowa.cc,office-guru.ru,onlinemultfilmy.ru,osobye.ru,pesni-tut.com,povarenok.ru,prosadiogorod.ru,ra1ohx.ru,radiopotok.ru,raskraska.com,relizua.com,rusbitor.ru,sbornik-music.ru,serialpro.net,sewin.net,skachat-igri-besplatno.info,softbaze.ru,softikbox.com,spam-club.blogspot.com,spam-club.blogspot.ru,studopedia.org,superg.ru,tankist.su,torrent-besplatno.net,torrent-club.net,torrent-igri.com,torrentrepack.ru,torrents-game.net,trademaster.ua,tuchkatv.ru,udaff.com,vashipitomcy.ru,vsofte.biz,winxland.ru,yaminecraft.ru,youhack.ru,zoneofgames.ru,zserials.cc##a[href*="goo.gl"]
@@ -17536,7 +17534,6 @@ pornotext.ru##a[href*="intim-shop.ru"]
 msd.com.ua##a[href*="invest-expert.com.ua"]
 ixbt.com##a[href*="ixbt.com/cgi-bin/click"]
 dokak.ru##a[href*="kakprosto.ru"]
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href*="kartinco."]
 manjaro.ru##a[href*="kredit100.ru"]
 gdeposylka.ru,moyaposylka.ru,ragingbiker.ru##a[href*="letyshops"]
 gameshare.com.ua,uaplay.com##a[href*="li.ru/go?"]
@@ -17785,7 +17782,6 @@ syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##a[href^="/index.php?go=Ban
 kidstaff.com.ua##a[href^="/informer/main.html#reklama"]
 minecraft-mods.ru##a[href^="/lp2/go.php"]
 infomir59.ru,milknews.ru##a[href^="/netcat/modules/banner/"][target="_blank"]
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href^="/ox"]
 worldoftanksgame.ru##a[href^="/play-"] > img
 myparcels.ru##a[href^="/r.php"]
 sixinch.org##a[href^="/red"]
@@ -17970,7 +17966,6 @@ barneos22.ru##a[href^="https://barneos22.ru/go/"]
 sitepokupok.ru##a[href^="https://citycard.ru/lucky"]
 program-pro.ru##a[href^="https://cryptocandle.ru"]
 biqle.org,biqle.ru##a[href^="https://daftsex.github.io/"]
-pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href^="https://denuvo.net/"]
 www.film.ru##a[href^="https://hochuvkino.ru"]
 informator.ua##a[href^="https://inf.im/pinup_bonus"]
 softodrom.ru##a[href^="https://inspin.me"]
@@ -18029,6 +18024,7 @@ i2r.ru##a[style*="/banner."]
 ohmywishes.com##a[style*="/images/banner-image/"]
 nya.sh##a[style*="/imgs/a/"]
 gtorrent.cc,gtorrent.club,gtorrent.ru##a[style*="color:"] > span
+pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[target="_blank"]
 prankota.com##a[target="_blank"] + br, a[target="_blank"] + hr
 athlete.ru,kotomatrix.ru,megasoft.3dn.ru,probiysk.ru##a[target="_blank"] > img
 satsis.info##a[target="_blank"] > img[alt]
@@ -20201,6 +20197,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 .trialeset.org^$script,domain=trialeset.org
 .trubanet.ru^$script
 .trupornolabs.org^$script,xmlhttprequest
+.txt|$xmlhttprequest,domain=pb.wtf|pirat.one|piratbit.fun|piratbit.org|piratbit.top
 .uhty-multy.ru^$script,domain=uhty-multy.ru
 .ukrmir.info^$script
 .uniondht.org^$script
@@ -20257,7 +20254,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /async.php$third-party,xmlhttprequest,domain=newsvl.ru|vl.ru
 /banner/bookmaker-$domain=vse-pro-sport.com.ua|vseprosport.by|vseprosport.kz|vseprosport.ru
 /banner_fullscreen.js|$domain=namba.kg|namba.tj
-/banners.$domain=pb.wtf|pirat.one|piratbit.fun|piratbit.org|piratbit.top
 /banners/*$image,domain=2ip.io|2ip.ru
 /banners/images/*$domain=vashurok.ru
 /bazr/*$domain=allsoch.ru|gdz.work|megaresheba.ru|pedportal.net|ronl.ru|spishy.net|zoobrilka.net

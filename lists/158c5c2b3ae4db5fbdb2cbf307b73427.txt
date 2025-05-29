@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lvLlKFrUQZfPsR90D5kxQA
-! Version: 202505291251
+! Checksum: yYmzPOnpf3Ao+lCbuD8kMQ
+! Version: 202505291341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 May 2025 12:51 UTC
+! Last modified: 29 May 2025 13:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4334,8 +4334,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||rbk.ru/*/build/fn/_indexPoll.js
 ||rbk.ru/*/build/fn/_oprosso.js
 ||rbk.ru^*/fn/_poll-popup.js
-||rcm.rambler.ru^$domain=avtorambler.com|rambler.ru|secretmag.ru
-||rcmjs.rambler.ru^$domain=avtorambler.com|rambler.ru
 ||relap.io^$domain=tut.by
 ||relizua.com/img/yarek
 ||rempc.by/images/rempc-bg-
@@ -6279,7 +6277,7 @@ ozon.ru##[data-paginator-loader]
 poltavawave.com.ua##[data-platform]
 my.ua##[data-policy-wrapper]
 5ka.ru##[data-qa="cookies"]
-motor.ru##[data-qa="lb-content"] ~ [data-qa="lb-footer"] ~ div
+motor.ru,secretmag.ru##[data-qa="lb-content"] ~ [data-qa="lb-footer"] ~ div
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
 hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me##[data-scroll-content] a[href="https://app.lib.social/app2.html"]
 fosshub.com##[data-section-content-type="donate"]

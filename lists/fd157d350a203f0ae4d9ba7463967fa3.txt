@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mMvZCdb10+yC+VlvYZp9pg
-! Version: 202505291251
+! Checksum: kdtNoDurnDvVOkIfKRguVw
+! Version: 202505291341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 May 2025 12:51 UTC
+! Last modified: 29 May 2025 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24137,6 +24137,7 @@ pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod
 !
 ! Rambler.RU и их проекты
 www.rambler.ru###app > .ad
+auto.rambler.ru,avtorambler.com###app > .ad_branding_header ~ div[class] > div[class]:empty
 www.rambler.ru###app > script + div
 eda.ru###billboard
 daily.afisha.ru###partners-news-container
@@ -24153,6 +24154,7 @@ championat.com##.banner-announce
 championat.com##.banner-parallax
 avtorambler.com,rambler.ru##.commercial-branding [id^="rambler-currency-converter-container:"] + div[class]
 avtorambler.com,rambler.ru##.commercial-branding article > div:only-child > div:first-child + div + div:last-child
+avtorambler.com,rambler.ru#?#.commercial-branding div:-abp-has(> a[href^="https://ads.adfox.ru/"])
 lenta.ru##.custom-banner
 vp.rambler.ru##.eagleplayer-advertisement-remain-time
 vp.rambler.ru##.eplayer-time-to-ad
@@ -24183,6 +24185,7 @@ championat.com##[data-href*="okko.sport"]
 championat.com##[data-href*="utm_"]
 motor.ru##[data-motor-desktop*="exchange_block"]
 rambler.ru##[data-news_media-desktop*="rnet_widget"]
+news.rambler.ru##[data-rcmw-init]
 sport.rambler.ru##[data-sport_media-desktop*="rnet_widget"]
 www.afisha.ru#?#[data-test="SECTION"] > [data-test="SECTION-CONTENT"]:-abp-has(> div > [href^="/out/?url="])
 travel.rambler.ru##[data-travel_media-desktop*="rnet_widget"]
@@ -24190,6 +24193,7 @@ weekend.rambler.ru##[data-weekend_media-desktop*="rnet_widget"]
 woman.rambler.ru##[data-woman_media-desktop*="rnet_widget"]
 avtorambler.com,rambler.ru##[id^="rambler-promo-"]
 letidor.ru,moslenta.ru,passion.ru,quto.ru##[id^="unit_"]
+horoscopes.rambler.ru##[itemtype="http://schema.org/Article"] > div[class]:nth-last-of-type(2) > div:last-child > div + div ~ div
 eda.ru##[title="yandexzen"]
 lenta.ru##a[class="card-mini _topnews"][href^="/extlink/"]
 avtorambler.com,rambler.ru##a[href*="//ads.adfox.ru/"]
@@ -24203,6 +24207,8 @@ avtorambler.com,rambler.ru#?#aside:-abp-has(> div > [class^="banner--native-part
 finance.rambler.ru##body[data-finance_media-desktop="main"] .commercial-branding > nav ~ div > div > script ~ div > div:last-child
 gazeta.ru#?#div:-abp-has(> .b_telegram)
 horoscopes.rambler.ru#?#div:-abp-has(> [id^="rcmw-container-"])
+www.rambler.ru#?#div:-abp-has(> div > [data-cerber^="widgets-carousel:"]) + div > div > div > div:-abp-has(> div a[href^="https://ads.adfox.ru/"])
+avtorambler.com,rambler.ru#?#div:-abp-has(> div[id*=":_adfox_"])
 mail.rambler.ru##div[class*="Ad-direct"]
 mail.rambler.ru##div[class*="Ad-root"]
 mail.rambler.ru##div[class*="AddBillboard"]

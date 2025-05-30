@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.3.3
+! Version: 4.1.3.4
 
 ! General
 
@@ -125,7 +125,7 @@ citywire.com##registration-widget,div.alert--locked
 ||connaissancedesarts.com/wp-content/*/vendor/iptools-jquery-inview.min.js$script,~third-party
 ||paywall.correiodopovo.com.br$script,~third-party
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
-||cronista.com/files/cachefiles/987*.js$script,~third-party
+/\.cronista\.com\/files\/cachefiles\/.+\.js\?\d/$script,~third-party
 csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
 cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker)
@@ -582,6 +582,8 @@ aftenposten.no##body:style(overflow: auto !important)
 aftenposten.no##+js(ra, class, div#summary-details)
 amboss.com##+js(cookie-remover, ssobma)
 amboss.com##div#optly-remaining-articles-banner,div[class^="InfoBanner_InfoBanner"]
+||anandabazar.com/subscription-assets/js/paywall.js$script,~third-party
+anandabazar.com##div.paywallouterbox
 ||arktimes.com/wp-content/plugins/newspack-plugin/dist/memberships-gate-metering.js$script,~third-party
 ||artsprofessional.co.uk/*/js/content_paywall.js$script,~third-party
 ||atribuna.com.br/assets/js-v*/story.js$script,~third-party

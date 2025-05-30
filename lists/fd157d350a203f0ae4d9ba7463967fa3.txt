@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: exXiI8Tsr3N2EnOdeJU/vQ
-! Version: 202505301041
+! Checksum: Zejv5IqxtvhHPVK6rb0+CA
+! Version: 202505301141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 May 2025 10:41 UTC
+! Last modified: 30 May 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11611,6 +11611,7 @@ alphapedia.ru###action
 sbp-program.ru###activee
 balticlivecam.com,speedtest.org.ua###ad
 gazeta.ua###ad-730
+tvigle.ru###ad-padding
 1000.menu###ad-recipe-bottom
 glaz-ok.online###adFoot
 cqham.ru,foto.ua,mobile-files.com,nexia-club.ru,solnechnogorsk.net,zx-pk.ru###ad_global_below_navbar
@@ -15169,7 +15170,6 @@ superhumor.ru,voffka.com##.neteye-posts
 kommersant.ru#?#.network_share > .network_share__item:-abp-has(> .network_share__name > [data-href^="https://dzen.ru/"])
 ingrus.net##.nevidimka
 znaj.ua##.new-banners
-tvigle.ru##.new-bgs-o
 grimuar.ru##.new-block
 govoritmoskva.ru##.newContent > .all > :not(.button)
 jewishnews.com.ua##.newcatside-left
@@ -17284,6 +17284,8 @@ cybersport.ru##a[class^="vkPlay"]
 tulapressa.ru##a[data-href*="//dzen.ru/"]
 bombardir.ru##a[data-href*="://bmbrdr.ru/"]
 ixbt.com##a[data-menuitem="honor"]
+kinorium.com##a[data-original-url^="https://24h.tv/"]
+kinorium.com##a[data-original-url^="https://bolshoe.tv/"]
 kinorium.com##a[data-original-url^="https://kino.1tv.ru/"]
 kinorium.com##a[data-original-url^="https://kino.tricolor.tv/"]
 kinorium.com##a[data-original-url^="https://kion.ru/"]
@@ -17296,6 +17298,7 @@ kinorium.com##a[data-original-url^="https://viju.ru/"]
 kinorium.com##a[data-original-url^="https://wink.ru/"]
 kinorium.com##a[data-original-url^="https://www.amediateka.ru/"]
 kinorium.com##a[data-original-url^="https://www.ivi.ru/"]
+kinorium.com##a[data-original-url^="https://www.tvigle.ru/"]
 grippua.com.ua##a[data-wpel-link="external"][target][rel*="nofollow"] > img
 menu.cc.ua,mycooking.pp.ua##a[href$=".htm"]
 serialy-2021.com,serialy-tor.com##a[href$=".php"]
@@ -26346,7 +26349,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||top-abd.mail.ru^$script,domain=mail.ru
 @@||true-detective-online.ru/js/adv.js$script,domain=true-detective-online.ru
 @@||tutkatamka.com.ua/*_advertisement.$script,domain=tutkatamka.com.ua
-@@||tvigle.ru/static/js/adriver.js$script,domain=tvigle.ru
 @@||ulogin.ru/version/3.0/img/providers-16-classic.png?version=img.3.0.2?rand=$image,domain=crackstatus.net
 @@||ur.biz.ua/js/adsbygoogle.js|$script,domain=ur.biz.ua
 @@||v*.plrjs.org/*.xml|$third-party,xmlhttprequest
@@ -26495,6 +26497,7 @@ spletnik.ru##.z-adblock-message
 @@||ddnk.advertur.ru/*/loader.js|$script
 @@||webwintop.ru/wp-content/plugins/contact-form-7/includes/js/index.js|$script,domain=webwintop.ru
 @@||webwintop.ru/wp-content/plugins/copy-the-code/assets/js/copy-the-code.js|$script,domain=webwintop.ru
+tvigle.ru##[class^="styles_removeAd"]
 pikabu.ru##[data-role="adb-warning"]
 channels247.net,goool7.ws,sport7.biz,sportbar.biz,sportbarchik88.com,sporting77.com#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv > img[src$="/adblock.png"])
 animedub.ru##a[href="https://animedub.ru/adblock.html"]

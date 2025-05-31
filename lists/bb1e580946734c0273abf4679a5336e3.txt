@@ -30,6 +30,9 @@
 ! https://456movie.net/
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,xhr,3p,match-case,to=top
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[A-Za-z]{10,16}\/[A-Za-z]{5,6}$/$popup,3p,to=top
+!#if env_safari
+/^https:\/\/[a-z][a-z][a-z][a-z]?[a-z]?\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?\.top\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\/[a-z][a-z][a-z][a-z][a-z][a-z]?\?d=[0-9]$/$script,xhr,3p,match-case
+!#endif
 ! https://github.com/easylist/easylist/issues/6471
 /\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{4,9}\.js$/$script
 /^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6,7}$/$script,xhr,3p
@@ -742,7 +745,7 @@ saint2.cr##+js(acs, WebAssembly, Promise)
 ! https://github.com/easylist/easylist/pull/10996/
 ! https://github.com/uBlockOrigin/uAssets/issues/27096
 10convert.com,2girls1cup.ca,animez.org,besthdgayporn.com,bigojav.com,bookfrom.net,ddd-smart.net,drivenime.com,favoyeurtube.net,fucksporn.com,fullxcinema1.com,gdrivelatinohd.net,gigmature.com,hentairead.io,homemoviestube.com,javboys.*,javbraze.com,javchill.com,javhat.tv,javhd.today,javhdz.today,javseen.tv,javup.org,kaliscan.me,kisscos.net,kmansin09.*,leermanga.net,mangajikan.com,mangamovil.net,naijauncut.com,nicomanga.com,nudeslegion.com,onlinework4all.com,otomi-games.com,piratehaven.xyz,poapan.xyz,porn00.org,pornohubonline.com,pornxp.com,raw1001.net,rawinu.com,safefileku.com,sexdiaryz.*,shemale6.com,shemaleup.net,socigames.com,streamup.ws,tatli.biz,teenager365.com,theblank.net,transflix.net,weloma.art,welovemanga.one,worthcrete.com##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
-asiaflix.net,asiangay.tv,hentairead.io,japangaysex.com,mangagun.net,mangajikan.com,nicomanga.com,nudeslegion.com,rawinu.com,weloma.art,welovemanga.one##+js(aopr, popns)
+asiaflix.net,asiangay.tv,hentairead.io,japangaysex.com,mangagun.net,mangajikan.com,nicomanga.com,nudeslegion.com,rawinu.com,watchsouthpark.tv,weloma.art,welovemanga.one##+js(aopr, popns)
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/3640
 daemon-hentai.com,daemonanime.net##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/, /^data:/)
 !#if cap_html_filtering
@@ -757,6 +760,7 @@ besthdgayporn.com,drivenime.com,erothots1.com,filegram.to,javup.org,savefiles.co
 ||nifty-pie.com^
 ||runnyextent.com^
 ||tiptaglewi.com^
+||unsungpolicy.com^
 ||untried-manager.com^
 fucksporn.com###FloatingLayer
 fucksporn.com##.adv_banners
@@ -1215,9 +1219,9 @@ soap2day.*##+js(rmnt, script, Reflect)
 ! https://www.reddit.com/r/uBlockOrigin/comments/14l1nyq/
 ! https://cataz.to/
 !#if cap_html_filtering
-123animehub.cc,123animes.ru,actvid.*,boosterx.stream,cataz.to,cineb.rs,demonicscans.org,flixhq.to,gomovies.sx,gomoviestv.to,himovies.sx,limetorrents.lol,luluvdoo.com,mgeko.cc,mkvcinemas.*,moflix-stream.fans,mov18plus.cloud,moviesapi.to,netmovies.to,torrentdownload.*,torrentdownloads.*,tukipasti.com,vidfast.pro,zoechip.com##^script:has-text(HTMLAllCollection)
+123animehub.cc,123animes.ru,actvid.*,boosterx.stream,cataz.to,cineb.rs,demonicscans.org,dopebox.to,flixhq.to,gomovies.sx,gomoviestv.to,himovies.sx,limetorrents.lol,luluvdoo.com,mgeko.cc,mkvcinemas.*,moflix-stream.fans,mov18plus.cloud,moviesapi.to,netmovies.to,torrentdownload.*,torrentdownloads.*,tukipasti.com,vidfast.pro,zoechip.com##^script:has-text(HTMLAllCollection)
 !#else
-123animehub.cc,123animes.ru,actvid.*,boosterx.stream,cataz.to,cineb.rs,demonicscans.org,flixhq.to,gomovies.sx,gomoviestv.to,himovies.sx,limetorrents.lol,luluvdoo.com,mgeko.cc,mkvcinemas.*,moflix-stream.fans,mov18plus.cloud,moviesapi.to,netmovies.to,torrentdownload.*,torrentdownloads.*,tukipasti.com,vidfast.pro,zoechip.com##+js(acs, addEventListener, HTMLAllCollection)
+123animehub.cc,123animes.ru,actvid.*,boosterx.stream,cataz.to,cineb.rs,demonicscans.org,dopebox.to,flixhq.to,gomovies.sx,gomoviestv.to,himovies.sx,limetorrents.lol,luluvdoo.com,mgeko.cc,mkvcinemas.*,moflix-stream.fans,mov18plus.cloud,moviesapi.to,netmovies.to,torrentdownload.*,torrentdownloads.*,tukipasti.com,vidfast.pro,zoechip.com##+js(acs, addEventListener, HTMLAllCollection)
 cataz.to##+js(nowoif)
 !#endif
 cineb.rs,moviesjoyhd.to,rawkuma.com##+js(aeld, mousedown, shown_at)
@@ -1565,6 +1569,8 @@ usatoday.com,ydr.com##+js(set, gnt.u.adfree, true)
 ||zaf.api.fanbyte.com/stable/js/
 ! https://github.com/uBlockOrigin/uAssets/issues/28219
 ||gameskinny.com/wp-json/navy/v*/tag?pid=
+! https://www.pravda.sk/
+||storage.googleapis.com/pravda-ad-script/
 
 ! !SECTION: Admiral
 

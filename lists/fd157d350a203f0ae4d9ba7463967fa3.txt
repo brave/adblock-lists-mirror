@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HLzL1w5x0UIuUf/R3wtFqw
-! Version: 202506021141
+! Checksum: oDmYXGoofuTGnBD4DBdSyA
+! Version: 202506021251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Jun 2025 11:41 UTC
+! Last modified: 02 Jun 2025 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23622,6 +23622,7 @@ kino-live2.org,kino-live8.biz#?#div[class^="right"] .ramka1:-abp-has(noindex)
 !
 ! Комсомольская правда
 kp.kg,kp.kz,kp.md,kp.ru##[data-subscribe-zen]
+kp.kg,kp.kz,kp.md,kp.ru##[data-test-id="News_SpecialArticle"]
 kp.kg,kp.kz,kp.md,kp.ru##[data-without-height]
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app [data-gtm-el="content-body"] ~ div > div:-abp-has(> [data-subscribe-zen])
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-has(> div:first-child + div > div:first-child > div:first-child + section > div > div > script[data-key])

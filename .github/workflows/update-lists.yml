@@ -2,7 +2,7 @@ name: Update lists
 
 on:
   schedule:
-  - cron: '45 * * * *' # Run every hour at 45 minutes past the hour
+  - cron: '15,45 * * * *' # Run every hour at 15 and 45 minutes past the hour
   workflow_dispatch:
 
 jobs:

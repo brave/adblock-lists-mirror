@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rGHSQ6+oseJaxtcH/2ec+Q
-! Version: 202506041541
+! Checksum: uwMFBRK4B7M7Nag4Hhi1FA
+! Version: 202506041611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Jun 2025 15:41 UTC
+! Last modified: 04 Jun 2025 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16874,6 +16874,7 @@ dni.ru##[class*="container"][class*="partner"]
 prokuzbass.ru##[class*="container-ad"]
 detaly.co.il##[class*="container_ads"]
 pravda.if.ua##[class*="footer"] > [class*="menu-section footer-"]:last-child
+cq.ru##[class*="grid"] > a[href*="playerok"]
 forum.guns.ru##[class*="hide"][class$="ban"]
 appleinsider.ru##[class*="home-credit"]
 puerrtto.livejournal.com##[class*="kupibilet"]
@@ -23394,6 +23395,7 @@ howdyho.net,howdyho.pro#@#div[id^="yandex_rtb"]
 ||yandex.$domain=howdyho.net|howdyho.pro
 ||yastatic.$domain=howdyho.net|howdyho.pro
 !
+cq.*##[class*="grid"] > a:has(.p-item__button-sponsored) {remove:true;}
 flightsim.su###tie-popup-adblock {remove:true;}
 freesoft.ru###downloadAdModal {remove:true;}
 freesoft.ru###error.modal {remove:true;}

@@ -60,7 +60,7 @@
 ||hd-forum.cz/images/banner/
 ||hd-forum.cz/images/sberbank.jpg
 ||heureka.cz/direct/bannery/
-||horoskopy.cz/js/
+||horoskopy.cz/*/*.js
 ||im9.cz/*aukro
 ||img.cdnprg.webtea.cz/web/pozadi_webu_mc.jpg
 ||jiskra-benesov.cz/images/branding/
@@ -557,6 +557,7 @@ netconcert.cz##[class*="advertisement"]
 !
 ! ---------- Slovak Site Specific Element Hiding Rules ---------- !
 !
+allegro.sk##.opbox-sheet.card:has(div[data-box-name^="allegro.ads."])
 autobazar.eu##.bannero2
 autozurnal.com###modal-container
 autozurnal.com##.modal-backdrop
@@ -601,6 +602,15 @@ sector.sk,kinema.sk##[id^="back"][onclick]
 sector.sk##iframe[data-src^="/default-ad"]
 sktorrent.eu##div[style*="position:absolute;"]
 sme.sk##.artemis-ad-position
+sport.aktuality.sk##.article-nx-blocker-main-wrapper
+sport.aktuality.sk##.lead-media-wrapper:has(>.jute-cta)
+sport.aktuality.sk##.doxxbet-cta
+sport.aktuality.sk##.tiposbet-cta
+sport.aktuality.sk##.tipsport-skin
+sport.aktuality.sk##.tipsort-item
+sport.aktuality.sk##.banner-centered
+sport.aktuality.sk##a[href*="doxxbet"]
+sport.aktuality.sk##img[src^="/images/synnotip"]
 topky.sk###top-offers-slider
 topky.sk##.ad
 topky.sk##.addbox.avizo
@@ -620,6 +630,7 @@ zoznam.sk##a[href^="https://boxu.sk"]
 !
 ! ---------- ABP Extended filters ---------- !
 !
+allegro.cz##.opbox-sheet.card:has(div[data-box-name^="allegro.ads."])
 csfd.cz#?#.widget-group-2 li:-abp-has(div.ad-pmg)
 csfd.cz#?#.ct-related:-abp-contains(/^\s+Reklama/)
 doktorka.cz#?#.block-imageblock:-abp-contains(Reklama)

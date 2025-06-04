@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2HFHziV+6AOOGVAg7z9H2A
-! Version: 202506040711
+! Checksum: nuATxYUSgQm1v/LH6kbeeg
+! Version: 202506040741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Jun 2025 07:11 UTC
+! Last modified: 04 Jun 2025 07:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16221,6 +16221,7 @@ klops.ru##.supercover-banner-header
 bilshe.com#?#.svejnov:-abp-has(> h2 > b:-abp-contains(/^Інші/))
 games-porno.net##.swfgame_banners
 ictv.ua#?#.swiper-slide:-abp-has(> a[href*="utm_campai"])
+vokrug.tv#?#.swiper-wrapper > .series-carousel__item:-abp-has(> a[href*="//ads.adfox.ru/"])
 vokrug.tv#?#.swiper-wrapper > .series-carousel__item:-abp-has(a[onclick*="adfox"])
 igromania.ru#?#.swiper-wrapper > .swiper-slide:-abp-has(> div > .knb-card--footer > div > span:-abp-contains(Партнерский материал))
 moniheal.com##.swiper-wrapper > a:not([href*="moniheal.com/"])

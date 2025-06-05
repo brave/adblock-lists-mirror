@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P80/6NxnbWeKKBaDBfk6XQ
-! Version: 202506050435
+! Checksum: 8kxKK58xZXvRIrhgQJqpJQ
+! Version: 202506050535
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2025-06-05 04:35 UTC
+! Last modified: 2025-06-05 05:35 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -802,6 +802,8 @@ thedp.com##body,html:style(overflow: auto !important; position: initial !importa
 emailnator.com##.modal
 emailnator.com##.modal-backdrop
 emailnator.com##.top-banner
+! m.kaskus.co.id app download
+m.kaskus.co.id##+js(set-session-storage-item, open_in_browser, 1)
 ! foundit.com.ph app download
 foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
 ! flightradar24.com  https://github.com/uBlockOrigin/uAssets/issues/23150

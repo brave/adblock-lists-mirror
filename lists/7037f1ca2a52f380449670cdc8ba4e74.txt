@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202506050601
+! Version: 202506051121
 ! Title: ABPindo
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 05 Jun 2025 06:01 UTC
+! Last modified: 05 Jun 2025 11:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
@@ -631,6 +631,7 @@ oomph.co.id#@#.shareit
 ###kode-iklan-tengah1
 ###kode-iklan-tengah2
 ###kontolbanner
+###megabillboard
 ###netkevin-overlay
 ###netkevin-popup
 ###popup_bawah
@@ -903,6 +904,11 @@ bioskopkeren.*###top-banner
 bioskopkeren.*##.ad_slot
 bolasport.com##div.content_footer--list:nth-of-type(2)
 bolasport.com,grid.id##div.ads-inf-box
+dailypost.id###custom_html-136
+dailypost.id##.text-center.gmr-topbanner
+dailypost.id##[href^="https://lynk.id/dailypost.id"]
+dailypost.id##[href^="https://wa.me"]
+dailypost.id##[href^="https://wa.wizard.id"]
 filmapik.*##.ads
 filmapik21.*###le_header_ads
 gudangmovies21.*###ouibounce-modal
@@ -1072,7 +1078,7 @@ komikstation.com###floatbanner
 5.253.86.213,layardrama21.space###floatbanner-bottom
 bgibola.com###floatbannerkanan
 bgibola.com###floatbannerkiri
-149.28.158.117,ainzscans.net,animexin.xyz,anixlife.xyz,bgibola.com,cosmic345.co,indodb21.homes,isekaisubs.web.id,kazefuri.info###floatcenter
+149.28.158.117,ainzscans.net,animexin.xyz,anixlife.xyz,bgibola.com,cosmic345.co,indodb21.homes,isekaisubs.web.id,kazefuri.info,kmvs03.com###floatcenter
 northridgeautospa.com###floating_banner_bot2
 bk21.top###floating_banner_bottom
 blogspot.com###floating_banner_bottom2
@@ -1569,7 +1575,7 @@ kompas.com##.kgnw-modal-ads
 kompas.com##.kgnw-modal-adswrap
 kontan.co.id##.kiri-det-desk
 apk.miuiku.com,lewat.club##.klikdisini
-ainzscans.net,cosmic345.co,ikiru.one,ikiru.world,isekaisubs.web.id,kiryuu01.com,komikcast01.com,komikcast02.com,komikindo.co,komikindo.me,komikremaja.club,komikstation.co,komiktap.info,mangakita.id,mangakita.net,movieku.ink##.kln
+ainzscans.net,cosmic345.co,ikiru.one,ikiru.world,isekaisubs.web.id,kiryuu01.com,kmvs03.com,komikcast01.com,komikcast02.com,komikindo.co,komikindo.me,komikremaja.club,komikstation.co,komiktap.info,mangakita.id,mangakita.net,movieku.ink##.kln
 faktabali.com##.ktzsingle-bannerright
 kontan.co.id##.kus
 starringheavenlyrics.blogspot.com##.lalulintas
@@ -9174,6 +9180,7 @@ cctvbokep.bet,cctvbokep.help,dutasex.bio,dutasex.com,dutasex.top,inibokep.bet,ma
 pemersatufun.com###advertisement
 bintangmawar.net###bmpop_adpB
 javsubindo.my###btm_banner
+one.playvid.cam###center-banner
 pemersatufun.site###deskadmiddle
 krx18.com###dynamic-image[alt=""]
 unyil.net###float-atas

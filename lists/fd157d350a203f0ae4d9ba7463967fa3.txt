@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H0Rc0YDRFVYplWPiz0FOFw
-! Version: 202506071241
+! Checksum: 1NgvpcBprKjGDJryYs5DOw
+! Version: 202506071311
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Jun 2025 12:41 UTC
+! Last modified: 07 Jun 2025 13:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12904,7 +12904,7 @@ vk.com,vk.ru##._ads_block_data_w
 vk.com,vk.ru##._ads_promoted_post_data_w
 n1.ru,telesputnik.ru##._banner
 nakanune.ru##._block-banner
-anilib.me##._container--indent > div[style="margin-bottom: 15px;"]
+anilib.me,animelib.org##._container--indent > div[style="margin-bottom: 15px;"]
 2gis.ru##._im72e8
 novosti-n.org##._sm24
 2gis.ru##._y2b48h
@@ -20270,6 +20270,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /block/partners$domain=glavred.info|glavred.net|unian.info|unian.net|unian.ua
 /bnr-tumarke*.mp4|$domain=gzt-sv.ru
 /brending/*$image,domain=animevost.one|animevost.org|animevost.top|vost.pw
+/build/assets/yaVid-*.js$domain=anilib.me|animelib.org
 /chat*js$domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.sale|medinfo.live|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbooks.studio|uchebnikfree.com|xn--80aaivjfyj3e.com
 /chat*js$script,domain=bstudy.net|ozlib.com|studbooks.net|studme.org|studref.com|studwood.net|vuzlit.com|xstud.org
 /code/bshow.php$script,domain=hd-720.biz|onlinemusic.com.ua
@@ -20299,7 +20300,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /images/brand/*$domain=amuzic.ru|emuzic.ru|ifin.kz
 /images/branding/*$domain=26-2.ru|arbitr-praktika.ru|budgetnik.ru|buhsoft.ru|business.ru|cxychet.ru|dirsalona.ru|fd.ru|gazeta-unp.ru|gd.ru|glavbukh.ru|hr-director.ru|kdelo.ru|kom-dir.ru|law.ru|menobr.ru|pro-goszakaz.ru|pro-personal.ru|resobr.ru|rnk.ru|sekretariat.ru|stroychet.ru|trudohrana.ru|ugpr.ru|zarplata-online.ru|zdrav.ru
 /images/jet$image,domain=60-fps.net|soft-windows.info|windows-soft.info
-/images/menubars/ru-dating.$domain=fapreactor.com|pornreactor.cc
+/images/menubars/sweet-ai-girls.$domain=fapreactor.com|pornreactor.cc
 /images/partners/*$domain=argumenti.ru|fonarevka.ru|profit-maker.org
 /images_banner/*$domain=xn----7sbaegss0bebjcb2g.xn--p1ai
 /img/banners/*$domain=chelseablues.ru|geonavigator.ge|gotoshop.ua|grinkod.spb.ru|konkurent.ru|mashina.kg|navigator.az|primpress.ru|profootball.ua|sq.com.ua|ternopillive.com|winternete.ru
@@ -20610,7 +20611,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||anekdotov.net/show/sell/$image
 ||ani-mania.com/files/ban$subdocument
 ||ani-mania.com/seo_anime_
-||anilib.me/build/assets/yaVid-*.js
 ||anilibria.*/api/v*/ads/
 ||anime-365.ru/promo/
 ||animechan.ru/fun/
@@ -24611,6 +24611,7 @@ docviewer.yandex.ru,docviewer.yandex.*##.js-doc-html > div[class^="pages_"] > di
 docviewer.yandex.ru,docviewer.yandex.*##.with-bottom-direct > div[class] > div[class]:empty
 eda.yandex.ru##[data-testid="open-advert-modal-button"]
 eda.yandex.ru##div[class^="banner_"]
+mail.yandex.ru,mail.yandex.*##.b-direct-stripe
 mail.yandex.ru,mail.yandex.*##div[class*="DirectLine"]
 mail.yandex.ru,mail.yandex.*#?#.js-scroller-right:-abp-has(> .BannersBlock > div:empty)
 mail.yandex.ru,mail.yandex.*#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
@@ -25010,12 +25011,13 @@ gidonline.fun###myShowBlock1
 hetaqrqire.ru###onload_popup
 dentaltechnic.info,itcrumbs.ru,life.ck.ua###openModal
 sverhestestvennoe.club###osiad
-blogspot.com###overlay
+animego.lol,blogspot.com###overlay
 zn.ua###overlay_fb_modal
 tests-exam.ru###overlay_vk
 flb.ru,kaifzona.ru,sovsekretno.ru,znaj.ua,zvamynews.blogspot.com###parent_popup
 easypronunciation.com###please_share
 gdz-free.com###pol
+animego.lol###popup
 womansay.net###popup.modal-box
 advis.ru###popup3
 cluber.com.ua,dictat.net,fithacker.ru,megatest.online,storyfox.ru###popup_bg
@@ -26462,7 +26464,6 @@ retail.ru##.commercial
 retail.ru##.contain__p1
 bidbaits.ru##.cover-msg
 tarkov-market.com##.disable-adblock
-animego.show##.errror
 internetsms.org##.fade[class^="modal"]
 allbasketball.org,dailymail.co.uk,fashion2news.com,hotallnews.today,ilenta.com,in-poland.com,kreschatic.kiev.ua,moyens.net,newspad.ru,pimpletv.ru,portaltele.com.ua,pravda.com.ua,tales.org.ua,ukranews.com,wormax.io,zazloo.ru##.fc-ab-root
 hdkinoteatr.com##.fixedBg

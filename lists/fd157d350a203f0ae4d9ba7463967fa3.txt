@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x7Q7aGf6kRXKRh274SyI7g
-! Version: 202506100912
+! Checksum: ZsLzxgxVQY1jPKHipRZRbQ
+! Version: 202506100931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jun 2025 09:12 UTC
+! Last modified: 10 Jun 2025 09:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -32,6 +32,7 @@ $third-party,popup,domain=2ip.ru
 /go.php$popup,domain=piratca.net
 /redirect/cpa/*$popup,domain=rt02.ru
 ://pikabu.ru/*/*/*/*--$popup
+://pikabu.ru/*/*/*/*_$popup
 |http://li.ru/go?$popup,domain=fishki.net
 ||catcut.net^$popup,domain=mobile-4at-obshenie.chatovod.ru|mobile-chat-obshenie.jimdo.com
 ||com/?id=*&t=direct^$popup
@@ -1538,6 +1539,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href^="https://kshop"][href*=".com/"]
 ##a[href^="https://kshop"][href*=".pro/"]
 ##a[href^="https://msetup.pro"]
+~pari.ru##a[href^="https://pari.ru/promo/"]
 ##a[href^="https://relap.io/"][href*="promo_ad_link"]
 ##a[href^="https://wcm-ru.frontend.weborama.fr/fcgi-bin/dispatch.fcgi?"]
 ##a[href^="https://www.juicer.io?referrer="]
@@ -23393,7 +23395,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?M56fg=$xmlhttprequest
+||pikabu.ru/ajax/*?M57fg=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

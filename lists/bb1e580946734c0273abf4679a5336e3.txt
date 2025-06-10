@@ -1240,9 +1240,9 @@ soap2day.*##+js(rmnt, script, Reflect)
 ! https://www.reddit.com/r/uBlockOrigin/comments/14l1nyq/
 ! https://cataz.to/
 !#if cap_html_filtering
-123animehub.cc,123animes.ru,actvid.*,boosterx.stream,cataz.to,cineb.rs,demonicscans.org,dopebox.to,flixhq.to,gomovies.sx,gomoviestv.to,himovies.sx,limetorrents.lol,luluvdoo.com,mgeko.cc,mkvcinemas.*,moflix-stream.fans,mov18plus.cloud,moviesapi.to,netmovies.to,torrentdownload.*,torrentdownloads.*,tukipasti.com,vidfast.pro,zoechip.com##^script:has-text(HTMLAllCollection)
+123animehub.cc,123animes.ru,actvid.*,boosterx.stream,cataz.to,cineb.rs,demonicscans.org,dopebox.to,flixhq.to,gomovies.sx,gomoviestv.to,himovies.sx,limetorrents.lol,luluvdoo.com,mgeko.cc,mkvcinemas.*,moflix-stream.fans,mov18plus.cloud,moviesapi.to,netmovies.to,readcomiconline.*,torrentdownload.*,torrentdownloads.*,tukipasti.com,vidfast.pro,zoechip.com##^script:has-text(HTMLAllCollection)
 !#else
-123animehub.cc,123animes.ru,actvid.*,boosterx.stream,cataz.to,cineb.rs,demonicscans.org,dopebox.to,flixhq.to,gomovies.sx,gomoviestv.to,himovies.sx,limetorrents.lol,luluvdoo.com,mgeko.cc,mkvcinemas.*,moflix-stream.fans,mov18plus.cloud,moviesapi.to,netmovies.to,torrentdownload.*,torrentdownloads.*,tukipasti.com,vidfast.pro,zoechip.com##+js(acs, addEventListener, HTMLAllCollection)
+123animehub.cc,123animes.ru,actvid.*,boosterx.stream,cataz.to,cineb.rs,demonicscans.org,dopebox.to,flixhq.to,gomovies.sx,gomoviestv.to,himovies.sx,limetorrents.lol,luluvdoo.com,mgeko.cc,mkvcinemas.*,moflix-stream.fans,mov18plus.cloud,moviesapi.to,netmovies.to,readcomiconline.*,torrentdownload.*,torrentdownloads.*,tukipasti.com,vidfast.pro,zoechip.com##+js(acs, addEventListener, HTMLAllCollection)
 cataz.to##+js(nowoif)
 !#endif
 cineb.rs,moviesjoyhd.to,rawkuma.com##+js(aeld, mousedown, shown_at)
@@ -1687,7 +1687,7 @@ honkailab.com##+js(rpnt, script, var localize =, '/*start*/(function(){document.
 honkailab.com##body:style(background-color: #2D2D2D;)
 lifehacker.jp##+js(rpnt, script, /^.+/gms, '!function(){var e=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").set;Object.defineProperty(Element.prototype,"innerHTML",{set:function(t){return t.includes("html-load.com")?e.call(this,""):e.call(this,t)}})}();', condition, html-load.com)
 a-ha.io,cboard.net,joongdo.co.kr,viva100.com,gamingdeputy.com,alle-tests.nl##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
-automobile-catalog.com,motorbikecatalog.com##+js(rmnt, script, error-report.com)
+automobile-catalog.com,laposte.net,reptilesmagazine.com,motorbikecatalog.com##+js(rmnt, script, error-report.com)
 uranai.nosv.org,yakkun.com##+js(rmnt, script, html-load.com)
 buzzfeed.com,buzzfeednews.com,cults3d.com,picrew.me,winfuture.de##+js(trusted-replace-argument, HTMLScriptElement.prototype.setAttribute, 1, , condition, error-report)
 !#if cap_html_filtering

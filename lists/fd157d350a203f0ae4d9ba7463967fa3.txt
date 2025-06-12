@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AvTEF4FhZ55zmpDDjsoC+A
-! Version: 202506120911
+! Checksum: qFYjVBQN05YMwQbS6RLK2Q
+! Version: 202506120941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jun 2025 09:11 UTC
+! Last modified: 12 Jun 2025 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22499,7 +22499,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||rsload.net/images*/appwizard.
 ||rss-script.ru^$domain=vk-cc.com
 ||rt-ddd.ru/image/banner/
-||rt.com/widget/main-banner-top/
+||rt.com/scripts/adfox/
 ||rtg.real-vin.com/
 ||rtg.ukrmir.info/
 ||rtkorr.com/js/popup.js
@@ -24172,6 +24172,7 @@ www.afisha.ru###yandex-zen
 lenta.ru#?#._longgrid:-abp-has(> [class*="info"] > [class*="_ad-title"])
 eda.ru#?#.ad_branding_footer div[class^="emotion"]:-abp-has(> [title="yandexzen"])
 eda.ru##.ad_branding_header > section
+avtorambler.com,rambler.ru##.adfox-background-container
 championat.com##.adv-mark
 lenta.ru##.advertisable-plate__erid
 gazeta.ru##.b_nav > a[target="_blank"]
@@ -24239,6 +24240,7 @@ gazeta.ru#?#div:-abp-has(> .b_telegram)
 horoscopes.rambler.ru#?#div:-abp-has(> [id^="rcmw-container-"])
 www.rambler.ru#?#div:-abp-has(> div > [data-cerber^="widgets-carousel:"]) + div > div > div > div:-abp-has(> div a[href^="https://ads.adfox.ru/"])
 avtorambler.com,rambler.ru#?#div:-abp-has(> div[id*=":_adfox_"])
+avtorambler.com,rambler.ru#?#div:-abp-has(> div[id^="adfox-"][id*="rambler"])
 mail.rambler.ru##div[class*="Ad-direct"]
 mail.rambler.ru##div[class*="Ad-root"]
 mail.rambler.ru##div[class*="AddBillboard"]
@@ -24274,7 +24276,9 @@ avtorambler.com,rambler.ru##div[style^="min-height:300px"]
 avtorambler.com,rambler.ru##div[style^="min-height:400px"]
 avtorambler.com,rambler.ru##div[style^="min-height:600px"]
 avtorambler.com,rambler.ru##div[style^="order:"][style*="-1"]
+avtorambler.com,rambler.ru##rambler-info-banner
 ||championat.com/embeds/custom.css
+||cpa-elements.rambler.ru/*/sdk.js
 ||embeds.rambler.ru/cpa-elements/
 ||img.championat.com/brand/*.png
 ||kraken.rambler.ru^$domain=~kraken.rambler.ru
@@ -24998,6 +25002,7 @@ nikopolnews.net###button-contact-vr
 samsebevoin.ru,westnews.info###cboxOverlay
 fishki.net###chrome_popup
 dnepr24.com.ua,gazeta.zp.ua,kherson.net.ua,kr24.com.ua,nikolaev24.com.ua,odessa.net.ua,samsebevoin.ru,westnews.info###colorbox
+rg.ru###cookie-consent
 olx.kz,olx.ua,olx.uz###div-gpt-listing-full-screen-container
 gitarkin.ru###dropin
 velosipedinfo.ru###dynamic-to-top

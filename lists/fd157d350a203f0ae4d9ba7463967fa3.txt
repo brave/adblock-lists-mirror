@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GCwcVWH8kYC8An35un+7Lg
-! Version: 202506141611
+! Checksum: aes5NALfxtxcU757rplfgw
+! Version: 202506141641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Jun 2025 16:11 UTC
+! Last modified: 14 Jun 2025 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13006,7 +13006,7 @@ ua.today##.admix
 promigren.ru##.adp-block
 asiaplustj.info,news.tj##.adredirector
 cn.ru,ittour.com.ua##.adriver
-024.by,1927.kiev.ua,allnews.kz,bigpicture.ru,chatadelic.net,coderoad.ru,day.az,dumka.poltava.ua,euromd.com.ua,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,novostiplanety.ru,orl.ec,podrobnosti.ua,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru##.ads
+024.by,1927.kiev.ua,allnews.kz,aviaforum.ru,bigpicture.ru,chatadelic.net,coderoad.ru,day.az,dumka.poltava.ua,euromd.com.ua,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,novostiplanety.ru,orl.ec,podrobnosti.ua,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru##.ads
 24smi.org##.ads-headline
 tarkov-market.com##.ads-horiz
 orl.ec##.ads-inner-top
@@ -13858,11 +13858,14 @@ kinobanda.net##.buyframe
 carsweek.ru##.bx-composite-btn
 electroandi.ru##.bybit
 tsn.ua##.c-aside__port
+drive2.com,drive2.ru#?#.c-block:-abp-has(> .c-dv-label)
 vsplanet.net##.c-center > .cols ~ *
 drive2.ru##.c-darkening-hover-container ~ :not(.c-darkening-hover-container) > div[id]
+drive2.com,drive2.ru##.c-dv-label
 drive2.ru##.c-dv-p
-drive2.com##.c-dv-sns
+drive2.com,drive2.ru##.c-dv-sns
 dsnews.ua#?#.c-feed__list-item:-abp-has(> .c-feed__item > .c-r)
+drive2.com,drive2.ru#?#.c-header:-abp-contains(/Ads|Реклама/)
 vsplanet.net##.c-left > .block ~ *
 telegraf.com.ua#?#.c-post__content > div:-abp-has(> [id^="_vidverto-"])
 delo.ua,dsnews.ua,focus.ua##.c-r
@@ -15269,6 +15272,7 @@ cardiologiya.com,omastopatii.ru##.offblo
 dermatitanet.ru##.offer-ac
 gagadget.com##.offers-index
 agro-biz.ru,ecology-of.ru##.offersblock
+gamestatus.info##.offline-act-banner
 lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv5.site##.oi_papa_oi
 myshows.me##.okko
 disput.az##.okus_top
@@ -17978,6 +17982,7 @@ barneos22.ru##a[href^="https://barneos22.ru/go/"]
 sitepokupok.ru##a[href^="https://citycard.ru/lucky"]
 program-pro.ru##a[href^="https://cryptocandle.ru"]
 biqle.org,biqle.ru##a[href^="https://daftsex.github.io/"]
+gamestatus.info##a[href^="https://denuvo.net"]
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href^="https://denuvo.net/"]
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##a[href^="https://gamesell.org/"]
 www.film.ru##a[href^="https://hochuvkino.ru"]
@@ -24123,6 +24128,7 @@ forums.overclockers.ru#?#table > tbody > tr:-abp-has(> [class^="profile"]:-abp-c
 ! Pornolab.NET
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###banner-stub
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###latest_news > div
+pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###logo .bCenter
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###main-nav a[target="_blank"]
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###main_content_wrap > #latest_news > table[width="100%"] > tbody > tr > td[width="100%"] ~ *
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###main_content_wrap > #latest_news > table[width="100%"] > tbody > tr ~ *
@@ -25146,6 +25152,7 @@ my.rv.ua##.spu-box
 lolzona.ru##.stb-container
 sravni.ru##.subscription-popup
 liga.net##.swal2-backdrop-show
+gamestatus.info##.telegram-follow-popup
 sputnikipogrom.com##.tp-overlay
 povar.ru##.vk.soc-banner
 blogspot.ru##.widget-content > #overlay

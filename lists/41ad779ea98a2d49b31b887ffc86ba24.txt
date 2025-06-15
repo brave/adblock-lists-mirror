@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SeTCboeajjaNbLjLs542fg
-! Version: 202506151542
+! Checksum: 5BlRYVo6GVclIos9g2DmhQ
+! Version: 202506151642
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-06-15 15:42 UTC
+! Last modified: 2025-06-15 16:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1032,6 +1032,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||apester.com^$third-party
 ||api.branch.io^$third-party
 ||api.giphy.com^*/related?$third-party
+||api.producthunt.com/widgets/$third-party
 ||api.search.live.net^$third-party,domain=~bing.com
 ||app.convertful.com^$third-party
 ||app.e2ma.net^$third-party
@@ -4269,6 +4270,7 @@ rocket-boys.co.jp##body[style^="position:"]:style(position: static !important; t
 /plugins/tweetmeme/button.js
 /plugins/ultimate-follow-me/*
 /plugins/ultimate-social-deux/public/assets/js/min/us.script-min.js
+/plugins/ultimate-social-media-plus/*$~stylesheet
 /plugins/viperbar/client/js/front.js
 /plugins/wordpress-social-ring/*
 /plugins/wp-plus-one/wp-plus-one.js
@@ -11029,6 +11031,7 @@ _social_footer_
 ##.sfmsb-follow-social-buttons
 ##.sfollow_fb
 ##.sfollow_tw
+##.sfsi_plus_widget
 ##.sfsi_widget
 ##.sfsiaftrpstwpr
 ##.sfsibeforpstwpr
@@ -16295,6 +16298,7 @@ focus.de##.socFbLikeShare
 universfreebox.com###banniere-2951-particle
 universfreebox.com###banniere-6584-particle
 meteofrance.com###block-publicmenusocial
+top-for-phone.fr###custom_html-6
 palais-de-la-voiture.com###socialmenu
 nl7za.com###tele
 lopinion.fr##.Page-actions
@@ -43202,6 +43206,7 @@ ecobaltiavide.lv##.popup-filter
 aio.lv##.popup-message
 via-s.lv##.priv
 maminuklubs.lv##.set_cookie
+eparaksts.lv##usps-cookie-confirmation
 !
 ! ---------- Lithuanian  ---------
 !

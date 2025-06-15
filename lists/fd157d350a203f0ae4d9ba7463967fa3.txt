@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UWqSa2RJgB+3WOFUpBYQxw
-! Version: 202506152041
+! Checksum: qhynUZtJS5pXNzQnHaw2gg
+! Version: 202506152111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Jun 2025 20:41 UTC
+! Last modified: 15 Jun 2025 21:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24221,8 +24221,8 @@ travel.rambler.ru##[data-travel_media-desktop*="rnet_widget"]
 gazeta.ru##[data-url^="https://www.gazeta.ru/prcom/"]
 weekend.rambler.ru##[data-weekend_media-desktop*="rnet_widget"]
 woman.rambler.ru##[data-woman_media-desktop*="rnet_widget"]
+avtorambler.com,rambler.ru#?#[id^="rambler-"] ~ div:-abp-has(> div > [data-rcmw-init])
 avtorambler.com,rambler.ru##[id^="rambler-promo-"]
-avtorambler.com,rambler.ru#?#[id^="rambler-promo-"] ~ div:-abp-has(> div > [data-rcmw-init])
 letidor.ru,moslenta.ru,passion.ru,quto.ru##[id^="unit_"]
 horoscopes.rambler.ru##[itemtype="http://schema.org/Article"] > div[class]:nth-last-of-type(2) > div:last-child > div + div ~ div
 eda.ru##[title="yandexzen"]

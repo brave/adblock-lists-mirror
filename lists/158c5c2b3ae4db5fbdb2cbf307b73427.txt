@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 22ZfRs8p9Mg7z6x2u3yGfw
-! Version: 202506151131
+! Checksum: 3EcZb08Vq31Ta8cd94tDug
+! Version: 202506151211
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Jun 2025 11:31 UTC
+! Last modified: 15 Jun 2025 12:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4109,7 +4109,7 @@ rbkgames.com##iframe[src^="https://player.twitch.tv?autoplay=true"][src*="rbkgam
 /jquery.arcticmodal$script,stylesheet,domain=allboxing.ru|bigpicture.ru
 /mailpoet/assets/*$domain=gameout.ru
 /manifest-ts.json$domain=rambler.ru
-/manifest.json$domain=championat.com|eapteka.ru|gazeta.ru|hi-chef.ru|lenta.ru|mail.ru|my.mosenergosbyt.ru|rambler.ru|riafan.ru|sportmail.ru
+/manifest.json$domain=championat.com|championat.ru|eapteka.ru|gazeta.ru|hi-chef.ru|lenta.ru|mail.ru|my.mosenergosbyt.ru|rambler.ru|riafan.ru|sportmail.ru
 /manifest.webmanifest$domain=otvet.mail.ru
 /min/js/pages/push.js$script,~third-party,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-georgia.com|sputnik-news.ee|sputnik-ossetia.com|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputniknews-uz.com
 /ololo/*$image,domain=2ch.hk|2ch.life|2ch.su
@@ -4341,7 +4341,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||promote.opera.com^$third-party
 ||pubapi.viqeo.tv^$domain=~dom.mail.ru|mail.ru|sportmail.ru
 ||pulse.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru|~pulse.mail.ru
-||quiz.rambler.ru/widget/sdk.js$domain=~championat.com|~quiz.rambler.ru
+||quiz.rambler.ru/widget/sdk.js$domain=~championat.com|~championat.ru|~quiz.rambler.ru
 ||radioclub.ua/*thumb/promo_$image
 ||radiopyatnica.com.ua/uploads/slider/
 ||rbk.ru/*/build/fn/_forecast.js
@@ -4969,7 +4969,7 @@ vm.ru##.article--subscribes
 fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.article-aside-promo
 360tv.news#?#.article-body > div:-abp-has(> [href^="https://news.google.com/publications/"])
 androidinsider.ru##.article-body > p > code.large-text
-championat.com##.article-content > .external-article
+championat.com,championat.ru##.article-content > .external-article
 itorrents-igruha.net,itorrents-igruha.org#?#.article-film:-abp-has(> center > div > a:-abp-contains(/зарабатывай|предложени|рандом/i))
 nn.by##.article-footer-cell .btn
 kaskad.tv##.article-h1 + div > .uk-margin-right
@@ -5376,7 +5376,7 @@ fotostrana.ru##.footer-cookie-agreement
 cryptonewsua.com##.footer-cookie-bar
 grad.ua##.footer-g-play
 gordonua.com##.footer-hide-tablet
-championat.com##.footer-icons
+championat.com,championat.ru##.footer-icons
 teleportal.ua##.footer-links > a[href*="/app"]
 domashniy.ru##.footer-media-app
 unian.info,unian.net,unian.ua##.footer-menu__app
@@ -5874,7 +5874,7 @@ prufy.ru##.recomend
 xcom-shop.ru##.recommend-to-buy
 iz.ru##.recommendation-block > div > div
 iz.ru##.recommendation-block-header
-championat.com##.recommender-block
+championat.com,championat.ru##.recommender-block
 c-s.net.ua##.reg_mess_bg
 usba.com.ua##.region-footer > [id^="block-nasikontakti"] > .field > p ~ *
 rayon.in.ua##.region-header__form

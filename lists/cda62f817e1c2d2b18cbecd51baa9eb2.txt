@@ -232,8 +232,6 @@ faqwiki.*##+js(rmnt, script, /adblock/i)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199124
 pvpoke-re.com##+js(trusted-suppress-native-method, Element.prototype.insertAdjacentHTML, '"afterbegin"', prevent, /\/[A-Za-z]+\.min\.js\?/)
 pvpoke-re.com##.nitro-any
-pvpoke-re.com#@#+js(set, PrePl, true)
-pvpoke-re.com#@#+js(set-local-storage-item, google_tg_rep, 1)
 pvpoke-re.com##+js(trusted-set-local-storage-item, google_tg_rep, '["n",15500]')
 pvpoke-re.com##+js(trusted-set-local-storage-item, google_tg_rep_date, 1900000000000)
 
@@ -285,20 +283,6 @@ vook.vc##.note-sp-spnsr
 ! FP by Phishing URL Blocklist
 ||sbisec.co.jp/etgate/^$all,badfilter
 ||banei-keiba.or.jp^$badfilter
-
-! https://github.com/uBlockOrigin/uAssets/issues/28682
-! https://github.com/uBlockOrigin/uAssets/issues/28681
-||megacloud.store^$badfilter
-
-! https://github.com/uBlockOrigin/uAssets/issues/28724
-||mgcld.xyz^$badfilter
-
-! https://github.com/uBlockOrigin/uAssets/issues/28688 temp fix
-@@||clouderrorreporting.googleapis.com^$domain=waze.com
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/207192
-otakomu.jp#@#div[class^="article-body"] > blockquote:has(> a[target="_blank"] ~ div.amazlet-box)
-otakomu.jp##.amazlet-box
 
 ! https://github.com/easylist/easylist/commit/45de5b7d5d44fa42dce3fbbb5b1b38c9669468b3
 ||pons.com/*/pons-ads-idm.js$badfilter

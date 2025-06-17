@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XUEWVb+hks9P4YyLOlDshA
-! Version: 202506172111
+! Checksum: c1LhBn8iM7pZvnqLl9JA9Q
+! Version: 202506172141
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Jun 2025 21:11 UTC
+! Last modified: 17 Jun 2025 21:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1989,6 +1989,7 @@ foto.ua##.side-banner-social
 newdeaf.top##.side-bc > a#ng-padding[target="_blank"]
 redheadsound.studio##.side-block.first
 redheadsound.studio##.side-block.first + .side-block > div[class^="side-block__"]
+com-x.life#?#.side-block:-abp-has(> .soc-channels)
 psychologies.ru##.side-block_soc-tabs
 gadgetstyle.com.ua#?#.side-blok:-abp-has(.twitter-timeline )
 coldfilm.biz#?#.side-box:-abp-has(#vk_groups)
@@ -2080,7 +2081,7 @@ footboom1.com##.soc-btn-open__label
 slovo.ws##.soc-butt
 veganstvo.info##.soc-button
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.soc-buttons
-animeone.cc,kinokino.tv,yummyanime.org##.soc-channels
+animeone.cc,com-x.life,kinokino.tv,yummyanime.org##.soc-channels
 lordserial.run##.soc-channels__item
 rzd-partner.ru##.soc-group-menu
 webkarapuz.ru,xn--m1ah5a.net##.soc-group-wrap
@@ -4170,6 +4171,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||chita.ru/common/*/subscription_news.php?action=check&
 ||clocklink.com/clocks/
 ||club-nobles.ru/players/
+||com-x.life/templates/Default/images/app.png
 ||commento.pravda.com.ua/comentario.js
 ||comments.ua^*/ukrnet_kinoafisha.php
 ||console.cloud.google.com^*/emergencies

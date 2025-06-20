@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6ET+GK98SvLgkNj9rvGWYQ
-! Version: 202506201011
+! Checksum: CxH7/uKxoquCAQKAr2U/TQ
+! Version: 202506201041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Jun 2025 10:11 UTC
+! Last modified: 20 Jun 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23385,7 +23385,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?bE9Hd=$xmlhttprequest
+||pikabu.ru/ajax/*?w6X9g=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24545,6 +24545,7 @@ ukr.net##.lazy-load-banner
 1901.selcdn.ru##.topFaceGuest
 !
 ! Yandex (Яndex)
+/feed?feed_geo=$domain=ya.ru
 /portal/ntp/banner?$domain=yandex.by|yandex.kz|yandex.ru|yandex.uz
 @@://ya.r*/search$generichide
 @@://yandex.*/safe/win/$generichide
@@ -24553,6 +24554,8 @@ ukr.net##.lazy-load-banner
 @@||yandex.ru/ads/system/adsdk.js|$script,domain=yandex.ru
 market.yandex.ru,market.yandex.*##.layout_type_search.headline__footer
 ya.ru##.i-mini-bem[class*="banner"]
+ya.ru##[aria-label="Информеры"] ~ [class]
+ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru,yandex.*##.main-home-banner
 ya.ru,yandex.ru,yandex.*##.layout__banner
 ya.ru,yandex.ru,yandex.*##.main__distr-popup

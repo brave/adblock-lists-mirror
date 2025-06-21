@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vPHY6JVP2MTHYH23kcAT/w
-! Version: 202506210941
+! Checksum: w2wMloNjzH0OId9pVP3sMQ
+! Version: 202506211011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Jun 2025 09:41 UTC
+! Last modified: 21 Jun 2025 10:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2875,7 +2875,7 @@ mybryansk.ru##article ~ .socShare + h2
 drukarnia.com.ua##article ~ .sticky > .justify-center
 bloomchain.ru##article ~ div[class] > .btn-link ~ [class]
 fontanka.ru#?#article ~ section:-abp-has(> div[class^="links_"])
-yummy-ani.me,yummyani.me##aside .ban_ner
+yummy-ani.me,yummy-anime.ru,yummyani.me##aside .ban_ner
 kriminal.net.ua#?#aside .widget:-abp-has(> .body > .widget_html_block > [src*="facebook"])
 yummy-anime.ru##aside > #recommends
 businessua.com##aside > #vedomosti_block ~ #vedomosti_block
@@ -6289,7 +6289,6 @@ ozon.ru##[data-paginator-loader]
 poltavawave.com.ua##[data-platform]
 my.ua##[data-policy-wrapper]
 5ka.ru##[data-qa="cookies"]
-motor.ru,secretmag.ru##[data-qa="lb-content"] ~ [data-qa="lb-footer"] ~ div
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me##[data-scroll-content] a[href="https://app.lib.social/app2.html"]
 fosshub.com##[data-section-content-type="donate"]

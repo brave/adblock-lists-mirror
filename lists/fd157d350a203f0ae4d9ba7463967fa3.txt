@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: L21rsc2Kue29JkiNy4J8Vg
-! Version: 202506211911
+! Checksum: qZdnwZFEoB2oOQik4uxjfw
+! Version: 202506211931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Jun 2025 19:11 UTC
+! Last modified: 21 Jun 2025 19:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1657,6 +1657,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 !
 ! = Общие правила блокировки ==================================================
 ! *** advblock/general_block.txt ***
+&cp.host=*&cp.token=$third-party,xmlhttprequest
 &divid=prre_
 &teasersTtl=
 &vk_t=*&adv_ids=
@@ -1992,6 +1993,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /partner/images/banners/*
 /pixel2/video?$third-party,script
 /play/?ref=*/play/*$third-party,subdocument
+/player/ads.php?cp.host=$xmlhttprequest
 /plugins/adhelper/*
 /plz.somechange.js?
 /popin.js$domain=~lacoste.com
@@ -7561,6 +7563,7 @@ _tizers.
 ||mb.vesti.ru^
 ||mb49mn8bz.ru^$third-party
 ||mbn-1.com^$third-party
+||mbt-1.com^$third-party
 ||mcbag.top^$third-party
 ||mcd-sdk.playbuzz.com^$third-party
 ||mcljm.top^$third-party
@@ -12340,7 +12343,6 @@ sibmama.info,sibmama.ru###partners
 dofiga.net###pbie_25
 poleno.net###pddk221
 onyxgame.com###pegination ~ a
-mamba.ru###photo_viewer[style]
 sportrecs.com###player .MuiButton-containedPrimary
 konohatv.org###player > .absolute
 toples.cc###player > div[style*="pointer;"]
@@ -12735,7 +12737,6 @@ ugo.ru###topBnr_container
 wm-help.net###top_ajax_ad
 hmn.ru###top_ban
 7dach.ru,consultant.ru,cossa.ru,diary.ru,kriminal.tv,kursktv.ru,livesport.ws,mgnews.ru,nashmontreal.com,studclub.poltava.ua,vlasti.net###top_banner
-mamba.ru###top_banner_ad_fox
 rlsnet.ru###top_content + div[style="padding: 0px 3px 0px 10px; margin: 0;"]
 zk.fm###top_error_notify
 kino-teatr.ru###top_line
@@ -17025,7 +17026,6 @@ myfin.by##[data-link*="winline.by"]
 rocketdockfree.ru##[data-msetup]
 woman.ru##[data-name*="Banner"]
 re.kufar.by#?#[data-name="ad_in_listing"] > article:-abp-has(> div > [id^="adfox_"])
-mamba.ru##[data-name="search-banner"]
 esports.ru##[data-name^="ads/"]
 eapteka.ru##[data-neon-skeleton-removable]
 vladnews.ru##[data-newsb]
@@ -18960,7 +18960,6 @@ avtotachki.com##div[id][style="height:350px;"]
 askentire.net##div[id][style="min-height:250px"]
 informator.ua##div[id][style="min-height:400px"]
 mind.ua##div[id][style="padding-bottom: 35px;"]
-mamba.ru##div[id][style="width: 320px; height: 100px;"]
 7days.ru##div[id][style="width: 970px; height: 250px;"]
 ivbb.ru##div[id^="ADS_"]
 1tv.ru,2mm.ru,auto.vesti.ru,ctc.ru,f1news.ru,irr.ru,probirka.org,sobesednik.ru##div[id^="AdFox_banner"]
@@ -26391,7 +26390,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||volknn.ru^*/js/adv.js|$script,domain=volknn.ru
 @@||vse.kz/public/js/jsLoader.js?adkey=
 @@||wakanim.tv^*/video/adsunauth$domain=wakanim.tv
-@@||wambacdn.net^$script,domain=love.0629.com.ua|love.mail.ru|mamba.ru|online-mamba.ru|wamba.com
+@@||wambacdn.net^$script,domain=love.0629.com.ua|love.mail.ru|mamba.ru|wamba.com
 @@||ww400.smartadserver.com/ac$script,domain=www.deezer.com
 @@||www.meteoblue.com/build/website/gpt.js|$xmlhttprequest,domain=meteoblue.com
 @@||www3.doubleclick.net/|$xmlhttprequest,domain=animix.lol

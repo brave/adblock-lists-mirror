@@ -1509,10 +1509,6 @@ freecodezilla.net##+js(no-xhr-if, googlesyndication)
 ! hdmoviesmaza. pw popups
 hdmoviesmaza.*##+js(nowoif)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/uezggb/adblock_detected_textstudioco/
-@@||textstudio.co^$ghide
-textstudio.co##+js(set, ADBLOCK, false)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/13030
 ||111.90.150.149/wp-content/uploads/*.gif$image,1p
 111.90.150.149##+js(acs, jQuery, magnificPopup)
@@ -1752,9 +1748,6 @@ webloadedmovie.com##+js(nowoif)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118456
 tojav.net##+js(acs, onload, puHref)
 ://media.*/js/code.min.js|$script,3p
-
-! https://github.com/uBlockOrigin/uAssets/issues/13195
-watchimpracticaljokers.com##+js(aopr, popns)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/uo7w9g/clicking_on_the_play_button_of_the_video/
 ||fucktube4k.com/wp-content/uploads/*porn4k-banner.png$image,1p

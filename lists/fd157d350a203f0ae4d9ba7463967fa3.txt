@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yXoO+FFXoZFkT+DdoTUxOg
-! Version: 202506230841
+! Checksum: dz23oBwiigjyT8u0WiY7oA
+! Version: 202506230911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jun 2025 08:41 UTC
+! Last modified: 23 Jun 2025 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23389,7 +23389,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?w6X9g=$xmlhttprequest
+||pikabu.ru/ajax/*?po5Ox=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24666,6 +24666,8 @@ yandex.ru##div[id^="R-I-"]
 yandex.ru,yandex.*##.grid-list__game-item_adv
 yandex.ru,yandex.*##.stack > .promo
 yandex.ru,yandex.*##div[class^="FeedAdvBlockRenderer-"]:empty
+! Яндекс.Карты
+yandex.ru,yandex.*##.catalog-grid-view__item._advert
 ! Яндекс.Музыка
 music.yandex.ru,music.yandex.*##.bar__driver-container
 music.yandex.ru,music.yandex.*##[class^="audio-advert"]

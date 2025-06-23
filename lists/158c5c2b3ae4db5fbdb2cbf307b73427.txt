@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YOZJlPOoKLZmFfV5k84TEw
-! Version: 202506230911
+! Checksum: DQZrL9YuSlmU23ZRToWMAg
+! Version: 202506230941
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Jun 2025 09:11 UTC
+! Last modified: 23 Jun 2025 09:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -606,7 +606,7 @@ kinofilm.co###sped_lf_so
 muzland.es,muzland.info,muzland.ru###srart
 ua-electro.com###ssocial
 mirsexy.com###stickers
-3dnews.kz,3dnews.ru###stripe > .socbuttons.right
+3dnews.ru###stripe > .socbuttons.right
 google.com###sub-tree-subscriptions
 smolensk-auto.ru###submenu > .ipb-top-left-link > div[style^="background: url"] > a[target="_blank"]
 smolensk-auto.ru#?##submenu > .ipb-top-left-link:-abp-has(> div[style^="background: url"] > a[target="_blank"])
@@ -4462,7 +4462,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||youhack.ru/reyo/
 ||youtube.com/embed/*autoplay=1*sports.ru&widgetid$subdocument,domain=sports.ru
 ||youtube.com/embed/*mediametrics.ru&widget$subdocument,domain=mediametrics.ru
-||youtube.com/embed/?enablejsapi=1&origin=*3dnews.*&widgetid=1$subdocument,domain=3dnews.kz|3dnews.ru
+||youtube.com/embed/?enablejsapi=1&origin=*3dnews.*&widgetid=1$subdocument,domain=3dnews.ru
 ||youtube.com/get_endscreen?
 ||youtube.com^*modestbranding$subdocument,domain=depo.ua|igromania.ru|kanobu.ru
 ||zahid-sad.com/tilda-blocks-page*.min.js
@@ -4565,7 +4565,7 @@ vtb.ru###cookies-box
 vk.com###cookies_policy_wrap
 spectrsad.com###cooks
 vk.com###covid_banner
-3dnews.kz,3dnews.ru###currencyTicker
+3dnews.ru###currencyTicker
 techblogua.com###custom_html-2
 forums.overclockers.ru###datebar
 english-polyglot.com###dbt
@@ -4601,7 +4601,7 @@ olx.ua###favouritesBar
 sheensay.ru###fb-email
 f-igri.ru###fbgamecat
 fb.ru###feed
-3dnews.kz,3dnews.ru###feed-to-top
+3dnews.ru###feed-to-top
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai###fixed_overlay_top
 besplatnyeprogrammy.net###fixedcontainer_fixed
 webmoney.ru###flake
@@ -4760,7 +4760,7 @@ context.reverso.net###register-popup-bottom
 mult-fan.tv###request
 sergeistrelec.name###right > .bl0:not(:last-child)
 samlab.ws###right > .box-shadow > .menu ~ .box-shadow
-3dnews.kz,3dnews.ru###right-sidebar > #youtube-chunk-wrapper
+3dnews.ru###right-sidebar > #youtube-chunk-wrapper
 bugaga.ru###right_col
 9111.ru###robot_chat
 afisha.ru###root > a[href][class]
@@ -5691,7 +5691,7 @@ mel.fm##.newsletter-footer-wrapped
 mel.fm##.newsletter-form
 lifehacker.ru##.newsletter-subscription-form
 s-info.ru##.newsletter-widget
-3dnews.kz,3dnews.ru##.newybtn
+3dnews.ru##.newybtn
 serveradmin.ru##.njt-nofi-container-content
 ranobe-novels.ru##.no-ads-link
 web.skype.com##.noFocusOutline > div > div > div > div > div > div > div[style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: stretch; background-color: rgba(241, 241, 244, 0.5); border-color: rgb(255, 255, 255); border-width: 2px; border-style: solid;"]
@@ -6156,7 +6156,7 @@ focus.ua##.u-unwrap
 oriflame.ru##.ui-cookie-notification
 5lb.ru##.ui-notification-balloon
 fightnews.info##.ui-widget-overlay
-3dnews.kz,3dnews.ru##.uni_subscribtion_form
+3dnews.ru##.uni_subscribtion_form
 coub.com##.unlogged-bottom-line
 backingtrackx.com##.up-top1
 sfr.gov.ru##.user-data-processing-wrapper
@@ -6468,7 +6468,7 @@ megaserial.net##body > .lenta
 texterra.ru##body > .mfp-bg
 texterra.ru##body > .mfp-wrap
 tut.by##body > .toster-popup
-3dnews.kz,3dnews.ru##body > .ui-corner-all.ui-widget
+3dnews.ru##body > .ui-corner-all.ui-widget
 chastnik-m.ru##body > a[href*="block=bg"]
 rubryka.com##body > a[href="https://www.facebook.com/ecorubric"]
 root-nation.com##body > a[href] > img[src*="banner"]
@@ -6944,6 +6944,7 @@ mail.ru,sportmail.ru##.line_branding-hidden.line
 mail.ru,sportmail.ru##.line_hidden.line
 e.mail.ru,octavius.mail.ru##.llc__payment-die-container
 mail.ru##.mailbox__add-btn-logo
+e.mail.ru,octavius.mail.ru##.mini-notify-stack
 cloud.mail.ru##.mobile-app-promo-tip
 octavius.mail.ru##.notify-stack_fixed
 mail.ru,~media-golos.mail.ru,sportmail.ru##.p-audio-container

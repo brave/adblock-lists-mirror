@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: g+DlFLp1us7pgU69baq+dQ
-! Version: 202506231541
+! Checksum: 2C4zd/aWiet0DxCMIdt80w
+! Version: 202506231611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jun 2025 15:41 UTC
+! Last modified: 23 Jun 2025 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19766,6 +19766,9 @@ pogoda.ru##table + table[align="center"][summary] > tbody > tr:first-child + tr:
 pogoda.ru##table + table[align="center"][summary] > tbody > tr:first-child > th:first-child + th + th:last-child
 nowa.cc#?#table > tbody > .alt2:-abp-has(> td:-abp-contains(/реклама/i))
 yakpravylno.com##table > tbody > tr
+nnmclub.ro,nnmclub.to##table > tbody > tr > td > br:first-child + br
+nnmclub.ro,nnmclub.to##table > tbody > tr > td > br:first-child + br + table.pline
+nnmclub.ro,nnmclub.to##table > tbody > tr > td > br:first-child + br + table.pline + br
 electrik.info##table > tbody > tr > td[valign="top"][align="left"][width="200"]
 hi-fi-forum.net##table > tbody > tr > td[width="210"][valign="top"]
 kazus.ru##table > tbody > tr > td[width="728"]

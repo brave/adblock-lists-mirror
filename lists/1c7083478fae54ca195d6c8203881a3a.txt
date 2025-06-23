@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.4.0
+! Version: 4.1.4.1
 
 ! General
 
@@ -39,7 +39,7 @@ gadget.pico.tools##+js(json-prune, locked)
 ||steadyhq.com^$script,third-party
 ||wallkit.net/js/$script,third-party
 ||zephr.com/zephr-browser/$script,third-party
-/arc/subs/p.min.js$script,~third-party,domain=~nzherald.co.nz
+/arc/subs/p.min.js$script,~third-party
 /c/assets/pigeon.js$script,~third-party
 /evolok/*ev-em.min.js$script,domain=~vikatan.com
 /evolok/*ev-widgets.min.js$script
@@ -274,7 +274,7 @@ nybooks.com##div.toast-cta
 ||mwcm.nyt.com/$script,domain=nytimes.com
 nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div#dock-container,div.pz-ad-box
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
-||nzherald.co.nz/sales/public/v*/entitlements$xmlhttprequest,~third-party
+||nzherald.co.nz/zephr/$xmlhttprequest,~third-party
 nzherald.co.nz##+js(set, window.Fusion.globalContent.isPremium, false)
 nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction)
 /\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script,domain=observador.pt

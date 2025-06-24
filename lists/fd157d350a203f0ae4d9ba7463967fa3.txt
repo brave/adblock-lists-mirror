@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8iGcesTAMdaLfj1u4ry+3Q
-! Version: 202506241111
+! Checksum: FOrqZmFN4dyqtS4Kz/x9Yg
+! Version: 202506241131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Jun 2025 11:11 UTC
+! Last modified: 24 Jun 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17485,7 +17485,7 @@ chatovod.ru##a[href*="chatovod.ru/cli"]
 chatovod.ru##a[href*="chatovod.ru/cli"] *
 kinopictures.net##a[href*="chromepro.ru"]
 stopgame.ru##a[href*="clc.to"]
-flapler.com,korsars.pro,mods-game.net,mywebpc.ru,rufonts.ru,soft-portal.club,vc.ru##a[href*="clck.ru"]
+cloudnetworks.ru,flapler.com,korsars.pro,mods-game.net,mywebpc.ru,rufonts.ru,soft-portal.club,vc.ru##a[href*="clck.ru"]
 tvmag.ru##a[href*="cli.co"]
 book-briefly.ru##a[href*="clickfrm.com"]
 bloknot-khersona.ks.ua,osnovu-ved.ru##a[href*="cookery-on-every-day.ru"]
@@ -23631,6 +23631,10 @@ gismeteo.ru##.widget-container
 gismeteo.ru##.zen
 gismeteo.ru##div[class*="feed-partner"]
 gismeteo.ru##section > .feed-bg
+! мобильная версия
+gismeteo.kz,gismeteo.ru##.feed[data-stat-type="rss"]
+gismeteo.kz,gismeteo.ru##.rss-tabs
+gismeteo.ru##[data-stat-type="rss"] > div.feed-title
 !
 ! Kino-live
 $third-party,script,xmlhttprequest,domain=kino-live2.org|kino-live8.biz

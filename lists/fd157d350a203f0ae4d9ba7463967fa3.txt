@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r/xcw2HOeiLJB5wmUPJeAA
-! Version: 202506241541
+! Checksum: v17AuPyvD24n9Uu43DzGJw
+! Version: 202506241611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Jun 2025 15:41 UTC
+! Last modified: 24 Jun 2025 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16115,7 +16115,6 @@ hi-news.ru#?#.small-text:-abp-has(> a[href^="https://dzen.ru/"])
 ain.business,ain.ua##.small-white-block
 krym.news,novostivl.ru,ryazan.life,v-tatarstane.ru,yakutsk.ru##.small_ads_cell
 smartmama.com.ua##.smart-widget
-smb.ixbt.com##.smbad
 proufu.ru##.smi
 factroom.ru##.smi2
 mel.fm##.smi2-news-container
@@ -17347,7 +17346,7 @@ otzovik.com##a[href*="/buy/"][rel="nofollow"]
 sportliga.com##a[href*="/c.php?"]
 tvoymalysh.com.ua##a[href*="/cgi-bin/click"]
 forum.sibmama.info,forum.sibmama.ru##a[href*="/cl.php?b"]
-ixbt.games,smb.ixbt.com##a[href*="/click/branding/"]
+ixbt.games##a[href*="/click/branding/"]
 cq.ru##a[href*="/cq67er/"]
 podolyaka.com,podolyaka.ru##a[href*="/dzen/"]
 liveinternet.ru##a[href*="/fastvk.com/"]
@@ -23417,6 +23416,7 @@ growhow.in.ua###custom-background-css {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
 vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
+www.ixbt.*##.clickable_zone {remove:true;}
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 ! селекторы
 freesoft.ru###downloadAdModal

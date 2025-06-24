@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.4.1
+! Version: 4.1.4.2
 
 ! General
 
@@ -312,6 +312,8 @@ scotsman.com,yorkshirepost.co.uk##+js(rc, premium|no-entitlement, div.premium.no
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-user-messaging-main-bundle.js$script,~third-party
 sfstandard.com##+js(cookie-remover, zephr-session)
+sfstandard.com##+js(acis, localStorage)
+sfstandard.com##+js(acis, sessionStorage)
 sfstandard.com##div.sticky
 slideshare.net##+js(rc, limit-overlay, .limit-overlay)
 slideshare.net##+js(set-local-storage-item, /^/, $remove$)

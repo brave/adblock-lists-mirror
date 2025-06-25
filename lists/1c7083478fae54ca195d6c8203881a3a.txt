@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.4.2
+! Version: 4.1.4.3
 
 ! General
 
@@ -323,9 +323,6 @@ sofrep.com##+js(rc, fader, div.fader)
 sofrep.com##div.non-paywall,div#paywall_wrap
 spektrum.de##+js(rc, pw-premium, article.pw-premium)
 spglobal.com##+js(cookie-remover, count)
-staradvertiser.com##div.fade
-staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
-staradvertiser.com##+js(rc, overflow-hidden, body.overflow-hidden)
 startribune.com##div.modal-backdrop
 startribune.com##body[class]:style(overflow: auto !important; position: static !important;)
 study.com##+js(ra, class, div.faded-content)
@@ -506,8 +503,13 @@ bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,
 ! Motor Presse Stuttgart
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de
 
-! NHST Media Group
-||subscription-static-global.nhst.tech$script,domain=tradewindsnews.com
+! Oahu Publications
+staradvertiser.com##div.fade
+staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
+staradvertiser.com##+js(rc, overflow-hidden, body.overflow-hidden)
+
+hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com##+js(ra, style, div#single-paywall, stay)
+hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com##div#single-login-box,div#single-excerpt
 
 ! Persgroep
 /temptation/resolve$xmlhttprequest,~third-party,domain=demorgen.be|flair.nl|humo.be|libelle.nl|margriet.nl|parool.nl|trouw.nl|volkskrant.nl
@@ -708,8 +710,6 @@ thecore.in##+js(ra, class, div.paywall-content)
 thecore.in##div.story,div#subscription_paid_message,div#footer_login_wall
 thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container)
 ||thedriftmag.com/wp-content/plugins/drift-paywall-plugin/$script,~third-party
-thegardenisland.com##+js(ra, style, #single-paywall)
-thegardenisland.com###single-login-box,#single-excerpt
 theindianalawyer.com##+js(rc, restricted-non-subscriber, article.restricted-non-subscriber)
 theindianalawyer.com##+js(ra, style, article-content>p)
 theindianalawyer.com##div#vue-growler,div#js-modal

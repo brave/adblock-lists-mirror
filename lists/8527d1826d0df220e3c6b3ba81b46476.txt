@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 19:18:56 +0300
+! Last modified: %timestamp%
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -304,7 +304,7 @@ etn.fi###annonsspalt
 etn.fi###leaderboard
 etn.fi##.annonspekare
 etuovi.com###spotlight-container-id
-etuovi.com,mikrobitti.fi,rantapallo.fi,talouselama.fi##div[id|=almad]
+etuovi.com,mikrobitti.fi,rantapallo.fi,talouselama.fi,vuokraovi.com##div[id|=almad]
 etusuora.com##.pb30:has(.adsbygoogle)
 f1-forum.fi##.sponsoredrow
 facebook.com##a[aria-label="Mainostajan linkki"]
@@ -1260,7 +1260,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||caravan-lehti.fi/media/Carado-matkailuauto.$image,domain=caravan-lehti.fi
 ||cdn.bluebillywig.com/apps/player/$script,domain=gekkonen.net|hevosurheilu.fi
 ||celtra.com^$third-party
-||cjar.a-lehdet.fi^$third-party
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
 ||deals.innocode.no/api/public/v1/widgets$domain=aland.com|alandstidningen.ax|enontekionsanomat.fi|inarilainen.fi|kainuunsanomat.fi|kittilalehti.fi|kotilappi.fi|kuhmolainen.fi|levinyt.fi|luoteis-lappi.fi|saariselansanomat.fi|sompio.fi|sotkamolehti.fi|ylakainuu.fi
@@ -1309,7 +1308,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||matkaendurot.net/images/*banner$domain=matkaendurot.net
 ||med.etoro.com^$domain=ykkoslohja.fi
 ||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg$image
-||media.vuokraovi.com^$third-party
 ||media.toimitilat.kauppalehti.fi/Image.aspx?f=/banners/$image
 ||menyt.azurewebsites.net/public/js/omamainos-widget$script,domain=akaanseutu.fi|lvs.fi|orivedensanomat.fi|radiosun.fi|shl.fi|ylojarvenuutiset.fi
 ||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image,domain=mobiili.fi

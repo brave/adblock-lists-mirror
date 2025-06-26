@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 22:44:23 +0300
+! Last modified: Thu, 26 Jun 2025 23:17:05 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -267,9 +267,6 @@ eeva.fi##div[class^="EmbeddedArticle__Container"]:has(div[class*="CommercialLabe
 eeva.fi#?#a[class^="ContentCard__Card-"]:has-text(Mainos: )
 eeva.fi#?#div[class^="EmbeddedArticle__Container"]:has(.category:has-text(Mainos:))
 eeva.fi#?#div[class^="StripeBannerBlock__StripeBannerContainer"]:has-text(Mainos:)
-ehandel.fi###div-leeadsFullpageAd
-ehandel.fi##.commercial-row
-ehandel.fi,tvmatsit.com##.annons
 ei-toimi.fi##div[style="min-height:300px;"]
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
@@ -285,13 +282,10 @@ elmotv.com##div[class="artikkeli_body"] a[href*="-Expekt-"]
 elmotv.com##p img.alignnone[src$=".png"][alt=""][width="2560"][height^="20"]
 elmotv.com#?#.luelisaa > .solu:has-text(Kaupallinen yhteistyö)
 elmotv.com#?#[href]:has-text(LeoVegas)
-enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotikulmilta.fi,kotilappi.fi,kuhmolainen.fi,kuusamonseutu.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##div[id^=article-ad]
-enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotikulmilta.fi,kotilappi.fi,kuhmolainen.fi,kuusamonseutu.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi#?#.widget_text:has([data-ad-unit-id])
+enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##div[id^=article-ad]
+enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi#?#.widget_text:has([data-ad-unit-id])
 enontekionsanomat.fi,inarilainen.fi,kainuunsanomat.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,luoteis-lappi.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##.dls-loaded
-epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#article > div[class]:has-text(Mainos (sisältö jatkuu alla))
-epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi##._3GUme._1hdYd:has(a[href^="https://pointti.fi"])
-epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi#?#.voice-no-read:has-text(Mainos päättyy)
-epari.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#div[class] > div[id^="sas_"] + div:has-text(Mainos)
+jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#div[class] > div[id^="sas_"] + div:has-text(Mainos)
 episodi.fi##.bg-viaplay-dark-gray
 eralehti.fi##.DfpAdSlot_dfp-ad-slot
 eralehti.fi##.Index_native-ads
@@ -472,6 +466,9 @@ iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhaj
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.right-now-widget__item--commercial
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi#?#.m-contentListItemThumb.-level-1:has-text(Mainos)
 ilkkapohjalainen.fi##div[data-lazy-ad-unit-id]
+ilkkapohjalainen.fi,jarviseutu-lehti.fi#?#.voice-no-read:has-text(Mainos päättyy)
+ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi##._3GUme._1hdYd:has(a[href^="https://pointti.fi"])
+ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#article > div[class]:has-text(Mainos (sisältö jatkuu alla))
 ilmastointilaitteet.com##.boxi
 iltapulu.fi##.newsbox:has(> [id^=div-gpt-ad])
 iltapulu.fi##div[class=footer-ylempi]
@@ -651,18 +648,8 @@ livetaajuus.fi##.middle-ad-container
 lomamatkalle.fi##.ennensisaltoa
 lomamatkalle.fi##.lmbanner
 lottoarvonta.com###bottom-offer
-lounaspori.fi##.type-banner
-ls24.fi##.article-block__list-article:has(a[href^="https://ls24.fi/kaupallinen-yhteistyo/"])
-ls24.fi##.article-blocks-2022-divider:not(.article-block--2022 + .article-blocks-2022-divider)
-ls24.fi##.asuntorauma-promo
-ls24.fi##.js-article-block:has(span[class$=commercial-label])
-ls24.fi##.js-article-block:has(span[class$=commercial-label]) + .article-blocks-2022-divider
-ls24.fi##.page-section--commercial
-ls24.fi##.palvelupankki-banner
-ls24.fi##aside[class=sidebar] > [class^="advertisement ad advertisement"] + [class^="advertisement ad advertisement"] + section[class^=article-list]:last-of-type
-ls24.fi##div[class^=advertisement]
-ls24.fi#?#.article-list--article:has-text(Kaupallinen yhteistyö)
-ls24.fi#?#section[class="page-section page-section--no-main-article"]:has-text(Kaupallinen yhteistyö)
+! https://www.sv24.fi/lounaspori-6.322.bc78200a87 - Iframe ads
+lounaspori.fi##.lounaspori-ap-spot
 lumipallo.fi##div.row:not(:has(article)):has([src="//s1.adform.net/banners/scripts/adx.js"])
 luukku.com###banneri_yla
 luukku.com##.banner.content
@@ -1037,6 +1024,7 @@ ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
 ts.fi#?#.tsv3-c-common-elementcollection:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
 ts.fi#?#.tsv3-c-common-elementlist--layout-mobiili_etusivu:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
 turuntienoo.fi###main > .ads
+tvmatsit.com##.annons
 tvmatsit.com##.panorama-wrapper
 tyyliniekka.fi#?#.tdc-row.stretch_row_1400.td-stretch-content:has-text(MAINOS:)
 ulvilanseutu.fi###right-sidebar
@@ -1445,12 +1433,9 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 ! To fix the opening of kauppa.dna.fi product links on hintaseuranta.fi
 @@||track.adform.net^*https://kauppa.dna.fi/tuote/$popup,domain=hintaseuranta.fi
 
-@@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
-@@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@||googletagmanager.com/gtm.js?$third-party,domain=elisa.fi
 ! Redundant? Videos seem to work on gamereactor.fi
 ! @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gamereactor.fi
-@@||leiki.com$domain=etuovi.com|iltalehti.fi
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
 @@||seiska.b-cdn.net/Mainos.mp4$media,domain=seiska.fi
 @@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js

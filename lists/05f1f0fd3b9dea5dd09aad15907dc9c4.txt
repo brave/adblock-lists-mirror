@@ -2055,3 +2055,11 @@ bmamag.com##+js(rmnt, script, advanced_ads_check_adblocker)
 smashkarts.io##+js(set, adblockDetected, false)
 smashkarts.io#@##AdBanner
 smashkarts.io#@##Adbanner
+
+! https://github.com/uBlockOrigin/uAssets/issues/28981
+rlxoff.com##+js(aeld, DOMContentLoaded, Popunder)
+rlxoff.com##div[id^="ad-"]
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1lk4rc1/ublock_origin_doesnt_block_ads/
+||demonicscans.org/img/wsup.gif
+demonicscans.org##div[id^="pf-"]

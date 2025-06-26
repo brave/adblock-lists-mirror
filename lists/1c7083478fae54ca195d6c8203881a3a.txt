@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.4.4
+! Version: 4.1.4.5
 
 ! General
 
@@ -638,9 +638,12 @@ inman.com##div.content-wrap > div:not([class]):style(margin: 5% !important)
 inman.com##.ism-article-block
 ||cloudfront.net/imonkey-blog-*.min.js$script,domain=insidermonkey.com
 ipsoa.it##+js(ra, style, div.paywall)
+||jerseyeveningpost.com$inline-script
 ||jewishinsider.com/wp-content/themes/jewish-insider/js/owl.carousel.min.js$script,~third-party
 ||jornaldocomercio.com/*/json/paywall.json$xmlhttprequest,~third-party
 jornaljoca.com.br##+js(acis, $, paywall)
+kommersant.ru##+js(rc, doc--regwall, article.doc--regwall, stay)
+kommersant.ru##section.regwall
 kunststoffe.de,qz-online.de##+js(ra, style, div[style^="filter: blur"], stay)
 kunststoffe.de,qz-online.de##dialog#paywall-dialog
 ||lapost.com$inline-script

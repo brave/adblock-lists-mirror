@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.4.3
+! Version: 4.1.4.4
 
 ! General
 
@@ -311,6 +311,8 @@ scientificamerican.com##+js(cookie-remover, article_meter)
 scotsman.com,yorkshirepost.co.uk##+js(rc, premium|no-entitlement, div.premium.no-entitlement)
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-user-messaging-main-bundle.js$script,~third-party
+||sfstandard.com/zephr/$xmlhttprequest,~third-party
+||sfstandard.com/api/content/decision/$xmlhttprequest,~third-party
 sfstandard.com##+js(cookie-remover, zephr-session)
 sfstandard.com##+js(acis, localStorage)
 sfstandard.com##+js(acis, sessionStorage)
@@ -560,6 +562,8 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 ||flowerstreatment.com^$third-party
 ||guidecent.com^$script,third-party
 ||memberstack.com/scripts/v*/memberstack.js$script,third-party
+/wp-content/plugins/incognito_dectector/$script,~third-party
+
 ||jeuneafrique.com/cdn-cgi/trace$xmlhttprequest,~third-party
 ||assets.guim.co.uk/assets/SignInGate*.js$script,domain=theguardian.com
 theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]

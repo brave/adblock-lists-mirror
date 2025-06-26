@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 22:16:49 +0300
+! Last modified: Thu, 26 Jun 2025 22:44:23 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -123,7 +123,7 @@ aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvle
 aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##div[class] > a[href^="https://tilaa.sanoma.fi/"]
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi#?#article[class="list bg-positive w-full mb-16"]:has-text(Mainos)
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi#?#div[class|="ab-test-laneitem"]:has(.list__heading:has-text(Mainos))
-aamuposti.fi,esaimaa.fi,ess.fi,forssanlehti.fi,hameensanomat.fi,hankasalmensanomat.fi,heinavedenlehti.fi,helsinginuutiset.fi,iisalmensanomat.fi,ita-savo.fi,itahame.fi,joroistenlehti.fi,joutsenolehti.fi,juvanlehti.fi,kaakonkulma.fi,kangasniemenlehti.fi,karkkilantienoo.fi,keski-hame.fi,keski-uusimaa.fi,keskilaakso.fi,koillis-savo.fi,kouvolansanomat.fi,ksml.fi,kymensanomat.fi,lansi-savo.fi,lansi-uusimaa.fi,lansisaimaa.fi,lansivayla.fi,lappeenrannanuutiset.fi,laukaa-konnevesi.fi,lopenlehti.fi,loviisansanomat.fi,luumaenlehti.fi,mantsalanuutiset.fi,mattijaliisa.fi,miilu.fi,mikkelinkaupunkilehti.fi,nurmijarvenuutiset.fi,pieksamaenlehti.fi,pielavesi-keitele.fi,pitajalainen.fi,pitajanuutiset.fi,puruvesi.net,pyhtaanlehti.fi,sampolehti.fi,savonsanomat.fi,seutuneloset.fi,sipoonsanomat.fi,sisa-savolehti.fi,sisasuomenlehti.fi,sjl.fi,soisalonseutu.fi,tamperelainen.fi,tollotin.fi,turkulainen.fi,uusilahti.fi,uusimaa.fi,uutis-jousi.fi,uutisvuoksi.fi,vantaansanomat.fi,viikkosavo.fi,viispiikkinen.fi,viitasaarenseutu.fi,warkaudenlehti.fi##[data-info-container-text^="MAINOS"]
+aamuposti.fi,esaimaa.fi,ess.fi,forssanlehti.fi,hameensanomat.fi,hankasalmensanomat.fi,heinavedenlehti.fi,helsinginuutiset.fi,iisalmensanomat.fi,ita-savo.fi,itahame.fi,joroistenlehti.fi,joutsenolehti.fi,juvanlehti.fi,kaakonkulma.fi,kangasniemenlehti.fi,karkkilalainen.fi,keski-hame.fi,keski-uusimaa.fi,keskilaakso.fi,koillis-savo.fi,kouvolansanomat.fi,ksml.fi,kymensanomat.fi,lansi-savo.fi,lansi-uusimaa.fi,lansisaimaa.fi,lansivayla.fi,lappeenrannanuutiset.fi,laukaa-konnevesi.fi,lopenlehti.fi,loviisansanomat.fi,luumaenlehti.fi,mantsalanuutiset.fi,mattijaliisa.fi,miilu.fi,mikkelinkaupunkilehti.fi,nurmijarvenuutiset.fi,pieksamaenlehti.fi,pielavesi-keitele.fi,pitajalainen.fi,pitajanuutiset.fi,puruvesi.net,pyhtaanlehti.fi,sampolehti.fi,savonsanomat.fi,seutuneloset.fi,sipoonsanomat.fi,sisa-savolehti.fi,sisasuomenlehti.fi,sjl.fi,soisalonseutu.fi,tamperelainen.fi,tollotin.fi,turkulainen.fi,uusilahti.fi,uusimaa.fi,uutis-jousi.fi,uutisvuoksi.fi,vantaansanomat.fi,viikkosavo.fi,viispiikkinen.fi,viitasaarenseutu.fi,warkaudenlehti.fi##[data-info-container-text^="MAINOS"]
 aamuset.fi##div[class$=nativead]
 aasiakas.net##.jp_adsense_ad_container
 adressit.com###petition_page_top_ad
@@ -256,9 +256,9 @@ duodecimlehti.fi##.dl-fixed-banner
 duunitori.fi##.js-fragment-web-lazy_carousel
 edgeski.fi##._ning_outer
 edgeski.fi#?#.widget_text:has-text(Mainos)
-edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv
-edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_content
-edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_side
+edgeski.fi,foregolf.fi,rodeosnow.fi##.adv
+edgeski.fi,foregolf.fi,rodeosnow.fi##.adv_content
+edgeski.fi,foregolf.fi,rodeosnow.fi##.adv_side
 edgeski.fi,foregolf.fi,rodeosnow.fi##[id|=adni_widgets]
 edukas.fi##.compareGoogleCell
 eeva.fi##.swiper-slide:has(div[class*="ContentCard__AdLabel"])
@@ -344,7 +344,6 @@ fonecta.fi##[class*=adBox]
 fonecta.fi##div[class^=AdBlock_adContainer]
 foorumi.eu,foorumimme.com,juttelu.com,keskustelu.info,munfoorumi.com,munpalsta.net###page-body > div[style="width:728px; margin:0 auto; padding:10px 0;"]
 foreca.fi##div[id|=inline-banner-mobi]
-foreigner.fi#?#article:has-text(SPONSORED)
 fuengirola.fi##.elementor-element-228d8bca
 fuengirola.fi##.elementor-element-24aa8e2
 fuengirola.fi##.elementor-element-9e2ec43
@@ -352,7 +351,7 @@ fuengirola.fi##.elementor-widget-container > [href^="https://northernmarketing.f
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
 fuengirola.fi,kaaoszine.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
 futisfani.com##.futis-sticky-footer[data-futis-trackbid]
-futisfani.com,kiekkofani.com,kiinteistoposti.fi,penkkiurheilu.com,projektiuutiset.fi,uutisankka.com##.adv-link
+futisfani.com,kiekkofani.com,penkkiurheilu.com,projektiuutiset.fi,uutisankka.com##.adv-link
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.advr_box
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.pum-overlay
@@ -521,13 +520,10 @@ kaksplus.fi##li.grid__item:has([id^=dfp__native-card])
 kaksplus.fi#?##huomiotekstiotsikko:has-text(Mainos)
 kaksplus.fi#?#.wp-block-otavamedia-section-management:has-text(Kaupallinen yhteistyö)
 kaksplus.fi,metsalehti.fi,uutisankka.com##.advertisement
-kalamies.com##.custom_banners_big_linkbefore-content
-kalamies.com##.custom_banners_big_linkwidget
-kalamies.com##[class^=custom_banners_big_linkcontent]
-kalamies.com##[id^="_ning_zone_"]
-kalamies.com#?#.widget:has-text(Mainos):not(:has([href="https://kalamies.com/tilaa/"]))
 kalastus.com###mini-panel-autodoc_150x50
 kalastus.com##.gam-holder
+kalastuslehti.fi##._ning_outer
+kalastuslehti.fi#?#.widget_media_image:has-text(– Mainos –)
 kaleva.fi###puff-container
 kaleva.fi##.m-contentListItemThumb:has(> div > div > div[class^=m-contentListItemThumb__advertisement])
 kaleva.fi##.m-managedListing__column:has(> div > div > div > div[class^=m-contentListItem__advertisement])
@@ -579,9 +575,6 @@ keskustelu.suomi24.fi##div[class^=RightSidePanel__AdContainer]
 kiakkoradio.fi##[class|="wp-block-ultimate-post-post-list"]:has(.ultp-cat-mainos)
 kiekkofani.com##.kiekk-footer-sticky[data-kiekk-trackbid]
 kiekkofani.com,penkkiurheilu.com##[style^="text-align:center;margin-left:auto !important;margin-right:auto !important;height: 420px; margin-top:60px"]
-kiinteistoposti.fi##.kiint-adlabel
-kiinteistoposti.fi##.kiint-widget
-kiinteistoposti.fi#?#.featuredpost:has(.gb-post-grid-section-title:has-text(Kaupallinen yhteistyö))
 kilokalori.net##.hidden-print.panel-default.panel:has(kc-ad)
 kilokalori.net##kc-ad
 klangi.fi,paakallo.fi,suomenautolehti.fi##.banner
@@ -839,8 +832,9 @@ pointti.fi##.paraati
 polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
 pottupellossa.fi##.widget_media_image > a[href="http://dimex.fi"]
 pottupellossa.fi#?#.widget_text:has-text(Mainos)
+projektiuutiset.fi##.article-widgets:has(a[href^="https://projektiuutiset.fi/kaupallinen-yhteistyo"])
+projektiuutiset.fi##.nostoalue:has(a[href^="https://projektiuutiset.fi/kaupallinen-yhteistyo"])
 projektiuutiset.fi##.proje-widget
-projektiuutiset.fi##.uusi-ylabanneri
 proshop.fi##.site-background-cta[data-action="campaignClick"]
 pt-media.org###custom_html-63
 pt-media.org###text-32
@@ -1211,7 +1205,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||aff.carvertical.com/sdk.js$script,domain=koeajolle.com
 ||affiliate.guts.com^$third-party
 ||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
-||ap-online.media.fi/scripts/eneo*.dll$script,domain=aamuposti.fi|helsinginuutiset.fi|karkkilantienoo.fi|keski-uusimaa.fi|lansi-uusimaa.fi|lansivayla.fi|lappeenrannanuutiset.fi|lopenlehti.fi|loviisansanomat.fi|mantsalanuutiset.fi|nurmijarvenuutiset.fi|pyhtaanlehti.fi|sipoonsanomat.fi|tamperelainen.fi|turkulainen.fi|uusimaa.fi|vantaansanomat.fi|vihdinuutiset.fi
+||ap-online.media.fi/scripts/eneo*.dll$script,domain=aamuposti.fi|helsinginuutiset.fi|karkkilalainen.fi|keski-uusimaa.fi|lansi-uusimaa.fi|lansivayla.fi|lappeenrannanuutiset.fi|lopenlehti.fi|loviisansanomat.fi|mantsalanuutiset.fi|nurmijarvenuutiset.fi|pyhtaanlehti.fi|sipoonsanomat.fi|tamperelainen.fi|turkulainen.fi|uusimaa.fi|vantaansanomat.fi|vihdinuutiset.fi
 ||apps.sandviks.com/apix?x-method=ElementService.selectAdvertiserElement$script,domain=vau.fi
 ||auto1.fi^$third-party
 ||bittiraha.fi/app/themes/bittiraha-theme/assets/images/bittiraha_coinmotion_banner$image
@@ -1249,10 +1243,9 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||kake.fi^$third-party
 ||kaksplus.fi/upotukset/hintaopas^
 ||kaksplus.fi/wp-json/feeds/ad-feed$xmlhttprequest,domain=keskustelu.kaksplus.fi
-||kalamies.com/?_dnid=$subdocument,domain=kalamies.com
+||kalastuslehti.fi/?_dnid=$subdocument,domain=kalastuslehti.fi
 ||kampanjat.is.fi/alennuskoodit-promo/index.html$subdocument,domain=is.fi
 ||karjalainen.fi/images/banners/kiinnostuitko$image,domain=karjalainen.fi
-||kelkkalehti.com/bannerit/$image,domain=kelkkalehti.com
 ||keskustelu.pakkotoisto.com/bannerit/$image,domain=keskustelu.pakkotoisto.com
 ||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif$image,domain=kinuskikissa.fi
 ||kiuruvesilehti.fi/wp-content/uploads/*kampanja_banneri.png$image,domain=kiuruvesilehti.fi
@@ -1278,6 +1271,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||nostemedia.bbvms.com^$script,third-party
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
+||projektiuutiset.fi/*banner$image,domain=projektiuutiset.fi
 ||proshop.fi/Content/*/leadFamly.bundle.js$script,domain=proshop.fi
 ||rakentaja.fi/kuvat/esitykset/bannerit/*_Keittiomaailma-schibsted-*-kampanja$image,domain=rakentaja.fi
 ||rantapallo.fi^$third-party

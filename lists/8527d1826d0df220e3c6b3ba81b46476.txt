@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 21:47:25 +0300
+! Last modified: Thu, 26 Jun 2025 22:16:49 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -123,7 +123,7 @@ aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvle
 aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##div[class] > a[href^="https://tilaa.sanoma.fi/"]
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi#?#article[class="list bg-positive w-full mb-16"]:has-text(Mainos)
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi#?#div[class|="ab-test-laneitem"]:has(.list__heading:has-text(Mainos))
-aamuposti.fi,esaimaa.fi,ess.fi,forssanlehti.fi,hameensanomat.fi,hankasalmensanomat.fi,heinavedenlehti.fi,helsinginuutiset.fi,iisalmensanomat.fi,ita-savo.fi,itahame.fi,joroistenlehti.fi,joutsenolehti.fi,juvanlehti.fi,kaakonkulma.fi,kangasniemenlehti.fi,karkkilantienoo.fi,keski-hame.fi,keski-uusimaa.fi,keskilaakso.fi,koillis-savo.fi,kouvolansanomat.fi,ksml.fi,kymensanomat.fi,lansi-savo.fi,lansi-uusimaa.fi,lansisaimaa.fi,lansivayla.fi,lappeenrannanuutiset.fi,laukaa-konnevesi.fi,lopenlehti.fi,loviisansanomat.fi,luoteis-uusimaa.fi,luumaenlehti.fi,mantsalanuutiset.fi,mattijaliisa.fi,miilu.fi,mikkelinkaupunkilehti.fi,nurmijarvenuutiset.fi,pieksamaenlehti.fi,pielavesi-keitele.fi,pitajalainen.fi,pitajanuutiset.fi,puruvesi.net,pyhtaanlehti.fi,sampolehti.fi,savonsanomat.fi,seutuneloset.fi,sipoonsanomat.fi,sisa-savolehti.fi,sisasuomenlehti.fi,sjl.fi,soisalonseutu.fi,tamperelainen.fi,tollotin.fi,turkulainen.fi,uusilahti.fi,uusimaa.fi,uutis-jousi.fi,uutisvuoksi.fi,vantaansanomat.fi,viikkosavo.fi,viispiikkinen.fi,viitasaarenseutu.fi,warkaudenlehti.fi##[data-info-container-text^="MAINOS"]
+aamuposti.fi,esaimaa.fi,ess.fi,forssanlehti.fi,hameensanomat.fi,hankasalmensanomat.fi,heinavedenlehti.fi,helsinginuutiset.fi,iisalmensanomat.fi,ita-savo.fi,itahame.fi,joroistenlehti.fi,joutsenolehti.fi,juvanlehti.fi,kaakonkulma.fi,kangasniemenlehti.fi,karkkilantienoo.fi,keski-hame.fi,keski-uusimaa.fi,keskilaakso.fi,koillis-savo.fi,kouvolansanomat.fi,ksml.fi,kymensanomat.fi,lansi-savo.fi,lansi-uusimaa.fi,lansisaimaa.fi,lansivayla.fi,lappeenrannanuutiset.fi,laukaa-konnevesi.fi,lopenlehti.fi,loviisansanomat.fi,luumaenlehti.fi,mantsalanuutiset.fi,mattijaliisa.fi,miilu.fi,mikkelinkaupunkilehti.fi,nurmijarvenuutiset.fi,pieksamaenlehti.fi,pielavesi-keitele.fi,pitajalainen.fi,pitajanuutiset.fi,puruvesi.net,pyhtaanlehti.fi,sampolehti.fi,savonsanomat.fi,seutuneloset.fi,sipoonsanomat.fi,sisa-savolehti.fi,sisasuomenlehti.fi,sjl.fi,soisalonseutu.fi,tamperelainen.fi,tollotin.fi,turkulainen.fi,uusilahti.fi,uusimaa.fi,uutis-jousi.fi,uutisvuoksi.fi,vantaansanomat.fi,viikkosavo.fi,viispiikkinen.fi,viitasaarenseutu.fi,warkaudenlehti.fi##[data-info-container-text^="MAINOS"]
 aamuset.fi##div[class$=nativead]
 aasiakas.net##.jp_adsense_ad_container
 adressit.com###petition_page_top_ad
@@ -555,7 +555,7 @@ kauppalehti.fi###coral-talk + div[class]:has(a[href^="https://www.kauppalehti.fi
 kauppalehti.fi##div[class][width]:has(> .ad)
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) [class][data-test] ~ div[class]:has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) a[href^="https://www.kauppalehti.fi/kumppanisisallot/"][target="_self"]
-kauppalehti.fi,mediuutiset.fi##aside > div[class] > a[href*="/kumppanisisallot/"]
+kauppalehti.fi##aside > div[class] > a[href*="/kumppanisisallot/"]
 kauppalehti.fi,talouselama.fi##div[class]:has(> .lazyload-wrapper > .etua-react-embed)
 kauppojen-aukioloajat.fi###search-top-wide-ad
 kauppojen-aukioloajat.fi###specific-bottom-rectangle-ad
@@ -697,11 +697,6 @@ mediaviikko.fi##a[href="https://mailapro.fi/"]
 mediaviikko.fi##a[href="https://urheilutuet.fi/"]
 mediaviikko.fi##a[href="https://vesikourut.fi/"]
 mediaviikko.fi##amp-layout[amp-access^="popups."][role=button]
-mediuutiset.fi##aside > div[class] > a[href="/kumppanisisaltoa"]
-mediuutiset.fi##div[class]:has(> a[href="/kumppanisisaltoa"])
-mediuutiset.fi##div[width]:has([id|="almad"]:not([id|="almad-mobileParade"]))
-mediuutiset.fi#?#body:not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
-mediuutiset.fi#?#body:not(.is-style-kumppanisisallot):not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
 meillakotona.fi##div[class^="transitionSlot__component"]:has(div[class^="feedItem__commercial"])
 meillakotona.fi##div[class^=ContentFlowBlock__CardContainer]:has(div[class*=ContentCard__AdLabel])
 meillakotona.fi##div[class^=NativeAdSpotlight__Component]
@@ -739,8 +734,6 @@ mobiili.fi#?#.fullarticle:has-text(Sponsoroitu)
 mobiili.fi#?#.fullarticle:has-text(src="https://mobiili.fi/aaa.png")
 mobiili.fi#?#div[style="float:left; width:100%; text-align:center; padding:0px; margin-bottom:17px;"]:has-text(MAINOS)
 mobiili.fi#?#p:has(small:has-text(Mainos:))
-monster.fi##.block--monsterfi-ads
-monster.fi##.epiq-landing-row--frontpage-leaderboard-ad
 moottori.fi###tori.article-car-list
 moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
 moottori.fi##.container.g-bg.ads.sidebar.item
@@ -883,10 +876,6 @@ retkilehti.fi##.category-mainos
 retkilehti.fi##div[id|=retki][style]
 retkilehti.fi,riistalehti.fi##body.home div[style^="margin-left: auto; margin-right: auto; text-align: center;"] + .wp-block-separator
 retkilehti.fi,riistalehti.fi##div[style^="margin-left: auto; margin-right: auto; text-align: center;"] .is-external-link
-riemurasia.net###PowerRectangle
-riemurasia.net###PowerSkyscraper
-riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
-riemurasia.net##a[rel^="sponsored"]
 riimihaku.fi##.top-banner
 riistalehti.fi##.riist-content
 riistalehti.fi##div[id|=riist][style*="text-align: center"]
@@ -1204,7 +1193,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /https:\/\/[www]{3}\.v{0}t{1}f{0}e{1}f{0}l{1}f{0}s{1}f{0}g{0}u{1}\.fi\/[\w]{9}-[\w]{7}\?[\w]{4}\+[\w]{6}\+[\w]{9}\+[\w]{4}\+[\w]{5}\+[\w%\d]{19}/$~third-party,xmlhttprequest
 /io-tech\.fi\/.*\/[0-9a-f]{32}\./$image,domain=io-tech.fi
 /macro.adnami.io$script,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
-/neoproxy.dll$xmlhttprequest,domain=pkank.fi
+/neoproxy.dll$domain=pkank.fi|sv24.fi|ulvilanseutu.fi|uutisrauma.fi
 /pop_media_*_fi_inarticle$script,domain=episodi.fi|rumba.fi|tilt.fi
 /prerolls/*.mp4$domain=gamereactor.fi
 ! /telsu\.fi\/(?![^>]*\.\w{3}$).+/$image,domain=telsu.fi
@@ -1275,7 +1264,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||kuvake.net/js/bannerloader.js$script,domain=kuvake.net
 ||laitilansanomat.fi^*/gallery/mainos*/$image,domain=laitilansanomat.fi
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
-||m.riemurasia.net/reklaami.php$subdocument,domain=m.riemurasia.net
 ||matkaendurot.net/images/*banner$domain=matkaendurot.net
 ||med.etoro.com^$domain=ykkoslohja.fi
 ||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg$image
@@ -1290,14 +1278,12 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||nostemedia.bbvms.com^$script,third-party
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
-||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
 ||proshop.fi/Content/*/leadFamly.bundle.js$script,domain=proshop.fi
 ||rakentaja.fi/kuvat/esitykset/bannerit/*_Keittiomaailma-schibsted-*-kampanja$image,domain=rakentaja.fi
 ||rantapallo.fi^$third-party
 ||recommendations.asunnot.oikotie.fi^$subdocument
 ||retkilehti.fi^*/Calazo_Banner_$image,domain=retkilehti.fi
 ||revimages.motouutiset.fi^$third-party
-||riemurasia.net/js/ads.js$script
 ||riistalehti.fi^*/Haix-Nature-Camo-$image,domain=riistalehti.fi
 ||riistalehti.fi^*_Banner_Retki_Nature_Camo_$image,domain=riistalehti.fi
 ||script.ilcdn.fi/etua-lainalaskuri/etua-lainalaskuri.min.js$script,domain=iltalehti.fi
@@ -1382,7 +1368,7 @@ iltalehti.fi#?#div.container:not(.sub-category-unikulma):not(.sub-category-rahap
 iltalehti.fi#?#div.layout:not(.sub-category-unikulma):not(.sub-category-rahapuhe):not(.sub-category-santander):not(.sub-category-miehen-terveys):not(.sub-category-kehon-hyvinvointi-ja-vitaepro):not(.sub-category-unijaterveys):not(.sub-category-huippukivaa-seksia):not(.sub-category-puhti):not(.sub-category-hyvinvointivinkit):not(.sub-category-hetki):not(.sub-category-kaalimato):not(.sub-category-oslo-skin-lab):not(.sub-category-kodin-siivousvinkit):not(.sub-category-qled-tv):not(.sub-category-jatevesiratkaisut):not(.sub-category-bluestep):not(.sub-category-sortter-reilua-lainavertailua):not(.sub-category-rahalaitos):not(.sub-category-aitien-keittiosta):not(.sub-category-koko-kansan-autokauppa):not(.sub-category-kuljetusten-kestava-kehitys):not(.sub-category-kestavat-liikkuvuusratkaisut):not(.sub-category-hintaopas):not(.sub-category-boltworks):not(.sub-category-samsung-tv):not(.sub-category-reseptit):not(.sub-category-terveystalo):not(.sub-category-etuafi-lainanottajan-asialla):not(.sub-category-vinkit-yrityslainaan) div.card:has(> .full-article:has-text(Kaupallinen yhteistyö))
 
 ! Temporal compatibility fixes for Vivaldi / Brave: https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/378
-arvopaperi.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##[class*="p2m385-"]
+arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##[class*="p2m385-"]
 
 ! Sanoma Oyj video ads
 ||com-wakedynamite-production-publish.s3.amazonaws.com/publish/$media
@@ -1434,7 +1420,7 @@ kampanjat.hs.fi#@#div[class] > a[href^="https://tilaa.sanoma.fi/"]
 @@||click.redditmail.com^$~third-party
 
 ! Lowe's list exception, cookie dialog won't open
-@@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mediuutiset.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
+@@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
 
 ! https://www.nettiauto.com/advSearch.php
 classic.nettiauto.com,www.nettiauto.com#@##adv

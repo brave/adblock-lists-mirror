@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202506262344
+! Version: 202506270036
 ! Title: EasyList
-! Last modified: 26 Jun 2025 23:44 UTC
+! Last modified: 27 Jun 2025 00:36 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -791,6 +791,10 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
+! Block parked domains. Sometimes it is not immediately obvious that it is dead
+! https://ww7.linkviet.xyz/?usid=23&utid=10895304252
+/?usid=*&utid=$document
 ! strat-talk.com forum and others
 /render-ad.php?ad_id=
 /render-sidebar-ad.php?ad_id=
@@ -14985,6 +14989,10 @@ _800x80_
 ##.newspack_global_ad_new
 ##.widget_newspack-ads-widget
 ##broadstreet-zone-container
+! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
+! Block parked domains. Sometimes it is not immediately obvious that it is dead
+! https://rawasiansex.com/
+###fallbackTerms.fallback-term-holder
 ! baits
 ##.Ad-Container:not(.adsbygoogle)
 ##.ad-area:not(.text-ad)
@@ -16440,6 +16448,7 @@ browsershots.org#@#.advert_area
 ||88eq7spm.de^
 ||892azz.xyz^
 ||8ab16250fe.com^
+||8bfc9cbcbe.com^
 ||8d96fe2f01.com^
 ||8da1db73e4.com^
 ||8db4fde90b.com^
@@ -27741,6 +27750,7 @@ browsershots.org#@#.advert_area
 ||hardtofind-hell.pro^
 ||haremarianne.com^
 ||haresmodus.com^
+||harlockdazes.top^
 ||harmonious-neck.pro^
 ||harpoonsnits.top^
 ||harpyiajumbled.top^
@@ -32306,6 +32316,7 @@ browsershots.org#@#.advert_area
 ||mericantpastellih.org^
 ||merig.xyz^
 ||meristana.pro^
+||meritsbunn.top^
 ||merterpazar.com^
 ||merzqdnhuli.com^
 ||meshsensorcuriosity.com^
@@ -34733,6 +34744,7 @@ browsershots.org#@#.advert_area
 ||ortuhaxjansbr.store^
 ||ortwaukthwaeals.com^
 ||oruxdwhatijun.info^
+||orvbrtursxc.com^
 ||orziuodb.com^
 ||osadooffinegold.com^
 ||osakadoris.top^
@@ -37210,6 +37222,7 @@ browsershots.org#@#.advert_area
 ||qwikln.com^
 ||qwjxcvdzrafum.club^
 ||qwlbvlyeqlzjb.top^
+||qwlbvlyeqlzmw.top^
 ||qwoyfys.com^
 ||qwpsgqyzrzcr.life^
 ||qwqwthsebfyd.com^
@@ -43873,6 +43886,7 @@ browsershots.org#@#.advert_area
 ||wllebozbzjlbz.top^
 ||wllebozbzjljm.top^
 ||wllebozbzjybk.top^
+||wlmzymwbamkjl.top^
 ||wlrkcefll.com^
 ||wlvkzwqmyjkmw.top^
 ||wlvkzwqmyjwoz.top^
@@ -44626,6 +44640,7 @@ browsershots.org#@#.advert_area
 ||ykkvwafpncdytd.com^
 ||ykleidzsileck.today^
 ||ykmyxytsgwitxcg.com^
+||ykrsorluybndt.website^
 ||yl-sooippd.vip^
 ||yladihsmkopov.xyz^
 ||ylcqnblukbp.com^
@@ -44656,6 +44671,7 @@ browsershots.org#@#.advert_area
 ||ynrije.com^
 ||yntherplunge.com^
 ||ynurfigldblbt.online^
+||ynwxgebahtckz.space^
 ||yoads.net^
 ||yoc-adserver.com^
 ||yockingdey.shop^
@@ -45077,6 +45093,7 @@ browsershots.org#@#.advert_area
 ||zsjvzsm-s.fun^
 ||zsmsuwmifkrqv.online^
 ||zsozgqchlueqp.world^
+||zspmwnsrxfdk.com^
 ||zsumhsdss.com^
 ||zsxeymv.com^
 ||ztctourupmhin.today^

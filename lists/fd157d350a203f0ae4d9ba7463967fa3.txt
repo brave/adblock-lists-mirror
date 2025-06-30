@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ncGiWmo2Z5ukWuAwSWM4XA
-! Version: 202506301541
+! Checksum: U+g/QcZwXS31keO48cCpuw
+! Version: 202506301611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jun 2025 15:41 UTC
+! Last modified: 30 Jun 2025 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16858,7 +16858,6 @@ dni.ru##[class*="container"][class*="partner"]
 prokuzbass.ru##[class*="container-ad"]
 detaly.co.il##[class*="container_ads"]
 pravda.if.ua##[class*="footer"] > [class*="menu-section footer-"]:last-child
-cq.ru##[class*="grid"] > a[href*="playerok"]
 forum.guns.ru##[class*="hide"][class$="ban"]
 appleinsider.ru##[class*="home-credit"]
 puerrtto.livejournal.com##[class*="kupibilet"]
@@ -20205,6 +20204,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /*.php?uid=$script,domain=animevost.one|animevost.org|animevost.top|vost.pw
 /*.php|$subdocument,domain=hackware.ru|kali.tools
 /*.php|$third-party,subdocument,domain=rutr.life|rutracker.lib|rutracker.net|rutracker.org
+/*/*/|$script,domain=lenkino.adult|yalenkino.org
 /*/mtm.$domain=inforeactor.ru|nation-news.ru|nevnov.ru|newinform.com|polit.info|politexpert.net|politros.com|riafan.ru|rueconomics.ru|slovodel.com
 /*_book.js$domain=klex.ru|koob.ru
 /*aHR0c$third-party,domain=www.mp4upload.com
@@ -24132,6 +24132,7 @@ avtorambler.com,rambler.ru##.adfox-background-container
 championat.com,championat.ru##.adv-mark
 lenta.ru##.advertisable-plate__erid
 gazeta.ru##.b_nav > a[target="_blank"]
+gazeta.ru##.b_rightcol-sticky > div[id]
 gazeta.ru##.b_telegram
 championat.com,championat.ru,gazeta.ru,lenta.ru##.banner
 lenta.ru##.banner + div[class][id]
@@ -24242,6 +24243,7 @@ avtorambler.com,rambler.ru##rambler-info-banner
 ||kraken.rambler.ru^$domain=~kraken.rambler.ru
 ||lenta.ru/fenwick
 ||rambler.ru/*/okko-metrics
+||rcm.rambler.ru/*/widget?adtech_uid=
 ||rcmjs.rambler.ru/static/rcmw/rcmw.*.horizontal.
 ||rcmjs.rambler.ru/static/recommender.js
 ||ssp.rambler.ru^$domain=~ssp.rambler.ru

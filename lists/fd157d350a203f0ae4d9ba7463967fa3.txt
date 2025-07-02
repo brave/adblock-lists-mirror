@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v0FxxFTDG5qDyB48YUHV0Q
-! Version: 202507021111
+! Checksum: ner8FER0UwIb2XTgU5J67g
+! Version: 202507021131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Jul 2025 11:11 UTC
+! Last modified: 02 Jul 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23348,6 +23348,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
+||websdr.su^$~document,~third-party
 ! howdyho - набор правил для проверки таймаута рецидивов
 @@||yandex.ru/ads/meta/*?target-ref=$xmlhttprequest,domain=howdyho.net|howdyho.pro
 @@||yandex.ru/ads/system/context.js|$script,domain=howdyho.net|howdyho.pro
@@ -23366,6 +23367,8 @@ flightsim.su###tie-popup-adblock {remove:true;}
 freesoft.ru###downloadAdModal {remove:true;}
 freesoft.ru###error.modal {remove:true;}
 growhow.in.ua###custom-background-css {remove:true;}
+lenta.*##.topic-body__content> .box-external-video:last-child {remove:true;}
+lenta.*##.topic-footer > .box-external-video {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
 vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
@@ -23396,7 +23399,7 @@ freesoft.ru##.modal-backdrop
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
-fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
+fonmod.com,ritsatv.ru,websdr.su##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
@@ -23855,12 +23858,17 @@ metaratings.ru##.header-bk
 metaratings.ru##.users-preferences
 metaratings.ru##[data-type*="banner"]
 metaratings.ru##a[class*="Header_headerPromo"]
+metaratings.ru##a[href*="//dzen.ru/"]
 metaratings.ru##a[href^="/promo"]
+metaratings.ru##div[class^="BonusesItem_"]
 metaratings.ru##div[class^="BookmakersRating"]
+metaratings.ru#?#div[class^="Button_button_"]:-abp-has(> [class*="Button_green"])
 metaratings.ru##div[class^="Catfish_catfish"]
 metaratings.ru##div[class^="DefaultType_banner"]
 metaratings.ru##div[class^="ExternalWidget_"]
 metaratings.ru##div[class^="HomeBranding_mainBackground"]
+metaratings.ru##div[class^="MatchCarousel_"]
+metaratings.ru##div[class^="SportHome_mainTopBk_"]
 metaratings.ru##div[class^="StickyPanel_"]
 !
 ! МирТесен и Глагол
@@ -24147,6 +24155,7 @@ championat.com,championat.ru##.game-of-day
 championat.com,championat.ru##.header-bottom__adv
 championat.com,championat.ru##.infographic-countdown
 championat.com,championat.ru##.infographic-duel
+lenta.ru##.js-video-eagle > div[style^="height:"][style*="overflow:"]
 ferra.ru,letidor.ru,moslenta.ru,motor.ru,passion.ru,quto.ru,secretmag.ru,wmj.ru##.lb-ad-visible
 gazeta.ru##.m_zen
 lenta.ru##.promo-block
@@ -24156,11 +24165,14 @@ top100.rambler.ru##.rui-Snackbar-snackbar
 moslenta.ru##.sideColumn > div[class] > div[style^="margin-bottom:"] + div
 championat.com,championat.ru##.stat-widget__banner
 championat.com,championat.ru##.stat-widget__header
+lenta.ru##.topic-body__content > .box-external-video:last-child
+lenta.ru##.topic-footer > .box-external-video
 lenta.ru##.topic-page__info ~ div
 lenta.ru##.yandex-games
 www.afisha.ru##[aria-label="Реклама"]
 mail.rambler.ru##[class*="MaillistItemAdvertPlace"]
 auto.rambler.ru,avtorambler.com##[data-auto_media-desktop*="rnet_widget"]
+gazeta.ru##[data-docking="left-down"] > div[style^="height:"][style*="overflow:"]
 doctor.rambler.ru##[data-doctor_media-desktop*="rnet_widget"]
 finance.rambler.ru##[data-finance_media-desktop*="rnet_widget"]
 championat.com,championat.ru##[data-goal-label="coeff_fonbet"]
@@ -24210,6 +24222,7 @@ nova.rambler.ru##div[class^="DirectMKB"]
 nova.rambler.ru##div[class^="LayoutSearch"] section > article[class*=" Serp__item"]:not([class^=" Serp__item"])
 r0.ru##div[class^="News__adv"]
 afisha.ru##div[data-test*="HONEY-AD"] > [data-test="FALLBACK"] > span
+gazeta.ru##div[id^="__id_global_rambler_video_off_"][data-mediaposition="bottom"]
 gazeta.ru##div[id^="_g_exchange_"]
 avtorambler.com,rambler.ru##div[id^="rambler-info-banner-"]
 avtorambler.com,rambler.ru##div[id^="rcmw-container-"][id*="-horizontal-"]
@@ -24246,6 +24259,7 @@ avtorambler.com,rambler.ru##rambler-info-banner
 ||ssp.rambler.ru^$domain=~ssp.rambler.ru
 ||static.gazeta.ru/nm2021/js/others_scripts_v6.js
 ||trafffgen.rambler.ru^
+||vp.rambler.ru/player/*&mediaposition=bottom&$subdocument,domain=gazeta.ru
 ||winline.rambler.ru^
 !#if ext_abp
 www.rambler.ru#?##app > div:-abp-properties(min-height: 250px)

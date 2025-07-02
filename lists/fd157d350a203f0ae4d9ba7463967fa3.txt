@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AwP6dv27E4UVbo0kImov6g
-! Version: 202507021931
+! Checksum: +F3qJ9vUm4pNr51ianZkxQ
+! Version: 202507022011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Jul 2025 19:31 UTC
+! Last modified: 02 Jul 2025 20:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16858,6 +16858,7 @@ detaly.co.il##[class*="container_ads"]
 pravda.if.ua##[class*="footer"] > [class*="menu-section footer-"]:last-child
 forum.guns.ru##[class*="hide"][class$="ban"]
 appleinsider.ru##[class*="home-credit"]
+partnerkin.com##[class*="iap-"] *
 puerrtto.livejournal.com##[class*="kupibilet"]
 espritgames.ru##[class*="landing"]
 www.onliner.by##[class*="megabanner"]
@@ -17763,8 +17764,6 @@ fapl.ru##a[href^="/redirect/"][target="_blank"] > img[alt][title]
 tribun.com.ua##a[href^="/redirects/banner.php"]:not([title="Телеграм Канал Трибун 2023"])
 bashinform.ru##a[href^="/rk.php"]
 gageno.ru,pikapo.ru##a[href^="/s"][target="_blank"]
-partnerkin.com##a[href^="/sourcetrack/go/"]
-partnerkin.com##a[href^="/sourcetrack/golink"]
 gunsbroker.ru##a[href^="/sp.php?id="]
 rusradio.ru##a[href^="/target/"]
 bigfangroup.org,freebfg.org##a[href^="/trh"]
@@ -22149,7 +22148,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||partner.komedra.com/
 ||partner.labirint.ru^$third-party,domain=rutlib.com
 ||partner.uhty-multy.ru/
-||partnerkin.com/*/resb
 ||partners.walla.co.il^$domain=mignews.com
 ||passus.ru/test-widget/
 ||patria.md/i/partners/

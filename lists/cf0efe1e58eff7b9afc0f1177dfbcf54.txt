@@ -3821,7 +3821,7 @@ embedrise.com,lulustream.com,lulustream.live,luluvdo.com,playfmovies.*,viralvide
 lulustream.com,lulustream.live,luluvdo.com##+js(aeld, click, popunder)
 lulu.st,lulustream.com,lulustream.live,luluvdo.com##+js(acs, WebAssembly, Promise)
 vtplayer.online,vvtplayer.*##+js(set, adblockcheck, false)
-||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=playfmovies.*|vtplayer.online|vvtplayer.*|wiztube.xyz
+||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=playfmovies.*|vtplayer.online|vvtplayer.*
 ottlatest.com##div#wpsafe-link:style(display: block !important;)
 ottlatest.com##div#wpsafe-link:others()
 ||vvtplayer.*/cdn-cgi/trace
@@ -4524,9 +4524,6 @@ greentumble.com##html:style(overflow: auto !important)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/20804
 accuweather.com##body:remove-class(ads-not-loaded)
-
-! https://github.com/uBlockOrigin/uAssets/issues/20850
-gameshdlive.net##+js(aost, atob, inlineScript)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/20870
 pornleaks.in##+js(noeval-if, ads)

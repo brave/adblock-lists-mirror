@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mA4NZ1EXnzAXT5UDwV50pw
-! Version: 202507061531
+! Checksum: p0pXisma+zBB9GjzIPWVdg
+! Version: 202507061611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Jul 2025 15:31 UTC
+! Last modified: 06 Jul 2025 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13081,6 +13081,7 @@ mirf.ru##.advt-mf
 9111.ru##.advzone
 recept.ua##.adw-link
 tmbw.ru##.adwidget
+2bitcoins.ru##.af_advert_content
 burdastyle.ru##.aff-offers
 rubryka.com##.after-content-advertisment
 wallscloud.net##.after_image_promo
@@ -19664,6 +19665,7 @@ pingvin.pro#?#p:-abp-has(> .adsbygoogle)
 kp40.ru#?#p:-abp-has(> .ul-button)
 nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru#?#p:-abp-has(> a[href*="yandex."][href*="news"][href*="favid"])
 cq.ru#?#p:-abp-has(> b:-abp-contains(Где купить))
+2bitcoins.ru#?#p:-abp-has(> code > strong > a[href*="//dzen.ru/"])
 sovsport.ru#?#p:-abp-has(> div[class^="button_advertisement"])
 sm.news#?#p:-abp-has(> script:-abp-contains(smi2))
 new-magazine.ru#?#p:-abp-has(> strong > a[href*="//dzen.ru/"])

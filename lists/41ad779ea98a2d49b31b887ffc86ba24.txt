@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FNUKITdF/v1vZozing/KHg
-! Version: 202507080542
+! Checksum: YtHar7PKiqNqhd6w6/KJ6g
+! Version: 202507080642
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-07-08 05:42 UTC
+! Last modified: 2025-07-08 06:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -50862,6 +50862,8 @@ lazycatkitchen.com##.wppopups-whole
 lazycatkitchen.com##body:style(overflow: auto !important; position: initial !important;)
 ! campaignlive.co.uk popup https://github.com/uBlockOrigin/uAssets/issues/29102
 campaignlive.co.uk##+js(set-session-storage-item, articleModalShown, true)
+! similarweb.com login wall
+similarweb.com##+js(remove-cookie, sgID)
 ! newsletter splash
 seattletimes.com##+js(set-cookie, st_newsletter_splash_desktop_seen, true)
 ! snopes.com

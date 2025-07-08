@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aHTNKER1lIQHBf5AMmcLkg
-! Version: 202507080142
+! Checksum: un/iAOOIuT4as339AtN4DA
+! Version: 202507080242
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-07-08 01:42 UTC
+! Last modified: 2025-07-08 02:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16013,6 +16013,7 @@ jacobin.com##.po-fr__heading:has-text(Share this article)
 lifenews.com##.post_style_zk > p:has-text(Please subscribe)
 newsroom.ucla.edu##.promo-card-muted:has-text(RSS feed)
 ruwix.com##.widget-title:has-text(Share this page!)
+archaeologymag.com##.widget_custom_html:has-text(Follow us)
 theintercept.com##[data-ga-track-action]:has-text(Join The Conversation)
 clubic.com##[style="position: sticky; top: 55px;"]:has-text(Inscrivez-vous à notre newsletter quotidienne !)
 nbcsports.com##p.cms-textAlign-center:has-text(follow NBC Sports)
@@ -37575,6 +37576,8 @@ shate-m.by,shate-m.kz##.cookie-alert-show
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
 !! #cookies-consent
 adshares.net,emerald.com,fadc.org.br,forit.ro###cookies-consent
+!! __tealiumModalParent
+calvinklein.ca,calvinklein.us###__tealiumModalParent
 !! __tealiumGDPRcpPrefs
 austrian.com,comparethemarket.com,gsk.com,pepperl-fuchs.com###__tealiumGDPRcpPrefs
 !! .cookiebar
@@ -38495,6 +38498,9 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 megasport.co.il##+js(set-cookie, YourCoockieName, true)
+calvinklein.com.br##+js(set-cookie, PVH_COOKIES_GDPR, Accept)
+calvinklein.com.br##+js(set-cookie, PVH_COOKIES_GDPR_ANALYTICS, Reject)
+calvinklein.com.br##+js(set-cookie, PVH_COOKIES_GDPR_SOCIALMEDIA, Reject)
 frontieresmedia.fr##+js(set-cookie, frtnrs_consent, true)
 crosig.hr##+js(set-cookie, cookie_control_consent, true)
 crosig.hr##+js(set-cookie, cookie_control_enabled_cookies, required)
@@ -40493,6 +40499,7 @@ aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com##+js(s
 aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com##+js(set-local-storage-item, set_cookie_tracking, false)
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##+js(set-local-storage-item, UMP_CONSENT_NOTIFICATION, true)
 ! set-session-storage-item
+iscc-system.org##+js(set-session-storage-item, aesirx-analytics-rejected, true)
 workwide.de##+js(set-session-storage-item, cookieModal2, 1)
 erco.com##+js(set-session-storage-item, cookieMessageDisagree, true)
 communitycrimemap.com##+js(set-session-storage-item, disclaimerOpened, 1)
@@ -45753,7 +45760,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 /BannerNewsletter.png
 /bloc_newsletter.jpg
 /blocknewsletter.js
-/Components/newsletter/*
 /embeds/newsletter/*
 /ENewsletter_
 /feedburner-subscription-widget/style.css

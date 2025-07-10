@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W1rpNmP0Mz6j33L8wWJdig
-! Version: 202507100811
+! Checksum: qckBtU1Mbr41kVKMpyUcxw
+! Version: 202507100941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jul 2025 08:11 UTC
+! Last modified: 10 Jul 2025 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12964,7 +12964,7 @@ jaomix.ru##.adblock-service
 agroxxi.ru##.adchoice
 agri-gator.com.ua##.adcontainer
 factroom.ru##.adcredit
-tatfish.com##.add
+hibinform.ru,tatfish.com##.add
 openssource.biz##.add-link
 brunet-ka.ru,poleznii-site.ru##.add_zen
 multiurok.ru##.additional-info > nofollow > [align="center"] > a[target="_blank"] > img
@@ -13405,7 +13405,7 @@ gid-minecraft.ru##.banner-bottom-wrapper
 dynamomania.com##.banner-box
 driveroff.net,samlab.ws##.banner-categories
 repost.uz,tvmag.ru##.banner-center
-amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,job.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,newsvl.ru,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,shedevrum.ai,stavropol.media,tayga.info,tet.tv,ulanmedia.ru,unian.info,unian.net,unian.ua,ussurmedia.ru,vctr.media,wallnews.org,yakutiamedia.ru,yugopolis.ru##.banner-container
+amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,job.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,newsvl.ru,nord-news.ru,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,shedevrum.ai,stavropol.media,tayga.info,tet.tv,ulanmedia.ru,unian.info,unian.net,unian.ua,ussurmedia.ru,vctr.media,wallnews.org,yakutiamedia.ru,yugopolis.ru##.banner-container
 para.by##.banner-cube
 biysk-ok.ru##.banner-default
 vikna.if.ua##.banner-fullborder
@@ -16073,6 +16073,7 @@ emusic.me##.skin-block
 festyy.com##.skip-advert
 fc-zenit.ru##.sl-foot
 kerch.fm#?#.slick-slide:-abp-has(div:-abp-contains(На правах рекламы))
+hibinform.ru##.slick-track
 lib.rus.ec,posters.ec##.slide_anons
 kommersant.ru#?#.slider-commercial .multimedia__item:-abp-has(.spend__text > .spend__tag:-abp-contains(/^Партнерский /))
 rayon.in.ua##.slider-main
@@ -17957,6 +17958,7 @@ nashvancouver.com##a[href^="https://nashvancouver.com/linkout/"] > img[alt="tree
 vm.ru##a[href^="https://news.yandex.ru/index.html?from=rubric"]
 tverigrad.ru##a[href^="https://news.yandex.ru/smi/"]
 oren.ru##a[href^="https://orenburg.metro-cc.ru/"]
+partnerkin.com##a[href^="https://partnerkin.com/"][target="_blank"]
 altai4u.com##a[href^="https://play.google.com/store/apps/details?id="]
 allboxing.ru,lifenews.ru,topwar.ru##a[href^="https://relap.io/"][data-ad-link]
 shazoo.ru##a[href^="https://shazoo.ru/click/"]
@@ -23348,7 +23350,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?qCb0v=$xmlhttprequest
+||pikabu.ru/ajax/*?mAo0z=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23984,7 +23986,7 @@ fontanka.ru##[class*="pictureDayBlock_"] li > a[href*="/?erid="]
 fontanka.ru#?#[class*="pictureDayBlock_"] li:-abp-has(> a[href*="/?erid="])
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru##[data-creative]
 fontanka.ru##[data-io-article-url] > [itemprop="articleBody"] ~ p[class]
-ru##[data-ns-portal] .layout-notifications
+ru##[data-ns-portal] [class^="layout-"][class$="notifications"]
 ru##[data-ns-portal] [data-adv-mark]
 ru##[data-ns-portal] div[class^="topicsInlineAdv"]
 ru##[data-ns-portal] div[class^="topicsList"] a[href*="erid="]

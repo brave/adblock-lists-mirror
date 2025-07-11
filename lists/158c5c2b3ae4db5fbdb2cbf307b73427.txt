@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aGxJDFUjToZeX6ZapiyWcg
-! Version: 202507110911
+! Checksum: /U1f7s5ZB1NtcaHtd8scQw
+! Version: 202507110941
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Jul 2025 09:11 UTC
+! Last modified: 11 Jul 2025 09:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1682,7 +1682,6 @@ allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note
 allcio.ru,it-weekly.ru,it-world.ru##.not_sm > .note ~ hr
 cross.expert##.notify
 cameralabs.org##.notlabs
-fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.novelty-banner
 takiedela.ru##.np-footer-contacts__socials
 takiedela.ru##.np-socials
 bobr.by##.null-share__block
@@ -3124,6 +3123,7 @@ kinoferma.pro##div[style^="padding:"] > a[href^="https://vk.com/"]
 biqle.org,biqle.ru##div[title="Поделиться"]
 site.ua##div[x-data*="facebook"]
 autodaily.ru,autonews.ru,gsminfo.com.ua#?#em > strong:-abp-has(> a[href^="https://t.me/"])
+fanserial.*,fanserial.сс,myfanserial.net##.novelty-banner
 zmi.ck.ua##footer .b1
 zmi.ck.ua##footer .b2
 ctv7.ru##footer .btn_soc
@@ -4984,7 +4984,6 @@ lifehacker.ru##.arrow-menu [name="Ozon"]
 narutoplanet.ru##.art-header-jpeg
 vm.ru##.article--subscribes
 1prime.ru##.article-aggr
-fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.article-aside-promo
 360tv.news#?#.article-body > div:-abp-has(> [href^="https://news.google.com/publications/"])
 androidinsider.ru##.article-body > p > code.large-text
 championat.com,championat.ru##.article-content > .external-article

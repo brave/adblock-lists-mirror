@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Azdy8+ohpqw97do+7+wy2g
-! Version: 202507140611
+! Checksum: pfJi61g+mHl1J3slbTTIkQ
+! Version: 202507140641
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Jul 2025 06:11 UTC
+! Last modified: 14 Jul 2025 06:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -693,6 +693,7 @@ psychologies.ru##._invite-banner
 lenta.ru##._social-network
 holod.media##.a-our-social
 football-fun.ru##.a-social
+pixelinform.com,sysidka.com##.a-wrap
 acappella.moscow##.ac2-social
 reshator.com##.acc_desc > .soc_wrap
 xoxo.ru##.actions__social
@@ -856,6 +857,7 @@ gazeta.ru##.b_social_sharing
 gazeta.ru##.b_telegram_subscriber
 actualcomment.ru##.b_top__sitename_socnet
 reporter.ua##.banner > a[href^="https://t.me/"]
+vgoru.org##.banner--telegram
 ostro.org##.banner-block a[href^="https://t.me/"]
 unian.info,unian.net,unian.ua##.banner-fb
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.banner-lip-tg
@@ -1179,6 +1181,7 @@ radio1.ru##.foot_but
 dni.ru##.foot_menu-social
 pleer.ru##.footbar_social_wrap
 bigpicture.ru#?#.footer .list:-abp-has(> .social)
+vgoru.org##.footer > .container > ._grid > div:last-child > div
 znak.com##.footer > .credits:not([id]) > .credits__row
 aldebaran.ru##.footer > .socials
 nashamama.com##.footer > center
@@ -1342,6 +1345,7 @@ highload.tech##.head-social-desktop > a[target="_blank"]
 argumentiru.com##.head_soc
 glavpost.ua##.head_social
 facenews.ua##.header .icon
+vgoru.org##.header a[target="_blank"][aria-label] > svg
 readovka.news,readovka67.ru##.header-community
 kyivvlada.com.ua##.header-custom-button
 uazmi.org##.header-inner > nav ~ .fx-mq-md
@@ -1828,6 +1832,7 @@ gta-gaming.ru#?#.r_side > .blocks:-abp-has(.ya-share2)
 football24.ru##.rb_banner
 inscience.news##.rd-navbar-social-list
 obozrevatel.com##.reaction > .reaction_item ~ .reaction_item
+koroldanylo.com.ua##.read-in-social
 fakty.com.ua##.read-more-in-social
 odessamedia.net##.read-or-share
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.read-outside-site
@@ -2163,7 +2168,7 @@ keenetic.ru,patrol.police.gov.ua,speka.media##.social-btn
 nikopolnews.net,unian.info,unian.net,unian.ua##.social-btn-bottom
 gismeteo.ru##.social-btns-wrapper
 gamestatus.info##.social-button
-66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,football.ua,gizchina.com.ua,gmk.center,mse02.ru,om1.ru,pay-day.ru,publy.ru,tehnobzor.ru,tribun.com.ua##.social-buttons
+66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,football.ua,gizchina.net,gmk.center,mse02.ru,om1.ru,pay-day.ru,publy.ru,tehnobzor.ru,tribun.com.ua##.social-buttons
 freehat.cc##.social-buttons > * > *
 bfm.ru##.social-buttons > a
 1tv.ru##.social-buttons-compact
@@ -2330,6 +2335,7 @@ broadcast.net.ua##.sp-column > footer
 fakty.com.ua##.sp-read-social
 kinofilm.co##.sp_insta
 blackwot.ru,ukrhealth.net,weukraine.tv##.spc-social
+pixelinform.com,sysidka.com##.spc-social-block
 slavinfo.dn.ua##.sppb-addon-social-media
 amedia.lol##.srochno
 dfm.ru,maximum.ru,rusradio.ru##.ss-block
@@ -5136,10 +5142,11 @@ znanija.com##.brn-brainly-plus-box
 znanija.com##.brn-mobile-store
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.bs-docs-footer
 interfax.ru,sport-interfax.ru##.bss__wrap
-gizchina.com.ua#?#.btn-box:-abp-has(> span:-abp-contains(Google News))
+gizchina.net#?#.btn-box:-abp-has(> span:-abp-contains(Google News))
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.btn-danger
 hevcclub.com##.btn-outline-hevc
 bigmir.net,isport.ua,kolobok.ua##.btn-warning
+vgoru.org##.button--head-support
 nashaniva.com##.button-donate
 odessa-life.od.ua##.buttonizer
 today.ua##.buttons-block
@@ -5447,7 +5454,7 @@ armeniasputnik.am,sputnik-abkhazia.info,sputnik-abkhazia.ru,sputnik-georgia.com,
 1kr.ua##.global-support
 facenews.ua##.gnews
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru##.go_to_bug
-24tv.ua,comments.ua,kyiv.media,proshokino.com.ua##.google-news
+24tv.ua,comments.ua,expert.in.ua,kyiv.media,proshokino.com.ua##.google-news
 bigkyiv.com.ua,bykvu.com##.google-news-block
 24.cv.ua,sho.org.ua##.google-news-feed
 24tv.ua##.google-news-link
@@ -5481,6 +5488,7 @@ dtf.ru,vc.ru##.header__app
 finbalance.com.ua##.header__bottom > .app
 andro-news.com##.header__buy
 mil.in.ua##.header__support
+vgoru.org##.header__top-line
 holod.media##.header__wrap a[href="https://holod.help/"]
 holod.media##.header__wrap a[href="https://holod.media/subscribe/"]
 seasonvar.ru##.header_icon
@@ -5793,6 +5801,7 @@ stolichki.ru##.pop-coockie
 stolichki.ru##.pop-coockie + .fancybox-container
 gdz.ru,megaresheba.ru,spishi.fun##.popUp-subscribe
 calltouch.ru##.poppup-blocked
+vgoru.org##.popup--support
 mirf.ru##.popup-accept-policy
 forum.awd.ru##.popup-bg-wrapp
 itc.ua##.popup-bottom
@@ -6512,7 +6521,7 @@ pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##body > span[style*="bac
 instagram.com#?#body[style="overflow: hidden;"] > #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(div:-abp-contains(Войдите, чтобы продолжить))
 kak-prosto.net##br + br
 kp.ru##button[data-background-color="blue"][data-is-small-on-mobile]
-gizchina.com.ua##button[onclick^="runWfpWdgt"]
+gizchina.net##button[onclick^="runWfpWdgt"]
 driveroff.net,samlab.ws#?#center > b:-abp-has(> [href*="://pay.cloudtips.ru/"])
 pay.mos.ru##charity-banner
 avtorambler.com,rambler.ru##circle[stroke-dashoffset]

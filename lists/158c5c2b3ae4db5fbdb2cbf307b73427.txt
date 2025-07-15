@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w+YvjjGXKXZr8c1Yw9dDVw
-! Version: 202507150941
+! Checksum: 1Bgm4S7dI2PUSOTrjAjykw
+! Version: 202507151111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Jul 2025 09:41 UTC
+! Last modified: 15 Jul 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3128,7 +3128,7 @@ kinoferma.pro##div[style^="padding:"] > a[href^="https://vk.com/"]
 biqle.org,biqle.ru##div[title="Поделиться"]
 site.ua##div[x-data*="facebook"]
 autodaily.ru,autonews.ru,gsminfo.com.ua#?#em > strong:-abp-has(> a[href^="https://t.me/"])
-fanserial.*,fanserial.сс,myfanserial.net##.novelty-banner
+fanserial.*,fanserial.сс,1fanserials.ru,myfanserial.net##.novelty-banner
 zmi.ck.ua##footer .b1
 zmi.ck.ua##footer .b2
 ctv7.ru##footer .btn_soc
@@ -5373,7 +5373,6 @@ rosbalt.ru##.fixed[style^="z-index:"]
 autopilot.ru,kommersant.ru##.fixed_bottom
 kisameev.ru##.fixed_cookie
 nalog.ru##.fixed_shortcut_vc
-fanserial.fun,fanserialstv.net##.flex-promo-series > .right-col > noindex
 informator.ua##.flex.post__subscribe-banner
 ichip.ru##.float-subscribe
 playground.ru##.float-teaser
@@ -5740,7 +5739,6 @@ holodilnik.ru##.notify-layer--cookie
 gorodkirov.ru,navigator-kirov.ru##.notifycation
 piluli.ru##.notiny
 smartpress.by##.noty_layout
-fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.novelty-banner
 doramaland.plus##.now-ru-banner
 ntv.ru##.ntv-survey
 olx.ua##.observe-search-banner
@@ -6269,6 +6267,7 @@ point.md##[aria-label="scroll to top button"]
 bbc.com##[aria-labelledby="recommendations-heading"]
 bbc.com##[aria-labelledby^="message-banner-"]
 novayagazeta.ru##[class*="Donate"]
+rutube.ru##[class*="Player"] div[class*="disclaimer"]
 aliexpress.ru##[class*="PrivacyPolicyBanner"]
 stopcor.org##[class*="TopLine_donate"]
 dtf.ru,vc.ru##[class*="comments"][class*="always"]

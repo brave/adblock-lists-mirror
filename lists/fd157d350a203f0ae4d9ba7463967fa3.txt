@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xNrnI720SvdGoab1Og5p4A
-! Version: 202507150941
+! Checksum: ypqre3xrpZdDmNQZxiSl/w
+! Version: 202507151111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Jul 2025 09:41 UTC
+! Last modified: 15 Jul 2025 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23925,18 +23925,18 @@ mirtesen.ru##[id^="unit_"]
 !
 ! зеркала MySeria.NET https://vk.com/myserianet
 ! частные
-fanserial.*,fanserial.сс,myfanserial.net##.article-aside-promo
-fanserial.*,fanserial.сс,myfanserial.net##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
-fanserial.*,fanserial.сс,myfanserial.net##.flex-promo-series > .right-col
-fanserial.*,fanserial.сс,myfanserial.net##[itemtype*="://schema.org/TVEpisode"] [data-dlebid]
+fanserial.*,fanserial.сс,myfanserial.net,1fanserials.ru##.article-aside-promo
+fanserial.*,fanserial.сс,myfanserial.net,1fanserials.ru##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
+fanserial.*,fanserial.сс,myfanserial.net,1fanserials.ru##.flex-promo-series > .right-col
+fanserial.*,fanserial.сс,myfanserial.net,1fanserials.ru##[itemtype*="://schema.org/TVEpisode"] [data-dlebid]
 ! общие
 ##.article-aside-promo a[href*="webcash&"]
 ##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
 ##.flex-promo-series > .right-col
 ##[itemtype*="://schema.org/TVEpisode"] [data-dlebid]
 ! запросы
-/player/fan.xml$domain=fanserial.сс|myfanserial.net
-@@||v*.plrjs.org/*.xml?rand=$xmlhttprequest,domain=fanserial.cc|myfanserial.net
+/player/fan.xml$domain=1fanserials.ru|fanserial.сс|myfanserial.net
+@@||v*.plrjs.org/*.xml?rand=$xmlhttprequest,domain=1fanserials.ru|fanserial.cc|myfanserial.net
 !
 ! Одноклассники
 ok.ru###hook_Block_AsideColumn img:first-child ~ div:not(#hook_Block_CompactFooter)

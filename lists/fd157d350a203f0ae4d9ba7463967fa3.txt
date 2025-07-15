@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +ejZaCJQJTIvPpIc413pDQ
-! Version: 202507150811
+! Checksum: ZQyffnPwXwCwWNir54Uw4A
+! Version: 202507150911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Jul 2025 08:11 UTC
+! Last modified: 15 Jul 2025 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7735,6 +7735,7 @@ _tizers.
 ||mnayto.com^$third-party
 ||mnogobabok.info^$third-party
 ||mnogodiva.ru^$third-party
+||mntzco.com^$third-party
 ||mo-space.space^$third-party
 ||mo.spaces.ru^
 ||mob2web.com^
@@ -11848,7 +11849,6 @@ kak-prosto.net###content > .container
 rz.com.ua###content > .container > #page-header
 wotsite.net###content > .info-box
 kyron-clan.ru###content > .ipsAd > script + div:not([id]):not([class])
-news-front.info###content > .lenta
 it-actual.ru#?##content > .nav-single:-abp-has(> ins)
 ukrlib.com.ua###content > .readalser
 forum.niiot.net###content > .unspecific.message
@@ -15979,7 +15979,7 @@ online-fix.me#?#.sidebar > div:-abp-has(> #twitch-embed)
 blizzardheroes.ru##.sidebar > div[class^="block"]
 vakhta-job.ru##.sidebar > div[style]
 nnovosti.info##.sidebar > div[style^="width:"]
-animang.one,news-front.info,zdravotvet.ru##.sidebar > noindex
+animang.one,zdravotvet.ru##.sidebar > noindex
 24smi.org##.sidebar a[href][target="_blank"] > img
 animedub.ru#?#.sidebar div:-abp-has([data-relap-id])
 myfootball.top#?#.sidebar--right > .block_full:-abp-has(.banners-ads)
@@ -17148,7 +17148,7 @@ delpc.ru,parazitovnetu.ru##[id^="smartrotator_ad"]
 kriminal.net.ua,moyskelet.ru,myhairsalon.ru,progipertoniyu.ru,znachenieimenipro.ru##[id^="teaser_"]
 mirmmo.ru##[id^="trumedia_holder_"]
 mirmmo.ru##[id^="trurlmedia_holder"]
-101.ru,19rus.info,2000.ua,5-tv.ru,56orb.ru,62info.ru,7info.ru,afanasy.biz,agitpro.su,allboxing.ru,anekdot.ru,argumenti.ru,baltnews.ee,belive.ru,bigpicture.ru,bombardir.ru,chehov-vid.ru,daily-inform.ru,dni.ru,dnpmag.com,do-slez.com,eadaily.com,eg.ru,expert.ru,ferra.ru,gazeta-tula.ru,glavnoe24.ru,gorobzor.ru,gorvesti.ru,govoritmoskva.ru,gubdaily.ru,hightech.plus,iarex.ru,inforeactor.ru,iz.ru,kirov-portal.ru,kriminal.net.ua,livelib.ru,m24.ru,melodrama1.com,mgorod.kz,mir24.tv,mk.ru,myhistori.ru,nashgorod.ru,nation-news.ru,nevnov.ru,newinform.com,news-front.info,nn.ru,ntv.ru,osnmedia.ru,penzainform.ru,penzavzglyad.ru,pikinform.ru,pnp.ru,polit.info,politexpert.net,politonline.ru,pora.ru,radidomapro.ru,radio1.ru,radioromantika.ru,ratel.kz,ren.tv,ria56.ru,riafan.ru,rueconomics.ru,rusplt.ru,russian.rt.com,rusvesna.su,sevkavportal.ru,sharknews.ru,sm.news,sminews.ru,sobesednik.ru,steaklovers.menu,sun-news.ru,topwar.ru,trendymen.ru,tsargrad.tv,tsn24.ru,tvernews.ru,ua.today,uralpress.ru,usa.one,vedomosti.ru,versia.ru,veseloeradio.ru,vesti-yamal.ru,vesti.ru,vesti.uz,vestivrn.ru,vokrugsveta.ru,xn--b1ats.xn--80asehdb,zakon.kz,zr.ru##[id^="unit_"]
+101.ru,19rus.info,2000.ua,5-tv.ru,56orb.ru,62info.ru,7info.ru,afanasy.biz,agitpro.su,allboxing.ru,anekdot.ru,argumenti.ru,baltnews.ee,belive.ru,bigpicture.ru,bombardir.ru,chehov-vid.ru,daily-inform.ru,dni.ru,dnpmag.com,do-slez.com,eadaily.com,eg.ru,expert.ru,ferra.ru,gazeta-tula.ru,glavnoe24.ru,gorobzor.ru,gorvesti.ru,govoritmoskva.ru,gubdaily.ru,hightech.plus,iarex.ru,inforeactor.ru,iz.ru,kirov-portal.ru,kriminal.net.ua,livelib.ru,m24.ru,melodrama1.com,mgorod.kz,mir24.tv,mk.ru,myhistori.ru,nashgorod.ru,nation-news.ru,nevnov.ru,newinform.com,nn.ru,ntv.ru,osnmedia.ru,penzainform.ru,penzavzglyad.ru,pikinform.ru,pnp.ru,polit.info,politexpert.net,politonline.ru,pora.ru,radidomapro.ru,radio1.ru,radioromantika.ru,ratel.kz,ren.tv,ria56.ru,riafan.ru,rueconomics.ru,rusplt.ru,russian.rt.com,rusvesna.su,sevkavportal.ru,sharknews.ru,sm.news,sminews.ru,sobesednik.ru,steaklovers.menu,sun-news.ru,topwar.ru,trendymen.ru,tsargrad.tv,tsn24.ru,tvernews.ru,ua.today,uralpress.ru,usa.one,vedomosti.ru,versia.ru,veseloeradio.ru,vesti-yamal.ru,vesti.ru,vesti.uz,vestivrn.ru,vokrugsveta.ru,xn--b1ats.xn--80asehdb,zakon.kz,zr.ru##[id^="unit_"]
 pravda-tv.ru##[id^="warta_ads-"]
 guitarplayer.ru##[id^="ya_direct_"]
 radidomapro.ru##[id^="zone_pub"]
@@ -22921,7 +22921,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||trashbox.ru^*/brending
 ||travelgps.com.ua/cg/$object
 ||travelgps.com.ua/js/relink2.
-||travelpayouts.com^$domain=news-front.info
 ||trello-attachments.s3.amazonaws.com$image,domain=puerrtto.livejournal.com
 ||trinixy.ru^*/branding
 ||trishurupa.ru/*banner/*.gif

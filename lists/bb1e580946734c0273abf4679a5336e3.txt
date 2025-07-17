@@ -96,7 +96,7 @@ hdhub4u.fail,hubdrive.wales,moviesubtitles.click,telegratuita.com##+js(aeld, DOM
 .top/event|$xhr,3p
 .xyz/event|$xhr,3p
 ! hilltopads
-/^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xhr,3p,match-case,to=co|com|info|pro|xyz
+/^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-.\/_A-Za-z][DHWXm][-.\/_A-Za-z][59FVZ][-.\/_A-Za-z][6swyz][-.\/_A-Za-z][-\/_0-9a-zA-Z][-.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xhr,3p,match-case,to=co|com|info|pro|xyz
 ! https://github.com/uBlockOrigin/uAssets/issues/28525#issuecomment-3064625698
 !#if ext_ubol
 /^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]+$/$script,xhr,3p,match-case,to=co|com|info|pro|xyz
@@ -827,6 +827,8 @@ saint2.cr##+js(acs, WebAssembly, Promise)
 asiangay.tv,bootstrample.com,gayxx.net,hentairead.io,isekaitube.com,japangaysex.com,mangagun.net,nicomanga.com,nudeslegion.com,rawinu.com,watchsouthpark.tv,weloma.art,welovemanga.one##+js(aopr, popns)
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/3640
 coinsbomb.com,daemon-hentai.com,daemonanime.net,everia.club##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/, /^data:/)
+yaoimangaonline.com##+js(trusted-suppress-native-method, Document.prototype.createElement, '"script"', prevent, litespeed/js)
+*$script,3p,denyallow=disqus.com|disquscdn.com|fastlylb.net,domain=cin.guru
 !#if cap_html_filtering
 besthdgayporn.com,drivenime.com,erothots1.com,filegram.to,javup.org,savefiles.com,shemaleup.net,transflix.net,worthcrete.com##^script:has-text(/popMagic|pop1stp/)
 !#else

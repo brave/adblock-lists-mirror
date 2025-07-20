@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202507201710
+! Version: 202507201733
 ! Title: EasyPrivacy
-! Last modified: 20 Jul 2025 17:10 UTC
+! Last modified: 20 Jul 2025 17:33 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2004,6 +2004,7 @@
 /scripts/click.js.php
 /scripts/clickjs.php
 /scripts/hbx.js
+/scripts/sdk/everflow.js
 /scripts/statistics/*
 /scripts/track_visit.php?
 /scripts/xiti/*
@@ -3336,6 +3337,7 @@ omni.soundestlink.com$image
 ||cafirebreather.com^
 ||catsunrunjam.com^
 ||cbdatatracker.com^
+||cdjbf8trk.com^
 ||cdnhst.xyz^
 ||cdnlogs.org^
 ||cdnwidget.com^
@@ -3533,6 +3535,7 @@ omni.soundestlink.com$image
 ||mitself.net^
 ||ml-sys.xyz^
 ||mm-api.agency^
+||mnbvpo8trk.com^
 ||mobildev.in^
 ||monicaatron.com^
 ||mors22.com^
@@ -9674,6 +9677,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.posthog.com/static/array.js
 ||app.posthog.com/static/recorder-v2.js
 ||app.revenuehero.io/logs/ingest
+||app.trytada.com/addImpression
 ||app.yesware.com/t/$third-party
 ||appinthestore.com/click/
 ||apple.com/hvr/mw/v1/spile

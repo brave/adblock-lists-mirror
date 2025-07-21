@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202507210033
+! Version: 202507210105
 ! Title: EasyList
-! Last modified: 21 Jul 2025 00:33 UTC
+! Last modified: 21 Jul 2025 01:05 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -23400,6 +23400,7 @@ browsershots.org#@#.advert_area
 ||dpkpnzbtbkqmg.buzz^
 ||dpmsrv.com^
 ||dpmtcyfonye.com^
+||dpnknkozlmyqf.space^
 ||dppxjnchvfoae.website^
 ||dprivatedquali.org^
 ||dpseympatijgpaw.com^
@@ -32225,6 +32226,7 @@ browsershots.org#@#.advert_area
 ||nativeadmatch.com^
 ||nativeadsfeed.com^
 ||nativeantecedent.com^
+||nativegram.com^
 ||nativepu.sh^
 ||natlpiscina.shop^
 ||natprb.ru^
@@ -32454,6 +32456,7 @@ browsershots.org#@#.advert_area
 ||nghlsfshnptix.tech^
 ||nglmedia.com^
 ||ngplansforourco.com^
+||ngqfvpbwscgd.com^
 ||ngshospicalada.com^
 ||ngsinspiringtga.info^
 ||ngupfromavi.org^
@@ -32581,6 +32584,7 @@ browsershots.org#@#.advert_area
 ||nnyejjtckhxkp.online^
 ||no2veeamggaseber.com^
 ||noahicvidonia.com^
+||noalooshebod.net^
 ||noapsovochu.net^
 ||noavoahevugrib.com^
 ||noawanincreasein.com^
@@ -33042,6 +33046,7 @@ browsershots.org#@#.advert_area
 ||obztkaaxz.com^
 ||obzzasbupo.com^
 ||oc2tdxocb3ae0r.com^
+||ocaksedrupsa.net^
 ||ocardoniel.com^
 ||ocbakhpcuz.com^
 ||ocbnihhu.com^
@@ -37456,6 +37461,7 @@ browsershots.org#@#.advert_area
 ||rzgiyhpbit.com^
 ||rzneekilff.com^
 ||rznjmobimrorl.space^
+||rzpzdlmfkizyv.store^
 ||rzuokcobzru.com^
 ||rzvcdclxehmnd.global^
 ||rzxxflvdnvtws.vip^
@@ -57698,7 +57704,6 @@ target.com##.h-position-fixed-bottom
 copyprogramming.com##.h-screen
 lyricsmode.com##.h113
 tetris.com##.hAxContainer
-itpro.com##.hawk-base
 opoyi.com##.hLYYlN
 marketscreener.com##.hPubRight2
 fortune.com##.hTeNPD
@@ -57709,6 +57714,7 @@ cyclonis.com##.has-banner
 whistleout.com.au##.has-hover
 defence-industry.eu##.has-small-font-size.has-text-align-center
 apps.npr.org##.has-sponsorship
+itpro.com##.hawk-base
 tomsguide.com##.hawk-main-editorialised
 techradar.com##.hawk-main-editorialized
 tomsguide.com##.hawk-master-widget-hawk-main-wrapper
@@ -60677,6 +60683,7 @@ dallasnews.com##div[class*="features-ads"]
 gamingbible.com,ladbible.com,unilad.com##div[class*="margin-Advert"]
 thefiscaltimes.com##div[class*="pane-dfp-"]
 emojipedia.org##div[class="flex flex-col items-center md:order-1"]
+qz.com##div[class="hidden md:block"]
 timesofindia.com##div[class^="ATF_container_"]
 arkadium.com##div[class^="Ad-adContainer"]
 dailymotion.com##div[class^="AdBanner"]
@@ -61462,6 +61469,8 @@ tripadvisor.*##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 news12.com##div[alignitems="normal"]:has(> div[sizes*="object"])
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
+qz.com##div[class*=":block"]:has(> .ay-ad-slot)
+qz.com##div[class*="my-"]:has(> .ay-ad-slot)
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 walmart.*##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])

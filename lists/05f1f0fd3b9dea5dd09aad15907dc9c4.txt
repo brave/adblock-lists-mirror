@@ -2242,7 +2242,6 @@ myperfectweather.com##+js(aeld, load, adblock)
 neilpatel.com##+js(no-xhr-if, /googletagmanager|ip-api/)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209668
-hydrogen.lat##+js(no-fetch-if, method:HEAD mode:no-cors)
 hydrogen.lat##+js(aeld, load, &&)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/29245
@@ -2251,5 +2250,5 @@ hydrogen.lat##+js(aeld, load, &&)
 ! https://tchgdns.de/ antiadb
 ||tchgdns.de/wp-content/themes/the-tchgdns/javascript/detector.min.js^
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/209773
-easyocrconverter.com##+js(no-fetch-if, method:HEAD)
+! https://www.bike-magazin.de/fahrraeder/mountainbike/downhill-bikes-freeride-bikes/canyon-sender-2025-die-eilsendung/ - anti-adb
+||bf-ad.net^$redirect=noopjs,domain=bike-magazin.de

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E8KfdLcwv4A9N2pYayL9Ag
-! Version: 202507211011
+! Checksum: JxwcNNYWZJp0pG7y1Kfj9Q
+! Version: 202507211041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Jul 2025 10:11 UTC
+! Last modified: 21 Jul 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -49,7 +49,6 @@ $third-party,popup,domain=2ip.ru
 ||namba.tj^$popup,domain=namba.tj
 ||onelink.me^$popup,domain=2ip.io|2ip.ru|2ip.ua
 ||otus.ru/*utm_$third-party,popup
-||rusvpn.com^$popup,domain=tornado.3dn.ru
 ||special.playground.info/haval$popup
 ||topofgames.com^*?path=$popup
 ||torrentum.ru^$popup
@@ -15840,7 +15839,6 @@ med.vesti.ru##.sb-banner
 beauty.ua,viva.ua##.sb-partners
 edyna.media#?#.sb__column > .sb__section:-abp-has(> .sb-partners)
 agroinfo.kz##.sbanner
-tornado.3dn.ru#?#.sblock:-abp-has(> .b_title > .ins:-abp-contains(Реклама))
 uaspectr.com##.sbr-slider > .pst-block > .pst-block-head
 tagilcity.ru##.sbs_p
 sportsdaily.ru##.schedule__bet-block
@@ -15955,7 +15953,6 @@ webtun.com##.sidebar > .dcont
 wikiwolrd.com##.sidebar > .flying
 nashemisto.dp.ua##.sidebar > .nm-banner-widget
 do4a.net#?#.sidebar > .section:-abp-has(h3:-abp-contains(Реклама))
-anigang.org##.sidebar > .side-box > center ~ *
 turkcinema.org##.sidebar > .widget-wrap ~ .widget-wrap > .widget_text
 ktozvonit.com.ua#?#.sidebar > .widget:-abp-has(> .adsbygoogle)
 ukrmilitary.com##.sidebar > .widget:nth-child(-n+4) > .widget-content div[style="text-align: center;"] > a[href]
@@ -17376,7 +17373,6 @@ filmisub.com##a[href*="728x90"]
 bizmedia.kz,nur.kz##a[href*="://1xbet."]
 allboxing.ru##a[href*="://aff1xstavka.com/"]
 rutracker.ru,wuxiaworld.ru##a[href*="://ali.ski/"]
-anifors.ru,anigang.org,animecos.ru,animesos.ru,shinigami.tv##a[href*="://animedub.ru/"]
 argumenti.ru##a[href*="://argumenti.ru/ad_informer/click/"]
 penzainform.ru##a[href*="://b.penzainform.ru/go/"]
 asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,relook.ru,stranamam.ru##a[href*="://beta.mediafort.ru/textclick.php?id="]
@@ -20606,7 +20602,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||anilibria.*/api/v*/ads/
 ||anime-365.ru/promo/
 ||animechan.ru/fun/
-||animecos.ru/templates/animecos/images/cross.
 ||animecult.me/*.js|$third-party,script
 ||animedia.tv/img/promo/
 ||animedia.tv^*/bnr/
@@ -22888,7 +22883,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||topvideo.tj/media/branding/
 ||topvideo.tj/media/catfish/
 ||topwar.ru/bg/
-||tornado.3dn.ru/*/bg-vpn.$image
 ||torrent-chic.ru/2019/
 ||torrent-games.*/templatetgnew/images/background
 ||torrent-ideal.ru/*best/

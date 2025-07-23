@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: s9lDI2g8fbL8/p/GHLJcow
-! Diff-Path: ../patches/13/13-s-1753182699-3600.patch
+! Checksum: hd/Emcum6S13UbvLfBdHxw
+! Diff-Path: ../patches/13/13-s-1753244743-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.58.12
-! TimeUpdated: 2025-07-22T11:07:22+00:00
+! Version: 2.0.58.14
+! TimeUpdated: 2025-07-23T04:21:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1492,6 +1492,8 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+antalyahurses.com##main.content > .container > .no-click
+||antalyahurses.com/images/money/
 taraftariumlive.com##.link-group > a[target="_blank"]:not([href^="/yayin"][href$=".html"])
 ||cdn-2mk.pages.dev/sayact24#amp=1$domain=taraftariumlive.com
 taraftariumlive.com##amp-iframe[src="https://cdn-2mk.pages.dev/sayact24"]
@@ -1674,8 +1676,9 @@ haberler.com###mainContent > .hbDetay:has(> article:only-child > #taboola-below-
 haberler.com##.newsDetailAds
 mynet.com##body .body-banner-block
 mynet.com##.ng-sidebar > .position-relative:has(> .adv-item-box)
-filmizle.cx##.schema_movie > div[style="height:210px"]
-filmizle.cx#$#body[style^="margin-top:"] { margin-top: 0 !important; }
+filmizle.*#$##f_player > div[style^="position: absolute; z-index: 1999999"] { display: none !important; }
+filmizle.*#$#.schema_movie > div[style="height:210px"] { display: none !important; }
+filmizle.*#$#body[style^="margin-top:"] { margin-top: 0 !important; }
 hdfilmizlesene.net,filmizle.cx,vkfilmizlee.*##+js(abort-on-property-read, doOpen)
 sinetiktok.com##.sayfa-sol > a[target="_blank"]
 ||sinetiktok.com/solutions.js

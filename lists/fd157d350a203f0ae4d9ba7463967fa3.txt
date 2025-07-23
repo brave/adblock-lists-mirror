@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nd+BmmWvKgA6FNGKfvPSwg
-! Version: 202507230841
+! Checksum: qYd4JlDClhzXGdT5eFgQ2g
+! Version: 202507230911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jul 2025 08:41 UTC
+! Last modified: 23 Jul 2025 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25203,6 +25203,7 @@ snob.ru##div[class*="popup-eventSubscribe"]
 noworries.news##div[class*="remodal"]
 muzofon.com##div[class*="simplemodal"]
 5sfer.com##div[class^="charlotte-"]
+tvapp.host##div[class^="cursor-dot"]
 ufacitynews.ru##div[class^="mfp-"]
 simplewine.ru##div[class^="popup"]
 agroter.com.ua,ifnews.org.ua,lvnews.org.ua,oblast-te.com.ua,pasy.media,pb-news.info,rvnews.rv.ua,te.ua,tenews.org.ua,ternopillive.com##div[class^="remodal"]
@@ -25329,6 +25330,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ||telezombi.ru/js/toast.js$script
 ||ternopoliany.te.ua/*/js/scriptx.js
 ||traq.li/publisher/render/widget/
+||tvapp.host/assets/js/player/disable.js
 ||twizz.ru/wp-content/plugins/facebook-popup-rotator/
 ||ufacitynews.ru/st/libs/magnific/
 ||unn.com.ua^*/jqModal.
@@ -26601,6 +26603,7 @@ forums.overclockers.ru##tr > td[nowrap="nowrap"][style^="color: red;"][style$="f
 ||starserial.ru/img/adblock.png
 ||storage.yandexcloud.net/sravni-affiliates-public/adblock/adblock_checker.js
 ||texnic.ru/jq/san.js
+||tvapp.host/assets/js/player/counter.js
 ||under-prog.ru/wp-content/plugins/eazy-ad-unblocker/
 ||vsthouse.ru/a-detector/
 ||webwintop.ru/wp-content/plugins/$script

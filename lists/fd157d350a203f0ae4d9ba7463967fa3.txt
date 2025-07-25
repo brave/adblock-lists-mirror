@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FXyXTlfrV7AW7jkZ6iI9og
-! Version: 202507251251
+! Checksum: DNbqYTl/32hNMbv64/FlZQ
+! Version: 202507251311
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jul 2025 12:51 UTC
+! Last modified: 25 Jul 2025 13:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24688,6 +24688,7 @@ yandex.ru,yandex.*##.stack > .promo
 yandex.ru,yandex.*##div[class^="FeedAdvBlockRenderer-"]:empty
 ! Яндекс.Карты
 yandex.ru,yandex.*##.catalog-grid-view__item._advert
+yandex.ru,yandex.*##.map-controls__additional-button .promo-button
 ! Яндекс.Музыка
 music.yandex.ru,music.yandex.*##.bar__driver-container
 music.yandex.ru,music.yandex.*##[class^="audio-advert"]

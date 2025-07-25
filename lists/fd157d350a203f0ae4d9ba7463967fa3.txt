@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JTwAIZMJBxgMP1VNIBNy0g
-! Version: 202507250941
+! Checksum: 5qAV+qeAPOxUrKOHP+/4jg
+! Version: 202507251011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jul 2025 09:41 UTC
+! Last modified: 25 Jul 2025 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19300,6 +19300,7 @@ kirov-portal.ru#?#div[style]:-abp-has(> [id^="adfox_"])
 kirov-portal.ru#?#div[style]:-abp-has(> [id^="unit_"])
 mozaika.biz#?#div[style]:-abp-has(> a[href]:not([href^="/"]):not([href^="https://mozaika.biz/"]) > img)
 kirov-portal.ru#?#div[style]:-abp-has(> ntvk)
+small-games.info#?#div[style]:-abp-has(> p > [href="#hideRekCaption"])
 buhoblik.org.ua##div[style][onclick*="/rizni/"]
 opennet.me,opennet.ru##div[style^="background-color: #E9EAD6; width:100%; height:"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[style^="background-color: rgb(204, 0, 0)"]
@@ -19623,6 +19624,7 @@ freetp.org,freetp.ru##noindex > .boxlinks
 novostioede.ru##noindex > .co
 gizmod.ru##noindex > .entry
 oane.ws##noindex > .lastnews
+small-games.info##noindex > .light
 luxvaz.ru##noindex > .linkPar
 sportsdaily.ru##noindex > .news__description
 consmed.ru##noindex > .normal_tahoma
@@ -23460,7 +23462,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-gamer.info,rutor-gamer.ru,small-games.info,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-gamer.info,rutor-gamer.ru,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru

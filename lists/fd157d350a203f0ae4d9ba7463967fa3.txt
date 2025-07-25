@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sa2sIj3osX0qleNTbhhltQ
-! Version: 202507250711
+! Checksum: m/XBBAMjzKPlzk0wNn0vhg
+! Version: 202507250721
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jul 2025 07:11 UTC
+! Last modified: 25 Jul 2025 07:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6117,6 +6117,7 @@ _tizers.
 ||gameadnet.ru^
 ||gameak.ru^$third-party
 ||gamedl.ru^$third-party,domain=~playground.ru
+||gameinstaller.ru^$third-party
 ||gameleads.ru^$third-party
 ||gameorakul.ru^$third-party
 ||gamerickius.com^$third-party
@@ -19299,7 +19300,6 @@ kirov-portal.ru#?#div[style]:-abp-has(> [id^="adfox_"])
 kirov-portal.ru#?#div[style]:-abp-has(> [id^="unit_"])
 mozaika.biz#?#div[style]:-abp-has(> a[href]:not([href^="/"]):not([href^="https://mozaika.biz/"]) > img)
 kirov-portal.ru#?#div[style]:-abp-has(> ntvk)
-small-games.info#?#div[style]:-abp-has(> p > [href="#hideRekCaption"])
 buhoblik.org.ua##div[style][onclick*="/rizni/"]
 opennet.me,opennet.ru##div[style^="background-color: #E9EAD6; width:100%; height:"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[style^="background-color: rgb(204, 0, 0)"]
@@ -22635,7 +22635,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||slavutich.cn.ua/image/banners/
 ||slivki.by/banner/
 ||sm.news/*/rotation/
-||small-games.info^*/dlufiler
 ||smart-lab.ru^*/adfox_
 ||smartphone.ua/inc/images/banners/
 ||smartpress.by/include/ajax/getVidjet.php
@@ -23368,7 +23367,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?W6y7u=$xmlhttprequest
+||pikabu.ru/ajax/*?eKU7Y=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23461,7 +23460,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-gamer.info,rutor-gamer.ru,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-gamer.info,rutor-gamer.ru,small-games.info,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru

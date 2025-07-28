@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.6.0
+! Version: 4.1.6.1
 
 ! General
 
@@ -671,6 +671,7 @@ meritnation.com##+js(rc, maxHeight75px, div.exp_content.maxHeight75px)
 museumsassociation.org##+js(rc, paywall, body.paywall)
 museumsassociation.org##+js(ra, style, body[style], stay)
 museumsassociation.org##div#paywall-wrapper,div.advertising
+||musicomh.com/wp-content/*/bundle.js$script,~third-party
 nacion.com##+js(ra, style, div.article-body-wrapper__styled[style], stay)
 nacion.com##div.post
 narcity.com##+js(ra, style, div.body-description[style], stay)
@@ -732,6 +733,8 @@ solarserver.de##+js(ra, class, div.paywall-blurred)
 solarserver.de##div.paywall-box
 stockunlock.com##div[class*="-root"][class*="css-"]:style(filter: none !important; pointer-events: auto !important)
 stockunlock.com##div.css-coxdc8
+thejc.com##+js(ra, class, div.paywall, stay)
+thejc.com##div.poool-widget
 ||thenationalpulse.com/wp-content/*/assets/js/national-pulse.js$script,~third-party
 ||thetablet.org$inline-script
 thetablet.org##+js(rc, gated-content, body.gated-content)

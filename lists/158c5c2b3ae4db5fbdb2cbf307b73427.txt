@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XixmZQCWXX4YxOjONeh1zQ
-! Version: 202507301841
+! Checksum: 4KFEQbATBLu59LMz90lgVg
+! Version: 202507301911
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Jul 2025 18:41 UTC
+! Last modified: 30 Jul 2025 19:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2806,6 +2806,7 @@ sportrecs.com##[title^="Поделиться в"]
 dom2line.ru##a.fa[href^="http"]:not([href*="://dom2line.ru/"])
 zab.ru,zab.tv##a.header-e[target="_blank"]
 uazmi.org##a.tgch-card-footer
+video.matchtv.ru##a.vjs-link[href^="https://t.me/"]
 litvek.com##a.vs
 subota.online##a.w-btn[target="_blank"]
 sportrg.ru##a[class*="ArticleContentBtn_tg_"]

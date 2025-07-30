@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U8xlAz2+56WjcFIWbGI+QQ
-! Version: 202507300811
+! Checksum: TIFBA2pN3OLiyejq/ZyGcQ
+! Version: 202507300831
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Jul 2025 08:11 UTC
+! Last modified: 30 Jul 2025 08:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -547,7 +547,7 @@ zakura.ru###sidebar > .block-dark
 porno-island.site#?##sidebar > .block-dark:-abp-has(> div > a.button[href*="://"][target="_blank"] )
 igru-xbox.net#?##sidebar > .block-side:-abp-has(> .block-inner > noindex)
 ixbt.market###sidebar > .block-type-blog ~ section:last-of-type
-naruto-base.tv#?##sidebar > .block:-abp-has(.title:-abp-contains(Мы в Вконтакте))
+naruto-base.su,naruto-base.tv#?##sidebar > .block:-abp-has(.title:-abp-contains(Мы в Вконтакте))
 kubikhd.ru#?##sidebar > .block:-abp-has(> .blockcontent > noindex > #vk_groups)
 boomtv.ru#?##sidebar > .block:-abp-has(> .blockcontent img[src^="/social/"])
 x-minus.in#?##sidebar > .card:-abp-has(> .card-content > .share-vk)
@@ -3415,7 +3415,7 @@ porjati.net##form[action="http://feedburner.google.com/fb/a/mailverify"]
 /js/pushsubscribe.js
 /light_chat/*$domain=~anitokyo.org|~anitokyo.tv|~asilmedia.org|~coop-land.ru|~freetp.org|~freetp.ru|~lenov.ru|~online-fix.me
 /livejournal.png$domain=~livejournal.com
-/mchat/*$domain=~electric-house.ru|~naruto-base.tv|~partizzan1941.ucoz.ru|~stalkerportaal.ru
+/mchat/*$domain=~electric-house.ru|~naruto-base.su|~partizzan1941.ucoz.ru|~stalkerportaal.ru
 /metric.$image
 /metric/*$image
 /mikuclock.swf
@@ -7377,7 +7377,7 @@ firebit.net##.main-indent > :not(.header):not(.content)
 !
 ! - Исключения ----------------------------------------------------------------
 ! *** ruadlist:bitblock/whitelist.txt ***
-ewix.ru,online-mult.net#@##MCaddFrm
+ewix.ru,naruto-base.su,online-mult.net#@##MCaddFrm
 gifovina.ru#@##SharePanel
 sandisk.com#@##consent_blackbar
 mts.ru#@##facebook_button

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.6.2
+! Version: 4.1.6.3
 
 ! General
 
@@ -359,8 +359,8 @@ thelampmagazine.com##section.p-8
 thelogic.co##+js(cookie-remover, firstarticle)
 ||thenewatlantis.com/*/thenewatlantis/js/gate.js$script,~third-party
 ||thenewatlantis.com/*/thenewatlantis/js/donate.js$script,~third-party
-theneweuropean.co.uk##div[data-show-fade-on-noaccess],div[data-show-subs-blocked]
-theneweuropean.co.uk##+js(ra, data-show-has-access, div[data-show-has-access])
+thenewworld.co.uk##div[data-show-fade-on-noaccess],div[data-show-subs-blocked]
+thenewworld.co.uk##+js(ra, data-show-has-access, div[data-show-has-access])
 thepointmag.com##+js(cookie-remover, monthly_history)
 thepointmag.com##div.overlay,div#tpopup-
 thequint.com##div.zsqcu
@@ -511,8 +511,8 @@ bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,
 
 ! Oahu Publications
 staradvertiser.com##div.fade
-staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
-staradvertiser.com##+js(rc, overflow-hidden, body.overflow-hidden)
+staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style], stay)
+staradvertiser.com##+js(rc, overflow-hidden, body.overflow-hidden, stay)
 
 hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com##+js(ra, style, div#single-paywall, stay)
 hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com##div#single-login-box,div#single-excerpt
@@ -571,7 +571,6 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 ||jeuneafrique.com/cdn-cgi/trace$xmlhttprequest,~third-party
 ||assets.guim.co.uk/assets/SignInGate*.js$script,domain=theguardian.com
 theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
-||btmessage.com/script/rlink.js$script,domain=telegraaf.nl
 
 @@||consentmanager.net$script,third-party
 #@#.cmpwrapper
@@ -750,8 +749,8 @@ vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0
 ||ampproject.org/*/amp-subscriptions-$script
 @@||ampproject.org/v0/amp-consent-$script
 
-artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com,staradvertiser.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
-artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com,staradvertiser.com##[subscriptions-section="content-not-granted"]
+artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+artnet.com,bostonglobe.com,dallasnews.com,latimes.com,sandiegouniontribune.com##[subscriptions-section="content-not-granted"]
 amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 
 ! French/Belgian sites

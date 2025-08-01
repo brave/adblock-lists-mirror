@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h/0KW1Cw3pHVDnHGzOFCtw
-! Version: 202508010901
+! Checksum: LjPMe9q6BA6ZplMARxMEnA
+! Version: 202508010941
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Aug 2025 09:01 UTC
+! Last modified: 01 Aug 2025 09:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6847,6 +6847,7 @@ wildberries.ru,wildberries.*##.fixed-block__cookies
 4pda.to#?#html[style] [id] .slider-list[style] ~ div[class]:not([id]):-abp-has(> :only-child:not(div):not([id]):not([class]))
 4pda.to#?#html[style] [id] div[class]:-abp-has(> h2 ~ script:-abp-contains(/return/))
 ! пустые и рекламные блоки в материалах
+4pda.to#?#html[style] > body .advanced-area .post[itemid] ~ .post:not([itemid]):-abp-has(> [class] > script)
 4pda.to#?#html[style] > body .advanced-area .post[itemid] ~ .post:not([itemid]):-abp-has(> [class] a[href][target="_blank"])
 4pda.to#?#html[style] > body .advanced-area .post[itemid] ~ .post:not([itemid]):-abp-has(> [class]:empty)
 4pda.to##html[style] > body .advanced-area .post[itemid] ~ .post:not([itemid]):nth-child(-n+3)

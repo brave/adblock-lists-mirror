@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z0D3r3VeFpQytTWeP4qa2g
-! Version: 202508031251
+! Checksum: vMx7Pu2FVC/CI/Sjnm1/Qg
+! Version: 202508031311
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Aug 2025 12:51 UTC
+! Last modified: 03 Aug 2025 13:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2982,6 +2982,8 @@ igromania.ru,kanobu.ru##div[class*="ShareLinks_share"]
 ati.su##div[class*="SocialButtons"]
 rg.ru##div[class*="Video"][class*="_share"]
 matchtv.ru##div[class*="WidgetArticle__share"]
+mir24.tv##div[class*="__share__"]
+mir24.tv##div[class*="_info-row-share_"]
 stb.ua##div[class*="footer-social"]
 factroom.ru##div[class*="likely"]
 agroportal.ua##div[class*="news_"] > div[style="padding-bottom: 15px; color: #999999;"]
@@ -3005,6 +3007,7 @@ news.finance.ua##div[class^="ArticleShares"]
 auto.ru##div[class^="CardActions"] > .Share__popup + .Button:not(:last-of-type)
 igromania.ru,kanobu.ru##div[class^="CommonInnerHeader_header_pagetitle_right"] > [class] ~ div
 kanobu.ru##div[class^="Copyright_social_"] > a[target="_blank"]
+mir24.tv##div[class^="FooterTopSection_actions__subscribe"]
 daily.afisha.ru##div[class^="Footer_Social"]
 uchi.ru##div[class^="Footer_footer__social"]
 tribuna.com##div[class^="Footer_footer__social-media"]
@@ -4936,7 +4939,6 @@ sportnews.com.ua##.ads-after
 gorod24.online##.ads-aside-right-box > aside > .read-more
 softking.ru##.adsm
 kino-kingdom.com##.adv
-mir24.tv##.adv-group
 geniusmarketing.me##.advEvent
 gurutestov.ru##.adv_collumn
 pravo.ru##.advert
@@ -6588,6 +6590,7 @@ kuper.ru##div[class^="CookiesConcent_"]
 novayagazeta.eu##div[class^="CookiesInformer_"]
 meduza.io##div[class^="EmailSubscription-module-root"]
 meduza.io##div[class^="Footer"][class*="form"]
+mir24.tv##div[class^="FooterTopSection_actions__download"]
 daily.afisha.ru##div[class^="Footer_App"]
 www.afisha.ru##div[class^="Footer_apps"]
 www.afisha.ru##div[class^="Footer_aside"]

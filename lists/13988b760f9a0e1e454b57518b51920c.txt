@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: D5iqkDP2tRR9pQuNRXd1dQ
-! Version: 202508031811
+! Checksum: +J9ncVO9T/DI4aQdFqC1Jw
+! Version: 202508031841
 ! Title: EasyList Italy
-! Last modified: 03 Aug 2025 18:11 UTC
+! Last modified: 03 Aug 2025 18:41 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -3452,7 +3452,9 @@ auto.it,corrieredellosport.it,tuttosport.com##div[class^="AdUnit_"]
 ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="Ad_"]
 subito.it##div[class^="AdsGAMPlacement_"]
 subito.it##div[class^="AdvTopBanner_"]
+autoscout24.it##div[class^="FinanceStageIT_container__"]
 sslazio.it##div[class^="Footer_footerSponsorItem_"]
+autoscout24.it##div[class^="InsuranceStageIT_container__"]
 tuttoandroid.net##div[class^="OfferteCarousel"]
 luce.lanazione.it##div[class^="Slots_brand_"]
 subito.it##div[class^="SmartAdvItem_"]
@@ -4020,6 +4022,7 @@ mediamarkt.ch,mediaworld.it##[data-test="mms-product-card"]:has(div[data-test="m
 pharmacyscanner.it##article:has(.featured + .spons-post)
 liberoquotidiano.it##div[style="min-height: 885px;"]:has(.advertisement-wrapper)
 mediaworld.it#?#[data-test="mms-router-link"]:-abp-contains(Sponsorizzati)
+autoscout24.it##section[class^="DetailsSection_container__"]:has([class^="AgosSlice_advertisementNotice_"])
 ! Advanced element hiding rules for Adblock Plus
 adnkronos.com#?#.cont-ev-list:-abp-has(.title-channel:-abp-contains(in Evidenza))
 agi.it#?#.agi-article-card:-abp-has(.article-category:-abp-contains(BRANDED CONTENT))

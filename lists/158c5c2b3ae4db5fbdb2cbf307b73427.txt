@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wwh6hXGYiOGHZpFmEFRkmA
-! Version: 202508031011
+! Checksum: XYKwEmmuopsXMNFtFz1+iA
+! Version: 202508031041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Aug 2025 10:11 UTC
+! Last modified: 03 Aug 2025 10:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -224,6 +224,7 @@ com,ru##[data-rambler-share]
 ~vk.com##a[href^="http://vk.com/share.php"]
 ~vk.com##a[href^="http://vkontakte.ru/share.php"]
 ~tumblr.com##a[href^="http://www.tumblr.com/share"]
+~twitter.com,~x.com##a[href^="http://x.com/share"]
 ##a[href^="https://connect.mail.ru/share"]
 ~ok.ru##a[href^="https://connect.ok.ru/offer?"]
 ~getpocket.com##a[href^="https://getpocket.com/save?url="]
@@ -239,6 +240,7 @@ com,ru##[data-rambler-share]
 ~vk.com##a[href^="https://vkontakte.ru/share.php"]
 ##a[href^="https://x.com/intent/tweet/?"]
 ##a[href^="https://x.com/intent/tweet?"]
+~twitter.com,~x.com##a[href^="https://x.com/share"]
 ##a[href^="viber://forward?text="]
 ~ok.ru##a[onclick*="connect.ok.ru/offer?"]
 ~facebook.com##a[onclick*="facebook.com/sharer.php?"]
@@ -1947,6 +1949,7 @@ livemaster.ru##.share-link-list *
 smartpress.by##.share-links
 risu.ua##.share-news
 24tv.ua##.share-news-block
+kinokrad.my##.share-on-player
 kino-fs.ucoz.net##.share-player
 36doors.ru##.share-right
 anistar.org,astar.bz,online-star.org,online-stars.org,vellisa.ru##.share-soc

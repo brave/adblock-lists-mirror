@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b4GPweW7i7tfMu8FrnGKrA
-! Version: 202508061611
+! Checksum: egjiZtt8VyU6FJi9446yQg
+! Version: 202508061641
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Aug 2025 16:11 UTC
+! Last modified: 06 Aug 2025 16:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2020,7 +2020,7 @@ defence-ua.com##.sidebar > div:first-child + h2
 cikavosti.com##.sidebar noindex > [href^="https://cikavosti.com/goto/"]
 androidinsider.ru,appleinsider.ru,hi-news.ru##.sidebar-banner-telegram
 1plus1.ua##.sidebar-banners__instagram
-anitokyo.org,anitokyo.tv#?#.sidebar-block:-abp-has(> header > .soc-vk)
+anitokyo.tv#?#.sidebar-block:-abp-has(> header > .soc-vk)
 oxu.az##.sidebar-bottom
 t.ks.ua#?#.sidebar-box:-abp-has(> div > div > ul > .facebook)
 ryfma.com#?#.sidebar-card:-abp-has(> .content > .header:-abp-contains(Мы в соц.сетях))
@@ -2109,6 +2109,7 @@ vikna.tv##.soc-media
 fakty.com.ua##.soc-media-footer
 psm7.com##.soc-mob-menu
 oka.fm##.soc-search-block > a[href][target="blank"]
+anitokyo.tv##.soc-share
 okna.ua##.soc-share-block-wrapper
 soccer.ru##.soc-subcribe
 dnepr.info##.soc-tabs-js
@@ -3419,7 +3420,7 @@ porjati.net##form[action="http://feedburner.google.com/fb/a/mailverify"]
 /images/ubars/*
 /jquery.smartbanner.$domain=~1-ofd.ru|~blog.kaspersky.kz|~blog.kaspersky.ru|~gov.ru|~kaspersky.co.in|~kaspersky.co.uk|~kaspersky.co.za|~kaspersky.com|~kaspersky.com.au|~kaspersky.com.br|~kaspersky.com.cn|~kaspersky.com.tr|~kaspersky.de|~kaspersky.es|~kaspersky.fr|~kaspersky.it|~kaspersky.nl|~kaspersky.ru|~mirage.ru|~mosigra.ru|~mts.ru|~promelec.ru
 /js/pushsubscribe.js
-/light_chat/*$domain=~anitokyo.org|~anitokyo.tv|~asilmedia.org|~coop-land.ru|~freetp.org|~freetp.ru|~lenov.ru|~online-fix.me
+/light_chat/*$domain=~anitokyo.tv|~asilmedia.org|~coop-land.ru|~freetp.org|~freetp.ru|~lenov.ru|~online-fix.me
 /livejournal.png$domain=~livejournal.com
 /mchat/*$domain=~electric-house.ru|~naruto-base.su|~partizzan1941.ucoz.ru|~stalkerportaal.ru
 /metric.$image

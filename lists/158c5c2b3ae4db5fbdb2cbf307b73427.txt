@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +PCv1rY5HKO8DxZGaFYYxA
-! Version: 202508071041
+! Checksum: iBeW33eqsObJz/zTloKwMQ
+! Version: 202508071111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Aug 2025 10:41 UTC
+! Last modified: 07 Aug 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5258,7 +5258,7 @@ fireman.club,labirint.ru##.cookie-policy
 mts.ru,peoples.ru##.cookie-popup
 akson.ru##.cookie-popup-div
 psbank.ru##.cookie-wrapp
-elevator39.ru,mile.by##.cookie-wrapper
+elevator39.ru,mile.by,rostfinance.ru##.cookie-wrapper
 mosoblbank.ru##.cookie__disclaimer
 bitcryptonews.ru,yk.kz##.cookie_accept
 rzd-partner.ru##.cookie_outer_div
@@ -7246,7 +7246,7 @@ ya.ru,yandex.*#?#.simple-popup__overlay_shown
 ya.ru,yandex.*#?#.simple-popup__overlay_shown_true
 yandex.ru,yandex.*##.map-controls__bottom-extension-slot
 yandex.ru,yandex.*##button[class^="AppPromo_container_"]
-yandex.ru,yandex.*##div[class^="AppPromo_container_"]
+yandex.ru,yandex.*##div[class^="AppPromo"][class*="_container_"]
 yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 !#if ext_abp
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column

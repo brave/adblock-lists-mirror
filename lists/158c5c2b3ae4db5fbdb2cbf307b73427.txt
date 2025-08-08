@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EMA+bKshpNHH7XEbBb4Jhw
-! Version: 202508081041
+! Checksum: Ja5yqnH5CU0j+B2bk0yebg
+! Version: 202508081111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Aug 2025 10:41 UTC
+! Last modified: 08 Aug 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -741,6 +741,7 @@ pogliad.ua##.article-left-button-share
 wtftime.ru##.article-like-mobile
 snob.ru##.article-links-block__tg
 euro-football.ru##.article-meta__share-title
+novayagazeta.ru##.article-recommendations-block + div:last-child
 sobesednik.ru##.article-section > article ~ div > .row > .text-left > .d-none
 lada.kz##.article-shared
 dengi.ua##.article-shares
@@ -2296,6 +2297,7 @@ electrotests.ru,tests24.su##.socialmedia
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
 100pdf.club##.socials-after_post
+novayagazeta.ru##.socials-block-style
 game2day.ru##.socials-net
 kinonews.ru##.socials-new
 k1news.ru##.socials-random-wrap
@@ -2719,7 +2721,6 @@ mash.ru##[class*="styles_shares_"]
 hromadske.radio##[class^="FollowBanner"]
 ainews.kz##[class^="Footer_socials"]
 atas.info,bel.ru,tagilcity.ru##[class^="LeftcolSocials_item"]
-novayagazeta.ru##[class^="SocialsBlock_social"]
 meduza.io##[class^="Toolbar-module_list"] > [class^="Toolbar-module_item"]:nth-child(-n+3)
 rg.ru##[class^="UmbrellaSocial_root_"]
 pdd.by##[class^="b-scbutton-"]
@@ -4531,6 +4532,7 @@ vk.com###app_container_outer + div[style]
 terrikon.com###appeal
 gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com###apps_widget
 intex-press.by###article > blockquote
+novayagazeta.ru#?##article-body div:-abp-has(> div > div > [placeholder])
 theins.ru#?##articleContainer > div:-abp-has(form [name="email"])
 martrending.ru###article_likes
 nv.ua###async_subscribe_block
@@ -4678,6 +4680,7 @@ forum.sibnet.ru###ipbwrapper > table > tbody > tr > td[style="width: 240px;"]
 zaycev.fm###jmod_promo
 datagroup.ua###js-cookie-notification
 pornhub.com###js-likedVideosTooltip
+novayagazeta.ru###krik
 glavred.info,unian.net###langModal
 samlab.ws###left > .box-shadow + .box-shadow + .box-shadow
 fishki.net###lemur-promo
@@ -4693,6 +4696,7 @@ smdoctors.ru###logo_box
 uainfo.org###logo_help
 forums.warforge.ru###logostrip
 fullgames.ru###main > noindex
+novayagazeta.ru###mainHeader a[target="_blank"]
 uniondht.org###main_content_wrap > div[id*="new"] tr > td:empty + td
 libst.ru###main_slider
 vellisa.ru###mbt-sub-box + div,#mbt-sub-box
@@ -5013,6 +5017,7 @@ delfi.lt##.article-headlines
 kg.ua##.article-newsgoogle
 paypress.ru##.article-newsletter
 vedomosti.ru##.article-recommendation
+novayagazeta.ru##.article-recommendations-block
 jewishnews.com.ua,sntch.com##.article-subscribe
 inosmi.ru,ukraina.ru##.article__aggr
 tsargrad.tv##.article__content .form
@@ -6286,12 +6291,11 @@ ixbt.com##[aria-label="cookieconsent"]
 point.md##[aria-label="scroll to top button"]
 bbc.com##[aria-labelledby="recommendations-heading"]
 bbc.com##[aria-labelledby^="message-banner-"]
-novayagazeta.ru##[class*="Donate"]
 rutube.ru##[class*="Player"] div[class*="disclaimer"]
 aliexpress.ru##[class*="PrivacyPolicyBanner"]
 stopcor.org##[class*="TopLine_donate"]
 dtf.ru,vc.ru##[class*="comments"][class*="always"]
-novayagazeta.ru,v-variant.com.ua##[class*="donate"]
+v-variant.com.ua##[class*="donate"]
 gagadget.com##[class*="mastercard"]
 autogeek.com.ua##[class*="patreon_"]
 forklog.com##[class*="subscribe_blk"]
@@ -6625,8 +6629,6 @@ meduza.io##div[class^="SignalBlock"]
 1tv.ru##div[class^="StandardAdvert_main_"]
 start.rt.ru##div[class^="StyledHeader-"] > canvas
 rg.ru##div[class^="Subscribe_formSub"]
-novayagazeta.ru##div[class^="SubscriptionInformer_root"]
-novayagazeta.ru##div[class^="Subscription_root"]
 premium.mts.ru##div[class^="ToastRoot_wrapper_"]
 meduza.io##div[class^="TopBar-"][class*="root"]
 stopgame.ru#?#div[class^="_content"] > p:-abp-has(> a[href*="boosty"])
@@ -6787,6 +6789,7 @@ flightsim.su##li > [title="Поддержать FlightSim"]
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##li.wsapp
 auto.ru##li[class^="PersonalizedFeedUgcLogbookItem-"]
 thetruestory.news#?#main > div:-abp-has(> div > a[href="/cookies"])
+novayagazeta.ru#?#main > div:-abp-has(> svg[height][width="10000"])
 bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"])
 bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"]) + div
 bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"]) + div + figure

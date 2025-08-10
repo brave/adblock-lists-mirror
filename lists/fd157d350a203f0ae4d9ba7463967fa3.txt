@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vP36g6OH/ta1oQb5IF0Wqw
-! Version: 202508101811
+! Checksum: 8GPEeyIvI32CxMekKzA1BA
+! Version: 202508101841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Aug 2025 18:11 UTC
+! Last modified: 10 Aug 2025 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23971,11 +23971,12 @@ ok.ru###rightColumn[data-mouse-wheel]
 ok.ru##.dialogWrapperBanner
 ok.ru##.exit-popup
 ok.ru#?#.feed-list > .feed-w:-abp-has(> [class^="feed"] > .feed-header [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class])
-ok.ru#?#.feed-list > .feed-w:-abp-has([class^="feed"][class*="label"]:-abp-contains(Реклама))
+ok.ru#?#.feed-list > .feed-w:-abp-has([class^="feed"][class*="label"]:-abp-contains(/реклама/i))
 ok.ru#?#.feed-list > .feed-w:-abp-has(button[class*="advert-badge"])
 ok.ru#?#.feed-list > .feed-w:-abp-has(dzen-content)
 ok.ru##.forthTopAdv
 ok.ru##.html5-vpl_oklive-banner
+ok.ru##[adchoicesize]
 ok.ru#?#[data-logger="SimpleLogger"]:-abp-has([href^="https://dzen.ru/"])
 ok.ru#?#[data-logger="SimpleLogger"]:-abp-has(dzen-content)
 ok.ru#?#div:-abp-has(> #hook_Block_CompactFooter) > div:not(#hook_Block_CompactFooter)

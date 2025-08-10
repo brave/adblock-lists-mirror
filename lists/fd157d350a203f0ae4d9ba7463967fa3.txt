@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cTO7ovhu8dFC+IA0nH6Pmw
-! Version: 202508101131
+! Checksum: x3gFCafod9Qioz5ZiD289w
+! Version: 202508101251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Aug 2025 11:31 UTC
+! Last modified: 10 Aug 2025 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1412,6 +1412,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="filebase.me"]
 ##a[href*="films.ws"]
 ##a[href*="flylinks.pw"]
+~fon.bet##a[href*="fon.bet/"]
 ##a[href*="fortedrow.pro"]
 ##a[href*="ftpglst.com"]
 ~globalteaser.ru##a[href*="globalteaser.ru"]
@@ -15317,6 +15318,7 @@ uralweb.ru##.padspo
 pravda.ru##.page > .header
 3ppc.net##.page > div > center > noindex
 mydiv.net##.page-banner__wrapper
+autosport.com.ru#?#.page-block:-abp-has(> div[class^="smi24_"])
 superkarate.ru##.page-content > .row
 selezen.club,selezen.net,selezen.org#?#.page-content > .row > div[class^="col"] + div[class^="col"] > div:-abp-has(> .card h6:-abp-contains(/Реклама|Друзья/i))
 dumka.poltava.ua##.page-element > .page-element__ads ~ .page-element__ads
@@ -16348,6 +16350,7 @@ notefood.ru,videoshara.net##.tizer
 avtoelektrik-info.ru,jekstrasens.ru##.tizers
 gidonline.fun##.tiznews
 rusdemotivator.ru##.tizz
+asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,relook.ru,stranamam.ru##.tl-house
 habr.com##.tm-company-card__branding
 newformat.info##.tm-content ~ .tm-main-bottom .widget_custom_html:not([style])
 itcrowd.top##.tm-top
@@ -17436,7 +17439,7 @@ livesport.ru##a[href*="://www.livesport.ru/away"]
 uaprom.info##a[href*="://www.wem.ua"]
 drive2.com,drive2.ru##a[href*="://yabs.yandex.ru/count/"]
 gamer-info.com##a[href*="=http"]:not([target])
-anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,vuzopedia.ru##a[href*="?erid="]
+anilib.me,animelib.org,diets.ru,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,vuzopedia.ru##a[href*="?erid="]
 mauforum.ru##a[href*="?partner"]
 itorrents-igruha.net,itorrents-igruha.org##a[href*="BlumCryptoBot"]
 stratege.ru##a[href*="_click?id="]
@@ -17465,6 +17468,7 @@ minecraft15.my1.ru##a[href*="barbarisnews.ru"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##a[href*="bear"]
 cybersport.ru,dltv.org,esports.ru,prodota.ru##a[href*="betboom.bet"]
 okrain.net.ua##a[href*="billing.hostpro.ua"]
+allsport-live.ru,allsport-news.net##a[href*="binance.com"]
 aacalc.ru,agronews.ua,ain.ua,ampercar.com,app2top.ru,argumenti.ru,arminfo.info,autogeek.com.ua,bib.bz,blizzardheroes.ru,csgo-guides.ru,daxshat.site,for-ua.info,gameinside.ua,games-vam.ru,goal24.live,ilenta.com,img2txt.com,kontrolnaya-rabota.ru,korsars.pro,kritka.su,kurkul.com,liveball7.gq,liveball8.ml,mezha.media,modsfire.com,newstudio.tv,onliner.by,onlinevideoconverter.com,pesni-tut.com,photoshop-besplatno.org,prosportua.com,psm7.com,real-game.net,rutracker-2017.org,skachat-igri-besplatno.info,soft-windows.info,stopgame.ru,tochka.net,topvideo.tj,torrent-shyter.net,trupornolabs.org,ua.news,vc.ru,vgtimes.ru,windows-soft.info,xn--80ac9aeh6f.xn--p1ai,z-music.org,zbirna.com,zoneofgames.ru,zserials.cc##a[href*="bit.ly"]
 bitmakler.com##a[href*="bitmakler.com/go.php"]
 blogspot.ru##a[href*="bolotov.com.ua"]
@@ -17501,7 +17505,6 @@ pwcats.info##a[href*="fastrader.ru"]
 sport.ua,vringe.com##a[href*="favbet"][target="_blank"]
 superhumor.ru,voffka.com##a[href*="feipiter."]
 godendo.ru##a[href*="firmpage.ru"]
-allsport-live.ru,allsport-news.net,autosport.com.ru##a[href*="fon.bet/"]
 allhockey.ru##a[href*="fonbet.ru"]
 juventus.ru##a[href*="football-shopping.ru"]
 erichware.net##a[href*="freebitco.in"]
@@ -21020,6 +21023,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||did5.ru/images/banner
 ||diets.guru/js/fixads.js
 ||diets.guru/teaser/
+||diets.ru/i/fitness-
 ||diets.ru/i/rb/
 ||digiboo.ru/bnrs/
 ||digiseller.ru^$domain=keysportal.com|kluchikipro.ru
@@ -24425,14 +24429,18 @@ sports.ru##.comment-ads
 sports.ru##.comments-list__ad-item
 cyber.sports.ru##.cyber-tags-header
 sports.ru##.document-recommendations
+sports.ru##.factoid-coefficient
+sports.ru##.factoid-rows__adv-label
 sports.ru##.fonbet-teaser
 cyber.sports.ru##.header-bookmaker-banner
 sports.ru##.high-adload-container
 sports.ru##.in-read-placement
 sports.ru##.in-read-yadv
 sports.ru##.js-ad-label
+sports.ru##.layout-branding
 sports.ru##.layout__branding
 cyber.sports.ru##.match-teaser__betting-bar
+sports.ru##.matches-entertainment-rating__advertise
 sports.ru#?#.material-list__item:-abp-has(.content-label:-abp-contains(/Реклама|Pеклама/))
 sports.ru#?#.material-list__item:-abp-has(a[href^="https://sprts.cc/"])
 sports.ru##.middle-banner-place
@@ -24443,7 +24451,9 @@ sports.ru##.navigation-top__specials + div:empty,.navigation-top__specials
 sports.ru##.news-ad-inreads
 sports.ru##.news-item__content > p > strong > a[rel="nofollow"]
 sports.ru##.news-layout__frame
+sports.ru##.odds-widget
 sports.ru##.one-card[data-img_desktop^="https://dumpster.cdn.sports.ru/"]
+sports.ru##.online-layout__third-position > .widget-heading
 sports.ru##.place-for-ad
 sports.ru##.poll-variant__coeff
 sports.ru##.poll__ad-label
@@ -24487,6 +24497,7 @@ tribuna.com##a[href*="/bet/"]
 tribuna.com##a[href*="/betting/"]
 tribuna.com##a[href*="bit.ly"]
 sports.ru##a[href*="click"][target="_blank"][style^="display"]
+sports.ru##a[href*="fon.bet/"]
 sports.ru,tribuna.com##a[href*="utm_campai"]
 sports.ru##a[href="https://trbna.co/2u3V2dO"]
 cyber.sports.ru##a[href^="https://redirect.appmetrica.yandex.com/serve/"]
@@ -24508,6 +24519,7 @@ sports.ru##p > a[rel="nofollow"] > img[height][width]
 sports.ru#?#p:-abp-has(> a[href]:-abp-contains(М.Видео))
 tribuna.com##span[class^="_comments__loader"][class*="_spinner_"]
 sports.ru##style:first-child ~ [class^="gift__"]
+||dumpster.cdn.sports.ru/*.png|$image
 ||dumpster.cdn.sports.ru/*.webp|$image
 ||s5o.ru/build/_desktop/split_testing_init.js
 ||senoval.cdn.sports.ru/cross-recommender/

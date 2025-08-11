@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: nF4xE+m0lqw1pY7if9TzoA
+! Checksum: GTIeKtf5UqKyySpLk0XwKA
 ! Title: Easylist Cookie List
-! Updated: 2025-08-11 08:10 UTC
+! Updated: 2025-08-11 09:10 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23274,6 +23274,9 @@ vadhander.hogakusten.com,vadhander.kramfors.se##+js(set, settings.consent, true)
 stewes.de##+js(set, HB.CookieSettings.init, noopFunc)
 ! gadgethacks cookie
 gadgethacks.com##+js(set, WHT.ShowConsentForm, trueFunc)
+! saos.org.pl
+saos.org.pl##+js(set, CookiePolicy, {})
+saos.org.pl##+js(set, CookiePolicy.init, noopFunc)
 ! qastack.fr
 qastack.fr##+js(set, useGDPR, false)
 ! xvideos.com

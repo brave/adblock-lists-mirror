@@ -2405,6 +2405,8 @@ fileq.games##+js(nowoif, _blank)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/29438
 animekai.*##+js(nowoif, _blank)
+! https://github.com/uBlockOrigin/uAssets/issues/29557
+||animekai.*/sw.js^
 
 ! https://velo.outsideonline.com/road/road-racing/tour-de-france-femmes/tour-de-france-femmes-how-much-did-ferrand-prevot-win/ - empty space
 velo.outsideonline.com##main:style(margin-top: 10px !important)
@@ -2480,3 +2482,6 @@ vice.com##.code-block
 ! https://github.com/uBlockOrigin/uAssets/issues/29583
 18xxx.xyz,nxxn.live,4tube.live,redtub.live##+js(nowoif)
 4tube.live,nxxn.live##+js(nostif, .clientHeight)
+
+! https://github.com/uBlockOrigin/uAssets/issues/29584
+tvpassport.com##.divide-nav:style(height: 120px !important)

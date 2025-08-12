@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FJuCXjONveqsTISNeYF0wQ
-! Version: 202508121441
+! Checksum: nZiBoNZ72yJEuWJlvuH0nw
+! Version: 202508121511
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Aug 2025 14:41 UTC
+! Last modified: 12 Aug 2025 15:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18728,6 +18728,7 @@ gisher.org##div[class^="gov"]
 pipdecor.ru##div[class^="hairw-"]
 nsportal.ru##div[class^="header-top"] ~ *
 hindcine.tv##div[class^="hind"]
+business-gazeta.ru##div[class^="holiday-carousel"]
 lolzteam.online##div[class^="homeBannersAds"]
 odysseus.ctc.ru##div[class^="index-module__notice-"]
 akipress.org##div[class^="inform_doska"]
@@ -24724,10 +24725,7 @@ yandex.ru,yandex.*##div[class^="FeedAdvBlockRenderer-"]:empty
 yandex.ru,yandex.*##.catalog-grid-view__item._advert
 yandex.ru,yandex.*##.map-controls__additional-button .promo-button
 ! Яндекс.Музыка
-music.yandex.ru,music.yandex.*##.bar__driver-container
-music.yandex.ru,music.yandex.*##[class^="audio-advert"]
 music.yandex.ru,music.yandex.*##section[class^="SideAdvertBanner_root_"]
-radio.yandex.ru,radio.yandex.*##.slider > .slider__item_advert
 ! Яндекс.Недвижимость
 realty.ya.ru##.FSGalleryLayout > .GalleryGuadeloupe
 realty.ya.ru##.OffersSearchPage__adCut

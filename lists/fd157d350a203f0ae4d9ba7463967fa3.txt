@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9ER/QuS5t43kpBeztGWqbQ
-! Version: 202508120811
+! Checksum: BlpMKYdj/CjZyic2tt10sQ
+! Version: 202508120841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Aug 2025 08:11 UTC
+! Last modified: 12 Aug 2025 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7739,6 +7739,7 @@ _tizers.
 ||mlivaka.ru^$third-party
 ||mmcge.com^$third-party
 ||mmoney.services^$third-party
+||mn-tz.com^$third-party
 ||mn-tz.ltd^$third-party
 ||mnayto.com^$third-party
 ||mnogobabok.info^$third-party
@@ -18998,6 +18999,7 @@ baginya.org,topmmo-games.ru##div[id^="admitad"]
 marieclaire.ua##div[id^="admixer_"] ~ .line
 baby.ru,rb.ru,susanin.news##div[id^="adriver_banner"]
 patrioty.org.ua##div[id^="ads"]
+forum.awd.ru##div[id^="ads-"]
 for-ua.info##div[id^="adsfoot"]
 litvek.com##div[id^="adsline"]
 forum.vip-cxema.org##div[id^="adspace"]
@@ -19543,7 +19545,6 @@ informburo.kz##img[src*="1xbet"]
 cxid.info##img[src*="://cxid.info/bcx/"]
 region15.ru##img[src*="Baner"]
 ogribax.ru##img[src*="ad.admitad.com"]
-forum.awd.ru##img[src*="awd.is/banner/"]
 forum.rsload.net,offisny.ru##img[src*="banner"]
 regionnews.net.ua##img[src*="banner_"]
 chexov.info##img[src*="chexov.info/images/banners/"]
@@ -20726,7 +20727,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||avtosale.ua/img/adDiv/
 ||avtoudostoverenie.ru/_*.php|$script,domain=avtoudostoverenie.ru
 ||avtozakony.ru/*.php?$script
-||awd.is/banner/$domain=forum.awd.ru
 ||azbukadiet.ru/dinamic-baner/
 ||azbukadiet.ru^*/underbanner/
 ||b-port.com/html5-banners/

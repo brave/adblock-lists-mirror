@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Tw0BgWN4iXTOfW8i2SnxwQ
-! Version: 202508150911
+! Checksum: otjvvXlTLkxdfNygv1K/aQ
+! Version: 202508150932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Aug 2025 09:11 UTC
+! Last modified: 15 Aug 2025 09:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -734,7 +734,9 @@ gazeta.ua##.article-footer .pull-right
 tvoymalysh.com.ua##.article-footer-instagram
 tvoymalysh.com.ua##.article-footer-share-title
 championat.com,championat.ru##.article-footer__title
+arbatmedia.kz##.article-info > .angry-grid > div[id^="item"] ~ div[id^="item"]
 studopedia.ru##.article-info-share-wrapper > .icons
+arbatmedia.kz#?#.article-info:-abp-has(> .angry-grid > div[id^="item"]:first-child > .article__button_soc)
 beauty.ua##.article-instagram
 mtt.ru##.article-layout__share
 pogliad.ua##.article-left-button-share
@@ -5799,6 +5801,7 @@ ppt.ru##.page-inner > .sub-article-sect-header
 xn--80ahmohdapg.xn--80asehdb##.page-notification
 bdf.ms##.pageContent > div[style^="outline"]
 rz.com.ua##.pane-simplenews
+arbatmedia.kz##.panel-like
 bus.vse42.ru##.panel.news-block
 mult-fan.tv##.panel_vipka
 overclockers.ua##.patreon
@@ -6086,7 +6089,7 @@ nv.ua##.subscrb_form_wrap
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtonovostidnya.ru,belretail.by,blog.eva.ua,censor.net,doc-tv.ru,dynamomania.com,femmie.ru,glas.ru,inforeactor.ru,it-tehnik.ru,izhlife.ru,kod.ru,kp.kg,kp.kz,kp.md,kp.ru,kp.ua,liga.net,livelib.ru,marieclaire.ru,maximonline.ru,mydecor.ru,naukatv.ru,newinform.com,novostivl.ru,oboz.ua,obozrevatel.com,ohotniki.ru,parents.ru,polit.info,psychologies.ru,riafan.ru,rockstargame.su,rueconomics.ru,slovodel.com,spartak.ru,texty.org.ua,the-day.ru,thegirl.ru,twizz.ru,v-variant.com.ua,vokrugsveta.ru,woman.ru##.subscribe
 bnb.by,kinometro.ru,vokrug.tv##.subscribe-block
 texterra.ru##.subscribe-block-form
-news.ati.su##.subscribe-block-place
+news.ati.su,zen.ati.su##.subscribe-block-place
 forex.ua##.subscribe-btn
 kubnews.ru##.subscribe-channel
 ichip.ru##.subscribe-content
@@ -7268,6 +7271,7 @@ dzen.ru#?#.mg-grid__item_type_card:-abp-has(> div[class*="loader_animated"])
 dzen.ru#?#.news-app__heading:-abp-has(> h1:-abp-contains(Реклама))
 mail.ru#@#.tgb-wrapper
 mail.ru#@#.tgbv-wrapper
+mail.ru##.tv-widget > .vk-video
 dzen.ru##.video-card-ads
 mail.ru##.widget-uber-wrapper
 dzen.ru##.zen-page .content div[class*="__bannerMain"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CDVZemv50SjvUX/GpCfkOQ
-! Version: 202508150911
+! Checksum: hzhpwpAyDyvmCca46XxtHQ
+! Version: 202508150932
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Aug 2025 09:11 UTC
+! Last modified: 15 Aug 2025 09:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16757,6 +16757,7 @@ vokrug.tv##.ya-dzen
 infox.ru##.ya-invite-block
 u-f.ru##.ya-news
 bestpersons.ru##.ya-partner_ads-up > *
+arbatmedia.kz##.ya_rtb
 game-tournaments.com##.yaadstracker
 softportal.com##.yablock
 obsuzhday.com##.yad
@@ -17055,6 +17056,7 @@ anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranob
 tgstat.com,tgstat.ru##[data-slick*="autoplay"]
 zr.ru##[data-slot-name]
 iphones.ru##[data-slug="damprodam"]
+arbatmedia.kz##[data-smi-widget-id]
 pravda.if.ua##[data-source="editor"] > section
 mac.org.ua##[data-src*="bashmac"]
 drive2.ru#?#[data-target]:-abp-has(> div > h3 ~ [href*=".drom.ru/"])
@@ -19374,7 +19376,7 @@ payeer-gift.ru##form > div[style^="width: 300px;"]
 yap.ru,yaplakal.com#?#form > table[id^="p_row_"]:nth-of-type(2):-abp-has(*:-abp-contains(Yap))
 leonkrevs.ucoz.ru##form[action*="wmcasher.ru"]
 megaimg.ru##form[name="show_image"] > center
-day.kyiv.ua#?#h2:-abp-contains(/^новости партн|^новини партн/i)
+arbatmedia.kz,day.kyiv.ua#?#h2:-abp-contains(/^новости партн|^новини партн/i)
 dokumental.ru,infox.ru,radiorecord.fm,ria-m.tv#?#h2:-abp-contains(/^реклама/i)
 apostrophe.ua,fishki.net,hvylya.net,novorosinform.org,sharknews.ru,tehnowar.ru,tochka.net,topdaynews.ru,wworld.com.ua#?#h3:-abp-contains(/^нов.+партн.+р.в$/i)
 fit4power.ru#?#h3:-abp-has(> span:-abp-contains(/реклама/i))

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.8.0
+! Version: 4.1.8.1
 
 ! General
 
@@ -562,6 +562,10 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 ||epochbase.eu/rules/get$xmlhttprequest,third-party
 /\/epoch\.org\.il\/.+\/\d{5,}\//$inline-script,domain=epoch.org.il
 
+! The Local Group (EU)
+thelocal.at,thelocal.ch,thelocal.com,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se##+js(ra, style, div#articleBody, stay)
+thelocal.at,thelocal.ch,thelocal.com,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se##p#articleBodyForbidden,div.tl-ad-container,div.ml-manual-widget-container
+
 ! additional adblocker-fix
 ||flowerstreatment.com^$third-party
 ||guidecent.com^$script,third-party
@@ -578,6 +582,7 @@ theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
 @@/wrapperMessagingWithoutDetection.js$script,~third-party,domain=handelsblatt.com
 !##div#didomi-host
 ##+js(rc, didomi-popup-open, body.didomi-popup-open)
+||htlbid.com$script,third-party
 
 ! flip-pay
 ||flip-pay.com/*/flip-pay.js$script,third-party,domain=clareecho.ie|thedailymash.co.uk
@@ -596,6 +601,8 @@ amboss.com##+js(cookie-remover, ssobma)
 amboss.com##div#optly-remaining-articles-banner,div[class^="InfoBanner_InfoBanner"]
 ||anandabazar.com/subscription-assets/js/paywall.js$script,~third-party
 anandabazar.com##div.paywallouterbox
+||tinypass.com/api/tinypass.min.js$script,domain=arabianbusiness.com
+arabianbusiness.com##+js(ra, class, div.ev-meter-content, stay)
 ||arktimes.com/wp-content/plugins/newspack-plugin/dist/memberships-gate-metering.js$script,~third-party
 ||artsprofessional.co.uk/*/js/content_paywall.js$script,~third-party
 ||atribuna.com.br/assets/js-v*/story.js$script,~third-party

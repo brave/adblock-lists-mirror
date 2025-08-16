@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9M8zpwhXC7QhorqVbB4LTw
-! Version: 202508160841
+! Checksum: lnY8mt6H1hO+2hZZy/2+Jg
+! Version: 202508160912
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Aug 2025 08:41 UTC
+! Last modified: 16 Aug 2025 09:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7272,7 +7272,6 @@ dzen.ru#?#.mg-grid__item_type_card:-abp-has(> div[class*="loader_animated"])
 dzen.ru#?#.news-app__heading:-abp-has(> h1:-abp-contains(Реклама))
 mail.ru#@#.tgb-wrapper
 mail.ru#@#.tgbv-wrapper
-mail.ru##.tv-widget > .vk-video
 dzen.ru##.video-card-ads
 mail.ru##.widget-uber-wrapper
 dzen.ru##.zen-page .content div[class*="__bannerMain"]
@@ -7295,6 +7294,7 @@ e.mail.ru,octavius.mail.ru##div[class*="layout"] .promo-block-letter
 dzen.ru##div[class^="article-"][class*="-placeholder__root"]
 mail.ru##div[class^="tg"][class*="-wrapper_"]
 mail.ru##div[id^="mailru"]
+mail.*##.tv-widget > .vk-video {remove:true;}
 mail.yandex.ru,mail.yandex.*###js-mail-layout-content-header > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 ||dzen.ru/zen-partner/$third-party

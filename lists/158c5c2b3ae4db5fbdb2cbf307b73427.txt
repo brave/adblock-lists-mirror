@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KH9UwoPDiP7SCSGsbI+wEg
-! Version: 202508161011
+! Checksum: boysKqzhHes5d1MvxpJFSA
+! Version: 202508161111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Aug 2025 10:11 UTC
+! Last modified: 16 Aug 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3326,13 +3326,13 @@ maps.mail.ru###mm_share
 my.mail.ru##.b-video-viral-panel__right-toolbar > div[data-share-type]
 my.mail.ru##.b-video__code-block__share-panel
 minigames.mail.ru##.ok_group_widget
-vkplay.ru##.ph-footer__social
 sportmail.ru##.portal-menu__others .pm-dropdown-bottom
 mail.ru##.s-chart-shares
 mail.ru##.s-sharelist
 mail.ru##.sharelist
 mail.ru,sportmail.ru##.sharelist__items
 auto.mail.ru##.sharelist_justify
+vkplay.ru##[data-id="footer__social"]
 pets.mail.ru##a[class*="VKAppBanner__root"]
 deti.mail.ru#?#button:-abp-has(> .button__inner:-abp-contains(Поделиться))
 mail.ru,sportmail.ru##button[title="Поделиться"]
@@ -4173,6 +4173,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||assets.uchi.ru/assets/check_cookies-
 ||asus.com^*/banner/
 ||aum.news/themes/default/inc/t3-assets/
+||auth-ac.vkplay.ru/api/*/autologin/
 ||auto.mail.ru^*/typescript/block-audio-desktop.js
 ||auto.ru/-/ajax/desktop/getPromoPopup/
 ||avito.st/s/avito/components/banners/

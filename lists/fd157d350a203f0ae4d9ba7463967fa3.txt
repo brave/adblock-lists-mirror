@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 57itoJK78bChRGXL5ZCeKA
-! Version: 202508161211
+! Checksum: AeEEwgRDWsQx7Yf9uAH6KA
+! Version: 202508161251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Aug 2025 12:11 UTC
+! Last modified: 16 Aug 2025 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17069,6 +17069,7 @@ telegraf.com.ua##[data-text^="Новини партнер"]
 uazmi.org##[data-text^="Рекламн"]
 my.ua##[data-top-iid]
 drive2.ru#?#[data-track]:-abp-has(> div[id]:empty + script)
+rbc.ua##[data-type="_mgwidget"]
 dotabuff.com##[data-type="elo-placement"]
 historyrusedu.ru##[data-uk-grid-match*="target"]
 conversion.im##[data-url*="/banners/"]
@@ -19601,7 +19602,7 @@ sarafannoeradio.org##img[width="829"][height="90"]
 demiart.ru##img[width="900"][height="100"]
 post-tracker.ru##img[width^="8"][height^="3"][src$=".gif"]
 gizmod.ru##index > .entry
-audiotag.info,computer76.ru,enovosty.com,epravda.com.ua,finget.ru,fraza.com,inforesist.org,ostro.org,real-vin.com,stravy.net,videoredaktor.ru,volyninfo.com##ins
+audiotag.info,computer76.ru,enovosty.com,epravda.com.ua,finget.ru,fraza.com,inforesist.org,ostro.org,rbc.ua,real-vin.com,stravy.net,videoredaktor.ru,volyninfo.com##ins
 peugeot-club.net,vjazhi.ru##ins[style^="display:inline"]
 tvc.ru#?#li.play-button-wrap:-abp-has(> div > [id^="adfox_"])
 gofrag.ru#?#li:-abp-has(> .uk-accordion-title ~ [class] a[href*=".ufiler.pro/"])
@@ -24393,7 +24394,7 @@ rbc.ru#?#[data-vr-zone="Топ новости"] div:-abp-has(> a[href*="utm_camp
 rbc.ru##[data-yandex-name^="selfpromo_"]
 rbc.ru##[data-yandex-show="cards_marketplace_show"]
 rbc.ru##[data-yandex-show^="commercial_cards_"]
-autodaily.ru,autonews.ru,rbc.ru,rbc.ua,sportrbc.ru,utro.ru##[id^="unit_"]
+autodaily.ru,autonews.ru,rbc.ru,sportrbc.ru,utro.ru##[id^="unit_"]
 rbc.ru##a.video-player__details[target="_blank"]
 quote.ru##a[href*="bannersdisable_button"]
 sportrbc.ru##a[href*="erid="][target="_blank"]

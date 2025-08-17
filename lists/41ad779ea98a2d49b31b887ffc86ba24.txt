@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IaWQ6UWtHu0BPrkQe/NHww
-! Version: 202508171042
+! Checksum: 7++t3KD3kk44qidgzxSVdw
+! Version: 202508171242
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-08-17 10:42 UTC
+! Last modified: 2025-08-17 12:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2588,7 +2588,6 @@ psyche.co##[data-ga-view-prompt="psyche_cta_article_end_donate"]
 pngtree.com##[data-huejs="couponside-nologin-click"]
 fool.com##[data-pitch-placement]
 independent.co.uk##[data-testid="nsc-wrapper-support-us"]
-flightradar24.com##[data-testid="sidebar__container"]
 jurist.org##[href="/apply/"]
 asuracomic.net##[href="/subscription"]
 dailyhodl.com##[href="https://dailyhodl.com/alerts/"]
@@ -4110,6 +4109,9 @@ saisoncard.co.jp##body[style="overflow-y: hidden;"]:style(overflow-y: auto !impo
 ! rocket-boys.co.jp
 rocket-boys.co.jp###timeModal
 rocket-boys.co.jp##body[style^="position:"]:style(position: static !important; top: unset !important; width: unset !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/23150
+flightradar24.com##[data-testid="sidebar__container"]
+flightradar24.com##.right-sidebar:style(right: 0 !important)
 !--------------------------General blocking rules-----------------------------!
 ! fanboy_social_general_block.txt
 -facebook-likeButton-

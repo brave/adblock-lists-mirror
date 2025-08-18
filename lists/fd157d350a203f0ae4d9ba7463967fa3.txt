@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bdlxOGUVbf1n1YOTGGPhKg
-! Version: 202508181411
+! Checksum: sIehuKsfM1IGdfC1HncFZg
+! Version: 202508181431
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Aug 2025 14:11 UTC
+! Last modified: 18 Aug 2025 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15471,7 +15471,9 @@ cod31.ru##.post > .entry-tags + .row
 cod31.ru##.post > .entry-tags ~ div[style*="clear"]
 ustanovkaos.ru##.post > .title
 ustanovkaos.ru##.post > noindex
+iphones.ru#?#.post > p:-abp-contains(Купить за):-abp-has([target="_blank"])
 iphones.ru#?#.post > p:-abp-has(a[href*="?erid="])
+iphones.ru#?#.post > p:-abp-has(a[href*="utm_campaign"])
 101poisk.ru##.post-banner-bottom
 kyivvlada.com.ua##.post-block
 kot-i-koshka.ru##.post-block > div[id]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6wJXP98PgjjkiBdpaTOsGQ
-! Version: 202508191131
+! Checksum: 5rNYHp/JYUrC7618frtjNg
+! Version: 202508191201
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Aug 2025 11:31 UTC
+! Last modified: 19 Aug 2025 12:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3226,6 +3226,7 @@ expert.com.ua##img[title^="кнопка"][alt^="HiTech.Expert "]
 sud.ua#?#li > .b-news-item:-abp-has(> .b-news-item-info > h3 > a[href*="://t.me/"])
 argumenti.ru#?#li:-abp-has(> a[href^="https://t.me/"])
 ctc.ru##li[class="hsi-item"]
+78.ru##li[class^="social-block_"]
 4pda.to##li[id$="share"]
 liveball.my,liveball.uno,liveball.*##.free
 mail.yandex.ru,mail.yandex.*##.b-mail-domik__social
@@ -6672,6 +6673,7 @@ hightech.plus##div[class^="banner__"]
 www.livejournal.com#?#div[class^="cat-widget"] > div[class*="cat-widget__card-wrap--"]:-abp-has([id*="native"])
 mnogo.ru##div[class^="cook_"]
 videobel.by##div[class^="cookie-alertcomponent"]
+78.ru##div[class^="cookie-banner_"]
 sushistory.com##div[class^="cookie-module__"]
 master-plus.com.ua##div[class^="cookie-rb"]
 direct.farm##div[class^="cookies-notification_wrapper"]

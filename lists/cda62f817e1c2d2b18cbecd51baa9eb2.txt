@@ -288,6 +288,7 @@ vook.vc##.note-sp-spnsr
 ! FP by Phishing URL Blocklist
 ||sbisec.co.jp/etgate/^$all,badfilter
 ||banei-keiba.or.jp^$badfilter
+||preview.studio.site^$badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/28776
 nontonx.com##+js(rpnt, script, //tele();, telek3();)
@@ -336,3 +337,6 @@ shinshi-manga.net#@#+js(abort-current-script, document.createElement, waqool)
 ! https://github.com/easylist/easylist/issues/22209
 ||alicdn.com^$badfilter
 ||aliexpress-media.com^$badfilter
+
+! https://github.com/AdguardTeam/AdguardFilters/commit/7c24a684163b47fa15802d40ba993b9e1a7b7b64
+newsphere.jp#@#.wprt-container > center

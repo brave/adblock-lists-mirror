@@ -801,6 +801,7 @@ im9.eu##+js(ra, onerror|onload, img[onerror][onload], asap stay)
 /wp-content/ads/*$image,3p,redirect=32x32.png,domain=im9.eu
 ||sprzedaz2.oczarjk.pl/img/ads/banner.gif$image,redirect=1x1.gif,domain=im9.eu
 g9g.eu##+js(aopr, adBlockDetected)
+im9.eu##+js(rmnt, script, /adblock/i)
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=43843
 elamigosedition.com##+js(aost, document.addEventListener, blocker)
@@ -3130,6 +3131,8 @@ androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com
 ||adsninja.ca^$media,3p,redirect=noopmp3-0.1s
 ! https://github.com/uBlockOrigin/uAssets/issues/26472
 @@||video.adsninja.ca/*.mp4^$3p,media
+! https://github.com/uBlockOrigin/uAssets/issues/29717
+/promo/next/adb/*
 ! Miscellaneous
 ||adsninja.ca^$removeparam=url
 

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1YXDAfUPRLYif7Khn9sh+Q
-! Version: 202508201211
+! Checksum: c26A7p46GzrgzQ2qW5WDOA
+! Version: 202508201251
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Aug 2025 12:11 UTC
+! Last modified: 20 Aug 2025 12:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2481,6 +2481,7 @@ aspi.com.ua##.tg_subscribe
 profinance.ru##.tgcblock
 sostav.ua##.tgzen
 sostav.ru##.tgzen--tg
+vedomosti.ru##.the-footer__social
 1jazz.ru##.the_content_wrapper > center
 blackwot.ru,gsminfo.com.ua##.theiaStickySidebar
 433175.ru#?#.theiaStickySidebar > .widget:-abp-has(> .social-counter .vk)
@@ -3263,7 +3264,7 @@ tsargrad.tv#?#p:-abp-has(> em > a[href*="://web.telegram.org/"])
 firtka.if.ua#?#p:-abp-has(> em > a[href*="facebook.com/"])
 obozrevatel.com,uaportal.com#?#p:-abp-has(> em > b > a[href*="://t.me/"])
 informator.ua,sportkp.ru#?#p:-abp-has(> em > strong > a[href*="://t.me/"])
-vedomosti.ru#?#p:-abp-has(> em > strong > a[href*="telegram"])
+mk.ru,vedomosti.ru#?#p:-abp-has(> em > strong > a[target="_blank"])
 eurointegration.com.ua,tass.ru,tsargrad.tv#?#p:-abp-has(> em ~ a[href^="https://t.me/"])
 agronom.com.ua,hsl.com.ua#?#p:-abp-has(> i > a[href*="//t.me/"])
 m24.ru#?#p:-abp-has(> i > a[href*="://t.me/"])

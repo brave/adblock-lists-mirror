@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.8.2
+! Version: 4.1.8.3
 
 ! General
 
@@ -603,7 +603,6 @@ anandabazar.com##div.paywallouterbox
 ||tinypass.com/api/tinypass.min.js$script,domain=arabianbusiness.com
 arabianbusiness.com##+js(ra, class, div.ev-meter-content, stay)
 ||arktimes.com/wp-content/plugins/newspack-plugin/dist/memberships-gate-metering.js$script,~third-party
-||artsprofessional.co.uk/*/js/content_paywall.js$script,~third-party
 ||atribuna.com.br/assets/js-v*/story.js$script,~third-party
 babi.sh##+js(ra, style, div[style*="filter:blur"], stay)
 babi.sh##+js(ra, style, div[style*="; overflow: hidden"][style*="; height:"], stay)
@@ -619,6 +618,7 @@ brainly.com,brainly.com.br##+js(set-local-storage-item, /^/, $remove$)
 brusselstimes.com##+js(ra, style, div[style*="height: 0;"], stay)
 businessden.com,richmondbizsense.com##+js(ra, class, div.cp-paywall-user)
 businessden.com,richmondbizsense.com##div#copperpress-paywall
+||nitrocdn.com/*/paywall.$script,domain=capitalaberto.com.br
 cardiologie-pratique.com##+js(ra, class, div.wrap-node, stay)
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
 ||cnv-medien.de$inline-script

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iK6UZoDHZPzFRYAYuYvd3w
-! Version: 202508221111
+! Checksum: 9lh+Y//DBt41xDan0pmDiw
+! Version: 202508221131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Aug 2025 11:11 UTC
+! Last modified: 22 Aug 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -32,6 +32,7 @@ $third-party,popup,domain=2ip.ru
 /go.php$popup,domain=piratca.net
 /redirect/cpa/*$popup,domain=rt02.ru
 ://pikabu.ru/*/*/*/*--$popup
+://pikabu.ru/*/*/*/*..$popup
 ://pikabu.ru/*/*/*/*_$popup
 |http://li.ru/go?$popup,domain=fishki.net
 ||catcut.net^$popup,domain=mobile-4at-obshenie.chatovod.ru|mobile-chat-obshenie.jimdo.com

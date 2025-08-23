@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IIM90dCKpfcdTrW4bd0eQA
-! Version: 202508230542
+! Checksum: O+MdEn6Zn0jE6FjSIrtYbA
+! Version: 202508230642
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-08-23 05:42 UTC
+! Last modified: 2025-08-23 06:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -50918,6 +50918,9 @@ bonappetit.com##+js(cookie-remover.js, pay_ent_pass)
 bonappetit.com##+js(cookie-remover.js, pay_ent_msmp)
 ! ghostinternational.com newsletter
 ghostinternational.com##+js(trusted-set-cookie, pum-9137, true)
+! addapinch.com
+addapinch.com##.cohoes-campaign
+addapinch.com##html:style(overflow: auto !important; position: initial !important;)
 ! outsports.com
 outsports.com##.arlington-campaign
 outsports.com##body,html:style(overflow: auto !important; position: initial !important;)

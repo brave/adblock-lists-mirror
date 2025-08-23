@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e9jcwdNP7KgWHJzIM219dQ
-! Version: 202508231311
+! Checksum: U70C9FCzP80siRYG4pmmLg
+! Version: 202508231341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Aug 2025 13:11 UTC
+! Last modified: 23 Aug 2025 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12208,7 +12208,7 @@ ignio.com###mainnews
 tut.by###marketWidget
 news-tape.ru###masonry-container > .corner-stamp
 readytospeak.ru###masthead
-stopgame.ru#?##material_content:-abp-contains(erid:) > p
+stopgame.ru#?##material_content:-abp-contains(/erid:/i) > p
 dou.ua###max-header-adv-id
 mega-tracker.net###mb_top_space
 colorforum.ru###mbanners
@@ -16927,6 +16927,8 @@ kanobu.ru##[class^="IgromaniaChannel_mania"]
 igromania.ru,kanobu.ru##[class^="LentaAdFox_"]
 360tv.ru##[class^="LinkZen"]
 www.sibnet.ru##[class^="WinkPromo_"]
+stopgame.ru#?#[class^="_content"] > div[class^="_video-wrapper"] ~ [class] [class^="_list_"]:-abp-has([href^="/to?http"][href*="%2Fgo"])
+stopgame.ru#?#[class^="_content"] > div[class^="_video-wrapper"] ~ [class] b:-abp-contains(/скидка|скидки|промокод|партнёр/i)
 overclockers.ua##[class^="ad_slot"]
 softlab-portable.net##[class^="adblock_"]
 bug.org.ua,yvision.kz##[class^="ads_"]
@@ -18605,8 +18607,6 @@ www.sibnet.ru##div[class^="Realty_root"]
 kanobu.ru#?#div[class^="Sidebar_sidebar_list"] > div[class]:-abp-has(> div > div > span:-abp-contains(Партнерский материал))
 igromania.ru,kanobu.ru##div[class^="TopPageBanner_wrap_"]
 yarnovosti.com##div[class^="_5"]
-stopgame.ru#?#div[class^="_content"] > div[class^="_video-wrapper"] ~ [class] [class^="_list_"]:-abp-has([href^="/to?http"][href*="%2Fgo"])
-stopgame.ru#?#div[class^="_content"] > div[class^="_video-wrapper"] ~ [class] b:-abp-contains(/Скидка|Скидки/)
 domashnie-zagotovki.ru##div[class^="a7-btns"]
 igdz.ru##div[class^="ab-"][class$="-text"]
 u24.ua##div[class^="ab_premium_"]

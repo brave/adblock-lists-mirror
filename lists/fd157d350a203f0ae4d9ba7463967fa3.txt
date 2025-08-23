@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IIWdAwk/Ztnyfp+WdJnIUA
-! Version: 202508231011
+! Checksum: myaRxftYiy9vt0baY0stBw
+! Version: 202508231031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Aug 2025 10:11 UTC
+! Last modified: 23 Aug 2025 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16133,6 +16133,7 @@ soft.sibnet.ru##.softmain_content__newprogram_tabs + .softmain_content__newprogr
 moiprogrammy.net##.softobase-client-promo
 miformat.info##.source-link
 market-pages.ru##.sovet
+stranamam.ru##.sp-bg
 armflot.ru#?#.sp-column > .sp-module:-abp-has([id*="ScriptRoot"])
 serialrussian.ru##.sp-container
 povarenok.ru##.sp-header-block
@@ -17450,7 +17451,7 @@ livesport.ru##a[href*="://www.livesport.ru/away"]
 uaprom.info##a[href*="://www.wem.ua"]
 drive2.com,drive2.ru##a[href*="://yabs.yandex.ru/count/"]
 gamer-info.com##a[href*="=http"]:not([target])
-anilib.me,animelib.org,diets.ru,hentailib.me,hentailib.org,iphones.ru,mangalib.me,mangalib.org,ranobelib.me,vuzopedia.ru##a[href*="?erid="]
+anilib.me,animelib.org,asienda.ru,diets.ru,hentailib.me,hentailib.org,iphones.ru,mangalib.me,mangalib.org,mycharm.ru,myjane.ru,povarenok.ru,ptichka.ru,ranobelib.me,relook.ru,stranamam.ru,vuzopedia.ru##a[href*="?erid="]
 mauforum.ru##a[href*="?partner"]
 itorrents-igruha.net,itorrents-igruha.org##a[href*="BlumCryptoBot"]
 stratege.ru##a[href*="_click?id="]
@@ -18242,8 +18243,7 @@ gamesisart.ru##body > div[align="left"][style^="position: fixed;"]
 siver.com.ua##body > div[align="right"] > span
 999.md,delo.ua##body > div[class*="branding"]
 progipertoniyu.ru##body > div[class*="modal"]
-povarenok.ru##body > div[class]:empty[style="height: 100%;"]
-povarenok.ru##body > div[class]:empty[style="height: 100%;"] + div a
+povarenok.ru##body > div[class]:empty:not([style])
 votrube.ru##body > div[class]:last-of-type
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##body > div[class]:not([id]):nth-child(-n+5) > a[href]
 finam.ru##body > div[class^="hidden-"]
@@ -20316,6 +20316,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /get_img/offers/*$domain=gageno.ru|pikapo.ru
 /gorilla.php?token$domain=pavlodar.news|pavon.kz
 /html5banner/*$domain=animevost.one|animevost.org|animevost.top|vost.pw
+/i/ctc_$image,domain=povarenok.ru|stranamam.ru
 /iframe/*$domain=rutr.life|rutracker.lib|rutracker.net|rutracker.org
 /images/banner/*$domain=nvplay.ru
 /images/banners/*$domain=19rus.info|19rusinfo.ru|1tvnet.ru|33strausa.ru|8vp.ru|abnews.ru|agroxxi.ru|alfa-form.ru|altgazeta.ru|aniplay.tv|antimuh.ru|archiportal-crimea.ru|arendator.ru|aum.news|autogrodno.by|bez-smenki.ru|bitpump.ru|biwork.ru|bryansktoday.ru|buzday.ru|buzulukday.ru|bvedomosti.ru|calcus.ru|cars.ru|coil32.ru|cryptoff.org|csmania.ru|cxem.net|darkmoney.at|dtpptz.ru|ecm-journal.ru|erotix-tv.com|express-prigorod.ru|fakty.ua|fermagid.ru|firtka.if.ua|fitsport.ru|forpost.lviv.ua|fuzz-magazine.ru|hd-systems.com.ua|highload.tech|house.kg|hv-info.ru|hype.tech|info-ua.com|infokam.su|inforeactor.ru|itc.ua|itexpert.org.ua|izmacity.com|kaluga.ru|kamchatinfo.com|karelia.ru|kazfootball.kz|kids.to-var.com|km.ru|ko44.ru|korabel.ru|kramatorsk.info|kyiv-independent.com|lifetambov.ru|mc.today|mebelminsk.by|medicalj.ru|memstatus.ru|mirnov.ru|mos-holidays.ru|moscow-post.com|motoforum.ru|motovibor.ru|moya-semya.ru|mycity.by|nakanune.ru|nashdisk.ru|naurfo.ru|ndn.info|newgubakha.ru|news.soundex.ru|ng.kz|ngregion.ru|nsday.ru|numama.ru|ok-inform.ru|orenday.ru|osvita.ua|out-club.ru|perevolockday.ru|planet-today.ru|planetaskazok.ru|poiskvps.ru|pretenziy.ru|profidom.com.ua|prosports.kg|prosports.kz|rabota-kovrov.ru|rabota.kharkov.ua|radioclub.ua|rbc.ru|ria-m.tv|ria56.ru|ridna.ua|rodgor-vlg.ru|rtr24.ru|ruslife.eu|saltday.ru|sevastopol.su|sevkavportal.ru|shans.com.ua|skoda-club.org.ua|smolnarod.ru|sorochinskday.ru|sostav.ua|sp.tomica.ru|starkosino.ru|study.ru|tenstars.ru|ternopoliany.te.ua|trassae95.com|trisosny.ru|tv-gubernia.ru|ua-independent.com|uff.uz|ufocar.ru|ukrlife.tv|valetudo.ru|vdv-kavkaz.ru|vjazhi.ru|vmeste.tv|vp.donetsk.ua|vsatke.ru|vse-pro-sport.com.ua|vseprosport.by|vseprosport.kz|vseprosport.ru|wallnews.org|yablor.ru|zamena-podshipnikov.ru|zrenue.com|zvid.org

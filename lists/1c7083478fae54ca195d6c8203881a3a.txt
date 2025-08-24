@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.8.4
+! Version: 4.1.8.5
 
 ! General
 
@@ -210,7 +210,7 @@ indianexpress.com##ev-engagement
 ||liveapp.inews.co.uk/*/content.html$inline-script
 inkl.com##+js(ra, class, div.paywall)
 inkl.com##div.gradient-container
-interestingengineering.com##body:style(overflow: auto !important; position: relative !important;)
+interestingengineering.com##body:style(overflow: auto !important; position: relative !important; top: unset !important)
 interestingengineering.com##main>div.t-hidden,div.t-bg-black
 japantimes.co.jp##+js(cookie-remover, xbc)
 journaldemontreal.com,journaldequebec.com##+js(rc, composer-content, div.article-main-txt.composer-content)
@@ -380,7 +380,6 @@ tt.com##+js(rc, exclusive-elem, .exclusive-elem)
 tt.com##div.adblock-warning
 unherd.com##+js(ra, id, div#premiumcontent)
 unherd.com##div#premiumpreview
-||news.google.com/swg/_/api/v1/publication/$xmlhttprequest,domain=vice.com
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky

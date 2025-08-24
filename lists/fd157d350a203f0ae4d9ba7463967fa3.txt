@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AwdZc6zqhUep+rLSk8tP9A
-! Version: 202508242011
+! Checksum: JSDS23u/Ps5AnJUQ+56AVQ
+! Version: 202508242031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Aug 2025 20:11 UTC
+! Last modified: 24 Aug 2025 20:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12927,6 +12927,7 @@ sharij.net##.a_top
 altapress.ru##.a_top_place
 mp3party.net##.a_wrapper
 obyava.ua##.ab-block
+partnerkin.com##.ab_article_sidebar_inner
 sd.ua##.ablock
 cont.ws##.ablock_side
 jut-su.skin##.abn-wrap
@@ -13192,13 +13193,13 @@ kinoafisha.info##.article_contentroll
 maanimo.com##.article_end_banner
 gorodovoy.ru##.article_footerText
 kanalukraina.tv##.article_idealmedia
-partnerkin.com#?#.article_item:-abp-has(> .ap_b)
 otvetkak.ru##.article_openx
 banker.ua##.article_sidebar > div[class="textwidget"]
 nick-name.ru##.articles
 newsinfo.ru#?#.articles-group:-abp-has(> .ad-before)
 psychologies.ru##.articles-page__banners_wrapper
 gotennis.ru##.articles-special
+partnerkin.com#?#.articles_list_inner > div:-abp-has(> div .ap_b)
 1000.menu##.as-ad-step
 shazoo.ru##.aside > .grid > div > img[alt="Shazoo @ Yandex.Zen"]
 shazoo.ru##.aside > .grid > div > img[alt="Shazoo @ Yandex.Zen"] ~ div
@@ -15541,6 +15542,7 @@ iccup.com##.proakk
 probirka.org##.probirka-popup-container
 the-day.ru##.product-block__footer
 finam.ru##.profile-text-banner
+partnerkin.com##.profile_banner
 prsport.net##.prognoz_block
 mmgp.ru##.prom
 tut.by##.prom-l
@@ -22200,7 +22202,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||partner.komedra.com/
 ||partner.labirint.ru^$third-party,domain=rutlib.com
 ||partner.uhty-multy.ru/
-||partnerkin.com/uploads/stbr/
+||partnerkin.com/uploads/stb
 ||partners.walla.co.il^$domain=mignews.com
 ||passus.ru/test-widget/
 ||patria.md/i/partners/

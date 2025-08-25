@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: faiesLXPOJiPv4ydGVRh5w
-! Version: 202508250841
+! Checksum: B3Iobq67cg7p8LZu07c0Tg
+! Version: 202508250912
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Aug 2025 08:41 UTC
+! Last modified: 25 Aug 2025 09:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1651,6 +1651,7 @@ kommersant.ru##.network_share
 kurkul.com##.networks
 tourdom.ru##.new_share
 one.ua##.newl-link
+zdorovia.com.ua##.news > table > tbody > tr > td
 ukrinform.ua##.news div[data-name="int_hidden"]
 buhgalter911.com##.news--social-groups
 footboom1.com##.news-afterwords__socials
@@ -2738,7 +2739,7 @@ inscience.news##[class^="list-inline-"]
 d1.ua##[class^="social-sharing-bot"]
 nachasi.com##[class^="style_socials_"]
 zr.ru##[class^="styled__InfoShare"]
-zr.ru##[class^="styled__StoryNoteSubscribe"]
+zr.ru##[class^="styled__StoryNoteSubscribe"] > [class]
 mash.ru##[class^="styles_socials_"]
 skam.online##[class^="telegram"]
 tengrinews.kz##[class^="tn-social-"]
@@ -6850,6 +6851,7 @@ hardwareluxx.ru##section > aside ~ aside:nth-child(-n+4)
 avtorambler.com,rambler.ru#?#section > nav ~ div div:-abp-has(> div > [id^="rcmw-container-"])
 nsn.fm#?#section:-abp-has(> div > div > form)
 rutube.ru##section[aria-label="Cкачать приложения"]
+rutube.ru##section[aria-label="RUTUBE x PREMIER"]
 allsks.ru##section[class*="a-cookies"]
 kaspersky.ru##section[data-at-selector="cookie-banner"]
 habr.com##section[id^="promo_block_"]

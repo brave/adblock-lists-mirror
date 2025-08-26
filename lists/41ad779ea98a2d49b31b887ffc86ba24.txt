@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JCR2wuwlZSoznwap4YRxew
-! Version: 202508252342
+! Checksum: hKLk1egvVzq0ipZscNQDkQ
+! Version: 202508260042
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-08-25 23:42 UTC
+! Last modified: 2025-08-26 00:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14666,6 +14666,7 @@ venturebeat.com##.Footer__social-icon
 thedailybeast.com##.Footer__socials
 i24news.tv##.Footer_social-network-links-wrapper__xN9Go
 earth.com##.Footer_social_bar__E9yGn
+indianexpress.com##.G-folow-button
 meduza.io##.GeneralMaterial-module-share
 bdnews24.com##.HeaderTopSocialIcon
 sfgate.com##.ListingTile_social_nav-wrapper
@@ -16083,6 +16084,7 @@ theshovel.com.au##.padding-top-small > .widgetizedArea:has-text(Like this)
 jacobin.com##.po-fr__heading:has-text(Share this article)
 lifenews.com##.post_style_zk > p:has-text(Please subscribe)
 newsroom.ucla.edu##.promo-card-muted:has-text(RSS feed)
+futurism.com##.py-4:has-text(Share This Article)
 heritagedaily.com##.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
 twitch.tv##.tw-balloon:has-text(Share To)
 ruwix.com##.widget-title:has-text(Share this page!)
@@ -47486,6 +47488,8 @@ mapyourshow.com###newsletterform
 cyclinguptodate.com,dartsnieuws.com###newsletters
 kyivindependent.com###newsletters-subscribe-box
 lapresse.ca###newsletters-subscription-box-root
+webpronews.com###nl-cat-bar
+webpronews.com###nl-cat-box
 silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt###nl-overlay
 arkansasonline.com###nlForm
 sonomamag.com###nlFrameId7020
@@ -50944,6 +50948,10 @@ bonappetit.com##+js(cookie-remover.js, pay_ent_pass)
 bonappetit.com##+js(cookie-remover.js, pay_ent_msmp)
 ! ghostinternational.com newsletter
 ghostinternational.com##+js(trusted-set-cookie, pum-9137, true)
+! webpronews.com
+webpronews.com###sub-pop
+webpronews.com##.modal-backdrop
+webpronews.com##html:style(overflow: auto !important)
 ! addapinch.com
 addapinch.com##.cohoes-campaign
 addapinch.com##html:style(overflow: auto !important; position: initial !important;)

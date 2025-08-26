@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: thkKQAxSk/3BwE9SsRCDyw
-! Version: 202508261131
+! Checksum: 7ZelShdonVNTOyeaCAaDkA
+! Version: 202508261211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Aug 2025 11:31 UTC
+! Last modified: 26 Aug 2025 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24116,11 +24116,6 @@ www.e1.ru#?#section:-abp-has(> div[class]:empty + div[class]:empty + div[class]:
 ||naydex.net^$domain=e1.ru
 ! баннер в хидере мобильной версии
 116.ru,72.ru,e1.ru,ngs55.ru##[data-ref="sticky-header-wrap"] > [data-test="sticky-header"] ~ div
-! бесконечная загрузка в хроме
-e1.ru#?#a[target="_blank"]:-abp-has([src="https://n1s1.hsmedia.ru/svgs/f4/f476378cca0e48ffe11350485363e787.svg"])
-ngs24.ru#?#a[target="_blank"]:-abp-has([src="https://n1s1.hsmedia.ru/svgs/5b/5b6ee8e1756d5d2537d4edc8461e76e6.svg"])
-||n1s1.hsmedia.ru/svgs/5b/5b6ee8e1756d5d2537d4edc8461e76e6.svg$domain=ngs24.ru
-||n1s1.hsmedia.ru/svgs/f4/f476378cca0e48ffe11350485363e787.svg$domain=e1.ru
 !
 ! Overclockers.ru
 forums.overclockers.ru##.adsbygoogle

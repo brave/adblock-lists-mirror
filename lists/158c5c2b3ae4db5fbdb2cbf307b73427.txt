@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PGX7o4DSYtRiNY9h+wgu2w
-! Version: 202508271931
+! Checksum: JhHpVd6s22acjCiUQnMvmQ
+! Version: 202508272011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Aug 2025 19:31 UTC
+! Last modified: 27 Aug 2025 20:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1378,7 +1378,7 @@ stopcor.org##.headerMain_socialList
 5-tv.ru##.headerSide ._links
 avtoblog.ua##.headerSoc
 tourdom.ru##.headerSoc a[target="_blank"]
-ridus.ru##.headerSocials
+ridlife.ru,ridus.ru##.headerSocials
 obozrevatel.com##.headerTopLine_socialItem > a:not([href*="obozrevatel.com/"])
 obozrevatel.com##.headerTopLine_socialItem > a:not([href*="obozrevatel.com/"]) ~ *
 tsargrad.tv##.header__aside
@@ -2168,9 +2168,8 @@ hentaiz.org,nevasport.ru,podrobnosti.ua,spartak.ru##.social
 goha.ru##.social > *
 akniga.org##.social--link
 nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru##.social-additional
-defence-ua.com,football24.ua,oxu.az,sport24.ua##.social-block
+abw.by,defence-ua.com,football24.ua,oxu.az,sport24.ua##.social-block
 fireman.club##.social-block-bottom
-abw.by##.social-block-socials
 oxu.az##.social-block2 > p
 oxu.az##.social-block2 > ul > li > :not(.print-btn)
 radioromantika.ru##.social-block__container
@@ -4956,6 +4955,7 @@ uchi.ru##._UCHI_COOKIE__widget
 lenta.ru##._branded.emoji-bar
 doctorpiter.ru,marieclaire.ru,maximonline.ru,mydecor.ru,parents.ru,psychologies.ru,the-day.ru,thegirl.ru,vokrugsveta.ru,woman.ru##._hb-promo
 2gis.by,2gis.kz,2gis.ru##._nlniiu
+abw.by##.a100-widget
 darnytsia.ua##.a_aui_auj
 itc.ua##.about-noa
 stoloto.ru##.accept-cookies-notifier
@@ -5031,6 +5031,7 @@ lifehacker.ru##.arrow-menu [name="Ozon"]
 narutoplanet.ru##.art-header-jpeg
 vm.ru##.article--subscribes
 1prime.ru##.article-aggr
+abw.by##.article-banner
 360tv.news#?#.article-body > div:-abp-has(> [href^="https://news.google.com/publications/"])
 androidinsider.ru##.article-body > p > code.large-text
 championat.com,championat.ru##.article-content > .external-article
@@ -5289,7 +5290,7 @@ fireman.club,labirint.ru##.cookie-policy
 mts.ru,peoples.ru##.cookie-popup
 akson.ru##.cookie-popup-div
 psbank.ru##.cookie-wrapp
-elevator39.ru,mile.by,rostfinance.ru##.cookie-wrapper
+abw.by,elevator39.ru,mile.by,rostfinance.ru##.cookie-wrapper
 mosoblbank.ru##.cookie__disclaimer
 bitcryptonews.ru,yk.kz##.cookie_accept
 rzd-partner.ru##.cookie_outer_div
@@ -5454,6 +5455,7 @@ footboom1.com##.footer-seo
 rozetka.com.ua##.footer-stores
 gastronom.ru,officelife.media##.footer-subscribe
 incrypted.com##.footer-top-part__col-2
+ridus.ru##.footerActions
 travelask.ru##.footer__app
 latifundist.com,zemliak.com##.footer__flex-wrap
 holod.media##.footer__help
@@ -6496,7 +6498,7 @@ dp.ru##app-article-signup-newsletters
 thebell.io##app-bottom-sticky-dialog
 skillbox.ru##app-cookies
 24tv.ua##app-donate-banner
-thebell.io##app-subscription-header-form
+thebell.io##app-inoagent-banner
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://specials.sports.ru/"])
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://trbna.co/"])
 animaunt.org##article > .sub-info > .button
@@ -6844,6 +6846,7 @@ podillyanews.com#?#p:-abp-has(> i > a[href^="https://news.google.com/publication
 techblogua.com#?#p:-abp-has(> span > mark > a[href^="https://news.google.com/publications/"])
 benzin-price.ru##p:first-child + p > table[align="center"]
 pikabu.*##.snowflakes-container {remove:true;}
+thebell.io##privacy-consent-widget
 rozetka.com.ua##rz-top-page-banner
 hardwareluxx.ru##section > aside ~ aside:nth-child(-n+4)
 avtorambler.com,rambler.ru#?#section > nav ~ div div:-abp-has(> div > [id^="rcmw-container-"])

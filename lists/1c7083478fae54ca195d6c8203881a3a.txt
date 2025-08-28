@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.8.8
+! Version: 4.1.9.0
 
 ! General
 
@@ -105,8 +105,6 @@ cen.acs.org##+js(cookie-remover, cenLoginP)
 cen.acs.org##.meteredBar
 challenges.fr##div.amorce.manual
 challenges.fr##+js(ra, class|hidden, .user-paying-content)
-charliehebdo.fr##+js(ra, style, div.ch-paywalled-content)
-charliehebdo.fr##div#poool-widget
 ||cdn.piano.io/api/tinypass.min.js$script,domain=clicrbs.com.br
 ||clicrbs.com.br/paywall-api/count/$xmlhttprequest,~third-party
 cnbc.com##div.ArticleGate-proGate

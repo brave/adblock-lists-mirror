@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 021yis+DaXk1KSuRjrDbkQ
-! Version: 202508272331
+! Checksum: HoaAWVnf56792jJcU9qKTQ
+! Version: 202508280021
 ! Title: EasyList China
-! Last modified: 27 Aug 2025 23:31 UTC
+! Last modified: 28 Aug 2025 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -16589,7 +16589,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||winwk.com^$generichide
 @@||wuyong.fun^$generichide
 @@||wuyou.com.cn/Js/ad.js
-@@||wwads.cn/js/makemoney.js$domain=baomidou.com|nodejs.cn
+@@||wwads.cn/js/makemoney.js$domain=baomidou.com
 @@||www.google.*/adsense/$~third-party,domain=google.cn
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
@@ -17661,7 +17661,7 @@ $script,third-party,domain=cilimao.co|cilimao.one
 cilimao.co,cilimao.one##div[class^="FixBanner"]
 ||cilimao.*/amaod/
 !#CSP filters
-$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
+$csp=script-src 'self' * 'unsafe-inline',domain=nodejs.cn|smsonline.cloud
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 !#ddooo.com
 ddooo.com##.gadat_list

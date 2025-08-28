@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dAgIKrVicMHufG29cxNDRA
-! Version: 202508281131
+! Checksum: 8XwjJeQDjuP18EGx8Iulzg
+! Version: 202508281211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Aug 2025 11:31 UTC
+! Last modified: 28 Aug 2025 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24625,7 +24625,6 @@ ukr.net##.lazy-load-banner
 1901.selcdn.ru##.topFaceGuest
 !
 ! Yandex (Яndex)
-/feed?feed_geo=$domain=ya.ru
 /portal/ntp/banner?$domain=yandex.by|yandex.kz|yandex.ru|yandex.uz
 @@://ya.r*/search$generichide
 @@://yandex.*/safe/win/$generichide
@@ -24634,8 +24633,9 @@ ukr.net##.lazy-load-banner
 @@||yandex.ru/ads/system/adsdk.js|$script,domain=yandex.ru
 market.yandex.ru,market.yandex.*##.layout_type_search.headline__footer
 ya.ru##.i-mini-bem[class*="banner"]
-ya.ru##[aria-label="Информеры"] ~ [class]
+ya.ru##[aria-label^="Информе"] ~ [class]
 ya.ru##[style*="feed"][style*="min-height:"]
+ya.ru##section[class^="reason"]
 ya.ru,yandex.*##.main-home-banner
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner
@@ -24686,6 +24686,7 @@ yandex.ru,yandex.*#?#.scroller__wrap > div[class^="minibadge"]:-abp-has(.serp-it
 ||kiks.yandex.
 ||static-mon.yandex.net/static/main.js$domain=~auto.ru
 ||strm.yandex.ru/get/$media,domain=yastatic.net
+||ya.ru/portal/*feed_geo=
 ||yabs.yandex.*/show/$third-party
 ||yadi.sk^*direct?
 ||yandex-news.naydex.net^$subdocument

@@ -29,9 +29,6 @@ parents.at##+js(aopw, AdBlockDetectorWorkaround)
 ! https://github.com/uBlockOrigin/uAssets/issues/16198
 *$script,3p,domain=chapmanganato.com,denyallow=facebook.net|fbcdn.net
 
-! https://github.com/uBlockOrigin/uAssets/issues/16206
-wrzesnia.info.pl##+js(no-fetch-if, ads)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138843
 pornkai.com,tubesafari.com##+js(aopw, c325)
 .com/static/full_combined2.js|$script,1p
@@ -1522,6 +1519,12 @@ tv.wp.pl#@#html, html > body:style(overflow: auto !important;)
 ||criteo.net^$domain=open.fm,script,redirect=noop.js
 /fbevents.js^$domain=open.fm,script,redirect=noop.js
 ||open.fm^$csp=worker-src 'none'
+! https://github.com/uBlockOrigin/uAssets/issues/29812
+wirtualnemedia.pl##+js(rmnt, script, randvar)
+wirtualnemedia.pl##.wm-categoryteasersection-ad-large
+wirtualnemedia.pl##.wp-screening-placeholder-container
+wirtualnemedia.pl##body div[class]:not([id]):has(> img[src="/staticfiles/wm-placeholder.png"])
+wirtualnemedia.pl##.py-12:not([data-testid="screening-main"]):has(img[src="/staticfiles/wm-placeholder.png"])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17527
 tralhasvarias.blogspot.com##+js(nano-stb, decodeURL, *)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BXb6ji6RJPnHMXo1ri/MEg
-! Version: 202508291211
+! Checksum: xYm73LBYqj08pGGToGdJYg
+! Version: 202508291243
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Aug 2025 12:11 UTC
+! Last modified: 29 Aug 2025 12:43 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11686,6 +11686,7 @@ thequestion.ru###answers div[style*="overflow:hidden"]
 komedra.com###apext
 dtf.ru#?##app:-abp-has(> .bar > .header [href="/auth"]) .content-list > .content:-abp-has(> .content-header > .author > [href="/id954970"])
 dtf.ru#?##app:-abp-has(> .bar > .header [href="/auth"]) .content-list > .content:-abp-has(> div > .author .badge__icon--pro)
+dtf.ru#?##app:-abp-has(> .bar > .tabbar [href="/account"] > .icon--login) .content-list > .content:-abp-has(> div > .author .badge__icon--pro)
 ecology.md###article > .right-block
 varta1.com.ua###article-content > header > h1:first-child + div > div[style^="--position-aspect-ratio:"]
 agropolit.com###article_banner
@@ -19751,6 +19752,8 @@ vk.com,vk.ru##section[class^="ImageBanner-"]
 igromania.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_isFirst"] ~ [class^="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] [class^="TextContent_text"] > p:-abp-contains(/^Реклама:/))
 igromania.ru,kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] a[href="/tags/partnyorskij-material/"])
 igromania.ru,kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_materialSection"]:-abp-has(> div [class^="SpecialLabelOfArticle_isPartnerMaterial"])
+igromania.ru,kanobu.ru##section[class^="PlotWithMaterials_plots_"] [class*="_tabs"] > button ~ button
+igromania.ru,kanobu.ru#?#section[class^="PlotWithMaterials_plots_"]:-abp-has(> div [class*="_tabs"] > button ~ button[class*="_active_"]) [class^="PlotWithMaterials_head_"] ~ div
 agroxxi.ru##section[class^="my-"]
 vikka.ua##section[id^="ctup_ads-"]
 agro-business.com.ua##section[id^="sp-subcribe-footer"]:not(#sp-subcribe-footer)
@@ -23399,7 +23402,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?O0pBf=$xmlhttprequest
+||pikabu.ru/ajax/*?kSo6l=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24251,6 +24254,7 @@ lenta.ru##.yandex-games
 www.afisha.ru##[aria-label="Реклама"]
 mail.rambler.ru##[class*="MaillistItemAdvertPlace"]
 auto.rambler.ru,avtorambler.com##[data-auto_media-desktop*="rnet_widget"]
+auto.rambler.ru,avtorambler.com#?#[data-auto_media-desktop="content_block"] ~ div div:-abp-has(> div > [data-rcmw-init])
 championat.com,championat.ru##[data-champ*="Okko"]
 gazeta.ru##[data-docking="left-down"] > div[style^="height:"][style*="overflow:"]
 doctor.rambler.ru##[data-doctor_media-desktop*="rnet_widget"]

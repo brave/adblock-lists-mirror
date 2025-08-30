@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yFxNg8Z0QpFUN3JqRJcdsg
-! Version: 202508301032
+! Checksum: mJpeou57HbsZUXO9RHLlWw
+! Version: 202508301111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Aug 2025 10:32 UTC
+! Last modified: 30 Aug 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2534,6 +2534,7 @@ allboxing.ru##.top_social_links > li:not(.auth-profile)
 ixbt.com##.topic-footer-panel-soc
 moslenta.ru#?#.topic-text-wrap a[href^="https://t.me/"]
 forum.f1news.ru,homenet.beeline.ru##.topic_share
+www1.ru##.topmenu > nav a[target="_blank"]
 golbis.com##.topmenu-icons
 interfax.ru,sport-interfax.ru##.topmenu__soc
 detector.media##.topmenu_link > [href*="facebook.com/"]
@@ -3238,8 +3239,8 @@ ctc.ru##li[class="hsi-item"]
 4pda.to##li[id$="share"]
 liveball.my,liveball.uno,liveball.*##.free
 mail.yandex.ru,mail.yandex.*##.b-mail-domik__social
+www1.ru#?#main > .relative:nth-child(-n+3):-abp-has(> div > [href^="https://t.me/"])
 site.ua##main > .w-full + .container + .container > div:only-child
-www1.ru#?#main ~ .relative:nth-child(-n+3):-abp-has([href^="https://t.me/"])
 market.yandex.ru,market.yandex.*##[data-autotest-social-name]
 proxima.net.ua##nav .text-center .dropdown-toggle
 ixbt.com##nav > .grid > .lg\:inline-flex

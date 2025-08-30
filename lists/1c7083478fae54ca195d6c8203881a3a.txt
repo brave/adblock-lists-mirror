@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.1.9.0
+! Version: 4.1.9.1
 
 ! General
 
@@ -131,7 +131,6 @@ citywire.com##registration-widget,div.alert--locked
 csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
 cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker)
-dagsavisen.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
 dailywire.com###post-body-text > div > div:style(height: auto !important;)
 ||denik.cz/*.html$inline-script
 discovermagazine.com##body:style(overflow: auto !important;)
@@ -552,7 +551,7 @@ beleggersbelangen.nl##div.unlimited-access
 computerweekly.com,lemagit.fr,techtarget.com##+js(rc, paywall, div.paywall, stay)
 computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWrapper
 
-! The Epoch Times sites (main + cz|de|fr|il|jp|ro)
+! The Epoch Times sites (main + br|cz|de|fr|il|jp|ro)
 ||theepochtimes.com/rules/get$xmlhttprequest,~third-party
 ||epochbase.com/libs/paywall*.js$script,third-party
 ||epochbase.com/rules/get$xmlhttprequest,third-party
@@ -749,7 +748,6 @@ tidningenridsport.se##+js(ra, class|style, div.mctos)
 tidningenridsport.se##+js(rc, cli-barmodal-open, body.cli-barmodal-open)
 tidningenridsport.se##div.locked
 trailsoffroad.com##.paywall
-vl.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
 ||zeitzeichen.net/sites/default/files/js/js_*.js$script,~third-party
 
 ! General (amp)

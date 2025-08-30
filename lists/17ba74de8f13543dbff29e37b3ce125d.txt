@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202508301237
+! Version: 202508301317
 ! Title: EasyList
-! Last modified: 30 Aug 2025 12:37 UTC
+! Last modified: 30 Aug 2025 13:17 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -130,7 +130,6 @@
 /ad_bottom.js$script
 /ad_counter.aspx$ping
 /ad_header.js$script
-/ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
 /ad_manager/*$image,script
@@ -22700,6 +22699,7 @@ browsershots.org#@#.advert_area
 ||councernedasesi.com^
 ||councernedasesi.org^
 ||counciladvertising.net^
+||councilvomitscarlet.com^
 ||countabledawdlerunaudited.com^
 ||countenancedrykeeper.com^
 ||counteractshrubs.com^
@@ -33143,6 +33143,7 @@ browsershots.org#@#.advert_area
 ||lohhgxyjaxyfc.xyz^
 ||loijtoottuleringv.info^
 ||loinpriestinfected.com^
+||loinstaggerpamphlet.com^
 ||loivopem.com^
 ||loizmntlefbbq.online^
 ||lojggjwynkoav.top^
@@ -33164,6 +33165,7 @@ browsershots.org#@#.advert_area
 ||longestgeoffaversion.com^
 ||longinghospitalsurveyed.com^
 ||longrunhonkeys.click^
+||longtermcity.pro^
 ||lonnmkjnwkbgv.top^
 ||lonnmkjnwkyoy.top^
 ||looajqrunvjwei.com^
@@ -37640,6 +37642,7 @@ browsershots.org#@#.advert_area
 ||pdsvcldomosqork.com^
 ||pdtxeefqnanql.store^
 ||pdvacde.com^
+||pdvafsttkxxnb.store^
 ||pdwdbsfgkxltg.world^
 ||pdzxeaxlqnvac.site^
 ||peacebanana.com^
@@ -46394,6 +46397,7 @@ browsershots.org#@#.advert_area
 ||urauvipsidu.com^
 ||urbanercockily.cyou^
 ||urbopjwdk.com^
+||urbpbkti.com^
 ||ureaswirble.click^
 ||urechar.com^
 ||uremiamailer.cfd^
@@ -49065,6 +49069,7 @@ browsershots.org#@#.advert_area
 ||xwiashrkcpvns.love^
 ||xwklwkrgxgfvx.online^
 ||xwlketvkzf.com^
+||xwlptajihmbkz.space^
 ||xwmcxqcxipcln.site^
 ||xwqea.com^
 ||xwqvytuiko.com^
@@ -59530,7 +59535,6 @@ $script,third-party,domain=rule34hentai.net
 ! abcvideo.cc
 $script,third-party,xmlhttprequest,domain=abcvideo.cc
 ! ouo
-$script,third-party,xmlhttprequest,domain=ouo.io|ouo.press
 ||ouo.io/js/*.js?
 ||ouo.io/js/pop.
 ||ouo.press/js/pop.
@@ -70219,6 +70223,7 @@ gamcore.com##li.d-md-block > a[rel]
 @@||gmail.com^$generichide
 @@||google.com/recaptcha/$csp,subdocument
 @@||google.com/recaptcha/api.js
+@@||google.com/recaptcha/api2/
 @@||google.com/recaptcha/enterprise.js
 @@||google.com/recaptcha/enterprise/
 @@||gstatic.com/recaptcha/

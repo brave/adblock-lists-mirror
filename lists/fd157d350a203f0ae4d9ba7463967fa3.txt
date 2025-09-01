@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9VCSO9Ku7uFXlwhFtzVmjQ
-! Version: 202509011111
+! Checksum: m8/5SMwvarTd017H5JDyGQ
+! Version: 202509011141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Sep 2025 11:11 UTC
+! Last modified: 01 Sep 2025 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20059,7 +20059,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||utarget.ru^$csp=sandbox allow-same-origin;
 ||utarget.ru^$csp=script-src
 ||www.liveinternet.ru/|$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' i.li.ru
-||www.ukr.net^$csp=frame-src 'self' *.ukr.net sinoptik.ua kinoafisha.ua *.twitter.com *.google.com
+||www.ukr.net^$csp=frame-src 'self' *.ukr.net *.cloudflare.com *.google.com kinoafisha.ua sinoptik.ua *.twitter.com
 ||yadistr.ru^$csp=script-src
 !
 ! Унифицированное правило для fundingchoicesmessages.google.com

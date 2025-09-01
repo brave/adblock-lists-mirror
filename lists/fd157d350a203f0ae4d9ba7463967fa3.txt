@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MCKQkeIa1sOI3/BbY04YiQ
-! Version: 202509010941
+! Checksum: DxIKcBJ1NbJpz1S86XP+xQ
+! Version: 202509011011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Sep 2025 09:41 UTC
+! Last modified: 01 Sep 2025 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23385,6 +23385,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
 ||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/*.*.*.*.*.*.*.$script
+||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/*_$script
 ||static.dzeninfra.ru/s3/zen-lib/*/dzen-layout/*.*.*.*.*.*.*.$script
 ||static.dzeninfra.ru/s3/zen-lib/*/news-site/*_$script
 !
@@ -23412,7 +23413,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?kSo6l=$xmlhttprequest
+||pikabu.ru/ajax/*?rR7cd=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

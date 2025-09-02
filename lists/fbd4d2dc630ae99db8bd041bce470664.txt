@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0bCF54f21acNbUZnW6b82A
-! Version: 202509021612
+! Checksum: b6TfdVBRgsjiwjCDj6EsGg
+! Version: 202509021621
 ! Title: EasyList Germany
-! Last modified: 02 Sep 2025 16:12 UTC
+! Last modified: 02 Sep 2025 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5652,10 +5652,10 @@ notebookcheck.com#?#.introa_news:-abp-contains(Anzeige)
 nur-positive-nachrichten.de#?#.moduletable.text-center:-abp-has(.bildunterschrift:-abp-contains(Anzeige))
 o-sport.de#?#.card-body:-abp-contains(Sponsoren)
 onvista.de#?#.outer-spacing--xxlarge-top:-abp-contains(Werbung von)
-onvista.de#?#.ov-carousel__item:-abp-contains(Werbung)
+onvista.de#?#.ov-carousel__item:-abp-contains(/Werbung|gnubreW/)
 onvista.de#?#a[class*="ArticleTeaserBox"]:-abp-has(div.ov-subline:-abp-contains(Werbung))
 onvista.de#?#div[class="col col--md-3 col--sm-4 col--lg-4 col--xl-4"]:-abp-contains(Werbung)
-onvista.de#?#div[class="col py-0"]:-abp-contains(Werbung)
+onvista.de#?#div[class="col py-0"]:-abp-contains(/Werbung|gnubreW/)
 onvista.de#?#div[class="flex justify-between mb-4 border-b-1 border-b-grey-100 pb-2 dark:border-b-grey-700"]:-abp-contains(Werbung)
 pctipp.ch#?#.list_item:-abp-has(.dachzeile:-abp-contains(Partnerzone))
 pcwelt.de#?#div.box:-abp-has(span.banner-text + h4:-abp-contains(/Partner-Angebot|Angebote/))
@@ -5732,6 +5732,7 @@ obi.*##[data-ae-slot="pdp_old_banner"]
 @@||atf-tagmanager.de/config/*.js|$domain=onvista.de
 @@||bf-ad.net/adengine/onvista/adengine.js$domain=onvista.de
 @@||bf-ad.net/adengine/onvista/chunk-prepareEngine-$script,domain=onvista.de
+@@||bf-ad.net/bcn-id/bcnid.min.js$domain=onvista.de
 @@||ced.sascdn.com/tag/2161/smart.js$domain=metal-hammer.de|rollingstone.de
 @@||commundia.de^*/affilinet/$~third-party
 @@||cpdsrv.de/cpt.js$domain=radiobob.de

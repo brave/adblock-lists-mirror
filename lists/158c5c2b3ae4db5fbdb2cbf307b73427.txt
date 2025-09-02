@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gCQrYj5/50x8qnq6De153w
-! Version: 202509020941
+! Checksum: w2xYr3Xv9sbZwaGuWlgV7A
+! Version: 202509021011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 02 Sep 2025 09:41 UTC
+! Last modified: 02 Sep 2025 10:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -371,7 +371,6 @@ com,ru##[data-rambler-share]
 ||static.newsru.co.il/img/r_soc/
 ||tchkcdn.com/www/social-widgets/
 ||telegrafcom.api.oneall.com/socialize/
-||telegram.org/js/telegram-widget.js$domain=varlamovru.livejournal.com
 ||thevista.ru/*/img/soc/
 ||turkrutv.tv/bitrix_storage/images/
 ||twitter.com/widgets.js$domain=hdrezka.tv
@@ -1461,9 +1460,6 @@ province.ru#?#.itemFullText > div[style*="important"]:-abp-has(> a[href^="https:
 agro-business.com.ua##.itemSocialBlock
 kyiv-independent.com,wallnews.org##.itemfull_sharetop
 ivi.ru,ivi.tv##.iviFooter__community
-varlamovru.livejournal.com##.j-e-afternews
-varlamovru.livejournal.com##.j-followme
-varlamovru.livejournal.com##.j-w-social
 blog.domclick.ru##.jMulq
 goal-time.net##.jbzoo-likes
 vgolos.ua##.join
@@ -6592,7 +6588,6 @@ fontanka.ru#?#div:-abp-has(> div > [href^="https://news.google.com/publications/
 ampercar.com#?#div:-abp-has(> em > a[href^="https://news.google.com/publications/"])
 tvrain.tv##div[app-widget="usersection"]
 deepl.com##div[aria-describedby="callout-subtitle-chromeExtensionPromo"]
-varlamovru.livejournal.com##div[class$="container__aside"] .j-w-youtube
 ren.tv##div[class*=" InformationBlockBtm_"]
 znanija.com##div[class*=" Tooltip-module__brn-tooltip-box--"][class*="-start-arrow-only--"]
 homecredit.ru##div[class*="BlockCookies-"]
@@ -7322,6 +7317,7 @@ mail.*##.tv-widget > .vk-video {remove:true;}
 mail.yandex.ru,mail.yandex.*###js-mail-layout-content-header > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 ||dzen.ru/zen-partner/$third-party
+||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
 ||ok.ru/web-api/*/hobby/getMailRuHobbyFeedScriptSrc$domain=mail.ru
 ||ya.ru/portal/feed?
 ||yandex-realty.naydex.net^$script

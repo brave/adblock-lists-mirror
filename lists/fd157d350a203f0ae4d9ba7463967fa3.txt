@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TItqBSVGgjSGZeYgLG7kbQ
-! Version: 202509030641
+! Checksum: INRnL1o/UZn+LLYZMIhmFw
+! Version: 202509030711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Sep 2025 06:41 UTC
+! Last modified: 03 Sep 2025 07:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16886,7 +16886,7 @@ argumenti.ru##[class*="adv_"]
 androidinsider.ru,appleinsider.ru,hi-news.ru##[class*="af_advert_"]
 drive.ru##[class*="autoRu"]
 drive.ru##[class*="autoRu"] + .hr
-amic.ru,anime-bit.online,hi-fi.ru,inflora.ru,lifenews.ru,lifenews78.ru,obozrevatel.com,opticlub.org,players.com.ua,podrobnosti.ua,ua-independent.com,vbryanske.com##[class*="banner"]
+amic.ru,anime-bit.pro,anime-bit.su,hi-fi.ru,inflora.ru,lifenews.ru,lifenews78.ru,obozrevatel.com,opticlub.org,players.com.ua,podrobnosti.ua,ua-independent.com,vbryanske.com##[class*="banner"]
 vedomosti.ru#?#[class*="banner"]:-abp-has(.teaser-commerce)
 avtosreda.ru,vikna.if.ua##[class*="banner-border"]
 disgustingmen.com##[class*="bg_banner"]
@@ -23379,6 +23379,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/*.*.*.*.*.*.*.$script
 ||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/*_$script
 ||static.dzeninfra.ru/s3/zen-lib/*/dzen-layout/*.*.*.*.*.*.*.$script
+||static.dzeninfra.ru/s3/zen-lib/*/news-site-mobile/*_$script
 ||static.dzeninfra.ru/s3/zen-lib/*/news-site/*_$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportanalytic.com
@@ -23768,6 +23769,7 @@ news.mail.ru##body > div > style + div[id]
 dzen.ru##div[class*="news-advert"]
 ! Дзен новости Mail-edition
 dzen.ru##[id*="_R-A-"]
+dzen.ru##[id*="_R-E-"]
 dzen.ru##[id*="_R-I-"]
 sportsdzen.ru##div[class*="-sports-button-ad_"]
 dzen.ru##div[class*="DirectAdvert"]
@@ -26576,6 +26578,7 @@ trupornolabs.org##.header > .red
 wowhead.com##.is-atf.horizontal-bg
 wowhead.com##.is-atf.vertical-bg
 wowhead.com##.is-btf.horizontal-bg
+anime-bit.pro,anime-bit.su##.layer_box > #header
 retail.ru##.markup__b2
 retail.ru##.markup__c1
 retail.ru##.markup__p1

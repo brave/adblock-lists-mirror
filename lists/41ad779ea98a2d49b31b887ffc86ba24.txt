@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: luLUEF0G+9P4FOqWaj6NjA
-! Version: 202509022242
+! Checksum: GpzSlFK3AxCNWK3eWbKxEg
+! Version: 202509022342
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-09-02 22:42 UTC
+! Last modified: 2025-09-02 23:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16052,7 +16052,7 @@ irishnews.com##[href^="https://whatsapp.com/channel/"]
 colourlovers.com##a.mr-10.left > [src]
 telekom.com##a[title="Share"]
 thinkglobalhealth.org##button.hover\:bg-accent-social-button
-player.amperwavepodcasting.com##button[aria-label="Share"]
+player.amperwavepodcasting.com,stockx.com##button[aria-label="Share"]
 lonelyplanet.com##button[data-taggyid]
 theguardian.com##div > gu-island[name="ShareButton"]
 photorumors.com##div[align="RIGHT"]
@@ -34941,7 +34941,6 @@ accolade.eu###cookies-component
 elaoffcial.com###cookies-iki
 tangomode-aga.eu###cookies-law
 telus.com###cookies-notice-banner
-pharmacyclub.net###cookies-policy
 moser.com###cookies-policy-pane
 miscgroup.com###cookies-policy-panel
 misterhorse.com###cookies-start-modal
@@ -37761,6 +37760,8 @@ shate-m.by,shate-m.kz##.cookie-alert-show
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
 !! #cookies-consent
 adshares.net,emerald.com,fadc.org.br,forit.ro###cookies-consent
+!! #cookies-policy
+libre-media.com,pharmacyclub.net,zonaprop.com.ar###cookies-policy
 !! __tealiumModalParent
 calvinklein.ca,calvinklein.us###__tealiumModalParent
 !! __tealiumGDPRcpPrefs
@@ -44212,6 +44213,7 @@ ixbt.com,ixbt.games##.gdpr-root
 gosuslugi.ru##.gw-analytics-agreement
 ozon.ru##.h7
 kwork.ru##.info-cookie-uses
+vitaexpress.ru##.info-processing-personal-data-container
 stgau.ru##.inform
 friday.ru##.information
 bbr.ru##.is-message-ppd
@@ -44297,6 +44299,7 @@ connectgas.ru##[class^="cookieAgreement"]
 4game.com##[class^="fcw-wrap-"]
 sberindex.ru##[class^="styles_Layout__cookiePanel_"]
 cian.ru##[data-name^="CookiesNotification"]
+online.sberbank.ru##[data-testid="cookie-policy"]
 detmir.ru##[data-testid="cookieNotificationText"]
 sdamgia.ru##[style^="text-align: left; position: fixed;"]
 fastvps.ru##app-cookies-accept
@@ -44449,7 +44452,6 @@ spargrancanaria.es###cookie_blocker
 lechepuleva.es###cookie_preferences
 hsnstore.com###cookiebar-outer
 laboyanos.com###cookies-iki
-zonaprop.com.ar###cookies-policy
 vtr.com###cookiesConfigurationModal
 betania-patmos.org###cookies_configuration
 grupoabaco.es###cookies_ventana
@@ -52209,6 +52211,7 @@ doctorofcredit.com#@#.wpdiscuz-subscribe-bar
 ##.push-notification-popover
 ##.push-notification-prompt
 ##.push-notifications-primer
+##.push-notifications-prompt
 ##.push-overlay
 ##.push-sdk-prompt-shell
 ##.push-subscription-alert

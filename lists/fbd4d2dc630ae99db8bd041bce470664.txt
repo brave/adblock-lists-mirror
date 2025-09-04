@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OdKqrU9HY0cSGE80Hd8+Rg
-! Version: 202509041452
+! Checksum: cdD113xV0X60Q88Xikd73A
+! Version: 202509041611
 ! Title: EasyList Germany
-! Last modified: 04 Sep 2025 14:52 UTC
+! Last modified: 04 Sep 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -4358,6 +4358,7 @@ campervans.de,reisemobil-international.de##.promo-af-wrap
 tvspielfilm.de##.promo-box
 tvspielfilm.de##.promo-box-any-banner
 perfektdamen.co##.promo__item
+otto.de##.promo_staticpromo-container
 wegwerfemailadresse.com##.promobox
 snowsociety.com##.promotion-teaser-container
 stadt-bremerhaven.de##.psw-container
@@ -4951,6 +4952,7 @@ kfz-steuer.de##a[style="position:relative; float:left; width:698px; height:63px;
 ak-kurier.de##a[target="_new"][href^="inc/inc_link.php?id="]
 sportdeutschland.tv##app-top-banner
 windowspro.de##article.node-teaser:not(.node-promoted)
+otto.de##article[data-origin="sponsored"]
 otto.de##article[data-producttile-tracking*="wk.san_ProductType\":\"sponsored\""]
 mobile.de##article[data-testid="srp-top-ad"]
 weristdeinfreund.de##aside[id^="banner"]
@@ -5462,6 +5464,7 @@ willhaben.at##.fkPYfx:has(#apn-large-leaderboard)
 onvista.de##.flex-layout:has(.ov-ad-slot-advice)
 onvista.de##.flex-layout:has(div[class^="ArticleTeaser_ov-article-teaser__onvistaCustomer_"])
 onvista.de##.flex-layout:has(div[style^="width: 900px;"])
+otto.de##.ft9_product-highlight__container:has([class*="_sponsor"])
 golem.de##.go-ticker-teaser:has(.go-label--sponsored)
 fressnapf.de##.grid-item--product:has(> [data-qa-id="sponsored"])
 mobiflip.de##.infinite-post:has(.adsbygoogle)

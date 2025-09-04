@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XpetxEOX4ADw/1A6T5nDHw
-! Version: 202509041031
+! Checksum: unqrWG39DHczibTyUSj9Mg
+! Version: 202509041111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 04 Sep 2025 10:31 UTC
+! Last modified: 04 Sep 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -359,6 +359,7 @@ com,ru##[data-rambler-share]
 ||opennet.*/twitter.png
 ||overclockers.ru/images/buttons/
 ||photar.ru/wptelegram/widget/view/
+||pnp.ru/upload/user/banner_social/
 ||primamedia.ru^*modalblock_lite.
 ||rambler.ru/social_counters/
 ||rbc.ru/*/social-networks/
@@ -753,6 +754,7 @@ volodymyrets.city##.article-slider-img-gallery-social
 4mama.ua##.article-social-header
 www.sport.ru##.article-social-imgs
 vedomosti.ru##.article-tools__tool--telegram
+mk.ru#?#.article__body p:-abp-has(> a[href^="https://max.ru/"])
 progroshi.news,proukraine.news##.article__btn
 kherson.net.ua##.article__btn[data-soc]
 vokrug.tv##.article__buttons
@@ -2740,6 +2742,7 @@ pdd.by##[class^="b-scbutton-"]
 kinogo.appspot.com,kinogo.la##[class^="fbutton_"]
 inscience.news##[class^="list-inline-"]
 d1.ua##[class^="social-sharing-bot"]
+pnp.ru##[class^="sprite_social"]
 nachasi.com##[class^="style_socials_"]
 zr.ru##[class^="styled__InfoShare"]
 zr.ru##[class^="styled__StoryNoteSubscribe"] > [class]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DzsSqL0H0uYriThLbxXg8Q
-! Version: 202509050142
+! Checksum: Q+fL+UKWxKTVHD37RexuuQ
+! Version: 202509050242
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-09-05 01:42 UTC
+! Last modified: 2025-09-05 02:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2655,9 +2655,7 @@ washingtonmonthly.com#?#.wp-block-group__inner-container:-abp-contains(Support t
 ! google popups
 google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de,google.es,google.fr,google.it,google.nl,google.pt##.Ryrdad:has-text(Please help us improve)
 developer.android.com##.devsite-snackbar-snack:has-text(Please help us)
-www.google.com##.vKW4md[style="bottom:60px"]:has-text(Choose Chrome)
-www.google.com##[aria-describedby="promo_desc_id"]:has-text(/Search differently|Cherchez différemment|Search just got easier|Try more ways/)
-www.google.com##[aria-describedby="promo_desc_id"]:has-text(Gemini, an AI assistant from Google is here)
+www.google.com##[aria-describedby="promo_desc_id"]:has-text(/Gemini, |Choose Chrome|Search differently|Cherchez différemment|Search just got easier|Try more ways/)
 google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de,google.es,google.fr,google.it,google.nl,google.pt##[jscontroller="HCSvae"]:has-text(Sign in to Google)
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
 ! Paid overlay nag
@@ -49804,6 +49802,7 @@ thebarbedwire.com##.has-secondary-background-color:has-text(Subscribe)
 babylonbee.com##.hidden:has-text(Fake news)
 esports.gg##.inset-0.fixed:has-text(Sign up)
 publichealthpolicyjournal.com##.is-position-sticky:has-text(Subscribe)
+inc.com##.lg\:gap-3:has-text(Weekly roundup)
 dexerto.com##.lg\:grid-cols-\[445px_1fr\].gap-y-10 > div:has-text(Sign up to Dexerto)
 autonews.com##.lg\:u-max-w-\[345px\]:has-text(Sign up)
 mensjournal.com##.m-detail--body > p:has-text(Sign up for the)

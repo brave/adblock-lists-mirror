@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: beujN3p1raZk4FuSiu1D8A
-! Version: 202509050731
+! Checksum: WXkRRsENeLzrnvQ/DTdh8Q
+! Version: 202509050811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Sep 2025 07:31 UTC
+! Last modified: 05 Sep 2025 08:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24375,8 +24375,9 @@ rbc.ru##.header__project__info
 rbc.ru#?#.item-in-article:-abp-has([href*="erid="])
 sportrbc.ru##.js-header-slider-container
 rbc.ru##.js-index-central-column .item_promo-card
-rbc.ru#?#.js-index-central-column .js-index-doscroll:-abp-has([data-pixels-on-show*="adfox"])
-rbc.ru#?#.js-index-central-column .js-index-doscroll:-abp-has([href*="erid="])
+rbc.ru##.js-index-central-column .js-countdown-wrapper
+rbc.ru#?#.js-index-central-column .js-index-doscroll > .js-index-scroll-container:-abp-has([href*="erid="])
+rbc.ru#?#.js-index-central-column .js-index-doscroll[data-type="spec"]:-abp-has([href*="erid="])
 cash.rbc.ru##.js-one-office.premium
 rbc.ru##.js-video-player-ad-skip
 rbc.ru#?#.l-col-100h:-abp-has(> div [href*="banner"])

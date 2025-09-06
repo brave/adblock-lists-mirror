@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kZ4XRZt8n0r9Tg/EER/7NA
-! Version: 202509061011
+! Checksum: svGT/XPMIb8nb1xR+Dp2cA
+! Version: 202509061031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Sep 2025 10:11 UTC
+! Last modified: 06 Sep 2025 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24379,7 +24379,6 @@ rbc.ru##.js-index-central-column .item_promo-card
 rbc.ru##.js-index-central-column .js-countdown-wrapper
 rbc.ru#?#.js-index-central-column .js-index-doscroll > .js-index-scroll-container:-abp-has([href*="erid="])
 rbc.ru#?#.js-index-central-column .js-index-doscroll[data-type="spec"]:-abp-has([href*="erid="]) > div
-rbc.ru#?#.js-index-central-column > div:first-child ~ div ~ div:-abp-has([href*="?erid="])
 rbc.ru##.js-index-central-column > div:nth-child(-n+5) > .js-index-doscroll[data-type="spec"] > div
 cash.rbc.ru##.js-one-office.premium
 rbc.ru##.js-video-player-ad-skip
@@ -24422,6 +24421,8 @@ autodaily.ru,autonews.ru,rbc.ru,sportrbc.ru##body div .banner__filmstrip
 rbc.ru##body.free .js-index-central-column > [data-publisher-index] .list-slider-item [href^="https://pro.rbc.ru/"]
 rbc.ru#?#body.free .js-index-central-column > [data-publisher-index]:-abp-has(.item__bottom > [href^="https://pro.rbc.ru"])
 rbc.ru#?#body.free .js-index-central-column > [data-publisher-index]:-abp-has([class*="pro-anons"])
+rbc.ru##body.free .js-index-central-column > div:nth-child(-1n+5) > div[style^="background-color:"]
+rbc.ru##body.free .js-index-central-column [href^="https://pro.rbc.ru"]
 rbc.ru##body.free .js-index-doscroll-pro
 rbc.ru##body.free .news-feed a[href*="utm_campaign"]
 rbc.ru##body.free [data-vr-zone="Главная новость"] a[href^="https://pro.rbc.ru/"]

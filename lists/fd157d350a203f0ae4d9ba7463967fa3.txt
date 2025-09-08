@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ItYGjSMGmKuJxHCTEtMukQ
-! Version: 202509081041
+! Checksum: ZAnpQHdvCX9v/nvDDaBOVw
+! Version: 202509081111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Sep 2025 10:41 UTC
+! Last modified: 08 Sep 2025 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12350,7 +12350,6 @@ dofiga.net###pbie_25
 poleno.net###pddk221
 onyxgame.com###pegination ~ a
 sportrecs.com###player .MuiButton-containedPrimary
-konohatv.org###player > .absolute
 toples.cc###player > div[style*="pointer;"]
 ts.kg###player-blocker
 ovva.tv###player-mobile-select > .buttons-container
@@ -18537,6 +18536,7 @@ altapress.ru,etextlib.ru##div[class*="partners"]
 kino-mania.pro##div[class*="plav_"]
 1parazit.ru##div[class*="popup"]
 newsru.com##div[class*="prm"]
+konohatv.life#?#div[class*="px"]:-abp-has(> [id^="yandex_rtb_"])
 smexigrex.ru##div[class*="region-amm"]
 fiteria.ru##div[class*="relap-"]
 baby.ru##div[class*="rennab-"]
@@ -26287,8 +26287,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||yaberemenna.info/openx/www/delivery/ai.php?filename=$domain=yaberemenna.info
 @@||yaberemenna.info/openx/www/delivery/ajs.php?zoneid=7&$domain=yaberemenna.info
 @@||yandex.ru/ads/$domain=magnit.ru
-@@||yandex.ru/ads/system/context.js|$script,domain=1prime.ru|gismeteo.ru|konohatv.org|tnt-online.ru
-@@||yandex.ru/ads/system/header-bidding.js$script,domain=gismeteo.ru|trainzland.ru
+@@||yandex.ru/ads/system/header-bidding.js$script,domain=trainzland.ru
 @@||yandex.ru/metrika/informer.js
 @@||yandex.ru/search/site/?*search$third-party,script
 @@||yandex.st/share/share.js|$script,domain=nashaplaneta.su
@@ -26530,7 +26529,7 @@ newnavitel.blogspot.com#@##AdSense1
 num-words.com#@#.advert-banner
 pvpru.com#@##ad_global_above_footer
 rap-me.online#@#.adv-banner
-razlozhi.ru,tnt-online.ru#@#div[id^="adfox_"]
+razlozhi.ru#@#div[id^="adfox_"]
 tests24.su#@##header-ad
 textstudio.co#@#.adsbyyahoo
 xcom-shop.ru#@#.ad-placeholder

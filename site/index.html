@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adblock List Search</title>
+    <script>
+        window.config = {
+            dbUrl: '<%= htmlWebpackPlugin.options.templateParameters.dbUrl %>'
+        };
+    </script>
     <style>
         body {
             font-family: sans-serif;
@@ -72,10 +77,6 @@
     <button id="search-button">Search</button>
     <div id="status"></div>
     <div id="results"></div>
-
-    <script type="module">
-        import(`./search.js`);
-    </script>
 </body>
 
 </html>

@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
-Creates SQLite database from adblock lists and generates config.json for sql.js-httpvfs.
+Creates SQLite database from adblock lists.
 """
 
 import os
 import sys
 import sqlite3
-import json
 from pathlib import Path
 
 # Database configuration
@@ -17,7 +16,7 @@ FTS_PAGE_SIZE = 32000  # FTS page size (pgsz)
 def main():
     # Allow specifying lists directory and database filename via command line arguments
     lists_dir = sys.argv[1] if len(sys.argv) > 1 else "lists"
-    db_file = sys.argv[2] if len(sys.argv) > 2 else "domains.db"
+    db_file = sys.argv[2] if len(sys.argv) > 2 else "rules.db"
 
     print(f"Creating database '{db_file}' from files in '{lists_dir}'...")
 
@@ -156,23 +155,7 @@ def main():
     # 8. Close DB
     db.close()
 
-    # 9. Generate config.json for the site
-    db_size = Path(db_file).stat().st_size
-    config = {
-        "serverMode": "full",
-        "url": Path(db_file).name,  # Use just the filename, not full path
-        "requestChunkSize": PAGE_SIZE,
-        "fileLength": db_size,
-    }
-
-    config_path = str(Path(__file__).resolve().parent / "config.json")
-    with open(config_path, "w") as f:
-        json.dump(config, f, indent=4)
-
     print(f"\nSQLite database '{db_file}' created successfully.")
-    print(
-        f"Config file '{config_path}' updated with database filename: {Path(db_file).name}"
-    )
 
 
 if __name__ == "__main__":

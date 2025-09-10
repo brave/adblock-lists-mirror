@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EZLGDFbrRJD4AyY1qpg+XA
-! Version: 202509102031
+! Checksum: 3icMiDECGq6R4uynt+YH9A
+! Version: 202509102111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Sep 2025 20:31 UTC
+! Last modified: 10 Sep 2025 21:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -21934,6 +21934,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||moisustav.ru/wp-content/themes/MoiSustav.ru/js/super-rotator$script
 ||molbuk.ua/templates/mb_ua/images/recl/
 ||molva33.ru/wp-content/uploads/*320h480
+||moonanime.art/static/js/promo.js
 ||moresofta.com/js/0dd270.js
 ||mosday.ru/ad/
 ||moskva.fm^*/promo/
@@ -23566,7 +23567,9 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 ! ##.b-post__mixedtext + div[style]
 ! ##.b-player a[href*="aHR0c"]
 ! ##.b-seriesupdate__block_list_item[data-url=""]
-hdrezka.*##body.has-brand .b-content__main .b-player a[href*="aHR0c"]
+hdrezka.*,rezka.*##body.has-brand .b-content__main .b-player a[href*="aHR0c"]
+hdrezka.*,rezka.*##body.has-brand .b-content__main > div[id]:not([class]):empty
+hdrezka.*,rezka.*##body.has-brand .b-content__main > div[style^="height: 250px; overflow: hidden;"]
 ! блокировки
 /point/?method=video_lin*&xl=$xmlhttprequest
 ://sta*rezka.*/i/def_$image

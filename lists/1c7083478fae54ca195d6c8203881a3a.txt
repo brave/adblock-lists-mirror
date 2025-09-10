@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.0.0
+! Version: 4.2.0.1
 
 ! General
 
@@ -381,6 +381,7 @@ tt.com##div.adblock-warning
 unherd.com##+js(ra, id, div#premiumcontent)
 unherd.com##div#premiumpreview
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
+||washingtonpost.com/*/tetro-client/$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
 

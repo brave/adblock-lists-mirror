@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adblock List Search</title>
+    <script>
+        window.config = {
+            dbUrl: '<%= htmlWebpackPlugin.options.templateParameters.dbUrl %>'
+        };
+    </script>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2em;
+        }
+
+        #search-input {
+            width: 300px;
+            padding: 5px;
+        }
+
+        #results {
+            margin-top: 1em;
+        }
+
+        .result-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+        .result-item a {
+            text-decoration: none;
+            color: #0366d6;
+        }
+
+        .result-item a:hover {
+            text-decoration: underline;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .timing-info {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        #status {
+            margin: 10px 0;
+            padding: 8px;
+            background-color: #f0f8ff;
+            border: 1px solid #b0d4f1;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+
+        .search-summary {
+            background-color: #e8f4fd;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border-left: 4px solid #0366d6;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Adblock List Search</h1>
+    <input type="text" id="search-input" placeholder="Enter a domain or rule fragment...">
+    <button id="search-button">Search</button>
+    <div id="status"></div>
+    <div id="results"></div>
+</body>
+
+</html>

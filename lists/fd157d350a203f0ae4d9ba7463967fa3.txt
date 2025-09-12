@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eZVsDWY5ftd9E8wazxBbCw
-! Version: 202509121031
+! Checksum: tNQA5P9Qk+L6zSOp2EVJMQ
+! Version: 202509121111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Sep 2025 10:31 UTC
+! Last modified: 12 Sep 2025 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13165,6 +13165,8 @@ riamo.ru##.article--external
 penzadoctor.ru##.article-banner
 techdigest.ru##.article-banner-side
 www.sport.ru##.article-bottom-block > .hdr2
+lifehacker.ru#?#.article-card-container > .container > .article-card__small-wrapper:-abp-has(a[href*="/topics/shopping/"])
+lifehacker.ru#?#.article-card-container > .container > .article-card__small-wrapper:-abp-has(a[href*="utm_"])
 playua.net##.article-comments > .row > div[class] + div[class]
 studopedia.ru##.article-description > noindex
 mmorpg.su##.article-free
@@ -17412,6 +17414,7 @@ scores24.live##a[href*="/sportbooks"]
 chezasite.com##a[href*="/stat/click-"][target="_blank"]
 partnerkin.com##a[href*="/strk/"]
 ant-top.ru##a[href*="/teasers/"]
+lifehacker.ru##a[href*="/topics/shopping/"]
 scores24.live##a[href*="/tsr/"]
 muzofond.fm##a[href*="/zvuk_transfer?"]
 filmisub.com##a[href*="728x90"]

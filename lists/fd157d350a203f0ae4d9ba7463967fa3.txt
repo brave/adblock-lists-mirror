@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xU2dlrNvKxdHgCYlFHuGpQ
-! Version: 202509120821
+! Checksum: f+d77xopjpySoW2VQKVBBA
+! Version: 202509120911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Sep 2025 08:21 UTC
+! Last modified: 12 Sep 2025 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11808,6 +11808,7 @@ allbasketball.org###branding-ads
 foto.ua###branding-bg-pickit
 truba.com###branding-head-link
 namba.tj###branding-html
+karavan.ua###brandingTop
 promodj.com###branding_click
 kolyan.net,telegraf.in.ua,traffilm.net,vse.kz###branding_link
 telegraf.in.ua###branding_top
@@ -19530,6 +19531,7 @@ gamestar.ru##img[height="310"]
 akademekb.ru##img[id^="cradv_"]
 bitmakler.com##img[onclick*="bitmakler.com/go.php"]
 nnportal.org##img[onclick^="countAdClick"]
+karavan.ua##img[src*="-branding-"]
 consol-games.com,consol-games.net##img[src*="/600_200"]
 rosteplo.ru##img[src*="/Image/rek/"]
 salonav.com##img[src*="/SAV_banners/"]
@@ -21607,6 +21609,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||kapital-rus.ru/img/*/banners/
 ||kapriz.info/img/
 ||kapriz.info/tiz/
+||karavan.ua/wp-content/uploads/*-branding-$image
 ||kavkazova.ru^*rtl1.org$xmlhttprequest
 ||kazanfirst.ru/ads
 ||kazfootball.kz/tools/scripts/slick/

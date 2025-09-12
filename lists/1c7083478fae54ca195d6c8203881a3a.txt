@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.0.2
+! Version: 4.2.0.3
 
 ! General
 
@@ -350,8 +350,6 @@ theatlantic.com##aside#paywall,div[class^="LostInventoryMessage_"]
 theglobeandmail.com##+js(set, window.Fusion.globalContent._id, 0)
 thehindu.com,thehindubusinessline.com##+js(set, window.Adblock, false)
 thehindu.com,thehindubusinessline.com##+js(set, window.isNonSubcribed, false)
-theimpression.com##+js(rc, blureffect, div.blureffect)
-theimpression.com##div#modalpostsubscribe
 ||theintercept.com$inline-script
 thelampmagazine.com##+js(ra, class, div.paywall-gradient)
 thelampmagazine.com##section.p-8
@@ -588,6 +586,10 @@ theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
 ||flip-pay.com/*/flip-pay.js$script,third-party,domain=clareecho.ie|thedailymash.co.uk
 clareecho.ie##+js(rc, td-post-content, div.td-post-content)
 
+! Wallkit
+##+js(ra, class, div.wkwp-paywall)
+##div.wkwp-paywall-block
+
 ! custom sites
 .com/webfiles/*/js/metering.js$script,third-party,domain=hbook.com|libraryjournal.com|slj.com
 20minutes.fr##+js(rc, qiota_reserve, div.qiota_reserve)
@@ -630,8 +632,6 @@ divisare.com##+js(ra, style, body[style], stay)
 dominionpost.com##+js(rc, entry-content, article > div.entry-content)
 elfinancierocr.com##+js(ra, style, div.article-body-wrapper__styled[style])
 elfinancierocr.com##div.post
-energy-storage.news,pv-tech.org##+js(ra, class, div.wkwp-paywall)
-energy-storage.news,pv-tech.org##div.wkwp-paywall-block
 epaper.indiatimes.com##div.epaperBlockerWrap
 ||eviemagazine.com/api/trpc/post.paywall$xmlhttprequest,~third-party
 expressandstar.com,shropshirestar.com##+js(set, window.Fusion.globalContent.paywallStatus, false)

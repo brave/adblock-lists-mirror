@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RKv1yF5PjZbFnr1F32AgWA
-! Version: 202509122031
+! Checksum: ZW6go9C4+aKIneyDKMsa/w
+! Version: 202509122111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Sep 2025 20:31 UTC
+! Last modified: 12 Sep 2025 21:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7760,6 +7760,7 @@ prom.ua#@#img[alt="facebook"]
 /webalert-notification.js
 /webnotf.js
 /webnotification.js
+/webpush-client/webpush-client.min.js
 /webpush-production.js
 /webpush.js
 /webpush.min.js
@@ -7850,6 +7851,7 @@ prom.ua#@#img[alt="facebook"]
 ###pushpushgo-container
 ###pushwoosh-pop
 ###qrzpush-prompt-widget
+###rd-webpush-modal
 ###shopify-section-order-notifications
 ###smart_push_smio_overlay
 ###smart_push_smio_window
@@ -11703,6 +11705,7 @@ _social_footer_
 ##.bb-social
 ##.bb-social-link
 ##.bc-author-socials
+##.bc-social-share
 ##.bc-socials
 ##.bc_social_icons
 ##.bctt-click-to-tweet
@@ -12042,6 +12045,7 @@ _social_footer_
 ##.c-poll-share__text
 ##.c-post-engage-share
 ##.c-post-engage-shares
+##.c-post-header__share
 ##.c-post-share__links
 ##.c-redes-sociais
 ##.c-scribblelive__social
@@ -20088,6 +20092,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||senzari.com^$third-party
 ||sg-autorepondeur.com^$third-party
 ||sharenice.org^$third-party
+||shopperapproved.com^$third-party
 ||sidelinesapp.com^$third-party
 ||siteswithcontent.com^$third-party
 ||skysa.com^$third-party

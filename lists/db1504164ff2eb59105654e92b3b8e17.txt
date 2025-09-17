@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jz+YtUZseZWB2i3fs0Rlnw
-! Version: 202509170931
+! Checksum: tQr9eS37yEFLjB2Po+x7tw
+! Version: 202509171011
 ! Title: EasyList China
-! Last modified: 17 Sep 2025 09:31 UTC
+! Last modified: 17 Sep 2025 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -9982,6 +9982,8 @@ meijutt.*/js/pcjs/
 ||cdxyspa.com/js/e
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+iqiyi.com###bottom_banner_ad_bk
+iqiyi.com#?#div[class^="list_list_"]>div:-abp-has(div[class^="videolist_closeAd"])
 msn.cn##[ad]
 423down.com#?#li:-abp-has(>.info>.cat>a[rel="category tag"]:-abp-contains(推广))
 423down.com#?#li:-abp-has(>.item-thumb>.item-category:-abp-contains(推广))

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7rCgvXmAMAKHu5qc8oQr+Q
-! Version: 202509181641
+! Checksum: sYf6sbZUsRQWu7KriLA/XQ
+! Version: 202509181711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Sep 2025 16:41 UTC
+! Last modified: 18 Sep 2025 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24691,9 +24691,10 @@ ya.ru##.i-mini-bem[class*="banner"]
 ya.ru##[aria-label^="Информе"] ~ [class]
 ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##section[class^="reason"]
-ya.ru,yandex.*##.main-home-banner
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner
+ya.ru,yandex.ru,yandex.*##.main-home-banner
+ya.ru,yandex.ru,yandex.*##.main__block-banner
 ya.ru,yandex.ru,yandex.*##.main__distr-popup
 ya.ru,yandex.ru,yandex.*##.Organic_withPromoOffer
 ya.ru,yandex.ru,yandex.*#?#.content__left > #search-result > li:-abp-has(> .Organic_withPromoOffer)

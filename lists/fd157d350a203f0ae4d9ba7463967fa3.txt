@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qECn0kXVNdp5+jF0UN8VlA
-! Version: 202509181511
+! Checksum: WNJNOr22rAsOwQ89desJFA
+! Version: 202509181532
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Sep 2025 15:11 UTC
+! Last modified: 18 Sep 2025 15:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17075,7 +17075,7 @@ vladnews.ru##[data-newsb]
 cq.ru##[data-odds-series]
 bankiros.ru##[data-offer]
 news.soundex.ru##[data-original^="http://news.soundex.ru/images/banners/"]
-studopedia.ru,studopedia.su##[data-partner]
+shuba.life,studopedia.ru,studopedia.su##[data-partner]
 iz.ru##[data-partners-block-id]
 satellitetvforum.info##[data-phpbb-ads-id]
 litnet.com##[data-popmechanic-embed]
@@ -23444,7 +23444,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?bNm7j=$xmlhttprequest
+||pikabu.ru/ajax/*?bNm6j=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

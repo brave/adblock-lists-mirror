@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FLuTs/gdosYJJBmV85UW8A
-! Version: 202509180642
+! Checksum: Qc8WYNoCao2WcskVfDU1Tw
+! Version: 202509180742
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-09-18 06:42 UTC
+! Last modified: 2025-09-18 07:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40871,6 +40871,9 @@ lahacienda.co.uk,clever-zoeger.de,frusoed.dk,toptravelsights.com,mobilabonnemang
 !! .avada-footer-scripts
 people-base-cbm.com,santander.pl,asbrav.org.br,resurja.com,nordhavn.dk##.avada-footer-scripts
 people-base-cbm.com,santander.pl,asbrav.org.br,resurja.com,nordhavn.dk##body,html:style(overflow: auto !important; position: initial !important;)
+! ordrepsy.qc.ca
+ordrepsy.qc.ca##.cookie-consent-banner
+ordrepsy.qc.ca##body.ordrepsy.cookies-banner-visible:style(overflow: auto !important;)
 !! .ReactModal__Overlay
 bokadirekt.se,wildwestdomains.com,hosteurope.de,tsohost.com,systembolaget.se,martifer.fr,123-reg.co.uk,opngo.com,martifer.com,martifer.es,martifer.pt,df.eu,groupama.fr,remppatori.fi,srv.fi##.ReactModal__Overlay
 bokadirekt.se,wildwestdomains.com,hosteurope.de,tsohost.com,systembolaget.se,martifer.fr,123-reg.co.uk,opngo.com,martifer.com,martifer.es,martifer.pt,df.eu,groupama.fr,remppatori.fi,srv.fi##body,html:style(height: auto !important; overflow: auto !important)
@@ -52048,6 +52051,7 @@ temu.com##body:style(overflow: auto !important; position: initial !important;)
 ringkestore.com##pop-up
 ringkestore.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! fanboy_newsletter_allowlist.txt
+@@||assets.mailerlite.com/js/universal.js$script,domain=player.real.gr
 @@||e24.no/cnp-assets/components-NewsletterWidget.$~third-party
 @@||el-vidas.nl^*/phpcuong_newsletter/$script
 @@||lightboxcdn.com/vendor/$script,domain=rydercup.com

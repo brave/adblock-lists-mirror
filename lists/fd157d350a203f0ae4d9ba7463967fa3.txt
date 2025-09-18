@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dbTe5Kfz6wnDNLx8RjgZ1Q
-! Version: 202509182031
+! Checksum: jrquO6MABJ6ztgyYiAIRdQ
+! Version: 202509182111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Sep 2025 20:31 UTC
+! Last modified: 18 Sep 2025 21:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24586,6 +24586,7 @@ sports.ru##a[href^="https://zen.yandex.ru/"]
 sports.ru##article.material-list__item[data-link^="https://sirena.world/"]
 sports.ru##body > div[class^="br-lt"] > :not(.page-layout):not(.pageLayout)
 sports.ru##div[class*="SALES"] > .accordion__handle
+tribuna.com##div[class*="_odds_wrapper"]
 tribuna.com##div[class*="main_layout__empty_block"]
 tribuna.com##div[class*="rb-widget"]
 tribuna.com##div[class^="BookmakerGift_bookmaker-gift_"]
@@ -24595,6 +24596,7 @@ sports.ru##div[data-control-noinit="Common.BetsTabs"]
 sports.ru##div[data-control="Common.AutoInit"]
 sports.ru##div[data-control^="Common.Bets"]
 tribuna.com##div[data-test="bookie-widget"]
+tribuna.com#?#div[style="display: contents;"] > div:-abp-has(> a[href="/betting/bonuses/"])
 sports.ru##p > a[rel="nofollow"] > img[height][width]
 sports.ru#?#p:-abp-has(> a[href]:-abp-contains(М.Видео))
 tribuna.com##span[class^="_comments__loader"][class*="_spinner_"]

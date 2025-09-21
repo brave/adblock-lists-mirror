@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ClazK3YM081MraYwj3gFXg
-! Version: 202509210742
+! Checksum: wR+NObp7MQE/5WaAZ/ljVw
+! Version: 202509210842
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-09-21 07:42 UTC
+! Last modified: 2025-09-21 08:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4003,6 +4003,8 @@ uploadvr.com##+js(set-local-storage-item, dismissedUpgradePrompt, true)
 seekingalpha.com##+js(set-local-storage-item, __tp-gaAccount, disabled)
 ! https://github.com/uBlockOrigin/uAssets/issues/23722
 nisanyansozluk.com##+js(set-local-storage-item, newYeradlariWebsiteHidden, true)
+! https://github.com/uBlockOrigin/uAssets/issues/30117
+infowars.com##+js(set-session-storage-item, stream, true)
 ! sportsbusinessjournal.com
 sportsbusinessjournal.com##+js(cookie-remover, sbj_archiveStatus)
 sportsbusinessjournal.com##.paywall-footer-container

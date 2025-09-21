@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0Rc7AT/r4AVQHUfNljtmPw
-! Version: 202509211041
+! Checksum: 02fAvBKIy1Gt+zVWU7Axww
+! Version: 202509211111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Sep 2025 10:41 UTC
+! Last modified: 21 Sep 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6098,7 +6098,6 @@ vesti.az##.stores
 livejournal.com##.stories__promo
 newsvl.ru##.story.contact-us__container
 srnsk.ru##.stream-item
-stopgame.ru##.stream-sticky
 postimees.ee##.structured-content__group--commercial
 tutu.ru##.style__disclaimer
 life.ru##.styles_root__8aOtz
@@ -6228,6 +6227,7 @@ habr.com##.tm-top-link
 habr.com##.tm-voice-article
 tengrinews.kz##.tn-subscribe-whatsapp
 tengrinews.kz##.tn-urgent-news-info
+stopgame.ru##.to-top-button__container
 uteka.ru##.toasts_bottom
 zona.media##.tools__support_container
 zombie-film.club##.top-alert
@@ -6394,6 +6394,7 @@ anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranob
 fosshub.com##[data-section-content-type="donate"]
 trychatgpt.ru##[data-sidebar="footer"]
 ictvukraine.tv,obozrevatel.com,zahid-sad.com##[data-storage-item*="cookiename_"]
+stopgame.ru##[data-stream-sticky]
 vuzopedia.ru##[data-target="#subscribe"]
 adme.media##[data-test-id="article-content"] > a[href^="/"]
 adme.media##[data-test-id="careers"]
@@ -6879,6 +6880,7 @@ habr.com##section[id^="promo_block_"]
 goha.ru##span[id^="scrollto"]
 streamzone.org##span[style*="3.0em;"]
 sslkn.*##.spot
+stopgame.*##[data-stream-sticky] {remove:true;}
 agents.media##subscribe-c2a
 2baksa.ws##table[style*="important"][width="100%"][align="center"]
 2baksa.ws,nowa.cc##table[style*="width"][style*="important"]
@@ -7225,6 +7227,7 @@ dzen.ru##body._watch-type_short > .zen-ui-modal._view-type_inner-close-m
 dzen.ru##button[class*="short-viewer-layout__downloadButton"]
 calendar.yandex.ru,calendar.yandex.*###CalendarBanner
 calendar.yandex.ru,calendar.yandex.*##.promozavr-anchor-servicePremiumButton
+calendar.yandex.ru,calendar.yandex.*##[data-test-id="promopopup"]
 calendar.yandex.ru,calendar.yandex.*##div[class^="MainBanner__wrap"]
 calendar.yandex.ru,calendar.yandex.*#?#div[class^="_BottomIconRoot_"]:-abp-has(> div > .promozavr-anchor-servicePremiumButton)
 calendar.yandex.ru,calendar.yandex.*,disk.yandex.ru,disk.yandex.*,docs.yandex.ru,docs.yandex.*,mail.yandex.ru,mail.yandex.*##.promozavr-anchor-servicePremiumButton

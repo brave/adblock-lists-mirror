@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GvO3Kgk2vI4vkBF2v5A4Hw
-! Version: 202509211031
+! Checksum: Lkh4fG72LN9L0O0t2eW+yw
+! Version: 202509211111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Sep 2025 10:31 UTC
+! Last modified: 21 Sep 2025 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13813,7 +13813,7 @@ citydog.by##.brandLink
 ekaraganda.kz##.brand_a
 harpersbazaar.com.ua##.brand_left
 harpersbazaar.com.ua##.brand_right
-agropolit.com,elevatorist.com,filmozavr.com,filmozavr.net,gotennis.ru,inoprosport.ru,kinopati.ru,kurkul.com,lada-granta.net,latifundist.com,lkforum.ru,myshows.me,osp.ru,overclockers.ua,podfm.ru,popcornnews.ru,psm7.com,superagronom.com,zemliak.com##.branding
+agropolit.com,elevatorist.com,filmozavr.com,filmozavr.net,gotennis.ru,inoprosport.ru,kinopati.ru,kurkul.com,lada-granta.net,latifundist.com,lkforum.ru,myshows.me,osp.ru,overclockers.ua,podfm.ru,popcornnews.ru,psm7.com,stopgame.ru,superagronom.com,zemliak.com##.branding
 tut.by##.branding > a
 3dtoday.ru##.branding-banner
 banki.ru##.branding-bg
@@ -18283,6 +18283,7 @@ siver.com.ua##body > div[align="right"] > span
 progipertoniyu.ru##body > div[class*="modal"]
 povarenok.ru##body > div[class]:empty:not([style])
 votrube.ru##body > div[class]:last-of-type
+stopgame.ru##body > div[class]:not([id]):not([style]):empty
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##body > div[class]:not([id]):nth-child(-n+5) > a[href]
 finam.ru##body > div[class^="hidden-"]
 openssource.biz##body > div[class^="spu-"]
@@ -24430,6 +24431,7 @@ rbc.ru#?#.l-col-100h:-abp-has(> div [href*="banner"])
 rbc.ru##.mts-promo
 utro.ru#?#.news-group__content > .news-group__item:-abp-has(> .banner)
 cnews.ru##.objects_row > .cnb-zone > a:not([href*="cnews.ru"])
+rbc.ru##.radio-partner-block
 ##.rbcobmen
 rbc.ru##.right-promo-block
 cnews.ru#?#.section_mainnews > .container:-abp-has(> .line_pattern > a[href^="https://market.cnews.ru/"])
@@ -24438,6 +24440,8 @@ rbc.ru##.shopping-card-button
 rbc.ru##.showcase-collection__logo,.showcase-collection__subtitle
 rbc.ru##.simple-promo-card
 sportrbc.ru##.statistics__footer
+rbc.ru##.story-wrapper_branded .story-header__logo
+rbc.ru##.story-wrapper_branded [class*="-descriptor"]
 cnews.ru##.tizer_block
 rbc.ru,rbclifetime.ru##.topline-desktop-hide-banners
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru##.topline__branding__wrapper

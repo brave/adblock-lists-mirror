@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SWGGVm+lB7GdXR53YVw2ag
-! Version: 202509221211
+! Checksum: wDKpIEVg+w3EdpCAjg4sHg
+! Version: 202509221242
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Sep 2025 12:11 UTC
+! Last modified: 22 Sep 2025 12:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17274,13 +17274,13 @@ news.soundex.ru##[src^="http://news.soundex.ru/images/banners/"]
 yarportal.ru##[style$="height: 60px;"]
 newsomsk.ru#?#[style*="font"]:-abp-contains(Новости партнеров)
 penzainform.ru##[style*="height: 43px"][style*="max-height: 43px"] ~ div[class^="space_"]
+auto.ru##[style*="height:"][style*="250px"]:empty
 procherk.info##[style*="line-height:1;"][style$="font-size:8px;"]
 procherk.info##[style*="line-height:1;"][style$="font-size:8px;"] ~ a[href][target="_blank"]
 tltgorod.ru##[style*="tltgorod.ru/Pics/ban/"]
 anirem.org##[style="background:#2f2d38; margin:10px;"]
 kinonews.ru##[style="height:250px;overflow:hidden;"]
 molbuk.ua##[style^="height: 200px; left"][style*="position: absolute"]
-auto.ru##[style^="height:"][style*="250px"]:empty
 cyberforum.ru#?#[style^="margin: 3px 0px"]:-abp-has(script)
 point.md#?#[style^="position:"] div[class]:-abp-has(.point-ads)
 point.md#?#[style^="position:"] div[class]:-abp-has(> a[href*="utm_campai"])
@@ -26461,7 +26461,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||liverail.com^*/admanager.swf|$domain=own3d.tv
 @@||loves.zlovemother.com^$elemhide
 @@||mastergrad.com/public/js/ads.min.js$script,domain=mastergrad.com
-@@||mc.yandex.ru/metrika/watch.js$script,domain=101.ru|doska.tamboff.ru|oformi-foto.ru|sherlock.store|shok102.ru
+@@||mc.yandex.ru/metrika/watch.js$script,domain=101.ru|auto.ru|doska.tamboff.ru|oformi-foto.ru|sherlock.store|shok102.ru
 @@||mover.uz/www/serving/adb.js|$script,domain=mover.uz
 @@||moviki.ru/embed/$elemhide
 @@||mtrcss.com/*/v|$xmlhttprequest,domain=worldvideo.site

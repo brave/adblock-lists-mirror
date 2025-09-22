@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pceOPKC++pnjZ++yGSHDGg
-! Version: 202509222141
+! Checksum: YaXPBgQlqAs37Q5/hXtIMw
+! Version: 202509222211
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Sep 2025 21:41 UTC
+! Last modified: 22 Sep 2025 22:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7780,6 +7780,7 @@ prom.ua#@#img[alt="facebook"]
 /js-mobile-*/header_$script
 /js/jquery.smartbanner.js|
 /js/jquery.smartbanner.min.js|
+/mobile-app-invite-banner.umd.min.js
 /mobile-welcome-overlay/*$script
 /MobileDownloadBanner.js
 /smart-app-banner.js
@@ -8056,8 +8057,6 @@ prom.ua#@#img[alt="facebook"]
 ##a[href^="http://www.mobi24.net/"]
 ##a[href^="https://www.mobi24.net/"]
 ##amp-app-banner
-! google review popup
-##.es-badge-container
 ! substack
 ##.subscription-widget-wrap > .show-subscribe
 ! spot.im Notifications
@@ -19121,6 +19120,8 @@ _backToTop.
 ##.source-woocommerce.nx-notification
 ##.wpcsn-notification-inner
 ##.yo-notification
+! google review popup
+##.es-badge-container
 ! advocate.com (Video PIP following)
 ##.vjs-pip-y-bottom
 ! medium nag

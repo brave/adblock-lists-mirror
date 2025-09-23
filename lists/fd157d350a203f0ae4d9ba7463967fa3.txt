@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GMNN2inWYjUr0COComrtQg
-! Version: 202509231541
+! Checksum: ise+1e1XLsv+eojhwk78Pw
+! Version: 202509231711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Sep 2025 15:41 UTC
+! Last modified: 23 Sep 2025 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13175,6 +13175,7 @@ penzadoctor.ru##.article-banner
 techdigest.ru##.article-banner-side
 www.sport.ru##.article-bottom-block > .hdr2
 lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(.lh-article-card-meta__partner)
+lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(.slider__title:-abp-contains(Полезные товары))
 lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(a[href*="/topics/shopping/"])
 lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(a[href*="utm_"])
 playua.net##.article-comments > .row > div[class] + div[class]
@@ -15067,6 +15068,7 @@ list-org.com##.menu > .sticky
 2krota.ru##.menu > a:not([href^="/"])
 1yar.tv##.menu > li > a[href^="https://vk.com/"]
 appleinsider.ru##.menu-item > a[href*="utm_campaig"]
+burninghut.ru##.menu-item__link[href="/category/musthave/"]
 kursiv.media##.menu-promo
 freelansim.ru##.menu__item.special
 2ip.ua##.menu_banner
@@ -16104,6 +16106,7 @@ grodno24.com##.similar
 podillyanews.com##.similar-news
 novostiua.net##.simple-banner
 kurs.if.ua##.simple-top-block
+lifehacker.ru##.single-article > .widgets-renderer
 novadoba.com.ua##.single-bottom-advertising-block
 pravda.if.ua##.single-post-6__author
 hi-tech.ua#?#.single-post:-abp-has(.sam-pro-container)
@@ -16930,6 +16933,8 @@ forum.guns.ru##[class*="hide"][class$="ban"]
 appleinsider.ru##[class*="home-credit"]
 puerrtto.livejournal.com##[class*="kupibilet"]
 espritgames.ru##[class*="landing"]
+burninghut.ru#?#[class*="list"] > .article-card-small-list__item:-abp-has(.card-footer__categories > a[href="/category/musthave/"])
+burninghut.ru#?#[class*="list"] > .article-card-small-list__item:-abp-has(.card-footer__categories > span:-abp-contains(Реклама))
 www.onliner.by##[class*="megabanner"]
 minfin.com.ua##[class*="mfz-banner"]
 minfin.com.ua##[class*="mfz-teaser"]

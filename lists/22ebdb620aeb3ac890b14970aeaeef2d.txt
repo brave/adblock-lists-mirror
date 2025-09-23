@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rzsEKS7ZkZEizVbrB91EZg
-! Version: 202509222135
+! Checksum: yG/KDwjmovFXD6G7eiwTyQ
+! Version: 202509230035
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2025-09-22 21:35 UTC
+! Last modified: 2025-09-23 00:35 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -18,6 +18,7 @@
 /js-mobile-*/header_$script
 /js/jquery.smartbanner.js|
 /js/jquery.smartbanner.min.js|
+/mobile-app-invite-banner.umd.min.js
 /mobile-welcome-overlay/*$script
 /MobileDownloadBanner.js
 /smart-app-banner.js
@@ -100,8 +101,6 @@
 ##a[href^="http://www.mobi24.net/"]
 ##a[href^="https://www.mobi24.net/"]
 ##amp-app-banner
-! google review popup
-##.es-badge-container
 ! substack
 ##.subscription-widget-wrap > .show-subscribe
 ! spot.im Notifications

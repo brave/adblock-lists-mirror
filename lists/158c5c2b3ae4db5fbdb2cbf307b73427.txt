@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2xkqsORNfZzSWzOBwRZGIA
-! Version: 202509231131
+! Checksum: xPMSklZDQkEmtl35OjYb2A
+! Version: 202509231251
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Sep 2025 11:31 UTC
+! Last modified: 23 Sep 2025 12:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -664,7 +664,6 @@ tele-sport.ru##.-social
 tele-sport.ru##.-social-with-counter
 blog.domclick.ru##.A1lqP
 kaktus.kg,kaktus.media##.Article--tg-block
-auto.ru##.ArticleFooterTelegram
 mail.google.com##.Bu + .Bu.yM + .Bu.y3
 delfi.ee##.C-article-social
 delfi.ee##.C-block-type-social
@@ -682,16 +681,14 @@ quote.ru#?#.MuiGrid-root > footer:-abp-has([aria-label="vk"])
 xsport.ua#?#.MuiStack-root:-abp-has(> p ~ svg)
 iviche.com##.MuiToolbar-root > div ~ div > a[href][rel="noopener noreferrer"]
 sv-scena.ru##.Odnoklassniki
-auto.ru##.Review__shareTitle
 gazetametro.ru##.SHeader__social
-auto.ru,myshows.me##.Share
+myshows.me##.Share
 apteka.ru##.SiteFooter__socials
 sv-scena.ru##.Twitter
 anistar.org,astar.bz,online-star.org,online-stars.org##.VK_com
 sv-scena.ru##.VKontakte
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.VideoViewer-InfoContainer .Viewer-ShareLink
 gazetametro.ru##.WShare
-auto.ru##.YaShareWrapper
 sv-scena.ru##.Youtube
 psychologies.ru##._invite-banner
 lenta.ru##._social-network
@@ -2955,6 +2952,7 @@ aniu.ru##body > a[href*="://vk.com/"]
 forums.rusmedserv.com##body noindex > table[align="center"]
 api.rstprgapipt.com#?#button:-abp-has(> .icon-share)
 speka.media#?#button:-abp-has(> span:-abp-contains(телеграм))
+auto.ru##button[class*="ShareButton"]
 56orb.ru,atas.info,bel.ru,gorod55.ru,inkazan.ru,karelinform.ru,kubanpress.ru,kursdela.biz,mkset.ru,muksun.fm,nashgorod.ru,newizv.ru,newkhakasiya.online,newsnn.ru,newstracker.ru,novostivolgograda.ru,prmira.ru,properm.ru,rosbalt.ru,rostovgazeta.ru,tagilcity.ru,transsibinfo.com,udm-info.ru,vostokmedia.com,zr.media##button[class^="LeftcolSocials"]
 frontend.vh.yandex.ru##button[data-control-name="share"]
 culture.ru##button[title="Поделиться"]
@@ -3033,7 +3031,7 @@ iviche.com#?#div[class]:-abp-has(> p + .react-share__ShareButton)
 sport24.ru#?#div[class]:-abp-has(> span + svg)
 zaycev.net##div[class^="ArticlePageSubscribestyled__SubcribeWrapper-"]
 news.finance.ua##div[class^="ArticleShares"]
-auto.ru##div[class^="CardActions"] > .Share__popup + .Button:not(:last-of-type)
+auto.ru##div[class^="CardActions-"] > .HoveredTooltip__trigger:nth-child(2)
 igromania.ru,kanobu.ru##div[class^="CommonInnerHeader_header_pagetitle_right"] > [class] ~ div
 kanobu.ru##div[class^="Copyright_social_"] > a[target="_blank"]
 mir24.tv##div[class^="FooterTopSection_actions__subscribe"]
@@ -3049,6 +3047,7 @@ hromadske.radio##div[class^="Footer_socials"]
 ctc.ru##div[class^="HeaderVerticalNav_socialLinkSet"]
 hromadske.radio##div[class^="Header_socials"]
 images.rambler.ru##div[class^="ImageBig__share"]
+auto.ru##div[class^="LogbookListingSnippetActions-"] > [class^="ModalMenu-"] > [role="button"]:first-child
 afisha.ru##div[class^="NewsItem_social"]
 rg.ru##div[class^="Share"][class*="Content"]
 my.ua##div[class^="ShareButtons_"]
@@ -5082,6 +5081,7 @@ kursk-izvestia.ru##.articles > article ~ noindex ~ p > strong
 pimpletv.ru##.articles_i
 shazoo.ru##.aside > .grid
 sports.ru#?#.aside-news-list__item:-abp-has(a[href^="https://trbna.co/"])
+profinance.ru##.askbuttontextbox
 rlsnet.ru##.attention-modal
 lolz.guru##.axsBackground
 serfery.ru##.b-accept-cookie
@@ -6354,7 +6354,6 @@ ads.vk.com,regard.ru##[class^="CookieBanner"]
 sber.ru##[class^="Cookies_cookie-warning_"]
 auto.ru##[class^="CreditCardRoot"]
 auto.ru##[class^="DealerCreditForm"]
-auto.ru##[class^="GalleryBestPriceFooter"]
 hromadske.radio##[class^="PatreonBanner"]
 meduza.io##[class^="SaveMeduza"]
 igromania.ru,kanobu.ru##[class^="SubscribeForm_subscribe_"]
@@ -6401,6 +6400,7 @@ adme.media##[data-test-id="install-app"]
 adme.media##[data-test-id="subscription-block"]
 wink.ru##[data-test="cookie"]
 znanija.com##[data-test="footer-social-media-links"]
+auto.ru##[data-testid="ListingItemPromoGoToApp"]
 lk.rt.ru##[data-testid="SnowfallCanvas"]
 online.sberbank.ru##[data-testid="cookie-policy"]
 id.sber.ru##[data-testid="cookie_banner"]
@@ -6662,6 +6662,7 @@ meduza.io##div[class^="GDPRPanel"]
 afisha.ru##div[class^="HeaderAdvert"] a[href*="afisha.ru/"]
 daily.afisha.ru##div[class^="Layout_Layout"] > a > div
 igromania.ru,kanobu.ru##div[class^="LinkingButtonsOfArticle_root__"]
+auto.ru##div[class^="MatchApplicationBanner-"]
 loads.ati.su##div[class^="Media_container"]
 hromadske.radio##div[class^="ModalBanner"]
 rg.ru##div[class^="NewsFeed_adsTop_"] > div
@@ -7321,12 +7322,13 @@ dzen.ru##.zen-page .content div[class*="__bannerMain"]
 /^https?:\/\/dzen\.ru\/[^\s]{2100,}$/$script,domain=dzen.ru
 /^https?:\/\/strm\.yandex\.ru\/get\/[^\s]{1300,}$/$xmlhttprequest,domain=dzen.ru|naydex.net
 @@||ad.mail.ru/adp/*=resplash&$xmlhttprequest,domain=mail.ru
+@@||an.yandex.ru/mapuid/yandex/|$image,domain=auto.ru
 @@||shedevrum.ai^$generichide
 @@||statchecker.yandex.ru/ping|$script,domain=drive2.ru
 @@||static-mon.yandex.net/static/main.js$xmlhttprequest,domain=drive2.ru|shedevrum.ai
 @@||www.drive2.ru^$generichide
-@@||yandex.ru/ads/system/context.js|$script,domain=e.mail.ru|octavius.mail.ru|shedevrum.ai
-@@||yastatic.net/partner-code-bundles/*/*.js|$xmlhttprequest,domain=drive2.ru
+@@||yandex.ru/ads/system/context.js|$script,domain=auto.ru|e.mail.ru|octavius.mail.ru|shedevrum.ai
+@@||yastatic.net/partner-code-bundles/*/*.js|$xmlhttprequest,domain=auto.ru|drive2.ru
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body > :not(div[style*=" -"]) .mailru-visibility-check
 dzen.ru#?#div:-abp-has(> .mg-grid__item_type_card > div[class*="loader_animated"])
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class*="Serp"] div[class$="-Incut"][style^="margin-bottom:"]

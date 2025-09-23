@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7cUhog5pi8k/seP+z36UKw
-! Version: 202509231131
+! Checksum: dsDYxKY0vEZtP4rz7iSrrA
+! Version: 202509231251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Sep 2025 11:31 UTC
+! Last modified: 23 Sep 2025 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18646,6 +18646,7 @@ russian.rt.com##div[class^="Popup-"]
 mobiguru.ru##div[class^="RELINK"]
 tass.ru##div[class^="ReadTass_wrapper"]
 www.sibnet.ru##div[class^="Realty_root"]
+auto.ru##div[class^="RecommendationsItem__ad-"]
 kanobu.ru#?#div[class^="Sidebar_sidebar_list"] > div[class]:-abp-has(> div > div > span:-abp-contains(Партнерский материал))
 igromania.ru,kanobu.ru##div[class^="TopPageBanner_wrap_"]
 yarnovosti.com##div[class^="_5"]
@@ -23415,15 +23416,12 @@ igdz1.ru^$script,domain=igdz.ru
 !#if ext_abp
 ! запросы
 ! ловушка для обфускации дзена: главная, статьи, новости, погода
-||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
-||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
-||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
+||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
+||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
+||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/*.*.*.*.*.*.*.$script
-||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/*_$script
-||static.dzeninfra.ru/s3/zen-lib/*/dzen-layout/*.*.*.*.*.*.*.$script
-||static.dzeninfra.ru/s3/zen-lib/*/news-site-mobile/*_$script
-||static.dzeninfra.ru/s3/zen-lib/*/news-site/*_$script
+||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/*a*a*a*a*a*a*a$script
+||static.dzeninfra.ru/s3/zen-lib/*/news-site-mobile/*a*a*a*a*a*a*a$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportanalytic.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org

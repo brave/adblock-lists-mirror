@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V77rLPfwV7DQh0gk4pn4SQ
-! Version: 202509270911
+! Checksum: Nt+in0WFcHXOjV16071kag
+! Version: 202509270931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Sep 2025 09:11 UTC
+! Last modified: 27 Sep 2025 09:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14138,6 +14138,7 @@ te.ua##.csa-head
 realt.by#?#.csc-textpic:-abp-has(> .csc-textpic-imagewrap > a > img[src*="realt.by/uploads/pics/bsb-bank_mechty_"])
 1000sovetov.ru##.ctaRightWidget
 google.by,google.com,google.com.ua,google.kz,google.ru##.cu-container > div[class*="commercial-unit"]
+cubiq.ru##.cubiq-button
 business-gazeta.ru##.currency__logo
 kurs.com.ua##.currencycom
 8vp.ru,diabethelp.org##.custom
@@ -14518,7 +14519,6 @@ nachasi.com##.grid-main > div[class^="style_heading_"] + div[class^="style_block
 novostivl.ru##.grid-news-none
 ryazan.life##.grid-r
 amic.ru#?#.grid__title:-abp-contains(Новости партнеров)
-cubiq.ru##.gridlove-button
 zr.ru##.gtRpeb
 tomat-pomidor.com##.gusev
 playua.net##.h-advert
@@ -15163,6 +15163,8 @@ ip.osnova.news##.my-4
 mymsk.online##.my-5
 inetsovety.ru##.my-block[style="height:730px;"]
 bst.bratsk.ru##.my-sheet-Adv
+repack.me##.my.row > div:first-child .panel-primary.short-title
+repack.me##.my.row > div:first-child .panel-primary.short-title ~ br
 xboxrussia.ru##.mylink
 drive.ru##.mywidget-item[class*="teaser"]
 ykt.ru##.n-ad-silver
@@ -15388,8 +15390,6 @@ www.km.ru##.panel-col-top .pane-content > :empty
 mkap.ru##.panel-danger
 portall.zp.ua#?#.panel-default:-abp-has(> .widget_rekl)
 chelny-izvest.ru#?#.panel-group > .panel_primary:-abp-has(> .panel__body > #MediaMetricsInject)
-repack.me#?#.panel-primary:-abp-has(> .panel-body[style="padding: 20px;"] a[href*="aeza."])
-repack.me#?#.panel-primary:-abp-has(> .panel-body[style="padding: 20px;"] a[href*="neovpn"])
 snovidenija.ru##.panel-reklama
 seolik.ru##.panel.text-center
 tuzlist.ru#?#.panel:-abp-has(> .panel-body > #marketWidget)
@@ -17509,7 +17509,6 @@ novostroykin.ru##a[href*="adrai.novostroykin.ru/wow/go/"]
 l2on.net##a[href*="adv&"][href*="click&id"]
 cccp3d.ru##a[href*="advertisement"]
 factroom.ru##a[href*="advertising"]
-repack.me##a[href*="aeza."]
 root-nation.com,vpnmag.ru##a[href*="aff_c?offer_id"]
 vesti.irk.ru##a[href*="akva-motors.ru"]
 ucoz.ru##a[href*="amigo.mail"][target="_blank"]
@@ -23624,6 +23623,7 @@ ru###ads-top.ads
 ! ---
 ! 2ip.ru и 2ip.io
 2ip.io,2ip.ru##.ad-test-vpn
+2ip.ru##.change-ip
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru#?#.narrow-column > style ~ div > div:-abp-has(a[style^="color:"])
 2ip.io,2ip.ru##a[href*="://fineproxy.org"]

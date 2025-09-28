@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lyU1X/jl3JJAAsQeimMg9w
-! Version: 202509282011
+! Checksum: eCHAAQO4JTk5DMjQLUeRkA
+! Version: 202509282041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Sep 2025 20:11 UTC
+! Last modified: 28 Sep 2025 20:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13949,7 +13949,7 @@ glazey.info##.client
 literaguru.ru##.clinic-image
 gorodkiev.com.ua##.clr[style]
 timeweb.com##.cmn-banner-container
-allhen.online,doramatv.live,doramatv.one,doramatv.ru,findanime.ru,grouple.co,koro.life,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one##.co_ba
+ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,findanime.ru,grouple.co,koro.life,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one##.co_ba
 click-or-die.ru##.cod-ratings-widget
 024.by,ampercar.com,autogeek.com.ua,bolshoyulov.ru,femmie.ru,find-key.ru,fuzzmusic.ru,gadgets-help.ru,gubdaily.ru,hersonweek.net,itbusiness.com.ua,itsider.com.ua,kakbog.com,karavan.ua,kovi.ru,mmr.net.ua,nnews.com.ua,o-polze.com,pcminipro.ru,poravkrym.ru,villaved.ru,vsviti.com.ua##.code-block
 prozoro.net.ua##.code-block-34
@@ -23438,6 +23438,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportana
 ://mail.ru/$csp=connect-src 'self' *.imgsmail.ru *.mail.ru ok.ru vk.com data: blob:
 ://pikabu.ru/$csp=connect-src https://pikabu.ru/ajax/ https://pikabu.ru/ajax.php *.pikabu.ru/ data: https://pikabu.ru/.well-known/ wss://pikabu.ru/.well-known/
 ://pikabu.ru/$csp=script-src 'self' * 'unsafe-inline' data:
+@@||a.magsrv.com/ad-provider.js$script,domain=ahen.me
 @@||dmp.mpsuadv.ru/promer$xmlhttprequest,domain=trychatgpt.ru
 @@||imasdk.googleapis.com/$xmlhttprequest,domain=volley.ru
 @@||mpsuadv.ru/event/$xmlhttprequest,domain=trychatgpt.ru

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 4MjqA1qxZAjQQ37FemYMNA
+! Checksum: UkJJuR6KYzqof8fJmWTXNQ
 ! Title: Easylist Cookie List
-! Updated: 2025-09-29 01:10 UTC
+! Updated: 2025-09-29 02:10 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -23749,6 +23749,8 @@ anjunadeep.co##.privacy-notice-gdpr-container
 anjunadeep.co###body,html:style(overflow: auto !important; position: initial !important;)
 ! gpiaaf.gov.pt
 gpiaaf.gov.pt##+js(set-cookie, WarningsAndPolicyAccepted, true)
+! bpstat.bportugal.pt
+bpstat.bportugal.pt##+js(set-cookie, bdp_use_cookies, notagree)
 ! easylist_cookie_international_specific_hide.txt
 ! ---------- German ----------
 !
@@ -27640,6 +27642,7 @@ epayitalia.it##.cookies-text
 dominospizza.pl#@#.cookies-visible
 logon.slc.co.uk#@#.cookies-wrap
 myloview.*#@#.cookiesInfo
+bpstat.bportugal.pt#@#.cookies_bar
 hublot.com#@#.cookies_consent-show
 logo.pt#@#.cookies_container
 educhel.ru#@#.cookies_popup

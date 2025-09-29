@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tjeJYORdQgr8f/VdfF6Kqw
-! Version: 202509291311
+! Checksum: JwTZiX0+5jghVRObogee9A
+! Version: 202509291341
 ! Title: IndianList
-! Last modified: 29 Sep 2025 13:11 UTC
+! Last modified: 29 Sep 2025 13:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8683,6 +8683,7 @@ deshkikhabar.in#?#span:-abp-contains(Advertisement)
 dhamaka36.com#?#.mb-3:-abp-has(> .section-title > h4:-abp-contains(Advertisement))
 dhinasari.com#?#.tdm-descr:-abp-contains(Advertisement)
 nepaltara.com##div a[target="_blank"] img
+emungaru.com##div.HTML:has(.widget-content:first-child)
 gossiplankanews.com##div.HTML:has(> div ins.adsbygoogle)
 aajkaaldaily.com##div.col-lg-3:has(> ins.adsbygoogle)
 aajbikel.com##div.colombiaonesuccess div:has(> div > div > a>div > p)
@@ -8948,6 +8949,7 @@ utkalpratidin.com##div[id*="_O_"] div:has(> div > div > a> div h3 + p )
 saharasamachar.com##div[id*="_O_"] div:has(> div > div > a> p + h3 )
 uttarakhandpost.com##div[id*="_O_LHS_"] > div:nth-child(-n+10)
 bhaskarhindi.com##div[id*="_ad_"]
+emungaru.com##div[id*="iklan-atas"]
 indonepalnews.in##div[id*="indon-"]
 odiascraps.info##div[id="showAS_O_BEL_0"]
 newspoint24.com##div[id^="AS_O_"] > div:has(> div > div > span[name="adchoicehtml"])

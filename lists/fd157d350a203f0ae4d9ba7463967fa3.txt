@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nPhXjf0vCL5OOJqdIXweXg
-! Version: 202509291941
+! Checksum: yn4Hl5mLRHDC3Uihto23qg
+! Version: 202509292011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Sep 2025 19:41 UTC
+! Last modified: 29 Sep 2025 20:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -35,6 +35,7 @@ $third-party,popup,domain=2ip.ru
 ://pikabu.ru/*/*/*/*--$popup
 ://pikabu.ru/*/*/*/*..$popup
 ://pikabu.ru/*/*/*/*_$popup
+?partner=$popup,domain=lifehacker.ru
 |http://li.ru/go?$popup,domain=fishki.net
 ||catcut.net^$popup,domain=mobile-4at-obshenie.chatovod.ru|mobile-chat-obshenie.jimdo.com
 ||com/?id=*&t=direct^$popup
@@ -15604,6 +15605,8 @@ igry-bitva-zamkov.ru##.promo-top
 vbr.ru##.promo-trust
 blog.korabli.su##.promo-wrapper
 sea-man.org##.promo-yandex
+lifehacker.ru##.promo__container .promo__picture
+lifehacker.ru##.promo__container a[href*="erid="]
 cpainform.ru##.promo_block
 anekdot.ru##.promo_head
 now.ru##.promo_link

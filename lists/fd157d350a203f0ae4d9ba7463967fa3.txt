@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AeEEoYOOlGNq4RH8psL7hw
-! Version: 202509291341
+! Checksum: 4dP763KVvz7+8SH8M+pWVw
+! Version: 202509291412
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Sep 2025 13:41 UTC
+! Last modified: 29 Sep 2025 14:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -26386,6 +26386,7 @@ aqa.ru#@#div[id^="google_ads_iframe_"]
 oane.ws#@#div[id^="smi_teaser_"]
 pgpru.com,transinfo.by#@#img[width="468"][height="60"]
 gbsmp.ru#@#img[width="728"][height="90"]
+yandex.*#@#li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 !
 !#detect.bookmark
 !

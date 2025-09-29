@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E3T01PE2/yVdfYTIaCL2SQ
-! Version: 202509290811
+! Checksum: 4qxMpdi0TzBoleWnOsQ/4w
+! Version: 202509290841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Sep 2025 08:11 UTC
+! Last modified: 29 Sep 2025 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13321,6 +13321,7 @@ factroom.ru##.b-horizontal
 tut.by##.b-hota
 7days.ru##.b-hz2_type_section
 gdekluet.ru##.b-imp-notice
+vokrug.tv##.b-infinity
 redtram.com##.b-informers
 gdetraffic.com##.b-insertion
 siliconrus.com##.b-instaforex
@@ -16273,8 +16274,6 @@ klops.ru##.supercover-banner-header
 bilshe.com#?#.svejnov:-abp-has(> h2 > b:-abp-contains(/^Інші/))
 games-porno.net##.swfgame_banners
 ictv.ua#?#.swiper-slide:-abp-has(> a[href*="utm_campai"])
-vokrug.tv#?#.swiper-wrapper > .series-carousel__item:-abp-has(> a[href*="//ads.adfox.ru/"])
-vokrug.tv#?#.swiper-wrapper > .series-carousel__item:-abp-has(a[onclick*="adfox"])
 iguides.ru#?#.swiper-wrapper > .swiper-slide:-abp-has(> article [href*="?erid="])
 igromania.ru#?#.swiper-wrapper > .swiper-slide:-abp-has(> div > .knb-card--footer > div > span:-abp-contains(Партнерский материал))
 moniheal.com##.swiper-wrapper > a:not([href*="moniheal.com/"])
@@ -17234,7 +17233,6 @@ myshows.me##[onclick*=":hd.kinopoisk.ru"]
 yellowpages.uz##[onclick*="ClickOnAd"]
 yellowpages.uz##[onclick*="ClickOnBanner"]
 novostroev.ru##[onclick*="Click_slider_ad"]
-vokrug.tv##[onclick*="ads.adfox.ru"]
 anekdot.ru##[onclick*="brand"]
 sims-game.com##[onclick*="btsearch.me"]
 plateginfo.com##[onclick*="cashalot.su"]
@@ -17369,7 +17367,7 @@ pirate-party.ru,piratemedia.net##a[href*=".sim-networks.com/index.php?pid="]
 ctc-rnd.ru##a[href*=".space"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.org##a[href*=".vkplay.ru"]
 wintorrents.ru##a[href*=".wintorrents.ru"]
-1tv.ru,drive.ru,f1news.ru,film.ru,gamemag.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,tolknews.ru,trinixy.ru,vokrug.tv,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
+1tv.ru,drive.ru,f1news.ru,film.ru,gamemag.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,tolknews.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
 360tv.ru,5-tv.ru,7days.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bfm.ru,bst.bratsk.ru,coop-land.ru,energyfm.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,habr.com,inosmi.ru,ixbt.com,ixbt.shop,kommersant.ru,kulturologia.ru,ladys.media,life.ru,mash.ru,media.az,metronews.ru,mgazeta.com,mk.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,moika78.ru,mydecor.ru,mywebpc.ru,myweekend.ru,naked-science.ru,nevasport.ru,new-magazine.ru,news.ru,nsn.fm,ohotniki.ru,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pnz.ru,radio1.ru,regnum.news,regnum.ru,ridlife.ru,rifey.ru,rodgor-vlg.ru,rusnext.ru,russian.rt.com,rutube.ru,sm.news,smotrim.ru,soccer.ru,sovsport.ru,sport-express.net,sport-express.ru,sportsdaily.ru,stiletto.blog,super.ru,syzran-small.ru,teleprogramma.org,thegirl.ru,timeweb.com,tochka.by,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,ura.news,utyug.info,vz.ru,www1.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
 beatmake.ru##a[href*="//go.acstat.com/"]
 porno-island.site##a[href*="//goo.su/"]
@@ -23459,7 +23457,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?a1BIp=$xmlhttprequest
+||pikabu.ru/ajax/*?lOG0l=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

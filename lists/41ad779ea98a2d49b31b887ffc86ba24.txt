@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iRa/RnD62kNyyluJGrGBRA
-! Version: 202509290142
+! Checksum: Ut14gsWLTO/7TeAhVqv7XA
+! Version: 202509290242
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-09-29 01:42 UTC
+! Last modified: 2025-09-29 02:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38217,7 +38217,7 @@ dvdmax.pl,me-qr.com,pasch-net.de,spirou.com,superlegalbrinquedos.com.br,universa
 !! #gdpr-consent
 facebookblueprint.com,kalenderwoche.at,kalenderwoche.de,lemon-school.sk,mmtop200.com,numerodesemaine.fr,podconsultsbutik.dk,skillshop.exceedlms.com,thornburg.com,ugenr.dk,ukenr.no,veckonr.se###gdpr-consent
 !! #didomi-host
-festo.com,frandroid.com,giphy.com,idealista.com,idealista.pt,ivoox.com,lalibre.be,marianne.net,portail.lotoquebec.com,researchgate.net###didomi-host
+festo.com,frandroid.com,giphy.com,hibid.com,idealista.com,idealista.pt,ivoox.com,lalibre.be,marianne.net,portail.lotoquebec.com,researchgate.net###didomi-host
 !! #themaCookieModal
 claro.com.co,claro.com.ec,claro.com.hn,claro.com.ni,claro.com.sv,claro.cr###themaCookieModal
 clarochile.cl##.cookieModal
@@ -39856,7 +39856,7 @@ case-score.com##+js(set-cookie, cookieConfirm, true)
 mydashboard.getlivesmart.com##+js(set-cookie, consentAsked, 1)
 case-score.com##+js(set-cookie, trackingConfirm, false)
 freeletics.com,cote.co.uk,finimize.com,unsplash.com,tullingecupen.se##+js(set-cookie, cookie_consent, false)
-nettyworth.io,k-einbruch.de,blxxded.com##+js(set-cookie, cookie_consent, true)
+m.supersport.hr,nettyworth.io,k-einbruch.de,blxxded.com##+js(set-cookie, cookie_consent, true)
 k-einbruch.de##+js(set-cookie, gtm-disable-GTM-NLVRXX8, true)
 catawiki.com##+js(set-cookie, has_pending_cookie_consent_sync, true)
 catawiki.com##+js(set-cookie, enable_analytical_cookies, false)
@@ -41675,6 +41675,8 @@ anjunadeep.co##.privacy-notice-gdpr-container
 anjunadeep.co###body,html:style(overflow: auto !important; position: initial !important;)
 ! gpiaaf.gov.pt
 gpiaaf.gov.pt##+js(set-cookie, WarningsAndPolicyAccepted, true)
+! bpstat.bportugal.pt
+bpstat.bportugal.pt##+js(set-cookie, bdp_use_cookies, notagree)
 ! easylist_cookie_international_specific_hide.txt
 ! ---------- German ----------
 !
@@ -45566,6 +45568,7 @@ epayitalia.it##.cookies-text
 dominospizza.pl#@#.cookies-visible
 logon.slc.co.uk#@#.cookies-wrap
 myloview.*#@#.cookiesInfo
+bpstat.bportugal.pt#@#.cookies_bar
 hublot.com#@#.cookies_consent-show
 logo.pt#@#.cookies_container
 educhel.ru#@#.cookies_popup
@@ -49877,6 +49880,7 @@ tapinto.net##[id^="SubscriptionBox-react-component-"]
 fxstreet.com##[id^="subscribetonewsletterv2_"]
 middleeasteye.net##[style^="display: flex; align-items: center; justify-content: center;"]
 takimag.com##[style^="width: 100vw; height: 100vh; background-image: linear-gradient"]
+foxsports.com.au##[title="Newsletter"]
 factcheck.org##a[href*="/subscribe/"]
 quantamagazine.org##a[href="#newsletter"]
 time.com##a[href^="https://cloud.newsletters.time.com/signup?"]

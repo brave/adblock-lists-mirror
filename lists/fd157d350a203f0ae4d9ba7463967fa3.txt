@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yn4Hl5mLRHDC3Uihto23qg
-! Version: 202509292011
+! Checksum: wwesHT8r1N5dUmnycbD00w
+! Version: 202509292031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Sep 2025 20:11 UTC
+! Last modified: 29 Sep 2025 20:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13179,6 +13179,7 @@ penzadoctor.ru##.article-banner
 techdigest.ru##.article-banner-side
 www.sport.ru##.article-bottom-block > .hdr2
 lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(.lh-article-card-meta__partner)
+lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(.lh-article-card-meta__promo)
 lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(.slider__title:-abp-contains(Полезные товары))
 lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(a[href*="/topics/shopping/"])
 lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(a[href*="utm_"])
@@ -16371,6 +16372,7 @@ vedomosti.ru##.the-header__top a[href*="?erid="]
 ria.ru#?#.the-in-carousel__item:-abp-has(> [data-has-banner])
 vedomosti.ru##.the-loader
 lifehacker.ru#?#.the-tv__observer:-abp-has(.lh-article-card-meta__partner)
+lifehacker.ru#?#.the-tv__observer:-abp-has(.lh-article-card-meta__promo)
 lifehacker.ru#?#.the-tv__observer:-abp-has(a[href*="/topics/shopping/"])
 shraibikus.com,topdaynews.ru##.theiaStickySidebar
 ukrs.com.ua##.theiaStickySidebar .widget_text

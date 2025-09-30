@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YF07bT6qPE8S7gwz3Faj0w
-! Version: 202509301942
+! Checksum: 1erX2GMQ8lj/We29ggIx3g
+! Version: 202509302042
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-09-30 19:42 UTC
+! Last modified: 2025-09-30 20:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -50771,6 +50771,10 @@ gwr.com##body,html:style(overflow: auto !important; position: initial !important
 timesnownews.com##+js(set-local-storage-item, useExitIntent, true)
 ! monarchmoney.com
 monarchmoney.com##+js(set-cookie, exit-intent, true)
+! login popup on a few clicks on download
+printables.com##.svelte-smd8em.show
+printables.com##.show.modal-backdrop
+printables.com##+js(rc, disable-scroll, body, stay) 
 ! freesmsgateway.com
 freesmsgateway.com##+js(acs, $, modal_newsletter)
 ! hollywoodunlocked.com

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gUB72e8wsTTzyHoZDYWynA
-! Version: 202509302111
+! Checksum: EM6dS7oKMda6OWNmU0mmOw
+! Version: 202509302141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Sep 2025 21:11 UTC
+! Last modified: 30 Sep 2025 21:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12888,13 +12888,14 @@ meduza.io##.DFPBanner-module-root
 meduza.io##.DFPBanner-root
 comedy-radio.ru,radioromantika.ru,relax-fm.ru,veseloeradio.ru##.D_Top
 euro2016.cc##.DmWidget
+forbes.ru##.Er4We
 nulled.cc##.EstBS-bnContent
 fakty.ua##.FKY_VIDEO
 myshows.me#?#.Grid-in .GridItem:-abp-has(> div [class*="advertiser"])
 razvitierebenka.com#?#.HTML:-abp-has(> .widget-content > .adsbygoogle)
 myshows.me#?#.Home-section:-abp-has(> div .title [class*="romo"])
 myshows.me#?#.HomeSection--separator:-abp-has(> .Container > [class*="Promo"])
-forbes.ru##.IQXal
+forbes.ru##.Ix-yg
 russiandc.com##.L
 meduza.io##.Layout-bannerTop
 myshows.me##.LayoutWrapper__promo
@@ -16281,6 +16282,7 @@ klops.ru##.supercover-banner-header
 bilshe.com#?#.svejnov:-abp-has(> h2 > b:-abp-contains(/^Інші/))
 games-porno.net##.swfgame_banners
 ictv.ua#?#.swiper-slide:-abp-has(> a[href*="utm_campai"])
+vokrug.tv#?#.swiper-wrapper > .series-carousel__item:-abp-has(a[onclick*="adfox"])
 iguides.ru#?#.swiper-wrapper > .swiper-slide:-abp-has(> article [href*="?erid="])
 igromania.ru#?#.swiper-wrapper > .swiper-slide:-abp-has(> div > .knb-card--footer > div > span:-abp-contains(Партнерский материал))
 moniheal.com##.swiper-wrapper > a:not([href*="moniheal.com/"])
@@ -17083,7 +17085,6 @@ smi2.ru##[data-id^="exAd_"]
 app2top.ru##[data-information]
 forbes.ru##[data-interval] > li div[style="min-height: 64px;"]
 om1.ru##[data-io-article-url] .content-block
-forbes.ru#?#[data-io-article-url] > footer > div[class]:-abp-has(> .undefined)
 ozon.ru##[data-lcp-name*="anner-"]
 myukraina.com.ua##[data-link*="goo.gl"]
 myfin.by##[data-link*="winline.by"]
@@ -18968,6 +18969,7 @@ hi-chef.ru##div[data-rb-slot]
 internet-technologies.ru##div[data-region][data-pending="true"]
 youla.ru##div[data-test-component="ProductOrAdCard"] > span[data-debug-info]
 olx.kz,olx.ua,olx.uz##div[data-testid="qa-advert-slot"]
+forbes.ru##div[data-title-deleted="Реклама на Forbes"]
 malagarusa.es##div[data-uk-slideshow]
 ozon.ru##div[data-widget="banner"]
 ozon.ru##div[data-widget="videoProductBlock"]

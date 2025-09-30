@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Yz17QcrC8bjZmlQ4RxeswQ
-! Version: 202509300811
+! Checksum: Eh1jW/k77GQZbgBwYG3RNA
+! Version: 202509300832
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Sep 2025 08:11 UTC
+! Last modified: 30 Sep 2025 08:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15558,6 +15558,8 @@ inform.zp.ua##.posts-list-banner
 gotennis.ru##.posts-relative
 the-village-kz.com,the-village.me,the-village.ru,village.com.ua##.posts-sidebar
 svoimirykami.club##.posts__adv
+lifehacker.ru#?#.posts__list > .posts__item:-abp-has(.lh-article-card-meta__partner)
+lifehacker.ru#?#.posts__list > .posts__item:-abp-has(.lh-article-card-meta__promo)
 infotechnica.ru##.ppoibrorzf
 professionali.ru##.pr-banner-wrap
 newkaliningrad.ru##.pr-side-240
@@ -26392,7 +26394,6 @@ aqa.ru#@#div[id^="google_ads_iframe_"]
 oane.ws#@#div[id^="smi_teaser_"]
 pgpru.com,transinfo.by#@#img[width="468"][height="60"]
 gbsmp.ru#@#img[width="728"][height="90"]
-yandex.*#@#li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 !
 !#detect.bookmark
 !

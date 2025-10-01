@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XA1BQ8RX+nFj8cFZiRpMjQ
-! Version: 202510011542
+! Checksum: X4E3GUoAEnW+APk/hUIsLw
+! Version: 202510011642
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-10-01 15:42 UTC
+! Last modified: 2025-10-01 16:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3664,6 +3664,7 @@ sofmap.com##.side_bnr
 dime.jp##.sidebarRanking
 young-machine.com##.widget_block [href^="/game/"]
 filmora.wondershare.jp##.ws-ad-new
+buttersc.one,gp.tsukimi.club,invillage-outvillage.com,misskey.gamelore.fun,misskey.neos.love,misskey.systems,mivatter.com,mk.yopo.work,msk.kitazawa.me,nijimiss.moe,novelskey.tarbin.net,oekakiskey.com,side.misskey.productions,sushi.ski,voskey.icalo.net##.xF6dY
 anglers.jp##div[data-react-class="commons/InterstitialBanner"]
 qiita.com##div[data-testid="popup-login"]
 gendai.media##div[data-testid="sidebar-ad-slider"]
@@ -4173,7 +4174,8 @@ flightradar24.com##.right-sidebar:style(right: 0 !important)
 ! pbs.org
 pbs.org##.popup-type__large_funding
 pbs.org##body,html:style(overflow: auto !important; position: initial !important;)
-!--------------------------General blocking rules-----------------------------!
+! Misskey
+buttersc.one,gp.tsukimi.club,invillage-outvillage.com,misskey.gamelore.fun,misskey.neos.love,misskey.systems,mivatter.com,mk.yopo.work,msk.kitazawa.me,nijimiss.moe,novelskey.tarbin.net,oekakiskey.com,side.misskey.productions,sushi.ski,voskey.icalo.net##+js(json-prune, ads.[].imageUrl)!--------------------------General blocking rules-----------------------------!
 ! fanboy_social_general_block.txt
 -facebook-likeButton-
 -facebook-share.

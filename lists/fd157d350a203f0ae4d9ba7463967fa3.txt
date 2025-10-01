@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FhJ9uG4fZfji8MTAyx2TBw
-! Version: 202510010931
+! Checksum: arVT5RJp2Sib3o+xYSq0Hw
+! Version: 202510011011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Oct 2025 09:31 UTC
+! Last modified: 01 Oct 2025 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18370,6 +18370,7 @@ livetvstream.pro,me##body[bgcolor] > #adbtm
 livetvstream.pro,me##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
 livetvstream.pro,me##body[bgcolor] > div[id^="iframe-container"]
 hi-fi.ru##body[data-pageid] #ipsLayout_sidebar
+novayagazeta.eu#?#button:-abp-has(> [src^="/vpnovaya_"])
 shuba.life#?#button[target="_blank"]:-abp-has(> .i-icon-basket)
 flamp.ru##cat-banner
 exnews.org##center + noindex

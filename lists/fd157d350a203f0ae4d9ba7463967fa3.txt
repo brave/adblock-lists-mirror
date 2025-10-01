@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KOj1BRkGO8Y5AW+5vS04gg
-! Version: 202510012111
+! Checksum: xMBB1pRNREIu//2qUXPxow
+! Version: 202510012141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Oct 2025 21:11 UTC
+! Last modified: 01 Oct 2025 21:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15844,7 +15844,7 @@ kommersant.ru##.rocket_man
 in-english.club##.roll_autoplay_ads
 novgorod.ru##.root > .bigb
 matematikalegko.ru##.rotac_reklama
-dtf.ru,officepackage.info,vc.ru##.rotator
+officepackage.info,vc.ru##.rotator
 milknet.ru##.rotator-wrap
 bestradio.fm##.row .panel-danger
 5-tv.ru##.row > .col3.positionRelative
@@ -16230,6 +16230,7 @@ info.sibnet.ru##.stakan-border:not([style])
 tod-news.com##.stamp_main ~ .item
 newsroom24.ru##.standart_banner > [src*="/advertising/flash"] + *
 nn.ru##.starnews-block
+myshows.me##.startru
 riatomsk.ru##.stat-zen
 ykt.ru##.static-adv
 kubnews.ru,tripoli.land##.static-banner
@@ -16277,7 +16278,7 @@ newinform.com##.subscribe
 rtraveler.ru##.subscribe-wrap
 autopilot.ru##.subscribe_announcement
 playmaker24.ru##.subscrite-widget:first-child
-dtf.ru,vc.ru##.supbar--top
+vc.ru##.supbar--top
 klops.ru##.supercover-banner-header
 bilshe.com#?#.svejnov:-abp-has(> h2 > b:-abp-contains(/^Інші/))
 games-porno.net##.swfgame_banners
@@ -19289,7 +19290,7 @@ dltv.org##div[style*="/uploads/banners/"]
 doefiratv.info##div[style*="339px;"]
 x-console.com##div[style*="710px;"][style*="70px;"]
 forums.ngemu.com##div[style*="920px;"][style*="250px;"]
-dtf.ru,vc.ru##div[style*="banner-height"]
+vc.ru##div[style*="banner-height"]
 bikepost.ru##div[style*="block"][style*="center"][style*="width:"][style*="height:"]
 dumskaya.net##div[style*="display:inline-bl1ock"]
 kinogo.ru.net##div[style*="fyi5fimf."]
@@ -23460,10 +23461,8 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportana
 @@||s.zhctrack.net/z|$xmlhttprequest
 @@||s.zmctrack.net/z|$xmlhttprequest
 @@||s.znctrack.net/z|$xmlhttprequest
-@@||s3.wi-fi.ru/mtt/configs/sites/dtf.js|$script,domain=dtf.ru
-@@||ssp.rambler.ru/capirs_async.js|$script,domain=dtf.ru|www.championat.com|www.championat.ru
+@@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com|www.championat.ru
 @@||statika.mpsuadv.ru/scripts/*.js|$script,domain=trychatgpt.ru
-@@||yandex.ru/ads/system/context.js|$script,domain=dtf.ru
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||captcha-api.yandex.ru^$domain=drive2.ru
 ||imgfrost.net^$third-party
@@ -23526,7 +23525,9 @@ mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
 freesoft.ru##.modal-backdrop
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
+dtf.ru##.rotator * *
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
+dtf.ru##.supbar--top * *
 fonmod.com,ritsatv.ru,websdr.su##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||fearmp4.ru^$generichide
@@ -23557,6 +23558,7 @@ rg.ru##div[id][class*="__"]:empty
 shedevrum.ai##div[id^="header_block_"]
 sdamgia.ru##div[id^="yandex_vario"]
 liveinternet.ru##div[style*="!important; "]
+dtf.ru##div[style*="banner-height"] * *
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
@@ -26524,6 +26526,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||ru-skript.ru/templates/ruhacker/images/*logo.png
 @@||s-cdn.sportbox.ru^*/adfox.$script,domain=matchtv.ru|news.sportbox.ru
 @@||s.imgur.com/desktop-assets/js/floaty_rotator.*.bundle.js|$script,domain=imgur.com
+@@||s3.wi-fi.ru/mtt/configs/sites/dtf.js|$xmlhttprequest,domain=dtf.ru
 @@||securepubads.g.doubleclick.net/gampad/ads$xmlhttprequest,domain=www.aport.ru
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js|$domain=www.aport.ru
 @@||seo-fast.ru/js/adv.js$script,domain=seo-fast.ru
@@ -26531,6 +26534,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||shararam-card.tk/showads.js|$script,domain=shararam-card.tk
 @@||sld.kiev.ua/assets/*/advert.js
 @@||smaxim.*/player/stats.php?event=Init,|$image,~third-party
+@@||ssp.rambler.ru/capirs_async.js|$xmlhttprequest,domain=dtf.ru
 @@||st.s5o.ru/source/_desktop/$xmlhttprequest,domain=sports.ru
 @@||stalker-mods.*/images/icons/*_|$image,~third-party,domain=stalker-mods.clan.su|stalker-mods.su
 @@||static-mon.yandex.net/static/main.js?pid=$xmlhttprequest,domain=reshu.by|reshuent.kz|sdamgia.ru|sports.ru

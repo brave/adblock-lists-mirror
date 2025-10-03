@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.2.0
+! Version: 4.2.2.1
 
 ! General
 
@@ -722,6 +722,9 @@ rotowire.com##div.paywall-full,div.article-preview-fader
 serenitymarkets.com##+js(ra, class, div.blur_content, stay)
 ||shrm.org/*/js/paywall*.js$script,~third-party
 skepticalinquirer.org##+js(rc, google-bot, div.google-bot, stay)
+solarserver.de##+js(ra, style, div.paywall)
+solarserver.de##+js(ra, class, div.paywall-blurred)
+solarserver.de##div.paywall-box
 /\.solicitorsjournal\.com\/_next\/static\/chunks\/\d.+\.js/$script,domain=solicitorsjournal.com,~third-party
 ||southernstar.ie/js/tollbridge.js$script,~third-party
 speakup.it##div.paywall-container
@@ -733,6 +736,8 @@ standcolumbia.org##+js(ra, class, div.stu-lock-content, stay)
 standcolumbia.org##div.stu-blur-overlay
 stateaffairs.com##div.c-memberships-message
 stateaffairs.com##+js(rc, access-restricted, body.access-restricted)
+stockunlock.com##div[class*="-root"][class*="css-"]:style(filter: none !important; pointer-events: auto !important)
+stockunlock.com##div.css-coxdc8
 strangematters.coop##+js(cookie-remover, pmpro_lpv_count)
 subscriptioninsider.com##+js(rc, dialog-prevent-scroll, body.dialog-prevent-scroll, stay)
 subscriptioninsider.com##div.dialog-widget
@@ -746,22 +751,18 @@ thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container)
 theindianalawyer.com##+js(rc, restricted-non-subscriber, article.restricted-non-subscriber)
 theindianalawyer.com##+js(ra, style, article-content>p)
 theindianalawyer.com##div#vue-growler,div#js-modal
-||theschooloflife.com/app/plugins/*/woocommerce.min.js$script,~third-party
-aap.thestreet.com##+js(rc, is-paywalled, body.is-paywalled)
-realmoney.thestreet.com##+js(cookie-remover, /^PWT/)
-solarserver.de##+js(ra, style, div.paywall)
-solarserver.de##+js(ra, class, div.paywall-blurred)
-solarserver.de##div.paywall-box
-stockunlock.com##div[class*="-root"][class*="css-"]:style(filter: none !important; pointer-events: auto !important)
-stockunlock.com##div.css-coxdc8
 thejc.com##+js(ra, class, div.paywall, stay)
 thejc.com##div.poool-widget
 ||thenationalpulse.com/wp-content/*/assets/js/national-pulse.js$script,~third-party
+||theschooloflife.com/app/plugins/*/woocommerce.min.js$script,~third-party
+aap.thestreet.com##+js(rc, is-paywalled, body.is-paywalled)
+realmoney.thestreet.com##+js(cookie-remover, /^PWT/)
 ||thetablet.org$inline-script
 thetablet.org##+js(rc, gated-content, body.gated-content)
 tidningenridsport.se##+js(ra, class|style, div.mctos)
 tidningenridsport.se##+js(rc, cli-barmodal-open, body.cli-barmodal-open)
 tidningenridsport.se##div.locked
+timeslive.co.za##+js(set, window.Fusion.globalContent.content_restrictions, {})
 trailsoffroad.com##.paywall
 ||zeitzeichen.net/sites/default/files/js/js_*.js$script,~third-party
 

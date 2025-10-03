@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.1.8
+! Version: 4.2.2.0
 
 ! General
 
@@ -192,6 +192,7 @@ foxnews.com##div.article-gating-wrapper
 ||ftm.nl/js/routing$script,~third-party
 ftm.eu,ftm.nl##+js(rc, foldable, div.foldable)
 ftm.eu,ftm.nl##div.banner-pp
+gauchazh.clicrbs.com.br##+js(ra, class, div.m-paid-content>div.hidden, stay)
 groene.nl##+js(cookie-remover, rlist)
 harpers.org##+js(cookie-remover, hr_session)
 ||harpers.org/wp-content/themes/timber/static/js/modal*.js

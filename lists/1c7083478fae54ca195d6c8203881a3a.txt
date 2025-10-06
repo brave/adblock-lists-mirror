@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.2.3
+! Version: 4.2.2.4
 
 ! General
 
@@ -422,10 +422,6 @@ modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
 dailymail.co.uk,mailonsunday.co.uk,thisismoney.co.uk##+js(rc, is-paywalled-article, body.is-paywalled-article)
 ||dailymail.co.uk/static/mol-adverts/$script
 
-! Gannett Group (anti-adblocker)
-azcentral.com,cincinnati.com,commercialappeal.com,courier-journal.com,democratandchronicle.com,desmoinesregister.com,detroitnews.com,dispatch.com,freep.com,indystar.com,jacksonville.com,jsonline.com,knoxnews.com,news-press.com,northjersey.com,oklahoman.com,palmbeachpost.com,statesman.com,tennessean.com##div#mod-target-div
-azcentral.com,cincinnati.com,commercialappeal.com,courier-journal.com,democratandchronicle.com,desmoinesregister.com,detroitnews.com,dispatch.com,freep.com,indystar.com,jacksonville.com,jsonline.com,knoxnews.com,news-press.com,northjersey.com,oklahoman.com,palmbeachpost.com,statesman.com,tennessean.com##body:style(overflow: visible!important)
-
 ! GEDI.it sites
 ||huffingtonpost.it/*/news/$inline-script
 ||lastampa.it/*/news/$inline-script
@@ -474,6 +470,10 @@ gazzettadimodena.it,gazzettadireggio.it,iltirreno.it,lanuovaferrara.it,lanuovasa
 
 ! Hearst Communications (magazines)
 .com/_assets/jam/$script,~third-party,domain=bicycling.com|cosmopolitan.com|countryliving.com|delish.com|elle.com|elledecor.com|esquire.com|goodhousekeeping.com|harpersbazaar.com|housebeautiful.com|menshealth.com|oprahdaily.com|popularmechanics.com|prevention.com|roadandtrack.com|runnersworld.com|townandcountrymag.com|womenshealthmag.com
+
+! Hearst Communications (newspapers)
+ctpost.com,expressnews.com,houstonchronicle.com,nhregister.com,sfchronicle.com,statesman.com,timesunion.com##div#mod-target-div
+ctpost.com,expressnews.com,houstonchronicle.com,nhregister.com,sfchronicle.com,statesman.com,timesunion.com##body:style(overflow: visible!important)
 
 ! Il Messaggero (+ regional)
 ||cedscdn.it/*/PaywallMeter.js$script,domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it

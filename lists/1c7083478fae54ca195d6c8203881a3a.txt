@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.2.2
+! Version: 4.2.2.3
 
 ! General
 
@@ -421,6 +421,10 @@ modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
 ! Daily Mail Group UK
 dailymail.co.uk,mailonsunday.co.uk,thisismoney.co.uk##+js(rc, is-paywalled-article, body.is-paywalled-article)
 ||dailymail.co.uk/static/mol-adverts/$script
+
+! Gannett Group (anti-adblocker)
+azcentral.com,cincinnati.com,commercialappeal.com,courier-journal.com,democratandchronicle.com,desmoinesregister.com,detroitnews.com,dispatch.com,freep.com,indystar.com,jacksonville.com,jsonline.com,knoxnews.com,news-press.com,northjersey.com,oklahoman.com,palmbeachpost.com,statesman.com,tennessean.com##div#mod-target-div
+azcentral.com,cincinnati.com,commercialappeal.com,courier-journal.com,democratandchronicle.com,desmoinesregister.com,detroitnews.com,dispatch.com,freep.com,indystar.com,jacksonville.com,jsonline.com,knoxnews.com,news-press.com,northjersey.com,oklahoman.com,palmbeachpost.com,statesman.com,tennessean.com##body:style(overflow: visible!important)
 
 ! GEDI.it sites
 ||huffingtonpost.it/*/news/$inline-script

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Um5Oe8Xs+gNSGBfx6rzwHw
-! Version: 202510071331
+! Checksum: syN2kj/R+U+RDdeu8Mf3UQ
+! Version: 202510071412
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Oct 2025 13:31 UTC
+! Last modified: 07 Oct 2025 14:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -705,7 +705,7 @@ lenov.ru##.add_vkgr
 gamer-info.com##.adopt-center
 delfi.ua##.after_body
 testserver.pro#?#.after_run > h2:-abp-contains(поделиться)
-animego.lol##.alert-primary
+animego.cv##.alert-primary
 topwar.ru#?#.alert_in:-abp-has(> div > p > strong > a[href^="https://t.me/"])
 inopressa.ru##.alignright .alignleft > div[style^="height: 120px"]
 life.ru##.amp-footer--wrapper > .amp-left-block ~ li
@@ -1018,7 +1018,7 @@ kleo.ru##.col-2 > #tabs_wrapper
 allboxing.ru#?#.col-3 > .block_title:-abp-contains(Твиты от YuriTarantin)
 rusdtp.ru##.col-left > .pope
 ru-an.info#?#.col-right tbody > tr:-abp-has(#sgtabs)
-anidubpro.ru,anilibriadub.ru,animesvosts.ru,anistarfan.ru,softbox.life,studiobandoz.ru,yummybest.ru#?#.cols__sidebar > .sb:-abp-has(> .soc-channels)
+anidubpro.ru,anilibriadub.ru,animego.cv,animesvosts.ru,anistarfan.ru,softbox.life,studiobandoz.ru,yummybest.ru#?#.cols__sidebar > .sb:-abp-has(> .soc-channels)
 overclockers.ru#?#.column > .ui:-abp-has(> [class]:not(.pip-soci) > #vkRoot)
 overclockers.ru#?#.column > .ui:-abp-has(> [class]:not(.pip-soci) > .faceLink)
 vsplanet.net#?#.column.c-left > div:-abp-has(> script)
@@ -6881,6 +6881,7 @@ nsn.fm#?#section:-abp-has(> div > div > form)
 rutube.ru##section[aria-label="Cкачать приложения"]
 rutube.ru##section[aria-label="RUTUBE x PREMIER"]
 allsks.ru##section[class*="a-cookies"]
+vk.com,vk.ru##section[class*="vkitRecommendationBlock_"]
 kaspersky.ru##section[data-at-selector="cookie-banner"]
 habr.com##section[id^="promo_block_"]
 goha.ru##span[id^="scrollto"]

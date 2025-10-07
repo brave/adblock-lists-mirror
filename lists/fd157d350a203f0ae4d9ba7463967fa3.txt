@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YjRc6vNGP+ku+pOQVEmE7A
-! Version: 202510071011
+! Checksum: k6JTmOfjWzCd6ul7rOn+JQ
+! Version: 202510071031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Oct 2025 10:11 UTC
+! Last modified: 07 Oct 2025 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7502,6 +7502,7 @@ _tizers.
 ||lytanon.pro^$third-party
 ||lyx.guru^$third-party
 ||lzbhby4aopbepr.ru^$third-party
+||m-31.ru^$third-party
 ||m-growninppcode.com^$third-party
 ||m-hub.info^$third-party
 ||m-setup.net^$third-party
@@ -17175,7 +17176,7 @@ forum.ru-board.com##[href^="postings.cgi?action=edit&forum=5&topic=51666"]:not([
 virpl.ru##[id$="-banner"]
 cools.biz,cools.dj,get-tune.cc,intermusic.name,iplayer.info,ipleer.fm,k1news.ru,kolesa.kz,market4game.ru,mp3iq.com,vmuzice.me,yellowpages.uz##[id*="Banner"]
 espreso.tv##[id*="ScriptRoot"]:not(.news-block-magick)
-football24.ua##[id*="VideoAdvWrapper"]
+football24.ua,zaxid.net##[id*="VideoAdvWrapper"]
 liveinternet.ru,livejournal.com##[id*="_R-A-"]
 kino-teatr.ru##[id*="_dobro"]
 makler.md##[id*="_wideBann"]
@@ -18568,9 +18569,9 @@ pravda.if.ua##div[class*="content-wrapper"] > [class*="share-container"] ~ [clas
 joinfo.ua##div[class*="content_ads"]
 livelib.ru##div[class*="context-ads-"]
 highload.tech,mc.today##div[class*="course-widget"]
+ren.tv##div[class*="customButtonsWrapper_"] > div
 fireman.club##div[class*="desktop_direct"]
 www.zoneofgames.ru##div[class*="dver"]
-ren.tv##div[class*="dzenFoxButtonsContainer"] > div[class^="root"]
 dltv.org##div[class*="erid"]
 superjob.ru##div[class*="f-test-vacancy-ad-context-"]
 prokuzbass.ru#?#div[class*="flex-grow"]:-abp-has(> .sticky > .adv)
@@ -18600,7 +18601,6 @@ sport-express.net,sport-express.ru##div[class*="right_col_banner"]
 svetlica-mama-blogger.ru##div[class*="sgpb-popup-"]
 hochu.tv##div[class*="sidebar"]
 1track.ru##div[class*="smartys"]
-ren.tv##div[class*="socialButtonsWrapper"] > div
 nur.kz##div[class*="sponsorship"]
 apest.ru##div[class*="sredstvo_container_group"]
 6sotok-dom.com,ant-top.ru,subsidii.net##div[class*="teaser"]

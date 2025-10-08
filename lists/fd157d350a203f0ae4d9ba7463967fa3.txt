@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MiaBUOfh2OTxuCkv3VNQpA
-! Version: 202510081641
+! Checksum: ww3qaL+D1yLL2YOQxy0INA
+! Version: 202510081711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Oct 2025 16:41 UTC
+! Last modified: 08 Oct 2025 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16382,6 +16382,7 @@ vedomosti.ru##.the-loader
 lifehacker.ru#?#.the-tv__observer:-abp-has(.lh-article-card-meta__partner)
 lifehacker.ru#?#.the-tv__observer:-abp-has(.lh-article-card-meta__promo)
 lifehacker.ru#?#.the-tv__observer:-abp-has(a[href*="/topics/shopping/"])
+lifehacker.ru#?#.the-tv__observer:-abp-has(a[href*="utm_"])
 shraibikus.com,topdaynews.ru##.theiaStickySidebar
 ukrs.com.ua##.theiaStickySidebar .widget_text
 1news.com.ua#?#.theiaStickySidebar > .text-html:-abp-has(> div > iframe[src="about:blank"])
@@ -18676,6 +18677,7 @@ auto.ru##div[class^="RecommendationsItem__ad-"]
 kanobu.ru#?#div[class^="Sidebar_sidebar_list"] > div[class]:-abp-has(> div > div > span:-abp-contains(Партнерский материал))
 igromania.ru,kanobu.ru##div[class^="TopPageBanner_wrap_"]
 yarnovosti.com##div[class^="_5"]
+t-j.ru##div[class^="_banner_"]
 domashnie-zagotovki.ru##div[class^="a7-btns"]
 igdz.ru##div[class^="ab-"][class$="-text"]
 u24.ua##div[class^="ab_premium_"]

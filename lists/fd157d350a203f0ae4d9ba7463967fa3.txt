@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KhVVeEr60wHNMQXb1yeN+w
-! Version: 202510081311
+! Checksum: A8dkgqywEDTrlOgEM0oIVQ
+! Version: 202510081341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Oct 2025 13:11 UTC
+! Last modified: 08 Oct 2025 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1567,7 +1567,7 @@ me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][
 ##div[class*="relap"][class*="-rec-item"]
 ##div[class*="spklw"][data-type="ad"]
 ##div[class*="td-a-rec-id-"]
-##div[class^="adfinity_block_"]
+##div[class^="adfinity_block"]
 ##div[class^="bidvol-widget-"]
 ##div[class^="block_fortress"]
 ##div[class^="cnt32_"][id^="cnt_rb_"]
@@ -20743,7 +20743,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||api-maps.yandex.ru^$script,domain=radio7.ru|retrofm.ru
 ||api.1plus1.video/static/js/api.gpt.js
 ||api.digitalaccess.ru/logger^
-||api.rstprgapipt.com/ad-rotator/
+||api.rstprgapipt.*/ad-rotator/
 ||api.yapfiles.ru/vast/
 ||apitelesputnik.ru/storage/images/ads/
 ||aplik.ru/cdn-cgi/$xmlhttprequest

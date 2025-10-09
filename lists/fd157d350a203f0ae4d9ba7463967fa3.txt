@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: L1iaVdGJpfo/23zdbB2LAQ
-! Version: 202510091541
+! Checksum: L28D7B5ZYSceYjQuuE4roQ
+! Version: 202510091611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Oct 2025 15:41 UTC
+! Last modified: 09 Oct 2025 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3010,6 +3010,7 @@ _tizers.
 ||look-sport.*/banner/$third-party
 ||looksmile.ru^$third-party
 ||lopuer.biz^
+||lottielab.com^$third-party
 ||loveadvert.ru^
 ||lovecity3d.ml^$third-party
 ||lovikupon.ru^$third-party
@@ -12109,6 +12110,8 @@ dokfilm.maminforum.com###html-header > #obj
 goodgame.ru###html5player > div[style*="absolute"]
 root-nation.com###id-custom_banner
 rutr.life,rutracker.lib,rutracker.net,rutracker.org###idx-sidebar2 > div:not([id]):not([class])
+nnm-club.me,nnmclub.ro,nnmclub.to###iframe_overlay
+nnm-club.me,nnmclub.ro,nnmclub.to###iiframe
 batpic.com###imRunetkiPop
 penzavzglyad.ru###index-right > .col-border.col-1
 gazeta1.com#?##index_desktop > .row:-abp-has(> div > #span-title:-abp-contains(/^реклама|^партн/i))

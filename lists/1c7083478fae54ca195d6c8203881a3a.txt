@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.2.4
+! Version: 4.2.2.5
 
 ! General
 
@@ -283,7 +283,10 @@ nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div#dock-container
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
 ||nzherald.co.nz/zephr/$xmlhttprequest,~third-party
 nzherald.co.nz##+js(set, window.Fusion.globalContent.isPremium, false)
-nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction)
+nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction, stay)
+nzz.ch##+js(ra, class, div.barrier, stay)
+||cdn.piano.io/api/tinypass.min.js$script,domain=nzz.ch|themarket.ch
+||tms.danzz.ch/scripts/t.min.js$script,domain=nzz.ch|themarket.ch
 ||observador.pt/wp-content/*/paywall-price-*.js$script,~third-party
 paloaltoonline.com##+js(cookie-remover, /^/)
 ||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
@@ -577,6 +580,7 @@ thelocal.at,thelocal.ch,thelocal.com,thelocal.de,thelocal.dk,thelocal.es,theloca
 ||flowerstreatment.com^$third-party
 ||guidecent.com^$script,third-party
 ||memberstack.com/scripts/v*/memberstack.js$script,third-party
+policorner.ca##div.free-text,div.subscribe-box
 /wp-content/plugins/incognito_dectector/$script,~third-party
 
 ||jeuneafrique.com/cdn-cgi/trace$xmlhttprequest,~third-party

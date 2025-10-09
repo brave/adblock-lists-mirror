@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WbyWLYYY1hXB4my45fa9eg
-! Version: 202510091041
+! Checksum: FzR+unaMRxSv7TrKGGL0/A
+! Version: 202510091111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Oct 2025 10:41 UTC
+! Last modified: 09 Oct 2025 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15234,6 +15234,9 @@ om1.ru##.news-grid > div[id^="first"]
 om1.ru##.news-grid > div[id^="rastyagka"]
 onliner.by##.news-incut_position_right
 gamemag.ru#?#.news-item-wrap > .news-item:-abp-has(> span:-abp-contains(Ad))
+thepage.ua#?#.news-list > .news-list__item:-abp-has(.advertising_material)
+thepage.ua#?#.news-list > .news-list__item:-abp-has(.company_news)
+thepage.ua#?#.news-list > .news-list__item:-abp-has(.partner_material)
 frankmedia.ru#?#.news-list section:-abp-has(> .card > .info .partners)
 zaxid.net##.news-list-col > .news-list
 onliner.by##.news-media__preview > a:not([href*="onliner.by/"]) > img

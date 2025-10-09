@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LZtwd5oBTqDrYX3zGh6iig
-! Version: 202510091041
+! Checksum: YA0B9I3+blJD5G4+uLhp0g
+! Version: 202510091111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Oct 2025 10:41 UTC
+! Last modified: 09 Oct 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2055,6 +2055,7 @@ oblast-te.com.ua#?#.sidebar-widget-area:-abp-has(> .fb-comments)
 brokker.news#?#.sidebar-widget:-abp-has(> .widget-body > .widget-follow)
 proidei.com##.sidebar-widgets-1
 gorodrabot.by,gorodrabot.ru#?#.sidebar__block:-abp-has(> .block__content > .ya-share2)
+thepage.ua#?#.sidebar__item:-abp-has(> div > a[onclick*="telegram_banner"])
 bouw.ru##.sidebar__social
 cherkassy-sport.com#?#.sidebar_block:-abp-has(> div > #fb-root)
 yk-news.kz##.sidebar_soc
@@ -6170,7 +6171,7 @@ industry-hunter.com##.subscription-container
 vedomosti.ru##.subscription-email
 vedomosti.ru##.subscription-placeholders
 rbc.ru##.subscription-popup
-speka.media##.subscription-section
+speka.media,thepage.ua##.subscription-section
 hvylya.net##.subscription-under-article
 obyava.ua##.subscription-wishlist
 ligazakon.net##.subscription_block

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sZYoKjktGvvVwDNa275ycA
-! Version: 202510102031
+! Checksum: zbnG/RlIwDAgBy2+7hC7VA
+! Version: 202510102111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Oct 2025 20:31 UTC
+! Last modified: 10 Oct 2025 21:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16129,6 +16129,8 @@ podillyanews.com##.similar-news
 novostiua.net##.simple-banner
 kurs.if.ua##.simple-top-block
 lifehacker.ru##.single-article > .widgets-renderer
+lifehacker.ru#?#.single-article__content:-abp-has(.article-card__meta a[href*="/topics/relax/books/"]) article > .core-buttons
+lifehacker.ru#?#.single-article__content:-abp-has(.article-card__meta a[href*="/topics/relax/books/"]) article a[target="_blank"][rel*="sponsored"] > img
 novadoba.com.ua##.single-bottom-advertising-block
 pravda.if.ua##.single-post-6__author
 hi-tech.ua#?#.single-post:-abp-has(.sam-pro-container)

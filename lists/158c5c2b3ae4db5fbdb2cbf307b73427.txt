@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HZp2dBpB27+XTu5KdAD++w
-! Version: 202510102111
+! Checksum: qWPmEZCwtcycL49v96P7hg
+! Version: 202510102131
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Oct 2025 21:11 UTC
+! Last modified: 10 Oct 2025 21:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1717,6 +1717,7 @@ city-n.ru##.odnoklassniki
 obyava.ua##.offer__top-btn
 onliner.by##.offers-social
 forum.onliner.by##.ofm-social-forum
+ogo.ua##.ogo-share-bar
 onlinemschool.com##.oms_calc_group ~ div[class^="oms_defin"]
 onlinemschool.com##.oms_social_group
 moniheal.com##.one-news__footer-right
@@ -2302,7 +2303,7 @@ vgorode.ua##.social_plugins
 channel4it.com##.social_reg
 reedr.ru,setafi.com##.social_rm
 cxem.net##.social_shapka
-my.rv.ua,ogo.ua##.social_share_holder
+my.rv.ua##.social_share_holder
 rusfootball.info##.social_subs_block
 74.ru##.social_tab
 ruskweb.ru##.socialboxes
@@ -2830,7 +2831,6 @@ quiz.rambler.ru#?#[role="radiogroup"][aria-activedescendant] ~ div[style]:-abp-h
 planetanovosti.com##[title="Vkontakte"]
 conversion.im##[title="facebook"]
 conversion.im##[title="instagram"]
-ogo.ua##[title="Ми у Facebook"]
 conversion.im##[title="вконтакте"]
 sportrecs.com##[title^="Sportrecs в"]
 sportrecs.com##[title^="Поделиться в"]
@@ -6465,7 +6465,7 @@ shazoo.ru##a[href*="/hubs"]
 point.md##a[href*="/meteo/"] ~ .active a[href*="://sales.simpals.com/"] ~ div
 poltavawave.com.ua,sil.media##a[href*="/pidtrimai-pravd"]
 kp.by,kp.kg,kp.kz,kp.md,kp.ru##a[href*="/podpiska/"]
-mmr.net.ua,my.rv.ua,ogo.ua,rivne.media,vsviti.com.ua##a[href*="/support"][target="_blank"]
+mmr.net.ua,my.rv.ua,rivne.media,vsviti.com.ua##a[href*="/support"][target="_blank"]
 rsload.net##a[href*="/tutvce.html"]
 freesoft.ru##a[href*="/yandex-browser.html"]
 finobzor.ru,politobzor.net,warfiles.ru##a[href*="://auction.vo-media.ru/"]

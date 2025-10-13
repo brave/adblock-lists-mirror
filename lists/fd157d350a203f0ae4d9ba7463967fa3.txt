@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0n3EXC/XkRvTfxu1fxtigQ
-! Version: 202510132131
+! Checksum: krAwcNkAVV/C0a8M3lUWqQ
+! Version: 202510132211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Oct 2025 21:31 UTC
+! Last modified: 13 Oct 2025 22:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14459,7 +14459,7 @@ marathonec.ru##.fullwidthbanner-container
 zerocoolpro.biz##.funbox
 anison.fm##.fw.topbanner
 rubryka.com,test-nmo.ru,theuk.one##.g
-dok-film.net,howdyho.net,howdyho.pro##.g-ads
+dok-film.net,howdyho.net##.g-ads
 volga.news##.g-banner
 ysia.ru##.g-dyn
 nagadala.com##.g-single
@@ -14719,7 +14719,7 @@ europaplus.ru##.infox
 education.ua##.inl-blk
 catalog.onliner.by##.inline-banner
 bb.lv##.inline-desk
-howdyho.net,howdyho.pro#?#.inner > .default:-abp-has(> header > h1:-abp-contains(PEKЛAМA))
+howdyho.net#?#.inner > .default:-abp-has(> header > h1:-abp-contains(PEKЛAМA))
 snn-mn.ru##.inner > .widget_media_image
 totori.ru##.inner-wrap > #header
 24tv.ua##.inner-wrap > .nav-additional
@@ -23492,17 +23492,18 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||ritsatv.ru^$~document
 ||websdr.su^$~document,~third-party
 ! howdyho - набор правил для проверки таймаута рецидивов
-@@||yandex.ru/ads/meta/*?target-ref=$xmlhttprequest,domain=howdyho.net|howdyho.pro
-@@||yandex.ru/ads/system/context.js|$script,domain=howdyho.net|howdyho.pro
-@@||yastatic.net/*-bundles/*.js|$script,domain=howdyho.net|howdyho.pro
-howdyho.net,howdyho.pro##.g-ads > header > h2
-howdyho.net,howdyho.pro##.interesting_block_links::before
-howdyho.net,howdyho.pro##div[class^="csr-uniq"]
-howdyho.net,howdyho.pro#@#.g-ads
-howdyho.net,howdyho.pro#@#div[id^="yandex_rtb"]
+howdyho.net#@#.g-ads
+howdyho.net##.g-ads > header > h2
+howdyho.net##.interesting_block_links::before
+@@||yandex.ru/ads/meta/*?target-ref=$xmlhttprequest,domain=howdyho.net
+@@||yandex.ru/ads/system/context.js|$script,domain=howdyho.net
+@@||yastatic.net/*-bundles/*.js|$script,domain=howdyho.net
+howdyho.net##[data-name="adWrapper"]
+howdyho.net##div[class^="csr-uniq"]
+howdyho.net#@#div[id^="yandex_rtb"]
 ||vk-apps.com/*?type=leadform&d=
-||yandex.$domain=howdyho.net|howdyho.pro
-||yastatic.$domain=howdyho.net|howdyho.pro
+||yandex.$domain=howdyho.net
+||yastatic.$domain=howdyho.net
 !
 cq.*##[class*="grid"] > a:has(.p-item__button-sponsored) {remove:true;}
 flightsim.su###tie-popup-adblock {remove:true;}

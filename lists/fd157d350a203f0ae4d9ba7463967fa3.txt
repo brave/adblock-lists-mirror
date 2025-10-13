@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b1xyf8GnUP7N+bnU50GTjQ
-! Version: 202510131211
+! Checksum: 8Oy3UJEODgcrjZoxz6RW6g
+! Version: 202510131251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Oct 2025 12:11 UTC
+! Last modified: 13 Oct 2025 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14574,6 +14574,7 @@ sovetromantica.com#?#.header--text:-abp-contains(Реклама)
 7days.ru##.header-7days__recommendation_advertising
 tulapressa.ru##.header-adv_space
 168.ru,afisha.s13.ru,agrostory.com,depo.ua,drinks.ua,perepostil.ru,rabochy-put.ru,sportmaps.ru,vikna.if.ua,zi.ua##.header-banner
+habr.com##.header-banner-wrapper
 strikes.ru##.header-banners
 ua-football.com##.header-bonus
 guberniya.tv##.header-bottom-second
@@ -18441,6 +18442,7 @@ redfm.ru#?#div.news.grid_16 h3:-abp-has(span:-abp-contains(Реклама)) ~ a[
 redfm.ru#?#div.news.grid_16 h3:-abp-has(span:-abp-contains(Реклама)) ~ div[style="overflow: hidden;"]
 sport24.ru##div.right-scroll-bar-position
 android-club.ws#?#div.side-item-left:-abp-has(> .side-title:-abp-contains(Реклама))
+habr.com##div.tm-bordered-card:empty
 soundtimes.ru#?#div:-abp-has(> #kb)
 7themes.su,banker.ua,chudo-povar.com,cyberpedia.su,draug.ru,festima.ru,help-wifi.com,mods-fs.net,modsforwot.ru,mydiv.net,nikolaev-city.net,pingvin.pro,pixwords-help.info,point.md,readweb.org,sega-play.ru,slo.ru,vplate.ru,wotspeak.org#?#div:-abp-has(> .adsbygoogle)
 finversia.ru#?#div:-abp-has(> .banner-bdm )

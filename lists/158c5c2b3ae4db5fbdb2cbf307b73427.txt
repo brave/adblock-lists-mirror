@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UaPWlA0PcbOvg2XLZ9tHvw
-! Version: 202510131311
+! Checksum: i5mDTx5I7s8W/iAFxVUH/Q
+! Version: 202510131341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 13 Oct 2025 13:11 UTC
+! Last modified: 13 Oct 2025 13:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5298,7 +5298,7 @@ agroportal.ua,aniu.pro,aniuapp.ru,bsb.by,dw.com,eg.ru,hashrating.com,mdregion.co
 eplaza.ru,vnukovo.ru##.cookie-accept
 xhamster.com##.cookie-announce
 sviaz-expo.ru##.cookie-attention
-1tv.ru,aptekiplus.ru,burninghut.ru,ecopolitic.com.ua,lifehacker.ru,mgazeta.com##.cookie-banner
+1tv.ru,aptekiplus.ru,blog.netcraze.ru,burninghut.ru,ecopolitic.com.ua,lifehacker.ru,mgazeta.com##.cookie-banner
 eldorado.ru##.cookie-banner__wrapper
 praca.by##.cookie-confirm_bottom
 budzdorov.ru,rigla.ru##.cookie-confirmation-notice
@@ -7358,7 +7358,7 @@ e.mail.ru,octavius.mail.ru##div[class*="layout"] .promo-block-letter
 dzen.ru##div[class^="article-"][class*="-placeholder__root"]
 mail.ru##div[class^="tg"][class*="-wrapper_"]
 mail.ru##div[id^="mailru"]
-mail.*##.tv-widget > .vk-video {remove:true;}
+mail.*##.tv-widget > [class^="vk-video"] {remove:true;}
 mail.yandex.ru,mail.yandex.*###js-mail-layout-content-header > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 ||dzen.ru/zen-partner/$third-party

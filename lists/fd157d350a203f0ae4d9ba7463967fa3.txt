@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wU0XRje/sSMhnYGTl9PtRg
-! Version: 202510150941
+! Checksum: 46ruXS+GIghr+cxvfvaHyQ
+! Version: 202510151011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Oct 2025 09:41 UTC
+! Last modified: 15 Oct 2025 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19295,6 +19295,7 @@ mastergrad.com##div[onclick*="Кликнул по рекламе"]
 delphimaster.net##div[onclick^="onclickRight"]
 vk.com,vk.ru##div[role="feed"] > article > div:not([class]) > div:only-child
 vk.com,vk.ru##div[role="feed"] > article > div[class]
+vk.com,vk.ru#?#div[role="feed"] > article:-abp-has(> div [class^="AdBlockProtector__noVisible--"])
 mega-tracker.net##div[style$="#CCCCCC;"]
 360.ru##div[style$="250px;"]
 mobiledevice.ru##div[style$="468px;"]

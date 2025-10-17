@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.2.7
+! Version: 4.2.2.5
 
 ! General
 
@@ -385,8 +385,6 @@ tt.com##+js(rc, exclusive-elem, .exclusive-elem)
 tt.com##div.adblock-warning
 unherd.com##+js(ra, id, div#premiumcontent)
 unherd.com##div#premiumpreview
-valeursactuelles.com##div.qiota
-valeursactuelles.com##+js(ra, class, div.qiota_reserve, stay)
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
 ||washingtonpost.com/*/tetro-client/$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
@@ -414,11 +412,11 @@ accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,dig-in.com,
 voguebusiness.com##+js(cookie-remover, userId)
 
 ! Crain Communications
-adage.com,autonews.com,pionline.com##+js(set, window.Fusion.globalContent._id, 0)
-adage.com,autonews.com,pionline.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
+adage.com,autonews.com##+js(set, window.Fusion.globalContent._id, 0)
+adage.com,autonews.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
 .com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
-.com/*/js_$script,~third-party,domain=rubbernews.com
-rubbernews.com##+js(ra, class, body[class], stay)
+.com/*/js_$script,~third-party,domain=pionline.com|rubbernews.com
+pionline.com,rubbernews.com##+js(ra, class, body[class], stay)
 european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)

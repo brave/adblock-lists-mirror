@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X0Eyd1s9Hi/ZSdDLxsSgHA
-! Version: 202510171111
+! Checksum: ywJiQT2xiQw1Khkq/fds5w
+! Version: 202510171131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Oct 2025 11:11 UTC
+! Last modified: 17 Oct 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1898,6 +1898,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /datagroup.gif
 /delivery/fc2.
 /direct.php|$~third-party,xmlhttprequest,domain=~cdromance.com
+/dle-plugin/ad-rotator/ad-list.json
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 /edu_chat.js
 /educhat.js
@@ -17751,6 +17752,7 @@ fchimik.ru##a[href="http://www.pravo.gov.ru/"]
 fchimik.ru##a[href="http://www.procterandgamble.ru/"]
 vd-tv.ru##a[href="http://www.vdclab.ru/"]
 cq.ru##a[href="https://cq.ru/bookmakers"]
+esports.ru##a[href="https://go.esports.ru/roulette"]
 oper.ru##a[href="https://oper.ru/follow/wi"]
 sportarena.com##a[href="https://sportarena.com/betting/"]
 sportarena.com##a[href="https://sportarena.com/bookmakers/"]
@@ -20747,7 +20749,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||api-maps.yandex.ru^$script,domain=radio7.ru|retrofm.ru
 ||api.1plus1.video/static/js/api.gpt.js
 ||api.digitalaccess.ru/logger^
-||api.rstprgapipt.*/ad-rotator/
 ||api.yapfiles.ru/vast/
 ||apitelesputnik.ru/storage/images/ads/
 ||aplik.ru/cdn-cgi/$xmlhttprequest

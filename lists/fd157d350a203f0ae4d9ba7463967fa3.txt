@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jG1HiArE+5l1mquxHevj6w
-! Version: 202510171141
+! Checksum: jH3usCZiSNMph+njOcF/Ww
+! Version: 202510171411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Oct 2025 11:41 UTC
+! Last modified: 17 Oct 2025 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13678,6 +13678,7 @@ euro-football.ru#?#.block:-abp-has(> .block__body script)
 clib.me#?#.block:-abp-has(> .content > [data-la-block])
 clib.me#?#.block:-abp-has(> .content:-abp-contains(Реклама))
 liveresult.ru#?#.block:-abp-has(> .relap-runtime-iframe)
+esports.ru#?#.block:-abp-has(> a[href^="https://leon.ru"])
 euro-football.ru#?#.block:-abp-has(> div > [class*="bookmaker"])
 24warez.ru#?#.block:-abp-has(> h4:-abp-contains(Партнеры))
 sport-tv.by#?#.block:-abp-has([id^="yandex_rtb"])

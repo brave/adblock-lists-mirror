@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: QwtpAyMeNv4IEOzqsi8Bog
-! Version: 202510181031
+! Checksum: hJNZLWJENlNVi7jeM8SrjQ
+! Version: 202510181101
 ! Title: EasyList Germany
-! Last modified: 18 Oct 2025 10:31 UTC
+! Last modified: 18 Oct 2025 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5681,6 +5681,7 @@ onvista.de#?#.ov-carousel__item:-abp-contains(/Werbung|gnubreW/)
 onvista.de#?#a[class*="ArticleTeaserBox"]:-abp-has(div.ov-subline:-abp-contains(Werbung))
 onvista.de#?#div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-neutral-4 mb-4"]:-abp-contains(/Werbung|gnubreW/)
 onvista.de#?#div[class="col col--md-3 col--sm-4 col--lg-4 col--xl-4"]:-abp-contains(Werbung)
+onvista.de#?#div[class="col col-12"]:-abp-has(:-abp-properties(Werbung))
 onvista.de#?#div[class="col py-0"]:-abp-contains(/Werbung|gnubreW/)
 onvista.de#?#div[class="flex justify-between mb-4 border-b-1 border-b-grey-100 pb-2 dark:border-b-grey-700"]:-abp-contains(Werbung)
 pctipp.ch#?#.list_item:-abp-has(.dachzeile:-abp-contains(Partnerzone))

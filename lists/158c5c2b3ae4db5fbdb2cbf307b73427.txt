@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KFaQlmBK8YPJfvR/mu6+2w
-! Version: 202510211412
+! Checksum: TJAYXqYhCJGM9DwkQPUcqg
+! Version: 202510211441
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Oct 2025 14:12 UTC
+! Last modified: 21 Oct 2025 14:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1724,6 +1724,7 @@ forum.onliner.by##.ofm-social-forum
 ogo.ua##.ogo-share-bar
 onlinemschool.com##.oms_calc_group ~ div[class^="oms_defin"]
 onlinemschool.com##.oms_social_group
+downradar.ru##.one-half > #rating ~ div[style]
 moniheal.com##.one-news__footer-right
 relax-fm.ru##.one-news__share-content
 moniheal.com##.one-news__subheader-right
@@ -2969,7 +2970,7 @@ disk.yandex.ru,disk.yandex.*##.b-item-upload__actions > .b-item-upload__share
 disk.yandex.ru,disk.yandex.*##.b-popup-share__content [data-click-action="share.resource"]
 disk.yandex.ru,disk.yandex.*##.nb-share__button[data-metrika-click]
 disk.yandex.ru,disk.yandex.*##[data-click-action="export-social.dialog-open"]
-ura.news#?#div > [type="application/ld+json"] ~ h1 ~ div:-abp-has(a[target="_blank"][rel="noreferrer"])
+ura.news##div > [type="application/ld+json"] ~ h1 ~ div[style^="font-size:"][style*="16px"] ~ div[class]:not([id])
 glavpahar.ru##div > a[href="//www.facebook.com/GlavPahar"]
 glavpahar.ru##div > a[href="//www.facebook.com/GlavPahar"] ~ a
 glavagronom.ru##div > a[href="https://www.facebook.com/GlavAgronom/"]
@@ -3256,7 +3257,7 @@ mail.yandex.ru,mail.yandex.*##.b-mail-domik__social
 www1.ru#?#main > .relative:nth-child(-n+3):-abp-has(> div > [href^="https://t.me/"])
 site.ua##main > .w-full + .container + .container > div:only-child
 ura.news##main > div button[type="button"]:first-child > span:not(:only-child)
-ura.news#?#main > div div > h2 ~ ul > li:-abp-has([alt^="Подписаться на нас"])
+ura.news#?#main > div div ul > li:-abp-has([alt^="Подписаться на нас"])
 market.yandex.ru,market.yandex.*##[data-autotest-social-name]
 proxima.net.ua##nav .text-center .dropdown-toggle
 ixbt.com##nav > .grid > .lg\:inline-flex
@@ -6614,7 +6615,6 @@ avtorambler.com,rambler.ru##circle[stroke-dashoffset]
 stroki.mts.ru##cookie-agreement
 1cont.ru##cookies-notice
 xuk.mobi##div > .center > noindex
-ura.news#?#div > [type="application/ld+json"] ~ h1 ~ div:-abp-has(div > div p + button)
 postimees.ee##div.cookie-container
 agents.media#?#div:-abp-has(> #trigger_donate)
 korsars.pro#?#div:-abp-has(> .med > [src*="://yoomoney.ru/"])

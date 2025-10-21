@@ -32,9 +32,19 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git remote set-branches origin lists
-        git fetch --depth 1 origin lists
-        git switch lists
+        
+        if git ls-remote --heads origin lists | grep -q lists; then
+          echo "Lists branch exists, switching to it"
+          git remote set-branches origin lists
+          git fetch --depth 1 origin lists
+          git switch lists
+        else
+          echo "Lists branch doesn't exist, creating it"
+          git checkout --orphan lists
+          git rm -rf . || true
+          mkdir -p lists
+        fi
+        
         cp -rf newlists/* lists/ && rm -rf newlists
         git add lists
         git commit -m "Automatically updated lists: $(date)" -a || true

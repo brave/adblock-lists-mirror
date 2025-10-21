@@ -35,6 +35,10 @@ PRIVATE_IP_RANGES = [
     ipaddress.ip_network('fd00::/8')
 ]
 
+MAX_RETRIES = 3
+RETRY_DELAY = 2  
+BACKOFF_MULTIPLIER = 2
+
 logger = logging.getLogger("update_lists")
 logging.basicConfig(
     level=logging.INFO,
@@ -192,71 +196,100 @@ def move_downloaded_file(filename: str, url: str, output_dir: str) -> Optional[s
         return None
 
 
-async def fetch_and_save_url(url: str, output_dir: str) -> None:
+async def fetch_and_save_url(url: str, output_dir: str) -> bool:
     """
-    Download a file from a URL and save it to the output directory.
+    Download a file from a URL and save it to the output directory with retry logic.
     
     Args:
         url: The URL to download from
         output_dir: Directory to save the downloaded file
+        
+    Returns:
+        bool: True if successful, False otherwise
     """
     # Validate URL first
     is_valid, error_msg = validate_url(url)
     if not is_valid:
         logger.error(f"URL validation failed for {url}: {error_msg}")
-        return
+        return False
 
-    async with aiohttp.ClientSession() as session:
+    for attempt in range(MAX_RETRIES):
         temp_file = None
         try:
-            async with session.get(url, raise_for_status=True, timeout=aiohttp.ClientTimeout(total=300)) as response:
-                if response.status == 200:
-                    temp_file = tempfile.NamedTemporaryFile(delete=False)
-                    total_size = 0
-                    
-                    try:
-                        while True:
-                            chunk = await response.content.read(CHUNK_SIZE)
-                            if not chunk:
-                                break
-                                
-                            # Check file size limit
-                            total_size += len(chunk)
-                            if total_size > MAX_FILE_SIZE:
-                                raise ValueError(
-                                    f"File size exceeds maximum allowed size of {MAX_FILE_SIZE} bytes"
-                                )
-                                
-                            temp_file.write(chunk)
-                            
-                        temp_file.close()
-                        logger.info(f"Downloaded {total_size} bytes from {url}")
-                        move_downloaded_file(temp_file.name, url, output_dir)
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, raise_for_status=True, timeout=aiohttp.ClientTimeout(total=300)) as response:
+                    if response.status == 200:
+                        temp_file = tempfile.NamedTemporaryFile(delete=False)
+                        total_size = 0
                         
-                    except Exception as e:
-                        if temp_file and os.path.exists(temp_file.name):
+                        try:
+                            while True:
+                                chunk = await response.content.read(CHUNK_SIZE)
+                                if not chunk:
+                                    break
+                                    
+                                # Check file size limit
+                                total_size += len(chunk)
+                                if total_size > MAX_FILE_SIZE:
+                                    raise ValueError(
+                                        f"File size exceeds maximum allowed size of {MAX_FILE_SIZE} bytes"
+                                    )
+                                    
+                                temp_file.write(chunk)
+                                
                             temp_file.close()
-                            os.unlink(temp_file.name)
-                        logger.error(f"Error downloading {url}: {str(e)}")
-                        
-        except (aiohttp.ClientResponseError, aiohttp.ClientConnectorError) as e:
-            logger.error(f"Failed to download {url}: {str(e)}")
+                            logger.info(f"Downloaded {total_size} bytes from {url}")
+                            
+                            # Move file and return success
+                            if move_downloaded_file(temp_file.name, url, output_dir):
+                                return True
+                            else:
+                                logger.error(f"Failed to move downloaded file for {url}")
+                                return False
+                                
+                        except Exception as e:
+                            if temp_file and os.path.exists(temp_file.name):
+                                temp_file.close()
+                                os.unlink(temp_file.name)
+                            raise e
+                            
+        except (aiohttp.ClientResponseError, aiohttp.ClientConnectorError, aiohttp.ServerDisconnectedError) as e:
+            logger.warning(f"Attempt {attempt + 1}/{MAX_RETRIES} failed for {url}: {str(e)}")
+            if attempt < MAX_RETRIES - 1:
+                delay = RETRY_DELAY * (BACKOFF_MULTIPLIER ** attempt)
+                logger.info(f"Retrying {url} in {delay} seconds...")
+                await asyncio.sleep(delay)
+            else:
+                logger.error(f"All {MAX_RETRIES} attempts failed for {url}: {str(e)}")
         except asyncio.TimeoutError:
-            logger.error(f"Request timed out for {url}")
+            logger.warning(f"Attempt {attempt + 1}/{MAX_RETRIES} timed out for {url}")
+            if attempt < MAX_RETRIES - 1:
+                delay = RETRY_DELAY * (BACKOFF_MULTIPLIER ** attempt)
+                logger.info(f"Retrying {url} in {delay} seconds...")
+                await asyncio.sleep(delay)
+            else:
+                logger.error(f"All {MAX_RETRIES} attempts timed out for {url}")
         except Exception as e:
             logger.error(f"Unexpected error processing {url}: {str(e)}")
+            break
         finally:
             if temp_file and os.path.exists(temp_file.name):
                 try:
                     os.unlink(temp_file.name)
                 except OSError:
                     pass
+    
+    return False
 
 
 async def main():
     args = parse_arguments()
 
-    adblock_catalog = requests.get(args.adblock_catalog, timeout=60).json()
+    try:
+        adblock_catalog = requests.get(args.adblock_catalog, timeout=60).json()
+    except Exception as e:
+        logger.error(f"Failed to fetch adblock catalog: {str(e)}")
+        return
 
     adblock_lists = []
     metadata = {}
@@ -266,13 +299,31 @@ async def main():
             adblock_lists.append(url)
             metadata[hashlib.md5(url.encode('utf-8')).hexdigest()] = url
 
+    # Create output directory if it doesn't exist
+    os.makedirs(args.output_dir, exist_ok=True)
+    
     metadata_file = os.path.join(args.output_dir, 'metadata.json')
     with open(metadata_file, 'w') as f:
         json.dump(metadata, f, indent=4)
 
-    return await asyncio.gather(
-        *[fetch_and_save_url(url, args.output_dir) for url in adblock_lists]
+    logger.info(f"Starting download of {len(adblock_lists)} lists...")
+    
+    # Download all lists and collect results
+    results = await asyncio.gather(
+        *[fetch_and_save_url(url, args.output_dir) for url in adblock_lists],
+        return_exceptions=True
     )
+    
+    # Count successes and failures
+    successful = sum(1 for result in results if result is True)
+    failed = len(results) - successful
+    
+    logger.info(f"Download completed: {successful} successful, {failed} failed out of {len(adblock_lists)} total")
+    
+    if failed > 0:
+        logger.warning(f"{failed} downloads failed, but continuing with available lists")
+    
+    return results
 
 
 if __name__ == "__main__":

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wO+ZLuSMCWlFEubT0CZUfA
-! Version: 202510211122
+! Checksum: eR5bTGOSCwZA2CBQFYruTA
+! Version: 202510211212
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Oct 2025 11:22 UTC
+! Last modified: 21 Oct 2025 12:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14544,8 +14544,6 @@ ryazan.life##.grid-r
 amic.ru#?#.grid__title:-abp-contains(Новости партнеров)
 zr.ru##.gtRpeb
 tomat-pomidor.com##.gusev
-ura.news##.gv
-ura.news##.gw
 playua.net##.h-advert
 klerk.ru##.h-header-banner-height
 peterburg2.ru##.h-menu__item--external
@@ -18214,7 +18212,6 @@ shazoo.ru#?#aside > div:-abp-has(> iframe[src*="://goodgame.ru/html/embed-player
 bitcryptonews.ru#?#aside > div:-abp-has(script)
 versii.if.ua##aside > div[class="brxe-block"]
 point.md#?#aside > div[class]:-abp-has(> div > [id*="adsense"])
-ura.news##aside > div[class^="g"]
 hibiny.ru##aside > div[class^="margintop"]
 finbalance.com.ua##aside > div[style] > a[href^="http"]:not([href*="finbalance.com.ua"])
 zanmsk.ru#?#aside > h2:-abp-contains(/наши партн/i)
@@ -18327,6 +18324,7 @@ povarenok.ru##body > div[class]:empty:not([style])
 votrube.ru##body > div[class]:last-of-type
 stopgame.ru##body > div[class]:not([id]):not([style]):empty
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##body > div[class]:not([id]):nth-child(-n+5) > a[href]
+ura.news##body > div[class^="g"]
 finam.ru##body > div[class^="hidden-"]
 openssource.biz##body > div[class^="spu-"]
 gazgolder.com##body > div[g-popup-type="popup_ad"]
@@ -19714,6 +19712,8 @@ mediaryazan.ru##main > .hide-on-mobiles > div[class="sideblock"]:first-child
 besplatnyeprogrammy.ru#?#main > article.post:-abp-has(> header > .mainpage_title > [title^="InstallPack"])
 enthub.it##main > aside + .block > div:not([id]):not([class])
 ura.news#?#main > aside ul > li:-abp-has(a[href^="https://momenty.org/"])
+ura.news##main > aside ~ aside > div:first-child
+ura.news##main > div aside > div:first-child
 gk-press.if.ua##main > div[style="display: inline"]
 drivenn.ru#?#main > h3:-abp-contains(/Новости партнёров|Популярное в сети/)
 flatfy.lun.ua#?#main ~ div[class]:-abp-has(> div > div > a[href*="/redirect-andromeda/"] ~ a[href*="/redirect-andromeda/"])

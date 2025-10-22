@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V2x0KhPifbmVL/CkUzXYDQ
-! Version: 202510221311
+! Checksum: dcsjP8ni4XCfM5e8YZb1gA
+! Version: 202510221342
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Oct 2025 13:11 UTC
+! Last modified: 22 Oct 2025 13:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4175,7 +4175,6 @@ rbkgames.com##iframe[src^="https://player.twitch.tv?autoplay=true"][src*="rbkgam
 /manifest.json$domain=championat.com|championat.ru|eapteka.ru|gazeta.ru|hi-chef.ru|lenta.ru|mail.ru|my.mosenergosbyt.ru|rambler.ru|riafan.ru|sportmail.ru
 /manifest.webmanifest$domain=otvet.mail.ru
 /min/js/pages/push.js$script,~third-party,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-georgia.com|sputnik-news.ee|sputnik-ossetia.com|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputniknews-uz.com
-/ololo/*$image,domain=2ch.life|2ch.su
 /pum-site-styles-$stylesheet,domain=lhealth.info
 /push.js$script,domain=mail.ru
 /wp-content/plugins*popup-builder/*$domain=blackwot.ru|shotam.info
@@ -4189,6 +4188,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||1serial.club/rekl-registr.
 ||1tv.ru/promo_places/
 ||1tv.ru/rotobanner/
+||2ch.*/ololo/$image
 ||2ch.*/static/js/*/snow_miner_anon_ne_podozrevaet.js
 ||a-comics.ru/fw/
 ||a.europaplus.ru^*/getCode?*=mainep$xmlhttprequest
@@ -5190,7 +5190,7 @@ bookmate.com##.bm-document-readers
 habr.com##.bmenu_inner
 nv.ua##.bn-subscribe
 pleer.ru##.bnr
-2ch.life,2ch.su##.board-banner
+2ch.life,2ch.org,2ch.su##.board-banner
 parkdrive.ua##.body-advert-bg
 lifecell.ua##.bookmark-3g
 professorweb.ru##.bottom-banner
@@ -6847,7 +6847,7 @@ ratel.kz##img[alt="Ratel Telegram Channel"]
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##img[alt="Support AniLibria"]
 driveroff.net,samlab.ws##img[alt="Поддержка сайта"]
 chastnik-m.ru##img[alt="баннер"]
-2ch.life,2ch.su##img[src*="/ololo/"]
+2ch.life,2ch.org,2ch.su##img[src*="/ololo/"]
 habr.com##img[src*="habrastorage.org/getpro/habr/branding/"]
 tapochek.net##img[src*="images/rss_"]
 fakty.ua##img[src="/images/korabl-idi-hahuy.jpg"]

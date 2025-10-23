@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SoD2bSJfVoY85qie+W3fuQ
-! Version: 202510231111
+! Checksum: s885+rb1kUZ3qEzJ8k5b5Q
+! Version: 202510231132
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Oct 2025 11:11 UTC
+! Last modified: 23 Oct 2025 11:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18440,6 +18440,7 @@ oper.ru##dd > .body font > a[target="_blank"]
 nova-wings.ru##div > #yaMarket ~ table[width="100%"]
 grad.ua##div > .comments ~ .blok_header_title
 ohmywishes.com##div > button + button ~ div > button
+ura.news#?#div > h2 ~ ul > li:-abp-has(> div > [id^="adv-"])
 xsport.ua#?#div.MuiBox-root:-abp-has(> div[class*="-root"] > div[id^="div-gpt-ad"])
 mail.google.com##div.ae5
 mport.ua##div.b-widgets
@@ -23463,8 +23464,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/*a*a*a*a*a*a*a$script
-||static.dzeninfra.ru/s3/zen-lib/*/news-site-mobile/*a*a*a*a*a*a*a$script
+||static.dzeninfra.ru/s3/zen-lib/*/dzen-desktop/$script
+||static.dzeninfra.ru/s3/zen-lib/*/news-site-mobile/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportanalytic.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
@@ -23869,6 +23870,7 @@ dzen.ru##[id*="_R-O-"]
 dzen.ru##[id*="_R-U-"]
 sportsdzen.ru##div[class*="-sports-button-ad_"]
 dzen.ru##div[class*="DirectAdvert"]
+dzen.ru##div[class*="_advertItem"]
 sportsdzen.ru##div[class*="bookmakerOdds"]
 dzen.ru,sportsdzen.ru##div[class*="mascot-banner"]
 dzen.ru##div[class*="news_branding"]

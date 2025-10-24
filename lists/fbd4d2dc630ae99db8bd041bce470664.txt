@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: wTE9ZQPCGfkdURQtKv4odg
-! Version: 202510241731
+! Checksum: rJ6VnrTAUMCPn7fQi6cCUw
+! Version: 202510241811
 ! Title: EasyList Germany
-! Last modified: 24 Oct 2025 17:31 UTC
+! Last modified: 24 Oct 2025 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5255,7 +5255,6 @@ werkenntdenbesten.de##div[x-data^="modules.adMedia"]
 sueddeutsche.de##er-ad-slot
 ibooks.to##form[method="get"][action]:not([role="search"])
 reimmaschine.de##iframe[src="/more"]
-190.115.18.20,aniworld.to,s.to##iframe[style*="z-index: 2147483647"]
 windowspro.de##iframe[style="height:250px;overflow: hidden;"]
 t-online.de##iframe[title="Top Partner"] + span
 ibooks.to##img[alt="Download kostenlos"]
@@ -5442,7 +5441,7 @@ ratehase.de##div[style="height: 90px; margin: 30px 0 20px 0; text-align: center;
 ratehase.de##div[style="height: 90px; margin: 30px 0 30px 0; text-align: center; width: 100%;"]
 ratehase.de##div[style="text-align:center; min-height: 260px; height: 260px; margin: 0 auto 0 auto;"]
 t-online.de##section[data-stage-layout^="custom_nativendo_"]
-!! :has()
+! :has()
 boersennews.de###bnTickerContainer:has(#bnTickerAdNotice)
 baur.de##.MuiBox-root:has(a[href^="//b.fr3.eu.criteo.com/rm?"])
 mobile.de##.Q8G_R:has(div[data-testid="SRP_BILLBOARD-container"])

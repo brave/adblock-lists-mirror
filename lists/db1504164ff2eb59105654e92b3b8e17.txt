@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yOjMtMq0f97t7/QvdNKgLw
-! Version: 202510240141
+! Checksum: 5YfnVgOmO1XiglHaQ0xCUw
+! Version: 202510240231
 ! Title: EasyList China
-! Last modified: 24 Oct 2025 01:41 UTC
+! Last modified: 24 Oct 2025 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1762,6 +1762,10 @@ newduba.cn###jq_youxi
 ||fmjo.cn^
 ||yhecauig.com^
 ||rmkfmm.cn^
+||40images25.com^
+||20images36.com^
+||csgkj.com^
+||go2yd.com^
 ||smooth33.com^
 ||lxwp426ao.com^
 ||zdh10230lo.com^
@@ -10176,6 +10180,8 @@ meijutt.*/js/pcjs/
 ||layuion.com/get/showcase/
 ||xxir.com/static/images/ad.
 ||7wzx9.com/tbad.
+||cloudfront.net/yongli04/
+||baidu.com/forum/pic/item/0bd162d9f2d3572cef1c4acdcc13632762d0c322.
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 qqdsw8.cn##.joe_index__ad
@@ -10270,7 +10276,7 @@ ip138.com###banana
 appinn.com###sidebar > .widget_block > a
 52asus.com###AsusMall-contain
 mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
-cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*Jr8IbslwuuoZ9kr8cTrXXkY8lfZL5p8v2TTht91DQxXZU9AB6BpwzkAAU2AAAAAElFTkSuQmCC))
+cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(display: inline-block;))
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
 bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)

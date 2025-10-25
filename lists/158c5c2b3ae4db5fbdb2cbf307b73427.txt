@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /J5h4ll1PSGz3YJW68c7Iw
-! Version: 202510251831
+! Checksum: 4gd0wwFlSV35uwS1mIQ5IA
+! Version: 202510251912
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Oct 2025 18:31 UTC
+! Last modified: 25 Oct 2025 19:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1823,7 +1823,7 @@ molbuk.ua#?#.post_content > b:-abp-has(> [href^="https://t.me/"])
 champion.com.ua,pravda.com.ua##.post_news_social
 1kr.ua,epravda.com.ua,pravda.com.ua##.post_social
 ratel.kz##.post_social_item
-mezha.media##.post_social_wrapper
+mezha.ua##.post_social_wrapper
 glavcom.ua##.post_socials
 fbc.biz.ua##.post_subscribe
 winreview.ru##.postmeta + noindex
@@ -2193,7 +2193,7 @@ mc.today##.social-blue
 edabez.ru,nsn.net.ua##.social-bottom
 eadaily.com,toneto.net,zn.ua##.social-box
 ukrlib.com.ua##.social-box-item
-keenetic.ru,patrol.police.gov.ua,speka.media##.social-btn
+keenetic.ru,patrol.police.gov.ua,speka.ua##.social-btn
 nikopolnews.net,unian.info,unian.net,unian.ua##.social-btn-bottom
 gismeteo.ru##.social-btns-wrapper
 gamestatus.info,wotpack.ru##.social-button
@@ -2318,7 +2318,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,sknews.net,speka.media,stopcor.org,teleprogramma.org,thegirl.ru,tvoemisto.tv,uatv.ua,virtualbrest.ru##.socials
+101.ru,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,tvoemisto.tv,uatv.ua,virtualbrest.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -2332,7 +2332,7 @@ avtovzglyad.ru##.socials-subscription
 cryptonewsua.com,eadaily.com##.socials-wrapper
 rozetka.com.ua##.socials__list
 russian.rt.com##.socials__row
-speka.media##.socials__title
+speka.ua##.socials__title
 1ul.ru##.socials_start
 kerchinfo.com##.socialst
 actualcomment.ru##.socialtabs
@@ -2959,7 +2959,6 @@ aniu.ru##body > a[href*="://vk.com/"]
 ura.news##body > div > ul + button
 forums.rusmedserv.com##body noindex > table[align="center"]
 api.rstprgapipt.com#?#button:-abp-has(> .icon-share)
-speka.media#?#button:-abp-has(> span:-abp-contains(телеграм))
 auto.ru##button[class*="ShareButton"]
 56orb.ru,atas.info,bel.ru,gorod55.ru,inkazan.ru,karelinform.ru,kubanpress.ru,kursdela.biz,mkset.ru,muksun.fm,nashgorod.ru,newizv.ru,newkhakasiya.online,newsnn.ru,newstracker.ru,novostivolgograda.ru,prmira.ru,properm.ru,rosbalt.ru,rostovgazeta.ru,tagilcity.ru,transsibinfo.com,udm-info.ru,vostokmedia.com,zr.media##button[class^="LeftcolSocials"]
 frontend.vh.yandex.ru##button[data-control-name="share"]
@@ -5091,6 +5090,7 @@ shazoo.ru##.aside > .grid
 sports.ru#?#.aside-news-list__item:-abp-has(a[href^="https://trbna.co/"])
 profinance.ru##.askbuttontextbox
 rlsnet.ru##.attention-modal
+speka.ua##.author-card__controls
 lolz.guru##.axsBackground
 serfery.ru##.b-accept-cookie
 factor.ua##.b-app-banner
@@ -5715,7 +5715,6 @@ niopik.ru##.marketing-popup
 mastergrad.com##.master-compitition
 riatomsk.ru##.master-notice
 khl.ru##.mastercard
-speka.media##.material-content-blocks div[x-data="tips"]
 sports.ru##.material-list__item[data-control="Common.AnalyticsWatch"]
 tagilcity.ru#?#.matter-after > div:-abp-has(> div[class^="Subscribe_subscribe_"])
 baltanews.city,barnews.city,bilopillia.city,bilyayivka.city,chernihiv.city,chortkiv.city,dobronews.city,drohobych.city,energodar.city,fastivnews.city,gylyajpole.city,hadiach.city,haisyn.city,hlukhiv.city,horodok.city,izmacity.com,kagarlyk.city,kalushnews.city,kalynivka.city,kavun.city,kitsman.city,konotop.city,kremenets.city,kuma.city,lozova.city,mltpl.city,netishyn.city,nikopol.city,nizhyn.city,novakahovka.city,novograd.city,nsirogozy.city,oretsk.city,pereiaslav.city,petropavlivka.city,popasnaya.city,primorka.city,rakhiv.city,sarnynews.city,shostkanews.city,skadovsk.city,slavuta.city,starkon.city,susidy.city,svatove.city,thegard.city,tira.city,toretsk.city,troyitske.city,volnovakha.city,volodymyrets.city,yuzhkanews.city,zhmerynka.city,zoloto.city##.mc-yt-link
@@ -6179,7 +6178,7 @@ industry-hunter.com##.subscription-container
 vedomosti.ru##.subscription-email
 vedomosti.ru##.subscription-placeholders
 rbc.ru##.subscription-popup
-speka.media,thepage.ua##.subscription-section
+thepage.ua##.subscription-section
 hvylya.net##.subscription-under-article
 obyava.ua##.subscription-wishlist
 ligazakon.net##.subscription_block
@@ -6258,6 +6257,7 @@ film.ru##.top_button
 ictv.ua##.top_container
 nv.ua##.top_donate
 istpravda.com.ua##.top_options__item_support
+mezha.ua##.top_options_club
 drive2.com,drive2.ru##.totop
 pochta.ru##.tracking-card--banner
 psy-music.ru##.turq.psyLeftMenu.psySideBarPanel
@@ -6411,6 +6411,7 @@ fosshub.com##[data-section-content-type="donate"]
 trychatgpt.ru##[data-sidebar="footer"]
 ictvukraine.tv,obozrevatel.com,zahid-sad.com##[data-storage-item*="cookiename_"]
 stopgame.ru##[data-stream-sticky]
+speka.ua##[data-subscribed]
 vuzopedia.ru##[data-target="#subscribe"]
 adme.media##[data-test-id="article-content"] > a[href^="/"]
 adme.media##[data-test-id="careers"]
@@ -6466,7 +6467,7 @@ mywebpc.ru##a[alt="donate"]
 doramaland.plus##a[class^="banner-preview-"]
 youla.ru##a[href*=".com/"][href*="/app"][title][target="_blank"]
 sibnet.ru##a[href*="/delivery/ck.php"][target="_blank"]
-18000.com.ua,1kr.ua,2ip.ua,babel.ua,chytomo.com,delo.ua,expert.in.ua,fastpic.org,forumodua.com,glav.su,infoindustria.com.ua,inforesist.org,itechua.com,jewishnews.com.ua,lb.ua,mezha.media,mmr.net.ua,novayagazeta.eu,prufy.ru,remontka.pro,rubryka.com,sknews.net,slk.kh.ua,tvrain.tv,zona.media##a[href*="/donate"]
+18000.com.ua,1kr.ua,2ip.ua,babel.ua,chytomo.com,delo.ua,expert.in.ua,fastpic.org,forumodua.com,glav.su,infoindustria.com.ua,inforesist.org,itechua.com,jewishnews.com.ua,lb.ua,mmr.net.ua,novayagazeta.eu,prufy.ru,remontka.pro,rubryka.com,sknews.net,slk.kh.ua,tvrain.tv,zona.media##a[href*="/donate"]
 f1news.ru,liga.net##a[href*="/donation"]
 shazoo.ru##a[href*="/hubs"]
 point.md##a[href*="/meteo/"] ~ .active a[href*="://sales.simpals.com/"] ~ div

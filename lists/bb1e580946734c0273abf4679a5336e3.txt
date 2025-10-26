@@ -1651,6 +1651,7 @@ yakisurume.com,yakyufan-asobiba.com,yamsoti.com,yazilidayim.net,ycongnghe.com,ye
 zdrz.xyz,zecchino-doro.it,zeijakunahiko.com,zien.pl,ziminvestors.com,ziontutorial.com,zippyshare.cloud,zippysharecue.com,znanemediablog.com,zyromod.com##+js(noeval-if, /chp_?ad/)
 bedavahesap.org##+js(no-xhr-if, adsbygoogle)
 1movierulzhd.wiki,ralli.ee,vipotv.com##+js(noeval-if, document.getElementById)
+arcadepunks.com##+js(aeld, load, innerHTML)
 ballexclusives.com##body > h4[class="adblock_title"]
 ballexclusives.com##body > div.adblock_subtitle
 ballexclusives.com##a[href^="https://ballexclusives.com/"][class]:has-text(Refresh)
@@ -2383,6 +2384,18 @@ kiaclub.cz#@#.adwords
 ! https://github.com/uBlockOrigin/uAssets/issues/30553
 zive.cz##article:has-text(Reklama)
 zive.cz##[class^="ad-list"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/25096
+idnes.cz#@#+js(acis, HTMLIFrameElement.prototype.contentWindow)
+@@/site=*/viewid=*/size=$script,domain=idnes.cz
+idnes.cz##.abchead
+idnes.cz##.s_widesquare:has(> div > #widesquare > a[rel="sponsored"])
+idnes.cz##div[id].pla-net > div > span:empty
+idnes.cz##body::before:style(background: none !important;)
+idnes.cz##html:style(cursor: auto !important;)
+idnes.cz##+js(acs, document.onclick, reklama-flash-body)
+! https://github.com/uBlockOrigin/uAssets/issues/30568
+tv.idnes.cz###fix-block-1
 
 ! NOTE: Dutch
 ! https://github.com/uBlockOrigin/uAssets/issues/29345

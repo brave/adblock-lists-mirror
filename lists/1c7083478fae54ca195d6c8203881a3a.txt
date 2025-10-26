@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.3.3
+! Version: 4.2.3.4
 
 ! General
 
@@ -78,7 +78,7 @@ axios.com##+js(ra, style, html[style], stay)
 bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
-||bizjournals.com/*/news/*.html$inline-script
+/\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script
 bizjournals.com##div[id^="headlessui-dialog-"],div.sheet-overlay
 ! bloomberg.com: disable Dark Reader extension
 ||cm.bloomberg.com^$xmlhttprequest,~third-party
@@ -713,6 +713,8 @@ nu.nl##+js(rc, semi-authorized-content, div.semi-authorized-content, stay)
 nu.nl##article#LOGIN
 ||odt.co.nz/bwtw/scripts/tw.js$script,~third-party
 odt.co.nz##+js(ra, property, div[property="content:encoded"])
+opopular.com.br##+js(rc, restricted, div.restricted, stay)
+opopular.com.br##div.PJLV-ihxtsVt-css
 ||opovo.com.br/*/js/auth/auth_new_menu.min.js$script,~third-party
 ||pebmed.com.br/wp-content/*/paywall/dist/js/app.js$script,~third-party
 ||perspectivemedia.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
@@ -738,6 +740,7 @@ solarserver.de##div.paywall-box
 ||southernstar.ie/js/tollbridge.js$script,~third-party
 speakup.it##div.paywall-container
 ||spectrejournal.com/wp-content/plugins/elementor/*/dialog.min.js$script,~third-party
+spiked-online.com##+js(set-local-storage-item, nudges, {})
 splainer.in##+js(rc, hide-section, .hide-section)
 splainer.in##.subscription-prompt
 ||splinter.com/wp-content/themes/pastemagazine/js/pm_custom.js$script,~third-party
@@ -773,6 +776,8 @@ tidningenridsport.se##+js(rc, cli-barmodal-open, body.cli-barmodal-open)
 tidningenridsport.se##div.locked
 timeslive.co.za##+js(set, window.Fusion.globalContent.content_restrictions, {})
 trailsoffroad.com##.paywall
+wbjournal.com##+js(ra, style, div.expandable-paywall-premium-content, stay)
+wbjournal.com##div.paywall-container
 ||zeitzeichen.net/sites/default/files/js/js_*.js$script,~third-party
 
 ! General (amp)

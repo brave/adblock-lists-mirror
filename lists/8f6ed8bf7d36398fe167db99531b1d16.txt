@@ -125,7 +125,7 @@ stiripesurse.ro##.border-revista-blogurilor
 stiripesurse.ro##.in-article-banner
 stiripesurse.ro###taboola-sponsored-mid-article
 stiripesurse.ro##.sticky-banner-container
-stiripesurse.ro##[style]:has([id^="adocean"])
+stiripesurse.ro##.banner-block
 stiripesurse.ro##[style]:has(#PA-Taboola-mid)
 stiripesurse.ro##[href="https://www.stiripesurse.ro/ardereaesteproblema"]
 ||media.stiripesurse.ro/assets/img/ads_$frame
@@ -2050,5 +2050,7 @@ economedia.ro##.code-block:has([id^="div-gpt-ad"])
 
 ziaruldetulcea.ro###reclama-header-sub-logo
 ziaruldetulcea.ro##.sidebar-item:has(.widget-content:not(*:has([href*="ziaruldetulcea.ro"])):has([href]))
+
+actualitati-valcene.ro##.wp-block-image:not(*:has([href*="actualitati-valcene.ro"])):has([href])
 
 !#include road-ubo.txt

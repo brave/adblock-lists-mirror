@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Fwxjo8DDdqOj/cXe86fdjA
-! Version: 202510270941
+! Checksum: hsAxllh02b7wRHumNVW/SA
+! Version: 202510271011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Oct 2025 09:41 UTC
+! Last modified: 27 Oct 2025 10:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6450,6 +6450,7 @@ hideogenius.com#?#[id^="oframevideoplayer"] > pjsdiv:-abp-has(> pjsdiv:-abp-cont
 fraza.com#?#[itemprop="articleBody"] > div:-abp-has(a[href^="https://news.google.com/publications/"])
 vk-smi.ru##[itemprop="articleBody"] ~ .text-center
 itsider.com.ua,mmr.net.ua##[itemtype="https://schema.org/WPAdBlock"] > a[href][target="_blank"]
+kolesa.ru##[ng-controller="SubscribeController"]
 shadowcore.ru##[onclick="showBoosty();"]
 diets.ru##[onclick^="closeDailyRecipesPopup"],form[class^="dayrecipes"]
 rshb.ru#?#[role="dialog"]:-abp-has(> div > div > p > [href="/pd-policy#cookie"])

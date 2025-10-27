@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2fQ3uIIm8gOIsDDpj+cnFg
-! Version: 202510270941
+! Checksum: kRO5WHTP0J/+MFAbWw3bTw
+! Version: 202510271011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Oct 2025 09:41 UTC
+! Last modified: 27 Oct 2025 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2476,6 +2476,7 @@ _tizers.
 ||athotel.net/vst.xml$third-party
 ||atlassolutions.com^
 ||au.ru/auctioninformer/
+||auto.kolesa.ru/api/*-widget?$script,domain=~auto.kolesa.ru
 ||autocentre.ua^$third-party,subdocument
 ||autoreg.ru^$third-party
 ||autospot.ru/widget/$third-party
@@ -21762,6 +21763,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||klukva.org/bann/
 ||ko.com.ua/sites/all/themes/ko/i/oki-print.
 ||koko.by/storage/banners
+||kolesa.ru/adfox.asyn.code.$script
 ||kolikbolik.top/mg.
 ||kolo.news/media/banner/
 ||kolomna-spravka.ru/rklm/
@@ -26764,6 +26766,7 @@ fashion2news.com,hotallnews.today,newspad.ru##body > div[id][class]
 24pdd.ru,nullcms.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
 kurs.com.ua,ontvtime.ru,ritsatv.ru,skidkaonline.ru,ternopillive.com##body > div[style*="background-color:"][style*="z-index:"]
 gsm.in.ua##body > div[style^="background:"][style*="display: block"]
+www.kolesa.ru##body > div[style^="position: fixed;"][style*="z-index:"]
 motorpage.ru##body.noscroll::before
 qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
 live.vkvideo.ru##div[class^="Notifications_root"]

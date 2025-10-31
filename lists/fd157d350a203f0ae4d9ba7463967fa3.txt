@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JaZn+DES0v4aTc+1Rp1mBQ
-! Version: 202510312011
+! Checksum: 1h45qMh9mEOnIev3thWp8Q
+! Version: 202510312032
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 Oct 2025 20:11 UTC
+! Last modified: 31 Oct 2025 20:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14254,7 +14254,7 @@ rl-team.net##.download_blue_yellow
 terabit.biz##.download_inner
 hostmp3.ru##.download_method > .method_box ~ *
 fishki.net#?#.drag_element:-abp-has(.adv_info_wrapper)
-fishki.net#?#.drag_element:-abp-has([href*="poleznaja-reklama.html"])
+fishki.net#?#.drag_element:-abp-has([href="javascript:void(0)"])
 fishki.net#?#.drag_element:-abp-has([href]:-abp-contains(Peклама))
 fishki.net#?#.drag_element:-abp-has(script[id^="generated_ID_"])
 gennadij.pavlenko.name##.draggable_oio
@@ -16610,7 +16610,7 @@ bizua.org,podruzke.ru#?#.vce-related-box:-abp-has(> .main-box-inside script)
 ixbt.com##.vcont
 l2db.ru##.vda
 ixbt.com##.vertb
-inkorr.com##.vertical__banner
+112.ua,inkorr.com##.vertical__banner
 mobportal.net##.verx_r
 facenews.ua##.verytopbanner
 alcogolizm.com,jlady.ru,parazitovnetu.ru,spinazdorov.ru##.vex
@@ -19827,6 +19827,7 @@ sovsport.ru#?#p:-abp-has(> strong:-abp-contains(Okko))
 frenglish.ru##p[align="center"] > a[href] > img
 www.ruhim.ru##p[align="center"] > noindex > a[href][target="_blank"] > img
 baza-nomerov.ru##p[style="border: 3px solid #000000; background-color: #FFFF80; padding: 10px;"]
+112.ua##p[style="margin-top:-18px;font-size:12px;margin-bottom: 40px;"]
 golbis.com##p[style="padding-left: 20px;"][align="center"]
 etotop.net,frenglish.ru##p[style="text-align: center"] > a[href] > img
 golbis.com##p[style="text-align:left;margin-left:10px;"]

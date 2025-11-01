@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tUcqNf1ZD7UpeEJFTZp5sA
-! Version: 202511011331
+! Checksum: EbHIfW6A9Xdc4RIemFKxUQ
+! Version: 202511011412
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Nov 2025 13:31 UTC
+! Last modified: 01 Nov 2025 14:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1351,7 +1351,6 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="://softclicks.ru/"]
 ##a[href*="://sugisatomi.com/"]
 ##a[href*="://superiortds.ru/"]
-~2ip.ru,~sx.org##a[href*="://sx.org/"]
 ##a[href*="://takenewsoft.ru/"]
 ##a[href*="://tatarkoresh.ru"]
 ##a[href*="://tdsrotations.ru/"]
@@ -23688,6 +23687,7 @@ ru###ads-top.ads
 2ip.io,2ip.ru##a[href*="://hdmnm"]
 2ip.io,2ip.ru##a[href*="://hidem"]
 2ip.io,2ip.ru##a[href*="://proxyelite.info"]
+2ip.io,2ip.ru##a[href*="://sx.org/"]
 2ip.io,2ip.ru##a[href*="adBannerRedirector"]
 2ip.io,2ip.ru##a[href*="proxyshare.com/"]
 2ip.io,2ip.ru##nav a[target="_blank"]
@@ -23706,7 +23706,6 @@ ru###ads-top.ads
 ||hidemyname.net^$third-party,popup
 ||proxyelite.info^$third-party,popup
 ||proxyshare.com^$third-party,popup
-||sx.org^$third-party,popup
 !
 ! Avito
 www.avito.ru##div[class^="advert-"]

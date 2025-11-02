@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j5f2SuBK8rGnnQEIpbr+Iw
-! Version: 202511021812
+! Checksum: E+dNOn19eAr96+571Bd7/Q
+! Version: 202511021841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Nov 2025 18:12 UTC
+! Last modified: 02 Nov 2025 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12598,6 +12598,7 @@ referatwork.ru###sidebar > .scroll
 videomin.ws#?##sidebar > .sidebar-content:-abp-has(> .top > .fix:-abp-contains(Реклама))
 tvvse.my1.ru#?##sidebar > .sidebox:-abp-has(> .sidetitle > span:-abp-contains(/^интересное/i))
 sportarena.com###sidebar > .textwidget
+nim.ru###sidebar > .widget.banner:nth-child(-n+3)
 openssource.biz#?##sidebar > .widget:-abp-has([href*="//pwnd.cx"])
 openssource.biz#?##sidebar > .widget:-abp-has([href*="utm_"][target="_blank"])
 sportarena.com###sidebar > .widget_text

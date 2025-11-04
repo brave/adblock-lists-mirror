@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /UUwdpXznls9L53FeNKgpw
-! Version: 202511031931
+! Checksum: V/n73TK5EUDkJczBWbO2+w
+! Version: 202511040141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Nov 2025 19:31 UTC
+! Last modified: 04 Nov 2025 01:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1553,7 +1553,7 @@ by,~mail.ru,ru,ua##.banner_box
 ~pari.ru##a[href^="https://pari.ru/promo/"]
 ~pikadil.ru##a[href^="https://pikadil.ru"]
 ##a[href^="https://relap.io/"][href*="promo_ad_link"]
-##a[href^="https://wcm-ru.frontend.weborama.fr/fcgi-bin/dispatch.fcgi?"]
+##a[href^="https://wcm"][href*="weborama"][href*="/fcgi-bin/dispatch.fcgi?"]
 ##a[href^="https://www.juicer.io?referrer="]
 ~litres.ru##a[href^="https://www.litres.ru/"][href$="#buy_now_noreg"]
 ##a[onclick*="/link-fes.ru"]
@@ -15913,6 +15913,7 @@ forum.antichat.club##.sam3Bannner2Uni
 beliyspisok.ru,clubvolvo.ru,forum-volgograd.ru,ifud.ws,rusfishing.ru,termoportal.ru,zerocoolpro.biz##.samBannerUnit
 cnc3018.ru,termoportal.ru,zerocoolpro.biz##.samCodeUnit
 forum-volgograd.ru##.samListItem
+news.ru##.samolet-ad
 uman24.org.ua##.sample-posts
 sho.org.ua#?#.sample-posts > h4:-abp-contains(/партнер/i)
 24.cv.ua#?#.sample-posts:-abp-has(> h4:-abp-contains(/^новини партн/i))
@@ -22138,7 +22139,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||newkaliningrad.ru/local/assets/js/yabinding.js
 ||news.agro-center.com.ua/wp-content/uploads/*/background-
 ||news.mspravka.info/adverting/
-||news.ru/public/new/desktop/samolet/
+||news.ru/assets/images/ad/
 ||news.tj/adfiles?adid=
 ||news.yandex.ru^$domain=pogoda.ru
 ||news.zancor.ru/images/elvira$image

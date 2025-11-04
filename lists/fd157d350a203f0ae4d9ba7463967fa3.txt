@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jpiXcctWVxSuNjZswiy7PA
-! Version: 202511040341
+! Checksum: sX1yMxMK2+fTfT4L8h4ojg
+! Version: 202511040941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Nov 2025 03:41 UTC
+! Last modified: 04 Nov 2025 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23724,8 +23724,9 @@ www.avito.ru#?#div[class^="styles-item-"]:-abp-has(> div[class^="advert-mimicry-
 ! Checkadblock (adblock-tester.com) - портфолио веб-мастера, выдаваемое за тест
 $third-party,image,script,xmlhttprequest,domain=adblock-tester.com|checkadblock.ru
 /banners/*$domain=adblock-tester.com|checkadblock.ru
+adblock-tester.com,checkadblock.ru###app > .description
+adblock-tester.com,checkadblock.ru##footer
 adblock-tester.com,checkadblock.ru##object,embed
-checkadblock.ru##.warning
 ||adblock-tester.com^$csp=script-src 'self'
 ||checkadblock.ru^$csp=script-src 'self'
 !

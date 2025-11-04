@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sX1yMxMK2+fTfT4L8h4ojg
-! Version: 202511040941
+! Checksum: dnXXTvHFwKvAee3dQbRRrg
+! Version: 202511041641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Nov 2025 09:41 UTC
+! Last modified: 04 Nov 2025 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17009,6 +17009,8 @@ diletant.media##[class^="HomePage_aBanner"]
 kanobu.ru##[class^="IgromaniaChannel_mania"]
 igromania.ru,kanobu.ru##[class^="LentaAdFox_"]
 360tv.ru##[class^="LinkZen"]
+igromania.ru,kanobu.ru##[class^="PlotWithMaterials_plots_"] [class*="_tabs"] > button ~ button
+igromania.ru,kanobu.ru#?#[class^="PlotWithMaterials_plots_"]:-abp-has(> div [class*="_tabs"] > button ~ button[class*="_active_"]) [class^="PlotWithMaterials_head_"] ~ div
 stopgame.ru#?#[class^="_content"] > div[class^="_video-wrapper"] ~ [class] [class^="_list_"]:-abp-has([href^="/to?http"][href*="%2Fgo"])
 stopgame.ru#?#[class^="_content"] > div[class^="_video-wrapper"] ~ [class] b:-abp-contains(/скидка|скидки|промокод|партнёр/i)
 overclockers.ua##[class^="ad_slot"]
@@ -19859,8 +19861,6 @@ vk.com,vk.ru##section[class^="ImageBanner-"]
 igromania.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_isFirst"] ~ [class^="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] [class^="TextContent_text"] > p:-abp-contains(/^Реклама:/))
 igromania.ru,kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] a[href="/tags/partnyorskij-material/"])
 igromania.ru,kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_materialSection"]:-abp-has(> div [class^="SpecialLabelOfArticle_isPartnerMaterial"])
-igromania.ru,kanobu.ru##section[class^="PlotWithMaterials_plots_"] [class*="_tabs"] > button ~ button
-igromania.ru,kanobu.ru#?#section[class^="PlotWithMaterials_plots_"]:-abp-has(> div [class*="_tabs"] > button ~ button[class*="_active_"]) [class^="PlotWithMaterials_head_"] ~ div
 agroxxi.ru##section[class^="my-"]
 vikka.ua##section[id^="ctup_ads-"]
 agro-business.com.ua##section[id^="sp-subcribe-footer"]:not(#sp-subcribe-footer)

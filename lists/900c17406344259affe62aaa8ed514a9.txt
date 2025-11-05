@@ -64,7 +64,7 @@ liga.net##+js(abort-current-inline-script, window.innerWidth, rcBuf)
 techmusic.ru##+js(abort-current-inline-script, window.onload, _uWnd)
 htmlweb.ru##+js(abort-on-property-read, AdbBanner)
 fapreactor.com,pornreactor.cc,reactor.cc##+js(abort-on-property-read, CTRManager.host3)
-anifap.com,anifap.xyz,anipoisk.org,anitokyo.tv,hcdn.online,kinofilm.co##+js(abort-on-property-read, ClickUndercookie)
+anifap.com,anifap.xyz,anipoisk.org,anitokyo.tv,anitokyo1.top,hcdn.online,kinofilm.co##+js(abort-on-property-read, ClickUndercookie)
 comedy-radio.ru,radioromantika.ru,relax-fm.ru,rg.ru,sm.news,veseloeradio.ru,www.e1.ru##+js(abort-on-property-read, Date.prototype.toUTCString)
 vk.com,vk.ru##+js(abort-on-property-read, Groups.showDisclaimer)
 rutor.org##+js(abort-on-property-read, Light.Popup)
@@ -210,7 +210,7 @@ rutube.ru##+js(addEventListener-defuser, click, current, elements, [data-testid=
 lrepacks.net##+js(addEventListener-defuser, click, pop)
 ~id.rambler.ru,~mail.rambler.ru,rambler.ru,~vp.rambler.ru##+js(addEventListener-defuser, copy, extra)
 kp.kg,kp.kz,kp.md,kp.ru,rbc.ru,sportrbc.ru##+js(addEventListener-defuser, copy, getSelection)
-carservic.ru,iptv.org.ua,newxboxone.ru,tva.org.ua,ufchgu.ru##+js(addEventListener-defuser, copy, pagelink)
+aione.ru,carservic.ru,iptv.org.ua,newxboxone.ru,tva.org.ua,ufchgu.ru##+js(addEventListener-defuser, copy, pagelink)
 megaprogz.ru,programhub.ru##+js(addEventListener-defuser, download, isMonetized)
 trychatgpt.ru##+js(addEventListener-defuser, error, '', elements, [data-status="loading"])
 rg.ru##+js(addEventListener-defuser, error, (e){t(e)})
@@ -720,6 +720,10 @@ mail.ru##[slot="main-column"] > .tabs:matches-media((max-width: 1280px)):style(h
 !#if env_mobile
 mail.ru#@#body:not(.js-module) .tabs + div[class]:style(min-width: fit-content !important)
 !#endif
+!
+! Book service read&download
+booksreed.ru,novkniga.ru,skanbooks.ru##+js(href-sanitizer, .specialcontdown > a[href^="/download?downloadlink="], ?downloadlink)
+booksreed.ru,novkniga.ru,skanbooks.ru##+js(set-attr, .specialcontdown > a, download)
 !
 ! Patephone
 patephone.com###yba-wrap

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yYL7onHqY62k+0oimrXRkQ
-! Version: 202511050811
+! Checksum: wxtEwWuiSStdNRiJWn6ZOA
+! Version: 202511051131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Nov 2025 08:11 UTC
+! Last modified: 05 Nov 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18399,7 +18399,7 @@ www.google.com,www.google.ru##body > table[style="border: 1px solid #369"]
 christianka.bratstvo.org##body > table[width="99%"] + p[align="center"]
 payeer-gift.ru##body div .banner
 om1.ru##body div[class*="-branding"]
-anifap.com,anifap.xyz,anitokyo.tv##body.playerCode > div[style^="position: absolute;"][onclick]
+anifap.com,anifap.xyz,anitokyo.tv,anitokyo1.top##body.playerCode > div[style^="position: absolute;"][onclick]
 forum.flprog.ru##body.section-index .sidebar
 the-geek.ru##body::before
 livetvstream.pro,me##body[bgcolor] > #adbtm
@@ -23508,7 +23508,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?R987u=$xmlhttprequest
+||pikabu.ru/ajax/*?R986u=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23680,9 +23680,10 @@ ru###ads-top.ads
 ||ru/content/stargate/*.jpg$image,~third-party
 ! ---
 ! 2ip.ru и 2ip.io
-2ip.ru##.ad-change-ip
+2ip.io,2ip.ru##.ad-change-ip
 2ip.io,2ip.ru##.ad-test-vpn
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
+2ip.io,2ip.ru##.ip-icon-x-eye
 2ip.io,2ip.ru##.main-ip-icon-warning
 2ip.io,2ip.ru##.main-ip-icon-warning ~ [aria-disabled]
 2ip.io,2ip.ru#?#.narrow-column > style ~ div > div:-abp-has(a[style^="color:"])

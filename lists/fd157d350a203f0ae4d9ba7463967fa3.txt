@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5uhu1W1702kKzPSfOS6G0A
-! Version: 202511060611
+! Checksum: 44W6T49gDG/PSk1PHU0ctA
+! Version: 202511061411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Nov 2025 06:11 UTC
+! Last modified: 06 Nov 2025 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15656,6 +15656,8 @@ qip.ru##.q_banner
 qip.ru##.q_teaser
 shopping-spb.su##.queen_link
 ktozvonit.com.ua#?#.question:-abp-has(> .adsbygoogle)
+dtf.ru##.quiz-promo
+dtf.ru##.quiz__description
 bash.im##.quote > .text:first-child
 bash.im##.quote > div[style]
 multiurok.ru##.r-courses__lists
@@ -23509,7 +23511,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?R986u=$xmlhttprequest
+||pikabu.ru/ajax/*?R985u=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23714,6 +23716,7 @@ ru###ads-top.ads
 ||proxyshare.com^$third-party,popup
 !
 ! Avito
+www.avito.ru##div[class*="styles-module-root_animation-"]:empty
 www.avito.ru##div[class^="advert-"]
 www.avito.ru##div[class^="items-ads-"]
 www.avito.ru##div[class^="style-ads"]

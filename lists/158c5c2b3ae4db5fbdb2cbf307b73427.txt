@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BcbO9/ztX+pLiNWWwodmSQ
-! Version: 202511060611
+! Checksum: iq/pcIL9sG28pmh5OjscAQ
+! Version: 202511061411
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Nov 2025 06:11 UTC
+! Last modified: 06 Nov 2025 14:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6711,6 +6711,7 @@ start.rt.ru##div[class^="StyledHeader-"] > canvas
 rg.ru##div[class^="Subscribe_formSub"]
 premium.mts.ru##div[class^="ToastRoot_wrapper_"]
 meduza.io##div[class^="TopBar-"][class*="root"]
+rg.ru##div[class^="Umbrella_newsletterSubscribe_"]
 stopgame.ru#?#div[class^="_content"] > p:-abp-has(> a[href*="boosty"])
 tribuna.com##div[class^="_footer__apps"]
 stopgame.ru##div[class^="_podcast-container_"]
@@ -6772,6 +6773,7 @@ ctc.ru##div[data-cy="cookie-concent"]
 stolichki.ru##div[data-hint="app"]
 avito.ru##div[data-key^="promoWidget"]
 avito.ru##div[data-marker="standard-banner"]
+avito.ru##div[data-marker^="top-notification/"]
 santehnika-online.ru##div[data-name="FooterCookieAgreement"]
 lemanapro.ru##div[data-qa="cookie-notification"]
 hh.ru##div[data-qa="cookies-policy-informer"]

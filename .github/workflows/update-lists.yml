@@ -19,15 +19,17 @@ jobs:
       uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
       with:
         python-version: 3.13
-        cache: 'pip' # caching pip dependencies
 
-    - run: pip install -r requirements.txt
+    - name: Install uv
+      uses: astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41 # v7.1.2
+
+    - run: uv sync --frozen
     - name: Generate list files
       env:
         SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
       run: |
         mkdir newlists
-        python3 update-lists.py --output-dir newlists
+        uv run python update-lists.py --output-dir newlists
     - name: Commit files
       run: |
         git config user.name "github-actions[bot]"

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 44W6T49gDG/PSk1PHU0ctA
-! Version: 202511061411
+! Checksum: XmH7G9w0bfSdTIfPFD1E8A
+! Version: 202511062331
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Nov 2025 14:11 UTC
+! Last modified: 06 Nov 2025 23:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12198,8 +12198,6 @@ liveinternet.ru###liveinternet_600x250
 liveinternet.ru###liveinternet_billboard
 sibmail.com###ll_slot_3 + * + div[style*="160px;"]
 sm.news###loaded
-lurkmore.wtf###localNotice #aside_buttons
-lurkmore.wtf###localNotice .infobox
 root-nation.com###login-form + .tdc-zone > .tdc_zone > div[class^="tdi_"][class*="_rand_style"] + .tdc-row > .tdc-row-content-vert-center
 rupier.com###logo > noindex
 osadovod.ru###logo-area
@@ -12271,8 +12269,6 @@ daily-inform.ru###mvp-post-bot-wrap
 internetsms.org###myCarousel
 doctorrouter.ru###myModal
 pythonru.com###mytest
-lurkmore.wtf###n-Группа-в-Дискорде
-lurkmore.wtf###n-Канал-в-Телеграме
 afportal.ru###nadoelo
 matematika-club.ru###nagadai
 mignews.com###nakonu_rss
@@ -13364,6 +13360,7 @@ factor.ua##.b-place-art__mark
 imgal.ru##.b-popup
 sobaka.ru##.b-post-view__tgb
 tut.by##.b-prmplace
+d3.ru##.b-promo
 biwork.ru##.b-promo-slider
 mport.ua##.b-puzzle-banner
 7zip-download.ru,autotuning.expert,csgamer.ru,egdz.net,fbm.ru,kazakh-zerno.net,makeupkey.ru,soft-click.ru##.b-r
@@ -16167,7 +16164,6 @@ itzine.ru##.site-header__img
 football-ukraine.com#?#.site-section-header:-abp-contains(РЕКЛАМА)
 auto-kmu.ru##.sitebar
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.sitebar_reklama_wr
-lurkmore.wtf##.sitenotice > .floatleft + p + p
 emusic.me##.skin-block
 festyy.com##.skip-advert
 fc-zenit.ru##.sl-foot
@@ -19729,6 +19725,10 @@ crackstatus.net##li[id^="slide"]
 penzainform.ru##li[style^="width: 140px; height:"][style*="max-height"]
 liveball.my,liveball.uno,liveball.*###custom_brand
 liveball.my,liveball.uno,liveball.*##.odds_section
+lurkmore.*###localNotice #aside_buttons
+lurkmore.*###localNotice .infobox
+lurkmore.*###n-Группа-в-Дискорде
+lurkmore.*###n-Канал-в-Телеграме
 old.myshows.me##main > .contAlt
 allcarz.ru#?#main > .container > .site-content:-abp-has(> .content-banner)
 protanki.tv##main > .hidden
@@ -19865,6 +19865,9 @@ igromania.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[cl
 igromania.ru,kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] a[href="/tags/partnyorskij-material/"])
 igromania.ru,kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_materialSection"]:-abp-has(> div [class^="SpecialLabelOfArticle_isPartnerMaterial"])
 agroxxi.ru##section[class^="my-"]
+d3.ru##section[data-uid="extraAd"]
+d3.ru##section[data-uid^="ad"]
+d3.ru##section[data-uid^="placeholder-"]
 vikka.ua##section[id^="ctup_ads-"]
 agro-business.com.ua##section[id^="sp-subcribe-footer"]:not(#sp-subcribe-footer)
 gamegpu.com##section[id^="tm-top-"]
@@ -20926,7 +20929,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||bizarre.kiev.ua*/ban/
 ||biznesguide.ru/images/banner$image
 ||bkn.ru/content/banners/
-||blablacar.d3.ru^
 ||blitz.if.ua/local/banner/
 ||blizzardheroes.ru/img/1x*.jpg
 ||blogoreader.org.ua/b/

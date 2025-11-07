@@ -4,8 +4,8 @@ Creates SQLite database from adblock lists.
 """
 
 import os
-import sys
 import sqlite3
+import sys
 from pathlib import Path
 
 # Database configuration
@@ -85,11 +85,11 @@ def main():
         print(f"- Importing '{file_path}'...")
 
         try:
-            with open(file_path, "r", encoding="utf-8") as f:
+            with open(file_path, encoding="utf-8") as f:
                 content = f.read()
         except UnicodeDecodeError:
             # Try with different encoding if UTF-8 fails
-            with open(file_path, "r", encoding="latin-1") as f:
+            with open(file_path, encoding="latin-1") as f:
                 content = f.read()
 
         lines = content.split("\n")

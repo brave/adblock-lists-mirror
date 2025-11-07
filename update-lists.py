@@ -131,10 +131,7 @@ async def fetch_and_save_url(url, output_dir):
                     logger.info(f"downloaded {url}")
 
                     move_downloaded_file(temp_file.name, url, output_dir)
-        except (
-            aiohttp.ClientResponseError,
-            aiohttp.client_exceptions.ClientConnectorError,
-        ):
+        except aiohttp.ClientError:
             logging.exception(f"An exception happened while processing {url}")
 
 

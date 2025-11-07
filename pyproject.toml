@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Tool to download and mirror adblock lists"
 requires-python = ">=3.13"
 dependencies = [
-    "aiohttp==3.12.15",
+    "aiohttp==3.13.2",
     "requests==2.32.5",
     "sentry-sdk[aiohttp]==2.35.2",
 ]

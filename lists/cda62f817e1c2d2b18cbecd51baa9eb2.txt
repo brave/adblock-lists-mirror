@@ -81,7 +81,6 @@ www.youtube.com##+js(trusted-replace-fetch-response, '"adSlots"', '"no_ads"', /g
 ! https://github.com/uBlockOrigin/uAssets/issues/27415#issuecomment-3276882899
 ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$xhr,method=post,badfilter
 
-
 ! https://github.com/uBlockOrigin/uAssets/issues/3367
 ! web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.sideFeed.nodes.0.{-}.nodes.0.rhc_ad)
 ! web.facebook.com,www.facebook.com##+js(json-prune-xhr-response, data.viewer.sideFeed.nodes.0.{-}.nodes.0.rhc_ad, , propsToMatch, /api/graphql)
@@ -405,3 +404,6 @@ chip.de#@#.dlcharts + div:not(.List):remove()
 ! https://github.com/AdguardTeam/AdguardFilters/commit/88b7c107328881d4380b6d26ec7d44aa6bd6dc97
 itest.5ch.net#@#.ad_nth
 itest.5ch.net##.ad_nth:not([style])
+
+! https://github.com/uBlockOrigin/uAssets/issues/30728
+||reuters.com/pf/resources/dist/*/js/index.js?$badfilter

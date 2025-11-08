@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fr4eshZ4uXZqP9m2rJw+Kw
-! Version: 202511081111
+! Checksum: kahN2XGUYLGte9nn4u1M4A
+! Version: 202511081131
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Nov 2025 11:11 UTC
+! Last modified: 08 Nov 2025 11:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2747,7 +2747,7 @@ jpgazeta.ru##[class*="share_save_widget"]
 cn.ru##[class*="socnets"]
 mash.ru##[class*="styles_shares_"]
 hromadske.radio##[class^="FollowBanner"]
-ainews.kz##[class^="Footer_socials"]
+ainews.kz,hromadske.radio,rodina-history.ru##[class^="Footer_socials"]
 meduza.io##[class^="Toolbar-module_list"] > [class^="Toolbar-module_item"]:nth-child(-n+3)
 rg.ru##[class^="UmbrellaSocial_root_"]
 t-j.ru##[class^="_socials_"]
@@ -3053,7 +3053,6 @@ hd.kinopoisk.ru##div[class^="Footer_social-networks"]
 360tv.ru##div[class^="Footer_socialBox"]
 1tv.ru##div[class^="Footer_socialIcons"]
 diletant.media##div[class^="Footer_social__media"]
-hromadske.radio##div[class^="Footer_socials"]
 ctc.ru##div[class^="HeaderVerticalNav_socialLinkSet"]
 hromadske.radio##div[class^="Header_socials"]
 images.rambler.ru##div[class^="ImageBig__share"]
@@ -3065,7 +3064,7 @@ my.ua##div[class^="ShareButtons_"]
 afisha.ru##div[class^="ShareFriends_Container"]
 trmzk.ru##div[class^="SharePost__"]
 mywebpc.ru##div[class^="SharePost__ShareButton"]
-rg.ru##div[class^="Share_root"]
+rg.ru,rodina-history.ru##div[class^="Share_root"]
 360tv.ru##div[class^="Share_shareButton"]
 tribuna.com##div[class^="SharedSocialButtons"]
 www.1tv.ru##div[class^="SocialBlock_"]

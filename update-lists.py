@@ -12,7 +12,6 @@ import tempfile
 from pathlib import Path
 
 import aiohttp
-import requests
 import sentry_sdk
 from aiohttp_retry import ExponentialRetry, RetryClient
 
@@ -164,7 +163,17 @@ async def fetch_and_save_url(session, url, output_dir):
 async def main():
     args = parse_arguments()
 
-    adblock_catalog = requests.get(args.adblock_catalog, timeout=60).json()
+    # Fetch the adblock catalog using aiohttp
+    retry_options = ExponentialRetry(attempts=3)
+    connector = aiohttp.TCPConnector(limit_per_host=3)
+
+    async with RetryClient(
+        connector=connector, retry_options=retry_options, connector_owner=False
+    ) as session:
+        async with session.get(
+            args.adblock_catalog, timeout=60, raise_for_status=True
+        ) as response:
+            adblock_catalog = await response.json(content_type="text/plain")
 
     adblock_lists = []
     metadata = {}
@@ -177,8 +186,6 @@ async def main():
     metadata_file = Path(args.output_dir) / "metadata.json"
     metadata_file.write_text(json.dumps(metadata, indent=4) + "\n")
 
-    retry_options = ExponentialRetry(attempts=3)
-    connector = aiohttp.TCPConnector(limit_per_host=3)
     async with RetryClient(connector=connector, retry_options=retry_options) as session:
         tasks = [
             fetch_and_save_url(session, url, args.output_dir) for url in adblock_lists

@@ -119,7 +119,9 @@ def move_downloaded_file(filename, url, output_dir):
 async def fetch_and_save_url(session, url, output_dir):
     """Fetch a URL and save it to a file, with retries for transient errors."""
     try:
-        async with session.get(url, raise_for_status=True, timeout=60) as response:
+        async with session.get(
+            url, raise_for_status=True, timeout=aiohttp.ClientTimeout(total=60)
+        ) as response:
             # Check if the response is successful
             if response.status == 200:
                 # Create a temporary file
@@ -156,7 +158,7 @@ async def fetch_and_save_url(session, url, output_dir):
                 )
                 return
     except aiohttp.ClientError:
-        logging.exception(f"An exception occurred while processing {url}")
+        logger.exception(f"An exception occurred while processing {url}")
         return
 
 
@@ -171,7 +173,9 @@ async def main():
         connector=connector, retry_options=retry_options, connector_owner=False
     ) as session:
         async with session.get(
-            args.adblock_catalog, timeout=60, raise_for_status=True
+            args.adblock_catalog,
+            timeout=aiohttp.ClientTimeout(total=60),
+            raise_for_status=True,
         ) as response:
             adblock_catalog = await response.json(content_type="text/plain")
 

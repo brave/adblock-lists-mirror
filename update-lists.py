@@ -14,6 +14,7 @@ from pathlib import Path
 import aiohttp
 import requests
 import sentry_sdk
+from aiohttp_retry import ExponentialRetry, RetryClient
 
 logger = logging.getLogger("update_lists")
 logging.basicConfig(
@@ -23,6 +24,8 @@ logging.basicConfig(
         "%(levelname)s - %(message)s"
     ),
 )
+
+MAX_FILE_SIZE = 100 * 1024 * 1024  # 100 MB
 
 sentry_sdk.init(enable_tracing=False)
 
@@ -56,7 +59,7 @@ def validate_checksum(filename):
     )
     match = checksum_pattern.search(data)
     if not match:
-        logger.warn(f"Couldn't find a checksum in {filename}")
+        logger.warning(f"Couldn't find a checksum in {filename}")
         return
 
     checksum = match.group(1)
@@ -106,33 +109,56 @@ def move_downloaded_file(filename, url, output_dir):
         logger.info(f"moving {filename} to {output_file_path}")
         shutil.move(filename, output_file_path)
     except Exception:
-        logger.exception(f"An exception happened while processing {filename}")
+        logger.exception(
+            f"An exception happened while processing {filename} from {url}"
+        )
         Path(filename).unlink()
 
     return output_file_path
 
 
-async def fetch_and_save_url(url, output_dir):
-    async with aiohttp.ClientSession() as session:
-        try:
-            async with session.get(url, raise_for_status=True) as response:
-                # Check if the response is successful
-                if response.status == 200:
-                    # Create a temporary file
-                    temp_file = tempfile.NamedTemporaryFile(delete=False)
-
+async def fetch_and_save_url(session, url, output_dir):
+    """Fetch a URL and save it to a file, with retries for transient errors."""
+    try:
+        async with session.get(url, raise_for_status=True, timeout=60) as response:
+            # Check if the response is successful
+            if response.status == 200:
+                # Create a temporary file
+                with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+                    file_size = 0
                     # Write the response content to the temporary file
                     while True:
                         chunk = await response.content.read(1024)
                         if not chunk:
                             break
-                        temp_file.write(chunk)
-                    temp_file.close()
-                    logger.info(f"downloaded {url}")
 
+                        file_size += len(chunk)
+                        if file_size > MAX_FILE_SIZE:
+                            logger.error(
+                                "Download failed for %s: file size (%d bytes) "
+                                "exceeds the limit of %d bytes.",
+                                url,
+                                file_size,
+                                MAX_FILE_SIZE,
+                            )
+                            Path(temp_file.name).unlink()
+                            return
+
+                        temp_file.write(chunk)
+                    logger.info(f"downloaded {url}")
+                    temp_file.close()
                     move_downloaded_file(temp_file.name, url, output_dir)
-        except aiohttp.ClientError:
-            logging.exception(f"An exception happened while processing {url}")
+                return  # Success
+            else:
+                logger.error(
+                    "Request to %s returned status %s, expected 200. Skipping.",
+                    url,
+                    response.status,
+                )
+                return
+    except aiohttp.ClientError:
+        logging.exception(f"An exception occurred while processing {url}")
+        return
 
 
 async def main():
@@ -151,9 +177,13 @@ async def main():
     metadata_file = Path(args.output_dir) / "metadata.json"
     metadata_file.write_text(json.dumps(metadata, indent=4) + "\n")
 
-    return await asyncio.gather(
-        *[fetch_and_save_url(url, args.output_dir) for url in adblock_lists]
-    )
+    retry_options = ExponentialRetry(attempts=3)
+    connector = aiohttp.TCPConnector(limit_per_host=3)
+    async with RetryClient(connector=connector, retry_options=retry_options) as session:
+        tasks = [
+            fetch_and_save_url(session, url, args.output_dir) for url in adblock_lists
+        ]
+        await asyncio.gather(*tasks)
 
 
 if __name__ == "__main__":

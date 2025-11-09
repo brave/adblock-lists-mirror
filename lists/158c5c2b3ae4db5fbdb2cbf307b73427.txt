@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ezP8St2gI3s7WLHRIEI07A
-! Version: 202511091031
+! Checksum: EPVjEYGe2drFNFDSJP9Gyw
+! Version: 202511091111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Nov 2025 10:31 UTC
+! Last modified: 09 Nov 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2776,6 +2776,7 @@ ctc.ru##[data-cy="social-links"]
 gdetraffic.com##[data-gcat="social_link"]
 kp.kg,kp.kz,kp.md,kp.ru##[data-gtm-social]
 banki.ru##[data-gtm-view*="view_share_"]
+author.today##[data-hint="Поделиться"]
 horoscopes.rambler.ru##[data-horo-new*=":share:"]
 iphones.ru##[data-id="externalpostlist"]
 mediazona.ca,zona.media##[data-js-selector="show-social-list"]
@@ -2915,6 +2916,8 @@ coop-land.ru##article > .social ~ .text-center
 coop-land.ru##article > .social ~ center
 rivnepost.rv.ua##article > .uSocial-Share + p
 martrending.ru#?#article > div[class]:-abp-has(> div > a[href^="https://t.me/"])
+tvc.ru##article > footer
+tvc.ru##article > header > div > div:nth-child(2)
 comments.ua,nazhyvo.kyiv.ua#?#article > p:-abp-has(> a[href^="https://t.me/"])
 ont.by#?#article > p:-abp-has(> a[href^="https://zen.yandex.ru/"])
 zmi.ck.ua#?#article > strong:-abp-has(> a[href^="https://t.me/"])

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fJdBogYLTbvtM8r3G/V6/g
-! Version: 202511101541
+! Checksum: o26kaoF8M+/j4aGUDrhcfg
+! Version: 202511101611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Nov 2025 15:41 UTC
+! Last modified: 10 Nov 2025 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14354,6 +14354,7 @@ www.pesticidy.ru##.fix
 alvin-almazov.ru##.fix_block
 e-sant.ru##.fixday
 allboxing.ru##.fixed-banner
+habr.com##.fixed-banner-wrapper
 sims3pack.ru##.fixed-block
 sochi24.tv##.fixed-bottom-banner
 agroportal.ua##.fixedBanner
@@ -15889,7 +15890,6 @@ newsua.ru##.rsya
 bitshare.link##.rtbCont
 rusvesna.su##.rtecenter > a[href][target="_blank"]
 alkogolu.net,cardiologiya.com,prizvanie.su,sustav.info##.rtiz
-habr.com##.rtk-cod-special
 seriallife.ru##.rtp-wrapper
 foodretail.ru##.rttr_bnr
 cheboksary.ws##.ru200200
@@ -16144,8 +16144,8 @@ podillyanews.com##.similar-news
 novostiua.net##.simple-banner
 kurs.if.ua##.simple-top-block
 lifehacker.ru##.single-article > .widgets-renderer
-lifehacker.ru#?#.single-article__content:-abp-has(.article-card__meta a[href*="/topics/relax/books/"]) article > .core-buttons
-lifehacker.ru#?#.single-article__content:-abp-has(.article-card__meta a[href*="/topics/relax/books/"]) article a[target="_blank"][rel*="sponsored"] > img
+lifehacker.ru##.single-article__content article > .core-buttons
+lifehacker.ru##.single-article__content article a[target="_blank"][rel*="sponsored"] > img
 novadoba.com.ua##.single-bottom-advertising-block
 pravda.if.ua##.single-post-6__author
 hi-tech.ua#?#.single-post:-abp-has(.sam-pro-container)

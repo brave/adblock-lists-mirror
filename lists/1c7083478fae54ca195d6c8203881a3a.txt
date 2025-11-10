@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.4.2
+! Version: 4.2.3.9
 
 ! General
 
@@ -240,7 +240,6 @@ livemint.com##+js(rc, paywall, div.paywall)
 livemint.com##div[class^="storyPaywall_paywallStory_"]:remove()
 labusinessjournal.com##+js(cookie-remover, /^/)
 labusinessjournal.com###css-only-modals
-/\.emol\.cl\/(.+\/)?(pram-modal|PramModal)\.min\.js/$script,domain=lasegunda.com
 ||lavoz.com.ar/sites/*/paywall/*/pw.js$script,third-party
 letelegramme.fr##+js(rc, tlg-paywalled, div.tlg-paywalled)
 loebclassics.com##+js(cookie-remover, hupLclFreeReadsCookie)
@@ -385,7 +384,6 @@ valeursactuelles.com##+js(ra, class, div.qiota_reserve, stay)
 ||washingtonpost.com/*/tetro-client/$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
-||ynet.co.il/*/article/*?rel=plus$inline-script
 
 ! Advance Local
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##+js(set, window.adiData.entryTags, 0)
@@ -653,8 +651,6 @@ dominionpost.com##+js(rc, entry-content, article > div.entry-content)
 elfinancierocr.com##+js(ra, style, div.article-body-wrapper__styled[style])
 elfinancierocr.com##div.post
 epaper.indiatimes.com##div.epaperBlockerWrap
-/\/every\.to\/[-\w]+\//$inline-script
-every.to##+js(ra, style, div#post-body-full, stay)
 ||eviemagazine.com/api/trpc/post.paywall$xmlhttprequest,~third-party
 expressandstar.com,shropshirestar.com##+js(set, window.Fusion.globalContent.paywallStatus, false)
 ||fokus.se/app/plugins/sesamy-fpg/assets/js/sesamy-fpg.js$script,~third-party

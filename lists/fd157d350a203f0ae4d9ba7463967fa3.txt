@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cwAtVZHXx3/kUVUkG0NpCA
-! Version: 202511111311
+! Checksum: LYGFb9Lj8OgbY/yyTetctw
+! Version: 202511111341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Nov 2025 13:11 UTC
+! Last modified: 11 Nov 2025 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17013,6 +17013,7 @@ igromania.ru,kanobu.ru##[class^="PlotWithMaterials_plots_"] [class*="_tabs"] > b
 igromania.ru,kanobu.ru#?#[class^="PlotWithMaterials_plots_"]:-abp-has(> div [class*="_tabs"] > button ~ button[class*="_active_"]) [class^="PlotWithMaterials_head_"] ~ div
 stopgame.ru#?#[class^="_content"] > div[class^="_video-wrapper"] ~ [class] [class^="_list_"]:-abp-has([href^="/to?http"][href*="%2Fgo"])
 stopgame.ru#?#[class^="_content"] > div[class^="_video-wrapper"] ~ [class] b:-abp-contains(/скидка|скидки|промокод|партнёр/i)
+burninghut.ru#?#[class^="accent-card"]:-abp-has(.card-footer__categories > a[href="/category/musthave/"])
 overclockers.ua##[class^="ad_slot"]
 softlab-portable.net##[class^="adblock_"]
 bug.org.ua,yvision.kz##[class^="ads_"]

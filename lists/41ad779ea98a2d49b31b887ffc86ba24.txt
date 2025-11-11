@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f95ajKOGzyHO33sQlM93aQ
-! Version: 202511110542
+! Checksum: 2uPlqcysJwJN9Odgq05j1Q
+! Version: 202511110642
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-11-11 05:42 UTC
+! Last modified: 2025-11-11 06:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -50799,6 +50799,8 @@ broadbandbreakfast.com,404media.co##.outpost-cta
 broadbandbreakfast.com,404media.co##body,html:style(overflow: auto !important; position: initial !important;)
 ! sub popup
 press.princeton.edu##+js(set-cookie, block-popuproadblock, true)
+! newsletter popup
+sweet-shop.si##+js(set-cookie, aonehidepopupnewsletter1727208240, 1)
 ! gwr.com
 gwr.com##.chakra-modal__overlay
 gwr.com##.chakra-modal__content-container

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.4.3
+! Version: 4.2.4.4
 
 ! General
 
@@ -332,6 +332,7 @@ spektrum.de##+js(rc, pw-premium, article.pw-premium)
 spglobal.com##+js(cookie-remover, count)
 startribune.com##div.modal-backdrop
 startribune.com##body[class]:style(overflow: auto !important; position: static !important;)
+||stereogum.com/_next/static/chunks/pages/*/%5B*.js$script,~third-party
 study.com##+js(ra, class, div.faded-content)
 study.com##+js(ra, class, div.hidden[ng-non-bindable])
 study.com##div.article-cutoff-div
@@ -639,6 +640,8 @@ brainly.com,brainly.com.br##+js(set-local-storage-item, /^/, $remove$)
 brusselstimes.com##+js(ra, style, div[style*="height: 0;"], stay)
 businessden.com,richmondbizsense.com##+js(ra, class, div.cp-paywall-user)
 businessden.com,richmondbizsense.com##div#copperpress-paywall
+businesstoday.in##+js(cookie-remover, magazineSession)
+businesstoday.in##div#magazinePayWallStrip
 ||nitrocdn.com/*/paywall.$script,domain=capitalaberto.com.br
 cardiologie-pratique.com##+js(ra, class, div.wrap-node, stay)
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)

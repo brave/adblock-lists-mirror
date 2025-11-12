@@ -1,0 +1,28 @@
+[uBlock Origin]
+! Title: PersianBlockerMobile
+! Last modified: 2025-09-04 22:40:40 +0330
+! Expires: 5 days
+! Description: Filters to block ads in Persian websites on mobile browsers
+! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+! Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+!
+! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+
+
+! General !
+! ==VVV== !
+
+! Specific !
+! ===VV=== !
+! farsroid.com
+farsroid.com###ma_top_alert
+
+! zoomit.ir
+! Header ads:
+zoomit.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="390"][maxheight="100"])
+! Bottom ads:
+zoomit.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="390"][maxheight="48"])
+! Other ads:
+zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="390"][maxheight="450"])
+zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="390"][maxheight="183"])

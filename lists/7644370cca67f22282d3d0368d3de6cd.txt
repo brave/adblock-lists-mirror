@@ -1,0 +1,99 @@
+[uBlock Origin]
+! Title: PersianBlockerTrackers
+! Last modified: Sun, 21 Sep 2025 16:31:22 +0330
+! Expires: 7 days
+! Description: Filters to block trackers in Persian websites 
+! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+! Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+!
+! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+
+! General !
+! ==VVV== !
+||metrix.ir^
+||intrack.ir^
+||affilio.ir^
+||usermap.net^
+||analyticsdaily.ir^
+||kntr.ir^
+
+! trustseal.e-rasaneh.ir (e.g. zoomit.ir):
+||trustseal.e-rasaneh.ir/Trustseal^$method=post
+
+! aparat.com:
+||sentry.sabaidea.cloud^
+
+! Google Account Login (e.g. gama.ir):
+||accounts.google.com/gsi^$~script,from=ir
+
+! rokna.net:
+||bl9.ir^
+||analyt.ir^
+
+! Specific !
+! ===VV=== !
+! digikala.com:
+||tracker.digikala.com^
+||dgka.me^$removeparam=promo_name
+||dgka.me^$removeparam=promo_position
+||dgka.me^$removeparam=promo_creative
+||dgka.me^$removeparam=bCode
+
+! zoomit.ir, zoomg.ir:
+||sentry.theforge.ir^
+! zoomit.ir:
+||analytics.zoomit.ir^
+! zoomit.ir/product/
+zoomit.ir##+js(href-sanitizer, a[variant="contained"][href^="https://api2.zoomit.ir/catalog/store-links/"][href*="/click?url=http"], ?url)
+! zoomg.ir:
+||zoomg.ir/editorial/api/articles/*/visit^
+
+! aparat.com:
+||aparat.com/external/romeo^
+||aparat.com/gogol^
+
+! telewebion.com:
+||hadeseh.telewebion.com^
+||data.telewebion.com/broker/api/v1/message/page-view^
+
+! alaatv.com:
+alaatv.com##+js(set, Metrix, {})
+alaatv.com##+js(set, Metrix.deauthorizeUser, noopFunc)
+alaatv.com##+js(set, Metrix.init, noopFunc)
+alaatv.com##+js(set, zebline, {})
+alaatv.com##+js(set, zebline.event, {})
+alaatv.com##+js(set, zebline.event.track, noopFunc)
+||sentry.alaatv.com^
+
+! divar.ir:
+||api.divar.ir/v8/actionlog^
+||api.divar.ir/v1/client-exporter/send-report^
+||sentry.divar.cloud^
+
+! jobvision.ir:
+||candidatelogapi.jobvision.ir/api/v1/JobPostActionLog/AddToQueue^
+
+! ninisite.com:
+||stc.ninisite.com/s/atv^
+
+! footballitarin.com:
+||inmobi.com^$domain=footballitarin.com
+
+! aparat.com:
+! https://github.com/MasterKia/PersianBlocker/issues/304#issuecomment-3044430691
+aparat.com##+js(set-local-storage-item, videoPlayedCount, $remove$)
+aparat.com##+js(set-session-storage-item, videoWatchCount, $remove$)
+
+! zarebin.ir:
+||zarebin.ir/platform/api/supervisor/v1/events/^
+||sentry.mci.dev^
+
+! digikala.com:
+||new-sentry.digikala.com^
+
+! pod.ir:
+||accounts.pod.ir/js/fingerprint2.min.js^
+
+! football360.ir:
+||analytics.football360.ir^

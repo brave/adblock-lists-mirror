@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PwOsAQ6GyDO8v9gAoInCmg
-! Version: 202511130141
+! Checksum: 7V5gfwjE7jKN2fW48ihRaw
+! Version: 202511130241
 ! Title: EasyList China
-! Last modified: 13 Nov 2025 01:41 UTC
+! Last modified: 13 Nov 2025 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -388,7 +388,6 @@
 /ggtp/*
 /ggvip/*.js
 /gh/91porny/*
-/gigi/ad/*
 /gmu-download.oss-
 /guang/5liao.me.gif
 /guang/guang*.js
@@ -1770,6 +1769,7 @@ newduba.cn###jq_youxi
 ||airline49.top^
 ||vkur.cn^
 ||nzeikrar.com^
+||0bb8jytek.com^
 ||9r0v0go0el.com^
 ||f6jd4k4xgo.com^
 ||lls11120ko.com^
@@ -6442,7 +6442,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||92ghai.com/zz/
 ||92uq.com/Ads/
 ||933m.com/1.js
-||941novel.com/wp-content/uploads/*.gif
 ||94994.com*/js/plugin/shoppingMall/
 ||949949.com/2013/end/hot_news.js
 ||94itv.app/casino/
@@ -10216,6 +10215,8 @@ meijutt.*/js/pcjs/
 ||rouman5.com/js/clickadu.
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+avbebe.com##.footer_column:nth-child(n+2)
+xchina.co##.block-overlay
 baozimh.org#?#.relative:-abp-has(>.bg-red-500)
 baozimh.org##a[href*="g-mh.com"]
 qq.com##.maillist_gg_bar

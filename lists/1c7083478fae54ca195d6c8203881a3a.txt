@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.4.4
+! Version: 4.2.4.5
 
 ! General
 
@@ -125,7 +125,8 @@ citywire.com##registration-widget,div.alert--locked
 ||connaissancedesarts.com/wp-content/*/vendor/iptools-jquery-inview.min.js$script,~third-party
 ||paywall.correiodopovo.com.br$script,~third-party
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
-/\.cronista\.com\/files\/cachefiles\/.+\.js\?\d/$script,~third-party
+cronista.com##+js(rc, article-body--blurred, div.article-body--blurred, stay)
+cronista.com##div.paywall-chain--show
 csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
 cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker)
@@ -662,6 +663,8 @@ expressandstar.com,shropshirestar.com##+js(set, window.Fusion.globalContent.payw
 ||fokus.se/app/plugins/sesamy-fpg/assets/js/sesamy-fpg.js$script,~third-party
 forbes.sk##+js(ra, style, div.post-content-soft-paywall, stay)
 forbes.sk##div#custom-html-locker
+gocomics.com##div[data-paywall]
+gocomics.com##html:style(overflow: auto !important;)
 ||golf.com/wp-content/themes/golf/compiled/js/wsumApp.js$script,~third-party
 gothamist.com##+js(rc, leadin, div.leadin, stay)
 gothamist.com##div.wall-wrapper
@@ -727,6 +730,8 @@ popbitch.com##+js(ra, class, div[class*="-premium"])
 psypost.org##+js(cookie-remover, issuem_lp)
 publishersweekly.com##+js(ra,class|style,div#contentdiv.loggedInOnly,stay)
 publishersweekly.com##div#contentdiv.loggedOutOnly
+||racketmn.com/_next/*/%5BsiteSlug*.js$script,~third-party
+||racquetmag.com/_next/*/%5BsiteSlug*.js$script,~third-party
 ||rdhmag.com$inline-script
 rockdelux.com##+js(ra, class|style, body, stay)
 rockdelux.com##+js(ra, style, div#body, stay)

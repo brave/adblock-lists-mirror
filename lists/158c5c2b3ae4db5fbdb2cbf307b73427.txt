@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6YckHUwrDSauWFRdcXdGSg
-! Version: 202511141131
+! Checksum: yiEVLpgmf6g7/zE9WI514A
+! Version: 202511141211
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Nov 2025 11:31 UTC
+! Last modified: 14 Nov 2025 12:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6404,6 +6404,7 @@ onlinemschool.com##[class^="oms_gp"]
 podarkus.ru##[class^="styles-module_footer_"] > [class^="styles-module_right_"]
 livejournal.com##[cookies-alert]
 postimees.ee##[custom-classes^="structured-content__block--coma"]
+epicentrk.ua##[data-advertising-listing-list]
 friday.ru##[data-block-closer-storage="cookie"]
 tretyakovgallery.ru##[data-block-closer-target="cookie"]
 sports.ru##[data-control="Common.WebpushSubscribe"]
@@ -6942,6 +6943,7 @@ forexsystemsru.com##tr > .sidebar
 forums.overclockers.ru##tr > td[valign="top"][width="100%"] ~ td[style^="max-width"]
 benzclub.ru##tr > td[valign="top"][width="245"]
 kion.ru##ui-web-alert
+epicentrk.ua##ul > li[data-test-small-card] ~ li:not([data-test-small-card])
 shiza-project.com##ul[class*="transparent-btns"]
 wildberries.ru,wildberries.*##.fixed-block__cookies
 !

@@ -503,7 +503,7 @@ gtavicecity.ru##.stop-waiting
 pikabu.ru##.stories-feed__container > .story[data-author-name] ~ .story:not([data-author-name])
 pikabu.ru##.stories-feed__container > .story[data-author-name] ~ .story[data-context-actions*=",profile_hide,"]
 lenta.ru##.topic-body__content > .box-external-video:last-child:remove()
-lenta.ru##.topic-footer > .box-external-video:remove()
+lenta.ru##.topic-footer > div[class^="box-"][class$="-video"]:remove()
 player.twitch.tv##.ubo-overlay > .player-ad-notice
 dynamo.kiev.ua##.video-scroll:remove()
 vk.com,vk.ru##.wall_module > div[id]:first-child > :matches-prop(innerHTML="/format_edit|mradx\.|media_on_/")
@@ -720,10 +720,10 @@ mail.ru#@#body:not(.js-module) .tabs + div[class]:style(min-width: fit-content !
 !#endif
 !
 ! Book service read&download
-booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(abort-on-property-read, disable_keystrokes)
-booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(addEventListener-defuser, copy, preventDefault)
-booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(href-sanitizer, .specialcontdown > a[href^="/download?downloadlink="], ?downloadlink)
-booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(set-attr, .specialcontdown > a, download)
+bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(abort-on-property-read, disable_keystrokes)
+bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(addEventListener-defuser, copy, preventDefault)
+bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(href-sanitizer, .specialcontdown > a[href^="/download?downloadlink="], ?downloadlink)
+bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(set-attr, .specialcontdown > a, download)
 !
 ! NTV
 ntv.ru#?##air-mini-player:has(> div > .vjs-paused) ~ .air-player__controls

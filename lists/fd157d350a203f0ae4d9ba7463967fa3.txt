@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Nocz6Sq2UIKQfaEMmwITMw
-! Version: 202511142032
+! Checksum: qtCbt+YQYON1PoqjE4Jr0g
+! Version: 202511142111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Nov 2025 20:32 UTC
+! Last modified: 14 Nov 2025 21:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13698,7 +13698,6 @@ sunsurv.ru##.blockRight
 programma-peredach.com##.blockSns
 aktobeinfo.kz##.block[id*="-banners-"]
 gooool365.org##.block_d
-byrutgame.org##.block_down_game > .block_down ~ .block_down
 kino-teatr.ru##.block_ivi
 openssource.biz##.block_left
 chatadelic.net,db.chgk.info,dsvload.net,forzajuve.ru,gubkabob.net,imageban.ru,kak-spasti-mir.ru,moi-detsad.ru,podrobno.uz,prostomac.com,rap-text.ru,recensent.ru,seriatv.ru,volomy.ru##.block_links
@@ -23556,7 +23555,7 @@ freesoft.ru###error.modal {remove:true;}
 growhow.in.ua###custom-background-css {remove:true;}
 lenta.*##.js-scroll-to-site {remove:true;}
 lenta.*##.topic-body__content> .box-external-video:last-child {remove:true;}
-lenta.*##.topic-footer > .box-external-video {remove:true;}
+lenta.*##.topic-footer > div[class^="box-"][class$="-video"] {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
 vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
@@ -23628,7 +23627,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,byrutgame.org,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U3lFi8y2V1iBLPfpehpEOg
-! Version: 202511161031
+! Checksum: ZTs34KAS9Z8bVFQ3G+fAAA
+! Version: 202511161111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Nov 2025 10:31 UTC
+! Last modified: 16 Nov 2025 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2088,6 +2088,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /teaserblock.site.js
 /teasers.
 /teasers/*$domain=~ableton.com|~adventuregamers.com|~agderposten.no|~amway.ru|~amway.ua|~av.by|~babla.ru|~bmw.de|~bmw.ro|~bmw.ru|~business-gazeta.ru|~fujifilm.eu|~gismeteo.by|~gismeteo.kz|~kinobulvar.info|~meganomkino.ru|~novsu.ru|~rce.by|~road.cc|~stackoverflow.com|~teaserstar.ru|~wetteronline.de|~www.kinopoisk.ru|~yandex.by|~yandex.com|~yandex.com.tr|~yandex.fr|~yandex.kz|~yandex.ru
+/telamon.png
 /testserial/vendor/vast.js
 /tionline120x60.
 /tionline150x60.
@@ -22585,7 +22586,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||relinka.net/banner
 ||remoteshaman.com^*/gcheck.js
 ||rep.ru/site/get-text-advert-block/
-||repack-byrutor.org/telamon.
 ||repack-fitgirl.com/uploads/generalback-$image
 ||report.capinfopro.ru^$domain=radidomapro.ru
 ||reporter.ua/home/banners/
@@ -24808,11 +24808,11 @@ ukr.net##.lazy-load-banner
 @@||yandex.ru/ads/system/adsdk.js|$script,domain=yandex.ru
 market.yandex.ru,market.yandex.*##.layout_type_search.headline__footer
 ya.ru##.i-mini-bem[class*="banner"]
-ya.ru##[aria-label^="Информе"] ~ [class]
+ya.ru##[aria-label^="Информ"] ~ [class]
 ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
-ya.ru##section[class^="reason"]
+ya.ru##section[class^="reaso"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner
 ya.ru,yandex.ru,yandex.*##.main-home-banner

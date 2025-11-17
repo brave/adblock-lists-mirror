@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rCE/pYZ3q4n5dPUmHMFHPg
-! Version: 202511171931
+! Checksum: ix4zfLR6WnINbM2fS2tanA
+! Version: 202511172011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Nov 2025 19:31 UTC
+! Last modified: 17 Nov 2025 20:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -187,6 +187,7 @@ $third-party,popup,domain=2ip.ru
 ||clickson.net^*/pp/$popup
 ||cliclo-gateway.ru^$popup
 ||cliclo-useraction.ru^$popup
+||clkdaly.com^$popup
 ||club-vullkan.com^$third-party,popup
 ||code.directadvert.ru^$popup
 ||com/go.php?tid=*&hid=$popup
@@ -249,6 +250,7 @@ $third-party,popup,domain=2ip.ru
 ||getmyads24.com^$third-party,popup
 ||gettraf.com^$popup
 ||gfsrv.net^$third-party,popup
+||girlieturtle.com^$popup
 ||go.sellaction.net^$popup
 ||go.trafking.ru^$popup
 ||gobylink.info^$popup
@@ -430,6 +432,7 @@ $third-party,popup,domain=2ip.ru
 ||tipebixartbli.ml^$popup
 ||titangel.me^$third-party,popup
 ||tmredirects.com^$popup
+||tookfree.com^$popup
 ||toolsins.com^$popup
 ||top/*rd.php?id=$third-party,popup
 ||torvind.com^$popup
@@ -22104,7 +22107,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||my-cinema.net/branding/
 ||my.mosenergosbyt.ru/file/id_content:$image
 ||mydiv.net/tim/newold
-||myfootball.life/*/betking/
+||myfootball.life/*/betking/$~media
 ||mymedicalportal.net^$xmlhttprequest
 ||mynizhyn.com/image/banners/
 ||myparcels.ru/ajax/tz.php
@@ -23482,6 +23485,7 @@ igdz1.ru^$script,domain=igdz.ru
 !
 ! Rewrite rules
 !#if ext_abp
+||myfootball.life/*/betking/$media,rewrite=abp-resource:blank-mp4,domain=myfootball.life
 ||s-cdn.org/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||s-club.tv/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||ts.kg/olol*.mp4$rewrite=abp-resource:blank-mp4,domain=ts.kg
@@ -25230,6 +25234,9 @@ zarulem.ws##td[style^="text-align:center;width:50%"]
 ||ucoz.org/?*%5E$script,subdocument,~third-party
 ||ucoz.ru/?*%21*%$script,subdocument,~third-party
 ||ucoz.ru/?*%5E$script,subdocument,~third-party
+!
+! кликабельный элемент в плеерах типа upns.*
+##body > div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01;"]
 !
 ! Рекламный баннер Browsec
 ##body > div[class^="_"][class*=" _"][class$="_stBig"]

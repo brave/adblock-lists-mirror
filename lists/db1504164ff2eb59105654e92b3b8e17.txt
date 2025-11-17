@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rIQqghpzId31LXoO3nrwKQ
-! Version: 202511170241
+! Checksum: RtTC71d8wjfeb89bIDrvSw
+! Version: 202511170321
 ! Title: EasyList China
-! Last modified: 17 Nov 2025 02:41 UTC
+! Last modified: 17 Nov 2025 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1771,6 +1771,7 @@ newduba.cn###jq_youxi
 ||recount57.com^
 ||qheg.cn^
 ||iiahutvaa.com^
+||qq2tdd0xx.com^
 ||uetx75ibcu.com^
 ||dh8ypn3lq8.com^
 ||xxts11160zs.com^
@@ -10260,6 +10261,11 @@ meijutt.*/js/pcjs/
 /\/[a-z]+$/$script,third-party,domain=gimy.com.tw
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+91porna.com##.dx-banner-item
+91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
+91porna.com##.h-full.swiper
+91porna.com##.ad-dialog
+91porna.com##.modal-backdrop
 avbebe.com##.footer_column:nth-child(n+2)
 xchina.co##.block-overlay
 baozimh.org#?#.relative:-abp-has(>.bg-red-500)

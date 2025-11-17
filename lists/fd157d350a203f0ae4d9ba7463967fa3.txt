@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Fm7Bc5M7mWEtcA6ivlHooA
-! Version: 202511171211
+! Checksum: Kp51JdG2O+/SmAphgUxapg
+! Version: 202511171251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Nov 2025 12:11 UTC
+! Last modified: 17 Nov 2025 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16149,6 +16149,7 @@ kurs.if.ua##.simple-top-block
 lifehacker.ru##.single-article > .widgets-renderer
 lifehacker.ru##.single-article__content article > .core-buttons
 lifehacker.ru##.single-article__content article a[target="_blank"][rel*="sponsored"] > img
+lifehacker.ru##.single-article__content article a[target="_blank"][rel*="sponsored"] ~ .wp-element-caption[style]
 lifehacker.ru#?#.single-article__content:-abp-has(footer:-abp-contains(Реклама.)) article a > img
 novadoba.com.ua##.single-bottom-advertising-block
 pravda.if.ua##.single-post-6__author
@@ -23496,8 +23497,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/content/$script
-||static.dzeninfra.ru/s3/zen-apps/mobile/$script
+||static.dzeninfra.ru/s3/zen-apps/*/*/*/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportanalytic.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
@@ -23902,9 +23902,10 @@ news.mail.ru##aside div > div:first-child:empty ~ div
 news.mail.ru#?#aside div:-abp-has(> div:only-child:empty)
 news.mail.ru##body > div > style + div[id]
 dzen.ru##div[class*="news-advert"]
+dzen.ru##div[id][class*="news-"][class*="-advert"]
 dzen.ru##div[id][class*="news-"][class*="_loaded"]
 ! Дзен новости Mail-edition
-dzen.ru##[id*="8845410"]
+dzen.ru##[id*="845410"]
 dzen.ru##[id*="_R-A-"]
 dzen.ru##[id*="_R-E-"]
 dzen.ru##[id*="_R-I-"]

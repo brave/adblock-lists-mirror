@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511182239
+! Version: 202511182308
 ! Title: EasyList
-! Last modified: 18 Nov 2025 22:39 UTC
+! Last modified: 18 Nov 2025 23:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1a3734719f52b73c30f579946acea2c03e06645a
+! Commit: 6b67426c491e92c1ad6ce4eec46f0536786a2566
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -42227,6 +42227,7 @@ browsershots.org#@#.advert_area
 ||qqsfafvkgsyto.online^
 ||qqskjmyhfyosr.website^
 ||qquhzi4f3.com^
+||qqvfhdcwc.com^
 ||qqvmwgqbgw.com^
 ||qqxevoxdcdgrm.website^
 ||qqxlgqlgdvlky.online^
@@ -45669,6 +45670,7 @@ browsershots.org#@#.advert_area
 ||smugkats.shop^
 ||smugmoney.pro^
 ||smykirfgsmfpl.space^
+||smzgftbxpxcxv.store^
 ||smzzsjssovr.com^
 ||snackimmovabletrinity.com^
 ||snackteepatron.com^
@@ -71015,9 +71017,7 @@ amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabe
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.amzn-safe-frame-container
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
-amazon.*##.s-result-item:has([data-ad-feedback-label-id])
 amazon.*##.s-result-item:has([data-ad-feedback])
-amazon.*##.s-result-item:has(div.puis-sponsored-label-text)
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.*##.sbv-video-single-product
 amazon.*##[cel_widget_id*="-creative-desktop_loom-desktop-"]

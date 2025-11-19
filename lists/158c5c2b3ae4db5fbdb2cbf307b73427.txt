@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GTyk2HIbDAftLbgf8OYZ7Q
-! Version: 202511191031
+! Checksum: +mUgV7NHNAIUSFqAeGBiIg
+! Version: 202511191211
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Nov 2025 10:31 UTC
+! Last modified: 19 Nov 2025 12:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2191,6 +2191,7 @@ hentaiz.org,nevasport.ru,podrobnosti.ua,spartak.ru##.social
 goha.ru##.social > *
 akniga.org##.social--link
 nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru##.social-additional
+expert.ru##.social-bl
 abw.by,defence-ua.com,football24.ua,oxu.az,sport24.ua##.social-block
 fireman.club##.social-block-bottom
 oxu.az##.social-block2 > p
@@ -2828,6 +2829,7 @@ lb.ua##[itemprop="articleBody"] > div[style^="font-weight: bold; text-align: cen
 nation-news.ru#?#[itemprop="articleBody"] > p:-abp-has(> a[href^="https://t.me/"])
 kommersant.ru#?#[itemprop="articleBody"] > p:-abp-has(> b > a[href^="https://t.me/"])
 vp.donetsk.ua#?#[itemprop="articleBody"] > p:-abp-has(> em a[href^="https://t.me/"])
+expert.ru#?#[itemprop="articleBody"] > p:-abp-has(> i > a[href^="https://t.me/"])
 vk-smi.ru##[itemprop="articleBody"] ~ .bs-tags + div
 fontanka.ru##[itemprop="http://schema.org/headline"] ~ div > div > button
 www.livejournal.com##[lj-widget-fb-page]
@@ -4897,6 +4899,7 @@ gismeteo.ru###soft-promo
 igra-prestoloff.cx#?##sp-right > .sp-inner > .module:-abp-has([href*="://donate.podari-zhizn.ru"])
 kino-teatr.ru###special_block
 pronomad.ru###sticky-bar
+expert.ru###sub-form
 asienda.ru###sub-weekly-popup
 habr.com###subcriptions_block
 professorweb.ru###subscr-alert
@@ -6183,7 +6186,6 @@ interfax.com.ua##.subscribe-us
 tulasmi.ru##.subscribe-wrapper
 openmedia.io##.subscribePopUp
 in-dmitrov.ru,in-domodedovo.ru,in-istra.ru,in-kolomna.ru,in-korolev.ru,in-narofominsk.ru,in-reutov.ru,in-schelkovo.ru,in-vidnoe.ru,in-voskresensk.ru,inbalashikha.ru,inchehov.ru,inchernogolovka.ru,indolgoprud.ru,indubnacity.ru,inegorievsk.ru,inelgorsk.ru,inelstal.ru,infryazino.ru,inhimkicity.ru,inivanteevka.ru,inkashira.ru,inklincity.ru,inkotelniki.ru,inkrasnoarmeisk.ru,inkrasnogorsk.ru,inkrasnoznamensk.ru,inlobnya.ru,inlosinopetrovsk.ru,inlotoshino.ru,inlubertsy.ru,inluhovitsy.ru,inlytkarino.ru,inmozhaisk.ru,inmytishchi.ru,innoginsk.ru,inodintsovo.ru,inorehovo.ru,inozery.ru,inpavposad.ru,inpodolsk.ru,inprotvino.ru,inpushchino.ru,inpushkino.ru,inramenskoe.ru,inroshal.ru,inruza.ru,insergposad.ru,inserprud.ru,inserpuhov.ru,inshahovskoe.ru,inshatura.ru,insolnechnogorsk.ru,instupino.ru,intaldom.ru,involokolamsk.ru,inzaraisk.ru,inzheldor.ru,inzhukovskiy.ru,inzvenigorod.ru##.subscribe[id]
-expert.ru##.subscribe_banner_fixed
 kurkul.com##.subscribe_block
 qrz.ru##.subscribe_box
 edimdoma.ru##.subscribe_link

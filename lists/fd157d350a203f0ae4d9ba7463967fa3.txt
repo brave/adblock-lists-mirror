@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YWKGDY7oo6a8hI+fnRkmdg
-! Version: 202511232111
+! Checksum: LdaFX/DOWdIm+ULdWmedRQ
+! Version: 202511232132
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Nov 2025 21:11 UTC
+! Last modified: 23 Nov 2025 21:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -235,6 +235,7 @@ $third-party,popup,domain=2ip.ru
 ||ext-load.net^$third-party,popup
 ||extlinka.ru^$popup
 ||fastvk.com^$popup
+||fclmnews.ru^$third-party,popup
 ||finetrack.ru^$popup
 ||flashcdn.net^$popup
 ||flylinks.pw^$popup
@@ -14934,7 +14935,7 @@ cubiq.ru##.lets-review-block__aff
 cwer.me,cwer.ru,cwer.su,cwer.ws##.like_hide
 homeporno.org##.line > a[href][target="_blank"] > *
 mmotop.ru##.link-1
-androidinsider.ru##.link-alert
+androidinsider.ru,appleinsider.ru##.link-alert
 vinbazar.com##.link_image
 vinbazar.com##.link_img
 online-films.ckoro.ru##.link_test
@@ -18395,7 +18396,7 @@ allmmorpg.ru##body > div[style="display: inline-block"]
 tamboff.ru##body > div[style="width: 960px; margin: 0 auto; height: 300px; position: relative;"]
 laststicker.ru##body > div[style] > noindex
 obob.tv##body > div[style^="padding:"] > a[href]
-footlook.top##body > div[style^="position: fixed"]
+footlook.top,rplnews.online##body > div[style^="position: fixed"]
 root-nation.com##body > div[style^="position: fixed; display: flow-root; z-index:"]
 player-cdn.com##body > div[style^="width: 100%; height: auto; position: absolute; z-index: 100000; top: 0px; bottom: 0px; cursor: pointer; background: url"]
 innal.top,zannn.top##body > div[style^="width:"][style*="1265px"]
@@ -19839,6 +19840,7 @@ sibmama.info,sibmama.ru##object[width="150"][height="100"]
 guzei.com##object[width="200"][height="100"]
 y-games.ru##p > .ContentTitle[style="height: 20px;"]
 y-games.ru##p > .ContentTitle[style="height: 20px;"] + .ContentText
+appleinsider.ru#?#p > .large-text:-abp-has(> [href*="//dzen.ru/"])
 ppl.nnov.ru##p > a[href][target="_blank"]:not([href*="nnov.ru"]) > img[src*="/bannery/"]
 nashamama.com#?#p > b:-abp-contains(каво також:)
 skmash.ru##p > script[src*="wmrfast.com"] ~ *
@@ -25845,7 +25847,6 @@ banki24.by#@#.banner300
 griffe.ru#@#.banner_box
 biglife.kg#@#.card-ad
 pokrov-monastir.ru#@#.container--ads
-disk.yandex.by,disk.yandex.com,disk.yandex.com.am,disk.yandex.kz,disk.yandex.lt,disk.yandex.ru,disk.yandex.uz#@#.content_ads
 agrobook.ru#@#.context-ads
 f-igri.ru#@#.google_ad
 skodarapidclub.ru#@#.headerad
@@ -26497,6 +26498,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 4pda.to#@#[data-revive-zoneid]
 espreso.tv,tasix.me#@#[id*="ScriptRoot"]
 mail.google.com#@#a[href^="http://mgid.com/"]
+disk.yandex.ru,disk.yandex.*#@#.content_ads
 blocksandfiles.com,milanac.ru#@#div[class*="td-a-rec-id-"]
 pets.mail.ru#@#div[data-adq-id^="adqcontainer"]
 kyiv.ukrainianwall.com#@#div[id*="MarketGid"]

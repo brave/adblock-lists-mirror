@@ -1571,6 +1571,7 @@ qatarstreams.me##button[data-openuri*="/4/"]
 ##button.btn[data-openuri*="/4/"]
 ||kakarotfoot.ru/player/lib.js
 ||goalsport.info/fox/plugins/block1/dublocker.js
+||ucast.pro^
 @@||blockietv.xyz/adbdetect/
 ! general
 /\/[0-9a-f]{32}\.js/$script,xhr,3p,to=com,from=7fractals.icu|alexsports.*|allevertakstream.space|btvsports.my|capo6play.com|capoplay.net|cr7-soccer.store|dropbang.net|meltol.net|nativesurge.net|sportstohfa.online|stellarthread.com|sterham.net|streamshunters.eu|totalsportek1000.com|worldsports.*
@@ -2906,7 +2907,8 @@ marinetraffic.live##+js(rmnt, script, /adblock/i)
 moviekhhd.biz##+js(rpnt, script, /self.+ads.+;/)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/30122
-scribd.com##+js(set, docManager.doDynamicBlurring, noopFunc)
+scribd.com##+js(json-prune-xhr-response, ad_slot_recs, , propsToMatch, /doc-page/recommenders)
+scribd.com##+js(trusted-json-edit-xhr-response, .smartAdsForAccessNoAds=true, propsToMatch, /doc-page/afa)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/30137
 myplexi.fr##+js(aeld, click, location)

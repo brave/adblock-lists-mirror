@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HkfoKW+ncE+rfcWCRLYGZg
-! Version: 202511241341
+! Checksum: fzdNTDiKsFBCcJ2+FFU9eQ
+! Version: 202511241411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Nov 2025 13:41 UTC
+! Last modified: 24 Nov 2025 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18186,15 +18186,16 @@ ixbt.com##a[title="Яндекс Зен"]
 3dnews.ru##a[title^="3DNews"][title*="Дзен"]
 survarium.pro##adsense
 kinoafisha.info,kinonews.ru##advertronic-slot
-24tv.ua,lux.fm##app-adv-placeholder
+24tv.ua,football24.ua,lux.fm##app-adv-placeholder
 24tv.ua##app-adv-skeleton
 24tv.ua,lux.fm##app-adv-video-placeholder
 nsp.ru##app-advertising-card a[href*="utm_campaign"][target="_blank"]
 nsp.ru##app-article-banner
 24tv.ua##app-desktop-top-banner
-24tv.ua##app-main-page-adv-block
+24tv.ua,football24.ua##app-main-page-adv-block
+football24.ua##app-simple-membrana-adv-block
 nsp.ru##app-topline-advertising
-24tv.ua##app-video-adv-block
+24tv.ua,football24.ua##app-video-adv-block
 sobaka.ru#?#article > .b-post-view__section:-abp-has(> .b-post-view__projects > div > [id^="adv220_"])
 reono.ua##article > .box[style="width:fit-content"]
 uznayvse.ru#?#article > .hidden:-abp-has(> [aria-label="Реклама"])
@@ -25432,6 +25433,7 @@ tass.ru##[data-no-mourning="true"][class^="DesktopLayout_above"]
 pasy.media##[data-remodal-id]
 9111.ru##[id^="site-welcome"]
 novoruskino.net##[src$="/social.gif"]
+football24.ua##app-over-21
 profbuh8.ru##body > #TB_overlay,body > #TB_window
 gavag.ru##body > #bodypopup
 censor.net,hi-tech-pro.ru##body > #cboxOverlay,body > #colorbox

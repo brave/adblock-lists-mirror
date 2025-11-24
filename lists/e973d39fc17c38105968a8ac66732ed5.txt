@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D1c7DtQ0J497nGmVJy8QPA
-! Version: 202511242011
+! Checksum: uiradQtILvHZQv/a22QH9Q
+! Version: 202511242031
 ! Title: EasyList Spanish
-! Last modified: 24 Nov 2025 20:11 UTC
+! Last modified: 24 Nov 2025 20:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1182,6 +1182,7 @@ diarioresponsable.com,donbalon.com,elsaltodiario.com,toonscrab.com##.anuncio
 insideevs.com.ar,iproup.com##.ap
 insideevs.com.ar##.apb
 elciudadanoweb.com##.apsa-embed-cont
+elpais.com.uy##.ar82zL-ad-container
 metroecuador.com.ec,publimetro.cl##.arcad-feature
 leroymerlin.es##.arm-dss-content-sponsored
 elespanol.com##.article-adv
@@ -1849,6 +1850,7 @@ atrapalo.*##.mega-advert
 atrapalo.*##.robahome
 !! :has()
 forocoches.com###sidebar > div > section:has(.fixed_adslot)
+elpais.com.uy##.HtmlModule:has(div[data-freestar-ad])
 elpais.com.uy##.Page-above.loaded:has(div[class^="GoogleDfpAd"])
 elpais.com.uy##.PromoBasic:has(.Promo-sponsor)
 meneame.net##.ad-roba:has(a[href*="&utm_campaign="])

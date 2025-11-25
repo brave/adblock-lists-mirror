@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511251635
+! Version: 202511251703
 ! Title: EasyList
-! Last modified: 25 Nov 2025 16:35 UTC
+! Last modified: 25 Nov 2025 17:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c92b91b6575ea93829165ba981da7ffd73584f78
+! Commit: b0513bf7a08e4a4131efdfc3cfcc5bf28c93f501
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -61164,9 +61164,7 @@ browsershots.org#@#.advert_area
 ||ad.video-mech.ru^
 ||ad.wsod.com^
 ||ad01.tmgrup.com.tr^
-||adblock2.static-cloudflare.workers.dev^
-||adblock3.static-cloudflare.workers.dev^
-||adblock4.static-cloudflare.workers.dev^
+||adblock*.static-cloudflare.workers.dev^
 ||adblockeromega.com^
 ||adcheck.about.co.kr^
 ||addefenderplus.info^
@@ -61459,6 +61457,7 @@ browsershots.org#@#.advert_area
 ||jobs.sciencecareers.org^$subdocument,third-party
 ||jobtarget.com/distrib_pages/
 ||join.megaphonetv.com^$third-party
+||jokiyo.github.io/stera2/$script,third-party
 ||jokiyo.github.io/stera4/$script,third-party
 ||js.gov.cfd^
 ||js.kakuyomu.in^

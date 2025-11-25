@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2t491MLPxpCG34XotGdakQ
-! Version: 202511251041
+! Checksum: DSkLqg8IQ4q+wsUS9eUogQ
+! Version: 202511251111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Nov 2025 10:41 UTC
+! Last modified: 25 Nov 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -898,10 +898,7 @@ shazoo.ru##.bg-black > .mx-auto > div > div:last-child
 liveresult.ru#?#.bg-light:-abp-has(.icon-favorite-on)
 woman.ua##.bl-share
 ruwest.ru##.blk-socials
-readovka.news##.block-community-tg
 avtoradio.ru##.block-menu-snet > .icon-set
-readovka.news,readovka67.ru##.block-mosthot
-readovka.news,readovka67.ru##.block-navigation > ul > li:first-child
 autosport.com.ru,lgoty-vsem.ru,tehnikoved.ru##.block-share
 censor.net##.block-share-link
 myseason.club##.block-small-login-social
@@ -1367,7 +1364,6 @@ argumentiru.com##.head_soc
 glavpost.ua##.head_social
 facenews.ua##.header .icon
 vgoru.org##.header a[target="_blank"][aria-label] > svg
-readovka.news,readovka67.ru##.header-community
 kyivvlada.com.ua##.header-custom-button
 uazmi.org##.header-inner > nav ~ .fx-mq-md
 tulapressa.ru##.header-left_space-link
@@ -2841,6 +2837,7 @@ kino.video,tasix.me##[onclick^="OpenShareWindow"]
 www.eg.ru##[onclick^="sh1"]
 livelib.ru##[onclick^="ub_share"]
 quiz.rambler.ru#?#[role="radiogroup"][aria-activedescendant] ~ div[style]:-abp-has(> div > .rambler-share)
+readovka.news##[src="https://readovka.news/wp-content/themes/rd/img/banner.png"]
 planetanovosti.com##[title="Vkontakte"]
 conversion.im##[title="facebook"]
 conversion.im##[title="instagram"]
@@ -2924,6 +2921,7 @@ coop-land.ru##article > .social ~ .center
 coop-land.ru##article > .social ~ .text-center
 coop-land.ru##article > .social ~ center
 rivnepost.rv.ua##article > .uSocial-Share + p
+readovka.news##article > div > .post-sources ~ div
 martrending.ru#?#article > div[class]:-abp-has(> div > a[href^="https://t.me/"])
 tvc.ru##article > footer
 tvc.ru##article > header > div > div:nth-child(2)
@@ -5200,7 +5198,6 @@ catcut.net##.bl_all_rek
 doramalive.news##.block-alert
 planetazdorovo.ru##.block-fixed-footer
 fotoinform.net##.block-news .block-content > span[style^="color:"]
-readovka.news##.block-news > div[style] > a[href^="https://readovkashop.ru"]
 you-anime.ru##.block-reg
 probiv.in,probiv.one##.block-sponsor-all
 ilikenews.com##.block-type-signboard

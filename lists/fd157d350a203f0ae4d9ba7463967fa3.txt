@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AqPgG7ZQRS9Sn7c4bp+Sig
-! Version: 202511250931
+! Checksum: r65DsGQVO9j/cjb/X+H9/g
+! Version: 202511251011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Nov 2025 09:31 UTC
+! Last modified: 25 Nov 2025 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1556,13 +1556,18 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href^="http://traderstart.mirtesen.ru"]
 ##a[href^="http://trafmaster.com"]
 ~20idei.ru##a[href^="https://20idei.ru"] > *
+~24gadget.ru##a[href^="https://24gadget.ru/"]
+~aifishki.ru##a[href^="https://aifishki.ru/"]
 ~bither.one##a[href^="https://bither.one/"]
 ##a[href^="https://bongacams"][href*="com/track?"]
 ~lesta.ru##a[href^="https://click.track-lesta.ru/"]
+~dtpchp.ru##a[href^="https://dtpchp.ru/"]
+~fukaka.ru##a[href^="https://fukaka.ru/"]
 ##a[href^="https://homyanus.com"]
 ##a[href^="https://kshop"][href*=".com/"]
 ##a[href^="https://kshop"][href*=".pro/"]
 ##a[href^="https://msetup.pro"]
+~netplayer.ru##a[href^="https://netplayer.ru/"]
 ~pari.ru##a[href^="https://pari.ru/promo/"]
 ~pikadil.ru##a[href^="https://pikadil.ru"]
 ##a[href^="https://relap.io/"][href*="promo_ad_link"]
@@ -2344,6 +2349,7 @@ _tizers.
 ||1popov.ru^$third-party
 ||1xwgn.xyz^$third-party
 ||2000zakazov.ru^
+||24gadget.ru^$third-party
 ||24new.ru^$third-party
 ||24s.ru^
 ||24smi.host^$third-party
@@ -2438,6 +2444,7 @@ _tizers.
 ||agentbilet.com/sites/$third-party
 ||agitmedia.com^
 ||agrotv.ru^$third-party
+||aifishki.ru^$third-party
 ||airbnb.ru/embeddable/$third-party
 ||akabo.ru^
 ||alawar.ru/onlinegames/*&link=
@@ -2691,6 +2698,7 @@ _tizers.
 ||dozory.goodoo.ru^
 ||drakonas.eu^$third-party
 ||drweb.com/pix/$object
+||dtpchp.ru^$third-party
 ||duuw.nm.ru^
 ||dverizamki.org/bshow/
 ||dzen.ru^$third-party,~subdocument,domain=~sportsdzen.ru
@@ -2782,6 +2790,7 @@ _tizers.
 ||freshmac.ru^$third-party
 ||frogadvert.ru^
 ||fsimg.ru/elephant/
+||fukaka.ru^$third-party
 ||funcoin.club^$third-party
 ||funkit.ru/i/partner_banners/
 ||funnation.ru^$third-party
@@ -3148,6 +3157,7 @@ _tizers.
 ||neoban.su^
 ||neosap.ru^$third-party
 ||neosmi.ru^$third-party
+||netplayer.ru^$third-party
 ||netporno.org^$third-party
 ||newclick.org^$third-party
 ||newportal.com.ua/$third-party
@@ -14330,6 +14340,7 @@ diets.guru,pohudet.org##.exitblock
 autogrodno.by##.expautos_detail_right > .moduletable_menu:first-child > span
 korabel.ru##.ext_link_img
 russian.rt.com##.external-widget
+pikabu.ru##.external_branding
 carsweek.ru##.extra
 superjob.ru#?#.f-test-search-result-item:-abp-has(> div > div .f-test-link-Podrobnee)
 superjob.ru#?#.f-test-search-result-item:-abp-has(> div li div:empty:first-child + div:empty)
@@ -16132,7 +16143,7 @@ med2.ru##.sidebarAds
 vremenno.net##.sidebarBlock:first-child
 pogoda.meta.ua##.sidebar__ads
 gitflic.ru##.sidebar__banner
-fishki.net##.sidebar__block_trend ~ .sidebar__block_trend
+fishki.net##.sidebar__block_trend
 bioware.ru#?#.sidebar__content-wrp:-abp-has(.sidebar__image > a[href^="http://gamazavr.ru/"])
 teploguru.ru##.sidebar__rek
 24smi.org##.sidebar__wrap > :not(.sidebar__info)
@@ -18696,6 +18707,7 @@ pravda.ru#?#div[class="section"]:-abp-has(> .staticFragment)
 foto.ua##div[class="side-banner"]
 wowskill.ru##div[class="side-blok"]
 seasonvar.ru##div[class="sidebar lside"] > :not(div)
+fishki.net#?#div[class="sidebar__block"]:-abp-has(a:not([href^="/"]):not([href^="https://fishki.net/"]))
 pro-kyiv.in.ua##div[class="widget widget_text"]
 budport.com.ua##div[class] > a[href][rel="nofollow"] > p
 driver.ru##div[class] > a[href][target="_blank"] > img
@@ -22864,6 +22876,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||spbdnevnik.ru/media/_b/$image
 ||spbit.ru/b_images/
 ||special.matchtv.ru/feeds/
+||special.pikabu.ru/*/banner.html
 ||specials*.servicecdn.ru/$domain=dtf.ru|vc.ru
 ||speedtest.org.ua/pirate
 ||spiker.club/ads/

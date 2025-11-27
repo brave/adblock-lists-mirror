@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gLOE/5o4xgC/u1LFWW38ew
-! Version: 202511271001
+! Checksum: lBkCtHDmZwcsWJwOllJD3A
+! Version: 202511271041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Nov 2025 10:01 UTC
+! Last modified: 27 Nov 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16772,7 +16772,7 @@ sdelalremont.ru##.widget_cb_widget
 femmie.ru##.widget_custom_html > .partners__heading ~ .custom-html-widget
 vsepredohraniteli.ru##.widget_custom_html ~ .widget_text
 aeslib.ru##.widget_custom_html.FixedWidget__fixed_widget
-profootball.ua#?#.widget_custom_html:-abp-contains(/^новости партн|^реклама/i)
+profootball.ua#?#.widget_custom_html:-abp-contains(/^новости партн|^новини партнер|^реклама/i)
 nsn.net.ua#?#.widget_custom_html:-abp-has(.recreativ)
 125region.ru#?#.widget_custom_html:-abp-has(> .textwidget > #MediaMetricsInject)
 grippua.com.ua#?#.widget_custom_html:-abp-has([data-wpel-link="external"])
@@ -17503,7 +17503,6 @@ shuba.life##a[href*="/ingredients/buy"]
 mixsoft.org,soccer24.top,sportlive365.net,zfilm-hd.org,zfilme-hd1.site,zserials.cc##a[href*="/is.gd/"]
 soccer.ru##a[href*="/odds"]
 posudaa.ru##a[href*="/offer/"]
-profootball.ua##a[href*="/php/rotator/goto.php?id="]
 gofrag.ru##a[href*="/pomoshch"]
 sakh.tv##a[href*="/promo/out/banner/"]
 shuba.life##a[href*="/purchase"][target="_blank"]
@@ -18540,7 +18539,6 @@ football.kulichki.net#?#div:-abp-has(> table > tbody a[href*="kulichki.com/adver
 only-paper.ru#?#div:not(.adv-wrapper):-abp-has(> ins)
 glavagronom.ru#?#div:not([id]):not([class]):-abp-has(> div + div + section + section) > div:first-child + div > div:only-child > div:first-child + div:last-child
 tomat-pomidor.com##div:not([id]):not([class])[style^="min-height:"]
-ura.news#?#div:only-child > div:-abp-contains(Продолжение после рекламы)
 darkmoney.at##div[align="center"] > a[href] > img[src*=".gif"]
 igru-xbox.net,probiv.in,probiv.one##div[align="center"] > a[href][target="_blank"]
 ru-minecraft.ru##div[align="center"] > div[style^="background-color:"][style*="height:300px;"]
@@ -19403,6 +19401,7 @@ vellisa.ru##div[style="display: inline-block;"] a[href]
 novostivmire.com##div[style="float: none; margin:0px;"]
 gizmod.ru##div[style="float:left;width:344px;height:295px;"]
 forum.china-iphone.ru##div[style="float:right; margin-right: 5px;"]
+ura.news#?#div[style="font-size: 16px;"] div:only-child > div:-abp-contains(Продолжение после рекламы)
 lleo.me##div[style="font-size:11px; margin: 0 2px 0 2px;"]
 astrohelper.ru##div[style="height: 120px;"]
 speedme.ru##div[style="height: 250px;"]
@@ -19783,6 +19782,7 @@ besplatnyeprogrammy.ru#?#main > article.post:-abp-has(> header > .mainpage_title
 enthub.it##main > aside + .block > div:not([id]):not([class])
 ura.news#?#main > aside ul > li:-abp-has(a[href^="https://momenty.org/"])
 ura.news##main > aside ~ aside > div:first-child
+ura.news##main > div > div:first-child:not([class=""])
 ura.news##main > div aside > div:first-child
 gk-press.if.ua##main > div[style="display: inline"]
 drivenn.ru#?#main > h3:-abp-contains(/Новости партнёров|Популярное в сети/)

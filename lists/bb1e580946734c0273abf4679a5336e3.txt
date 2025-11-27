@@ -59,6 +59,7 @@ hdhub4u.fail,hubdrive.*,moviesubtitles.click,telegratuita.com##+js(aeld, DOMCont
 !#endif
 ||dressedoutrageousrun.com^
 ||excruciationaccident.com^
+||pantomimemailman.com^
 ||sandhowl.com^$all
 ||thankstoyou.website^$all
 
@@ -139,20 +140,20 @@ hdhub4u.fail,hubdrive.*,moviesubtitles.click,telegratuita.com##+js(aeld, DOMCont
 !#endif
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/790#discussioncomment-6049753
 ! https://github.com/uBlockOrigin/uAssets/issues/28935
-/^https?:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{5}(?:\?(?:param|_)=\w+)?$/$script,xhr,3p,match-case,to=com
+/^https?:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{4,5}(?:\?(?:param|_)=\w+)?$/$script,xhr,3p,match-case,to=com
 ! https://github.com/uBlockOrigin/uAssets/issues/30545
 /^https:\/\/(?:[0-9a-z]+\.){1,2}cfd\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$script,xhr,3p,match-case
 /^https:\/\/(?:[0-9a-z]+\.){1,2}rest\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$script,xhr,3p,match-case
 !#if ext_ubol
 ! https://github.com/uBlockOrigin/uAssets/commit/2da9930ccf5816a4c99d55bfd0f8b322ffd2d834
 ! https://community.brave.app/t/nsfw-poop-mom-pop-up/512459
-/^https:\/\/[a-z]{2}\.[a-z]{7,14}\.com\/r[0-9A-Za-z]{10,16}\/[A-Za-z]{5}$/$script,3p,match-case
+/^https:\/\/[a-z]{2}\.[a-z]{7,14}\.com\/r[0-9A-Za-z]{10,16}\/[A-Za-z]{4,5}$/$script,3p,match-case
 ! https://github.com/uBlockOrigin/uAssets/issues/30545
 /^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.cfd\/[a-z][0-9A-Za-z]{10,20}\/[A-Za-z]{5}$/$script,3p,to=cfd
 /^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.rest\/[a-z][0-9A-Za-z]{10,20}\/[A-Za-z]{5}$/$script,3p,to=rest
 !#endif
 !#if env_safari
-/^https?:\/\/[a-z]?[a-z]?\.?[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\.com\/r[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?\/[A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]$/$script,xhr,3p,match-case
+/^https?:\/\/[a-z]?[a-z]?\.?[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\.com\/r[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?[0-9A-Za-z]?\/[A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]?$/$script,xhr,3p,match-case
 /^https:\/\/[0-9a-z]*\.?[0-9a-z]+\.[cr][ef][ds]t?\/[a-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]+\/[A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]$/$script,xhr,3p,match-case,to=cfd|rest
 !#endif
 ! generic adserver rules
@@ -1313,9 +1314,9 @@ filmisub.cc##+js(acs, WebAssembly, atob, /^data:/)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/26213
 !#if cap_html_filtering
-aiblog.tv,amateurblog.tv,bokepsin.in.net,dojing.net,fastpic.org,femdom-joi.com,forums.socialmediagirls.com,fuckflix.click,gravureblog.tv,javsubindo.com,khatrimazafull.*,krx18.com,latinblog.tv,loadx.ws,mangaforfree.com,movies123.*,nekopoi.*,noindexscan.com,pornx.to,savefiles.*,sgpics.net,shavetape.cash,silverblog.tv,socialblog.tv,speedporn.net,starblog.tv,strcloud.club,strcloud.site,stream18.net,streampoi.com,streamtape.*,strmup.to,tapeadsenjoyer.com,tapepops.com,thefap.net,up4stream.com,ups2up.fun,videq.stream,xblog.tv,xmegadrive.com##^script:has-text(wpadmngr.com)
+aiblog.tv,amateurblog.tv,bokepsin.in.net,dojing.net,fastpic.org,femdom-joi.com,forums.socialmediagirls.com,fuckflix.click,gravureblog.tv,javsubindo.com,khatrimazafull.*,krx18.com,latinblog.tv,loadx.ws,mangaforfree.com,movies123.*,mym-db.com,nekopoi.*,noindexscan.com,pornx.to,savefiles.*,sgpics.net,shavetape.cash,silverblog.tv,socialblog.tv,speedporn.net,starblog.tv,strcloud.club,strcloud.site,stream18.net,streampoi.com,streamtape.*,strmup.to,tapeadsenjoyer.com,tapepops.com,thefap.net,up4stream.com,ups2up.fun,videq.stream,xblog.tv,xmegadrive.com##^script:has-text(wpadmngr.com)
 !#else
-aiblog.tv,amateurblog.tv,bokepsin.in.net,dojing.net,fastpic.org,femdom-joi.com,forums.socialmediagirls.com,fuckflix.click,gravureblog.tv,javsubindo.com,khatrimazafull.*,krx18.com,latinblog.tv,loadx.ws,mangaforfree.com,movies123.*,nekopoi.*,noindexscan.com,pornx.to,savefiles.*,sgpics.net,shavetape.cash,silverblog.tv,socialblog.tv,speedporn.net,starblog.tv,strcloud.club,strcloud.site,stream18.net,streampoi.com,streamtape.*,strmup.to,tapeadsenjoyer.com,tapepops.com,thefap.net,up4stream.com,ups2up.fun,videq.stream,xblog.tv,xmegadrive.com##+js(rmnt, script, wpadmngr.com)
+aiblog.tv,amateurblog.tv,bokepsin.in.net,dojing.net,fastpic.org,femdom-joi.com,forums.socialmediagirls.com,fuckflix.click,gravureblog.tv,javsubindo.com,khatrimazafull.*,krx18.com,latinblog.tv,loadx.ws,mangaforfree.com,movies123.*,mym-db.com,nekopoi.*,noindexscan.com,pornx.to,savefiles.*,sgpics.net,shavetape.cash,silverblog.tv,socialblog.tv,speedporn.net,starblog.tv,strcloud.club,strcloud.site,stream18.net,streampoi.com,streamtape.*,strmup.to,tapeadsenjoyer.com,tapepops.com,thefap.net,up4stream.com,ups2up.fun,videq.stream,xblog.tv,xmegadrive.com##+js(rmnt, script, wpadmngr.com)
 !#endif
 chaturflix.cam,niyaniya.moe##+js(acs, Date, wpadmngr.com)
 ||api.xfantazy.com/ad-scripts
@@ -2519,6 +2520,10 @@ matele.be##+js(set, Object.prototype.advertising, {})
 
 ! https://github.com/uBlockOrigin/uAssets/issues/30708
 toutes-les-solutions.fr##+js(aeld, load, nextFunction)
+
+! https://github.com/uBlockOrigin/uAssets/issues/30935
+||tech.powergothgirls.com/repo/xyz.js
+mym-db.com###swup > .row > div:has(> .card > div[data-ad-site])
 
 ! NOTE: Georgian
 ! https://github.com/uBlockOrigin/uAssets/issues/28577

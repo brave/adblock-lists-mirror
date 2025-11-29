@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IXF9OpqJpbKWoyudKm5jKQ
-! Version: 202511291111
+! Checksum: lFRyQ74TOPi0AS0M+T4PWg
+! Version: 202511291132
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Nov 2025 11:11 UTC
+! Last modified: 29 Nov 2025 11:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3364,6 +3364,8 @@ diets.ru##tr > .cell-socseti
 diets.ru##tr > .cell-socseti ~ td
 chitalkino.ru##tr > td > span.red
 meteopost.com##tr > td[style="background:white"]:first-child
+translate.yandex.ru,translate.yandex.*##.social-links
+translate.yandex.ru,translate.yandex.*##[aria-label^="Поделиться в "]
 megapeer.ru,megapeer.vip##ul.middot-separated.inlined[style^="float: right;"]
 superjob.ru#?#ul:-abp-has(> li > [role="button"][class^="f-test-clickable-"] svg)
 politrussia.com##ul[class*=" social-"]
@@ -6970,6 +6972,7 @@ wildberries.ru,wildberries.*##.fixed-block__cookies
 4pda.to##html[style] > body [id][class][style^="overflow: hidden; height:"] > div[style*="display: block;"]
 4pda.to#?#html[style] > body [id][class][style^="overflow: hidden; height:"] > div[style]:-abp-has(a[href][target="_blank"] > img)
 4pda.to##html[style] > body:not([style=";background-color:#E6E7E9!important"]) [id][class] > .slider-list:nth-child(-n+5) + div[class]
+4pda.to#?#html[style] [id] .slider-list[style] ~ div:-abp-has(a[href][target="_blank"] > img)
 4pda.to##html[style] [id] .slider-list[style] ~ div[class]:empty
 4pda.to##html[style] [id] .slider-list[style] ~ div[class]:not([id]) > [style=""]
 4pda.to#?#html[style] [id] .slider-list[style] ~ div[class]:not([id]):-abp-has(> :only-child:not(div):not([id]):not([class]))
@@ -7407,10 +7410,12 @@ mail.ru##div[id^="mailru"]
 mail.*##.tv-widget > [class^="vk-video"] {remove:true;}
 mail.yandex.ru,mail.yandex.*###js-mail-layout-content-header > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
+translate.yandex.ru,translate.yandex.*##.side-block > div
 ||dzen.ru/zen-partner/$third-party
 ||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
 ||mail.yandex.*/u2709/$script,~third-party
 ||ok.ru/web-api/*/hobby/getMailRuHobbyFeedScriptSrc$domain=mail.ru
+||translate.yandex.*/_crpd/
 ||ya.ru/portal/feed?
 ||yandex-realty.naydex.net^$script
 !#endif

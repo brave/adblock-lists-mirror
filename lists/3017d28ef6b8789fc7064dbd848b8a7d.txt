@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511302133
+! Version: 202511302215
 ! Title: EasyPrivacy
-! Last modified: 30 Nov 2025 21:33 UTC
+! Last modified: 30 Nov 2025 22:15 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d80f8292ed65a384b556ae45e992df43a4424697
+! Commit: 3bca914e93e071c2e25e00d5b40d3ef7c3bc4dc1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7237,6 +7237,7 @@ omni.soundestlink.com$image
 ||gravitykick.com^
 ||grayoranges.com^
 ||grayreceipt.com^
+||grayscaleart.com^
 ||greasegarden.com^
 ||greasysquare.com^
 ||gridbelow.com^
@@ -7948,6 +7949,7 @@ omni.soundestlink.com$image
 ||scrollservice.com^
 ||scrubswim.com^
 ||sealtravels.com^
+||seamlesssalon.com^
 ||seatsmoke.com^
 ||secondhandfall.com^
 ||secretivesheep.com^
@@ -54994,6 +54996,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
 @@||rudaw.net/images/pixel.gif$~third-party
+@@||secure.moneygram.com/embed/*/webAnalytics/pageMapping.json?$~third-party,xmlhttprequest
+@@||secure.moneygram.com/embed/*/webAnalytics/pageMappingOverrides.json?$~third-party,xmlhttprequest
 @@||static.leaddyno.com/js$script,domain=s4l.us
 ! 
 ! ---------- Bosnian ----------

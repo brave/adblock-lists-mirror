@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RWcPhEphsxbMMQvm2beanw
-! Version: 202511301411
+! Checksum: 9dcJcNd4fvcsW0UlTy2jIQ
+! Version: 202511301431
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Nov 2025 14:11 UTC
+! Last modified: 30 Nov 2025 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12902,6 +12902,7 @@ cn.ru###zilfond
 ruero.com#?#*:-abp-has(> a[href*="prostitutkixxx"])
 glav.su#?#*:-abp-has(> div[id^="js-y-rtb"]:first-child)
 www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasales.ru,www.aviasales.ua,www.aviasales.uz##.--advert
+obozrevatel.com##.--cBanner
 cq.ru##.--ligastavok
 knigavuhe.org##.-adfb
 26-2.ru,arbitr-praktika.ru,budgetnik.ru,buhsoft.ru,business.ru,cxychet.ru,dirsalona.ru,fd.ru,gazeta-unp.ru,gd.ru,glavbukh.ru,hr-director.ru,kdelo.ru,kom-dir.ru,law.ru,menobr.ru,pro-goszakaz.ru,pro-personal.ru,resobr.ru,rnk.ru,sekretariat.ru,stroychet.ru,trudohrana.ru,ugpr.ru,zarplata-online.ru,zdrav.ru##.ASE_brandImage
@@ -17327,12 +17328,14 @@ informburo.kz##[src*="/embed/SportsBetting"]
 gorvesti.ru,xn--b1ats.xn--80asehdb##[src*="/files/rk/"]
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##[src*="/frontend/assets/advert/"]
 bazr.ru##[src*="/global/banner/"]
+obozrevatel.com##[src*="/igaming/out/widget/"]
 ilenta.com##[src*="/images/banner/"]
 abnews.ru,fakty.ua,highload.tech##[src*="/images/banners/"]
 allsport-live.ru,allsport-news.net##[src*="/images/tennisspar."]
 sport-express.ua##[src*="/img/sadse/"]
 allrefrs.ru##[src*="/imgr/"]
 gecid.com##[src*="/inc/getBanIf."]
+retailers.ua##[src*="/media/reclame/"]
 radio1.ru##[src*="/media_banner/"]
 arenda.az##[src*="/public/banner/"]
 freesoft.ru##[src*="/sponsored/"]
@@ -20477,6 +20480,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /html5banner/*$domain=animevost.one|animevost.org|animevost.top|vost.pw
 /i/ctc_$image,domain=povarenok.ru|stranamam.ru
 /iframe/*$domain=rutr.life|rutracker.lib|rutracker.net|rutracker.org
+/igaming/out/widget$domain=obozrevatel.com
 /images/banner/*$domain=nvplay.ru
 /images/banners/*$domain=19rus.info|19rusinfo.ru|1tvnet.ru|33strausa.ru|8vp.ru|abnews.ru|agroxxi.ru|alfa-form.ru|altgazeta.ru|aniplay.tv|antimuh.ru|archiportal-crimea.ru|arendator.ru|aum.news|autogrodno.by|bez-smenki.ru|bitpump.ru|biwork.ru|bryansktoday.ru|buzday.ru|buzulukday.ru|bvedomosti.ru|calcus.ru|cars.ru|coil32.ru|cryptoff.org|csmania.ru|cxem.net|darkmoney.at|dtpptz.ru|ecm-journal.ru|erotix-tv.com|express-prigorod.ru|fakty.ua|fermagid.ru|firtka.if.ua|fitsport.ru|forpost.lviv.ua|fuzz-magazine.ru|hd-systems.com.ua|highload.tech|house.kg|hv-info.ru|hype.tech|info-ua.com|infokam.su|inforeactor.ru|itc.ua|itexpert.org.ua|izmacity.com|kaluga.ru|kamchatinfo.com|karelia.ru|kazfootball.kz|kids.to-var.com|km.ru|ko44.ru|korabel.ru|kramatorsk.info|kyiv-independent.com|lifetambov.ru|mc.today|mebelminsk.by|medicalj.ru|memstatus.ru|mirnov.ru|mos-holidays.ru|moscow-post.com|motoforum.ru|motovibor.ru|moya-semya.ru|mycity.by|nakanune.ru|nashdisk.ru|naurfo.ru|ndn.info|newgubakha.ru|news.soundex.ru|ng.kz|ngregion.ru|nsday.ru|numama.ru|ok-inform.ru|orenday.ru|osvita.ua|out-club.ru|perevolockday.ru|planet-today.ru|planetaskazok.ru|poiskvps.ru|pretenziy.ru|profidom.com.ua|prosports.kg|prosports.kz|rabota-kovrov.ru|rabota.kharkov.ua|radioclub.ua|rbc.ru|ria-m.tv|ria56.ru|ridna.ua|rodgor-vlg.ru|rtr24.ru|ruslife.eu|saltday.ru|sevastopol.su|sevkavportal.ru|shans.com.ua|skoda-club.org.ua|smolnarod.ru|sorochinskday.ru|sostav.ua|sp.tomica.ru|starkosino.ru|study.ru|tenstars.ru|ternopoliany.te.ua|trassae95.com|trisosny.ru|tv-gubernia.ru|ua-independent.com|uff.uz|ufocar.ru|ukrlife.tv|valetudo.ru|vdv-kavkaz.ru|vjazhi.ru|vmeste.tv|vp.donetsk.ua|vsatke.ru|vse-pro-sport.com.ua|vseprosport.by|vseprosport.kz|vseprosport.ru|wallnews.org|yablor.ru|zamena-podshipnikov.ru|zrenue.com|zvid.org
 /images/bnr/*$domain=napensii.ua
@@ -22626,6 +22630,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||rest^$domain=ovego.tv|pratka.ru
 ||restoclub.ru/pic/iblocks/
 ||restotv.ru/promo/$domain=restoclub.ru
+||retailers.ua/media/reclame/
 ||reviewscompanies.club/*.php$script
 ||revive.mastergrad.com/
 ||rfoja.com/*&rfoja.com

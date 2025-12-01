@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.4.6
+! Version: 4.2.5.0
 
 ! General
 
@@ -533,9 +533,6 @@ hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com##div#single-log
 ! DPG ADR (no scroll)
 ||temptation.*/temptation.js$script,~third-party,domain=ad.nl|bd.nl|bndestem.nl|destentor.nl|ed.nl|gelderlander.nl|pzc.nl|tubantia.nl|hln.be
 ||temptation.*/rest/$xmlhttprequest,~third-party,domain=ad.nl|bd.nl|bndestem.nl|destentor.nl|ed.nl|gelderlander.nl|pzc.nl|tubantia.nl|hln.be
-
-! Private Media Australia
-crikey.com.au,smartcompany.com.au,themandarin.com.au##+js(cookie-remover, blaize_session)
 
 ! Ringier Axel Springer Polska
 auto-swiat.pl,businessinsider.com.pl,forbes.pl,komputerswiat.pl,newsweek.pl,onet.pl##+js(ra, class|style, div.contentPremium[style])

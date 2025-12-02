@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Vd1Qa3HjmvNePZYmJKlCww
-! Version: 202512022231
+! Checksum: DUrfMnPZzFYKkDk7eOEp/g
+! Version: 202512022311
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Dec 2025 22:31 UTC
+! Last modified: 02 Dec 2025 23:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13446,6 +13446,7 @@ musify.club##.badge-primary
 all-for-kompa.ru##.badven
 animemobi.ru##.badversting
 delo.ua,irtafax.com.ua,ntr-24.ru,sibinfo.su##.ban
+ukragroconsult.com##.ban > a:not([href^="/"]):not([href^="https://ukragroconsult.com/"])
 mgorod.kz##.ban-head
 nashmontreal.com##.ban-popup
 life170.ru##.ban-r
@@ -17230,6 +17231,7 @@ nntt.org##[href^="http://www.cenam.net"]
 game2day.ru##[href^="https://p2d.ru/"]
 divxplayer.ml,haes.tech,hcdn.online,hqq.tv,metaverseid.tk,player.cvary.org##[href^="https://t.me/"]
 forum.ru-board.com##[href^="postings.cgi?action=edit&forum=5&topic=51666"]:not([href$="postno=1"]) ~ .post img:not([src*="://forum.ru-board.com/board/"])
+zernotorg.ua##[hx-get*="/advert/placements/"]
 virpl.ru##[id$="-banner"]
 cools.biz,cools.dj,get-tune.cc,intermusic.name,iplayer.info,ipleer.fm,k1news.ru,kolesa.kz,market4game.ru,mp3iq.com,vmuzice.me,yellowpages.uz##[id*="Banner"]
 espreso.tv##[id*="ScriptRoot"]:not(.news-block-magick)
@@ -18436,6 +18438,7 @@ www.google.com,www.google.ru##body > table[style="border: 1px solid #369"]
 christianka.bratstvo.org##body > table[width="99%"] + p[align="center"]
 payeer-gift.ru##body div .banner
 om1.ru##body div[class*="-branding"]
+agronews.ua,agroreview.com,agroweek.com##body.has-aw-background::before
 anifap.com,anifap.xyz,anitokyo.tv,anitokyo1.top##body.playerCode > div[style^="position: absolute;"][onclick]
 forum.flprog.ru##body.section-index .sidebar
 the-geek.ru##body::before
@@ -20433,6 +20436,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /ad*.tutu.ru^*_*.php|
 /adata/*$domain=pindosoff.net|pornosvideo.info|pornovkisku.com|teplomontag.net
 /add.php|$xmlhttprequest,domain=domonosok.tk|haes.tech|hqq.to|hqq.tv|porn-watch.ru|vidxhot.net
+/advert/placements/*$domain=zernotorg.ua
 /afrsasync*.js$script,domain=auto.vesti.ru|gubernia.com
 /ajax/hitsadv.php?$domain=newsomsk.ru|omskregion.info
 /api*iframe$subdocument,domain=get-tune.cc|intermusic.name|iplayer.info|ipleer.fm|mp3iq.com
@@ -20578,10 +20582,12 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /wp-content/plugins/smart-slider-$domain=1.zt.ua|kyivvlada.com.ua
 /wp-content/plugins/wbounce/*$domain=glaza.guru
 /wp-content/uploads/*-dpi_news$image,domain=itechua.com|uamotors.com.ua
+/wp-content/uploads/*-pidlozhka-$image,domain=agronews.ua|agroreview.com|agroweek.com
 /wp-content/uploads/*.mp4|$~third-party,domain=news24.in.ua|novosti24.kyiv.ua|ua-novosti.info|uapress.kyiv.ua
 /wp-content/uploads/*/elitstroj*.$image,domain=vb.by
 /wp-content/uploads/*/kurery*.$image,domain=vb.by
 /wp-content/uploads/*/med.$image,domain=vb.by
+/wp-content/uploads/*_1920x1080$image,domain=agronews.ua|agroreview.com|agroweek.com
 /www/base/*&cb=$domain=namba.kg|namba.tj
 /yandex.b.js$script,domain=krossava.ru
 /z.js?$script,domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.sale|medinfo.live|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbooks.studio|uchebnikfree.com|xn--80aaivjfyj3e.com
@@ -20746,7 +20752,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||agronomy.com.ua/*_adagency
 ||agronomy.com.ua/images/pom_de_tere/
 ||agronomy.com.ua/modules/mod_aikon_magic_popup/
-||agroreview.com^*1920x1080
 ||agroxxi.ru/ajax/ajax_adagro.
 ||agsat.com.ua/beuty/
 ||aida64.ru^*/amigo$image

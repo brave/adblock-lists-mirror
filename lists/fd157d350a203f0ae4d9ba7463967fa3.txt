@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cig4j8bUNFcxglCYCSwd4Q
-! Version: 202512021532
+! Checksum: 2U5NDeAVYAhZvOu7RExOoA
+! Version: 202512021611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Dec 2025 15:32 UTC
+! Last modified: 02 Dec 2025 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -38,6 +38,7 @@ $third-party,popup,domain=2ip.ru
 ?partner=$popup,domain=lifehacker.ru
 |http://li.ru/go?$popup,domain=fishki.net
 ||catcut.net^$popup,domain=mobile-4at-obshenie.chatovod.ru|mobile-chat-obshenie.jimdo.com
+||clck.ru^$popup,domain=playground.ru
 ||com/?id=*&t=direct^$popup
 ||gemius.pl^$popup,domain=terrikon.com
 ||getitbit.net/ads/$popup
@@ -23586,6 +23587,7 @@ freesoft.ru###error.modal {remove:true;}
 growhow.in.ua###custom-background-css {remove:true;}
 lenta.*##.topic-body__content> .box-external-video:last-child {remove:true;}
 lenta.*##.topic-footer > div[class^="box-"][class$="-video"] {remove:true;}
+lenta.*##.vk-video-popup {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
 vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
@@ -24442,6 +24444,7 @@ lenta.ru##.topic-body__content > .box-external-video:last-child
 lenta.ru##.topic-footer > .box-external-video
 lenta.ru##.topic-page__info ~ div
 lenta.ru##.traffic-exchange
+lenta.ru##.vk-video-popup
 lenta.ru##.yandex-games
 www.afisha.ru##[aria-label="Реклама"]
 mail.rambler.ru##[class*="MaillistItemAdvertPlace"]

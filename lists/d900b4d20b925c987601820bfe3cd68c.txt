@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: /56CmhRkmFURi3815A+0gw
-! Diff-Path: ../patches/7/7-s-1764643339-3600.patch
+! Checksum: aGH/CHApHV3ubl/wQtKXmA
+! Diff-Path: ../patches/7/7-s-1764649066-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.70.48
-! TimeUpdated: 2025-12-02T02:39:15+00:00
+! Version: 2.0.70.50
+! TimeUpdated: 2025-12-02T04:14:24+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1847,6 +1847,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+2nd-train.net##.adbox2020
+2nd-train.net##.adbox2020-2
+footballchannel.jp##div[style="width:100%; min-height:250px;"]
 boxingnews.jp##body > a[href^="https://amzn.to/"]
 sippo.asahi.com##ul:is(.l-aritcle, .l-article) > .c-article__card:has(> .c-article__card--inner > div[id^="div-gpt-ad-"])
 chance.enjoy.point.auone.jp###quiz_sp_banner_footer
@@ -2823,6 +2826,7 @@ digital.hakoshin.jp##.hk-pc-column-margin > section:has(.hk-ad-wrap)
 joytokey.net##.entry-content > p:last-child > a[href^="https://www.amazon.co.jp/gp/search?"][rel="noopener"]
 shitaraba.com##.banner-728_90
 houyhnhnm.jp###main > aside.aside-content:has(> section.ad-section)
+eigachannel.jp##div[style="width:100%; min-height:300px;"]
 eigachannel.jp###video_wrap
 baseballchannel.jp###omc-full-article > div[style^="padding: 10px;"][style*="border: 5px double #333333;"]
 baseballchannel.jp##.post-adv-text

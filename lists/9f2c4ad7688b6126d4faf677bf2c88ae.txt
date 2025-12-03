@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1VeFURJzxtrD0VkgIKtG7Q
-! Version: 202512031212
+! Checksum: wKWy5eRs3X5SlJpjTTNqog
+! Version: 202512031251
 ! Title: IndianList
-! Last modified: 03 Dec 2025 12:12 UTC
+! Last modified: 03 Dec 2025 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8482,6 +8482,7 @@ usharbani.com##[class*="_ads_"]
 haribhoomi.com##[class*="ad_"]
 golkhabar.com##[class*="add-"]
 safalkhabar.com##[class*="advertisement"]
+ajkerpatrika.com##[class*="bg-gray"]:has([id^="gpt-ad-"])
 mahilaswasthya.com,rangasansar.com##[class*="bigyapan"]
 heronewsonline.com##[class*="boxzilla"]
 ekattorbanglanews.com##[class*="center-ads"]
@@ -8802,7 +8803,7 @@ indiatimes.com##div:has(> [data-row-id="recommended-deals-widget"])
 raftaar.in##div:has(> [id^="div-ad-"])
 lokmatnews.in##div:has(> [id^="div-gpt-ad"])
 shortheadlines.com##div:has(> [id^="div-gpt-ad"]:only-child)
-ajkerpatrika.com,lokmat.com##div:has(> [id^="div-gpt-ad-"])
+lokmat.com##div:has(> [id^="div-gpt-ad-"])
 samayduniya.com##div:has(> a > div > .pd_title)
 banijjoprotidin.com##div:has(> a >img.size-full)
 dailysamvad.com##div:has(> center > img[src*="-Add"])

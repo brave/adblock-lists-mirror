@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uhxPBurcQgs3XXW3J0I/Pg
-! Version: 202512041011
+! Checksum: RieF2BNCy2noIu/mf+2+yg
+! Version: 202512041041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Dec 2025 10:11 UTC
+! Last modified: 04 Dec 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15674,6 +15674,7 @@ pravoved.ru##.prvd-af-primary-rnnb
 the-village-kz.com,the-village.me,the-village.ru,village.com.ua##.pseudosidebar
 psy-music.ru##.psyTopBanner
 znak.com##.pub-box
+gameguru.ru##.publications > .row > [id^="publication-"] ~ div:not([id^="publication-"])
 gdetoedet.ru##.pull-right > [class] ~ [class]
 game-tournaments.com##.pull-right > noindex
 rutube.ru##.push-notification-popup-module__wrapper

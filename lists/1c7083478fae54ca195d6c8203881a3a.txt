@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.5.1
+! Version: 4.2.6.0
 
 ! General
 
@@ -149,7 +149,8 @@ elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--cl
 ||elpais.com.uy/user/authStatus$script,~third-party
 ||prisa.com/dist/subs/pmwall/*/pmwall.min.js$script,domain=elpais.com
 ||verne.elpais.com/*.html$inline-script
-eltiempo.com##+js(rc, modulos, div.modulos)
+eltiempo.com##+js(rc, c-articulo-exclusivo, div.c-articulo-exclusivo, stay)
+eltiempo.com##+js(rc, modulos, div.modulos, stay)
 ||eltribuno.com/scripts/Bellhop/dist/bellhop.min.js$script,~third-party
 em.com.br##+js(rc, compress-text, .div.compress-text)
 enotes.com##section#enotes-paywall

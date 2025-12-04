@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512040326
+! Version: 202512040348
 ! Title: EasyPrivacy
-! Last modified: 04 Dec 2025 03:26 UTC
+! Last modified: 04 Dec 2025 03:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2fef8c45bc710525ddb5caf80ec4d9bb42df8ec0
+! Commit: 5383bb6da854fbaf86df1f8b000ead6df91d3da6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16377,6 +16377,7 @@ accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crun
 accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,x.com,yahoo.com##+js(set, navigator.globalPrivacyControl, false)
 ! Clear GPC storage item
 visible.com##+js(set-local-storage-item, browser-ids, $remove$)
+madewell.com##+js(cookie-remover, dns_cookie)
 ! Showing "Enable Cookies Please enable cookies in your browser to access USAA."
 usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ! server-side GTM

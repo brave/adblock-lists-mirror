@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xKvTWv9uEbGI/qBnGQrH1A
-! Version: 202512051011
+! Checksum: J7EiG+APSAPWrvEi40AdaQ
+! Version: 202512051041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Dec 2025 10:11 UTC
+! Last modified: 05 Dec 2025 10:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2011,7 +2011,7 @@ vokrug.tv##.shared-like-block
 itc.ua##.sharedaddy
 seriallife.ru##.shareplay
 noi.md##.sharepointset
-interior.ru,vc.ru##.shares
+interior.ru,sostav.ru,vc.ru##.shares
 dumka.media##.shares-desk
 prm.ua##.shares-list
 comments.ua##.shares_block
@@ -7373,10 +7373,12 @@ ya.ru,yandex.*#?#.simple-popup__overlay_shown
 ya.ru,yandex.*#?#.simple-popup__overlay_shown_true
 yandex.ru,yandex.*##.map-controls__additional-button a[href^="https://yandex."][style*="-promo-button-"]
 yandex.ru,yandex.*##.map-controls__bottom-extension-slot
+yandex.ru,yandex.*##[class^="AppLayoutCommon_overlay_"] ~ section#dialogs
 yandex.ru,yandex.*##body[class*="_map-"] div[id^="Y-A-"][style^="position"]
 yandex.ru,yandex.*##button[class^="AppPromo_container_"]
 yandex.ru,yandex.*##div[class^="App"][class*="promo"]
 yandex.ru,yandex.*##div[class^="AppInfoModal"]
+yandex.ru,yandex.*##div[class^="AppLeftPanelPromos_bottomLinks_"]
 yandex.ru,yandex.*##div[class^="AppPromo"][class*="_container_"]
 yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 !#if ext_abp

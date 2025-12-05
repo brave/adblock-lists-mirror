@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512050106
+! Version: 202512050142
 ! Title: EasyPrivacy
-! Last modified: 05 Dec 2025 01:06 UTC
+! Last modified: 05 Dec 2025 01:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 565af907bbc69cc0ab4ae538ba9bf97bbc4d9b4c
+! Commit: d117e7b2d77eb4b78273d470b545a52646a98d9f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1551,6 +1551,7 @@
 /monitor/v1/log
 /monitor?rtype=
 /monitor_analytic.js
+/monitor_browser/collect/*
 /monitoring?o=$xmlhttprequest
 /monitus.js
 /monsido.js
@@ -54489,6 +54490,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||chasecdn.com/web/*/eventtracker.js$domain=chase.com
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||check.ddos-guard.net/check.js$script
+@@||clcouncil.org/wp-content/plugins/counter-block/assets/js/counter.js?$script,~third-party
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||clouderrorreporting.googleapis.com^$domain=waze.com

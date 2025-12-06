@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P/zQkChPUwwhnS/CF6eMQw
-! Version: 202512061811
+! Checksum: fqqJOoZf1jMY97SN/2UqsQ
+! Version: 202512061842
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Dec 2025 18:11 UTC
+! Last modified: 06 Dec 2025 18:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23567,6 +23567,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportana
 @@||s.zhctrack.net/z|$xmlhttprequest
 @@||s.zmctrack.net/z|$xmlhttprequest
 @@||s.znctrack.net/z|$xmlhttprequest
+@@||senoval-master.cdn.sports.ru/moneyball/s-presence/adfx.loader.bind.js|$script,domain=sports.ru
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com|www.championat.ru
 @@||statika.mpsuadv.ru/scripts/*.js|$script,domain=trychatgpt.ru
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
@@ -24773,11 +24774,11 @@ tribuna.com##div[class^="BookmakerGift_bookmaker-gift_"]
 tribuna.com##div[class^="CustomRatingsWidget"]
 tribuna.com##div[class^="MatchLayout-module_"] > [style="display: contents;"] > [data-test]
 tribuna.com##div[class^="_banner_"]
+cyber.sports.ru##div[class^="desktop-teaser_"] a[href*="://sirena.world/"]
 sports.ru##div[data-control-noinit="Common.BetsTabs"]
 sports.ru##div[data-control="Common.AutoInit"]
 sports.ru##div[data-control^="Common.Bets"]
 tribuna.com##div[data-test="bookie-widget"]
-sports.ru##div[id$="-notification-container"]
 tribuna.com#?#div[style="display: contents;"] > div:-abp-has(> a[href*="/betting/bonuses/"])
 sports.ru##p > a[rel="nofollow"] > img[height][width]
 sports.ru#?#p:-abp-has(> a[href]:-abp-contains(М.Видео))
@@ -26693,9 +26694,8 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||sld.kiev.ua/assets/*/advert.js
 @@||smaxim.*/player/stats.php?event=Init,|$image,~third-party
 @@||ssp.rambler.ru/capirs_async.js|$xmlhttprequest,domain=dtf.ru
-@@||st.s5o.ru/source/_desktop/$xmlhttprequest,domain=sports.ru
 @@||stalker-mods.*/images/icons/*_|$image,~third-party,domain=stalker-mods.clan.su|stalker-mods.su
-@@||static-mon.yandex.net/static/main.js?pid=$xmlhttprequest,domain=reshu.by|reshuent.kz|sdamgia.ru|sports.ru
+@@||static-mon.yandex.net/static/main.js?pid=$xmlhttprequest,domain=reshu.by|reshuent.kz|sdamgia.ru
 @@||static.1tv.ru/player/*/banner.gif$domain=1tv.ru
 @@||static.baik.ru/static/js/apps-js/adv/google_advert.*.js|$script,domain=www.irk.ru
 @@||static.doubleclick.net/instream/ad_status.js|$xmlhttprequest,domain=tehnografi.com

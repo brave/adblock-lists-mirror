@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BfhZtksgosTfqokELcJh5w
-! Version: 202512061932
+! Checksum: tUm+x4/hxD3uTopWjD91Hg
+! Version: 202512062011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Dec 2025 19:32 UTC
+! Last modified: 06 Dec 2025 20:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1760,7 +1760,6 @@ selezen.club,selezen.net,selezen.org##.page-content > .row > div[class^="col"] +
 kp.kg,kp.kz,kp.md,kp.ru##.page-content__footer-sharings
 kp.kg,kp.kz,kp.md,kp.ru##.page-content__footer-top
 ficbook.net##.page-footer-social
-softonic.ru##.page-footer__row:first-child > .page-footer__col:last-child
 kp.kg,kp.kz,kp.md,kp.ru##.page-footer__socials
 kp.kg,kp.kz,kp.md,kp.ru##.page-footer_socials
 riotpixels.com##.page-info > .relative-buttons
@@ -2790,6 +2789,7 @@ horoscopes.rambler.ru##[data-horo-new*=":share:"]
 iphones.ru##[data-id="externalpostlist"]
 mediazona.ca,zona.media##[data-js-selector="show-social-list"]
 vgolos.ua##[data-key="index_in_lviv"]
+softonic.ru#?#[data-meta="page-footer"] div:-abp-has(> ul [data-meta="facebook"])
 esports.ru##[data-name="footer/socials"]
 kufar.by##[data-name^="share-button"]
 stopgame.ru##[data-plugins="share"]

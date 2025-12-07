@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tC8OjM0FQ632uDR5Y5FNIA
-! Version: 202512071031
+! Checksum: Ecdnv625+J+i6A2FiUyNOA
+! Version: 202512071111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Dec 2025 10:31 UTC
+! Last modified: 07 Dec 2025 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1438,6 +1438,7 @@ iguides.ru##.i-box-cta_tg
 iguides.ru##.i-footer-social
 newsvl.ru##.ico-social
 kasparov.ru##.icoNav
+konkurent.ua##.ico_share
 kurs.if.ua##.icon-like::before
 animedia.tv##.icon-menu-share
 livelib.ru,mymsk.online##.icon-share
@@ -1508,7 +1509,6 @@ eadaily.com##.latest-block > .side-announcement
 anime-bit.pro,anime-bit.su#?#.layer_box_center_blocks_right:-abp-has(> #vk_groups)
 www.goha.ru##.layout-footer-body__socials-icon
 nta.ua##.leave-comment
-chasdiy.org##.left-side__socials__facebook
 asienda.ru##.left-socials
 chernomorets.odessa.ua##.left-widget
 kinoakter.net##.leftblok_contener > div[style^="margin-bottom"]
@@ -1609,7 +1609,6 @@ denzadnem.com.ua##.mes_header
 mega-track.org##.messageList > .tabs
 slovoidilo.ua##.messenger-shares
 iasakh.com,sakhalin.info##.messengers
-chasdiy.org##.meta-bar__share__title
 apparat.cc##.metaTable-inner
 dzen.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.mg-share
 nazhyvo.kyiv.ua,pryluky.club##.mg-social
@@ -2018,6 +2017,7 @@ comments.ua##.shares_block
 t.ks.ua##.sharethis-label
 frankmedia.ru,hromadske.radio,kg-portal.ru,playmaker24.ru##.sharing
 coub.com##.sharing__dropdown__item[data-img]
+chasdiy.org##.sharing__link
 aif.ru#?#.sharing_item:-abp-has(> [onclick])
 sport-express.net,sport-express.ru##.sharing_matchcenter
 kp.kg,kp.kz,kp.md,kp.ru##.sharing_wrapper
@@ -2046,10 +2046,8 @@ alllyr.ru##.sidebar > .menu ~ *
 ukrmir.info##.sidebar > .module-social > .module-inner > .module-title
 kod.ru#?#.sidebar > .sidebar__section:-abp-has(> .social-links)
 turkcinema.org##.sidebar > .widget-wrap > .widget_text
-cikavosti.com#?#.sidebar > .widget:-abp-has([href*="//t.me/"])
 defence-ua.com##.sidebar > div:first-child + h2
 1jazz.ru#?#.sidebar aside:-abp-has(> .textwidget > .ya-share2)
-cikavosti.com##.sidebar noindex > [href^="https://cikavosti.com/goto/"]
 androidinsider.ru,appleinsider.ru,hi-news.ru##.sidebar-banner-telegram
 1plus1.ua##.sidebar-banners__instagram
 anitokyo.tv,anitokyo1.top#?#.sidebar-block:-abp-has(> header > .soc-vk)
@@ -2328,7 +2326,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,tvoemisto.tv,uatv.ua,virtualbrest.ru##.socials
+101.ru,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,tvoemisto.tv,uatv.ua,virtualbrest.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -2340,9 +2338,11 @@ k1news.ru##.socials-random-wrap
 kino.tricolor.tv##.socials-share-block
 avtovzglyad.ru##.socials-subscription
 cryptonewsua.com,eadaily.com##.socials-wrapper
+chasdiy.org##.socials__items
 rozetka.com.ua##.socials__list
 russian.rt.com##.socials__row
 speka.ua##.socials__title
+chasdiy.org##.socials__wrapper
 1ul.ru##.socials_start
 kerchinfo.com##.socialst
 actualcomment.ru##.socialtabs
@@ -2400,6 +2400,7 @@ pikabu.ru##.story-block_type_text > p > a[href^="https://t.me/"]
 newsvl.ru##.story__outside-comments-link
 autosaratov.ru##.story__rating-share
 pikabu.ru##.story__share
+cikavosti.com##.stream-item-above-post-content
 zn.ua##.stream-page-show > .blue_stream
 utorrentfilmi.fun,utorrentfilmi.ru,utorrentmusic.ru#?#.string:-abp-has(> .ya-share2)
 iu.ru##.style_footer__socials__veq__
@@ -2513,7 +2514,7 @@ sostav.ua##.tgzen
 sostav.ru##.tgzen--tg
 vedomosti.ru##.the-footer__social
 1jazz.ru##.the_content_wrapper > center
-blackwot.ru,gsminfo.com.ua##.theiaStickySidebar
+blackwot.ru,cikavosti.com,gsminfo.com.ua##.theiaStickySidebar
 433175.ru#?#.theiaStickySidebar > .widget:-abp-has(> .social-counter .vk)
 nikopolnews.net,v-tatarstane.ru##.theiaStickySidebar > .widget_custom_html
 riamo.ru##.themes--social
@@ -3340,6 +3341,7 @@ kanalukraina.tv#?#p:-abp-has(> strong ~ a[href*="tg://resolve"])
 bst.bratsk.ru,prm.ua#?#p:-abp-has(> strong ~ a[href^="https://t.me/"])
 mobile-review.com#?#p:-abp-has(> strong:-abp-contains(/Мы в социальных сетях|Поделиться/))
 sud.ua#?#p:-abp-has(span a[href*="://t"][href*=".me/"])
+acmc.ua#?#p[style="text-align: justify;"]:-abp-has(> span ~ span)
 winreviewer.com##p[style="text-align:center; padding 30px; background-color: #1A1A1A; color: #FFFFFF"]
 tvzvezda.ru#?#pjsdiv[id^="oframe"] pjsdiv:-abp-has(path[d^="M11.6051377"])
 narutoplanet.ru##pjsdiv[style^="position: absolute; left: 677px; top: 31px; opacity: 1; font-size: 14px; line-height: 1em;"]
@@ -4964,7 +4966,7 @@ diary.ru###w18p
 ipost.ua###w5
 kurs.com.ua###weatherInformer
 diets.ru,kabluki.ru,povarenok.ru###web-push-sub
-root-nation.com###wpd-bubble-wrapper
+acmc.ua,root-nation.com###wpd-bubble-wrapper
 rueconomics.ru###yawidgettext
 znanierussia.ru###znanie-cookie
 day.kyiv.ua###zone-string-wrapper
@@ -5026,7 +5028,6 @@ litnet.com##.ad-banners-gtm
 kinoteatr.ru##.ad_bg
 kinoteatr.ru##.ad_bg_footer
 rosbalt.ru##.ad_tele
-cikavosti.com##.adace-slot
 meteo.ua##.add-favourites
 nakanune.ru##.add-to-yandex-link
 piter.tv##.add-ya
@@ -6352,6 +6353,7 @@ bibliofond.ru##.widget-cat > .item-new
 village.com.ua##.widget-comments-likebox
 gb.ru##.widget-dynamic
 moya-planeta.ru##.widget-feedback
+acmc.ua##.widget-fixed
 info-ua.com,moya-planeta.ru##.widget-subscribe
 chudo-manga.ru##.widget.HTML
 videoculinary.ru#?#.widget:-abp-has(> [class^="youtube_banner"])

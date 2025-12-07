@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.6.1
+! Version: 4.2.4.1
 
 ! General
 
@@ -46,7 +46,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /paywall/evercookie_get.js$script,~third-party
 /shared-content/art/tncms/api/access.*.js$script,~third-party
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party
-/wp-content/plugins/newspack-plugin/dist/*-gate-metering.js$script,~third-party
+/wp-content/plugins/newspack-plugin/dist/memberships-gate-metering.js$script,~third-party
 /wp-content/*/plugins/rcp-view-limit/$script,~third-party
 /zephr/feature$xmlhttprequest
 
@@ -93,6 +93,7 @@ bloombergadria.com##+js(ra, style, article.single-news[style], stay)
 businessinsider.jp##+js(ra, hidden, div.piano-paywall-container[hidden])
 ||businessoffashion.com/arc-platform-proxy.js$script,~third-party
 ||businesspost.ie/api/tinypass.min.js$script,~third-party
+||cambiocolombia.com/_next/static/chunks/1036.*.js$script,~third-party
 capital.fr##+js(ra, class|hidden, div#articleWall-paid, stay)
 capital.fr##div#articleWall-paid:style(margin-top: 40px !important;)
 capital.fr##+js(ra, class, div#articleWall, stay)
@@ -125,8 +126,7 @@ citywire.com##registration-widget,div.alert--locked
 ||connaissancedesarts.com/wp-content/*/vendor/iptools-jquery-inview.min.js$script,~third-party
 ||paywall.correiodopovo.com.br$script,~third-party
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
-cronista.com##+js(rc, article-body--blurred, div.article-body--blurred, stay)
-cronista.com##div.paywall-chain--show
+/\.cronista\.com\/files\/cachefiles\/.+\.js\?\d/$script,~third-party
 csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
 cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker)
@@ -149,8 +149,8 @@ elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--cl
 ||elpais.com.uy/user/authStatus$script,~third-party
 ||prisa.com/dist/subs/pmwall/*/pmwall.min.js$script,domain=elpais.com
 ||verne.elpais.com/*.html$inline-script
-eltiempo.com##+js(rc, c-articulo-exclusivo, div.c-articulo-exclusivo, stay)
-eltiempo.com##+js(rc, modulos, div.modulos, stay)
+eltiempo.com##+js(rc, modulos, div.modulos)
+||eltribuno.com/scripts/Bellhop/dist/bellhop.min.js$script,~third-party
 em.com.br##+js(rc, compress-text, .div.compress-text)
 enotes.com##section#enotes-paywall
 enotes.com##+js(ra, class, div.u-paywall)
@@ -333,7 +333,6 @@ spektrum.de##+js(rc, pw-premium, article.pw-premium)
 spglobal.com##+js(cookie-remover, count)
 startribune.com##div.modal-backdrop
 startribune.com##body[class]:style(overflow: auto !important; position: static !important;)
-||stereogum.com/_next/static/chunks/pages/*/%5B*.js$script,~third-party
 study.com##+js(ra, class, div.faded-content)
 study.com##+js(ra, class, div.hidden[ng-non-bindable])
 study.com##div.article-cutoff-div
@@ -389,7 +388,6 @@ winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
 ||ynet.co.il/*/article/*?rel=plus$inline-script
 
 ! Advance Local
-al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##+js(rc, article__paragraph--blur, .article__paragraph--blur, stay)
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##+js(set, window.adiData.entryTags, 0)
 
 ! Australian Community Media
@@ -534,6 +532,9 @@ hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com##div#single-log
 ||temptation.*/temptation.js$script,~third-party,domain=ad.nl|bd.nl|bndestem.nl|destentor.nl|ed.nl|gelderlander.nl|pzc.nl|tubantia.nl|hln.be
 ||temptation.*/rest/$xmlhttprequest,~third-party,domain=ad.nl|bd.nl|bndestem.nl|destentor.nl|ed.nl|gelderlander.nl|pzc.nl|tubantia.nl|hln.be
 
+! Private Media Australia
+crikey.com.au,smartcompany.com.au,themandarin.com.au##+js(cookie-remover, blaize_session)
+
 ! Ringier Axel Springer Polska
 auto-swiat.pl,businessinsider.com.pl,forbes.pl,komputerswiat.pl,newsweek.pl,onet.pl##+js(ra, class|style, div.contentPremium[style])
 businessinsider.com.pl##div#content-premium-offer
@@ -639,8 +640,6 @@ brainly.com,brainly.com.br##+js(set-local-storage-item, /^/, $remove$)
 brusselstimes.com##+js(ra, style, div[style*="height: 0;"], stay)
 businessden.com,richmondbizsense.com##+js(ra, class, div.cp-paywall-user)
 businessden.com,richmondbizsense.com##div#copperpress-paywall
-businesstoday.in##+js(cookie-remover, magazineSession)
-businesstoday.in##div#magazinePayWallStrip
 ||nitrocdn.com/*/paywall.$script,domain=capitalaberto.com.br
 cardiologie-pratique.com##+js(ra, class, div.wrap-node, stay)
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
@@ -654,15 +653,11 @@ dominionpost.com##+js(rc, entry-content, article > div.entry-content)
 elfinancierocr.com##+js(ra, style, div.article-body-wrapper__styled[style])
 elfinancierocr.com##div.post
 epaper.indiatimes.com##div.epaperBlockerWrap
-/\/every\.to\/[-\w]+\//$inline-script
-every.to##+js(ra, style, div#post-body-full, stay)
 ||eviemagazine.com/api/trpc/post.paywall$xmlhttprequest,~third-party
 expressandstar.com,shropshirestar.com##+js(set, window.Fusion.globalContent.paywallStatus, false)
 ||fokus.se/app/plugins/sesamy-fpg/assets/js/sesamy-fpg.js$script,~third-party
 forbes.sk##+js(ra, style, div.post-content-soft-paywall, stay)
 forbes.sk##div#custom-html-locker
-gocomics.com##div[data-paywall]
-gocomics.com##html:style(overflow: auto !important;)
 ||golf.com/wp-content/themes/golf/compiled/js/wsumApp.js$script,~third-party
 gothamist.com##+js(rc, leadin, div.leadin, stay)
 gothamist.com##div.wall-wrapper
@@ -728,8 +723,6 @@ popbitch.com##+js(ra, class, div[class*="-premium"])
 psypost.org##+js(cookie-remover, issuem_lp)
 publishersweekly.com##+js(ra,class|style,div#contentdiv.loggedInOnly,stay)
 publishersweekly.com##div#contentdiv.loggedOutOnly
-||racketmn.com/_next/*/%5BsiteSlug*.js$script,~third-party
-||racquetmag.com/_next/*/%5BsiteSlug*.js$script,~third-party
 ||rdhmag.com$inline-script
 rockdelux.com##+js(ra, class|style, body, stay)
 rockdelux.com##+js(ra, style, div#body, stay)

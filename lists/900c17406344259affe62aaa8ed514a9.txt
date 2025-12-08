@@ -666,6 +666,7 @@ ya.ru,yandex.*##.simple-popup__overlay:remove()
 !
 ! Mail.RU
 mail.ru###grid div[class^="feed__"]:remove()
+cloud.mail.ru###react-modals:has(a[href^="https://vk.cc/"])
 minigames.mail.ru##+js(abort-current-inline-script, $, blockWarnClass)
 mmminigames.mail.ru##+js(abort-current-inline-script, $, mimicTopClass)
 ok.ru##+js(abort-on-property-read, globalAuthLoginPopupCounter)
@@ -718,6 +719,7 @@ e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, MIMIC_FORCE)
 e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, _runBatch, 100)
 e.mail.ru,octavius.mail.ru##+js(set-attr, .html-fishing a, target, true)
 e.mail.ru,octavius.mail.ru##+js(set-constant, Object.prototype.hasAdBlock, null)
+e.mail.ru,octavius.mail.ru##.vkuiPopoutRoot:has(a[href^="https://vk.cc/"])
 e.mail.ru,octavius.mail.ru##body > div > .letter-list-item-adv:style(display: block !important)
 e.mail.ru,octavius.mail.ru##body > div[style*="top:"][style*="position:"][style*="visibility:"] #app-canvas div:style(display: block !important)
 ! VK-брендинг

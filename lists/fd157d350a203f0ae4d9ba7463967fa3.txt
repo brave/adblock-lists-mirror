@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wjt7kllO1rRUBst51O9Ljw
-! Version: 202512091211
+! Checksum: MVM7eH3p249XcDZTuNDqJg
+! Version: 202512091251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Dec 2025 12:11 UTC
+! Last modified: 09 Dec 2025 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25024,6 +25024,7 @@ tv.yandex.ru,tv.yandex.*##div[class*="adv-manager"]
 tv.yandex.ru,tv.yandex.*##script[nonce] + script[nonce] + div[class]
 !
 ! Дзен Yandex-edition
+dzen.ru###branded-banner
 dzen.ru##.adv-skeleton___main
 dzen.ru##[aria-label^="Peкл"]
 dzen.ru##[aria-label^="Карточк"][aria-label*=" p"][aria-label*="кл"]
@@ -25032,6 +25033,7 @@ dzen.ru##[aria-label^="Карточк"][aria-label*="мы"]
 dzen.ru##[aria-label^="Рeкл"]
 dzen.ru##[aria-label^="Рекл"]
 dzen.ru##[data-testid="bottom-ad"]
+dzen.ru##[data-testid="right-ad-block"]
 dzen.ru##[id*="-teaser"] > div[id]
 dzen.ru##a[href*="://t.mail.ru/redir/"]
 dzen.ru##a[href^="https://trk.mail.ru/"]

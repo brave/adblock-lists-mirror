@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fTuV/ETasgDHoJqxLZn7fA
-! Version: 202512091312
+! Checksum: wVyUUe5F1/LSYS7CsxB2zg
+! Version: 202512091342
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Dec 2025 13:12 UTC
+! Last modified: 09 Dec 2025 13:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1788,6 +1788,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /a/pop/js/*$third-party,script
 /abnl/?ucozads^
 /ad-rotator/ad-list.json
+/ad-rotator/vast.xml
 /ad/base.js?id=$third-party,script
 /ad_click/*$object
 /ad_iframe/*$domain=~convert-video-online.com|~online-audio-converter.com

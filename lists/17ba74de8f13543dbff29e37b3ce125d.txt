@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512100056
+! Version: 202512100146
 ! Title: EasyList
-! Last modified: 10 Dec 2025 00:56 UTC
+! Last modified: 10 Dec 2025 01:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a4b52ab1747e8366f051bcdb166634f56d6912e3
+! Commit: deeb397687bc1c99d1f245aab695f0866ec64c18
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -18772,6 +18772,7 @@ browsershots.org#@#.advert_area
 ||asokapygmoid.com^
 ||asopn.com^
 ||aspalaxyerking.help^
+||aspcabuster.cyou^
 ||aspectreinforce.com^
 ||aspensbangup.cfd^
 ||asperencium.com^
@@ -20357,6 +20358,7 @@ browsershots.org#@#.advert_area
 ||bldxtxnmhlhli.online^
 ||bleaborahmagtgi.org^
 ||bleak-afternoon.com^
+||bleak-deposit.pro^
 ||bleak-yard.com^
 ||bleaksalfur.cyou^
 ||bleatyskryer.cyou^
@@ -21075,6 +21077,7 @@ browsershots.org#@#.advert_area
 ||btprmnav.com^
 ||btrem.site^
 ||btrlvukwtlqyc.site^
+||btrqjueuiseqs.space^
 ||btrsagtwkntax.website^
 ||bttphsqvrunfw.store^
 ||bttrack.com^
@@ -23523,6 +23526,7 @@ browsershots.org#@#.advert_area
 ||crossecopepod.help^
 ||crosspreferrite.com^
 ||crotondaytime.cyou^
+||croupedippers.shop^
 ||crowded-you.pro^
 ||crowdsuitcaseuntwist.com^
 ||crownetsketchy.qpon^
@@ -25067,6 +25071,7 @@ browsershots.org#@#.advert_area
 ||dmatzeelpqsqr.space^
 ||dmavtliwh.global^
 ||dmbrroiqprgwdad.com^
+||dmddfkml.com^
 ||dmfletnofbgay.site^
 ||dmfnlrvyackwo.online^
 ||dmfnwurs.xyz^
@@ -25784,6 +25789,7 @@ browsershots.org#@#.advert_area
 ||dzjlyvcsggmls.online^
 ||dzkdyqyvadyqq.online^
 ||dzkmjwirelhdd.space^
+||dzphmsyyaxoaa.website^
 ||dzpoejczjsmkk.store^
 ||dzthdolznengm.space^
 ||dzubavstal.com^
@@ -25866,6 +25872,7 @@ browsershots.org#@#.advert_area
 ||eardepth-prisists.com^
 ||earflaproof.world^
 ||earlapssmalm.com^
+||earldomarmet.shop^
 ||earlinessone.xyz^
 ||early-finding.com^
 ||earmuffpostnasalrisotto.com^
@@ -25948,6 +25955,7 @@ browsershots.org#@#.advert_area
 ||ebovfigjrw.xyz^
 ||ebpgojlzwpkqy.site^
 ||ebqutkzji.com^
+||ebriosetoruses.cfd^
 ||ebsardfdabxhr.space^
 ||ebtmheltqzyub.online^
 ||ebuzzing.com^
@@ -27153,6 +27161,7 @@ browsershots.org#@#.advert_area
 ||excludegusteight.com^
 ||exclusivelearnt.com^
 ||excuseduchess.com^
+||excysthilloas.help^
 ||exdnoseykzteg.site^
 ||exdynsrv.com^
 ||executivehoroscope.com^
@@ -31270,6 +31279,7 @@ browsershots.org#@#.advert_area
 ||hitchednosine.qpon^
 ||hitchprivilege.com^
 ||hitcpm.com^
+||hitfewness.cfd^
 ||hitherineditadowly.cfd^
 ||hithycofa.com^
 ||hitifxlforvbh.site^
@@ -32146,6 +32156,7 @@ browsershots.org#@#.advert_area
 ||idopabsapfobi.online^
 ||idopjhlwippgp.website^
 ||idorbicle.click^
+||idorgandewcap.cyou^
 ||idpgakrenkmki.store^
 ||idpjfsvpydrrq.website^
 ||idpvgjtqaiygt.space^
@@ -32257,6 +32268,7 @@ browsershots.org#@#.advert_area
 ||ihoorgeecmauh.net^
 ||ihphbcdn.net^
 ||ihphbcdn.xyz^
+||ihpmrhpgspgie.com^
 ||ihpqzrkobyejs.website^
 ||ihsgawkish.qpon^
 ||ihu3kx5xujb1m6rj.cfd^
@@ -34908,6 +34920,7 @@ browsershots.org#@#.advert_area
 ||kqw6ccgiuv37gv73z6.cfd^
 ||kqxomdlv.com^
 ||kqyjyxyjpuiqr.website^
+||kqypbzcswl.com^
 ||kqzyfj.com^
 ||kra18.com^
 ||kraaledclaims.digital^
@@ -48471,6 +48484,7 @@ browsershots.org#@#.advert_area
 ||stuffserve.com^
 ||stulophovedsy.net^
 ||stultesougloup.net^
+||stumblespeel.cfd^
 ||stummelbeelbow.com^
 ||stumpsmug.com^
 ||stumsagas.digital^
@@ -72952,7 +72966,9 @@ wayfair.*##div[data-node-id^="SponsoredListingCollectionItem"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[data-resultid$="-sponsored"]
 costco.*##div[data-testid="AdSet-all-sponsored_products"]
 walmart.*##div[data-testid="sp-item"]
+walmart.*##div[data-testid="sp-search-middle"]
 manomano.*##div[data-testid="sprbrd-banner"]
+walmart.*##div[data-testid="tile-take-over"]:has(#sponsored-label)
 walmart.*##div[data-testid^="sba-container"]
 lidl.*##div[data-type="sponsored"]
 zoohit.*,zooplus.*##div[data-zta="product-card"]:has(.z-sponsored-tag)
@@ -73206,6 +73222,7 @@ etsy.com##[data-page-type="market"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
+samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 kayak.com##[role="button"]:has([class*="ad-marking"])

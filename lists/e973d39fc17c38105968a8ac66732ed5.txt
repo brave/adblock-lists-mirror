@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4HIYrB2MZZh69C1fI8O7xw
-! Version: 202512121931
+! Checksum: niJr51Lm96usuF5Ybnsetw
+! Version: 202512122011
 ! Title: EasyList Spanish
-! Last modified: 12 Dec 2025 19:31 UTC
+! Last modified: 12 Dec 2025 20:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1873,9 +1873,9 @@ leroymerlin.es##li[id^="maxarea-slide-"]:has([data-st-name="sponsored"])
 mil21.es##td[class*="id_publi_"]:has(a[href^="https://www.amazon.es/"])
 cuencanews.es##td[class*="id_publi_"]:has(img[alt="publicidad"])
 ! Advanced element hiding rules for Adblock Plus
+mediamarkt.es##[data-test="mms-product-card"]:has([data-test="mms-plp-presented"])
 as.com#?#.s.s--v:-abp-has(span:-abp-contains(OFRECIDO POR))
 diarios-argentinos.com#?#.wide-content:-abp-has(h1:-abp-contains(Publicidad))
-elcomercio.pe#?##lateral:-abp-has(span:-abp-contains(Auspiciado por:))
 elespectador.com#?#.Block:-abp-has(.Title_section:-abp-contains(Contenido patrocinado))
 elespectador.com#?#.Card:-abp-has(.Card-Section.Section:-abp-contains(Contenido patrocinado))
 elquindiano.com,laboyanos.com#?#span:-abp-contains(PUBLICIDAD)
@@ -1884,8 +1884,8 @@ falabella.com#?#.products-carousel-wrapper:-abp-contains(Patrocinado)
 hoy.com.do#?#span:-abp-contains(Publicidad)
 juegosdiarios.com#?#.display-ads:-abp-has(>span:-abp-contains(Anuncio))
 larepublica.co#?#.row.H_Img_V_Title_Center.mb-3:has-text(Contenido Patrocinado)
+elcomercio.pe#?##lateral:-abp-has(span:-abp-contains(Auspiciado por:))
 lavoz.com.ar#?#.clearfix.list-cards.mb1.section-ciudadanos:-abp-has(.title:-abp-contains(Espacio de marca))
-mediamarkt.es##[data-test="mms-product-card"]:has([data-test="mms-plp-presented"])
 mundo724.com#?#.et_pb_column:-abp-has(p:-abp-contains(Publicidad))
 periodismokosher.com.ar#?#.widget-content:-abp-has(a[target="_blank"])
 photocall.tv#?#.dropdown:-abp-has(label:-abp-contains(VPN))
@@ -2609,6 +2609,7 @@ videospornogratisx.net#?#.block:-abp-has(>h3:-abp-contains(WEBCAM PORNO XXX))
 !-----------------------Allowlists to fix broken sites------------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_allowlist.txt ***
 @@||20m.es/prebid/$script,domain=20minutos.es
+@@||2mdn.net/instream/html5/ima3.js$script,domain=envivo.adnradio.cl
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independentespanol.com
 @@||adswizz.com/adswizz/js/SynchroClient2.js$script,domain=13cradio.cl
 @@||alkosto.cdn.adglare.net^$image,xmlhttprequest,domain=alkosto.com|ktronix.com

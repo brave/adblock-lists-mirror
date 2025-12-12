@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bCDWKRg+gd12hC3KCoWXjA
-! Version: 202512121411
+! Checksum: hVMBi000ch0OPHsSiO1Mfw
+! Version: 202512121431
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Dec 2025 14:11 UTC
+! Last modified: 12 Dec 2025 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24519,6 +24519,7 @@ mail.rambler.ru##div[class*="Ad-root"]
 mail.rambler.ru##div[class*="AddBillboard"]
 mail.rambler.ru##div[class*="AppContainer-adWrapper"]
 mail.rambler.ru##div[class*="SentLetter-context"]
+nova.rambler.ru#?#div[class*="__sticky--"] > div:-abp-has(> [id^="adfox-"])
 nova.rambler.ru##div[class*="__sticky--"] > div:first-child:not(:only-child):not([class^="Found__root--"])
 nova.rambler.ru##div[class*="adv__context"]
 avtorambler.com,rambler.ru##div[class*="banner-"]

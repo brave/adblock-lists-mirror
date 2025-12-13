@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512130736
+! Version: 202512130812
 ! Title: EasyPrivacy
-! Last modified: 13 Dec 2025 07:36 UTC
+! Last modified: 13 Dec 2025 08:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3d74d5cab1c8456cfdb5ac72e5d02c7d23ba7072
+! Commit: bbbe5adca5b29380685cc3588415a8e904749329
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -939,7 +939,7 @@
 /federated-analytics.all.min.js
 /figanalytics-short-ttl.js
 /fingerprint-3.4.1.js
-/fingerprint.js$domain=~github.com
+/fingerprint.js^$domain=~github.com
 /fingerprint.min.js
 /fingerprint/iife.min.js
 /fingerprint2.js

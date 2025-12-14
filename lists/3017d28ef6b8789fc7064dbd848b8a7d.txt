@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512140103
+! Version: 202512140149
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2025 01:03 UTC
+! Last modified: 14 Dec 2025 01:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5c6896a7ed84cb81be26e332c30e16dd98fcc17c
+! Commit: b0e850ec01b5153f5d636d2b2faaac88d38eab01
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12517,6 +12517,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zapcdn.space/zapret.js
 ||zendesk.com/frontendevents/$xmlhttprequest
 ||zengenti.com/tags/
+||zeropartyforms.com^*/digibox.gif?
 ||zi-scripts.com/zi-tag.js
 ||ziffdavisb2b.com^*/tracker.js
 ||zineone.com^*/event
@@ -19246,6 +19247,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||w.smobile.wotif.com^
 ! ||sstats.bitdefender.com^
 ! ||target.microsoft.com^
+! ||aamt.msnbc.com^
 ! 
 ||0tfsd2rwwu3xjstb.edge41.testandtarget.omniture.com^
 ||1ps6e7sort397gy9.edge46.testandtarget.omniture.com^
@@ -19400,7 +19402,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||aadata.april-international.com^
 ||aainfo.anz.co.nz^
 ||aametrics.aktia.fi^
-||aamt.msnbc.com^
 ||aamt.nbcnews.com^
 ||aamt.newsapp.telemundo.com^
 ||aamt.today.com^

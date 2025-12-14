@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KMeWWyDs285ZXLQNzqRAEA
-! Version: 202512140831
+! Checksum: yAo1MqLmo1WL0o2oylr13g
+! Version: 202512140911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Dec 2025 08:31 UTC
+! Last modified: 14 Dec 2025 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14531,7 +14531,7 @@ legkopolezno.ru##.gen-banner
 semerkainfo.ru##.gensmall > .block_links
 iz.ru#?#.get_news_link__bottom__item:-abp-has(> a[href*="yandex."])
 iz.ru##.get_yandex_subscription_links
-myfootball.life##.gg-tra-ranking
+myfootball.pw,myfootball.ws##.gg-tra-ranking
 dota2.ru##.ggbetgift
 brotorrent.net##.giBlock
 dltv.org##.gift
@@ -16094,7 +16094,7 @@ vakhta-job.ru##.sidebar > div[style]
 animang.one,zdravotvet.ru##.sidebar > noindex
 24smi.org##.sidebar a[href][target="_blank"] > img
 animedub.ru#?#.sidebar div:-abp-has([data-relap-id])
-myfootball.life#?#.sidebar--right > .block_full:-abp-has(.gg-tra-ranking)
+myfootball.pw,myfootball.ws#?#.sidebar--right > .block_full:-abp-has(.gg-tra-ranking)
 prostopleer.com##.sidebar-a330-content
 101poisk.ru,acmc.ua,pbembed.me,pornobomba.vip,securitylab.ru,study.ru,vostok.fm##.sidebar-banner
 pikabu.ru##.sidebar-banner-300x250
@@ -18815,7 +18815,7 @@ kaktutzhit.by##div[class^="banner"][class$="rightSide"] > .banner:nth-of-type(1)
 cisoclub.ru##div[class^="banner"][class*="LENTA"]
 meteo.ua##div[class^="banner-"]
 znanierussia.ru##div[class^="banner-under-"]
-irr.by,myfootball.life,securitylab.ru##div[class^="banner_"]
+irr.by,myfootball.pw,myfootball.ws,securitylab.ru##div[class^="banner_"]
 caravan.su##div[class^="banner_header"]
 mnmag.ru##div[class^="banner_right"]
 fox-online.tv##div[class^="banner_sape"]
@@ -19277,7 +19277,7 @@ fotostrana.ru##div[id^="king-rightplace"]
 korabel.ru##div[id^="kodirect_"]
 anekdot.ru##div[id^="krt-"]
 goroday.ru##div[id^="lngtblck_"]
-myfootball.life##div[id^="main-"][id*="-ranking"]
+myfootball.pw,myfootball.ws##div[id^="main-"][id*="-ranking"]
 great-tv.ru,vserialy.com,vserialy.fun##div[id^="main_banner"]
 hype.tech,ixbt.com,rbkgames.com,vyborok.com##div[id^="marketWidget"]
 nanoreview.net##div[id^="mawid"]
@@ -22155,7 +22155,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||my-cinema.net/branding/
 ||my.mosenergosbyt.ru/file/id_content:$image
 ||mydiv.net/tim/newold
-||myfootball.life/*/betking/$~media
+||myfootball.*/betking/$~media
 ||mymedicalportal.net^$xmlhttprequest
 ||mynizhyn.com/image/banners/
 ||myparcels.ru/ajax/tz.php
@@ -23535,7 +23535,8 @@ igdz1.ru^$script,domain=igdz.ru
 !
 ! Rewrite rules
 !#if ext_abp
-||myfootball.life/*/betking/$media,rewrite=abp-resource:blank-mp4,domain=myfootball.life
+||myfootball.pw/*/betking/$media,rewrite=abp-resource:blank-mp4,domain=myfootball.pw
+||myfootball.ws/*/betking/$media,rewrite=abp-resource:blank-mp4,domain=myfootball.ws
 ||s-cdn.org/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||s-club.tv/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||ts.kg/olol*.mp4$rewrite=abp-resource:blank-mp4,domain=ts.kg

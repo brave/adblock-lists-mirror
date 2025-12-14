@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jm/klOMKN/48TWkqqkNJzQ
-! Version: 202512141111
+! Checksum: RwbYPj6WHbhULY2ofd/Z+Q
+! Version: 202512141131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Dec 2025 11:11 UTC
+! Last modified: 14 Dec 2025 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -774,6 +774,7 @@ $third-party,popup,domain=2ip.ru
 ||getdstudio.cab^$popup
 ||getdstudio.com^$popup
 ||getdstudio.dev^$popup
+||getsfiler.ru^$popup
 ||glance-news.com^$popup
 ||globalstylis.ru^$popup
 ||go2lead.net^$popup
@@ -14278,6 +14279,7 @@ griffiny.ru##.dopoln
 1progs.me,1progs.ru,notorgames.net##.down
 gamestracker.org##.down-mg
 slo.ru##.download-box > div:not([class="download"])
+igrovuha.org##.download-btn
 rl-team.net##.download_blue_yellow
 terabit.biz##.download_inner
 hostmp3.ru##.download_method > .method_box ~ *
@@ -16481,6 +16483,7 @@ russia-tv.online##.to-brand-danger
 donday-aksay.ru,donday-novocherkassk.ru,donday-shakhty.ru,donday-taganrog.ru,donday.ru,volga-day.ru##.tobbanner
 kursk-izvestia.ru##.today_cbr
 lovitut.ru##.toneBlock
+igrovuha.org##.tool
 urod.ru##.toolbarContent > .toolbarLink
 khersondaily.com##.top--banner
 igroutka.ru##.top-adapt

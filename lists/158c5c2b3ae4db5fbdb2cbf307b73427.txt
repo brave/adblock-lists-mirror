@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dJUr4YMacvw9pYzfUwDqsg
-! Version: 202512151641
+! Checksum: FG43+zlXVVjMz+HjE1A+Eg
+! Version: 202512151711
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Dec 2025 16:41 UTC
+! Last modified: 15 Dec 2025 17:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7440,7 +7440,7 @@ mail.ru##div[class^="tg"][class*="-wrapper_"]
 mail.ru##div[id^="mailru"]
 mail.*##.tv-widget [class^="vk-video"]
 mail.*##.tv-widget [class^="vk-video"] {remove:true;}
-mail.yandex.ru,mail.yandex.*###js-mail-layout-content-header > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
+mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 ||dzen.ru/zen-partner/$third-party

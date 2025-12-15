@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512142334
+! Version: 202512150032
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2025 23:34 UTC
+! Last modified: 15 Dec 2025 00:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a2a6a40be02beb0442f2a372e6552d9bd7b73907
+! Commit: f6f00a6001def1871da71410eef20031960af0a8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14743,6 +14743,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gamejolt.com/tick/
 ||gamemonetize.com/account/event.php?
 ||gamemonetize.com/account/eventvideo.php?
+||gamezop.com/c/events/
+||gamezop.com/c/impressions/
 ||gamivo.com/tcllc?
 ||gardpro.com/api/collect
 ||gc.newsweek.com/front/js/counter.js
@@ -54598,6 +54600,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||forum.djicdn.com/static/js/sensorsdata.min.js$script,domain=forum.dji.com
 @@||friendbuy.com^$domain=butcherbox.com
+@@||gamezop.com/prebid.js$script,~third-party
 @@||ganyancanavari.com/js/fingerprint2.min.js$~third-party
 @@||geoip-db.com/jsonp/$script,third-party
 @@||getflywheel.com/addons/google-analytics/$~third-party

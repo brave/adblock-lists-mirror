@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FCLestMJqYpAg+jYDU0n9g
-! Version: 202512151131
+! Checksum: f39Y7nJyavgMtv3bw4WhdA
+! Version: 202512151211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Dec 2025 11:31 UTC
+! Last modified: 15 Dec 2025 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23613,6 +23613,8 @@ lenta.*##.topic-body__content> .box-external-video:last-child {remove:true;}
 lenta.*##.topic-footer > div[class^="box-"][class$="-video"] {remove:true;}
 lenta.*##.vk-video-popup {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
+tapochek.*##body:has(#register_link) > canvas
+tapochek.*##body:has(#register_link) > canvas {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
 vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
 www.ixbt.*##.clickable_zone {remove:true;}

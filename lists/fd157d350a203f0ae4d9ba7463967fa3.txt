@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mv7nDZxUQsYdQXZPuj59Qg
-! Version: 202512152041
+! Checksum: 6UVX29uYAhDjrLU0fGSiAQ
+! Version: 202512152111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Dec 2025 20:41 UTC
+! Last modified: 15 Dec 2025 21:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19477,9 +19477,9 @@ topasnew24.com##div[style="width:100%; height:275px; display:block"]
 topasnew24.com##div[style="width:100%; height:310px; display:block"]
 vgae.ru##div[style="width:100%; margin:0 auto;"]
 forum.zoneofgames.ru##div[style="width:100%;height:480px;"]
-profinance.ru##div[style="width:300px"]
 amsterdamtravel.ru##div[style="width:300px;height:200px"]
 riamo.ru##div[style="width:300px;height:500px"]
+profinance.ru##div[style="width:320px"]
 topasnew24.com##div[style="width:336px; height:280px; display:block"]
 softobase.com##div[style="width:336px; height:280px;"]
 for-ua.com##div[style="width:540px;height:90px;overflow:hidden;display:block;margin-top:10px"]
@@ -22207,6 +22207,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||netglista.ru/wp-content/plugins/bbq/
 ||neurodoc.ru/wp-content/themes/neuro/iws_scripts/iws_ads_
 ||neutralen.nl^$third-party,script
+||neva.today/hamster/
 ||new-kino.net/ReklDC/
 ||new-sebastopol.com/resources/$object
 ||newformat.info/_img/ban/
@@ -24972,8 +24973,8 @@ docviewer.yandex.ru,docviewer.yandex.*##.with-bottom-direct > div[class] > div[c
 eda.yandex.ru##[data-testid="open-advert-modal-button"]
 eda.yandex.ru##div[class^="banner_"]
 mail.yandex.ru,mail.yandex.*##.b-direct-stripe
+mail.yandex.ru,mail.yandex.*##.RightColumnRoot.WithGlobalBar
 mail.yandex.ru,mail.yandex.*##div[class*="DirectLine"]
-mail.yandex.ru,mail.yandex.*#?#.js-scroller-right:-abp-has(> .BannersBlock > div:empty)
 mail.yandex.ru,mail.yandex.*#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
 rasp.yandex.ru,rasp.yandex.*##.Direct
 rasp.yandex.ru,rasp.yandex.*##.ThreadLayout__topDirect

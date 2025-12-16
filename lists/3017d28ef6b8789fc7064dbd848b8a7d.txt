@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512161438
+! Version: 202512161512
 ! Title: EasyPrivacy
-! Last modified: 16 Dec 2025 14:38 UTC
+! Last modified: 16 Dec 2025 15:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 845268a69dfe1fef56a52770c57a85c1ddbc02ff
+! Commit: 24bf5cad6dcf15cc0c36398f77c8ba1bfa2d04ab
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14053,6 +14053,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||9gag.com/track/
 ||a-da.invideo.io^
 ||a-reporting.nytimes.com^
+||a.apkeditor.io^
 ||a.electerious.com^
 ||a.sputniknews.com/js/sputnik.js
 ||a.tellonym.me^
@@ -55055,6 +55056,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||franceinfo.fr/assets/*/piano-analytics/piano-analytics-$script,~third-party
 @@||helix.videotron.com/js/api/fingerprint.js$~third-party
+@@||howsmyssl.com^$script,domain=trenitalia.fr
 @@||icu.newsroom.bi/ingest.php$xmlhttprequest,domain=autoplus.fr
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr

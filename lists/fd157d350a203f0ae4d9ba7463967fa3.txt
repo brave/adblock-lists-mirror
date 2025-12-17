@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c5mTiQPyGpqcjM7R3ptb3w
-! Version: 202512171931
+! Checksum: jwtWSKyeEetYZRFu3SNgdA
+! Version: 202512172011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Dec 2025 19:31 UTC
+! Last modified: 17 Dec 2025 20:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25361,7 +25361,7 @@ psm7.com###psm-messenger-subscribe-popup
 bilshe.com,businessua.com,multikino.com###reachMedia
 kote.ws###register_popup
 maam.ru###registr
-trychatgpt.ru###root > div > footer ~ div.fixed[style]
+trychatgpt.ru###root > div > div.fixed:not(:empty)
 bvedomosti.ru###sbox-overlay
 bvedomosti.ru###sbox-window
 sport-express.net,sport-express.ru###se-cookie-popup

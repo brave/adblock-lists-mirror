@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qvRUsyulNzjPWc2B6cPc0w
-! Version: 202512191131
+! Checksum: lmSjx6rxcZMyaSXGVbtG8w
+! Version: 202512191211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Dec 2025 11:31 UTC
+! Last modified: 19 Dec 2025 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22698,6 +22698,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||rsload.net/images*/2890374
 ||rsload.net/images*/appwizard.
 ||rss-script.ru^$domain=vk-cc.com
+||rstprgapipt.com/*?viewId=$xmlhttprequest
 ||rt-ddd.ru/image/banner/
 ||rt.com/scripts/adfox/
 ||rtg.real-vin.com/
@@ -23673,7 +23674,6 @@ lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,s
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
 pikabu.ru##article.story[data-text-length="1"]
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
-www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")
 drive2.ru#?#div:-abp-properties(min-height: 555px)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: br480vZIwDT3wzPpY3b9LQ
-! Version: 202512191811
+! Checksum: rl7B3SVAuOgVPesUxD2xow
+! Version: 202512191841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Dec 2025 18:11 UTC
+! Last modified: 19 Dec 2025 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7157,6 +7157,7 @@ _tizers.
 ||kinqp.ru^$third-party
 ||kinrowone.pro^$third-party
 ||kiojet.ru^$third-party
+||kiontwert.live^$third-party
 ||kipyn.com^$third-party
 ||kires.umk-spo.biz^
 ||kirlin.link^$third-party
@@ -15961,7 +15962,6 @@ materialscience.ru##.sape
 ladylib.net##.sape[style="width:500px;"]
 rupier.com##.sb > a > img[src^="http://rupier.com/forum/"]
 med.vesti.ru##.sb-banner
-5.ua#?#.sb-block:-abp-has([id*="ScriptRoot"])
 beauty.ua,viva.ua##.sb-partners
 edyna.media#?#.sb__column > .sb__section:-abp-has(> .sb-partners)
 agroinfo.kz##.sbanner
@@ -21550,7 +21550,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||goodgame.ru/|$xmlhttprequest
 ||goodread.ru/tiz*/
 ||googletagmanager.com/gtm.js?$domain=inc-news.ru|intellitest.me|ivi.ru|pogoda.com|vesti.kz
-||googleusercontent.com/hk/oobRfTyrFtxXAuFWNle3KfDteO/www.5.ua/files/img/bg/*.jpg.
 ||gooool365.org/betli_$script
 ||gooool365.org/ggpop$script
 ||gooool365.org/uploads/*.html$subdocument

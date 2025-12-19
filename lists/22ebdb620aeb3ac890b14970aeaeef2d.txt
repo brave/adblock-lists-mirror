@@ -1,8 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1vq3tepWjtN12HjWH/1rBQ
-! Version: 202512190835
+! Checksum: 3Ddauc282sg3SKkN0drUVA
+! Checksum: (will be replaced)
+! Version: 202512190246
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2025-12-19 08:35 UTC
+! Last modified: 2025-12-19 02:46 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28,6 +29,7 @@
 ||static.chrono24.com/lib/generated/js/app-hint-layer.
 ||tapcart.com/mobile-download-banner/banner-min.js
 !
+!------------------------General/Specific element hiding rules-------------------------!
 ! Mobile Notifications
 ###SmarterBannerContainer
 ###appInstallNotification
@@ -603,9 +605,11 @@ linkedin.com#?#div#public_post_contextual-sign-in:-abp-contains(Sign in to view 
 mail.proton.me#?#[aria-label="Notification"]:-abp-contains(app)
 news.bitcoin.com#?#.cwDafx:-abp-contains(Continue in the Bitcoin.com App)
 thepointsguy.com#?#.noVerticalPad:-abp-contains(Download the TPG App)
+!-------------------------Third-party blocking rules--------------------------!
 ! Mobile notifications
 ||app.adjust.net.in/smart_banner
 ||mobi24.net^$third-party
+!------------------------Specific uBO rules ------------------------!
 ! fanboy_notifications_specific_uBO.txt
 downace.com##+js(acis, requestPermission)
 news18.com##+js(acis, serviceworker.register)
@@ -904,6 +908,7 @@ cecile.co.jp,nola-novel.com##.smartbanner-show:style(margin-top: 0 !important;)
 s.tabelog.com##body,html:style(overflow-y: auto !important;)
 s.tabelog.com###js-webtoapp-floating-banner
 s.tabelog.com###js-webtoapp-floating-banner-overlay
+!---------------------------------Allowlists----------------------------------!
 ! Mobile Notifications
 @@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party
 @@||assure.ameli.fr^*/smart-app-banner.js$~third-party

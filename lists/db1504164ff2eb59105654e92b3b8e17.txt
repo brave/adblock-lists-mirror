@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7GEV87te9UA4F0Q/o5R+ww
-! Version: 202512191542
+! Checksum: EOKOO0QxpbfcTkV+09voEg
+! Version: 202512191612
 ! Title: EasyList China
-! Last modified: 19 Dec 2025 15:42 UTC
+! Last modified: 19 Dec 2025 16:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10440,6 +10440,10 @@ meijutt.*/js/pcjs/
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+yahoo.com##li[id^="taboola-twhk-"]
+yahoo.com###StreamMidCenter2Ad-0
+yahoo.com##div[id^="sda-"][id$="-iframe"]
+yahoo.com##.bg-card-bg-1[class*="300px"]
 h-ciyuan.com##.responsive-figure
 warcraftlogs.com##span[id^="ap-"]
 warcraftlogs.com##span[id^="apsf-"]
@@ -15452,9 +15456,6 @@ sina.cn##div[data-adid]
 yahoo.com##div[data-content="廣告"]:not(#sda-MAST-iframe)
 yahoo.com##.taboola-ad-item-wrapper
 yahoo.com##.stream-responsive-ad-item
-yahoo.com###sda-top-right-iframe
-yahoo.com###sda-mid-right-iframe
-yahoo.com###sda-mid-right-2-iframe
 wealwomen.com##div[data-cptid]
 cqmmgo.com##div[data-id*="_adv_"]
 freejavbt.com##div[data-selector*="ai-insert-"]

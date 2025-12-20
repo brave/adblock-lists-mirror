@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M58fAOKsOYJ0P+rquThCfQ
-! Version: 202512201131
+! Checksum: YhvuXYrolNTgUic80Cmd7w
+! Version: 202512201211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Dec 2025 11:31 UTC
+! Last modified: 20 Dec 2025 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14474,7 +14474,6 @@ osnova.news#?#.fotorama__stage:-abp-has(> div img[src*="/i/a/"])
 mmgp.ru##.fotwdgt_bt_adw
 xcadr.tv##.fp-brand
 bogmedia.org##.fp-player a[href^="https://bogvideo.com/partneram/"]
-fastpic.org##.fp-sticky-bottom
 plodovie.ru##.fpa-block
 satsis.info##.fr-banners-main
 comments.ua,fbc.biz.ua##.franshiz
@@ -19271,6 +19270,7 @@ bashinform.ru##div[id^="fixed_bottom"]
 ntv.ru##div[id^="flamur"]
 edunews.ru##div[id^="float-sidebar"]
 mix.tj##div[id^="formula"]
+fastpic.org##div[id^="fp-"]
 simulyator-myshi.ru##div[id^="game_banner"]
 forum.guns.ru##div[id^="gbr_"]
 esoreiter.ru##div[id^="getContent_esoreiter"]
@@ -23629,6 +23629,7 @@ tapochek.*##body:has(#register_link) > canvas
 tapochek.*##body:has(#register_link) > canvas {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
 vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
+www.ixbt.*###branding-ssr-style {remove:true;}
 www.ixbt.*##.clickable_zone {remove:true;}
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 ! селекторы
@@ -26198,7 +26199,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||imagebam.com/JS/js-cookie.js|$script,domain=imagebam.com
 @@||imagebam.com/assets/js/image_bootstrap.js|$script,domain=imagebam.com
 @@||images.ua.prom.st/*-canon-ir-adv.jpg|$image,domain=printerservice.com.ua
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=1plus1.ua|1plus1.video|24tv.ua|gamak.tv|showjet.net|showjet.ru|unian.info|unian.net|unian.ua|veedi.com|vgtimes.ru|viho.me|viho.pro|viho.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=1plus1.ua|1plus1.video|24tv.ua|debilizator.tv|gamak.tv|showjet.net|showjet.ru|telek.top|unian.info|unian.net|unian.ua|veedi.com|vgtimes.ru|viho.me|viho.pro|viho.tv
 @@||img.ria.ru/userpic/$image,domain=ria.ru
 @@||imgbum.net/img/pagebg.jpg|$image,domain=imgbum.ru
 @@||imhonet.ru/js/templates/views/tiles/m-tiles.advert.$domain=imhonet.ru
@@ -26568,6 +26569,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@/js/siropu/am/ads.min.js$script,~third-party,domain=customgames.ru|fantasticcraft.ru
 @@/pagead2.$domain=d-mod.ru|elsyst.gnomio.com|htmlweb.ru|minimalsy.xyz|mysmsbox.ru|ph4.ru|profatom.ru|pvpru.com|sitecoder.blogspot.ru|slushat-tekst-pesni.ru|sovremennoepravo.ru|survarium.pro|temp-mail.org|trialkeys.ru|tvfeed.in|www.inoreader.com
 @@/templates/*/adblock/adframe.*.js$script,~third-party,domain=filmisub.com|kinofen.net
+@@/videojs-contrib-ads.min.js|$script,domain=debilizator.tv|gamak.tv|telek.top
 @@||ad.mail.ru/adp/$xmlhttprequest,domain=pets.mail.ru
 @@||ad1.sibnet.ru/adriver.core.2.min.js|$script,domain=sibnet.ru
 @@||adbetnet.advertserve.com/js/libcode*.js|$script,domain=livesport.ws
@@ -26612,7 +26614,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||forum.ixbt.com/js/fotkidepo/baners//*.js|$script,domain=forum.ixbt.com
 @@||fosshub.com/media/js/adblock.js|$domain=fosshub.com
 @@||fwdcdn.com^*/advertisment.js|$script
-@@||gamak.tv^*-contrib-ads.$xmlhttprequest,domain=gamak.tv
 @@||gamesglue.com/game_core/check/ima3.js|$script,domain=gameswf.com
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=1plus1.video|unian.info|unian.net|unian.ua
 @@||gemius.pl/gplayer.js|$script,domain=1plus1.video|unian.info|unian.net|unian.ua

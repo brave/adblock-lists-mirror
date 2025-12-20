@@ -13,6 +13,7 @@ aternos.org##.sidebar:style(width: 1.745px !important; padding: 1px !important)
 aternos.org##.ad-dfp:style(min-height: 0.1485mm !important; height: 0.1485mm !important;)
 aternos.org###placement-takeover
 
+
 ! https://www.reddit.com/r/uBlockOrigin/comments/16lmeri/youtube_antiadblock_and_ads_september_18_2023/k1wl8df/
 !#if !env_mv3
 !#if !cap_html_filtering
@@ -241,8 +242,10 @@ smsonline.cloud##html[data-theme][lang] [id^="img_"][style]:has(iframe[framebord
 07c225f3.online,content-loader.com,css-load.com,html-load.com,img-load.com##html:not(:has(> head > style:only-child:has-text(width:399px;height:411px))):style(filter: opacity(0) !important; pointer-events: none !important;)
 /^https:\/\/[a-z]{3,4}\.[0-9a-z-]{6,}\.(?:com|xyz)\/script\/(?:[-.0-9A-Za-z]+\.)?[-0-9A-Za-z]{2,30}\.js$/$script,3p,match-case,header=x-length
 ://html-load.com/loader.min.js$domain=~dogdrip.net|~smsonline.cloud
+://html-load.com/lib.js$domain=~dogdrip.net|~smsonline.cloud
 ://html-load.com/sdk.js$domain=~dogdrip.net|~smsonline.cloud
 ://content-loader.com/loader.min.js$domain=~dogdrip.net|~smsonline.cloud
+://content-loader.com/lib.js$domain=~dogdrip.net|~smsonline.cloud
 ://content-loader.com/sdk.js$domain=~dogdrip.net|~smsonline.cloud
 /^https:\/\/(?:as(?:loader)?|(?:shield)?load(?:er)?)\.([-0-9A-Za-z]+\.[-A-Za-z]{2,16})\/(?:loader\.min|script\/(?:www\.)?\1)\.js$/$script,1p,strict3p,match-case,domain=~edu|~gov
 /^https:\/\/[a-z]{3,4}\.[a-z]{8,16}\.com\/loader\.min\.js$/$script,3p,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
@@ -412,3 +415,4 @@ chzzkban.xyz##+js(trusted-suppress-native-method, Node.prototype.contains, '{"cl
 
 ! https://github.com/AdguardTeam/AdguardFilters/commit/9557477b5260e1250c657bb4642215cd9d50de50
 teket.jp#@#div[aria-label="cookieconsent"]
+

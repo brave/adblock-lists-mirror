@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6YmOD8yvJ9Gb124SkbNYww
-! Version: 202512211911
+! Checksum: IKEbRap5Z8Z5tzyZxhs/Vg
+! Version: 202512211931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Dec 2025 19:11 UTC
+! Last modified: 21 Dec 2025 19:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24863,6 +24863,7 @@ ukr.net##.adv-news
 www.ukr.net##.fixed-block > div[class] ~ div
 www.ukr.net##.placeholder
 mail.ukr.net##.skeleton__adbar
+@@||mail.ukr.net/widget$elemhide
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="/ad.adriver."])
 www.ukr.net##div[class^="fuel-"][class$="-banner"]
 www.ukr.net##div[id^="ecbr-"]

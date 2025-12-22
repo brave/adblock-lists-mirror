@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.6.6
+! Version: 4.2.7.0
 
 ! General
 
@@ -61,8 +61,6 @@ alternatives-economiques.fr###temp-paywall
 alternatives-economiques.fr##+js(ra, style, div[data-ae-poool], stay)
 ambito.com##+js(cookie-remover, TDNotesRead)
 ||americanaffairsjournal.org/wp-content/mu-plugins/app/src/paywall/paywall.js$script,~third-party
-apollo-magazine.com##+js(cookie-remover, blaize_session)
-apollo-magazine.com,spectator.co.uk###subscribe-ribbon,div.ad-slot
 artforum.com##+js(cookie-remover, /^/)
 ||artnet.com/paywall-ajax.php$xmlhttprequest,~third-party
 artnet.com##div.article-body:style(display:block !important;)
@@ -329,6 +327,7 @@ sofrep.com##+js(cookie-remover, sofrep_news_ids)
 sofrep.com##+js(ra, class, div.paywall)
 sofrep.com##+js(rc, fader, div.fader)
 sofrep.com##div.non-paywall,div#paywall_wrap
+||tinypass.com/api/tinypass.min.js$script,domain=spectator.com|spectator.com.au|apollo-magazine.com
 spektrum.de##+js(rc, pw-premium, article.pw-premium)
 spglobal.com##+js(cookie-remover, count)
 startribune.com##div.modal-backdrop
@@ -369,7 +368,6 @@ thequint.com##+js(ra, class|style, div#story-body-wrapper, stay)
 ||thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.js$~third-party
 /\.thesaturdaypaper\.com\.au\/.+\/(\w+-){3,}/$inline-script,domain=thesaturdaypaper.com.au
 thesaturdaypaper.com.au##div.paywall-hard-always-show
-thespectator.com##+js(rc, ev-meter-content-class, div.ev-meter-content-class)
 thetimes.com##html:style(overflow: auto !important;)
 thetimes.com##body:style(overflow: auto !important;)
 thetimes.com##+js(rc, TeaserPage, body.TeaserPage)
@@ -658,7 +656,6 @@ epaper.indiatimes.com##div.epaperBlockerWrap
 /\/every\.to\/[-\w]+\//$inline-script
 every.to##+js(ra, style, div#post-body-full, stay)
 ||eviemagazine.com/api/trpc/post.paywall$xmlhttprequest,~third-party
-expressandstar.com,shropshirestar.com##+js(set, window.Fusion.globalContent.paywallStatus, false)
 ||fokus.se/app/plugins/sesamy-fpg/assets/js/sesamy-fpg.js$script,~third-party
 forbes.sk##+js(ra, style, div.post-content-soft-paywall, stay)
 forbes.sk##div#custom-html-locker

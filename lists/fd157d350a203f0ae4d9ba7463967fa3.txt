@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5Xr30NYz1D2/WE2dgsOK8Q
-! Version: 202512221811
+! Checksum: EEyUGKB6zX4vbqhUPpr8Ng
+! Version: 202512221841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Dec 2025 18:11 UTC
+! Last modified: 22 Dec 2025 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13270,6 +13270,8 @@ kinoafisha.info##.article_contentroll
 maanimo.com##.article_end_banner
 gorodovoy.ru##.article_footerText
 kanalukraina.tv##.article_idealmedia
+pravda.com.ua##.article_news_adv
+pravda.com.ua#?#.article_news_list:-abp-has(> .unit_header_banner)
 otvetkak.ru##.article_openx
 banker.ua##.article_sidebar > div[class="textwidget"]
 nick-name.ru##.articles

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r1O6juEqrM/BNoniDutwfQ
-! Version: 202512221131
+! Checksum: h2bo9VfQk+BSJP+C/Wvtkg
+! Version: 202512221211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Dec 2025 11:31 UTC
+! Last modified: 22 Dec 2025 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23574,7 +23574,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/pogoda/$script
 ||static.dzeninfra.ru/s3/zen-apps/*2/$script
 !
-$csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua|sportanalytic.com|notebookcheck-ru.com
+$csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 ://mail.ru$csp=img-src 'self' https:
 ://mail.ru/$csp=connect-src 'self' *.imgsmail.ru *.mail.ru ok.ru vk.com data: blob:

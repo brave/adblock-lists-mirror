@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QGoMpESUcyc34wHYo8cqxg
-! Version: 202512230200
+! Checksum: Uizgc0wyr9Ivq/wo3XUlsA
+! Version: 202512232250
 ! Title: Fanboy's Newsletter List
-! Last modified: 2025-12-23 02:00 UTC
+! Last modified: 2025-12-23 22:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1351,6 +1351,8 @@
 ##.markup.body > .subscribe-widget
 ##.pc-reset > ._container_cjrxc_1
 ##.single-post-container > .subscribe-footer
+##article.newsletter-post div[role="dialog"][aria-label="Subscribe modal"]
+##article.newsletter-post div[role="dialog"][aria-label="Subscribe modal"] + div[class^="background-"]
 ! alextimes.com
 ##.cpcta-flyin
 ! nlgate Newsletter

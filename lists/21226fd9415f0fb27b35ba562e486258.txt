@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: ve306YL4qm9y9wYn/7w9bw
+! Checksum: 6WBPo8fdIby/Lqez2812eg
 ! Title: Easylist Cookie List
-! Last modified: 2025-12-23 21:25 UTC
+! Last modified: 2025-12-24 10:25 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -22378,6 +22378,7 @@ teknokutu.com##+js(set-session-storage-item, cookieDeclined, true)
 bytello.com##+js(set-local-storage-item, _APP_COOKIE_NOTICE, reject)
 foodnetwork.com##+js(set-local-storage-item, wbdLTP, true)
 ytj.fi##+js(set-local-storage-item, accept-cookies, done)
+fiberlogy.com##+js(set-local-storage-item, consents.show_consent_modal, 1)
 unisa.ac.za##+js(set-local-storage-item, cookieConsent, essential)
 mamamia.com.au##+js(set-local-storage-item, itbl_consent_timestamp, 1)
 ytj.fi##+js(set-local-storage-item, cookie-neta, false)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: euhR6X+NzSo5/wU037wffw
-! Version: 202512251511
+! Checksum: 8jyYzPwnMROLoVHD+HlDqg
+! Version: 202512251541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Dec 2025 15:11 UTC
+! Last modified: 25 Dec 2025 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23582,7 +23582,6 @@ igdz1.ru^$script,domain=igdz.ru
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 ://mail.ru$csp=img-src 'self' https:
-://mail.ru/$csp=connect-src 'self' *.imgsmail.ru *.mail.ru ok.ru vk.com data: blob:
 ://pikabu.ru/$csp=connect-src https://pikabu.ru/ajax/ https://pikabu.ru/ajax.php *.pikabu.ru/ data: https://pikabu.ru/.well-known/ wss://pikabu.ru/.well-known/
 ://pikabu.ru/$csp=script-src 'self' * 'unsafe-inline' data:
 @@||a.magsrv.com/ad-provider.js$script,domain=ahen.me
@@ -23966,6 +23965,7 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.tgb-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.tgbv-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.zenad-card-rtb
+://mail.ru/$csp=connect-src 'self' *.imgsmail.ru *.mail.ru ok.ru vk.com data: blob:
 ! фикс для бесконечной загрузки на главной
 ||pms.mail.ru/?main_exp_id=
 ! Почта

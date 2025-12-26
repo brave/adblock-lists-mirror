@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qYuKsvclAoJFc48QmWbxbA
-! Version: 202512260900
+! Checksum: IXq2NqDj+2DLxeZB4V9nqQ
+! Version: 202512260925
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-12-26 09:00 UTC
+! Last modified: 2025-12-26 09:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4159,6 +4159,9 @@ rocket-boys.co.jp##body[style^="position:"]:style(position: static !important; t
 ! https://github.com/uBlockOrigin/uAssets/issues/23150
 flightradar24.com##[data-testid="sidebar__container"]
 flightradar24.com##.right-sidebar:style(right: 0 !important)
+! sqmagazine.co.uk
+sqmagazine.co.uk###global-popup
+sqmagazine.co.uk##body,html:style(overflow: auto !important; position: initial !important;)
 ! pbs.org
 pbs.org##.popup-type__large_funding
 pbs.org##body,html:style(overflow: auto !important; position: initial !important;)

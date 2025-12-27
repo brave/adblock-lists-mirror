@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.7.0
+! Version: 4.2.7.1
 
 ! General
 
@@ -248,9 +248,7 @@ loeildelaphotographie.com##.premium-pic-box,.membership-promo-container,.login_f
 loeildelaphotographie.com##+js(ra, style, img[style*="blur"])
 ||lrb.co.uk$inline-script
 marketwatch.com##+js(cookie-remover, cX_P)
-||medscapestatic.com/*/medscape-library.js$script,domain=medscape.com
-||wbmdstatic.com/*/chunk-vendors.*.js$script,domain=medscape.com
-medscape.com##.AdUnit,div[id^="ads-"]
+||adobedtm.com/*/launch-*.js$script,domain=medscape.com
 mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > div.tdb-block-inner)
 ||motorsportmagazine.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 ||ev.mundodeportivo.com$xmlhttprequest,~third-party

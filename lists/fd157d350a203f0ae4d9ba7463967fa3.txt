@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hohVWfW0CI2g//2sWDuiIQ
-! Version: 202512271131
+! Checksum: YQT69r5OP537p7oUqN+V9A
+! Version: 202512271212
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Dec 2025 11:31 UTC
+! Last modified: 27 Dec 2025 12:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23985,14 +23985,9 @@ e.mail.ru,octavius.mail.ru##.letter-list-item-adv
 news.mail.ru##.m-fixed-panel
 news.mail.ru##.r-source
 news.mail.ru##.reference-page__card ~ span:last-child
-dzen.ru##[id*="_tsar"]
 news.mail.ru##aside div > div:first-child:empty ~ div
 news.mail.ru#?#aside div:-abp-has(> div:only-child:empty)
 news.mail.ru##body > div > style + div[id]
-dzen.ru##div[class*="MyTargetAdvert"]
-dzen.ru##div[class*="news-advert"]
-dzen.ru##div[id][class*="news-"][class*="-advert"]
-dzen.ru##div[id][class*="news-"][class*="_loaded"]
 ! Дзен новости Mail-edition
 dzen.ru##[id*="410-"]
 dzen.ru##[id*="_R-A-"]
@@ -24002,17 +23997,24 @@ dzen.ru##[id*="_R-N-"]
 dzen.ru##[id*="_R-O-"]
 dzen.ru##[id*="_R-Q-"]
 dzen.ru##[id*="_R-U-"]
+dzen.ru##[id*="_tsar"]
 sportsdzen.ru##div[class*="-sports-button-ad_"]
 dzen.ru##div[class*="DirectAdvert"]
+dzen.ru##div[class*="MyTargetAdvert"]
 dzen.ru##div[class*="_advertItem"]
 sportsdzen.ru##div[class*="bookmakerOdds"]
 dzen.ru,sportsdzen.ru##div[class*="mascot-banner"]
+dzen.ru##div[class*="news-advert"]
 dzen.ru##div[class*="news_branding"]
 dzen.ru,sportsdzen.ru##div[class^="news-"][class*="Branding"]
 dzen.ru##div[class^="news-"][class*="_banner"]
 dzen.ru##div[class^="news-"][class*="banger"]
 dzen.ru##div[class^="news-"][class*="tsar"]
 dzen.ru,sportsdzen.ru##div[class^="news-mt-advert"]
+dzen.ru##div[class^="news-site--news-"]::after
+dzen.ru##div[class^="news-site--news-"][class*="__container-"]
+dzen.ru##div[id][class*="news-"][class*="-advert"]
+dzen.ru##div[id][class*="news-"][class*="_loaded"]
 ! Спорт
 sportmail.ru##.sidebar_video:empty
 sportmail.ru##a[href="/bookmakers/"]
@@ -24282,6 +24284,7 @@ e1.ru##.e1-top-panel__link[title="Авто"]
 fontanka.ru#?#.gridContainer > [class*="grid"]:-abp-has(> [class] > [href="/format/fproject/"])
 fontanka.ru#?#.gridContainer > [class*="grid"]:-abp-has(> [class] > [href^="/pressrelease"])
 fontanka.ru#?#.gridContainer > [class*="grid"]:-abp-has(> [data-creative])
+116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,www.fontanka.ru,ya62.ru#?#.gridContainer > div article:-abp-has(a[href*="?erid="])
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#.gridContainer > div[class*=" grid"]:-abp-has(> [data-creative])
 fontanka.ru##.gridOneThirdLaptop > [class^="sliderWrap_"]
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#.gridTwoThirdLaptop > article:-abp-has(> a[href*="/longread"])
@@ -24297,10 +24300,13 @@ fontanka.ru##[class*="pictureDayBlock_"] li > a[href*="/?erid="]
 fontanka.ru#?#[class*="pictureDayBlock_"] li:-abp-has(> a[href*="/?erid="])
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##[data-creative]
 fontanka.ru##[data-io-article-url] > [itemprop="articleBody"] ~ p[class]
-ru##[data-ns-portal] .gridContainer div[class^="offersBlock_"]
+ru##[data-ns-portal] .gridContainer div[class^="benefitsBlock_"]
 ru##[data-ns-portal] .notify-messages-popups
 ru##[data-ns-portal] [data-adv-mark]
-ru##[data-ns-portal] aside div[class^="offersBlock_"]
+ru##[data-ns-portal] a[href*="://auto.ru"][href*="utm_"]
+ru##[data-ns-portal] aside div[class^="benefitsBlock_"]
+ru##[data-ns-portal] div[class^="articleBlockFullscreenGallery_"] > div[class^="wrapper_"] > div[class^="slider_"] ~ div
+ru##[data-ns-portal] div[class^="newsFeedBlock_"] > div[class^="news_"] > a[href*="?erid="]
 ru##[data-ns-portal] div[class^="topicsInlineAdv"]
 ru##[data-ns-portal] div[class^="topicsList"] a[href*="erid="]
 ru##[data-ns-portal] div[class^="wrap_"][class$=" gridFullMobile"]:empty
@@ -24318,7 +24324,6 @@ ru##[data-test="themes-line"] a[href*="erid="] ~ div
 ru##[data-test="themes-line"] a[href*="utm_campaign"]
 ru##[data-test="themes-line"] a[href][target="_blank"]
 www.e1.ru#?#[data-vr-contentbox="Новость в левой колонке"]:-abp-has(> div ~ div ~ div)
-116.ru,14.ru,161.ru,164.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,voronezh1.ru,ya62.ru##a[href*="://auto.ru"][href*="utm_"]
 fontanka.ru##a[href="/__business_news"]
 fontanka.ru##article.NVaun > [class] ~ [class]
 fontanka.ru#?#aside > div[class]:-abp-has([class*="flickity"])
@@ -24326,8 +24331,6 @@ fontanka.ru##aside ~ aside > div:first-child
 fontanka.ru##aside ~ div aside > div[class]:first-child
 fontanka.ru##aside:empty
 fontanka.ru#?#div[class]:-abp-has(> div > button + [href="/pressrelease/"])
-116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##div[class^="articleBlockFullscreenGallery_"] > div[class^="wrapper_"] > div[class^="slider_"] ~ div
-116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#div[class^="newsFeedBlock_"] > div[class^="news_"] > a[href*="?erid="]
 fontanka.ru##div[class^="newsFeedBlock_"] > div[class^="news_"] > a[href^="https://doctorpiter.ru/"]
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#div[class^="newsFeedBlock_"] > div[class^="news_"]:-abp-has(> a[href*="?erid="])
 fontanka.ru#?#div[class^="newsFeedBlock_"] > div[class^="news_"]:-abp-has(> a[href^="https://doctorpiter.ru/"])

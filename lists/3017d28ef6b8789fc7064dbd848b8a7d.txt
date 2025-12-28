@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512281112
+! Version: 202512281134
 ! Title: EasyPrivacy
-! Last modified: 28 Dec 2025 11:12 UTC
+! Last modified: 28 Dec 2025 11:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 11bbf8e298871961dd672d6d0922cf411fe242e9
+! Commit: decdd865ca596bfdfeb6212ab9989e5b5932e364
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16565,7 +16565,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/210109
 ||curos.ca/res/*/resources/scripts/lib/fingerprint.js$important,redirect=fingerprint2.js,script
 ! https://github.com/uBlockOrigin/uAssets/issues/31330
-||metrics.streaks.jp^$xhr,redirect=noop.txt
+||metrics.streaks.jp^$redirect=noop.txt,xmlhttprequest
 ! Youtube
 ! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$badfilter
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$badfilter

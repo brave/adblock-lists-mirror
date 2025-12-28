@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512280139
+! Version: 202512280246
 ! Title: EasyPrivacy
-! Last modified: 28 Dec 2025 01:39 UTC
+! Last modified: 28 Dec 2025 02:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 53d7f326c19a24e6d52536804bfe7999ad2ae4b5
+! Commit: 28d66fca182aa8151a464eb2d3153bb378a0ed38
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3288,6 +3288,7 @@ _WebVitalsReporter_
 /p/rp/*?mi_u=*=&sap_id=$image
 /p1x1.gif
 /page.bsigroup.com/*
+/parceldns.com/t/*$image
 /pixel-prod.
 /pixel.mathtag.com/*
 /pixel?cid=
@@ -9987,6 +9988,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
 ||app.optibase.io^
+||app.partnerboost.com^
 ||app.pendo.io/data/$image
 ||app.posthog.com/e/?compression=
 ||app.posthog.com/e/?ip=
@@ -48256,6 +48258,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||open.airtelxstream.in^
 ! ||deeplink.xeropan.com^
 ! ||app.naga.com^
+! ||t.vrbo.io^
 ! 
 ! Company name: Branch.io
 ! 
@@ -52188,7 +52191,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||t.service.thetimes.co.uk^
 ||t.staging-mail.tabcorp.com.au^
 ||t.twenty.co^
-||t.vrbo.io^
 ||t1.benefits.tops.co.th^
 ||t1.discover.flashnews.com.au^
 ||t1.stadiumgoods.com^
@@ -54226,6 +54228,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||adme.media/metric-collector
 ||affilate.hh.ru^
 ||agroserver.ru/ct/
+||alloy-web.zvuk.com^
 ||analytics.carambatv.ru^
 ||api-metric.gosweb.gosuslugi.ru^
 ||api.litres.ru/tracker/

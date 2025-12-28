@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512280814
+! Version: 202512280844
 ! Title: EasyPrivacy
-! Last modified: 28 Dec 2025 08:14 UTC
+! Last modified: 28 Dec 2025 08:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4e5db8b976f4264ac0556cdff79035a5b92b0240
+! Commit: 5895eb30333bf6b1c6b7e529a3c29509b9ddbeba
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2445,6 +2445,7 @@
 /track_visit?
 /track_visitor?
 /trackBatchEvents?
+/trackbee.min.js
 /TrackClick.
 /trackClickEvent.js
 /trackconversion?
@@ -6038,6 +6039,7 @@ omni.soundestlink.com$image
 ||track-web.net^$third-party
 ||trackadshub.com^$third-party
 ||trackalyzer.com^$third-party
+||trackbee.ai^$third-party
 ||trackcb.com^$third-party
 ||trackcmp.net^$third-party
 ||trackconsole.com^$third-party
@@ -10224,6 +10226,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn-ds.com/analytics/
 ||cdn-eu.usefathom.com^
 ||cdn-staging.delivr.ai/pixels/
+||cdn.9gtb.com^
 ||cdn.app.cfigroup.com/webmon/$script
 ||cdn.clkmc.com/cmc.js
 ||cdn.cuty.io/fps.js
@@ -11394,6 +11397,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||o.aolcdn.com/js/mg1.js
 ||o.momently.info^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
+||obs.branderblender.com^
 ||obs.du89buildings.com^
 ||obs.esnlocco.com^
 ||obs.jollyoutdoorjogger.com^
@@ -12517,6 +12521,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||weglot.com/pageviews?
 ||wetpaint.com^*/track?
 ||wf.typesquare.com^
+||wgs.wgs-static.com^
 ||whooshkaa.com/identify
 ||whooshkaa.com/listen/track
 ||whoson.com/poll.gif
@@ -12544,6 +12549,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wondershare.es/jslibs/track.js
 ||wordmonetize.com^$third-party
 ||wordpress.com/geo/
+||work.selecdoo.com^
 ||workers.dev/api/event
 ||workers.dev/js/script.js
 ||worldssl.net/reporting.js
@@ -12966,6 +12972,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||giga.de/vw/$image,third-party
 ||global-media.de^*/track/ai.img
 ||goldsilbershop.de/go.cgi?
+||gproxy-beta.mableai.workers.dev/wtag/js
 ||hbx.df-srv.de^
 ||hittracker.org/count.php
 ||hittracker.org/counter.php

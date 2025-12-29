@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: ARrWGcXDXjUWNC4j0JJE5A
+! Checksum: PRovHqkFqlw3/oSbyCOMhw
 ! Title: Easylist Cookie List
-! Last modified: 2025-12-28 22:00 UTC
+! Last modified: 2025-12-29 20:50 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -22380,6 +22380,7 @@ rg.ru##+js(set-local-storage-item, cookieConsent, {})
 anitrend.co##+js(set-local-storage-item, anitrend_analytics_consent, denied)
 teknokutu.com##+js(set-session-storage-item, cookieDeclined, true)
 bytello.com##+js(set-local-storage-item, _APP_COOKIE_NOTICE, reject)
+superset.sh##+js(set-local-storage-item, superset-analytics-consent, denied)
 foodnetwork.com##+js(set-local-storage-item, wbdLTP, true)
 ytj.fi##+js(set-local-storage-item, accept-cookies, done)
 fiberlogy.com##+js(set-local-storage-item, consents.show_consent_modal, 1)

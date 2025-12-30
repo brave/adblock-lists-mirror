@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: R3KDMdEEgyeE3f3h6azEIQ
-! Version: 202512300941
+! Checksum: VNsHicPK3/SIiPCB8UhoDA
+! Version: 202512301011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Dec 2025 09:41 UTC
+! Last modified: 30 Dec 2025 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11728,6 +11728,7 @@ orakul.com###advLeftZone
 math-prosto.ru###advTopLine
 servers-rust.ru###adv_banner
 vseazs.com###adv_top2
+tabletki.ua###advancedContent
 chastnik-m.ru###adver_block_left
 chastnik-m.ru###adver_block_right
 gamedev.ru,prowebber.ru,vk.xakep.org###advert
@@ -13977,7 +13978,7 @@ livejournal.com##.cat-widget__card-wrap--adv
 vsthemes.org#?#.catalog > .shorty:-abp-has(> .block)
 hotline.ua##.catalog-three-products
 yamart.ru##.catalogElAd
-tabletki.ua#?#.category-card__card-row > .col:-abp-has(> div > .tabletki-adunit)
+tabletki.ua#?#.category-card__card-row > .col:-abp-has(> div .com__banner)
 ufanotes.ru##.category2 > .fa-exchange
 ufanotes.ru##.category2 > .fa-exchange ~ span
 3iks.org##.categoryrek
@@ -14067,6 +14068,8 @@ porngames.su##.column.last.mini > p
 alser.kz##.columnBanner
 russian.rt.com##.column__row_article-page_right:empty
 transinfo.by##.column_banner-wrap
+tabletki.ua##.com__banner
+tabletki.ua##.com__panel-container
 tabletki.ua##.com__panel-header
 pcportal.org##.come_d
 news.tj##.comment-area .newsbox-outer-banner
@@ -18407,7 +18410,7 @@ siver.com.ua##body > div[align="right"] > span
 progipertoniyu.ru##body > div[class*="modal"]
 povarenok.ru##body > div[class]:empty:not([style])
 votrube.ru##body > div[class]:last-of-type
-ura.news##body > div[class]:not([class*=" "]):not([style])
+ura.news##body > div[class]:not([class*=" "]):not(.gO):not([style])
 stopgame.ru##body > div[class]:not([id]):not([style]):empty
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##body > div[class]:not([id]):nth-child(-n+5) > a[href]
 finam.ru##body > div[class^="hidden-"]

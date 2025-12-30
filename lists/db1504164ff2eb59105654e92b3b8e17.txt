@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zUhti7rAoQ/1t2o/JBIUbQ
-! Version: 202512300141
+! Checksum: xABE+YvAM9z2HIPT8DPB2g
+! Version: 202512300241
 ! Title: EasyList China
-! Last modified: 30 Dec 2025 01:41 UTC
+! Last modified: 30 Dec 2025 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -20,6 +20,7 @@
 -*-*-*-*.alpha^$script,third-party
 /7755com-*00x*.gif
 /CC6F9ACB52D1582671AFEA808AFE10FE.gif
+.top/herebyad
 ||subhd.*/kaiyad.
 /js/clickadu.js
 /emwappopads/*
@@ -1780,6 +1781,9 @@ newduba.cn###jq_youxi
 ||ammonia20.com^
 ||vujglx.icu^
 ||2lj9n8sz0w.com^
+||kxsu.cn^
+||lavtcyojffug.com^
+||horribletrainer.com^
 ||bmzzojmzu.com^
 ||d8lzzy93g.com^
 ||msn5vg8em.com^
@@ -10625,8 +10629,10 @@ meijutt.*/js/pcjs/
 ||workers.dev^$domain=axiang.cc
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 ||douyucdn.cn/adxdsp/
+||711dm.com/color.
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+muinz.top##.module
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
 douyu.com#?#div[class^="body__"] > div[class^="card__"] > span > span[class^="card__"]:-abp-has(span[class^="cardTypeLabel"]:-abp-contains(广告))
 h-ciyuan.com##.theiaStickySidebar .widget_media_image

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 52wgoUR6ag5nQNLVISuHkQ
-! Version: 202512301641
+! Checksum: k81h3pr7nAB3p39ni40WdA
+! Version: 202512301712
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Dec 2025 16:41 UTC
+! Last modified: 30 Dec 2025 17:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -193,6 +193,10 @@ _vkontakte.png
 ##.zshare
 ##[class*="hdgo_"] > #hdplayer-video_share.share
 ##[data-controller_name="roundButton"][data-name="share"]
+ru##[data-ns-portal] button[aria-label="Добавить в закладки"]
+ru##[data-ns-portal] div[class*=" uiArticleBlockLinks_"]
+ru##[data-ns-portal] div[class^="blockSocial_"]
+ru##[data-ns-portal] div[class^="contactBlock_"][class*=" socialBlock_"]
 com,ru##[data-rambler-share]
 ##[data-rd-type="rd-post-view-social"]
 ##[data-test-id="share-button-copyLink"]
@@ -3037,7 +3041,6 @@ paparazzi.ru#?#div[align="center"]:-abp-has(> .ya-share2)
 teenslang.su#?#div[align="center"]:-abp-has(> a[href*="://t.me/"])
 ictv.ua##div[class$="menu-support-social"]
 rublacklist.net##div[class$="right_social_links_item"] > a[href][target="_blank"]
-116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##div[class*=" uiArticleBlockLinks_"]
 the-village.ru##div[class*="-ShareBlock-"]
 rg.ru##div[class*="Article"][class*="hare"]
 rg.ru##div[class*="EditorialHeader_contact"]
@@ -3110,9 +3113,7 @@ stopgame.ru##div[class^="_youtube-promo_"]
 hightech.plus,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="article-social"]
 yamal-media.ru##div[class^="article_ShareBlockWrapper"]
 greenpost.ua##div[class^="article_share_side_"]
-116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##div[class^="blockSocial_"]
 unn.ua##div[class^="button-plate_wrap_"]
-116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##div[class^="contactBlock_"][class*=" socialBlock_"]
 mayaksbor.ru##div[class^="d-news-comments-share"]
 trashbox.mobi,trashbox.ru##div[class^="div_social_"]
 btu.org.ua##div[class^="dle_b_telegram"]
@@ -3790,6 +3791,7 @@ _userbar_$image
 ##.widget_eu_cookie_law_widget
 ##.wpcc-container
 ##.youtube_box
+ru##[data-ns-portal] div[class^="mobileApps_"]
 ##[href*="gismeteo.ua"] ~ .gsInformer
 ~getpocket.com##a[href*="//getpocket.com/edit?"]
 ~prytulafoundation.org##a[href*="://prytulafoundation.org/"] > img
@@ -6796,7 +6798,6 @@ eanews.ru##div[class^="gdpr__Wrapper-sc-"]
 ib.online.gpb.ru#?#div[class^="gpb_internet_bank"][class*=" gpb_internet_bank"]:-abp-has(> [role="alert"])
 avito.ru##div[class^="items-banner-"]
 liga.net##div[class^="marketing-block-"]
-116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##div[class^="mobileApps_"]
 hightech.plus##div[class^="moneyTeaser"]
 pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="notifycation_notifycation_"]
 meshok.net##div[class^="privacyAlert_"]

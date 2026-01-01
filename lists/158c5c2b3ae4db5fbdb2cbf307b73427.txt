@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GbIahGh5wudYQ2LJKJxTzA
-! Version: 202601011041
+! Checksum: RDr3QWprQdb7fI9oD3j7Cg
+! Version: 202601011111
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Jan 2026 10:41 UTC
+! Last modified: 01 Jan 2026 11:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3194,6 +3194,7 @@ stratege.ru##div[style="text-align: center;"] > a[href="https://vk.com/strateger
 stratege.ru##div[style="text-align: center;"] > a[href^="https://t.me/"]
 samelectric.ru#?#div[style="text-align: center;"]:-abp-has(> a[href="https://vk.com/samelectric"])
 novoruskino.net##div[style="text-align: right;"] > [color="red"]
+krivbass.city##div[style^="background-color: #f3f3f3; padding: 30px; text-align: center; margin-bottom: 30px"]
 gagadget.com#?#div[style^="background:"]:-abp-has(> a[href^="https://t.me/"])
 povarenok.ru##div[style^="background:url(/i/okbg.jpg)"]
 povarenok.ru##div[style^="background:url(/i/vkbg.gif)"]
@@ -3675,7 +3676,6 @@ _userbar_$image
 ##.agree-cookie-wrap
 ##.alert-cookies
 ##.app.blog-post-page > #layout > #main-container > a[href*="utm_"][href*="campai"][target="_blank"]
-##.b-cookie-notification
 ##.b-head-universal-wrapper
 ##.b-noncontext-banner
 ##.b-policy-info

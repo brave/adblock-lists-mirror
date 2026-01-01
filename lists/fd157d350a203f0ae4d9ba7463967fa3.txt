@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Tj6hDSL9ZxD/5Zu3wNgrfw
-! Version: 202601011041
+! Checksum: htguLMFJdjVq74pxMaV5MQ
+! Version: 202601011111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Jan 2026 10:41 UTC
+! Last modified: 01 Jan 2026 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17356,6 +17356,7 @@ informburo.kz##[src*="/embed/SportsBetting"]
 gorvesti.ru,xn--b1ats.xn--80asehdb##[src*="/files/rk/"]
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##[src*="/frontend/assets/advert/"]
 bazr.ru##[src*="/global/banner/"]
+krivbass.city##[src*="/i/banners/"]
 obozrevatel.com##[src*="/igaming/out/widget/"]
 ilenta.com##[src*="/images/banner/"]
 abnews.ru,fakty.ua,highload.tech##[src*="/images/banners/"]
@@ -18997,6 +18998,7 @@ ficbook.net##div[class^="rkl-"]
 move.ru##div[class^="rnb-"]
 animedub.ru##div[class^="rolic"]
 kirovnet.ru##div[class^="rsya_block"]
+mel.fm##div[class^="section__banner"]
 vsedoramy.net##div[class^="sectionrol"]
 sd.ua##div[class^="sed"] > .half.left > .sdbrick:nth-child(-n+9)
 sd.ua##div[class^="sed"] > .half.right > .sdbrick
@@ -21888,6 +21890,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||krisha.kz^*/br/
 ||kritika24.ru/assets/plugins/sweet*.js
 ||kritika24.ru^*.php|$script
+||krivbass.city/i/banners/
 ||kronverkcinema.ru/sadm_files/banners/
 ||ksenstar.com.ua/images/444.jpg
 ||kset.kz/vda
@@ -25084,6 +25087,7 @@ dzen.ru##div[class*="-top-ad-"]
 dzen.ru##div[class*="_isRtb-"]
 dzen.ru##div[class*="_rightAdWrapper"]
 dzen.ru##div[class*="main-page-top-of-the-day-ad"]
+dzen.ru##div[class*="topBanner"]
 dzen.ru##div[class*="tsar__container"]
 dzen.ru##div[class^="dzen-desktop--top-app__dummy-"]:empty
 dzen.ru#?#div[data-testid="article-showcase-card"]:-abp-has(> [data-testid="card-rtb"])

@@ -131,15 +131,15 @@ crystaltreatmenteast.com##+js(acs, WebAssembly, atob)
 ||static.cloudflareinsights.com/beacon.min.js/$script,domain=japscan.*,important
 ||network-loop.com/campaigns/banners/$domain=japscan.*,important
 !#endif
-japscan.*##body > div.full-container > div.full-container.text-center > div.mt-2[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][rel][href^="https://www.longosto.shop/?utm_source="] > img.img-fluid:style(visibility: hidden !important;)
+!japscan.*##body > div.full-container > div.full-container.text-center > div.mt-2[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][rel][href^="https://www.longosto.shop/?utm_source="] > img.img-fluid:style(visibility: hidden !important;)
 japscan.*#@#.navbar-nav > li.nav-item > a.text-truncate.nav-link.font-weight-bold[href*="?"]
 japscan.*#@#body > div.full-container > div.full-container.text-center > div.mt-2[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][rel][href^="https://www.longosto.shop/?utm_source="] > img.img-fluid
-japscan.*##+js(spoof-css, body > div.full-container > div.full-container.text-center > div.mt-2[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][rel][href^="https://www.longosto.shop/?utm_source="] > img.img-fluid, visibility, visible)
+!japscan.*##+js(spoof-css, body > div.full-container > div.full-container.text-center > div.mt-2[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][rel][href^="https://www.longosto.shop/?utm_source="] > img.img-fluid, visibility, visible)
 japscan.*##+js(trusted-set, pubadxtag, 'json:{"divIds":[]}')
-japscan.*##+js(trusted-set, aclib, json:{"isShowingPop":false})
-japscan.*##+js(set, aclib.runInPagePush, noopFunc)
-japscan.*##+js(set, aclib.runBanner, {}, as, function)
-japscan.*##+js(set, aclib.runInterstitial, 1)
+!japscan.*##+js(trusted-set, aclib, json:{"isShowingPop":false})
+!japscan.*##+js(set, aclib.runInPagePush, noopFunc)
+!japscan.*##+js(set, aclib.runBanner, {}, as, function)
+!japscan.*##+js(set, aclib.runInterstitial, 1)
 japscan.*##+js(trusted-suppress-native-method, Document.prototype.getElementById, '"/^[A-Z][-0-9A-Z_a-z]{3,}$/"')
 japscan.*##+js(trusted-suppress-native-method, Document.prototype.querySelector, '"/^[#.][A-Z][-A-Z_a-z]+$/"')
 japscan.*##+js(trusted-suppress-native-method, Document.prototype.querySelector, '"/^\[data-/"')
@@ -153,9 +153,10 @@ japscan.*##+js(trusted-suppress-native-method, Document.prototype.querySelector,
 japscan.*##span ~ span[id][class]:remove()
 japscan.*###navHeader ~ [id]:not(#chapters, #reader):remove()
 japscan.*##.w-100 > [id]:not(#chapters, #reader):remove()
-japscan.*##+js(set, aclib.runPop, 1)
+japscan.*###navHeader ~ *:not([id]):remove()
+japscan.*##.w-100 > *:not([id]):remove()
+!japscan.*##+js(set, aclib.runPop, 1)
 japscan.*##+js(trusted-suppress-native-method, Document.prototype.getElementsByTagName, '"i"')
-japscan.*##+js(rmnt, script, +aclib[)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/21064
 ! https://github.com/uBlockOrigin/uAssets/issues/24220
@@ -417,18 +418,6 @@ tvtropes.org##+js(set, HTMLScriptElement.prototype.onerror, undefined)
 ! https://gall.dcinside.com/mgallery/board/view/?id=adguard&no=6798&page=1
 chzzkban.xyz##+js(no-fetch-if, pagead2.googlesyndication.com/pagead/js/adsbygoogle.js method:HEAD, emptyStr)
 chzzkban.xyz##+js(trusted-suppress-native-method, Node.prototype.contains, '{"className":"adsbygoogle"}', abort)
-
-! https://github.com/AdguardTeam/AdguardFilters/commit/8614bc9b5187a3a65b8b62f6b964d124ba6ad13b
-xissmie.xfolio.jp,misskey.art#@#div[data-sticky-container-header-height] > div[refresher] div[data-scroll-anchor][tabindex="0"] ~ div[data-scroll-anchor]:not([tabindex="0"])
-nijimiss.moe#@#div[data-scroll-anchor][tabindex="0"] ~ div[data-scroll-anchor]:not([tabindex="0"]) > div[class]:not([tabindex="0"]):not([withhardmute])
-kasei.ski,misskey.systems,mivatter.com,ikaskey.bktsk.com,sushi.ski,takusuki.com,oekakiskey.com,voskey.icalo.net,side.misskey.productions,gamelore.fun,misskey.niri.la#@#div[data-sticky-container-header-height] > div[refresher] div[data-scroll-anchor][tabindex="0"] ~ div[data-scroll-anchor]:not([tabindex="0"]) > div[class]:not([tabindex="0"]):not([class*=" "])
-live-theater.net#@#div[data-sticky-container-header-height] div[tabindex="0"] ~ div:not([tabindex="0"])
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/221115
-xissmie.xfolio.jp,ikaskey.bktsk.com,live-theater.net,misskey.art,misskey.resonite.love,misskeytsf.love,misskirara.net,p1.a9z.dev,takusuki.com,trpger.us,mk.yopo.work,sushi.ski,warpday.net,zadankai.club,misskey.io#@#+js(json-prune, ads)
-misskey.niri.la,kasei.ski,s.kitazawa.me,buttersc.one,invillage-outvillage.com,misskey.gamelore.fun,misskey.systems,mivatter.com,msk.kitazawa.me,oekakiskey.com,side.misskey.productions,sushi.ski,voskey.icalo.net,novelskey.tarbin.net,gp.tsukimi.club,misskey.neos.love,mk.yopo.work,nijimiss.moe#@#+js(json-prune, ads)
-xissmie.xfolio.jp,ikaskey.bktsk.com,live-theater.net,misskey.art,misskey.resonite.love,misskeytsf.love,misskirara.net,p1.a9z.dev,takusuki.com,trpger.us,mk.yopo.work,sushi.ski,warpday.net,zadankai.club,misskey.io##+js(json-prune, ads.[].imageUrl)
-misskey.niri.la,kasei.ski,s.kitazawa.me,buttersc.one,invillage-outvillage.com,misskey.gamelore.fun,misskey.systems,mivatter.com,msk.kitazawa.me,oekakiskey.com,side.misskey.productions,sushi.ski,voskey.icalo.net,novelskey.tarbin.net,gp.tsukimi.club,misskey.neos.love,mk.yopo.work,nijimiss.moe##+js(json-prune, ads.[].imageUrl)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/1pwecqg/ublockorigin_prevents_the_use_of_the_show_private/
 perchance.org#@#[style^="position: fixed;"]

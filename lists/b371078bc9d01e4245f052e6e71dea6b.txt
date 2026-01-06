@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 9thXX3YT0GHfk8XbOXSS6Q
+! Checksum: 8VC0DNhGqK5VpVZCe4633g
 ! Title: EasyList Hebrew
-! Last modified: 04 Jan 2026 18:24 UTC
+! Last modified: 06 Jan 2026 04:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -802,6 +802,7 @@ geektime.co.il###area-taboola-after-content
 geektime.co.il###area-taboola-top-content
 geektime.co.il##.tbl-next-up
 haaretz.co.il,themarker.com##.trc_related_container
+hwzone.co.il##.OUTBRAIN
 ice.co.il##.OUTBRAIN
 inn.co.il##.article-taboola
 inn.co.il##.category-taboola
@@ -829,6 +830,8 @@ rotter.net###taboola-forum_atf
 rotter.net###taboola-forums-top-react
 rotter.net###taboola-mid-page---long-article-pages
 rotter.net###taboola-post-top-react
+rotter.net##.tbl-next-up
+sheee.co.il,walla.co.il##.tbl-next-up
 sport5.co.il##.tbl-feed-container
 sport5.co.il##.trc_rbox_container
 stips.co.il##.t-recommendations-area
@@ -932,6 +935,9 @@ globes.co.il##a[href*="theadblockerproject.org"]
 haaretz.co.il,themarker.com##a[href*="://paid.outbrain.com/network/redir?"][target="_blank"]
 haaretz.co.il,themarker.com##a[href*="gampad/clk"]
 haaretz.co.il,themarker.com##a[onmousedown*="://paid.outbrain.com/network/redir?"][target="_blank"]
+haaretz.co.il,themarker.com##section:is([data-testid="michelangelo-list"],[data-testid="Donatello-list"]):has(> article > a:is([href^="http://pubads.g.doubleclick.net/"],[data-google-interstitial]))
+haaretz.co.il,themarker.com##section[data-testid="Butthead-list"]:has(> .advert)
+haaretz.co.il,themarker.com##section[data-testid] > article:has(> a:is([href^="http://pubads.g.doubleclick.net/"],[data-google-interstitial]))
 haipo.co.il##div[onclick*="countAdClick"]
 hamal.co.il##.container-fluid.styles_commentWrapper__ufWcY
 hamal.co.il##.container-fluid.styles_mainWrapper__fcFda
@@ -1142,6 +1148,7 @@ one.co.il##.vod-player-sponsor-image-bottom
 one.co.il##a[class*="one-article-strip"]
 onlife.co.il##.bottom-50.cj_above_team_banner_desktop
 onlife.co.il##.cj_new_widget_banners_left_long
+onlife.co.il##.cjbs-js-front-banner
 onlife.co.il##.persumi-text
 passportnews.co.il###fullpage_bnr
 passportnews.co.il##[src^="https://media.passportnews.co.il/media/Modules/Banners/"]

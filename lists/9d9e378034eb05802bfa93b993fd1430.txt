@@ -882,51 +882,21 @@ prajwaldesai.com##+js(nostif, site-access)
 downloadr.in##+js(nostif, show)
 downloadr.in##+js(nano-stb, countdown)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/112977
-@@||urdutimesdaily.com^$ghide
-
-! https://forums.lanik.us/viewtopic.php?t=47393
-topcomicporno.com##+js(nostif, show)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/109878
-! https://github.com/AdguardTeam/AdguardFilters/issues/111629
-bithub.win,freeshib.biz##+js(acs, eval, replace)
-bithub.win###wcfloatDiv4
-bithub.win##ins
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110335
 drawize.com##+js(acs, chAdblock)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/113195
-@@||mycinema.pro^$ghide
-mycinema.pro##[fdo]
-
-! xvideos-downloader.net popup
-xvideos-downloader.net##+js(set, D4zz, noopFunc)
-xvideos-downloader.net##+js(aeld, /^(?:load|click)$/, popMagic)
 
 ! benzin-preis.ch
 @@||benzin-preis.ch^$ghide
 
-! vidmedia.top popup
-vidmedia.top##+js(aopr, __Y)
-
-! cricfree. io / live popups
-cricfree.*,cricplay2.*,primetubsub.*##+js(nowoif)
-primetubsub.*##+js(aopr, AaDetector)
 ! https://www.reddit.com/r/uBlockOrigin/comments/1ehkxbg/filter_to_block_redirects_on_this_page/
 !#if cap_html_filtering
 topembed.pw##^script:has-text(adserverDomain)
 !#else
 topembed.pw##+js(rmnt, script, adserverDomain)
 !#endif
-*.gif$image,domain=cricfree.*
 
 ||ublockpop.com^$all
 ||drectsearch.com^$all
-
-! https://github.com/uBlockOrigin/uAssets/issues/12353
-figurehunter.net##+js(no-fetch-if, google)
 
 ! hindimovies. to propeller ads
 hindimovies.to##+js(acs, Math, String.fromCharCode)
@@ -959,12 +929,6 @@ journaldemontreal.com##+js(no-xhr-if, doubleclick)
 journaldemontreal.com###banner
 journaldemontreal.com##.bigbox-container
 
-! jardima.com timer
-jardima.com###wpsafe-generate:style(display: block !important;)
-jardima.com###wpsafe-link:style(display: block !important;)
-jardima.com##div[id^="wpsafe-wait"]
-jardima.com##.g1-slideup-wrap
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/tkvtro/foxcom_has_adblock_detector/
 fox.com##+js(no-xhr-if, googlesyndication)
 ! https://www.reddit.com/r/uBlockOrigin/comments/14cbznu/
@@ -987,6 +951,7 @@ poki-gdn.com##+js(aopr, alert)
 ||static.gamezop.com/creatives^$image,3p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/tnow27/adblock_detected_at_chimicamoorg/
+chimicamo.org##+js(no-fetch-if, googlesyndication)
 chimicamo.org##+js(no-xhr-if, ads)
 chimicamo.org##.widget:has-text(Adv)
 

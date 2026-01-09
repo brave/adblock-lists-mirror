@@ -44,3 +44,27 @@ jobs:
       run: |
         git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
         git push -u github lists
+
+    - name: notify-slack-failed
+      uses: slackapi/slack-github-action@91efab103c0de0a537f72a35f6b8cda0ee76bf0a # v2.1.1
+      if: failure()
+      env:
+        message: ":x:Adblock lists update job failed.\\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      with:
+        webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
+        webhook-type: incoming-webhook
+        errors: true
+        payload: |
+          {
+            "channel": "${{ secrets.SLACK_CHANNEL_ID }}",
+            "text": "${{ env.message }}",
+            "blocks": [
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "${{ env.message }}"
+                }
+              }
+            ]
+          }

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BKb2rXhDjqtGAz/YpAPbqg
-! Diff-Path: ../patches/224/224-s-1767878606-3600.patch
+! Checksum: 4FlDbbPgWXJfXso0uR+mZQ
+! Diff-Path: ../patches/224/224-s-1767950073-3600.patch
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.51.57
-! TimeUpdated: 2026-01-08T13:20:43+00:00
+! Version: 2.1.51.64
+! TimeUpdated: 2026-01-09T09:11:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1541,8 +1541,8 @@ yanaifei.net##.swiper-wrapper > .swiper-slide:has(> .banner[href^="https://"][ta
 health.tvbs.com.tw##.fromEditor > section.ed-px-5.ed-lg-hidden
 health.tvbs.com.tw##.h-full > div.flex-wrap > div.max-w-full > div.px-5.lg\:hidden:has(> div > div.flex.justify-center)
 dailygh.com##.div_removeable
-xgcartoon.com,dailygh.com###video-top-ad
-/cjs/cprt.js$domain=dailygh.com|xgcartoon.com
+twxgct.com,xgcartoon.com,dailygh.com###video-top-ad
+/cjs/cprt.js$domain=dailygh.com|xgcartoon.com|twxgct.com
 bbs.wps.cn##.topic-recommend-top
 pan.baidu.com##.wp-side-options
 mydown.yesky.com##.rightGg
@@ -4199,6 +4199,9 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 :800*/d/*n=$script,3p
 :800*/d/*t=$script,3p
 :800*/sc/*n=$script,3p
+:900*/d/*n=$script,3p
+:900*/d/*t=$script,3p
+:900*/sc/*n=$script,3p
 :8080/ad/
 :8080/advserver/
 :8080/js/v1.js$3p
@@ -5195,6 +5198,25 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$3p
+||kzi6mbwbk.com^
+||v8j1rkai1.com^
+||2pqma2nuv.com^
+||bugs01090ko.com^
+||51dxs.com^
+||operetta17.com^
+||pianola76.com^
+||pealefe.com^
+||dqzuroorrt.com^
+||yyax.cn^
+||g3m92egwo.com^
+||inte.net^
+||w58547.cc^
+||9dl3w12u5.com^
+||76qrln0bb.com^
+||bugs01091ko.com^
+||r6yigjfvp.com^
+||l4otxc.com^
+||h1yfrt.com^
 ||egvhd2ggc1.com^
 ||cj99fbulb4.com^
 ||5lz3u8s5uq.com^

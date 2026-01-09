@@ -27,3 +27,18 @@ tik-tok.porn##+js(set, adsArr, {})
 tik-tok.porn##.temporary-real-extra-block
 ||great12.org^
 ||kingered-banctours.com^
+
+! https://www.justwatch.com/us/tv-show/black-sails
+justwatch.com##.offers-list.buybox-selector:has-text(PROMOTED)
+justwatch.com##.offer-container:has-text(PROMOTED)
+! https://www.justwatch.com/dk/tv-series/black-sails/season-1
+justwatch.com##.vpn-link
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1q67xts/help_with_this_site/
+pornincest.net##+js(rmnt, script, /overlay/i)
+
+! https://github.com/uBlockOrigin/uAssets/issues/31439
+vertigis.com##+js(rmnt, script, /aoAdBlockDetected/i)
+
+! https://github.com/uBlockOrigin/uAssets/issues/31434
+canal1.com.co##.sticky.top-14:style(position: relative !important; top: 0rem !important)

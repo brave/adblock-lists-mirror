@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Q86sKGlEGqQYjkqrTxX6nw
-! Version: 202601060941
+! Checksum: YYlAaTkOyFUOoRpiK9E1cA
+! Version: 202601090141
 ! Title: EasyList Spanish
-! Last modified: 06 Jan 2026 09:41 UTC
+! Last modified: 09 Jan 2026 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1878,7 +1878,9 @@ cuencanews.es##td[class*="id_publi_"]:has(img[alt="publicidad"])
 ! Advanced element hiding rules for Adblock Plus
 mediamarkt.es##[data-test="mms-product-card"]:has([data-test="mms-plp-presented"])
 as.com#?#.s.s--v:-abp-has(span:-abp-contains(OFRECIDO POR))
+atlantico.net,laregion.es#?#.recirculation:-abp-contains(Contenido patrocinado)
 diarios-argentinos.com#?#.wide-content:-abp-has(h1:-abp-contains(Publicidad))
+eldiariony.com,laopinion.com,laraza.com#?#.module--external:-abp-contains(Contenido Patrocinado)
 elespectador.com#?#.Block:-abp-has(.Title_section:-abp-contains(Contenido patrocinado))
 elespectador.com#?#.Card:-abp-has(.Card-Section.Section:-abp-contains(Contenido patrocinado))
 elquindiano.com,laboyanos.com#?#span:-abp-contains(PUBLICIDAD)

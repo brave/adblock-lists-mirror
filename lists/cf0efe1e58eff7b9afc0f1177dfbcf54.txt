@@ -449,6 +449,8 @@ deezer.com##+js(set, smartLoaded, true)
 @@||cdn.hubvisor.io/wrapper/common/player.js$script,domain=deezer.com
 @@||cdn.hubvisor.io/wrapper/*/hubvisor.js$script,domain=deezer.com
 @@||cdns-preview-*.dzcdn.net/stream/*.mp3$media,domain=deezer.com
+! https://github.com/uBlockOrigin/uAssets/issues/11457#issuecomment-3672446402
+deezer.com##+js(trusted-json-edit, ..ads_audio=false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16508
 ! https://github.com/uBlockOrigin/uAssets/issues/17383
@@ -1403,10 +1405,10 @@ gadgets.es##+js(set, isAdBlockActive, false)
 rackusreads.com##+js(set, DHAntiAdBlocker, true)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17522
-elamigos-games.com,elamigos-games.net,elamigosgames.org##+js(nostif, checkAdblockUser)
-elamigos-games.com,elamigos-games.net,elamigosgames.org##.content_store
-elamigos-games.com,elamigos-games.net,elamigosgames.org##h3.my-4:has-text(/^Advertising/)
-elamigos-games.com,elamigos-games.net,elamigosgames.org##.iframeDiv
+elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##+js(nostif, checkAdblockUser)
+elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##.content_store
+elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##h3.my-4:has-text(/^Advertising/)
+elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##.iframeDiv
 elamigosgames.org##.store_fondo
 elamigosgames.org##.store_text
 

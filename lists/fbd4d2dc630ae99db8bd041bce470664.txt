@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: S8iGdo7rkgfyC4eu3hhPOQ
-! Version: 202601060941
+! Checksum: //D8GOZD2kuz8g4wC3TmAA
+! Version: 202601090141
 ! Title: EasyList Germany
-! Last modified: 06 Jan 2026 09:41 UTC
+! Last modified: 09 Jan 2026 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -749,7 +749,6 @@ wetter.com#@#div[id^="div-gpt-"]
 ||jojoad.com^$third-party
 ||kingads.net^$third-party
 ||klick4u.de^$third-party
-||klicktausch.com^$third-party
 ||liferd.de^$third-party
 ||linkedads.de^$third-party
 ||localpoint.ch^$third-party
@@ -767,7 +766,6 @@ wetter.com#@#div[id^="div-gpt-"]
 ||mupads.de^$third-party
 ||murcs.org^$third-party
 ||nativendo.de^$third-party
-||neqty.net^$third-party
 ||netpoint-media.de^$third-party
 ||netwayer.de^
 ||network-marketing24.com^$third-party
@@ -2528,8 +2526,8 @@ wetter.com#@#div[id^="div-gpt-"]
 ! (/sw.js)
 /^https?:\/\/.*\/.*(sw[0-9a-z._-]|\.notify\.).*/$script,domain=hammerporno.xxx
 !
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,~subdocument,third-party,domain=190.115.18.20|aniworld.to|bs.to|burningseries.nz|burningseries.sx|burningseries.vc|kinoger.to|kinokiste.live|megakino.co|s.to|serien.cam|serienstream.to|topstreamfilm.live
-/^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$~media,third-party,domain=kinoger.com|kinoger.pw|kinokiste.live|megakino.co|topstreamfilm.live
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,~subdocument,third-party,domain=190.115.18.20|aniworld.to|bs.to|burningseries.nz|burningseries.sx|burningseries.vc|kinoger.to|megakino.co|s.to|serien.cam|serienstream.to|topstreamfilm.live
+/^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$~media,third-party,domain=kinoger.com|megakino.co|topstreamfilm.live
 ! Specific filters necessary for sites using $genericblock filter option
 /googleads.$domain=g.doubleclick.net|googlesyndication.com
 /pagead2.$domain=g.doubleclick.net|googlesyndication.com|imasdk.googleapis.com
@@ -3116,7 +3114,6 @@ smart-rechner.de###outer_SR_rechner_display_unter_rechner
 myself.de###outofpageWrapper
 windowspro.de###p3wrapper
 ladies.de###page-closing-sol
-hstt.net###page-header + br + .forabg
 ladies.de###page-top-sol
 nordbayern.de###page_billboard
 titelschutzanzeiger.de###page_content > div > div > a > img
@@ -5708,6 +5705,7 @@ zentrum-der-gesundheit.de#?#span:-abp-contains(/ANZ|EIGE/) + div
 chip.de##.ft-charts-main > div:not(.List):not(.caps) {remove:true;}
 ! top-level domain wildcard
 finanzen.*###HomepageIssuerNews
+geizhals.*###startpage-showrooms
 finanzen.*##.adnz-ad-placeholder--google
 finanzen.*##.adnz-ad-placeholder--wideboard
 holidaycheck.*##.campaign-teaser

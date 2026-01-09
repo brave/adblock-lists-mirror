@@ -1,4 +1,4 @@
-ARG UV_IMAGE=ghcr.io/astral-sh/uv:0.9.4@sha256:c4089b0085cf4d38e38d5cdaa5e57752c1878a6f41f2e3a3a234dc5f23942cb4
+ARG UV_IMAGE=ghcr.io/astral-sh/uv:0.9.22@sha256:2320e6c239737dc73cccce393a8bb89eba2383d17018ee91a59773df802c20e6
 
 # ----------------------------------
 FROM ${UV_IMAGE} AS uv

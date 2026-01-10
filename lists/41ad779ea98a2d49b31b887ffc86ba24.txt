@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TfPQesNkRSrfJjYWvfw0fw
-! Version: 202601101025
+! Checksum: RupGlehxFae7yATCpnPpyA
+! Version: 202601101050
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-01-10 10:25 UTC
+! Last modified: 2026-01-10 10:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3784,6 +3784,7 @@ milliyet.com.tr##.sticky
 ! ---------- Ukranian Site Specific Hiding Rules ----------
 !
 ! fanboy_annoyance_allowlist.txt
+@@||alp440.activehosted.com/f/embed.php$script,domain=openpeople.university
 @@||bibblio.org^*/bib-related-content.min.js$script,domain=hindawi.com
 @@||cdn.wisepops.com/shared/wisepops/$script,domain=bluecinema.ch
 @@||csm.cxpublic.com/Shueisha.js$domain=wpb.shueisha.co.jp
@@ -49798,6 +49799,7 @@ ctpost.com##.px20.pb32:has-text(Sign up for)
 aarp.org##.recommendationSection:has-text(Newsletter)
 streetinsider.com##.right_pod:has-text(E-mail Address)
 wisegeek.com##.rounded-3xl:has-text(in your inbox)
+stackabuse.com##.rounded-lg:has-text(Improve your dev skills!)
 cjr.org##.row > .entry-content > p:has-text(daily newsletter)
 byteofdev.com##.shadow-xl.m-2.p-4:has-text(Sign up for email updates)
 emobilityplus.com##.sharedaddy
@@ -52599,7 +52601,7 @@ pixlr.com###mobile-variant
 onlyoffice.com###mobileAppBanner
 consumerreports.org###mtRoundupPaywallPopup
 privacywall.org###myModal
-amazon.ca,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.nl###nav-app-banner-container
+amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl###nav-app-banner-container
 oneindia.com###open-app
 windy.com###open-in-app
 livemint.com###openInApp

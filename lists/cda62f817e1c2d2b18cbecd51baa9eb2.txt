@@ -294,7 +294,6 @@ bing.com##ol#b_results > li.b_algo:has(.b_lineclamp3:matches-css-before(content:
 ! https://github.com/uBlockOrigin/uAssets/issues/29059#issuecomment-3327077921
 @@*$image,xhr,domain=bg-gledai.*|gledaitv.*|bg-gledai.video|gledaitv.fan|gledaitv.live
 @@||gledaitv.$ghide
-||cdn.gledaitv.*/js/adsbygoogle.js$script
 @@||pagead2.googlesyndication.com^$script,domain=gledaitv.fan
 gledaitv.*###ad-overlay
 
@@ -422,14 +421,8 @@ tvtropes.org##+js(set, HTMLScriptElement.prototype.onerror, undefined)
 chzzkban.xyz##+js(no-fetch-if, pagead2.googlesyndication.com/pagead/js/adsbygoogle.js method:HEAD, emptyStr)
 chzzkban.xyz##+js(trusted-suppress-native-method, Node.prototype.contains, '{"className":"adsbygoogle"}', abort)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/1pwecqg/ublockorigin_prevents_the_use_of_the_show_private/
-perchance.org#@#[style^="position: fixed;"]
-
 ! https://github.com/uBlockOrigin/uAssets/issues/31084
 ||akirabox.com^$script,domain=akirabox.to
-
-! https://github.com/uBlockOrigin/uAssets/issues/31342
-$to=~passport.jlcpcb.com,removeparam=from,badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16070#issuecomment-3716622677
 ||mmcdn.com^$badfilter

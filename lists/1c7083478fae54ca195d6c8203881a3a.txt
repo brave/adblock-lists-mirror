@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.8.0
+! Version: 4.2.8.1
 
 ! General
 
@@ -737,6 +737,7 @@ rockdelux.com##+js(ra, style, div#body, stay)
 rockdelux.com##div.bg-paywall
 rotowire.com##+js(ra, class, div.pw-content)
 rotowire.com##div.paywall-full,div.article-preview-fader
+rtings.com##+js(remove-cookie, product-previews)
 scroll.in##+js(rc, article-locked, article.article-locked, stay)
 ||serenitymarkets.com/wp-content/themes/Divi-child/assets/js/encriptar.js$script,~third-party
 serenitymarkets.com##+js(ra, class, div.blur_content, stay)

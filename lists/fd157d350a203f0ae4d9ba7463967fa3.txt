@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UOJCIxLweqBzIzdZsiBicA
-! Version: 202601121011
+! Checksum: p9g9ZaUD2Zk349yJEcVXUg
+! Version: 202601121042
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jan 2026 10:11 UTC
+! Last modified: 12 Jan 2026 10:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12449,6 +12449,7 @@ wysiwygwebbuilder.ru###post_ads
 forum.developing.ru,forumodua.com,ruboard.website,virusinfo.info###posts > .postcontainer[id^="yui-gen"]
 rf-cheats.ru###posts > br
 nowa.cc,rf-cheats.ru###posts > center
+vk.com,vk.ru#?##posts_container > [data-post-id]:-abp-has(> div .PostHeader__infoWrapper .PostHeader__description--overflow:-abp-contains(/Community ad|Реклама |Рэклама | жарнама/))
 pptcloud.ru###pptcloud-mail
 cpainform.ru###pr_top
 1ttv.net###prerollad
@@ -19404,6 +19405,7 @@ mastergrad.com##div[onclick*="Кликнул по рекламе"]
 delphimaster.net##div[onclick^="onclickRight"]
 vk.com,vk.ru##div[role="feed"] > article > div:not([class]) > div:only-child
 vk.com,vk.ru##div[role="feed"] > article > div[class]
+vk.com,vk.ru#?#div[role="feed"] > article:-abp-has(> [data-post-id] [class^="vkitPostHeader__container"] [data-testid="post-header-subtitle"]:-abp-contains(/Community ad|Реклама |Рэклама | жарнама/))
 vk.com,vk.ru#?#div[role="feed"] > article:-abp-has(> div [class^="AdBlockProtector__noVisible--"])
 mega-tracker.net##div[style$="#CCCCCC;"]
 360.ru##div[style$="250px;"]

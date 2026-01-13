@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sM26DWHmPG5PMuV3m2knWA
-! Version: 202601130732
+! Checksum: tFwFs+1AUa1qmMJhUOZV0g
+! Version: 202601130811
 ! Title: EasyList China
-! Last modified: 13 Jan 2026 07:32 UTC
+! Last modified: 13 Jan 2026 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1746,6 +1746,7 @@ newduba.cn###jq_youxi
 ##.home-qf > div[class*="img-ad"]
 ##.module-player > .dds_w
 ##.content > .dds_w
+###interstitial_fade[style^="display: block"]
 ##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 ##a[href="https://t.me/bokaiyunwujiankaiyun"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -1783,6 +1784,10 @@ newduba.cn###jq_youxi
 ||zither89.com^
 ||lpalartra.com^
 ||synopsis95.com^
+||g66ryy88z.com^
+||bugs01131ko.com^
+||kw7addjwr.com^
+||5yqi3kg1g.com^
 ||7mx63ygcti.com^
 ||wh2mu9uj5f.com^
 ||bugs01120ko.com^
@@ -10548,7 +10553,6 @@ meijutt.*/js/pcjs/
 ||douyucdn.cn/adxdsp/
 ||711dm.com/color.
 ||joyacg.top/wp-content/uploads/*-640
-||adunblock1.static-cloudflare.workers.dev^
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 supercloudsms.com##.container > img

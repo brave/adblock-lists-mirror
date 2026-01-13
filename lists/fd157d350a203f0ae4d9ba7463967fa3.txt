@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FuqSNYVD2pfB3yPmAUVmPw
-! Version: 202601131041
+! Checksum: cpLkgnMN1bjk1Xav2jIm8A
+! Version: 202601131111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Jan 2026 10:41 UTC
+! Last modified: 13 Jan 2026 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23593,8 +23593,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/video-feed/$script
-||static.dzeninfra.ru/s3/zen-apps/video-player-core/1.121.0/$script
+||static.dzeninfra.ru/s3/zen-apps/dzen-mobile/$script
+||static.dzeninfra.ru/s3/zen-apps/news-site/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org

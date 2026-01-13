@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601131959
+! Version: 202601132043
 ! Title: EasyList
-! Last modified: 13 Jan 2026 19:59 UTC
+! Last modified: 13 Jan 2026 20:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ab264027f9aa93a0bb2fc72af33dfec7d28922a9
+! Commit: 41401a587be458281376704b90094aa3ee4dbea4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54572,6 +54572,7 @@ browsershots.org#@#.advert_area
 ||umauirfyhaepr.online^
 ||umbkhpryixebl.space^
 ||umbrereforrard.qpon^
+||umcndsnxlmwqs.space^
 ||umdwwuasqcdar.online^
 ||umebella.com^
 ||umechinsauwho.net^
@@ -59460,6 +59461,7 @@ browsershots.org#@#.advert_area
 ||yypkjxtumgofe.site^
 ||yypqvjzprpsfm.online^
 ||yypw6r89bj9beue9q.rest^
+||yyrmipmm.com^
 ||yysqrduhpfsci.net^
 ||yysqrduhpfsci.xyz^
 ||yytxgghgvtwfp.icu^
@@ -59715,6 +59717,7 @@ browsershots.org#@#.advert_area
 ||zggfoihyhdtxp.space^
 ||zghdautxlwvis.store^
 ||zgijtonvzgadk.online^
+||zgjuvpnlfhyfip.com^
 ||zgkowgslzqhir.online^
 ||zgkrxxudimfdj.space^
 ||zgnuydyvcuqdt.online^
@@ -78706,11 +78709,13 @@ sprouts.com#?#li.product-wrapper:-abp-has(span:-abp-contains(Sponsored))
 stocktwits.com#?#.is-visible:has-text(Remove ads)
 gsmarena.com#?##subHeader3:has-text(daily deals)
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
+target.com#?#.styles_ndsCarouselItem__dnUkr:-abp-has(p.h-text-sm:-abp-contains(Sponsored))
 target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
 target.com#?#[data-test="productCardVariantRecommendation"]:-abp-contains(Sponsored)
 target.com#?#div[class^="styles_productCardVariantMiniWrapper_"]:-abp-has(div.h-text-sm:-abp-contains(Sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
+target.com#?#div[data-test="addToCartSuccessModalRecommendationsTile"]:-abp-has(p.h-text-xs:-abp-contains(Sponsored))
 techonthenet.com#?#div[class] > p:-abp-contains(Advertisements)
 telugupeople.com#?#table:-abp-has(> tbody > tr > td > a:-abp-contains(Advertisements))
 temu.com#?#.EKDT7a3v:-abp-contains(AD)

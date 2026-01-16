@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ehyeuGDoJCiyGPt22CDvpg
-! Version: 202601160812
+! Checksum: vJRlBQ3jLirxHHhu81/M8A
+! Version: 202601160841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Jan 2026 08:12 UTC
+! Last modified: 16 Jan 2026 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12717,7 +12717,7 @@ download-software.ru###sp-component .custom
 trend-city.ru###sp-left
 igra-prestoloff.cx#?##sp-right > .sp-inner > .module:-abp-has([id*="ScriptRoot"])
 igra-prestoloff.cx#?##sp-right > .sp-inner > .module:-abp-has([onerror])
-hi.dn.ua,slavinfo.dn.ua###sp-top-banners
+gamegpu.com,hi.dn.ua,slavinfo.dn.ua###sp-top-banners
 rebill.me###space
 rebill.me###space + a[target="_blank"]
 31tv.ru###special-link
@@ -13378,7 +13378,6 @@ prophotos.ru##.b-custom-banner
 edadeal.ru##.b-dsk-hero-ads-banner
 gzt-sv.ru##.b-fad
 xn--80ady2a0c.xn--p1ai##.b-flex
-shikimori.me,shikimori.one,shikimori.org#?#.b-forum > article:-abp-has(> .inner > footer .promo)
 sobaka.ru##.b-head-banner__link
 komiinform.ru##.b-header
 m24.ru##.b-header-adv-stripe
@@ -13875,7 +13874,6 @@ gdeetotdom.ru##.bracing-banner
 agroinfo.kz,flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom,livejournal.com##.brand
 smolensk2.ru##.brand-banner
 bnkirov.ru##.brand-bg
-gamegpu.com##.brand-block
 kinopod.ru##.brand-click
 kinopod.ru##.brand-click-inner
 kinopod.ru##.brand-container
@@ -15344,7 +15342,6 @@ ladyspecial.ru##.news_list1
 i.ua##.news_premium_item
 gta-gaming.ru##.news_t_left[style^="background:#ff0000;"]
 ura-inform.com##.news_view > a[href][rel="nofollow"][target="_blank"] > img
-shikimori.me,shikimori.one,shikimori.org#?#.news_wall > article:-abp-has(> a[href] > .status-line .promo)
 proporno.org##.newsbody > noindex
 asiaplustj.info##.newsbox-outer-banner
 apostrophe.com.ua##.newscomp
@@ -19022,7 +19019,6 @@ shazoo.ru#?#div[class^="sm"]:-abp-has(> div > [id^="yandex_rtb_"])
 smartmama.com.ua##div[class^="smart-"]
 sravni.ru##div[class^="special-offers-"]
 fastpic.org##div[class^="spinner"] ~ .d-flex
-shikimori.me,shikimori.one,shikimori.org##div[class^="spns"]
 cybersport.ru##div[class^="sponsor"]
 yougame.biz##div[class^="sponsor-banner"]
 sci-fi-news.ru##div[class^="sreda"]
@@ -19967,8 +19963,9 @@ d3.ru##section[data-uid^="ad"]
 d3.ru##section[data-uid^="placeholder-"]
 vikka.ua##section[id^="ctup_ads-"]
 agro-business.com.ua##section[id^="sp-subcribe-footer"]:not(#sp-subcribe-footer)
-gamegpu.com##section[id^="tm-top-"]
 sex-studentki.*##.description > button[style*="color:red;"]
+shikimori.one,shikimori.*##div[class^="spns"]
+shikimori.one,shikimori.*#?#.f-user:-abp-has(> div[class^="spns"])
 sosalkino.tube,sosalkino.*##.spot.after_player
 point.md##span > a[href*="/novosti/business/"]
 bhf.io##span > a[href][target="_blank"][rel="nofollow"]
@@ -21503,6 +21500,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||game-tournaments.com/media/a/
 ||game2day.ru//uploads/Images/1920X1080.jpg
 ||gamebomb.ru/images/sma
+||gamegpu.com/images/banners
 ||gameinside.ua^*/branding$image
 ||gamelayer.ru/dist/public/preloader.js
 ||gamer.ru/*branding

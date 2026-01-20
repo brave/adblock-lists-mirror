@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fcerwKVUimz9okNP/QI4Ew
-! Version: 202601180125
+! Checksum: 6H+nK2gVu2iAo5SDQxB3nw
+! Version: 202601202200
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-01-18 01:25 UTC
+! Last modified: 2026-01-20 22:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -680,6 +680,8 @@ tiktok.com##.e1x4pa920.css-18fyv6p-DivFloatButtonWrapper
 m.twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
 ! perplexity.ai (mobile app)
 perplexity.ai##+js(set-session-storage-item, appDownloadBannerDismissed, true)
+! app.uniswap.org (mobile app)
+app.uniswap.org##+js(set-session-storage-item, hideMobileAppPromoBanner, true)
 ! lightnovelworld.com
 lightnovelworld.com###lnwappmsg
 lightnovelworld.com##html:style(overflow: auto !important;)

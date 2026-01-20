@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rSFX/MpmfFxm1OZ5VSBycw
-! Version: 202601201612
+! Checksum: HUr/JfKvPZGldWT3ycGwEg
+! Version: 202601201641
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Jan 2026 16:12 UTC
+! Last modified: 20 Jan 2026 16:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3803,6 +3803,9 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ~whatsapp.com##a[href^="whatsapp://send"]
 ##app-cookie-consent-popup
 ##body #cookie-policy
+##body.branded:not(Kinogo) .notino
+##body.branded:not(Kinogo) .reg-ad
+##body.branded:not(Kinogo) [id^="uniq-"][class][style]
 ##cookies-gdpr
 ##div[class^="app_gdpr"]
 ##div[data-cookie-notification]
@@ -5864,7 +5867,6 @@ culture.ru##.notify-bar
 yk-news.kz##.notify-block
 holodilnik.ru##.notify-layer--cookie
 gorodkirov.ru,navigator-kirov.ru##.notifycation
-kinogo.ec,kinogo.luxury,kinogo.mu##.notino
 piluli.ru##.notiny
 smartpress.by##.noty_layout
 doramaland.plus##.now-ru-banner
@@ -6035,7 +6037,6 @@ xcom-shop.ru##.recommend-to-buy
 iz.ru##.recommendation-block > div > div
 iz.ru##.recommendation-block-header
 championat.com,championat.ru##.recommender-block
-kinogo.ec,kinogo.luxury,kinogo.mu##.reg-ad
 c-s.net.ua##.reg_mess_bg
 usba.com.ua##.region-footer > [id^="block-nasikontakti"] > .field > p ~ *
 rayon.in.ua##.region-header__form
@@ -6398,7 +6399,6 @@ kaifolog.ru##.yandexh,.yandexh + .atextbox
 yesasia.ru##.yesasia_subscribe
 bfm.ru##.youtube
 liga.net##.youtube-block
-kinogo.ec,kinogo.luxury,kinogo.mu##.zplata
 livesport.ru##.zz_cars_twin
 0calc.es,0calc.fr,0calc.in,0calc.ru,0rechner.de,nu.nl,web2.0calc.com,web2.0calc.ru##[action="/cookieconsent"]
 mbclub.ru##[alt="Клубный сервис"]

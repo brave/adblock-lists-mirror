@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YPWNeEFCf3ULVGLRkmWMrg
-! Version: 202601201851
+! Checksum: jgP5lf5MQ8boC0nPjgebvA
+! Version: 202601201932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Jan 2026 18:51 UTC
+! Last modified: 20 Jan 2026 19:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -155,6 +155,7 @@ _vkontakte.png
 ##.quiz-block-result-share-buttons
 ##.rt_share
 ##.share-panel
+##.shareUs
 ##.sharebutton_tg
 ##.smiletagging-button
 ##.soc-box
@@ -3803,9 +3804,10 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ~whatsapp.com##a[href^="whatsapp://send"]
 ##app-cookie-consent-popup
 ##body #cookie-policy
-##body.branded:not(Kinogo) .notino
-##body.branded:not(Kinogo) .reg-ad
-##body.branded:not(Kinogo) [id^="uniq-"][class][style]
+##body:not(Kinogo) #dle-content .notino
+##body:not(Kinogo) #dle-content .reg-ad
+##body:not(Kinogo) #dle-content [id^="uniq-"][class][style]
+##body:not(Kinogo) .notino
 ##cookies-gdpr
 ##div[class^="app_gdpr"]
 ##div[data-cookie-notification]

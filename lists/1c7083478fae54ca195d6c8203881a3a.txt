@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.8.5
+! Version: 4.2.8.6
 
 ! General
 
@@ -266,7 +266,6 @@ nrc.nl##div[id$="modal__overlay"],div.header__subscribe-bar,div.banner
 ||nybooks.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
-||nysun.com/api/zephr/$xmlhttprequest,~third-party
 ||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
 ||nytimes.com/svc/onsite-messaging/query$xmlhttprequest,~third-party
 ||mwcm.nyt.com/$script,domain=nytimes.com
@@ -283,6 +282,7 @@ paloaltoonline.com##+js(cookie-remover, /^/)
 ||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
 pb.pl##+js(ra, class, section.o-article-content, stay)
 pb.pl##div.o-piano-template-loader-box
+pitchfork.com##+js(remove-cookie, pay_ent_msmp)
 pourleco.com##+js(ra, style, div[class*="article-"][style])
 pourleco.com##div[data-pleco-poool^="paywall"],div[data-pleco-transition="fade"]
 philosophynow.org##+js(cookie-remover, /^/)
@@ -379,6 +379,7 @@ valeursactuelles.com##div.qiota
 valeursactuelles.com##+js(ra, class, div.qiota_reserve, stay)
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
 ||washingtonpost.com/*/tetro-client/$script,~third-party
+||welt.de/variants-*.js$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
 ||ynet.co.il/*/article/*?rel=plus$inline-script

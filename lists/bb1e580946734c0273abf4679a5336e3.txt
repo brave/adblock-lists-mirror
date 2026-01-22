@@ -2641,9 +2641,6 @@ telegraaf.nl##+js(no-fetch-if, /doubleclick|ad-delivery|googlesyndication/)
 ||securepubads.g.doubleclick.net/*gpt$script,domain=play.tv,important
 ||cdn.kaching.eu.com/latest/play/kaching.js$domain=play.tv
 
-! https://github.com/uBlockOrigin/uAssets/issues/31264
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.vrt.be,redirect=google-ima.js
-
 ! https://github.com/uBlockOrigin/uAssets/issues/31503
 agf.nl##+js(nosiif, show)
 
@@ -2682,15 +2679,11 @@ qub.ca##+js(set, __NEXT_DATA__.runtimeConfig._qub_sdk.qubConfig.video.adBlockerD
 ariase.com##+js(rmnt, script, dataLayer)
 ariase.com##.c-pub-header
 
-! https://github.com/uBlockOrigin/uAssets/issues/30685
-matele.be##+js(set, Object.prototype.advertising, {})
-
 ! https://github.com/uBlockOrigin/uAssets/issues/30708
 @@||toutes-les-solutions.fr^$ghide
 @@||toutes-les-solutions.fr/phpbb/images/*.jpg$image,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/30935
-||tech.powergothgirls.com/repo/xyz.js
 mym-db.com###swup > .row > div:has(> .card > div[data-ad-site])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/31462

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p1bdpqpYJVq6KC1PDKQK4A
-! Version: 202601220911
+! Checksum: foP45uiPRTXga+9ih7Po+w
+! Version: 202601220941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Jan 2026 09:11 UTC
+! Last modified: 22 Jan 2026 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24931,11 +24931,12 @@ ukr.net##.lazy-load-banner
 @@://yandex.*/search$generichide
 @@://yandex.ru/|$generichide
 @@||yandex.ru/ads/system/adsdk.js|$script,domain=yandex.ru
-market.yandex.ru##[data-auto="banner"] > a:not([href^="/"]):not([href^="https://market.yandex.ru/"])
-market.yandex.ru##[data-auto="banner"] [role="button"]
-market.yandex.ru##[data-auto="banner-ad-label"]
-market.yandex.ru,market.yandex.*##.layout_type_search.headline__footer
-market.yandex.ru,market.yandex.*##[data-apiary-widget-name="@marketfront/MadvHeaderPromo"]
+market.yandex.ru,market.yandex.*##[aria-label="Баннер"]
+market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="@marketfront/MadvHeaderPromo"]
+market.yandex.ru,market.yandex.*##[data-auto*="banner"] > a:not([href^="/"]):not([href^="https://market.yandex.ru/"])
+market.yandex.ru,market.yandex.*##[data-auto*="banner"] [role="button"]
+market.yandex.ru,market.yandex.*##[data-madv]
+market.yandex.ru,market.yandex.*##div[id^="remix_"] > div[style^="grid-row:"][style*="grid-column:"]:empty
 ya.ru##.i-mini-bem[class*="banner"]
 ya.ru##[aria-label="Informers"] ~ [class]
 ya.ru##[aria-label^="Информ"] ~ [class]

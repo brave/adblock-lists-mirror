@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601232128
+! Version: 202601232211
 ! Title: EasyPrivacy
-! Last modified: 23 Jan 2026 21:28 UTC
+! Last modified: 23 Jan 2026 22:11 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4882da172812d0fdc20812e43cbd5e67b9aa8d47
+! Commit: d2217ee228e74ef1716182569e396b6f7608e847
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -5462,7 +5462,7 @@ omni.soundestlink.com$image
 ||perljs.com^$third-party
 ||permutive.com^$third-party
 ||personyze.com^$third-party
-||petametrics.com^$third-party,domain=~telegraph.co.uk
+||petametrics.com^$third-party,domain=~telegraph.co.uk|~thestreet.com
 ||pghub.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
 ||phonalytics.com^$third-party
@@ -7552,6 +7552,7 @@ omni.soundestlink.com$image
 ||livingsleet.com^
 ||lizardslaugh.com^
 ||llamavoice.com^
+||loaddisplay.com^
 ||loadedhearts.com^
 ||loadsurprise.com^
 ||locateskill.com^
@@ -7712,6 +7713,7 @@ omni.soundestlink.com$image
 ||newarkdriving.com^
 ||newartreview.com^
 ||nicefollows.com^
+||nicehuh.com^
 ||niftygraphs.com^
 ||niftyhospital.com^
 ||niftyjelly.com^
@@ -11610,8 +11612,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||perimeterx.net/api/v1/collector/
 ||perr.h-cdn.com^
 ||perso.aws.arc.pub^
-||petametrics.com^$domain=meidastouch.com
-||petametrics.com^$image,third-party,xmlhttprequest
+||petametrics.com/*/activity
+||petametrics.com/*/modal
 ||pets.channeladvisor.com^
 ||photobox.com/event
 ||photobox.com/logs

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k0ouPQqrREtH5abwBXny9Q
-! Version: 202601231041
+! Checksum: 5pOSFBHtFhe2sXaMy0zr0g
+! Version: 202601231112
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Jan 2026 10:41 UTC
+! Last modified: 23 Jan 2026 11:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1494,7 +1494,6 @@ nn.ru##.js-ngs-share-button
 drive2.ru##.js-page .offer .c-share__label
 focus.ua##.js-post-share
 interesnoevmire.ru,ladyclub.org##.js-share-link
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com##.js-share_buttons
 xcom-shop.ru##.js-sidebar-social-link
 rbc.ru##.js-social-likes
 vlast.kz##.js-subscribe
@@ -3239,6 +3238,7 @@ obukhiv.info#?#footer div:-abp-has(> a[href*="://t.me/"])
 eda.ru#?#footer div:-abp-has(> div > [title="vkontakte"])
 fontanka.ru#?#footer div:nth-child(5):-abp-has([href^="https://vk.com/fontanka"])
 yap.ru,yaplakal.com##form[method="POST"] + .row4[style="padding:6px;"][align="center"]
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com##.js-share_buttons
 om1.ru#?#h1:-abp-contains(/в соцсетях/)
 format.kr.ua#?#h2:-abp-contains(/Под.литися|П.дпишись/)
 bigmir.net#?#h2:-abp-contains(Мы в соцсетях)
@@ -4617,7 +4617,6 @@ enthub.it###app > .bottom-20:last-child
 mamba.ru#?##app section:-abp-has(> div[class] > form#closeCookieBanner)
 vk.com###app_container_outer + div[style]
 terrikon.com###appeal
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com###apps_widget
 intex-press.by###article > blockquote
 novayagazeta.ru#?##article-body div:-abp-has(> div > div > [placeholder])
 theins.ru#?##articleContainer > div:-abp-has(form [name="email"])
@@ -6884,6 +6883,8 @@ timeweb.cloud##footer ~ div[class^="core--"]
 agents.media##footer-columns
 msfree.su##form[action^="https://msfree.su/donaties/"]
 1yar.tv##form[name="subscribe"]
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com###apps_widget
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com###top_info_block
 itechua.com,uamotors.com.ua#?#h4:-abp-has(> span a[href^="https://news.google.com/publications/"])
 hdrezka.*,rezka.*##.b-dwnapp
 hdrezka.*,rezka.*##.b-tophead__subscribe-dropdown
@@ -7623,8 +7624,6 @@ the-zomb.com#@#.sig
 ecigtalk.ru#@#.signature img
 gazetaby.com,gazetaby.info,gazetaby.media#@#.site-social
 comunicart.ru#@#.soc-fb
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com#@#.soc-link
-gdespaces.com,gdespaces.net,spac.me,spac.run,spac.wtf,spac1.com,spac1.net,spac1.org,spaces-blogs.com,spaces.im,spcs-files.xyz,spcs.bio,spcs.me,spcs.network,spcs.pro,spcs.reviews,spcs.social,strip2.club,strip2.in,strip2.xxx,usersporn.com#@#.soc-links
 acomics.ru,appledevelopers.ru,chess-online.com,citilink.ru,detector.media,dns-shop.ru,europaplus.ru,goha.ru,in-the-fog.ru,liga.net,logitech.com,mts.ru,popsci.com,rambler.ru,rosbalt.ru,signin.ebay.com,strana-krovi.com,strava.com,tampermonkey.net,technopoint.ru,tkbbank.ru#@#.social
 kai-gebel.com#@#.social-bar
 kai-gebel.com#@#.social-bar-bottom
@@ -7787,6 +7786,8 @@ livelib.ru,livemaster.ru,soccer.ru,vichatter.net#@#a[title="Twitter"]
 livemaster.ru#@#a[title="ВКонтакте"]
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,xn--80aacbuczbw9a6a.xn--p1ai#@#div[id^="vk_comments"]
 jcross-world.ru#@#div[id^="vk_group"]
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com#@#.soc-link
+google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com#@#.soc-links
 kinokopilka.pro#@#img[alt="Twitter"]
 prom.ua#@#img[alt="facebook"]
 !

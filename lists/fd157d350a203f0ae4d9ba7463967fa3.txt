@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 97nYTDibWpHkX8uxAxrP6w
-! Version: 202601230911
+! Checksum: Q42+KYK9euGU/NQlCC+/+A
+! Version: 202601230942
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jan 2026 09:11 UTC
+! Last modified: 23 Jan 2026 09:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15268,6 +15268,7 @@ namba.kg##.nambafood
 argumentiru.com#?#.namerub:-abp-contains(/гнездо/i)
 argumentiru.com#?#.namerub:-abp-contains(/новости|партнер/i)
 novate.ru##.native > h2
+uwupad.me##.native-ad-container
 floristics.info##.native-ads
 app-time.ru##.native-brand > div
 chistosex.org##.nav > .menu-part
@@ -18167,6 +18168,7 @@ biqle.org##a[href^="https://theporndude.com/"]
 triskirun.ru##a[href^="https://triskirun.ru/golink/"]
 brestcity.com##a[href^="https://tutvisa.by/"]
 ukrfootball.ua##a[href^="https://ukrfootball.ua/go/"]
+uwupad.me##a[href^="https://uwupad.me/advertisement/"]
 bbcont.ru##a[href^="https://vk.com/extrasense_russia"]
 vuzopedia.ru##a[href^="https://vuzopedia.ru/adv/"]
 n1.by##a[href^="https://www.alibi.by"]
@@ -23269,6 +23271,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||uti-puti.com.ua/rek/
 ||uvelir.info/uploads/banners/
 ||uvelir.net^*/rbs_banner$script
+||uwupad.me/static/lb/
 ||uzreport.news/banner/
 ||uzreport.news/fotobank/r/
 ||uzum.tv/*.swf
@@ -23655,6 +23658,7 @@ playground.ru###dfpPrerollDelay {remove:true;}
 tapochek.*##body:has(#register_link) > canvas
 tapochek.*##body:has(#register_link) > canvas {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
+uwupad.*##style:-abp-contains(lb-banner-height) {remove:true;}
 vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
 www.ixbt.*###branding-ssr-style {remove:true;}
 www.ixbt.*##.clickable_zone {remove:true;}
@@ -26817,6 +26821,7 @@ rbkgames.com###norris-detector
 lektsii.org,megaobuchalka.ru,studopedia.com.ua,studopedia.net,studopedia.org,studopedia.ru,studopedia.su###opaco,#popup
 culture.ru###page-error-modal
 forum.niiot.net###some_ad_block_key_popup
+uwupad.me###uwu-shield
 myshows.me##.CheatModal__modal
 rknweb.ru##.IsAdBlock
 usemind.org##.a-top

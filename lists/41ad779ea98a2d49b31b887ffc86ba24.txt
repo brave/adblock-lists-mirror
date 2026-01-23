@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E/VHEw30wyDFWasLofHbsg
-! Version: 202601230200
+! Checksum: DIw21C4Sb90E7cxvTUahbQ
+! Version: 202601230325
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-01-23 02:00 UTC
+! Last modified: 2026-01-23 03:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -53440,6 +53440,9 @@ behance.net##body,html:style(overflow: auto !important; position: initial !impor
 m.economictimes.com##+js(set-session-storage-item, nudgeStickyBannerHide, true)
 ! mypenndentist.org
 mypenndentist.org##+js(set-cookie, undefinedpopup-pdfpcouponoffer, 1)
+! rottentomatoes.com app overlay nag
+rottentomatoes.com##body,html:style(height: auto !important; overflow: auto !important)
+rottentomatoes.com##overlay-base
 ! ifunny (in-app overlay)
 ifunny.co##.aq4y._0sJI
 ifunny.co##body,html:style(overflow: auto !important; position: initial !important;)

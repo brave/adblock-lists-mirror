@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1hOZQ8m4+D3E8awCy9FUVg
-! Version: 202601240325
+! Checksum: hTia8AhyAjDHDJTKLHk7xA
+! Version: 202601240350
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-01-24 03:25 UTC
+! Last modified: 2026-01-24 03:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -678,7 +678,7 @@ reddit.com##shreddit-experience-tree
 reddit.com##body:style(overflow: auto !important;)
 !#endif
 ! tiktok
-tiktok.com##+js(set-session-storage-item,webapp_first_open_cta, 1)
+tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 tiktok.com##.e1pecv674.css-99ed1t-DivFooterGuide
 tiktok.com##.e1x4pa920.css-18fyv6p-DivFloatButtonWrapper
 ! twitch
@@ -830,7 +830,7 @@ inews.hket.com###app-floating-button
 inews.hket.com##+js(rc, no-scroll, html, stay)
 inews.hket.com##.app-redirect-panel
 ! jp-m.banggood.com (remove top empty space on mobile)
-jp-m.banggood.com##+js(rc,  show-app-bar, , stay)
+jp-m.banggood.com##+js(rc, show-app-bar, , stay)
 ! realestate.co.nz
 realestate.co.nz##.z-overlay
 realestate.co.nz##body:style(height: auto !important; overflow: auto !important)

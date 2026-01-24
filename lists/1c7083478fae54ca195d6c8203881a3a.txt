@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.8.7
+! Version: 4.2.8.0
 
 ! General
 
@@ -26,7 +26,7 @@
 ||olytics.omeda.com^$third-party
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
-/xbuilder/experience/execute$xmlhttprequest,~third-party
+/xbuilder/experience/execute$xmlhttprequest,~third-party,domain=~fortune.com
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party,domain=~automobilwoche.de
 @@||piano.io^$domain=hbr.org|japantimes.co.jp
 @@||tinypass.com$script,domain=ajc.com|thelogic.co
@@ -175,10 +175,12 @@ foreignaffairs.com##.article-dropcap:style(height: auto !important;)
 foreignaffairs.com##.paywall,.loading-indicator,.messages--container--bottom
 foreignpolicy.com##body:not(.is-fp-insider) div.content-ungated
 foreignpolicy.com##+js(rc, content-gated, body:not(.is-fp-insider) div.content-gated.content-gated--main-article)
-||fortune.com/api/tinypass.min.js$script,~third-party
+fortune.com##+js(ra, class, div.paywallActive)
+fortune.com##+js(cookie-remover, xbc)
+fortune.com##+js(cookie-remover, pcid)
+fortune.com##div.tp-container-inner
 foxnews.com##+js(ra, class, div[class*="gated-overlay"])
 foxnews.com##div.article-gating-wrapper
-||freitag.de$inline-script
 ||ftm.eu/js/routing$script,~third-party
 ||ftm.nl/js/routing$script,~third-party
 ftm.eu,ftm.nl##+js(rc, foldable, div.foldable)
@@ -205,7 +207,7 @@ inkl.com##+js(ra, class, div.paywall)
 inkl.com##div.gradient-container
 interestingengineering.com##body:style(overflow: auto !important; position: relative !important; top: unset !important)
 interestingengineering.com##main>div[class*="t-hidden"],div.t-bg-black
-investors.com##+js(cookie-remover, __tbc)
+investors.com##+js(remove-cookie, __tbc)
 irishexaminer.com/##+js(cookie-remover, blaize_session)
 japantimes.co.jp##+js(cookie-remover, xbc)
 journaldemontreal.com,journaldequebec.com##+js(rc, composer-content, div.article-main-txt.composer-content)
@@ -266,6 +268,7 @@ nrc.nl##div[id$="modal__overlay"],div.header__subscribe-bar,div.banner
 ||nybooks.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
+||nysun.com/api/zephr/$xmlhttprequest,~third-party
 ||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
 ||nytimes.com/svc/onsite-messaging/query$xmlhttprequest,~third-party
 ||mwcm.nyt.com/$script,domain=nytimes.com
@@ -282,7 +285,6 @@ paloaltoonline.com##+js(cookie-remover, /^/)
 ||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
 pb.pl##+js(ra, class, section.o-article-content, stay)
 pb.pl##div.o-piano-template-loader-box
-pitchfork.com##+js(cookie-remover, pay_ent_msmp)
 pourleco.com##+js(ra, style, div[class*="article-"][style])
 pourleco.com##div[data-pleco-poool^="paywall"],div[data-pleco-transition="fade"]
 philosophynow.org##+js(cookie-remover, /^/)
@@ -379,7 +381,6 @@ valeursactuelles.com##div.qiota
 valeursactuelles.com##+js(ra, class, div.qiota_reserve, stay)
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
 ||washingtonpost.com/*/tetro-client/$script,~third-party
-||welt.de/variants-*.js$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
 ||ynet.co.il/*/article/*?rel=plus$inline-script
@@ -407,11 +408,14 @@ accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,dig-in.com,
 voguebusiness.com##+js(cookie-remover, userId)
 
 ! Crain Communications
-adage.com,autonews.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
-adage.com,autonews.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
-.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|precisionmedicineonline.com
+adage.com,autonews.com,pionline.com##+js(set, window.Fusion.globalContent._id, 0)
+adage.com,autonews.com,pionline.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
+.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
+.com/*/js_$script,~third-party,domain=rubbernews.com
+rubbernews.com##+js(ra, class, body[class], stay)
 european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
+modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
 
 ! Daily Mail Group UK
 dailymail.co.uk,mailonsunday.co.uk,thisismoney.co.uk##+js(rc, is-paywalled-article, body.is-paywalled-article)
@@ -616,7 +620,6 @@ anandabazar.com##+js(ra, class, div.expcontainer, stay)
 ||tinypass.com/api/tinypass.min.js$script,domain=arabianbusiness.com
 arabianbusiness.com##+js(ra, class, div.ev-meter-content, stay)
 ||arktimes.com/wp-content/plugins/newspack-plugin/dist/memberships-gate-metering.js$script,~third-party
-artsprofessional.co.uk##+js(cookie-remover, /pw$/)
 ||atribuna.com.br/assets/js-v*/story.js$script,~third-party
 babi.sh##+js(ra, style, div[style*="filter:blur"], stay)
 babi.sh##+js(ra, style, div[style*="; overflow: hidden"][style*="; height:"], stay)
@@ -642,7 +645,6 @@ cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
 ||commercialobserver.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 connexionfrance.com##+js(cookie-remover, /^/)
 connexionfrance.com##div#subscribe-banner
-||darwin.cx/dcxpw-init.js$script,domain=cspdailynews.com|restaurantbusinessonline.com
 ||diariodonordeste.verdesmares.com.br/js/com.atex.gong.paywall.membership.js$script,~third-party
 divisare.com##div.blocker
 divisare.com##+js(ra, style, body[style], stay)
@@ -672,7 +674,6 @@ inman.com##+js(ra, class, div.entry-content-inner)
 inman.com##div.content-wrap > div:not([class]):style(margin: 5% !important)
 inman.com##.ism-article-block
 ||cloudfront.net/imonkey-blog-*.min.js$script,domain=insidermonkey.com
-||invmed.co/bootstrap/bootstrap.min.js$script,domain=investing.com
 ipsoa.it##+js(ra, style, div.paywall)
 ||jerseyeveningpost.com$inline-script
 jewishinsider.com##+js(rc, paywalled-content, section.paywalled-content, stay)
@@ -736,7 +737,6 @@ rockdelux.com##+js(ra, style, div#body, stay)
 rockdelux.com##div.bg-paywall
 rotowire.com##+js(ra, class, div.pw-content)
 rotowire.com##div.paywall-full,div.article-preview-fader
-rtings.com##+js(cookie-remover, product-previews)
 scroll.in##+js(rc, article-locked, article.article-locked, stay)
 ||serenitymarkets.com/wp-content/themes/Divi-child/assets/js/encriptar.js$script,~third-party
 serenitymarkets.com##+js(ra, class, div.blur_content, stay)
@@ -778,8 +778,6 @@ thejc.com##div.poool-widget
 ||theschooloflife.com/app/plugins/*/woocommerce.min.js$script,~third-party
 aap.thestreet.com##+js(rc, is-paywalled, body.is-paywalled)
 realmoney.thestreet.com##+js(cookie-remover, /^PWT/)
-thefederal.com##+js(ra, class, div.hide.paywall-content, stay)
-thefederal.com##div#premium_access_message_text,div.para_text_cl,div#lock_message,div.login_space
 ||thetablet.org$inline-script
 thetablet.org##+js(rc, gated-content, body.gated-content)
 tidningenridsport.se##+js(ra, class|style, div.mctos)

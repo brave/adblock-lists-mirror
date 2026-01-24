@@ -3,7 +3,7 @@ ARG UV_IMAGE=ghcr.io/astral-sh/uv:0.9.22@sha256:2320e6c239737dc73cccce393a8bb89e
 # ----------------------------------
 FROM ${UV_IMAGE} AS uv
 
-FROM python:3.13-slim
+FROM python:3.14-slim
 
 WORKDIR /app
 

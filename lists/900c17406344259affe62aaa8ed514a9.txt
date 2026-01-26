@@ -13,6 +13,7 @@ inoreader.com###reader_pane:style(padding-right: unset !important)
 inoreader.com###sinner_container:style(display: block !important; z-index: 0 !important)
 rambler.ru###summary ~ div:has(> [id^="cluster-video-ad"]):remove()
 pronpic.org###vO5STmSLgNAkebzSluI8coxpDgsG97g:style(height: 1px !important; min-height: 1px !important)
+$doc,reason=malicious,domain=apad2.top|besplatnyeprogrammy.ru|byrutgame.org|hdrip.info|mediagetguru.ru|monna2.top|torrent-music.ru|torrent-soft.net
 */bens/vinos.js$popunder
 kolizhanka.com.ua,miyzvuk.net,ozon.ru##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 captcha-api.yandex.ru,id.vk.ru,passport.yandex.ru,webagent.mail.ru#@#+js()
@@ -732,11 +733,13 @@ e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, MIMIC_FORCE)
 e.mail.ru,octavius.mail.ru##+js(no-setTimeout-if, _runBatch, 100)
 e.mail.ru,octavius.mail.ru##+js(set-attr, .html-fishing a, target, true)
 e.mail.ru,octavius.mail.ru##+js(set-constant, Object.prototype.hasAdBlock, null)
+e.mail.ru,octavius.mail.ru##.application-mail__layout_main + .react-async
 e.mail.ru,octavius.mail.ru##.vkuiPopoutRoot:has(a[href^="https://vk.cc/"])
 e.mail.ru,octavius.mail.ru##body > div > .letter-list-item-adv:style(display: block !important)
 e.mail.ru,octavius.mail.ru##body > div[style*="top:"][style*="position:"][style*="visibility:"] #app-canvas div:style(display: block !important)
 e.mail.ru,octavius.mail.ru##div[class^="fields_container-"] > div > div[style="display: block;"]
 e.mail.ru,octavius.mail.ru##div[class^="fields_container-"] > div > div[style="display: block;"]:has([data-name="from"] > [class^="containerInner-"] > [class^="label-"] > div:not([class^="beautifulAddressEntry-"])):style(display: block !important)
+||vkvideo.ru/video_ext.php?$subdocument,domain=e.mail.ru|octavius.mail.ru
 ! VK-брендинг
 light.mail.ru##.portal-menu__logo__link:style(width: 90px !important; !important; overflow: hidden !important)
 ! Фикс для маленьких экранов

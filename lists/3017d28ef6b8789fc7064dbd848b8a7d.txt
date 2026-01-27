@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601262342
+! Version: 202601270024
 ! Title: EasyPrivacy
-! Last modified: 26 Jan 2026 23:42 UTC
+! Last modified: 27 Jan 2026 00:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a603c429ca44cc6fc4a2a26f2a1de565792bcb73
+! Commit: fdc3cdc1a206e5516ec5bf6a97191f221b990c4b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3815,7 +3815,6 @@ omni.soundestlink.com$image
 ||ugdturner.com^
 ||uidapi.com^
 ||uimarketpro.com^
-||unidays.world^
 ||uqd.io^
 ||usrpubtrk.com^
 ||ustat.info^
@@ -6150,6 +6149,7 @@ omni.soundestlink.com$image
 ||umami.is^$third-party
 ||umbel.com^$third-party
 ||unalytics.top^$third-party
+||unidays.world^$third-party,domain=~myunidays.com
 ||uniqodo.com^$third-party
 ||united-infos.net^$third-party
 ||unusual.ai^$third-party
@@ -15052,6 +15052,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hltv.org/scripts/hltv-tracking.js
 ||hn-ping*.hashnode.com^
 ||homedepot.ca/mr/thd-ca-prod.js
+||homedepot.ca/webmetrics/collect
 ||hoo.be/api/hoobe/analytics
 ||hopper.com/api/v0/tracking/event
 ||hostinger.com/api-proxy/api/sentry/

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WRuciNJSAAjB5kmMRzo1Fg
-! Version: 202601271131
+! Checksum: 0MC84fNi93aMRCl7xZGLVg
+! Version: 202601271211
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Jan 2026 11:31 UTC
+! Last modified: 27 Jan 2026 12:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7407,6 +7407,7 @@ yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 !#if ext_abp
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
+mail.ru###grid .allow-overflow
 mail.ru###grid .widget__container .tgbv-wrapper
 mail.ru###grid:not(.grid) .widget__container ~ .widget__container > div:not([class*=" "])
 cloud.mail.ru#?##react-modals:-abp-has(a[href^="https://vk.cc/"])

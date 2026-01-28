@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.2.8.8
+! Version: 4.2.9.0
 
 ! General
 
@@ -50,6 +50,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /wp-content/*/plugins/rcp-view-limit/$script,~third-party
 /zephr/feature$xmlhttprequest
 
+abqjournal.com##+js(rc, lab-paywall-locked, div.lab-paywall-locked, stay)
 ||abril.com.br/*/abril-paywall/$script,~third-party
 adweek.com##+js(cookie-remover, blaize_session)
 ||adweek.com/wp-content/plugins/adw-zephr/$script,~third-party

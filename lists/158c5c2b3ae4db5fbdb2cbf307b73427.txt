@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k6/EGCBsvr+X0hURh9i3Sg
-! Version: 202601280941
+! Checksum: Lfue9aUISeYNdK/nAIYtEQ
+! Version: 202601281011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 28 Jan 2026 09:41 UTC
+! Last modified: 28 Jan 2026 10:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -763,6 +763,7 @@ snob.ru##.article-links-block__tg
 euro-football.ru##.article-meta__share-title
 novayagazeta.ru##.article-recommendations-block + div:last-child
 sobesednik.ru##.article-section > article ~ div > .row > .text-left > .d-none
+pravda-nn.ru##.article-share__wrapper
 lada.kz##.article-shared
 dengi.ua##.article-shares
 volodymyrets.city##.article-slider-img-gallery-social
@@ -774,6 +775,7 @@ mk.ru#?#.article__body p:-abp-has(> a[href^="https://max.ru/"])
 progroshi.news,proukraine.news##.article__btn
 kherson.net.ua##.article__btn[data-soc]
 vokrug.tv##.article__buttons
+pravda-nn.ru##.article__channel-description
 dev.ua,devby.io#?#.article__container > p:-abp-has(> a[href^="https://t.me/"])
 gismeteo.ru##.article__ctrls
 nv.ua##.article__footer__additional_share
@@ -1223,6 +1225,7 @@ bazar.bike##.footer-content > .container > .row > div > div[class="footer-col ro
 kinonavigator.ru##.footer-element[title^="Наш"]
 footballhub.ua##.footer-heading
 wroom.ru##.footer-icon
+pravda-nn.ru##.footer-info__social
 bez-smenki.ru##.footer-item--social
 comboplayer.ru#?#.footer-item:-abp-has(> .footer-item__socials)
 tnt-online.ru##.footer-join
@@ -1415,6 +1418,7 @@ kinoblin.ru,serialai.ru##.header__soc-link
 retail.ru##.header__social
 1tv.ru##.header__social-block
 news.ru##.header__social-item
+pravda-nn.ru##.header__social-wrapper
 pogoda.by##.header__social_container
 novyny.live##.header__socials-list
 allpravda.info,geo-politica.info,globalwarnews.ru,inosmi.info,news24today.info,polit-mir.ru,pravdoryb.info,putin24.info,ruspravda.info##.header_menu_social

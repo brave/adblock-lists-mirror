@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280216
+! Version: 202601280247
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 02:16 UTC
+! Last modified: 28 Jan 2026 02:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 83362e5287024e436d1e129a993240e964f817f6
+! Commit: 1b9da8afcc1a9684919bac621fdfd0f97eaa2e6e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -52,13 +52,16 @@
 .de/l.gif?
 .eloqua.js
 .EventTracking.
+.file-downloads.outbound-links.js
 .gatracking.js
 .gif?Log=
+.hash.outbound-links.js
 .jp/pv?
 .jp/static/js/track.js
 .net/l.gif?
 .no/app/aas/a
 .outbound-links.pageview-props.revenue.tagged-events.js
+.outbound-links.tagged-events.js
 .pageview-props.js
 .pageview-props.tagged-events.js
 .php?action=browse&
@@ -1373,6 +1376,7 @@
 /load_analytics.php
 /loader-wp/static/loader.min.js?
 /loader/counter.js
+/loaders/analyticsScript.ts?
 /localga.js
 /locotrack.js
 /log-adblock.php?
@@ -1837,6 +1841,8 @@
 /pomegranate.js
 /pongAudienceLS?
 /popu.js$script
+/post-views-counter-pro/js/crawler-detect.js
+/post-views-counter-pro/js/frontend.js
 /postcounter.php?
 /postlog?
 /postview.gif?
@@ -3621,6 +3627,7 @@ omni.soundestlink.com$image
 ||instantfox.co^
 ||intellimizeio.com^
 ||irs01.com^
+||itsstats.wp1.site^
 ||jams.wiki^
 ||jcpclick.com^
 ||jubbie.de^
@@ -10619,6 +10626,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||customers.xray-superpixel.com^
 ||customfingerprints.bablosoft.com^
 ||cws.conviva.com^
+||d.lilstts.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
 ||dadi.technology^$third-party
@@ -16184,6 +16192,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vk.com/js/lib/px.js
 ||vortex.hulu.com^
 ||voyeur-house.tv/js/track.js
+||vpsbenchmarks.com/plausible.vpsb.js
 ||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
 ||vsco.co/api/cantor/track

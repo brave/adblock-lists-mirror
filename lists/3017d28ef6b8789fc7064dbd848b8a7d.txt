@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601272330
+! Version: 202601280037
 ! Title: EasyPrivacy
-! Last modified: 27 Jan 2026 23:30 UTC
+! Last modified: 28 Jan 2026 00:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2a03fa591bf1f05561f4ecda02aa1904bd20b78e
+! Commit: 6297e8bfe060e010322985d72ce0630cf45a8cd0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2032,6 +2032,7 @@
 /screencount?vcid=
 /scribd_events?
 /script.hash.outbound-links.pageview-props.tagged-events.js
+/script.pageview-props.tagged-events.js
 /script.tagged-events.js
 /script.tagged-events.outbound-links.js
 /script/pixel.js
@@ -2715,6 +2716,7 @@
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-vitals-analytics.js
+/web-vitals.iife.js
 /web/push?
 /web_analytics/*
 /web_answertip.js
@@ -15479,6 +15481,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||pcp.coupert.com^
+||pdfcrowd.com/static/3rd/js/fpr.js
 ||pdffiller.com/api_v3/experiment/
 ||pdffiller.com/api_v3/uploader/stats
 ||pdffiller.com/click-stream/

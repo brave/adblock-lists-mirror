@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280103
+! Version: 202601280216
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 01:03 UTC
+! Last modified: 28 Jan 2026 02:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b8df0a5b969adde44b0481670d86ac47f6d3ed51
+! Commit: 83362e5287024e436d1e129a993240e964f817f6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -60,6 +60,7 @@
 .no/app/aas/a
 .outbound-links.pageview-props.revenue.tagged-events.js
 .pageview-props.js
+.pageview-props.tagged-events.js
 .php?action=browse&
 .php?action_name=
 .php?logid=$image
@@ -74,6 +75,7 @@
 .skimlinks.js
 .stats?action=
 .svc/?tracking_id=
+.tagged-events.outbound-links.js
 .v4.analytics.
 /.webscale/rum?
 /.well-known/shopify/monorail
@@ -1499,6 +1501,7 @@
 /matomo.php
 /matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /matomo_video_tracking.js
+/mc4wp-premium/ecommerce3/assets/js/tracker.js
 /mcookie.aspx
 /mcount.cgi?
 /measure/pixel/*
@@ -2031,10 +2034,8 @@
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
-/script.hash.outbound-links.pageview-props.tagged-events.js
-/script.pageview-props.tagged-events.js
+/script.outbound-links.js
 /script.tagged-events.js
-/script.tagged-events.outbound-links.js
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
@@ -7189,6 +7190,7 @@ omni.soundestlink.com$image
 ||fewkittens.com^
 ||fieldconfig.com^
 ||figsprotein.com^
+||figurehunter.net^
 ||fillthemap.com^
 ||filtercutter.com^
 ||finalizeforce.com^

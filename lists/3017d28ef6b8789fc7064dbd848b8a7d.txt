@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280247
+! Version: 202601280338
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 02:47 UTC
+! Last modified: 28 Jan 2026 03:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1b9da8afcc1a9684919bac621fdfd0f97eaa2e6e
+! Commit: 97b17fb3caa5fc3483b7ca52038913b75685c290
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -60,7 +60,7 @@
 .jp/static/js/track.js
 .net/l.gif?
 .no/app/aas/a
-.outbound-links.pageview-props.revenue.tagged-events.js
+.outbound-links.file-downloads.js
 .outbound-links.tagged-events.js
 .pageview-props.js
 .pageview-props.tagged-events.js
@@ -74,11 +74,13 @@
 .php?ping=
 .php?stats=
 .php?tracking=
+.revenue.tagged-events.js
 .sharecounter.$third-party
 .skimlinks.js
 .stats?action=
 .svc/?tracking_id=
 .tagged-events.outbound-links.js
+.tagged-events.revenue.js
 .v4.analytics.
 /.webscale/rum?
 /.well-known/shopify/monorail
@@ -435,6 +437,7 @@
 /awstats_misc_tracker
 /azion-pulse.js
 /aztracker.js
+/azzas-tracker-web@
 /b.banners.impress.
 /b.gif?
 /b.rnc?
@@ -1814,6 +1817,7 @@
 /plausible.js$domain=~plausible.io
 /plausible.manual.js
 /plausible.outbound-links.js$domain=~plausible.io
+/plausible.tagged-events.js
 /player-test-impression?
 /player/stats.php?
 /plg_convertformstools_gatracker/js/script.js
@@ -9992,6 +9996,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.lunaweb.cloud^
 ||analytics.m7g.twitch.tv^
 ||analytics.maikel.pro^
+||analytics.maileon.com^
 ||analytics.mailmunch.co^
 ||analytics.matchbin.com^
 ||analytics.metriko.app^
@@ -12065,6 +12070,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.bitgravity.com^
 ||stats.bluebillywig.com^
 ||stats.bradmax.com^
+||stats.bryancollins.com^
 ||stats.bunkr.ru^
 ||stats.callnowbutton.com^
 ||stats.cmcigroup.com^
@@ -14383,6 +14389,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.designspiration.com^
 ||analytics.egdata.app^
 ||analytics.eip.telegraph.co.uk^
+||analytics.eternagame.org^
 ||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.freemake.com^
@@ -15455,6 +15462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||okx.com/jsstat/sb?
 ||oneroof.co.nz/*/record-log/
 ||online-umwandeln.de/analytics.js
+||online.marketing/a.js
 ||ontraport.com/opt_assets/static/js/logging.js
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
@@ -15777,6 +15785,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srv.plesk.com^
 ||ss.esade.edu^
 ||ss.photospecialist.co.uk^
+||sst.brodo.com^
 ||sst.bwt.com^
 ||sst.shopware.com^
 ||st.sawlive.tv^
@@ -54620,6 +54629,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||rba.es/track.action
 ||realtime.bbcl.cl^
 ||rvv.emol.com^
+||salvalaselva.org/plsbl/js
 ||sst.cooperativa.cl^
 ||statsmp2.emol.com^
 ||t-pan.triodos.com^

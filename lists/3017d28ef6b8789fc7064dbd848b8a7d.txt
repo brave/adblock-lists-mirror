@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280338
+! Version: 202601280428
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 03:38 UTC
+! Last modified: 28 Jan 2026 04:28 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 97b17fb3caa5fc3483b7ca52038913b75685c290
+! Commit: 3b37ab64014488d4129ece9121b806d0063d73c2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1094,6 +1094,7 @@
 /getintent.js
 /getlog.gif
 /getstats.js.php
+/ghost-stats.min.js
 /gigyaGAIntegration.js
 /gingeranalytics.min.js
 /GlanceCobrowseLoader_
@@ -1814,6 +1815,7 @@
 /pixelyoursite/dist/scripts/public.js
 /pixy.gif?
 /planetstat.php
+/plausible.file-downloads.js
 /plausible.js$domain=~plausible.io
 /plausible.manual.js
 /plausible.outbound-links.js$domain=~plausible.io
@@ -14973,6 +14975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fresnel-events.vimeocdn.com^
 ||fsho.st/tracker.js
 ||ft.com/ingest?
+||fuel-design.com/js/script.js
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 ||fusevideo.io/api/event
 ||futureparty.com/nectar_analytics

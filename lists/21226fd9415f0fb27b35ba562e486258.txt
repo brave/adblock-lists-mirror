@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Yi+hcwSzMZRW4nm9wu8W4A
+! Checksum: ZkHw6oJVJT816181taJYPw
 ! Title: Easylist Cookie List
-! Last modified: 2026-01-28 02:25 UTC
+! Last modified: 2026-01-28 11:50 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -22364,6 +22364,7 @@ blog.documentfoundation.org##+js(set-cookie, ytprefs_gdpr_consent, 1, , reload, 
 yuboto-telephony.gr##+js(set-cookie, yuboto-telephony.gr_CookiesAcceptedN, 1)
 zoommer.ge##+js(set-cookie, zoommer-cookie_agreed, true)
 baur.eu##+js(set-cookie-reload, cookies_confirmed_18, 4)
+dom.ria.com##+js(set-cookie-reload, gdpr, 1)
 xistore.by##+js(set-cookie-reload, marketing_cookie_agree, false)
 travelfranceonline.com##+js(set-cookie-reload, tlc_cookie_banner_declined, true)
 ! set-cookie (cookielawinfo)
@@ -26408,6 +26409,7 @@ vmeste.mosreg.ru##dd-cookie-accept-banner
 rabota.sber.ru##div[class*="styled__CookieWrapper-"]
 sberbank.ru##div[class^="CookieWarning-"]
 novayagazeta.eu##div[class^="CookiesInformer_"]
+dom.ria.com##div[class^="GdprComponent"]
 stoloto.ru##div[class^="Provider_container"]
 aliexpress.ru##div[class^="SnowPrivacyPolicyBanner_"]
 bb.market##div[class^="_cookies_"]

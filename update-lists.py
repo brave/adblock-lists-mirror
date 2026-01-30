@@ -164,7 +164,7 @@ async def fetch_and_save_url(session, url, output_dir):
                     response.status,
                 )
                 return
-    except aiohttp.ClientError:
+    except (aiohttp.ClientError, asyncio.TimeoutError):
         logger.exception(f"An exception occurred while processing {url}")
         return
 

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vYgSqpIvYIc4tq+Wx9opnw
-! Version: 202601302150
+! Checksum: FvQDGxnyrLpFMbZmwcp3rw
+! Version: 202601302250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-01-30 21:50 UTC
+! Last modified: 2026-01-30 22:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -51256,6 +51256,8 @@ everyday-reading.com##.tve-leads-lightbox
 everyday-reading.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! semafor.com
 semafor.com##+js(set-session-storage-item, floating-sign-up-dismissed, true)
+! empirical.health
+empirical.health##+js(set-session-storage-item, emailPopupDismissed, 1)
 ! arcade1up.com
 arcade1up.com##.tingle-modal
 arcade1up.com##body:style(overflow: scroll !important; position: unset !important)

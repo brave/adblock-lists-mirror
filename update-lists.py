@@ -111,7 +111,14 @@ def move_downloaded_file(filename, url, output_dir):
         logger.exception(
             f"An exception happened while processing {filename} from {url}"
         )
-        Path(filename).unlink()
+        try:
+            Path(filename).unlink()
+        except Exception:
+            logger.debug(
+                "Failed to remove temporary file %s during error handling.",
+                filename,
+                exc_info=True,
+            )
 
     return output_file_path
 

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HcdcXUtK+RtjXSA3WpyiQA
-! Version: 202601300551
+! Checksum: esGcV+NHXbaFL8FF6Gh8Xg
+! Version: 202601300621
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Jan 2026 05:51 UTC
+! Last modified: 30 Jan 2026 06:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7391,6 +7391,8 @@ market.yandex.ru,market.yandex.*##div[data-zone-name="plusPromo"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="promoSection"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="vendorProductLinePromo"]
 market.yandex.ru,market.yandex.*#?#.SerpLayout > [id*="serpLayout"]:-abp-has(> [data-apiary-widget-name] > [data-zone-name="madvIncut"])
+meteum.ai,yandex.ru,yandex.*##div[class^="AppPromo"][class*="_container_"]
+meteum.ai,yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 metrika.yandex.ru,metrika.yandex.*##body > .metrika-app
 taxi.yandex.ru,taxi.yandex.*##.BannerGo__wrap
 taxi.yandex.ru,taxi.yandex.*##.Promotion
@@ -7409,8 +7411,6 @@ yandex.ru,yandex.*##button[class^="AppPromo_container_"]
 yandex.ru,yandex.*##div[class^="App"][class*="promo"]
 yandex.ru,yandex.*##div[class^="AppInfoModal"]
 yandex.ru,yandex.*##div[class^="AppLeftPanelPromos_bottomLinks_"]
-yandex.ru,yandex.*##div[class^="AppPromo"][class*="_container_"]
-yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
 !#if ext_abp
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot

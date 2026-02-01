@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2NjL+iznzAtdJgc2Dl0lUQ
-! Version: 202601262125
+! Checksum: VEUmeX5F1EN/6P+xTFW5uw
+! Version: 202602010750
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-01-26 21:25 UTC
+! Last modified: 2026-02-01 07:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -931,6 +931,9 @@ cecile.co.jp,nola-novel.com##.smartbanner-show:style(margin-top: 0 !important;)
 s.tabelog.com###js-webtoapp-floating-banner
 s.tabelog.com###js-webtoapp-floating-banner-overlay
 s.tabelog.com##body,html:style(overflow-y: auto !important;)
+! trial-net.co.jp (mobile app)
+trial-net.co.jp##.app-remind
+trial-net.co.jp##.header-app-remind:remove-class(header-app-remind)
 !---------------------------------Allowlists----------------------------------!
 ! Mobile Notifications
 @@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party

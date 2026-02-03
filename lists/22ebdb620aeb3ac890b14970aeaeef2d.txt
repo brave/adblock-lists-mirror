@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VEUmeX5F1EN/6P+xTFW5uw
-! Version: 202602010750
+! Checksum: e3f6b42TFwRnpy2CPPoY4A
+! Version: 202602030125
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-02-01 07:50 UTC
+! Last modified: 2026-02-03 01:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -721,9 +721,6 @@ behance.net##body,html:style(overflow: auto !important; position: initial !impor
 m.economictimes.com##+js(set-session-storage-item, nudgeStickyBannerHide, true)
 ! mypenndentist.org
 mypenndentist.org##+js(set-cookie, undefinedpopup-pdfpcouponoffer, 1)
-! rottentomatoes.com app overlay nag
-rottentomatoes.com##body,html:style(height: auto !important; overflow: auto !important)
-rottentomatoes.com##overlay-base
 ! ifunny (in-app overlay)
 ifunny.co##.aq4y._0sJI
 ifunny.co##body,html:style(overflow: auto !important; position: initial !important;)

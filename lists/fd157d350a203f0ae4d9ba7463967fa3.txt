@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9rmfBLyqIxf40FTXIa+3mw
-! Version: 202602041911
+! Checksum: OZybD7MsSWLj0TIEeYrn+g
+! Version: 202602041941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Feb 2026 19:11 UTC
+! Last modified: 04 Feb 2026 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12663,7 +12663,6 @@ russian7.ru###sidebar > :not([class="banner240box"]:first-child)
 domodedovod.ru###sidebar > [style="width:420px; margin-top:15px;"] > div ~ div
 radioshanson.fm###sidebar > a[href][target="_blank"]
 glavufa.ru###sidebar > center
-fixygen.ua###sidebar > div > a > img
 uptracker.ru###sidebar > div > a[href][target="_blank"]
 bikepost.ru###sidebar > div[style*="visibility: visible !important"]
 futbik.net###sidebar > div[style]:not(#rightmenu)
@@ -12879,6 +12878,7 @@ solncewonews.ru###widget_ads
 soccer365.com.ua,soccer365.ru###widget_bk
 kriminal.net.ua###widget_wrapper_46
 kriminal.net.ua###widget_wrapper_48
+kriminal.net.ua###widget_wrapper_52
 dachnye-sovety.ru###widgetized-area
 1snau.ru###widgets .custom-html-widget
 tonkosti.ru###wikihead
@@ -13001,7 +13001,7 @@ ppt4web.ru##.a-absolut-div-b
 fight.ru,izhlife.ru,www.sport.ru##.a-block
 bryansktoday.ru##.a-d-v
 gdetraffic.com##.a-insertion
-autocentre.ua,cheline.com.ua,itechua.com,te.ua,ternopillive.com,uamotors.com.ua##.a-single
+autocentre.ua,cheline.com.ua,itechua.com,newsauto.com.ua,te.ua,ternopillive.com,uamotors.com.ua##.a-single
 hitfile.net##.a-video-block
 mail.kz##.a6
 zagorod.spb.ru##.a990_90
@@ -13257,6 +13257,7 @@ mmorpg.su##.article-free
 mk.ru##.article-grid__good-top
 liga.net##.article-header__video-banner
 euro-football.ru##.article-item > .article__footer ~ :not(.article__footer):not(.comments-container)
+bet.ua##.article-page__review-block
 viva.ua##.article-partners
 4mama.ua,tvoymalysh.com.ua##.article-partners-news
 vedomosti.ru##.article-recommendation
@@ -14340,6 +14341,7 @@ prostolinux.ru##.egg-list
 zemliak.com##.eldala_widget
 alau.kz##.elementor-image > a[href]:not([href^="/"]):not([href^="https://alau.kz/"])[target="_blank"]
 format.kr.ua##.elementor-widget-container > a[href][target="_blank"] > img
+newsauto.com.ua##.elementor-widget-container > p.elementor-heading-title
 weukraine.tv##.elementor-widget-video
 mydecor.ru##.elle-special-projects
 pingvinoff.net##.entry > div[style^="float:"]
@@ -15412,7 +15414,6 @@ syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##.open-table > .pr > .dcb
 aptekamos.ru##.orgs-adv-c
 che.cn.ua#?#.ot-mod-outer:-abp-has([src*="/images/banners/"]:not([alt="checnua@gmail.com"]))
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##.otPlaceholder
-fixygen.ua##.other-news
 govoritmoskva.ru##.otherNews > .newsList ~ div
 osocionike.ru##.others
 karavan.tver.ru##.otstup
@@ -17131,6 +17132,7 @@ buhonline.ru##[class^=sideBanner]
 realist.online,zn.ua##[data-action="banners"]
 vk.com,vk.ru##[data-ad-block-uid]
 tsn.ua##[data-ad-container]
+liza.ua##[data-ad-id]
 delfi.lv##[data-ad-placement]
 ps4.in.ua##[data-ad-slot]
 buhgalter.com.ua,buhgalter911.com,factor.ua,tsn.ua,unian.info,unian.net,unian.ua##[data-ad]
@@ -17362,13 +17364,14 @@ allboxing.ru##[onmouseenter="onClickPbButton()"]
 penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
 radiokot.ru##[src*="//radiokot.ru/adv/"]
+fixygen.ua##[src*="/assets/banner_"]
 ozersk74.ru##[src*="/banner"]
 vprognoze.ru##[src*="/banners/"]
 informburo.kz##[src*="/embed/SportsBetting"]
 gorvesti.ru,xn--b1ats.xn--80asehdb##[src*="/files/rk/"]
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##[src*="/frontend/assets/advert/"]
 bazr.ru##[src*="/global/banner/"]
-krivbass.city##[src*="/i/banners/"]
+krivbass.city,zprz.city##[src*="/i/banners/"]
 obozrevatel.com##[src*="/igaming/out/widget/"]
 ilenta.com##[src*="/images/banner/"]
 abnews.ru,fakty.ua,highload.tech##[src*="/images/banners/"]
@@ -18322,8 +18325,11 @@ adme.media##aside div[style^="min-height:"]
 magtimes.info##aside img[src^="http://magtimes.info/wp-content/uploads/"]
 poligon.by##aside#sidebar > a[href]
 shuba.life#?#aside.c-section:-abp-has(a[href*="/silpo/"])
+autotheme.info##aside.sidebar > .custom-html-widget
+autotheme.info##aside.sidebar > h2:first-child
 postal.ninja##aside.tm-sidebar-a [class*="block"]
 tvc.ru##aside.w-full
+newsauto.com.ua##aside.widget_block > .has-text-align-right
 yamal-media.ru##aside[class^="articlePartnerNews_"]
 hromadske.radio##aside[class^="main_container Banner"]
 bryansknovosti.ru,novozybkov.su##aside[data-alias="Заголовок"] .widget-area > .widget_text
@@ -21423,6 +21429,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||fishki.net/someaction/
 ||fishnet.ru^*/banners/
 ||fix-pix.ru/rotator.php
+||fixygen.ua/assets/banner_
 ||flagma.ua/upload/banner/
 ||flashboot.ru/plugins/banneroid/
 ||flashboot.ru/uploads/bnr/
@@ -21449,6 +21456,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||football24.ru/coef.
 ||football24.ru/templates/football24/images/leon
 ||footballfacts.ru/_banners/
+||footballtransfer.com.ua/uploads/images/aaa/
 ||for-foto.ru/*/adv.js|
 ||forbes.kz/images/sponsors/$image
 ||foreign.dt00.net^
@@ -23585,6 +23593,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||zoneofgames.ru/brand$~stylesheet
 ||zoneofgames.ru/icon/modalframe.min.js
 ||zoneofgames.ru^*/native.video.vast.ad.js
+||zprz.city/i/banners/
 ||zr.ru/smidesktop.
 ||zserials.cc/tv/amp.html
 ||zvezdakaraoke.com/*.php?id=
@@ -25602,7 +25611,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 /wp-content/plugins/popup-builder/*$domain=grippua.com.ua|kompensacii.ru|lizasenglish.ru
 /wp-content/plugins/smart-facebook-page-like$domain=gazeta-severny.ru|morediva.ru|vseprynosti.ru
 /wp-content/plugins/socialer/$domain=podelki-doma.ru|psysovet24.ru
-/wp-content/uploads/pum/pum-site-$domain=belsat.eu|best-home-ideas.com|bizua.org|hariola.com|newsyou.info|spiker.club
+/wp-content/uploads/pum/pum-site-$domain=belsat.eu|best-home-ideas.com|bizua.org|hariola.com|newsauto.com.ua|newsyou.info|spiker.club
 ||5skyrim.com/js/showcur.js
 ||900igr.net/bm/sc.js
 ||all-for-kompa.ru/All-For-Kompa/all-for-kompa-guest.js
@@ -26954,6 +26963,7 @@ adblock.turtlecute.org##section ._bg-orange
 forums.overclockers.ru##tr > td[nowrap="nowrap"][style^="color: red;"][style$="font-weight: bold"]
 ||anivisual.net/back/scss.js
 ||csgohelp.ru/assets/app/js/checkIn.js
+||cxid.media/wp-content/cache/perfmatters/cxid.media/minify/*.adblock_detector.min.js
 ||dtf.ru/assets/Blocker-
 ||electric-house.ru/forum/script_el.js
 ||fanforum.ru/uploads/set_resources_$script

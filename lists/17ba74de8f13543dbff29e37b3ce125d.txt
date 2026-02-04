@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602041831
+! Version: 202602041914
 ! Title: EasyList
-! Last modified: 04 Feb 2026 18:31 UTC
+! Last modified: 04 Feb 2026 19:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3d8617ce17c765cb68acf1d3c313a32c295475c5
+! Commit: aaf936042ec1a6bbea351987949b16bf2ea9ceaa
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30439,6 +30439,7 @@ browsershots.org#@#.advert_area
 ||frequentjam.com^
 ||frequentlyadulatory.com^
 ||frequentlycharmsincomplete.com^
+||frequentlyvaried.com^
 ||frequentrequirement.com^
 ||frequentwhite.pro^
 ||frescozoilean.cfd^
@@ -54969,6 +54970,7 @@ browsershots.org#@#.advert_area
 ||telegraphfamouscucumbers.com^
 ||teleiafleshes.qpon^
 ||teleishlocks.qpon^
+||telesiskhakhamboonies.cyou^
 ||telesmdhal.help^
 ||televisiongrownupcrowd.com^
 ||telfordlula.rest^
@@ -59856,6 +59858,7 @@ browsershots.org#@#.advert_area
 ||wheyishbuckoes.cyou^
 ||whgcbgdsrqixx.rocks^
 ||whgugqkhydhg.net^
+||whhwcardntdge.com^
 ||whiboujaix.net^
 ||which-impact.pro^
 ||whichmeu.com^
@@ -80541,6 +80544,7 @@ freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing t
 petco.com##[class*="atapult-styled"]:has([data-ad-source])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 petco.com##[class*="rmn-banner"]:has([class*="SponsoredText"])
+cargurus.com##[class*="tileFrame"]:has([data-testid="sponsored-text"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 independent.co.uk,standard.co.uk,the-independent.com##[class] > :has(> [data-mpu])
@@ -81490,6 +81494,7 @@ slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)
 songbpm.com#?#div.mb-6:has-text(Advertisement)
 spigotmc.org#?#[style="text-align: center"]:has-text(sponsored)
 sprouts.com#?#li.product-wrapper:-abp-has(span:-abp-contains(Sponsored))
+staples.com#?#.sku-configurator__skuOffsetCarouselNew:-abp-has(span:-abp-contains(Sponsored products:))
 stocktwits.com#?#.is-visible:has-text(Remove ads)
 gsmarena.com#?##subHeader3:has-text(daily deals)
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))

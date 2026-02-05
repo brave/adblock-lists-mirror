@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K16QrBqYwzCt2ygLBeFF0A
-! Version: 202602051011
+! Checksum: nV5mV3fuu7kqUnGKdB7wqw
+! Version: 202602051051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Feb 2026 10:11 UTC
+! Last modified: 05 Feb 2026 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17215,6 +17215,7 @@ zr.ru##[data-slot-name]
 iphones.ru##[data-slug="damprodam"]
 arbatmedia.kz##[data-smi-widget-id]
 mac.org.ua##[data-src*="bashmac"]
+irtafax.com##[data-sticky-offset="20"] > .td-fix-index:nth-child(-n+2)
 beeline.ru##[data-t-id="components-TopBanner"]
 drive2.ru#?#[data-target]:-abp-has(> div > h3 ~ [href*=".drom.ru/"])
 drive2.ru##[data-target^="drom_"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V9kj+MLCQbFkFVd6kdLKag
-! Version: 202602042325
+! Checksum: BHtQwHaLcqQZvYcKbU0Wsw
+! Version: 202602050050
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-02-04 23:25 UTC
+! Last modified: 2026-02-05 00:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32552,7 +32552,6 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ##.privacy-init-wall
 ##.privacy-manager__banner
 ##.privacy-manager__overlay
-##.privacy-message-overlay
 ##.privacy-notice--simple
 ##.privacy-notice-background
 ##.privacy-notice-inner
@@ -38812,6 +38811,10 @@ esa.nask.pl##+js(set-cookie, GA_COOKIE_SMOG, accepted)
 turvakilvet.fi##+js(set-cookie, GBaseConsent, 0)
 turvakilvet.fi##+js(set-cookie, GBaseConsentToAnalytics, 0)
 marinelink.com##+js(set-cookie, GDPR, 9)
+warrenjames.co.uk##+js(set-cookie, GDPR.CONSENT.ANALYTICS, false)
+warrenjames.co.uk##+js(set-cookie, GDPR.CONSENT.MARKETING, false)
+warrenjames.co.uk##+js(set-cookie, GDPR.CONSENT.NECESSARY, true)
+warrenjames.co.uk##+js(set-cookie, GDPR.CONSENT.STATUS, true, , reload, 1)
 szerencsejatek.hu,tippmix.hu##+js(set-cookie, GDPR_LEVEL, 1)
 szerencsejatek.hu,tippmix.hu##+js(set-cookie, GDPR_VERSION, 1)
 bremerhaven.de##+js(set-cookie, GDPRp, no)
@@ -39348,6 +39351,7 @@ karls-shop.de##+js(set-cookie, cookie-preference-v3, 1)
 armedangels.com##+js(set-cookie, cookie-preference_renew10, 1)
 deltatre.com##+js(set-cookie, cookie-preferences-analytics, no)
 deltatre.com##+js(set-cookie, cookie-preferences-marketing, no)
+mythical.market,mythicalgames.com##+js(set-cookie, cookie-preferences-mythical, 1)
 eurosupps.nl##+js(set-cookie, cookie-preferences-submitted20190710, true)
 deltatre.com##+js(set-cookie, cookie-preferences-technical, yes)
 hifitest.de##+js(set-cookie, cookie-set-popup, 0, , reload, 1)
@@ -40513,6 +40517,7 @@ notthebee.com##+js(set-local-storage-item, cookieConsent, granted)
 axionnews.live,comnet.com.tr,cricketgully.com,estrelabet.bet.br,gpuscout.nl,hiring.amazon.com,paapiidesign.com,parrotsec.org,printedwaste.com,remanga.org##+js(set-local-storage-item, cookieConsent, true)
 rg.ru##+js(set-local-storage-item, cookieConsent, {})
 mastersintime.com,watch.co.uk##+js(set-local-storage-item, cookieConsentV2, 1)
+eyeletic.com##+js(set-local-storage-item, cookieInfoDismissed, true)
 sberdisk.ru##+js(set-local-storage-item, cookieIsAccepted, true)
 i-fundusze.pl,movies4us.*,plente.com##+js(set-local-storage-item, cookiePolicy, true)
 archiup.com##+js(set-local-storage-item, cookiePolicyAccepted, yes)
@@ -45425,6 +45430,7 @@ hartmanngruppe.net,rete.toscana.it#@#.cc-revoke
 hartmanngruppe.net#@#.cc-type-opt-in.cc-floating
 mbanc.com#@#.ccpa-banner
 cooleffect.org#@#.ce-banner
+myigetit.com#@#.cky-classic-bottom.cky-consent-container
 highlights.legaseriea.it#@#.cl-consent
 varzesh3.com#@#.cm-message
 eplus.jp#@#.cm-notification-container

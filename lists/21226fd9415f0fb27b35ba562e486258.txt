@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: f1nyZ8Xry3db5imFtmiMWA
+! Checksum: 7FDVMWdmn9T3wUcxwF8Aiw
 ! Title: Easylist Cookie List
-! Last modified: 2026-02-04 23:25 UTC
+! Last modified: 2026-02-05 00:25 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -14608,7 +14608,6 @@
 ##.privacy-init-wall
 ##.privacy-manager__banner
 ##.privacy-manager__overlay
-##.privacy-message-overlay
 ##.privacy-notice--simple
 ##.privacy-notice-background
 ##.privacy-notice-inner
@@ -20868,6 +20867,10 @@ esa.nask.pl##+js(set-cookie, GA_COOKIE_SMOG, accepted)
 turvakilvet.fi##+js(set-cookie, GBaseConsent, 0)
 turvakilvet.fi##+js(set-cookie, GBaseConsentToAnalytics, 0)
 marinelink.com##+js(set-cookie, GDPR, 9)
+warrenjames.co.uk##+js(set-cookie, GDPR.CONSENT.ANALYTICS, false)
+warrenjames.co.uk##+js(set-cookie, GDPR.CONSENT.MARKETING, false)
+warrenjames.co.uk##+js(set-cookie, GDPR.CONSENT.NECESSARY, true)
+warrenjames.co.uk##+js(set-cookie, GDPR.CONSENT.STATUS, true, , reload, 1)
 szerencsejatek.hu,tippmix.hu##+js(set-cookie, GDPR_LEVEL, 1)
 szerencsejatek.hu,tippmix.hu##+js(set-cookie, GDPR_VERSION, 1)
 bremerhaven.de##+js(set-cookie, GDPRp, no)
@@ -22569,6 +22572,7 @@ notthebee.com##+js(set-local-storage-item, cookieConsent, granted)
 axionnews.live,comnet.com.tr,cricketgully.com,estrelabet.bet.br,gpuscout.nl,hiring.amazon.com,paapiidesign.com,parrotsec.org,printedwaste.com,remanga.org##+js(set-local-storage-item, cookieConsent, true)
 rg.ru##+js(set-local-storage-item, cookieConsent, {})
 mastersintime.com,watch.co.uk##+js(set-local-storage-item, cookieConsentV2, 1)
+eyeletic.com##+js(set-local-storage-item, cookieInfoDismissed, true)
 sberdisk.ru##+js(set-local-storage-item, cookieIsAccepted, true)
 i-fundusze.pl,movies4us.*,plente.com##+js(set-local-storage-item, cookiePolicy, true)
 archiup.com##+js(set-local-storage-item, cookiePolicyAccepted, yes)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sFT1EFYFwpb2UNTNE2sb/A
-! Version: 202602060741
+! Checksum: uDwMAy17fozBEelrgGERaQ
+! Version: 202602060811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Feb 2026 07:41 UTC
+! Last modified: 06 Feb 2026 08:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23648,7 +23648,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?U7T6r=$xmlhttprequest
+||pikabu.ru/ajax/*?s67Hy=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24774,6 +24774,7 @@ sports.ru##.document-recommendations
 sports.ru##.factoid-coefficient
 sports.ru##.factoid-rows__adv-label
 sports.ru##.fonbet-teaser
+sports.ru##.frame__footer
 cyber.sports.ru##.header-bookmaker-banner
 sports.ru##.high-adload-container
 sports.ru##.in-read-placement
@@ -24804,6 +24805,8 @@ sports.ru##.poll__bookmaker-logo
 cyber.sports.ru##.polling
 cyber.sports.ru##.post-content a[href*="://sirena.world/"]
 sports.ru##.promo-link
+sports.ru##.promo-timer__broadcast-label
+sports.ru##.promo-timer__erid-label
 sports.ru#?#.recommendations__list > .recommendations__item:-abp-has([href*="promo"])
 sports.ru##.record-widget__bookmaker
 sports.ru##.right-banner-element

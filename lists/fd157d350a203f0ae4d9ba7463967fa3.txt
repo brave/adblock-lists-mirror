@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F55kG+/gYzvAihg2BSUWkg
-! Version: 202602061331
+! Checksum: 8dVECnd+sjQp5hqBtXdnCw
+! Version: 202602061352
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Feb 2026 13:31 UTC
+! Last modified: 06 Feb 2026 13:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23177,6 +23177,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||torrent-games.*/templatetgnew/images/background
 ||torrent-ideal.ru/*best/
 ||torrent-igruha.ru/templates/flat-cinema/js/script.js
+||torrent-soft.net/uploads/banner.
 ||torrent5.net/blu.$image
 ||torrenther.com^*.php|$script
 ||torrentinka.me/templates/Default/images/prestol
@@ -23753,7 +23754,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,byrut.org.ru,byrutgame.org,hdrip.info,mediagetguru.ru,monna2.top,torrent-music.ru,torrent-soft.net,torrent-soft.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,byrut.org.ru,byrutgame.org,hdrip.info,mediagetguru.ru,monna2.top,torrent-music.ru,torrent-soft.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru

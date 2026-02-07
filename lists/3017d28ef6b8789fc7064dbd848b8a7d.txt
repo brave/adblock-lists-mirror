@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602072149
+! Version: 202602072213
 ! Title: EasyPrivacy
-! Last modified: 07 Feb 2026 21:49 UTC
+! Last modified: 07 Feb 2026 22:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 127110f8c76a61df5fb9bbc99376415c5d71c81c
+! Commit: 5540534269a4d6c1eb8bf47185ef043ec11e1621
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2324,6 +2324,7 @@
 /supercookie.asp
 /supercookie.js
 /svs.gif?
+/sw.js?origin=
 /sw/analytics.js
 /swa_t.gif?
 /swatag.js
@@ -2905,6 +2906,7 @@
 ://signal.*/hardal
 ://signals.*/hardal
 ://sp.*/sp/h|$xmlhttprequest
+://ssgtm.
 ://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.targito.

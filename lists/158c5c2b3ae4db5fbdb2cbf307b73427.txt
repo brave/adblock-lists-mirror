@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kxnLv5CowJH79EiMChllgg
-! Version: 202602091121
+! Checksum: SKbSwTkrk9CVFvkEDzG3zQ
+! Version: 202602091151
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Feb 2026 11:21 UTC
+! Last modified: 09 Feb 2026 11:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -383,6 +383,7 @@ com,ru##[data-rambler-share]
 ||static.newsru.co.il/img/r_soc/
 ||tchkcdn.com/www/social-widgets/
 ||telegrafcom.api.oneall.com/socialize/
+||telegram.org/js/telegram-widget.js$domain=app2top.ru
 ||thevista.ru/*/img/soc/
 ||twitter.com/widgets.js$domain=hdrezka.tv
 ||tyt.by/i/socialBlock/
@@ -741,6 +742,7 @@ delfi.lv##.article-body .shadow
 5.ua#?#.article-body > p:-abp-has(> a[href^="https://whatsapp.com/channel/"])
 tvc.ru#?#.article-body > p:-abp-has(> strong > a[href^="https://t.me/"])
 lifehacker.ru##.article-card-actions__share
+app2top.ru##.article-custom-footer
 xn--90aivcdt6dxbc.xn--p1ai##.article-detail__share
 www.sport.ru##.article-extra
 24smi.org##.article-footer
@@ -1336,7 +1338,6 @@ ruskinonovoe.net##.full > div[style="text-align: right;"]
 myseason.club##.full-soc-text
 pcprogs.net##.fullstory__social
 pcprogs.net##.fullstory__subvktg
-aces.gg##.fullstory_share
 retail.ru##.further__places
 anidub.vip,anidubonline.com##.fwidget.counter
 uazmi.org##.fx-grid-subscribe
@@ -1975,6 +1976,7 @@ milknews.ru##.share-aside
 cross.expert##.share-auth
 povarenok.ru##.share-bl
 replyua.net##.share-blc
+app2top.ru##.share-block
 animedub.ru,gordonua.com##.share-box
 drukarnia.com.ua,grazia.ru,mentoday.ru,pravilamag.ru,techinsider.ru,thevoicemag.ru##.share-button
 lifehacker.ru##.share-button__container
@@ -2602,7 +2604,6 @@ magnit.ru##.unit-footer-socials
 korrespondent.net#?#.unit-rubric:-abp-has(> ul > #lifacebook)
 www.pravda.com.ua##.unit_sp_place
 statbet.com##.up-share
-game-pool.ru##.upnews
 mobile-review.com##.upper__social > a[href^="http"]:not([href*="mobile-review.com"])
 prk.city##.uptolike-div
 ivi.ru##.userButtons__item_share
@@ -2634,7 +2635,6 @@ animedub.ru,apihost.ru,waiset.su,xn--c1acj.xn--p1ai##.vk
 mysimpsons.ru##.vk-block
 dovidka.biz.ua##.vk-group
 energyfm.ru##.vk-index
-onlinemultfilmy.ru##.vk-mini
 mega-mult.ru##.vk-osn
 gdz.fm,gdz.ninja,megaresheba.com,mkset.ru,reshebnik.com,xn--c1acj.xn--p1acf##.vk-popup
 anistar.org,astar.bz,online-star.org,online-stars.org##.vk-top
@@ -2645,7 +2645,6 @@ megaresheba.com##.vk_groups
 prosound.ixbt.com##.vk_logo
 animalreader.ru##.vk_widget_comments
 omsi2mod.ru,wav-library.net##.vkblock
-pesni-tut.com##.vkcomms
 neboleem.net##.vkgr
 neboleem.net##.vkgs
 game-tournaments.com##.vkicon
@@ -4453,7 +4452,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||paywall.forbes.ua/
 ||pcportal.org/js/test_base64.js
 ||peroxide.rambler.ru^$domain=mail.rambler.ru
-||pesni-tut.com/plashka.js
 ||pickupforum.ru/public/textback_popup_
 ||pikabu.ru/ajax.php?route=recommendations/feed-block
 ||platform.twitter.com/widgets.js$domain=www.ukr.net
@@ -4592,7 +4590,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||yatv.ru/storage/userdata/*/page_background_
 ||yoomoney.ru^$subdocument,domain=2baksa.ws|adventuretime.ru|anime-free.ru|cnc3018.ru|hardwareluxx.ru|hdd.by|internet-technologies.ru|kisameev.ru|korsars.pro|nowa.cc|podolyaka.ru|trymobile.ru
 ||yougame.biz/js/xf/notice.
-||youhack.ru/reyo/
+||youhack.vip/pic/TRUMP-
 ||youtube.com/embed/*autoplay=1*sports.ru&widgetid$subdocument,domain=sports.ru
 ||youtube.com/embed/*mediametrics.ru&widget$subdocument,domain=mediametrics.ru
 ||youtube.com/embed/?enablejsapi=1&origin=*3dnews.*&widgetid=1$subdocument,domain=3dnews.ru
@@ -4607,7 +4605,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.
 !#endif
 ! *** ruadlist:bitblock/annoyance_specific_hide.txt ***
-ebanoe.it###Action_bar
 tadviser.ru###BottomSocial
 developers.sber.ru,giga.chat###GDPRBanner
 radiosvoboda.org###GR-1801
@@ -5667,7 +5664,6 @@ plvideo.ru##.index_css_content_cbojeu4
 bobyfilms.net##.info_banner
 cyberleninka.ru#?#.infoblock > .full:-abp-has(> .bibloid_serp_ann)
 qiwi.com##.infoblock > [data-helper-banner]
-aces.gg##.infopanel_wr
 bibliofond.ru##.inform-banner
 viewlost.life##.informbl
 kinoafisha.ua##.informer--subscribe
@@ -5713,7 +5709,6 @@ rbc.ru##.js-subscribe-block
 mk.ru##.js-target-subsctibe
 drive2.ru##.js-wz
 novy.tv##.jsImportantTop
-onlinemultfilmy.ru##.js_tooltip
 sberbank.com,sberbank.ru##.kitt-cookie-warning
 km.ru##.km_ref_adv_popup
 kanobu.ru#?#.knb-grid-layout > .knb-grid-cell:-abp-has(> [class^="SubscribeForm_subscribe__"])
@@ -5812,7 +5807,9 @@ cdek.ru##.mobileApp-wrap
 nashaplaneta.net##.mobile_announce
 rama.com.ua##.mobile_block
 footballhd.ru##.mobprij
-youhack.ru##.mobyaza > .columnsContainer ~ *
+youhack.vip##.mobyaza > .columnsContainer ~ *
+youhack.vip##.mobyaza > a[target="_blank"]
+youhack.vip##.mobyaza > div:not([class])
 slavyanskaya-kultura.ru##.mod_inshop_front
 answear.ua##.modal
 wildberries.ru##.modal--cookie
@@ -6030,6 +6027,7 @@ geniusmarketing.me##.psevdomenu
 psm7.com##.psm-home-subscribe-form-container
 psm7.com##.psm-sidebar-container
 psm7.com##.psm-subscribe-form-container
+youhack.vip##.publicTabs > a[style*="background:"]
 habr.com##.pull-down > .tm-page__top + section.tm-block_spacing-bottom
 epravda.com.uaa,pravda.com.ua##.push
 onliner.by##.push-notification
@@ -6532,6 +6530,7 @@ vk-smi.ru##[itemprop="articleBody"] ~ .text-center
 itsider.com.ua,mmr.net.ua##[itemtype="https://schema.org/WPAdBlock"] > a[href][target="_blank"]
 kolesa.ru##[ng-controller="SubscribeController"]
 shadowcore.ru##[onclick="showBoosty();"]
+youhack.vip##[onclick]:not([onclick^="window.open('https://youhack.vip/posts/"])
 diets.ru##[onclick^="closeDailyRecipesPopup"],form[class^="dayrecipes"]
 rshb.ru#?#[role="dialog"]:-abp-has(> div > div > p > [href="/pd-policy#cookie"])
 village.com.ua##[role="subscribe"]

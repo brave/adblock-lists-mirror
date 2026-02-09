@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602092003
+! Version: 202602092047
 ! Title: EasyList
-! Last modified: 09 Feb 2026 20:03 UTC
+! Last modified: 09 Feb 2026 20:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6e709bcb9af0ce9abe3cea224bab34ec7ec079e0
+! Commit: 025aa56ccbc54f9799bcf27ce0309181da5e28a8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -28353,6 +28353,7 @@ browsershots.org#@#.advert_area
 ||emwjliqa.xyz^
 ||emxdgt.com^
 ||emxipsmjhingj.website^
+||emxmterapyzun.space^
 ||emydeexcl.help^
 ||emywsmsdyqzne.site^
 ||emzxhwzaxdarg.vip^
@@ -30124,6 +30125,7 @@ browsershots.org#@#.advert_area
 ||fixingscarrow.cfd^
 ||fixittoday.biz^
 ||fixpass.net^
+||fixuonstjaodh.online^
 ||fizgigsrealty.qpon^
 ||fizhshmfzduwk.online^
 ||fizzedkha.qpon^
@@ -65921,6 +65923,7 @@ browsershots.org#@#.advert_area
 ||monetano.com^$third-party
 ||monetixads.com^$third-party
 ||monsy.com^$third-party
+||mplat-ppcprotect.com^$third-party
 ||mrjaz.com^$third-party
 ||multiview.com^$third-party
 ||myaffiliates.com^$third-party
@@ -81568,6 +81571,7 @@ walmart.*##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 tripadvisor.*##div[class="ui_container dSjaD _S"]
 zoohit.*,zooplus.*##div[class^="SearchSuggestion-module_suggestionItem_"]:has(.z-sponsored-tag)
 walmart.*##div[data-automation^="HookLogicCarouses"]
+tripadvisor.*##div[data-curated-shelf-id]:has(a[rel="sponsored"])
 wayfair.*##div[data-enzyme-id="WssBannerContainer"]
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 wayfair.*##div[data-hb-id="Grid.Item"]:has(a[href*="&sponsoredid="])
@@ -82798,6 +82802,8 @@ bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB7
 modivo.*#?#.banner:-abp-contains(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
 modivo.*#?#.product:-abp-contains(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
 tripadvisor.*#?#.AaFRW:-abp-contains(Sponsored)
+tripadvisor.*#?#div[class="JYrkj w"]:-abp-has(span:-abp-contains(In partnership with))
+tripadvisor.*#?#div[class="JYrkj w"]:-abp-has(span:-abp-contains(Sponsored by))
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
 walmart.*#?#div[role="group"]:-abp-has(div:-abp-contains(/Sponsored|Commandité/))
 yelp.*#?#main[class^="searchResultsContainer"] li h2:-abp-contains(Sponsored)

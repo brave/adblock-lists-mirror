@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BzYU28eCsKSXjUIeuOmqEA
-! Version: 202602092012
+! Checksum: 0wtw0vovnfw7I1SWVZCMLQ
+! Version: 202602092041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Feb 2026 20:12 UTC
+! Last modified: 09 Feb 2026 20:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -332,6 +332,7 @@ com,ru##[data-rambler-share]
 ||animeone.cc/rek/animeone-telegram.
 ||bar.love.mail.ru^$domain=~mail.ru
 ||bryansknovosti.ru/ss/
+||cdn.shazoo.ru/*_shazoo-telegram.png
 ||connect.facebook.net^$script,domain=www.liveinternet.ru
 ||connect.facebook.net^*/sdk.js$domain=agrimpasa.com|the-fun.tv
 ||cyberleninka.ru/api/notification$xmlhttprequest
@@ -3295,6 +3296,7 @@ meduza.io##img[src$="zdmc+"]
 sport5.by##img[src*="/upload/banner_telegram"]
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##img[src*="/vk_group."]
 dontimes.news##img[src*="/wp-content/uploads/sb/"]
+shazoo.ru##img[src*="_shazoo-telegram.png"]
 opennet.me,opennet.ru##img[src="/img/facebook.gif"]
 opennet.me,opennet.ru##img[src="/img/telegram2.png"]
 opennet.me,opennet.ru##img[src="/img/vkontakte.gif"]

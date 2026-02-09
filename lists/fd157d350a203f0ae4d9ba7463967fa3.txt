@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SLTx/Rbq0BeGjRb0CeKa8g
-! Version: 202602090851
+! Checksum: O29S5frESS5VTPR5CMHAQw
+! Version: 202602090921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Feb 2026 08:51 UTC
+! Last modified: 09 Feb 2026 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23625,8 +23625,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/desktop2/$script
-||static.dzeninfra.ru/s3/zen-apps/mobile/$script
+||static.dzeninfra.ru/s3/zen-apps/content/*/*/$script
+||static.dzeninfra.ru/s3/zen-apps/video-player-core/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
@@ -23652,7 +23652,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?s67Hy=$xmlhttprequest
+||pikabu.ru/ajax/*?Q98ui=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CYz07bgdtU4W6c75Jndtag
-! Version: 202602091151
+! Checksum: kwYvz2WMi5qRWeRJ2IphOg
+! Version: 202602091222
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Feb 2026 11:51 UTC
+! Last modified: 09 Feb 2026 12:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23662,11 +23662,11 @@ playground.ru###dfpPrerollDelay {remove:true;}
 tapochek.*##body:has(#register_link) > canvas
 tapochek.*##body:has(#register_link) > canvas {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
-uwupad.*##style:-abp-contains(lb-banner-height) {remove:true;}
-vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
+uwupad.*##style:has-text(lb-banner-height) {remove:true;}
+vk.*##head > style:has-text(/adchoice|mkit_|outlineBanner/i) {remove:true;}
 www.ixbt.*###branding-ssr-style {remove:true;}
 www.ixbt.*##.clickable_zone {remove:true;}
-www.ixbt.*##body > style:-abp-contains(margin-top) {remove:true;}
+www.ixbt.*##body > style:has-text(margin-top) {remove:true;}
 ! селекторы
 freesoft.ru###downloadAdModal
 vk.com,vk.ru###feed_rows > .feed_row > div:not([id])

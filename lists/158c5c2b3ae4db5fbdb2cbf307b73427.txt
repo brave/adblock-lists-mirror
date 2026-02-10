@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: d0Urp5OUv6T1vzVencv0bg
-! Version: 202602102021
+! Checksum: Msk13ugPRowiouRFf1V3rQ
+! Version: 202602102051
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Feb 2026 20:21 UTC
+! Last modified: 10 Feb 2026 20:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7454,7 +7454,7 @@ dzen.ru##.zen-page .content div[class*="__bannerMain"]
 @@||statchecker.yandex.ru/ping|$script,domain=drive2.ru
 @@||static-mon.yandex.net/static/main.js$xmlhttprequest,domain=drive2.ru|shedevrum.ai
 @@||www.drive2.ru^$generichide
-@@||yandex.ru/ads/system/context.js|$script,domain=auto.ru|e.mail.ru|octavius.mail.ru|shedevrum.ai
+@@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=auto.ru|drive2.ru|shedevrum.ai
 @@||yastatic.net/partner-code-bundles/*/*.js|$xmlhttprequest,domain=auto.ru|drive2.ru
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body > :not(div[style*=" -"]) .mailru-visibility-check
 dzen.ru#?#div:-abp-has(> .mg-grid__item_type_card > div[class*="loader_animated"])

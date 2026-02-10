@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rjCOT1okKRUH8CmxJXMgcw
-! Version: 202602101121
+! Checksum: joJnPQsI9ecbZiFZxXMLgA
+! Version: 202602101151
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Feb 2026 11:21 UTC
+! Last modified: 10 Feb 2026 11:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -402,7 +402,6 @@ com,ru##[data-rambler-share]
 ! *** ruadlist:bitblock/social_specific_hide.txt ***
 anistar.org,astar.bz,online-star.org,online-stars.org###AS_com
 kinofilms.ua###KFside > aside a[href*="facebook.com/"]
-cheatground.ru#?##PortalBottom > div:-abp-has(> #groups)
 porno-comics.ru###RSS-L
 obninsk.name###Sosal
 anistar.org,astar.bz,online-star.org,online-stars.org###VK_com
@@ -653,7 +652,7 @@ hlamer.ru,ru###user-bar a[href="https://vk.com/krasview"]
 work.ua###viberSubscribeBtn
 livemaster.ru###viewer-social
 via-midgard.info###viiFaveBlock
-factorio.su,sntch.com,topmmo-games.ru###vk-comments
+factorio.su,sntch.com###vk-comments
 kaermorhen.ru###vk-widget
 animespirit.ru###vkButton
 dizelyator.ru###vk_lnk
@@ -1459,7 +1458,6 @@ byxatab.com##.icon-vk
 whl.khl.ru##.iconbar > .icons > a[href*="khl.ru/"] ~ a:not([href*="khl.ru/"] )
 autopilot.ru,kommersant.ru,myweekend.ru##.iconbox__item--share
 mobiledevice.ru##.icons_bar_placeholder
-sonix.tk##.iconsinit
 life.pravda.com.ua#?#.img-wrap:-abp-has(> div > [href^="https://bit.ly"])
 dizelyator.ru##.imgsoc
 incrypted.com##.incrypted-post-author__socials
@@ -2070,7 +2068,6 @@ masterok.livejournal.com##.sidebar-custom > dd > a[href]
 novyny.live##.sidebar-item_social
 rcity.by##.sidebar-left-area > .popular-posts + .widget_custom_html
 rcity.by##.sidebar-right-area > div ~ .widget_custom_html
-anirem.org##.sidebar-scroll > [data-type="share"] + p
 kg-portal.ru##.sidebar-social
 4eva.ru,darada.co,glavnoe.net,infotime.co##.sidebar-social__header
 fakty.com.ua##.sidebar-tabs > .aside-title:first-child
@@ -2598,7 +2595,6 @@ joyreactor.cc,pornreactor.cc,reactor.cc##.uhead_share
 overclockers.ru##.ui.message.warning
 gamegpu.com##.uk-float-right > .uk-panel a[href^="https://"] > img
 novate.ru##.ul_top > .li_site ~ li
-totori.ru##.ulogin_block
 fishki.net##.undertopic > .imgmiddle
 korrespondent.net##.unipopup
 magnit.ru##.unit-footer-socials
@@ -2641,7 +2637,7 @@ gdz.fm,gdz.ninja,megaresheba.com,mkset.ru,reshebnik.com,xn--c1acj.xn--p1acf##.vk
 anistar.org,astar.bz,online-star.org,online-stars.org##.vk-top
 sletat.ru##.vk-widget
 nevnov.ru##.vk-widget-wrapper
-appsgames.ru,gdz-putina.fun,megapolisonline.ru,mobnovelty.ru##.vk_group
+gdz-putina.fun,megapolisonline.ru,mobnovelty.ru##.vk_group
 megaresheba.com##.vk_groups
 prosound.ixbt.com##.vk_logo
 animalreader.ru##.vk_widget_comments
@@ -3191,8 +3187,6 @@ ivi.ru##div[data-test="share_button"]
 anticollector.biz.ua##div[data-widget-key="xfi_sidebar_social_block_widget"]
 ozon.ru##div[data-widget="webSharingButton"]
 rebenok.by##div[id$="FacebookBlock"]
-aniplay.tv##div[id*="vk-comments"]
-aniplay.tv##div[id*="vk-groups"]
 gorod24.online#?#div[id]:-abp-has(> [id^="vkwidget"])
 allcio.ru,it-weekly.ru,it-world.ru##div[id^="asd_share_buttons"]
 newkaliningrad.ru#?#div[id^="authpanel"] > div > div[class^="col-md-"]:-abp-has(> .socials)
@@ -3202,7 +3196,6 @@ soccer.ru##div[id^="my-share"]
 kg.ua##div[id^="slidebox"]
 24tv.ua##div[id^="telegramBanner"]
 work.ua##div[id^="telegramSubscribe"]
-topmmo-games.ru##div[id^="vkapi_like"]
 nsn.fm##div[itemprop="datePublished"] ~ [itemprop="author"] ~ div > button
 pleer.ru##div[itemtype="//schema.org/Product"] > #comment ~ .image
 cheezu.ru##div[jello-component="sharer"]
@@ -5264,7 +5257,6 @@ parkdrive.ua##.body-advert-bg
 lifecell.ua##.bookmark-3g
 professorweb.ru##.bottom-banner
 hi-fi.ru##.bottom-block
-aniplay.tv##.bottom-panel
 soel.ru##.bottom-slider
 frontend.1worldonline.com##.bottomPanel > .project
 2x2tv.ru##.bottom__cookie-block
@@ -6162,7 +6154,6 @@ domashniy.ru##.slipper
 sportmaster.ru##.sm-cookie-agreement-old
 blackwot.ru##.smart-head-row .ts-button
 gorodrabot.ru##.snippet_advertising
-gamelendi.ru##.snow
 pikabu.ru##.snowflakes-container
 turkrutv.net,turkrutv84.com##.snowing-header
 porodakoshki.ru##.socialer-popup-overlay

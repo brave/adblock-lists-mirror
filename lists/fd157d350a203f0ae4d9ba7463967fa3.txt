@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mdS6LEze6apID+JZr19S6g
-! Version: 202602111252
+! Checksum: 7KHX6YZmpgTVjfCYLcnnmQ
+! Version: 202602111331
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Feb 2026 12:52 UTC
+! Last modified: 11 Feb 2026 13:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15099,7 +15099,6 @@ bookskeeper.ru##.maincont > div[class="clr"]
 bazatabletok.ru##.maincontentcell td[valign="top"]
 penzavzglyad.ru##.mainmenu-ads
 stiletto.blog##.mainos
-www.livejournal.com#?#.mainpage__wrap-content div[class*="card"]:-abp-has(> div > div[class*="empty"] [id*="directive.id"])
 oboznik.ru##.mainrams > div[class^="cd"]
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.mains a[href^="/"][href*="xt/"]:not(.btn)
 forum.materinstvo.ru#?#.maintitlecollapse:-abp-contains(Реклама)
@@ -18659,6 +18658,9 @@ ctv7.ru##div[class*="bnrs-block"]
 diabet-med.com##div[class*="boxzilla"]
 priluki.city##div[class*="bunner"]
 drom.ru,newsvl.ru,vl.ru##div[class*="candy"]
+www.livejournal.com#?#div[class*="card-wrap"]:-abp-has(> [data-slot] > div[class*="--empty"])
+www.livejournal.com#?#div[class*="card-wrap"]:-abp-has(> div a[href*="rcmrclid"])
+www.livejournal.com#?#div[class*="card-wrap"]:-abp-has(> div[class]:empty)
 povarenok.ru##div[class*="content-md"] > div[class$="-m"]
 povarenok.ru##div[class*="content-md"] > div[class*="menu"]
 joinfo.ua##div[class*="content_ads"]
@@ -24484,8 +24486,6 @@ avtorambler.com,rambler.ru##.commercial-branding [id^="rambler-currency-converte
 avtorambler.com,rambler.ru##.commercial-branding article > div:only-child > div:first-child + div + div:last-child
 avtorambler.com,rambler.ru#?#.commercial-branding div:-abp-has(> a[href^="https://ads.adfox.ru/"])
 lenta.ru##.custom-banner
-vp.rambler.ru##.eagleplayer-advertisement-remain-time
-vp.rambler.ru##.eplayer-time-to-ad
 finance.rambler.ru##.finance__partners
 horoscopes.rambler.ru##.fzwuC
 championat.com,championat.ru##.game-of-day
@@ -24526,6 +24526,7 @@ ferra.ru,indicator.ru,letidor.ru,moslenta.ru,motor.ru,passion.ru,quto.ru,secretm
 avtorambler.com,rambler.ru##[data-rcmw-init]
 sport.rambler.ru##[data-sport_media-desktop*="rnet_widget"]
 www.afisha.ru#?#[data-test="SECTION"] > [data-test="SECTION-CONTENT"]:-abp-has(> div > [href^="/out/?url="])
+vp.rambler.ru##[data-time-to-a]
 travel.rambler.ru##[data-travel_media-desktop*="rnet_widget"]
 gazeta.press,gazeta.ru##[data-url*="/prcom/"]
 weekend.rambler.ru##[data-weekend_media-desktop*="rnet_widget"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PFdGiW3QKAAQhqgEVhJjwQ
-! Version: 202602110951
+! Checksum: 3PGx/A/CK3fNxWNLeRn7yw
+! Version: 202602111021
 ! Title: EasyList China
-! Last modified: 11 Feb 2026 09:51 UTC
+! Last modified: 11 Feb 2026 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10729,6 +10729,10 @@ meijutt.*/js/pcjs/
 ||wnacg.com/game/
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+iplark.com##div[style="position: relative;"]
+cngold.org#?#.w310:-abp-has(>.swiper-company)
+cngold.org##.headCompanys
+cngold.org##.mainRight > .border_top:first-child
 ping0.cc##.myeles
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
@@ -17708,7 +17712,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||dmr.cnhoney.com^
 ||dms.vancss.com^
 ||dms.xuexxing.com^
-||dmym.aixyy.com^
+||dmym.fwol.cn^
 ||dn*.ixinwei.com^
 ||dnpz123.com^$third-party
 ||domain1.chahaoba.cn^

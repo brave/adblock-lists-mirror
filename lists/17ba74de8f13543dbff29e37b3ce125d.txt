@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602110921
+! Version: 202602110959
 ! Title: EasyList
-! Last modified: 11 Feb 2026 09:21 UTC
+! Last modified: 11 Feb 2026 09:59 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ec92c995511278ca3fb388d6779ecf40b942c828
+! Commit: 0c233001c11afafc12f3ef615f323d664f85db5e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -851,12 +851,14 @@ _reklama_$domain=~youtube.com
 ://0.www.*/player/*/m/$script,third-party
 ://0.www.*/players/*/-1/$script,third-party,xmlhttprequest
 ://loader.*.com/loader.min.js|$script,~third-party
+://loader.*.com/script/$script,third-party
 ://www.*.com/*/-1/327/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/*/-1/70/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/a/$subdocument,third-party,domain=~edu|~gov
 ://www.*/player/*/a/$third-party,xmlhttprequest
 ://www.*/player/*/m/$script,third-party
+wss://loader.*.com/ws^$third-party
 wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
@@ -21163,6 +21165,7 @@ browsershots.org#@#.advert_area
 ||blepsbey.com^
 ||blessedhurtdismantle.com^
 ||blessedsophia.com^
+||blessesunwary.com^
 ||blessingsome.com^
 ||blethergodlessauryl.cfd^
 ||bletopreseynat.org^
@@ -24439,6 +24442,7 @@ browsershots.org#@#.advert_area
 ||coolestinstead.com^
 ||coolestreactionstems.com^
 ||coolingvaluer.com^
+||coolishrocked.com^
 ||cools-sweetclub.com^
 ||coolserving.com^
 ||coolsize.pro^
@@ -29563,6 +29567,7 @@ browsershots.org#@#.advert_area
 ||false-memory.pro^
 ||falseequal.com^
 ||falsenight.com^
+||falserlictor.cfd^
 ||falsifyprobable.com^
 ||faltchefeoffee.cfd^
 ||faltertshirt.com^
@@ -36378,6 +36383,7 @@ browsershots.org#@#.advert_area
 ||iptaumoati.net^
 ||iptautoariroa.net^
 ||iptautup.com^
+||iptydbyenzagm.site^
 ||ipuhpdtxvekgkcu.xyz^
 ||ipvaqxfgypulc.website^
 ||ipwfxgwjrlrfa.site^
@@ -38745,6 +38751,7 @@ browsershots.org#@#.advert_area
 ||koibvboxuvndaxc.xyz^
 ||koifpdfagsxjk.website^
 ||koindut.com^
+||koitay.cyou^
 ||kokflrflwarlx.today^
 ||kokilagummers.qpon^
 ||kokocuir.qpon^
@@ -41188,6 +41195,7 @@ browsershots.org#@#.advert_area
 ||mammoth-a.pro^
 ||mammothshot.com^
 ||mammothsweetheart.com^
+||mamotyhutchie.cfd^
 ||mamruoa.club^
 ||mamseestis.xyz^
 ||mamtoakraksevi.net^
@@ -46689,6 +46697,7 @@ browsershots.org#@#.advert_area
 ||pastelspittle.com^
 ||pastieschechia.cyou^
 ||pastrevolution.pro^
+||pastryhobbled.com^
 ||pasttable.com^
 ||pasttrust.com^
 ||pastureoriental.com^
@@ -52485,6 +52494,7 @@ browsershots.org#@#.advert_area
 ||sacquejacamin.qpon^
 ||sacramentexpensivestretching.com^
 ||sacrificecare.com^
+||sacwumsf.com^
 ||saczvfpaeadxv.space^
 ||sad-engine.pro^
 ||sadbasindinner.com^
@@ -58081,6 +58091,7 @@ browsershots.org#@#.advert_area
 ||typalbummie.cfd^
 ||typhoiddefine.cfd^
 ||typical-hub.com^
+||typicallycompoundgaunt.com^
 ||typiccor.com^
 ||typierunprop.cyou^
 ||typinglindy.com^
@@ -60176,6 +60187,7 @@ browsershots.org#@#.advert_area
 ||vivariarageous.help^
 ||vivecitatum.help^
 ||vivid-baseball.com^
+||vivid-demand.pro^
 ||vivid-proposal.pro^
 ||vividcampaign.com^
 ||vivwpyohvwhe.com^
@@ -66894,6 +66906,7 @@ browsershots.org#@#.advert_area
 ||98853171.xyz^
 ||9m-mlvrsosov-qmrl4.xyz^
 ||admonishdecisiveyetnow.com^
+||agreementdaily.com^
 ||amongstbirdbath.com^
 ||aroundveinfixed.com^
 ||battleickhope.com^

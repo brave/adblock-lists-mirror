@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NQcvcUMUo0i4my9d5fSEmA
-! Version: 202602122211
+! Checksum: ARzisC5SMAWYOjWtSk4odg
+! Version: 202602122241
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Feb 2026 22:11 UTC
+! Last modified: 12 Feb 2026 22:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -468,6 +468,7 @@ silver.ru###footer > .right > div + div ~ a
 gadgetstyle.com.ua#?##footer > div[class^="foot-widget"]:-abp-has(.su-button-center)
 hitfm.ru###footer a[target="_blank"][class*="fa-"]
 brestcity.com###footer font > div[align="center"] ~ div[align="center"]
+yapolitic.ru###footer-soc
 beztarakanov.ru###footer4
 gidonline2.com###friend
 vcrti.com.ua###gk-newsletter-popup
@@ -2616,6 +2617,7 @@ mentoday.ru,techinsider.ru,thevoicemag.ru##.vertical-video__like-button
 mentoday.ru,techinsider.ru,thevoicemag.ru##.vertical-video__share-button
 sport.ua##.viber
 1plus1.video##.video-comments
+yapolitic.ru##.video-opis-knop
 ren.tv##.video-player__sharing
 regnum.ru##.video-share-wrapper
 vesti.ru##.video_top_inner
@@ -4841,7 +4843,7 @@ forum-windows.net###ntf
 friday.ru###offers
 doramafox.club###okno5
 kinodema.com###okno[href]
-vk.com###old_browser_wrap
+vk.com,vk.ru,vkvideo.ru###old_browser_wrap
 fontanka.ru###onesignal-promt-target div[style^="max-height:"] > div[style^="max-height:"] > div:last-child
 fontanka.ru###onesignal-promt-target div[style^="max-height:"] > div[style^="max-height:"] > nav > div > div:last-child
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com###onetrust-consent-sdk
@@ -7000,7 +7002,6 @@ benzclub.ru##tr > td[valign="top"][width="245"]
 kion.ru##ui-web-alert
 epicentrk.ua##ul > li[data-test-small-card] ~ li:not([data-test-small-card])
 shiza-project.com##ul[class*="transparent-btns"]
-vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 wildberries.ru,wildberries.*##.fixed-block__cookies
 !
 ! 4pda.to (ранее 4pda.ru)
@@ -7472,6 +7473,7 @@ mail.*##.tv-widget [class^="vk-video"] {remove:true;}
 mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-list-banner-portal + div:not([class*="message"]):not(:last-child)
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 translate.yandex.ru,translate.yandex.*##.side-block > div
+vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||dzen.ru/zen-partner/$third-party
 ||livejournal.com/*_*_*_*_*_*_*_*_*_$xmlhttprequest
 ||mail.yandex.*/u2709/$script,~third-party

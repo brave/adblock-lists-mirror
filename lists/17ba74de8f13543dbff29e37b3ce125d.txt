@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602121405
+! Version: 202602121422
 ! Title: EasyList
-! Last modified: 12 Feb 2026 14:05 UTC
+! Last modified: 12 Feb 2026 14:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 66383dfd76c5b426fc6395cf2f197a224b112022
+! Commit: 46c6abd37800af423f05e37edfc48815589d65c2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30226,6 +30226,7 @@ browsershots.org#@#.advert_area
 ||fimldboqdwjsq.site^
 ||fimserve.com^
 ||fimzavdihj.com^
+||fimzocbxpsqmf.website^
 ||fin.ovh^
 ||finallyswirly.cfd^
 ||financialwagerepel.com^
@@ -82527,6 +82528,7 @@ motortrend.com##.min-h-\[100px\]
 outsports.com##.min-h-\[100px\]:has(.adb-os-inarticle-block)
 outsports.com##.min-h-\[100px\]:has(.adb-os-lb-incontent)
 motortrend.com##.min-h-\[120px\]
+opensubtitles.org##.msg > div > fieldset:has(> [style="text-align:center;"])
 manomano.*##.mt-s.block:has([data-testid="sprbrd-logo-link"])
 tvguide.co.uk##.mx-auto:has(> [id^="ad-content"])
 boots.com##.oct-listers-hits__item:has(.oct-teaser__listerCriteoAds)

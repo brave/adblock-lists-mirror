@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 6pFrG2VjzkQC8Cmf9MXY+w
+! Checksum: VMkYDEfNxPzXbnTi+xTQXw
 ! Title: EasyList Hebrew
-! Last modified: 12 Feb 2026 03:10 UTC
+! Last modified: 12 Feb 2026 03:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -337,6 +337,9 @@
 ! * kikar.co.il * !
 ||a.kikar.co.il/v1/ads
 ||www.kikar.co.il/a/$subdocument
+! * kore.co.il * !
+||ext.kore.co.il/out/$script,domain=www.kore.co.il
+||www.kore.co.il/system/ad_manager/get_all_banners$xmlhttprequest,domain=www.kore.co.il
 ! * zap group * !
 ||ban.d-group.co.il/banners/$third-party
 ||cdn1.zoomanalytics.co/js$script,domain=zap.co.il
@@ -375,7 +378,6 @@
 ||beaverscripts.com/openwindow.js
 ||bladna.co.il/Public/flash/
 ||ch10.co.il/wp-content/plugins/arti-banners/components/arti-banner-popup/
-||ext.kore.co.il/out/$script,domain=www.kore.co.il
 ||googleusercontent.com^$domain=trusted-software.com
 ||leadim4u.com/accounts/default1/banners/
 ||negishim.com/accessibility/
@@ -865,6 +867,8 @@ animals.walla.co.il,astrology.walla.co.il,b.walla.co.il,calendar.walla.co.il,car
 13news.co.il,13tv.co.il##div.dxZevu.frjHsE.NewsFlahesPagestyles__NewsFlashSpecialWidget-sc-1zhe9e-9.NewsFlahesPagestyles__NewsFlashItem-sc-1zhe9e-8
 14across.co.il##.across-google-ad.across-google-wide-ad
 2net.co.il##.centerParnasa
+actualic.co.il##.actua-sticky.actua-footer-bar
+actualic.co.il##.banner-header.banner_ad
 aiwa.co.il##.bigbnr
 alljobs.co.il###best-jobs-section > .banner
 ashdodnet.com##.Banner
@@ -962,6 +966,8 @@ hidabroot.org##[href*="https://target.hidabroot.org/ad_manager"]
 hm-news.co.il###banner_desktop_footer_div
 hm-news.co.il###banner_desktop_left_div
 hm-news.co.il###banner_desktop_right_div
+hm-news.co.il###sticky_banner_bottom_desktop
+hm-news.co.il###sticky_banner_bottom_mobile
 hm-news.co.il###top_banner_div
 hm-news.co.il##.container_ads_div
 homeless.co.il###board_middle_advert
@@ -1092,6 +1098,8 @@ maariv.co.il##.horizontal-banner-wrap
 maariv.co.il##.news-feed-banner
 maariv.co.il##.xl-banner-wrap
 madas.co.il###CloseshellAds
+madlan.co.il##.ery4ov3.css-qhd8a4
+madlan.co.il##[href^="https://mortgage.bankhapoalim.co.il/ng-portals/dm/he/all-purposes"]
 madlan.co.il##[src="https://images2.madlan.co.il/poalim/poalim-listing-banner-desktop.jpg"]
 mail.walla.co.il###ad1
 mail.walla.co.il###ads-mail-cube
@@ -1222,6 +1230,7 @@ sheee.co.il,walla.co.il##.aside-desktop iframe
 sheee.co.il,walla.co.il##.noprint-hidden.wide
 sheee.co.il,walla.co.il##.section-text-more-box
 sheee.co.il,walla.co.il##.with-margin-bottom.only-desktop.wide.css-13oxhn3.css-1owvtvx.slot
+sherut.net##._md.compAd_in
 sheva7.co.il##.desktop-display > .maavaron
 shironet.mako.co.il###playerAdArea
 shmua.com##.adsbygoogle
@@ -1317,6 +1326,7 @@ wen.co.il##.wenBanner
 wisebuy.co.il##.mid1Banner
 wolt.com##button:has(> div > div > div > span:has-text(ממומן))
 wolt.com##div:has(> div > div > div > div > div > p:has-text(ממומן))
+www.auto.co.il##.js-assistance.assistance
 www.auto.co.il##.js-top-bar-close-btn.top-bar__close-btn
 www.auto.co.il##section.logos > .logos__container > .logos__list > li.logos__item > .logos__logo
 www.bizportal.co.il##div.Carusel-D > div > .mortgage_arena_bg_870

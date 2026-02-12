@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f8g0DyhHzzvnDEiy2MxK6g
-! Version: 202602120851
+! Checksum: 2hc2RHuN2KazrGKTkxjCaA
+! Version: 202602120921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Feb 2026 08:51 UTC
+! Last modified: 12 Feb 2026 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13722,6 +13722,7 @@ vitatv.com.ua##.block-type-advertising
 velvet.by##.block-velcompany
 bogmedia.org,filmozavr.com,filmozavr.net##.block-video > .table
 processer.media##.block-wrap-da
+habr.com#?#.block-wrapper:-abp-has(> [data-test-id^="Advertising"] > div:empty)
 zh24.com##.block.elite
 sotniktv.org##.block12 > a[target="_blank"]
 sport-tv.by#?#.block:-abp-has(.adsbygoogle)

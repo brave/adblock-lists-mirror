@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Kp5IfCTFvUGjKlmAKimqag
-! Version: 202602140942
+! Checksum: QYqBeuv5oqvlOVXJ5WqExw
+! Version: 202602141011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Feb 2026 09:42 UTC
+! Last modified: 14 Feb 2026 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15445,6 +15445,7 @@ mydiv.net##.page-banner__wrapper
 autosport.com.ru#?#.page-block:-abp-has(> div[class^="smi24_"])
 superkarate.ru##.page-content > .row
 selezen.club,selezen.net,selezen.org#?#.page-content > .row > div[class^="col"] + div[class^="col"] > div:-abp-has(> .card h6:-abp-contains(/Реклама|Друзья/i))
+3m2.ua##.page-content section a[href^=http][target="_blank"]:not([href^="https://3m2.ua/"]) > img
 dumka.poltava.ua##.page-element > .page-element__ads ~ .page-element__ads
 mmotop.ru##.page-header > .bg-one-server
 mmotop.ru##.page-header > .left
@@ -16462,6 +16463,7 @@ serveradmin.ru##.theiaStickySidebar > :not(#text-html-widget-13):not(#text-html-
 bragazeta.ru##.theiaStickySidebar > [class^="post-"] ~ .clear20
 sm.news##.theiaStickySidebar > [id][class]
 med-heal.ru##.theiaStickySidebar > ul > .widget_text
+3m2.ua##.theiaStickySidebar a[target="_blank"] > img
 talks.by##.themaBannerPlace
 lifetambov.ru##.theme-wrapper > .container > div > *
 thequestion.ru##.theq-header__beta__nav__promo
@@ -23091,6 +23093,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||telegraf.in.ua/uploads/projects/
 ||telekomza.ru/wp-content/uploads/$object
 ||telik.top^*randomator.js
+||temptcdn.com/*.xml?view=$xmlhttprequest
 ||tengrinews.kz/js/loader.js
 ||teremok.org.ua/partner/images/
 ||ternopillive.com/wp-content/uploads/*.mp4|
@@ -26646,7 +26649,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||drahelas.ru/r/www/delivery/spc.php?zones=$script,domain=drahelas.ru
 @@||drahelas.ru/r/www/delivery/spcjs.php?id=$script,domain=drahelas.ru
 @@||easymc.io/ads/px.gif?ch=$image,domain=easymc.io
-@@||files.bidmatic.io/microplayer/configs/*.jsonp|$script,domain=play.tavr.media
 @@||forum.ixbt.com/js/fotkidepo/baners//*.js|$script,domain=forum.ixbt.com
 @@||fosshub.com/media/js/adblock.js|$domain=fosshub.com
 @@||fwdcdn.com^*/advertisment.js|$script
@@ -26695,7 +26697,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||pkfnpo.ru^$image,domain=pkfnpo.ru
 @@||player.3tv.im^$script,stylesheet,domain=player.3tv.im
 @@||player.adtelligent.com/static/player.$script,stylesheet,domain=ictv.ua|inter.ua|k1.ua|novy.tv|ntn.ua|player.starlight.digital|stb.ua|teleportal.ua|xsport.ua
-@@||player.bidmatic.io/microplayer/*/stream.es.js|$script,domain=play.tavr.media
 @@||print-post.com^*.js$script,domain=print-post.com
 @@||pvpru.com/css/banners/300$domain=pvpru.com
 @@||radio-archive.ru/adblockDetector.js|$script,domain=radio-archive.ru

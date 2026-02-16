@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602161117
+! Version: 202602161150
 ! Title: EasyList
-! Last modified: 16 Feb 2026 11:17 UTC
+! Last modified: 16 Feb 2026 11:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7b6373eb2e4550f98ee527dcbe26d5953437391c
+! Commit: e91c1da05a9657aa9659dbdf9ba0f3d78f8c420d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1330,6 +1330,7 @@ _800x80_
 .fuse-cloud.com/$popup
 .net/adx.php?$popup
 .prtrackings.com$popup
+/?ab=*&rl=1|$popup.third-party
 /?placement=*&redirect$popup
 /?redirect&placement=$popup
 /?zoneid=*&timeout=$popup
@@ -51238,6 +51239,7 @@ browsershots.org#@#.advert_area
 ||qvxrbcmwwtdudcm.net^
 ||qvzcjlybqjvgx.website^
 ||qvzxpcedohgjp.website^
+||qwbjriqd.com^
 ||qwbrgeyutdnuj.website^
 ||qwcagaftfkepf.website^
 ||qwcwppeearfqz.website^
@@ -55974,6 +55976,7 @@ browsershots.org#@#.advert_area
 ||spratsarryish.qpon^
 ||sprattystubbly.help^
 ||sprayearthy.com^
+||sprengegatlurkers.cyou^
 ||sprewlnipter.qpon^
 ||spriercorrals.help^
 ||sprinlof.com^
@@ -61729,6 +61732,7 @@ browsershots.org#@#.advert_area
 ||vnhmdeyzvmgho.love^
 ||vnhqpkkagysdytx.com^
 ||vnjfknqhebwq.com^
+||vnncpccdpfupq.site^
 ||vnpcqiazqmzeq.online^
 ||vnrbjvbwbqfob.click^
 ||vntsm.com^
@@ -64363,6 +64367,7 @@ browsershots.org#@#.advert_area
 ||xpjfvzoqznrpg.site^
 ||xplfnxefkrhxp.space^
 ||xplgbsgfkwkhq.online^
+||xplzbswjppjpb.online^
 ||xpmgokvhhjoty.site^
 ||xpmpshghkdxf.net^
 ||xpnezjinizzcy.online^
@@ -65789,6 +65794,7 @@ browsershots.org#@#.advert_area
 ||zezyjywaaqzke.top^
 ||zfabhttuwxtxk.space^
 ||zfamagnky.com^
+||zfaxahmcus.com^
 ||zfbpgxpdahjqf.online^
 ||zfcbuhkbpmbwy.space^
 ||zfctbjmrmondr.site^

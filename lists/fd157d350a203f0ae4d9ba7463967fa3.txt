@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LgrLn10h8dHDktvMbpeGjg
-! Version: 202602170921
+! Checksum: WYaYXHULUkNcb8j1ExS1nw
+! Version: 202602170951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Feb 2026 09:21 UTC
+! Last modified: 17 Feb 2026 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11706,6 +11706,7 @@ w98008mo.beget.tech###a_center
 calcus.ru###a_sidebar_container
 znaj.ua###above-header
 alphapedia.ru###action
+byrutgame.org###activation
 sbp-program.ru###activee
 balticlivecam.com,speedtest.org.ua###ad
 gazeta.ua###ad-730
@@ -16215,6 +16216,7 @@ kinospy.com##.singlebox > .blockquote
 pingvin.pro##.singlepartners
 cod31.ru##.site-header__banner
 itzine.ru##.site-header__img
+byrutgame.org##.site-helper
 football-ukraine.com#?#.site-section-header:-abp-contains(РЕКЛАМА)
 auto-kmu.ru##.sitebar
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.sitebar_reklama_wr
@@ -21089,6 +21091,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||buzines.net/banner/
 ||bw.myjob.by^$object
 ||bycard.by/uploads/branding/
+||byrutgame.org/templates/byrut_upd/js/ip-check.js
 ||c-inform.info/images/*banner/
 ||c.hqq.tv/js/betterjs/
 ||c5l.ru^$domain=leroymerlin-jeb.ru
@@ -23733,7 +23736,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,byrut.org.ru,byrutgame.org,hdrip.info,mediagetguru.ru,mixsoft.org,monna2.top,torrent-music.ru,torrent-soft.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,byrut.org.ru,hdrip.info,mediagetguru.ru,mixsoft.org,monna2.top,torrent-music.ru,torrent-soft.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru

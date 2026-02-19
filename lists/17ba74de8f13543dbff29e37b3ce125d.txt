@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602191519
+! Version: 202602191546
 ! Title: EasyList
-! Last modified: 19 Feb 2026 15:19 UTC
+! Last modified: 19 Feb 2026 15:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 156af7504802d57f7c7a9ac9c363db62eb3ff003
+! Commit: 9681e7921e3ae3aec539a8e95be4d88c01ecba4f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -829,6 +829,8 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! univresalP popup/redirect
+.com/smartpop/$document
 ! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
 ! Block parked domains. Sometimes it is not immediately obvious that it is dead
 ! https://ww7.linkviet.xyz/?usid=23&utid=10895304252
@@ -1327,6 +1329,7 @@ _800x80_
 &zoneid=*&direct=$popup
 .co/ads/$popup
 .com/ads?$popup
+.com/smartpop/$popup,third-party
 .fuse-cloud.com/$popup
 .net/adx.php?$popup
 .prtrackings.com$popup
@@ -34291,6 +34294,7 @@ browsershots.org#@#.advert_area
 ||hakebardo.shop^
 ||hakvzygpdpnbx.online^
 ||halakictsp.help^
+||halberdosiery.com^
 ||halduspays.help^
 ||haleahmet.qpon^
 ||halelymopsy.help^
@@ -36383,6 +36387,7 @@ browsershots.org#@#.advert_area
 ||igleebulewho.net^
 ||igloohq.com^
 ||iglugouphoaze.net^
+||ignateignatepredominanteatable.com^
 ||ignateignatetame.com^
 ||ignfyiutriw.com^
 ||igniterafzelia.qpon^

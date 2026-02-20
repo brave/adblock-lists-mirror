@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4MCSoYGZ6bC4tRvwgEVixg
-! Version: 202602201351
+! Checksum: CtycZxIes1BzkwgrtUwyVA
+! Version: 202602201421
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Feb 2026 13:51 UTC
+! Last modified: 20 Feb 2026 14:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24954,7 +24954,7 @@ ukr.net##.lazy-load-banner
 @@||yandex.ru/ads/system/adsdk.js|$script,domain=yandex.ru
 ya.ru##.i-mini-bem[class*="banner"]
 ya.ru##[aria-label="Informers"] ~ [class]
-ya.ru##[aria-label^="Информ"] ~ [class]
+ya.ru##[aria-label^="Информ"] ~ [class][class]:not(button)
 ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div

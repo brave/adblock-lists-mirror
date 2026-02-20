@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XOY2vrRPlP3HWP4+RNeKvw
-! Version: 202602200621
+! Checksum: WppVTz8atNTnEndvqaIxjg
+! Version: 202602200651
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Feb 2026 06:21 UTC
+! Last modified: 20 Feb 2026 06:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25060,6 +25060,7 @@ yandex.ru,yandex.*#?#.page__result .typo:-abp-contains(/^новости парт
 yandex.ru,yandex.*#?#html[class*=" Theme_color_news-"] div[class*="_type_native"] [class*="_type_card"]:-abp-has(> div > div:empty)
 ! Яндекс.Афиша
 afisha.yandex.ru,afisha.yandex.*##.adfox
+afisha.yandex.ru,afisha.yandex.*##.afisha-profit-banner
 afisha.yandex.ru,afisha.yandex.*##div[data-banner-id]
 afisha.yandex.ru,afisha.yandex.*#?#div[data-component="Grid__Page"]:-abp-has(> div > div.adfox[id])
 ! Яндекс.Видео

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yTBwg6u20VJ9Pb9xXAoLIQ
-! Version: 202602211321
+! Checksum: Do5r+XEspJXVWeMT++QikA
+! Version: 202602211341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Feb 2026 13:21 UTC
+! Last modified: 21 Feb 2026 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25599,6 +25599,7 @@ yagd-torr.ru##div[id^="plusplus_mw"]
 agrarii-razom.com.ua##div[id^="user-to-register"]
 htmlacademy.ru##div[style^="margin-left:"][style*="margin-bottom:"][style*="position:"][style*="orange"][style*="z-index:"]
 drukarnia.com.ua##header ~ section[role="dialog"]
+bbc.com#?#header[role="banner"] > div > div:has(> div > div > p > [href*="/cookies/"])
 surl.*##.card-body > .row > div:first-child:not(:only-child)
 surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ! --- Блокировки

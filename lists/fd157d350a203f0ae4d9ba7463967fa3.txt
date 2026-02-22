@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ety/Fikm5ib4ABzq4EzJUQ
-! Version: 202602221841
+! Checksum: EhdDBQhRLnamhsiEi2A6GQ
+! Version: 202602221911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Feb 2026 18:41 UTC
+! Last modified: 22 Feb 2026 19:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25734,6 +25734,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ! - Секция для ресурсов, в отношению которых действуют Generic-опции
 @@://auth.nuzhnapomosh.ru/$generichide
 @@://auto.ru/$generichide
+@@://magnit.ru/$generichide
 @@||adult-images.ru^$generichide
 @@||alexstuff.ru^$generichide
 @@||alhimika.net^$generichide
@@ -26612,14 +26613,13 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 4pda.to#@#[data-revive-zoneid]
 espreso.tv,tasix.me#@#[id*="ScriptRoot"]
 mail.google.com#@#a[href^="http://mgid.com/"]
-magnit.ru#@#a[href^="https://yandex.ru/adfox/"]
 disk.yandex.ru,disk.yandex.*#@#.content_ads
 blocksandfiles.com,milanac.ru#@#div[class*="td-a-rec-id-"]
 pets.mail.ru#@#div[data-adq-id^="adqcontainer"]
 kyiv.ukrainianwall.com#@#div[id*="MarketGid"]
 kyiv.ukrainianwall.com#@#div[id*="ScriptRoot"]
 kyiv.ukrainianwall.com#@#div[id^="M"][id*="Composite"]
-magnit.ru,payment.mts.ru#@#div[id^="adfox_"]
+payment.mts.ru#@#div[id^="adfox_"]
 cinemastar.ru#@#div[id^="advads-"]
 hi.ru#@#div[id^="crt-"][style]
 aqa.ru,ladiesproject.ru#@#div[id^="div-gpt-ad"]

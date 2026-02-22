@@ -273,3 +273,13 @@ comix.to##[src*=".gif"]
 ! https://github.com/uBlockOrigin/uAssets/issues/31947
 lofi-nopixel.com##.nitro-ad-container
 lofi-nopixel.com##.font-semibold.hover\:underline.text-primary.cursor-pointer.group.p-0\.5.text-xs.text-center.block
+
+! https://github.com/uBlockOrigin/uAssets/issues/31949
+kaa.lt##+js(acs, EventTarget.prototype.addEventListener, window.open)
+kaa.lt##+js(nowoif, _blank)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1rbebkx/adblock_detection_on_httpsfilmpornoitalianoorg/
+||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=noopjs,domain=nuovo.vidplayer.live
+nuovo.vidplayer.live##+js(trusted-json-edit, ..allowAdblock=true)
+nuovo.vidplayer.live##+js(json-prune, ads playerAds)
+nuovo.vidplayer.live##+js(nowoif, _blank)

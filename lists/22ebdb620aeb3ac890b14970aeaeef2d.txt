@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 11mDHvcx8BsuESpAF6Li+Q
-! Version: 202602050325
+! Checksum: QBhpY66X345WDKNXmQxE0g
+! Version: 202602232150
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-02-05 03:25 UTC
+! Last modified: 2026-02-23 21:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -587,6 +587,7 @@ m.aliexpress.ru##div[class^="PseudoSmartBanner_"]
 kraken.com##div[class^="fc-94f32b27"]
 temu.com##div[style="height: 0.66rem;"]
 temu.com##div[style="height:0.66rem"]
+facebook.com##div[style="pointer-events: none; flex-grow: 1; justify-content: inherit; flex-direction: column;"]:has-text(Get Facebook)
 app.famitsu.com##div[style^="position: absolute; z-index: 1000; width: 100%;"][style$="ease-out;"]
 fedex.com##fedex-smart-banner
 x.com##header[role="banner"] > ._3oxnid3o._3f2NsD-H

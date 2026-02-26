@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602261027
+! Version: 202602261055
 ! Title: EasyList
-! Last modified: 26 Feb 2026 10:27 UTC
+! Last modified: 26 Feb 2026 10:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 52dde0154d74c187e862214fa40fce4d02896914
+! Commit: c52b4509ffa71605dc6c2cab08416c8c9cd0471a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -70350,7 +70350,7 @@ browsershots.org#@#.advert_area
 ||pubscale.com^$third-party
 ||pubwise.io^$third-party
 ||puffnetwork.com^$third-party
-||pushabl.com^$third-party
+||pushabl.com^$script,third-party
 ||pushy.ai^$third-party
 ||putlockertv.com^$third-party
 ||q1media.com^$third-party
@@ -80951,6 +80951,7 @@ adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.co
 streetdirectory.com##.anchor_bottom
 rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
+phonearena.com##.announcement-section
 phonearena.com##.announcements
 minecraftskins.com##.antiblock-wrapper
 tokyoweekender.com##.anymind-ad-banner
@@ -81683,6 +81684,7 @@ startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##.c
 pgatour.com##.css-1t41kwh
 infowars.com##.css-1upmbem
 infowars.com##.css-1vj1npn
+cruisecritic.com##.css-1xzyepp
 gamingbible.com##.css-1z9hhh
 delish.com##.css-3oqygl
 nytimes.com##.css-bs95eu
@@ -82937,7 +82939,7 @@ op.gg,stomp.sg##.min-h-\[50px\]
 dexerto.com##.min-h-\[56px\].z-30
 esports.op.gg##.min-h-\[600px\]
 op.gg##.min-h-\[66px\]
-cruisecritic.com##.min-h-\[80px\]
+cruisecritic.com##.min-h-\[80px\].md\:min-h-\[90px\]
 motortrend.com,officialcharts.com,republicworld.com,w3docs.com,yaledailynews.com##.min-h-\[90px\]
 stripes.com##.min-h90
 letsrun.com##.min-w-300px

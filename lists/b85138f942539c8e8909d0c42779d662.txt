@@ -416,6 +416,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ad-mount
 ##.ad-mpu
 ##.ad-mrec
+##.ad-native
 ##.ad-notice
 ##.ad-overlay
 ##.ad-panel
@@ -547,6 +548,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.adslot
 ##.adspot
 ##.adsCont
+##.ads-banner
 ##.adslot970
 ##.adtester-container
 ##.adthrive
@@ -903,6 +905,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.td-ad
 ##.td-ad-m
 ##.td-ad-p
+##.textad
 ##.tpd-banner-desktop
 ##.tpd-banner-ad-container
 ##.top__ad
@@ -1338,6 +1341,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.trc-spotlight-first-recommendation
 ##.trc_excludable
 ##.trc_rbox
+##.trc-content-sponsored
 ##.trc_rbox_border_elm
 ##.trc_rbox_div
 ##.trc_related_container
@@ -2797,7 +2801,7 @@ hindustantimes.com##.ht_taboola
 financialexpress.com##.ie-network-taboola
 indianexpress.com##.o-taboola-story
 businesstoday.in##.right_side_tabola
-6abc.com,abcnews.go.com,goodmorningamerica.com##.taboola
+6abc.com,abcnews.com,goodmorningamerica.com##.taboola
 firstpost.com##.taboola-div
 indianexpress.com##.taboola-parent
 israelnationalnews.com##.taboola-top
@@ -2867,6 +2871,8 @@ breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landli
 cuevana.biz###mdl-ads
 ! tmz.com
 tmz.com##.ad-header-wrapper
+! abcnews
+abcnews.com##[role="navigation"]:style(top:0 !important)
 ! cults3d.com
 cults3d.com##.cultszone
 cults3d.com##.cultszone__placeholder
@@ -4522,6 +4528,9 @@ stuff.co.nz##.horizontal-ad-slot
 thepress.co.nz,waikatotimes.co.nz,stuff.co.nz##.header-ads-block
 stuff.co.nz##.between-ad-slot
 stuff.co.nz##[data-testid="ad-slot"]
+! nzherald
+nzherald.co.nz##.section-iframe
+nzherald.co.nz##section:has-text(Partner content)
 ! cnn.com
 cnn.com##.ad-feedback__modal
 cnn.com###js-outbrain-rightrail-ads-module

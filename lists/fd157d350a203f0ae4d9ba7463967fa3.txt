@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AGMzs5jPPGwgmi+kLv1k9w
-! Version: 202602280941
+! Checksum: LhQyoi2rb/asOshyeMk1Sw
+! Version: 202602281011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Feb 2026 09:41 UTC
+! Last modified: 28 Feb 2026 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1831,7 +1831,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /api/topl/*/*.js$third-party
 /b?size=*&catgry=$third-party,script
 /b_bs_killdog_
-/backlinks.$domain=~vuetifyjs.com
+/backlinks.$domain=~backlinks.su|~vuetifyjs.com
 /baner.
 /baner/*$domain=~barva.km.ua|~churchjc.com|~ferr-um.ucoz.ru|~fitlife62.ru|~helpsetup.ru|~market-oz.ru|~slovo-shop.ru|~stalker-2-2012.ucoz.net|~stocking.com.ua|~xadoindustrial.com|~zokko.com.ua
 /baner_$domain=~aplica.pl|~brabrabra.ua|~campworld.com.ua|~churchjc.com|~food16.ru|~nenc.gov.ua|~pcmart.com.ua|~pizzamel.ru|~planetarium.dn.ua|~tambov.gov.ru|~triatek.com.ua|~uslugi.mosreg.ru|~zippo.net.ua
@@ -7255,6 +7255,7 @@ _tizers.
 ||kunleen.online^$third-party
 ||kurberi.ru^$third-party
 ||kuretr.ru^$third-party
+||kurwa-bober.ninja^$third-party
 ||kuseless.ru^$third-party
 ||kutabi.info^$third-party
 ||kuveres.com^$third-party
@@ -8032,6 +8033,7 @@ _tizers.
 ||na-zdor2.ru^$third-party
 ||na0z0thlap.com^$third-party
 ||nacdn.info^$third-party
+||nackhui.com^$third-party
 ||nadajotum.com^$third-party
 ||naiton.ru^*/lookbanner/
 ||nalabutenahah.com^$third-party
@@ -20494,6 +20496,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /api*iframe$subdocument,domain=get-tune.cc|intermusic.name|iplayer.info|ipleer.fm|mp3iq.com
 /api/*/ads-banners$domain=limehd.tv|litehd.tv|pervyi-tv.online|russia-tv.online
 /api/*/ainfo/*$domain=igromania.ru|kanobu.ru
+/api/ad/*$domain=lampa.mx
 /api/branding/*$domain=lalafo.az|lalafo.kg
 /app.js|$script,domain=vesti.ru
 /arscode-ninja-popups/*$domain=animalreader.ru|mensgen.ru|vovetnam.su

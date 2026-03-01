@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QBhpY66X345WDKNXmQxE0g
-! Version: 202602232150
+! Checksum: C97d0S3MXvxACii4jQjJJg
+! Version: 202603010400
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-02-23 21:50 UTC
+! Last modified: 2026-03-01 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -234,6 +234,7 @@ instagram.com##._acc8
 m.webtoons.com##._appDownloadPopup
 smartfren.com##.alert-download
 skysports.com##.android-banner
+genius.com##.android_banner
 coincodex.com##.app
 washingtonpost.com##.app-adoption-banner
 flypgs.com##.app-b
@@ -578,7 +579,6 @@ cvs.com##cvs-smart-app-banner
 trademe.co.nz##div.responsive-wrapper[aria-label="App promotion banner"]
 web.nhk##div[class*=" _"][role="region"][aria-labelledby="_r_1_"]
 m.bilibili.com##div[class*="-openapp"]
-genius.com##div[class*="AndroidBannermobile_"]
 thescore.com##div[class*="GetTheAppModal_"]
 giphy.com##div[class*="OpenInAppContainer-"]
 thescore.com##div[class^="GetTheApp__fullScreenContainerScrolldown--"]
@@ -936,6 +936,8 @@ s.tabelog.com##body,html:style(overflow-y: auto !important;)
 ! trial-net.co.jp (mobile app)
 trial-net.co.jp##.app-remind
 trial-net.co.jp##.header-app-remind:remove-class(header-app-remind)
+! genius.com (mobile app)
+genius.com##.android_interstitial:remove()
 !---------------------------------Allowlists----------------------------------!
 ! Mobile Notifications
 @@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party

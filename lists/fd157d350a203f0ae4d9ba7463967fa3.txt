@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iShy9kXPlI/XoTZsnTNZLg
-! Version: 202603010941
+! Checksum: yCy3coKmzVfvhngh9h25Tw
+! Version: 202603011011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Mar 2026 09:41 UTC
+! Last modified: 01 Mar 2026 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2254,7 +2254,7 @@ _tizers.
 ||ru/ban/$domain=~chita-game.ru|~zabgame.ru
 ||ru/banner.$domain=~allplanets.ru|~gibdd-gai.ru|~knigilub.ru|~megafon.ru|~rsa.su
 ||ru/banner/$domain=~autodoc.ru|~befree.ru|~matematikalegko.ru|~newdaynews.ru|~rfs.ru|~smotriuchis.ru|~svka.ru|~utkonos.ru
-||ru/banners/$domain=~animespirit.ru|~cheese-cake.ru|~citilink.ru|~departamentar.ucoz.ru|~e96.ru|~irad.ru|~killot.ru|~mrtexpert.ru|~onlime.ru|~rosbank.ru|~toptracker.ru|~webnames.ru|~wildberries.ru|~zalivalka.ru
+||ru/banners/$domain=~animespirit.ru|~cheese-cake.ru|~citilink.ru|~departamentar.ucoz.ru|~e96.ru|~irad.ru|~killot.ru|~mrtexpert.ru|~onlime.ru|~rosbank.ru|~toptracker.ru|~webnames.ru|~zalivalka.ru
 ||ru/bpoint/bnr/
 ||ru/code/yaoffer/$third-party
 ||ru/i/banner/
@@ -13930,7 +13930,6 @@ templateinstant.ru##.bs-topbanner
 seeds.org.ua##.bsac
 partnerkin.com##.bst_wrap
 nnm-club.me,nnmclub.ro,nnmclub.to##.btTbl > tbody > .row1 > .genmed[align="center"] noindex
-wildberries.ru##.btn-advertising
 livelib.ru##.btn-buy-holder
 download-windows.org,softhome.ru##.btn-installpack
 shopping.nv.ua##.btn-product-embed
@@ -14461,7 +14460,6 @@ zaruba.fun##.footer-second-widgets-section > section > .widget_text
 shaiba.kz##.footer-top__partners > .footer-block-wide:only-child
 lifehacker.ru##.footer-widgets__container
 4rama.com##.footerLegal
-wildberries.ru##.footer__banner
 resheba.me##.footer__btn-link
 relax-fm.ru##.footer__promotion_container
 kinoafisha.info##.footer_apps
@@ -20189,6 +20187,8 @@ repost.uz##video[src*="/storage/uploads/"][src$=".mp4"]
 vc.ru##vue[name="booster"]
 wasd.tv##wasd-banner
 wasd.tv##wasd-player-overlay-banner
+wildberries.ru,wildberries.*##div.banner
+wildberries.ru,wildberries.*##div.j-banners-block
 mivmeste.info##wix-iframe
 pogodairadar.com.ua##wo-ad
 101xp.com##xp-banner-sidebar
@@ -23417,6 +23417,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||wasd.tv/ssp/roll$xmlhttprequest
 ||watch.ru/bp/
 ||watchcine.ru/templates/HDKINOMAX/images/bg.jpg
+||wbbasket.ru/*/crm-bnrs/
 ||wdomain.ru/*.php|$script,domain=wdomain.ru
 ||weacom.ru/abrakadabra/
 ||weather7.ru/wp-content/uploads/*bonka*.jpg
@@ -25498,8 +25499,6 @@ marieclaire.ru,maximonline.ru,mydecor.ru,parents.ru,psychologies.ru,starhit.ru,t
 brutaljack.ru##.in.fade.modal
 voprosov-net.ru##.isShow.popup
 justcoolidea.ru##.is_visible.like_wall
-wildberries.ru##.jqmOverlay
-wildberries.ru##.jqmWindow
 ognov.ru,porjati.ru,sovkusom.ru##.jquery-modal.blocker
 fishki.net##.like_wall.is_visible
 haba.ru##.likewall
@@ -25718,6 +25717,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ||vboro.de^$third-party
 ||visagistprofi.ru/wp-content/plugins/wpt-tea-coffee-dance/
 ||vitaportal.ru^*/new_popup$script,stylesheet
+||wbbasket.ru/*/site/app/DynamicOnboardingPopupViewModel.
 ||web2edu.ru/script/leaves.js
 ||widgets.getsitecontrol.com^$script,domain=minfin.com.ua
 ||womansay.net/assets/templates/womansay/js/popup/

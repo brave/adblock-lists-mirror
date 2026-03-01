@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tIUFBeD9wkWFF6P71toNhw
-! Version: 202603010325
+! Checksum: AjCNW8irE4y3MsrzWPJhwg
+! Version: 202603010400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-03-01 03:25 UTC
+! Last modified: 2026-03-01 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14804,7 +14804,6 @@ whatcar.com##.ReviewSocialSection_reviewSocialSection__qzV0o
 abc.net.au##.ShareBanner_container__OX63I
 aleteia.org##.ShareBar_link__3gR4V
 manofmany.com##.ShareBar_listItem__6t0E_
-genius.com##.ShareButtons__Root-sc-8c8eaea4-0
 thescore.com##.ShareLinks__container--3C8C4
 meduza.io##.SharePanel-module-root
 hoorayteams.com##.Share_share__FQTKw
@@ -16217,6 +16216,7 @@ theguardian.com##div > gu-island[name="ShareButton"]
 photorumors.com##div[align="RIGHT"]
 fifa.com##div[class*="article-section_shareButton_"]
 theatlantic.com##div[class^="ArticleShare_"]
+genius.com##div[class^="ShareButtons_"]
 kcrw.com##div[class^="SocialLinks_"]
 cnbc.com##div[class^="SocialShare-"]
 kcrw.com##div[class^="SocialShare_"]
@@ -53089,6 +53089,7 @@ instagram.com##._acc8
 m.webtoons.com##._appDownloadPopup
 smartfren.com##.alert-download
 skysports.com##.android-banner
+genius.com##.android_banner
 coincodex.com##.app
 washingtonpost.com##.app-adoption-banner
 flypgs.com##.app-b
@@ -53433,7 +53434,6 @@ cvs.com##cvs-smart-app-banner
 trademe.co.nz##div.responsive-wrapper[aria-label="App promotion banner"]
 web.nhk##div[class*=" _"][role="region"][aria-labelledby="_r_1_"]
 m.bilibili.com##div[class*="-openapp"]
-genius.com##div[class*="AndroidBannermobile_"]
 thescore.com##div[class*="GetTheAppModal_"]
 giphy.com##div[class*="OpenInAppContainer-"]
 thescore.com##div[class^="GetTheApp__fullScreenContainerScrolldown--"]
@@ -53990,6 +53990,8 @@ s.tabelog.com##body,html:style(overflow-y: auto !important;)
 ! trial-net.co.jp (mobile app)
 trial-net.co.jp##.app-remind
 trial-net.co.jp##.header-app-remind:remove-class(header-app-remind)
+! genius.com (mobile app)
+genius.com##.android_interstitial:remove()
 !---------------------------------Allowlists----------------------------------!
 ! fanboy_notifications_allowlist.txt
 @@||bostonherald.com^*/webpush.js$script,~third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603010745
+! Version: 202603010816
 ! Title: EasyList
-! Last modified: 01 Mar 2026 07:45 UTC
+! Last modified: 01 Mar 2026 08:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6d2d6f1c399a5b5db1c2ab8a8c2682332a1f19c0
+! Commit: 2a5570a8ef7d1294317dc09f3c5a0411adaf6081
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14617,6 +14617,9 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+! various popups
+###modal[doskip][prclck]
+##in-page-message[doskip]
 ! katv.com/cbs12.com/abergavennychronicle.com/tenby-today.co.uk
 ##.DisplayAd_Native__XCll3
 ##.MPUstyled__MPUWrapper-sc-100o0l7-0
@@ -24967,6 +24970,7 @@ browsershots.org#@#.advert_area
 ||confinementroguerecital.com^
 ||confirmationbiscuitdescriptive.com^
 ||conflabbegan.com^
+||conformityexpertgrounds.com^
 ||confrontation2.fun^
 ||confrontationdrunk.com^
 ||confrontationquizmastertrifle.com^
@@ -35960,6 +35964,7 @@ browsershots.org#@#.advert_area
 ||hknqnedmychml.online^
 ||hknztzqlkjzhc.space^
 ||hkpjnieraypcn.site^
+||hkrshvakrvcvc.website^
 ||hkrxmmyfysvyf.site^
 ||hksjllpkpesxb.site^
 ||hksklwfpqhdmb.website^
@@ -40074,6 +40079,7 @@ browsershots.org#@#.advert_area
 ||kbe4ugg1vkb7w9.cyou^
 ||kbex72oiu2ycl1c3.cfd^
 ||kbfizeskyyfkt.store^
+||kbfsrlnmhtgas.space^
 ||kbfsvytxe.com^
 ||kbhgnyiogmrcl.store^
 ||kbhskcsiawspn.store^

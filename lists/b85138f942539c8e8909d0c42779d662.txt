@@ -324,6 +324,8 @@ bloomberg.com##.unsupported-browser-notification-container
 ###topad
 ###TopAd
 ###zdcFloatingBtn
+###AD_L
+###wrapper-AD_L
 ###zdn-adblock-overlay
 ##.ATF_wrapper
 ##.Ad-Inner
@@ -738,6 +740,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.injectedAd
 ##.inline-ad
 ##.inline-ad-container
+##.inlineAdContainer
 ##.inline-story-add
 ##.inner-ad
 ##.ins_adwrap
@@ -1520,6 +1523,7 @@ onlyinyourstate.com###video1-1
 autoevolution.com###vidiv
 newseveryday.com###vplayer_large
 newsweek.com##.FeaturedMedia_articleFeaturedMedia__LEpVY
+forbes.com##.MWrh7
 cubbyathome.com##.Post__inPostVideoAdDesktop
 apartmenttherapy.com##.Post__inPostVideoAdMobile
 ratemyprofessors.com##.VideoPlayer__StyledPlayer-sc-2xyxn3-0
@@ -1552,6 +1556,7 @@ cnet.com##.c-avLazyStickyVideo
 cnet.com##.c-shortcodeVideo_wrap
 stuff.tv##.c-squirrel-embed
 cartoonbrew.com##.cb-ad
+iphoneincanada.ca##.cls-video-container-9GFn3u0f
 rd.com,tasteofhome.com##.cnx-inline-player-wrapper
 dailymail.co.uk##.commercial-player
 techwalla.com##.component-article-section-jwplayer-wrapper
@@ -1563,7 +1568,7 @@ accuweather.com##.feature-tag
 pagesix.com##.featured-image__wrapper > .nyp-video-player
 ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
-gamingbible.com,ladbible.com,sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
+foodbible.com,gamingbible.com,ladbible.com,sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 flashbak.com##.fluid-width-video-wrapper
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
@@ -2249,12 +2254,9 @@ ghacks.net##.ghacks_ad_code
 torrentfreak.com##.widget_custom_html
 ||torrentfreak.com/wp-content/banners/
 ! fortune.com
-fortune.com##.homepage:has(> div[id^="InStream"])
-fortune.com##[class]:has(> #Leaderboard0)
+fortune.com##.z-body-popover
+fortune.com##.leaderboard-ad-wrapper-parent
 fortune.com###Leaderboard0
-fortune.com##.jzcxNo
-fortune.com##.sc-3f90509f-0
-fortune.com##.sc-d331eee9-11
 ! motor1.com
 motor1.com##[data-m1-ad-label]
 ! torquenews.com
@@ -2448,7 +2450,15 @@ rawstory.com##.connatix-hodler
 w3schools.com###skyscraper
 w3schools.com###mainLeaderboard
 ! 9gag
+9gag.com##.inline-ad-container
+9gag.com##.salt-section
+9gag.com##.salt-wrapper
 9gag.com##article:has(.promoted)
+9gag.com##div[style="position: relative; z-index: 3; width: 640px; min-height: 202px; margin: 0px auto;"]
+! wsj.com
+wsj.com##.e4jtj9920.css-ma9lnu
+wsj.com##.css-1fl953o
+wsj.com##div[id^="wrapper-AD_"]
 ! distractify.com
 distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##div[style="font-size:x-small;text-align:center;padding-top:10px"]
 ! comicbook.com
@@ -3855,13 +3865,15 @@ washingtonpost.com##[data-testid="placeholder-box"]
 washingtonpost.com##[data-testid="fixed-bottom-ad"]
 washingtonpost.com##[data-testid="outbrain"]
 ! forbes.com
+forbes.com##[data-testid="locked-top-ad-container"]
+forbes.com##[data-id="ad-container"]
+forbes.com##div[class^="fbs-ad"]
+forbes.com##div[data-testid^="fbs-ad"]
+forbes.com##fbs-ad
 forbes.com##.vestpocket
 forbes.com##.inline__zephr
 forbes.com###article-stream-1
-forbes.com##.fbs-ad--ntv-deskchannel-wrapper
-forbes.com##.fbs-ad--ntv-home-wrapper
 forbes.com##.ntv-loading
-forbes.com##.fbs-ad--mobile-medianet-wrapper
 ! https://freestreams-live.my/tennis-channel-17/
 ||fiveyardlab.com/z-
 ! buzzfeed.com

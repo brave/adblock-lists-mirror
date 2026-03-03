@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DYtXRi4XpZmrvUAQrtOF+Q
-! Version: 202603031651
+! Checksum: GfOeNI/5FJ1VMqbj+0SrnQ
+! Version: 202603031721
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Mar 2026 16:51 UTC
+! Last modified: 03 Mar 2026 17:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11805,6 +11805,7 @@ westudents.com.ua###ban > #lin
 westudents.com.ua###ban noindex
 meteonova.ru###ban_500
 cripo.com.ua,fergananews.com,infobank.by,link.ac,liveangarsk.ru,lm-games.com,ping-admin.ru,premiership.ru,qupier.org,readbookz.com,redheadsound.studio,urod.ru,voxpopuli.kz,xtreme.ws###banner
+9tv.co.il###banner-container
 gamexp.ru###banner-slider
 get-tune.net,mirmmo.ru,oneprogs.ru###banner-top
 grad.ua###banner-top-page
@@ -16346,7 +16347,6 @@ newxboxone.ru##.stream-item-above-post
 1news.com.ua,hariola.com##.stream-item-widget
 provladimir.ru#?#.stream-item-widget:-abp-contains(Реклама)
 soccer365.com.ua,soccer365.ru#?#.streams_item:-abp-has(> .streams_info)
-9tv.co.il##.strip_only_desk
 promtu.ru##.strochka
 meddaily.ru##.structure-index > div:not([id]):not([class])[style^="width"]
 meddaily.ru##.structure-index > div:not([id]):not([class])[style^="width"] + div[align="center"]
@@ -18890,6 +18890,7 @@ click-or-die.ru##div[class^="click-content"]
 ixbt.com##div[class^="clickable_zone"]
 oterraria.ru##div[class^="code-block"][style*="text-align: center;"]
 odessa-life.od.ua##div[class^="code-block"][style^="margin: 8px auto; text-align: center; display: block;"]
+9tv.co.il##div[class^="comm_block"]
 myanimecorner.ru##div[class^="commercials"]
 asn.in.ua##div[class^="content-text"] > .content-text ~ hr
 asn.in.ua##div[class^="content-text"] > .opinion
@@ -26275,7 +26276,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||imagebam.com/JS/js-cookie.js|$script,domain=imagebam.com
 @@||imagebam.com/assets/js/image_bootstrap.js|$script,domain=imagebam.com
 @@||images.ua.prom.st/*-canon-ir-adv.jpg|$image,domain=printerservice.com.ua
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=1plus1.ua|1plus1.video|24tv.ua|debilizator.tv|gamak.tv|showjet.net|showjet.ru|telek.top|unian.info|unian.net|unian.ua|veedi.com|vgtimes.ru|viho.me|viho.pro|viho.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=1plus1.ua|1plus1.video|24tv.ua|debilizator.tv|gamak.tv|showjet.net|showjet.ru|stream.9tv.co.il|telek.top|unian.info|unian.net|unian.ua|veedi.com|vgtimes.ru|viho.me|viho.pro|viho.tv
 @@||img.ria.ru/userpic/$image,domain=ria.ru
 @@||imgbum.net/img/pagebg.jpg|$image,domain=imgbum.ru
 @@||imhonet.ru/js/templates/views/tiles/m-tiles.advert.$domain=imhonet.ru
@@ -26900,6 +26901,7 @@ kodik.info##.second-message
 radioromantika.ru##.showMessageAdBlock
 uakino.best##.side-content-adblock
 kg-portal.ru##.social_login > .ulogin ~ .caution
+stream.9tv.co.il##.swal2-backdrop-show
 pikabu.ru##.toast_danger
 gibdd-gai.ru##.warning
 spletnik.ru##.z-adblock-message

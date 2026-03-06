@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.1.2
+! Version: 4.3.1.7
 
 ! General
 
@@ -131,6 +131,8 @@ csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
 cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker)
 dailywire.com##+js(set-local-storage-item, article-gate-data, $remove$)
+dailywire.com##+js(ra, class, div.css-1lul109, stay)
+dailywire.com##div#payed-article-paywall
 denik.cz##+js(ra, class, div.paywall, stay)
 diepresse.com##+js(ra, class, div.premium-content.hide, stay)
 diepresse.com##div.paywall-container--locked
@@ -193,6 +195,7 @@ gauchazh.clicrbs.com.br##+js(ra, class, div.m-paid-content>div.hidden, stay)
 groene.nl##+js(cookie-remover, rlist)
 harpers.org##+js(cookie-remover, hr_session)
 ||harpers.org/wp-content/themes/timber/static/js/modal*.js
+||adobedtm.com/*/launch-*.js$script,domain=hbr.org
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=hbr.org
 ||hilltimes.com/*/js/loadingoverlay/loadingoverlay.min.js$script,~third-party
 hindustantimes.com##div[class^="sub-paywall-version"],.closeStory
@@ -252,7 +255,7 @@ loebclassics.com##+js(cookie-remover, hupLclFreeReadsCookie)
 loeildelaphotographie.com##+js(ra, class, .paywall)
 loeildelaphotographie.com##.premium-pic-box,.membership-promo-container,.login_form_litle
 loeildelaphotographie.com##+js(ra, style, img[style*="blur"])
-||lrb.co.uk$inline-script
+lrb.co.uk##+js(set-local-storage-item, /^lrb_/, $remove$)
 marketwatch.com##+js(cookie-remover, cX_P)
 ||adobedtm.com/*/launch-*.js$script,domain=medscape.com
 mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > div.tdb-block-inner)
@@ -355,8 +358,6 @@ the-scientist.com##div.gated-fader,div#Modal
 theatlantic.com##aside#paywall,div[class^="LostInventoryMessage_"]
 ||cloudfunctions.net/gated-countView$xmlhttprequest,domain=thediplomat.com
 theglobeandmail.com##+js(set, window.Fusion.globalContent._id, 0)
-thehindu.com,thehindubusinessline.com##+js(set, window.Adblock, false)
-thehindu.com,thehindubusinessline.com##+js(set, window.isNonSubcribed, false)
 ||theintercept.com$inline-script
 thelampmagazine.com##+js(ra, class, div.paywall-gradient)
 thelampmagazine.com##section.p-8
@@ -419,9 +420,9 @@ bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesternda
 voguebusiness.com##+js(cookie-remover, userId)
 
 ! Crain Communications
-adage.com,autonews.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
-adage.com,autonews.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
-.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|precisionmedicineonline.com
+adage.com,autonews.com,chicagobusiness.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
+adage.com,autonews.com,chicagobusiness.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
+.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|precisionmedicineonline.com
 european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 
@@ -752,7 +753,6 @@ rockdelux.com##+js(ra, style, div#body, stay)
 rockdelux.com##div.bg-paywall
 rotowire.com##+js(ra, class, div.pw-content)
 rotowire.com##div.paywall-full,div.article-preview-fader
-rtings.com##+js(cookie-remover, product-previews)
 scroll.in##+js(rc, article-locked, article.article-locked, stay)
 ||serenitymarkets.com/wp-content/themes/Divi-child/assets/js/encriptar.js$script,~third-party
 serenitymarkets.com##+js(ra, class, div.blur_content, stay)

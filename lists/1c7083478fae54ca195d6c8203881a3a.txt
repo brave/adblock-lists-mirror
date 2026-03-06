@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.1.5
+! Version: 4.3.1.7
 
 ! General
 
@@ -195,6 +195,7 @@ gauchazh.clicrbs.com.br##+js(ra, class, div.m-paid-content>div.hidden, stay)
 groene.nl##+js(cookie-remover, rlist)
 harpers.org##+js(cookie-remover, hr_session)
 ||harpers.org/wp-content/themes/timber/static/js/modal*.js
+||adobedtm.com/*/launch-*.js$script,domain=hbr.org
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=hbr.org
 ||hilltimes.com/*/js/loadingoverlay/loadingoverlay.min.js$script,~third-party
 hindustantimes.com##div[class^="sub-paywall-version"],.closeStory
@@ -254,7 +255,7 @@ loebclassics.com##+js(cookie-remover, hupLclFreeReadsCookie)
 loeildelaphotographie.com##+js(ra, class, .paywall)
 loeildelaphotographie.com##.premium-pic-box,.membership-promo-container,.login_form_litle
 loeildelaphotographie.com##+js(ra, style, img[style*="blur"])
-||lrb.co.uk$inline-script
+lrb.co.uk##+js(set-local-storage-item, /^lrb_/, $remove$)
 marketwatch.com##+js(cookie-remover, cX_P)
 ||adobedtm.com/*/launch-*.js$script,domain=medscape.com
 mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > div.tdb-block-inner)

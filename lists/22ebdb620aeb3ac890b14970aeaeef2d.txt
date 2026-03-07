@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uqLtNAVAWMAp469nP9SXAQ
-! Version: 202603060600
+! Checksum: /YHADw3nIW1CC2USFvq9qw
+! Version: 202603070950
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-03-06 06:00 UTC
+! Last modified: 2026-03-07 09:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -941,6 +941,9 @@ trial-net.co.jp##.app-remind
 trial-net.co.jp##.header-app-remind:remove-class(header-app-remind)
 ! genius.com (mobile app)
 genius.com##.android_interstitial:remove()
+! shufoo.net (mobile app)
+shufoo.net##.appdl_modal_overlay
+shufoo.net##+js(rc, is-hidden, body)
 !---------------------------------Allowlists----------------------------------!
 ! Mobile Notifications
 @@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party

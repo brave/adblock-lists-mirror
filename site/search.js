@@ -44,7 +44,8 @@ async function main() {
                     SELECT
                       rc.rule,
                       sf.filename as source_file,
-                      rc.line_number
+                      rc.line_number,
+                      sf.title as list_title
                     FROM rules
                     JOIN rules_content rc ON rules.rowid = rc.id
                     JOIN source_files sf ON rc.source_file_id = sf.id
@@ -84,11 +85,17 @@ async function main() {
                     const rule = row[0];
                     const source_file = row[1];
                     const line_number = row[2];
+                    const list_title = row[3];
 
                     const githubUrl = `https://github.com/brave/adblock-lists-mirror/blob/lists/lists/${source_file}#L${line_number}`;
 
+                    const titleHtml = list_title
+                        ? `<span class="list-name">${list_title}</span>`
+                        : '';
+
                     item.innerHTML = `
                         <pre>${rule}</pre>
+                        ${titleHtml}
                         <a href="${githubUrl}" target="_blank">
                             ${source_file} (line ${line_number})
                         </a>

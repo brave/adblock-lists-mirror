@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.1.8
+! Version: 4.3.2.0
 
 ! General
 
@@ -155,7 +155,7 @@ elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--cl
 ||verne.elpais.com/*.html$inline-script
 eltiempo.com##+js(rc, c-articulo-exclusivo, div.c-articulo-exclusivo, stay)
 eltiempo.com##+js(rc, modulos, div.modulos, stay)
-em.com.br##+js(rc, compress-text, .div.compress-text)
+em.com.br##+js(rc, compress-text, div.compress-text)
 enotes.com##section#enotes-paywall
 enotes.com##+js(ra, class, div.u-paywall)
 ||estadao.com.br/paywall/$script,~third-party
@@ -165,6 +165,8 @@ etc.se##+js(rc, hidden, section.prose-feature .hidden)
 etc.se##article section.font-sans
 euobserver.com##+js(rc, show, div.membership-upsell.show)
 ||exame.com/_next/static/chunks/app/%5B*.js$script,~third-party
+||specials.fd.nl/_next/static/chunks/framework-*.js$script,~third-party
+specials.fd.nl##div[class^="Opening_contentContainer"],section[class^="ScrollyText_"]:style(color: white)
 fieldandstream.com##div[class^="mailmunch-"]
 fieldandstream.com##+js(ra, class, html[class])
 ||financialexpress.com/*/min/premiumStoryContent.js$script,~third-party

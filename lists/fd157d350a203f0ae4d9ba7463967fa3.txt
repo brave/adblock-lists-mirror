@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +5xSXodcbbjINpbGsCUpgg
-! Version: 202603091451
+! Checksum: nnaYYVZ0PrncujmDea6eBA
+! Version: 202603091521
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Mar 2026 14:51 UTC
+! Last modified: 09 Mar 2026 15:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1833,7 +1833,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /b_bs_killdog_
 /backlinks.$domain=~backlinks.su|~vuetifyjs.com
 /baner.
-/baner/*$domain=~barva.km.ua|~churchjc.com|~ferr-um.ucoz.ru|~fitlife62.ru|~helpsetup.ru|~market-oz.ru|~slovo-shop.ru|~stalker-2-2012.ucoz.net|~stocking.com.ua|~xadoindustrial.com|~zokko.com.ua
+/baner/*$domain=~barva.km.ua|~churchjc.com|~ferr-um.ucoz.ru|~fitlife62.ru|~market-oz.ru|~slovo-shop.ru|~stalker-2-2012.ucoz.net|~stocking.com.ua|~xadoindustrial.com|~zokko.com.ua
 /baner_$domain=~aplica.pl|~brabrabra.ua|~campworld.com.ua|~churchjc.com|~food16.ru|~nenc.gov.ua|~pcmart.com.ua|~pizzamel.ru|~planetarium.dn.ua|~tambov.gov.ru|~triatek.com.ua|~uslugi.mosreg.ru|~zippo.net.ua
 /baners/*$domain=~altera-auto.ru|~masterps.com.ua|~mgpk.bntu.by|~mirofox.ru|~redbubbles.ru|~vyviska.com.ua|~xn--100-8cdz0be5b.xn--p1ai|~xn--40-6kcayb8aoh7afog0b.xn--p1ai
 /banmas/index.php?informer=
@@ -16291,7 +16291,7 @@ move.ru##.specs-near
 xxx-russian.ru##.speedbar ~ .rad5
 www.obozrevatel.com#?#.splide__list > .splide__slide:-abp-has(> article > .banner)
 gsett.ru##.spnc-right a[target="_blank"]
-alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,fco.com.ua,filmozavr.com,filmozavr.net,forexsystemsru.com,itc.ua,medkrug.ru,must-see.top,womanhit.ru##.sponsor
+alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,fco.com.ua,filmozavr.com,filmozavr.net,forexsystemsru.com,itc.ua,itweek.ru,medkrug.ru,must-see.top,womanhit.ru##.sponsor
 radioshanson.fm##.sponsor a[href][target="_blank"]
 fbu.ua,stroimdom.com.ua##.sponsors
 zi.ua##.sponsors-holder
@@ -16388,6 +16388,7 @@ winitpro.ru##.targetHolder
 kurer-sreda.ru##.tax
 n71.ru##.tb-container
 kafanews.com##.tban-content
+itweek.ru##.tbl-interesno
 finance.tut.by##.tbl-lite > tbody > tr.clickable ~ tr:not(.clickable)
 finance.tut.by##.tbl-lite > tbody > tr[onclick] ~ tr:not([onclick])
 glav.su#?#.tbl:-abp-has(> tbody > tr > td > div[id^="js-y-rtb"])
@@ -17262,6 +17263,7 @@ mobiset.ru##[href="http://www.ivlim.ru/"]
 allboxing.ru##[href="https://allboxing.ru/rejting-kapperov"]
 fishki.net##[href="https://servers.ru"]
 allbest.ru##[href="union/advert.htm"]
+itweek.ru##[href^="/ad/rd/"]
 lifehacker.ru##[href^="/tag/rasprodazha"]
 phpbbguru.net##[href^="go.php?to="]
 nntt.org##[href^="http://numbuster.com"]
@@ -17362,6 +17364,7 @@ allboxing.ru##[onmouseenter="onClickPbButton()"]
 penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
 radiokot.ru##[src*="//radiokot.ru/adv/"]
+itweek.ru##[src*="/ad/banners/"]
 fixygen.ua##[src*="/assets/banner_"]
 ozersk74.ru##[src*="/banner"]
 vprognoze.ru##[src*="/banners/"]
@@ -21775,6 +21778,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||islam-today.ru/static/banner$image
 ||istorikonline.ru/cpa/
 ||itvcom.ru/images/*sape
+||itweek.ru/ad/banners/
 ||ivanovonews.ru/local/templates/*/js/custom.js
 ||ivbb.ru/domain_dependent/ivbb.ru/banners/
 ||ivi.ru/branding/
@@ -25570,7 +25574,6 @@ supertabak.ru##body > div[id^="jBox"]
 ruskline.ru##body > div[id^="money"]
 dnpmag.com,trendymen.ru##body > div[id^="popup-"]
 7days.ru,vokrug.tv##body > div[style^="position: fixed; bottom: 0px;"]
-daz3d.ru##body > span[id^="s"][style]
 esputnik.com,~webinars.esputnik.com##body.cl-noscroll > .cl-dialog[style*="position: fixed"]
 pinterest.com##div[class*="ScreenBanner"]
 lenta.ru##div[class*="cation js-"]
@@ -26644,7 +26647,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@/game-ads.js|$script,domain=files.vitalitygames.com
 @@/js/advert.js$~third-party
 @@/js/siropu/am/ads.min.js$script,~third-party,domain=customgames.ru|fantasticcraft.ru
-@@/pagead2.$domain=d-mod.ru|elsyst.gnomio.com|htmlweb.ru|minimalsy.xyz|mysmsbox.ru|ph4.ru|profatom.ru|pvpru.com|slushat-tekst-pesni.ru|sovremennoepravo.ru|survarium.pro|temp-mail.org|trialkeys.ru|tvfeed.in|www.inoreader.com
+@@/pagead2.$domain=d-mod.ru|elsyst.gnomio.com|htmlweb.ru|minimalsy.xyz|mysmsbox.ru|ph4.ru|profatom.ru|pvpru.com|slushat-tekst-pesni.ru|sovremennoepravo.ru|survarium.pro|temp-mail.org|tvfeed.in|www.inoreader.com
 @@/templates/*/adblock/adframe.*.js$script,~third-party,domain=filmisub.com|kinofen.net
 @@/videojs-contrib-ads.min.js|$script,domain=debilizator.tv|gamak.tv|telek.top
 @@||ad.mail.ru/adp/$xmlhttprequest,domain=pets.mail.ru
@@ -26727,7 +26730,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||olegon.ru/ads/$script,domain=olegon.ru
 @@||opel-omega.ru^*?adType=$script,domain=opel-omega.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=in-poland.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|daz3d.ru|di.fm|fcportables.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|shadowcore.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|xpicture.ru|yvid.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|di.fm|fcportables.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|shadowcore.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|xpicture.ru|yvid.ru
 @@||patents.su/assets/themes/patents/js/main/$script,domain=patents.su
 @@||peers.tv/cnplayer/imasdk/$domain=peers.tv
 @@||persey.if.ua/images/attention.jpg$image,domain=persey.if.ua
@@ -26807,8 +26810,6 @@ avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
 buhgalter.com.ua,buhgalter911.com,factor.ua#@#.bottom-ad
 chelseafc.com,shrlink.top#@#.ad-banner
-daz3d.ru,trialkeys.ru#@#.AdSense
-daz3d.ru,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
 draug.ru,print-post.com#@##reklama

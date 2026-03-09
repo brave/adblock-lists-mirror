@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603090138
+! Version: 202603090304
 ! Title: EasyPrivacy
-! Last modified: 09 Mar 2026 01:38 UTC
+! Last modified: 09 Mar 2026 03:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e2bffd13a0e5aafe2cd3d468f694bcccbc8a239b
+! Commit: 80c5a67430af14799f4a5f3667676061e6c730c2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1468,7 +1468,6 @@
 /logger.ashx?
 /logger.dll/*
 /logger/?referer=
-/logging/ClientEvent
 /logging/log.do
 /logging/logjs
 /logging/pageView
@@ -10483,6 +10482,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdns.brsrvr.com^
 ||cdp.sph.com.sg/activation/activation.js
 ||ceros.com/a?data
+||cert.tryggehandel.net/ping
 ||cf-pixelfront-analytics.widencdn.net^
 ||cf.api.instant.one^
 ||cf.overblog.com^
@@ -55298,7 +55298,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||tm.regions.com/tags.js$~third-party
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
 @@||tntdrama.com/modules/custom/ten_video/js/analytics_v2.js$~third-party
-@@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
 @@||tools.pinpoll.com^$script,subdocument,domain=iframely.net
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party

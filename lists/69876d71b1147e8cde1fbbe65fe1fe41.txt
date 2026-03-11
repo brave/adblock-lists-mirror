@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: k9e6G7fS1HCfkAroVAXD1Q
-! Diff-Path: ../patches/13/13-s-1773217196-3600.patch
+! Checksum: LP+vmtKuB6tNeiU5qMGjJQ
+! Diff-Path: ../patches/13/13-s-1773231665-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.62.88
-! TimeUpdated: 2026-03-11T08:16:56+00:00
+! Version: 2.0.62.91
+! TimeUpdated: 2026-03-11T12:17:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1542,6 +1542,12 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+haberler.com##section > a[href^="https://www.eminevim.com/"]
+haberler.com##.new3imsakiye-container:style(background-image: none !important;)
+haberler.com##.new3imsakiye-right-body:style(color: #000000 !important;)
+mynet.com##.ramazan-widget > div.col-logo
+mynet.com##.ramazan-widget > div.col-slogan
+||onedio.com/images/tavuk-dunyasi-logo.png
 diziwatch.to##+js(addEventListener-defuser, DOMContentLoaded, initPop)
 bloomberght.com##.paycell
 r10.net##.rPanel:has(> div[class] > a[href^="https://www.r10.net/hosting-sirketleri"] > img)
@@ -1549,7 +1555,8 @@ cimri.com##div[class^="OfferCard_offerCard"]:contains(Reklam)
 trhaber.com##+js(remove-attr, href, a[href*="eminevim"])
 marieclaire.com.tr##.ad-billboard__wrapper
 marieclaire.com.tr##div[style^="width:970px;"][style*="height:250px"]
-ilerigazetesi.com.tr,egetelgraf.com,referansgazetesi.com.tr,sonmuhur.com,gazetearena.com,24saatgazetesi.com##div.mb-3.p-3.bg-white:empty
+yeniizmir.com,ilerigazetesi.com.tr,egetelgraf.com,referansgazetesi.com.tr,sonmuhur.com,gazetearena.com,24saatgazetesi.com##div.news-section > div.row > div > div[class="mb-3 p-3 bg-white "]:not([id])
+yeniizmir.com,ilerigazetesi.com.tr,egetelgraf.com,referansgazetesi.com.tr,sonmuhur.com,gazetearena.com,24saatgazetesi.com##main.index > div.container > div[class="mb-3 p-3 bg-white "]:not([id])
 yeniizmir.com,ilerigazetesi.com.tr,egetelgraf.com,referansgazetesi.com.tr,sonmuhur.com,gazetearena.com,24saatgazetesi.com##div.mb-3:has(> iframe[name="BIKADV"])
 yeniizmir.com,cizgivedizi.com##+js(abort-current-script, JSON.parse, injectOtherAds)
 1stlineglobal.com##.r34-overlay
@@ -1595,7 +1602,6 @@ eskisehir.net##a[href="https://alpata.com/"]
 eskisehir.net##a[href="https://umithastanesi.com.tr/"]
 buyuksivas.com##.esnek_reklam
 habervakti.com##div[data-advert]
-haberler.com##.new3imsakiye-container
 mersinhaber.com##.banner_r214
 ||finans.mynet.com/mymani/widget-form/
 mynet.com##.mycredit-widget-container
@@ -6440,6 +6446,7 @@ hayrirsds24.cfd##+js(set-constant, window.config.adv.enabled, 0)
 ||blogger.googleusercontent.com/img/$domain=justintvsh.baby|justinttvvamphd.cfd
 hdtaraftartv1000.blogspot.com##a[href^="//clbanners3.com/"]
 hdtaraftartv1000.blogspot.com###main-wrapper:style(margin: 0 auto 0 !important;)
+||taraftarium*.top/lib/uploads/r/
 !+ NOT_PLATFORM(windows, mac, android, cli)
 ||taraftarium*.top/video_reklam.html
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209991

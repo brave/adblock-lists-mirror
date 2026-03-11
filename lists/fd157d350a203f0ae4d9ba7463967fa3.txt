@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: S3eyhTEzn+d3mbZixQH1ow
-! Version: 202603110812
+! Checksum: suWDWoyg6a2NwNZ0bQ3jGQ
+! Version: 202603110851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Mar 2026 08:12 UTC
+! Last modified: 11 Mar 2026 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1793,7 +1793,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /\/[A-Za-z0-9]{5}\/[A-Za-z0-9]{33}\d{4}\.js$/$script,~third-party
 /^https?://([^.]+\.)+[a-z]+\.(?:biz|ru|space)/[a-z][/?][-a-z0-9_?&=]{5,45}$/$third-party,script,domain=~hotcharts.ru
 /^https?://[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script
-/^https?://[a-z0-9]+\.info/+[-a-z0-9_?&=]{9,}/$third-party,script,domain=~dusk.com.au|~profi.ru|~reckon.com
+/^https?://[a-z0-9]+\.info/+[-a-z0-9_?&=]{9,}/$third-party,script,domain=~dusk.com.au|~kiftzuba.co.il|~profi.ru|~reckon.com
 /a/ipn/js/*$third-party,script
 /a/pop/js/*$third-party,script
 /abnl/?ucozads^
@@ -13390,6 +13390,7 @@ svpressa.ru##.b-content__section_teasers
 svpressa.ru##.b-content__title[href="https://partners.svpressa.ru"]
 svpressa.ru##.b-content__title_ads
 prophotos.ru##.b-custom-banner
+mobdisc.com,moddisc.com##.b-download__body > a[href]:not([href^="/"]):not([href*="disc.com/"])
 edadeal.ru##.b-dsk-hero-ads-banner
 gzt-sv.ru##.b-fad
 xn--80ady2a0c.xn--p1ai##.b-flex
@@ -14731,7 +14732,6 @@ ixbt.com##.horb
 kino-teatr.ru##.horisontal_delim
 comss.ru#?#.horizontal > .rbox:-abp-has(> div a[href*="page.php?id=3023"])
 gorodovoy.ru##.horizontal-banner
-pdalife.ru##.horizontalBanner
 rz.com.ua##.horizontal_baner
 tonkosti.ru##.hotel-form__header
 bezformata.com##.hottopicadvertbox
@@ -17052,7 +17052,6 @@ hwp.ru##[class*="tbann"]
 nakrutiperiscope.ru,sdelala-sama.ru##[class*="teaser"]
 espritgames.ru##[class*="templatespromo_"]
 agroinfo.kz,novadoba.com.ua##[class*="widget_sp_image"]
-pdalife.ru##[class*="winner"]
 livecup.run,livesport.ru##[class*="wow"]
 vesti.kz##[class*="xbet"]
 domodedovoriamo.ru,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo.ru,lubertsyriamo.ru,mytischiriamo.ru,podolskriamo.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,schelkovoriamo.ru,sergposadriamo.ru,serpuhovriamo.ru,solnechnogorskriamo.ru,zhukovskiyriamo.ru##[class*="yandex-news-promo"]
@@ -20280,7 +20279,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||yadistr.ru^$csp=script-src
 !
 ! Унифицированное правило для fundingchoicesmessages.google.com
-$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.addtoany.com *.amazonaws.com *.cloudflare.com content-loader.com *.dmca.com *.disqus.com *.disquscdn.com *.enduro.team *.facebook.com *.getsitecontrol.com accounts.google.com apis.google.com cse.google.com *.google.com/cse/ *.google.com/complete/ *.google.com/recaptcha/ translate.google.com www.google.com *.googleapis.com *.googletagmanager.com *.gstatic.com/recaptcha/ *.html-load.com *.icon-icons.com *.instagram.com *.jivosite.com *.jquery.com *.keycaptcha.com *.sendpulse.com *.sharethis.com cdn.snigelweb.com *.po.st *.threadloom.com *.tiktok.com *.trustpilot.com *.twitter.com vk.com www.youtube.com *.dev *.io *.net *.org *.ru *.ua,domain=agroter.com.ua|alensat.com|allbasketball.org|askentire.net|autonews.co.ua|autosoftos.com|babla.ru|bio-lessons.ru|callfilter.app|cardiagram.com.ua|clickthis.blog|coollib.net|delo.ua|elegantwoman.kyiv.ua|enduro.team|eurointegration.com.ua|farposst.ru|findhow.org|for-driver.info|gazeta-misto.te.ua|golos.te.ua|icon-icons.com|ilenta.com|index.minfin.com.ua|inforesist.org|irtafax.com|kovelpost.com|kreschatic.kiev.ua|kurs.com.ua|mirlib.ru|modfix.ru|musinfo.net|newsyou.info|notebookcheck-ru.com|nsn.net.ua|okulyk.kz|ontvtime.ru|orbit-games.com|pb-news.info|perpendicular.pro|pes-files.ru|pingvin.pro|poezdato.net|poizdato.net|pravda.com.ua|rovesnyknews.te.ua|ruboard.website|skidkaonline.by|skidkaonline.ru|sundries.ua|tenews.org.ua|ternopillive.com|tribun.com.ua|uapress.kyiv.ua|valorantinfo.com|vesti-ua.net|vkazivka.com|wallpapershome.ru|xn--80aaukc.xn--j1amh
+$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.addtoany.com *.amazonaws.com *.cloudflare.com content-loader.com *.dmca.com *.disqus.com *.disquscdn.com *.enduro.team *.facebook.com *.getsitecontrol.com accounts.google.com apis.google.com cse.google.com *.google.com/cse/ *.google.com/complete/ *.google.com/recaptcha/ translate.google.com www.google.com *.googleapis.com *.googletagmanager.com *.gstatic.com/recaptcha/ *.html-load.com *.icon-icons.com *.instagram.com *.jivosite.com *.jquery.com *.keycaptcha.com *.sendpulse.com *.sharethis.com cdn.snigelweb.com *.po.st *.threadloom.com *.tiktok.com *.trustpilot.com *.twitter.com vk.com www.youtube.com *.dev *.io *.net *.org *.ru *.ua,domain=agroter.com.ua|alensat.com|allbasketball.org|askentire.net|autonews.co.ua|autosoftos.com|babla.ru|bio-lessons.ru|callfilter.app|cardiagram.com.ua|clickthis.blog|coollib.net|delo.ua|elegantwoman.kyiv.ua|enduro.team|eurointegration.com.ua|farposst.ru|findhow.org|for-driver.info|gazeta-misto.te.ua|golos.te.ua|icon-icons.com|ilenta.com|index.minfin.com.ua|inforesist.org|irtafax.com|kovelpost.com|kreschatic.kiev.ua|kurs.com.ua|mirlib.ru|mobdisc.com|moddisc.com|modfix.ru|musinfo.net|newsyou.info|notebookcheck-ru.com|nsn.net.ua|okulyk.kz|ontvtime.ru|orbit-games.com|pb-news.info|perpendicular.pro|pes-files.ru|pingvin.pro|poezdato.net|poizdato.net|pravda.com.ua|rovesnyknews.te.ua|ruboard.website|skidkaonline.by|skidkaonline.ru|sundries.ua|tenews.org.ua|ternopillive.com|tribun.com.ua|uapress.kyiv.ua|valorantinfo.com|vesti-ua.net|vkazivka.com|wallpapershome.ru|xn--80aaukc.xn--j1amh
 ! ---
 $subdocument,domain=appmo.org|bookmo.org|eromo.org|hitmo.org|hotmo.org|nasimke.com|vidmo.org
 $third-party,domain=123torrent.ru|37.1.201.32|37.1.202.140|37.1.203.156|37.1.204.182|37.1.204.76|37.1.205.159|37.1.205.47|37.1.206.118|37.1.206.121|37.1.206.231|37.1.206.95|37.1.207.130|37.1.207.65|37.1.216.106|37.1.216.119|37.1.217.105|37.1.217.113|5.45.65.153|5.45.66.118|5.45.70.162|5.45.86.39|5.45.87.85|berutor.site|blackrutor.site|extrutor.org|extrutor.site|fastrutor.site|herutor.org|listrutor.org|new-rutor.org|pipitor.org|pronpic.org|prutor.site|r-tor.ru|rutor-live.tk|rutor-search.info|rutor1.site|sssrtor.ru|tracker-rutor.tk|xrutor.org|znaipticu.ru
@@ -22462,7 +22461,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||pc-torrents.com/templates/TorrenTs/images/top_mini.jpg
 ||pcnews.ru/b6/
 ||pctuner.ru/plugins/bworks/files/
-||pdalife.ru/userfiles/rec/
 ||pechera.info/storage/banner_upload/
 ||pejnya.*/banner/
 ||penzavzglyad.ru/images/b/
@@ -25472,11 +25470,9 @@ technoavia.ru##.Agreement
 glavbukh.ru##.GbShadow
 all.biz##.ab-fade
 esetnod32.ru##.b-fade
-pdalife.ru##.b-mask
 esetnod32.ru##.b-mdl
 hetaqrqire.ru##.b-modal
 tvc.ru##.b-overlay-soc
-pdalife.ru##.b-popup
 rutube.ru##.bottom-bar-components-module__bottomBar
 ivanovonews.ru##.bottom-left-modal
 vashgorod.ru##.c-popup
@@ -26638,7 +26634,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@/adblock_detector.js$script,domain=forum.trainzup.net
 @@/advert.$script,domain=adhands.ru|azeroth.su|feech.org|joinfo.ua|kopikot.ru|ksimart.com|ksimart.ml|kupidonia.ru|na-ladoni.su|pesikot.org|pwcats.info|shopotam.ru|spravkarf.ru|svidomitov.net|tsj.ru|veedi.com|wotskill.ru
 @@/advertise.js|$domain=rewbux.com|school-tea.ru
-@@/advertisement.$domain=1ttv.net|androidhost.ru|citydog.by|coil32.ru|coinvesti.ru|futurenet.club|gallerix.ru|imgpay.ru|instrukzii.ru|lingust.ru|newsarium.org|pdalife.ru|provladimir.ru|realstrannik.com|realstream.pw|routes.in.ua|rubukkit.org|rzn.info|seriatv.ru|smizu.ru|sportbox.ru|toolson.net|ualinux.com|vsimppt.com.ua|wpnice.ru|xn--80ajbwpejjci7c.xn--p1ai|zdravedae.com
+@@/advertisement.$domain=1ttv.net|androidhost.ru|citydog.by|coil32.ru|coinvesti.ru|futurenet.club|gallerix.ru|imgpay.ru|instrukzii.ru|lingust.ru|newsarium.org|provladimir.ru|realstrannik.com|realstream.pw|routes.in.ua|rubukkit.org|rzn.info|seriatv.ru|smizu.ru|sportbox.ru|toolson.net|ualinux.com|vsimppt.com.ua|wpnice.ru|xn--80ajbwpejjci7c.xn--p1ai|zdravedae.com
 @@/banner.jpg?ad_height=300&adzone=100&adserver=1&adType=32|$image
 @@/blockadblock.$script,domain=5urokov.ru|starblast.io
 @@/common/ad.$script,domain=dnevnik.ru|mosreg.ru

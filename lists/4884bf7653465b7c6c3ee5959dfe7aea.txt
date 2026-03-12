@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8/fuSxVWJhhfAZySUQ1bwA
-! Diff-Path: ../patches/9/9-s-1773242661-3600.patch
+! Checksum: 4xbAgHe/iUuP46pPI/p6ew
+! Diff-Path: ../patches/9/9-s-1773336406-3600.patch
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.
-! Version: 2.0.33.58
-! TimeUpdated: 2026-03-11T15:20:49+00:00
+! Version: 2.0.33.60
+! TimeUpdated: 2026-03-12T17:23:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -198,6 +198,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/226890
+diaridegirona.cat##+js(prevent-fetch, googlesyndication)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/225833
 ||darkmahou.io/wp-content/plugins/darkmahou-anti-adblock/
 ||otakufilmes.org/wp-content/plugins/darkmahou-anti-adblock/
@@ -2061,6 +2063,9 @@ eloutput.com,mundobytes.com,techondicas.com,jornalrepercussao.com.br,zonaaps.com
 !
 ! NOTE: Specific rules
 !
+elcomercio.pe##.htmlContainer
+||d1r08wok4169a5.cloudfront.net/gpt-ad/*/public/js/main.min.js
+||d2dvq461rdwooi.cloudfront.net/elcomercio/interna/spaces.js
 caracol.com.co###fusion-app > div.c-s > div
 yapo.cl##div[id^="home_top"]
 descuentosrata.com##.rata-ads

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TBqXw3V0r1ZLHKiUPj2ILw
-! Version: 202603120851
+! Checksum: Fzq5LZeJlrFdHZIGyerPvw
+! Version: 202603120921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Mar 2026 08:51 UTC
+! Last modified: 12 Mar 2026 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1790,10 +1790,8 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /?t=b&blockids=$script
 /?t=rot&pid=$script
 /\/[a-z]{1,3}\?zoneId\=\d{7}\-\d{7}$/$third-party,script
-/\/[A-Za-z0-9]{5}\/[A-Za-z0-9]{33}\d{4}\.js$/$script,~third-party
 /^https?://([^.]+\.)+[a-z]+\.(?:biz|ru|space)/[a-z][/?][-a-z0-9_?&=]{5,45}$/$third-party,script,domain=~hotcharts.ru
 /^https?://[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script
-/^https?://[a-z0-9]+\.info/+[-a-z0-9_?&=]{9,}/$third-party,script,domain=~dusk.com.au|~kiftzuba.co.il|~profi.ru|~reckon.com
 /a/ipn/js/*$third-party,script
 /a/pop/js/*$third-party,script
 /abnl/?ucozads^
@@ -13169,6 +13167,7 @@ gtk.tv##.adversting-block-1 > .col-no-padding
 1obl.ru,biofile.ru,domodedovoriamo.ru,flashgames.ru,footballreview.ru,forum.mista.ru,girlsgogames.ru,inforesist.org,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo.ru,kubnews.ru,lubertsyriamo.ru,mytischiriamo.ru,nightwarez.ru,nur.kz,paparazzi.ru,podolskriamo.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,schelkovoriamo.ru,sergposadriamo.ru,serialu.tv,serpuhovriamo.ru,solnechnogorskriamo.ru,zhukovskiyriamo.ru##.advert
 study.ru##.advert-banner-wrap
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##.advert-header
+vg-news.ru##.advert-right-block
 doska.tamboff.ru##.advert-tizer
 ucheba.ru##.advert-uz-block
 qip.ru##.advertTop
@@ -13541,7 +13540,7 @@ bnkirov.ru##.banner-img:not([href^="http://bnkirov.ru/"]):not([href*="rodnaya-vy
 168.ru##.banner-in-frame
 shrlink.top##.banner-inner
 amur.info,gts39.ru##.banner-item
-gameportalrf.ru,profi-forex.org##.banner-left
+gameportalrf.ru,primechaniya.ru,profi-forex.org##.banner-left
 newsomsk.ru##.banner-left-detail-new
 amoledo.com,zhitomir.info##.banner-link
 newsazerbaijan.ru##.banner-middle
@@ -13798,7 +13797,7 @@ omastopatii.ru##.blopr
 oko-planet.su#?#.bltitle:-abp-contains(Реклама)
 dnepr.info##.blue-bann
 ecm-journal.ru##.blurb
-777score.ru,emotionalrating.com,kluch.media,ok-magazine.ru,poltava.to##.bn
+777score.ru,comnews.ru,emotionalrating.com,kluch.media,ok-magazine.ru,poltava.to##.bn
 dota2.ru##.bn-btm
 brokker.news##.bn-content
 mgorod.kz##.bn-slider
@@ -15080,6 +15079,7 @@ football.ua##.main-right > div[style^="width: 300px;"]
 ska.ru##.main-section-adfox
 salonav.com##.main-sidebar > .mom_custom_text ~ .mom_custom_text
 vedomosti-ua.com#?#.main-sidebar > .row > div:-abp-has(.active:-abp-contains(Реклама))
+vg-news.ru##.main-small-right-block
 autostat.ru##.mainBannerBlockCenter
 polosedan-club.com##.mainContent > #Notices
 vuzopedia.ru##.mainReclame
@@ -17498,7 +17498,7 @@ ctc-rnd.ru##a[href*=".space"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.org##a[href*=".vkplay.ru"]
 wintorrents.ru##a[href*=".wintorrents.ru"]
 1tv.ru,drive.ru,f1news.ru,film.ru,gamemag.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,tolknews.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
-360tv.ru,5-tv.ru,7days.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bfm.ru,bryansknovosti.ru,bst.bratsk.ru,coop-land.ru,energyfm.ru,expert.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,habr.com,inosmi.ru,ixbt.com,ixbt.shop,kommersant.ru,kulturologia.ru,ladys.media,life.ru,mash.ru,media.az,metronews.ru,mgazeta.com,mk.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,moika78.ru,mydecor.ru,mywebpc.ru,myweekend.ru,naked-science.ru,neftegaz.ru,nevasport.ru,new-magazine.ru,news.ru,novozybkov.su,nsn.fm,ohotniki.ru,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pnz.ru,radio1.ru,regnum.news,regnum.ru,ridlife.ru,rifey.ru,rodgor-vlg.ru,rodina-history.ru,rusnext.ru,russian.rt.com,rutube.ru,securitymedia.org,sm.news,smotrim.ru,soccer.ru,sovsport.ru,sport-express.net,sport-express.ru,sportsdaily.ru,stiletto.blog,stolicaonego.ru,stratege.ru,super.ru,syzran-small.ru,teleprogramma.org,thegirl.ru,timeweb.com,tochka.by,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,utyug.info,vz.ru,womanhit.ru,www1.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
+360tv.ru,5-tv.ru,7days.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bfm.ru,bryansknovosti.ru,bst.bratsk.ru,comnews.ru,coop-land.ru,energyfm.ru,expert.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,habr.com,inosmi.ru,ixbt.com,ixbt.shop,kommersant.ru,kulturologia.ru,ladys.media,life.ru,mash.ru,media.az,metronews.ru,mgazeta.com,mk.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,moika78.ru,mydecor.ru,mywebpc.ru,myweekend.ru,naked-science.ru,neftegaz.ru,nevasport.ru,new-magazine.ru,news.ru,novozybkov.su,nsn.fm,ohotniki.ru,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pnz.ru,radio1.ru,regnum.news,regnum.ru,ridlife.ru,rifey.ru,rodgor-vlg.ru,rodina-history.ru,rusnext.ru,russian.rt.com,rutube.ru,securitymedia.org,sm.news,smotrim.ru,soccer.ru,sovsport.ru,sport-express.net,sport-express.ru,sportsdaily.ru,stiletto.blog,stolicaonego.ru,stratege.ru,super.ru,syzran-small.ru,teleprogramma.org,thegirl.ru,timeweb.com,tochka.by,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,utyug.info,vz.ru,womanhit.ru,www1.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
 beatmake.ru##a[href*="//go.acstat.com/"]
 porno-island.site##a[href*="//goo.su/"]
 adult-images.ru,imgbum.ru,screenpost.ru,xpicture.ru##a[href*="//parnuxi.biz"]
@@ -21190,9 +21190,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||comicsbook.ru/promo/
 ||comments.bot/api/rtp/
 ||comments.ua/_abc_image/
-||comnews.ru/ds_comnews/files/$object
-||comnews.ru/ds_comnews/img_object/
-||comnews.ru/ds_comnews/img_pictures/*.gif
 ||companion.ua/www/images/
 ||compare-static.primpogoda.ru/tag.js
 ||compedu.ru^$domain=kopilkaurokov.ru

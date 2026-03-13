@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aNJX4cjJ3XOQJ/K2a+ohDw
-! Version: 202603130651
+! Checksum: oVduo1+vZQho3UzErqqkqw
+! Version: 202603130721
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Mar 2026 06:51 UTC
+! Last modified: 13 Mar 2026 07:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18494,6 +18494,7 @@ hi-fi.ru##body[data-pageid] #ipsLayout_sidebar
 2gis.by,2gis.kz,2gis.ru##button > div[style^="width: 136px; height: 100%;"] ~ div[style*="pointer-events: auto"]
 shuba.life#?#button:-abp-contains(Купит)
 novayagazeta.eu#?#button:-abp-has(> [src^="/vpnovaya_"])
+www.kinopoisk.ru##button[class*=" styles_adButton_"]
 shuba.life#?#button[target="_blank"]:-abp-has(> .i-icon-basket)
 shuba.life##button[target="_blank"]:not([href])
 flamp.ru##cat-banner
@@ -23640,7 +23641,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||news.mail.ru/-/*.js?
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
-||pikabu.ru/ajax/*?L5T6y=$xmlhttprequest
+||pikabu.ru/ajax/*?kty5r=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

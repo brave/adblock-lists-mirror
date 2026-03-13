@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603131643
+! Version: 202603131716
 ! Title: EasyPrivacy
-! Last modified: 13 Mar 2026 16:43 UTC
+! Last modified: 13 Mar 2026 17:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0d5a0807f651325c21eae3691b70a2b428dbe37d
+! Commit: 7811f44a094cbf65d7f20531ef73d6948f65b789
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1141,6 +1141,7 @@
 /googletrack.js
 /googleTracker.js
 /googleTracking.js
+/gosquared.js$script
 /graphql/track-pageview$xmlhttprequest
 /grumi-ip.js
 /gs-analytics-init.js
@@ -1656,6 +1657,7 @@
 /oo/cl-$~third-party
 /oo/cl.js|$~third-party
 /op/analytics.js?domain=
+/op/op1.js?v=$script
 /opdc.js
 /ope-adalliance.js
 /open/log/*
@@ -11707,6 +11709,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ooyala.com/verify?
 ||ooyala.com^*/report?log
 ||opecloud.com/ope-pdmp.js
+||openpanel.dev/op.js
 ||openpanel.dev/op1.js
 ||openxcdn.net^$third-party
 ||opinary.com/v1/events
@@ -12946,6 +12949,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1gp8joe0evc8s.cloudfront.net^
 ||d1hyarjnwqrenh.cloudfront.net^
 ||d1k8sb4xbepqao.cloudfront.net^
+||d1l6p2sc9645hc.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
 ||d1n00d49gkbray.cloudfront.net^
 ||d1qnmu4nrib73p.cloudfront.net^

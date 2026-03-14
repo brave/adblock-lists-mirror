@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gnZiPWD35PgjwdN50uJu1g
-! Version: 202603122225
+! Checksum: lgj2Qc1YHSFxp5QzVwIHzg
+! Version: 202603141750
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-03-12 22:25 UTC
+! Last modified: 2026-03-14 17:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2686,7 +2686,6 @@ softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
 msn.com##views-right-rail
 ! :has
-twitter.com,x.com###layers[style="z-index: 1;"]:has(div[role="dialog"] a[href="/i/premium_sign_up"][style])
 deviantart.com##.ReactModalPortal + div[class]:has(> iframe[title="DealerAdIframe"])
 thenation.com##.btn.footer__cta:has(a[href^="/donate-website/"])
 eventbrite.com##.event-card:has([class*="EventCardPromoted-module"])

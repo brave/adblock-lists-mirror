@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: q9RuzPQbCtq2qvMwIZg/Lw
-! Version: 202603141611
+! Checksum: r9vAPN1Yej8+rYlTfyhSLw
+! Version: 202603141642
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Mar 2026 16:11 UTC
+! Last modified: 14 Mar 2026 16:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23860,6 +23860,7 @@ ru###ads-top.ads
 ||proxyshare.com^$third-party,popup
 !
 ! Avito
+www.avito.ru##div[class*="avito-ads-container"]
 www.avito.ru##div[class*="index-advRootWidget"]
 www.avito.ru##div[class*="styles-module-root_animation-"]:empty
 www.avito.ru##div[class^="advert-"]
@@ -23868,6 +23869,7 @@ www.avito.ru##div[class^="style-ads"]
 www.avito.ru#?#div[class^="styles-item-"]:-abp-has(> [data-marker="bx-recommendations-block-item"] > div[class^="body-actions-"]:empty)
 www.avito.ru#?#div[class^="styles-item-"]:-abp-has(> div[class^="advert-mimicry-"])
 ||a5el.ml^$third-party
+||avito.st/dstatic/build/client/*/creatives-outclick-beduin-layout.$domain=avito.ru
 ||criteo.net^$domain=avito.ru
 ||taboola.com^$domain=avito.ru
 !

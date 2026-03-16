@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sV3oR9ykRmpcg/n/R5zVYw
-! Version: 202603161431
+! Checksum: j3DT82sN0RRWJoPIWp/bHQ
+! Version: 202603161452
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Mar 2026 14:31 UTC
+! Last modified: 16 Mar 2026 14:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24293,6 +24293,7 @@ okminigames.mail.ru###ok-wrapper.container span.js-href
 ok.ru###rightColumn[data-mouse-wheel]
 ok.ru##.dialogWrapperBanner
 ok.ru##.exit-popup
+ok.ru#?#.feed-list > .feed-w:-abp-has(> .feed .feed-action > [data-url*="adv_info"])
 ok.ru#?#.feed-list > .feed-w:-abp-has(> [class^="feed"] > .feed-header [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class])
 ok.ru#?#.feed-list > .feed-w:-abp-has([class^="feed"][class*="label"]:-abp-contains(/реклама/i))
 ok.ru#?#.feed-list > .feed-w:-abp-has(button[class*="advert-badge"])

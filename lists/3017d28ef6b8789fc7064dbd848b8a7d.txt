@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603160308
+! Version: 202603160432
 ! Title: EasyPrivacy
-! Last modified: 16 Mar 2026 03:08 UTC
+! Last modified: 16 Mar 2026 04:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e44f667d98cc19b8803fd31f15abb3d0eb593695
+! Commit: c7a7b480a579416c81639d6c6356fa1292dd1fa2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15343,8 +15343,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intent.pcworld.idg.com.au^
 ||intent.techadvisor.com^
 ||internal-analytics.odoo.com^
-||internal-e.posthog.com^
-||internal-t.posthog.com^
 ||internetslang.com/jass/
 ||intg.snapchat.com^
 ||intuit.com/static/scripts/cookie-sync/cookiesync-pixel.js
@@ -15706,6 +15704,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pdfforge.org/api/kd-gdpr-cc
 ||pelisfree.site/cdn-cgi/trace
 ||pendo.scopus.com/data/ptm.gif
+||pepin.padlet.com^
 ||perf.mouser.com^
 ||performance-logger.minted.com^
 ||perplexity.ai/rest/event/analytics
@@ -15763,6 +15762,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pornbox.com/stats/
 ||porzo.com/js/analytics
 ||poshmark.com/trck/
+||posthog.com/*/?ip=$xmlhttprequest
+||posthog.com/*/logs?$xmlhttprequest
+||posthog.com/api/homepage-hits
+||posthog.com/api/signup-count
 ||prairiedog.hashnode.com^
 ||pravda.com.ua/counter/
 ||prescouter.com/pd.js

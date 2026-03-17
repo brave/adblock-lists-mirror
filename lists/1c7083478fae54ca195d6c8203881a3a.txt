@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.2.4
+! Version: 4.3.2.5
 
 ! General
 
@@ -539,21 +539,6 @@ hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com##div#single-log
 ! Ringier Axel Springer Polska
 auto-swiat.pl,businessinsider.com.pl,forbes.pl,komputerswiat.pl,newsweek.pl,onet.pl##+js(ra, class|style, div.contentPremium[style])
 businessinsider.com.pl##div#content-premium-offer
-
-! Roularta Media Groep
-||artsenkrant.com/js/responsive/rmgModal.js$script,~third-party
-||artsenkrant.com/js/responsive/rmgPaywall.js$script,~third-party
-artsenkrant.com##div.article-body > p
-artsenkrant.com##+js(ra, class, div.article-body > div)
-artsenkrant.com##+js(rc, locked, body.locked)
-artsenkrant.com,femmesdaujourdhui.be,flair.be,knack.be,kw.be,levif.be,libelle.be##div[id*="wall-modal"]
-artsenkrant.com,femmesdaujourdhui.be,flair.be,knack.be,kw.be,levif.be,libelle.be##+js(ra, class|style, html, stay)
-beleggersbelangen.nl##+js(rc, no-account, div.no-account)
-beleggersbelangen.nl##+js(ra, style, div.content-inner[style])
-beleggersbelangen.nl##div.unlimited-access
-!#if (env_firefox)
-/\.(femmesdaujourdhui|flair|knack|levif|libelle)\.be\/.+\/(\w+-){2,}/$inline-script
-!#endif
 
 ! Südwest Media Network
 schwarzwaelder-bote.de,stuttgarter-nachrichten.de,stuttgarter-zeitung.de##+js(rc, restricted-area, div.restricted-area, stay)

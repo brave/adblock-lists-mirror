@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jQQPT5gRnSPC/PLxsbmxVw
-! Version: 202603181622
+! Checksum: eCf5hyT2PrEGO5ppODCo5Q
+! Version: 202603181651
 ! Title: EasyList Italy
-! Last modified: 18 Mar 2026 16:22 UTC
+! Last modified: 18 Mar 2026 16:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -4114,33 +4114,33 @@ sportando.basketball##.widget.widget_block:has(a[href^="https://betsquare.com/"]
 freshpointmagazine.it##.wpb_wrapper > .td_block_wrap:has(.sponsor)
 mediamarkt.ch,mediaworld.it##[data-test="mms-product-card"]:has(div[data-test="mms-plp-sponsored"])
 pharmacyscanner.it##article:has(.featured + .spons-post)
-mediaworld.it#?#[data-test="mms-router-link"]:-abp-contains(Sponsorizzati)
-milanofinanza.it#?#.col-xs-12.col-md-6.col-lg-4.mb-4:-abp-contains(Contenuto Pubblicitario)
+mediaworld.it#?#[data-test="mms-router-link"]:has-text(Sponsorizzati)
+milanofinanza.it#?#.col-xs-12.col-md-6.col-lg-4.mb-4:has-text(Contenuto Pubblicitario)
 autoscout24.it##section[class^="DetailsSection_container__"]:has([class^="AgosSlice_advertisementNotice_"])
 ! Advanced element hiding rules for Adblock Plus
-adnkronos.com#?#.cont-ev-list:-abp-has(.title-channel:-abp-contains(in Evidenza))
-agi.it#?#.agi-article-card:-abp-has(.article-category:-abp-contains(BRANDED CONTENT))
-cronacadiverona.com#?#.td_block_template_1:-abp-has(.td-block-title-wrap:-abp-contains(Banner))
-forum-wranglermania.com#?#.box:has(.box-head:-abp-contains(WM Sponsor))
-giornaledibrescia.it#?#.grid.divide-gray-20.lg\:divide-none:-abp-contains(SPONSORIZZATO)
-guadagna.net#?#center:-abp-has(a:-abp-contains(Esponi i tuoi banner sul forum))
-ilpiccolo.net#?#.article:has(div.categories:-abp-contains(pubbliredazionale))
-ilprogettistaindustriale.it#?#.td_block_wrap:-abp-has(span:-abp-contains(Contenuti sponsorizzati))
-impiego24.it#?#.boxAnnunci:-abp-has(h4:-abp-contains(Annuncio pubblicitario))
-investire.biz#?#.container-fluid.py-3.bg-white-color.pl-5.pr-5:-abp-has(.text-black.weight-400.mb-0:-abp-contains(I Nostri Partners))
-lalaziosiamonoi.it#?#.testo > div:-abp-has(b:-abp-contains(PARTNERS COMMERCIALI))
-laleggepertutti.it#?#.cl-amp-important-information:-abp-has(div:-abp-contains(Annuncio pubblicitario))
-laleggepertutti.it#?#.custom-html:-abp-has(div:-abp-contains(Annuncio pubblicitario))
-logisticanews.it#?#.td_block_wrap:-abp-has(a:-abp-contains(Contenuti sponsorizzati))
-lospiffero.com#?#.article-blog-default:-abp-has(span:-abp-contains(CONTENUTO SPONSORIZZATO))
-mediamarkt.ch,mediaworld.it#?#li[data-index-number]:-abp-has([data-test="mms-product-card"]:-abp-contains(Sponsorizzati))
-paginegialle.it#?#.search-itm:-abp-has(.search-itm__label:-abp-contains(annuncio))
-pharmacyscanner.it#?#.similar-post-holder:-abp-has(.categoria:-abp-contains(Post sponsorizzato))
-radioluna.it#?#.feat-widget-wrap:-abp-has(div:-abp-contains(INFORMAZIONE REDAZIONALE))
-repubblica.it#?#.block.is-postit:has(.block__overtitle:-abp-contains(Contenuti promozionali))
-technofashion.it#?#.td_block_wrap:-abp-has(span:-abp-contains(Advertorial))
-tgcom24.mediaset.it#?#div[data-testid="section"]:-abp-has(span:-abp-contains(Contenuto sponsorizzato))
-tuttoandroid.net,tuttotech.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
+adnkronos.com#?#.cont-ev-list:has(.title-channel:has-text(in Evidenza))
+agi.it#?#.agi-article-card:has(.article-category:has-text(BRANDED CONTENT))
+cronacadiverona.com#?#.td_block_template_1:has(.td-block-title-wrap:has-text(Banner))
+forum-wranglermania.com#?#.box:has(.box-head:has-text(WM Sponsor))
+giornaledibrescia.it#?#.grid.divide-gray-20.lg\:divide-none:has-text(SPONSORIZZATO)
+guadagna.net#?#center:has(a:has-text(Esponi i tuoi banner sul forum))
+ilpiccolo.net#?#.article:has(div.categories:has-text(pubbliredazionale))
+ilprogettistaindustriale.it#?#.td_block_wrap:has(span:has-text(Contenuti sponsorizzati))
+impiego24.it#?#.boxAnnunci:has(h4:has-text(Annuncio pubblicitario))
+investire.biz#?#.container-fluid.py-3.bg-white-color.pl-5.pr-5:has(.text-black.weight-400.mb-0:has-text(I Nostri Partners))
+lalaziosiamonoi.it#?#.testo > div:has(b:has-text(PARTNERS COMMERCIALI))
+laleggepertutti.it#?#.cl-amp-important-information:has(div:has-text(Annuncio pubblicitario))
+laleggepertutti.it#?#.custom-html:has(div:has-text(Annuncio pubblicitario))
+logisticanews.it#?#.td_block_wrap:has(a:has-text(Contenuti sponsorizzati))
+lospiffero.com#?#.article-blog-default:has(span:has-text(CONTENUTO SPONSORIZZATO))
+mediamarkt.ch,mediaworld.it#?#li[data-index-number]:has([data-test="mms-product-card"]:has-text(Sponsorizzati))
+paginegialle.it#?#.search-itm:has(.search-itm__label:has-text(annuncio))
+pharmacyscanner.it#?#.similar-post-holder:has(.categoria:has-text(Post sponsorizzato))
+radioluna.it#?#.feat-widget-wrap:has(div:has-text(INFORMAZIONE REDAZIONALE))
+repubblica.it#?#.block.is-postit:has(.block__overtitle:has-text(Contenuti promozionali))
+technofashion.it#?#.td_block_wrap:has(span:has-text(Advertorial))
+tgcom24.mediaset.it#?#div[data-testid="section"]:has(span:has-text(Contenuto sponsorizzato))
+tuttoandroid.net,tuttotech.net#?#.card.dark:has(span:has-text(Adv))
 !----------------Regole di esclusione per risolvere i problemi----------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist.txt ***
 @@||adbreak.ch/js/ext/adbreak.js?$script,domain=tio.ch

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v8cpyNCx+WYNJwELzrsSQg
-! Version: 202603181622
+! Checksum: meFetPTOxB1AqEzcp2NjqA
+! Version: 202603181651
 ! Title: EasyList Spanish
-! Last modified: 18 Mar 2026 16:22 UTC
+! Last modified: 18 Mar 2026 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1877,35 +1877,35 @@ leroymerlin.es##li[id^="maxarea-slide-"]:has([data-st-name="sponsored"])
 mil21.es##td[class*="id_publi_"]:has(a[href^="https://www.amazon.es/"])
 cuencanews.es##td[class*="id_publi_"]:has(img[alt="publicidad"])
 ! Advanced element hiding rules for Adblock Plus
+periodismokosher.com.ar##.widget-content:has(a[target="_blank"])
 mediamarkt.es##[data-test="mms-product-card"]:has([data-test="mms-plp-presented"])
-as.com#?#.s.s--v:-abp-has(span:-abp-contains(OFRECIDO POR))
-atlantico.net,laregion.es#?#.recirculation:-abp-contains(Contenido patrocinado)
-diarios-argentinos.com#?#.wide-content:-abp-has(h1:-abp-contains(Publicidad))
-eldiariony.com,laopinion.com,laraza.com#?#.module--external:-abp-contains(Contenido Patrocinado)
-elespectador.com#?#.Block:-abp-has(.Title_section:-abp-contains(Contenido patrocinado))
-elespectador.com#?#.Card:-abp-has(.Card-Section.Section:-abp-contains(Contenido patrocinado))
-elquindiano.com,laboyanos.com#?#span:-abp-contains(PUBLICIDAD)
-eltiempo.com#?#.main-article-container-patr:-abp-has(.mas-contenido:-abp-contains(Más Contenido))
-falabella.com#?#.products-carousel-wrapper:-abp-contains(Patrocinado)
-hoy.com.do#?#span:-abp-contains(Publicidad)
-juegosdiarios.com#?#.display-ads:-abp-has(>span:-abp-contains(Anuncio))
+as.com#?#.s.s--v:has(span:has-text(OFRECIDO POR))
+atlantico.net,laregion.es#?#.recirculation:has-text(Contenido patrocinado)
+diarios-argentinos.com#?#.wide-content:has(h1:has-text(Publicidad))
+eldiariony.com,laopinion.com,laraza.com#?#.module--external:has-text(Contenido Patrocinado)
+elespectador.com#?#.Block:has(.Title_section:has-text(Contenido patrocinado))
+elespectador.com#?#.Card:has(.Card-Section.Section:has-text(Contenido patrocinado))
+elquindiano.com,laboyanos.com#?#span:has-text(PUBLICIDAD)
+eltiempo.com#?#.main-article-container-patr:has(.mas-contenido:has-text(Más Contenido))
+falabella.com#?#.products-carousel-wrapper:has-text(Patrocinado)
+hoy.com.do#?#span:has-text(Publicidad)
+juegosdiarios.com#?#.display-ads:has(>span:has-text(Anuncio))
 larepublica.co#?#.row.H_Img_V_Title_Center.mb-3:has-text(Contenido Patrocinado)
-elcomercio.pe#?##lateral:-abp-has(span:-abp-contains(Auspiciado por:))
-lavoz.com.ar#?#.clearfix.list-cards.mb1.section-ciudadanos:-abp-has(.title:-abp-contains(Espacio de marca))
-mediamarkt.es#?#[data-test="mms-search-main"] aside:-abp-contains(Patrocinado)
-mundo724.com#?#.et_pb_column:-abp-has(p:-abp-contains(Publicidad))
-periodismokosher.com.ar#?#.widget-content:-abp-has(a[target="_blank"])
-photocall.tv#?#.dropdown:-abp-has(label:-abp-contains(VPN))
-prensa.com#?#.balcon.borderBottomDesktop:has(span:-abp-contains(patrocinado))
-recetasfacilescocina.com#?#section > h3:-abp-contains(Publicidad)
-semana.com#?#.section:-abp-has(.section-subtitle:-abp-contains(Contenido en colaboración))
-theobjective.com#?#.tno-article-block:-abp-has(span:-abp-contains(Branded content))
-walmart.com.mx#?#[data-testid="item-stack"] > div:-abp-contains(Patrocinado)
-yorokobu.es#?#.quicklink_w100:-abp-has(.publi-tag:-abp-contains(AD))
+elcomercio.pe#?##lateral:has(span:has-text(Auspiciado por:))
+lavoz.com.ar#?#.clearfix.list-cards.mb1.section-ciudadanos:has(.title:has-text(Espacio de marca))
+mediamarkt.es#?#[data-test="mms-search-main"] aside:has-text(Patrocinado)
+mundo724.com#?#.et_pb_column:has(p:has-text(Publicidad))
+photocall.tv#?#.dropdown:has(label:has-text(VPN))
+prensa.com#?#.balcon.borderBottomDesktop:has(span:has-text(patrocinado))
+recetasfacilescocina.com#?#section > h3:has-text(Publicidad)
+semana.com#?#.section:has(.section-subtitle:has-text(Contenido en colaboración))
+theobjective.com#?#.tno-article-block:has(span:has-text(Branded content))
+walmart.com.mx#?#[data-testid="item-stack"] > div:has-text(Patrocinado)
+yorokobu.es#?#.quicklink_w100:has(.publi-tag:has-text(AD))
 ! ! top-level domain wildcard
 mercadolibre.*##.andes-card:has([href*="brand_ads"])
 mercadolibre.*##.ui-search-layout__item:has(.poly-component__ads-promotions)
-mercadolibre.*#?#.ui-recommendations-carousel-wrapper-ref:-abp-contains(Promocionado)
+mercadolibre.*#?#.ui-recommendations-carousel-wrapper-ref:has-text(Promocionado)
 !
 ahorradororata.com###banner_footer
 paxinasgalegas.es###banner_superior
@@ -2611,8 +2611,8 @@ famosateca.es##div[align^="center"]
 videospornogratisx.net##img[width="300"]
 videospornogratisx.net##img[width="728"]
 ! Advanced element hiding rules for Adblock Plus
-muyzorras.com#?#.c.d1:-abp-has(div:-abp-contains(Más cosas interesantes))
-videospornogratisx.net#?#.block:-abp-has(>h3:-abp-contains(WEBCAM PORNO XXX))
+muyzorras.com#?#.c.d1:has(div:has-text(Más cosas interesantes))
+videospornogratisx.net#?#.block:has(>h3:has-text(WEBCAM PORNO XXX))
 !-----------------------Allowlists to fix broken sites------------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_allowlist.txt ***
 @@||20m.es/prebid/$script,domain=20minutos.es

@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603181100
+! Version: 202603181120
 ! Title: EasyPrivacy
-! Last modified: 18 Mar 2026 11:00 UTC
+! Last modified: 18 Mar 2026 11:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e39988f7f668079d14777296d0977099f571c6ed
+! Commit: 153da79021deeaee1bc78e7a07ffb8ff7123e498
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16958,7 +16958,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ||googletagmanager.com/gtag/js$important,redirect=googletagmanager_gtm.js,script,xmlhttprequest,domain=redstoneonline.jp
 ! abema.tv
 ! #if cap_html_filtering
-abema.tv##^script:has-text(NREUM)
+abema.tv#?#^script:has-text(NREUM)
 ! #else
 abema.tv##+js(rmnt, script, NREUM)
 ! #endif

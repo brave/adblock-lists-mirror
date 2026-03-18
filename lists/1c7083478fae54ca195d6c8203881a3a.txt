@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.2.5
+! Version: 4.3.2.6
 
 ! General
 
@@ -199,9 +199,9 @@ harpers.org##+js(cookie-remover, hr_session)
 ||adobedtm.com/*/launch-*.js$script,domain=hbr.org
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=hbr.org
 ||hilltimes.com/*/js/loadingoverlay/loadingoverlay.min.js$script,~third-party
-hindustantimes.com##div[class^="sub-paywall-version"],.closeStory
-hindustantimes.com##+js(rc, freemiumText, .freemiumText)
-hindustantimes.com##+js(rc, open-popup, body.open-popup)
+hindustantimes.com##+js(rc, paywall, .paywall, stay)
+hindustantimes.com##+js(rc, hide, .hide, stay)
+hindustantimes.com##div.paywall-container,div[class^="sub-paywall-version"],section[amp-access="NOT userSubscribed"]
 ilfattoquotidiano.it##+js(rc, cropped, article[id].cropped)
 ilfattoquotidiano.it##div#ifq-paywall-metered
 ilsole24ore.com##+js(ra, style, body[style], stay)
@@ -460,6 +460,7 @@ diariocorreo.pe,elcomercio.pe,gestion.pe##div[class^="content_gpt"]
 ! Grupo El Mercurio
 ||elmercurio.com/assets/js/merPramV2.js$script,~third-party
 ||elmercurio.com/assets/js/vendor/modal.js$script,~third-party
+||emol.cl/js/deportes/FuncionesComun.min.js$script,domain=elmercurio.com
 ||emol.cl/assets/js/merPramV2.js$script,domain=elmercurio.com
 ||emol.cl/assets/js/vendor/modal.js$script,domain=elmercurio.com
 elmercurio.com##+js(rc, lessreadmore, article.lessreadmore, stay)

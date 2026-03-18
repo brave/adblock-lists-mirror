@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: PkssRbqi6Xe8btjJVfaDQw
+! Checksum: cBdZM+W6URXOmsKoGlVAIA
 ! Title: Easylist Cookie List
-! Last modified: 2026-03-18 01:00 UTC
+! Last modified: 2026-03-18 02:50 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -20648,7 +20648,7 @@ moebelix.at##body > div > div:has(#jentis_consent)
 boomlify.com##div > div:has-text(We use cookies to improve your experience.)
 yogainternational.com##div[class^="elements__Banner-"]:has(> div > a[href$="-privacy-policy"])
 help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-text(Elfogadás))
-kick.com#?#.z-modal:-abp-contains(You are in control of cookies used)
+kick.com#?#.z-modal:has-text(You are in control of cookies used)
 ura.news#?#.gR.t:has-text(Сайт использует cookie.)
 ! Intranet blocks
 ! Domains that won't show up publicly. (like airplane wifi domains)
@@ -22639,6 +22639,7 @@ gptgirlfriend.online##+js(set-local-storage-item, cookie-consent, 1)
 cua.ai##+js(set-local-storage-item, cookie-consent, accepted)
 addonup.com##+js(set-local-storage-item, cookie-consent, declined)
 emergetools.com##+js(set-local-storage-item, cookie-consent, false)
+openhardware.directory##+js(set-local-storage-item, cookie-consent, rejected)
 atlas.workland.com,jmonline.com.br,virginexperiencedays.co.uk##+js(set-local-storage-item, cookie-consent, true)
 lustery.com##+js(set-local-storage-item, cookie-consent-banner, declined)
 optionsgroup.com##+js(set-local-storage-item, cookie-consent-declined-version, 1)

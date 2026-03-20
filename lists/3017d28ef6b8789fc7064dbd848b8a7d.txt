@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603202242
+! Version: 202603202316
 ! Title: EasyPrivacy
-! Last modified: 20 Mar 2026 22:42 UTC
+! Last modified: 20 Mar 2026 23:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cc73ac1bb42f0fb3da79167f72f327b8c181bc23
+! Commit: 7a0d1cc93e628197fac6636a13353ed5b05e48c0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1584,6 +1584,7 @@
 /mpulse.min.js
 /ms-widgets/tracking-cookies/*
 /ms.analytics-web-3.min.js
+/msq.tracker.min.js
 /mtc.js
 /mtifonttracker.js
 /mtiFontTrackingCode.js
@@ -2784,6 +2785,7 @@
 /whisper?event=
 /white_pixel.gif?
 /wildfire/i/CIMP.gif?
+/wix-code-telemetry-collector/*
 /wix-engage-visitors-
 /wlexpert_tracker.js
 /wmxtracker.js
@@ -4949,6 +4951,7 @@ omni.soundestlink.com$image
 ||ibpxl.net^$third-party
 ||ic-live.com^$third-party
 ||iclive.com^$third-party
+||icreate-campaign.com^$third-party
 ||icstats.nl^$third-party
 ||iculture.report^$third-party
 ||id-visitors.com^$third-party
@@ -15638,6 +15641,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nid.thetimes.com^
 ||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
+||nixie.starlightnet.work^
 ||no9pldds1lmn3.soundcloud.com^
 ||noblocktape.com/stat/
 ||noodle.backmarket.io^

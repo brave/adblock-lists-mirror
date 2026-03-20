@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JRcoyhkXS41nkzPanNMhBw
-! Version: 202603201741
+! Checksum: 2lUscw7KNY9ZuqUMOP/LJg
+! Version: 202603201811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Mar 2026 17:41 UTC
+! Last modified: 20 Mar 2026 18:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14850,6 +14850,7 @@ obmenvsem.org#?#.item:-abp-has(> div > [src*="pek.png"])
 appmo.org#?#.item:-abp-has(> script)
 appmo.org#?#.item:-abp-has([src*="/images/pek.png"])
 ketchuptv.ru##.itemFullText > center + div[style*="center"]
+smartpress.by##.item_banner
 mypresentation.ru##.items > .p-item ~ div[class][style]
 sexsmotri.com##.items-list > noindex
 bookmo.org,eromo.org,vidmo.org,vpopke.com#?#.items:-abp-has(> .item-card [src*="/images/pek.png"])
@@ -15053,7 +15054,7 @@ armtv.org,gorod.cn.ua##.main > noindex
 pik.net.ua##.main > section:not([class]) ~ br
 driveroff.net,samlab.ws##.main > table[height="128"]
 73online.ru,gorod24.online##.main-b
-rapsinews.ru##.main-banner
+rapsinews.ru,smartpress.by##.main-banner
 1in.am##.main-banner-wrapper
 gorod24.online##.main-banners
 rideo.tv##.main-body > .box-admin ~ .box-admin
@@ -25681,6 +25682,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ||shokru.com/wp-content/plugins/elegance-modal-box/
 ||sim-portal.ru/jfbe7r9.js
 ||slovoidilo.ua/cp/css/reminder.css$stylesheet
+||smartpress.by/bitrix/js/slam.cookie/script.js
 ||sovkusom.ru/wp-content/plugins/as-social-popup/
 ||stroyres.net/wp-content/plugins/social-community-popup/
 ||takiedela.ru/wp-content/themes/takiedela/assets/js/min/social.js

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eddL5FqUJ5jENMrf0/OLTA
-! Version: 202603210050
+! Checksum: xdeu0Frjro20gRx4eKgkiw
+! Version: 202603210250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-03-21 00:50 UTC
+! Last modified: 2026-03-21 02:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41331,6 +41331,9 @@ alphatronmarine.com,amrecycling.nl,bassant.nl,bploodsen.nl,cilgro.nl,compair-air
 ! pubg.com
 pubg.com##.has-dimmed-bg
 pubg.com##body,html:style(overflow: auto !important; position: initial !important;)
+! postnl pnl-cookie-wall-widget
+postnl.be,postnl.nl##body:style(position: static !important; overflow: auto !important; width: auto !important;)
+postnl.be,postnl.nl##pnl-cookie-wall-widget:remove()
 ! simyo.es
 simyo.es##.simyo-cookies
 simyo.es##body,html:style(overflow: auto !important; position: initial !important;)

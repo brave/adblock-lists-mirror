@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.3.1
+! Version: 4.3.3.2
 
 ! General
 
@@ -373,8 +373,6 @@ thequint.com##+js(ra, class|style, div#story-body-wrapper, stay)
 /\.thesaturdaypaper\.com\.au\/.+\/(\w+-){3,}/$inline-script,domain=thesaturdaypaper.com.au
 thesaturdaypaper.com.au##div.paywall-hard-always-show
 ||thetimes.com/wp-content/plugins/tm-wp-zephr/$script,~third-party
-thetimes.com##html:style(overflow: auto !important;)
-thetimes.com##body:style(overflow: auto !important;)
 thetimes.com##+js(rc, TeaserPage, body.TeaserPage)
 theweek.com##+js(rc, paywall-locker, div.paywall-locker)
 theweek.com##div.kiosq-main-layer
@@ -420,9 +418,9 @@ bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesternda
 voguebusiness.com##+js(cookie-remover, userId)
 
 ! Crain Communications
-adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
-adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
-.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|precisionmedicineonline.com
+adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
+adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
+.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|crainsgrandrapids.com|genomeweb.com|precisionmedicineonline.com
 european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 

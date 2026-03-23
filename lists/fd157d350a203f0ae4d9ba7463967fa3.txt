@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pEGL/LZJjVK/YjlUhSthFw
-! Version: 202603230922
+! Checksum: vZhuLTyborbJThQhn5U+6w
+! Version: 202603230952
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Mar 2026 09:22 UTC
+! Last modified: 23 Mar 2026 09:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1145,6 +1145,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##[href*="pigiuqproxy.com"]
 ##[href*="postlnk.com"]
 ##[href^="https://download.cdn.yandex.net/yandex-tag/weboffer/"]
+~dzen.ru,~sportsdzen.ru##[href^="https://dzen.ru"]
 ##[href^="https://pxl.leads.su/click/"]
 ##[href^="https://trkleads.su/click/"]
 ##[id^="n4p_"]
@@ -17502,7 +17503,6 @@ ctc-rnd.ru##a[href*=".space"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.org##a[href*=".vkplay.ru"]
 wintorrents.ru##a[href*=".wintorrents.ru"]
 1tv.ru,drive.ru,f1news.ru,film.ru,gamemag.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,tolknews.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
-360tv.ru,5-tv.ru,7days.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bfm.ru,bryansknovosti.ru,bst.bratsk.ru,comnews.ru,coop-land.ru,eg.ru,energyfm.ru,expert.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,gorodche.ru,gorodvo.ru,habr.com,inosmi.ru,ixbt.com,ixbt.shop,kommersant.ru,kulturologia.ru,ladys.media,life.ru,mash.ru,media.az,metronews.ru,mgazeta.com,mk.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,moika78.ru,mydecor.ru,mywebpc.ru,myweekend.ru,naked-science.ru,neftegaz.ru,nevasport.ru,new-magazine.ru,news.ru,newskrasnodar.ru,ngzt.ru,novozybkov.su,nsn.fm,ohotniki.ru,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pg11.ru,pg37.ru,pg46.ru,pnz.ru,prochepetsk.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorodchelny.ru,progoroduhta.ru,radio1.ru,regnum.news,regnum.ru,ridlife.ru,rifey.ru,rodgor-vlg.ru,rodina-history.ru,rusnext.ru,russian.rt.com,rutube.ru,securitymedia.org,sm.news,smotrim.ru,soccer.ru,sovsport.ru,sport-express.net,sport-express.ru,sportsdaily.ru,stiletto.blog,stolicaonego.ru,stratege.ru,super.ru,syzran-small.ru,teleprogramma.org,thegirl.ru,timeweb.com,tochka.by,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,utyug.info,vz.ru,womanhit.ru,www1.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
 beatmake.ru##a[href*="//go.acstat.com/"]
 porno-island.site##a[href*="//goo.su/"]
 adult-images.ru,imgbum.ru,screenpost.ru,xpicture.ru##a[href*="//parnuxi.biz"]
@@ -23684,7 +23684,6 @@ liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
 liveinternet.ru##[data-wrapper]
 mail.ru##[href*="https://dzen.ru"]
-~dzen.ru,~sportsdzen.ru##[href^="https://dzen.ru"]
 vk.com,vk.ru##[id^="post-"] > ._post_content > :only-child
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
@@ -24013,6 +24012,7 @@ dzen.ru##[id*="news_discrete_right"]
 sportsdzen.ru##div[class*="-sports-button-ad_"]
 dzen.ru##div[class*="DirectAdvert"]
 dzen.ru#?#div[class*="DiscreteCard-desktop"]:-abp-has(> [id*="story-skeleton"])
+dzen.ru##div[class*="Item-desktop__ad-"]
 dzen.ru##div[class*="MyTargetAdvert"]
 dzen.ru##div[class*="_advertItem"]
 sportsdzen.ru##div[class*="bookmakerOdds"]

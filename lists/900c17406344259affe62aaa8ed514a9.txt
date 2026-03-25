@@ -3,7 +3,6 @@
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
 ! --- uBO scriptlets injection rules & other ---
-ixbt.pro###branding-ssr-style:remove()
 growhow.in.ua###custom-background-css:remove()
 playground.ru###dfpPrerollDelay:remove()
 freesoft.ru###downloadAdModal:remove()
@@ -584,6 +583,7 @@ rutube.ru##body.wdp-scroll:style(overflow-y: auto !important)
 tapochek.net##body:has(#register_link) > canvas
 tapochek.net##body:has(#register_link) > canvas:remove()
 volyn.com.ua##body:remove-attr(/oncopy|onselectstart|oncontextmenu/)
+ixbt.pro##body:remove-class(branding)
 my-expert.ru##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 sawlive.tv##body[onclick^="closeMyAd"] > div[id][style*="position"][style*="background-color"]
 cosplay-porn.*,fap-guru.*,mult-porno.*,sex-studentki.*##+js(remove-node-text, script, /initTeasers|initVads/)
@@ -626,6 +626,7 @@ kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class
 igromania.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class*="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] [class^="TextContent_text"] > p:-abp-contains(/^Реклама:/)) [class^="material-content_"] a[href][target="_blank"]:not([href^="https://www.igromania.ru/"]):style(color: inherit !important; pointer-events: none !important)
 smaxim.*##+js(set-constant, flashvars.protect_block, '')
 studizba.com,surl.*##+js(nano-setInterval-booster, #timer)
+ixbt.pro##style[id^="branding-"]:remove()
 translate.yandex.ru,translate.yandex.*##+js(set-constant, Object.prototype.dispatchSignalCallbacks, undefined)
 3dnews.ru##video[autoplay="autoplay"]:remove-attr(autoplay)
 kino-teatr.ru,kinoafisha.info,kinonews.ru##videotronic-player:remove-attr(data-video-autoplay)

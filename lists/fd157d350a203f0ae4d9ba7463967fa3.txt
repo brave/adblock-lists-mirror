@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MEwc1PNBbKOtRdyGEixvaw
-! Version: 202603251022
+! Checksum: B0pRr0uQO+34mxiNlNi2fQ
+! Version: 202603251052
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Mar 2026 10:22 UTC
+! Last modified: 25 Mar 2026 10:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24637,7 +24637,7 @@ gazeta.press,gazeta.ru##div[id^="block_pad_id"]
 ! RBC (РБК)
 cnews.ru,utro.ru##.banner
 rbc.ru##.branding-block
-rbc.ru##.central-publisher-item[data-name="CommercialAnons"]
+rbc.ru##.central-publisher-item[data-name^="CommercialAnons"]
 rbc.ru##.fox-fallback
 rbc.ru,sportrbc.ru##.g-banner__news-footer > div[class="js-rbcslider-multi-news"]
 safe.cnews.ru##.header-brand-logo

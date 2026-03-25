@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5qrbPOy6p5QJI8LuOvyojA
-! Version: 202603251331
+! Checksum: WR6U1alW9gMvaUgq/UXxIw
+! Version: 202603251422
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Mar 2026 13:31 UTC
+! Last modified: 25 Mar 2026 14:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14095,6 +14095,7 @@ glavnoe.net,infotime.co##.comments-wrapper
 pikabu.ru##.comments__adv
 car.ru##.commercial
 aniliberty.top,anilibria.top##.commercial-banner
+vedomosti.ru##.commercial-logo
 yantann.rbsmi.ru,yanzori.rbsmi.ru##.commercical_wrap
 sportanalytic.com##.common_content_news > .news > center
 samara24.ru##.common_left > [id^="rep_"] > .bl_main
@@ -14707,6 +14708,7 @@ konkurent.ru##.hidden-print
 itc.ua##.hidden-sm[style^="min-height:"]
 rgho.st##.hidden-xs.alert-warning
 russian.rt.com##.hide--partner--block
+vedomosti.ru##.hide-offer
 vokrug.tv##.hide_640
 finanz.ru##.highlightbox.content_box
 www.film.ru##.hochuvkino
@@ -15456,6 +15458,7 @@ superkarate.ru##.page-content > .row
 selezen.club,selezen.net,selezen.org#?#.page-content > .row > div[class^="col"] + div[class^="col"] > div:-abp-has(> .card h6:-abp-contains(/Реклама|Друзья/i))
 3m2.ua##.page-content section a[href^=http][target="_blank"]:not([href^="https://3m2.ua/"]) > img
 dumka.poltava.ua##.page-element > .page-element__ads ~ .page-element__ads
+vedomosti.ru##.page-gallery__loader
 mmotop.ru##.page-header > .bg-one-server
 mmotop.ru##.page-header > .left
 mmotop.ru##.page-header > .right
@@ -16460,7 +16463,6 @@ starhit.ru,uralweb.ru,www.ixbt.com##.tgb
 vbr.ru##.tgb-content
 parents.ru##.tgb__heading
 telegraf.com.ua##.tgr-ads
-vedomosti.ru##.the-header__top a[href*="?erid="]
 ria.ru#?#.the-in-carousel__item:-abp-has(> [data-has-banner])
 vedomosti.ru##.the-loader
 lifehacker.ru#?#.the-tv__observer:-abp-has(.lh-article-card-meta__partner)

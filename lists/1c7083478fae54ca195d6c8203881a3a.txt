@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.3.3
+! Version: 4.3.3.4
 
 ! General
 
@@ -374,7 +374,10 @@ thequint.com##+js(ra, class|style, div#story-body-wrapper, stay)
 /\.thesaturdaypaper\.com\.au\/.+\/(\w+-){3,}/$inline-script,domain=thesaturdaypaper.com.au
 thesaturdaypaper.com.au##div.paywall-hard-always-show
 ||thetimes.com/wp-content/plugins/tm-wp-zephr/$script,~third-party
+thetimes.com##html:style(overflow: auto !important;)
+thetimes.com##body:style(overflow: auto !important;)
 thetimes.com##+js(rc, TeaserPage, body.TeaserPage)
+thetimes.com##div#paywall-portal-page-footer
 theweek.com##+js(rc, paywall-locker, div.paywall-locker)
 theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)

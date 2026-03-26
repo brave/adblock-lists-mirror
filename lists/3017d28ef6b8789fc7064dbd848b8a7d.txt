@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603261101
+! Version: 202603261127
 ! Title: EasyPrivacy
-! Last modified: 26 Mar 2026 11:01 UTC
+! Last modified: 26 Mar 2026 11:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: eb5616457021cf7dc63fe3b83af46e11379babcd
+! Commit: 8118c4095b369c049fd6b52ab35b06a073e21f3c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -5124,7 +5124,6 @@ omni.soundestlink.com$image
 ||landingpg.com^$third-party
 ||lasagneandands.com^$third-party
 ||lasso.link^$third-party
-||ldoverseas.com^$third-party
 ||lead-123.com^$third-party
 ||leadberry.com^$third-party
 ||leadbi.com^$third-party
@@ -11411,6 +11410,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
 ||lcs.naver.com^
+||ldoverseas.com/public-gateway/*/activity
 ||leadliaison.com/tracking_engine/
 ||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
@@ -55402,7 +55402,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||stats.wp.com/w.js$script,domain=wordpress.com
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||store.storeimages.cdn-apple.com^*/appmeasurement.js$domain=apple.com
-@@||sv-pub-gw.ldoverseas.com/public-gateway/ms-player/sdk_/player/pre/mailLogin$xmlhttprequest,domain=strinova.com
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
 @@||tagcommander.com^*/tc_$script
 @@||tags.news.com.au/prod/heartbeat/$script

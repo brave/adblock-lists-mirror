@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lCW5yFrYmO2anW/Ozo4q9A
-! Version: 202603261651
+! Checksum: EjiQrLVhlS5pfbHvNZqxbQ
+! Version: 202603261722
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Mar 2026 16:51 UTC
+! Last modified: 26 Mar 2026 17:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1141,6 +1141,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##[href*="pigiuqproxy.com"]
 ##[href*="postlnk.com"]
 ##[href^="https://download.cdn.yandex.net/yandex-tag/weboffer/"]
+~dzen.ru,~sportsdzen.ru##[href^="https://dzen.ru"]
 ##[href^="https://dzen.ru"]
 ##[href^="https://pxl.leads.su/click/"]
 ##[href^="https://trkleads.su/click/"]
@@ -26594,7 +26595,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||zserials.me/upload$image,domain=zserials.me
 @@||zviazda.by^*/300x250/$image,domain=zviazda.by
 4pda.to#@#[data-revive-zoneid]
-dzen.ru,sportsdzen.ru#@#[href^="https://dzen.ru"]
 espreso.tv,tasix.me#@#[id*="ScriptRoot"]
 disk.yandex.ru,disk.yandex.*#@#.content_ads
 blocksandfiles.com,milanac.ru#@#div[class*="td-a-rec-id-"]

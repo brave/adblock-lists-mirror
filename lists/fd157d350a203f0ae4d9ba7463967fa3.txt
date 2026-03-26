@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AYDgDkYRmqcDXl91gi+dkg
-! Version: 202603261532
+! Checksum: yEyajmB4KCQSqgdTX9Z5GQ
+! Version: 202603261632
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Mar 2026 15:32 UTC
+! Last modified: 26 Mar 2026 16:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24685,6 +24685,7 @@ rbc.ru##.video-player__controls__ad-countdown
 utro.ru#?#[class*="title"]:-abp-contains(/новости партнеров/i)
 rbc.ru##[class^="SportMainBetBlocks_"]
 rbc.ru##[data-name="SimplePromoCard"]
+rbc.ru##[data-name="WithButtonPromoCard"]
 rbc.ru##[data-placement]
 rbc.ru##[data-yandex-name^="selfpromo_"]
 rbc.ru##[data-yandex-show="cards_marketplace_show"]

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.3.4
+! Version: 4.3.3.5
 
 ! General
 
@@ -433,10 +433,9 @@ dailymail.co.uk,mailonsunday.co.uk,thisismoney.co.uk##+js(rc, is-paywalled-artic
 ||dailymail.co.uk/static/mol-adverts/$script
 
 ! GEDI.it sites
-||huffingtonpost.it/*/news/$inline-script
 ||lastampa.it/*/news/$inline-script
-huffingtonpost.it,lastampa.it##+js(cookie-remover, blaize_session)
-huffingtonpost.it,lastampa.it##aside#widgetDP,div[id^="adv"]
+lastampa.it##+js(cookie-remover, blaize_session)
+lastampa.it##aside#widgetDP,div[id^="adv"]
 ||scripts.repubblica.it/pw/pw.js$script,domain=italian.tech|moda.it
 italian.tech,moda.it##div#ph-paywall:remove()
 italian.tech,moda.it##+js(ra, style, div#article-body, stay)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: whnrfJ3NTt/N+Vu6QLLG8A
-! Version: 202603280812
+! Checksum: gUUSvs9kVWAkEH58J9kaMQ
+! Version: 202603280842
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Mar 2026 08:12 UTC
+! Last modified: 28 Mar 2026 08:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -26911,7 +26911,7 @@ sntch.com#?#article > p:-abp-contains(/отключите блокировку �
 3drubik.ru##body > #page ~ div[id][class]
 fapvdo.ru##body > #txt
 24pdd.kz##body > .preloader
-doctorrouter.ru,gamingsym.in,ranobe-novels.ru,transformator220.ru,vita-water.ru,wuxiaworld.ru##body > :not([id]):not([class]):not(script)
+doctorrouter.ru,gamingsym.in,ranobe-novels.ru,transformator220.ru,vita-water.ru,wuxiaworld.ru##body > :not([id]):not([class]):not(script):not(form)
 mirdiets.ru,top10books.ru##body > [class*="-blackout active"]
 mirdiets.ru,top10books.ru##body > [class*="-blackout active"] + div[class$="-wrapper"]
 iblitzmods.ru##body > [class^="adbd-"]

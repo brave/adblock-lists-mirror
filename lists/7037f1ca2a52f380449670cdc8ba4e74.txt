@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202603280018
+! Version: 202603281248
 ! Title: ABPindo
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 28 Mar 2026 00:18 UTC
+! Last modified: 28 Mar 2026 12:48 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
@@ -482,12 +482,14 @@ tokosatu.com#@#.popupflyin-clicks-area
 ###Iklan-Melayang
 ###ad_bawah
 ###adsbawah1
+###adsbawah2
 ###adsimgxatas
 ###adsimgxatas2
-###adsimgxatass
 ###adsimgxbawah
 ###adsimgxbawah2
 ###adskanan1
+###adskanan2
+###adskanan3
 ###adskiri1
 ###adskiri2
 ###adskiri3
@@ -523,7 +525,18 @@ tokosatu.com#@#.popupflyin-clicks-area
 ###iklan
 ###iklan-atas
 ###iklan-bawah
+###iklan-desktop-half_page
+###iklan-desktop-leaderboard1
+###iklan-desktop-leaderboard2
+###iklan-desktop-rectangle1
+###iklan-desktop-rectangle2
+###iklan-desktop-rectangle3
+###iklan-desktop-rectangle4
+###iklan-desktop-skyscrapper
+###iklan-desktop-top_banner
+###iklan-desktop-under_image
 ###iklan-giantbanner
+###iklan-head
 ###iklan-kanan-postingan
 ###iklan-kiri
 ###iklan-newsfeed
@@ -534,6 +547,8 @@ tokosatu.com#@#.popupflyin-clicks-area
 ###iklan-rekanan2
 ###iklan-sidebar
 ###iklan-sidebar1
+###iklan-skin-left
+###iklan-skin-right
 ###iklan-sticky
 ###iklan-tengah
 ###iklan-tengah1
@@ -1930,6 +1945,7 @@ lk21official.mom##[id^="btop-"]
 nontonfilmgratis.club##[id^="floating_banner"]
 mangaku.bio##[id^="ftads"]
 tirto.id##[id^="gpt-inline"]
+jawapos.com##[id^="iklan"]
 cubmu.com##[id^="rubiconTag"]
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##[id^="wrapper-IDN_"]
 idfl.me##[id^="yui-gen"].postcontainer
@@ -1937,6 +1953,7 @@ tempo.co##[src="/_ipx/_/close.png"]
 kompas.com##[src^="https://adsimg.kompas.com"]
 iberita.com##[style="float:right; margin:7px 0 10px 10px;"] > small
 katadata.co.id##[style="height:0; min-height:180px;"]
+jawapos.com##[style^="height"][style$="align-items: center;"]
 insertlive.com##[style^="padding-top:16px;margin-bottom:24px;"]
 yasir252.com##a#download-link[rel]
 idxx1.*##a.bnner
@@ -2066,7 +2083,10 @@ shinigami09.*##.lepopup-popup-overlay
 playeriframe.*##.message-box
 play.youvid.org##.player-overlay
 samehadaku.*##[href^="https://t.ly/"]
+jawapos.com##button[aria-label="Tutup Iklan"]
 samehadaku.*##div[class*="player-iklan"]
+jawapos.com##div[id="ads-leaderboard1-x"]
+jawapos.com##div[id="ads-leaderboard2-x"]
 winbu.*##div[id^="playerIklan"]
 samehadaku.*##img[style="width: 50%; height: 70px;"]
 herworld.co.id##p:nth-of-type(2)

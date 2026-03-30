@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Dst7yuzqJsW+sgepLc+VjA
-! Version: 202603301342
+! Checksum: rePEWRb3ag6zNYo27T3IiA
+! Version: 202603301432
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Mar 2026 13:42 UTC
+! Last modified: 30 Mar 2026 14:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10527,7 +10527,6 @@ _tizers.
 ||viaqoo.tech^$third-party
 ||viavideo.digital^$third-party
 ||vicodes.com^$third-party
-||victorycorp.ru^$third-party
 ||vidalak.com^$third-party
 ||vidasys.ru^$third-party
 ||vidaugust.ru^
@@ -11442,6 +11441,11 @@ _verified.php?code=*&server=runetki.com
 ! Эти CDN помимо легальных сайтов обслуживают фейковые зеркала 1xbet
 ||ccdnss.com^$third-party,domain=~1xbet.by|~1xbet.com|~1xbet.com.gh|~1xbet.kz|~1xbet.ng|~1xbet.tj|~betwinner.com|~fan-sport.com|~ua-1x-bet.com
 ||cdnsfree.com^$third-party,domain=~1xbet.by|~1xbet.com|~1xbet.com.gh|~1xbet.kz|~1xbet.ng|~1xbet.tj|~betwinner.com|~fan-sport.com|~ua-1x-bet.com
+!
+! Чёрный трекинг
+||adfax.ru^$third-party
+||qoopler.ru^$third-party
+||victorycorp.ru^$third-party
 !
 ! Сайты-фейки и мошенники
 .24smi.host^

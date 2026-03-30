@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gi/dEvn49gTVf8alzYvKUA
-! Version: 202603301151
+! Checksum: NMdhltPxjLZw1YV1ofYlxw
+! Version: 202603301221
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Mar 2026 11:51 UTC
+! Last modified: 30 Mar 2026 12:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16362,6 +16362,7 @@ pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [href*="?e
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [href*="dhwnh.com"])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [title*="?erid="])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [title*="dhwnh.com"])
+pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main p:-abp-contains(/Реклама.* ИНН /i))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__placeholder)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has([class*="sponsor"])
 pikabu.ru##.stories-feed__related-stories-adv

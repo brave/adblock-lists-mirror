@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JVUf5Fq3wp/+DjlSHSH4aw
-! Version: 202603301252
+! Checksum: Dst7yuzqJsW+sgepLc+VjA
+! Version: 202603301342
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Mar 2026 12:52 UTC
+! Last modified: 30 Mar 2026 13:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16356,6 +16356,7 @@ za4eti.ru##.stl_d3 [class^="stl_"],.stl_d3 [class^="stl_"] + br
 infox.ru#?#.stlt:-abp-contains(Реклама)
 igry-man.net##.stockgame
 gdz.ru##.store-hosting
+pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main .story__advert-info)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main .story__promo)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main > [id])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [href*="?erid="])

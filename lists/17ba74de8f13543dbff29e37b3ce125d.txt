@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603300655
+! Version: 202603300739
 ! Title: EasyList
-! Last modified: 30 Mar 2026 06:55 UTC
+! Last modified: 30 Mar 2026 07:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 96701e80e0d22749884650bd5ab054789f408a41
+! Commit: 21c7f1e51980369038269d384390100578eb1576
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -35605,6 +35605,7 @@ browsershots.org#@#.advert_area
 ||iehbhejfnetvc.site^
 ||iehqbqkfbtgxi.xyz^
 ||iehundhjvidxf.site^
+||ieiecooqvvmp.com^
 ||ieiyqbcjpksbk.website^
 ||iekfxxkrpjock.space^
 ||ieladhfhoiclv.online^
@@ -46783,6 +46784,7 @@ browsershots.org#@#.advert_area
 ||ocellidrunt.cyou^
 ||ocelluswahoo.shop^
 ||ocelyuugvinth.site^
+||ocezkkczukfcn.website^
 ||ocfjvotbgoeebc4mow7ywygpyyxy.cfd^
 ||ocfzcwlruvdwg.website^
 ||ocgzlnsyzsoqn.website^
@@ -51499,6 +51501,7 @@ browsershots.org#@#.advert_area
 ||ptwmjmp.com^
 ||ptxhfxkvetqjn.online^
 ||ptxqbehmaxrik.online^
+||ptyalinflittedghosted.qpon^
 ||ptypfiawb.in^
 ||ptzpvltmyqdyn.online^
 ||puabhxebvxluh.space^
@@ -52174,6 +52177,7 @@ browsershots.org#@#.advert_area
 ||qfqaybobravyc.website^
 ||qfqbznmeuztgs.website^
 ||qfqdbkxmovpli.xyz^
+||qfqgzbbjjutfs.site^
 ||qfuylknxlzlpv.online^
 ||qfvwrmnluepss.site^
 ||qfwwhelkdjaeu.buzz^
@@ -89065,7 +89069,7 @@ walmart.*#?#div > div[io-id]:has-text(Sponsored)
 walmart.*#?#div[role="group"]:has(div:has-text(/Sponsored|Commandité/))
 yelp.*#?#main[class^="searchResultsContainer"] li h2:has-text(Sponsored)
 yts.*#?#.bbj:has-text(Warning)
-yts.*#?#.col-lg-12:has-text(Please enable)
+yts.*#?#.col-lg-12:has-text(/Please enable|indirirken/)
 ! ABP CSS injection filters
 benzinga.com##.cUDaEv {margin-top:162px !important;}
 benzinga.com##.gZyLpV .mobile-header {margin-top:0 !important;}

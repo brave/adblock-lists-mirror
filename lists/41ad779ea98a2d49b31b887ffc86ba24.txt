@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BMZ2Vgvq4WNvzQ5nhLtaxw
-! Version: 202603310200
+! Checksum: g8TM5PX5wE0IiIHNEimCnQ
+! Version: 202603310450
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-03-31 02:00 UTC
+! Last modified: 2026-03-31 04:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -51002,6 +51002,7 @@ ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.n
 ! Japanese
 bluetti.jp###dynamic-react-root + div:has(> div.needsclick input[id^="email_"])
 hotokami.jp###half-fixed-modal-visibled
+honichi.com###popup
 hotokami.jp##.bg-teal-500[href^="/subscription/landing_page/benefit"][onclick]
 product.minebeamitsumi.com##.bottom-popup
 rocket-boys.co.jp##.fixed-bottom
@@ -52622,6 +52623,10 @@ temu.com##body:style(overflow: auto !important; position: initial !important;)
 ! ringkestore.com
 ringkestore.com##body,html:style(overflow: auto !important; position: initial !important;)
 ringkestore.com##pop-up
+! honichi.com
+honichi.com##.mailmag-modal
+honichi.com##.modal-backdrop
+honichi.com##.modal-open:style(overflow: auto !important;)
 ! fanboy_newsletter_allowlist.txt
 @@||assets.mailerlite.com/js/universal.js$script,domain=player.real.gr
 @@||e24.no/cnp-assets/components-NewsletterWidget.$~third-party

@@ -28,6 +28,7 @@
 !#endif
 hdhub4u.fail,hubdrive.*,moviesubtitles.click,telegratuita.com##+js(aeld, DOMContentLoaded, script[data-domain=)
 141jav.com,moviesjoy-to.*##+js(acs, document.createElement, script[data-domain=)
+filmifen.com##+js(aeld, load, document.body.appendChild(s))
 ! invoke.js
 !#if env_safari
 /\/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\/invoke\.js/$script,3p
@@ -68,6 +69,7 @@ hdhub4u.fail,hubdrive.*,moviesubtitles.click,telegratuita.com##+js(aeld, DOMCont
 ||thunderapostrophefunds.com^
 ||toolsorganized.com^
 ||bedsidetray.com^$all
+||cheaplyhumiliatedhunt.com^$all
 ||costly-storm.com^$all
 ||garnishdecoction.com^$all
 ||grindsteeplesprung.com^$all
@@ -2685,6 +2687,11 @@ glebul.com##p:has-text(???????)
 !#endif
 filmizip.com##+js(no-fetch-if, googlesyndication, length:40000-60000)
 filmizip.com##+js(nowoif)
+
+! https://github.com/uBlockOrigin/uAssets/issues/32399
+||filmifen.com/templates/filmi/js/adb.js
+filmifen.com##+js(aeld, DOMContentLoaded, adb)
+filmifen.com##+js(aeld, contextmenu)
 
 ! NOTE: Chinese
 ! https://github.com/uBlockOrigin/uAssets/issues/29188

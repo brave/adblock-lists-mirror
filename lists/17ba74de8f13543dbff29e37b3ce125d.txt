@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604021530
+! Version: 202604021603
 ! Title: EasyList
-! Last modified: 02 Apr 2026 15:30 UTC
+! Last modified: 02 Apr 2026 16:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 88995f43f54a3b8bb317c74091c6f001caa76b3a
+! Commit: 4ca360024328f80710d21443777247363697213d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -46562,6 +46562,7 @@ browsershots.org#@#.advert_area
 ||nowsubmission.com^
 ||nowtrk.com^
 ||nowvyyqhsf.com^
+||noxious-location.pro^
 ||noxiousinvestor.com^
 ||noxiousrecklesssuspected.com^
 ||noxiousrequirement.pro^
@@ -55405,6 +55406,7 @@ browsershots.org#@#.advert_area
 ||rnmygqopcphoq.site^
 ||rnobijyojinek.website^
 ||rnoliuuhsrqjc.site^
+||rnomkdzkunewx.space^
 ||rnotraff.com^
 ||rnpbmhmjxwmgs.website^
 ||rnqcztbdtxoup.site^
@@ -81399,6 +81401,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||xfree.com/api/banner/
 ||xgirls.agency/pg/c/
 ||xgroovy.com/65
+||xgroovy.com/bid?
 ||xgroovy.com/static/js/script.js
 ||xhaccess.com^*/vast?
 ||xhamster.com*/vast?
@@ -89082,6 +89085,7 @@ samsclub.com##div[class="mb0 ph0-xl pt0-xl bb b--near-white w-20 pb3-m ph1"]:has
 walmart.*##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(a[href="/sponsor"])
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(img[src="/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5"])
+producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(img[src^="/i/"])
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
 openalternative.co##div[class="relative flex"]:has(a[href="/advertise"])
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
@@ -90663,6 +90667,7 @@ amateur8.com##.is-av
 internationalsexguide.nl,usasexguide.nl##.isg_background_border_banner
 internationalsexguide.nl,usasexguide.nl##.isg_banner
 e-hentai.org##.itd[colspan="4"]
+xgroovy.com##.item-bnr
 fetishshrine.com##.item-holder
 amateurporn.me,eachporn.com##.item[style]
 drtuber.com##.item_spots

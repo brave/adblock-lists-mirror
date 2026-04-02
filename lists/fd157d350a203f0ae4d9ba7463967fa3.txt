@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zH47AGXHeha7PIcFa6iQfQ
-! Version: 202604021752
+! Checksum: KjRQKKc2rPeqPA+QXY4+LQ
+! Version: 202604021821
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Apr 2026 17:52 UTC
+! Last modified: 02 Apr 2026 18:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19204,6 +19204,7 @@ kontur-map.ru,ololo.fm##div[id^="DIV_DA"]
 relax-fm.ru##div[id^="GPM_Relax_fm_"]
 news.sportbox.ru##div[id^="GPM_sportbox_"]
 tasix.me##div[id^="M"][id*="Preload"]
+yap.ru,yaplakal.com##div[id^="MF_"]
 semestr.online,semestr.ru#?#div[id^="Math"][id$="Block"] > div:-abp-has(a[href]:not([href^="/"]):not([href*=".semestr."]))
 semestr.online,semestr.ru#?#div[id^="Math"][id$="Block"] > div:-abp-has(a[href^="https://zakaz.semestr.ru/"])
 meendoru.com##div[id^="MeendoBrand"]
@@ -19603,7 +19604,7 @@ virus-stop.com.ua##footer > .footer-main
 virus-stop.com.ua##footer > h4
 forum.cxem.net#?#form > article[id^="elComment_"]:-abp-has(strong > a[href$="-Adver/"])
 payeer-gift.ru##form > div[style^="width: 300px;"]
-yap.ru,yaplakal.com#?#form > table[id^="p_row_"]:nth-of-type(2):-abp-has(*:-abp-contains(Yap))
+yap.ru,yaplakal.com#?#form > table[id]:nth-of-type(2):-abp-has(b:-abp-contains(Yap))
 leonkrevs.ucoz.ru##form[action*="wmcasher.ru"]
 megaimg.ru##form[name="show_image"] > center
 arbatmedia.kz,day.kyiv.ua#?#h2:-abp-contains(/^новости партн|^новини партн/i)

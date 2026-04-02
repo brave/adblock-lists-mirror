@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vJ/NFASb0r9slzr5ilok6w
-! Version: 202604020852
+! Checksum: 9oCOcOnFImsX7BX7W/mKBg
+! Version: 202604020921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Apr 2026 08:52 UTC
+! Last modified: 02 Apr 2026 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13191,7 +13191,6 @@ turanpress.kz##.advertising-blank
 minfin.com.ua##.advertising-caption
 vinnitsa.info##.advertising-card
 infotime.co##.advertising-heading
-rozetka.com.ua##.advertising-slider-theme
 mlyn.by##.advertising-widget
 artemsannikov.ru##.advertisingColumn
 gamemag.ru##.advertising_review
@@ -14002,7 +14001,7 @@ echosevera.ru##.cartoon
 livejournal.com##.cat-widget__adv-container
 livejournal.com##.cat-widget__card-wrap--adv
 vsthemes.org#?#.catalog > .shorty:-abp-has(> .block)
-rozetka.com.ua#?#.catalog-grid > .catalog-grid__cell:-abp-has(> rz-catalog-tile [href*="/?advToken="])
+rozetka.com.ua#?#.catalog-grid > .catalog-grid__cell:-abp-has(> rz-catalog-tile [aria-label*=" про рекламу"])
 hotline.ua##.catalog-three-products
 yamart.ru##.catalogElAd
 tabletki.ua#?#.category-card__card-row > .col:-abp-has(> div .com__banner)
@@ -15004,7 +15003,7 @@ online-films.ckoro.ru##.link_test
 avtomaniya.com##.link_textblock > div[style="height:250px"]
 ucrazy.ru##.links
 newsua.ru##.lipuchka
-rozetka.com.ua#?#.list > rz-product-tile:-abp-has(> article [href*="/?advToken="])
+rozetka.com.ua#?#.list > rz-product-tile:-abp-has(> article [aria-label*=" про рекламу"])
 rabotasakhcom.ru##.list-banner
 aldebaran.ru##.list_other_sites
 aldebaran.ru##.list_other_tab
@@ -17390,7 +17389,8 @@ browserss.ru##[onclick^="window."][onclick*="://"]
 allboxing.ru##[onmouseenter="onClickPbButton()"]
 penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
-rozetka.com.ua#?#[rzscrollersliderbar] > div > .slide:-abp-has(> rz-product-tile [href*="/?advToken="])
+rozetka.com.ua#?#[rzadvertisingview]:-abp-has(> div > span > rz-advertising-info-btn)
+rozetka.com.ua#?#[rzscrollersliderbar] > div > .slide:-abp-has(> rz-product-tile [aria-label*=" про рекламу"])
 radiokot.ru##[src*="//radiokot.ru/adv/"]
 itweek.ru##[src*="/ad/banners/"]
 fixygen.ua##[src*="/assets/banner_"]
@@ -19984,7 +19984,7 @@ brclip.com,clip-share.net,flash-player.net,frvid.com,ibb.co,jpvid.net,kzblow.inf
 stratege.ru##psplus-footer
 ru-dub.xyz,rudub.*##a[href*=".li"]
 rudub.*##.card__description__adv
-rozetka.com.ua#?#rz-catalog-goods > .item:-abp-has(> rz-product-tile [href*="/?advToken="])
+rozetka.com.ua#?#rz-catalog-goods > .item:-abp-has(> rz-product-tile [aria-label*=" про рекламу"])
 liveinternet.ru##script + div[id] > div[style^="width:"]
 sftv.ru##script[src*="iwantyourpromo.com"] ~ div[align="center"]
 megaimg.ru##script[src^="http://am10.ru/"] + center
@@ -24701,6 +24701,7 @@ autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru##.topline__branding__wrapper
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru,sportrbc.ru##.topline__disable-adv__button
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru,sportrbc.ru##.topline__item__image-block
 rbc.ru##.video-player__controls__ad-countdown
+rbc.ru##.weather-widget
 /*betblock$domain=rbc.ru|sportrbc.ru
 /browser-updater$script,domain=autonews.ru|rbc.ru|sportrbc.ru
 /rbcbanners-*/_fullscreen.js$script,domain=autonews.ru|rbc.ru|rbcautonews.ru|sportrbc.ru
@@ -24979,6 +24980,7 @@ ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
 ya.ru##section[class^="reaso"]
+ya.ru##section[style*="-cection-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner

@@ -282,7 +282,7 @@ nybooks.com##div.toast-cta
 ||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
 ||nytimes.com/svc/onsite-messaging/query$xmlhttprequest,~third-party
 ||mwcm.nyt.com/$script,domain=nytimes.com
-nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div#dock-container,div.pz-ad-box
+nytimes.com##div#dock-container
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
 ||nzherald.co.nz/zephr/$xmlhttprequest,~third-party
 nzherald.co.nz##+js(set, window.Fusion.globalContent.isPremium, false)

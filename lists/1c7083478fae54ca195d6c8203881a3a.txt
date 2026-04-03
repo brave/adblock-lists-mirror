@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.3.9
+! Version: 4.3.4.0
 
 ! General
 
@@ -307,6 +307,9 @@ profil.at##div#cfs-paywall-container,div.consentOverlay
 revistaoeste.com##+js(ra, class, div.loading_content)
 revistaoeste.com##+js(rc, expandable, div.expandable)
 revistaoeste.com##svg.spinner-eclipse
+rotowire.com##+js(ra, class, div.pw-content, stay)
+rotowire.com##+js(ra, class, div.article__body > div[class^="img_"], stay)
+rotowire.com##div.paywall-full,div.article-preview-fader
 /\.rugbypass\.com\/plus\/\w/$inline-script,domain=rugbypass.com
 rugbypass.com##.plus-article-offer
 rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
@@ -739,8 +742,6 @@ publishersweekly.com##div#contentdiv.loggedOutOnly
 rockdelux.com##+js(ra, class|style, body, stay)
 rockdelux.com##+js(ra, style, div#body, stay)
 rockdelux.com##div.bg-paywall
-rotowire.com##+js(ra, class, div.pw-content)
-rotowire.com##div.paywall-full,div.article-preview-fader
 scroll.in##+js(rc, article-locked, article.article-locked, stay)
 ||serenitymarkets.com/wp-content/themes/Divi-child/assets/js/encriptar.js$script,~third-party
 serenitymarkets.com##+js(ra, class, div.blur_content, stay)

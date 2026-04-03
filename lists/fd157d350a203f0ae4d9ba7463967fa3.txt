@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KqjMyZ77HzV6FrW+h+LNag
-! Version: 202604030822
+! Checksum: ts1o+b5SbhDlkaXcUsDLOw
+! Version: 202604030852
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Apr 2026 08:22 UTC
+! Last modified: 03 Apr 2026 08:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16355,7 +16355,7 @@ pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [href*="?e
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [href*="dhwnh.com"])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [title*="?erid="])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main [title*="dhwnh.com"])
-pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main p:-abp-contains(/Реклама.* ИНН /i))
+pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main p:-abp-contains(/Реклама.* ИНН/i))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__placeholder)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has([class*="sponsor"])
 pikabu.ru##.stories-feed__related-stories-adv
@@ -18289,6 +18289,7 @@ semestr.online,semestr.ru#?#article div:-abp-has(> [action*="vse-sdal.com"])
 glavpost.com##article div[style*="#EFEFEF"]
 4pda.to#?#article ~ article:-abp-has(> [class] > div:only-child > img:first-child)
 point.md#?#article:-abp-has(> div[id^="article-"] > .business)
+pikabu.ru##article[data-author-id="2"]
 qip.ru##article[data-type="advert"]
 mi100.info##article[id^="post-"] > .entry-meta + div[style^="padding-bottom:"]
 sport-tv.pro##aside .HTML > .widget-content > a > img
@@ -23710,7 +23711,6 @@ drive2.ru##div[class$="--equal"] > div[class] > div:not([class]):not([id])
 drive2.ru##div[class$="--equal"] > div[class] > div[id]:not(:empty)
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}|min-height: calc.|min-height: .+.(cm|in|lh|mm|pt)|height: 250px/)
-pikabu.ru##div[class*="page-story__"] div[style=""]
 e.mail.ru##div[class=""] > div[class=""] > div[class=""]
 sdamgia.ru##div[class^="google_ad_left"]
 drive2.ru,liveinternet.ru,sdamgia.ru##div[data-name="adWrapper"]

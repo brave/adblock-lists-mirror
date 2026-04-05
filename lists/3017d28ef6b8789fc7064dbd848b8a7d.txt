@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604051033
+! Version: 202604051114
 ! Title: EasyPrivacy
-! Last modified: 05 Apr 2026 10:33 UTC
+! Last modified: 05 Apr 2026 11:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 22f8c6254834b255b6ceea7bd56605f3daf42098
+! Commit: 8acf68599073fa7fd24536dcbe948c4be5c2362d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -131,6 +131,8 @@
 /_i?type=event&
 /_lib/ga.js
 /_mzblank.gif?
+/_nostra/batch
+/_nostra/identity/*
 /_owa.gif?
 /_servix/webid.aspx?$script
 /_sess/script.js
@@ -10930,6 +10932,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||era.easyvoyage.com^
 ||error-analytics-production.shopifysvc.com^
 ||error-analytics-sessions-production.shopifysvc.com^
+||error-tracker.pages.dev^
 ||errors.snackly.co^
 ||essential-apps-analytics.herokuapp.com^
 ||et.educationdynamics.com^
@@ -11404,7 +11407,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||klarnaservices.com^$image,third-party
 ||klaviyo.com/onsite/js/sentry.
 ||klaviyo.com/onsite/track-analytics?
-||klickly.com/track
+||klickly.com^$third-party
 ||kmib.co.kr/ref/
 ||kochava.com/track/$third-party
 ||kumo.network-n.com/configs/sites/

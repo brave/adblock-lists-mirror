@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZJZnMuRqjKsWNqZpuahstw
-! Version: 202604051612
+! Checksum: MjFY6ill6ZAzNaeRIORMrA
+! Version: 202604051641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Apr 2026 16:12 UTC
+! Last modified: 05 Apr 2026 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23695,6 +23695,7 @@ pikabu.ru#?#.story:-abp-has(div:-abp-properties(content: none))
 dtf.ru##.supbar--top * *
 fonmod.com,ritsatv.ru,websdr.su##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
+pikabu.ru#?#:xpath(//comment()[starts-with(., "story_ad_") and contains(., "_start")]/following-sibling::article[1])
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
 liveinternet.ru,sdamgia.ru##[data-container]

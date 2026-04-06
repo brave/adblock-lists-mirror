@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: m/rwR0t5AsOI9xbUw88/SA
-! Version: 202604061021
+! Checksum: 7ubEXsGN6YGVy8+8W6eg5w
+! Version: 202604061051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Apr 2026 10:21 UTC
+! Last modified: 06 Apr 2026 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23691,11 +23691,9 @@ anidub.vip,anidubonline.com##.plyr__progress__buffer
 dtf.ru##.rotator
 dtf.ru##.sticky-stack-sidebar-section .loader + div[id][class]:empty
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
-pikabu.ru#?#.story:-abp-has(div:-abp-properties(content: none))
 dtf.ru##.supbar--top * *
 fonmod.com,ritsatv.ru,websdr.su##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
-pikabu.ru#?#:xpath(//comment()[starts-with(., "story_ad_") and contains(., "_start")]/following-sibling::article[1])
 @@||fearmp4.ru^$generichide
 @@||ozon.ru/highlight/kursk-$elemhide
 liveinternet.ru,sdamgia.ru##[data-container]

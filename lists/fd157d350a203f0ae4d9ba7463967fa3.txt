@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CPyUUDRv2n/7ts62E63qYQ
-! Version: 202604081122
+! Checksum: wqRqJ7wRwqud84accks4lA
+! Version: 202604081151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Apr 2026 11:22 UTC
+! Last modified: 08 Apr 2026 11:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14095,7 +14095,6 @@ tabletki.ua##.com__panel-container
 tabletki.ua##.com__panel-header
 pcportal.org##.come_d
 news.tj##.comment-area .newsbox-outer-banner
-pikabu.ru##.comment__control_tbank
 kirov.online##.comments ~ noindex
 diablo.su##.comments-area
 superhumor.ru,voffka.com##.comments-head
@@ -17028,6 +17027,7 @@ glavred.info,glavred.net,unian.info,unian.net,unian.ua##[class*="bnr-block"]
 euro-football.ru,football.konkurent.ua##[class*="bookmaker"]
 cybersport.ru##[class*="bookmaker"]:not(.root)
 argumenti.ru##[class*="cc_adv"]
+pikabu.ru##[class*="comment__control_tbank"]
 mcrate.su##[class*="commerc_panel"]
 dni.ru##[class*="container"][class*="partner"]
 prokuzbass.ru##[class*="container-ad"]
@@ -22947,7 +22947,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||spbdnevnik.ru/media/_b/$image
 ||spbit.ru/uploads/Banner/
 ||special.matchtv.ru/feeds/
-||special.pikabu.ru/*/banner.html
+||special.pikabu.ru^$domain=~special.pikabu.ru
 ||specials*.servicecdn.ru/$domain=dtf.ru|vc.ru
 ||speedtest.org.ua/pirate
 ||spiker.club/ads/

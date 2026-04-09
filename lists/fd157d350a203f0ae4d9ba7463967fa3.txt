@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NHJ/82Gueewrw43fkv3tsw
-! Version: 202604091442
+! Checksum: dNIuh5tNG7BPJBWA5HGc2g
+! Version: 202604091532
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Apr 2026 14:42 UTC
+! Last modified: 09 Apr 2026 15:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23650,6 +23650,7 @@ cq.ru##[class*="grid"] > a:has(.p-item__button-sponsored) {remove:true;}
 flightsim.su###tie-popup-adblock {remove:true;}
 freesoft.ru###downloadAdModal {remove:true;}
 freesoft.ru###error.modal {remove:true;}
+gazeta.press,gazeta.ru##.b_flowup {remove:true;}
 growhow.in.ua###custom-background-css {remove:true;}
 ixbt.com##.clickable_zone {remove:true;}
 ixbt.com##style[id^="branding-"] {remove:true;}
@@ -24601,6 +24602,7 @@ rambler.ru##div[id^="rnet_"]
 avtorambler.com,rambler.ru##div[style="min-height: 600px;"] ~ div
 avtorambler.com,rambler.ru##div[style="min-height:600px"] ~ div
 avtorambler.com,rambler.ru##div[style^="height: 290px"][style*="overflow: hidden"]
+gazeta.press,gazeta.ru##div[style^="height:"][style*="vh"]:empty
 rambler.ru##div[style^="min-height: 140px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 240px"]
 avtorambler.com,rambler.ru,rambler.ua##div[style^="min-height: 250px"]

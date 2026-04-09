@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M6fi25xy61pv1zEnmIHJXA
-! Version: 202604091152
+! Checksum: vvgoZfatHS9I+J4e55YJpA
+! Version: 202604091232
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Apr 2026 11:52 UTC
+! Last modified: 09 Apr 2026 12:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1630,6 +1630,7 @@ me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][
 ##div[id^="infox_"]
 ##div[id^="itizergroup_"]
 ##div[id^="join_informer_"]
+##div[id^="movie_banner_"][style^="margin:"]
 ##div[id^="news_2xclick_ru_"]
 ##div[id^="news_nest_msk_ru"]
 ##div[id^="news_nest_net_ru"]

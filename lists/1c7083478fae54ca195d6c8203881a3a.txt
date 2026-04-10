@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.4.1
+! Version: 4.3.4.2
 
 ! General
 
@@ -46,7 +46,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /evolok/*ev-widgets.min.js$script
 /paywall/evercookie_get.js$script,~third-party
 /shared-content/art/tncms/api/access.*.js$script,~third-party
-/wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party
+/wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party,important
 /wp-content/plugins/newspack-plugin/dist/*-gate-metering.js$script,~third-party
 /wp-content/plugins/pmpro-limit-post-views/js/pmprolpv.js$script,~third-party
 /wp-content/*/plugins/rcp-view-limit/$script,~third-party
@@ -79,8 +79,7 @@ axios.com##+js(ra, style, html[style], stay)
 bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
-/\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script
-bizjournals.com##div[id^="headlessui-dialog-"],div.sheet-overlay
+/\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script,~third-party
 ||cm.bloomberg.com^$xmlhttprequest,~third-party
 ||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
 bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-status], stay)

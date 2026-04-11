@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h8vviMRh5LEPBtUhJH+Unw
-! Version: 202604111512
+! Checksum: ZaqAVGV+9bQl6/oZzQDj8Q
+! Version: 202604111541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Apr 2026 15:12 UTC
+! Last modified: 11 Apr 2026 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24028,6 +24028,7 @@ news.mail.ru##aside div > div:first-child:empty ~ div
 news.mail.ru#?#aside div:-abp-has(> div:only-child:empty)
 news.mail.ru##body > div > style + div[id]
 ! Дзен новости Mail-edition
+dzen.ru##.news-rubricator [href="https://dzen.ru/news/rubric/chronologic"]
 dzen.ru##[id*="20-"]
 dzen.ru##[id*="30-"]
 dzen.ru##[id*="_R-A-"]
@@ -24046,6 +24047,7 @@ dzen.ru##div[class*="Item-desktop__ad-"]
 dzen.ru##div[class*="MyTargetAdvert"]
 dzen.ru##div[class*="_advertItem"]
 sportsdzen.ru##div[class*="bookmakerOdds"]
+dzen.ru#?#div[class*="content_with-discrete-"] > div:-abp-has(> button)
 dzen.ru,sportsdzen.ru##div[class*="mascot-banner"]
 dzen.ru##div[class*="news-advert"]
 dzen.ru##div[class*="news_branding"]

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.4.2
+! Version: 4.3.4.3
 
 ! General
 
@@ -47,6 +47,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /paywall/evercookie_get.js$script,~third-party
 /shared-content/art/tncms/api/access.*.js$script,~third-party
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party,important
+/wp-json/leaky-paywall/v1/check-restrictions$xmlhttprequest,~third-party
 /wp-content/plugins/newspack-plugin/dist/*-gate-metering.js$script,~third-party
 /wp-content/plugins/pmpro-limit-post-views/js/pmprolpv.js$script,~third-party
 /wp-content/*/plugins/rcp-view-limit/$script,~third-party
@@ -716,6 +717,7 @@ meritnation.com##+js(rc, maxHeight75px, div.exp_content.maxHeight75px)
 museumsassociation.org##+js(rc, paywall, body.paywall)
 museumsassociation.org##+js(ra, style, body[style], stay)
 museumsassociation.org##div#paywall-wrapper,div.advertising
+musicbusinessworldwide.com##+js(ra, class, .mb-article__body)
 nacion.com##+js(ra, style, div.article-body-wrapper__styled[style], stay)
 nacion.com##div.post
 narcity.com##+js(ra, style, div.body-description[style], stay)

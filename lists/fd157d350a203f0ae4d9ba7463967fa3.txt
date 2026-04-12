@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nEQ1kAWA8JTWV3fSw1CFww
-! Version: 202604120751
+! Checksum: nvbmXcB5vNkYNKYnAinlLg
+! Version: 202604120821
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Apr 2026 07:51 UTC
+! Last modified: 12 Apr 2026 08:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12340,7 +12340,7 @@ stadion.uz###middle_section > div[style^="float:"]
 k-agent.ru###middletbl_r_in > a[href="http://www.sushivenik.ru"]
 tort.fm###min-banners-block
 bestfree.ru###mine
-www.zoneofgames.ru###mkwrapper > .logo
+www.zoneofgames.ru###mkwrapper > .logo:first-child
 bankchart.com.ua###modal-cpa
 mozilla-russia.org###modex
 animevost.one,animevost.org,animevost.top,vost.pw###moduleLeft[style="border:0;"]
@@ -21734,7 +21734,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||img-fotki.yandex.ru/get/*_orig|$image,domain=masterok.livejournal.com
 ||img.*.ru/js/jquery.suSlider.js$script
 ||img.bankoboev.ru^
-||img.zoneofgames.ru/branding/
+||img.zoneofgames.*/branding/$domain=www.zoneofgames.ru
 ||imgal.ru^*script$script
 ||imgbum.ru^*.php$script
 ||imgix.ru/*.js|

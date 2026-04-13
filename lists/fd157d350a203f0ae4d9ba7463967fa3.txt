@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mjq57ZEmCClZC4IiLLSjMw
-! Version: 202604131132
+! Checksum: wb8odp52WDHPqEjdFcW7zA
+! Version: 202604131151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Apr 2026 11:32 UTC
+! Last modified: 13 Apr 2026 11:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18268,6 +18268,7 @@ ixbt.com##a[title="Яндекс Зен"]
 3dnews.ru##a[title^="3DNews"][title*="Дзен"]
 survarium.pro##adsense
 eg.ru,gorodche.ru,gorodvo.ru,kinoafisha.info,kinonews.ru##advertronic-slot
+dp.ru##app-adfox-banner
 24tv.ua,football24.ua,lux.fm##app-adv-placeholder
 24tv.ua##app-adv-skeleton
 24tv.ua,lux.fm##app-adv-video-placeholder
@@ -19515,6 +19516,7 @@ unian.info,unian.net,unian.ua##div[style="height:600px"]
 liveresult.ru##div[style="height:90px;"]
 chudo-povar.com##div[style="height:auto;min-height:300px;"]
 joker.ykt.ru#?#div[style="margin-left:21px;"]:-abp-has(.opros:-abp-contains(Реклама))
+dp.ru##div[style="margin-top: 300px;"]
 hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##div[style="margin-top: 8px; margin-bottom: 12px;"]
 ogo.ua##div[style="margin-top:15px; text-align:center;"]
 gazetavv.com##div[style="margin-top:5px;height:90px;"]
@@ -19604,7 +19606,6 @@ stratege.ru#?#div[style^="text-align: center;"]:-abp-has([target="_blank"][rel="
 kinonews.ru##div[style^="text-align:"][style*="center;"][style*="height:"]
 wallegend.net##div[style^="text-align:center;line-height:0;display:block;height:"]
 integral-calculator.ru##div[style^="width: 728px; margin:"]
-crazygames.ru##div[style^="width:"][style*="100%;"][style*="display:"][style*="block"]
 bin.ua##div[style^="width:"][style*="240px;"][style*="height:"]
 kgd.ru##div[style^="width:"][style*=";height:"][style*="px;background:#f3f6f9"]
 kino-teatr.ru##div[style^="width:100"][align="center"]
@@ -24749,6 +24750,7 @@ rbc.ru#?#body.free aside.bside .sidebar:-abp-has(a[href^="https://pro.rbc.ru/"])
 rbc.ru##body.free div[class*="styles_newsfeed"] .sidebar a[href*="utm_campaign"]
 rbc.ru##body.free div[class*="styles_newsfeed"] .sidebar a[href*="utm_campaign"] ~ .meta-info-row-wrapper
 rbc.ru#?#body.free div[class*="styles_newsfeed"] .sidebar:-abp-has(a[href*="utm_campaign"])
+rbc.ru#?#body.free div[class*="styles_newsfeed"] .sidebar:-abp-has(a[href^="https://editorial.rbc.ru/"])
 rbc.ru#?#body.free div[class="central-publisher-item"]:-abp-has([href^="https://pro.rbc.ru/"])
 rbc.ru##body.free div[class="central-publisher-item"]:nth-child(-n+2) [href^="https://pro.rbc.ru/"]
 rbc.ru#?#body.free div[class="central-publisher-item"]:nth-child(-n+2):-abp-has([href^="https://pro.rbc.ru/"])

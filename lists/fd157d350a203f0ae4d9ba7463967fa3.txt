@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CY/xSr3Z3F6wHkTaADZDtg
-! Version: 202604141651
+! Checksum: 7SDtwVIC7p1u1xuF8gs4uw
+! Version: 202604141731
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Apr 2026 16:51 UTC
+! Last modified: 14 Apr 2026 17:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24068,6 +24068,7 @@ dzen.ru##div[class^="news-"][class*="tsar"]
 dzen.ru,sportsdzen.ru##div[class^="news-mt-advert"]
 dzen.ru##div[class^="news-site--news-"]::after
 dzen.ru##div[class^="news-site--news-"][class*="__container-"]
+dzen.ru##div[data-ad-index]
 dzen.ru##div[id*="discrete-feed-banner"]
 dzen.ru##div[id*="story-skeleton"]
 dzen.ru##div[id][class*="news-"][class*="-advert"]

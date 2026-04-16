@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OMqHnc4yyNQ3sZS5tTSmWA
-! Version: 202604160741
+! Checksum: IU6F4vDZn6JdBsSZT85rJA
+! Version: 202604160841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Apr 2026 07:41 UTC
+! Last modified: 16 Apr 2026 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24043,15 +24043,10 @@ news.mail.ru#?#aside div:-abp-has(> div:only-child:empty)
 news.mail.ru##body > div > style + div[id]
 ! Дзен новости Mail-edition
 dzen.ru##.news-rubricator [href="https://dzen.ru/news/rubric/chronologic"]
-dzen.ru##[id*="20-"]
-dzen.ru##[id*="30-"]
-dzen.ru##[id*="_R-A-"]
-dzen.ru##[id*="_R-E-"]
+dzen.ru##[aria-label="Контент страницы сюжета"] > [class*="discrete"] > div > div > div[id]
+dzen.ru#?#[aria-label="Контент страницы сюжета"] > [class*="discrete"] > div > div:-abp-has(> div[id])
 dzen.ru##[id*="_R-I-"]
 dzen.ru##[id*="_R-N-"]
-dzen.ru##[id*="_R-O-"]
-dzen.ru##[id*="_R-Q-"]
-dzen.ru##[id*="_R-U-"]
 dzen.ru##[id*="_tsar"]
 dzen.ru##[id*="news_discrete_right"]
 sportsdzen.ru##div[class*="-sports-button-ad_"]

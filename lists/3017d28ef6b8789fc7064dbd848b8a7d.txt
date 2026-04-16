@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604162311
+! Version: 202604162354
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2026 23:11 UTC
+! Last modified: 16 Apr 2026 23:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1b609721dbf68c1d97a107b662d5af6b4630bc1b
+! Commit: 85335f7bfd36496fe1071387665de6a1c33f42d3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7885,7 +7885,7 @@ omni.soundestlink.com$image
 ||obscenesidewalk.com^
 ||obscurespace.com^
 ||obsidiangems.com^
-||oceancloudhosts.com^
+||oceancloudhosts.com^$~xmlhttprequest
 ||octaneblood.com^
 ||offerniche.com^
 ||offgridcrops.com^
@@ -8824,6 +8824,7 @@ omni.soundestlink.com$image
 ! noopjson
 ||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
 ||kindhush.com^$redirect=noopjson,xmlhttprequest
+||oceancloudhosts.com^$redirect=noopjson,xmlhttprequest
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_notifications.txt ***
 ! easyprivacy_trackingservers_notifications.txt
 ||actirinius.com^$third-party

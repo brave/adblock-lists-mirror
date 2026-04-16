@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.4.4
+! Version: 4.3.4.5
 
 ! General
 
@@ -26,8 +26,7 @@
 ||olytics.omeda.com^$third-party
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
-/xbuilder/experience/execute$xmlhttprequest,~third-party
-||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party,domain=~automobilwoche.de
+/xbuilder/experience/execute$xmlhttprequest,domain=~automobilwoche.de
 @@||piano.io^$domain=hbr.org|japantimes.co.jp
 @@||tinypass.com$script,domain=ajc.com|thelogic.co
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
@@ -81,8 +80,7 @@ bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
 /\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script,~third-party
-||bwbx.io/s3/fence/fortress-client/*.js$script,third-party,domain=bloomberg.com
-||bwbx.io/s3/fence/plug-client/*.js$script,third-party,domain=bloomberg.com
+||bwbx.io/s3/fence/$script,third-party,domain=bloomberg.com
 ||bloombergadria.com/*/news$inline-script
 bloombergadria.com##+js(ra, style, article.single-news[style], stay)
 ||meter.bostonglobe.com/js/meter.js$script,~third-party

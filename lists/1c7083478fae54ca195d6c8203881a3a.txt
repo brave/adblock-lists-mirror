@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.4.3
+! Version: 4.3.4.4
 
 ! General
 
@@ -81,11 +81,8 @@ bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
 /\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script,~third-party
-||cm.bloomberg.com^$xmlhttprequest,~third-party
-||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
-bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-status], stay)
-bloomberg.com##div[id^="fortress-"]
-bloomberg.com##+js(set-local-storage-item, history, $remove$)
+||bwbx.io/s3/fence/fortress-client/*.js$script,third-party,domain=bloomberg.com
+||bwbx.io/s3/fence/plug-client/*.js$script,third-party,domain=bloomberg.com
 ||bloombergadria.com/*/news$inline-script
 bloombergadria.com##+js(ra, style, article.single-news[style], stay)
 ||meter.bostonglobe.com/js/meter.js$script,~third-party

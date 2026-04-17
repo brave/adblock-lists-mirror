@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604171616
+! Version: 202604171654
 ! Title: EasyList
-! Last modified: 17 Apr 2026 16:16 UTC
+! Last modified: 17 Apr 2026 16:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 396a0f8016a7ace5b59e036d3d7e88e13fa1f71e
+! Commit: a8c38053877edaca09357ace84c281a95e3585b1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -28286,6 +28286,7 @@ browsershots.org#@#.advert_area
 ||fmksnfjldgpls.buzz^
 ||fmkuhozxqvwro.site^
 ||fmlabsonline.com^
+||fmlpbnbnipdon.website^
 ||fmmdeedxwmurs.space^
 ||fmogafttanac.in^
 ||fmomyhramzsdf.online^
@@ -62164,6 +62165,7 @@ browsershots.org#@#.advert_area
 ||wghfuyzbjgslv.website^
 ||wghoubdaxpsik.site^
 ||wghvvdmdqgdzz.space^
+||wgimhiakumdkf.site^
 ||wgkwfkdvltuqy.online^
 ||wgmdckuydsclg.website^
 ||wgmenxpvnxnbs.space^
@@ -86209,6 +86211,7 @@ internationalsexguide.nl,usasexguide.nl##.isg_banner
 e-hentai.org##.itd[colspan="4"]
 xgroovy.com##.item-bnr
 fetishshrine.com##.item-holder
+myhentaicomics.com##.item.image-block
 amateurporn.me,eachporn.com##.item[style]
 drtuber.com##.item_spots
 nurumayu.net,twidouga.net##.item_w360
@@ -86315,6 +86318,7 @@ sexseeimage.com##.order-1
 hentaistream.com##.othercontent
 trueamateurporn.org##.out-wrap
 eboblack.com,teenxy.com##.out_lnk
+myhentaicomics.com##.outstrea
 beemtube.com##.overspot
 javtiful.com##.p-0[style="margin-top: 0.45rem !important"]
 zbporn.com##.p-ig
@@ -86731,6 +86735,7 @@ tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 hentai-gamer.com##[src^="https://www.hentai-gamer.com/pics/"]
 pornhub.com##[srcset*="bloB:"]
 gelbooru.com##[style$="height: 250px; "]
+myhentaicomics.com##[style$="height: 250px; display: inline-block;"]
 zerochan.net##[style$="min-height: 300px !important; "]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="base64"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="blob:"]:not(video)
@@ -86941,7 +86946,6 @@ rule34.us##center:has(> div[style*="overflow"] > [data-cl-spot])
 pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 reddxxx.com##div[role="gridcell"]:has(img[src="https://cdn3.reddxxx.com/f_cm5eeic910000mrywxfe0wa1c_p5ov94asrzmby3n7ppmomnay.jpeg"])
 rule34.us##div[style*='height: 490px']:has(center > div[style*="overflow"] > [data-cl-spot])
-pornhub.com#?#.noBottom:has-text(Remove Ads)
 rule34.paheal.net##section[id$="main"] > .blockbody:has(> div[align="center"] > ins)
 ! ! Advanced element hiding rules
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
@@ -86957,11 +86961,13 @@ hdpornpics.net#?#.money:has(.century:has-text(ADS))
 hotmovs.com#?#.block_label--last:has-text(Advertisement)
 okxxx1.com#?#.bn-title:has-text(Advertising)
 porn-w.org#?#.row:has-text(Promotion Bot)
+pornhub.com#?#.noBottom:has-text(Remove Ads)
 reddxxx.com#?#.items-center:has-text(/^ad$/)
 reddxxx.com#?#[role="gridcell"]:has-text(/^AD$/)
 ! ABP CSS injection filters
 hitomi.la##.content > div[class]:not([class*="-"]) {min-height:40px !important;}
 hitomi.la##.top-content > div[class]:not([class*="-"]) {min-height:40px !important;}
+myhentaicomics.com##.featured-manga, .header-spot, .pagination-image {min-height:0 !important;}
 otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
 ! 69games.xxx/gamcore/porcore.com
 classic.gamcore.com###center > .flashes > .wide:has(> a[href][rel])

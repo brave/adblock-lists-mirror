@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604170703
+! Version: 202604170738
 ! Title: EasyPrivacy
-! Last modified: 17 Apr 2026 07:03 UTC
+! Last modified: 17 Apr 2026 07:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d789e21e37b58b0dd5a0a91362c772b576c0ea07
+! Commit: 1e2ccaf9c622baa73e0becda7a5013cecab4754e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55453,6 +55453,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js
+@@||srv024.service.canada.ca/assets/adobe-analytics-route-helpers-$script,~third-party
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||starlink.com/sst/gtag/js$script,~third-party
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party

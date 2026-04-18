@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: k61Zc6EXJUXiqtFeLya+ww
-! Diff-Path: ../patches/7/7-s-1776457361-3600.patch
+! Checksum: yCbSIb18NsFxyw3yaRU/Aw
+! Diff-Path: ../patches/7/7-s-1776522169-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.73.40
-! TimeUpdated: 2026-04-17T20:19:13+00:00
+! Version: 2.0.73.42
+! TimeUpdated: 2026-04-18T14:19:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1879,6 +1879,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+fo76db.com##aside#wrap:has(> div[class^="swiper"] a[href^="https://amzn.to/"])
 hentaianimezone.com##iframe[data-link]
 hentaianimezone.com##a.r34-tab
 sn-jp.com###container > .header_message
@@ -2579,7 +2580,7 @@ itf.minkabu.jp##.mb-8[x-on\:click="showAdModal = true"]
 itf.minkabu.jp##div[data-footer-ad-target="adOverlay"]
 yomou.syosetu.com##.c-card:has(> div.c-ad)
 pokecabook.com##div[id^="pokec-"]
-hayamimi-gunpla.com,figure-times.com##+js(href-sanitizer, a[href*="a8ejpredirect"], ?a8ejpredirect)
+ba-goods-search.com,hayamimi-gunpla.com,figure-times.com##+js(href-sanitizer, a[href*="a8ejpredirect"], ?a8ejpredirect)
 figure-times.com##.post-widgets-bottom.widget_metaslider_widget
 juken-mikata.net##.related_pc
 yukifx.web.fc2.com###div_leftadd_cont
@@ -12023,6 +12024,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_japanese
 !
 !
 !
+! https://x.com/kina_ko_m_ochi_/status/2045398697102688702
+@@||a8.net/ad/ad.js$domain=ba-goods-search.com
 ! /fanza/ is dedicated for ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221531
 @@||i.daily.jp/Koukoku/Images/ds_noimage.jpg$domain=daily.co.jp

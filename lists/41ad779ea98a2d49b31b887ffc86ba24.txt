@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h0k/IGyCj9HpbCt/1VqnSQ
-! Version: 202604190700
+! Checksum: 7iN6qw8k6HJ/gTm86GKSKw
+! Version: 202604200025
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-04-19 07:00 UTC
+! Last modified: 2026-04-20 00:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2689,7 +2689,10 @@ r34.app##figure.-mx-1.mt-4
 stuff.co.nz##form.human-interest-iframe
 softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
+warontherocks.com##p > [href="https://warontherocks.com/membership/"]
 msn.com##views-right-rail
+warontherocks.com#?#.tw\:bg-\[\#5F1A16\]:has-text(Join War on the Rocks)
+warontherocks.com#?#.tw\:bg-\[\#f8f9f9\]:has-text(Join War on the Rocks)
 ! :has
 deviantart.com##.ReactModalPortal + div[class]:has(> iframe[title="DealerAdIframe"])
 thenation.com##.btn.footer__cta:has(a[href^="/donate-website/"])
@@ -37470,6 +37473,7 @@ didriksons.com##.tracking-consent-v2
 didriksons.com##.tracking-consent-v2__modal
 matadornetwork.com##.tracking-notice
 theblues-thatjazz.com##.transbox1
+browser-use.com##.translate-y-0.md\:bottom-0
 secure.imvu.com##.transparent-overlay
 troax.com##.troax-messages
 truendo.com##.truendo_container
@@ -50631,6 +50635,7 @@ urbandictionary.com#?#.rounded-md.md\:p-8.p-5.shadow-light:has-text(Sign up)
 us500.com#?#.bg-gray-600:has-text(Read the latest business news)
 vox.com#?#.duet--article--highlight:has-text(Sign up here)
 wareable.com#?#.widget_custom_html:has-text(substack)
+warontherocks.com#?#.tw\:top-4.tw\:sticky:has-text(Subscribe)
 washington.edu#?#.textwidget > .textwidget:has-text(Subscribe)
 washingtoninformer.com#?#.has-background:has-text(Never miss)
 washingtonpost.com#?#tr > .right-article:has-text(Sign up)

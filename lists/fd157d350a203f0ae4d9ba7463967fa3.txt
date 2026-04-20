@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: URfBbC4YnD63rnt67PBtdA
-! Version: 202604201131
+! Checksum: dSwGIjcgYFocoPU96cuqeQ
+! Version: 202604201202
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Apr 2026 11:31 UTC
+! Last modified: 20 Apr 2026 12:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15000,6 +15000,9 @@ the-cinema.online##.leftside.lcolomn > .block:nth-of-type(1)
 biletyplus.ru##.lending_adv_top
 asn.in.ua##.lenta > .clear_block
 asn.in.ua##.lenta > .clear_block + hr
+yap.ru,yaplakal.com#?#.lenta > tbody > tr:-abp-has(> .topic-header > .topic-header-parent > .mainpage-rank-container:empty)
+yap.ru,yaplakal.com#?#.lenta > tbody > tr:-abp-has(> .topic-header > .topic-header-parent > .mainpage-rank-container:empty) + tr
+yap.ru,yaplakal.com#?#.lenta > tbody > tr:-abp-has(> .topic-header > .topic-header-parent > .mainpage-rank-container:empty) + tr + tr
 asn.in.ua##.lentanewspost > .clear_block + hr
 cubiq.ru##.lets-review-block__aff
 cwer.me,cwer.ru,cwer.su,cwer.ws##.like_hide

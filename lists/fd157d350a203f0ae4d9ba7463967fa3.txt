@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sstc4kAY1uxPfZPCuzF3zw
-! Version: 202604231122
+! Checksum: fpvNaeeZrpGSvHZ9Niuijw
+! Version: 202604231151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Apr 2026 11:22 UTC
+! Last modified: 23 Apr 2026 11:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14004,6 +14004,7 @@ vkfaces.com#?#.card-separator__title:-abp-contains(реклама)
 pronovostroy.ru##.card-special-gallery--topic
 solidarnost.org##.card-yandex
 1tv.ru##.card.promo
+matematika-doma.org#?#.card:-abp-has(> .card-body > .custom > div[class^="custom"][class$="ad"])
 sovsport.ru##.cardForecast_card_container__b_Ukm > div[class^="cardForecast_btn"]
 edimdoma.ru##.card_commercial
 marketsakhcom.ru#?#.cards__col:-abp-has(> .card_cb)
@@ -17551,7 +17552,7 @@ akipress.org##a[href*="/?from=portal&place=ver-slider"]
 sia.ru##a[href*="/?section=519"]
 glazey.info##a[href*="/Na-pravah-reklamy/"]
 pr-cy.ru##a[href*="/a/click/"]
-5terka.com,animemobi.ru,ap22.ru,app-time.ru,bakemono.ru,bik-info.ru,chemezova.ru,click-or-die.ru,elektrosat.ru,f-igri.ru,gameout.ru,gazetaby.com,gazetaby.info,gazetaby.media,gitjournal.tech,hdclub.ua,inform-ua.info,instrument16.ru,klub-masterov.ru,kp.kg,kp.kz,kp.md,kp.ru,kritika24.ru,ladylib.net,libking.ru,moy-instrument.ru,mrtranslate.ru,multfilms.online,ok-tv.org,only-tv.org,osortah.ru,outsidethebox.ms,peugeot-citroen.net,pluggedin.ru,presentation-creation.ru,privatbankrf.ru,remont-avtovaz.ru,rpgdon.com,rusplt.ru,rutracker.ru,samelectric.ru,selomoe.ru,seloved.ru,shkolniku.com,simhost.org,stiralkainfo.ru,technical.city,tivix.co,tmbw.ru,trackitonline.ru,tuttop.com,tv-only.org,uanic.name,uaspectr.com,ustanovkaos.ru,volga.news,vsetop.org,vsetut.su##a[href*="/ad.admitad.com/"]
+5terka.com,animemobi.ru,ap22.ru,app-time.ru,bakemono.ru,bik-info.ru,chemezova.ru,click-or-die.ru,elektrosat.ru,f-igri.ru,gameout.ru,gazetaby.com,gazetaby.info,gazetaby.media,gitjournal.tech,hdclub.ua,inform-ua.info,instrument16.ru,klub-masterov.ru,kritika24.ru,ladylib.net,libking.ru,moy-instrument.ru,mrtranslate.ru,multfilms.online,ok-tv.org,only-tv.org,osortah.ru,outsidethebox.ms,peugeot-citroen.net,pluggedin.ru,presentation-creation.ru,privatbankrf.ru,remont-avtovaz.ru,rpgdon.com,rusplt.ru,rutracker.ru,samelectric.ru,selomoe.ru,seloved.ru,shkolniku.com,simhost.org,stiralkainfo.ru,technical.city,tivix.co,tmbw.ru,trackitonline.ru,tuttop.com,tv-only.org,uanic.name,uaspectr.com,ustanovkaos.ru,volga.news,vsetop.org,vsetut.su##a[href*="/ad.admitad.com/"]
 1fnl.ru,1tulatv.ru,aif.ru,alogvinov.com,compulenta.ru,computerra.ru,forums.goha.ru,gamebomb.ru,gamer-info.com,gismeteo.ru,gotps3.ru,kudago.com,maximonline.ru,move.ru,omskpress.ru,osp.ru,penzavzglyad.ru,ps3hits.ru,radiorecord.ru,shazoo.ru,sobaka.ru,soccer.ru,sportbox.ru##a[href*="/ad.adriver."]
 forum.woodtools.ru##a[href*="/ad/www/delivery/ck.php"]
 alldz.net##a[href*="/addownload.html"]
@@ -23760,7 +23761,7 @@ mail.ru##[href*="https://dzen.ru"]
 vk.com,vk.ru##[id^="post-"] > ._post_content > :only-child
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
-kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
+kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")
 drive2.ru#?#div:-abp-properties(min-height: 555px)
@@ -23968,18 +23969,15 @@ $third-party,script,xmlhttprequest,domain=kino-live8.biz
 kino-live8.biz#?#div[class^="right"] .ramka1:-abp-has(noindex)
 !
 ! Комсомольская правда
-kp.kg,kp.kz,kp.md,kp.ru##[data-subscribe-zen]
-kp.kg,kp.kz,kp.md,kp.ru##[data-test-id="News_SpecialArticle"]
-kp.kg,kp.kz,kp.md,kp.ru##[data-without-height]
-kp.kg,kp.kz,kp.md,kp.ru#?#body > #app [data-gtm-el="content-body"] ~ div > div:-abp-has(> [data-subscribe-zen])
-kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-has(> div:first-child + div > div:first-child > div:first-child + section > div > div > script[data-key])
-kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:last-child:-abp-has(> div > div > div ~ section > div > [id^="unit_"])
-kp.kg,kp.kz,kp.md,kp.ru##div[data-name]:not(.buttonContainer)
+kp.kg,kp.kz,kp.ru,md.kp.media##[data-test-id="News_SpecialArticle"]
+kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:last-child:-abp-has(> div > div > div ~ section > div > [id^="unit_"])
+kp.kg,kp.kz,kp.ru,md.kp.media##div[data-name]:not(.buttonContainer)
 ! спецпроекты, типа отдых в россии
 kp.ru##.inner-layout > div[style*="250px"]
 kp.ru##.kpad
 kp.ru##.kupi-reklamu-btn
 kp.ru##.rcard_link
+kp.ru##div[class^="rec-slot_"]
 ! путеводитель
 kp.ru###sidebar-block-top
 kp.ru##.kion__wrapper
@@ -23997,7 +23995,7 @@ kp.ru##.tgb_block
 kp.ru##div[id^="rec"] > div div[style="align-items:center;"]
 ||kp.ru/guide/js/brp.js
 ! эксперт
-/market-static/*$domain=kp.kg|kp.kz|kp.md|kp.ru
+/market-static/*$domain=kp.kg|kp.kz|kp.ru|md.kp.media
 kp.ru##.ya-market
 kp.ru##div.ad-slot
 ||kp.ru/*/expert-market/

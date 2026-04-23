@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.4.5
+! Version: 4.3.4.6
 
 ! General
 
@@ -233,6 +233,7 @@ kurier.at##div#cfs-paywall-container
 lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
 lanacion.com.ar##+js(set-local-storage-item, /^/, $remove$)
 ||latimes.com/meteringjs/$script,~third-party
+||californiatimes.com/caltimes/latimes/Bootstrap.js$script,third-party,domain=latimes.com
 ||ev.lavanguardia.com$xmlhttprequest,~third-party
 lavanguardia.com,mundodeportivo.com##span.content-ad,span.hidden-ad,span.ad-unit,div.ad-div
 ledevoir.com##+js(cookie-remover, pw6)
@@ -640,6 +641,7 @@ businesstoday.in##+js(cookie-remover, magazineSession)
 businesstoday.in##div#magazinePayWallStrip
 ||nitrocdn.com/*/paywall.$script,domain=capitalaberto.com.br
 cardiologie-pratique.com##+js(ra, class, div.wrap-node, stay)
+||jsdelivr.net/*/catholicherald-auth0-poool-*/index.js$script,third-party,domain=thecatholicherald.com
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
 ||cnv-medien.de$inline-script
 ||commercialobserver.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party

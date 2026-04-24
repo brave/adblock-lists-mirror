@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604240311
+! Version: 202604240429
 ! Title: EasyList
-! Last modified: 24 Apr 2026 03:11 UTC
+! Last modified: 24 Apr 2026 04:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f1c7902787348f4da0517e7bfb20c5fcac38f382
+! Commit: 82435937377cf655c9396cbf92482bfacc447baf
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -21446,6 +21446,7 @@ browsershots.org#@#.advert_area
 ||bvkviwotugqlq.com^
 ||bvmcdn.com^
 ||bvmcdn.net^
+||bvnbinlsgsu.com^
 ||bvpkcbprgbsrd.online^
 ||bvrlbroelweti.space^
 ||bvryckykikvhh.website^
@@ -34589,6 +34590,7 @@ browsershots.org#@#.advert_area
 ||jockeybatel.cyou^
 ||jodcvjpnvcmua.website^
 ||jodl.cloud^
+||joemaddv.com^
 ||joeser.click^
 ||jofddomgfztan.website^
 ||jofzlmsbvfpld.website^
@@ -58739,6 +58741,7 @@ browsershots.org#@#.advert_area
 ||uplyxzkvncinj.space^
 ||upmasthastens.qpon^
 ||upmgvlxtzxphy.site^
+||upmixcytonpaul.cfd^
 ||upmthznjsorzj.space^
 ||upnbrvzihngnv.space^
 ||upnoqulclouar.space^
@@ -63069,6 +63072,7 @@ browsershots.org#@#.advert_area
 ||wvvoousaenpzv.space^
 ||wvwaerpeqvzpb.fun^
 ||wvwhymfovawym.space^
+||wvwixnjmffufy.site^
 ||wvxhgmazjdjla.space^
 ||wvxviezpcoihe.space^
 ||wvy-ctvjoon.xyz^
@@ -64981,6 +64985,7 @@ browsershots.org#@#.advert_area
 ||ymmdbksutenwa.website^
 ||ymmobi.com^
 ||ymmwsqwhpqfur.online^
+||ymmydacmjzcng.online^
 ||ymmztxjktdirn.site^
 ||ymnfrnlexfcjj.site^
 ||ymokzqilqggeh.space^
@@ -66056,6 +66061,7 @@ browsershots.org#@#.advert_area
 ||zjwjcjiozdear.online^
 ||zjwwdgqpiecar.site^
 ||zjwwervhmwfyb.space^
+||zjxmrrgeqndlx.space^
 ||zjzmqczmvdfbz.site^
 ||zk1w.com^
 ||zk8y4frfvwtbkmjmbpnbb4cvrjr.cfd^
@@ -77161,7 +77167,6 @@ enca.com###block-views-block-sponsored-block-1
 mbauniverse.com###block-views-home-page-banner-block
 bmwblog.com###bmwbl-mobileArticleLeaderboardBeforeFirstParagraph
 smbc-comics.com###boardleader
-slashdot.org,sourceforge.net###bolt-coding-bar
 the-scientist.com###boombox-top
 forum.wordreference.com###botSupp
 coinarbitragebot.com###botfix
@@ -77669,9 +77674,6 @@ permanentstyle.com###mobmid
 permanentstyle.com###mobtop
 coinarbitragebot.com###modal1
 cellmapper.net###modal_av_details
-slashdot.org###mon-sticky-div
-sourceforge.net###mon-sticky-obj
-slashdot.org,sourceforge.net###mongo-stick-div
 mytuner-radio.com###move-ad
 moviemistakes.com###moviemistakes_300x600_300x250_160x600_sidebar_2
 consobaby.co.uk,gumtree.com,pcgamingwiki.com,thefootballnetwork.net###mpu
@@ -77760,7 +77762,6 @@ genshin-impact-map.appsample.com###pc-br-300x250-gim
 genshin-impact-map.appsample.com###pc-br1-float-gim
 demap.info###pcad
 investopedia.com###performance-marketing_1-0
-slashdot.org,sourceforge.net###perplexity-coding-bar
 webnovelworld.org###pfvidad
 premierguitar.com###pg_leaderboard
 tutorialspoint.com###pg_top_ads
@@ -78089,6 +78090,7 @@ openspeedtest.com###top-lb
 capetownmagazine.com###top-leader-wrapper
 austinchronicle.com,carmag.co.za,fleetnews.co.uk,shawlocal.com,the-scientist.com,thegazette.com,vodacomsoccer.com###top-leaderboard
 softexia.com###top-line
+sourceforge.net###top-placeholder
 gogetaroomie.com,snafu-comics.com###top-space
 progameguides.com###top-sticky-sidebar-container
 gamepur.com###top-sticky-sidebar-wrapper
@@ -78136,7 +78138,6 @@ sammobile.com###venatus-hybrid-banner
 nutritioninsight.com###verticlblks
 mykhel.com,oneindia.com###verticleLinks
 ghgossip.com###vi-sticky-ad
-slashdot.org###vibe-code
 investing.com###video
 forums.tomsguide.com###video_ad
 gumtree.com.au###view-item-page__leaderboard-wrapper
@@ -82166,7 +82167,6 @@ barrons.com##.standard__AdWrapper-sc-14sjre0-6
 gameworldobserver.com##.start-popup
 geoguessr.com##.start__display-ad
 cvs.com##.stencil-criteo-shelf
-sourceforge.net##.sterling
 bostonglobe.com##.stick_1200--tablet
 ar15.com##.stickers
 kathmandupost.com##.sticky--bottom
@@ -84508,6 +84508,8 @@ thehansindia.com##section:has(> .to-be-async-loaded-ad)
 thehansindia.com##section:has(> [class*="level_ad"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
+startuphub.ai#?#.p-4.rounded-xl:has-text(Sponsored)
+startuphub.ai#?#a.block.group:has-text(Sponsored)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])

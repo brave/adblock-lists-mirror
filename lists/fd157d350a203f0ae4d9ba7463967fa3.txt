@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1ukJADbCghH/vYhZPgvwxQ
-! Version: 202604241621
+! Checksum: XHhHDuEtttOzCRN5a+uWIQ
+! Version: 202604241651
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Apr 2026 16:21 UTC
+! Last modified: 24 Apr 2026 16:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1572,6 +1572,7 @@ by,~mail.ru,ru,ua##.banner_box
 ~aifishki.ru##a[href^="https://aifishki.ru/"]
 ~bither.one##a[href^="https://bither.one/"]
 ##a[href^="https://bongacams"][href*="com/track?"]
+~bookmaker-ratings.ru##a[href^="https://bookmaker-ratings.ru/bookmakers-homepage/"][target="_blank"]
 ~lesta.ru##a[href^="https://click.track-lesta.ru/"]
 ~dtpchp.ru##a[href^="https://dtpchp.ru/"]
 ~fukaka.ru##a[href^="https://fukaka.ru/"]
@@ -1583,6 +1584,7 @@ by,~mail.ru,ru,ua##.banner_box
 ~pari.ru##a[href^="https://pari.ru/promo/"]
 ~pikadil.ru##a[href^="https://pikadil.ru"]
 ##a[href^="https://relap.io/"][href*="promo_ad_link"]
+##a[href^="https://tp.media/r?"]
 ##a[href^="https://wcm"][href*="weborama"][href*="/fcgi-bin/dispatch.fcgi?"]
 ##a[href^="https://www.juicer.io?referrer="]
 ~litres.ru##a[href^="https://www.litres.ru/"][href$="#buy_now_noreg"]
@@ -10173,6 +10175,7 @@ _tizers.
 ||tozitoto.com^
 ||tozovulozi.com^$third-party
 ||tp-em.cc^$third-party
+||tp.media^$third-party
 ||tpembar.com^$third-party
 ||tpembars.com^$third-party
 ||tpjsqt.com^$third-party
@@ -18450,6 +18453,7 @@ gotps3.ru##body > a[target="_blank"]
 hmn.ru##body > center > .px_blue_fon
 chinaspb350.ru##body > center > a[href="/aliexpress.php"]
 xxuy.ru##body > center > a[href] > img[alt]
+domeno.ru##body > center > a[target="_blank"]
 samlib.ru##body > center > h3 + nobr + table[width="100%"]
 drevo.uaportal.com##body > center:first-of-type
 christianka.bratstvo.org##body > center:last-child

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XYF+RCzBlCWWFAlz+KZARQ
-! Version: 202604250050
+! Checksum: qvEj3GBS51UEYbDoLZcKmg
+! Version: 202604250250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-04-25 00:50 UTC
+! Last modified: 2026-04-25 02:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4133,6 +4133,9 @@ niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.
 ! mutualart.com login wall
 mutualart.com##.modal-backdrop
 ||mutualart.com/Ajax/AjaxLoader/Popup
+! medscape.com
+medscape.com##+js(cookie-remover, first_article_visited)
+medscape.com##.faf
 ! chatgpt.com login popup
 chatgpt.com##+js(set-session-storage-item, oai/apps/noAuthHasDismissedSoftRateLimitModal, true)
 ! hartfordbusiness.com login wall
@@ -16482,7 +16485,7 @@ agenziacasaclima.it,buzzfil.com,cadenaazul.com,catapult.co,clubic.com,dailymail.
 !! .pinterest
 bicycling.com,caranddriver.com,cosmopolitan.com,countryliving.com,delish.com,goodhousekeeping.com,nymag.com,roadandtrack.com,thepioneerwoman.com,vulture.com##.pinterest
 !! .social-box
-boredpanda.com,criticalthreats.org,lasexta.com,varesenews.it,wolverine.com##.social-box
+boredpanda.com,criticalthreats.org,lasexta.com,varesenews.it,vat19.com,wolverine.com##.social-box
 !! .follow
 alarabiya.net,ansa.it,batman-news.com,bbcamerica.com,bit.pt,bitmag.com.br,catholic.org,cheapies.nz,flashbak.com,fox10phoenix.com,fstoppers.com,geeksaresexy.net,macstories.net,medicalxpress.com,mintpressnews.com,mmoga.co.uk,mmoga.com,mmoga.de,mmoga.es,mmoga.fr,mmoga.se,phys.org,shazam.com,silicon.co.uk,silicon.de,silicon.es,skatehut.co.uk,symmetrymagazine.org,techxplore.com,telanganatoday.com,tribuneindia.com,unz.com,wonderwall.com##.follow
 !! .instagram
@@ -34819,7 +34822,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||technomedia.com/*/cookies.js$script,~third-party
 ||terencehill.com/modules/hicookielaw/
-||transcend-cdn.com^$domain=1password.com|aibusiness.com|anaconda.com|apollo.io|aviationweek.com|chubbiesshorts.com|classy.org|conan.io|costco.ca|costco.com|costcobusinessdelivery.com|darkreading.com|digicert.com|etsy.com|eyeconic.com|fanexpohq.com|fashionnova.com|fightingillini.com|forhers.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|habitburger.com|igf.com|igt.com|indiegogo.com|informa.com|informaconnect.com|jfrog.com|kfc.com|kickstarter.com|lifetouch.com|mountaineast.org|mutigers.com|ncaa.org|netapp.com|notion.com|nrn.com|patreon.com|shutterfly.com|tacobell.co.uk|tandfonline.com|taylorfrancis.com|theaisummit.com|theordinary.com|vimeo.com|visible.com|vsp.com|vspdirect.com
+||transcend-cdn.com^$domain=1password.com|aibusiness.com|anaconda.com|apollo.io|aviationweek.com|chubbiesshorts.com|classy.org|conan.io|costco.ca|costco.com|costcobusinessdelivery.com|darkreading.com|digicert.com|etsy.com|eyeconic.com|fanexpohq.com|fashionnova.com|fightingillini.com|forhers.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|habitburger.com|igf.com|igt.com|indiegogo.com|informa.com|informaconnect.com|jfrog.com|kfc.com|kickstarter.com|lifetouch.com|mayoclinic.org|mountaineast.org|mutigers.com|ncaa.org|netapp.com|notion.com|nrn.com|patreon.com|shutterfly.com|tacobell.co.uk|tandfonline.com|taylorfrancis.com|theaisummit.com|theordinary.com|vimeo.com|visible.com|vsp.com|vspdirect.com
 ||transcendcdn.eventbrite.com^
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
@@ -49770,6 +49773,7 @@ spacenews.com##.pattern-newsletter-subscribe
 labiotech.eu##.pb-8
 nejm.org##.pb-house-message
 playbuzz.com##.pb-site-subscription
+pcguide.com##.pcg-newsletter
 paydaythegame.com##.pdtgfooternewsletter
 hbr.org##.persistent-banner
 bonappetit.com##.persistent-bottom
@@ -49810,6 +49814,7 @@ gwaramedia.com##.poster-wrap--subscribe-news
 everythinglifestyle.ca,fraservalleytoday.ca##.pp-btn-container
 bittmanproject.com##.pp-modal-wrap
 womensagenda.com.au##.pp-popup
+news.osu.edu##.ppmodule_buttonset
 peanutbutterrunner.com##.pps-popup
 ip2location.com##.pre-footer-subscribe-box
 cheknews.ca##.pre-header-newsletter
@@ -49838,6 +49843,7 @@ independent.ie##.quick_subscribe
 allthatsinteresting.com##.r-klde5a.r-1awozwy.css-175oi2r
 prdaily.com##.ragansdaily
 theparisreview.org##.rail-enews
+news.osu.edu##.raw-html-embed
 oregonlive.com##.rawhtml
 holyrood.com##.rc-subs
 rcrwireless.com##.rcrwi-hubspot-article-form
@@ -52075,6 +52081,7 @@ gourmetfoodstore.com###divInterstitialContainer
 overstock.com###dynamic_banners
 niteize.com###easybanner-overlay-el
 costco.com###email-popup-title
+vat19.com###email-signup-footer-container
 cb2.ca###emailCheckFooter
 cruise.com###emailFooter
 zumiez.com###emailInfobar

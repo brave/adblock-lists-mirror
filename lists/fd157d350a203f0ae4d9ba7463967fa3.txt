@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0GZlZPPYhck1AicZUacx4g
-! Version: 202604250732
+! Checksum: WZ9MhQVBafljXQODWupcGg
+! Version: 202604250802
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Apr 2026 07:32 UTC
+! Last modified: 25 Apr 2026 08:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18625,6 +18625,7 @@ ura.news#?#div:-abp-has(> [id^="adv-"])
 blackwot.ru,draug.ru,emdigital.ru,enthub.it,modsforwot.ru,pogodavtomske.ru#?#div:-abp-has(> [id^="yandex_rtb"])
 photofuneditor.com#?#div:-abp-has(> [src*="pagead2."])
 gdz.ninja,gdzotputina.club,gdzputina.net,reshebnik.com,spishi.fun,zoobrilka.net#?#div:-abp-has(> [src="/secret.png"])
+sport24.ru#?#div:-abp-has(> [style="margin-bottom:1rem"] > a > .bookmaker-rating)
 drive2.ru#?#div:-abp-has(> a[href] > div > div > div > div)
 anwap.film#?#div:-abp-has(> a[href]:not([href^="/films/"]):not([href^="/serials/"]) > div)
 fragrantica.ru#?#div:-abp-has(> a[href^="/goto.php"])

@@ -2673,6 +2673,13 @@ yabaisub.cloud##+js(trusted-click-element, #player-option-1, , 500)
 
 ! !SECTION: fakeplayer
 
+! SECTION: playerAds
+
+favoyeurtube.net>>,primewire.*>>,tokuzilla.net>>,tokuzl.net>>,tukoz.com>>,~cloudflare.com##+js(json-prune, ads playerAds)
+embedseek.xyz,nuovo.vidplayer.live,p2pplay.pro,primevid.click,streamcasthub.store##+js(json-prune, ads playerAds)
+
+! !SECTION: playerAds
+
 ! SECTION: .protection / detectAdblock
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19890
@@ -2966,6 +2973,11 @@ heise.de##section[data-layout="TeaserListLayout"] > section[data-component="Teas
 testsieger.de##+js(json-prune, offers)
 testsieger.de###sponsoredProductPdp
 testsieger.de###sponsoredAdsHeader
+
+! https://github.com/uBlockOrigin/uAssets/issues/32708
+20min.ch##section aside:has(> div > div > div[data-ad-unit-id])
+20min.ch##div[class^="ContentPage_contentPage"] > div[class]:not([class^=""]):has(> div > div > div[data-ad-unit-id]zxZX12!@
+20min.ch##div[type="ad"]
 
 ! NOTE: Greek
 ! https://github.com/uBlockOrigin/uAssets/issues/29657

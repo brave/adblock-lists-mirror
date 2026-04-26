@@ -30,11 +30,9 @@ freescreens.ru,imgbase.ru,imgcach.ru,imgclick.ru,payforpic.ru,picclick.ru,picclo
 fenglish.site,mp3spy.cc##+js(abort-current-inline-script, JSON.parse, atob)
 draug.ru,modsforwot.ru##+js(abort-current-inline-script, Math.floor, AdSense)
 agroreview.com##+js(abort-current-inline-script, Object.defineProperty, rcBuf)
-filmisub.com,kinofen.net##+js(abort-current-inline-script, XMLHttpRequest, document.querySelectorAll)
 fastpic.org,~new.fastpic.org##+js(abort-current-inline-script, addEventListener, DOMContentLoaded)
 allboxing.ru##+js(abort-current-inline-script, atob, void)
 pravvest.ru##+js(abort-current-inline-script, clickExplorer)
-filmisub.com,kinofen.net##+js(abort-current-inline-script, decodeURIComponent, fromCharCode)
 my-expert.ru##+js(abort-current-inline-script, disableSelection, reEnable)
 mod-wot.ru##+js(abort-current-inline-script, document.addEventListener, adsBlocked)
 krolik.biz##+js(abort-current-inline-script, document.createElement)
@@ -341,7 +339,6 @@ lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.today,lostfil
 stalker-mods.clan.su,stalker-mods.su##+js(remove-attr, oncontextmenu|oncopy|onselectstart)
 author.today##+js(remove-attr, onmousedown|unselectable|onselectstart|oncontextmenu, .noselect, stay)
 mag.relax.by##+js(remove-class, b-global-branding, html)
-pikabu.ru##+js(remove-class, comment__control_tbank_, .comment__control)
 motorpage.ru##+js(remove-class, noscroll, body)
 online-fix.me##+js(remove-node-text, #text, РЕКЛАМНЫЙ БЛОК:)
 farposst.ru##+js(remove-node-text, #text, Реклама)
@@ -515,7 +512,6 @@ hideip.me#@#.node-promoted
 author.today##.noselect:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 vm.ru##.onair_wrapper > [name="btn_air_close"]
 cq.ru##.post-content > div > div:matches-css(height: 150px):remove()
-pikabu.ru##.pub300x250.pub300x250m.pub728x90.text-ad.textAd.textad.textads.text-ads.text-ad-links:style(display: block !important; position: absolute !important; top: -10000px !important; left: -10000px !important)
 letidor.ru,motor.ru,quto.ru,secretmag.ru,wmj.ru##.readMore
 sports.ru##.right-first-banner-place + div
 softportal.com##.st-browser__timer

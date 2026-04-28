@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604272358
+! Version: 202604280058
 ! Title: EasyPrivacy
-! Last modified: 27 Apr 2026 23:58 UTC
+! Last modified: 28 Apr 2026 00:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7f32a751de47e7b4f373de5db26cb86f0de90a15
+! Commit: 693613138ff19a6a689af2aff7d874337b0593cb
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4292,7 +4292,6 @@ omni.soundestlink.com$image
 ||blogreaderproject.com^$third-party
 ||bluecava.com^$third-party
 ||blueconic.net^$third-party
-||bluecore.com^$third-party
 ||blueknow.com^$third-party
 ||blvdstatus.com^$third-party
 ||bm23.com^$third-party
@@ -10296,6 +10295,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.axept.io/v1/analytics/evts
 ||api.bit.ly/*/clicks?$third-party
 ||api.blink.net/a/
+||api.bluecore.app/api/track/
 ||api.collarity.com/cws/*http
 ||api.config-security.com/first
 ||api.country.is^$third-party
@@ -11822,6 +11822,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||onet.pl/eclk/
 ||onet.pl^*/tags?
 ||onetrust.com^$ping
+||onsitestats.bluecore.com^
 ||onsugar.com/static/ck.php?
 ||ontraport.com/track.php
 ||ontraport.com/tracking.js

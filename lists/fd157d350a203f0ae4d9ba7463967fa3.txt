@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OrNtiP6pnrXpmcnCsaGkYg
-! Version: 202604290851
+! Checksum: y+/FbXqw+rD9ElM0XGpV8A
+! Version: 202604290941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Apr 2026 08:51 UTC
+! Last modified: 29 Apr 2026 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15410,6 +15410,7 @@ c-s.net.ua##.nopad > center > a[href][target="_blank"]
 1000.menu##.noprint > div[style*="height:300px;"]
 footballhd.ru##.nopromo_view
 kerch.fm##.norkos
+habr.com##.nornickel-special
 cossa.ru##.noteFrame
 esp8266.ru##.notice[data-notice-id="1"]
 sandero.ru##.notices_img_ad
@@ -24479,13 +24480,11 @@ overclockers.ru##.top-menu ~ .main-wrap.container > .grid.ui > .row.container-bl
 overclockers.ru##[id^="pipMtbRoot"]
 overclockers.ru##body > div[class][style*="margin-"]
 overclockers.ru#?#div:-abp-has(> #fixScrollPip)
-overclockers.ru##div[class*="__lxG__"]
 overclockers.ru##div[class*="pip-"]
 overclockers.ru#?#div[class]:-abp-has(> [id^="pipMtbRoot"])
 overclockers.ru##div[itemprop="articleBody"] > div[id^="yandex_rtb"] ~ br
 forums.overclockers.ru##div[style="border: 1px solid #ccc; margin: 5px 0; text-align:center; background-color: #d9e5f1; font-size:20px; font-weight:bold;padding:10px"]
 overclockers.ru##h4.left.aligned.divider.header
-overclockers.ru##h4.left.aligned.divider.header ~ .divider
 overclockers.ru##img[src^="https://overclockers.ru/st/images/partners/"]
 forums.overclockers.ru#?#table > tbody > tr:-abp-has(> [class^="profile"]:-abp-contains(/Партнер|Реклама/))
 ||overclockers.ru/assets/app/app-ecatalog.js

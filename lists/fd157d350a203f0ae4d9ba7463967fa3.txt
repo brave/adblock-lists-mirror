@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l3mm1bRmebDbD+h10DKGAQ
-! Version: 202604291731
+! Checksum: abcwagC6DKodWy0LFe+WGw
+! Version: 202604291831
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Apr 2026 17:31 UTC
+! Last modified: 29 Apr 2026 18:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1599,6 +1599,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[onclick*="trtkp.ru"]
 me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table table[bgcolor="#dbdbdb"] td[bgcolor="#fafafa"]
 me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][bgcolor]
+##div[class$="_scrollable-doc"][id]
 ##div[class*="relap"][class*="-rec-item"]
 ##div[class*="spklw"][data-type="ad"]
 ##div[class*="td-a-rec-id-"]
@@ -10384,6 +10385,7 @@ _tizers.
 ||umrefebaot.biz^$third-party
 ||umwiba.com^$third-party
 ||unads.ru^$third-party
+||unawarepatience.pro^$third-party
 ||unbraceous.men^$third-party
 ||unclic.ru^$third-party
 ||under-click.ru^
@@ -16335,7 +16337,6 @@ move.ru##.specs-column
 move.ru##.specs-near
 xxx-russian.ru##.speedbar ~ .rad5
 www.obozrevatel.com#?#.splide__list > .splide__slide:-abp-has(> article > .banner)
-gsett.ru##.spnc-right a[target="_blank"]
 alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,fco.com.ua,filmozavr.com,filmozavr.net,forexsystemsru.com,itc.ua,itweek.ru,medkrug.ru,must-see.top,womanhit.ru##.sponsor
 radioshanson.fm##.sponsor a[href][target="_blank"]
 fbu.ua,stroimdom.com.ua##.sponsors
@@ -17901,6 +17902,7 @@ fchimik.ru##a[href="http://www.procterandgamble.ru/"]
 vd-tv.ru##a[href="http://www.vdclab.ru/"]
 cq.ru##a[href="https://cq.ru/steam-pay"]
 esports.ru##a[href="https://go.esports.ru/roulette"]
+gsett.ru##a[href="https://gsett.ru/gs"]
 oper.ru##a[href="https://oper.ru/follow/wi"]
 thelastgame.ru##a[href="https://thelastgame.ru/how-to-load/"]
 ukrfootball.ua##a[href="https://ukrfootball.ua/bookmaker/"]

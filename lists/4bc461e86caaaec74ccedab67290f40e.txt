@@ -59,7 +59,14 @@
 ||binoads.ir^
 
 ! par30games.net:
+! https://github.com/AdguardTeam/AdguardFilters/issues/83232
+! https://github.com/MasterKia/PersianBlocker/issues/4
+! https://github.com/MasterKia/PersianBlocker/issues/9
+! https://github.com/MasterKia/PersianBlocker/pull/19
+! https://community.brave.com/t/reporting-remaining-ads/508217/4
 ||yektabanner.com^
+par30games.net##.top-large-ads
+par30games.net##.sidebar-box-shop
 
 ! These news websites all have a common advertisment format:
 ! cdn.sharghdaily.com/servev2/, cdn.donya-e-eqtesad.com/servev2/, cdn.fararu.com/servev2/, etc
@@ -136,8 +143,10 @@ nazriyab.app##.header-ex
 ! sheypoor.com:
 sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
 
-! telewebion.com:
-||adengine.telewebion.com^
+! telewebion.ir:
+||hadeseh.simra.cloud^
+||adengine.telewebion.ir^
+||data.telewebion.ir/broker/api/v1/message^$method=post
 
 ! digikala.com:
 ! Ads in search results:
@@ -211,10 +220,6 @@ aparat.com##.ad-product-thumb
 ! https://github.com/uBlockOrigin/uAssets/issues/14480
 ! https://github.com/MasterKia/PersianBlocker/issues/40
 soft98.ir,~forum.soft98.ir##img[src^="https://img.soft98.ir/"]:upward(1):style(clip-path: circle(0) !important;)
-
-! par30games.net:
-||par30games.net/wp-content/uploads/*.gif^
-par30games.net##.top-large-ads
 
 ! shahrekhabar.com:
 ||static.shahrekhabar.com/banner/*.gif^
@@ -339,6 +344,12 @@ p30download.ir##.text-aga
 ||rozup.ir/view/4190453/pop.js^
 darkroid.ir##.app-dl-modal-papa
 
+! citna.ir:
+citna.ir##div[id^="block-ad"]
+
+! search.bertina.ir:
+search.bertina.ir##[data-ad-id]
+
 ! movieyaab.ir:
 movieyaab.ir##.ad-offer-card
 
@@ -360,3 +371,6 @@ web.bale.ai##div[data-testid="dialog-ad"]
 
 ! boursepress.ir:
 boursepress.ir##.sysbanner
+
+! sahand-music.ir:
+sahand-music.ir##div[style="position: fixed;bottom: 20px;right: 0;z-index: 9999;"]

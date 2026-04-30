@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h/z5hYl0bJj8RAFUbXykww
-! Version: 202604301341
+! Checksum: 247z2ClDT/qtehU/vvKu/Q
+! Version: 202604301441
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Apr 2026 13:41 UTC
+! Last modified: 30 Apr 2026 14:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17479,7 +17479,6 @@ fastpic.org##[tabindex][role="link"]
 cdmail.ru,izcity.com##[title*="быстрый браузер!"] > img
 zx-pk.com##[title="Yandex Direct"]
 ozon.ru##[title="Реклама"]
-www.film.ru##[title="Яндекс Дзен"]
 kod.ru##[title="Яндекс.Дзен"]
 ruboard.website##[vid_vpaut_pl]
 lost-abc.ru##[width="630"][height="90"]
@@ -19050,6 +19049,7 @@ dezbox.ru##div[class^="mypopup"]
 t.ks.ua##div[class^="ne-banner-"]
 dictat.net##div[class^="news-block"]
 podrobno.uz##div[class^="offer-"]
+www.film.ru##div[class^="okko"]
 open4business.com.ua##div[class^="open4-sidebar"]
 drive.ru##div[class^="osago-"]
 investing.com##div[class^="outbrain_outbrain-wrapper_"]
@@ -23662,8 +23662,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/content/*/*/$script
-||static.dzeninfra.ru/s3/zen-apps/video-player-core/*/*/$script
+||static.dzeninfra.ru/s3/zen-apps/commets2/*/*/$script
+||static.dzeninfra.ru/s3/zen-apps/desktop2/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
@@ -23694,7 +23694,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?hJK7w=$xmlhttprequest
+||pikabu.ru/ajax/*?hJK6w=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 02tAeQViwikDuOVuD7sUkA
-! Version: 202605011151
+! Checksum: xMtq/Z0Mpr5ancXJCQPocw
+! Version: 202605011221
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 May 2026 11:51 UTC
+! Last modified: 01 May 2026 12:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1802,7 +1802,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /\/[a-z]{1,3}\?zoneId\=\d{7}\-\d{7}$/$third-party,script
 /^https?://([^.]+\.)+[a-z]+\.(?:biz|ru|space)/[a-z][/?][-a-z0-9_?&=]{5,45}$/$third-party,script,domain=~hotcharts.ru
 /^https?://[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script
-/^https?:\/\/[-a-z]{6,}\.(info|pro|xyz)\/[a-d][-.\/A-Z_a-z][DHWXm][-.\/A-Z_a-z][59FVZ][-.\/A-Z_a-z][6swyz][-.\/A-Z_a-z][-\/0-9A-Z_a-z][-.\/A-Z_a-z][-\/0-9A-Z_a-z]{2,}/$third-party,match-case,script
+/^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-.\/A-Z_a-z][DHWXm][-.\/A-Z_a-z][59FVZ][-.\/A-Z_a-z][6swyz][-.\/A-Z_a-z][-\/0-9A-Z_a-z][-.\/A-Z_a-z][-\/0-9A-Z_a-z]+(?:$|\?)/$third-party,match-case,script
 /a/ipn/js/*$third-party,script
 /a/pop/js/*$third-party,script
 /abnl/?ucozads^
@@ -9066,6 +9066,7 @@ _tizers.
 ||reborko.com^$third-party
 ||receivedachest.com^$third-party
 ||reckintersupwas.info^$third-party
+||reckless-message.pro^$third-party
 ||reckless-variation.pro^$third-party
 ||reclame.io^$third-party
 ||recordsbluemountain.com^$third-party

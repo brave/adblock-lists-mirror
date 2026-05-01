@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: raHTI4DXfX3Dz6RGcfsg+A
-! Version: 202605011751
+! Checksum: CFYe0Lu4OLMYBbw+SrfUfg
+! Version: 202605011851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 May 2026 17:51 UTC
+! Last modified: 01 May 2026 18:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1726,7 +1726,9 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 .braun634.com^
 .com/next.html?$third-party,script
 .com/resources/draw_script.js$third-party,script
+.com/services/?fx=$third-party,script
 .com/services/?id=$third-party,script
+.com/services/?rt=$third-party,script
 .com/vinos.js?$third-party,script
 .gold/next.html?$third-party,script
 .htm?href=*&tm_mode=
@@ -13230,6 +13232,7 @@ mirf.ru##.advt-mf
 9111.ru##.advzone
 recept.ua##.adw-link
 tmbw.ru##.adwidget
+aigenda.ru##.af-product
 2bitcoins.ru##.af_advert_content
 burdastyle.ru##.aff-offers
 rubryka.com##.after-content-advertisment
@@ -23749,7 +23752,14 @@ vk.com,vk.ru#?#._post_content:-abp-has(.g03FJ4dTToqroympKAMc)
 vk.com,vk.ru#?#._post_content:-abp-has(.l2Q63U68RkAXQkXEoJnJ)
 vk.com,vk.ru#?#._post_content:-abp-has(.r4jouGh_Hfn9c5AzpbJg)
 vk.com,vk.ru#?#._post_content:-abp-has([src*="mradx."])
+aigenda.ru#@#.ad-placeholder
+aigenda.ru#@#.ad-slot
+aigenda.ru#@#.adbanner
+aigenda.ru#@#.ads-banner
+aigenda.ru#@#.adsbox
+aigenda.ru#@#.adsbygoogle
 eg.ru##.article_tags-block[onclick]
+aigenda.ru#@#.banner_ad
 drive2.ru##.c-dv-side
 vk.com,vk.ru##.feed_row > [data-post-id]:not([id^="post"])
 vk.com,vk.ru##.feed_row > [data-post-id][id^="post"] > :not([class="_post_content"])
@@ -23762,9 +23772,11 @@ mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
 freesoft.ru##.modal-backdrop
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
+aigenda.ru#@#.pub_300x250
 dtf.ru##.rotator
 dtf.ru##.sticky-stack-sidebar-section .loader + div[id][class]:empty
 dtf.ru##.supbar--top * *
+aigenda.ru#@#.textads
 ritsatv.ru,websdr.su##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||fearmp4.ru^$generichide
@@ -25620,6 +25632,7 @@ inforeactor.ru##.yandex-widget
 tass.ru##[class*="Layout_bottom_fixed_"]
 tass.ru##[data-no-mourning="true"][class^="DesktopLayout_above"]
 pasy.media##[data-remodal-id]
+okko.sport,okko.tv##[data-testid="player_osd"] > div[style*="--duration-"] > div:first-child::after
 9111.ru##[id^="site-welcome"]
 novoruskino.net##[src$="/social.gif"]
 24tv.ua##app-age-popup

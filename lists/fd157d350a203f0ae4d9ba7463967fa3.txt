@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gvr+TdQuWRSNbYP0SBCK1w
-! Version: 202605021051
+! Checksum: 8FWmG3cb3axeuBxz6kAqHw
+! Version: 202605021112
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 May 2026 10:51 UTC
+! Last modified: 02 May 2026 11:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4218,6 +4218,7 @@ _tizers.
 ||ads.digitalcaramel.com^$third-party
 ||ads.vk.com/|$xmlhttprequest,domain=~ads.vk.com
 ||ads2.bid^$third-party
+||adsafee.io^$third-party
 ||adsclick.ru^$third-party
 ||adseedtech.com^$third-party
 ||adselector.ru^$third-party
@@ -23096,6 +23097,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||station.ru/upload/contents/*210x260
 ||station.ru/upload/contents/*240x250
 ||statuserdata.ru/player/
+||stavka.tv/*popup
+||stavka.tv/*promo
 ||stena.ee/sites/default/files/stenaee_rek.
 ||step2nature.ru/upload/alexkova.popupad/$image
 ||stereohead.ru/_main_page/images/

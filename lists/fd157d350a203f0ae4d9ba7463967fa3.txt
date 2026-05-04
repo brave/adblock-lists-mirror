@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MlYBvjRD6HUzny8i0fGwEQ
-! Version: 202605040601
+! Checksum: lH1JnWegKuNCbNOFmnq6Hw
+! Version: 202605040721
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 May 2026 06:01 UTC
+! Last modified: 04 May 2026 07:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1728,6 +1728,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 .com/resources/draw_script.js$third-party,script
 .com/services/?fx=$third-party,script
 .com/services/?id=$third-party,script
+.com/services/?ix=$third-party,script
 .com/services/?ns=$third-party,script
 .com/services/?rt=$third-party,script
 .com/vinos.js?$third-party,script
@@ -15981,14 +15982,14 @@ bestradio.fm##.row .panel-danger
 5-tv.ru##.row > .col3.positionRelative
 my-hit.org##.row > .hidden-sm.hidden-xs > :not([class])
 pingvin.pro#?#.row > div:-abp-has(> .card-blog script)
+repack.me##.row > div:first-child .panel-primary.short-title
+repack.me##.row > div:first-child .panel-primary.short-title ~ br
 censor.net,lookatme.ru##.row-banner
 the-village-kz.com,the-village.me,the-village.ru,village.com.ua##.row-banner-top
 internetsms.org##.row-fluid.center > h3
 internetsms.org##.row-fluid.center > h4
 metrogame.net##.row.row-flash.roll
 investoday.ru##.row2 > span[style^="float:"]
-repack.me##.row[class*=" my"] > div:first-child .panel-primary.short-title
-repack.me##.row[class*=" my"] > div:first-child .panel-primary.short-title ~ br
 nikcenter.org#?#.row[style^="padding-"]:-abp-has(> .nchead > .ncheading:-abp-contains(/^партн/i))
 epravda.com.ua,eurointegration.com.ua##.rpad script[src*="orbit.lun.ua"] + span
 thesame.tv##.rs-promo

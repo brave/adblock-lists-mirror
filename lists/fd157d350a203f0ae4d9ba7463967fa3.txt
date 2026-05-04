@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bty2st/xX8vgDft+SBI8Vg
-! Version: 202605041821
+! Checksum: wDHmo1tu8+vumxMV+tST8A
+! Version: 202605041931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 May 2026 18:21 UTC
+! Last modified: 04 May 2026 19:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15983,8 +15983,6 @@ bestradio.fm##.row .panel-danger
 5-tv.ru##.row > .col3.positionRelative
 my-hit.org##.row > .hidden-sm.hidden-xs > :not([class])
 pingvin.pro#?#.row > div:-abp-has(> .card-blog script)
-repack.me##.row > div:first-child .panel-primary.short-title
-repack.me##.row > div:first-child .panel-primary.short-title ~ br
 censor.net,lookatme.ru##.row-banner
 the-village-kz.com,the-village.me,the-village.ru,village.com.ua##.row-banner-top
 internetsms.org##.row-fluid.center > h3
@@ -18345,7 +18343,6 @@ glavpost.com##article div[style*="#EFEFEF"]
 domodedovoriamo.ru,korolevriamo.ru,krasnogorskriamo.ru,lubertsyriamo.ru,mytischiriamo.ru,podolskriamo.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,schelkovoriamo.ru,sergposadriamo.ru##article ul > li > button
 4pda.to#?#article ~ article:-abp-has(> [class] > div:only-child > img:first-child)
 point.md#?#article:-abp-has(> div[id^="article-"] > .business)
-pikabu.ru##article[data-author-id="7"]
 qip.ru##article[data-type="advert"]
 mi100.info##article[id^="post-"] > .entry-meta + div[style^="padding-bottom:"]
 sport-tv.pro##aside .HTML > .widget-content > a > img
@@ -24842,6 +24839,13 @@ rbc.ru##div[class^="styles_okko"]
 ||s0.rbk.ru/v6_top_pics/media/img/2/89/347628703693892.svg
 ||utro.ru/*/banners/
 ||zoom.cnews.ru/inc/bpic/
+!
+! REPAK.me
+repack.me##.row > div:first-child .panel-primary:nth-child(-n+3)
+repack.me##.row > div:first-child .panel-primary:nth-child(-n+3) + br
+! блокировки, добавленные из-за агрессивного обхода >
+||t.me/neovpnbot?$third-party,popup
+||waicore.net^$third-party,popup
 !
 ! Spaces и зеркала
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com###sidebar > div[class]:last-child

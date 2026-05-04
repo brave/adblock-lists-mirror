@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DPvnwppBpZEtWAk2VPbrkQ
-! Version: 202605041242
+! Checksum: CggXeAA01m1k3uHcnuC+fg
+! Version: 202605041342
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 May 2026 12:42 UTC
+! Last modified: 04 May 2026 13:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24954,6 +24954,7 @@ sports.ru##div[class*="SALES"] > .accordion__handle
 tribuna.com##div[class*="main_layout__empty_block"]
 tribuna.com##div[class^="BookmakerGift"]
 tribuna.com##div[class^="MatchLayout-module_"] > [style="display: contents;"] > [data-test]
+tribuna.com#?#div[class^="_structured-body_"] > div:-abp-has([id*="Postscripts_News"])
 cyber.sports.ru##div[class^="desktop-teaser_"] a[href*="://sirena.world/"]
 tribuna.com##div[data-anchor^="_"][class^="_"]
 sports.ru##div[data-control-noinit="Common.BetsTabs"]

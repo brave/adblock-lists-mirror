@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YhgKIdjtnxRbFJqXj7qpRg
-! Version: 202605050841
+! Checksum: kw40lVi6KXUpijZxwpjFgg
+! Version: 202605050941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 May 2026 08:41 UTC
+! Last modified: 05 May 2026 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24841,8 +24841,8 @@ rbc.ru##div[class^="styles_okko"]
 ||zoom.cnews.ru/inc/bpic/
 !
 ! REPAK.me
-repack.me##.row > div:first-child .panel-primary:nth-child(-n+3)
-repack.me##.row > div:first-child .panel-primary:nth-child(-n+3) + br
+repack.me#?#.panel:-abp-has(> .panel-body > p > a[href*="/waicore"])
+repack.me#?#.panel:-abp-has(> .panel-body > p > a[href^="/neo"])
 ! блокировки, добавленные из-за агрессивного обхода >
 ||t.me/neovpnbot?$third-party,popup
 ||waicore.net^$third-party,popup
@@ -25064,7 +25064,7 @@ ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="-cektion-items-count:"]
+ya.ru##section[style*="-cekktion-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner

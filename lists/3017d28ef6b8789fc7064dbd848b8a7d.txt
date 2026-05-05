@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605050944
+! Version: 202605051037
 ! Title: EasyPrivacy
-! Last modified: 05 May 2026 09:44 UTC
+! Last modified: 05 May 2026 10:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ed36a48a9d0491a2d26e43ba8d3f9bcc0b44722b
+! Commit: 62fe0d316df46969ba71979f8f164b5f7c468eef
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7348,12 +7348,10 @@ omni.soundestlink.com$image
 ||firstendpoint.com^
 ||firstscreenshot.com^
 ||fishersfinds.com^
-||fishingtoolsbox.com^
 ||fitmessage.com^
 ||fitnessmapper.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
-||fjordsand.com^
 ||flakyfeast.com^
 ||flameuncle.com^
 ||flashtexting.com^
@@ -17151,6 +17149,8 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||operationsports.com/wp-json/navy/v1/tag?pid=
 ! noopjson
 ||acustomizedgift.com^$redirect=noopjs,script
+||fishingtoolsbox.com^$redirect=noopjs,script
+||fjordsand.com^$redirect=noopjs,script
 ||inventorycache.com^$redirect=noopjs,script
 ||kindhush.com^$redirect=noopjs,script
 ||oceancloudhosts.com^$redirect=noopjson,xmlhttprequest

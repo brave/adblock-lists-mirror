@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IfZeOWSaP2XnmYbnD1dGQA
-! Version: 202605051042
+! Checksum: ERwfvs8DdDHgas7EvIypDQ
+! Version: 202605051131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 May 2026 10:42 UTC
+! Last modified: 05 May 2026 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24841,8 +24841,8 @@ rbc.ru##div[class^="styles_okko"]
 ||zoom.cnews.ru/inc/bpic/
 !
 ! REPAK.me
-repack.me#?#.panel:-abp-has(> .panel-body > p > a[href*="/waicore"])
-repack.me#?#.panel:-abp-has(> .panel-body > p > a[href^="/neo"])
+repack.me#?#.panel:-abp-has(> .panel-body > p > a[href*="/ne"])
+repack.me#?#.panel:-abp-has(> .panel-body > p > a[href*="/wa"])
 ! блокировки, добавленные из-за агрессивного обхода >
 ||t.me/neovpnbot?$third-party,popup
 ||waicore.net^$third-party,popup

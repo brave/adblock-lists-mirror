@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.6.0
+! Version: 4.3.6.2
 
 ! General
 
@@ -80,7 +80,7 @@ bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
 /\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script,~third-party
-||bwbx.io/s3/fence/$script,third-party,domain=bloomberg.com
+||bwbx.io/s3/fence/fortress-client/$script,third-party,domain=bloomberg.com
 ||bloombergadria.com/*/news$inline-script
 bloombergadria.com##+js(ra, style, article.single-news[style], stay)
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
@@ -265,6 +265,8 @@ mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > 
 ||musicomh.com/wp-content/*/bundle.js$script,~third-party
 mv-voice.com##+js(cookie-remover, /^/)
 ||cdn.registerdisney.go.com$script,domain=nationalgeographic.com
+nationalgeographic.it##+js(ra, style, section[style], stay)
+nationalgeographic.it##section.paywall-container
 ||nautil.us/_next/static/chunks/pages/_sites/%5BsiteSlug%5D/%5B...slug*.js$script,~third-party
 newsday.com##+js(ra, class, html[class])
 newrepublic.com##div.article-scheduled-modal

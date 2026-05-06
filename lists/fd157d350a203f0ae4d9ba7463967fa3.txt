@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PgO7KvWxhEon2dDW8JgGmQ
-! Version: 202605060851
+! Checksum: ZKBjiu5Ntys0eY1kS59mGA
+! Version: 202605060951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 May 2026 08:51 UTC
+! Last modified: 06 May 2026 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4185,6 +4185,7 @@ _tizers.
 ||adlabsretail.ru^$third-party
 ||adlmerge.com^$third-party
 ||adlook.tech^$third-party
+||adlook.tv^$third-party
 ||adluxe.ru^$third-party
 ||admag.pro^$third-party
 ||admail.am^$third-party
@@ -10675,7 +10676,6 @@ _tizers.
 ||vmkxcsss.ru^$third-party
 ||vn-chk123.com^$third-party
 ||vn-chk777.com^$third-party
-||vn12345.mvapspdmpg.com^$third-party
 ||vne56qxpovf.info^$third-party
 ||vne56wxlo.shop^$third-party
 ||vne56wxlo.tech^$third-party
@@ -19227,7 +19227,7 @@ finmarket.ru##div[id*="_ban"]
 niv.ru##div[id*="_ban_"]
 kavkazova.ru##div[id*="actionteaser"]
 ochevidets.ru##div[id*="baner"]
-bina.az,bitpump.ru,chem21.info,enovosty.com,ogorodnik.com,orelgrad.ru,propozitsiya.com,qafqazinfo.az,snow-motion.ru,stadion.uz,tap.az,turbo.az,uralpress.ru##div[id*="banner"]
+bina.az,bitpump.ru,botanichka.ru,chem21.info,enovosty.com,ogorodnik.com,orelgrad.ru,propozitsiya.com,qafqazinfo.az,snow-motion.ru,stadion.uz,tap.az,turbo.az,uralpress.ru##div[id*="banner"]
 propozitsiya.com##div[id*="bunner"]
 drom.ru,newsvl.ru,vl.ru##div[id*="candy"]
 akipress.org##div[id*="company"]
@@ -21143,6 +21143,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||boosterrock.com^$third-party
 ||bos.bz/assets/php/banners/
 ||botanam.net/wp-content/themes/reshebnik/*.swf
+||botanichka.ru/wp-content/uploads/sbl-assets/
 ||bouncekitchen.ru^*.php$script
 ||bountyporn.com/7c24c1.js
 ||br.kcdn.kz^
@@ -21187,7 +21188,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||cda.pl/xml_pool/*pool*.php$xmlhttprequest
 ||cdn.anison.fm/images$object
 ||cdn.banki.ru/*/widget-calculators$domain=banki.ru
-||cdn.botanichka.ru/pics/brand/
 ||cdn.gravitec.net/styles/unbloc*.png
 ||cdn.hsmedia.ru/dist/maxim/Product.
 ||cdn.hsmedia.ru/scrooge-client/hsm-creative-manager$script
@@ -23021,6 +23021,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||spark.ru/upload/promo/
 ||spbdnevnik.ru/media/_b/$image
 ||spbit.ru/uploads/Banner/
+||spdmpgcdn.com/veoveo-creative/
 ||special.matchtv.ru/feeds/
 ||special.pikabu.ru^$domain=~special.pikabu.ru
 ||specials*.servicecdn.ru/$domain=dtf.ru|vc.ru
@@ -26341,7 +26342,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||fonts.gstatic.com^
 @@||foodzy.ru/i/b/$image,domain=foodzy.ru
 @@||forecabox.foreca.com/css/*X*css|$stylesheet,domain=forecabox.foreca.com
-@@||franecki.net/favicon.ico$image,domain=hdninja.club
 @@||fundament-spb24.ru^*/images/$image,domain=fundament-spb24.ru
 @@||gamearmy.ru/images/$image,domain=setitagila.3dn.ru
 @@||games-tv.ru/openx/www/delivery/ajs.php?$script,domain=games-tv.ru

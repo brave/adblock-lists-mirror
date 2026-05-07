@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Jhsu2G5GchheFN8ET/pzBw
-! Version: 202605030725
+! Checksum: oiA2PUayXrJVgC6h7lADvQ
+! Version: 202605071325
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-05-03 07:25 UTC
+! Last modified: 2026-05-07 13:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -690,6 +690,10 @@ reddit.com##shreddit-experience-tree
 !#if env_mobile
 reddit.com##body,html:style(overflow: auto !important;)
 !#endif
+reddit.com##.rpl-bottom-sheet
+reddit.com##+js(remove-class, rpl-scroll-lock, body, stay)
+reddit.com##+js(remove-class, scroll-is-blocked, body, stay)
+reddit.com##+js(prevent-addEventListener, touchmove)
 ! tiktok
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 tiktok.com##.e1pecv674.css-99ed1t-DivFooterGuide

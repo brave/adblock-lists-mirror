@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N1X0WpHafzGuKToc1Pl/bw
-! Version: 202605081631
+! Checksum: +dqMM0L0C/BBO0Pvyvw5Cg
+! Version: 202605081702
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 May 2026 16:31 UTC
+! Last modified: 08 May 2026 17:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25,7 +25,7 @@
 ! = Сайты-попапы (самостоятельно открываются в новом окне) ====================
 ! *** advblock/popup.txt ***
 ! - Частные правила -----------------------------------------------------------
-$popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnpotok.com|cdntvpotok.com|freescreens.ru|imgbase.ru|imgcach.ru|imgclick.ru|kolikbolik.top|oneliketv.com|payforpic.ru|picclick.ru|picclock.ru|picforall.ru|protonvideo.to|telecdn.net|tv-assia.org
+$popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnpotok.com|cdntvpotok.com|fastpic.org|freescreens.ru|imgbase.ru|imgcach.ru|imgclick.ru|kolikbolik.top|oneliketv.com|payforpic.ru|picclick.ru|picclock.ru|picforall.ru|protonvideo.to|telecdn.net|tv-assia.org
 $third-party,popup,domain=2ip.ru
 &utm_campaign=$popup,domain=itc.ua|sc2tv.ru|www.film.ru
 /*utm_$popup,domain=stratege.ru
@@ -221,6 +221,7 @@ $third-party,popup,domain=2ip.ru
 ||dominantroute.com^$popup
 ||download/*rd.php?id=$third-party,popup
 ||drako.ru/refredirect$popup
+||dsbuiu.com^$popup
 ||dxasracer.bid^$popup
 ||dyshagi.ru^$popup
 ||earnshill.com/images/sp/$popup

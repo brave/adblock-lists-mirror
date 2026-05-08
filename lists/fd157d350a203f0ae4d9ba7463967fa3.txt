@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h9M6sx9JiCkqzadSlDK6kg
-! Version: 202605080601
+! Checksum: hUAi5y3Dypfyz5/e1547jQ
+! Version: 202605080701
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 May 2026 06:01 UTC
+! Last modified: 08 May 2026 07:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15296,6 +15296,8 @@ videochart.net##.mv-advert-position
 moevideo.net,playvideolink.com,thesame.tv,videochart.net##.mv-advert-position__pause
 beremennost.net,imolodost.com,menportal.info,nmedic.info##.mv-content
 infosmi.net#?#.mvp-widget-home-title:-abp-contains(Реклама)
+repack.me##.my > .ads
+repack.me##.my > .ads + br
 glavred.info,glavred.net,teleport2001.ru##.my-3
 ip.osnova.news##.my-4
 mymsk.online##.my-5
@@ -19732,7 +19734,6 @@ comss.ru##html:not([style]) > body getsitecontrol-widget:not(#getsitecontrol-766
 4pda.to##html[style] > body[style="background-color: rgb(230, 231, 233) !important;"] [id][class][style^="overflow: hidden; height:"] > div[style*="display: block;"]
 4pda.to##html[style] > body[style="background-color: rgb(230, 231, 233) !important;"] article ~ article:nth-child(3)
 4pda.to##html[style] > body[style="background-color: rgb(230, 231, 233) !important;"] article:not([id]):not([itemid]):first-child + article
-fastpic.org##i[tabindex][role]
 s13.ru##iframe[data-src*="/icontent/"]
 sarov.info##iframe[data-src*="/reklama."]
 ek.ua,m.ua##iframe[name*="banner"]
@@ -20276,6 +20277,7 @@ chem21.info##tr[height="250px"]
 izgr.ru##tr[height="90px"]
 raspisanie24.com##tr[onclick*="blablacar"]
 domsnov.ru##tr[style*="important"]
+fastpic.org##u[tabindex="0"]
 twirpx.com,twirpx.org##ul[class*="file-download"] + div[class*=" "]
 repost.uz##video[src*="/storage/uploads/"][src$=".mp4"]
 vc.ru##vue[name="booster"]
@@ -24841,14 +24843,6 @@ rbc.ru##div[class^="styles_okko"]
 ||s0.rbk.ru/v6_top_pics/media/img/2/89/347628703693892.svg
 ||utro.ru/*/banners/
 ||zoom.cnews.ru/inc/bpic/
-!
-! REPAK.me
-repack.me#?#div:first-child > .panel:-abp-has(> .panel-body > p > a)
-! блокировки, добавленные из-за агрессивного обхода >
-||t.me/neovpnbot?$third-party,popup
-||telegram.me/neovpnbot?$third-party,popup
-||waicore.com^$third-party,popup
-||waicore.net^$third-party,popup
 !
 ! Spaces и зеркала
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com###sidebar > div[class]:last-child

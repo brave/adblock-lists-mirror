@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RsaVXlbCczI3NNk2w8tW4g
-! Version: 202605091522
+! Checksum: zG1zSlIDbbNMZ4FobDkaHA
+! Version: 202605091551
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 May 2026 15:22 UTC
+! Last modified: 09 May 2026 15:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20577,7 +20577,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /ajax/hitsadv.php?$domain=newsomsk.ru|omskregion.info
 /anbaplashka.jpg$domain=sportcast.online
 /api*iframe$subdocument,domain=intermusic.name|iplayer.info|ipleer.fm
-/api/*/ads-banners$domain=limehd.tv|litehd.tv|pervyi-tv.online|russia-tv.online
+/api/*/ads$xmlhttprequest,domain=limehd.tv|litehd.tv|pervyi-tv.online|russia-tv.online
 /api/*/ainfo/*$domain=igromania.ru|kanobu.ru
 /api/ad/*$domain=lampa.mx
 /api/branding/*$domain=lalafo.az|lalafo.kg

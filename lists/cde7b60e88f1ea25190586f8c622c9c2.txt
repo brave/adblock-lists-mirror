@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: ZkKj4UmhsUcbdTdhjUt58g
-! Version: 202605081826
+! Checksum: CRhtji6LG+oulCzZVvHVEw
+! Version: 202605081822
 ! Title: Hufilter for uBO
-! Last modified: 08 May 2026 18:26 UTC
+! Last modified: 08 May 2026 18:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -335,8 +335,8 @@ delmagyar.hu##[id*="banner"]
 delmagyar.hu##[id^="linkbox_article"]
 delmagyar.hu###billboard
 demokrata.hu##.region-header.region
-dictzone.com##.ad1
-dictzone.com##.ad3
+dictzone.com###a1
+dictzone.com###a2
 dijnet.hu##.jquery-modal.blocker.current
 dimo.hu##[class*="banner"]
 divany.hu##.cikk-halfpage.t-article-container_sidebar > div:first-child
@@ -486,10 +486,6 @@ hasznaltauto.hu###superbox
 hatarido-szamitas.hu##.szkozepkis
 haziallat.hu##[id*="_ads"]
 haziallat.hu###kapubanner
-haziallat.hu##.slotLeaderboardWrapper
-haziallat.hu##.slotRoadblockWrapper
-haziallat.hu##.slotLeadWrapper
-haziallat.hu##.slotArticleEndWrapper
 hazipatika.com##.-contentTop
 hazipatika.com##.ctsGadx
 hazipatika.com##.hashtags
@@ -510,7 +506,6 @@ hir.ma##[id*="-bg"]
 hir.ma###sidebad
 hir.ma###spu-main
 hir.ma###text-html-widget-6
-hir.ma##.ad-kezdolap-fekvo
 hir6.hu##[class*="banner"]
 hirado.hu##div[id*="Banner"]
 hirado.hu##div[id*="zone-wallbanner-header"]
@@ -540,8 +535,8 @@ hoxa.hu##img
 hoxa.hu##div>a:has(img)
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
-hrportal.hu##[id*="banner"]
 hrportal.hu###cucc
+hrportal.hu###layerbanner
 hu.ign.com##[data-zadtype="billboard"]
 hu.ign.com##div.mobileArticleAds
 hu.ign.com##div.right-rail:has(div.ad-wrapper)
@@ -830,9 +825,6 @@ mmonline.hu##[class*="banner"]
 mobilarena.hu##.adbox
 mobilarena.hu##[class*="adtext"]
 moly.hu##[class*="banner"]
-moly.hu##.bcontent
-moly.hu##.bonnet
-moly.hu###side
 motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu###header
 mozishop.hu##.om-holder

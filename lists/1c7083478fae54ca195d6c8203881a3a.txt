@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.6.3
+! Version: 4.3.6.4
 
 ! General
 
@@ -266,6 +266,7 @@ mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > 
 ||musicomh.com/wp-content/*/bundle.js$script,~third-party
 mv-voice.com##+js(cookie-remover, /^/)
 ||cdn.registerdisney.go.com$script,domain=nationalgeographic.com
+||nationalgeographic.com.es/Content/js/lib/runtime.min.js$script,~third-party
 nationalgeographic.it##+js(ra, style, section[style], stay)
 nationalgeographic.it##section.paywall-container
 ||nautil.us/_next/static/chunks/pages/_sites/%5BsiteSlug%5D/%5B...slug*.js$script,~third-party

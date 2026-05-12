@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OyiRdv2qYrM0V5yqzjOyBg
-! Version: 202605120722
+! Checksum: 49j4xjw3Xnvqk+WC8MzeuA
+! Version: 202605120821
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 May 2026 07:22 UTC
+! Last modified: 12 May 2026 08:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22800,6 +22800,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||rsload.net/images*/appwizard.
 ||rss-script.ru^$domain=vk-cc.com
 ||rstprgapipt.com/*.xml?$xmlhttprequest
+||rstprgapipt.com/api-integration/
 ||rt-ddd.ru/image/banner/
 ||rt.com/scripts/adfox/
 ||rtg.real-vin.com/
@@ -23181,6 +23182,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||telekomza.ru/wp-content/uploads/$object
 ||telik.top^*randomator.js
 ||temptcdn.com/*.xml?$xmlhttprequest
+||temptcdn.com/api-integration/
 ||tengrinews.kz/js/loader.js
 ||teremok.org.ua/partner/images/
 ||ternopillive.com/wp-content/uploads/*.mp4|
@@ -23700,7 +23702,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?pwX1U=$xmlhttprequest
+||pikabu.ru/ajax/*?o45Tr=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

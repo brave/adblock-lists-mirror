@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oNH6v01SAJzk2SE1qoR5XQ
-! Version: 202605130922
+! Checksum: nQJYaGvBCSrSEJA6EspjsA
+! Version: 202605131022
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 May 2026 09:22 UTC
+! Last modified: 13 May 2026 10:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1715,6 +1715,11 @@ ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,r
 ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] {padding-top:0;background-color:inherit;}
 ! Моносериальные домены HDrezka
 net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]) {margin-top:unset;}
+!
+ex-fs.net###content {margin-top:0;}
+stratege.ru###globalcontent {margin-top:0;padding-top:0;}
+stratege.ru##.above_body {margin-bottom:0;}
+www.kinopoisk.ru##body {overflow:auto;}
 !
 ! = Общие правила блокировки ==================================================
 ! *** advblock/general_block.txt ***

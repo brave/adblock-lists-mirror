@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CoVGIWpSUOTA3RrYRq2k2w
-! Version: 202605130525
+! Checksum: /YCeCVa9ptXN4uGSFi+eOQ
+! Version: 202605132200
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-05-13 05:25 UTC
+! Last modified: 2026-05-13 22:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -54282,7 +54282,7 @@ reddit.com##shreddit-async-loader[bundlename="app_selector"]
 reddit.com##shreddit-async-loader[bundlename="app_selector"]:remove()
 reddit.com##shreddit-experience-tree
 !#if env_mobile
-reddit.com##body,html:style(overflow: auto !important;)
+m.reddit.com,www.reddit.com##body,html:style(overflow: auto !important;)
 !#endif
 reddit.com##+js(prevent-addEventListener, touchmove)
 reddit.com##+js(remove-class, rpl-scroll-lock, body, stay)

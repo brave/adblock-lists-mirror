@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605140822
+! Version: 202605140927
 ! Title: EasyList
-! Last modified: 14 May 2026 08:22 UTC
+! Last modified: 14 May 2026 09:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e0210d73175207f77ec56b67421536d11a9197c9
+! Commit: 741cc672b82935d7197509a4c52bc5a25315fb50
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15683,6 +15683,7 @@ browsershots.org#@#.advert_area
 ||1pqfa71mc.de^
 ||1push.io^
 ||1pxjj2lcmf52wom.rest^
+||1qef9x9iyegn1upp5cvzej.rest^
 ||1qgxtxd2n.com^
 ||1r4g65b63.de^
 ||1r8435gsqldr.com^
@@ -17773,6 +17774,7 @@ browsershots.org#@#.advert_area
 ||affyingambeer.cfd^
 ||affyrtb.com^
 ||afgenqtscnbaw.space^
+||afghanalosa.cfd^
 ||afgodscarpe.com^
 ||afgr1.com^
 ||afgr10.com^
@@ -20026,6 +20028,7 @@ browsershots.org#@#.advert_area
 ||basilsdilemma.shop^
 ||basinalcoupure.qpon^
 ||basinaskewmukti.cyou^
+||basingkafila.cfd^
 ||basinthug.com^
 ||basisdukumacric.cyou^
 ||basketballshameless.com^
@@ -22385,6 +22388,7 @@ browsershots.org#@#.advert_area
 ||caplanameluyephede.cfd^
 ||caplesscotinggoobers.cyou^
 ||capletsammergilgul.qpon^
+||capletsbenote.qpon^
 ||caplockcestas.cfd^
 ||capmxofwswpbf.website^
 ||capndr.com^
@@ -42837,6 +42841,7 @@ browsershots.org#@#.advert_area
 ||noritobethelsgoas.qpon^
 ||normalballet.com^
 ||normallydemandedalter.com^
+||normalmotor.com^
 ||normalphysics.com^
 ||normalround.com^
 ||normecologyomit.com^
@@ -45000,6 +45005,7 @@ browsershots.org#@#.advert_area
 ||pailbootyinfuriate.com^
 ||pailoualizari.qpon^
 ||pailowculletoxacid.qpon^
+||painedhabehamel.cyou^
 ||painfulcaskspretend.com^
 ||painfullydeplore.com^
 ||painkillerlickconceit.com^
@@ -45904,6 +45910,7 @@ browsershots.org#@#.advert_area
 ||pinnedhazeled.cfd^
 ||pinnulepagedom.com^
 ||pinnulerepace.com^
+||pinonicblisses.qpon^
 ||pintcoenactthereto.cyou^
 ||pintfunnel.com^
 ||pintlouisa.com^
@@ -46618,6 +46625,7 @@ browsershots.org#@#.advert_area
 ||pqexpfqppdfqe.site^
 ||pqfdfzjajlqhk.website^
 ||pqhdiyvlkeg.com^
+||pqhhylwnvuo.com^
 ||pqirkbvrxdwfcx.com^
 ||pqixbnllqzmfp.space^
 ||pqjfrmwy.com^
@@ -58866,6 +58874,7 @@ browsershots.org#@#.advert_area
 ||umdwwuasqcdar.online^
 ||umebella.com^
 ||umechinsauwho.net^
+||umeqaqdcvviwd.space^
 ||umesoupodoavoug.net^
 ||umestdodger.cfd^
 ||umexalim.com^
@@ -61901,6 +61910,7 @@ browsershots.org#@#.advert_area
 ||vvundtltrjars.site^
 ||vvusxpvwokviz.website^
 ||vvuttotofvazt.site^
+||vvv97q8ie3qjyo9b1zpe6wmk.cfd^
 ||vvvshlnaxlbyp.website^
 ||vvwrajbckvfng.website^
 ||vvwrwrzrsuqug.site^
@@ -61925,6 +61935,7 @@ browsershots.org#@#.advert_area
 ||vwewnxqaxkhkmvy.com^
 ||vwflrpyyazjwy.space^
 ||vwfurlcwpujuz.site^
+||vwfviecmtddvs.space^
 ||vwfwdxariknxp.website^
 ||vwfxuhjgwwent.online^
 ||vwghrazcfimuh.website^
@@ -66064,6 +66075,7 @@ browsershots.org#@#.advert_area
 ||yhugawbgiq.com^
 ||yhumgukqhfplw.site^
 ||yhvochffddtun.website^
+||yhwbnilafl.com^
 ||yhyibntmydo.com^
 ||yhyqyveprasyv.website^
 ||yhyuxrfbsweho.site^
@@ -86995,14 +87007,34 @@ yelp.*#?#main[class^="searchResultsContainer"] li h2:has-text(Sponsored)
 yts.*#?#.bbj:has-text(Warning)
 yts.*#?#.col-lg-12:has-text(/Please enable|indirirken/)
 ! ABP CSS injection filters
+6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com,abcotvs.net##.nav.sticky {top:0px;}
+abcnews.com,abcnews.go.com##.navigation--has-subnav {top:0;}
 benzinga.com##.cUDaEv {margin-top:162px !important;}
 benzinga.com##.gZyLpV .mobile-header {margin-top:0 !important;}
 benzinga.com##.iOxiqE .mobile-header {margin-top:0 !important;}
+birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,hulldailymail.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk##.sticky ~ header {top:0;}
 dailystar.co.uk##[data-testid="commercial-above-header-box-1"] {remove:true;}
 datanodes.to##.bg-white\/50.border.p-8 {visibility:hidden !important;}
+distrowatch.com##.TablesTitle > div:not([style="padding"]) {width:100%;}
 euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}
+hindustantimes.com##body {padding-top:0;}
+iflscience.com###Billboard {height:0px;}
+ilmeteo.it###banner-mnz-topleft {height:80px;}
+metoffice.gov.uk##.header {top:0;}
+metoffice.gov.uk##.map {top:52px;}
+mindbodygreen.com##aside {background:transparent;}
+mirror.co.uk##.sticky ~ header {top:0px;}
+praxistipps.chip.de,praxistipps.focus.de,netmoms.de###G32 {grid-template-rows:unset;}
 read.amazon.*###readerChromeOverlayBottom.readerChromeOverlayBottom-banner-desktop {bottom:0 !important;}
+sneakernews.com##.site-header {top:0;}
+taste.com.au##.main-header {top:0;}
+tribuna.com##body {overflow:auto;}
 twitch.tv##.video-player--stream-display-ad_lower-third {height:100% !important;}
+velo.outsideonline.com##main {margin-top:10px;}
+w3schools.com###tryitLeaderboard ~ #container {top:48px;}
+w3schools.com##.trytopnav {top:0;}
+wunderground.com##.content-wrap #inner-wrap {height:100vh;}
+yourdictionary.com##.header {top:0;}
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 amateur8.com###A8-Under-Video
 virtuagirlgirls.com###DynamicBackgroundWrapper

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SN+40uwhNtwL6QW18K5R1g
-! Version: 202605140822
+! Checksum: TCEOHbONRNibRMD+rOFj0g
+! Version: 202605140921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 May 2026 08:22 UTC
+! Last modified: 14 May 2026 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4375,7 +4375,6 @@ _tizers.
 ||aj2738.top^$third-party
 ||aj3081.top^$third-party
 ||ajaxbig.ru^$third-party
-||ajur.info^$third-party
 ||ajx130.online^$third-party
 ||ajx161.online^$third-party
 ||akamaihd.site^$third-party
@@ -20900,6 +20899,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||aida64.ru^*/amigo$image
 ||aii.su/banners/
 ||ais.com.ua/usersimage/banners/
+||ajur.info/cgi-bin/ac.fcgi?
 ||akademekb.ru/loadinga/
 ||akniga.org/ads.js
 ||aktobeinfo.kz/sites/default/files/swf/
@@ -23811,6 +23811,7 @@ livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
 pikabu.ru#?#article:-abp-has(> .story__main > div > header + div[class^="story"] > div:not([id]))
 pikabu.ru#?#article:-abp-has(> .story__main > div > header + div[class^="story"]:not(:-abp-has(*)))
 pikabu.ru#?#article:-abp-has(> .story__main > div:empty)
+pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JqZoXqJvPcuveIhWNXTQ7Q
-! Version: 202605150612
+! Checksum: kEnO8YbY1wJjWBbefxrQMA
+! Version: 202605150731
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 May 2026 06:12 UTC
+! Last modified: 15 May 2026 07:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23808,9 +23808,9 @@ mail.ru##[href*="https://dzen.ru"]
 vk.com,vk.ru##[id^="post-"] > ._post_content > :only-child
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
+pikabu.ru#?#article:-abp-has(> .story__left > span:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main > div > header + div[class^="story"] > div:not([id]))
 pikabu.ru#?#article:-abp-has(> .story__main > div > header + div[class^="story"]:not(:-abp-has(*)))
-pikabu.ru#?#article:-abp-has(> .story__main > div:empty)
 pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 sdamgia.ru##center > div[id][style]

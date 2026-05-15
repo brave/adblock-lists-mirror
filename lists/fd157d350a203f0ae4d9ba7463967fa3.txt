@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mYW8LlgXsoikiCQklOIt7Q
-! Version: 202605150452
+! Checksum: JqZoXqJvPcuveIhWNXTQ7Q
+! Version: 202605150612
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 May 2026 04:52 UTC
+! Last modified: 15 May 2026 06:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20324,8 +20324,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 .softoroom.org^$csp=default-src 'unsafe-inline',domain=~gzip.softoroom.org|~m.softoroom.org
 /bens/vinos.js$csp=sandbox allow-same-origin;
 /gateway/aHR0c$csp=script-src
-|http*//fastpic.org/$csp=frame-src 'self'
-|http*//fastpic.org/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fastpic.org
+|http*://fastpic.org/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fastpic.org; connect-src 'self'; frame-src 'self'
 ||24click.*/top/$csp=script-src
 ||24smi-*/top/$csp=script-src
 ||24smi.*/top/$csp=script-src

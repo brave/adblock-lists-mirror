@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0/AJ1QC4LRCSBBihs2d5Tg
-! Version: 202605151301
+! Checksum: 6Z9MrpQ3O+p+JHWnU6D1bQ
+! Version: 202605151422
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 May 2026 13:01 UTC
+! Last modified: 15 May 2026 14:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17467,6 +17467,7 @@ pechera.info##[src*="/storage/banner_upload/"]
 promin.cv.ua##[src*="/uploads/banner"]
 kuban24.tv##[src*="/uploads/banners/"]
 bidbaits.ru##[src*="/uploads/commerce/"]
+rusport.live##[src*="/wpadcenter_uploads/"]
 73online.ru##[src*="://73online.ru/advert/"]
 happymodern.ru##[src*="://pagead2.googlesyndication.com/"]
 hi-fi-forum.net##[src*="_partners/"]
@@ -22857,6 +22858,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||ruspdd.ru/*.php?$script
 ||ruspicbox.ru/tpl/
 ||ruspicbox.ru^*/clicunder.js
+||rusport.live/wp-content/uploads/*/branding_
+||rusport.live/wp-content/uploads/wpadcenter_uploads/
 ||rusradio.ru/uploads/pixel.js
 ||russian.fi/include/banners.php
 ||russian.rt.com/static/views/wMainBannerTop.

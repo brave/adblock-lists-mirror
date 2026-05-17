@@ -749,9 +749,10 @@ livetv.moviebite.cc##div[data-ad-container]
 livetv.moviebite.cc##div.w-full:has(> div[data-ad-container])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/32613
-guessthemovie.name##+js(no-fetch-if, method:/head/i)
-guessthemovie.name##.fallback-side-ad
-||guessthemovie.name/ads/
+! https://github.com/uBlockOrigin/uAssets/issues/32945
+guessthemovie.name,guessthephrase.xyz##+js(no-fetch-if, method:/head/i)
+guessthemovie.name,guessthephrase.xyz##.fallback-side-ad
+/ads/*$domain=guessthemovie.name|guessthephrase.xyz
 
 ! https://github.com/uBlockOrigin/uAssets/issues/32630
 ||adultswim-vodlive.cdn.turner.com/csmp/live/$xhr,removeparam=caid,domain=adultswim.com
@@ -948,9 +949,6 @@ genpick.app##+js(trusted-replace-argument, document.getElementById, 0, json:"hea
 hotukdeals.com###comments > .box--content:has(#ad-belowDescription)
 hotukdeals.com##div.box--content:has(#ad-belowDetails)
 hotukdeals.com##div.box--content:has(#ad-belowComments)
-
-! https://github.com/uBlockOrigin/uAssets/issues/32940
-luisterradio.fm##div.max-w-full:has(> .uppercase)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/32946
 indoav.app##+js(nowoif)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kkrQHnfQfadCkS0IzM9ecA
-! Version: 202605181541
+! Checksum: /K7SMjT69ftewrS4ayTCsw
+! Version: 202605181701
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 May 2026 15:41 UTC
+! Last modified: 18 May 2026 17:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1587,7 +1587,7 @@ by,~mail.ru,ru,ua##.banner_box
 ~pari.ru##a[href^="https://pari.ru/promo/"]
 ~pikadil.ru##a[href^="https://pikadil.ru"]
 ##a[href^="https://relap.io/"][href*="promo_ad_link"]
-##a[href^="https://tp.media/r?"]
+~aviasales.ru##a[href^="https://tp.media/r?"]
 ##a[href^="https://wcm"][href*="weborama"][href*="/fcgi-bin/dispatch.fcgi?"]
 ##a[href^="https://www.juicer.io?referrer="]
 ~litres.ru##a[href^="https://www.litres.ru/"][href$="#buy_now_noreg"]
@@ -1700,6 +1700,7 @@ me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][
 ~westmister.eu##noindex a[href^="http://www.westmister.eu/collection/"],noindex a[href^="http://www.westmister.eu/collection/"] ~ *
 ##object[data*="ads.com/clk.swf"]
 ##object[data^="blob"]
+##smartframe-embed[customer-id]
 me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 ##thetruestory-widget-top
 ! ucoz-форумы
@@ -4458,6 +4459,7 @@ _tizers.
 ||api.smartadv.ru^
 ||api9.net^$third-party
 ||apirelay.ru^$third-party
+||apistp.com^$third-party
 ||apkfiler.sbs^$third-party
 ||appintop.com/widget/
 ||applieda.com^
@@ -5830,6 +5832,7 @@ _tizers.
 ||emierete.com^
 ||emisses.com^
 ||emqgfo.ru^$third-party
+||emrld.ltd^$third-party
 ||enamadugib.com^$third-party
 ||enbpvt.com^$third-party
 ||encephalopat.ru^$third-party
@@ -9771,6 +9774,7 @@ _tizers.
 ||static-pp.ru^$third-party
 ||static.aio.media^$third-party
 ||static.prototypes.ru^$third-party
+||static.smartframe.io/embed.js$third-party
 ||static.wi-fi.ru^$third-party
 ||staticsfs.host^$third-party
 ||statredpic.ru^$third-party
@@ -10207,6 +10211,7 @@ _tizers.
 ||tpembar.com^$third-party
 ||tpembars.com^$third-party
 ||tpjsqt.com^$third-party
+||tpwgts.com^$third-party
 ||tpxur.top^$third-party
 ||tqeobp89axcn.com^$third-party
 ||tqqjk.top^$third-party
@@ -12066,7 +12071,6 @@ forum.china-iphone.ru###datebar
 last.by###dbtn2
 povarenok.ru###delta_14
 diets.ru###delta_18
-boxrec.com###desktop_sticky_ad_container
 directlot.ru###dirlotbah
 softportal.com###divAffLink
 dj.ru###divHeader
@@ -18913,7 +18917,7 @@ kasparov.ru##div[class^="advCell"]
 autopilot.ru,kommersant.ru##div[class^="adv_"]
 allsportlinks.com##div[class^="adver_"]
 skolkovarim.com##div[class^="adverser"]
-boxrec.com,iphones.ru,lovitut.ru,pc.ru##div[class^="advert"]
+iphones.ru,lovitut.ru,pc.ru##div[class^="advert"]
 direct.farm,myplaycity.ru##div[class^="advertisement"]
 rau.ua,zn.ua##div[class^="advertising"]
 multoigri.ru##div[class^="advertising-content-"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0Z80R3iZs8GUkiciTZsjYw
-! Version: 202605180651
+! Checksum: arO3XpzKfDpteeATC1Fw6w
+! Version: 202605180821
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 May 2026 06:51 UTC
+! Last modified: 18 May 2026 08:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14273,6 +14273,7 @@ flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,
 openssource.biz,openssource.info##.crymoreb
 te.ua##.csa-head
 realt.by#?#.csc-textpic:-abp-has(> .csc-textpic-imagewrap > a > img[src*="realt.by/uploads/pics/bsb-bank_mechty_"])
+inforesist.org##.css-next-loader
 1000sovetov.ru##.ctaRightWidget
 google.by,google.com,google.com.ua,google.kz,google.ru##.cu-container > div[class*="commercial-unit"]
 cubiq.ru##.cubiq-button
@@ -16284,6 +16285,7 @@ pingvin.pro##.singlepartners
 cod31.ru##.site-header__banner
 itzine.ru##.site-header__img
 byrutgame.org##.site-helper
+inforesist.org##.site-main > .social_title
 eg.ru,gorodche.ru##.site-nav_hamburger
 football-ukraine.com#?#.site-section-header:-abp-contains(РЕКЛАМА)
 auto-kmu.ru##.sitebar
@@ -17933,6 +17935,7 @@ ukrfootball.ua##a[href="https://ukrfootball.ua/casino/"]
 3dn.ru##a[href="https://vk.com/sochirealtys"]
 esports.ru##a[href="https://www.esports.ru/news-betboom/"]
 cska-hockey.ru,hctorpedo.ru##a[href="https://www.sogaz.ru/sport"]
+inforesist.org##a[href="https://www.ukr.net/ru/news/companies.html"]
 vedomosti.ru##a[href="https://www.vedomosti.ru/sport/rb"]
 olivkafrekenbok.myqip.ru##a[href="javascript:"]
 autodmir.ru##a[href="javascript:;"][class="vetrine"]
@@ -23716,7 +23719,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?o45Tr=$xmlhttprequest
+||pikabu.ru/ajax/*?Y678t=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -26663,7 +26666,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||web-shpargalka.ru/antibot8/static/peel.js$script,domain=web-shpargalka.ru
 @@||wow-bfa.com^*/images/share-$image,domain=wow-bfa.com
 @@||www.gmod-fan.ru/$script,domain=gmod-fan.ru
-@@||www.googletagmanager.com/gtag/js?id=$script,domain=recordrussia.ru
 @@||www.khl.ru/bitrix/templates/*/js/cookieconsent.min.js|$script,domain=www.khl.ru
 @@||www.kinopoisk.ru^**/discovery/*&embedId=$subdocument,domain=www.kinopoisk.ru
 @@||www.kinopoisk.ru^**/dist/embed.html?frameId=$subdocument,domain=www.kinopoisk.ru
@@ -26879,7 +26881,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||wakanim.tv^*/video/adsunauth$domain=wakanim.tv
 @@||wambacdn.net^$script,domain=love.0629.com.ua|love.mail.ru|mamba.ru|wamba.com
 @@||ww400.smartadserver.com/ac$script,domain=www.deezer.com
-@@||www.googletagmanager.com/gtag/js?id=$script,domain=proxyorb.com
 @@||www.meteoblue.com/build/website/gpt.js|$xmlhttprequest,domain=meteoblue.com
 @@||www3.doubleclick.net/|$xmlhttprequest,domain=animix.lol
 @@||xksqb.com/native.$script,domain=gwss.ru

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LR8Usdf2dhv28+c/YAgMQw
-! Version: 202605210811
+! Checksum: q8ae2zn0bXHcN4dF71CEMA
+! Version: 202605210951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 May 2026 08:11 UTC
+! Last modified: 21 May 2026 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13224,7 +13224,7 @@ qip.ru##.advertTop
 apostrophe.ua##.advertinline
 np.pl.ua,soft-i-kino.ru##.advertise
 kyiv.media##.advertise-section
-almodi.org,expres.online,fightnews.info,kun.uz,liveinternet.ru##.advertisement
+almodi.org,expres.online,fightnews.info,kun.uz,liveinternet.ru,respawn.media##.advertisement
 dzr.by##.advertisements
 diary.ru,fireman.club,ku66.ru,pershij.com.ua,prostoprosport.ru,qrz.ru,track24.ru,ufanet.ru,xsport.ua##.advertising
 podolsk.ru##.advertising > span.title
@@ -23803,6 +23803,8 @@ mail.ru##[href*="https://dzen.ru"]
 vk.com,vk.ru##[id^="post-"] > ._post_content > :only-child
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
+pikabu.ru#?#article:-abp-has(> .story__left > .story__pin)
+pikabu.ru#?#article:-abp-has(> .story__left > span:first-child)
 pikabu.ru#?#article:-abp-has(> .story__left > span:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
@@ -25067,7 +25069,7 @@ ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="ekktion-items-count:"]
+ya.ru##section[style*="sectlon-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner

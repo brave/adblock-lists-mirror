@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BJgYdcNjl7k+XhtHpNzJlw
-! Version: 202605210050
+! Checksum: kEtPCn3i7DodUdwTALblgA
+! Version: 202605210300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-05-21 00:50 UTC
+! Last modified: 2026-05-21 03:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4189,6 +4189,10 @@ medscape.com##body:style(overflow: auto !important;)
 startribune.com##+js(remove-cookie, client_id)
 ! https://github.com/uBlockOrigin/uAssets/issues/27421
 theverge.com##+js(aeld, scroll)
+! usni.org
+usni.org###articleCookieModal
+usni.org##+js(remove-cookie, STYXKEY_nh_count)
+usni.org##+js(remove-cookie, STYXKEY_pro_count)
 ! accuradio.com (login nag)
 accuradio.com##.ReactModal__Overlay--after-open.ReactModal__Overlay
 ! Mouse out nags

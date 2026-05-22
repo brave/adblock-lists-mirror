@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: PersianBlockerAds
-! Last modified: Fri, 22 May 2026 19:58:53 +0330
+! Last modified: Fri, 22 May 2026 20:06:05 +0330
 ! Expires: 5 days
 ! Description: Filters to block ads in Persian websites 
 ! License: https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE
@@ -405,3 +405,8 @@ hamkelasi.ir##+js(nano-sib, countdown)
 
 ! androidha.com:
 androidha.com##.arh_banner
+
+! takhfif.co:
+takhfif.co##.lepopup-popup-overlay
+takhfif.co##.lepopup-popup-container
+takhfif.co##.page-container > a[href^="https://www.filimo.com/m/"]

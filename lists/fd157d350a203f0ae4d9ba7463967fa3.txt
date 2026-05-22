@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PuW1SGLmZSYwSpSuSmZXwA
-! Version: 202605221711
+! Checksum: z4VKAJxabxSdgJwjXMZdFA
+! Version: 202605221811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 May 2026 17:11 UTC
+! Last modified: 22 May 2026 18:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13013,6 +13013,7 @@ myshows.me#?#.Grid-in .GridItem:-abp-has(> div [class*="advertiser"])
 razvitierebenka.com#?#.HTML:-abp-has(> .widget-content > .adsbygoogle)
 myshows.me#?#.Home-section:-abp-has(> div .title [class*="romo"])
 myshows.me#?#.HomeSection--separator:-abp-has(> .Container > [class*="Promo"])
+myshows.me##.Home__ad
 forbes.ru##.Ix-yg
 russiandc.com##.L
 meduza.io##.Layout-bannerTop
@@ -13025,7 +13026,6 @@ do.ru##.MyOpacity1
 tonkosti.ru##.NoCurTips
 forums.sumy.ua##.Notices.PanelScroller
 yapx.ru##.OgUXJeShTNRBpyiDArKm
-myshows.me##.OnlineLink
 zerocoolpro.biz##.PanelScroller
 games-archive.net##.PostContent > noindex > center
 russiandc.com##.R
@@ -18885,6 +18885,7 @@ apteka.ru##div[class^="Eshop"]
 newsru.co.il##div[class^="HP_"]
 igromania.ru##div[class^="KeysForGamers_button"]
 igromania.ru,kanobu.ru##div[class^="MaterialSubscription_root_"]
+myshows.me##div[class^="OnlineLink"]
 rg.ru##div[class^="Page_asideItem"][style^="height:"]
 tass.ru##div[class^="PartnerMaterial"]
 mir24.tv##div[class^="PartnerNews"]

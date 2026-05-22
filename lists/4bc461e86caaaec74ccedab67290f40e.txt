@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: PersianBlockerAds
-! Last modified: Thu, 21 May 2026 22:03:05 +0330
+! Last modified: Fri, 22 May 2026 19:58:53 +0330
 ! Expires: 5 days
 ! Description: Filters to block ads in Persian websites 
 ! License: https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE
@@ -298,9 +298,6 @@ khabaronline.ir##.cyt-ads-block
 ||talajat.net^$from=namnak.com
 namnak.com##.namank-ad
 namnak.com###implant-ad-container
-
-! offerdaily.ir:
-offerdaily.ir##+js(href-sanitizer, a[href^="https://offerdaily.ir/index.php?do=go&url="], ?url -base64)
 
 ! football360.ir:
 ! https://github.com/MasterKia/PersianBlocker/issues/107

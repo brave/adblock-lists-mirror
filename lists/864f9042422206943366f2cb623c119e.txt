@@ -608,6 +608,8 @@ united-domains.de##div[consent-skip-blocker]:remove()
 !#endif
 ! https://github.com/uBlockOrigin/uAssets/pull/33006
 diamantrad.com,lpi.org##+js(trusted-click-element, button#CookieBoxSaveButton, , 1000)
+! https://github.com/uBlockOrigin/uAssets/pull/33012
+urlando.de##+js(trusted-set-cookie, urlando_consent, '{"analytics":false,"marketing":false,"timestamp":"$currentISODate$"}')
 
 !! Needs additional cookies
 

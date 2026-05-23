@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HbThBvAobSNW/uX9lsnEBQ
-! Version: 202605230225
+! Checksum: G8IrIKD/FMiAqzZsuiF72w
+! Version: 202605230350
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-05-23 02:25 UTC
+! Last modified: 2026-05-23 03:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -41565,6 +41565,10 @@ check24.de##+js(set-cookie, c24consent, f, , domain, .check24.de, reload, 1)
 ! io.google
 io.google###cookie-bar-modal
 io.google##body:style(overflow: auto !important; position: initial !important;)
+! uncrossy.com
+uncrossy.com##+js(set, cookieManager, {})
+uncrossy.com##+js(set, cookieManager.initialize, noopFunc)
+uncrossy.com##+js(set, cookieManager.needsConsentBanner, falseFunc)
 !  cosmote.gr
 cosmote.gr##+js(set-cookie, cookie_consent_set, 1)
 ! bm-lille.fr

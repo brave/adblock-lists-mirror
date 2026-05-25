@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OUn8v98l2oCIijAQlaJFgQ
-! Version: 202605252032
+! Checksum: FEi3iubhlluA5TKpEjJLrg
+! Version: 202605252102
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 May 2026 20:32 UTC
+! Last modified: 25 May 2026 21:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14793,6 +14793,7 @@ ixbt.com##.horb
 kino-teatr.ru##.horisontal_delim
 comss.ru#?#.horizontal > .rbox:-abp-has(> div a[href*="page.php?id=3023"])
 gorodovoy.ru##.horizontal-banner
+autoportal.ua##.horizontal__banner
 rz.com.ua##.horizontal_baner
 tonkosti.ru##.hotel-form__header
 bezformata.com##.hottopicadvertbox
@@ -16330,6 +16331,7 @@ hitmotop.com##.soc-auth-btns
 ukrlib.com.ua##.social-box-item
 pay-day.ru,pnz.ru,podolyaka.com,podolyaka.ru,tvcenter.ru,warhead.su##.social-button--yandexzen
 nevnov.ru##.social-container
+autoportal.ua##.social-info
 ukrinform.ua##.socialBlockSlide
 securitymedia.org#?#.socials__social:-abp-has(> a[href^="https://dzen.ru/"])
 samlab.ws##.soft-day:not(:first-child) > .box
@@ -16739,7 +16741,7 @@ sichnews.ua##.vcex-image-banner
 ixbt.com##.vcont
 l2db.ru##.vda
 ixbt.com##.vertb
-112.ua,inkorr.com##.vertical__banner
+112.ua,autoportal.ua,inkorr.com##.vertical__banner
 mobportal.net##.verx_r
 facenews.ua##.verytopbanner
 alcogolizm.com,jlady.ru,parazitovnetu.ru,spinazdorov.ru##.vex
@@ -19802,6 +19804,7 @@ jofo.ru##iframe[src^="http://creatagen.ru/"]
 smotretonline.ucoz.org##iframe[src^="http://kinohouse.ucoz.ru"]
 arminfo.info##iframe[src^="https://www.arminfo.info/"][src$=".html"]
 www.mp4upload.com##iframe[src^="https://www.mp4upload.com/"][src$=".html"]
+5.ua##iframe[srcdoc*="banner"]
 fastpic.org##iframe[srcdoc]
 forum.watch.ru##iframe[style="width: 100%; height: 60px;"]
 forum.watch.ru##iframe[style="width:100%; height:110px;"]
@@ -24623,7 +24626,6 @@ finance.rambler.ru##.finance__partners
 horoscopes.rambler.ru##.fzwuC
 championat.com,championat.ru##.game-of-day
 championat.com,championat.ru##.header-bottom__adv
-lenta.ru##.header__my
 championat.com,championat.ru##.infographic-countdown
 championat.com,championat.ru##.infographic-duel
 lenta.ru##.js-video-eagle > div[style^="height:"][style*="overflow:"]

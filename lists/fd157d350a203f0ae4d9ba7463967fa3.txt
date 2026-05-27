@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RA+5maE2nbr2pMyPJBQ4ug
-! Version: 202605271342
+! Checksum: Ki43BnTa08ZXJNLBfwHdBA
+! Version: 202605271511
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 May 2026 13:42 UTC
+! Last modified: 27 May 2026 15:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19878,6 +19878,7 @@ teremok.org.ua##img[src*="/partner/images/"]
 me3.com.ua##img[src*="/static/banners/"]
 vashurok.ru##img[src*="/system/banners/"]
 allgosts.ru##img[src*="/theme/img/hmwk/"]
+biz.nv.ua##img[src*="/upload/proconnect_"]
 dnl.com.ua,dnl.dn.ua,go64.ru,gubkinskiy.com,infoniac.ru,lipetskmedia.ru,paparazzi.ru,securitylab.ru,trk7.ru,zi.ua##img[src*="/upload/rk/"]
 pnp.ru##img[src*="/upload/user/banner-adv-"]
 tyachivnews.in.ua##img[src*="/uploads/blocks/"]
@@ -21135,6 +21136,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||bisnesideya.ru/wp-content/uploads*/banner$image
 ||bit-torrent.kiev.ua/rekl.php
 ||biweed.com^*/yutex240_
+||biz.nv.ua/upload/proconnect_$image
 ||bizarre.kiev.ua*/ban/
 ||biznesguide.ru/images/banner$image
 ||bkn.ru/content/banners/
@@ -23699,8 +23701,8 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/dzen-layout/*/*/$script
-||static.dzeninfra.ru/s3/zen-apps/subscriptions/*/*/$script
+||static.dzeninfra.ru/s3/zen-apps/commets2/*/*/$script
+||static.dzeninfra.ru/s3/zen-apps/desktop2/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
@@ -23731,7 +23733,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?Y578t=$xmlhttprequest
+||pikabu.ru/ajax/*?iUt4b=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

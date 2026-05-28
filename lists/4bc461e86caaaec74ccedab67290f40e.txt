@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: PersianBlockerAds
-! Last modified: Sun, 24 May 2026 16:18:02 +0330
+! Last modified: Thu, 28 May 2026 10:25:18 +0330
 ! Expires: 5 days
 ! Description: Filters to block ads in Persian websites 
 ! License: https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE
@@ -244,6 +244,8 @@ mobile.ir##.apnl
 yasdl.com##.top-ads-wrap:style(width: 0px !important; height: 0px !important;)
 ! In-post ads:
 yasdl.com##.fixed-post
+! Sidebar text ads:
+yasdl.com##.sidebar-textads
 
 ! downloadha.com:
 ||cdn.hostdl.com/assets/downloadha.gif^
@@ -413,3 +415,7 @@ takhfif.co##.page-container > a[href^="https://www.filimo.com/m/"]
 
 ! mashaghelkadeh.com:
 mashaghelkadeh.com#@#.related-ads
+
+! yektablog.net:
+||yektablog.net/js/adjs.php^
+yektablog.net###popbox-blackout

@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: PersianBlockerTrackers
-! Last modified: Fri, 22 May 2026 19:59:07 +0330
+! Last modified: Thu, 28 May 2026 12:45:35 +0330
 ! Expires: 7 days
 ! Description: Filters to block trackers in Persian websites 
 ! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
@@ -117,3 +117,10 @@ search.bertina.ir##+js(href-sanitizer, a[href^="/api/click?dest="], ?dest -base6
 ! offerdaily.ir:
 offerdaily.ir##+js(href-sanitizer, a[href^="https://offerdaily.ir/index.php?do=go&url="], ?url -base64 ?b64 -base64)
 offerdaily.ir##+js(href-sanitizer, a[href^="https://dgkl.io/api/v1/Click/b/"][href*="?b64="], ?b64 -base64)
+
+! ahlolbait.com:
+! https://github.com/MasterKia/PersianBlocker/pull/288
+||log.ahlolbait.com^
+
+! vigiato.net:
+||matomo.parto.media^

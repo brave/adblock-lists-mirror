@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: PersianBlockerAds
-! Last modified: Thu, 28 May 2026 10:25:18 +0330
+! Last modified: Thu, 28 May 2026 12:44:23 +0330
 ! Expires: 5 days
 ! Description: Filters to block ads in Persian websites 
 ! License: https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE
@@ -419,3 +419,21 @@ mashaghelkadeh.com#@#.related-ads
 ! yektablog.net:
 ||yektablog.net/js/adjs.php^
 yektablog.net###popbox-blackout
+
+! wikisemnan.com:
+wikisemnan.com###text-12
+wikisemnan.com###text-24
+wikisemnan.com#@#.ads-image
+
+! wisgoon.com:
+||gateway.wisgoon.com/services/vast^
+||imasdk.googleapis.com/js/core/bridge*.html^$important,from=wisgoon.com
+
+! vigiato.net:
+||parto.media/serve^
+vigiato.net##.ad_290_290
+vigiato.net##.ad_728_90
+
+! ahlolbait.com:
+! https://github.com/MasterKia/PersianBlocker/pull/288
+||ahlolbait.com/ads/script.js^

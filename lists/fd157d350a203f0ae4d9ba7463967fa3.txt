@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: COuJ6Cvkw+ZrlF3yD9O+xA
-! Version: 202606010951
+! Checksum: AJRkzkwxbnkboxk1PaqjJA
+! Version: 202606011201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Jun 2026 09:51 UTC
+! Last modified: 01 Jun 2026 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1711,6 +1711,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 !
 ! = CSS-стили =================================================================
 ! *** advblock/inline_css.txt ***
+!#if ext_abp
 ! Собственные домены HDrezka
 ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] > [id$="er"]:nth-child(-n+3) {width:unset;}
 ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] {padding-top:0;background-color:inherit;}
@@ -1724,7 +1725,9 @@ ex-fs.net###content {margin-top:0;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}
 stratege.ru##.above_body {margin-bottom:0;}
+ukrinform.ua##html[style*="overflow: hidden;"] {overflow:auto;}
 www.kinopoisk.ru##body {overflow:auto;}
+!#endif
 !
 ! = Общие правила блокировки ==================================================
 ! *** advblock/general_block.txt ***
@@ -16121,6 +16124,7 @@ av.by##.show-on-desktop
 ua-football.com##.show-post > [style="color: rgb(170, 170, 170); font-style: italic; text-align: center;"]
 ua-football.com#?#.show-post > div[style^="background:"]:-abp-has(> strong a[rel="nofollow"])
 ua-football.com#?#.show-post > h2:-abp-has(> strong:-abp-contains(ставки ))
+newsarmenia.am##.showBanner
 kelmochka.ru##.show[class^="fix_post"]
 kineshemec.ru##.showcase
 myfin.by##.showcase-aside.hidden-xs
@@ -18532,7 +18536,6 @@ ukr.bio##body > div[id^="brands"]
 virusinfo.info##body > div[id^="headbr"]
 pornolomka.com.ru##body > div[id^="pw"]
 emuzic.ru##body > div[onclick^="window.open"]
-opennet.me,opennet.ru##body > div[style$="width:100%; height: 62px;"]
 thailandproperty.tv##body > div[style*="1240px"]
 forum.raskraska.com##body > div[style*="2000"]
 raes.tech,sbfull.com,wigistream.to##body > div[style*="2147483647"]
@@ -19653,6 +19656,7 @@ mozaika.biz#?#div[style]:-abp-has(> a[href]:not([href^="/"]):not([href^="https:/
 kirov-portal.ru#?#div[style]:-abp-has(> ntvk)
 small-games.info#?#div[style]:-abp-has(> p > [href="#hideRekCaption"])
 buhoblik.org.ua##div[style][onclick*="/rizni/"]
+opennet.me,opennet.ru##div[style^="background-color: #E9EAD"][style*="; width:100%; height: 6"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[style^="background-color: rgb(204, 0, 0)"]
 risovach.ru##div[style^="background: url"]
 xn--c1ajfnfb.xn--p1acf##div[style^="background:"][style*="/ple.jpg)"]

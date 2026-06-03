@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RwoUhanAsHzUuct9TibeEA
-! Version: 202606030752
+! Checksum: Vp5HeVRnWs4oAzjnWxxI/g
+! Version: 202606030942
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Jun 2026 07:52 UTC
+! Last modified: 03 Jun 2026 09:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1826,8 +1826,8 @@ www.kinopoisk.ru##body {overflow:auto;}
 /?t=b&blockids=$script
 /?t=rot&pid=$script
 /\/[a-z]{1,3}\?zoneId\=\d{7}\-\d{7}$/$third-party,script
+/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/.*\.js$/$third-party,match-case,script
 /^https?://([^.]+\.)+[a-z]+\.(?:biz|ru|space)/[a-z][/?][-a-z0-9_?&=]{5,45}$/$third-party,script,domain=~hotcharts.ru
-/^https?://[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script
 /^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-.\/A-Z_a-z][DHWXm][-.\/A-Z_a-z][59FVZ][-.\/A-Z_a-z][6swyz][-.\/A-Z_a-z][-\/0-9A-Z_a-z][-.\/A-Z_a-z][-\/0-9A-Z_a-z]+(?:$|\?)/$third-party,match-case,script
 /a/ipn/js/*$third-party,script
 /a/pop/js/*$third-party,script
@@ -19615,6 +19615,7 @@ my.mosenergosbyt.ru#?#div[style="min-height: 50px;"]:-abp-has(> img[src*="/file/
 gagadget.com##div[style="min-height: 89px;"]
 technical.city##div[style="min-height: 90px"]
 turkcinema.org##div[style="min-height:120px;"]
+ostmusic.org##div[style="min-height:280px; text-align:center;"]
 meddaily.ru##div[style="overflow:hidden"] > div[align="center"][style^="height:"]
 gamer-info.com##div[style="overflow:hidden;"]
 baibako.tv##div[style="padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #dfdfdf;"]
@@ -24824,8 +24825,10 @@ rbc.ru,rbclifemedia.ru##.topline-desktop-link-branding
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru##.topline__branding__wrapper
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru,sportrbc.ru##.topline__disable-adv__button
 autonews.ru,rbc.ru,rbcautonews.ru,rbcrealty.ru,sportrbc.ru##.topline__item__image-block
+rbc.ru##.ui-branding-logo
 rbc.ru##.video-player__controls__ad-countdown
 rbc.ru##.weather-widget
+rbc.ru##.wrapper-top-line-branding
 /*betblock$domain=rbc.ru|sportrbc.ru
 /browser-updater$script,domain=autonews.ru|rbc.ru|sportrbc.ru
 /rbcbanners-*/_fullscreen.js$script,domain=autonews.ru|rbc.ru|rbcautonews.ru|sportrbc.ru
@@ -24840,9 +24843,7 @@ rbc.ru##[data-yandex-show="cards_marketplace_show"]
 rbc.ru##[data-yandex-show^="commercial_cards_"]
 autonews.ru,rbc.ru,sportrbc.ru,utro.ru##[id^="unit_"]
 rbc.ru##a.video-player__details[target="_blank"]
-quote.ru##a[href*="bannersdisable_button"]
 sportrbc.ru##a[href*="erid="][target="_blank"]
-quote.ru##a[href="https://quote.ru/?utm_source=topline"] img
 cnews.ru#?#a[href^="https://www.cnews.ru/redirect.php"]:-abp-contains(Дзен)
 autonews.ru,rbc.ru,rbcautonews.ru,sportrbc.ru##body div .banner__container
 autonews.ru,rbc.ru,sportrbc.ru##body div .banner__filmstrip

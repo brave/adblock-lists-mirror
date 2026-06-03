@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606031123
+! Version: 202606031334
 ! Title: EasyPrivacy
-! Last modified: 03 Jun 2026 11:23 UTC
+! Last modified: 03 Jun 2026 13:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: eab95cd432908603f20591043bbb37adc120df60
+! Commit: 812dbfecbed02885a14ad09e15901611af856b56
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15019,6 +15019,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||darkreader.org/elements/statistics.js
 ||data.allstate.com^
+||data.api.canalplus.com/event
 ||data.barry-callebaut.com^
 ||data.cheatography.com/banana.js
 ||data.debugbear.com^
@@ -16722,6 +16723,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
 ||zed.dev/docs/theme/analytics.js
+||zoom.us/*/telemetry
 ! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||youtube.com/get_video?

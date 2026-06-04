@@ -186,6 +186,9 @@ hoyolab.com##+js(aeld, contextmenu, , elements, img[no-copy="true"])
 hoyolab.com##+js(aeld, contextmenu, preventDefault, elements, .viewer-container)
 hoyolab.com##img.viewer-move:style(pointer-events: auto !important; z-index: 100 !important;)
 
+! https://github.com/uBlockOrigin/uAssets/issues/32608#issuecomment-4621674836
+jimpenopisonline.online##+js(aeld, contextmenu, preventDefault)
+
 ! END: Anti copy, right-click etc.
 
 ! START: Anti-adblock
@@ -5554,10 +5557,7 @@ coinsparty.com##+js(aeld, contextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15598
 ! https://github.com/uBlockOrigin/uAssets/issues/32278
-@@||startpage.com^$ghide
-@@||startpage.com^$script,1p
-startpage.com#@#.a-bg-result
-startpage.com##section > .a-bg-result
+startpage.com###main > .support-banner
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15654
 postype.com##+js(aeld, contextmenu)

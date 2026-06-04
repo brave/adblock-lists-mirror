@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606040736
+! Version: 202606040908
 ! Title: EasyPrivacy
-! Last modified: 04 Jun 2026 07:36 UTC
+! Last modified: 04 Jun 2026 09:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: afb1f922423f73f9e6f17154cca5411e10a7a85e
+! Commit: 21e08e81ef0472bdb24cfcd78e6f50cc39338ae1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10526,7 +10526,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.tds.bid/bid.js
 ||cdn.tolt.io/tolt.js
 ||cdn.usefathom.com^
-||cdn.zg-api.com^*/analytics.js
+||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdnjs.work/metrics.js
 ||cdnma.com/apps/capture.js
 ||cdnplanet.com/static/rum/rum.js
@@ -10896,6 +10896,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e.ebidtech.com/cv/
 ||e.revenue.cat^
 ||e.usesneakpeek.com^
+||e.zg-api.com^
 ||e045f561.b-cdn.net^
 ||ea-mct-live.com/revsdk.kes.KinesisEvent/
 ||ea.youmaker.com^
@@ -15110,7 +15111,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dynatrace.att.com^
 ||e.quizlet.com^
 ||e.used.ca/event
-||e.zg-api.com/event$domain=zillow.com
 ||e2ma.net/track/
 ||ea.epochbase.com^
 ||ebay.com/delstats/

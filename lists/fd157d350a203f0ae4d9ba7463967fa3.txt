@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NxjhDEz2BMLL9ZIOV5gMnw
-! Version: 202606041632
+! Checksum: z3cFqI6PiQzamuvPlobUlQ
+! Version: 202606041731
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Jun 2026 16:32 UTC
+! Last modified: 04 Jun 2026 17:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1726,7 +1726,7 @@ respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}
 stratege.ru##.above_body {margin-bottom:0;}
 ukrinform.ua##html[style*="overflow: hidden;"] {overflow:auto;}
-www.kinopoisk.ru##body {overflow:auto;}
+www.kinopoisk.ru##body[class*="body"][class*="_"] {overflow:auto;}
 !#endif
 !
 ! = Общие правила блокировки ==================================================

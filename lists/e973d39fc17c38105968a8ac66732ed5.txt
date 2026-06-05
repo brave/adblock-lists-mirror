@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wh9B0oWuKZeZbcIWybAHmg
-! Version: 202606051201
+! Checksum: RW/XJettdHDhy1z2lHzLfg
+! Version: 202606051331
 ! Title: EasyList Spanish
-! Last modified: 05 Jun 2026 12:01 UTC
+! Last modified: 05 Jun 2026 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1900,6 +1900,7 @@ prensa.com#?#.balcon.borderBottomDesktop:has(span:has-text(patrocinado))
 recetasfacilescocina.com#?#section > h3:has-text(Publicidad)
 semana.com#?#.section:has(.section-subtitle:has-text(Contenido en colaboración))
 theobjective.com#?#.tno-article-block:has(span:has-text(Branded content))
+wallapop.com#?#div:has(>[class*="item-card_ItemCard--vertical"]:-abp-contains(Destacado))
 walmart.com.mx#?#[data-testid="item-stack"] > div:has-text(Patrocinado)
 yorokobu.es#?#.quicklink_w100:has(.publi-tag:has-text(AD))
 ! ! top-level domain wildcard

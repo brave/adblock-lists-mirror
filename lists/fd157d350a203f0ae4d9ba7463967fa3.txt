@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OuEuf1bqqFiYOYjBDDee+Q
-! Version: 202606070821
+! Checksum: S4hC/Ok4qY8qexJbujEvyA
+! Version: 202606070932
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Jun 2026 08:21 UTC
+! Last modified: 07 Jun 2026 09:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2266,7 +2266,6 @@ _tizers.
 ||com/video/*^format=rotator&$third-party,script
 ||date/?pu=$third-party,script
 ||date/|$third-party
-||de/|$third-party,xmlhttprequest
 ||emb.apl*.me/export/ltv_popup.php
 ||fun/?pu=$third-party,script
 ||in/?for=$third-party,script
@@ -5965,7 +5964,6 @@ _tizers.
 ||f24qr3sb3h.ru^$third-party
 ||f254e1b756a.com^$third-party
 ||f2563ae9e4f78.com^$third-party
-||f27tltnd.de^$third-party
 ||f3f9cbaddc5.com^$third-party
 ||f4cebacks.com^$third-party
 ||f6dy9wgfbf.ru^$third-party
@@ -13794,6 +13792,7 @@ nur.kz##.block-main-info__sponsor-image
 stena.ee##.block-outer a[href][rel="nofollow"]
 lovitut.ru##.block-reklamo_rotator
 sntch.com##.block-relap
+dtf.ru,vc.ru##.block-special-button > [href*=".ru/store"]
 sib.fm##.block-sticky > div[style^="min-height:"]
 sntch.com##.block-superwidget
 konstruktortestov.ru#?#.block-test:-abp-has(#marketAttractive)
@@ -23745,7 +23744,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?Ht56l=$xmlhttprequest
+||pikabu.ru/ajax/*?ljh6T=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -26185,7 +26184,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@/reklama/*$domain=velosumka.com
 @@/reklama1.$~third-party,domain=reklama1.su
 @@/teaser.$domain=bmw-motorrad.com|bmw-motorrad.ru
-@@/teasers.$domain=joindota.com
 @@/teasers/*$image,domain=aftershock.news|expertbank.com|hock5.ru|legionhardware.com|rw.by
 @@/tizer/*$domain=sibtravel42.ru|tutu.ru
 @@/tizer_$domain=led66.ru
@@ -26331,7 +26329,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||check.ddos-guard.net/check.js
 @@||chrome.google.com/webstore/detail/daxab-ultimate/enakmcmeealkdoeindgoeogldodhdeda?hl=$popup,domain=biqle.org|biqle.ru
 @@||chrysler.com.ua^*/baner.$image,domain=chrysler.com.ua
-@@||cidaas.de/|$third-party,xmlhttprequest
 @@||cityhost.ua/upload_img/$image,domain=cp.cityhost.ua
 @@||clients*.google.com/pagead/drt/dn/$subdocument,domain=play.google.com
 @@||cloudflare.com/ajax/libs/$script,domain=gwss.ru|ka4nem.ru|sm.news|tivix.co
@@ -26635,7 +26632,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||tattoonsk.ru^*_ad4.$domain=tattoonsk.ru
 @@||teachvideo.ru/advert/$~third-party
 @@||teachvideo.ru/www/delivery/$~third-party
-@@||teasers.gs-media.de^$domain=joindota.com
 @@||techno-med.by^*_300x250.$image,domain=techno-med.by
 @@||tele2.ru/loy/$image,domain=tele2.ru
 @@||temp21.ua/images/_ads/$image,domain=temp21.ua

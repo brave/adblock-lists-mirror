@@ -6,7 +6,7 @@ requires-python = ">=3.13"
 dependencies = [
     "aiohttp==3.14.0",
     "aiohttp-retry==2.9.1",
-    "sentry-sdk[aiohttp]==2.58.0",
+    "sentry-sdk[aiohttp]==2.61.1",
 ]
 [tool.uv]
 required-version = ">=0.9.4"

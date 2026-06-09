@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606091530
+! Version: 202606091629
 ! Title: EasyList
-! Last modified: 09 Jun 2026 15:30 UTC
+! Last modified: 09 Jun 2026 16:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 16d48a9837b2e6ec2f70ab1655ea3b602f75369a
+! Commit: c020842096e33059e7dcac82f060fb3653177234
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14569,6 +14569,7 @@ _800x80_
 ##app-ad
 ##app-advertisement
 ##app-large-ad
+##aside[aria-label="retailmedia.complimentarySponsored"]
 ##aside[id^="adrotate_widgets-"]
 ##atf-ad-slot
 ##bottomadblock
@@ -26073,6 +26074,7 @@ browsershots.org#@#.advert_area
 ||dscjnr.com^
 ||dsckgc.com^
 ||dscmih.com^
+||dscykd.com^
 ||dsdbbqmgpdfnl.space^
 ||dsdbdt.com^
 ||dsderq.com^
@@ -27765,6 +27767,7 @@ browsershots.org#@#.advert_area
 ||eudevetig.cfd^
 ||eueodxwdeww.com^
 ||euezpnhisvvhl.online^
+||eufgvyywuqvquu.com^
 ||eufnidveovlsj.online^
 ||eugkpjjonhuts.space^
 ||euhuzwuzjpzsn.site^
@@ -46492,6 +46495,7 @@ browsershots.org#@#.advert_area
 ||qz239yx7x4vvj1k96j2z3ulg.cfd^
 ||qz496amxfh87mst.com^
 ||qzaijhdclqlfg.site^
+||qzdfeuspwetft.space^
 ||qzeaghjh.in^
 ||qzeluvrteqrov.com^
 ||qzepizla.in^
@@ -51787,6 +51791,7 @@ browsershots.org#@#.advert_area
 ||tapecompensationinjustice.com^
 ||taperlyiuds.com^
 ||tapesumach.shop^
+||tapetismaiolikees.qpon^
 ||tapingferocitymadeira.com^
 ||tapioni.com^
 ||tapjoyads.com^
@@ -54903,6 +54908,7 @@ browsershots.org#@#.advert_area
 ||uysqpqkmahnaq.website^
 ||uywfpprhavyog.site^
 ||uyxjpapnudvhd.space^
+||uyxphejmf.com^
 ||uyybspugtnmit.website^
 ||uyyluttqoh.com^
 ||uyzosjiuslcop.online^
@@ -55343,6 +55349,7 @@ browsershots.org#@#.advert_area
 ||vfpdbwwrvkecy.store^
 ||vfqejeazinwis.site^
 ||vfqgtrrrtsugw.space^
+||vfrmnzllpnoqk.site^
 ||vfsjkejgsjhhp.website^
 ||vfsxmbvlbebew.online^
 ||vfthr.com^
@@ -61172,6 +61179,7 @@ browsershots.org#@#.advert_area
 ||admaxim.com^$third-party
 ||admedia.com^$third-party
 ||admetricspro.com^$third-party
+||admoai.com^$third-party
 ||admost.com^$third-party
 ||admulti.com^$third-party
 ||adnade.net^$third-party
@@ -69244,6 +69252,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||newsnow.co.uk/pharos.js
 ||nexvelar.b-cdn.net/videoplayback_.mp4
 ||ngfiles.com/promos/
+||nordstromrack.com/sponsoredads/
 ||northsidesun.com/init-2.min.js
 ||norwaypost.no/images/banners/
 ||notebrains.com^$image,domain=businessworld.in
@@ -77388,6 +77397,7 @@ unmineablesbest.com##div[class^="uk-visible@"]
 gamingdeputy.com##div[class^="vb-"]
 whatsondisneyplus.com##div[class^="whats-"]
 podchaser.com##div[data-aa-adunit]
+nine.com.au##div[data-ad-target^="header-ad"]
 unsplash.com##div[data-ad="true"]
 deeplol.gg##div[data-ad]
 tennews.in##div[data-adid]

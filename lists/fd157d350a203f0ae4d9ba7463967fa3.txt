@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ncBjQVf99ylYP3SFZtGcCw
-! Version: 202606101051
+! Checksum: AHshfcaEo2JLzlzqsi8XHQ
+! Version: 202606101212
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jun 2026 10:51 UTC
+! Last modified: 10 Jun 2026 12:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20025,6 +20025,7 @@ tltnews.ru##noindex > marquee
 ruskino.ru##noindex > nofallow
 filebase.ws,torrent-bort.ru##noindex > nofollow
 peterburg2.ru##noindex > noindex
+small-games.info##noindex > p[style="margin-top: -10px; margin-bottom: 15px;"]
 medicina.ua##noindex > script[src^="/adv.php?"] ~ div
 torrents-soft.ru##noindex > table > tbody > tr > td[style^="width:50%"] > ul
 torrents-soft.ru##noindex > table > tbody > tr > td[style^="width:50%"][style*="#22c55e"]:first-child

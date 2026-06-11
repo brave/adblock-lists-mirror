@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wkb9GXJ77NxtTKOFhUmVlQ
-! Version: 202606111822
+! Checksum: SGLWBObfwOg5MJ5r5vsxUg
+! Version: 202606111921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Jun 2026 18:22 UTC
+! Last modified: 11 Jun 2026 19:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14457,7 +14457,6 @@ korabel.ru##.ext_link_img
 russian.rt.com##.external-widget
 pikabu.ru##.external_branding
 carsweek.ru##.extra
-matchtv.ru##.f-bonus-button__icon-wrapper
 superjob.ru#?#.f-test-search-result-item:-abp-has(> div > div .f-test-link-Podrobnee)
 superjob.ru#?#.f-test-search-result-item:-abp-has(> div li div:empty:first-child + div:empty)
 1777.ru##.f80
@@ -17116,6 +17115,7 @@ dni.ru##[class*="container"][class*="partner"]
 prokuzbass.ru##[class*="container-ad"]
 detaly.co.il##[class*="container_ads"]
 soft2u.ru##[class*="download-page__alt-ads"]
+matchtv.ru##[class*="f-bonus-"]
 kinorium.com##[class*="film-page__buttons-watch"]
 allboxing.ru##[class*="fullscreen-banner"]
 forum.guns.ru##[class*="hide"][class$="ban"]
@@ -18607,6 +18607,7 @@ hi-fi.ru##body[data-pageid] #ipsLayout_sidebar
 2gis.by,2gis.kz,2gis.ru##button > div[style^="width: 136px; height: 100%;"] ~ div[style*="pointer-events: auto"]
 novayagazeta.eu#?#button:-abp-has(> [src^="/vpnovaya_"])
 360.ru,riamo.ru#?#button:-abp-has(> svg > [clip-path*="dzen"])
+rutube.sport##button[aria-label*="баннер"]
 www.kinopoisk.ru##button[class*=" styles_adButton_"]
 flamp.ru##cat-banner
 exnews.org##center + noindex

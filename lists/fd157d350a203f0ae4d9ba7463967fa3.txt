@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RdFNQs4VRr/FTTG/A8atkQ
-! Version: 202606121052
+! Checksum: nx4seRDcH0TMJTa8bV2Iow
+! Version: 202606121211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jun 2026 10:52 UTC
+! Last modified: 12 Jun 2026 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13317,6 +13317,7 @@ luxurynet.ru##.artbannersplus
 newsoboz.org##.articl_center > noindex
 penzadoctor.ru##.article-banner
 techdigest.ru##.article-banner-side
+livesport.ru##.article-betline
 sappers.com.ua##.article-block-ads
 www.sport.ru##.article-bottom-block > .hdr2
 lifehacker.ru#?#.article-card-container > .container > [class*="article-card"]:-abp-has(.lh-article-card-meta__partner)
@@ -13329,6 +13330,7 @@ studopedia.ru##.article-description > noindex
 mk.ru##.article-grid__good-top
 liga.net##.article-header__video-banner
 euro-football.ru##.article-item > .article__footer ~ :not(.article__footer):not(.comments-container)
+livesport.ru##.article-odds
 bet.ua##.article-page__review-block
 viva.ua##.article-partners
 4mama.ua,tvoymalysh.com.ua##.article-partners-news
@@ -13336,6 +13338,8 @@ vedomosti.ru##.article-recommendation
 wotsite.net#?#.article-right > div:-abp-contains(Реклама)
 industry-hunter.com##.article-single .bg-light
 games.24tv.ua#?#.article-text > .insert:-abp-has(a[rel*="sponsored"])
+livesport.ru##.article-tipsvrez
+livesport.ru##.article-vote
 stolicaonego.ru##.article-widget
 korrespondent.net#?#.article:-abp-has(> .article__title > a > .advertising)
 espreso.tv##.articleContent > .recomendation_list + h2.block-title
@@ -13378,8 +13382,10 @@ sm.news##.aside > [id][class]
 efir.plus##.aside > div ~ div
 sm.news##.aside div[id][class]:empty
 iz.ru##.aside-advertising
+livesport.ru##.aside-betting
 auto43.ru#?#.aside-block:-abp-has(> .media_aside_our-partners)
 kinoblog.tv#?#.aside-block:-abp-has(div[class^="adfinity_block_"])
+livesport.ru##.aside-bonus
 securitylab.ru##.aside-col
 news-tape.ru#?#.aside-col > .moduletable:-abp-has(> .inner > .box-ct > .adsbygoogle)
 reporter.ua##.aside-column > a > img[src*="/home/banners/"]
@@ -13433,6 +13439,7 @@ finance.tut.by##.b-alpari
 ixbt.com#?#.b-article > h4:-abp-contains(Справочник по ценам)
 kinokladovka.com##.b-background__link
 sho-me.ru##.b-baner-sho-me-link
+ukranews.com##.b-banner-bottom
 dengi.ua##.b-banner-container
 forums.drom.ru##.b-banner-group
 cyberstyle.ru##.b-banner_600x90
@@ -13916,6 +13923,7 @@ ccoins.ru##.bookingaff
 bombardir.ru##.bookmaker-container
 sport24.ru##.bookmaker-rating
 alvin-almazov.ru,meta.ua##.bookmakers
+ua-football.com##.bookmakers-top__wrapper
 simhost.org##.booster
 vikna.tv#?#.border-top:-abp-has(> [id*="ScriptRoot"])
 kulturologia.ru#?#.bordered:-abp-has(> center > [id^="yandex_rtb"])
@@ -15348,6 +15356,7 @@ ykt.ru##.n-most-banner-wrapper
 tehno-rating.ru##.nadav-market
 naked-science.ru##.naked-banner
 namba.kg##.nambafood
+livesport.ru##.name-like-h3
 novate.ru##.native > h2
 uwupad.me##.native-ad-container
 floristics.info##.native-ads
@@ -15460,6 +15469,7 @@ habr.com##.nornickel-special
 cossa.ru##.noteFrame
 esp8266.ru##.notice[data-notice-id="1"]
 sandero.ru##.notices_img_ad
+ua-football.com##.notification-bonus
 audiopoisk.narod.ru##.noun
 wi-fi.ru##.novelty-aside__i_ad
 mmatoday.info##.npt
@@ -15745,6 +15755,7 @@ livelib.ru##.prm-header
 bon.ua##.prmtn
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.pro-adv
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru#?#.pro-block:-abp-has(> .pro-block-adv)
+livesport.ru##.pro-gift
 kinorium.com##.proBan
 iccup.com##.proakk
 probirka.org##.probirka-popup-container
@@ -16134,6 +16145,7 @@ animevost.one,animevost.org,animevost.top,vost.pw##.shortstoryContent > center[s
 gamingservers.ru##.show-block
 av.by##.show-on-desktop
 ua-football.com##.show-post > [style="color: rgb(170, 170, 170); font-style: italic; text-align: center;"]
+ua-football.com#?#.show-post > div[style]:-abp-has(a[href^="https://sport.ua/go/"])
 ua-football.com#?#.show-post > div[style^="background:"]:-abp-has(> strong a[rel="nofollow"])
 ua-football.com#?#.show-post > h2:-abp-has(> strong:-abp-contains(ставки ))
 newsarmenia.am##.showBanner
@@ -17069,6 +17081,7 @@ taxifm.ru##[alt="LoveProd"]
 chipmaker.ru,goldsrc.ru##[alt="advertisement_alt"]
 gzt-sv.ru##[alt^="Реклама"]
 uznayvse.ru##[aria-label="areaAdvertise"]
+livesport.ru##[aria-label="Партнёрское объявление"]
 uznayvse.ru##[aria-label="Реклама"]
 pravda.if.ua##[aria-label="Рекомендований контент"]
 rutube.ru##[aria-label="информационный баннер"]
@@ -17595,6 +17608,7 @@ gofrag.ru##a[href$="/pomoshch"]
 eadaily.com##a[href*="#after_incut"]
 lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv5.site##a[href*="&brid="]
 allfight.ru##a[href*="-pokupka-zhilya-"]
+livesport.ru##a[href*="-tiz"]
 manutd.ru,sportliga.com##a[href*=".ashx?"]
 onliner.by##a[href*=".betera.by"]
 fishingsib.ru,hunting.ru##a[href*=".fhserv.ru"]:not([href^="https://image.fhserv.ru"])
@@ -18237,6 +18251,7 @@ scooter777.ru##a[href^="http://yashcher.ru"] > img
 earth-chronicles.ru##a[href^="http://youcanhappy.ru/"]
 rutvet.ru##a[href^="https://1ra.ru"]
 system-fx.ru##a[href^="https://adamantfinance.com/"]
+ua-football.com##a[href^="https://advertlinks.info/"]
 androproblem.ru##a[href^="https://alitems.com/"]
 liveinternet.ru##a[href^="https://an.yandex.ru/count/"]
 fit4power.ru##a[href^="https://animal-farma.top"]
@@ -18441,6 +18456,7 @@ bessarabiainform.com##aside div[class^="a-single"]
 adme.media##aside div[style^="min-height:"]
 magtimes.info##aside img[src^="http://magtimes.info/wp-content/uploads/"]
 poligon.by##aside#sidebar > a[href]
+livesport.ru##aside.right > a[target="_blank"]
 autotheme.info##aside.sidebar > .custom-html-widget
 autotheme.info##aside.sidebar > h2:first-child
 postal.ninja##aside.tm-sidebar-a [class*="block"]
@@ -21194,6 +21210,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||boltai.com/?*&action=load
 ||bombardir.ru/ajax/getbannercode
 ||bombardir.ru/rest/ads/
+||bonasus.livesport.ru/$subdocument
 ||boo.samara24.ru^
 ||bookini.ru/js/*.js|$script
 ||bookskeeper.ru/promo/
@@ -22132,8 +22149,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||livelib.ru/book/getpriceblock?
 ||livesport.pw/uppod/ads.json
 ||livesport.ru/*/b_
-||livesport.ru/*/fly_wow.js
-||livesport.ru/*/wow/
+||livesport.ru/*/wow
 ||livetv*.*/ads.*/getbanner.php
 ||livetvcdn.net/html/
 ||lkforum.ru/button/
@@ -24928,7 +24944,10 @@ sports.ru###media-promo-mount-point a[href*="://sirena.world/"]
 sports.ru###top-ad
 sports.ru###top-banner-place
 sports.ru##.ad
+sports.ru##.ad-banner-layout
+sports.ru##.app-ratings
 sports.ru#?#.aside-news-list__item:-abp-has(> a[href^="https://sirena.world/"])
+sports.ru##.bookmaker-bonus-block
 sports.ru##.branding-ad-link
 sports.ru##.columns__alt-column .frame
 sports.ru##.comment-ads
@@ -24946,6 +24965,9 @@ sports.ru##.in-read-yadv
 sports.ru##.js-ad-label
 sports.ru##.layout-branding
 sports.ru##.layout__branding
+sports.ru##.match-factoid-item__betting
+sports.ru##.match-factoid-item__bookmaker-button
+sports.ru#?#.match-poll:not(:-abp-has(*))
 cyber.sports.ru##.match-teaser__betting-bar
 sports.ru##.matches-entertainment-rating__advertise
 sports.ru#?#.material-list__item:-abp-has(.content-label:-abp-contains(/Реклама|Pеклама/))
@@ -24968,11 +24990,13 @@ sports.ru##.poll__bookmaker-link
 sports.ru##.poll__bookmaker-logo
 cyber.sports.ru##.polling
 cyber.sports.ru##.post-content a[href*="://sirena.world/"]
+sports.ru##.post-layout__frame
 sports.ru##.promo-link
 sports.ru##.promo-timer__broadcast-label
 sports.ru##.promo-timer__erid-label
 sports.ru#?#.recommendations__list > .recommendations__item:-abp-has([href*="promo"])
 sports.ru##.record-widget__bookmaker
+sports.ru##.reliable-bookmakers
 sports.ru##.right-banner-element
 sports.ru##.rightPart > .mB20
 sports.ru#?#.rightPart > div:-abp-contains(Реклама 18+)
@@ -24983,8 +25007,11 @@ sports.ru#?#.short-news > p:-abp-has(> .advert_material)
 sports.ru##.social-links__zn
 sports.ru##.teaser-before-links__adv-label
 cyber.sports.ru##.teaser-bookmaker
+sports.ru##.widget-odds
 sports.ru##.write-post__placeholder:empty
 @@||r.sprts.ru/recommender/|$xmlhttprequest,domain=www.sports.ru
+sports.ru#?#[analytic-id="facts"]:not(:-abp-has(*))
+sports.ru##[bonus-sum]
 cyber.sports.ru##[class*="okko"]
 sports.ru##[class*="parimatch"]
 sports.ru#?#[class]:-abp-has(> .aside-news-list__advert ~ a[href^="https://sprts.cc/"])
@@ -25004,9 +25031,12 @@ sports.ru##[data-type="reklama"]
 sports.ru##[id*="ScriptRoot"]
 sports.ru##[id^="dfp-fullscreen-"]
 sports.ru##[id^="unit_"]
+sports.ru##[type="bookmaker-bonus"]
 sports.ru##a#sitewrapper[href][target="_blank"][style*="cursor"]
 tribuna.com##a[href*="/bet/"]
 tribuna.com##a[href*="/betting/"]
+sports.ru##a[href*="/click?offer_id="][href*="landing_"][href*="partner_"]
+sports.ru##a[href*="/odds/"]
 tribuna.com##a[href*="bit.ly"]
 sports.ru##a[href*="click"][target="_blank"][style^="display"]
 sports.ru##a[href*="fon.bet/"]
@@ -25037,6 +25067,7 @@ sports.ru##style:first-child ~ [class^="gift__"]
 ||dumpster.cdn.sports.ru/*.png|$image
 ||dumpster.cdn.sports.ru/*.webp|$image
 ||s5o.ru/build/_desktop/split_testing_init.js
+||senoval.cdn.sports.ru/betting-content/
 ||senoval.cdn.sports.ru/cross-recommender/
 ||senoval.cdn.sports.ru/news-renderer/public/SparrowRecommendations-
 ||senoval.cdn.sports.ru/s-presence/sblock-presence.min.js

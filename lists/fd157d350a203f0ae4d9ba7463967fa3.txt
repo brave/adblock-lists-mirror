@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AdoL0XwpyrglZIDOoJnNfw
-! Version: 202606121331
+! Checksum: 2gSBQAopzY2YlMNZ58UHdw
+! Version: 202606121502
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jun 2026 13:31 UTC
+! Last modified: 12 Jun 2026 15:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1716,7 +1716,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] > [id$="er"]:nth-child(-n+3) {width:unset;}
 ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] {padding-top:0;background-color:inherit;}
 ! Моносериальные домены HDrezka
-net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]) {margin-top:unset;}
+org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]) {margin-top:unset;}
 ! ---
 ! Shkulev Media
 ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
@@ -23808,7 +23808,7 @@ howdyho.net#@#div[id^="yandex_rtb"]
 ||yandex.$domain=howdyho.net
 ||yastatic.$domain=howdyho.net
 !
-championat.com,lenta.ru##[class*="scroll-to-site"] {remove:true;}
+championat.com,championat.ru,lenta.ru##[class*="scroll-to-site"] {remove:true;}
 cq.ru##[class*="grid"] > a:has(.p-item__button-sponsored) {remove:true;}
 flightsim.su###tie-popup-adblock {remove:true;}
 freesoft.ru###downloadAdModal {remove:true;}
@@ -24691,6 +24691,7 @@ lenta.ru##.custom-banner
 finance.rambler.ru##.finance__partners
 horoscopes.rambler.ru##.fzwuC
 championat.com,championat.ru##.game-of-day
+championat.com,championat.ru##.gift-banner
 championat.com,championat.ru##.header-bottom__adv
 championat.com,championat.ru##.infographic-countdown
 championat.com,championat.ru##.infographic-duel

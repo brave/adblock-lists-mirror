@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606120212
+! Version: 202606120402
 ! Title: EasyPrivacy
-! Last modified: 12 Jun 2026 02:12 UTC
+! Last modified: 12 Jun 2026 04:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0f03c805e0e573c5f99f2047ea8065430fcc6478
+! Commit: 2a1e01300f849b73d6ca1b649d9296a12aed3ae1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -28,6 +28,7 @@
 &refer=http$script
 &sst.gcsub=
 &t=pageview&
+&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
 -adobe-analytics/
 -adobeDatalayer_bridge.js
 -click-tracker.
@@ -12684,6 +12685,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.g2crowd.com^
 ||tracking.godatafeed.com^
 ||tracking.graphly.io^
+||tracking.groupe-ldlc.com^
 ||tracking.happierleads.com^
 ||tracking.hivecloud.net^
 ||tracking.hyros.com^
@@ -53938,6 +53940,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||quellavelinge.com/referer.php?
 ||res.paruvendu.fr^
 ||rts.ch^*/boreas_b01.js
+||rueducommerce.fr/ps/events.js
 ||s5.charliehebdo.fr^
 ||seloger.com/cdp-bff/analytics
 ||serv.letudiant.fr^

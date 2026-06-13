@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 94VMItl16tR3nPdOlstT0Q
-! Version: 202606131751
+! Checksum: Y84ljwb1ovbTGy5kPQ06Dw
+! Version: 202606131832
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Jun 2026 17:51 UTC
+! Last modified: 13 Jun 2026 18:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1701,6 +1701,7 @@ me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][
 ~westmister.eu##noindex a[href^="http://www.westmister.eu/collection/"],noindex a[href^="http://www.westmister.eu/collection/"] ~ *
 ##object[data*="ads.com/clk.swf"]
 ##object[data^="blob"]
+##script ~ #adspace
 ##smartframe-embed[customer-id]
 me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 ##thetruestory-widget-top

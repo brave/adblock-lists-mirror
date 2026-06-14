@@ -451,6 +451,7 @@ maxroll.gg##.adsmanager-ad-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226186
 ! https://github.com/uBlockOrigin/uAssets/issues/32480
 ||cfd/rfdtagarg/*.js
+||zeilink.net/api/public/ads
 ||cdn-n.net^
 ||cdn-x.net^
 ||cdn-z.net^
@@ -459,7 +460,9 @@ maxroll.gg##.adsmanager-ad-container
 /^https:\/\/get[0-9]+\.host[0-9]+[a-z]\.cfd\/\?(?:tag|data)=[a-zA-Z0-9:_=-]+/$all,match-case,to=cfd
 /^https:\/\/\d+\.cfd\/[a-z]{3}tag[a-z]{3}\/v\d\/[a-zA-Z0-9]+:C\d\.js\b/$script,3p,match-case,to=cfd
 !#if env_safari
-/^https:\/\/[0-9]+\.cfd\/[a-z][a-z][a-z]tag[a-z][a-z][a-z]\/v[0-9]\/[a-zA-Z0-9]+:C[0-9]\.js\b/$script,3p,match-case,to=cfd
+/^https:\/\/get[0-9]+\.host[0-9]+[a-z]\.cfd\/\?tag=[a-zA-Z0-9:_=-]+/$all,match-case
+/^https:\/\/get[0-9]+\.host[0-9]+[a-z]\.cfd\/\?data=[a-zA-Z0-9:_=-]+/$all,match-case
+/^https:\/\/[0-9]+\.cfd\/[a-z][a-z][a-z]tag[a-z][a-z][a-z]\/v[0-9]\/[a-zA-Z0-9]+:C[0-9]\.js\b/$script,3p,match-case
 !#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/32069
@@ -1144,10 +1147,6 @@ sports-arena.space##+js(nostif, adblock)
 
 ! User deleted issue: Filter ensures no need for default mode to be complete in uBOL
 streamvid.dev##.ad_mobile
-
-! https://github.com/uBlockOrigin/uAssets/issues/33292
-||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=google-ima.js,domain=juliewomanwish.com
-juliewomanwish.com##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/33295
 @@||hytale-servers.net^$ghide

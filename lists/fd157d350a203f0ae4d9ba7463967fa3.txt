@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cjONmtRJJej8akWGQDFW3w
-! Version: 202606150451
+! Checksum: XTXZZw+zXGj6XkufKX5Wxg
+! Version: 202606150811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Jun 2026 04:51 UTC
+! Last modified: 15 Jun 2026 08:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13202,7 +13202,7 @@ englishsub.ru,lenglish.ru##.adsense_blok
 vise.im##.adsplaser_pro_abtest
 ok-pressa.ru##.adstitles
 3iks.org,androidkino.net,btrans.by,crimea-news.com,dugtor.ru,dv-gazeta.info,internet-technologies.ru,kinosimka.be,kniga-online.com,novyny.live,progroshi.news,proukraine.news,qna.center,reestr.rublacklist.net,resheba.top,reviewscompanies.club,vesti.uz,wotsite.net,xcadr.online##.adv
-regnum.news,regnum.ru##.adv-container-wrapper
+regnum.ru##.adv-container-wrapper
 do-slez.com##.adv-heading
 backup.menu,dedicated.menu,hosting.cafe,https.menu,license.menu,shared.menu,vds.menu##.adv-hidden-xs
 komionline.ru##.adv-hint
@@ -14881,6 +14881,7 @@ galka.if.ua#?#.infoblock:-abp-has(> a.infoblock-count[target="_blank"])
 gorodkiev.com.ua##.infolinks
 app2top.ru##.information-block-top
 uaspectr.com##.information__image
+kinoafisha.ua##.informer > noindex
 igromania.ru,kanobu.ru##.informer-container
 online-fix.me#?#.informer-sidebar-block:-abp-has(> #aclib)
 gazeta.ua##.informer.double
@@ -15620,7 +15621,7 @@ censor.net,fc-zenit.ru,grodnonews.by,highload.tech,itc.ua,mc.today,mgorod.kz,mos
 sport.ua,sportonline.ua##.partners-block
 zanmsk.ru##.partners-block > a[href][target="_blank"]
 tyzhden.ua##.partners-block-wrapper
-regnum.news,regnum.ru##.partners-container
+regnum.ru##.partners-container
 1fnl.ru##.partners-list
 fc-zenit.ru##.partners-logo
 telekritika.ua##.partners-news
@@ -15774,7 +15775,7 @@ allmoldova.com,gdeposylka.ru,infomir59.ru,pavlodar.news,pavon.kz,rentv-smolensk.
 roskomsvoboda.org##.promo-banner
 expertcen.ru##.promo-block
 habr.com##.promo-block_courses
-regnum.news,regnum.ru##.promo-card-small
+regnum.ru##.promo-card-small
 app2top.ru##.promo-events-block
 vechirniy.kyiv.ua##.promo-inner > .container > a[href="https://vechirniy.kyiv.ua/reklama/"]
 vechirniy.kyiv.ua#?#.promo-inner > .container:-abp-has(> .media:only-child)
@@ -16364,7 +16365,6 @@ news.pn##.snap-block > .ad + div
 mensgen.ru##.snp-root
 vkurske.com##.soa
 hitmotop.com##.soc-auth-btns
-ukrlib.com.ua##.social-box-item
 pay-day.ru,pnz.ru,podolyaka.com,podolyaka.ru,tvcenter.ru,warhead.su##.social-button--yandexzen
 nevnov.ru##.social-container
 autoportal.ua##.social-info
@@ -16471,6 +16471,7 @@ autopilot.ru##.subscribe_announcement
 playmaker24.ru##.subscrite-widget:first-child
 dtf.ru,vc.ru##.supbar--top
 klops.ru##.supercover-banner-header
+ukrlib.com.ua##.supertext2
 bilshe.com#?#.svejnov:-abp-has(> h2 > b:-abp-contains(/^Інші/))
 games-porno.net##.swfgame_banners
 ictv.ua#?#.swiper-slide:-abp-has(> a[href*="utm_campai"])
@@ -18740,7 +18741,7 @@ sport24.ru#?#div[aria-expanded="false"]:-abp-contains(Реклама)
 rg.ru##div[aria-label="Дзен"]
 litres.ru##div[aria-label="Реклама"]
 1743.ru,gts.tv,ntsk.ru,orki.ru,orsk.ru##div[bs_id]
-regnum.news,regnum.ru##div[class$=" feed-item"]
+regnum.ru##div[class$=" feed-item"]
 mt.today,znak.com##div[class$="-ads"]
 bhf.su##div[class$="-bannerContent"]
 proufu.ru#?#div[class$="-main"]:-abp-has(> p:-abp-contains(Новости партнеров))
@@ -23420,6 +23421,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||uinsell.net/b/
 ||ukrainske.tv/images/ref/banner_
 ||ukrfootball.ua/img/saduf/
+||ukrlib.com.ua/ad/
 ||ukrlitra.com/banner
 ||ukrreal.info/im/banners/$image
 ||uma.media^$domain=rus-serial.net
@@ -23798,7 +23800,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?pjD3y=$xmlhttprequest
+||pikabu.ru/ajax/*?p5Oho=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

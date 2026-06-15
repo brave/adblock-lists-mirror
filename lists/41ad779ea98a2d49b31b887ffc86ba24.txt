@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i6g2n1i40c/DqCaw6wzZ7A
-! Version: 202606150225
+! Checksum: Sd3n3QxXApPAZkLEkrAxUQ
+! Version: 202606150650
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-06-15 02:25 UTC
+! Last modified: 2026-06-15 06:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4224,7 +4224,7 @@ usni.org###articleCookieModal
 usni.org##+js(remove-cookie, STYXKEY_nh_count)
 usni.org##+js(remove-cookie, STYXKEY_pro_count)
 ! https://github.com/easylist/easylist/pull/24305
-deliveroo.ie#?#.ReactModalPortal > .ccl-5300654a18fccc61:has(p:has-text(Sign up to Deliveroo Plus Gold))
+deliveroo.ie#?#.ReactModalPortal > .ccl-5300654a18fccc61:has(div:has-text(Deliveroo Plus T&Cs))
 deliveroo.ie##html:style(overflow:auto !important;)
 ! accuradio.com (login nag)
 accuradio.com##.ReactModal__Overlay--after-open.ReactModal__Overlay

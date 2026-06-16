@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: X9avgZhx6/gzrK3u+WzV4g
+! Checksum: asunJT1Id6/yOIJKcPR7Yg
 ! Title: Easylist Cookie List
-! Last modified: 2026-06-15 11:25 UTC
+! Last modified: 2026-06-15 23:50 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -17207,7 +17207,7 @@ careers.lilly.com,dell.com,itnews.com.au,jibtv.com,vandyke.com###gdpr-alert
 aza.org###gdpr-bar
 sharefaith.com###gdpr-bot
 nanotalegame.com###gdpr-consent-form
-almaasdiamonds.com,americascup.com,cfu-airport.gr,clustrmaps.com,cobau.com.br,croatiaexcursions.com,estrelladecastilla.es,gofoexpress.com,jsi-airport.gr,kgs-airport.gr,leube.cz,map.purpleair.com,portal.amity.copiri.com,rho-airport.gr,skg-airport.gr,tapas.io,teamspeak.com,zth-airport.gr###gdpr-cookie-message
+almaasdiamonds.com,americascup.com,cfu-airport.gr,clustrmaps.com,cobau.com.br,croatiaexcursions.com,e1series.com,estrelladecastilla.es,gofoexpress.com,jsi-airport.gr,kgs-airport.gr,leube.cz,map.purpleair.com,portal.amity.copiri.com,rho-airport.gr,skg-airport.gr,tapas.io,teamspeak.com,zth-airport.gr###gdpr-cookie-message
 quizwiz.pro###gdpr-cookie-msg
 uploadrar.com###gdpr-cookie-notice
 usg.edu###gdpr-cookie-notification
@@ -17430,6 +17430,7 @@ autoevolution.com###prajiturele
 jangmidiamonds.com###preloader
 fxstreet.com###prestitial-handle
 3q.video,linhauni.com.br,mondaq.com,powerfront.com,prevac.eu,tesda.gov.ph,vindy.com###privacy
+abt.com###privacy-act-overlay
 worldjournal.com###privacy-agreement
 business-humanrights.org###privacy-choices
 monitor.civicus.org###privacy-choices-banner
@@ -21144,6 +21145,9 @@ highliferoleplay.net##+js(set-cookie, HighLife-cookie-accept, true)
 feierstoff.de##+js(set-cookie, Hotjar, false)
 czech-server.cz,epenta.sk,penta.cz,suntech.cz##+js(set-cookie, I6COMPARECOUNT, 0)
 czech-server.cz,epenta.sk,penta.cz,suntech.cz##+js(set-cookie, I6IISCOOKIECONSENT0, n, , reload, 1)
+ibkrcampus.com##+js(set-cookie, IBKRcampus_functional_optIn, true, , reload, 1)
+ibkrcampus.com##+js(set-cookie, IBKRcampus_gdpr_optOut, true)
+ibkrcampus.com##+js(set-cookie, IBKRcampus_mkting_optOut, true)
 ing.it##+js(set-cookie, ING_GPP, 0)
 ing.it##+js(set-cookie, ING_GPT, 0)
 de-appletradein.likewize.com##+js(set-cookie, IsCookieAccepted, yes, , reload, 1)
@@ -23681,6 +23685,8 @@ scan.co.uk##.s-theme
 scan.co.uk##body,html:style(overflow: auto !important; position: initial !important;)
 ! clasohlson.com
 clasohlson.com##+js(set-cookie, cookie-notification, ACCEPTED)
+! vanlifecampers.com https://github.com/uBlockOrigin/uAssets/issues/33312
+vanlifecampers.com##+js(remove-class, body, cmplz-banner-active)
 ! konsument.at
 konsument.at,verbraucherrecht.at,vki.at##+js(set-cookie, vkicookieconsent, 0)
 !! #cookiewall-modal

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TMAIbonnmH/bOtBcow195Q
-! Version: 202606171321
+! Checksum: c7psffH1fb08/OZX29mt7A
+! Version: 202606171431
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Jun 2026 13:21 UTC
+! Last modified: 17 Jun 2026 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1972,6 +1972,7 @@ www.kinopoisk.ru##body[class*="body"][class*="_"] {overflow:auto;}
 /educhat.js
 /edugram_chat.js
 /ekbn/src/*
+/engine/dvb/ads_proxy.php?token=$xmlhttprequest
 /external/adliftQueue/*
 /fgc.php?script=bannerTypeHtml
 /files/banner/*$domain=~answear.ua|~bel-mt.ru|~crbmpurga.ru|~easyship.ru|~saabcity.ru|~technoavia.ru|~xn--d1abblrh2byewa.xn--p1ai|~yarkiy.ru
@@ -2055,6 +2056,7 @@ www.kinopoisk.ru##body[class*="body"][class*="_"] {overflow:auto;}
 /mgid_automatically_creating_
 /mirmaek/*$image
 /mixadvert.$domain=~mixadvert.com
+/movie/files/episodes/*-RU.mp4|$third-party,media
 /mp3player.swf?file=*/bb1.mp3
 /mp3player.swf?file=*/bb2.mp3
 /mp3player.swf?file=*/vk.mp3
@@ -4354,6 +4356,7 @@ _tizers.
 ||agl007.site^$third-party
 ||agl008.shop^$third-party
 ||agl010.pro^$third-party
+||agl011.art^$third-party
 ||agrohod.ru^$third-party
 ||ahaclub.ru^$third-party
 ||ahhmpxdcpy.info^$third-party
@@ -23574,6 +23577,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||vsetop.org/uploads/yabr.
 ||vsetyt.us/uploads/ruscams.
 ||vsluh.ru/system/*banners/
+||vvru.spdmpgcdn.com/
 ||vyksarf.ru^$domain=xn--80ady2a0c.xn--p1ai
 ||walking-dead.ru/banners.js
 ||walking-dead.ru/bnr/

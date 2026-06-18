@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MoAdlaLgCWNj/0lNhY9tmg
-! Version: 202606181322
+! Checksum: bpV1SexM1qSqbsrou/Fomg
+! Version: 202606181512
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Jun 2026 13:22 UTC
+! Last modified: 18 Jun 2026 15:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1723,6 +1723,11 @@ org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]
 ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 ! ---
 ex-fs.net###content {margin-top:0;}
+kg-portal.ru##.ten_ears_wrap {margin-top:0;background-color:#a5a5a5;}
+kg-portal.ru##.ten_topbar + div:not(.ten_ears_wrap) {display:none;}
+kg-portal.ru##.ten_topbar {max-height:10px;}
+kg-portal.ru##body > .menu_wrap {position:relative;}
+kg-portal.ru##body {background-image:none;background-color:inherit;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}
 stratege.ru##.above_body {margin-bottom:0;}
@@ -16097,6 +16102,7 @@ sport-express.net,sport-express.ru##.se-banner
 sport-express.net,sport-express.ru##.se-bets
 sport-express.net,sport-express.ru##.se-brand-buttons
 sport-express.net,sport-express.ru##.se-brandedbuttons
+sport-express.net,sport-express.ru##.se-football-world-betboom-widget
 sport-express.net,sport-express.ru##.se-material-page__footer-recommendations
 sport-express.net,sport-express.ru##.se-partner-stuffing-info
 sport-express.net,sport-express.ru##.se-sport-entity-icon-links__link--kinopoisk
@@ -21993,7 +21999,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||kerchinfo.com/uploads/img_ban/
 ||keysportal.com/yandex$image
 ||kg-portal.ru/banned/
-||kg-portal.ru/brandbook/
+||kg-portal.ru/brandbook/$~stylesheet
 ||kg-portal.ru^*/bg.jpg|
 ||kgd.ru/images/commerc/
 ||kharkov.info/files/image*/banner

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nNeGNxpLy32tktHA0PlEGw
-! Version: 202606180351
+! Checksum: K9DuSF1dQt+uaJFDERi5FA
+! Version: 202606180542
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Jun 2026 03:51 UTC
+! Last modified: 18 Jun 2026 05:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23806,7 +23806,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?p5Oho=$xmlhttprequest
+||pikabu.ru/ajax/*?p5Oio=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -25024,7 +25024,6 @@ sports.ru##.short-news > [data-content-name]
 sports.ru##.short-news > br
 sports.ru#?#.short-news > p:-abp-has(> .advert_material)
 sports.ru##.social-links__zn
-sports.ru##.super-top
 sports.ru##.teaser-before-links__adv-label
 cyber.sports.ru##.teaser-bookmaker
 sports.ru##.widget-odds
@@ -25054,6 +25053,7 @@ sports.ru##[data-type="reklama"]
 sports.ru##[id*="ScriptRoot"]
 sports.ru##[id^="dfp-fullscreen-"]
 sports.ru##[id^="unit_"]
+sports.ru##[src*="/supertop-iframe/"]
 sports.ru##[type="bookmaker-bonus"]
 sports.ru##a#sitewrapper[href][target="_blank"][style*="cursor"]
 tribuna.com##a[href*="/bet/"]

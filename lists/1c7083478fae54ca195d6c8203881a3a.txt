@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.7.1
+! Version: 4.3.5.2
 
 ! General
 
@@ -26,7 +26,7 @@
 ||olytics.omeda.com^$third-party
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
-/xbuilder/experience/execute$xmlhttprequest,domain=~automobilwoche.de|~frontline.thehindu.com|~thedispatch.com
+/xbuilder/experience/execute$xmlhttprequest,domain=~automobilwoche.de|~frontline.thehindu.com
 @@||piano.io^$domain=hbr.org|japantimes.co.jp
 @@||tinypass.com$script,domain=ajc.com|thelogic.co
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
@@ -79,8 +79,8 @@ axios.com##+js(ra, style, html[style], stay)
 bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
-||bizjournals.com/*.html?rel=plus$inline-script
-||bwbx.io/s3/fence/fortress-client/$script,third-party,domain=bloomberg.com
+/\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script,~third-party
+||bwbx.io/s3/fence/$script,third-party,domain=bloomberg.com
 ||bloombergadria.com/*/news$inline-script
 bloombergadria.com##+js(ra, style, article.single-news[style], stay)
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
@@ -138,7 +138,6 @@ eastwest.eu##+js(ra, style, .paywall)
 eastwest.eu##+js(rc, paywall, .paywall)
 eastwest.eu###testo_articolo > p, #testo_articolo > h3
 eastwest.eu##.offerta_abbonamenti
-||apw.economictimes.indiatimes.com$xmlhttprequest,~third-party
 ||economist.com/latest/wall-ui.js$script,~third-party
 ||editorialedomani.it/pelcro.js$script,~third-party
 elespanol.com##+js(rc, content-not-granted-paywall, div.content-not-granted-paywall)
@@ -266,9 +265,6 @@ mexiconewsdaily.com##+js(rc, tdb-block-inner, body.single div.td-post-content > 
 ||musicomh.com/wp-content/*/bundle.js$script,~third-party
 mv-voice.com##+js(cookie-remover, /^/)
 ||cdn.registerdisney.go.com$script,domain=nationalgeographic.com
-||nationalgeographic.com.es/Content/js/lib/runtime.min.js$script,~third-party
-nationalgeographic.it##+js(ra, style, section[style], stay)
-nationalgeographic.it##section.paywall-container
 ||nautil.us/_next/static/chunks/pages/_sites/%5BsiteSlug%5D/%5B...slug*.js$script,~third-party
 newsday.com##+js(ra, class, html[class])
 newrepublic.com##div.article-scheduled-modal
@@ -346,8 +342,6 @@ spglobal.com##+js(cookie-remover, count)
 startribune.com##div.modal-backdrop
 startribune.com##body[class]:style(overflow: auto !important; position: static !important;)
 ||stereogum.com/_next/static/chunks/pages/_sites/%5BsiteSlug%5D/%5B...slug*.js$script,~third-party
-||straitstimes.com/opinion/$inline-script
-/\.straitstimes\.com\/.+(\w+-){3,}.+\?rel=plus/$inline-script
 study.com##+js(ra, class, div.faded-content)
 study.com##+js(ra, class, div.hidden[ng-non-bindable])
 study.com##div.article-cutoff-div
@@ -365,8 +359,6 @@ the-scientist.com##div.gated-fader,div#Modal
 ||theatlantic.com/zephr/decision-engine$xmlhttprequest,~third-party
 theatlantic.com##aside#paywall,div[class^="LostInventoryMessage_"]
 ||cloudfunctions.net/gated-countView$xmlhttprequest,domain=thediplomat.com
-thedispatch.com##+js(cookie-remover, xbc)
-||thedispatch.com/next-250/$inline-script
 theglobeandmail.com##+js(set, window.Fusion.globalContent._id, 0)
 ||cdn.piano.io/api/tinypass.min.js$script,domain=www.thehindu.com
 frontline.thehindu.com##+js(rc, articlepaywall, body.articlepaywall, stay)

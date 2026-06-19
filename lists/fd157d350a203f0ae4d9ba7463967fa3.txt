@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mrjvhDTe51OQ4+dL0g9BAg
-! Version: 202606190541
+! Checksum: /6n02nYUanDcyWUdZhTKdA
+! Version: 202606190802
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Jun 2026 05:41 UTC
+! Last modified: 19 Jun 2026 08:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10626,7 +10626,6 @@ _tizers.
 ||videosmor.com^$third-party
 ||videotoper.com^$third-party
 ||videotrailer.top^$third-party
-||videotronic.io^$third-party
 ||videovikt.com^$third-party
 ||videovint.com^$third-party
 ||videsjs.com^$third-party
@@ -25201,6 +25200,7 @@ ya.ru,yandex.ru,yandex.*##.main-home-banner
 ya.ru,yandex.ru,yandex.*##.main__block-banner
 ya.ru,yandex.ru,yandex.*##.main__distr-popup
 ya.ru,yandex.ru,yandex.*##.Organic_withPromoOffer
+ya.ru,yandex.ru,yandex.*##div[class^="AdvRsya"]
 ya.ru,yandex.ru,yandex.*#?##search-result > [class]:-abp-has(> div.Organic > div a[href*="_crpd"])
 ya.ru,yandex.ru,yandex.*#?#.content__left > #search-result > li:-abp-has(> .Organic_withPromoOffer)
 ya.ru,yandex.ru,yandex.*#?#.content__right div[class]:-abp-has(> div > script)

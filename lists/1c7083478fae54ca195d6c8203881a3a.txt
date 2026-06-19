@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.7.1
+! Version: 4.3.8.0
 
 ! General
 
@@ -174,6 +174,7 @@ firstthings.com##div.leaky_paywall_message_wrap
 forbes.com##+js(ra, class, html[class], stay)
 forbes.com##+js(ra, class, body[class], stay)
 forbes.com.au##+js(cookie-remover, blaize_session)
+forbes.com##div.halfway-hardwall-insertion-point:remove()
 ||foreignaffairs.com/modules/custom/fa_paywall_js/js/paywall.js$script,~third-party
 ||foreignaffairs.com/sites/default/files/assets/css/css_*.css*delta=0$stylesheet,~third-party
 foreignaffairs.com##.article-dropcap:style(height: auto !important;)

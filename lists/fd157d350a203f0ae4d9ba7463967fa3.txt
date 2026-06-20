@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7upWTFooHObEGeLlEDk/MQ
-! Version: 202606201441
+! Checksum: 9puaipiQWA/fZuroo/bTjQ
+! Version: 202606201541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Jun 2026 14:41 UTC
+! Last modified: 20 Jun 2026 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17536,6 +17536,7 @@ sibnet.ru##[src*="sibnet.ru/iframe-wink"]
 ski.ru##[src*="ski.ru/vertelka/"]
 clubsandero.ru##[src="//an.yandex.ru/system/context.js"] ~ iframe
 rutor.org.ru##[src="/download32.png"]
+byrut.games##[src="/sm/images/btn.svg"]
 linux.org.ru##[src^="/adv/"]
 news.soundex.ru##[src^="http://news.soundex.ru/images/banners/"]
 pikabu.ru##[src^="https://special.pikabu.ru/"][src*="banner.html"]
@@ -19071,7 +19072,7 @@ arz-biz.ru##div[class^="direkt-"]
 prazdnovik.ru##div[class^="distr"]
 trashbox.ru##div[class^="div_branding_"]
 aum.news##div[class^="djslider"]
-byrut.games,onlinestreams.ru##div[class^="dle_b_"]
+onlinestreams.ru##div[class^="dle_b_"]
 z-torrents.ru##div[class^="dle_b_app"]
 btu.org.ua##div[class^="dle_b_banner"]
 btu.org.ua##div[class^="dle_b_bet"]
@@ -25200,6 +25201,7 @@ ya.ru,yandex.ru,yandex.*##.main-home-banner
 ya.ru,yandex.ru,yandex.*##.main__block-banner
 ya.ru,yandex.ru,yandex.*##.main__distr-popup
 ya.ru,yandex.ru,yandex.*##.Organic_withPromoOffer
+ya.ru,yandex.ru,yandex.*##[id^="search-"] .SportAdfox
 ya.ru,yandex.ru,yandex.*##div[class^="AdvRsya"]
 ya.ru,yandex.ru,yandex.*#?##search-result > [class]:-abp-has(> div.Organic > div a[href*="_crpd"])
 ya.ru,yandex.ru,yandex.*#?#.content__left > #search-result > li:-abp-has(> .Organic_withPromoOffer)

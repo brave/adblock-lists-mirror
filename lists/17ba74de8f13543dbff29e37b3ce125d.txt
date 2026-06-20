@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606192324
+! Version: 202606192355
 ! Title: EasyList
-! Last modified: 19 Jun 2026 23:24 UTC
+! Last modified: 19 Jun 2026 23:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 69b58fc53832c887cab1f71efd98784764a105b6
+! Commit: 6998a2f8439082f6895e748964bd3443215acdcb
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -28883,6 +28883,7 @@ browsershots.org#@#.advert_area
 ||featuregangster.com^
 ||featurelockout.com^
 ||febeb.xyz^
+||febflqfojuqdqm.com^
 ||febresescuela.qpon^
 ||februarybogus.com^
 ||februaryinjectionproudly.com^
@@ -33250,6 +33251,7 @@ browsershots.org#@#.advert_area
 ||hsnrjetnllgcu.online^
 ||hsnskx.care^
 ||hsoihhfdxtfau.site^
+||hsolwpvazsuwu.online^
 ||hsosldhfbjtss.website^
 ||hspcbbhhmusop.online^
 ||hsqxrxoxna.com^
@@ -56408,6 +56410,7 @@ browsershots.org#@#.advert_area
 ||viznfzhbiiual.space^
 ||vizoalygrenn.com^
 ||vizzycurted.com^
+||vjdxmpqsoqolt.space^
 ||vjehbytyxzsom.site^
 ||vjhfsebbyxwru.website^
 ||vjhixkkzjtlau.online^
@@ -78811,6 +78814,7 @@ mail.yahoo.com##li:has(a[href^="https://api.taboola.com/"])
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
 ! youtube.com###mealbar-promo-renderer
+youtube.com###contents > ytd-rich-item-renderer:has(> ytd-ad-slot-renderer)
 youtube.com###description-inner > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer
 youtube.com###shopping-timely-shelf
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)

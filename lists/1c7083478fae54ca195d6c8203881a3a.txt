@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.8.0
+! Version: 4.3.8.2
 
 ! General
 
@@ -155,9 +155,6 @@ enotes.com##section#enotes-paywall
 enotes.com##+js(ra, class, div.u-paywall)
 ||estadao.com.br/paywall/$script,~third-party
 ||estadao.com.br/access.js$script,~third-party
-etc.se##+js(rc, teaser-section, section.teaser-section)
-etc.se##+js(rc, hidden, section.prose-feature .hidden)
-etc.se##article section.font-sans
 euobserver.com##+js(rc, show, div.membership-upsell.show)
 ||exame.com/_next/static/chunks/app/%5B*.js$script,~third-party
 ||specials.fd.nl/_next/static/chunks/framework-*.js$script,~third-party
@@ -330,11 +327,8 @@ scientificamerican.com##+js(cookie-remover, article_meter)
 scotsman.com,yorkshirepost.co.uk##+js(rc, premium|no-entitlement, div.premium.no-entitlement)
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-user-messaging-main-bundle.js$script,~third-party
-||sfstandard.com/api/content/decision/$xmlhttprequest,~third-party
-sfstandard.com##+js(cookie-remover, zephr-session)
-sfstandard.com##+js(acis, localStorage)
-sfstandard.com##+js(acis, sessionStorage)
-sfstandard.com##div.sticky
+sfstandard.com##+js(cookie-remover, sfs-experiment-bucketing)
+sfstandard.com##div.sticky,div#__next > div[style="display:inline"]
 slideshare.net##+js(rc, limit-overlay, .limit-overlay)
 slideshare.net##+js(set-local-storage-item, /^/, $remove$)
 sofrep.com##+js(cookie-remover, sofrep_news_ids)
@@ -674,6 +668,8 @@ epaper.indiatimes.com##div.epaperBlockerWrap
 /\/every\.to\/[-\w]+\//$inline-script
 every.to##+js(ra, style, div#post-body-full, stay)
 ||eviemagazine.com/api/trpc/post.paywall$xmlhttprequest,~third-party
+flamman.se##+js(rc, paywall, div.paywall, stay)
+flamman.se##div#subscribe
 forbes.sk##+js(ra, style, div.post-content-soft-paywall, stay)
 forbes.sk##div#custom-html-locker
 gocomics.com##div[data-paywall]
@@ -725,6 +721,8 @@ marketnews.com##+js(ra, class, div.body-description)
 ||cloudfront.net/js/prometeo-media/$script,domain=menorca.info|ultimahora.es
 meritnation.com##.view-full-answer 
 meritnation.com##+js(rc, maxHeight75px, div.exp_content.maxHeight75px)
+mims.com##+js(rc, partial-gated-content, article.partial-gated-content, stay)
+mims.com##div#blazor-error-ui
 ||moscout.com$inline-script
 museumsassociation.org##+js(rc, paywall, body.paywall)
 museumsassociation.org##+js(ra, style, body[style], stay)
@@ -785,6 +783,8 @@ subscriptioninsider.com##div.dialog-widget
 !#if (adguard_app_ios)
 /\.subscriptioninsider\.com\/.+\/(\w+-){3,}/$inline-script,domain=subscriptioninsider.com
 !#endif
+the-star.co.ke##+js(ra, class, div.premium-gate__content, stay)
+the-star.co.ke##div.premium-gate__paywall,div.premium-content figure:not(:has(img))
 thecore.in##+js(ra, class, div.paywall-content)
 thecore.in##div.story,div#subscription_paid_message,div#footer_login_wall
 thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container)

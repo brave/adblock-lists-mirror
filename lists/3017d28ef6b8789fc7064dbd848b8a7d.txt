@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606211151
+! Version: 202606211246
 ! Title: EasyPrivacy
-! Last modified: 21 Jun 2026 11:51 UTC
+! Last modified: 21 Jun 2026 12:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: aeaed56a96d96b21fec40575b6b549de8097ad20
+! Commit: 533d9a94f49c384587f43676c72fe20817a4ba0f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2096,7 +2096,7 @@
 /scroll-track.js
 /scroll-tracker.js
 /SdaAnalytics.js
-/sdc.js
+/sdc.js|
 /sdc1.js
 /sdc2.js
 /sdctag1.js
@@ -15337,6 +15337,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||global.canon/00cmn/js/*/analytics-
 ||global.ssl.fastly.net^$domain=allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globes.co.il/shared/s.ashx?
+||glowing.com/unilog
 ||gmetrics.getbeamer.com^
 ||gnar.grammarly.com^
 ||gnavi.co.jp/analysis/
@@ -55349,6 +55350,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||docs.google.com/*/viewdata$~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
+@@||duckduckgo.com/local.js$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party

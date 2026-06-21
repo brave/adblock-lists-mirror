@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WeQlMcHvgLVfNhrhiHDa1w
-! Version: 202606211142
+! Checksum: Q+oV9zrMvzdPp0nj9vZUnw
+! Version: 202606211241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Jun 2026 11:42 UTC
+! Last modified: 21 Jun 2026 12:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17425,7 +17425,7 @@ stratege.ru##[id][class] > [src*="ads.adfox.ru"] + style + div[id]
 stratege.ru##[id][class] > style:first-child + div[id]
 cxem.net##[id^="_myproduct"]
 onlinetambov.ru##[id^="ad"][class*="ads"]
-svpressa.ru##[id^="adfox_"]
+svpressa.ru,trainzland.ru##[id^="adfox_"]
 depositfiles.com##[id^="ads_zone"]
 forum.krasmama.ru##[id^="adv_"]
 tuzlist.ru##[id^="adv_orders_"]
@@ -24970,6 +24970,7 @@ sports.ru###media-promo-mount-point a[href*="://sirena.world/"]
 sports.ru###top-ad
 sports.ru###top-banner-place
 sports.ru##.ad
+sports.ru##.ad-banner
 sports.ru##.ad-banner-layout
 sports.ru##.app-ratings
 sports.ru#?#.aside-news-list__item:-abp-has(> a[href^="https://sirena.world/"])
@@ -25103,6 +25104,7 @@ sports.ru##style:first-child ~ [class^="gift__"]
 ||senoval.cdn.sports.ru/cross-recommender/
 ||senoval.cdn.sports.ru/news-renderer/public/SparrowRecommendations-
 ||senoval.cdn.sports.ru/s-presence/sblock-presence.min.js
+||senoval.cdn.sports.ru/tagchester/*/actual-matches-widget/
 ||sports.ru/special/supertop-iframe/
 ||sports.ru^*/banners/
 ||static.*.tribuna.com/_next/static/chunks/3340.a9e1afb602402a44.js
@@ -26089,6 +26091,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 @@||tehnar.net.ua^$generichide
 @@||tmbw.ru^$generichide
 @@||todotech20.com^$generichide
+@@||trainzland.ru^$generichide
 @@||tvizorcdn.ru^$generichide
 @@||u-cdn.org/start/$generichide
 @@||u-cdn.top/start/$generichide
@@ -26804,7 +26807,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||yaberemenna.info/openx/www/delivery/ai.php?filename=$domain=yaberemenna.info
 @@||yaberemenna.info/openx/www/delivery/ajs.php?zoneid=7&$domain=yaberemenna.info
 @@||yandex.ru/ads/$domain=magnit.ru
-@@||yandex.ru/ads/system/header-bidding.js$script,domain=trainzland.ru
 @@||yandex.ru/metrika/informer.js
 @@||yandex.ru/search/site/?*search$third-party,script
 @@||yandex.st/share/share.js|$script,domain=nashaplaneta.su
@@ -26869,7 +26871,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||adbetnet.advertserve.com/js/libcode*.js|$script,domain=livesport.ws
 @@||adfox.ru/crossdomain.xml$domain=carambatv.ru
 @@||admitad.com/3rd-party/$script,domain=pravera.ru
-@@||ads.digitalcaramel.com/js/trainzland.ru.js$script,domain=trainzland.ru
 @@||ads.exoclick.com/ad99uip8i.php
 @@||adserver.juicyads.com/js/jads.js|$script,domain=stasyan.ga
 @@||adservice.google.*/adsid/integrator.js$domain=player.tubia.com

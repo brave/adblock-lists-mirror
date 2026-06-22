@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hmzdVUzp67J6waSrR5VMBA
-! Version: 202606221422
+! Checksum: nEPjq3VdYrOsGjNlcN/Lvg
+! Version: 202606221601
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Jun 2026 14:22 UTC
+! Last modified: 22 Jun 2026 16:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13826,6 +13826,7 @@ vitatv.com.ua##.block-type-advertising
 velvet.by##.block-velcompany
 bogmedia.org,filmozavr.com,filmozavr.net##.block-video > .table
 processer.media##.block-wrap-da
+habr.com##.block-wrapper ~ .block-wrapper::after
 habr.com#?#.block-wrapper:-abp-has(> [data-test-id*="Advertising"]:empty)
 habr.com#?#.block-wrapper:-abp-has(> [data-test-id^="Advertising"] > div:empty)
 zh24.com##.block.elite
@@ -25240,6 +25241,7 @@ yandex.ru,yandex.*##a[href*="//ads.adfox.ru/"]
 yandex.ru,yandex.*##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru,yandex.*##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
 yandex.ru,yandex.*##div[class^="advert-card--content-feed-"]
+yandex.ru,yandex.*##div[class^="AreYouGoodPromo_"]
 yandex.ru,yandex.*##img[src*="yandex.net/get-direct"]
 yandex.ru,yandex.*#?##search-result > .serp-list__card:-abp-has(> div .organic__subtitle > span:-abp-contains(/[РPeекламa]{6,7}/))
 yandex.ru,yandex.*#?#.scroller__wrap > .showcase__item:-abp-has(.product-card__direct)

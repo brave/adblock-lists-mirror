@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5sj7Il4VY3N+ji8rpQRWHQ
-! Version: 202606220551
+! Checksum: x8+4UPC6uuiqKx/ypP6oGg
+! Version: 202606220811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Jun 2026 05:51 UTC
+! Last modified: 22 Jun 2026 08:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23813,7 +23813,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?p5Oio=$xmlhttprequest
+||pikabu.ru/ajax/*?j5Oio=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24186,6 +24186,7 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,sportmail.ru#?#tbody:-abp-has(> tr > td > [class*="daynews__item"]) > tr > td ~ td ~ td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru##tr > .daynews__spring
 ! Главная
+~e.mail.ru,mail.ru,~octavius.mail.ru##.ads_overflow-disabled
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.fullscreen-ad-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.stripe-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.tgb-wrapper

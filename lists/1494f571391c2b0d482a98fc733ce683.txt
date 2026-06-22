@@ -227,7 +227,7 @@ globetv.app###preroll-overlay
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/1qk49kg/website_opening_ad_popups_missed_by_ubolite/
 ! https://github.com/uBlockOrigin/uAssets/issues/33390
-! storiesig.info##+js(set, Object.prototype.clickAds.emit, noopFunc)
+storiesig.info##+js(json-prune, steamBanner clickAds clickAdsUa clickAdsRu pushNotification)
 storiesig.info##+js(nowoif, !storiesig)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/31632
@@ -1177,7 +1177,9 @@ cinehd.app##.dark\:bg-black.pt-20.bg-white.w-full.z-10.relative > .lg\:px-8.md\:
 
 ! https://github.com/uBlockOrigin/uAssets/issues/33385
 openlua.cloud##+js(set, HTMLScriptElement.prototype.onerror, undefined)
+openlua.cloud##+js(json-prune-fetch-response, sponsor ad_provider, , propsToMatch, api.openlua.cloud)
 @@||openlua.cloud^$ghide
+@@||openlua.cloud/*.js?_=$1p
 
 ! ads popups/antiadb luciferdonghua.in & watch-v2.autoembed.app
 luciferdonghua.in##.afu-ab
@@ -1194,11 +1196,3 @@ autoembed.app##section[aria-label="Sponsored content"]
 *$script,3p,denyallow=cloudflare.com,domain=empirenovel.com
 *$xhr,3p,denyallow=cloudflare.com|googleapis.com,domain=empirenovel.com
 ||empirenovel.com/po.js
-
-! https://github.com/uBlockOrigin/uAssets/issues/33405
-cg-gamespc.net##+js(rmnt, script, :visible)
-cg-gamespc.net###notiene:style(display:block !important)
-cg-gamespc.net##div:nth-of-type(5):has-text(Advertising)
-cg-gamespc.net##.card__meta > center > .iframeDiv:has(button[onclick^="window.open"])
-cg-gamespc.net##.header__nav-link:style(line-height:unset !important)
-||adme2.click^

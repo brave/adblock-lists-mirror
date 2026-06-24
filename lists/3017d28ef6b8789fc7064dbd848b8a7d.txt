@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606240626
+! Version: 202606240754
 ! Title: EasyPrivacy
-! Last modified: 24 Jun 2026 06:26 UTC
+! Last modified: 24 Jun 2026 07:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9d942c0d965b997353032cbb2d4888a0de727531
+! Commit: 86dec087254f0697bf859e47e139cc41314732f6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7340,7 +7340,6 @@ omni.soundestlink.com$image
 ||fitnessmapper.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
-||fjordsand.com^
 ||flakyfeast.com^
 ||flameuncle.com^
 ||flashtexting.com^
@@ -8800,6 +8799,7 @@ omni.soundestlink.com$image
 ||bringmethenews.com/.api/admiral
 ||mensjournal.com/.api/admiral
 ||paradehomeandgarden.com/.api/admiral
+||skateboarding.com/.api/admiral
 ||surfer.com/.api/admiral
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_notifications.txt ***
 ! easyprivacy_trackingservers_notifications.txt
@@ -17165,7 +17165,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ! noopjson
 ||acustomizedgift.com^$redirect=noopjs,script
 ||fishingtoolsbox.com^$redirect=noopjs,script
-||fjordsand.com^$redirect=noopjs,script
 ||fontserif.com^$redirect=noopjs,script
 ||glasscoyote.com^$redirect=noopjs,script
 ||goddesslamps.com^$redirect=noopjs,script
@@ -53931,6 +53930,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||leboncoin.fr/rav-monitoring/
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
+||ledevoir.com/js/analytics/
 ||ledevoir.com/js/pianoAnalyticsTags.js
 ||lemonde.fr/b9d29410eafefd859fb36add0cb64f9b4ad2138b
 ||leparking-moto.fr/jsV155/Tracker.js

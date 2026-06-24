@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uuPsWPOcgKMlvlTRhcT9hA
-! Version: 202606242132
+! Checksum: pI/iTOOryGUG0X7a4fyM4Q
+! Version: 202606242232
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Jun 2026 21:32 UTC
+! Last modified: 24 Jun 2026 22:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2334,6 +2334,7 @@ _tizers.
 ||v.adfox.ru^$object,xmlhttprequest
 ||vip/?pu=$third-party,script
 ||vst.videolink.$third-party
+||vvcat.*/api-integration/assets/*.txt?*=$third-party,xmlhttprequest
 ||work/?pu=$third-party,script
 ||xn--p1ai/banner/
 ||xyz/*?mobile=null&tablet=null&os=null&site=*&rand=$third-party,xmlhttprequest
@@ -10772,6 +10773,7 @@ _tizers.
 ||vutrem.com^$third-party
 ||vuwgt.com^$third-party
 ||vuwsdds.pro^$third-party
+||vvcat.me^$third-party
 ||vvcat.org^$third-party
 ||vvmblock.ru^
 ||vvvsd.space^$third-party
@@ -19760,6 +19762,7 @@ appstudio.org##div[style^="width:100%; height:90px;"]
 inmoment.ru##div[style^="width:199px;height:299px;"]
 bookz.ru##div[style^="width:240px;height:400px"]
 m24.ru##div[style^="width:300px;height:600px"]
+hdrezka.my##div[style^="width:680px;height:200px;padding-top:"]
 liveinternet.ru##div[style^="width:970px; height:280px;"]
 forbes.ru##div[type="ad"]
 ebalovo.*,epalovo.*##.fad

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jYLsb+1rzkrBdxEkPlBe6g
-! Version: 202606271441
+! Checksum: Q/aEAN+j7LEKFGVIXUy53g
+! Version: 202606271531
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Jun 2026 14:41 UTC
+! Last modified: 27 Jun 2026 15:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25071,6 +25071,7 @@ sports.ru##.write-post__placeholder:empty
 @@||r.sprts.ru/recommender/|$xmlhttprequest,domain=www.sports.ru
 sports.ru#?#[analytic-id="facts"]:not(:-abp-has(*))
 sports.ru##[bonus-sum]
+sports.ru##[class*="bookmaker-ratings"]
 cyber.sports.ru##[class*="okko"]
 sports.ru##[class*="parimatch"]
 sports.ru#?#[class]:-abp-has(> .aside-news-list__advert ~ a[href^="https://sprts.cc/"])

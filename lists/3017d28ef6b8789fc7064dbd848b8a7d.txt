@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606280706
+! Version: 202606280807
 ! Title: EasyPrivacy
-! Last modified: 28 Jun 2026 07:06 UTC
+! Last modified: 28 Jun 2026 08:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ecda430f2e3fb0ba9f78c67ffd76980e42463055
+! Commit: 1e8eff1de17df68e13232d9947b7e5e8da26e344
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -975,6 +975,7 @@
 /fingerprint3.min.js
 /Fingerprintjs2/fpt2.js
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
 /firm_tracking.js
@@ -3553,6 +3554,7 @@ omni.soundestlink.com$image
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
 ||dadalytics.it^
 ||datas3ntinel.com^
+||dclsrv.com^
 ||ddlnk.net^
 ||demdex.net^
 ||deviceinf.com^
@@ -14650,6 +14652,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
+||amazonaws.com/telemetry.bydata/
 ||amboss.com/analytics/
 ||americanexpress.com/beacon
 ||amethyst.6pm.com^

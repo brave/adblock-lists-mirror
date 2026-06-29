@@ -1559,6 +1559,7 @@ actualitateavranceana.ro##.widget_media_image
 ||florariafocsani.ro/image/catalog/ADV/$image,third-party
 
 fileshare.ro##td[width="250"]:not(*:has([href*="fileshare.ro"]))
+fileshare.ro##tr:has([rel="sponsored"])
 ||fileshare.ro/banners$image
 ||simpatie.ro^$third-party
 girlshare.ro##td > center:has-text(Reclama)
@@ -2307,5 +2308,12 @@ transilvaniaon.ro,stirilemoldovei.ro,stirilebanatului.ro##[href="https://www.twe
 transilvaniaon.ro,stirilemoldovei.ro,stirilebanatului.ro##[href="https://tradesilvania.com/"]
 transilvaniaon.ro,stirilemoldovei.ro,stirilebanatului.ro##[href="https://www.completdental.ro/"]
 transilvaniaon.ro##.wp-block-paragraph:has-text(Publicitate)
+
+banatulmeu.ro##[href]:not([href*="banatulmeu.ro"], [href*="youtube.com"], [href^="/"]):has([src])
+banatulmeu.ro##[href*="utm_campaign"]
+
+banatulazi.ro##[href]:not([href*="banatulazi.ro"], [href^="/"], [href*="#"]):has([src])
+
+ziarultimisoara.ro##.banneritem
 
 !#include road-ubo.txt

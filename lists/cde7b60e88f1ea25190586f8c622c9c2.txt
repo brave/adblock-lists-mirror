@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: jTNOor19QRUf8PWdM7XUQA
-! Version: 202606291107
+! Checksum: 5E3yWJKaXbdtI8oD8aqJdg
+! Version: 202606260628
 ! Title: Hufilter for uBO
-! Last modified: 29 Jun 2026 11:07 UTC
+! Last modified: 26 Jun 2026 06:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -454,7 +454,9 @@ gportal.hu##[class*="banner"]
 gsplus.hu,pcwplus.hu##.ad
 gsplus.hu,pcwplus.hu##.box-wrapper > .box-actual-magazine + .box-html
 gumiszoba.com##.wpcnt
-gyakorikerdesek.hu##a[style*="color"]
+gyakorikerdesek.hu##style+div
+gyakorikerdesek.hu##style+span
+gyakorikerdesek.hu##style+p
 gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
@@ -494,7 +496,6 @@ haziallat.hu##.slotLeaderboardWrapper
 haziallat.hu##.slotRoadblockWrapper
 haziallat.hu##.slotLeadWrapper
 haziallat.hu##.slotArticleEndWrapper
-hazipatika.com##.ce_adocean_ad_slot
 hazipatika.com##.-contentTop
 hazipatika.com##.ctsGadx
 hazipatika.com##.hashtags

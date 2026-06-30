@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dVRKpE+9Hj/nw8W3ncVjUw
-! Version: 202606302012
+! Checksum: KNpv3/c0HAddZN81Bb0okQ
+! Version: 202606302101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jun 2026 20:12 UTC
+! Last modified: 30 Jun 2026 21:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2085,6 +2085,8 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 /oyy.js
 /partner/banner/*
 /partner/images/banners/*
+/pipipi/files/episodes/*-RU.mp4|$third-party,media
+/pipipi/files/episodes/*bet.mp4|$third-party,media
 /pixel2/video?$third-party,script
 /play/?ref=*/play/*$third-party,subdocument
 /player/ads.php?cp.host=$xmlhttprequest
@@ -2524,6 +2526,7 @@ _tizers.
 ||amazonaws.com/widget-bucket-files$third-party
 ||amh.ru^
 ||amigo-browser.ml^$third-party
+||amisogwagn.link^$third-party,media
 ||amssoft.ru^*/banner$third-party
 ||analitycs.net^$third-party
 ||anews.cc^$third-party
@@ -18264,7 +18267,6 @@ epravda.com.ua##a[href^="http://ua.hit.gemius.pl/hitredir/id="]
 sdelaycomp.ru##a[href^="http://vk.cc/"][target="_blank"]
 skyback.ru##a[href^="http://vk.com/club61342137"]
 trishurupa.ru##a[href^="http://vneftegaze.ru/"]
-ag.ru##a[href^="http://www.ag.ru/go/outer"]
 punkt-a.info##a[href^="http://www.alekseevskiy.astf.ru/"]
 leonkrevs.ucoz.ru##a[href^="http://www.anketka.ru"]
 sol-online.ru##a[href^="http://www.ars-plus.ru/"]

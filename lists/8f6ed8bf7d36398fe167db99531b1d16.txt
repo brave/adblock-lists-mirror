@@ -2298,4 +2298,15 @@ banatulazi.ro##[href]:not([href*="banatulazi.ro"], [href^="/"], [href*="#"]):has
 
 ziarultimisoara.ro##.banneritem
 
+||zfilmeonline.ro/scripts.js$script
+
+ziarulamprenta.ro##[href]:not([href*="ziarulamprenta.ro"], [href^="/"], [href*="#"]):has([src])
+ziarulamprenta.ro##.full-w-communication
+
+tulceanoastra.ro##[href]:not([href*="tulceanoastra.ro"], [href^="/"], [href*="#"]):has([src])
+tulceanoastra.ro##.box > .home-top-img
+
+infotulcea.ro##[href]:not([href*="infotulcea.ro"], [href^="/"], [href*="#"]):has([src])
+||infotulcea.ro/wp-content/uploads/*navrom-delta*$image
+
 !#include road-ubo.txt

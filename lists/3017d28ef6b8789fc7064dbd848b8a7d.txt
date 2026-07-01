@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607011041
+! Version: 202607011208
 ! Title: EasyPrivacy
-! Last modified: 01 Jul 2026 10:41 UTC
+! Last modified: 01 Jul 2026 12:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 43f4742d0edfaab97752ae7b270864b2be7f35fc
+! Commit: 811a583d517602c91597f7101b16591ba9eed845
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14754,6 +14754,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.channel.io/*/events
 ||api.doodle.com/data-layer/track
 ||api.ffm.to/sl/e/$image
+||api.headliner.link/api/v1/b/receive
 ||api.invideo.io/v3/send_analytics_event
 ||api.meetup.com/pico/v4/web-events
 ||api.narrativ.com/favicon.ico
@@ -16441,6 +16442,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thehackernews.com/ga4/c
 ||thehealthsite.com/apstag.js
 ||theladders.com/api/user-tracking/
+||thepoorswiss.com/tps/cfwa-collect
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||thesun.co.uk/assets/client/newrelicExperimentTracking~
 ||thesun.ie/track?

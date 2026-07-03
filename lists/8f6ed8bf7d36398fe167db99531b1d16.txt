@@ -2346,4 +2346,53 @@ bistritabusiness.ro##.widget:has-text(PUB)
 
 dinpolitica.ro##[href]:not([href*="dinpolitica.ro"], [href*="politiclive.ro"], [href^="/"], [href*="#"]):has([src])
 
+constantadeazi.ro##[href]:not([href*="constantadeazi.ro"], [href^="/"], [href*="#"]):has([src])
+
+iasitvlife.ro##[href]:not([href*="iasitvlife.ro"], [href^="/"], [href*="#"]):has([src])
+
+clujenii.ro##[href]:not([href*="clujenii.ro"], [href*="europa.eu"], [href*="anpc.ro"], [href^="/"], [href*="#"]):has([src])
+
+actualdecluj.ro##[href]:not([href*="actualdecluj.ro"], [href*="g4media.ro"], [href^="/"], [href*="#"]):has([src])
+
+infoialomita.ro##[href]:not([href*="infoialomita.ro"], [href^="/"], [href*="#"]):has([src])
+infoialomita.ro##.fancybox
+
+mesagerulbacau.ro##[href]:not([href*="mesagerulbacau.ro"], [href^="/"], [href*="#"]):has([src])
+mesagerulbacau.ro##.heading:has-text(PUBLICITATE)
+
+bistritaexpress.ro##[href]:not([href*="bistritaexpress.ro"], [href^="/"], [href*="#"]):has([src])
+
+bacau.net##[href]:not([href*="bacau.net"], [href^="/"], [href*="#"]):has([src])
+bacau.net##.widget_block:has-text(Publicitate)
+
+rasunetul.ro##[href]:not([href*="rasunetul.ro"], [href^="/"], [href*="#"]):has([src])
+||rasunetul.ro/*/adfiles$image
+||rasunetul.ro/sites/default/files/reclame/$image
+
+ziarulevenimentul.ro##[href]:not([href*="ziarulevenimentul.ro"], [href^="/"], [href*="#"]):has([src])
+
+media9.ro##[href]:not([href*="media9.ro"], [href^="/"], [href*="#"]):has([src])
+
+wikipress.ro##[href]:not([href*="wikipress.ro"], [href*="forms.gle"], [href^="/"], [href*="#"]):has([src])
+
+salutfagaras.ro##[href]:not([href*="salutfagaras.ro"], [href^="/"], [href*="#"]):has([src])
+||cdn.shortpixel.ai/spai/*/florian-shaorma.jpg$image
+
+ct100.ro##[href]:not([href*="ct100.ro"], [href^="/"], [href*="#"]):has([src])
+ct100.ro##.twp-ad
+
+magazinsalajean.ro##[href]:not([href*="magazinsalajean.ro"], [href*="youtube.com"], [href*="caietesilvane.ro"], [href*="ajs.ro"], [href^="/"], [href*="#"]):has([src])
+||magazinsalajean.ro/*.gif$image
+||magazinsalajean.ro/*/meses$image
+||magazinsalajean.ro/*/traducator-copy*.jpg$image
+||magazinsalajean.ro/*/just*.jpg$image
+
+monitorfg.ro##.widget:has-text(Publicitate)
+
+fagarasultau.ro##[href]:not([href*="fagarasultau.ro"], [href^="/"], [href*="#"]):has([src])
+fagarasultau.ro##.widget.widget_simpleimage
+fagarasultau.ro##.widget.widget_media_image
+
+||tvfagaras.ro/*/my-flyer$image
+
 !#include road-ubo.txt

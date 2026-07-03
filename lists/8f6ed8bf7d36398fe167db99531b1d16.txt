@@ -1398,6 +1398,7 @@ obiectiv-sm.ro##.bk-sticksb-wrapper
 ||sportulsalajean.ro/*banner$image
 sportulsalajean.ro##[href="https://www.welthaus.ro/"]
 sportulsalajean.ro##.textwidget:has([href*="facebook.com"])
+sportulsalajean.ro##[href]:not([href*="sportulsalajean.ro"], [href^="/"], [href*="#"]):has([src])
 ||sgbm.info^
 
 stiri.md##.wrapper:has([id^="admixer"])
@@ -2326,5 +2327,23 @@ salajulliber.ro##[alt="cover"]
 salajulliber.ro##.widget_media_image
 salajulliber.ro##[alt*="Pub"]
 salajulliber.ro##[src*="top-sim.jpg"]
+
+monitoruldesalaj.ro##[href]:not([href*="monitoruldesalaj.ro"], [href^="/"], [href*="#"]):has([src])
+monitoruldesalaj.ro##.header-banner
+monitoruldesalaj.ro##p:has([src][sizes][srcset])
+monitoruldesalaj.ro##.advertise-area
+monitoruldesalaj.ro##[href*="utm_campaign"]
+monitoruldesalaj.ro##[src*="delcar"]
+
+ztv.ro##.widget_media_image
+
+gazetadebistrita.ro##[href]:not([href*="gazetadebistrita.ro"], [href*="youtube.com"], [href^="/"], [href*="#"]):has([src])
+gazetadebistrita.ro##.td-g-rec:has(.adsbygoogle)
+
+bistritabusiness.ro##[href]:not([href*="bistritabusiness.ro"], [href^="/"], [href*="#"]):has([src])
+bistritabusiness.ro##.header-banner
+bistritabusiness.ro##.widget:has-text(PUB)
+
+dinpolitica.ro##[href]:not([href*="dinpolitica.ro"], [href*="politiclive.ro"], [href^="/"], [href*="#"]):has([src])
 
 !#include road-ubo.txt

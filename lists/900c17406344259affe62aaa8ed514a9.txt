@@ -775,6 +775,11 @@ mail.ru#@#body:not(.js-module) .tabs + div[class]:style(min-width: fit-content !
 ||media-trend.mail.ru/api/*/mix/*/get/$xmlhttprequest,domain=~news.mail.ru
 !#endif
 !
+!#if !env_mobile
+vk.com,vk.ru##+js(set-attr, html[lang], href-sanitizer, true)
+vk.com,vk.ru##html[href-sanitizer] a[href*="/away.php?"][href*="to=http"]:style(pointer-events: none !important)
+!#endif
+!
 ! Book service read&download
 bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(abort-on-property-read, disable_keystrokes)
 bookdream.ru,booksreed.ru,electrobooks.ru,lit-web.net,litruso.ru,my-lib.ru,novkniga.ru,skanbooks.ru,x-libri.ru##+js(addEventListener-defuser, copy, preventDefault)

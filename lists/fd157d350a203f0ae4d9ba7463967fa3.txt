@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WpU2LeF85c1AOQTTxd6oCw
-! Version: 202607031022
+! Checksum: x6P4OwsYFPqGRPFpgeNebw
+! Version: 202607031122
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Jul 2026 10:22 UTC
+! Last modified: 03 Jul 2026 11:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1832,7 +1832,7 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 /?t=b&blockids=$script
 /?t=rot&pid=$script
 /\/[a-z]{1,3}\?zoneId\=\d{7}\-\d{7}$/$third-party,script
-/^https:\/\/(?:[a-z0-9-]+\.)?[a-z0-9-]+\.[a-z]+\/(api-integration\/)?(cdn|lib)\/[a-z0-9]+\.(js|txt|xml)\?[a-z0-9]+=[a-z0-9_=-]{5,}/$third-party,xmlhttprequest
+/^https:\/\/(?:[a-z0-9-]+\.)?[a-z0-9-]+\.[a-z]+\/(api-integration\/)?(cdn|lib|static)\/[a-z0-9]+\.(js|txt|xml|json)\?[a-z0-9]+=[a-z0-9_=-]{3,}/$third-party,xmlhttprequest
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/.*\.js$/$third-party,match-case,script
 /^https?://([^.]+\.)+[a-z]+\.(?:biz|ru|space)/[a-z][/?][-a-z0-9_?&=]{5,45}$/$third-party,script,domain=~hotcharts.ru
 /^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-.\/A-Z_a-z][DHWXm][-.\/A-Z_a-z][59FVZ][-.\/A-Z_a-z][6swyz][-.\/A-Z_a-z][-\/0-9A-Z_a-z][-.\/A-Z_a-z][-\/0-9A-Z_a-z]+(?:$|\?)/$third-party,match-case,script
@@ -7260,6 +7260,7 @@ _tizers.
 ||kjhmg.com^$third-party
 ||kkkmr.com^$third-party
 ||kletki16.ru^$third-party
+||kleveromal.link^$third-party
 ||klyuchev.in.ua^
 ||klyunker.ru^$third-party
 ||kma1.biz^

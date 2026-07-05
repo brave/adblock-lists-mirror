@@ -2415,4 +2415,16 @@ reper24.ro##.sa_vert_center
 ||reper24.ro/*.gif$image
 ||reper24.ro/*/brantner$image
 
+ieseanul.com##[href="https://www.palasmall.ro"]
+||ieseanul.com/*.gif$image
+
+gherlainfo.ro##[href="https://www.gama-optic.ro/"]
+gherlainfo.ro##body > div > [href] > picture
+
+gazetanord-vest.ro##[href]:not([href*="gazetanord-vest.ro"], [href^="/"], [href*="#"]):has([src])
+gazetanord-vest.ro##.ow-block-media
+||cdn.ottoweb.ro/*/ads/
+
+jurnaldeilfov.ro##[href]:not([href*="jurnaldeilfov.ro"], [href^="/"], [href*="#"]):has([src])
+
 !#include road-ubo.txt

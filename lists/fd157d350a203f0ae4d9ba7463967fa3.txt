@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vCzDKn+3loiMP4V8eoNJGQ
-! Version: 202607050732
+! Checksum: P7GfitSo/3939B+ufxYZmA
+! Version: 202607050912
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Jul 2026 07:32 UTC
+! Last modified: 05 Jul 2026 09:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1413,6 +1413,7 @@ by,~mail.ru,ru,ua##.banner_box
 ~abs-cdn.org,~sports.ru,~tribuna.com##a[href*="abs-cdn.org"]
 ~actionteaser.ru##a[href*="actionteaser.ru"]
 ~adbid.biz##a[href*="adbid.biz"]
+##a[href*="adnetwork.bet/"]
 ##a[href*="adpool.bet/"]
 ##a[href*="ads-provider.com"]
 ##a[href*="ads2-adnow.com"]
@@ -4246,6 +4247,7 @@ _tizers.
 ||admp-tc.delfi.ee^
 ||adname.ru^$third-party
 ||adnetpartner.com^$third-party
+||adnetwork.bet^$third-party
 ||adoffer.pro^$third-party
 ||adp4wb.ru^$third-party
 ||adplay.ru^$third-party
@@ -13278,6 +13280,7 @@ apostrophe.ua##.advertinline
 np.pl.ua,soft-i-kino.ru##.advertise
 kyiv.media##.advertise-section
 almodi.org,expres.online,fightnews.info,kun.uz,liveinternet.ru,respawn.media##.advertisement
+euro-football.ru##.advertisement-block
 dzr.by##.advertisements
 fireman.club,ku66.ru,pershij.com.ua,prostoprosport.ru,qrz.ru,track24.ru,ufanet.ru,xsport.ua##.advertising
 podolsk.ru##.advertising > span.title
@@ -13393,6 +13396,8 @@ tsargrad.tv##.article__dpen
 novorosinform.org,tsargrad.tv##.article__dzen
 1istochnik.ru##.article__dzen-share
 kanalukraina.tv##.article__footer_adv
+euro-football.ru##.article__match-ad__block
+euro-football.ru##.article__match-coeff
 vedomosti.ru##.article__metrics
 vedomosti.ru#?#.article__sticky > div[class^="adfox"]:-abp-has(.teaser-commerce)
 krym.news,novostivl.ru,ryazan.life,v-tatarstane.ru,yakutsk.ru##.article_ads_section
@@ -13860,12 +13865,10 @@ zh24.com##.block.elite
 sotniktv.org##.block12 > a[target="_blank"]
 sport-tv.by#?#.block:-abp-has(.adsbygoogle)
 uniongang.net,uniongang.org#?#.block:-abp-has(> .block-title:-abp-contains(/Интересное|Наши друзья|Реклама|Сидбокс|MARKETGID/))
-euro-football.ru#?#.block:-abp-has(> .block__body script)
 clib.me#?#.block:-abp-has(> .content > [data-la-block])
 clib.me#?#.block:-abp-has(> .content:-abp-contains(Реклама))
 liveresult.ru#?#.block:-abp-has(> .relap-runtime-iframe)
 esports.ru#?#.block:-abp-has(> a[href^="https://leon.ru"])
-euro-football.ru#?#.block:-abp-has(> div > [class*="bookmaker"])
 24warez.ru#?#.block:-abp-has(> h4:-abp-contains(Партнеры))
 sport-tv.by#?#.block:-abp-has([id^="yandex_rtb"])
 sunsurv.ru##.blockBottom
@@ -15256,10 +15259,13 @@ belretail.by##.market-link
 wylsa.com##.marketWidgetWrapper
 supersadovnik.ru##.marketgid
 sovets.net,sovets24.ru##.mask
+euro-football.ru##.match-advertisement-widget [class]
 match-center.playmaker24.ru##.match-bet
+euro-football.ru##.match-bets-block
 match-center.playmaker24.ru##.match-coef
 pimpletv.ru##.match-info ~ h3
 soccer.ru##.match-menu > .ul-wrapp > .main > .noajax
+euro-football.ru##.match-poll-widget
 soccer.ru##.match-tab-content > #match-header + .block
 7days.ru#?#.material-7days__paragraf-info:-abp-has(> #RutubePlayerNews)
 kulturomania.ru##.material-bottom-banner
@@ -15782,6 +15788,7 @@ lifehacker.ru#?#.posts__list > .posts__item:-abp-has(.lh-article-card-meta__prom
 infotechnica.ru##.ppoibrorzf
 professionali.ru##.pr-banner-wrap
 newkaliningrad.ru##.pr-side-240
+euro-football.ru##.pre-match-predictions-widget
 bst.bratsk.ru##.preloadBannerSizer
 gencit.info##.preloadText
 megaresheba.ru##.preloading
@@ -16525,6 +16532,7 @@ sheru.ru##.t3-sidebar > div[class="t3-module module  "]
 translit.net##.tAdvContainer
 freezpic.ru##.t_bg > center
 taba.ru##.taba_rss_wr.rel.fl
+euro-football.ru##.table-bets
 online-buhuchet.ru##.table-scroll
 poiskvps.ru##.table1 > tbody > tr[style^="background-color:"]
 ascnb1.ru#?#.tablebg:-abp-has(> tbody > tr > td > .nalivaj)
@@ -17827,7 +17835,7 @@ all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.onlin
 cybersport.ru,dltv.org,esports.ru,prodota.ru##a[href*="betboom.bet"]
 okrain.net.ua##a[href*="billing.hostpro.ua"]
 allsport-live.ru,allsport-news.net##a[href*="binance.com"]
-aacalc.ru,agronews.ua,ain.ua,ampercar.com,argumenti.ru,arminfo.info,autogeek.com.ua,bib.bz,blizzardheroes.ru,csgo-guides.ru,daxshat.site,for-ua.info,gameinside.ua,games-vam.ru,goal24.live,ilenta.com,img2txt.com,kontrolnaya-rabota.ru,korsars.pro,kritka.su,kurkul.com,liveball7.gq,liveball8.ml,mezha.ua,modsfire.com,mt.today,newstudio.tv,onliner.by,onlinevideoconverter.com,photoshop-besplatno.org,prosportua.com,psm7.com,real-game.net,rutracker-2017.org,soft-windows.info,stopgame.ru,tochka.net,torrent-shyter.net,ua.news,vc.ru,vgtimes.com,vgtimes.ru,windows-soft.info,xn--80ac9aeh6f.xn--p1ai,z-music.org,zbirna.com,zoneofgames.ru##a[href*="bit.ly"]
+aacalc.ru,agronews.ua,ain.ua,ampercar.com,argumenti.ru,arminfo.info,autogeek.com.ua,bib.bz,blizzardheroes.ru,csgo-guides.ru,daxshat.site,for-ua.info,gameinside.ua,games-vam.ru,goal24.live,ilenta.com,img2txt.com,kontrolnaya-rabota.ru,korsars.pro,kritka.su,kurkul.com,mezha.ua,modsfire.com,mt.today,newstudio.tv,onliner.by,onlinevideoconverter.com,photoshop-besplatno.org,prosportua.com,psm7.com,real-game.net,rutracker-2017.org,soft-windows.info,stopgame.ru,tochka.net,torrent-shyter.net,ua.news,vc.ru,vgtimes.com,vgtimes.ru,windows-soft.info,xn--80ac9aeh6f.xn--p1ai,z-music.org,zbirna.com,zoneofgames.ru##a[href*="bit.ly"]
 bitmakler.com##a[href*="bitmakler.com/go.php"]
 595.ucoz.net##a[href*="bolshoyvopros.ru/"]
 euro-football.ru,liveresult.ru,scores24.live##a[href*="bookmaker"]
@@ -18461,6 +18469,7 @@ qip.ru##article[data-type="advert"]
 mi100.info##article[id^="post-"] > .entry-meta + div[style^="padding-bottom:"]
 sport-tv.pro##aside .HTML > .widget-content > a > img
 kurs.com.ua##aside .advertising
+euro-football.ru#?#aside .block:-abp-has(> div > [class*="bookmaker"])
 tverlife.ru##aside .custom-html-widget > a[rel="noopener"] > img
 ironfriends.ru#?#aside .widget:-abp-has(> .widget-container [class^="nadavi"])
 ironfriends.ru#?#aside .widget:-abp-has(> .widget-container [id^="ya_"])
@@ -20047,9 +20056,12 @@ stopgame.ru#?#li:-abp-has(> [href="https://zen.yandex.ru/stopgame"])
 zalinux.ru##li[id^="menu-item-"] > a[href^="http"]:not([href*="kali.org.ru/"]):not([href*="zalinux.ru/"])
 crackstatus.net##li[id^="slide"]
 penzainform.ru##li[style^="width: 140px; height:"][style*="max-height"]
-liveball.my,liveball.uno,liveball.*##.odds_section
-liveball.my,liveball.uno,liveball.*##[class^="custom_brand"]
-liveball.my,liveball.uno,liveball.*##div[class^="catfish_"]
+liveball.sx,liveball.*###fullscreen
+liveball.sx,liveball.*##.bp_wrap
+liveball.sx,liveball.*##.freebet_block
+liveball.sx,liveball.*##[class*="odds_"]
+liveball.sx,liveball.*##[class^="custom_brand"]
+liveball.sx,liveball.*##div[class^="catfish_"]
 lurkmore.*###localNotice #aside_buttons
 lurkmore.*###localNotice .infobox
 lurkmore.*###n-Группа-в-Дискорде
@@ -22193,7 +22205,10 @@ igdz1.ru^$script,domain=igdz.ru
 ||live4fun.ru/bitpapa/
 ||liveangarsk.ru/files/k
 ||liveangarsk.ru/specfiles/
-||liveball.*/public/js/clickunder.js
+||liveball.*/public/js/*.min.js?v=*beta
+||liveball.*/public/js/nav-init-ext.js
+||liveball.*/public/js/nav-init.js
+||liveball.*/public/js/view-rules.js
 ||livecars.ru^*/wall_
 ||livefootball.ws^$object
 ||liveinternet.ru/cgi-bin/adt.fcgi
@@ -27177,7 +27192,7 @@ spletnik.ru##.z-adblock-message
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /simple-adblock-detector/*$domain=vologdahistory.ru
 /static/libs/adetector/*$domain=cigarexpert.ru|swizz.ru|ulnar.ru|uxxa.ru
-2es.work,adventuretime.ru,ani.wtf,cdnpotok.com,cdntelesee.com,cdntvpotok.com,chepok.xyz,domatv.net,hdone.net,hdru.net,hindcine.tv,kipolino.site,klplayer.website,liveball.my,liveball.uno,liveball.*,liveball7.gq,liveball8.ml,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,strah.video,t1pochek.site,tip0chek.site,tipochek.xyz,volley.ru,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|адблок|блокировщик|блокировку|фрибет/i))
+2es.work,adventuretime.ru,ani.wtf,cdnpotok.com,cdntelesee.com,cdntvpotok.com,chepok.xyz,domatv.net,hdone.net,hdru.net,hindcine.tv,kipolino.site,klplayer.website,liveball.my,liveball.uno,liveball.*,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,strah.video,t1pochek.site,tip0chek.site,tipochek.xyz,volley.ru,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|адблок|блокировщик|блокировку|фрибет/i))
 @@||ddnk.advertur.ru/*/loader.js|$script
 @@||webwintop.ru/wp-content/plugins/contact-form-7/includes/js/index.js|$script,domain=webwintop.ru
 @@||webwintop.ru/wp-content/plugins/copy-the-code/assets/js/copy-the-code.js|$script,domain=webwintop.ru

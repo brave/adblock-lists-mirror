@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5qBYL/UhKKT3kBZUTtAZEQ
-! Version: 202607061412
+! Checksum: 0l5UiKJzEbWGMoLm8oWb5w
+! Version: 202607061541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Jul 2026 14:12 UTC
+! Last modified: 06 Jul 2026 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1836,7 +1836,7 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 /?t=b&blockids=$script
 /?t=rot&pid=$script
 /\/[a-z]{1,3}\?zoneId\=\d{7}\-\d{7}$/$third-party,script
-/^https:\/\/(?:[a-z0-9-]+\.)?[a-z0-9-]+\.[a-z]+\/(api-integration\/)?(cdn|lib|media|static)\/[a-z0-9]+\.(js|txt|xml|json)\?[a-z0-9]+=[a-z0-9_=-]{3,}/$third-party,xmlhttprequest
+/^https:\/\/(?:[a-z0-9-]+\.)?[a-z0-9-]+\.(link|me|org|com)\/(api-integration\/)?(cdn|lib|media|static)\/[a-z0-9]+\.(js|txt|xml|json)\?[a-z0-9]+=[a-z0-9_=-]/$third-party,xmlhttprequest
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/.*\.js$/$third-party,match-case,script
 /^https?://([^.]+\.)+[a-z]+\.(?:biz|ru|space)/[a-z][/?][-a-z0-9_?&=]{5,45}$/$third-party,script,domain=~hotcharts.ru
 /^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-.\/A-Z_a-z][DHWXm][-.\/A-Z_a-z][59FVZ][-.\/A-Z_a-z][6swyz][-.\/A-Z_a-z][-\/0-9A-Z_a-z][-.\/A-Z_a-z][-\/0-9A-Z_a-z]+(?:$|\?)/$third-party,match-case,script
@@ -25387,6 +25387,7 @@ yandex.ru,yandex.*##div[class^="FeedAdvBlockRenderer-"]:empty
 ! Яндекс.Карты
 yandex.ru,yandex.*##.catalog-grid-view__item._advert
 yandex.ru,yandex.*##.map-controls__additional-button .promo-button
+yandex.ru,yandex.*#?#.toponym-card-view__overview > .toponym-card-view__section:-abp-has(> .advert-spacer-view)
 ! Яндекс.Маркет
 market.yandex.ru,market.yandex.*##[aria-label="Баннер"]
 market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="@marketfront/MadvHeaderPromo"]

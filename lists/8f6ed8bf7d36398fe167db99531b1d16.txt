@@ -2456,4 +2456,13 @@ telembotosani.ro##figure.wp-caption
 ziarebotosani.ro##.banner-img
 ziarebotosani.ro##.ad-banner:not(.ad-banner:has([title*="Trimite"]))
 
+||bihorstiri.ro/*.gif$image
+bihorstiri.ro##[href]:not([href*="bihorstiri.ro"], [href^="/"], [href*="#"]):has([src])
+
+epitesti.ro##.big-google-ads
+
+ziartopdearges.com##[href]:not([href*="ziartopdearges.com"], [href^="/"], [href*="#"]):has([src])
+ziartopdearges.com##[class*="slideshow"]
+ziartopdearges.com##.afw_ad
+
 !#include road-ubo.txt

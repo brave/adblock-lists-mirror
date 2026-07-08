@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: u/59YechOiuXPcRSbQAGmQ
-! Version: 202607081342
+! Checksum: n6gAa0ShCjwRE/OAGp3gUw
+! Version: 202607081452
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Jul 2026 13:42 UTC
+! Last modified: 08 Jul 2026 14:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1070,6 +1070,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##.pb_left_banner
 ##.pb_right_banner
 ##.pb_top_img
+##.perfluence-widget-block
 ##.pip-video-wrapper > .pip-video-label
 ##.player-wrap > #kt_player ~ .spot-box
 ##.plista-powered
@@ -1814,6 +1815,7 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 .trafficbass.com^
 .trafficdok.com^
 .trafficlide.com^
+.txt?fre=$third-party,xmlhttprequest
 .viptizer.
 .wasm|$third-party,xmlhttprequest,domain=amt-games.com|~dj19uo012yu4h.cloudfront.net|~lite.boxshot.com|~rbwtech.net
 .xml?v=*&external_subid=$xmlhttprequest
@@ -3326,7 +3328,9 @@ _tizers.
 ||peel-down.ru^$third-party
 ||penza-online.ru/cgi-bin/userstats.pl?
 ||penzensky.ru^$third-party
+||perfluence.net/blogger/promocode-api/$third-party
 ||personalspy.ru^$third-party
+||pfm.promo^$third-party
 ||pharance.com^$third-party
 ||photoshop-master.org^$third-party
 ||picbay.ru^$third-party
@@ -11932,7 +11936,7 @@ charming-face.ru###banner_right_place
 bigmir.net,bmwclub.ru,chemezova.ru,dengi.ua,gp.by,mport.ua,rada.com.ua,vd-tv.ru,zebra-tv.ru###banner_top
 grind.fm###bannerborder
 now.ru###bannerholder
-casstudio.tv,kinomania.kz,kinoprosmotr.site###bannerlayer
+kinoprosmotr.site###bannerlayer
 ascnb1.ru,matematikalegko.ru,orangeapps.ru,rgfootball.net,shadowlands.ru,tapclap.com###banners
 pobedish.ru###banners > noindex > a[href]:not([href*="pobedish.ru"])
 sletat.ru###banners-after-search-form
@@ -13650,6 +13654,7 @@ para.by##.banner-cube
 biysk-ok.ru##.banner-default
 vikna.if.ua##.banner-fullborder
 scandar.ru##.banner-glav-240x400
+kinomania.ru##.banner-gray-wrapper
 kaktutzhit.by,nashvancouver.com##.banner-header
 podolsk.ru,reklama-crimea.com##.banner-holder
 info-ua.com##.banner-holder > .box
@@ -14734,6 +14739,7 @@ sm.news#?#.grid > div[class^="it_"]:-abp-has(a[href][target="_blank"])
 baby.ru##.grid > div[style^="height: 250px;"]
 softking.ru##.grid-ad-box
 slon.ru##.grid-advert-wrap
+kinomania.ru##.grid-content-banner__banner
 nachasi.com##.grid-main > div[class^="style_heading_"] + div[class^="style_block_"] > div[class^="style_poster_"]
 novostivl.ru##.grid-news-none
 ryazan.life##.grid-r
@@ -14744,7 +14750,6 @@ playua.net##.h-advert
 dosgames.ru##.h-bnr
 klerk.ru##.h-header-banner-height
 peterburg2.ru##.h-menu__item--external
-casstudio.tv##.h-top-pad
 tsn24.ru#?#.h2:-abp-has(> span:-abp-contains(/^СМИ$/))
 octavia-a5.ru##.h2o
 rabota.md##.h_banner-container
@@ -15044,6 +15049,7 @@ myshows.me##.kinopoisk
 old.myshows.me##.kinopoiskBanner
 kivvi.kz##.kivvi_social
 kloomba.com##.kl-ad-item
+kinomania.kz##.km-ad
 igromania.ru,kanobu.ru##.knb-grid-layout > .no-radius
 igromania.ru,kanobu.ru##.knb-informer
 igromania.ru#?#.knb-list > [class^="ShelfCard_card_"]:-abp-has(> [class^="ShelfCard_cardFooter_"] > [class^="CardTags_tags_"] > [href="/tags/partnyorskij-material/"])
@@ -16242,7 +16248,7 @@ report.if.ua##.sidebar .g-single a[href][target="_blank"]
 vokrug.tv#?#.sidebar .h3:-abp-contains(За кадром)
 lfl.ru##.sidebar .start_block a[href^="http"]:not([href*="://lfl.ru"])
 lfl.ru##.sidebar .start_block table[style="width: 263px;"]
-headphone-review.ru##.sidebar .widget_text
+headphone-review.ru,kinomania.kz##.sidebar .widget_text
 pc-aio.ru##.sidebar > #HTML2
 vesti.uz##.sidebar > .adv ~ *
 litnet.com##.sidebar > .b-popular
@@ -16896,10 +16902,10 @@ oblgazeta.ru##.vr_mobile_right_block
 vuzopedia.ru##.vsplyvOkno
 bvedomosti.ru##.vtem_bannergroup
 dermatitanet.ru##.vtizer
-kinomania.ru##.w-banner
 vgorodekirove.ru##.w_back_shapes
 livecars.ru,livesport.ru##.wall
 wallscloud.net#?#.walls_data > .item:-abp-has(> .thumbnail script)
+kinomania.ru##.watch-page__play-button
 rutube.ru##.wdp-onboardings-inventory-banner-module__wrapper-section
 xmages.net##.we-are-featured
 gotoshop.ua##.welcome2
@@ -20588,7 +20594,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 .kino-o-voine.ru^$script
 .kinogo.la^$script
 .kinolive2.org^$script
-.kinomania.kz^$script,domain=kinomania.kz
 .kinorob.net^$script,domain=kinorob.net
 .kirovnet.ru^$script,domain=kirovnet.ru
 .kontur-map.ru^$script
@@ -22093,8 +22098,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||kinokod.me/mg.png
 ||kinokubik.com/templates/kinokubik/images/mgbutton2.png
 ||kinoman.online/*.xml|$~third-party,xmlhttprequest
-||kinomania.kz/images/bg1.jpg
-||kinomania.ru/brand/$stylesheet
 ||kinomax.pro^*.php|$script
 ||kinometro.ru/res/pic/ban/
 ||kinometro.ru/res/pic/brand/

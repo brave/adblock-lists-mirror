@@ -170,3 +170,6 @@ dev-pages.brave.software,dev-pages.bravesoftware.com##+js(set, window.BRAVE_TEST
 ! Fixing paywall scroll issue on scmp.com
 @@||c2.piano.io/xbuilder/experience/$xhr,domain=scmp.com
 @@||cdn.tinypass.com/api/tinypass.min.js$script,domain=scmp.com
+
+! Youtube sabr delay fix
+www.youtube.*##+js(brave-yt-sabr-fix)

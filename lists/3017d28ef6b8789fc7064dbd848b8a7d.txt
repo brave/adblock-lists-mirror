@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607091211
+! Version: 202607091331
 ! Title: EasyPrivacy
-! Last modified: 09 Jul 2026 12:11 UTC
+! Last modified: 09 Jul 2026 13:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ef0c2bfc1a80877e6a77ea719cda8bfaa7f856e6
+! Commit: 75075a55362699cc7bcc804d724837aaf1e1a57c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16082,6 +16082,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reelgood.com/v3.0/checkip
 ||rei.com/customer-analytics-attributes/
 ||reichelt.com/setsid.php?
+||relay-prod.typeracer.com/e/
+||relay-prod.typeracer.com/flags/
 ||relay.fiverr.com^
 ||remarkable.com/api/proxy/marker
 ||reports.tunein.com^
@@ -54517,6 +54519,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||staticasset.amarujala.com/handler/recomUserEvent.js
 ! Indonesian
 ||analytic20.detik.com^
+||api-rengine-stg.viva.id/hit
 ||bukalapak.com/banner-redirector/impression
 ||bukalapak.com/track-external-visit
 ||bukalapak.com/track_external.json

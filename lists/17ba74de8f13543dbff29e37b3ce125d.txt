@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607091018
+! Version: 202607091130
 ! Title: EasyList
-! Last modified: 09 Jul 2026 10:18 UTC
+! Last modified: 09 Jul 2026 11:30 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b1b2a209f745c248ff09a77e82fd2fb52749a889
+! Commit: 7f0b615a0eb6ebcc90b3c9266884fa8bba68edcb
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -20834,6 +20834,7 @@ browsershots.org#@#.advert_area
 ||bnhutpljwndgg.space^
 ||bnkofmbmxc.com^
 ||bnmqtggqjoqic.buzz^
+||bnowklkusdzwe.space^
 ||bnp3.com^
 ||bnpubjzodmhew.site^
 ||bnr.sys.lv^
@@ -22695,6 +22696,7 @@ browsershots.org#@#.advert_area
 ||ciewpsfxnt.com^
 ||cigaladoldrum.qpon^
 ||ciikcnesctcup.space^
+||ciikzbupnjyjd.online^
 ||cijoyfhiacneg.online^
 ||cikorloimlxct.website^
 ||ciksolre.net^
@@ -24221,6 +24223,7 @@ browsershots.org#@#.advert_area
 ||cwsbrxarjnaav.space^
 ||cwtervpgcjuqa.website^
 ||cwtjduacwhhtj.site^
+||cwuciqlttztxq.website^
 ||cwuxquolwlfqp.site^
 ||cwvahnqeauemq.online^
 ||cwvipsciqhuqi.site^
@@ -24231,6 +24234,7 @@ browsershots.org#@#.advert_area
 ||cxbogbmqugqqy.store^
 ||cxcjuhbxaysnj.site^
 ||cxcsrgntzjolw.online^
+||cxcvqnqzrnkpv.website^
 ||cxfbpspnezfak.online^
 ||cxfgtvitcaatu.space^
 ||cxfrehekozo52mpcnqt.cfd^
@@ -24308,6 +24312,7 @@ browsershots.org#@#.advert_area
 ||cyxyzrpolrjnh.online^
 ||cyyzrgvrnbomn.online^
 ||czabtzbcciqyn.space^
+||czajklodubwqy.website^
 ||czb1wgqx79lef2c.rest^
 ||czcmgagjthwgu.site^
 ||czdclraxaacmq.online^
@@ -26622,6 +26627,7 @@ browsershots.org#@#.advert_area
 ||ecmlevzhgcdwh.online^
 ||ecnikbpb2gy8zo3u1.cfd^
 ||ecntpxvcdvmsn.website^
+||ecologystoter.com^
 ||econventa.com^
 ||ecorchreliner.cfd^
 ||ecpipouvmimkr.site^
@@ -43020,6 +43026,7 @@ browsershots.org#@#.advert_area
 ||phobistdirlsmanis.cyou^
 ||phobpyorgiokc.space^
 ||phocallegatosrondels.cfd^
+||phocoidchoise.cyou^
 ||phomueguyyilv.store^
 ||phoneboothliningmany.com^
 ||phoneboothsabledomesticated.com^
@@ -45511,6 +45518,7 @@ browsershots.org#@#.advert_area
 ||rabbitheedless.com^
 ||rabbledrawingacquit.com^
 ||rabidgeoff.com^
+||rabinmakahfoambow.cfd^
 ||racedinvict.com^
 ||racemeyowden.com^
 ||racesmoulderstamp.com^
@@ -53470,6 +53478,7 @@ browsershots.org#@#.advert_area
 ||utjjeiyxnfmvr.website^
 ||utkauegwjdguc.website^
 ||utl-1.com^
+||utluynyqcxubmnf.com^
 ||utm-campaign.com^
 ||utmostsecond.com^
 ||utnbfoeokjxuz.website^
@@ -75717,6 +75726,7 @@ aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupp
 ##.ad.reform-top
 ##.reform-top-container
 ! Amazon
+amazon.*###desktop-ad-btf
 amazon.*###faceoutContainer:has(> [class$="sponsored-label"])
 amazon.*###nav-swmslot
 amazon.*###sc-rec-bottom
@@ -75728,7 +75738,9 @@ amazon.*###typ-recommendations-stripe-1
 amazon.*###typ-recommendations-stripe-2
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
+amazon.*##.ad-center
 amazon.*##.amzn-safe-frame-container
+amazon.*##.celwidget[data-ref_$="displayAds"]
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
 amazon.*##.s-result-item:has(.puis-sponsored-label-text)
 amazon.*##.s-result-item:has([data-ad-feedback-label-id])

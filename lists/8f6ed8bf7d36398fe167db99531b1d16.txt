@@ -2219,6 +2219,7 @@ liberinteleorman.ro##.size-large.attachment-large
 liberinteleorman.ro##.align-center.about-wrapper > .widget-title
 liberinteleorman.ro##.ad56__wrapper
 liberinteleorman.ro###mobile-banner
+liberinteleorman.ro##.size-medium.attachment-medium
 
 altex.ro,mediagalaxy.ro##[class^="ffrWebAdvertising"]
 
@@ -2470,5 +2471,28 @@ ziartopdearges.com##[class*="slideshow"]
 ziartopdearges.com##.afw_ad
 
 ziarulargesenilor.ro##.widget_sp_image:not(.widget_sp_image:has([href*="ziarulargesenilor.ro"], [href*="primariadarmanesti.ro"], [href^="/"], [href*="#"])):has([src])
+
+monitoruldegalati.ro##[href]:not([href*="monitoruldegalati.ro"], [href^="/"]):has([src])
+
+monitoruldevaslui.ro##.td-custom-image
+monitoruldevaslui.ro##.widget_media_image
+monitoruldevaslui.ro##.td_block_single_image
+
+stirivaslui.ro##[href]:not([href*="stirivaslui.ro"], [href^="/"], [href*="#"]):has([src])
+
+vasluianul.ro##.td-custom
+vasluianul.ro##[href]:not([href*="vasluianul.ro"], [href^="/"], [href*="#"]):has([src])
+||vasluianul.ro/*reclam
+vasluianul.ro##[src*="reclam"]
+
+||newsvaslui.ro/*-ad$image
+newsvaslui.ro##[href]:not([href*="newsvaslui.ro"], [href^="/"], [href*="#"]):has([src])
+newsvaslui.ro##.widget_media_image.widget
+newsvaslui.ro##[src*="WhatsApp"]
+
+||b-o.ro/banners/
+b-o.ro##[href]:not([href*="b-o.ro"], [href^="/"], [href*="#"]):has([src])
+b-o.ro##body > center > center > table:nth-child(4) > tbody > tr > td:nth-child(3)
+b-o.ro##table[bgcolor="#fafafa"]:has-text(PUB)
 
 !#include road-ubo.txt

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cjPUshmDc0a587RvHNZn/g
-! Version: 202607100611
+! Checksum: KQHrkSiqUWwJ2x2F5uAnnw
+! Version: 202607100742
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jul 2026 06:11 UTC
+! Last modified: 10 Jul 2026 07:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1719,8 +1719,8 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 ! *** advblock/inline_css.txt ***
 !#if ext_abp
 ! Собственные домены HDrezka
-ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] > [id$="er"]:nth-child(-n+3) {width:unset;}
-ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] {padding-top:0;background-color:inherit;}
+ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,la,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] > [id$="er"]:nth-child(-n+3) {width:unset;}
+ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,la,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] {padding-top:0;background-color:inherit;}
 ! Моносериальные домены HDrezka
 org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]) {margin-top:unset;}
 ! ---

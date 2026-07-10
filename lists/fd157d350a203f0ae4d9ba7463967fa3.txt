@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ta62oyg6NOViNZZVG7CsnA
-! Version: 202607100911
+! Checksum: 64JadMdI+DLJw5k8157hMQ
+! Version: 202607101021
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jul 2026 09:11 UTC
+! Last modified: 10 Jul 2026 10:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -9893,6 +9893,7 @@ _tizers.
 ||sutgof.ru^$third-party
 ||suuut.com^$third-party
 ||sv-pr.ru^$third-party
+||svarogonil.link^$third-party
 ||svedkan.com^$third-party
 ||svegt.com^$third-party
 ||sveklon.com^$third-party
@@ -24585,9 +24586,9 @@ ngsrabota.com.ua##.ra-top-banner
 fontanka.ru#?#.record > div[class]:-abp-has(> div > [href="/pressrelease/"])
 sp.ngs.ru##.sp-toppromo
 ##.widget-autoru
-fontanka.ru,ngs.ru,ngs55.ru##[class*="pictureDayBlock_"] div[class*=" advMark_"]
-fontanka.ru,ngs.ru,ngs55.ru##[class*="pictureDayBlock_"] li > a[href*="/?erid="]
-fontanka.ru,ngs.ru,ngs55.ru#?#[class*="pictureDayBlock_"] li:-abp-has(> a[href*="/?erid="])
+59.ru,fontanka.ru,msk1.ru,ngs.ru,ngs55.ru##[class*="pictureDayBlock_"] div[class*=" advMark_"]
+59.ru,fontanka.ru,msk1.ru,ngs.ru,ngs55.ru##[class*="pictureDayBlock_"] li > a[href*="/?erid="]
+59.ru,fontanka.ru,msk1.ru,ngs.ru,ngs55.ru#?#[class*="pictureDayBlock_"] li:-abp-has(> a[href*="/?erid="])
 fontanka.ru##[data-io-article-url] > [itemprop="articleBody"] ~ p[class]
 ru##[data-ns-portal] .gridContainer > div[class^="wrap-cp_"]:empty
 ru##[data-ns-portal] .gridContainer div[class^="benefitsBlock_"]

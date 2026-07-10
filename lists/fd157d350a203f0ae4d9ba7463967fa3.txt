@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HWQWSjHJm1BeAkwsMq7+zw
-! Version: 202607101621
+! Checksum: 6CSf6KB+2mPj4dp2cwN9NA
+! Version: 202607101711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jul 2026 16:21 UTC
+! Last modified: 10 Jul 2026 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1343,6 +1343,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="://gonewfiles.ru/"]
 ##a[href*="://gopremiumsoft.com/"]
 ##a[href*="://gridsiali.com/"]
+com,~hoster.ru,me,net,org,ru##a[href*="://hoster.ru"][target="_blank"]:not(thanks-opennet.ru)
 ##a[href*="://hypmag.ru/search/pereh.php"]
 ##a[href*="://installpack.ru"]
 ##a[href*="://kinobud.site/"]
@@ -1587,6 +1588,7 @@ by,~mail.ru,ru,ua##.banner_box
 ~dtpchp.ru##a[href^="https://dtpchp.ru/"]
 ~fukaka.ru##a[href^="https://fukaka.ru/"]
 ##a[href^="https://homyanus.com"]
+com,~ishosting.com,me,net,org,ru##a[href^="https://ishosting.com"][target="_blank"]:not(thanks-opennet.ru)
 ##a[href^="https://kshop"][href*=".com/"]
 ##a[href^="https://kshop"][href*=".pro/"]
 ##a[href^="https://msetup.pro"]
@@ -1598,6 +1600,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href^="https://wcm"][href*="weborama"][href*="/fcgi-bin/dispatch.fcgi?"]
 ##a[href^="https://www.juicer.io?referrer="]
 ~litres.ru##a[href^="https://www.litres.ru/"][href$="#buy_now_noreg"]
+com,me,net,org,~postgrespro.ru,ru##a[href^="https://www.postgrespro.ru"][target="_blank"]:not(thanks-opennet.ru)
 ##a[onclick*="/link-fes.ru"]
 ##a[onclick*="https://dzen.ru/news/?favid="]
 ~media-rotate.com##a[onclick*="media-rotate.com"]
@@ -19660,6 +19663,7 @@ dltv.org##div[style*="/uploads/banners/"]
 doefiratv.info##div[style*="339px;"]
 x-console.com##div[style*="710px;"][style*="70px;"]
 forums.ngemu.com##div[style*="920px;"][style*="250px;"]
+opennet.me,opennet.ru#?#div[style*="background-color:"]:-abp-has(> div:-abp-contains(/Партнёры:|Хостинг:/))
 dtf.ru,vc.ru##div[style*="banner-height"]
 bikepost.ru##div[style*="block"][style*="center"][style*="width:"][style*="height:"]
 dumskaya.net##div[style*="display:inline-bl1ock"]
@@ -19767,7 +19771,6 @@ mozaika.biz#?#div[style]:-abp-has(> a[href]:not([href^="/"]):not([href^="https:/
 kirov-portal.ru#?#div[style]:-abp-has(> ntvk)
 small-games.info#?#div[style]:-abp-has(> p > [href="#hideRekCaption"])
 buhoblik.org.ua##div[style][onclick*="/rizni/"]
-opennet.me,opennet.ru##div[style^="background-color: #E9E"][style*="; width:"][style*="height: 6"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[style^="background-color: rgb(204, 0, 0)"]
 risovach.ru##div[style^="background: url"]
 xn--c1ajfnfb.xn--p1acf##div[style^="background:"][style*="/ple.jpg)"]

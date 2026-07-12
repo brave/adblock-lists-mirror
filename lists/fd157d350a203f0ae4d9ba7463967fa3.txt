@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 24Oy2fcRkZcIvl9LS3ztjw
-! Version: 202607121751
+! Checksum: OCQ+GOv4cvfq2TptKYeerQ
+! Version: 202607121822
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jul 2026 17:51 UTC
+! Last modified: 12 Jul 2026 18:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12036,7 +12036,6 @@ forum.byw.ru###byw_top_banner
 prankota.com###c7b82880e
 prankota.com###cab741974
 copypast.ru###calcs1
-sportnet.live###carouselPrintstok
 btu.org.ua###catfish-banner
 kurs.com.ua###catfishWrap
 bereza.by###cb-logo-box > .cb-block
@@ -12071,8 +12070,11 @@ rutube.ru###communicationBanner
 stocktime.ru###cont_right_240
 doska.fi###container + center
 kirovnet.ru###container > #top
+oc.kg###container > .hidden-xs
 nnovosti.info###container > .row > div + div > .w-100
+oc.kg###container > .visible-xs-block
 fapreactor.com,pornreactor.cc###container > :not(#page) a[target^="_"]
+oc.kg###container > a[target="_blank"]
 otzyvua.net###container > div.otzyv_box_float[id^="review_"] ~ .otzyv_box_float:not([id^="review_"] )
 oper.ru###container > div[style]
 sql-tutorial.ru###container > div[style] > script + style ~ ul
@@ -13356,6 +13358,7 @@ vidstezhyty.com.ua##.answear.sale
 partnerkin.com##.ap_b
 agronomy.com.ua##.apm-container
 photopea.com##.app > div ~ div > a[target="_blank"] > img
+ts.kg##.app-ad-category
 soft.mydiv.net##.app-page__left > .app-page__menu ~ div[style*="height:"]
 grazia.ru,mentoday.ru,novochag.ru,pravilamag.ru,robb.report,techinsider.ru,thesymbol.ru,thevoicemag.ru##.app-popups
 megamult.net##.apygame
@@ -13995,7 +13998,7 @@ whl.khl.ru##.bottom-partners
 android-club.ws,noddb.ru##.bottom-rkl
 calend.ru,shkolazhizni.ru##.bottomFixedBlock
 obrkarta.ru##.bottom_abs_info
-forum.finance.ua,moscow-post.com##.bottom_banner
+forum.finance.ua,moscow-post.com,oc.kg##.bottom_banner
 delovoigorod.ru##.bottom_bun
 tehno-rating.ru##.bottom_rekl
 anekdot.ru##.bottombanner
@@ -15729,6 +15732,7 @@ megacritic.ru#?#.platform-content:-abp-has(> .moduletable a[rel="sponsored"])
 muzofond.fm##.playOther
 seetv.tv##.player > .reklama_b
 sexvideobaza.net##.player-bn
+ts.kg##.player.video-js > div[id][class]:not([style])
 novinki-kino.net,smotra.net##.player22
 pikabu.ru##.player__adfox
 lideo.ru##.player_advert
@@ -15964,7 +15968,7 @@ okaygorod.com##.rek_ban a[href]:not([href^="https://okaygorod.com/"])
 cxem.net##.rek_plashka
 tabletka.by##.rekblockr
 mipped.com##.rekblok
-3iks.pw,lenfilm.tv,russian7.ru,sex-comics.mobi,youblogs.ru##.rekl
+3iks.pw,lenfilm.tv,russian7.ru,sex-comics.mobi,sportnet.live,youblogs.ru##.rekl
 minecraft-mod.su##.rekl_ad
 pogoda7.ru##.rekla_down_block
 asn.in.ua##.reklam_in_text
@@ -16243,6 +16247,7 @@ the-geek.ru##.side-text
 transkarpatia.net##.side-widget > a[href][target="_blank"] > img:not([alt*="elegra"])
 siteua.org#?#.sideBlock:-abp-has(> .adsbygoogle)
 siteua.org#?#.sideBlock:-abp-has(> [id^="CNM"])
+oc.kg##.side_banner
 smartpress.by##.side_banners
 gorockop.ru##.side_block
 compromat.group#?#.side_block > .side_header:-abp-contains(Новости партнеров)
@@ -18580,6 +18585,7 @@ comss.ru##body > .dlblock ~ .container[style="padding-top:12px;"]
 2x2tv.ru##body > .gifimg
 uzum.tv##body > .head
 itc.ua##body > .hidden-sm
+ts.kg##body > .hidden-xs
 avtoradio.ru##body > .info-block
 barsportbar.com,channels247.net,goool7.ws,s7yours.com,sbautumn.com,sport7.biz,sportabar01.com,sportbarchik88.com,sporting77.com,sportsite777.com,spotless365.net##body > .js-div:empty
 zorgee.ru##body > .jumbotron
@@ -18592,6 +18598,7 @@ fastpic.org##body > .position-fixed
 portalgkh.ru##body > .slide.carousel
 newradioshop.ru##body > .sticky
 nnm-club.me,nnmclub.ro,nnmclub.to##body > .ui-corner-all
+ts.kg##body > .visible-xs-block
 privatfinance.com##body > .wrap
 varplatform.life##body > .wrap-overlay
 mk.ru,ru##body > .wraper > .good-place__top:not(region-mk)
@@ -18642,6 +18649,7 @@ htmlweb.ru##body > div[id] > [onclick] ~ *
 htmlweb.ru#?#body > div[id]:-abp-has(> [onclick])
 htmlweb.ru##body > div[id]:empty
 sibnet.ru##body > div[id][class*="push"]
+ts.kg##body > div[id][data-link]
 myshared.ru##body > div[id][style*="position: absolute"]
 festyy.com##body > div[id][style*="z-index"]
 ukr.bio##body > div[id^="brands"]
@@ -19210,6 +19218,7 @@ tonkosti.ru##div[class^="partner-link"]
 78.ru##div[class^="partner-news_container_"]
 chytomo.com,dev.ua,devby.io,padaread.com##div[class^="partners"]
 syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##div[class^="partnews"]
+ts.kg##div[class^="player"] > [data-link]
 fishki.net##div[class^="player-ad"][class$="-wrapper"]
 1plus1.video##div[class^="playlist-player-branding-"]
 gorod.cn.ua##div[class^="pos"][class*="_"]
@@ -22585,6 +22594,11 @@ igdz1.ru^$script,domain=igdz.ru
 ||obnimau.ru/img-ba/
 ||obozrevatel.com^$domain=104.ua
 ||obrazovaka.ru/serviceworker.js
+||oc.kg/background/$~media
+||oc.kg/js/click.js
+||oc.kg/outsidead.php
+||oc.kg/preroll.php
+||oc.kg/sidebanner.php
 ||oclab.ru/flash/
 ||odds.ru/api/advert/
 ||odessa-daily.com.ua/images/stories/banners/
@@ -23212,7 +23226,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||sportarena.com/branding/
 ||sportbox.ru/_*/rexona$image
 ||sportnet.live/branding/
-||sportnet.live/GD/printstok/
 ||sportobzor.ru/templates/site/banners/$image
 ||sportobzor.ru/uploads/articles_
 ||sports.kz/frontend/bannersnew/
@@ -23451,6 +23464,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||ts.kg/ad/
 ||ts.kg/olol$~media
 ||ts.kg/oops/
+||ts.kg/static/*.|$~media
 ||tsargrad.tv/img/*-bg.jpg
 ||tt-cup.com/static/clients/$image
 ||tuchkatv.ru/rotator/
@@ -23834,9 +23848,11 @@ igdz1.ru^$script,domain=igdz.ru
 !#if ext_abp
 ||myfootball.pw/*/betking/$media,rewrite=abp-resource:blank-mp4,domain=myfootball.pw
 ||myfootball.ws/*/betking/$media,rewrite=abp-resource:blank-mp4,domain=myfootball.ws
+||oc.kg/background/*.mp4$rewrite=abp-resource:blank-mp4,domain=oc.kg
 ||s-cdn.org/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||s-club.tv/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||ts.kg/olol*.mp4$rewrite=abp-resource:blank-mp4,domain=ts.kg
+||ts.kg/static/*.|$rewrite=abp-resource:blank-mp4,domain=ts.kg
 !#endif
 ! -----------------------------------------------------------------------------
 ! *** advblock/specific_special.txt ***
@@ -26684,6 +26700,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||numbers.md/static/$script,domain=999.md
 @@||objavlenija.respublika.cz/templates/jrespublika*_clr_ads/$stylesheet,domain=objavlenija.respublika.cz
 @@||oboi-pmr.ru^*.300x250.$image,domain=oboi-pmr.ru
+@@||oc.kg/js/videojs.ga.js|$script,~third-party
 @@||ojin.tv/templates/kino/images/adv.png$image,domain=ojin.tv
 @@||ojs3.ideafix.co/index.php/adsv/$domain=ojs3.ideafix.co
 @@||olx.*/ajax/misc/contact/phone/$xmlhttprequest,domain=olx.kz|olx.ua|olx.uz

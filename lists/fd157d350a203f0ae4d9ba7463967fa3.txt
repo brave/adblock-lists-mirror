@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xsHxNinIrOcrpm0G9+bTrw
-! Version: 202607141632
+! Checksum: k7UmoV1J2AHsu5eOfSO0dQ
+! Version: 202607141701
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Jul 2026 16:32 UTC
+! Last modified: 14 Jul 2026 17:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12933,7 +12933,6 @@ buhgalter.com.ua,trinixy.ru,yap.ru,yaplakal.com###top-line
 yap.ru.yaplakal.com###top-line > noindex
 cont.ws###top-page-ads
 37.ru###top-pannel
-dyvys.info###top-random-banner
 sudakonline.info###top45
 sudakonline.info###top6out
 om1.ru###topAdb
@@ -15682,7 +15681,7 @@ autosport.com.ru##.partner-content
 zahav.ru##.partner-iframe
 w7phone.ru##.partner-in-sidebar
 24tv.ua,zaxid.net##.partner-info
-allboxing.ru,dyvys.info,glavred.info,glavred.net,gorodkirov.ru,ictv.ua,unian.info,unian.net,unian.ua##.partner-news
+allboxing.ru,glavred.info,glavred.net,gorodkirov.ru,ictv.ua,unian.info,unian.net,unian.ua##.partner-news
 zi.ua##.partner-news-content
 rusplt.ru##.partner-news-wrapper
 tochka.net##.partner-news:not(.b_crosswidget)
@@ -15811,6 +15810,7 @@ pickupforum.ru#?#.post_wrap:-abp-has(> #post_body_b)
 sonikelf.ru##.postbitlegacy[id^="yui-gen"]
 paparazzi.ru##.poster > .poster-content + p
 agrotimes.ua##.poster-modal
+dyvys.info##.poster-place
 iphones.ru##.postitem__dpd_block
 denzadnem.com.ua##.postmeta-primary ~ .hr1[style="border-bottom-color:#eee"]
 zx-pk.ru#?#.posts > [id^="post_"]:-abp-has(> .postdetails > .userinfo > [title*="Advertiser"] )
@@ -16106,6 +16106,7 @@ filmovmir.com##.rklma
 google.by,google.com,google.com.ua,google.kz,google.ru#?#.rlfl__tls > div[jstcache]:-abp-has(.gghBu)
 floristics.info##.rmgm
 nn.ru##.rn-global-sidebar
+root-nation.com##.rn-review-bg-click
 nn.ru##.rn-top-banner
 root-nation.com##.rn-widget
 autopilot.ru,kommersant.ru,myweekend.ru##.rocket_man
@@ -16969,6 +16970,7 @@ tv.i.ua##.widget-news_premium
 maanimo.com##.widget-offers
 nur.kz##.widget-parimatch-wrapper
 bibliofond.ru##.widget-pomogi
+dyvys.info##.widget-poster
 au-ok.com#?#.widget-sidebar:-abp-has(> div .adsbygoogle)
 au-ok.com#?#.widget-sidebar:-abp-has(> div > [id^="adfox_"])
 mnogovoprosov.ru#?#.widget-sidebar:-abp-has([src*="/wp-content/uploads/"][src*="/ban"][src*="er"])
@@ -19849,7 +19851,6 @@ botanam.net,gdzputina.me##embed
 fap-guru.*,mult-porno.*,sex-studentki.*##.vpsembedmob
 imageup.ru##fieldset[style^="display: inline; width: 45%;"]
 znak.com##figure
-dyvys.info##figure > div > img[src*="/var-min.jpg"]
 proidei.com##figure.wp-block-image
 povar.co##figure[id^="attachment"]
 virus-stop.com.ua##footer > .footer-main
@@ -20239,6 +20240,7 @@ car72.ru##section > .container-fluid > div[style^="width:"][style$="%"]
 stopgame.ru#?#section > div[class^="_content-wrapper_"]:-abp-has(> div > a[href^="/watch"]) ~ [class^="_content"] a[href^="/to?http"]
 eanews.ru#?#section > section:-abp-has(> [class^="styled__AdvLink-sc-"])
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,job.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,newsvl.ru,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,tayga.info,tet.tv,ulanmedia.ru,unian.info,unian.net,unian.ua,ussurmedia.ru,vctr.media,yakutiamedia.ru,yugopolis.ru##section.countdown
+dyvys.info#?#section.page-section:-abp-has(> .wrap > div > script)
 iguides.ru#?#section.row > section:-abp-has(> article [href*="?erid="])
 byxatab.com##section.sect.sect--bdt:nth-of-type(1)
 frankmedia.ru#?#section:-abp-has(> .block > .header > [href="/news?types=partners-material"])
@@ -21583,7 +21585,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||dynamo.kiev.ua/media/bimg/
 ||dynamomania.com/assets/68b1e3a7/jquery.js
 ||dyncdn.me/static/*/js/expla*.js|$script
-||dyvys.info/wp-content/plugins/random-banner/
 ||e-flash.com.ua/templates/historylost/images/demo/
 ||e-ink-reader.ru/adb/
 ||e-libra.ru/modules/*offers/
@@ -22319,7 +22320,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||mebelminsk.by/assets/images/swf/
 ||med2.ru/branding/
 ||media.aso.altapress.ru/
-||media.dyvys.info^*/indexbanner.
 ||media.kaifolog.ru$script,domain=kaifolog.ru
 ||media.v102.ru/abs/
 ||media.v102.ru/players/advplayer$object

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.9.2
+! Version: 4.3.9.3
 
 ! General
 
@@ -290,7 +290,7 @@ nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction, stay)
 nzz.ch##+js(ra, class, div.barrier, stay)
 ||tms.danzz.ch/scripts/t.min.js$script,domain=nzz.ch|themarket.ch
 ||observador.pt/wp-content/*/paywall-price-*.js$script,~third-party
-/\.ogj\.com\/.+\/\d{8,}\//$inline-script
+/\.ogj\.com\/.+\/\d{8,}\//$inline-script,domain=ogj.com
 ||oko.press/_next/static/chunks/pages/%5Bslug*.js$script,~third-party
 paloaltoonline.com##+js(cookie-remover, /^/)
 ||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
@@ -344,7 +344,7 @@ startribune.com##div.modal-backdrop
 startribune.com##body[class]:style(overflow: auto !important; position: static !important;)
 ||stereogum.com/_next/static/chunks/pages/_sites/%5BsiteSlug%5D/%5B...slug*.js$script,~third-party
 ||straitstimes.com/opinion/$inline-script
-/\.straitstimes\.com\/.+(\w+-){3,}.+\?rel=plus/$inline-script
+/\.straitstimes\.com\/.+(\w+-){3,}.+\?rel=plus/$inline-script,domain=straitstimes.com
 study.com##+js(ra, class, div.faded-content, stay)
 study.com##+js(ra, class, div.hidden[ng-non-bindable], stay)
 study.com##div.article-cutoff-div
@@ -565,11 +565,10 @@ schwarzwaelder-bote.de,stuttgarter-nachrichten.de,stuttgarter-zeitung.de##div.mo
 computerweekly.com,lemagit.fr,techtarget.com##+js(rc, paywall, div.paywall, stay)
 computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWrapper
 
-! The Epoch Times sites (main + br|cz|de|fr|il|jp|ro)
+! The Epoch Times sites (main + cz|de|fr|il|jp)
 ||theepochtimes.com/rules/get$xmlhttprequest,~third-party
-||epochbase.com/libs/paywall*.js$script,third-party
+||theepochtimes.com/api/rule/$xmlhttprequest,~third-party
 ||epochbase.com/rules/get$xmlhttprequest,third-party
-||epochbase.eu/rules/get$xmlhttprequest,third-party
 /\/epoch\.org\.il\/.+\/\d{5,}\//$inline-script,domain=epoch.org.il
 
 ! The Local Group (EU)
@@ -669,7 +668,7 @@ dominionpost.com##+js(rc, entry-content, article > div.entry-content, stay)
 elfinancierocr.com##+js(ra, style, div.article-body-wrapper__styled[style], stay)
 elfinancierocr.com##div.post
 epaper.indiatimes.com##div.epaperBlockerWrap
-/\/every\.to\/[-\w]+\//$inline-script
+/\/every\.to\/[-\w]+\//$inline-script,domain=every.to
 every.to##+js(ra, style, div#post-body-full, stay)
 ||eviemagazine.com/api/trpc/post.paywall$xmlhttprequest,~third-party
 flamman.se##+js(rc, paywall, div.paywall, stay)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uIDodqu+OoPckagga70Ntg
-! Version: 202607161111
+! Checksum: ypUXe3aMVGp/nB0W5QDfTQ
+! Version: 202607161152
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Jul 2026 11:11 UTC
+! Last modified: 16 Jul 2026 11:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4775,6 +4775,7 @@ _tizers.
 ||bestwaygo.ru^$third-party
 ||beta.mediafort.ru^$third-party
 ||betamedia.biz^$third-party
+||betamountwo.com^$third-party
 ||betimogolef.com^$third-party
 ||betonmarkets.com^$third-party
 ||bezrukov.fun^$third-party
@@ -9317,6 +9318,7 @@ _tizers.
 ||rontar.com^$third-party
 ||rontar.ru^$third-party
 ||roofsing.com^$third-party
+||roomgome.com^$third-party
 ||rootclick.biz^$third-party
 ||rootinmyhead.ru^
 ||rootmedia.cc^$third-party
@@ -14115,7 +14117,6 @@ drive2.com,drive2.ru##.c-dv-sns
 dsnews.ua#?#.c-feed__list-item:-abp-has(> .c-feed__item > .c-r)
 drive2.com,drive2.ru#?#.c-header:-abp-contains(/Ads|Реклама/)
 telegraf.com.ua,telegraf.ua#?#.c-post__content > div:-abp-has(> [id^="_vidverto-"])
-shuba.life##.c-product-card
 delo.ua,dsnews.ua,focus.ua##.c-r
 5-tv.ru##.cFadeDark
 nashamama.com#?#.cN-linkList:-abp-has(> h3:only-child)
@@ -14896,6 +14897,7 @@ rz.com.ua##.horizontal_baner
 tonkosti.ru##.hotel-form__header
 bezformata.com##.hottopicadvertbox
 vomske.ru#?#.hr:-abp-contains(/Яндекс.Директ ВОмске|Другие новости/)
+zorox.sex##.hsd
 lifehaker.forum-top.ru##.html-box
 sakh.com,travelsakhcom.ru##.html5-bp
 hentai-hub.net##.htvad
@@ -17300,6 +17302,7 @@ season.ru##[class^="bnnr_bx_"]
 101.ru##[class^="bnr-"]
 geonavigator.ge,navigator.az##[class^="brand"]
 slovoidilo.ua##[class^="branding-link-"]
+shuba.life##[class^="c-product-"]
 ukrsport.pro##[class^="cs-banner"]
 fastpic.org##[class^="embed-responsive"]
 klubok.com##[class^="gekon"]
@@ -17349,7 +17352,7 @@ teknoblog.ru##[data-advadstrackid]
 epicentrk.ua##[data-advertising-listing-list] header
 bryansknovosti.ru,novozybkov.su#?#[data-alias="Copyright"] .widget-area > .widget_text:not(:last-child):-abp-has(script)
 vc.ru##[data-analytics*="native"]
-shuba.life#?#[data-article] > .c-section:-abp-has(.c-product-card)
+shuba.life#?#[data-article] > .c-section:-abp-has([class^="c-product-"])
 shuba.life##[data-banner-container]
 bobr.by,buhonline.ru,zakon.ru##[data-banner-id]
 intent.press,karavan.ua,sportarena.ua##[data-banner-name]
@@ -17447,7 +17450,7 @@ dotabuff.com##[data-type="elo-placement"]
 historyrusedu.ru##[data-uk-grid-match*="target"]
 nv.ua##[data-unit_type="bnr"]
 conversion.im##[data-url*="/banners/"]
-shuba.life##[data-v-app] button.cursor-pointer
+shuba.life##[data-v-app] button[tabindex]
 slukh.media##[data-vc-parallax]
 trychatgpt.ru##[data-widget-id]
 safezone.cc##[data-widget-key="friends"]
@@ -26928,8 +26931,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||x5.ru/assets/Branding/$script,stylesheet,domain=x5.ru
 @@||xn----dtbhbabqpbg4blhey9ej3h.xn--p1ai^*_300x250.$image,domain=xn----dtbhbabqpbg4blhey9ej3h.xn--p1ai
 @@||xn--74-6kcaj3c0aikq.xn--p1ai/images/adv-$image,domain=xn--74-6kcaj3c0aikq.xn--p1ai
-@@||xporn.in/*.m3u8|$xmlhttprequest,domain=tre.zorox.sex
-@@||xporn.in/*.ts|$xmlhttprequest,domain=tre.zorox.sex
 @@||xvet.ru^*_600x180.$image,domain=xvet.ru
 @@||yaberemenna.info/openx/www/delivery/ai.php?filename=$domain=yaberemenna.info
 @@||yaberemenna.info/openx/www/delivery/ajs.php?zoneid=7&$domain=yaberemenna.info

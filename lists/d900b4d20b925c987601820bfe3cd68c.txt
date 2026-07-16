@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 3ZmcMP16IX5dQpIW581yLw
-! Diff-Path: ../patches/7/7-s-1784198760-3600.patch
+! Checksum: N61jggypePi8iFdYSgOcZg
+! Diff-Path: ../patches/7/7-s-1784216343-3600.patch
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.74.93
-! TimeUpdated: 2026-07-16T10:42:37+00:00
+! Version: 2.0.74.95
+! TimeUpdated: 2026-07-16T15:35:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1908,6 +1908,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+andgirl.jp##.kyujin-box-wrap
 anglers.jp##.custom_campaign_pr
 juno-beauty-pe.com##.js-coupon-modal
 ani-chat.net###endo_wrc_widget-3
@@ -5380,6 +5381,7 @@ game8.jp##.l-billboard_container
 cloudwoods.jp##div[style="border:1px solid black;padding:2px;"]
 ||getsuvolley.com/valley-wp/wp-content/themes/gvalley/images/zamst-zk-560-500-
 getsuvolley.com##div[class*="-gtp-ad"]
+||hobby.dengeki.com/kyujinbox_res/
 ||hobby.dengeki.com/wp-content/themes/hobby2021/common/js/jack_ad.js
 hobby.dengeki.com##.afbox
 hadakanonude.com##.entry-inner > table
@@ -6947,6 +6949,7 @@ zukan.com##.sidebar_sponsored
 cchan.tv##div[class^="gptad"]
 jj-jj.net###global-wrapper > div[style="text-align:center;"] > div[style="display:inline-block;"]
 jj-jj.net##div[style="text-align:center;margin-bottom:30px;"]
+4travel.jp##.u_kyujinBox_wrap
 4travel.jp##.u_adFloatingBox
 erobanach.com##.adranking
 erobanach.com##.adbtntype
@@ -10016,6 +10019,7 @@ news.mynavi.jp##.articleBnr_ydn
 news.mynavi.jp##.c-sideBanner_articleBottom
 news.mynavi.jp##.headerBillboard
 news.mynavi.jp##.c-sidePickup
+javmix.tv##.pop--excl
 javmix.tv##div[style^="width: 728px; height: 90px"]
 tv-asahi.co.jp###rectangle-desktop
 tv-asahi.co.jp###superbanner-desktop

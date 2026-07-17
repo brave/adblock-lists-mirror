@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ab2q25QFLBFpqJ6baGhyaA
-! Version: 202607171251
+! Checksum: ewBZ+9zmqXRcMzPBfkxL4Q
+! Version: 202607171341
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Jul 2026 12:51 UTC
+! Last modified: 17 Jul 2026 13:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6514,6 +6514,7 @@ _tizers.
 ||gridsiali.com^$third-party
 ||grocoowk.com^$third-party
 ||grofku.com^$third-party
+||gromoboyara.link^$third-party
 ||grotomesco.club^$third-party
 ||grotomesco.online^$third-party
 ||grotomesco.today^$third-party
@@ -14165,6 +14166,7 @@ pulscen.ru##.chameleon
 play.tavr.media##.channel-centre > .bottom-links ~ .d-md-block
 tlgrm.ru#?#.channel-feed > .channel-feed__brick:-abp-has(> .cfeed-card > .cfeed-card-contents--banner)
 profinance.ru##.charts-ad
+frankmedia.ru#?#.checkboxes > .label:-abp-contains(Frank Partners)
 mmo13.ru##.cl-block-rk
 meest.com##.cl-floating-box
 ruwest.ru##.cl-simple-border-block
@@ -14589,6 +14591,7 @@ province.ru##.flexbannergroup > div:not(.gsInformer)
 pawno-info.ru##.floatcontainer.formcontrols.blockbody > a[href][target="_blank"]
 goldroyal.net##.floating
 frankmedia.ru##.floating-banner
+frankmedia.ru##.floating-panel
 factroom.ru##.floating.b-sidebar
 notik.ru##.floating_bnr
 waitpost.ru##.fly
@@ -15007,12 +15010,11 @@ landlord.ua##.isfixed
 dev.ua,devby.io##.island[style^="padding: 2rem 0;"]
 dev.ua##.island__body-aside
 business.ua##.islands--recommended
-frankmedia.ru##.item > .news-preview > .label
-frankmedia.ru##.item > .news-preview > .label ~ [class]
 carambatv.ru##.item-adv
 vsezdorovo.com#?#.item-content:-abp-has(> .title > a[href*="//zen.yandex.ru/"])
 russkoekino.net##.item-full > .list-items ~ .subcol
 topgearrussia.ru##.item.promo
+frankmedia.ru#?#.item:-abp-has(> .news-preview .partners)
 obmenvsem.org#?#.item:-abp-has(> div > [src*="pek.png"])
 appmo.org#?#.item:-abp-has(> script)
 appmo.org#?#.item:-abp-has([src*="/images/pek.png"])
@@ -15494,7 +15496,7 @@ gamemag.ru#?#.news-item-wrap > .news-item:-abp-has(> span:-abp-contains(Ad))
 thepage.ua#?#.news-list > .news-list__item:-abp-has(.advertising_material)
 thepage.ua#?#.news-list > .news-list__item:-abp-has(.company_news)
 thepage.ua#?#.news-list > .news-list__item:-abp-has(.partner_material)
-frankmedia.ru#?#.news-list section:-abp-has(> .card > .info .partners)
+frankmedia.ru#?#.news-list section:-abp-has(> .preview > .info .partners)
 zaxid.net##.news-list-col > .news-list
 sport.ua##.news-match
 onliner.by##.news-media__preview > a:not([href*="onliner.by/"]) > img
@@ -20250,7 +20252,7 @@ amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskm
 dyvys.info#?#section.page-section:-abp-has(> .wrap > div > script)
 iguides.ru#?#section.row > section:-abp-has(> article [href*="?erid="])
 byxatab.com##section.sect.sect--bdt:nth-of-type(1)
-frankmedia.ru#?#section:-abp-has(> .block > .header > [href="/news?types=partners-material"])
+frankmedia.ru#?#section:-abp-has(> .block > .header > [href*="partners-material"])
 meteovesti.ru#?#section:-abp-has(> .border-bottom > .row [style="width:728px;height:90px;min-height:90px;overflow:hidden;"])
 tengrinews.kz#?#section:-abp-has(> .ya-news)
 rutube.ru##section[aria-label="информационный баннер"]
@@ -25933,6 +25935,7 @@ velosipedinfo.ru##body > .b-modal
 mynizhyn.com,pechera.info##body > .overlay[style="display: block;"]
 bs-life.ru##body > .ui-widget.ui-dialog
 dowlatow.ru##body > .wid-fb
+frankmedia.ru##body > div:not([id]):not([class]) > .modal
 gosvopros.ru##body > div[class$="-subscr"]
 factroom.ru##body > div[class^="facebook-"]
 bomba.co##body > div[class^="remodal"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2Lu8CMZvrugfzxuyjzWyTQ
-! Version: 202607171922
+! Checksum: rOZvS9m+lf4in7hK9vJDwg
+! Version: 202607171952
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Jul 2026 19:22 UTC
+! Last modified: 17 Jul 2026 19:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1608,6 +1608,7 @@ com,me,net,org,~postgrespro.ru,ru##a[href^="https://www.postgrespro.ru"][target=
 ##a[onclick*="offergate-amigo"]
 ~reklamka.ru.net##a[onclick*="reklamka.ru.net"]
 ##a[onclick*="trtkp.ru"]
+net,org##body.branded:not([id]):not([style]) > .ad-branding
 me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table table[bgcolor="#dbdbdb"] td[bgcolor="#fafafa"]
 me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][bgcolor]
 ##div[class$="_scrollable-doc"][id]
@@ -1776,6 +1777,7 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 .info/next.html?$third-party,script
 .json?fre=$third-party,xmlhttprequest
 .json?unique=$third-party,xmlhttprequest
+.link/*/*?fre=$third-party,xmlhttprequest
 .mail.ru/pixel/$image
 .marketgid.com^$domain=~marketgid.com
 .md/ads/
@@ -2001,6 +2003,7 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 /files/banners/*$domain=~aktiv48.ru|~boysandgirls24.com|~dsns.gov.ua|~ivory.co.il|~ksimart.com|~ksimart.ml|~pgpru.com|~rooborisov.by
 /files/episodes/*-RU.mp4|$third-party,media
 /files/episodes/*bet.mp4|$third-party,media
+/files/series/*).mp4|$third-party,media
 /files/series/*-RU.mp4|$third-party,media
 /files/series/*bet.mp4|$third-party,media
 /forum?t=$third-party,subdocument
@@ -2905,6 +2908,7 @@ _tizers.
 ||globus-inter.com/images/banners/
 ||globusgps.ru^$third-party
 ||glows.ru^
+||gnedonartemiy.link^$third-party,media
 ||gnezdo.news^
 ||gnezdo.ru^
 ||gnezdo2.ru^$third-party

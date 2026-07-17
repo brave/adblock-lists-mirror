@@ -1384,6 +1384,8 @@ turbomag.ro##.homepage-banner
 zvj.ro##[class*="banner"]
 zvj.ro##.boxstire2head:has-text(Publicitate)
 ||confortmedia.ro^$3p
+zvj.ro##[href]:not([href*="zvj.ro"], [href^="/"], [href*="#"]):has([src])
+zvj.ro##.titluboxdreapta:has-text(/Pub|Promo/)
 
 vloggeri.com##[href^="https://event.2performant.com/"]
 
@@ -1895,19 +1897,6 @@ turdainfo.ro##.banner
 ! detection ziaruldeiasi
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=ziaruldeiasi.ro
 
-!spam => https://publicrecord.ro/2024/10/22/caruta-cu-troli-din-caracal-si-teoriile-conspirationiste/
-||olt-media.ro^
-||romania-unita.ro^
-||romania-noastra.ro^
-||jurnalul-militar.ro^
-||romanulnationalist.ro^
-||gazeta-romaneasca.ro^
-||universul-stirilor.ro^
-||romanii-liberi.ro^
-||ziarul-democrat.ro^
-||oltenia-actualitati.ro^
-||rezistentaromanesca.ro^
-
 bihon.ro##[href^="https://www.melindainstal.ro/"]
 
 ! popunders
@@ -2131,6 +2120,7 @@ obiectivderadauti.ro##.wpb_wrapper:not(*:has([href*="obiectivderadauti.ro"], [hr
 ||obiectivdesuceava.ro/*banner$image
 
 ||obiectiv-mehedintean.ro/imgs/profin-small.jpg$image
+obiectiv-mehedintean.ro##.widgetcontainer:has([href*="profin"])
 
 2mnews.ro##.wpb_wrapper:not(*:has([href*="2mnews.ro"], [href*="facebook.com"], [href="#"])):has([href])
 2mnews.ro##.textwidget:not(*:has([href*="2mnews.ro"], [href*="facebook.com"], [href="#"])):has([href])
@@ -2577,5 +2567,12 @@ incomod-media.ro##[href]:not([href*="incomod-media.ro"], [href*="incomod-media.b
 incomod-media.ro##.mvp-widget-home-title:has-text(PUB)
 
 radio.com.ro##.card-header:has-text(Pub)
+
+! https://github.com/uBlockOrigin/uAssets/issues/33744
+||filmexxx.ro/*push
+||filmexxx.ro/assets/js/cxads.js
+filmexxx.ro##.videoPlayerAD
+
+cronicadeseverin.ro##.widget_custom_html
 
 !#include road-ubo.txt

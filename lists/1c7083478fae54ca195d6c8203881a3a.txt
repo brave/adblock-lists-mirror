@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.9.3
+! Version: 4.3.9.4
 
 ! General
 
@@ -289,7 +289,7 @@ nzherald.co.nz##+js(set, window.Fusion.globalContent.isPremium, false)
 nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction, stay)
 nzz.ch##+js(ra, class, div.barrier, stay)
 ||tms.danzz.ch/scripts/t.min.js$script,domain=nzz.ch|themarket.ch
-||observador.pt/wp-content/*/paywall-price-*.js$script,~third-party
+||observador.pt/wp-content/*/paywall-compact-new.min.js$script,~third-party
 /\.ogj\.com\/.+\/\d{8,}\//$inline-script,domain=ogj.com
 ||oko.press/_next/static/chunks/pages/%5Bslug*.js$script,~third-party
 paloaltoonline.com##+js(cookie-remover, /^/)

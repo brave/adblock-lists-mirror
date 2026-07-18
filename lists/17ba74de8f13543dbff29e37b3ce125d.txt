@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607181329
+! Version: 202607181421
 ! Title: EasyList
-! Last modified: 18 Jul 2026 13:29 UTC
+! Last modified: 18 Jul 2026 14:21 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d771f508010305ef07fc78bb0f319b2478ef42ea
+! Commit: 212581ecf9e2c000368607581b198587190451df
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -24142,6 +24142,7 @@ browsershots.org#@#.advert_area
 ||cowerretortnineteen.com^
 ||cowtownimbrued.qpon^
 ||coxbesoul.shop^
+||coxiestbebusy.shop^
 ||coxiesthubble.com^
 ||coxpythiuspau.cyou^
 ||coxscarcer.qpon^
@@ -40579,6 +40580,7 @@ browsershots.org#@#.advert_area
 ||moustachemailboxdesirable.com^
 ||moustacheoverloadwar.com^
 ||moustoctopaswafd.cfd^
+||mouthemifftaeniae.cfd^
 ||moutonstumeric.com^
 ||mov43zcm93zim84ul.cfd^
 ||movad.de^
@@ -46887,6 +46889,7 @@ browsershots.org#@#.advert_area
 ||qlpqyeiodksjq.online^
 ||qlpwodpqwzqcc.website^
 ||qlpynjbergqab.online^
+||qlseevrjqyxif.website^
 ||qltmybhqlrdae.website^
 ||qlucmyomqatcz.online^
 ||qlusrztqgxqfw.website^
@@ -48706,6 +48709,7 @@ browsershots.org#@#.advert_area
 ||rmddhrvvnhemw.online^
 ||rmddsanqhfkvm.online^
 ||rmdmwnoxsjukc.site^
+||rmerfszrhuhrx.space^
 ||rmfnmkuwsgeje.website^
 ||rmgdxpkjmrjdt.website^
 ||rmggipaazeupw.site^
@@ -48869,6 +48873,7 @@ browsershots.org#@#.advert_area
 ||rooinekpampa.shop^
 ||rookishbirde.com^
 ||roolhopes.shop^
+||roolriuzqsyfq.website^
 ||roomerspits.cfd^
 ||roomierhisis.com^
 ||roommateskinner.com^
@@ -56581,6 +56586,7 @@ browsershots.org#@#.advert_area
 ||virileissedoi.qpon^
 ||virionretint.qpon^
 ||vironcanulas.cyou^
+||vironlichens.cfd^
 ||virosisrase.shop^
 ||virsfeqtfhlnp.site^
 ||virtuallypractice.com^
@@ -77958,6 +77964,8 @@ staples.com###searchResultsContainer [data-id^="tile"]:has(.standard-tile__spons
 scribd.com###sidebar > div:has(> div > [data-e2e^="dismissible-ad-header"])
 bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 gsmarena.com###subHeader:has(> #topAdv)
+amazon.*###typ-recommendations-stripe-1:has(div[data-is-sponsored-label-active="true"])
+amazon.*###typ-recommendations-stripe-2:has(div[data-is-sponsored-label-active="true"])
 gamereactor.*###videoContainer:has(> [id^="videoContent-videoad-"])
 ping0.cc###websites-wrap:has([rel$="sponsored"])
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])

@@ -126,12 +126,12 @@ web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.proto
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24745 - https://voe.sx/e/2z9smej3tebe
 ! VOE sites
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=ellenpoliticalfollow.com,important
-ellenpoliticalfollow.com##+js(nowoif)
-ellenpoliticalfollow.com##+js(set, console.clear, undefined)
-ellenpoliticalfollow.com##+js(acs, globalThis, break;case)
-ellenpoliticalfollow.com##+js(acs, WebAssembly, atob)
-||ellenpoliticalfollow.com^$badfilter
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=caseyimpactstation.com,important
+caseyimpactstation.com##+js(nowoif)
+caseyimpactstation.com##+js(set, console.clear, undefined)
+caseyimpactstation.com##+js(acs, globalThis, break;case)
+caseyimpactstation.com##+js(acs, WebAssembly, atob)
+||caseyimpactstation.com^$badfilter
 
 ! next-episode .net
 !next-episode.net##+js(rmnt, script, '/[\s\S]{0,}head[\s\S]{1900,}/')
@@ -512,7 +512,7 @@ nicovideo.jp#@#a[href$="_tagrelatedbanner"]
 ||roblox.com.$all,badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/33072#issuecomment-4945020836
-!||x.com/i/api/1.1/flow/viewer.json$badfilter
+||x.com/i/api/1.1/flow/viewer.json$badfilter
 
 ! https://github.com/easylist/easylist/commit/1ec982848559cd61d9a462a23af788223979315c
 ||ads-twitter.com^$badfilter

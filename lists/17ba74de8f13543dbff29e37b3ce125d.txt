@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607191102
+! Version: 202607191118
 ! Title: EasyList
-! Last modified: 19 Jul 2026 11:02 UTC
+! Last modified: 19 Jul 2026 11:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f420b1f051e3d8c998207de11d3b0a0d8aa80816
+! Commit: 11e6bb6694ff9d29a6874592ac76fd9f3e3f96c5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -27516,6 +27516,7 @@ browsershots.org#@#.advert_area
 ||egctjciixiire.space^
 ||egcuxefgvsjpw.online^
 ||egczoevqyffdo.site^
+||egfhxhrwlajuz.space^
 ||egfqzlqcynxif.online^
 ||egfrmduvcjtde.website^
 ||eggedpinax.qpon^
@@ -28159,6 +28160,7 @@ browsershots.org#@#.advert_area
 ||eoxmqlvcylamr.online^
 ||eoxqhxcsdavis.website^
 ||eoymwwdawroxg.website^
+||eoztlcmvqodmx.online^
 ||epacash.com^
 ||epacrisbaloney.shop^
 ||epajsxijrpzbh.online^
@@ -36909,6 +36911,7 @@ browsershots.org#@#.advert_area
 ||khhjyakxoihvr.online^
 ||khiclickrkafw.online^
 ||khidlcdjhlsfu.space^
+||khirdoable.qpon^
 ||khlhqwlnesbbm.space^
 ||kho6tohc2iup6p9i4u8ju.rest^
 ||khoagufhmp.com^
@@ -74252,6 +74255,7 @@ sltrib.com##.grid-ad-container-2
 teleboy.ch##.grid-col-content-leaderboard
 newsnow.co.uk##.grid-column__container
 pixiv.net##.grid-flow-dense > .aspect-square.overflow-hidden
+pixiv.net##.grid-flow-dense > .col-span-full.overflow-hidden
 issuu.com##.grid-layout__ad-by-details
 issuu.com##.grid-layout__ad-by-reader
 issuu.com##.grid-layout__ad-in-shelf
@@ -76820,6 +76824,7 @@ bitcoinist.com,captainaltcoin.com,coinpaprika.com,cryptonews.com,cryptonewsz.com
 manabadi.co.in##[class*="dsc-banner"]
 startribune.com##[class*="htlad-"]
 prydwen.gg##[class*="promo-"]
+pixiv.net##[class*="style_ads_"]
 giphy.com##[class*="w-adCarousel"]
 fullmatch.info##[class*="wp-image"]
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.lt,douglas.lv,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk,nocibe.fr##[class="cms-criteo"]
@@ -77287,7 +77292,6 @@ bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo
 bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo.co,mangadna.com,messitv.net,miraculous.to,putlockers.li,sukidesuost.info,waploaded.com,yts-subs.com##[style*="z-index:"]
 shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 realitytvworld.com##[style="background-color: white; background: white"]
-pixiv.net##[style="display: block; height: 345px; width: 500px;"]
 pixiv.net##[style="display: block; width: 100%; height: 520px;"]
 pixiv.net##[style="display: block; width: 300px; height: 250px;"]
 imgbox.com##[style="display: inline-block;width:300px;height:250px"]
@@ -77798,7 +77802,6 @@ timeout.com##div[id^="ad-side-"]
 javacodegeeks.com##div[id^="adngin-"]
 agoda.com##div[id^="ads-"]
 advrider.com##div[id^="ads_"]
-pixiv.net##div[id^="adsdk-"]
 antiguanewsroom.com##div[id^="antig-"]
 check-host.net##div[id^="antpeayvraea"]
 slidesgo.com##div[id^="article_ads"]
@@ -77948,13 +77951,10 @@ drive.com.au##hr
 linkedin.com##iframe[componentkey$="_ad"]
 nordstrom.com##iframe[data-revjet-options]
 linkedin.com##iframe[height="250"][width="300"]
-pixiv.net##iframe[height="300"][name="responsive"]
-pixiv.net##iframe[height="520"][name="expandedFooter"]
 lolvvv.com,yourbittorrent.com##iframe[src]
 realgearonline.com##iframe[src^="http://www.adpeepshosted.com/"]
 linkedin.com##iframe[title="Advertisement"]
 linkedin.com##iframe[title="advertisement"]
-pixiv.net##iframe[width="300"][height="250"]
 premiumtimesng.com##img[alt$=" Ad"]
 vortexscans.org##img[alt*="Advertisement"]
 f1technical.net##img[alt="Amazon"]
@@ -78476,7 +78476,7 @@ staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProduct
 kayak.com##[role="tab"]:has([class*="sponsored"])
 pixiv.net##[span="1"]:has(> div > div > div[style="display: block; width: 100%; height: 434px;"])
 unknowncheats.me##[style*="justify-content"]:has([rel^="sponsored"]) + [style]
-pixiv.net##[style^="display: block; width: 100%; height"]:has(> iframe[data-uid])
+pixiv.net##[style^="display: block;"]:has(> iframe[data-uid])
 manomano.*##a[class]:has(> .UWP_c8)
 aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
 aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])

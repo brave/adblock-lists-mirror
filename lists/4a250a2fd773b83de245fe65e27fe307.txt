@@ -9,13 +9,13 @@ turdanews.net##+js(nostif, ai_)
 turdanews.net##+js(rmnt, script, adsbygoogle)
 
 ! nosteam.ro + nosteamgames popups
-nosteam.ro,nosteamgames.ro##+js(nowoif)
+nosteam.com.ro,nosteam.ro,nosteamgames.ro##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8709
-competentedigitale.ro##+js(acis, Math.floor, offsetHeight)
+competentedigitale.ro##+js(rmnt, script, /adb/i)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8753
-*$script,redirect-rule=noopjs,domain=protvplus.ro
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=protvplus.ro,redirect-rule=noopjs
 
 stirileprotv.ro##*:matches-css-before(content:/ADVERTISING/):remove()
 acasatv.ro,sport.ro##*:matches-css-before(content:/ADVERTISING/):remove()
@@ -40,13 +40,6 @@ litoraltv.ro##html:style(overflow: auto !important;)
 ! anti-adb
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|realitatea.net|spynews.ro|zutv.ro|evz.ro
 
-! posturi. live popups
-posturi.live##+js(nowoif)
-posturi.live##+js(nosiif, location)
-posturi.live##+js(acs, setTimeout, admc)
-||blaneo.com^
-||cumult.com^
-
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=qbebe.ro,redirect=google-ima.js,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=divahair.ro,redirect=google-ima.js,important
 
@@ -56,9 +49,6 @@ cinemagia.ro###banner_container_top
 cinemagia.ro###header:style(position:static!important; top: 0 !important;)
 cinemagia.ro###main_container:style(padding-top: 0 !important;)
 cinemagia.ro##.header_nav:style(position:static !important;)
-
-filmeonlinesubtitrate.org##+js(aopr, doSecondPop)
-yoixmzo.xyz##+js(aopr, doSecondPop)
 
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=radioimpuls.ro,redirect-rule=google-ima.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=smartliving.ro,redirect-rule=google-ima.js
@@ -78,12 +68,6 @@ vzlinks.com##+js(set, adblockcheck, false)
 ||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=vzlinks.com
 
 @@||regielive.ro^$ghide
-
-! https://github.com/uBlockOrigin/uAssets/issues/21041
-filme2023.online,onlyplay.online##+js(aopw, _pop)
-filme2023.online##+js(rmnt, script, document.head.appendChild)
-*&ad=$frame,domain=filme2023.online
-onlyplay.online##+js(nowoif, , 10)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/21915
 boardingpass.ro##+js(nostif, ai_adb)
@@ -106,9 +90,6 @@ gsp.ro##+js(rmnt, script, document.body.classList.add)
 business24.ro##.banner
 business24.ro##.branding-container
 business24.ro##div.banner-container
-
-! stream player anti-adblock
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,method=get,domain=tvonline123.com
 
 ! video player anti-adb
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=kanald2.ro

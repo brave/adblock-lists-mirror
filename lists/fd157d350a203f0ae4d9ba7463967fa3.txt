@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CpBx1PeUiG3vG3zhODqM6A
-! Version: 202607210852
+! Checksum: wO3J512GibComyvOieKxzA
+! Version: 202607210952
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Jul 2026 08:52 UTC
+! Last modified: 21 Jul 2026 09:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10747,6 +10747,7 @@ _tizers.
 ||vjcbm.com^$third-party
 ||vjqvcl.com^$third-party
 ||vk.com/rtrg$third-party
+||vk.ru/rtrg$third-party
 ||vk242.ru^$third-party
 ||vkcdn.ru^$third-party,domain=~vk.company
 ||vkkpv.com^$third-party
@@ -26929,7 +26930,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||vk.com/ads_office_api.php?act=fetch_notices|$xmlhttprequest,domain=biz.production.vklanding.ru|vk.com
 @@||vk.com/ads_rotate.php?$xmlhttprequest,domain=biz.production.vklanding.ru
 @@||vk.com/js/api/openapi.js$domain=~winstation.ru
-@@||vk.com/rtrg$image,domain=24cyber.ru
 @@||vkbog.com/account/advertiser/check|$xmlhttprequest,domain=vkbog.com
 @@||vodyanoy.com.ua^*700_200.jpg|$domain=vodyanoy.com.ua
 @@||voenhronika.ru/banners/*.png|$domain=voenhronika.ru

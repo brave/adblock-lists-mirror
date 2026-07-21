@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zlYU1AFsU+K+R0llIJR1Wg
-! Version: 202607211025
+! Checksum: i7BfBrbI/cFrAgUwYDj6Kg
+! Version: 202607211650
 ! Title: Fanboy's Newsletter List
-! Last modified: 2026-07-21 10:25 UTC
+! Last modified: 2026-07-21 16:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6132,6 +6132,8 @@ urbanoutfitters.com##+js(set-local-storage-item, modalViewed, 1)
 dollartree.com###email-signup-template
 dollartree.com##.modal-backdrop
 dollartree.com##body,html:style(overflow: auto !important; position: initial !important;)
+! atgames.us
+atgames.us##+js(set-local-storage-item, theme:popup-appeared, true)
 ! wahaca.co.uk
 wahaca.co.uk##+js(rc, oxy-modal-active, body, stay)
 wahaca.co.uk##.oxy-modal-backdrop

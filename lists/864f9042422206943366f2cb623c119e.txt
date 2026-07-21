@@ -87,6 +87,9 @@ clalitsmile.co.il##.ccm-root
 l-s.co.il##.sogo-pc-banner
 /wp-content/plugins/saglix-cookie-consent-manager/*
 willi-food.co.il##.scm-banner
+91fm.co.il##.dkd-banner
+checkid.co.il###approval-popup
+beitberl.ac.il,shimur.org###MavilixCookiesBox
 
 !!! Trusted scriptlets------------------------------------------------------------
 
@@ -5681,3 +5684,6 @@ visualcrossing.com##+js(trusted-set-local-storage-item, vcstate, '{"required":{"
 
 ! Necessary + functional
 kkjmk.net##+js(trusted-set-cookie, cookie-consent-v2, '{"necessary":true,"analytical":false,"marketing":false,"functional":true}', 1year)
+
+! Accept (for chat and settings personalization)
+hel.fi##+js(trusted-click-element, .hds-cc__target >>> .hds-cc__all-cookies-button)

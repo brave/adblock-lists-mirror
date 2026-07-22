@@ -461,6 +461,7 @@ kinotv.ru##+js(set-cookie, telegram_popup, Y)
 championat.com,championat.ru,ferra.ru,gazeta.press,gazeta.ru,indicator.ru,lenta.news,lenta.ru,letidor.ru,moslenta.ru,motor.ru,passion.ru,quto.ru,secretmag.ru,wmj.ru##+js(set-cookie, unity_pause_sso, 1, '', reload, 1)
 mp3party.net##+js(set-cookie, yandexFull, true)
 sport-express.net,sport-express.ru##+js(set-local-storage-item, __videoboxActive, false)
+dzen.ru##+js(set-local-storage-item, browser-switch-trap-ts, {})
 finuslugi.ru##+js(set-local-storage-item, headerBannerShownAt, 1)
 playground.ru##+js(set-local-storage-item, pg_GPbackVideo, on)
 rg.ru##+js(set-local-storage-item, rekl_modal_shown, {})
@@ -690,7 +691,7 @@ ya.ru,yandex.*##.simple-popup__overlay:remove()
 ||video.sports.ru/embed/*autoplay=1$subdocument,removeparam=autoplay
 ||widgets.kinopoisk.ru/discovery/trailer/*&loop=1&autoplay=1$subdocument,domain=www.kinopoisk.ru
 ||yandex.ru/ads/system/context.js$script,redirect=noopjs,domain=tragtorr.in|tragtorr.info
-||yastatic.net/s3/home-static/feeds/$third-party
+||yastatic.net/s3/home-static/feeds$third-party
 ||youtube-nocookie.com/embed/*autoplay=1$subdocument,removeparam=autoplay,domain=weukraine.tv
 ||youtube.com/embed/*autoplay=1$subdocument,removeparam=autoplay,domain=~dtf.ru|~kinoafisha.info|~pikabu.ru|~poolsuite.net|~vc.ru
 ||youtube.com/embed/?enablejsapi=1&origin=*3dnews.*&widgetid=1$subdocument,badfilter,domain=3dnews.ru

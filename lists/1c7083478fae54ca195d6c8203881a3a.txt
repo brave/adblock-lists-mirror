@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.3.9.5
+! Version: 4.3.9.6
 
 ! General
 
@@ -209,8 +209,6 @@ indianexpress.com##div.ev-premium-paywall
 ||liveapp.inews.co.uk/*/content.html$inline-script
 inkl.com##+js(ra, class, div.paywall, stay)
 inkl.com##div.gradient-container
-interestingengineering.com##body:style(overflow: auto !important; position: relative !important; top: unset !important)
-interestingengineering.com##main>div[class*="t-hidden"],div.t-bg-black
 investors.com##+js(cookie-remover, __tbc)
 irishexaminer.com/##+js(cookie-remover, blaize_session)
 japantimes.co.jp##+js(cookie-remover, xbc)
@@ -399,8 +397,6 @@ tomshardware.com##+js(rc, paywall-locker, div.paywall-locker, stay)
 tomshardware.com##div#kiosq-app-paywall-js
 unherd.com##+js(ra, id, div#premiumcontent, stay)
 unherd.com##div#premiumpreview
-valeursactuelles.com##div.qiota
-valeursactuelles.com##+js(ra, class, div.qiota_reserve, stay)
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
 ||washingtonpost.com/*/tetro-client/$script,~third-party
 ||weser-kurier.de/assets/*/wk-bundle.min.js$script,~third-party
@@ -665,6 +661,7 @@ dasinvestment.com##div#paywall
 divisare.com##div.blocker
 divisare.com##+js(ra, style, body[style], stay)
 dominionpost.com##+js(rc, entry-content, article > div.entry-content, stay)
+||gstatic.com/firebasejs/*/firebase-auth-compat.js$script,domain=eleconomista.com.ar
 elfinancierocr.com##+js(ra, style, div.article-body-wrapper__styled[style], stay)
 elfinancierocr.com##div.post
 epaper.indiatimes.com##div.epaperBlockerWrap

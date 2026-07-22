@@ -46,7 +46,7 @@ jobs:
         git push -u github lists
 
     - name: notify-slack-failed
-      uses: slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95 # v3.0.1
+      uses: slackapi/slack-github-action@dcb1066f776dd043e64d0e8ba94ca15cc7e1875d # v4.0.0
       if: failure()
       env:
         message: ":x:Adblock lists update job failed.\\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

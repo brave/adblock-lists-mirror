@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fzA0n1PXkS4+n6vwGvLFJA
-! Version: 202607230751
+! Checksum: 0JmcYmp1p67Zl+yGsMjQoA
+! Version: 202607230851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jul 2026 07:51 UTC
+! Last modified: 23 Jul 2026 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1591,6 +1591,7 @@ by,~mail.ru,ru,ua##.banner_box
 ~fukaka.ru##a[href^="https://fukaka.ru/"]
 ##a[href^="https://homyanus.com"]
 ~ishosting.com##a[href^="https://ishosting.com"][target="_blank"]:not(thanks-opennet.ru)
+~jump-jump.com##a[href^="https://jump-jump.com"]
 ##a[href^="https://kshop"][href*=".com/"]
 ##a[href^="https://kshop"][href*=".pro/"]
 ##a[href^="https://msetup.pro"]
@@ -14115,6 +14116,7 @@ livelib.ru##.btn-buy-holder
 s1pcprogs.ru##.btn-dw-ya
 download-windows.org,softhome.ru##.btn-installpack
 shopping.nv.ua##.btn-product-embed
+lenkino.adult,yalenkino.org##.btn-spt
 mozhaysksg.ru##.btop
 newauthor.ru##.bue-align-c
 ua-football.com##.buk-table
@@ -16887,7 +16889,6 @@ vitaportal.ru##.vHeight300
 batsa.me,express-novosti.ru##.v_adv
 val.ua##.val-external__top-banner
 val.ua##.val-sidebar
-lenkino.adult,yalenkino.org##.vb-spt
 loveradio.ru##.vbanners
 upl.ua##.vbet-mid
 myshave.ru##.vbmenu_popup + div[align="center"]:not([id]):not([class])
@@ -20292,7 +20293,7 @@ agro-business.com.ua##section[id^="sp-subcribe-footer"]:not(#sp-subcribe-footer)
 sex-studentki.*##.description > button[style*="color:red;"]
 shiki.one,shikimori.one,shikimori.*##div[class^="spns"]
 shiki.one,shikimori.one,shikimori.*#?#.f-user:-abp-has(> div[class^="spns"])
-sosalkino.tube,sosalkino.*##.spot.after_player
+sosalkino.guru,sosalkino.*##.spot.after_player
 point.md##span > a[href*="/novosti/business/"]
 bhf.io##span > a[href][target="_blank"][rel="nofollow"]
 nvplay.ru##span > i > span[style="font-weight: 400;"]

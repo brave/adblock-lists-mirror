@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fO0PRdROOmYyyEQ0ybeMIg
-! Version: 202607231042
+! Checksum: ZNg3cNw5QrNwKn4Ca2GGbg
+! Version: 202607231141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jul 2026 10:42 UTC
+! Last modified: 23 Jul 2026 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23953,6 +23953,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
+||rutube.ru/api/tags/video/$domain=www.rambler.ru
 ||websdr.su^$~document,~third-party
 ! howdyho - набор правил для проверки таймаута рецидивов
 howdyho.net#@#.g-ads
@@ -24875,6 +24876,7 @@ lenta.news,lenta.ru##.vk-video-popup
 lenta.news,lenta.ru##.yandex-games
 rambler.ru,rambler.ua,www.afisha.ru##[aria-label="Реклама"]
 mail.rambler.ru##[class*="MaillistItemAdvertPlace"]
+www.rambler.ru##[class*="licy-not"]
 championat.com,lenta.news,lenta.ru##[class*="scroll-to-site"]
 auto.rambler.ru,avtorambler.com##[data-auto_media-desktop*="rnet_widget"]
 auto.rambler.ru,avtorambler.com#?#[data-auto_media-desktop="content_block"] ~ div div:-abp-has(> div > [data-rcmw-init])

@@ -225,6 +225,9 @@ ing-sat.hu##+js(set, document.onmousedown, null)
 ! https://github.com/uBlockOrigin/uAssets/issues/33820
 primariasector2.ro##+js(rmnt, script, .blockContextMenu)
 
+! https://github.com/uBlockOrigin/uAssets/issues/33819
+posturi.gov.ro##:root:style(user-select: unset !important)
+
 ! END: Anti copy, right-click etc.
 
 ! START: Anti-adblock
@@ -360,6 +363,10 @@ vaughn.live##+js(trusted-click-element, button#vs_modal_v9_notice_dismiss)
 civitai.com,civitai.red##a[href="/pricing"] img
 civitai.com,civitai.red##div.relative.flex[style="min-height:90px"]:has(> button[aria-label="Close ad"])
 civitai.com,civitai.red##+js(trusted-replace-argument, String.prototype.endsWith, 0, , condition, /edit)
+
+! https://github.com/uBlockOrigin/uAssets/issues/29426#issuecomment-5078806861
+jelonka.com##+js(trusted-set-local-storage-item, jelonka_news_ad_access_gate_first_detected_at, $now$)
+jelonka.com##+js(trusted-set-local-storage-item, jelonka_news_ad_access_gate_soft_dismissed_at, $now$)
 
 ! END: Anti-adblock
 
@@ -8163,6 +8170,3 @@ civitai.com##.dark\:bg-dark-9.dark\:border-dark-4:has([aria-label="Close ad"])
 dejure.org##+js(set, ad_allowed, true)
 dejure.org#@##AdsDiv
 dejure.org##+js(remove-cookie, adblock_counter)
-
-! https://github.com/uBlockOrigin/uAssets/issues/33819
-posturi.gov.ro##:root:style(user-select:unset!important)

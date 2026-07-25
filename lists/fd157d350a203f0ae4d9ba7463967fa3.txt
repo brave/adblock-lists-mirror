@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XeQukyFg+fVpRvJgwkueKQ
-! Version: 202607250841
+! Checksum: 3R7tkPIGo0XSUFEgKXHOfA
+! Version: 202607250941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jul 2026 08:41 UTC
+! Last modified: 25 Jul 2026 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4632,6 +4632,7 @@ _tizers.
 ||bajvt.com^$third-party
 ||bakibarus.com^$third-party
 ||baks-easy.com^$third-party
+||balamutka.link^$third-party
 ||bamboss.ru^$third-party
 ||bambun.ru^$third-party
 ||banalyze.net^$third-party
@@ -15593,6 +15594,7 @@ pimpletv.ru##.odds
 cardiologiya.com,omastopatii.ru##.offblo
 1progs.ru,gafki.ru,notorgames.net,torrent-films.org##.offer
 dermatitanet.ru##.offer-ac
+programma-peredach.com##.offers
 gagadget.com##.offers-index
 agro-biz.ru,ecology-of.ru##.offersblock
 gamestatus.info##.offline-act-banner
@@ -25128,6 +25130,7 @@ sports.ru##.ad-wrapper
 sports.ru##.app-ratings
 sports.ru#?#.aside-news-list__item:-abp-has(> a[href^="https://goo.su/"])
 sports.ru#?#.aside-news-list__item:-abp-has(> a[href^="https://sirena.world/"])
+sports.ru#?#.aside-news-list__item:-abp-has(a[href*="?utm_source="])
 sports.ru##.bookmaker-bonus-block
 sports.ru##.bookmaker-bonuses
 sports.ru##.branding-ad-link
@@ -25157,6 +25160,7 @@ sports.ru#?#.match-poll:not(:-abp-has(*))
 cyber.sports.ru##.match-teaser__betting-bar
 sports.ru##.matches-entertainment-rating__advertise
 sports.ru#?#.material-list__item:-abp-has(.content-label:-abp-contains(/Реклама|Pеклама/))
+sports.ru#?#.material-list__item:-abp-has(a[href*="?utm_source="])
 sports.ru#?#.material-list__item:-abp-has(a[href^="https://sprts.cc/"])
 sports.ru##.mc-layout__top-ads
 sports.ru##.middle-banner-place
@@ -25179,6 +25183,7 @@ sports.ru##.poll__bookmaker-link
 sports.ru##.poll__bookmaker-logo
 cyber.sports.ru##.polling
 cyber.sports.ru##.post-content a[href*="://sirena.world/"]
+sports.ru##.post-layout__branding
 sports.ru##.post-layout__frame
 sports.ru##.post-page__branding
 sports.ru##.promo-link
@@ -27361,6 +27366,7 @@ forums.overclockers.ru##tr > td[nowrap="nowrap"][style^="color: red;"][style$="f
 ||gametorrent.org/templates/gametorrent/js/ablock.js
 ||glav.su/js/libs/abd/abd.js
 ||howdyho.*/media/js/main-pn5-ru.js
+||hqtv.su/iframe/js.js
 ||in-english.club/statistic/my.js
 ||itcrowd.top/templates/yootheme/block.js
 ||moi-detsad.ru/wp-content/cache/autoptimize/js/autoptimize_*.js

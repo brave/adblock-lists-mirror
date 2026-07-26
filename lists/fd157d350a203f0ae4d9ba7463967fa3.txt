@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zFP/sjUigdFbp6THdjP+Lw
-! Version: 202607260441
+! Checksum: 4mE2FAF7YtVmcZBXvJEwmw
+! Version: 202607260602
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Jul 2026 04:41 UTC
+! Last modified: 26 Jul 2026 06:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -9496,6 +9496,7 @@ _tizers.
 ||saltedslimes.com^$third-party
 ||salutbook.ru^$third-party
 ||samiana.com^
+||samograyka.link^$third-party
 ||sandratand.ru^$third-party
 ||sandsewass.com^$third-party
 ||sandsitfor.com^$third-party
@@ -19446,7 +19447,7 @@ finmarket.ru##div[id*="_ban"]
 niv.ru##div[id*="_ban_"]
 kavkazova.ru##div[id*="actionteaser"]
 ochevidets.ru##div[id*="baner"]
-bina.az,bitpump.ru,botanichka.ru,chem21.info,enovosty.com,ixbt.games,ixbt.market,ixbt.pro,ogorodnik.com,orelgrad.ru,propozitsiya.com,qafqazinfo.az,snow-motion.ru,stadion.uz,tap.az,turbo.az,uralpress.ru,www.ixbt.com##div[id*="banner"]
+bina.az,bitpump.ru,botanichka.ru,chem21.info,enovosty.com,ixbt.games,ixbt.market,ixbt.pro,ixbt.video,ogorodnik.com,orelgrad.ru,propozitsiya.com,qafqazinfo.az,snow-motion.ru,stadion.uz,tap.az,turbo.az,uralpress.ru,www.ixbt.com##div[id*="banner"]
 propozitsiya.com##div[id*="bunner"]
 drom.ru,newsvl.ru,vl.ru##div[id*="candy"]
 akipress.org##div[id*="company"]
@@ -24894,7 +24895,7 @@ lenta.news,lenta.ru##.vk-video-popup
 lenta.news,lenta.ru##.yandex-games
 rambler.ru,rambler.ua,www.afisha.ru##[aria-label="Реклама"]
 mail.rambler.ru##[class*="MaillistItemAdvertPlace"]
-www.rambler.ru##[class*="licy-not"]
+rambler.ru##[class*="licy-not"]
 championat.com,lenta.news,lenta.ru##[class*="scroll-to-site"]
 auto.rambler.ru##[data-auto_media-desktop*="rnet_widget"]
 auto.rambler.ru#?#[data-auto_media-desktop="content_block"] ~ div div:-abp-has(> div > [data-rcmw-init])

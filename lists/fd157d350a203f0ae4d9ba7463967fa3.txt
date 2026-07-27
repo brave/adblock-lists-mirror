@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lCHYrJvOHC6YaOrmxE3XMQ
-! Version: 202607271711
+! Checksum: up4I0seuYzOO9LBZeAEqag
+! Version: 202607271802
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Jul 2026 17:11 UTC
+! Last modified: 27 Jul 2026 18:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24896,6 +24896,7 @@ championat.com,championat.ru##a[href*="offer_id="]
 championat.com,championat.ru,lenta.news,lenta.ru##a[href*="okko.sport"]
 www.afisha.ru##a[href^="/out/?url="]
 gazeta.press,gazeta.ru##a[href^="/prcom/"]
+rambler.ru##article [id^="rambler-weather-container:"] ~ div[class]
 rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container"]:empty)
 rambler.ru#?#article div:-abp-has(> rambler-car-loan-calculator)
 rambler.ru#?#article div:-abp-has(> rambler-info-banner)

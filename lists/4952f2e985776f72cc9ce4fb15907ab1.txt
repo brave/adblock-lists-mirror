@@ -1,6 +1,6 @@
 ! Title: List-KR classic filters list (uBO)
 ! Description: uBlock Origin용 List-KR 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20655.2
+! Version: 2026.20662.0
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/List-KR/List-KR
 ! Licence: https://github.com/List-KR/List-KR/blob/master/LICENSE
@@ -3782,6 +3782,7 @@ dicoall.com#@##rightAd
 litomi.in##+js(trusted-create-html, #juicy-ads-banner > div[data-juicy-ads-slot] > div, <iframe></iframe>)
 litomi.in##ins
 !
+thelabyrinth.co.kr##+js(no-fetch-if, pagead2.googlesyndication.com method:HEAD)
 windowsforum.kr##+js(aeld, load, 'banner.offsetHeight')
 etoland.co.kr##+js(no-fetch-if, /pagead2.googlesyndication.com|googleads.g.doubleclick.net|googletagservices.com|securepubads.g.doubleclick.net|googleads.g.doubleclick.net|google-analytics.com|googlesyndication.com|doubleclick.net/)
 ||ragmaya.kr/static/rm_adblock_wall.js

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Edd/fbeip/9mvAcO6DjFQw
-! Version: 202607291342
+! Checksum: jiJ9B7GOp8NPYZVBlw/npg
+! Version: 202607291452
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Jul 2026 13:42 UTC
+! Last modified: 29 Jul 2026 14:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12116,6 +12116,7 @@ people-ask.ru###contentBox > #right > #rightContent
 top-mods.ru###content_l_box > .column_wrap > div[style*="min-height:"]
 freescreens.ru,imgbase.ru,imgcach.ru,imgclick.ru,payforpic.ru,picclick.ru,picclock.ru,picforall.ru###content_r
 alldonors.ru###content_r_box
+notebookcheck-ru.com###contenta
 youtube.com#?##contents > ytd-rich-item-renderer:-abp-has(> #content > ytd-display-ad-renderer)
 banki24.by###courses-main > tbody > tr.static
 zzap.ru###ctl00_TopPanel_LangPanel > .top
@@ -12463,6 +12464,9 @@ dofiga.net###nav_news > table[class]
 dofiga.net###nav_right
 bitmakler.com###navbar-container > div[style^="height"]
 divx-kino.ru###navlist a[href][target="_blank"]
+notebookcheck-ru.com###nbc_leftb
+notebookcheck-ru.com###nbc_main > div[id^="har"]
+notebookcheck-ru.com###nbc_skys
 liwihelp.ru###ne_nazhimat
 kinored.club###new-ad-part
 the-ebook.org###new-adver-promo
@@ -15447,6 +15451,7 @@ forum.fonarevka.ru##.navbar_banners
 srtclub.ru##.navbar_notice a[href][target="_blank"]
 mobile-review.com##.navmenu__advert
 kafanews.com#?#.nb2-list:-abp-has(> .nb2-head:-abp-contains(Визитка))
+notebookcheck-ru.com##.nbc-r-float-inline
 nikcenter.org#?#.nchead:-abp-has(> .ncheading:-abp-contains(/партн/i))
 nur.kz##.nearest-matches
 eapteka.ru##.neon-skeleton
@@ -18687,7 +18692,7 @@ raes.tech,sbfull.com,wigistream.to##body > div[style*="2147483647"]
 nagon.net##body > div[style*="cursor: pointer;"]
 pay-day.ru##body > div[style*="fixed"]:not([id]):not([class])
 ykt.ru##body > div[style*="height:"][style*="180px"]
-news.zerkalo.io##body > div[style*="height:250px"]
+news.zerkalo.io##body > div[style*="height:"][style*="250px"]
 biqle.org,biqle.ru##body > div[style*="position"][style*="background"]
 cakevita.ru,darevamed.ru##body > div[style*="width"][style*="z-index"][style*="position"]
 chelnyclub.ru##body > div[style*="width: 990px"]
@@ -19711,6 +19716,7 @@ reshak.ru##div[style*="height:325px;"]
 euro-football.ru,liveresult.ru##div[style*="height:400px;"]
 narutoplanet.ru##div[style*="margin-top: 9.5px;"]
 euro-football.ru,liveresult.ru##div[style*="min-height:"][style*="00px"]
+news.zerkalo.io##div[style*="min-height:"][style*="250px"]
 chipmaker.ru##div[style*="min-height:100px;"]
 glavred.info,glavred.net##div[style*="px;max-height:"][style*="overflow:"][style*="hidden"]
 glavred.info,glavred.net,unian.net,unian.ua##div[style*="px;max-height:"][style*="position:"]
@@ -19812,6 +19818,7 @@ xn--c1ajfnfb.xn--p1acf##div[style^="background:"][style*="/ple.jpg)"]
 modfix.ru##div[style^="border: 1px solid #b56e13; padding: 5px; border-radius: 6px; font-size:"]
 chelnyclub.ru##div[style^="clear: both"] a[href]:not([href*="chelnyclub.ru"])
 domkad.ru##div[style^="display: flex; align-items: center; justify-content: center; background-color: #ECF3F7; margin-bottom: 5px;border-radius: 7px; padding: 5px;position: relative;z-index: 0; min-height:"]
+notebookcheck-ru.com##div[style^="display: inline-block; text-align: center; vertical-align: top;"]
 moto.com.ua##div[style^="display: table; width: 650px; height: 90px;"]
 sarov.info##div[style^="display:inline-block"][style$="margin:0px 0px 12px 0px;"]
 zhenskoe-mnenie.ru#?#div[style^="font-size"]:-abp-contains(Также узнайте...)
@@ -21948,7 +21955,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||hrk.aero/wp-content/themes/hrk-new/*banners/
 ||hromadske.radio/assets/banners/
 ||hsl.com.ua/*parimatch$image
-||html-load.com/loader.min.js$domain=businessua.com|eurointegration.com.ua|news.zerkalo.io|newsyou.info|notebookcheck-ru.com|pravda.com.ua|sportanalytic.com
+||html-load.com/loader.min.js$domain=businessua.com|eurointegration.com.ua|newsyou.info|notebookcheck-ru.com|pravda.com.ua|sportanalytic.com
 ||html-template.ru/images/banners/
 ||htmlbook.ru/files/$object
 ||htmlbook.ru/sites/default/files/$object
@@ -27235,6 +27242,7 @@ bidbaits.ru##.cover-msg
 tarkov-market.com##.disable-adblock
 internetsms.org##.fade[class^="modal"]
 dailymail.co.uk,fashion2news.com,hotallnews.today,ilenta.com,in-poland.com,kreschatic.kiev.ua,moyens.net,newspad.ru,pimpletv.ru,portaltele.com.ua,pravda.com.ua,tales.org.ua,ukranews.com,wormax.io,zazloo.ru##.fc-ab-root
+notebookcheck-ru.com##.fc-whitelist-root
 hdkinoteatr.com##.fixedBg
 aniqit.com,kodik.cc,kodik.info,kodikdb.com,kodikplayer.com##.fp-message .second-message
 wowhead.com##.is-atf.horizontal-bg

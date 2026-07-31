@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3JI2iRYXKsLk+gZjRLps2g
-! Version: 202607311303
+! Checksum: +eRiBDZf+Dav5oKwVgdazg
+! Version: 202607311422
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 Jul 2026 13:03 UTC
+! Last modified: 31 Jul 2026 14:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1783,7 +1783,8 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 .json?fre=$third-party,xmlhttprequest
 .json?unique=$third-party,xmlhttprequest
 .link/*/*/*?*=*-*-*-$third-party,xmlhttprequest
-.link/*/*?fre=$third-party,xmlhttprequest
+.link/*?fre=$third-party,xmlhttprequest
+.link/*?xJyqWI=$third-party,xmlhttprequest
 .mail.ru/pixel/$image
 .marketgid.com^$domain=~marketgid.com
 .md/ads/
@@ -15594,6 +15595,7 @@ zazbruchem.te.ua##.ova-place-block__position--rendered
 tv-assia.org##.ovdiv
 domkad.ru##.over-rsi
 russia-tv.online##.overflow-hidden.border[class*="border-brand-base"]
+kanobu.ru#?#.overflow-hidden:-abp-has(> [src^="/_next/static/media/grid_ad_"])
 bstudy.net,ozlib.com,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org##.overheader
 krastown.com##.overlay_wrap
 truba.com##.overvideo

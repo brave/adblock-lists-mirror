@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6G5FdGTH7KHcyIDYwWtZ7g
-! Version: 202607311121
+! Checksum: ANqF3CPF6+8+qcjZznx+YA
+! Version: 202607311211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 Jul 2026 11:21 UTC
+! Last modified: 31 Jul 2026 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13212,6 +13212,7 @@ gastronom.ru##.adfox-banner
 www.onliner.by##.adfox-banner-background
 magnit.ru##.adfox-carousel-skeleton-wrapper
 profile.ru##.adfox-hidden
+smotrim.ru##.adfox-topline
 baby.ru##.adfox-video-desk
 ren.tv##.adfox-wrapper
 babyblog.ru##.adfox__topWrapper
@@ -14844,7 +14845,6 @@ chelny-izvest.ru##.header__block > .header__block-title
 vse-pro-sport.com.ua,vseprosport.by,vseprosport.kz,vseprosport.ru##.header__bonus
 tsargrad.tv##.header__btn-small
 tvmag.ru##.header__dzen-link
-smotrim.ru##.header__wrapper--inner a[href^="/tariffs?redirect="]
 i.ua,tengriauto.kz,tengrinews.kz,tengrisport.kz##.header_adv
 izhlife.ru##.header_adv_wrapper
 greenpost.ua,job.ru##.header_banner
@@ -15148,7 +15148,7 @@ cubiq.ru##.lets-review-block__aff
 cwer.me,cwer.ru,cwer.su,cwer.ws##.like_hide
 homeporno.org##.line > a[href][target="_blank"] > *
 mmotop.ru##.link-1
-androidinsider.ru,appleinsider.ru##.link-alert
+androidinsider.ru,appleinsider.ru##.link-alert[rel*="sponsored"]
 androidinsider.ru,appleinsider.ru##.link-default[rel*="sponsored"]
 vinbazar.com##.link_image
 vinbazar.com##.link_img
@@ -16044,7 +16044,6 @@ wkino4.net##.right-full > noindex
 f1analytic.com,f1ua.org.ua#?#.right-indent > .wrapper-box:-abp-has(> div > .boxTitle:-abp-contains(/реклама/i))
 1kr.ua##.right-inner > .right-social ~ .right-social
 anistar.org,astar.bz,online-star.org,online-stars.org##.right-panel-bottom > .favorites ~ span
-gorod48.ru#?#.right-side > .reading:-abp-has(> div > #MediaMetricsInject)
 playboyrussia.com##.right-side > .sticky
 galka.if.ua##.right-sidebar .widget_text:last-child
 sochinyashka.ru##.right-sidebar > .block
@@ -23924,7 +23923,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?pg6Pu=$xmlhttprequest
+||pikabu.ru/ajax/*?pg5Pu=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

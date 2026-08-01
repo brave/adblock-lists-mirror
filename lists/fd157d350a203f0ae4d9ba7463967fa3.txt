@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jgK9FqLaezF1jVdOC9kCow
-! Version: 202608012151
+! Checksum: GR7fOVFTzEP39fzAu8cbrQ
+! Version: 202608012212
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Aug 2026 21:51 UTC
+! Last modified: 01 Aug 2026 22:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14165,6 +14165,7 @@ allboxing.ru##.coefficients
 fclmnews.ru##.coeffs
 66.ru#?#.col > .news-grid:-abp-has([class*="adv-"])
 kleo.ru#?#.col-2 > div[id^="right_block"]:-abp-has(.content_rb)
+fastpic.org##.col-auto > .justify-content-center
 prog-top.net##.col-cont div[align="center"]:not([class])
 rusdtp.ru##.col-left > .pope ~ .pope
 prsport.net##.col-lg-3
@@ -18649,7 +18650,6 @@ htmlweb.ru##body > div[id] > [onclick]
 htmlweb.ru##body > div[id] > [onclick] ~ *
 htmlweb.ru#?#body > div[id]:-abp-has(> [onclick])
 htmlweb.ru##body > div[id]:empty
-fastpic.org##body > div[id]:not([class]):not([style])
 fastpic.org##body > div[id][aria-hidden]
 sibnet.ru##body > div[id][class*="push"]
 ts.kg##body > div[id][data-link]
@@ -18709,6 +18709,7 @@ the-geek.ru##body::before
 livetvstream.pro,me##body[bgcolor] > #adbtm
 livetvstream.pro,me##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
 livetvstream.pro,me##body[bgcolor] > div[id^="iframe-container"]
+fastpic.org##body[class] > div[id]:not([class]):not([style])
 hi-fi.ru##body[data-pageid] #ipsLayout_sidebar
 2gis.by,2gis.kz,2gis.ru##button > div[style^="width: 136px; height: 100%;"]
 2gis.by,2gis.kz,2gis.ru##button > div[style^="width: 136px; height: 100%;"] ~ div[style*="pointer-events: auto"]

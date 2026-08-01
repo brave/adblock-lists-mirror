@@ -206,6 +206,13 @@ waaw.*##+js(aopr, doSecondPop)
 waaw.*##+js(nowoif)
 waaw.*##+js(set, arrvast, [])
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/52866
+javxxx.me###player_3x2_container_inner
+/player/plugins/vast-*.js$script
+! https://github.com/uBlockOrigin/uAssets/issues/33891
+/wp-content/themes/spacex/assets/js/funx.js
+||contentsprinter.xyz^
+
 ! END: Rules from filters.txt
 
 ! hostserverz detection
@@ -1477,3 +1484,11 @@ readcomicsonline.lol##+js(nostif, getComputedStyle)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/33896
 igniteseurope.com###ad-header:style(min-height: 0px !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/33908
+animationxpress.com##.fa-sticky-unit
+animationxpress.com##body.fa-has-header:style(padding-top: 0 !important;)
+animationxpress.com##body.fa-has-footer:style(padding-bottom: 0 !important;)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1vcbwnt/showing_vastadmov_ads_in_firefox/
+anime.nexus##div[data-vast-preroll]

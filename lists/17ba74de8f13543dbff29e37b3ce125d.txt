@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608021217
+! Version: 202608021257
 ! Title: EasyList
-! Last modified: 02 Aug 2026 12:17 UTC
+! Last modified: 02 Aug 2026 12:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8f3b422ee27ac28e04b0eca0a134edef8c62dc1f
+! Commit: a536143eb808fc5a78119ccec6065fa5ca6b824e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -27551,6 +27551,7 @@ browsershots.org#@#.advert_area
 ||dsndcg.com^
 ||dsneim.com^
 ||dsnfrt.com^
+||dsngwj.com^
 ||dsngws.com^
 ||dsnhfu.com^
 ||dsnhpm.com^
@@ -31724,6 +31725,7 @@ browsershots.org#@#.advert_area
 ||fvodjiezompvt.website^
 ||fvormhbpnzswo.space^
 ||fvpcmlmpoyldc.space^
+||fvpfkgblvurdf.online^
 ||fvpsbdbaiobud.space^
 ||fvrpgjewjakqo.site^
 ||fvutnpbszan.com^
@@ -31821,6 +31823,7 @@ browsershots.org#@#.advert_area
 ||fytcghbblhxff.online^
 ||fytvrytpipenx.space^
 ||fyxhvdyjwyilg.space^
+||fyzbeagfrxsrl.space^
 ||fyzfvrnfmtzxm.online^
 ||fyzoqppdyllsr.store^
 ||fzaatqzkent.com^
@@ -48670,6 +48673,7 @@ browsershots.org#@#.advert_area
 ||psywarbobo.qpon^
 ||pszggsvbtzzaa.space^
 ||pt-xb.xyz^
+||pt5ugnxnyle3zw.rest^
 ||pta.wcm.pl^
 ||ptalribs.xyz^
 ||ptapjmp.com^
@@ -56269,6 +56273,7 @@ browsershots.org#@#.advert_area
 ||teriannrammage.cfd^
 ||termagetepehuaabb.qpon^
 ||termcolonialhedwig.com^
+||termensulked.qpon^
 ||terminalinmatesupreme.com^
 ||terminalinreplicas.com^
 ||terminorubato.shop^
@@ -58618,6 +58623,7 @@ browsershots.org#@#.advert_area
 ||unfrozecotointamanac.qpon^
 ||unfumedaten.cfd^
 ||unfumedvamoses.com^
+||ungagtangramfugate.cfd^
 ||ungildfreithtornal.qpon^
 ||ungildnumac.cyou^
 ||ungillrelost.cyou^
@@ -82140,6 +82146,8 @@ argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"]
 thestreet.com##[class^="styles_container"]:has(.OUTBRAIN)
 outlook.live.com##[data-app-section="MessageList"] div[style^="position: absolute; left: 0px; top: 0px"]:has(.ms-Shimmer-container)
 bjs.com##[data-cnstrc-recommendations="true"]:has(.sponsored-products)
+stockx.com##[data-component="brand-tile"]:has([data-testid="sponsored-tag"])
+stockx.com##[data-component="product-tile"]:has([data-testid="sponsored-tag"])
 maisonsdumonde.com##[data-el="product-card-grid"] article:has([data-el="product-card__sponsored"])
 pixiv.net##[data-gtm-recommend-zone="index"] li:has(> div > iframe[name$="rectangle"])
 avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
@@ -82153,6 +82161,7 @@ noon.com##[data-qa="plp-grid"] [data-qa="plp-product-box"]:has(svg[width="20"] >
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 noon.com##[data-qa="widget_recommendedProducts"]:has(svg[width="20"] > path[d])
 wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*="Sponsored"])
+stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-heading*="Sponsored"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
@@ -83039,6 +83048,7 @@ boots.com#?#.oct-listers-hits__item:has-text(Sponsored)
 businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(News & insights from our commercial partners)
 capwages.com#?#.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
+chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))
 cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)
 coincarp.com#?#.border-bottom:has-text(Sponsored)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HmyuEk/O0zAfUo11mFJy8w
-! Version: 202608020942
+! Checksum: 0q3MlIC0ZB+TzSVWi2cz9A
+! Version: 202608021031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Aug 2026 09:42 UTC
+! Last modified: 02 Aug 2026 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1734,6 +1734,7 @@ org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]
 ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 ! ---
 ex-fs.net###content {margin-top:0;}
+interface31.ru##.ads-top-container {min-height:0;margin-bottom:0;}
 kg-portal.ru##.ten_ears_wrap {margin-top:0;background-color:#a5a5a5;}
 kg-portal.ru##.ten_topbar + div:not(.ten_ears_wrap) {display:none;}
 kg-portal.ru##.ten_topbar {max-height:10px;}
@@ -13211,7 +13212,6 @@ medialeaks.ru##.ads-run-blocks
 klubok.com##.ads-separator
 interface31.ru##.ads-sidebar-top
 cn.ru##.ads-soloway
-interface31.ru##.ads-top-container
 interface31.ru##.ads-widget-bottom
 in-poland.com##.adsContainer
 meta.ua##.ads_240
@@ -13598,13 +13598,14 @@ videozal.club##.bad
 musify.club##.badge-primary
 all-for-kompa.ru##.badven
 animemobi.ru##.badversting
-delo.ua,irtafax.com.ua,ntr-24.ru,sibinfo.su##.ban
+delo.ua,irtafax.com.ua,ntr-24.ru,pingvinus.ru,sibinfo.su##.ban
 ukragroconsult.com##.ban > a:not([href^="/"]):not([href^="https://ukragroconsult.com/"])
 mgorod.kz##.ban-head
 nashmontreal.com##.ban-popup
 life170.ru##.ban-r
 life170.ru##.ban-r + .prodlist-links
 nashmontreal.com##.ban-right
+pingvinus.ru##.ban-wideline
 afanasy.biz##.ban1
 afanasy.biz,scooter-remont.com##.ban2
 vsetv.com##.ban200

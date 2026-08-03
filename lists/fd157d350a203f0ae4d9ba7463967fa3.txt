@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Rt6nqF4C1wPNzJHNEGZH6A
-! Version: 202608031622
+! Checksum: 7uIF1xp90BrKnce7BF34EQ
+! Version: 202608031712
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Aug 2026 16:22 UTC
+! Last modified: 03 Aug 2026 17:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14156,7 +14156,7 @@ glazey.info##.client
 literaguru.ru##.clinic-image
 gorodkiev.com.ua##.clr[style]
 timeweb.com##.cmn-banner-container
-ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,findani.me,findanime.me,findanime.ru,grouple.co,koro.life,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one,zazaza.me##.co_ba
+ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,findani.me,findanime.me,findanime.ru,grouple.co,koro.life,librebook.me,mintmanga.com,mintmanga.one,mose.rocks,readmanga.io,readmanga.ru,selflib.me,selfmanga.live,usagi.one,zazaza.me##.co_ba
 click-or-die.ru##.cod-price-widget-container
 click-or-die.ru##.cod-ratings-widget
 024.by,ampercar.com,autogeek.com.ua,bolshoyulov.ru,disgustingmen.com,femmie.ru,find-key.ru,fuzzmusic.ru,gadgets-help.ru,gubdaily.ru,hersonweek.net,itbusiness.com.ua,itsider.com.ua,kakbog.com,karavan.ua,kovi.ru,liza.ua,marieclaire.ua,mmr.net.ua,nnews.com.ua,o-polze.com,pcminipro.ru,poravkrym.ru,villaved.ru,vsviti.com.ua##.code-block
@@ -18850,7 +18850,7 @@ the-village.ru##div[class*="-BannerPlaceholder-"]
 servernews.ru,stolicaonego.ru##div[class*="-banner"]
 noi.md##div[class*="-bnr"]
 moskva.fm,piter.fm##div[class*="-branding-"] > a[target="_blank"]
-ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,findani.me,findanime.me,findanime.ru,grouple.co,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one,zazaza.me##div[class*="-brnd"]
+ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,findani.me,findanime.me,findanime.ru,grouple.co,librebook.me,mintmanga.com,mintmanga.one,mose.rocks,readmanga.io,readmanga.ru,selflib.me,selfmanga.live,usagi.one,zazaza.me##div[class*="-brnd"]
 kinoafisha.info##div[class*="-fix "][class$="as-desktop"]
 mmo13.ru##div[class*="300x600"]
 gazetametro.ru##div[class*="AdBox"]
@@ -23879,7 +23879,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|note
 @@||imasdk.googleapis.com/$xmlhttprequest,domain=volley.ru
 @@||mpsuadv.ru/event/$xmlhttprequest,domain=trychatgpt.ru
 @@||mpsuadv.ru/sbor$xmlhttprequest,domain=trychatgpt.ru
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=besthdwallpaper.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=besthdwallpaper.com|doramatv.ru|mintmanga.com
 @@||s.zfctrack.net/z|$xmlhttprequest
 @@||s.zhctrack.net/z|$xmlhttprequest
 @@||s.zmctrack.net/z|$xmlhttprequest
@@ -24021,12 +24021,11 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 .json?fre=$third-party,xmlhttprequest
 .json?unique=$third-party,xmlhttprequest
 .link/*/*/*?*=*-*-*-$third-party,xmlhttprequest
+.link/*?*=*-*-*-*-$third-party,xmlhttprequest
 .link/*?fre=$third-party,xmlhttprequest
-.link/*?xJyqWI=$third-party,xmlhttprequest
-.link/stBeGraeBzBvfQItsbjwobxnoQUnPPyg?$third-party,xmlhttprequest
+.link/4ilxeli2d?$third-party,xmlhttprequest
 .txt?fre=$third-party,xmlhttprequest
 .txt?unique=$third-party,xmlhttprequest
-/\.link\/[a-zA-Z]{25,}.*\?(fre|xJyqWI)=/$third-party,xmlhttprequest
 /ad-rotator/ad-list.json
 /ad-rotator/vast.xml
 /api-integration/*?unique=$third-party,xmlhttprequest

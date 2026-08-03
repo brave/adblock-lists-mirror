@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GEgKSUW9M/3+Gh3GyYjDWg
-! Version: 202608031531
+! Checksum: Rt6nqF4C1wPNzJHNEGZH6A
+! Version: 202608031622
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Aug 2026 15:31 UTC
+! Last modified: 03 Aug 2026 16:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14156,7 +14156,7 @@ glazey.info##.client
 literaguru.ru##.clinic-image
 gorodkiev.com.ua##.clr[style]
 timeweb.com##.cmn-banner-container
-ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,findani.me,findanime.me,findanime.ru,grouple.co,koro.life,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one##.co_ba
+ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,findani.me,findanime.me,findanime.ru,grouple.co,koro.life,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one,zazaza.me##.co_ba
 click-or-die.ru##.cod-price-widget-container
 click-or-die.ru##.cod-ratings-widget
 024.by,ampercar.com,autogeek.com.ua,bolshoyulov.ru,disgustingmen.com,femmie.ru,find-key.ru,fuzzmusic.ru,gadgets-help.ru,gubdaily.ru,hersonweek.net,itbusiness.com.ua,itsider.com.ua,kakbog.com,karavan.ua,kovi.ru,liza.ua,marieclaire.ua,mmr.net.ua,nnews.com.ua,o-polze.com,pcminipro.ru,poravkrym.ru,villaved.ru,vsviti.com.ua##.code-block
@@ -18850,7 +18850,7 @@ the-village.ru##div[class*="-BannerPlaceholder-"]
 servernews.ru,stolicaonego.ru##div[class*="-banner"]
 noi.md##div[class*="-bnr"]
 moskva.fm,piter.fm##div[class*="-branding-"] > a[target="_blank"]
-allhen.online,doramatv.live,doramatv.one,doramatv.ru,findani.me,findanime.me,findanime.ru,grouple.co,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one##div[class*="-brnd"]
+ahen.me,allhen.online,doramatv.live,doramatv.one,doramatv.ru,findani.me,findanime.me,findanime.ru,grouple.co,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one,zazaza.me##div[class*="-brnd"]
 kinoafisha.info##div[class*="-fix "][class$="as-desktop"]
 mmo13.ru##div[class*="300x600"]
 gazetametro.ru##div[class*="AdBox"]
@@ -21632,6 +21632,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||fapl.ru/upload/fapl_$subdocument
 ||faspiic.ru/js/go_re.js
 ||fastpic.org/ad-provider.js
+||fastpic.org/p.js
 ||fastpic.org/view/$script
 ||fastpicc.ru^$third-party,script
 ||fatalgame.com/content/js/andfox.
@@ -25750,9 +25751,12 @@ zarulem.ws##td[style^="text-align:center;width:50%"]
 ||ucoz.ru/?*%5E$script,subdocument,~third-party
 !
 ! кликабельные элементы в плеерах типа upns.*
+##body > #adbd.overdiv
 ##body > div#dontfoid
 ##body > div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01;"]
+##body > div[style^="position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01"]
 ##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
+##html > div[style="position:fixed;inset:0px;z-index:2147483647;pointer-events:auto;"]
 !
 ! Рекламный баннер Browsec
 ##body > div[class^="_"][class*=" _"][class$="_stBig"]

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6grZDhZ0OHEqqJBOKTdFhA
-! Version: 202608050852
+! Checksum: q8wqmEEkT8I2lYtyReH/Hg
+! Version: 202608050952
 ! Title: EasyList Germany
-! Last modified: 05 Aug 2026 08:52 UTC
+! Last modified: 05 Aug 2026 09:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5734,6 +5734,7 @@ heise.de#?#p:has-text(=== Anzeige / Sponsorenhinweis ===) + p + p
 heise.de#?#p:has-text(=== Anzeige / Sponsorenhinweis ende===)
 ibooks.to#?#form:has(button:has-text(Download))
 imsueden.de#?#.swiper:has(.headline:has-text(Partner))
+jungefreiheit.de#?#.elementor-element > .elementor-widget-container:has(.elementor-shortcode:has-text(Anzeige))
 kajak-magazin.com#?#.custom:has(span:has-text(Anzeige))
 knuspr.de#?#div[data-test="whisperer-product-wrapper"]:has-text(Gesponsert)
 koeln.de#?#.gb-container:has-text(Anzeige)

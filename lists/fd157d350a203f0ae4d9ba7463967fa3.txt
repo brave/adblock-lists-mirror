@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mzcyNfqISUi5xm4MUMQwnw
-! Version: 202608051144
+! Checksum: L0kFsqVlmRTOjlIgR50+nA
+! Version: 202608051242
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Aug 2026 11:44 UTC
+! Last modified: 05 Aug 2026 12:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25,7 +25,7 @@
 ! = Сайты-попапы (самостоятельно открываются в новом окне) ====================
 ! *** advblock/popup.txt ***
 ! - Частные правила -----------------------------------------------------------
-$popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnpotok.com|cdntvpotok.com|fastpic.org|freescreens.ru|imgbase.ru|imgcach.ru|imgclick.ru|kolikbolik.top|oneliketv.com|payforpic.ru|picclick.ru|picclock.ru|picforall.ru|protonvideo.to|telecdn.net|tv-assia.org
+$popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnpotok.com|cdntvpotok.com|freescreens.ru|imgbase.ru|imgcach.ru|imgclick.ru|kolikbolik.top|oneliketv.com|payforpic.ru|picclick.ru|picclock.ru|picforall.ru|protonvideo.to|telecdn.net|tv-assia.org
 $third-party,popup,domain=2ip.ru
 &utm_campaign=$popup,domain=itc.ua|sc2tv.ru|www.film.ru
 /*utm_$popup,domain=stratege.ru
@@ -23891,7 +23891,6 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|note
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||captcha-api.yandex.ru^$domain=drive2.ru
 ||eg.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||fastpic.org/fullview/$csp=style-src static.fastpic.org
 ||gorodche.ru^$csp=script-src 'self' 'unsafe-eval' https:
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3yR12M9TNFVCK8Ee1U9GnA
-! Version: 202608061444
+! Checksum: zuyg+Eq8/7by/9cF1SfJEw
+! Version: 202608062312
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Aug 2026 14:44 UTC
+! Last modified: 06 Aug 2026 23:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1743,7 +1743,9 @@ kg-portal.ru##body {background-image:none;background-color:inherit;}
 mem-hub.ru###appPromoModal {display:none;}
 mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
+povarenok.ru##.page-width {margin-top:0;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
+stranamam.ru##.n-main-branding-container {margin-top:0;}
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}
 stratege.ru##.above_body {margin-bottom:0;}
 ukrinform.ua##html[style*="overflow: hidden;"] {overflow:auto;}
@@ -21637,6 +21639,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||fapl.ru/upload/fapl_$subdocument
 ||faspiic.ru/js/go_re.js
 ||fastpic.org/*provider.js
+||fastpic.org/p.js
 ||fastpic.org/view/$script
 ||fastpicc.ru^$third-party,script
 ||fatalgame.com/content/js/andfox.
@@ -22812,6 +22815,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||povarenok.ru/css/*1.css$stylesheet
 ||povarenok.ru/css/*media.$stylesheet
 ||povarenok.ru/css/*project$stylesheet
+||povarenok.ru/css/style-sp.css$stylesheet
 ||povarenok.ru/i/*/*.jpg
 ||powerwaver.cc^*.js|$script
 ||pozdrav.ru/img/banners/

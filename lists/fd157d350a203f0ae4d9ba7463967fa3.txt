@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z+ojBlzPgLqCNbh9mHVyog
-! Version: 202608060904
+! Checksum: 1aofSVIjydOsiBUrBX7nEQ
+! Version: 202608060952
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Aug 2026 09:04 UTC
+! Last modified: 06 Aug 2026 09:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16264,6 +16264,7 @@ lfl.ru##.sidebar .start_block a[href^="http"]:not([href*="://lfl.ru"])
 lfl.ru##.sidebar .start_block table[style="width: 263px;"]
 headphone-review.ru,kinomania.kz##.sidebar .widget_text
 pc-aio.ru##.sidebar > #HTML2
+love-games1.net##.sidebar > .accordion-in ~ .accordion-in
 vesti.uz##.sidebar > .adv ~ *
 litnet.com##.sidebar > .b-popular
 fukushima-news.ru#?#.sidebar > .block-content:-abp-has(> noindex > script)
@@ -21635,8 +21636,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||fap-guru.*/front/js/unwanted.js
 ||fapl.ru/upload/fapl_$subdocument
 ||faspiic.ru/js/go_re.js
-||fastpic.org/ad-provider.js
-||fastpic.org/p.js
+||fastpic.org/*provider.js
 ||fastpic.org/view/$script
 ||fastpicc.ru^$third-party,script
 ||fatalgame.com/content/js/andfox.
@@ -22261,6 +22261,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||lostfilm.tv/pereP/?a=
 ||lostpix.com/pic_lospix/radeika_$image
 ||lottielab.com^$third-party,domain=nnm-club.me|nnmclub.ro|nnmclub.to
+||love-games1.net/yb2.
 ||love4str.ru^$script
 ||loveradio.ru/background/$image
 ||lovitut.ru/sites/default/files/$image

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: eNBuBON325QuJBMu2+P9hw
-! Diff-Path: ../patches/13/13-s-1786028015-3600.patch
+! Checksum: 3+E2eNIUYWfOvMn2yr31fg
+! Diff-Path: ../patches/13/13-s-1786105471-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.66.67
-! TimeUpdated: 2026-08-06T14:50:19+00:00
+! Version: 2.0.66.74
+! TimeUpdated: 2026-08-07T12:21:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1556,6 +1556,12 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+polobettv.cc##header > ul > li:not(:has(> a[href="/"]))
+polobettv.cc##.odds-container
+||30slotintv.live/view/theme/safir/img/pageskin0001.png
+30slotintv.live##a[href^="https://cutt.ly/"]
+tureng.com##.nts-ad
+hizlierotikizle.com##.player-top-ad
 cnnturk.com##.adv-container
 ||blogger.googleusercontent.com/img/$image,domain=pasizle857.com|pasizle858.com|pasizle859.com|pasizle860.com|pasizle861.com|pasizle862.com|pasizle863.com|pasizle864.com|pasizle865.com|pasizle866.com|pasizle867.com|pasizle868.com|pasizle869.com|pasizle870.com
 ||zerotik.space/maczer*.js
@@ -5979,6 +5985,34 @@ lovefilmizle.net,elzemfilm.org,dizicaps.*,erotikfilmtube.com,sexfilmleriizle.com
 ! Don't mix frequently changed domains with other rules, to make it easier to maintain,
 ! except some sites that use non-template domain names of mirror sites
 !
+! Frequently changed domains: papaztv*.live
+! Source: papaztv7.live
+/papaztv\d+\.live$/##div[class^="reklam-"]
+/papaztv\d+\.live$/##body > header
+/papaztv\d+\.live$/##.footer-links
+papaztv7.live##div[class^="reklam-"]
+papaztv7.live##body > header
+papaztv7.live##.footer-links
+!
+! Frequently changed domains: kralsportshd*.xyz
+! Source: kralsportshd3.xyz
+! aglint-disable no-invalid-modifiers
+!+ NOT_VALIDATE
+||blogger.googleusercontent.com/img/$domain=/kralsportshd\d+\.xyz$/
+! aglint-enable no-invalid-modifiers
+/kralsportshd\d+\.xyz$/###splash-banner
+||blogger.googleusercontent.com/img/$domain=kralsportshd3.xyz
+kralsportshd3.xyz###splash-banner
+!
+! Frequently changed domains: fixbettv*.com
+! Source: fixbettv83.com
+||fixbettv*.com/*.gif
+||fixbettv*.com/yayinonu.jpg
+/fixbettv\d+\.com$/##.ads-container
+/fixbettv\d+\.com$/##.rnd-qwert
+fixbettv83.com##.ads-container
+fixbettv83.com##.rnd-qwert
+!
 ! Frequently changed domains: mahsunsports*.xyz
 ! Source: mahsunsports.com
 ! aglint-disable no-invalid-modifiers
@@ -6018,9 +6052,11 @@ macvardi281.com##.footer-links
 ! Source: baycontitv14.com
 ||baycontitv*.com/view/theme/ultimate/img/*.gif
 ||baycontitv*.com/IMG_0060.MP4
+/baycontitv\d+\.com$/##.reklamalani:remove()
 /baycontitv\d+\.com$/##div[class^="reklam-"]
 /baycontitv\d+\.com$/##body > header
 /baycontitv\d+\.com$/##.footer-links
+baycontitv14.com##.reklamalani:remove()
 baycontitv14.com##div[class^="reklam-"]
 baycontitv14.com##body > header
 baycontitv14.com##.footer-links
@@ -6030,6 +6066,7 @@ baycontitv14.com##.footer-links
 ||ibizacanli*.com/view/theme/ultimate/img/*.gif
 ||ibizacanli*.com/view/theme/ultimate/img/700x600sss.png
 ||ibizacanli*.com/view/theme/ultimate/assets/js/rc.js
+/ibizacanli\d+\.com$/##.popup-overlay
 /ibizacanli\d+\.com$/##div[class^="reklam-"]
 /ibizacanli\d+\.com$/##body > header
 /ibizacanli\d+\.com$/##.footer-links
@@ -6054,8 +6091,11 @@ jtvkanal8.vip##.banner
 !
 ! Frequently changed domains: livosports*.live
 ! Source: livosports30.live
-||livosports*.*/view/theme/ultimate/img/*.gif
+||livosports*.live/view/theme/ultimate/assets/js/rc.js
+||livosports*.live/view/theme/ultimate/img/*.gif
+/livosports\d+\.live$/##body > header
 /livosports\d+\.live$/##div[class^="reklam-"]
+livosports30.live##body > header
 livosports30.live##div[class^="reklam-"]
 !
 ! Frequently changed domains: dizimor*.com.tr
@@ -6494,11 +6534,12 @@ netsportv231.top,netsportv232.top,netsportv233.top,netsportv234.top,netsportv235
 zeustv204.com,zeustv205.com,zeustv206.com,zeustv207.com,zeustv208.com,zeustv209.com,zeustv210.com,zeustv211.com,zeustv212.com,zeustv213.com,zeustv214.com,zeustv215.com,zeustv216.com,zeustv217.com,zeustv218.com,zeustv219.com,zeustv220.com,zeustv221.com,zeustv222.com,zeustv223.com,zeustv224.com,zeustv225.com,zeustv226.com,zeustv227.com,zeustv228.com,zeustv229.com,zeustv230.com,zeustv231.com,zeustv232.com,zeustv233.com,zeustv234.com,zeustv235.com,zeustv236.com,zeustv237.com,zeustv238.com,zeustv239.com,zeustv240.com,zeustv241.com,zeustv242.com,zeustv243.com,zeustv244.com,zeustv245.com,zeustv246.com,zeustv247.com,zeustv248.com,zeustv249.com,zeustv250.com,zeustv251.com,zeustv252.com,zeustv253.com,zeustv254.com##+js(set-constant, config.advertisement.enabled, false)
 zeustv204.com,zeustv205.com,zeustv206.com,zeustv207.com,zeustv208.com,zeustv209.com,zeustv210.com,zeustv211.com,zeustv212.com,zeustv213.com,zeustv214.com,zeustv215.com,zeustv216.com,zeustv217.com,zeustv218.com,zeustv219.com,zeustv220.com,zeustv221.com,zeustv222.com,zeustv223.com,zeustv224.com,zeustv225.com,zeustv226.com,zeustv227.com,zeustv228.com,zeustv229.com,zeustv230.com,zeustv231.com,zeustv232.com,zeustv233.com,zeustv234.com,zeustv235.com,zeustv236.com,zeustv237.com,zeustv238.com,zeustv239.com,zeustv240.com,zeustv241.com,zeustv242.com,zeustv243.com,zeustv244.com,zeustv245.com,zeustv246.com,zeustv247.com,zeustv248.com,zeustv249.com,zeustv250.com,zeustv251.com,zeustv252.com,zeustv253.com,zeustv254.com##div[data-footer-4ds]
 !
-! Frequently changed domains: xsportv*.xyz
-/xsportv\d+\.xyz/##.betting-sites
-/xsportv\d+\.xyz/##a[href^="https://t2m.io/"]
-xsportv45.xyz,xsportv46.xyz,xsportv47.xyz,xsportv48.xyz,xsportv49.xyz,xsportv50.xyz,xsportv51.xyz,xsportv52.xyz,xsportv53.xyz,xsportv54.xyz,xsportv55.xyz,xsportv56.xyz,xsportv57.xyz,xsportv58.xyz,xsportv59.xyz,xsportv60.xyz,xsportv61.xyz,xsportv62.xyz,xsportv63.xyz,xsportv64.xyz##.betting-sites
-xsportv45.xyz,xsportv46.xyz,xsportv47.xyz,xsportv48.xyz,xsportv49.xyz,xsportv50.xyz,xsportv51.xyz,xsportv52.xyz,xsportv53.xyz,xsportv54.xyz,xsportv55.xyz,xsportv56.xyz,xsportv57.xyz,xsportv58.xyz,xsportv59.xyz,xsportv60.xyz,xsportv61.xyz,xsportv62.xyz,xsportv63.xyz,xsportv64.xyz##a[href^="https://t2m.io/"]
+! Frequently changed domains: xsportv-*.xyz
+! Source: xsportv-de596bbe2f.xyz
+/xsportv-[a-z0-9]+\.xyz$/##.betting-sites
+/xsportv-[a-z0-9]+\.xyz$/##a[href^="https://bit.ly/"]
+xsportv-de596bbe2f.xyz##.betting-sites
+xsportv-de596bbe2f.xyz##a[href^="https://bit.ly/"]
 !
 ! Frequently changed domains: vegatv*.shop
 ||vegatv*.shop/*.gif
@@ -6809,9 +6850,10 @@ mactanmaca512.sbs##+js(set-cookie, reklamgosterimx, ok)
 ! For players in iframes
 ! justintv.shop
 ! CASE 1
-||blogger.googleusercontent.com/img/$domain=melaniekannokada.com|taraftarium-24.pro|justintvsh.baby|dmlstechnology.com|justintvde.com|justin-tv.org|inattvgiris.pro|justintv.cc|justintv.*|taraftariumizle.org|taraftarium24.dev|taraftarium-24.com|taraftarium-24.co|tvjustin.*|sadeceiptv.com|justin-tv.pro|taraftarium24.xyz
-||cdn.jsdelivr.net^$media,redirect=noop-0.1s.mp3,domain=melaniekannokada.com|taraftarium-24.pro|justintvsh.baby|dmlstechnology.com|justintvde.com|justin-tv.org|inattvgiris.pro|justintv.cc|justintv.*|taraftariumizle.org|taraftarium24.dev|taraftarium-24.co|taraftarium-24.com|tvjustin.*|sadeceiptv.com|justin-tv.pro|taraftarium24.xyz
-melaniekannokada.com,taraftarium-24.pro,taraftarium24.xyz,tvjustin.*,taraftarium.is,sadeceiptv.com,taraftariumizle.org,taraftarium24.dev,taraftarium-24.co,taraftarium-24.com,justin-tv.pro,taraftarium24.is,justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.cc,justintv.*###splash-banner
+||blogger.googleusercontent.com/img/$domain=melaniekannokada.com|taraftarium-24.pro|justintvsh.baby|dmlstechnology.com|justintvde.com|justin-tv.org|inattvgiris.pro|justintv.cc|justintv.*|taraftariumizle.org|taraftarium24.dev|taraftarium-24.com|taraftarium-24.co|tvjustin.com|tvjustin.*|sadeceiptv.com|justin-tv.pro|taraftarium24.xyz|taraftarium.co|melidonium.com|mgviagrtoomuch.com|uscoutfor.com
+||cdn.jsdelivr.net^$media,redirect=noop-0.1s.mp3,domain=melaniekannokada.com|taraftarium-24.pro|justintvsh.baby|dmlstechnology.com|justintvde.com|justin-tv.org|inattvgiris.pro|justintv.cc|justintv.*|taraftariumizle.org|taraftarium24.dev|taraftarium-24.co|taraftarium-24.com|tvjustin.*|sadeceiptv.com|justin-tv.pro|taraftarium24.xyz|taraftarium.co|melidonium.com|mgviagrtoomuch.com|uscoutfor.com
+taraftarium.co##.topDuyuru
+uscoutfor.com,mgviagrtoomuch.com,melidonium.com,melaniekannokada.com,taraftarium-24.pro,taraftarium24.xyz,tvjustin.*,taraftarium.co,sadeceiptv.com,taraftariumizle.org,taraftarium24.dev,taraftarium-24.co,taraftarium-24.com,justin-tv.pro,taraftarium24.is,justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.cc,justintv.*###splash-banner
 justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##div[class^="footer-"]
 justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##header > a[href="/"] + ul
 justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##.wpb_wrapper > center > a[target="_blank"]
@@ -6850,6 +6892,13 @@ justintvizle550.top,justintvizle551.top,justintvizle552.top,justintvizle553.top,
 ! selcuksports2.com
 selcuksports2.com,selcuksports3.com,selcuksports4.com,selcuksports5.com,selcuksports6.com,selcuksports7.com,selcuksports8.com,selcuksports9.com,selcuksports10.com,selcuksports11.com,selcuksports12.com,selcuksports13.com,selcuksports14.com,selcuksports15.com,selcuksports16.com,selcuksports17.com,selcuksports18.com,selcuksports19.com,selcuksports20.com,selcuksports21.com##img[id^="top-ads-"]
 ! CASE 3 - probably fake
+24taraftarium12.xyz##.betcio-banner
+24taraftarium12.xyz##.modal-overlay
+24taraftarium12.xyz##div[id$="BannersContainer"]
+24taraftarium12.xyz##div[style="position:fixed; bottom:0px; left:0; width:100%; text-align:center; z-index:999999;"]
+.gif|$domain=24taraftarium12.xyz
+taraftariumhd61.live,taraftarium2spor.top,selcuksports.cv,taraftariumcanli2.site,justintvizle1.my,taraftarium24live.plus,taraftariumtr.cv,netspor54.buzz##.pageskin-container
+taraftariumhd61.live,taraftarium2spor.top,selcuksports.cv,taraftariumcanli2.site,justintvizle1.my,taraftarium24live.plus,taraftariumtr.cv,netspor54.buzz##.player-ad-banner
 taraftarium24bjk9.com###ad-pageskin
 taraftarium24bjk9.com##.listAd
 ||taraftarium24pro*.site/*.gif

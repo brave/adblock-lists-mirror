@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CgM9zh4m7oHbVSI3IoP7xQ
-! Version: 202608071051
+! Checksum: TJnUGnmFYUuKL77byx/82w
+! Version: 202608071122
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Aug 2026 10:51 UTC
+! Last modified: 07 Aug 2026 11:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1732,6 +1732,11 @@ org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]
 ! ---
 ! Shkulev Media
 ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
+! ---
+! FastPic
+/fastpic\.org\/(view|fullview)/$csp=sandbox allow-same-origin;
+fastpic.org##.show-code-button
+fastpic.org##.show-code-content {display:block;}
 ! ---
 ex-fs.net###content {margin-top:0;}
 interface31.ru##.ads-top-container {min-height:0;margin-bottom:0;}

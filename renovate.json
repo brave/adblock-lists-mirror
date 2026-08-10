@@ -7,6 +7,18 @@
     {
       "matchUpdateTypes": ["major"],
       "enabled": true
+    },
+    {
+      "matchFileNames": ["site/**"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "site dependencies",
+      "groupSlug": "site"
+    },
+    {
+      "matchFileNames": ["site/**"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "site dependencies (major)",
+      "groupSlug": "site-major"
     }
   ]
 }

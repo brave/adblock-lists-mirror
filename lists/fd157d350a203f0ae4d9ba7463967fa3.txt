@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mU6ns6j09qvzIF+z9n6xVw
-! Version: 202608100802
+! Checksum: L/1+Qxl8GP5rmARcKuX9dA
+! Version: 202608100902
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Aug 2026 08:02 UTC
+! Last modified: 10 Aug 2026 09:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23918,7 +23918,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?pg4Pu=$xmlhttprequest
+||pikabu.ru/ajax/*?pg3Pu=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24792,6 +24792,7 @@ pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###main_content_wrap > table[w
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###page_footer .vBottom[style]
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###page_header > div[style^="position:"] > a[href][target="_blank"]
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###pl-speedbar
+pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###post_prelast_ad
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###tor-fl-bgn
 $third-party,object,subdocument,domain=pornolab.biz|pornolab.cc|pornolab.lib|pornolab.net
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net#?#.forums > tbody > tr[id]:-abp-has(> td script)

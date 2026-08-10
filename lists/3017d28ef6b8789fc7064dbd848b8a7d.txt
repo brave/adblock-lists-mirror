@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608100134
+! Version: 202608100244
 ! Title: EasyPrivacy
-! Last modified: 10 Aug 2026 01:34 UTC
+! Last modified: 10 Aug 2026 02:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b4ee896f1a3bc478b4d63c59bca7a7c224c9f6f7
+! Commit: e81d3964c2c9291d97f98be7441256289efe9c52
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55189,6 +55189,8 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||a.mts.ru^
 ||a.pikabu.ru^
 ||a.ria.ru^
+||a.wb.ru^
+||acollector.wb.ru^
 ||ad.mail.ru/static/sync-loader.js
 ||ad7.bigmir.net^
 ||adme.media/metric-collector
@@ -55196,6 +55198,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||agroserver.ru/ct/
 ||alloy-web.zvuk.com^
 ||analytics.carambatv.ru^
+||antibot.wildberries.ru^
 ||api-metric.gosweb.gosuslugi.ru^
 ||api.litres.ru/tracker/
 ||auto.ru/-/ajax/$~xmlhttprequest

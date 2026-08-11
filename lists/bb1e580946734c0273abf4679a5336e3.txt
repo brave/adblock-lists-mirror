@@ -2160,7 +2160,8 @@ athlonsports.com,autoblog.com,bikemag.com,dengarden.com,mensfitness.com,mensjour
 ! https://github.com/uBlockOrigin/uAssets/issues/28661
 ||s.w-x.co/helios/twc/
 ! https://github.com/uBlockOrigin/uAssets/issues/33567
-||parkers.co.uk/polite-msg-js/
+! https://github.com/uBlockOrigin/uAssets/issues/34044
+/polite-msg-js/|$script,1p
 
 ! !SECTION: Admiral
 
@@ -3468,6 +3469,12 @@ kuyhaa.me##+js(acs, document.addEventListener, window.open)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/33543
 kazefuri.id##+js(rmnt, script, sessionStorage.getItem)
+
+! https://github.com/uBlockOrigin/uAssets/issues/33551
+||donasi.showcdnx.com/seiklasnya.js
+###vstr ~ #overlay
+videonode.de###overlay
+videonode.de##body > a[target="_blank"]
 
 ! NOTE: Italy
 ! https://github.com/uBlockOrigin/uAssets/issues/33549

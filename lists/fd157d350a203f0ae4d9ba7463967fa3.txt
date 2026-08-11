@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kfQOr90A33tHTVW0UzF8/Q
-! Version: 202608110752
+! Checksum: RwVGM9okvSDQ3os5YHW+rA
+! Version: 202608110822
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Aug 2026 07:52 UTC
+! Last modified: 11 Aug 2026 08:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24815,21 +24815,20 @@ pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##iframe[src*="banner"]
 ||vsex-shop.ru^$domain=pornolab.biz|pornolab.cc|pornolab.lib|pornolab.net
 !
 ! Progorod и их сайты
-/api/banner$xmlhttprequest,domain=lipetsknews.ru|myliski.ru|newskrasnodar.ru|newtambov.ru|ngnovoros.ru|pg02.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|pg37.ru|pg46.ru|pgn21.ru|pgr76.ru|prochepetsk.ru|prodzer.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progoroduhta.ru|prosaratov.ru|usolie.info|vladivostoktimes.ru|youtvnews.com
+/api/banner*=$xmlhttprequest,domain=lipetsknews.ru|myliski.ru|newskrasnodar.ru|newtambov.ru|ngnovoros.ru|ngzt.ru|pg02.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|pg37.ru|pg46.ru|pgn21.ru|pgr76.ru|prochepetsk.ru|prodzer.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod76.ru|progorodnn.ru|progoroduhta.ru|prosaratov.ru|usolie.info|vladivostoktimes.ru|youtvnews.com
 !
-ngnovoros.ru,ngzt.ru,progorod59.ru,progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##.adf-ins
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##.contentRightMainBanner
-ngzt.ru#?#.interesting:-abp-has(> .interesting__wrap:not([style]))
-ngzt.ru##.partner-news
+progorod59.ru,progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##.adf-ins
+progorodsamara.ru#?#.other-news:-abp-has(> .rotator-b)
 progorodsamara.ru##.rotator-b
-pg21.ru,pgn21.ru##.superPromotionNewsWrap
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class^="banner"]
-ngnovoros.ru,ngzt.ru,progorod59.ru,progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##[data-ads]
-pg46.ru,usolie.info##a[href*="//dzen.ru/"]
+progorod62.ru#?#.space-y-5:-abp-has(div[id$="holder"])
 progorod62.ru##body > section.container.bg-background
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com#?#div[class*="layout_contentRightStretch_"]:-abp-has(> div:only-child:empty)
-lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-content_articleBannerSlot_"]
+progorod62.ru#?#div:-abp-has(> #mediametrics-holder)
+progorod62.ru#?#div:-abp-has(> #smi2-holder)
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class*="Promo"]
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,ngnovoros.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com#?#div[class*="layout_contentRightStretch_"]:-abp-has(> div:only-child:empty)
+lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,ngnovoros.ru,ngzt.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="promo"]
 pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="social-list-subscribe"] > a[href*="yandex."]
+progorod62.ru##div[id^="fancy-place-ad"]
 !
 ! Rambler.RU и их проекты
 gazeta.ru###_id_sber_auth

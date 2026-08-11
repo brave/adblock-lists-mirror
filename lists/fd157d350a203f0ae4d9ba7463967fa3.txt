@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SuztVSxI6DkKndhGYTPvVg
-! Version: 202608111451
+! Checksum: YjvtZ+wGgy8pyDwt/qIGyw
+! Version: 202608111522
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Aug 2026 14:51 UTC
+! Last modified: 11 Aug 2026 15:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18663,7 +18663,7 @@ siver.com.ua##body > div[align="right"] > span
 progipertoniyu.ru##body > div[class*="modal"]
 povarenok.ru##body > div[class]:empty:not([style])
 votrube.ru##body > div[class]:last-of-type
-ura.news##body > div[class]:not([class*=" "]):not(.gO):not([style])
+ura.news##body > div[class]:not([class*=" "]):not([class^="geo-region-"]):not([style])
 stopgame.ru##body > div[class]:not([id]):not([style]):empty
 anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##body > div[class]:not([id]):nth-child(-n+5) > a[href]
 finam.ru##body > div[class^="hidden-"]

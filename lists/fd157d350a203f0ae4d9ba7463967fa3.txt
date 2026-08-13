@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: S2jdot3Zn1HUGM8l+ID2wg
-! Version: 202608130742
+! Checksum: QSxrq572jfM2sfzG8ZeDIA
+! Version: 202608130833
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Aug 2026 07:42 UTC
+! Last modified: 13 Aug 2026 08:33 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1735,7 +1735,7 @@ org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]
 ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 ! ---
 ! FastPic
-/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-same-origin;
+/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-downloads allow-same-origin;
 fastpic.org##.show-code-button
 fastpic.org##.show-code-content {display:block;}
 ! ---
@@ -25967,7 +25967,7 @@ tass.ru##[class*="Layout_bottom_fixed_"]
 videobel.by##[class*="player-skin-holder-uicomponent__Holder-sc-"]::before
 tass.ru##[data-no-mourning="true"][class^="DesktopLayout_above"]
 pasy.media##[data-remodal-id]
-okko.sport,okko.tv##[data-testid="player_osd"] > div[style*="--duration-"] > div:first-child::after
+okko.sport,okko.tv##[data-testid="player_osd"] > div[style*="--duration-"] > div:first-child:empty
 9111.ru##[id^="site-welcome"]
 onliner.by##[onclick="window.openCookieConsentSettings()"]
 novoruskino.net##[src$="/social.gif"]

@@ -1,6 +1,6 @@
 ! Title: List-KR classic filters list (uBO)
 ! Description: uBlock Origin용 List-KR 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20678.1
+! Version: 2026.20679.1
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/List-KR/List-KR
 ! Licence: https://github.com/List-KR/List-KR/blob/master/LICENSE
@@ -1822,7 +1822,7 @@ sports.chosun.com,dcinside.com##div[class$="banner"]
 ! ##div[class$="-banner"]
 m.megabox.co.kr,signin.gmarket.co.kr,eanews.kr,economist.co.kr,philgo.com,ondisk.co.kr,blockchainhub.kr,cineaste.co.kr,paxnet.co.kr,bigkinds.or.kr,toomics.com,ilbe.com##div[class$="-banner"]
 ! ##div[class^="banner"]
-bgchang.co.kr,edit.incruit.com,m.hungryapp.co.kr,m.edaily.co.kr,m.news1.kr##div[class^="banner"]
+bgchang.co.kr,edit.incruit.com,m.hungryapp.co.kr,m.edaily.co.kr,m.news1.kr,bntnews.co.kr##div[class^="banner"]
 ! ##div[class$="-ad"]
 m.yonhapnewstv.co.kr,kyeongin.com,youtu.co,dfast.kr,mememedia.co.kr,tvreport.co.kr,m.tenbizt.com,acmicpc.net,www.auction.co.kr,m.11st.co.kr,todaysppc.com,gmarket.co.kr,kpenews.com,m.diningcode.com,insight.co.kr,cgv.co.kr,m.inven.co.kr,tipsandtrickskorea.com,gamemeca.com,yeongnam.com##div[class$="-ad"]
 ! ##div[id^="ad"]
@@ -2138,6 +2138,11 @@ a-ha.io##main div[class*=" "]:has(> div[id^="div-gpt-"] + div[height])
 naver.com##a[href^="https://siape.veta.naver.com/"]
 m.dt.co.kr##div[data-slot^="adforus_"]
 fnnews.com##.col-300 > div[style^="height:"]
+hankookilbo.com##div:has(> iframe[src^="https://ad.hankookilbo.com"])
+hankookilbo.com##div[data-ga4^="out_taboola"]
+hankookilbo.com##div:has(> div > div > iframe[src^="https://ad.hankookilbo.com/html/midas/hankookilbo/pc_news_endpage_h@"]):has(> div > div > iframe[src^="https://ad.hankookilbo.com/html/midas/hankookilbo/aix_m_neswpage@"])
+hankookilbo.com##div:has(> div > div > button[aria-label="광고 삭제"]):has(iframe[src$="/endpage@floating"])
+hankookilbo.com##div[data-ad-type="article-ad"]
 hankookilbo.com##div[class*="-ad-"]:not(data-el)
 mininote.co.kr##rs-fullwidth-wrap[style^="margin-top:"]
 mininote.co.kr##rs-module-wrap[id^="rev_slider_"]
@@ -2308,6 +2313,8 @@ web.humoruniv.com###wrap_cnts > div[style*="margin:"][style^="width:"].box
 m.mydaily.co.kr##.article_view ~ div[style^="width:"].clean_banner ~ .wcms_banner ~ .h50
 m.mydaily.co.kr##.article_view ~ div[style^="text-align:"].clean_banner ~ .wcms_banner + .h45
 m.mydaily.co.kr##.article_view ~ div[style^="text-align:"].clean_banner +.h50
+sportschosun.com##div[data-nosnippet]
+sportschosun.com##div.d-none:has(> div > div > div[class^="ad"])
 m.sports.chosun.com,m.sportschosun.com##div[id$="ad"][class^="ad"]
 emmaru.com##.SubInforDiv_article table ~ div[style^="padding:"][align="center"]
 koreatimes.com##div[class^="bn_"]:not([class*=" "])
@@ -3570,7 +3577,7 @@ aniya24.com#$?#div[class*="-player-wrapper"] > .play-media-control ~ div[class^=
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon_apstag.js
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
-namu.wiki#?#div:has(> table a[href^="#s-"]:has-text(/^(?:www\.)?(?:[a-z0-9-]+\.)+[a-z]{2,}(?:\/\S*)?$/i)):upward(1):remove()
+namu.wiki#?#table:has(> tbody > tr > td table a[href^="#s-"]:contains(/^(?:www\.)?(?:[a-z0-9-]+\.)+[a-z]{2,}(?:\/\S*)?$/i)):upward(2):remove()
 namu.wiki#?##_gad_article_top:upward(2):remove()
 m.bunjang.co.kr##main > section:has(> div[class^="_titleContainer_"] > span:has-text(AD))
 lottecinema.co.kr##.main_movie_list .owl-carousel .owl-item:has(> .item > .top_info > .poster_info > .num_info:has-text(AD))

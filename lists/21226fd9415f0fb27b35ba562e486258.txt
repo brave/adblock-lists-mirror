@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: DoFdelGvoPHHjsl0MziGlw
+! Checksum: 60EmJURfa7VF44dczZRrqw
 ! Title: Easylist Cookie List
-! Last modified: 2026-08-14 06:50 UTC
+! Last modified: 2026-08-14 12:25 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -24035,6 +24035,9 @@ cencenelec.eu##.GDPR-Popup
 ! anjunadeep.co
 anjunadeep.co###body,html:style(overflow: auto !important; position: initial !important;)
 anjunadeep.co##.privacy-notice-gdpr-container
+! ksp.co.il
+ksp.co.il##+js(set, dataLayer, [])
+ksp.co.il##+js(set, gtag, noopFunc)
 ! gpiaaf.gov.pt
 gpiaaf.gov.pt##+js(set-cookie, WarningsAndPolicyAccepted, true)
 ! bpstat.bportugal.pt

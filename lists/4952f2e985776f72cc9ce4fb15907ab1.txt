@@ -1,6 +1,6 @@
 ! Title: List-KR classic filters list (uBO)
 ! Description: uBlock Origin용 List-KR 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20679.5
+! Version: 2026.20679.6
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/List-KR/List-KR
 ! Licence: https://github.com/List-KR/List-KR/blob/master/LICENSE
@@ -2785,7 +2785,7 @@ eroun.net##body > div[style]:not([class]):not([id])
 digitalasset.works,khgames.co.kr,digitaltoday.co.kr,ilemonde.com,mjmedi.com,eroun.net###layer-popups
 hogaeng.co.kr##div[id^="container_"] .slide_box
 zdnet.co.kr##div[class*="_bn_"][style]
-dprime.kr.dvdprime.com##div[style~="height:"][style~="border-top:"].relative
+dprime.kr,dvdprime.com##div[style~="height:"][style~="border-top:"].relative
 m.ppomppu.co.kr,comic.naver.com,health.chosun.com,dprime.kr##[class*="_ad_"]
 ypbooks.co.kr##td[id^="divBn_"]
 m.megabox.co.kr,m.mimint.co.kr,m.dailian.co.kr,ypbooks.co.kr##div[id$="Banner"]

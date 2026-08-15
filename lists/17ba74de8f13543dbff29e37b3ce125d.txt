@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608150229
+! Version: 202608150241
 ! Title: EasyList
-! Last modified: 15 Aug 2026 02:29 UTC
+! Last modified: 15 Aug 2026 02:41 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 25dbfe0d9f5cb8f44d1d3071b360df3af2573112
+! Commit: c93a7a4a715fc16e40867f52283a818c9e4ac6ca
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -26788,6 +26788,7 @@ browsershots.org#@#.advert_area
 ||ekgjddiuwwyrv.online^
 ||ekhay.com^
 ||ekhsvsp.com^
+||ekhwbzfks.com^
 ||ekiisawyaretz.online^
 ||ekjjvwrdbm.com^
 ||ekjkfnbgpfrbd.website^
@@ -58225,6 +58226,7 @@ browsershots.org#@#.advert_area
 ||zxlxqzn46yzbn8qxr69.rest^
 ||zxmkhbsmmuikc.online^
 ||zxn2u72vyrejmmw9tnb7wh.cfd^
+||zxnsukgybbfkmz.com^
 ||zxnymrendoxms.space^
 ||zxpvebhtojfvgu.com^
 ||zxqvocyhiggng.site^
@@ -76227,7 +76229,7 @@ bing.com##div[class="ins_exp vsp"]
 ! bing.com##li.b_ans[data-partnertag][role="presentation"]
 bing.com##li[data-idx]:has(#mm-ebad)
 ! chatgpt
-chatgpt.com##[data-message-role="assistant"] > section[class] > aside[aria-label]:has(> div[role="list"] a[rel][target="_blank"][href*="?jumpid="] + span > button[aria-haspopup])
+chatgpt.com##[data-message-role="assistant"] > section[class] > aside[aria-label]:has(> div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
 ! kayak
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L

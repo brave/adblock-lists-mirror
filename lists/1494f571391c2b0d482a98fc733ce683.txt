@@ -1096,6 +1096,7 @@ free-3dtextureshd.com##.adblock_title
 ! https://github.com/uBlockOrigin/uAssets/issues/33638
 streamvid.dev##+js(acs, setTimeout, /_0x|window\.open/)
 streamvid.dev##+js(nowoif)
+playstreaming.win##+js(nostif, click)
 ! https://github.com/uBlockOrigin/uAssets/issues/33278
 streamvid.dev##.ad_mobile
 
@@ -1585,3 +1586,7 @@ garaz.cz##.placeholder-wrapper
 garaz.cz##div[data-advert]
 cyklobazar.cz##+js(json-edit-fetch-response, .stories.*[?.storyType=="ad"], propsToMatch, cykloStories)
 cyklobazar.cz##curtain-ad
+
+! https://github.com/uBlockOrigin/uAssets/issues/34134
+||naturalhistory2.si.edu/vt3/$all
+||landing.candynetwork.ai/*&affid=$doc,popup

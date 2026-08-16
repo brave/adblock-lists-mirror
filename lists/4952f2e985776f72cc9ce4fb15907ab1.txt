@@ -1,10 +1,9 @@
 ! Title: List-KR classic filters list (uBO)
 ! Description: uBlock Origin용 List-KR 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20681.2
+! Last modified: 2026-08-16T16:19:10.284Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/List-KR/List-KR
-! Licence: https://github.com/List-KR/List-KR/blob/master/LICENSE
-
+! License: https://github.com/List-KR/List-KR/blob/master/LICENSE
 !#if ext_ublock
 ||api-external.adsvani.com^
 ||cdn.adsvani.com^
@@ -252,15 +251,11 @@
 ||adservice.google.com^
 ||partner.googleadservices.com^
 ||ad.qanda.ai^
-!
-! DOMAIN-REFRESHER: START
-!
 ||ntkimg.cloud^
 ||ttse.b-cdn.net^
 ||i.keezip.com^
 ||awd.spochak.com^
-!
-! DOMAIN-REFRESHER: END
+
 
 ||serv.ds.kakao.com^
 ||cafe-ads-api.daum.net^
@@ -596,9 +591,6 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 ~m.cafe.naver.com,cafe.naver.com##img[src][alt="매니저 등록 배너"]:matches-path(/\\/steamindiegame(\\/|$)/)
 ~m.cafe.naver.com,cafe.naver.com##img[src][alt="매니저 등록 배너"]:matches-path(/\\/f-e\\/cafes\\/27842958(\\/|$)/)
 ~m.cafe.naver.com,cafe.naver.com##img[src][alt="매니저 등록 배너"]:matches-path(/clubid(=|%3[Dd])27842958/)
-!
-! DOMAIN-REFRESHER: START
-!
 /cokcok[0-9]+\.com/###cpb-popup-banners
 /xtoon[0-9]+\.com/##.container > div.row > div > a[target="_blank"] > picture
 /funbe[0-9]+\.com/##.mobile-banner > div[class^="main_top_bann"]
@@ -690,9 +682,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /mato[0-9]+\.com/##div[class^="basic-banner-"]
 /sbxh[0-9]+\.com/##[data-brs][data-br]
 /torrentsee[0-9]+\.com/##.container > div[style^="z-index:999; "]
-!
-! DOMAIN-REFRESHER: END
-!
 
 ! ndsoft.co.kr - An internet press hosting service
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/bannerManager\//$match-case
@@ -1563,9 +1552,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 ||ssl.pstatic.net/tveta/libs/
 ||vclock.kr/inf0/hot.php^
 ||aproxy-vast.wavve.com/*/v/*_AD_*/req/$xmlhttprequest
-!
-! DOMAIN-REFRESHER: START
-!
 /^https:\/\/cdn[0-9]+\.cokcok\.[a-z0-9]+\/assets\/images\//$domain=/cokcok[0-9]+\.com/
 /^https:\/\/tkor[0-9]+\.com\/bann\//
 /^https:\/\/tkor[0-9]+\.com\/images\//
@@ -1781,8 +1767,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /^https:\/\/blacktoon[0-9]+\.com\/poster_js\/[0-9]+\.js/
 ||toonkor*.com/images/*.gif
 ||wwwimageup.angle777899.com/other/atoona/
-!
-! DOMAIN-REFRESHER: END
 
 ! ##div[id^="ad_"]
 m.stock.naver.com,donga.com,ildaro.com,pann.nate.com,sportsseoul.com,seoulwire.com,r114.com,dprime.kr,zdnet.co.kr,fpn119.co.kr,serieamania.com,news.nate.com,m.nate.com,www.nate.com,m.edaily.co.kr,m.sedaily.com,m.thisisgame.com,planet-times.com,mobile.newsis.com,fnnews.com,mania.kr,mosen.mt.co.kr,ruliweb.com##div[id^="ad_"]
@@ -3205,9 +3189,6 @@ m.dcinside.com##ul.detail-top-lst.trend
 clien.net##div:has(> div[class="ad_banner"])
 koreaminecraft.net##tr.notice:not(:has(.wst_member_title))
 kio.ac##main > div:has(> div > div > a > img)
-!
-! DOMAIN-REFRESHER: START
-!
 tvchak.live##.banner-box
 aniya24.com##.popup-container
 blacktoon1.info##div[data-mesh-id="comp-m8jy31rninlineContent"]
@@ -3263,8 +3244,6 @@ filetender.com##iframe[src="https://filetender.com/mobon.html"]
 moviepang.net##.sidebar[style] > aside[id^="text-"][class] ~ aside[id^="text-"][class]
 103.204.13.68##.product-banner
 103.204.13.68##div[class^="mobile-m ad720_"]
-!
-! DOMAIN-REFRESHER: END
 
 @@||newautopost.co.kr/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js
 @@||ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js$domain=smartstore.naver.com
@@ -3309,12 +3288,7 @@ x86.co.kr#@#.download_ad
 @@||ssl.pstatic.net/adimg*.search/adpost/js/ad.js$domain=naver.com
 @@/^https:\/\/www\.ehanex\.com\/images\/main\/[a-z]{2}_ad\.gif$/
 @@||t1.daumcdn.net/adfit/static/kp.js$domain=pindirectshop.com|dongbanmall.com
-!
-! DOMAIN-REFRESHER: START
-!
 @@||dasibogo.net/wp-content/uploads/sites/23/2024/04/dasibogologo$domain=dasibogo.net
-!
-! DOMAIN-REFRESHER: END
 
 zod.kr#?#div[class] > div[id]:not([class]):has(a[href*="/go/"]:matches-attr("/^data-[a-z0-9]+/"="/\+[0-9]+P/"))
 search.naver.com##li:matches-attr("/-[a-z]+-[a-z]+$/"="*nad-*")
@@ -3445,9 +3419,6 @@ postshare.co.kr#?#pre > div[id]:has(> div[align] > a > img[src*="//img.postshare
 postshare.co.kr#?#div[id][class][style]:has(> .impactify-player-container)
 mosen.mt.co.kr#?#section.textList > article.row:has(> ul.aritcle-info > li.title > a[href*="//adv.imadrep.co.kr/"])
 berryjam.co.kr#?#table[width="1200"]:has(> tbody > tr > td > div[class*="slider-banner-"])
-!
-! DOMAIN-REFRESHER: START
-!
 opworlds18.com,opworlds19.com,opworlds20.com,opworlds21.com,opworlds22.com,opworlds23.com,opworlds24.com,opworlds25.com,opworlds26.com#?#.row > .col-sm-12:has(a[href^="/bbs/board.php?bo_table=primium"])
 spochak.com#?#table .basic-info-alert:has(a[href="/marble/"])
 avsee.*#?#.widget-side-box > .main-box:has(img[src^="/imgs/"])
@@ -3455,8 +3426,6 @@ avsee.*#?#.widget-side-box > .main-box:has(img[src^="/imgs/"])
 [$domain=/booktoki[0-9]+\.com/]#?#ul[class] > li:has(> a[href*="tokkiweb.com"])
 [$domain=/manatoki[0-9]+\.com/]#?#ul[class] > li:has(> a[href^="/guarantee.php"])
 [$domain=/^yagong[0-9]+\.com$/]##div[class*="border"]:has(> a[href][target*="_blank"])
-!
-! DOMAIN-REFRESHER: END
 
 damoang.net#$?#.gap-4.sm\:grid-cols-3 > .flex.flex-col { remove: true; }
 chzzk.naver.com#$?#.webplayer-internal-core-shadow > .wpc-pos-abs { remove: true; }
@@ -3487,12 +3456,7 @@ algumon.com#$?#.nav-mobile:matches-css(display: none) ~ .base > .main { width: c
 5donews.co.kr#$?#.body > .content.xe_content:not(:has(article)) { width: auto !important; }
 mule.co.kr#$?#.section-lefttop-center:has(> .mule-today) { width: 100% !important; }
 banhub.xyz#$#html { overflow: visible !important; }
-!
-! DOMAIN-REFRESHER: START
-!
 aniya24.com#$?#div[class*="-player-wrapper"] > .play-media-control ~ div[class^="beeteam"][class*="-player-sub-element"] { remove: true; }
-!
-! DOMAIN-REFRESHER: END
 
 ||jeongcheogi.edugamja.com/ads/$redirect=2x2.png
 ||ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js$script,domain=m.cafe.naver.com,redirect=noop.js
@@ -3559,14 +3523,9 @@ m.cafe.naver.com#?#.location_bar:has(.active:has-text(전체공지)) ~ .location
 m.cafe.naver.com#?#.location_bar:has(.active:has-text(전체공지)) ~ .location_fix li.board_box:has(a[href].txt_area span.nick:has-text(삼성스마트폰카페운영)):matches-path(/ca-fe\\/(web\\/cafes\\/|)(anycallusershow|13764661)($|\\/|\\?)/)
 ~m.cafe.naver.com,cafe.naver.com#?##upperArticleList ._noticeArticle:has(a[href][class][onclick]):has(.td_name a[onclick][href][class]:has-text(삼성스마트폰카페운영)):matches-path(/(&|\\.|\\?)clubid=13764661($|&)/)
 ~m.cafe.naver.com,cafe.naver.com#?##editorMainContent div[title][style^="color"]:not(:has(a[target="_blank"])) ~ *:has(a[target="_blank"]):matches-path(/(&|\\.|\\?)clubid=13764661($|&)/)
-!
-! DOMAIN-REFRESHER: START
-!
 frtoon220.com,frtoon221.com,frtoon222.com,frtoon223.com,frtoon224.com,frtoon225.com,frtoon226.com,frtoon227.com,frtoon228.com,frtoon229.com,frtoon230.com,frtoon231.com,frtoon232.com,frtoon233.com#?#.alert-danger.container:has-text([AD])
 hdhd344.net,hdhd345.net,hdhd346.net,hdhd347.net,hdhd348.net,hdhd349.net,hdhd350.net,hdhd351.net,hdhd352.net,hdhd353.net,hdhd354.net,hdhd355.net,hdhd356.net,hdhd357.net,hdhd358.net#?#.menu-ul > .menu-li:has(> a:has-text(보증토토))
 /blacktoon[0-9]+\.com/#?#.alert.alert-danger:has(> a:contains([AD]))
-!
-! DOMAIN-REFRESHER: END
 
 m-emart.ssg.com#$?##content div[style*="contents"]:has(.chakra-stack + div[class] span:has-text(AD)) { remove: true; }
 ! This file includes a filter using action operators of uBlock Origin that can be converted to AdGuard scriptlet.
@@ -3661,16 +3620,11 @@ naver.com##+js(set, getAdcrUrl, '')
 koreapas.com##+js(set, random_imglink, noopFunc)
 imbc.com##+js(set, vrixadsdk, undefined)
 kilho.net##+js(set, hahaha, noopFunc)
-!
-! DOMAIN-REFRESHER: START
-!
 cokcok.stream##+js(trusted-replace-node-text, script, '/const *_[a-z0-9]+ *= *{ *"media_file" *: *" *https:\\\/\\\/cdn[0-9]+\.cokcok\.[a-z0-9]+\\\/assets\\\/videos\\\/.+"click_through" *:.+};/', media_file, '')
 ! aglint-disable-next-line
 /lover[0-9]\.net/##+js(aeld, click, 'opMagic)
 ! aglint-disable-next-line
 /lover[0-9]\.net/##+js(nano-stb, closeBtn.innerHTML, , 0.001)
-!
-! DOMAIN-REFRESHER: END
 
 ! ##+js(acis, document.addEventListener, /adscale_slot_id/)
 asdn.kr,healthfeed.co.kr,bikesell.co.kr,remiz.co.kr,enjoytaiwan.co.kr,poketory.com,withukor.com,tistory.com,love.asdn.kr,untitle.org,seo-marketing.co.kr##+js(acis, document.addEventListener, /adscale_slot_id/)
@@ -3844,15 +3798,10 @@ singingdalong.blogspot.com,sajuplus.net##.adsense-alt
 tistory.com,sajuplus.net##+js(set, checkAds, noopFunc)
 ! foreign website
 play.aidungeon.io,tamrieltradecentre.com,downloads.descendant.me,html5.gamedistribution.com,paraphraser.io,sekai-kabuka.com,teemo.gg,xtremestream.co#@#ins.adsbygoogle[data-ad-slot]
-!
-! DOMAIN-REFRESHER: START
-!
 hasha.in##+js(no-fetch-if, adManager.js)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hasha.in
 @@||js.wpadmngr.com/static/adManager.js$xmlhttprequest,domain=hasha.in
 lover932.net,lover933.net,lover934.net,lover935.net,lover936.net,lover937.net,lover938.net,lover939.net,lover940.net,lover941.net##+js(nostif, document[_0x)
-!
-! DOMAIN-REFRESHER: END
 
 ||newspic.kr^$removeparam=cp
 auto.danawa.com##+js(set, NAVER_ADPOST_V2, noopFunc)
@@ -4073,13 +4022,8 @@ ruliweb.com#$#.user_view { width: 100% !important; }
 ppomppu.co.kr#$#.top-keyword { width: 100% !important; }
 orbi.kr#$#.global-top { top: 0px !important; }
 www.erdcloud.com#$#.erd-container { width: 100% !important; }
-!
-! DOMAIN-REFRESHER: START
-!
 ! aglint-disable-next-line
 [$domain=/^spotv[0-9]+\.com$/]##header { top: 0px !important; }
-!
-! DOMAIN-REFRESHER: END
 
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/2130#issuecomment-1621684566
 apycsports.com#$#.copas_btn { display: none !important; }

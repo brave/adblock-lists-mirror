@@ -1,6 +1,6 @@
 ! Title: List-KR classic filters list (uBO)
-! Description: uBlock Origin용 List-KR 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Last modified: 2026-08-17T06:11:38.131Z
+! Description: DEPRECATED: 호환성을 위해 유지되는 구독 주소입니다. 새 구독 주소: https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-uBlockOrigin.txt
+! Last modified: 2026-08-17T10:54:07.213Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/List-KR/List-KR
 ! License: https://github.com/List-KR/List-KR/blob/master/LICENSE
@@ -1946,6 +1946,9 @@ mvod.jtbc.co.kr##div[class^="iframe_"][class$="_ad"]
 app.pizzaalvolo.co.kr##div[class^="css-"][style^="gap: "] > div[tabindex="0"]:has(div[style^="position: absolute; right:"])
 enuri.com###coupangCpcSection
 enuri.com##.lp-ad--naver
+issuefeed.dcinside.com##div[class*="ad"]
+issuefeed.dcinside.com##a:has(> img[src*="banner"])
+issuefeed.dcinside.com##div[class*="sticky"]:has(> button)
 gall.dcinside.com,m.dcinside.com##ul[class$="_ad"]
 asked.kr##div[class*="ad_"][style*=":"]
 asked.kr##div[class^="inner_"] > div[class^="banner_"]
@@ -3806,6 +3809,32 @@ lover932.net,lover933.net,lover934.net,lover935.net,lover936.net,lover937.net,lo
 
 ||newspic.kr^$removeparam=cp
 auto.danawa.com##+js(set, NAVER_ADPOST_V2, noopFunc)
+
+||whoas.xyz^
+
+||litt.ly/api/blockevents
+||ridibooks.com^$removeparam=_rdt_sid
+||ridibooks.com^$removeparam=_rdt_idx
+||ridibooks.com^$removeparam=_rdt_arg
+
+
+m.bunjang.co.kr##header div[class^="_top-banner-large_"]:has(> button[class^="_top-banner-large-content_"] > img[src="https://static.bunjang.co.kr/web/ui/logo-icon.svg"])
+m.bunjang.co.kr##footer > a[href="https://go.bgzt.link/app"]
+m.bunjang.co.kr##header section[class*="_top-banner_"]:has( > section >  a[href="https://go.bgzt.link/app"])
+lottecinema.co.kr##.appbannermain_wrap
+lottecinema.co.kr##.banner_appinstall
+m.11st.co.kr###banner > .c-webtoapp
+muko.kr##.lp-install-chip
+muko.kr###xt_join_site_addons
+www.naver.com###whale-banner
+
+m.bunjang.co.kr##+js('trusted-click-element', '.bun-ui-bottom-sheet-portal:has(.bun-ui-bottom-sheet > section[class^="BottomSheet_bodyRecipe__"] > img[src^="/static/media/app-nudge."]) .bun-ui-bottom-sheet-dim')
+lottecinema.co.kr##+js('set-cookie', 'MainPopup', 'true')
+m.11st.co.kr##+js(set-cookie, web2AppPopupDisable, Y)
+
+
+chzzk.naver.com##+js(spoof-css, .banner_ad_wrapper, display, block)
+chzzk.naver.com##+js(no-xhr-if, /(veta.naver.com\/vas|veta.naver.com\/gfp|veta.naver.com\/call)/ method:OPTIONS)
 !#endif
 
 !#if cap_user_stylesheet
@@ -4033,8 +4062,15 @@ apycsports.com#$#.copas_btn { display: none !important; }
 2cpu.co.kr#$#header .row[style] { margin-bottom: 35px !important; }
 sign.dcinside.com#$#.login_inputbox { width: 100% !important; }
 !#endif
+
+
+
 !#endif
 
 !#if cap_html_filtering
 heye.kr##^script:has-text(/window\.open\([^)]*\);\s*\w+\.focus/)
+
+
+
 !#endif
+

@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608162342
+! Version: 202608170009
 ! Title: EasyPrivacy
-! Last modified: 16 Aug 2026 23:42 UTC
+! Last modified: 17 Aug 2026 00:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 27e32732f2ce66ba72f3a84d026b52335705e462
+! Commit: 2b093b51e6e432c20a2b339aa911fcf26a38f271
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -697,6 +697,8 @@
 /collectsysteminfo?
 /com.snowplowanalytics.snowplow/*$domain=~7plus.com.au
 /com_joomlawatch/img.php
+/com_jrealtimeanalytics/js/heatmap.js
+/com_jrealtimeanalytics/js/stream.js
 /commerce-events-listener.js
 /common/analytics.js
 /common/ga.js
@@ -14172,6 +14174,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dnt-userreport.com^
 ||er.sanoma-sndp.fi/stats/
 ||er.sanoma-sndp.fi/v2/stats/
+||handshake.gravito.net^
 ||nelonenmedia.fi/logger/
 ||tags.op-palvelut.fi^
 ||vine.eu/track/

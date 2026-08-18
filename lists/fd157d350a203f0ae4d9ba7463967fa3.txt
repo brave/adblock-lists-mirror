@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oSpk0+rr0qZz4AvhwIimLg
-! Version: 202608180842
+! Checksum: lYp+PgcQDQrFdyhi7awo3g
+! Version: 202608180912
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Aug 2026 08:42 UTC
+! Last modified: 18 Aug 2026 09:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13018,6 +13018,7 @@ itc.ua###wrapper > .container > p > .out-link1
 metodsilva.ru###wrapper > .fma-bg
 gagadget.com###wrapper > .l-container_wide[style*="min-height:"]
 rasfokus.ru,waralbum.ru###wrapper > noindex
+fastpic.org###x9f8e2b
 newsko.ru###xtest-videoad
 soft.sibnet.ru###ya-block
 80-e.ru###ya-bottom
@@ -16158,7 +16159,7 @@ cnc3018.ru,termoportal.ru,zerocoolpro.biz##.samCodeUnit
 forum-volgograd.ru##.samListItem
 news.ru##.samolet-ad
 uman24.org.ua##.sample-posts
-sho.org.ua#?#.sample-posts > h4:-abp-contains(/партнер/i)
+sho.org.ua#?#.sample-posts > h2:-abp-contains(/партнер/i)
 24.cv.ua#?#.sample-posts:-abp-has(> h4:-abp-contains(/^новини партн/i))
 materialscience.ru##.sape
 ladylib.net##.sape[style="width:500px;"]
@@ -19081,6 +19082,7 @@ xn--k1afadd0cwc.xn--p1ai##div[class^="adace"]
 cameralabs.org##div[class^="adaptivgoogle"]
 e-ink-reader.ru##div[class^="adb"]
 hibiny.ru##div[class^="adfox_"]
+rknweb.ru##div[class^="adlook-"]
 vlasti.net,winnote.ru##div[class^="adrotate"]
 chernomorets.odessa.ua,moei.ru,shaiba.kz,sports.kz,x-kuzov.ru##div[class^="ads"]
 amoledo.com##div[class^="adsbanner"]
@@ -22243,6 +22245,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||lgotivam.ru/promo.php?
 ||li.ru/static/radio/
 ||lib.rus.ec/sites/default/files/$object
+||libertycity.*/img/bg-web-amazing-
 ||life170.ru/img/main-bg-dn.png
 ||lifehacker.ru/api/*/*/scripts*path=$xmlhttprequest
 ||lifetambov.ru/reklama

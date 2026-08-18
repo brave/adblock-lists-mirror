@@ -1,6 +1,6 @@
 ! Title: List-KR classic filters list (uBO)
 ! Description: DEPRECATED: 호환성을 위해 유지되는 구독 주소입니다. 새 구독 주소: https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-uBlockOrigin.txt
-! Last modified: 2026-08-18T05:48:53.976Z
+! Last modified: 2026-08-18T06:26:29.303Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/List-KR/List-KR
 ! License: https://github.com/List-KR/List-KR/blob/master/LICENSE
@@ -3192,6 +3192,7 @@ dcinside.com##div.key_trendbox
 m.dcinside.com##ul.detail-top-lst.trend
 clien.net##div:has(> div[class="ad_banner"])
 koreaminecraft.net##tr.notice:not(:has(.wst_member_title))
+kio.ac##div.flex:has(> div.bg-white)
 kio.ac##main > div:has(> div > div > a > img)
 tvchak.live##.banner-box
 aniya24.com##.popup-container
@@ -3834,8 +3835,14 @@ m.11st.co.kr##+js('set-cookie', 'web2AppPopupDisable', 'Y')
 muko.kr##+js('set-cookie', 'muko_gs_modal_dismissed', '1')
 
 
+kio.ac##+js(nostif, , 200)
+
+
 chzzk.naver.com##+js(spoof-css, .banner_ad_wrapper, display, block)
 chzzk.naver.com##+js(no-xhr-if, /(veta.naver.com\/vas|veta.naver.com\/gfp|veta.naver.com\/call)/ method:OPTIONS)
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=kio.ac,important
+||lib.wtg-ads.com/publisher/kio.ac/sb_interstitial_wtg.js$script,redirect=noop.js,domain=kio.ac,important
+
 !#endif
 
 !#if cap_user_stylesheet

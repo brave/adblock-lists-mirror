@@ -1,6 +1,6 @@
 ! Title: List-KR classic filters list (uBO)
 ! Description: DEPRECATED: 호환성을 위해 유지되는 구독 주소입니다. 새 구독 주소: https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-uBlockOrigin.txt
-! Last modified: 2026-08-18T07:17:38.730Z
+! Last modified: 2026-08-18T07:43:02.257Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/List-KR/List-KR
 ! License: https://github.com/List-KR/List-KR/blob/master/LICENSE
@@ -80,7 +80,6 @@
 ||ads.sportsseoul.com^
 ||ad.cyycoy.com^
 ||ads.admaru.com^
-||wmars-client.wemakeprice.com^
 ||displayad.lotteon.com^
 ||ad-script.viewus.co.kr^
 ||ad-insight.sellermill.com^
@@ -587,13 +586,11 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /lover[0-9]\.net/##.div-over
 /^torrentqq[0-9]+.com/##.at-banner
 /torrentpi[0-9]+\.com/##.basic-post-gallery
-/tvwiki[0-9]+\.tv/##a:has(> img[src^="https://static.wixstatic.com/media/"])
 /torrentzota[0-9]+\.com/##a[href^="/adver-"]
 /^tv[0-9]+\.wiki/###cpb-popup-banners
 /^tv[0-9]+\.wiki/##.custom_banner_wra
 /^tkor[0-9]+\.com/##*[class*="top_bann"]
 /^jusokorea[0-9]+\.com/##div[class*="-ad-banner"]
-/^tvwiki[0-9]+\.com/##ul[class^="banner"]
 /^sptv[0-9]+\.com/##.modal_contents
 /^torrentpi[0-9]+\.com/##style ~ .basic-post-gallery
 /^avguri[0-9]+\.com/##div[id$="_bn"]
@@ -1001,8 +998,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 ||thewordcracker.com/wp-content/uploads/*/BH_D.jpg
 ||ifh.cc^$domain=m-sooriya.tistory.com
 ||m-economynews.com/data/banner/
-/^https?:\/\/view[0-9]+\.wemep\.co\.kr\/wmp-banner\/[0-9]{2}\/[0-9]{6}\/[0-9]{2}\//$match-case,domain=wemakeprice.com
-/^https?:\/\/view[0-9]+\.wemep\.co\.kr\/wmp-main\/[0-9]{2}\/[0-9]{6}\/[0-9]{2}\/(pmt|pmb)_[a-z0-9]{12}\./$match-case,domain=wemakeprice.com
 ||yeskey.or.kr/bnr-img/
 ||static.hankyung.com/img/tenasia/w/banners/
 ||side.mythiell.com/readUrl.php?url=https://ad.mapy.co.kr/
@@ -1347,7 +1342,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 ||cdn.ampproject.org/v0/amp-ad-*.js
 ||cdn.ampproject.org/rtv/*/v0/amp-ad-*.js
 ||image.fmkorea.com/images/ad/
-||cdn.funshop.co.kr/BannerImage/
 ||amazonaws.com/adpick.co.kr/apis/adpick_cps.js
 ||static.uni1id.com/resource/adver.config.json|
 ||danawa.com/ajax/getAdSmartProductList.ajax.php|
@@ -1551,16 +1545,13 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /lover[0-9]\.net\/file\/tohotv\/.*\.gif$domain=/lover[0-9]\.net/
 /lover[0-9]\.net\/file\/1bet\/.*\.gif$domain=/lover[0-9]\.net/
 /lover[0-9]\.net\/file\/eve\/.*\.png$domain=/lover[0-9]\.net/
-/^https:\/\/cdn[a-z0-9]+\.site\/data\/banner\//$domain=/tvwiki[0-9]+\.net/
 ||wdwd*.com/data/banner/
 ||static.tzstatic.top/z/*.gif
 ||ddal.xyz/project/mc/js/nuevo.min.js
-*$image,domain=/tvwiki[0-9]+\.tv/
 /^https:\/\/tv[0-9]+\.wiki\/wp-content\/uploads\/[0-9]+\/[0-9]+\/.+\.gif/$domain=/^tv[0-9]+\.wiki/
 ||img.mingk.xyz/data/file/passfree/
 ||mingk*.net/theme/BS4-Basic/js/pf-loader.js$domain=/^mingky[0-9]+\.net/
 ||yasyadong.*/?_Action=adv&_Method$domain=yasyadong.*
-/https:\/\/tvwiki[0-9]+\.com\/data\/banner\//$domain=/tvwiki[0-9]+\.com/
 /^https:\/\/(www\.)?aniya24\.com\/wp-content\/uploads\/[0-9]+\/[0-9]+\/[a-z]+[0-9]+x[0-9]+\./$domain=aniya24.com
 ||aniya24.com/wp-content/uploads/*.gif
 ||nooo*.tv/theme/basic_player/img/banner/
@@ -1573,8 +1564,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 ||hoduhodu.com/_next/image?url=https%3A*.hoduhodu.com%2Fbanner%2F%
 ||mzgtoon.com/_next/image?url=https%*.mzgtoon.com%2Fbanner%2F%
 ||cdn.ksportscdn.com/data/popup/
-||tvwiki*.com/AD
-/https:\/\/tvwiki[0-9]+\.com\/AD\//$domain=/tvwiki[0-9]+\.com/
 ||rj.filesbest.xyz/r/
 /^https:\/\/torrentrj[0-9]+\.com\/uploadfile\/up[0-9a-z]+\.gif/$domain=/^torrentrj[0-9]+\.com/
 ||moeni.net/img/a/ad
@@ -3171,7 +3160,6 @@ avjoa69.com##.happy-header
 ntnt4.tv##a[data-testid="linkElement"][href^="http"][target="_blank"]:has(> wow-image)
 aniwolf.*##.banner-area
 anilife.*##div[class] > a[class][href^="http"][target="_blank"]
-[$domain=/^tvwiki[0-9]+\.com/]##div[id] > ul:has(a[href] > img[src^="/AD/"])
 hoduhodu.com##.w-full > a[target="_blank"] > img
 [$domain=/^kktv[0-9]+\.com/]##.modal_contents
 [$domain=/^tvmon[0-9]+\.org/]##.row-banner
@@ -3478,7 +3466,6 @@ m.pay.naver.com#?##content > .recommend_section:has(> div[style^="padding:"] > #
 pedia.watcha.com#?#section[class^="css-"] section[class^="css-"] > [class^="css-"]:is(:has(section > a[target="_blank"]), :has(> div[class^="media-area "])):has-text( · AD):not(:has(section ~ section))
 eomisae.co.kr#?#._listA tr.notice:has(span[style]:has-text(AD))
 bonik.me#?##sidebar > .module:has-text(Ad)
-msearch.wemakeprice.com#?#article[data-list-container="searchList"] li:has(span:has-text(AD).gray_round_badge)
 eomisae.co.kr#?#main#main .eq.section #bd table tr:has(.no ~ .title span:has-text([AD]))
 koreatimes.net#?#.container .recent_news_inner:has(> h3:has-text(AD))
 ypbooks.co.kr#?#.section-intro > .m-latest-renew:has(h3:has-text(오늘의 책))
@@ -3748,6 +3735,9 @@ chzzk.naver.com##+js(no-xhr-if, /(veta.naver.com\/vas|veta.naver.com\/gfp|veta.n
 ! kio.ac
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=kio.ac,important
 ||lib.wtg-ads.com/publisher/kio.ac/sb_interstitial_wtg.js$script,redirect=noop.js,domain=kio.ac,important
+! dicoall.com
+dicoall.com##+js(no-fetch-if, fundingchoicesmessages.google.com/b/pub-1437333416759682 method:HEAD)
+
 
 ||newspic.kr^$removeparam=cp
 auto.danawa.com##+js(set, NAVER_ADPOST_V2, noopFunc)

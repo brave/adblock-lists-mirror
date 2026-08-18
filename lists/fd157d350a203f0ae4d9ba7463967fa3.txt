@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dn9q/qz+TbQSi62L/pCLVA
-! Version: 202608181111
+! Checksum: Uf7+6O3SdNMlc/bHARRGfw
+! Version: 202608181142
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Aug 2026 11:11 UTC
+! Last modified: 18 Aug 2026 11:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17521,7 +17521,7 @@ stratege.ru##[id][class] > [src*="ads.adfox.ru"] + style + div[id]
 stratege.ru##[id][class] > style:first-child + div[id]
 cxem.net##[id^="_myproduct"]
 onlinetambov.ru##[id^="ad"][class*="ads"]
-svpressa.ru,trainzland.ru##[id^="adfox_"]
+svpressa.ru,trainzland.org##[id^="adfox_"]
 depositfiles.com##[id^="ads_zone"]
 forum.krasmama.ru##[id^="adv_"]
 tuzlist.ru##[id^="adv_orders_"]
@@ -25465,7 +25465,7 @@ docviewer.yandex.ru,docviewer.yandex.*##.with-bottom-direct > div[class] > div[c
 eda.yandex.ru##[data-testid="open-advert-modal-button"]
 eda.yandex.ru##div[class^="banner_"]
 mail.yandex.ru,mail.yandex.*##.b-direct-stripe
-mail.yandex.ru,mail.yandex.*##.RightColumnRoot.WithGlobalBar
+mail.yandex.ru,mail.yandex.*##.RightColumnRoot
 mail.yandex.ru,mail.yandex.*##div[class*="DirectLine"]
 mail.yandex.ru,mail.yandex.*#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
 rasp.yandex.ru,rasp.yandex.*##.Direct
@@ -26292,7 +26292,7 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 @@||tehnar.net.ua^$generichide
 @@||tmbw.ru^$generichide
 @@||todotech20.com^$generichide
-@@||trainzland.ru^$generichide
+@@||trainzland.org^$generichide
 @@||tvizorcdn.ru^$generichide
 @@||u-cdn.org/start/$generichide
 @@||u-cdn.top/start/$generichide

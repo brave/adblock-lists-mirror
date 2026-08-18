@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FVb1Ay3H+siiD8uH40FTHQ
-! Version: 202608161625
+! Checksum: jsLVBgUxQYh6AjmgM0/22Q
+! Version: 202608181300
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-08-16 16:25 UTC
+! Last modified: 2026-08-18 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -687,6 +687,7 @@ cosmos.so##+js(set, Object.prototype.disablePaginationLimitForLoggedOut, true)
 goodreads.com##+js(set-cookie, blocking_sign_in_interstitial, true)
 ! reddit.com (mobile)
 reddit.com###app-upsell-blocking-bottom-sheet-seo
+reddit.com###configured-xpromo-mweb3x_mid_funnel_blocking_v1_30s
 reddit.com###xpromo-small-header.mr-xs
 reddit.com##+js(aeld, block-body-scrolling)
 reddit.com##+js(rc, scroll-disabled, body, stay)
@@ -700,6 +701,7 @@ reddit.com##.XPromoPill
 reddit.com##.XPromoPopup
 reddit.com##.XPromoPopupRpl
 reddit.com##.XPromoPopup__overlay
+reddit.com##.rpl-scroll-lock:style(overflow: auto !important;)
 amp.reddit.com##.upsell_banner
 reddit.com##.v2 > shreddit-async-loader
 reddit.com##body.scroll-disabled:style(overflow: visible!important; position: static!important;)

@@ -36,7 +36,8 @@ def main():
     db.execute("""
         CREATE TABLE source_files (
             id INTEGER PRIMARY KEY,
-            filename TEXT UNIQUE NOT NULL
+            filename TEXT UNIQUE NOT NULL,
+            title TEXT NOT NULL DEFAULT ''
         )
     """)
 
@@ -59,11 +60,30 @@ def main():
 
     list_files = [f.name for f in lists_path.iterdir() if f.suffix == ".txt"]
 
-    # Bulk insert source files
+    # Extract title from each list file's header
+    def extract_title(file_path):
+        try:
+            with open(file_path, encoding="utf-8") as f:
+                for line in f:
+                    if line.startswith("! Title:"):
+                        return line.split(":", 1)[1].strip()
+                    # Stop searching after first non-comment, non-empty line
+                    if line.strip() and not line.startswith(("!", "[", "data:")):
+                        break
+        except UnicodeDecodeError:
+            pass
+        return ""
+
+    # Build file-to-title mapping
+    file_titles = {}
+    for file in list_files:
+        file_titles[file] = extract_title(lists_path / file)
+
+    # Bulk insert source files with titles
     print(f"Inserting {len(list_files)} source files...")
     db.executemany(
-        "INSERT INTO source_files (filename) VALUES (?)",
-        [(file,) for file in list_files],
+        "INSERT INTO source_files (filename, title) VALUES (?, ?)",
+        [(file, file_titles[file]) for file in list_files],
     )
 
     # Read back the source file IDs

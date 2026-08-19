@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20684.1
+! Version: 2026.20684.2
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -706,6 +706,7 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/RealMedia\/ads\//
 /data/banner.json?$domain=~nintendo.*
 
+||autopostkorea.com/wp-content/themes/fastviewPressTwo/local/ad.css
 ||fpn119.co.kr/data/fpn119_co_kr/upload/bn_
 ||fpn119.co.kr/data/fpn119_co_kr/bn_img/
 ||map.naver.com/p/api/ads/common-marker
@@ -3687,6 +3688,7 @@ chzzk.naver.com##+js(json-prune-xhr-response, ads.[-].eventTracking.ackImpressio
 chzzk.naver.com##+js(json-prune-xhr-response, adBreaks.[-].adSources.[].withRemindAd, videoAdScheduleId, propsToMatch, 'url:api.chzzk.naver.com/service/t/')
 chzzk.naver.com##+js(trusted-set-local-storage-item, homeSkinCollapsedUntil, 9999999999999)
 !
+goodmorningcc.com##+js(no-window-open-if, bannerpop/popup.html)
 m.danawa.com##+js(set-cookie, hideMainBottomSheet, Y)
 www.naver.com##+js(set, EAGER-DATA.CAS-MINICONTENT-PC-WHALE-BANNER-BOTTOM, null)
 vod.sooplive.com##+js(json-prune-xhr-response, data.adballoon, , 'station/video/a/view')

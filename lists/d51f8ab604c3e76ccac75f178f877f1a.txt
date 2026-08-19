@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20684.2
+! Version: 2026.20684.5
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -600,6 +600,7 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! DOMAIN-REFRESHER: START
 !
+/anilife[0-9]+\.tv/##*[class^="partner-banner-"]
 /cokcok[0-9]+\.com/###cpb-popup-banners
 /xtoon[0-9]+\.com/##.container > div.row > div > a[target="_blank"] > picture
 /funbe[0-9]+\.com/##.mobile-banner > div[class^="main_top_bann"]
@@ -1584,6 +1585,7 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 !
 ! DOMAIN-REFRESHER: START
 !
+/^https:\/\/anilife[0-9]+\.tv\/tvwiki-banners\//$domain=/anilife[0-9]+\.tv/
 /^https:\/\/cdn[0-9]+\.cokcok\.[a-z0-9]+\/assets\/images\//$domain=/cokcok[0-9]+\.com/
 /^https:\/\/tkor[0-9]+\.com\/bann\//
 /^https:\/\/tkor[0-9]+\.com\/images\//

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2grEjnX1byBk1o2aUvurfw
-! Version: 202608201212
+! Checksum: 1Ap1YpTXI9TUgxqZsB76aA
+! Version: 202608201252
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Aug 2026 12:12 UTC
+! Last modified: 20 Aug 2026 12:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23907,7 +23907,7 @@ igdz1.ru^$script,domain=igdz.ru
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com|businessua.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 ://mail.ru$csp=img-src 'self' https:
-://pikabu.ru/$csp=connect-src https://pikabu.ru/ajax/ https://pikabu.ru/ajax.php https://pikabu.ru/ajax?route= *.pikabu.ru/ data: https://pikabu.ru/.well-known/ wss://pikabu.ru/.well-known/ wss://ws.pikabu.ru/
+://pikabu.ru/$csp=connect-src https://pikabu.ru/ajax/ https://pikabu.ru/ajax.php https://pikabu.ru/ajax?route= https://pikabu.ru/cache.txt *.pikabu.ru/ data: https://pikabu.ru/.well-known/ wss://pikabu.ru/.well-known/ wss://ws.pikabu.ru/
 ://pikabu.ru/$csp=script-src 'self' * 'unsafe-inline' data:
 @@||a.magsrv.com/ad-provider.js$script,domain=ahen.me
 @@||dmp.mpsuadv.ru/promer$xmlhttprequest,domain=trychatgpt.ru
@@ -27102,6 +27102,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||drahelas.ru/r/www/delivery/spc.php?zones=$script,domain=drahelas.ru
 @@||drahelas.ru/r/www/delivery/spcjs.php?id=$script,domain=drahelas.ru
 @@||easymc.io/ads/px.gif?ch=$image,domain=easymc.io
+@@||fastpic.org/px/*/300x250.gif|$image,~third-party
 @@||fosshub.com/media/js/adblock.js|$domain=fosshub.com
 @@||fwdcdn.com^*/advertisment.js|$script
 @@||gamesglue.com/game_core/check/ima3.js|$script,domain=gameswf.com

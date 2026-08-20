@@ -2606,4 +2606,13 @@ rds.live##iframe[id^="ai-ad-"]
 
 webcamromania.ro##.wcr-ad
 
+seintamplainvalcea.ro##.code-block-4.code-block
+
+impactreal.ro##[href]:not([href*="impactreal.ro"], [href^="/"], [href*="#"]):has([src]):not([style])
+
+curierul.ro##[href]:not([href*="curierul.ro"], [href^="/"], [href*="#"]):has([src]):not([style])
+
+opiniavl.ro##[href="https://annabella.ro"]
+opiniavl.ro##.widget:has-text(Publicitate)
+
 !#include road-ubo.txt

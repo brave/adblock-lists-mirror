@@ -13,7 +13,7 @@ inoreader.com###reader_pane:style(padding-right: unset !important)
 inoreader.com###sinner_container:style(display: block !important; z-index: 0 !important)
 rambler.ru###summary ~ div:has(> [id^="cluster-video-ad"]):remove()
 pronpic.org###vO5STmSLgNAkebzSluI8coxpDgsG97g:style(height: 1px !important; min-height: 1px !important)
-$doc,reason=malicious,domain=apad2.top|besplatnyeprogrammy.ru|byrut.org.ru|dsazfk.com|hdrip.info|mediagetguru.ru|mixsoft.org|monna2.top|torrent-music.ru|torrent-soft.ru
+$doc,reason=malicious,domain=apad2.top|besplatnyeprogrammy.ru|dsazfk.com|games-7.com|hdrip.info|mediagetguru.ru|mixsoft.org|monna2.top|torrent-muzic.ru|torrent-soft.ru
 *$popunder,domain=fastpic.org
 */bens/vinos.js$popunder
 kolizhanka.com.ua,miyzvuk.net,ozon.ru##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
@@ -709,7 +709,7 @@ ya.ru,yandex.*##.simple-popup__overlay:remove()
 ||youtube.com/embed/?enablejsapi=1&origin=*3dnews.*&widgetid=1$subdocument,badfilter,domain=3dnews.ru
 !
 ! FastPic
-$third-party,domain=fastpic.org
+://fastpic.org/$inline-script
 fastpic.org,~new.fastpic.org##body:remove()
 fastpic.org,~new.fastpic.org##head:remove()
 fastpic.org,~new.fastpic.org##html::after:style(content: '⚠️ WARNING! Site infected. CLOSE THIS TAB IMMEDIATELY!' !important; font-size: 24px !important; font-weight: bold !important; text-align: center !important; line-height: 1.4 !important; margin-top: 20px !important;)

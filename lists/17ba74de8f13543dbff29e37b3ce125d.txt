@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608211114
+! Version: 202608211142
 ! Title: EasyList
-! Last modified: 21 Aug 2026 11:14 UTC
+! Last modified: 21 Aug 2026 11:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 781433b6144d16ea7cb82338ad20de35865591f9
+! Commit: 9c4a8271cd4820600cd0eb72336edf3d55418fef
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -27796,6 +27796,7 @@ browsershots.org#@#.advert_area
 ||ewygczamczrrf.space^
 ||ewyjmkgvvtoxy.space^
 ||ewykdrcicvpob.online^
+||ewyvzyykjlpcu.site^
 ||exacdn.com^
 ||exactgodiva.qpon^
 ||exactlyrunlet.shop^
@@ -38406,6 +38407,7 @@ browsershots.org#@#.advert_area
 ||mftnsjsenkwau.online^
 ||mftqdrlibjsfyq.com^
 ||mfuobqafq.in^
+||mfvmedrqqj.com^
 ||mfvskuommxwep.online^
 ||mfwbsveljxjsq.space^
 ||mfwjsoirqbdmg.com^
@@ -48307,6 +48309,7 @@ browsershots.org#@#.advert_area
 ||sharp-field.pro^
 ||sharplytopple.com^
 ||sharpofferlinks.com^
+||sharrahachtanan.cyou^
 ||sharryatomiesscatula.cyou^
 ||shaugacakro.net^
 ||shauladubhe.top^
@@ -57492,6 +57495,7 @@ browsershots.org#@#.advert_area
 ||ylligknjyhnpr.space^
 ||ylljzcijbxhpg.com^
 ||yllkvetehwuxg.online^
+||ylngawrywqhlt.site^
 ||ylodbhduliqpc.online^
 ||ylogepubxynzu.space^
 ||yloneengwaiym.site^
@@ -72696,6 +72700,7 @@ washingtonpost.com##.pb-sm.pt-sm.b
 publicbooks.org##.pb_ads_widget
 allthatsinteresting.com##.pbh_inline
 caixinglobal.com##.pc-ad-left01
+percentagecalculator.net##.pc-incontent
 serverstoplist.com##.pcOnly
 lazada.co.id,lazada.co.th,lazada.com.my,lazada.com.ph,lazada.sg,lazada.vn##.pdp-block__product-ads
 thefintechtimes.com##.penci-widget-sidebar
@@ -76913,7 +76918,7 @@ temu.com#?#.splide__slide:has-text(AD)
 theblock.co#?#.py-4.my-6:has-text(Advertisement)
 thedailywtf.com#?#.article-body > div:has-text([Advertisement])
 thingiverse.com#?#.item-card-container:has-text(/^Ad$/)
-chatgpt.com#?##thread [class^="border-"]:not([class*="sidebar"]):has-text(/Ad|Sponsored/)
+chatgpt.com#?##thread [class^="border-"]:has-text(/Ad|Sponsored/):not([class*="sidebar"])
 timesofindia.indiatimes.com#?#div[data-type="in_view"]:has(> div > span:has-text(Tired of too many ads?))
 tlgrm.eu#?#.cfeed-card:has-text(Promoted post)
 tossinggames.com#?#tbody:has-text(Please visit our below advertisers)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FZLz7c5+L9usnzw2M0NU+w
-! Version: 202608210652
+! Checksum: rHI/NGkB+r9BiLJ4CsWB2w
+! Version: 202608210712
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Aug 2026 06:52 UTC
+! Last modified: 21 Aug 2026 07:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1746,6 +1746,7 @@ kg-portal.ru##.ten_topbar + div:not(.ten_ears_wrap) {display:none;}
 kg-portal.ru##.ten_topbar {max-height:10px;}
 kg-portal.ru##body > .menu_wrap {position:relative;}
 kg-portal.ru##body {background-image:none;background-color:inherit;}
+lifehacker.ru##a[href*="erid="]:not([href^="/"]):not([href^="https://lifehacker.ru/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 mem-hub.ru###appPromoModal {display:none;}
 mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
@@ -11883,6 +11884,7 @@ komedra.com###apext
 dtf.ru#?##app:-abp-has(> .bar > .header [href="/auth"]) .content-list > .content:-abp-has(> .content-header > .author > [href="/id954970"])
 dtf.ru#?##app:-abp-has(> .bar > .tabbar [href="/account"] > .icon--login) .content-list > .content:-abp-has(> div > .author .badge__icon--pro)
 ecology.md###article > .right-block
+lifehacker.ru#?##article > p:-abp-has(> em:-abp-contains(отключите блокировщик рекламы))
 varta1.com.ua###article-content > header > h1:first-child + div > div[style^="--position-aspect-ratio:"]
 agropolit.com###article_banner
 sport.tut.by###article_body > .TitledImage

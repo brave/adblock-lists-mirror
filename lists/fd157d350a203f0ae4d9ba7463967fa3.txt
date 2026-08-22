@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 43C5aNZJClBCxZ877ILPIw
-! Version: 202608222241
+! Checksum: GGkZ+y/Ivn4Q89ZemSUozw
+! Version: 202608222312
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Aug 2026 22:41 UTC
+! Last modified: 22 Aug 2026 23:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23903,6 +23903,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
+||static.dzeninfra.ru/s3/zen-apps/*.me.js$script
 ||static.dzeninfra.ru/s3/zen-apps/*/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com|businessua.com

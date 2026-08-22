@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20686.5
+! Version: 2026.20687.2
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -708,6 +708,7 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/RealMedia\/ads\//
 /data/banner.json?$domain=~nintendo.*
 
+||resources.chimhaha.net/app/*/naverPowerLink.
 ||dvdprime.com/file/2608/banner_
 ||autopostkorea.com/wp-content/themes/fastviewPressTwo/local/ad.css
 ||fpn119.co.kr/data/fpn119_co_kr/upload/bn_
@@ -1933,6 +1934,9 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+chimhaha.net##div[id^="slot-"][name]
+chimhaha.net##.powerLinkAdsCenter
+chimhaha.net###powerLink
 loawa.com##div[data-ad-placement]
 inven.co.kr##div[style*="height:"]:has(> *[class^="ad-"])
 instiz.net##table[itemtype="http://schema.org/Article"] tr:has(> td[class^="view_"] ins.adsbygoogle)

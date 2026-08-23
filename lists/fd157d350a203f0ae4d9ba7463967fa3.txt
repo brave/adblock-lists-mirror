@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zCdS5ZuXiWEF2iJYxzFFjA
-! Version: 202608230742
+! Checksum: ZYjPc5KRqUKzl2er4k2ZbA
+! Version: 202608230812
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Aug 2026 07:42 UTC
+! Last modified: 23 Aug 2026 08:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1751,6 +1751,7 @@ mem-hub.ru###appPromoModal {display:none;}
 mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
 povarenok.ru##.page-width {margin-top:0;}
+povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 stranamam.ru##.n-main-branding-container {margin-top:0;}
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}

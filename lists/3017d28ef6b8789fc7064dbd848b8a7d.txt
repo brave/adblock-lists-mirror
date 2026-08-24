@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608240856
+! Version: 202608240922
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2026 08:56 UTC
+! Last modified: 24 Aug 2026 09:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c685fde32efb696f1739ee8f8a95ddb44558db94
+! Commit: 6179bb133ebd0ec9205d6eafac3b906ddb2091a9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4072,6 +4072,7 @@ omni.soundestlink.com$image
 ||adku.co^$third-party
 ||adku.com^$third-party
 ||admantx.com^$third-party
+||admaster.cc^$third-party
 ||admaster.com.cn^$third-party
 ||admetric.io^$third-party
 ||adobedtm.com^$third-party,domain=~adobe.com|~costco.com
@@ -9621,6 +9622,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.fr^$third-party
 ||sync.tv^$third-party
 ||tget.me^$third-party
+||time1.me^$third-party
 ||tinyclues.com^$third-party
 ||titag.com^$third-party
 ||toc.io^$third-party
@@ -54495,6 +54497,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||khamsat.com/ajax/account_stats?
 ||mosoah.com/analytics.js
 ||stats.panet.com^
+||strema.top/ping/?
 ||tags.aljazeera.net^
 ! Bosnian
 ||insight.olx.ba^

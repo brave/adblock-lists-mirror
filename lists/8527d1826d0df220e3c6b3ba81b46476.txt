@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 24 Aug 2026 19:14:14 +0300
+! Last modified: Mon, 24 Aug 2026 19:43:51 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -771,13 +771,8 @@ pelikone.fi##.preroll-text
 pelikone.fi,teknavi.fi##.ad
 pelit.fi##a[href="/category/mainos/"]
 pelit.fi##li[class="wa@s"]:has([alt^="MAINOS:"])
-pienimatkaopas.com###adiniframe_oikealaita_container
-pienimatkaopas.com###bookingnostokuvasarjassa
-pienimatkaopas.com###mainos .ilmoitus
-pienimatkaopas.com###pm_mp_kotisivu
-pienimatkaopas.com##.osa:has(> #mp_mainos_osia_osa_ylempana)
+pienimatkaopas.com##.ad
 pienimatkaopas.com##[id^=pm_mp_tekstissa]
-pienimatkaopas.com#?##mainos .otsikko:has-text(Lue myös) + div ~ *
 piipaa.info##[data-id="adsense"]
 pirkkalainen.fi##.omamainos-PIR
 pirkkalainen.fi##.ultp-block-wrapper:has(.ultp-cat-mainosartikkelit)
@@ -918,17 +913,7 @@ tekniikanmaailma.fi##.NativeAdHolder_native-ad-holder
 tekniikanmaailma.fi##.PriceGuide_price-guide
 tekniikanmaailma.fi##.TopRowAd_top-ad
 tekniikanmaailma.fi##div.Article_nettix-embed-container
-tekniikkatalous.fi##[width="mobile"]:has(> [width] > [id|="almad-content"])
-tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
-tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
-tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
-tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
 tekniikkatalous.fi##div[class][width="980"]
-tekniikkatalous.fi##section > div > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot/"]
-tekniikkatalous.fi#?#.article-body > div[class]:has(> span:has-text(KAUPALLINEN YHTEISTYÖ) + a[href^="https://koulutus.almatalent.fi/"])
-tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:has-text(Kaupallinen yhteistyö)
-tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:has-text(Kaupallinen yhteistyö)
-tekniikkatalous.fi,tivi.fi##[width]:has(.lazyload-wrapper)
 telsu.fi##.ch:has(em > a)
 telsu.fi##.dp
 telsu.fi##.pb
@@ -963,15 +948,7 @@ tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):has(+ tr:has(.mainosinline))
 tilannemedia.fi##.tilan-mobiilimainos-600
 tilisanomat.fi##.ctaad
 tinderinparhaat.com##.adf-placement-top
-tivi.fi##.kFYbNM
-tivi.fi##aside > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
-tivi.fi##section > .lazyload-wrapper + div[class]:has(> a[href^="https://tivi.fi/kumppanisisallot/"])
-tivi.fi##section > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
 tivi.fi#?#a[href^="https://koulutus.almatalent.fi/"] + section:has-text(KAUPALLINEN YHTEISTYÖ)
-tivi.fi#?#aside:has(> div > span:has-text(KAUPALLINEN YHTEISTYÖ))
-tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:has-text(KAUPALLINEN YHTEISTYÖ)
-tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:has-text(KAUPALLINEN YHTEISTYÖ)
-tivi.fi#?#div#skyscraper-height-div > section > div > a > div:has-text(Kaupallinen yhteistyö)
 toimitilat.kauppalehti.fi##.inner.sp-article
 toimitilat.kauppalehti.fi##.justify-content-center:has(> #almad-leaderboard-1)
 toimitilat.kauppalehti.fi##.list-article:has(.sp-tag)
@@ -1044,17 +1021,9 @@ vau.fi#?#hr + h4:has-text(MAINOS) ~ hr
 vauva.fi###block-isalennuskoodit
 vauva.fi##[href^="http://pelikone.fi/out/"]
 vauva.fi##aside.sticky.bottom-0:has( > #block-isalennuskoodit:only-child)
-verkkouutiset.fi##.elementor-motion-effects-parent:has(.strossle-sidebar)
-verkkouutiset.fi##.elementor-widget-shortcode:has(#QADY)
 verkkouutiset.fi##.elementor-widget-shortcode:has(.vu-adlabel)
 verkkouutiset.fi##.elementor-widget-shortcode:has([data-ad-unit-id])
-verkkouutiset.fi##.page-ad__location
 verkkouutiset.fi##.vu-adlabel
-verkkouutiset.fi##.vu-content-injected-middle
-verkkouutiset.fi##article.rp-lift.featured-post
-verkkouutiset.fi##section[id^="front-page-parade"]
-verkkouutiset.fi##section[id^="front_page_parade"]
-verkkouutiset.fi#?#article.featured-post:has-text(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
 vertaa.fi##li[class^=cg-][data-role=items-list-item]:has(> div > [id^=gpt-slot-results-][id*=rectangle])
 viikkopk.fi##.banner-mainos

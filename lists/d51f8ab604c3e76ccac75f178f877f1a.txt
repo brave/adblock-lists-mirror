@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20689.2
+! Version: 2026.20689.3
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -708,6 +708,7 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/RealMedia\/ads\//
 /data/banner.json?$domain=~nintendo.*
 
+||breaknews.com/data/breaknews_com/banner/
 ||beautywiki.net/banners/
 ||fin.land.naver.com/front-api/*/realtor/advertisement
 ||resources.chimhaha.net/app/*/naverPowerLink.
@@ -1886,7 +1887,7 @@ biz.sbs.co.kr,investchosun.com,stoo.com,kyeongin.com,bemil.chosun.com,kjwwang.co
 ! ##div[class^="ad-"]
 itssa.co.kr,wikidocs.net,bosik.kr,khan.co.kr,fnnews.com,tenasia.co.kr,m.dcinside.com,osen.co.kr,url.kr,polinews.co.kr,teamblind.com,shinailbo.co.kr,pointe.co.kr,dealsite.co.kr,besteleven.com,getnews.co.kr,tgdaily.co.kr,eanews.kr,lifedesk.co.kr,newdailyhealth.co.kr,daejonilbo.com,chungnamilbo.co.kr,incheonilbo.com,ggilbo.com,bloter.net,sportsseoul.com,nbnbiz.co.kr,enetnews.co.kr,newsnjoy.or.kr,mediaus.co.kr,ziksir.com,daily.hankooki.com,ccdailynews.com,topstarnews.net,spotvnews.co.kr,foodnews.co.kr,hankooki.com,spochoo.com,digitaltoday.co.kr,orbi.kr,weekly.chosun.com,nzkoreapost.com,pinpointnews.co.kr,huffingtonpost.kr,eroun.net,cnet.co.kr,hogangnono.com,ppomppu.co.kr,interfootball.co.kr,police112.co.kr,dpg.danawa.com,m.danawa.com,kimpga.com,youthassembly.kr,algumon.com,dailysecu.com,hankyung.com,m.etnews.com,hankookilbo.com,newspim.com##div[class^="ad-"]
 ! ##.banner
-land.naver.com,m.inven.co.kr,lolchess.gg,healtho.co.kr,economist.co.kr,m.comic.naver.com,sports.news.naver.com,ebn.co.kr,paxnet.co.kr,ajl.co.kr,yhinews.com,funshop.co.kr,m.sedaily.com,bloter.net,mosen.mt.co.kr,hinfomax.kr,hinfomax.co.kr,pressian.com,kukinews.com##.banner
+newdaily.co.kr,land.naver.com,m.inven.co.kr,lolchess.gg,healtho.co.kr,economist.co.kr,m.comic.naver.com,sports.news.naver.com,ebn.co.kr,paxnet.co.kr,ajl.co.kr,yhinews.com,funshop.co.kr,m.sedaily.com,bloter.net,mosen.mt.co.kr,hinfomax.kr,hinfomax.co.kr,pressian.com,kukinews.com##.banner
 ! ##div[class$="_banner"]
 osen.co.kr,dvdprime.com,10000recipe.com,www.daum.net,tokenpost.kr,mydaily.co.kr,section.cafe.naver.com,mlbpark.donga.com,forwarder.kr,kwnews.co.kr,ichannela.com,m.mail.daum.net,zum.com,health.chosun.com,thebell.co.kr,fomos.kr,styleup.gameangel.com,yakup.com,jjan.kr,mitem.auction.co.kr,knnews.co.kr,joseilbo.com,m.mt.co.kr,order.kyobobook.co.kr,newsen.com,toomics.com,m.ytn.co.kr,djtimes.co.kr,mdjournal.kr,windowsforum.kr,dcnewsj.joins.com,berryjam.co.kr##div[class$="_banner"]
 ! ##div[class^="ad"]
@@ -1935,6 +1936,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+newdaily.co.kr##div[itemprop="articleBody"] div[style^="margin-top: "].display-md-block
 etoland.co.kr##section[class^="my-"] .divide-y .items-center.gap-1:has(img[alt="etoAD"])
 etoland.co.kr##section[class^="my-"] .divide-y .py-2.gap-3:has(> a[data-inouts-click="true"])
 bbs2.tunaground.net##div[class*="-content__Container-sc-"] div[style^="margin-"][class^="CustomHtml__Container"]
@@ -2382,7 +2384,7 @@ m.tinnews.co.kr##.bn
 dnn.ne.kr##div:has(> ins.adsbygoogle)
 m.fmkorea.com##div[id^="fmad_"] + div[style^="height:"][class]
 fmkorea.com##div.fmad_wrapper
-biz.newdaily.co.kr##div[itemprop="articleBody"] > div[style^="margin:"].clearfix
+newdaily.co.kr##div[itemprop="articleBody"] div[style^="margin:"].clearfix
 newdaily.co.kr##div[style*=";height:"][data-ad]
 newdaily.co.kr##iframe[src*="//nad.newdaily.co.kr/"]
 fmkorea.com##iframe[src^="https://loader.fmkorea.com/_loader/loader.php"]
@@ -2597,7 +2599,7 @@ mobile.newsis.com##div[style~="padding:10px"][style~="10px;"] > div[style^="heig
 starnewskorea.com##div[itemprop="articleBody"] > div[style^="float:"]
 m.slrclub.com,m.sportschosun.com,m.starnewskorea.com##div[id$="ad"][style]:not(#menu-head)
 heraldpop.com##.article_area .list_r
-heraldpop.com##div[id*="_ad"]
+mydaily.co.kr,heraldpop.com##div[id*="_ad"]
 heraldpop.com##.article_wrap div[class^="ad"]
 m.news.nate.com##.divAdv
 m.clien.net##.content_list.search > div[class^="list_center_"]
@@ -3241,7 +3243,7 @@ bodnara.co.kr##iframe[src^="/advert/advert.php"]
 m.naver.com###MM_aside_smartad_container
 windowsforum.kr##a[href^="https://www.dothome.co.kr/ad/"][target="new"]
 pann.nate.com##.sidearea.talktalk > .sideiframe
-chzzkban.xyz,dundam.xyz,ddengle.com,thisisgame.com##div[id^="ad-"]
+mydaily.co.kr,chzzkban.xyz,dundam.xyz,ddengle.com,thisisgame.com##div[id^="ad-"]
 thisisgame.com###divMsnAD
 thisisgame.com##iframe[src^="//ad"][src*=".thisisgame.com/ad"]
 dschool.co.kr##a[href^="/ws/include/banner_link.asp?"][target="_blank"]

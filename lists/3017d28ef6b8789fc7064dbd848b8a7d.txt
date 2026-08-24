@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608240952
+! Version: 202608241019
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2026 09:52 UTC
+! Last modified: 24 Aug 2026 10:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c92adddb711caeb26bd14a127e8cd756a4c79145
+! Commit: 8aaa4a92e3a0df52451f8740bc6aebeb4129cd93
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10535,6 +10535,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.tout.com^
 ||analytics.unibuddy.co^
 ||analytics.unilogcorp.com^
+||analytics.upress.io^
 ||analytics.vanillaforums.com^
 ||analytics.vdo.ai^
 ||analytics.vendemore.com^
@@ -54898,6 +54899,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||inn.co.il/Controls/HPJS.ashx?act=log
 ||services.haaretz.co.il^$ping
 ||stats.mako.co.il^
+||track.wesell.co.il^
 ||walla.co.il/CountsHP.asp?
 ||walla.co.il/impression/
 ! Hungarian

@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608240015
+! Version: 202608240057
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2026 00:15 UTC
+! Last modified: 24 Aug 2026 00:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f6bfdcac619156767a0cbfbeba1a69dd012d4a9e
+! Commit: 3ec08b839128724ad00e480c1c99c80889b3e826
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10216,7 +10216,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||brandmetrics.com^$third-party
 ||citypaketet.se^$third-party
 ||dep-x.com^$third-party
-||lwadm.com^$third-party
 ||myvisitors.se^$third-party
 ||prospecteye.com^$third-party
 ||publish-int.se^$third-party
@@ -15209,6 +15208,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacons.ai/api/next_api/rta_v1/
 ||beacons.digital.disneyadvertising.com^
 ||bearblog.dev/hit/
+||beehiiv.com/nectar_analytics
+||beehiiv.com/page_view
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
@@ -56662,7 +56663,6 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ! 
 ! ---------- Swedish ----------
 ! 
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
 ! 
 ! ---------- Thai ----------

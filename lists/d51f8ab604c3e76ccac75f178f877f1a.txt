@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20689.4
+! Version: 2026.20689.3
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -3771,7 +3771,8 @@ m.humoruniv.com##+js(acis, $.prototype.html, /\/images\/[A-z0-9-_]+\.?(jpg|gif)/
 ! m.fmkorea.com
 m.fmkorea.com##+js(json-prune, tpl apply, tpl.[].c)
 ! chzzk.naver.com
-chzzk.naver.com##+js(trusted-replace-outbound-text, TextDecoder.prototype.decode, '/{"head" *: *{ *"version" *: *"[0-9.]+" *, *"description" *: *"[A-Za-z 0-9]+" *} *, *"requestId" *: *"vas-[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}" *, *"videoAdScheduleId" *: *"[A-Z_]+" *, *"adBreaks" *: *\[{[\[{\]},:" a-z0-9A-Z_-]+\\n?/', '{"head":{"version":"0.0.1","description":"GFP Video Ad Schedule"},"requestId":"vas-00000000-0000-0000-0000-000000000000","videoAdScheduleId":"","adBreaks":[}\n')
+chzzk.naver.com##+js(json-prune-xhr-response, ads.[-].eventTracking.ackImpressions.[].url, ads.[].adInfo.responseSize, propsToMatch, 'url:api.chzzk.naver.com/service/t/')
+chzzk.naver.com##+js(json-prune-xhr-response, adBreaks.[-].adSources.[].withRemindAd, videoAdScheduleId, propsToMatch, 'url:api.chzzk.naver.com/service/t/')
 chzzk.naver.com##+js(trusted-set-local-storage-item, homeSkinCollapsedUntil, 9999999999999)
 !
 loawa.com##+js(set-cookie, ad_popup_hide_36, 1)

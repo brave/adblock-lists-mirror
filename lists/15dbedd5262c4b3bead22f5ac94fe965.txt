@@ -1,6 +1,6 @@
 ﻿! Title: 🏔️ Dandelion Sprouts nordiske filtre for ryddigere nettsider
 ! Title 🇬🇧: Dandelion Sprout's Nordic filters for tidier websites
-! Last modified: 18August2026v1
+! Last modified: 25August2026v1
 ! Expires: 18 hours
 ! Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
@@ -646,6 +646,7 @@ maritimedanmark.dk##.banner-hidden:has(>div[class*=banner-wrapper])
 maritimedanmark.dk##.banner-hidden:has([class*=ad-wrapper])
 bilnorge.no###artikkel300x250right
 viaplay.*##.interaction-block
+finans.dk##div[id^=topscroll-]
 gamer.no##.feed--commercial
 golferen.no##.os_big_board_box
 hockeymagasinet.dk##.ss-left-sky-reclam

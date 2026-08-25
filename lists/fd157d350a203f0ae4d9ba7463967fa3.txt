@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /6XNHpemYsOyQlUNRqR15A
-! Version: 202608251842
+! Checksum: uV8bCyqI47HgkOTgNguQeA
+! Version: 202608251912
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Aug 2026 18:42 UTC
+! Last modified: 25 Aug 2026 19:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17374,6 +17374,9 @@ ixbt.com##[data-branding-content-offset]
 click-or-die.ru##[data-cfpa]
 vgorodekirove.ru##[data-click]
 tvtver.ru##[data-comment*="reklama"]
+t-j.ru##[data-component="product-card"] > a[target="_blank"]
+t-j.ru##[data-component="product-card"] [class^="_priceWrapper_"] > div[class^="_iconLink_"]
+t-j.ru##[data-component="product-card"] div[class^="_moreOffersWrapper_"]
 sport-express.net,sport-express.ru##[data-component="widget-bookmaker-rating"]
 examenpdd.com,liveinternet.ru##[data-container="outer"]
 rosteplo.ru##[data-content*="ERID"]

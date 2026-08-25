@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 25 Aug 2026 17:20:51 +0300
+! Last modified: Tue, 25 Aug 2026 17:57:03 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -127,16 +127,10 @@ aasiakas.net##.jp_adsense_ad_container
 adressit.com###petition_page_top_ad
 aitiydenihme.fi,askelterveyteen.com,mielenihmeet.fi,myanimals.com##.bc--grey-neutral-50
 akaanseutu.fi##.kaupungin-tiedotteetsidebar:has(.mainossidebar)
-akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi##.teivo-sidebar
-akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.custom-category-posts-container:has(> .mainos-item)
-akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.feedraviraportit:has(.mainosfeedravi)
 akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.omamainos-product-xl
 akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.omamainos-products
 akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.omamainos-responsive
-akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
 lvs.fi##.lempaalan-kunta-tiedotteetsidebar:has(.lempaalan-kunta-mainossidebar)
-orivedensanomat.fi##figure.wp-block-image:has(> a[href^="https"]:not([href^="https://orivedensanomat.fi"]))
-orivedensanomat.fi##figure.wp-block-image:has(> a[href^="https"]:not([href^="https://orivedensanomat.fi"])) + .wp-block-spacer
 aksa.fi##.vaihtuvamainos
 aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
 aland.com###block-local-offers-widget-front
@@ -259,7 +253,7 @@ jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#
 episodi.fi##.bg-viaplay-dark-gray
 eralehti.fi##.DfpAdSlot_dfp-ad-slot
 eralehti.fi##.Index_native-ads
-eralehti.fi,metsastysjakalastus.fi,rakennusmaailma.fi,tekniikanmaailma.fi##.Article_native-ads
+eralehti.fi,metsastysjakalastus.fi,rakennusmaailma.fi##.Article_native-ads
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div[class^=ad]
 esports.pallomeri.net##.cb-banneri-uusi
 etlehti.fi,hyvaterveys.fi,soppa365.fi##.views-row:has(.is-commercial)
@@ -489,7 +483,7 @@ kauppalehti.fi##div[class][width]:has(> .ad)
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) [class][data-test] ~ div[class]:has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) a[href^="https://www.kauppalehti.fi/kumppanisisallot/"][target="_self"]
 kauppalehti.fi##aside > div[class] > a[href*="/kumppanisisallot/"]
-kauppalehti.fi,talouselama.fi##div[class]:has(> .lazyload-wrapper > .etua-react-embed)
+kauppalehti.fi##div[class]:has(> .lazyload-wrapper > .etua-react-embed)
 kauppojen-aukioloajat.fi###search-top-wide-ad
 kauppojen-aukioloajat.fi###specific-bottom-rectangle-ad
 kauppojen-aukioloajat.fi###specific-bottom-wide-ad
@@ -633,7 +627,7 @@ metsastajaliitto.fi##.frontpage-ad-item:not(:has([href^="https://metsastajaliitt
 metsastajaliitto.fi##.view-id-jahtimedia_latest .list-item:has([href^="https://jahtimedia.fi/mainokset/"])
 metsastysjakalastus.fi##.DfpAdSlot_dfp-ad-slot
 metsastysjakalastus.fi##.Index_native-ads
-metsastysjakalastus.fi,rakennusmaailma.fi,tekniikanmaailma.fi##.in-text-ad-slot-wrapper
+metsastysjakalastus.fi,rakennusmaailma.fi##.in-text-ad-slot-wrapper
 mikrobitti.fi##a[data-ga-teaser-name="PartnerContentTeaser"]
 mikrobitti.fi##body:not(.is-style-kumppanisisallot) :is(aside, section) a[href^="https://www.mikrobitti.fi/kumppanisisallot/"]
 mikrobitti.fi##div[class]:has(> [width] > [id|="almad"]:not([id|="almad-mobileParade"]))
@@ -712,8 +706,6 @@ nyan.ax##.wpb_content_element.wpb_text_column:has(div[class|="g g"])
 omalahio.fi##.mainos-top
 opensubtitles.org#?#fieldset:has-text(Poista mainos)
 orimattilansanomat.fi##.textwidget:has(.orimad-adlabel)
-orivedensanomat.fi###sidebar [href="https://www.loytotex.fi/tarjoukset"]
-orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 osterbottenstidning.fi,sydin.fi,vasabladet.fi##.online-teaser--advertorial
 outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi##.sp-module:has(.tassaWidget)
 paakallo.fi##.ad-above
@@ -772,7 +764,7 @@ puhelinvertailu.com##br:has(+ ins[class=adsbygoogle])
 puskaradio.net##.all-adds
 radionova.fi##section.sbs-articleitems[data-module_position_id="640"]
 radiovoima.fi##.block-radiovoima-advertisements
-rakennusmaailma.fi,tekniikanmaailma.fi##.FrontPage_native-ads
+rakennusmaailma.fi##.FrontPage_native-ads
 rakentaja.fi###dimScreenAll:has([data-category="DisplayAD"])
 rakentaja.fi##div#kauppa_hot
 rakentaja.fi##div[id^=banner]
@@ -857,13 +849,6 @@ superpesis.fi##.grid-breakable:has([class*="AdServerPlaceholder"])
 supla.fi##[data-element-type="CardDefault"] div[class^=CardBg]:has(> a[href^="https://kampanjat.mainos.sanoma.fi/"])
 svl.fi##.mainos_banner1
 svl.fi##.widget > a[href^="https://www.nettikirjakauppa.com/"]
-talouselama.fi##.lazyload-wrapper:has([id|=almad])
-talouselama.fi##body:not(.is-style-kumppanisisallot) [class]:has(> a[href^="https://www.talouselama.fi/kumppanisisallot/"]):not(section)
-talouselama.fi##body:not(.is-style-kumppanisisallot) a[href^="https://www.talouselama.fi/kumppanisisallot/"]:not(section > a)
-talouselama.fi##div.article-body > div:has(> div.LazyLoad.is-visible)
-talouselama.fi##div[width]:has(.lazyload-wrapper)
-talouselama.fi#?#[id|=podcasti]:has-text(Kaupallinen Yhteistyö)
-talouselama.fi#?#li:has-text(MAINOS)
 taloustaito.fi##.bannerarea
 talviopas.fi,turisti-info.fi##.sidebar-banners
 tanssiin.fi###wonderplugincarousel-container-1
@@ -872,11 +857,6 @@ tehylehti.fi##.commercial_wrapper
 tehylehti.fi##.node-promoted.node-teaser
 tehylehti.fi##.paragraph--type-ad
 teknavi.fi##[class|=adform]
-tekniikanmaailma.fi##.CategoryPriceGuide_price-guide
-tekniikanmaailma.fi##.NativeAdHolder_native-ad-holder
-tekniikanmaailma.fi##.PriceGuide_price-guide
-tekniikanmaailma.fi##.TopRowAd_top-ad
-tekniikanmaailma.fi##div.Article_nettix-embed-container
 tekniikkatalous.fi##div[class][width="980"]
 telsu.fi##.ch:has(em > a)
 telsu.fi##.dp

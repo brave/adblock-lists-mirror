@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.2.0
+! Version: 4.4.2.2
 
 ! General
 
@@ -395,6 +395,7 @@ theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)
 timeshighereducation.com##+js(rc, paywall-fade, div.paywall-fade, stay)
 timeshighereducation.com##div.paywall-active
+||timesofindia.indiatimes.com/*.cms?rel=plus$inline-script
 tomshardware.com##+js(rc, paywall-locker, div.paywall-locker, stay)
 tomshardware.com##div#kiosq-app-paywall-js
 unherd.com##+js(ra, id, div#premiumcontent, stay)
@@ -432,6 +433,9 @@ bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesternda
 /www\.vogue\.co\.uk\/[-\w]+$/$script,~third-party
 ||voguebusiness.com/journey/compiler/build-*.js$script,~third-party
 voguebusiness.com##+js(cookie-remover, userId)
+
+! Condé Nast Italia
+/\.vanityfair\.it\/[-\w]+$/$script,~third-party
 
 ! Crain Communications
 adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)

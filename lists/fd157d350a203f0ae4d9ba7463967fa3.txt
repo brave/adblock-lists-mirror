@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wG6mHnEyQD9HCAzTDhelrQ
-! Version: 202608261412
+! Checksum: DoxfBxnLiWq/99Rvon2jUg
+! Version: 202608261452
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Aug 2026 14:12 UTC
+! Last modified: 26 Aug 2026 14:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23913,12 +23913,12 @@ igdz1.ru^$script,domain=igdz.ru
 ! запросы
 ! ловушка для обфускации дзена: главная, статьи, новости, погода
 /^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+[^e]\.js(?:\?.*)?$/$script
+/^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+\.[^/?.]{1,3}\.js(?:\?.*)?$/$script
 /^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+\.e\.js(?:\?.*)?$/$script
 ||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/*.me.js$script
 ||static.dzeninfra.ru/s3/zen-apps/*/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com|businessua.com
@@ -26340,17 +26340,13 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 21forum.ru,forum.na-svyazi.ru,forum.zarulem.ws#@##HeroAd
 ujmos.ru#@##ab_adblock
 ujmos.ru#@##ad-buttons
-graffiks.ru#@##ad-target
 dme.ru,domodedovo.ru#@##adBanner1
 dme.ru,domodedovo.ru#@##adLink1
-stepashka.com#@##ad_header
-devicesearch.ru#@##ad_top
 yroslava.ru#@##ads-container
 topserver.ru#@##ads1
 topserver.ru#@##ads2
 topserver.ru#@##ads3
 topserver.ru#@##ads4
-devicesearch.ru#@##ads_top
 vk.com,vk.ru#@##ads_wrapper
 pc-aio.ru#@##adstop
 arabela.ru,mathsisfun.com,slavyansk.biz,tagline.ru,x-time.ru#@##adv
@@ -26374,7 +26370,6 @@ chess-online.com#@#.ad-cluster
 architecture.az#@#.ad-code
 joblib.ru#@#.ad-flag
 vdvanapa.ru#@#.ad-img
-stomsuper.com,waifucards.app#@#.ad-item
 mishka-knizhka.ru#@#.ad-placeholder
 mishka-knizhka.ru#@#.ad-tag
 auto.am#@#.ad-title
@@ -26385,33 +26380,23 @@ alliance-catalog.ru#@#.ad_header
 divendo.ru,fvds.ru#@#.ad_image
 sellua.info#@#.ad_img
 sellua.info#@#.ad_item
-photodoska.ru#@#.ad_large
-photodoska.ru#@#.ad_small
 avtotag.ru,primorsko-ahtarsk.ru#@#.ad_text
 my.mail.ru#@#.adds
 bamper.by,bazar.bike,biblionika.info#@#.adds-wrapper
 kvartirant.by#@#.adinfo
-insignia-mebel.ru#@#.ads-bg
 kvartirant.by#@#.ads-box
-insignia-mebel.ru#@#.ads-footer
 reklama-sev.com.ua#@#.ads-holder
 bamper.by#@#.ads-image
 abtorg.ru,vse.sale#@#.ads-list
 belarus-index.site,guidesgame.ru#@#.ads-row
-rod-vzv.info#@#.ads1
-railtransport.ru#@#.ads_2
-railtransport.ru#@#.ads_3
 mykontakts.org#@#.ads_block
 ds45spb.ru#@#.ads_item
-exocur.ru#@#.adsense-header
 ntsk.ru#@#.adsinfo
-blag-vesti.ru#@#.adslot_1
 vtomske.ru#@#.adtable
 kvartirant.by#@#.adtxt
 board.sibnet.ru,fridger.com.ua,hawk.ru,hmgma.ru,openbudget.gfu.ru,pcradio.ru,postiralka.com.ua,school.kupiltovar.ru,servkino.ru,siproen.ru,sovcombank.ru,tehnika4u.ru#@#.adv
 school.kupiltovar.ru#@#.adv-4
 azartcash.com,twite.ru#@#.adv-block
-fiberdevice.ru#@#.adv-header
 xn--74-6kcaj3c0aikq.xn--p1ai#@#.adv-right
 100kolyasok.kz,4.u0166811.z8.ru,calls.su,chistosex.org,teu-eurocara.com.ua#@#.adv-text
 fridger.com.ua,postiralka.com.ua#@#.adv_left
@@ -26450,7 +26435,6 @@ school-tea.ru#@#.panel-ad
 kino-sex.ru,sosxxx.ru,vekx.ru,xxx.vekdvd.ru#@#.pm-ads-banner
 grafik-smen.ru#@#.reklam
 landlord.ua,poima360.ru,rodinkam.net,skylineproduction.com.ua#@#.reklama
-dalryba.ru#@#.section-adv
 rabkor.ru#@#.sidebar-ad-c
 krym.news,novostivl.ru,ryazan.life,v-tatarstane.ru,yakutsk.ru#@#.sidebar_ads
 abrikos.us#@#.single-ad
@@ -26842,7 +26826,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||pdrs.dp.ua/images/rek/$domain=pdrs.dp.ua
 @@||petersburgedu.ru^*/banner$domain=petersburgedu.ru
 @@||pgpru.com^*/files?get=$domain=pgpru.com
-@@||photodoska.ru/content/dynamic/ads/$domain=photodoska.ru
 @@||picusha.pw/js/main.js|$script,domain=picusha.pw
 @@||piguiqproxy.com/api|$third-party,xmlhttprequest
 @@||piguiqproxy.com/z|$third-party,xmlhttprequest

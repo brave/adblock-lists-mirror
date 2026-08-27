@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lwv9S//cP2Gtrolsf53szg
-! Version: 202608270742
+! Checksum: tfsPaCeo2w3yYa+kHaMETA
+! Version: 202608271122
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Aug 2026 07:42 UTC
+! Last modified: 27 Aug 2026 11:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1752,6 +1752,7 @@ mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
 povarenok.ru##.page-width {margin-top:0;}
 povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
+profinance.ru##main > .content-grid {grid-template-columns:unset;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 stranamam.ru##.n-main-branding-container {margin-top:0;}
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}
@@ -4287,6 +4288,7 @@ _tizers.
 ||ads2.bid^$third-party
 ||adsafee.io^$third-party
 ||adsclick.ru^$third-party
+||adsconex.com^$third-party
 ||adseedtech.com^$third-party
 ||adselector.ru^$third-party
 ||adservob.com^$third-party
@@ -14361,7 +14363,6 @@ kg-portal.ru##.cough_block
 multiurok.ru##.courses
 rus-urologiya.ru##.cpa_top
 promtu.ru##.cpablcok
-agro-biz.ru,ecology-of.ru##.cpatop
 starhit.ru,woman.ru##.creative
 maximonline.ru,parents.ru,the-day.ru,vokrugsveta.ru##.creative-container._vb-2
 pogoda.com##.creatividad
@@ -15566,7 +15567,6 @@ cardiologiya.com,omastopatii.ru##.offblo
 dermatitanet.ru##.offer-ac
 programma-peredach.com##.offers
 gagadget.com##.offers-index
-agro-biz.ru,ecology-of.ru##.offersblock
 gamestatus.info##.offline-act-banner
 lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv5.site##.oi_papa_oi
 myshows.me##.okko
@@ -16263,7 +16263,6 @@ kinotv1.ru##.side-block > .boxTable ~ .boxTable
 tv-gubernia.ru#?#.side-block:-abp-has(> .side-header + .side-article > .side-article-title > [href=""])
 e-news.pro,e-news.su#?#.side-block:-abp-has(div:-abp-contains(Реклама))
 knigomir.info#?#.side-box:-abp-has(> [id="div-gpt-ad-sidebar"])
-agro-biz.ru##.side-cpa
 drive.ru##.side-link
 1tv.ru##.side-promo-place-right
 parnuxi.biz##.side-rkl-section
@@ -16812,7 +16811,7 @@ rabota24online.ru##.topright
 cinephile-online-hd.xyzy.ru##.topsbox
 baibako.tv##.topserial > a[href]
 dynamo.kiev.ua##.torba-lightbox-side-wrap
-tproger.ru##.tp-layout-default__aside-right-content > div:empty
+tproger.ru##.tp-lubok-top
 rybolov.ee##.tp_rightblock_noframe [width="336"][height="240"]
 irad.ru##.tr-banner
 24.kz,fanforum.ru##.tradingview-widget-container
@@ -16939,7 +16938,6 @@ gdz-putina.fun##.vk_show
 vk.com,vk.ru##.vkuiBanner__host
 yapx.ru##.vlDxyyFUTdjDdXmIBPxWDa
 spletnik.ru##.vms_article_parent a[href*="utm_"]
-agro-biz.ru,ecology-of.ru##.vnimanie
 megaresheba.ru##.vopros-block
 allboxing.ru#?#.voting > .block_title:-abp-contains(Новости партнеров)
 8vp.ru##.vp-content-l-r > div > *
@@ -17339,6 +17337,7 @@ eanews.ru##[class^="styled__AdvLink-sc-"]
 life.ru#?#[class^="styles_title_"]:-abp-contains(Новости партнеров)
 kg-portal.ru##[class^="ten_frontrow"]
 moyskelet.ru,obrazovaka.ru##[class^="tizdiv"]
+tproger.ru##[class^="tp-new-design-"][class*="-posts__"]:empty
 volynnews.com##[class^="view_back"]
 asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,ptichka.ru,relook.ru,stranamam.ru##[class^="vigvam"]
 business-gazeta.ru##[class^="weather-block"] ~ div
@@ -19346,7 +19345,6 @@ dlltop.ru##div[class^="tm-article-banner"]
 odeve.ru##div[class^="toneBlock"]
 sravni.ru##div[class^="top-offers_"]
 flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom##div[class^="topAd"]
-tproger.ru##div[class^="tp-"][class$="-top-container"]
 formulalubvi.com##div[class^="traffic-video"]
 sovsport.ru##div[class^="trend-item_bet_"]
 rbook.me##div[class^="trsm"]
@@ -20144,6 +20142,7 @@ lurkmore.*###n-Группа-в-Дискорде
 lurkmore.*###n-Канал-в-Телеграме
 old.myshows.me##main > .contAlt
 allcarz.ru#?#main > .container > .site-content:-abp-has(> .content-banner)
+profinance.ru##main > .content-grid > aside
 protanki.tv##main > .hidden
 mediaryazan.ru##main > .hide-on-mobiles > div[class="sideblock"]:first-child
 versii.if.ua#?#main > [class="brxe-section"]:-abp-has(.indication-bor-rad)
@@ -24177,7 +24176,7 @@ ru###ads-top.ads
 2ip.io,2ip.ru##.ad-test-vpn
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru##.ip-icon-x-eye
-2ip.io,2ip.ru##.ip-links-container-row:first-child
+2ip.io,2ip.ru##.ip-links-container-row-x
 2ip.io,2ip.ru##.main-ip-icon-warning
 2ip.io,2ip.ru##.main-ip-icon-warning ~ [aria-disabled]
 2ip.io,2ip.ru#?#.narrow-column > style ~ div > div:-abp-has(a[style^="color:"])
@@ -24829,7 +24828,6 @@ pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###page_header > div[style^="p
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###pl-speedbar
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###post_prelast_ad
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net###tor-fl-bgn
-$third-party,object,subdocument,domain=pornolab.biz|pornolab.cc|pornolab.lib|pornolab.net
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net#?#.forums > tbody > tr[id]:-abp-has(> td script)
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##.med.bordered.attach > tbody > .tCenter ~ .tCenter + tr
 pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net##.med.bordered.attach > tbody > tr.row1 ~ .row3
@@ -26349,7 +26347,6 @@ topserver.ru#@##ads4
 vk.com,vk.ru#@##ads_wrapper
 pc-aio.ru#@##adstop
 arabela.ru,mathsisfun.com,slavyansk.biz,tagline.ru,x-time.ru#@##adv
-videoxq.com#@##adv-title
 mycinema.pro#@##adv_config
 corrupt.pnzreg.ru#@##adv_right
 mobile-review.com#@##advblock
@@ -26418,7 +26415,6 @@ pokrov-monastir.ru#@#.container--ads
 agrobook.ru#@#.context-ads
 f-igri.ru#@#.google_ad
 skodarapidclub.ru#@#.headerad
-ecology-of.ru#@#.home-ads
 kyron-clan.ru,simmama.com#@#.ipsAd
 erokarta.ru,kinoclub.org.ua#@#.item-ads
 sellua.info#@#.lastads

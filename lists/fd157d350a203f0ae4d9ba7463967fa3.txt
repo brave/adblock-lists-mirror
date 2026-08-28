@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xHwtuDWKmHGxZpdt+dtTcg
-! Version: 202608280741
+! Checksum: gOdhnbrLXnfCfrXad+NFfA
+! Version: 202608281152
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Aug 2026 07:41 UTC
+! Last modified: 28 Aug 2026 11:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23948,7 +23948,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?fFN7t=$xmlhttprequest
+||pikabu.ru/ajax/*?fFN6t=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -25106,9 +25106,11 @@ rbc.ru##body.free div[class*="styles_newsfeed"] .sidebar a[href*="utm_campaign"]
 rbc.ru##body.free div[class*="styles_newsfeed"] .sidebar a[href*="utm_campaign"] ~ .meta-info-row-wrapper
 rbc.ru#?#body.free div[class*="styles_newsfeed"] .sidebar:-abp-has(a[href*="utm_campaign"])
 rbc.ru#?#body.free div[class*="styles_newsfeed"] .sidebar:-abp-has(a[href^="https://editorial.rbc.ru/"])
+rbc.ru#?#body.free div[class="central-publisher-item"]:-abp-has([href^="/story/pro"])
 rbc.ru#?#body.free div[class="central-publisher-item"]:-abp-has([href^="https://pro.rbc.ru/"])
 rbc.ru##body.free div[class="central-publisher-item"]:nth-child(-n+2) [href^="https://pro.rbc.ru/"]
 rbc.ru#?#body.free div[class="central-publisher-item"]:nth-child(-n+2):-abp-has([href^="https://pro.rbc.ru/"])
+rbc.ru##body.free div[class^="MainNewsComponent_wrapper_"] [href*="utm_campaign"]
 rbc.ru##body.free div[class^="MainNewsComponent_wrapper_"] [href^="https://pro.rbc.ru/"]
 rbc.ru##body.free div[class^="style_promo_"]
 rbc.ru##body.free div[data-name^="SpecialBlockPro"]

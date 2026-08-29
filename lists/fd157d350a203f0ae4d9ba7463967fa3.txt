@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Cds7UyfMiDHFxR3PO0q64Q
-! Version: 202608290732
+! Checksum: viE4XPc51fVuqg1QcEV5AA
+! Version: 202608290811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Aug 2026 07:32 UTC
+! Last modified: 29 Aug 2026 08:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20562,6 +20562,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||hawk.live/$csp=sandbox allow-same-origin;
 ||idealmedia.io$csp=script-src
 ||lis-gor.com/$csp=sandbox allow-same-origin;
+||mobileproxy.space/*adblock-test.$csp=connect-src 'self'
 ||modsfire.com/download/*/$csp=script-src 'unsafe-eval' data:
 ||mult-porno.$csp=connect-src 'self' blob: data:
 ||news-sphere.com^$csp=script-src

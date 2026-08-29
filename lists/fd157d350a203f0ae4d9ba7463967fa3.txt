@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CTLZlGxUIgY1BL4zfbqrVg
-! Version: 202608290832
+! Checksum: citwYf5t6NdW2j8834/XHA
+! Version: 202608290911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Aug 2026 08:32 UTC
+! Last modified: 29 Aug 2026 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16521,7 +16521,6 @@ gorodvo.ru,kubnews.ru,tripoli.land##.static-banner
 vl.ru##.static-banners
 bigcaucasus.com,pravda.ru##.staticFragment
 calc.ru##.static_re
-mobileproxy.space#?#.status-badge:-abp-has(> #statusText:-abp-contains(Test complete)) > .fa-spin
 finzz.ru##.stb-container
 diakov.net##.stic
 wylsa.com##.stick-promo--container
@@ -20163,6 +20162,7 @@ bezzamorochek.com##mark > strong
 charming-face.ru##marquee
 9sx.ru##marquee[scrollamount]
 mob39.ru##meta + center > table[cellspacing="0"][cellpadding="0"][border="0"]
+mobileproxy.*#?#.status-badge:-abp-has(> #statusText:-abp-contains(/ /)) > .fa-spin
 uploads.ru##nav
 playground.ru##nav .special-link
 sprashivalka.com##nav > .items > a[href]:not([href^="/"]):not([href^="https://sprashivalka.com/"])
@@ -20563,12 +20563,12 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||hawk.live/$csp=sandbox allow-same-origin;
 ||idealmedia.io$csp=script-src
 ||lis-gor.com/$csp=sandbox allow-same-origin;
-||mobileproxy.space/*adblock-test.$csp=connect-src 'self'
+||mobileproxy.*/adblock-test.$csp=connect-src 'self'
 ||modsfire.com/download/*/$csp=script-src 'unsafe-eval' data:
 ||mult-porno.$csp=connect-src 'self' blob: data:
 ||news-sphere.com^$csp=script-src
 ||nsportal.ru/download/$csp=frame-src 'self'
-||obfusgated.com/*/tools/ad-block-test$csp=connect-src 'self'; img-src 'self';
+||obfusgated.com/*/tools/ad-block-test$csp=connect-src 'self'; img-src 'self'
 ||opensharing.org/img/images/$csp=script-src 'unsafe-inline' 'unsafe-eval' opensharing.org/img/
 ||paileactivist.github.io/toolz/adblock$csp=connect-src 'self'
 ||psysovet24.ru^$csp=script-src 'self' * blob: data:
@@ -20583,6 +20583,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||tdsclicks2.ru^$csp=script-src
 ||utarget.ru^$csp=sandbox allow-same-origin;
 ||utarget.ru^$csp=script-src
+||whox.com/*ad-blocker-test$csp=connect-src 'self'; img-src 'self'
 ||www.liveinternet.ru/|$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' i.li.ru
 ||www.ukr.net^$csp=frame-src 'self' *.ukr.net *.cloudflare.com *.google.com kinoafisha.ua sinoptik.ua *.twitter.com
 ||yadistr.ru^$csp=script-src
@@ -25414,6 +25415,7 @@ ya.ru##section[class^="reaso"]
 ya.ru##section[style*="sektllliom-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
+ya.ru,yandex.ru,yandex.*##.Bno_isPromoSnippet
 ya.ru,yandex.ru,yandex.*##.ImagesApp .AdvPremium-List
 ya.ru,yandex.ru,yandex.*##.layout__banner
 ya.ru,yandex.ru,yandex.*##.main-home-banner

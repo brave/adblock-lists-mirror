@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fKhjMwzudf7lDDE8TOTNnA
-! Version: 202608300832
+! Checksum: wLQ3bsXWfkwsQDD+8wF2Pw
+! Version: 202608300912
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Aug 2026 08:32 UTC
+! Last modified: 30 Aug 2026 09:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17085,6 +17085,7 @@ sport.ua##.wrap > div[style^="height"]
 avtosreda.ru##.wrap > noindex
 vse42.ru##.wrap-adplace-frame
 kurer-sreda.ru##.wrap-inf4x4
+p2plive7.top##.wrap-overlay
 osvita.ua##.wrapbanner
 novy.tv##.wrapper > #header > a[href][target="_blank"] > img
 grinkod.spb.ru##.wrapper > aside
@@ -18924,6 +18925,7 @@ rg.ru##div[class*="_fox__"]
 poltavawave.com.ua##div[class*="_place__"]
 tass.ru##div[class*="_top_ad_"]
 sovsport.ru##div[class*="_winline"]
+adblockbench.com##div[class*="ad-"][id][style*="height:"]
 rg.ru##div[class*="adBox"]
 rg.ru##div[class*="adFox"]
 agroxxi.ru##div[class*="adagro"]
@@ -20549,6 +20551,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||24smi.*/top/$csp=script-src
 ||24top.*/top/$csp=script-src
 ||adblock.turtlecute.org^$csp=connect-src 'self'; script-src https://adblock.turtlecute.org/js/index.js
+||adblockbench.com^$csp=connect-src 'self'; img-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'
 ||an.yandex.ru/count/$csp=script-src
 ||azbne.net^$csp=sandbox allow-same-origin;
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
@@ -26694,6 +26697,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||foodzy.ru/i/b/$image,domain=foodzy.ru
 @@||forecabox.foreca.com/css/*X*css|$stylesheet,domain=forecabox.foreca.com
 @@||fundament-spb24.ru^*/images/$image,domain=fundament-spb24.ru
+@@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
 @@||gamearmy.ru/images/$image,domain=setitagila.3dn.ru
 @@||games-tv.ru/openx/www/delivery/ajs.php?$script,domain=games-tv.ru
 @@||gardenshop.com.ua/assets/components/phpthumbof/cache/$image,domain=gardenshop.com.ua

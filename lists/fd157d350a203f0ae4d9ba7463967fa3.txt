@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WaO5hJKapPwOsU8QuDc53Q
-! Version: 202608301733
+! Checksum: k6hyNFjsziuHJ+oK2ha5BQ
+! Version: 202608301813
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Aug 2026 17:33 UTC
+! Last modified: 30 Aug 2026 18:13 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24225,7 +24225,7 @@ ru###ads-top.ads
 ||proxyshare.com^$third-party,popup
 !
 ! Avito
-avito.ru##[data-chunks="item"] + div > div:first-child > div:first-child div:first-child + div > div:first-child + div + div:last-child > div:only-child > div:first-child + div:last-child > div:only-child > div:first-child + div:last-child
+avito.ru##[data-chunks="item"] + div div:last-child > div:only-child > div:first-child + div:last-child > div:only-child > div:first-child + div:last-child
 www.avito.ru##div[class*=" adv-"]
 www.avito.ru##div[class*=" advRoot"]
 www.avito.ru##div[class*="avito-ads-container"]

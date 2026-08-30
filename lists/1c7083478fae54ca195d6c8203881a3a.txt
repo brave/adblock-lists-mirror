@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.2.6
+! Version: 4.4.0.0
 
 ! General
 
@@ -20,7 +20,6 @@
 ||evolok.net^$third-party
 ||fewcents.co/*/paywall*.js$script,third-party
 ||hadrianpaywall.com^$third-party
-.com/pugpig-websmartbanner.js$script,~third-party
 .de/sub/js/pc-offer-west.js$script,~third-party
 ||js.matheranalytics.com^$script,third-party
 ||newsmemory.com?meter$third-party
@@ -81,7 +80,7 @@ bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
 ||bizjournals.com/*.html?rel=plus$inline-script
-||bwbx.io/s3/fence/fortress-client/*.css$stylesheet,third-party,domain=bloomberg.com
+||bwbx.io/s3/fence/fortress-client/$script,third-party,domain=bloomberg.com
 ||bloombergadria.com/*/news$inline-script
 bloombergadria.com##+js(ra, style, article.single-news[style], stay)
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
@@ -195,8 +194,6 @@ harpers.org##+js(cookie-remover, hr_session)
 hindustantimes.com##+js(rc, paywall, .paywall, stay)
 hindustantimes.com##+js(rc, hide, .hide, stay)
 hindustantimes.com##div.paywall-container,div[class^="sub-paywall-version"],section[amp-access="NOT userSubscribed"]
-hotnews.ro##+js(rc, hn-paywall, div.hn-paywall, stay)
-hotnews.ro##+js(ra, hidden|inert, div.article-single-content[hidden], stay)
 ilfattoquotidiano.it##+js(rc, cropped, article[id].cropped, stay)
 ilfattoquotidiano.it##div#ifq-paywall-metered
 ilfoglio.it##+js(ra, class, div.paywall-wrapper__story-content, stay)
@@ -267,7 +264,6 @@ mv-voice.com##+js(cookie-remover, /^/)
 nationalgeographic.it##+js(ra, style, section[style], stay)
 nationalgeographic.it##section.paywall-container
 ||nautil.us/_next/static/chunks/pages/_sites/%5BsiteSlug%5D/%5B...slug*.js$script,~third-party
-||newsday.com/nd-user/nd_user_ace.bundle.js$script,~third-party
 newsday.com##+js(ra, class, html[class], stay)
 newrepublic.com##div.article-scheduled-modal
 ||blink.net/*/blink-sdk.js$script,domain=newrepublic.com|thebaffler.com
@@ -341,6 +337,7 @@ sofrep.com##div.non-paywall,div#paywall_wrap
 spektrum.de##+js(rc, pw-premium, article.pw-premium, stay)
 spektrum.de##+js(ra, style, body[style], stay)
 spglobal.com##+js(cookie-remover, count)
+||spiegel.de/public/shared/generated/js/commons.*.js$script,~third-party
 startribune.com##div.modal-backdrop
 startribune.com##body[class]:style(overflow: auto !important; position: static !important;)
 ||stereogum.com/_next/static/chunks/pages/_sites/%5BsiteSlug%5D/%5B...slug*.js$script,~third-party
@@ -351,7 +348,6 @@ study.com##+js(ra, class, div.hidden[ng-non-bindable], stay)
 study.com##div.article-cutoff-div
 ||suomensotilas.fi/wp-content/plugins/epflpw/js/pw.js$script,~third-party
 suomensotilas.fi##+js(rc, epfl-pw-obscured, div.epfl-pw-obscured, stay)
-/\.telegram\.hr\/.+\/(\w+-){3,}/$inline-script
 ||telegraph.co.uk/martech/js/$script,~third-party
 tes.com##+js(cookie-remover, /tg_paywall/)
 tes.com##+js(ra, class, div.tg-paywall-body-overlay, stay)
@@ -397,7 +393,6 @@ theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)
 timeshighereducation.com##+js(rc, paywall-fade, div.paywall-fade, stay)
 timeshighereducation.com##div.paywall-active
-||timesofindia.indiatimes.com/*.cms?rel=plus$inline-script
 tomshardware.com##+js(rc, paywall-locker, div.paywall-locker, stay)
 tomshardware.com##div#kiosq-app-paywall-js
 unherd.com##+js(ra, id, div#premiumcontent, stay)
@@ -435,9 +430,6 @@ bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesternda
 /www\.vogue\.co\.uk\/[-\w]+$/$script,~third-party
 ||voguebusiness.com/journey/compiler/build-*.js$script,~third-party
 voguebusiness.com##+js(cookie-remover, userId)
-
-! Condé Nast Italia
-/\.vanityfair\.it\/[-\w]+$/$script,~third-party
 
 ! Crain Communications
 adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
@@ -790,8 +782,6 @@ subscriptioninsider.com##div.dialog-widget
 !#if (adguard_app_ios)
 /\.subscriptioninsider\.com\/.+\/(\w+-){3,}/$inline-script,domain=subscriptioninsider.com
 !#endif
-the-decoder.com##+js(ra, class, div.paywall-hidden-content, stay)
-the-decoder.com##section.paywall-content
 thecore.in##+js(ra, class, div.paywall-content, stay)
 thecore.in##div.story,div#subscription_paid_message,div#footer_login_wall
 thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container, stay)

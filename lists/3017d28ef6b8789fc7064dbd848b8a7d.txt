@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608301312
+! Version: 202608301332
 ! Title: EasyPrivacy
-! Last modified: 30 Aug 2026 13:12 UTC
+! Last modified: 30 Aug 2026 13:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9bb9a1bc1f3d6f9ab4c8b09974587df31226bf17
+! Commit: a511e3d5e7cafb7392aff849c9681b59e0ab3d4a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10629,6 +10629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.sardine.ai/assets/loader.min.js$third-party
 ||api.sovendus.com/js/landing.js
 ||api.tally.so/forms/*/events
+||api.transtore.app/api/v2/storefront/tracking
 ||api.usestoryteller.com/api/app/activity/recordActivity?
 ||api.visitorapi.com^$third-party
 ||api.wipmania.com^
@@ -12132,6 +12133,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||obs.esnlocco.com^
 ||obs.greencolumnblog.com^
 ||obs.jollyoutdoorjogger.com^
+||obs.sd4823.spglobal.com^
 ||obs.system1onesource.com^
 ||observe-nexus.pointandplace.com^
 ||observer.ip-label.net^
@@ -12295,6 +12297,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.s3xified.com^
 ||pixel.safe-installation.com^
 ||pixel.sprinklr.com^
+||pixel.uppromote.com^
 ||pixel.veritone-ce.com^
 ||pixel.videohub.tv^
 ||pixel.visitiq.io^
@@ -15043,6 +15046,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||advertising.amazon.dev/v1/ad-events/
 ||adweek.com/wp-content/plugins/adw-parsley/
 ||aegis.trovo.live^
+||aeis.alicdn.com/awsc/fireyejs/$script,domain=alibaba.com
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||affiliate.kinguin.net^
 ||agbi.com/kqmp6?
@@ -15184,7 +15188,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.x.com/live_pipeline/events?
 ||apigw.scmp.com/metrics/monitoring
 ||apigw.scmp.com/pwa-v2-unleash-proxy/proxy/client/metrics
-||aplus.aliexpress.com^$image,ping,~third-party
+||aplus.aliexpress.$image,ping,~third-party
 ||aplus.qwen.ai/aplus.monitor.load_cna_success?
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||apm.qwant.com^
@@ -15766,7 +15770,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||futureparty.com/nectar_analytics
 ||futureparty.com/page_view
 ||g-scale.org/scripts/EventLog.js
-||g.alicdn.com/AWSC/fireyejs/
 ||g.ign.com^
 ||g.mashable.com^
 ||g.newtimes.com^
@@ -16122,6 +16125,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marketing.alibaba.com^
 ||marketing.dropbox.com^
 ||marketing.taskus.com^
+||marriott.com/mi/api/shop-renderer/logger
 ||marty.zappos.com^
 ||massivecams.com/api/metrics
 ||mat6tube.com/api/stats?
@@ -17745,6 +17749,9 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! #if ext_ubol
 x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ! #endif
+! https://forum.ru-board.com/topic.cgi?forum=5&topic=51666&start=1420#14
+aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
+aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefined)
 ! -----------------Individual cname tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_dataunlocker.txt ***
 ! easyprivacy_specific_cname_dataunlocker.txt

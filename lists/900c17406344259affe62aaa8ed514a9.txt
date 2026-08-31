@@ -225,6 +225,7 @@ vz.ru##+js(href-sanitizer, a[href*="/redir/"], ?vzurl)
 dtf.ru,vc.ru##+js(href-sanitizer, a[href*="/redirect?to="], ?to)
 opennet.me,opennet.ru##+js(href-sanitizer, a[href*="://click.opennet.ru/cgi-bin/"], ?to)
 e.mail.ru,mail.rambler.ru,mail.yandex.ru,octavius.mail.ru##+js(href-sanitizer, a[href*="://opros.mosreg.ru/callback/survey"][href*="/direct_url/?redirect="], ?redirect)
+liveinternet.ru##+js(href-sanitizer, a[href*="?action=redirect&url="], ?url)
 rambler.ru##+js(href-sanitizer, a[href*="?utm_"][data-main-link], +https)
 kluchikipro.ru##+js(href-sanitizer, a[href*="deeplink="], ?deeplink)
 appleinsider.ru,znayka.cc##+js(href-sanitizer, a[href*="goto=https"], ?goto)
@@ -711,8 +712,6 @@ fastpic.org##[srcdoc]:remove()
 fastpic.org,~new.fastpic.org##^a > script:not(:last-child)
 fastpic.org,~new.fastpic.org##a[href*="/fullview/"] > img[src*="/preview/"]:style(clip-path: inset(0 0 38px 0) !important)
 fastpic.org,~new.fastpic.org##a[href="https://static.fastpic.ru/FastPicUploader.apk"]:remove-attr(target)
-fastpic.org/fullview##+js(abort-on-property-read, document.body.appendChild)
-fastpic.org/view##+js(abort-on-property-read, document.body.appendChild)
 ! отключенные на время теста правила
 !*$popunder,domain=fastpic.org
 !://fastpic.org^

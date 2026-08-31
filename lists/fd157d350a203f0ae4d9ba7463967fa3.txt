@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MsbqmqiEUwaZBzF3193JsQ
-! Version: 202608311022
+! Checksum: Z04Mn+4/T8sBiPttwlrzMg
+! Version: 202608311112
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 Aug 2026 10:22 UTC
+! Last modified: 31 Aug 2026 11:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1751,6 +1751,8 @@ lifehacker.ru##a[href*="erid="]:not([href^="/"]):not([href^="https://lifehacker.
 mem-hub.ru###appPromoModal {display:none;}
 mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
+overclockers.ru##a.over-hiddenlink-html[href*="://market.yandex.ru/"][target="_blank"] {pointer-events:none;color:inherit;}
+overclockers.ru##a.over-hiddenlink-html[href*="erid="][target="_blank"] {pointer-events:none;color:inherit;}
 povarenok.ru##.page-width {margin-top:0;}
 povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
 profinance.ru##main > .content-grid {grid-template-columns:unset;}

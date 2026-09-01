@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4jDKxtV1bDQNr5xc2nyiyQ
-! Version: 202609012032
+! Checksum: u8I78bP1LkyGBKOR1mkKfQ
+! Version: 202609012112
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Sep 2026 20:32 UTC
+! Last modified: 01 Sep 2026 21:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11440,9 +11440,11 @@ _vodkov.net
 ||kipfilms.ru^$third-party
 !
 ! FastPic-partners
+/splash.php?*fastpic$document
 ||crmared.com^$document
 ||dsazfk.com^$document
 ||dteifi.com^$document
+||dttxqa.com^$document
 ||dtxelz.com^$document
 ||dtyvtj.com^$document
 ||epicgameshubham.com^$document
@@ -25458,8 +25460,10 @@ ya.ru##.i-mini-bem[class*="banner"]
 ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
+ya.ru##html[class*="sekdllliom_top"] aside + div
+ya.ru##html[class*="sekdllliom_top"] main > div[class*="__"] ~ div[class*="__"] ~ div[class*="__"] > div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="sektllliom-items-count:"]
+ya.ru##section[style*="sekdllliom-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.Bno_isPromoSnippet

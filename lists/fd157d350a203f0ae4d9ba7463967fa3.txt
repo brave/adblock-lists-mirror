@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9++5d+17kqgFsK6ueLsa/w
-! Version: 202609010731
+! Checksum: d0i4zR4cgAxKZ7JA7leJAQ
+! Version: 202609010822
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Sep 2026 07:31 UTC
+! Last modified: 01 Sep 2026 08:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1735,7 +1735,12 @@ org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]
 ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 ! ---
 ! FastPic
-/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-downloads allow-same-origin;
+/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-downloads allow-same-origin; img-src *.fastpic.org fastpic.org static.fastpic.ru
+fastpic.org###picContainer .btn-outline-secondary {background-color:#2b6cb0;color:#fff;}
+fastpic.org###picContainer .btn-primary
+fastpic.org###picContainer > [style="position: relative;"] {background-image:none;}
+fastpic.org###picContainer a[href*="/fullview/"] > img:not([src])
+fastpic.org##.image-wrapper ~ div ~ div
 fastpic.org##.show-code-button
 fastpic.org##.show-code-content {display:block;}
 ! ---
@@ -23994,7 +23999,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?fFN5t=$xmlhttprequest
+||pikabu.ru/ajax/*?yDk2i=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

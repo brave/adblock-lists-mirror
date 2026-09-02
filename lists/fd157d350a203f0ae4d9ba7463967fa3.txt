@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r2lQWd33zfrot7M9AE07MQ
-! Version: 202609021011
+! Checksum: jjkL9vDyfe52wb1m0P5IbA
+! Version: 202609021222
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Sep 2026 10:11 UTC
+! Last modified: 02 Sep 2026 12:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23965,6 +23965,7 @@ igdz1.ru^$script,domain=igdz.ru
 ! ловушка для обфускации дзена: главная, статьи, новости, погода
 /^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+[^e]\.js(?:\?.*)?$/$script
 /^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+\.[^/?.]{1,3}\.js(?:\?.*)?$/$script
+/^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+\.[^/?]{1,5}\.js(?:\?.*)?$/$script
 /^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]+\.e\.js(?:\?.*)?$/$script
 ||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
@@ -24128,7 +24129,7 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 .link/*/*/*?*=*-*-*-$third-party,xmlhttprequest
 .link/*?*=*-*-*-*-$third-party,xmlhttprequest
 .link/*?fre=$third-party,xmlhttprequest
-.link/2tjl3er?$third-party,xmlhttprequest
+.link/6p80h?$third-party,xmlhttprequest
 .txt?fre=$third-party,xmlhttprequest
 .txt?unique=$third-party,xmlhttprequest
 /ad-rotator/ad-list.json
@@ -24136,11 +24137,6 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 /api-integration/*?unique=$third-party,xmlhttprequest
 /api-integration/ad-rotator/*$third-party,xmlhttprequest
 /api-integration/assets/*.txt?*=$third-party,xmlhttprequest
-/files/episodes/*-RU.mp4|$third-party,media
-/files/episodes/*bet.mp4|$third-party,media
-/files/series/*).mp4|$third-party,media
-/files/series/*-RU.mp4|$third-party,media
-/files/series/*bet.mp4|$third-party,media
 /vast/ad-rotator/*
 ?utm_source=veoveo$popup
 ||cdn-global-mb.com^$third-party
@@ -24156,6 +24152,8 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 ||temptcdn.com/*.xml?$xmlhttprequest
 ||temptcdn.com/api-integration/
 ||temptcdn.com^$third-party,xmlhttprequest
+||vveu.*.link/$third-party,media
+||vvru.*.link/$third-party,media
 ||ykoza.com^$popup
 !
 ! Плеер venom, в основном для ua-юзеров, примеры >

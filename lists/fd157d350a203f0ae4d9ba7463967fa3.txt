@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DyO6INBxiqdCSfsTXbsSVA
-! Version: 202609030642
+! Checksum: l4Vq6L/RMGHz09VhlsiVBg
+! Version: 202609030822
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Sep 2026 06:42 UTC
+! Last modified: 03 Sep 2026 08:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1740,7 +1740,7 @@ fastpic.org###picContainer .btn-outline-secondary {background-color:#2b6cb0;colo
 fastpic.org###picContainer .btn-primary
 fastpic.org###picContainer > [style="position: relative;"] {background-image:none;}
 fastpic.org###picContainer a[href*="/fullview/"] > img:not([src])
-fastpic.org##.image-wrapper ~ div ~ div
+fastpic.org##.image-wrapper ~ div ~ div:not(.show-code-content)
 fastpic.org##.show-code-button
 fastpic.org##.show-code-content {display:block;}
 ! ---
@@ -24927,6 +24927,7 @@ www.afisha.ru###yandex-zen
 lenta.news,lenta.ru#?#._longgrid:-abp-has(> [class*="info"] > [class*="_ad-title"])
 eda.ru#?#.ad_branding_footer div[class^="emotion"]:-abp-has(> [title="yandexzen"])
 eda.ru##.ad_branding_header > section
+rambler.ru##.ad_branding_site > div[style^="--background:"]
 rambler.ru##.adfox-background-container
 championat.com,championat.ru##.adv-mark
 lenta.news,lenta.ru##.advertisable-plate__erid

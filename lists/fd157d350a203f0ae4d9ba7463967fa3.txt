@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EByWAZDrBxiv1fIpPGss7w
-! Version: 202609030932
+! Checksum: 3Mz02Z6Kea9m7hzedBlNQw
+! Version: 202609031012
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Sep 2026 09:32 UTC
+! Last modified: 03 Sep 2026 10:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23971,7 +23971,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
-||static.dzeninfra.ru/s3/zen-apps/*.wave.js$script
 ||static.dzeninfra.ru/s3/zen-apps/*/*/*/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com|businessua.com
@@ -26735,7 +26734,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||foodzy.ru/i/b/$image,domain=foodzy.ru
 @@||forecabox.foreca.com/css/*X*css|$stylesheet,domain=forecabox.foreca.com
 @@||fundament-spb24.ru^*/images/$image,domain=fundament-spb24.ru
-@@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
 @@||gamearmy.ru/images/$image,domain=setitagila.3dn.ru
 @@||games-tv.ru/openx/www/delivery/ajs.php?$script,domain=games-tv.ru
 @@||gardenshop.com.ua/assets/components/phpthumbof/cache/$image,domain=gardenshop.com.ua

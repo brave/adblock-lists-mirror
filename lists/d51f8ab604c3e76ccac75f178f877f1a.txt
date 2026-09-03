@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20699.0
+! Version: 2026.20698.3
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -710,7 +710,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/RealMedia\/ads\//
 /data/banner.json?$domain=~nintendo.*
 
-/^https:\/\/(www\.)?busan\.com\/nas\/wcms\/public\/m\/images\/new\/[0-9]{6}[a-z]{2,3}\./$domain=busan.com
 ||joinsmedia.sfo2.digitaloceanspaces.com/ad/
 ||graynews.co.kr/api/*/ads/imp
 ||graynews.co.kr/img/cms/*PC.$image
@@ -1948,7 +1947,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
-busan.com###container > div[style^="width:"]
+
 joinsmediacanada.com###popupNoticeWrap
 joinsmediacanada.com###aside.highChk
 graynews.co.kr##div[data-component="AdBanner"]

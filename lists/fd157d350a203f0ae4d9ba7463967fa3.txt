@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2GLS4g9vwuhKQ0lU2FEw5A
-! Version: 202609042103
+! Checksum: YRuuIkEuiG4MvAc6GrygWw
+! Version: 202609042131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Sep 2026 21:03 UTC
+! Last modified: 04 Sep 2026 21:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18642,7 +18642,6 @@ bryansknovosti.ru,novozybkov.su##aside[data-alias="Под меню"]
 censor.net##aside[id][style^="height:"]
 lovesun.by##aside[id^="banner-"]
 hardwareluxx.ru##aside[id^="rec"]
-fastpic.org##b
 respawn.media#?#b:-abp-contains(Где купить)
 topasnew24.com##big
 allsport-tv.ru##big > a
@@ -20368,6 +20367,7 @@ forum.abok.ru##span[style^="color: #4F4F4F; font-size: 6pt; text-align: left;"]
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##sport[name="soccer"]
 nuriknur.ucoz.com##strong > span[style="color:red"]
 onliner.by#?#strong:-abp-contains(нож блокировщику)
+fastpic.org##style:first-child + b:empty:last-child
 surl.*##.promo-block
 surl.*##.promo-title
 surl.*##.very-nice-button

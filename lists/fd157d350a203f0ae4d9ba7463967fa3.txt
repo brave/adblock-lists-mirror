@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1XdiveirDhZoCJav+Fft1Q
-! Version: 202609040841
+! Checksum: ibC3N3bzUsBnrakaYgZ8GA
+! Version: 202609040912
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Sep 2026 08:41 UTC
+! Last modified: 04 Sep 2026 09:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11445,7 +11445,7 @@ _vodkov.net
 !
 ! FastPic-partners
 /splash.php?*fastpic$document
-=*=*fastpic$document
+=*=*fastpic*%$document
 ||crmared.com^$document
 ||epicgameshubham.com^$document
 ||eprdl.online^$document
@@ -25154,6 +25154,7 @@ cnews.ru#?#a[href^="https://www.cnews.ru/redirect.php"]:-abp-contains(Дзен)
 autonews.ru,rbc.ru,rbcautonews.ru,sportrbc.ru##body div .banner__container
 autonews.ru,rbc.ru,sportrbc.ru##body div .banner__filmstrip
 rbc.ru#?#body.free .intresting__list > .intresting__item:-abp-has(a[href^="https://pro.rbc.ru/"])
+rbc.ru#?#body.free .sticky-element > article:-abp-has([href^="/story/pro"])
 rbc.ru##body.free a.meta-info-row-project[href^="https://pro.rbc.ru"]
 rbc.ru##body.free a[class^="styles_message-bar_"][href^="https://pro.rbc.ru/"]
 rbc.ru#?#body.free aside.bside .sidebar:-abp-has(a[href^="https://pro.rbc.ru/"])
@@ -25168,6 +25169,7 @@ rbc.ru#?#body.free div[class="central-publisher-item"]:nth-child(-n+2):-abp-has(
 rbc.ru##body.free div[class^="MainNewsComponent_wrapper_"] [href*="utm_campaign"]
 rbc.ru##body.free div[class^="MainNewsComponent_wrapper_"] [href^="https://pro.rbc.ru/"]
 rbc.ru##body.free div[class^="style_promo_"]
+rbc.ru#?#body.free div[data-metronome-unit="article"] > div:-abp-has([href^="/story/pro"])
 rbc.ru##body.free div[data-name^="SpecialBlockPro"]
 rbc.ru##div[class="central-publisher-item"] a[href*="erid="]
 rbc.ru#?#div[class="central-publisher-item"]:-abp-has(.commercial-slider p:-abp-contains(Реклама))
@@ -27365,6 +27367,7 @@ allbookerka.org##.overhang
 2x2tv.ru##.owl-wrapper-outer .slideAlt
 retail.ru##.p1-retail
 retail.ru##.p2-retail
+rosserialhd.ru##.player_ad_attention
 clan-soprano.ru##.popupBlock
 uniondht.org##.post_body > div[style="color:red;font-size:25px;"]
 electric-house.ru#?#.rules:-abp-has(> p > [src="/img/no_ad.png"])

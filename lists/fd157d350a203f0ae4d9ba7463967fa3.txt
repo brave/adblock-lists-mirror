@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: My6QmRStAH04P74ts4YiHw
-! Version: 202609041731
+! Checksum: v+3uRXWkqJZ0IfyN765yNA
+! Version: 202609041814
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Sep 2026 17:31 UTC
+! Last modified: 04 Sep 2026 18:14 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1735,14 +1735,9 @@ org,net##body.branded:not([id]):not([style]) > #wrapper:not([class]):not([style]
 ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 ! ---
 ! FastPic
-/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-downloads allow-same-origin; img-src *.fastpic.org fastpic.org static.fastpic.ru
-fastpic.org###picContainer .btn-outline-secondary {background-color:#2b6cb0;color:#fff;}
-fastpic.org###picContainer .btn-primary
-fastpic.org###picContainer > [style="position: relative;"] {background-image:none;}
-fastpic.org###picContainer a[href*="/fullview/"] > img:not([src])
-fastpic.org##.image-wrapper ~ div ~ div:not(.show-code-content)
-fastpic.org##.show-code-button
-fastpic.org##.show-code-content {display:block;}
+/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=img-src *.fastpic.org fastpic.org static.fastpic.ru
+fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] > img[src*="/preview/"] {margin-bottom:-38px;display:block;}
+fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] {display:inline-block;overflow:hidden;}
 ! ---
 ex-fs.net###content {margin-top:0;}
 interface31.ru##.ads-top-container {min-height:0;margin-bottom:0;}
@@ -3216,6 +3211,7 @@ _tizers.
 ||mostinfo.net/img/top/
 ||mostlv.com^$third-party,subdocument
 ||moviecash.ru^$third-party
+||movieweb.ru^$third-party,script
 ||mrringo.com/images/banners/$third-party
 ||multiclick.ru^
 ||multonly.ru^$third-party

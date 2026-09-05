@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pmoK6M4xeoC3C081gYAJyw
-! Version: 202609051222
+! Checksum: tL7vodnmfw5ybVnYgD9XPg
+! Version: 202609051232
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Sep 2026 12:22 UTC
+! Last modified: 05 Sep 2026 12:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24411,7 +24411,7 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,sportmail.ru##div[article-item-type="contentroll"]:empty
 ~e.mail.ru,mail.ru,sportmail.ru##div[class*="rb-slot_plug"]
 ~e.mail.ru,mail.ru,sportmail.ru##div[data-closewrap-container]
-~deti.mail.ru,~e.mail.ru,~kino.mail.ru,mail.ru,sportmail.ru,~tv.mail.ru##div[data-tooltip-root]
+~e.mail.ru,mail.ru,sportmail.ru##div[data-tooltip-root][style*="fixed"]
 ~dobro.mail.ru,~e.mail.ru,mail.ru,~my.mail.ru,sportmail.ru##table > tbody > tr > td:first-child + td + td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru#?#tbody:-abp-has(> tr > td > [class*="daynews__item"]) > tr > td ~ td ~ td:last-child
 ~e.mail.ru,mail.ru,sportmail.ru##tr > .daynews__spring
@@ -24542,7 +24542,6 @@ otvet.mail.ru##div[data-pos]
 deti.mail.ru##.cols__wrapper > aside
 deti.mail.ru##.deti-slot_exchange
 deti.mail.ru##.js-smoky-end
-deti.mail.ru##div[data-tooltip-root][style*="fixed"]
 ! Мини-игры
 minigames.mail.ru##.left-advert-block
 minigames.mail.ru,okminigames.mail.ru#?#[href^="https://minigames.imgsmail.ru/static/css/social-likes."] ~ div[class]:-abp-has([href*="/info/adblock"])

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hB0fBHwWLuh0OUe2FHxgMQ
-! Version: 202609061832
+! Checksum: heRPZ2jfxno5ECJFmUf6LA
+! Version: 202609061902
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Sep 2026 18:32 UTC
+! Last modified: 06 Sep 2026 19:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1736,7 +1736,6 @@ ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 ! ---
 ! FastPic
 /fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=img-src *.fastpic.org fastpic.org static.fastpic.ru
-@@/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=sandbox allow-downloads allow-same-origin;
 fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] > img[src*="/preview/"] {margin-bottom:-38px;display:block;}
 fastpic.org,~new.fastpic.org##a#imglink[href*="/fullview/"] {display:inline-block;overflow:hidden;}
 ! ---
@@ -24260,7 +24259,7 @@ ru###ads-top.ads
 ||proxyshare.com^$third-party,popup
 !
 ! Avito
-avito.ru##[data-chunks="item"] + div div:last-child > div:only-child > div:first-child + div:last-child > div:only-child > div:first-child + div:last-child
+avito.ru##[data-chunks="item"] + div > [style] > span ~ div > div > div:first-child + div > div:last-child > div:last-child > div:first-child + div:last-child > div:only-child > div:first-child + div:last-child
 www.avito.ru##div[class*=" adv-"]
 www.avito.ru##div[class*=" advRoot"]
 www.avito.ru##div[class*="avito-ads-container"]

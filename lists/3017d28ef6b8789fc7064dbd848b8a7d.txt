@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609070520
+! Version: 202609070539
 ! Title: EasyPrivacy
-! Last modified: 07 Sep 2026 05:20 UTC
+! Last modified: 07 Sep 2026 05:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 70b91495cabca2838b612314d5816f483b6bca9e
+! Commit: 87d2267fa85b4d2b0ec1b6a3beea16c13e4f4a66
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -9329,7 +9329,7 @@ omni.soundestlink.com$image
 ||perr.l-agent.me^
 ||perr.l-err.biz^
 ! Block ping
-*$ping,third-party
+$ping,third-party
 ! https://www.opensubtitles.org/
 $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Oracle

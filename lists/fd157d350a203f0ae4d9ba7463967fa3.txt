@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MeSVQblr5RI/lnqgIhchfw
-! Version: 202609071131
+! Checksum: kwDpwXsmXuRv/DB8BLMp3Q
+! Version: 202609071222
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Sep 2026 11:31 UTC
+! Last modified: 07 Sep 2026 12:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1748,7 +1748,6 @@ kg-portal.ru##body > .menu_wrap {position:relative;}
 kg-portal.ru##body {background-image:none;background-color:inherit;}
 kinopoisk.ru##.app__page > div > div:first-child {min-height:0;}
 kinopoisk.ru##.app__page > div:first-child {min-height:0;}
-kinopoisk.ru##div[class^="styles_middleContainer_"] > div:first-child {min-height:0;}
 libertycity.net,libertycity.ru##body > div[class]:not([id]):not([style]) {background-image:none;}
 lifehacker.ru##a[href*="erid="]:not([href^="/"]):not([href^="https://lifehacker.ru/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 mem-hub.ru###appPromoModal {display:none;}
@@ -1764,6 +1763,7 @@ stranamam.ru##.n-main-branding-container {margin-top:0;}
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}
 stratege.ru##.above_body {margin-bottom:0;}
 ukrinform.ua##html[style*="overflow: hidden;"] {overflow:auto;}
+www.kinopoisk.ru###__next [data-test-id="header"] + div > [data-tid]:first-child {min-height:0;}
 www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 !#endif
 !
@@ -16331,7 +16331,6 @@ vokrug.tv#?#.sidebar .h3:-abp-contains(За кадром)
 lfl.ru##.sidebar .start_block a[href^="http"]:not([href*="://lfl.ru"])
 lfl.ru##.sidebar .start_block table[style="width: 263px;"]
 headphone-review.ru,kinomania.kz##.sidebar .widget_text
-pc-aio.ru##.sidebar > #HTML2
 love-games1.net##.sidebar > .accordion-in ~ .accordion-in
 vesti.uz##.sidebar > .adv ~ *
 litnet.com##.sidebar > .b-popular
@@ -24230,7 +24229,6 @@ ru###ads-top.ads
 2ip.io,2ip.ru##.ad-test-vpn
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru##.ip-icon-x-eye
-2ip.io,2ip.ru##.ip-links-container-row-x
 2ip.io,2ip.ru##.main-ip-icon-warning
 2ip.io,2ip.ru##.main-ip-icon-warning ~ [aria-disabled]
 2ip.io,2ip.ru#?#.narrow-column > style ~ div > div:-abp-has(a[style^="color:"])
@@ -24243,6 +24241,7 @@ ru###ads-top.ads
 2ip.io,2ip.ru##a[href*="adBannerRedirector"]
 2ip.io,2ip.ru##a[href*="proxyshare.com/"]
 2ip.io,2ip.ru##div[class^="ad-"][class*="change-ip"]
+2ip.io,2ip.ru##div[class^="ip-links-container-row-"]:first-child
 2ip.io,2ip.ru##nav a[target="_blank"]
 ! блокировки, добавленнные из-за агрессивного обхода адблока на 2ip.ru, 2ip.io, 2ip.ua ~>
 ||fineproxy.org^$third-party,popup
@@ -26410,7 +26409,6 @@ topserver.ru#@##ads2
 topserver.ru#@##ads3
 topserver.ru#@##ads4
 vk.com,vk.ru#@##ads_wrapper
-pc-aio.ru#@##adstop
 slavyansk.biz,tagline.ru,x-time.ru#@##adv
 mycinema.pro#@##adv_config
 corrupt.pnzreg.ru#@##adv_right

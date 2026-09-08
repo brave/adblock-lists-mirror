@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oJaov7y0ThmgMk67H9Nuww
-! Version: 202609082212
+! Checksum: VTdqstde197NuXHBKoS+nQ
+! Version: 202609082232
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Sep 2026 22:12 UTC
+! Last modified: 08 Sep 2026 22:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1750,6 +1750,8 @@ kinopoisk.ru##.app__page > div > div:first-child {min-height:0;}
 kinopoisk.ru##.app__page > div:first-child {min-height:0;}
 libertycity.net,libertycity.ru##body > div[class]:not([id]):not([style]) {background-image:none;}
 lifehacker.ru##a[href*="erid="]:not([href^="/"]):not([href^="https://lifehacker.ru/"]) {pointer-events:none;border-bottom:none;color:inherit;}
+liveball.sx,liveball.*##footer {max-width:100%;}
+liveball.sx,liveball.*##main.main_div {margin-top:0;max-width:100%;border-radius:inherit;background-size:unset;}
 mem-hub.ru###appPromoModal {display:none;}
 mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
@@ -2408,7 +2410,7 @@ _tizers.
 ||servebbs.net^$third-party,script,subdocument
 !
 ||asia^$third-party,script,subdocument,xmlhttprequest,domain=~gallerix.org
-||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~dewalt.store|~forum.worldofwarships.eu|~forum.worldofwarships.ru|~hansgrohe.ru|~hdvbplayer.tk|~herokuapp.com|~liveball.cc|~liveball.gg|~liveball.my|~liveball.sx|~liveball.uno|~liveball.ws|~masterclub.store|~movielab.pro|~osu.ppy.sh|~panomama.ru|~pelcn.net|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vk-apps.com|~vulpecula.host
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~dewalt.store|~forum.worldofwarships.eu|~forum.worldofwarships.ru|~hansgrohe.ru|~hdvbplayer.tk|~herokuapp.com|~liveball.cc|~liveball.gg|~liveball.im|~liveball.my|~liveball.sx|~liveball.uno|~liveball.ws|~masterclub.store|~movielab.pro|~osu.ppy.sh|~panomama.ru|~pelcn.net|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vk-apps.com|~vulpecula.host
 !
 ! Исключения
 @@||12go.asia/dist/prod/build.*.js|$third-party,script
@@ -17550,6 +17552,7 @@ nntt.org##[href^="http://numbuster.com"]
 nntt.org##[href^="http://www.cenam.net"]
 game2day.ru##[href^="https://p2d.ru/"]
 smi2.ru##[href^="https://smi2.ru/newdata/adpreview?ad="]
+link.softoroom.org##[href^="https://softoroom.org/link/jump.php"]
 divxplayer.ml,haes.tech,hcdn.online,hqq.tv,metaverseid.tk,player.cvary.org##[href^="https://t.me/"]
 forum.ru-board.com##[href^="postings.cgi?action=edit&forum=5&topic=51666"]:not([href$="postno=1"]) ~ .post img:not([src*="://forum.ru-board.com/board/"])
 versii.if.ua##[href^="tel:"]
@@ -20124,7 +20127,6 @@ chexov.info##img[src*="chexov.info/images/banners/"]
 cqham.ru##img[src*="cqham.ru/forum/ad/"]
 poltava365.com##img[src*="img/adw/"]
 jobvacancy.pro##img[src*="jobvacancy.pro/img/commin/"]
-softoroom.org##img[src*="yandexbr."]
 1pnz.ru##img[src*="баннеры"]
 officebesplatno.com##img[src="/download.png"]
 folkdoctor.ru##img[src="/images/banners/virtoo.jpg"]
@@ -20176,12 +20178,6 @@ stopgame.ru#?#li:-abp-has(> [href="https://zen.yandex.ru/stopgame"])
 zalinux.ru##li[id^="menu-item-"] > a[href^="http"]:not([href*="kali.org.ru/"]):not([href*="zalinux.ru/"])
 crackstatus.net##li[id^="slide"]
 penzainform.ru##li[style^="width: 140px; height:"][style*="max-height"]
-liveball.sx,liveball.*###fullscreen
-liveball.sx,liveball.*##.bp_wrap
-liveball.sx,liveball.*##.freebet_block
-liveball.sx,liveball.*##[class*="odds_"]
-liveball.sx,liveball.*##[class^="custom_brand"]
-liveball.sx,liveball.*##div[class^="catfish_"]
 lurkmore.*###localNotice #aside_buttons
 lurkmore.*###localNotice .infobox
 lurkmore.*###n-Группа-в-Дискорде
@@ -21461,7 +21457,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||cdn.gravitec.net/styles/unbloc*.png
 ||cdn.hsmedia.ru/dist/maxim/Product.
 ||cdn.hsmedia.ru/scrooge-client/hsm-creative-manager$script
-||cdn.liveball.space/public/img/overlay
 ||cdn.livetv*.me/html/$subdocument
 ||cdn.livetv*.me/tmp/$subdocument
 ||cdn.muzofon.tech/banner/$image
@@ -22331,9 +22326,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||live4fun.ru/bitpapa/
 ||liveangarsk.ru/files/k
 ||liveangarsk.ru/specfiles/
-||liveball.*/public/*clickunder.js
-||liveball.*/public/js/dm.min.js
-||liveball.*/public/js/fcap.js
 ||livecars.ru^*/wall_
 ||livefootball.ws^$object
 ||liveinternet.ru/cgi-bin/adt.fcgi
@@ -24035,7 +24027,7 @@ lenta.news,lenta.ru##.layout__content > [id^="newsBody_news-"] ~ [id^="articleBo
 lenta.news,lenta.ru##.topic-body__content> .box-external-video:last-child {remove:true;}
 lenta.news,lenta.ru##.topic-footer > div[class^="box-"][class$="-video"] {remove:true;}
 lenta.news,lenta.ru##.vk-video-popup {remove:true;}
-liveball.sx,liveball.*###custom_brand {remove:true;}
+liveball.sx,liveball.*##body > style[id] {remove:true;}
 pikabu.ru##head > style:has-text(min-height:301px;) {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 stratege.ru##html[xmlns] > body > script + script + style {remove:true;}
@@ -24383,6 +24375,12 @@ kp.ru##body.wp-theme-sports .left-sidebar
 kp.ru#?#body.wp-theme-sports .show-for-large:-abp-has(> .left-sidebar)
 kp.ru##div[class^="ad-slot"]
 kp.ru##div[style*="height:"][style*="250px"][style*="important"]
+!
+! LiveBall
+liveball.sx,liveball.*##[data-noclick]
+liveball.sx,liveball.*##body > div[class]:not([id]):not([style]):empty
+||cdn.lbs.pw/rek/
+||liveball.*/public/js/dm.min.js
 !
 ! мобильная версия livejournal.com
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##html.html-mobile div[class$="__inner--custom-width"]

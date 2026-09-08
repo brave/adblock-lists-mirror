@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RyK+GGhthqQCbqdm+XV/Lw
-! Version: 202609080821
+! Checksum: 8UTp1kL1ivvhoOevpUOZBw
+! Version: 202609080842
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Sep 2026 08:21 UTC
+! Last modified: 08 Sep 2026 08:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16979,6 +16979,7 @@ sovetromantica.com##.vjs-overlay-background
 prgazeta.ru##.vk-group
 gdz-putina.fun##.vk_show
 vk.com,vk.ru##.vkuiBanner__host
+vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 yapx.ru##.vlDxyyFUTdjDdXmIBPxWDa
 spletnik.ru##.vms_article_parent a[href*="utm_"]
 megaresheba.ru##.vopros-block
@@ -17650,7 +17651,6 @@ penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [href*="utm_source=vk_ads"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(onelink.me/))
-vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel][href*="utm_campaign"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has([aria-label="Реклама от автора"])
 rozetka.com.ua#?#[rzadvertisingview]:-abp-has(> div > span > rz-advertising-info-btn)

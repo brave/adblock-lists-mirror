@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20705.0
+! Version: 2026.20705.1
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -712,6 +712,7 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/RealMedia\/ads\//
 /data/banner.json?$domain=~nintendo.*
 
+||amazing.today/_next/image?url=%2Fads%2F2
 ||image.gamechosun.co.kr/ad_banner/
 ||file.chuchu.gg/*/pop_up_ad/
 /^https:\/\/(www\.)?busan\.com\/nas\/wcms\/public\/m\/images\/new\/[0-9]{6}[a-z]{2,3}\./$domain=busan.com
@@ -1954,6 +1955,18 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+bananamall.co.kr###banner_header
+bananamall.co.kr##.banner_fan_meeting_review
+bananamall.co.kr##.banner_cntnt_right
+bananamall.co.kr##wrap_fixed_right_branches
+bananamall.co.kr###wrap_fixed_right_exhbt
+bananamall.co.kr##.srch_term
+bananamall.co.kr##.banner_evt
+bananamall.co.kr##.banner_cntnt_left
+bananamall.co.kr##.banner_evt_adult_day_2017
+bananamall.co.kr###wrap_banner_fixed_left
+bananamall.co.kr###wrap_fixed_left_review
+my.amazing.today##.relative.z-0.flex-1 #map ~ .absolute.z-10.flex.w-full
 gamechosun.co.kr##.top_event
 busan.com###container > div[style^="width:"]
 joinsmediacanada.com###popupNoticeWrap

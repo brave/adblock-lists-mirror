@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iN+dlvC7MlPIIMCBSK9p0A
-! Version: 202609091733
+! Checksum: 0ZmPU4UnYyPhaXZ7g0E2Vg
+! Version: 202609091821
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Sep 2026 17:33 UTC
+! Last modified: 09 Sep 2026 18:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24377,7 +24377,7 @@ kp.ru##div[class^="ad-slot"]
 kp.ru##div[style*="height:"][style*="250px"][style*="important"]
 !
 ! LiveBall
-liveball.sx,liveball.*##[data-noclick]
+liveball.sx,liveball.*##[data-noclick]:not(#player_block)
 liveball.sx,liveball.*##body > div[class]:not([id]):not([style]):empty
 ||cdn.lbs.pw/rek/
 ||liveball.*/public/js/dm.min.js

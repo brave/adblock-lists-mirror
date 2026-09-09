@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NgisTH7XLwEDPmyBf4jwhA
-! Version: 202609091502
+! Checksum: vtus10OK59wHrE07xrmHkQ
+! Version: 202609091532
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Sep 2026 15:02 UTC
+! Last modified: 09 Sep 2026 15:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -27,6 +27,7 @@
 ! - Частные правила -----------------------------------------------------------
 $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnpotok.com|cdntvpotok.com|freescreens.ru|imgbase.ru|imgcach.ru|imgclick.ru|kolikbolik.top|oneliketv.com|payforpic.ru|picclick.ru|picclock.ru|picforall.ru|protonvideo.to|telecdn.net|tv-assia.org
 &utm_campaign=$popup,domain=itc.ua|sc2tv.ru|www.film.ru
+.html$third-party,popup,domain=fastpic.org|~new.fastpic.org
 /*utm_$popup,domain=stratege.ru
 /go.php$popup,domain=piratca.net
 /redirect/cpa/*$popup,domain=rt02.ru
@@ -23995,7 +23996,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?j3T2r=$xmlhttprequest
+||pikabu.ru/ajax/*?j4T2r=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

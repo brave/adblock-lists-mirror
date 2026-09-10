@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /Lu8wDc3v5IoO/mUdPsbzQ
-! Version: 202609100221
+! Checksum: RM+cS0HqKTRKiUZ6WSdN1A
+! Version: 202609100241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Sep 2026 02:21 UTC
+! Last modified: 10 Sep 2026 02:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24380,6 +24380,7 @@ kp.ru##div[style*="height:"][style*="250px"][style*="important"]
 liveball.sx,liveball.*##[data-noclick]:not(#player_block)
 liveball.sx,liveball.*##body > div[class]:not([id]):not([style]):empty
 ||cdn.lbs.pw/rek/
+||liveball.*/public/*clickunder.js
 ||liveball.*/public/js/dm.min.js
 !
 ! мобильная версия livejournal.com

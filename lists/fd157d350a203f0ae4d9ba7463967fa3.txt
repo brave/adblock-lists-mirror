@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NVXSVrNJdMvefwqDzZM7/w
-! Version: 202609112011
+! Checksum: 77k5ubWcBjuA7OqTS+gjKw
+! Version: 202609112032
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Sep 2026 20:11 UTC
+! Last modified: 11 Sep 2026 20:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17551,6 +17551,7 @@ nntt.org##[href^="http://www.cenam.net"]
 game2day.ru##[href^="https://p2d.ru/"]
 smi2.ru##[href^="https://smi2.ru/newdata/adpreview?ad="]
 link.softoroom.org##[href^="https://softoroom.org/link/jump.php"]
+link.softoroom.org##[href^="https://softoroom.org/link/jump.php"] ~ div[id]
 divxplayer.ml,haes.tech,hcdn.online,hqq.tv,metaverseid.tk,player.cvary.org##[href^="https://t.me/"]
 forum.ru-board.com##[href^="postings.cgi?action=edit&forum=5&topic=51666"]:not([href$="postno=1"]) ~ .post img:not([src*="://forum.ru-board.com/board/"])
 versii.if.ua##[href^="tel:"]

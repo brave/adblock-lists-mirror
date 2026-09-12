@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.2.9
+! Version: 4.4.3.0
 
 ! General
 
@@ -545,6 +545,11 @@ bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,
 
 ! Motor Presse Stuttgart
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de
+
+! Nation Media Group (Kenya)
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz,theeastafrican.co.ke##+js(rc, nmgp, div.article-page .nmgp, stay)
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz,theeastafrican.co.ke##+js(ra, hidden, div.article-page [hidden], stay)
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz,theeastafrican.co.ke##div.modal,[id*='wall'],section.wall-guard,div.spinner
 
 ! Oahu Publications
 staradvertiser.com##div.fade

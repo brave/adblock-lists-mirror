@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +ijeGMeJWjB5jD/Y+8SmXQ
-! Version: 202609120812
+! Checksum: ceVczj3RQ/oGVQAMr7lsWw
+! Version: 202609120832
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Sep 2026 08:12 UTC
+! Last modified: 12 Sep 2026 08:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13200,7 +13200,7 @@ igromania.ru##.ad-brending
 delfi.ee,glavnoe.in.ua,popcake.news##.ad-container
 fishki.net##.ad-div
 kirovnet.ru##.ad-forum-block
-blackwot.ru##.ad-free-button
+blitzfoxhub.com##.ad-free-button
 1927.kiev.ua##.ad-modal
 usionline.com##.ad-wrapper-small
 akniga.org,newsvideo.su##.ad1
@@ -18877,7 +18877,7 @@ liveresult.ru#?#div:-abp-has(> [data-has-bookmaker-odds])
 gdzguru.com,reshebnik.com#?#div:-abp-has(> [href*="://gdz-ru.work/"])
 7themes.su,yakutsk.ru#?#div:-abp-has(> [id^="adfox_"])
 ura.news#?#div:-abp-has(> [id^="adv-"])
-blackwot.ru,draug.ru,emdigital.ru,enthub.it,modsforwot.ru,pogodavtomske.ru#?#div:-abp-has(> [id^="yandex_rtb"])
+blitzfoxhub.com,draug.ru,emdigital.ru,enthub.it,modsforwot.ru,pogodavtomske.ru#?#div:-abp-has(> [id^="yandex_rtb"])
 photofuneditor.com#?#div:-abp-has(> [src*="pagead2."])
 gdz.ninja,gdzotputina.club,gdzputina.net,reshebnik.com,spishi.fun,zoobrilka.net#?#div:-abp-has(> [src="/secret.png"])
 sport24.ru#?#div:-abp-has(> [style^="margin-bottom:"][style*="1rem"] > a > .bookmaker-rating)
@@ -26279,7 +26279,6 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 @@||audioskazki.net^$generichide
 @@||auth.wi-fi.ru^$generichide
 @@||ava-avto.ru^$generichide
-@@||blackwot.ru^$generichide
 @@||browserleaks.com^$generichide
 @@||cdnstreamfree.com^$generichide
 @@||cdnstreamlive.com^$generichide
@@ -27133,7 +27132,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||an.yandex.ru/meta/$xmlhttprequest,domain=examenpdd.com
 @@||an.yandex.ru/resource/context_static_r_*.js|$domain=otzovik.com
 @@||an.yandex.ru/system/context.js$domain=awaps.yandex.net|ctc.ru|otzovik.com|www.rusprofile.ru
-@@||an.yandex.ru/system/context.js|$domain=onlinelpu.ru|ryfma.com
+@@||an.yandex.ru/system/context.js|$domain=blitzfoxhub.com|onlinelpu.ru|ryfma.com
 @@||ansedo.com/js/*.js|$script,domain=ansedo.com
 @@||ava-avto.ru^$image,domain=ava-avto.ru
 @@||awaps.yandex.net^$script,domain=delovoe.tv|lentv24.ru|piter.tv|smexo.tv

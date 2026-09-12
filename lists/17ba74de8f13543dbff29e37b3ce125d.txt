@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609121002
+! Version: 202609121039
 ! Title: EasyList
-! Last modified: 12 Sep 2026 10:02 UTC
+! Last modified: 12 Sep 2026 10:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 38f976768ebe40277452b6e15cba8a7837daacbd
+! Commit: b04b7b5eb743b44f3876634b107a14e8f4c8fce1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -29447,6 +29447,7 @@ browsershots.org#@#.advert_area
 ||fpnhzkvbascxn.space^
 ||fpnpmcdn.net^
 ||fpofgwxhxtjaj.online^
+||fposfzmqexyzw.online^
 ||fpozepoxngmmn.site^
 ||fpplwtittfozz.website^
 ||fppthoadjqmzw.online^
@@ -31720,6 +31721,7 @@ browsershots.org#@#.advert_area
 ||harrowspoilu.qpon^
 ||harsh-award.com^
 ||harshlysupportedsleazy.com^
+||harshobjective.pro^
 ||harshplant.com^
 ||harshraise.com^
 ||hartailorotund.cyou^
@@ -40208,6 +40210,7 @@ browsershots.org#@#.advert_area
 ||ndgibjk.com^
 ||ndhadbeensoa.org^
 ||ndhvcwnczxupa.online^
+||ndhygbvffecvj.site^
 ||ndifzhemlnlop.space^
 ||ndkdobohmlqxw.website^
 ||ndoqxebszxnsc.site^
@@ -77336,7 +77339,7 @@ bing.com##div[class="ins_exp vsp"]
 ! bing.com##li.b_ans[data-partnertag][role="presentation"]
 bing.com##li[data-idx]:has(#mm-ebad)
 ! chatgpt
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + [class] > button[aria-haspopup])
 ! kayak
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L

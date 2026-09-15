@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609152239
+! Version: 202609152308
 ! Title: EasyList
-! Last modified: 15 Sep 2026 22:39 UTC
+! Last modified: 15 Sep 2026 23:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7707949e96965b01f39f9b5f714790d8edc1f496
+! Commit: b66700404b44ce7fe8de7e9ad9c886e8930a746b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30720,6 +30720,7 @@ browsershots.org#@#.advert_area
 ||gerusiaallwork.cyou^
 ||gervaisnatrons.cfd^
 ||gervaorix.cyou^
+||gervffwlszbuu.site^
 ||geryonshudder.cyou^
 ||gesqruyuqhdxz.website^
 ||gestapozulu.qpon^
@@ -31842,6 +31843,7 @@ browsershots.org#@#.advert_area
 ||gxowuybbwgfjv.site^
 ||gxozdwttsqtqp.website^
 ||gxqcdnbbribw.com^
+||gxqfgqhllmhhx.space^
 ||gxteysujhcypg.online^
 ||gxtihgivnpgei.online^
 ||gxvdzkmvwmgua.online^
@@ -46181,6 +46183,7 @@ browsershots.org#@#.advert_area
 ||qihegkxiytaah.online^
 ||qihnajipjpmii.online^
 ||qiix78.net^
+||qilqmdtikegk.com^
 ||qimagnauebhcq.online^
 ||qimqebsonbvvy.space^
 ||qimwrmwolosbo.website^
@@ -50089,6 +50092,7 @@ browsershots.org#@#.advert_area
 ||siteoid.com^
 ||sitewithg.com^
 ||sitiotetrix.cyou^
+||sitterfabledslich.qpon^
 ||situateddivine.com^
 ||situatepariet.qpon^
 ||situationsparkler.com^
@@ -51396,6 +51400,7 @@ browsershots.org#@#.advert_area
 ||stirringcreambroker.com^
 ||stirrupkongoni.shop^
 ||stjmnallynran.online^
+||stjypxrvom.com^
 ||stlgludlow.shop^
 ||stnjgbqwpispt.store^
 ||stoachdarts.com^
@@ -55933,6 +55938,7 @@ browsershots.org#@#.advert_area
 ||viandcamooch.shop^
 ||vianoivernom.com^
 ||viasfanfoot.cfd^
+||viasmadempne.shop^
 ||viatechonline.com^
 ||vibnpoar.com^
 ||vibrantscale.com^
@@ -78597,7 +78603,7 @@ bing.com##div[class="ins_exp vsp"]
 ! bing.com##li.b_ans[data-partnertag][role="presentation"]
 bing.com##li[data-idx]:has(#mm-ebad)
 ! chatgpt
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + [class] > button[aria-haspopup])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
 ! kayak
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kRwxm0acIEyXn7J8V2IarA
-! Version: 202609161532
+! Checksum: hL3SOu6zAVxASIdhSopZLg
+! Version: 202609161612
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Sep 2026 15:32 UTC
+! Last modified: 16 Sep 2026 16:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1726,6 +1726,10 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 ! = CSS-стили =================================================================
 ! *** advblock/inline_css.txt ***
 !#if ext_abp
+! AgroUKR
+agroweek.com##body > * {pointer-events:auto;}
+agroweek.com##body {background-image:none;cursor:auto;pointer-events:none;}
+! ---
 ! Собственные домены HDrezka
 ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,la,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] > [id$="er"]:nth-child(-n+3) {width:unset;}
 ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,la,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##body[class^="has-brand"][class*=" active-brand"][class*="fixed-header"] {padding-top:0;background-color:inherit;}
@@ -13530,6 +13534,7 @@ pindosoff.net,pornovkisku.com,teplomontag.net##.avr-wrapper
 primanki.com##.avyes
 agronews.ua,agroreview.com,agroweek.com##.aw-ads-container
 chas.cv.ua##.awac-wrapper
+agroweek.com##.awb-slot
 bestinfo.am##.awd-hidden-phone
 gsconto.com##.azk-banner
 tverisport.ru##.azsbx

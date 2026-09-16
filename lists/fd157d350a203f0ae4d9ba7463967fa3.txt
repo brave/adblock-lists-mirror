@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: q8RmiMesO9n0CLlJD4J9Ug
-! Version: 202609161632
+! Checksum: /FK6m/2f4Nbh62slRvLvww
+! Version: 202609161712
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Sep 2026 16:32 UTC
+! Last modified: 16 Sep 2026 17:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13192,8 +13192,6 @@ healthinfo.ua##.abox
 matematikalegko.ru##.abs
 we-reads.com##.abs_row
 kidstaff.com.ua##.absk
-dtf.ru,vc.ru##.account-menu__item > [href^="/store"]
-dtf.ru,vc.ru##.account-menu__item > a[href^="https://edu.vc.ru/"]
 digger.ru##.acid
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.active[style="background: #f9561b;; padding: 8px;"]
 alvin-almazov.ru##.active_bet
@@ -16426,7 +16424,7 @@ gitflic.ru##.sidebar__banner
 fishki.net##.sidebar__block_trend
 bioware.ru#?#.sidebar__content-wrp:-abp-has(.sidebar__image > a[href^="http://gamazavr.ru/"])
 teploguru.ru##.sidebar__rek
-dtf.ru,vc.ru##.sidebar__section > a[href^="https://edu.vc.ru/"]
+dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 24smi.org##.sidebar__wrap > :not(.sidebar__info)
 cherkassy-sport.com##.sidebar_block > .textwidget:only-child
 landlord.ua##.sidebar_kdbn
@@ -17752,6 +17750,7 @@ news24.in.ua,novosti24.kyiv.ua,tenews.org.ua,ua-novosti.info,uapress.kyiv.ua##a 
 tort.fm##a#bg
 gorodrabot.ru##a.additional-earnings-banner-snippet:not([href*="gorodrabot.ru/"])
 burninghut.ru##a.article-button[rel="noopener"]
+mt.today##a.background
 gameinside.ua##a.banner
 focus.ua,zoneofgames.ru##a.branding
 poker-wiki.ru##a.external[rel="nofollow"][href*="/go/?site="] > img[src$=".gif"]
@@ -18936,6 +18935,7 @@ regnum.ru##div[class$=" feed-item"]
 mt.today,znak.com##div[class$="-ads"]
 bhf.su##div[class$="-bannerContent"]
 proufu.ru#?#div[class$="-main"]:-abp-has(> p:-abp-contains(Новости партнеров))
+mt.today##div[class$="-only"][style]
 hdclub.ua##div[class$="-prm"]
 www.kinopoisk.ru##div[class$="__adfox"]
 vesdoloi.ru##div[class$="_ads"]
@@ -22536,6 +22536,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||mrtranslate.ru/lorado.js
 ||mskd.ru/img/*x*_
 ||mskins.net/themes/mc/assets/promo/
+||mt.today/js/yandexloader.js
 ||mu-kgt.ru/*/widget/contract/
 ||mukachevo.net/bundle/assets/place-block-$script
 ||mult-porno.*/front/js/all_a.js

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: FRB1Ars0gJtKl7wlVuNONw
+! Checksum: IdrsIdwvaPhuJiHq37vzjw
 ! Title: EasyList Hebrew
-! Last modified: 17 Sep 2026 14:44 UTC
+! Last modified: 17 Sep 2026 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -430,6 +430,7 @@ isdarot.com##*
 israeljobstoday.com##*
 kelocote.prpl.co.il##*
 kooduu.com##*
+lanatoyasaeil.com##*
 lavaveli.com##*
 levoria-il.com##*
 livenza-il.com##*
@@ -478,6 +479,7 @@ zoharajewels.com##*
 ||hasdarot.xyz^
 ||isdarot.com^
 ||israeljobstoday.com^
+||lanatoyasaeil.com^
 ||losittooday.info^
 ||pinukim.net^
 ||play.milly-style.co.il^
@@ -1066,6 +1068,7 @@ isport.co.il##[href^="https://www.sherut.net/Poalim"]
 israelhayom.co.il###fakeimage
 israelhayom.co.il##.ad-unit-desktop.widget
 israelhayom.co.il##.ad-unit-side-container
+israelhayom.co.il##.col-lg-12.col > .single-post-inner-content__section > .row > .single-post-inner-aside__col.col
 israelhayom.co.il##.full_width.system-banner
 israelhayom.co.il##.ih-marketing-info-container
 israelhayom.co.il##.ih-marketing-item-container
@@ -1074,7 +1077,7 @@ israelhayom.co.il##.marketing-article
 israelhayom.co.il##.marketing_section
 israelhayom.co.il##.pane-ih-marketing-bxslider
 israelhayom.co.il##.pane-ih-marketing-nice-to-know
-israelhayom.co.il##.single-post-inner-aside__col.col
+israelhayom.co.il##.slick-initialized.campaign.posts-slider.slick-slider
 israelhayom.co.il##.top-adunit-section
 israelhayom.co.il##a[href*="theadblockerproject.org"]
 israelweather.co.il###weekFlashes
@@ -1089,6 +1092,7 @@ junkyard.co.il##.plasma_banner
 junkyard.co.il##div[id^="banner"]
 kikar.co.il##.\[\&_iframe\]\:rounded.dark\:bg-gray-900.bg-gray-100.py-3.border-border.border-b.justify-center.flex.mx-auto.align-center.overflow-hidden.relative.text-center
 kikar.co.il##.h-\[200vh\] > .w-full.top-\[2\.8rem\].sticky > .ps-10.py-5
+kikar.co.il##.has-\[\*\]\:border-border.has-\[\*\]\:border-b.items-center.justify-center.md\:flex.hidden
 kikar.co.il##.items-center.justify-center.flex.xl\:min-h-\[240px\].lg\:min-h-\[210px\].min-h-\[290px\].relative
 kikar.co.il##.justify-center.flex.\[\&_iframe\]\:overflow-hidden.\[\&_iframe\]\:rounded.border-border.border-b.p-3.overflow-hidden.relative.text-center > .block
 kikar.co.il##.w-full.py-1.lg\:top-\[45px\].top-\[52px\].sticky
@@ -1208,7 +1212,12 @@ morfix.co.il##div[class^="_hpTopAd_"]
 morfix.co.il##div[class^="_leaderboardAd_"]
 morfix.co.il##div[class^="_sidebarAdDesktopOnly_"]
 motke.co.il##.sticky-top.fixed_banner
+n12.co.il##.ComponentTitle_titleContent__MeYqq > [href^="https://www.mako.co.il/news-med12"]
+n12.co.il##.GenericDesktop_smallItems__6W7bu > article.TeaserManager_root__nRODt > .v025Desktop_root__EcTEG
+n12.co.il##.SpreadDesktop_root__TEKT8 > article.TeaserManager_root__nRODt > .v025Desktop_root__EcTEG
 n12.co.il##[box-title="חוק ומשפט"]
+n12.co.il##[class^="AdComponent_"]
+n12.co.il##[class^="Premium_root_"]
 n12.co.il##[href="https://www.mako.co.il/news-law_guide"]
 n12.co.il##[href^="/news-law_guide/"]
 n12.co.il##[src^="https://www.duns100.co.il/frame/hp3?"]
@@ -1244,6 +1253,10 @@ onlife.co.il##.cj_new_widget_banners_left_long
 onlife.co.il##.cjbs-js-front-banner
 onlife.co.il##.persumi-text
 passportnews.co.il###fullpage_bnr
+passportnews.co.il###page.home > #content > div#desktop_footer_sticky
+passportnews.co.il###page.magazine > #content > div#desktop_footer_sticky
+passportnews.co.il###page.magazine > div#desktop_footer_sticky
+passportnews.co.il##.bannerCls.trg_banner
 passportnews.co.il##[src^="https://media.passportnews.co.il/media/Modules/Banners/"]
 pitria.com##.adcontainer
 play.walla.co.il##.bnr_160
@@ -1304,6 +1317,9 @@ sherut.net##._md.compAd_in
 sheva7.co.il##.desktop-display > .maavaron
 shironet.mako.co.il###playerAdArea
 shmua.com##.adsbygoogle
+shmua.com##.elementor-widget-html.elementor-widget.elementor-hidden-mobile.elementor-hidden-tablet.elementor-element-9ca9c92.elementor-element
+shmua.com##[href^="https://s.click.aliexpress.com/"]
+shmua.com##div[style="position:relative;width:720px;max-width:100%;margin:0 auto;overflow:hidden;"]
 shop.super-pharm.co.il##.item-box-link:has(.mabaya-disclaimer)
 sponser.co.il###unit_300x250_bottom
 sponser.co.il###unit_300x250_top

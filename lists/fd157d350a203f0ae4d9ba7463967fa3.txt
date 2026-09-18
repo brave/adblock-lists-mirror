@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lTjQALWS7YpLBSMw9tYQfQ
-! Version: 202609180912
+! Checksum: NpEZWoghssJcQssk/B4Txg
+! Version: 202609180932
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Sep 2026 09:12 UTC
+! Last modified: 18 Sep 2026 09:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12443,6 +12443,8 @@ gramota.ru###main-sec > .block-side ~ .block-side
 hdd.by###main-sidebar > .widget_custom_html:last-child
 vjazhi.ru###main-top
 referatwork.ru###main2 > table
+fastpic.org#?##mainContainer:-abp-has(a[href*="/big/"] > img:not([src])) a[href*="html?info=1"]
+fastpic.org#?##mainContainer:-abp-has(a[href*="/fullview/"] > img:not([src])) a[href*="html?info=1"]
 shans.com.ua###mainContent > noindex
 avtotachki.com###mainFloatDesctop
 shans.com.ua###mainNav > .titleBlue ~ .titleBlue
@@ -18011,7 +18013,6 @@ islamnews.ru##a[href*="halaleda.me"]
 myshows.me##a[href*="hd.kinopoisk.ru"]
 ignio.com##a[href*="helpix.ru"]
 2ip.ua##a[href*="hidemy.name"]
-fastpic.org##a[href*="html?info=1"]
 minecraft-mods.ru##a[href*="http://new-igry.ru/games/"] > img[src^="/uploads/posts/"]
 dietdo.ru##a[href*="iherb.com"]
 drochunov.net##a[href*="in.htm?"]

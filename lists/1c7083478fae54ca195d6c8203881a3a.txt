@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.3.3
+! Version: 4.4.3.4
 
 ! General
 
@@ -662,7 +662,8 @@ businesstoday.in##+js(cookie-remover, magazineSession)
 businesstoday.in##div#magazinePayWallStrip
 ||nitrocdn.com/*/paywall.$script,domain=capitalaberto.com.br
 cardiologie-pratique.com##+js(ra, class, div.wrap-node, stay)
-||jsdelivr.net/*/catholicherald-auth0-poool-*/index.js$script,third-party,domain=thecatholicherald.com
+cdt.ch##div#piano-article-lock:remove()
+cdt.ch##div.piano-fallback
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall, stay)
 ||cnv-medien.de^$inline-script
 ||commercialobserver.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
@@ -802,6 +803,7 @@ subscriptioninsider.com##div.dialog-widget
 !#endif
 the-decoder.com##+js(ra, class, div.paywall-hidden-content, stay)
 the-decoder.com##section.paywall-content
+||jsdelivr.net/*/catholicherald-auth0-poool-*/index.js$script,third-party,domain=thecatholicherald.com
 thecore.in##+js(ra, class, div.paywall-content, stay)
 thecore.in##div.story,div#subscription_paid_message,div#footer_login_wall
 thecountersignal.com##+js(ra, class, body.single div.elementor-widget-container, stay)

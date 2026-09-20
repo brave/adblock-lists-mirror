@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +GnMFI/E4GNsF+heQD9wpA
-! Version: 202609200322
+! Checksum: 64b2d9cQ0iq/HUluxM3IdQ
+! Version: 202609200342
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Sep 2026 03:22 UTC
+! Last modified: 20 Sep 2026 03:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4031,6 +4031,7 @@ _tizers.
 .vnadsrv.com^
 //89.108.109.12^$object
 //95.169.186.139^
+://fastpic.org^
 |ws*//*.igrid.org^
 |ws*//*10root25.website^
 |ws*//*185.87.50.147^
@@ -20599,6 +20600,7 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 .softoroom.org^$csp=default-src 'unsafe-inline',domain=~gzip.softoroom.org|~m.softoroom.org
 /bens/vinos.js$csp=sandbox allow-same-origin;
 /gateway/aHR0c$csp=script-src
+://fastpic.org^$csp=sandbox allow-same-origin;
 |http*://fastpic.org/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fastpic.org; connect-src 'self'; frame-src 'self'
 ||24click.*/top/$csp=script-src
 ||24smi-*/top/$csp=script-src
@@ -23381,6 +23383,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||static.criteo.net^$script,domain=minfin.com.ua
 ||static.ctnews.ru/js/prod/uniroll.js
 ||static.fastpic.$subdocument,domain=fastpic.org
+||static.fastpic.org^$domain=fastpic.org|~new.fastpic.org
 ||static.kulina.ru/br/
 ||static.li.ru/radio/*rmm.$script,stylesheet
 ||static.lostfilm.top/temp/wow_
@@ -24131,7 +24134,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,games-7.com,hdrip.info,mediagetguru.ru,mixsoft.org,monna2.top,torrent-muzic.ru,torrent-soft.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,fastpic.org,games-7.com,hdrip.info,mediagetguru.ru,mixsoft.org,monna2.top,~new.fastpic.org,torrent-muzic.ru,torrent-soft.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru

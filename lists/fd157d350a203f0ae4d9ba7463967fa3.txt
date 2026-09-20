@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: huHmMzmrYqrqo0r2ePiXdA
-! Version: 202609201712
+! Checksum: KukhQW/WbBXeUEuPI49GiQ
+! Version: 202609201732
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Sep 2026 17:12 UTC
+! Last modified: 20 Sep 2026 17:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -70,7 +70,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnpotok.com|
 &utm_campaign=CU_ru$popup
 --autotargeting&$third-party,popup
 .clickunder.$popup
-.me/js/pop.js|$script
 .webunder.$popup
 .yandex.*banerid$popup
 /*.MTblocked=$popup
@@ -18688,7 +18687,6 @@ browserss.ru##body > #container > div[id^="SlideShow"] + div
 poligon.by##body > #container > div[style]
 savepic.ru##body > #feed
 myusli.ru##body > #layout > .fixed
-livetvstream.pro,me##body > #localpp[onclick*="window.open"]
 palantinbest.ru,pojrem.ru##body > #overlay
 pensioneram.info##body > #page ~ *
 hostingkartinok.com##body > #panel-inner-wrap
@@ -18825,9 +18823,6 @@ anifap.com,anifap.xyz,anitokyo.tv,anitokyo1.top##body.playerCode > div[style^="p
 forum.flprog.ru##body.section-index .sidebar
 pcprogs.net#?#body:-abp-has(> .ya[style="display: block;"]) > .overlay
 the-geek.ru##body::before
-livetvstream.pro,me##body[bgcolor] > #adbtm
-livetvstream.pro,me##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
-livetvstream.pro,me##body[bgcolor] > div[id^="iframe-container"]
 fastpic.org##body[class] > div[id]:not([class]):not([style])
 hi-fi.ru##body[data-pageid] #ipsLayout_sidebar
 novayagazeta.eu#?#button:-abp-has(> [src^="/vpnovaya_"])
@@ -24142,6 +24137,15 @@ apad2.top,besplatnyeprogrammy.ru,fastpic.org,games-7.com,hdrip.info,mediagetguru
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru
+!
+! Плееры livetv.sx
+livetvstream.pro,me,online##body > #localpp[onclick*="window.open"]
+livetvstream.pro,me,online##body[bgcolor] > #adbtm
+livetvstream.pro,me,online##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
+livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
+||ii.apl*.me/js/pop.js|$script
+||ii.apl*.online/js/pop.js|$script
+||ii.apl*.pro/js/pop.js|$script
 !
 ! Плеер VeoVeo
 $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com

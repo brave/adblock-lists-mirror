@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ttKDxJpO2Q5wmZyIsBkttQ
-! Version: 202609201222
+! Checksum: X0NCdoa+YwVM8uFtz/xReQ
+! Version: 202609201242
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Sep 2026 12:22 UTC
+! Last modified: 20 Sep 2026 12:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23935,6 +23935,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||zagorod.spb.ru/js/bnr.js
 ||zahav.ru/lenta$subdocument
 ||zahav.ru/mirtesen$subdocument
+||zahidfront.com.ua/img/videoprodaction.
 ||zakarpatpost.net//zakfiles/uploaded/2022/10/yasno62.png
 ||zakarpattya.net.ua/_adv/
 ||zakon.ru/BannerManipulation/
@@ -26166,7 +26167,7 @@ surl.*##.card-body > .row > div:first-child:not(:only-child)
 surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ! --- Блокировки
 .mp3$media,domain=pb.wtf|pirat.one|piratbit.fun|piratbit.org|piratbit.top
-/*magnific-popup.$script,stylesheet,domain=bhub.com.ua|kazus.ru
+/*magnific-popup.$script,stylesheet,domain=bhub.com.ua|kazus.ru|zahidfront.com.ua
 /build/js/base-modal-*.js|$script,domain=interesno.cc|obaldenno.com|pomada.cc|prikolno.cc
 /build/js/popup-*js|$script,domain=obaldenno.com|pomada.cc
 /eagle.autostart.$script,domain=gazeta.press|gazeta.ru|lenta.ru|rambler.ru

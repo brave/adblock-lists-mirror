@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5L2dpSnRrqdLqNyXCA50tQ
-! Version: 202609201125
+! Checksum: 0+Snk/pzWTa22NdalgvlUA
+! Version: 202609201150
 ! Title: Fanboy's Newsletter List
-! Last modified: 2026-09-20 11:25 UTC
+! Last modified: 2026-09-20 11:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5603,6 +5603,8 @@ delish.com,esquire.com,goodhousekeeping.com##journey-modal-newsletter
 thewalrus.ca##.spu-bg
 thewalrus.ca##.spu-box
 thewalrus.ca##body,html:style(height: auto !important; overflow: auto !important)
+! qz.com
+qz.com##+js(set-cookie, exitIntentShown, true)
 ! geekwire.com
 geekwire.com##.gw-interstitial-overlay
 geekwire.com##body:style(overflow: scroll !important; position: unset !important)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DDAYmB+cLLJQnYWqKEeQ8w
-! Version: 202609202211
+! Checksum: 38b/ANdcRvHL0PLAgfjTMg
+! Version: 202609202242
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Sep 2026 22:11 UTC
+! Last modified: 20 Sep 2026 22:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6190,6 +6190,7 @@ _tizers.
 ||fofuvipibo.com^$third-party
 ||foganonura.com^$third-party
 ||foitnbp1depoaoy.ru^$third-party
+||fontmenice.com^$third-party
 ||foolfishes.com^$third-party
 ||fooluminou.review^$third-party
 ||for-ladies-oy.ru^$third-party
@@ -12565,6 +12566,7 @@ promodj.com###overlaybranding
 outlook.live.com###owaadbar
 wikireality.ru###p-sidebar-extlinks
 rserials.net###page > #overlay
+sportarena.ua###page > .nomobile:empty
 kv.by###page > .region-secondary-content
 fapvdo.ru###page > .users:first-child
 carsweek.ru###page > :empty
@@ -12834,7 +12836,7 @@ tvvse.my1.ru#?##sidebar > .sidebox:-abp-has(> .sidetitle > span:-abp-contains(/^
 nim.ru###sidebar > .widget.banner:nth-child(-n+3)
 openssource.biz#?##sidebar > .widget:-abp-has([href*="//pwnd.cx"])
 openssource.biz#?##sidebar > .widget:-abp-has([href*="utm_"][target="_blank"])
-4studio.com.ua,sportarena.ua###sidebar > .widget_text
+4studio.com.ua###sidebar > .widget_text
 kinolook.top###sidebar > :not(.sb-watched)
 russian7.ru###sidebar > :not([class="banner240box"]:first-child)
 domodedovod.ru###sidebar > [style="width:420px; margin-top:15px;"] > div ~ div
@@ -13139,6 +13141,7 @@ spot.uz##.LeaderBoard
 stavka.tv##.MatchHeaderCoefs
 russian.rt.com##.Mirtesen-root
 myshows.me##.MovieCardPromo__buttons
+xsport.ua#?#.MuiBox-root:-abp-has(> .MuiStack-root + .MuiStack-root [rel*="sponsored"])
 do.ru##.MyOpacity1
 tonkosti.ru##.NoCurTips
 forums.sumy.ua##.Notices.PanelScroller
@@ -14200,6 +14203,7 @@ yamart.ru##.catalogElAd
 tabletki.ua#?#.category-card__card-row > .col:-abp-has(> div .com__banner)
 ufanotes.ru##.category2 > .fa-exchange
 ufanotes.ru##.category2 > .fa-exchange ~ span
+sportarena.ua##.category__advertisement
 3iks.org##.categoryrek
 3iks.pw##.catrek
 megaresheba.ru##.caution-message
@@ -15384,7 +15388,6 @@ list-org.com##.menu > .sticky
 appleinsider.ru##.menu-item > a[href*="utm_campaig"]
 burninghut.ru##.menu-item__link[href="/category/musthave/"]
 kursiv.media##.menu-promo
-sportarena.ua##.menu-top-red
 freelansim.ru##.menu__item.special
 2ip.ua##.menu_banner
 ru-admin.net##.menu_block.navi > a:not([href^="/"]):not([href^="http://ru-admin.net"])
@@ -18710,7 +18713,6 @@ barsportbar.com,channels247.net,goool7.ws,s7yours.com,sbautumn.com,sport7.biz,sp
 zorgee.ru##body > .jumbotron
 myfootball.pw,myfootball.ws##body > .m-hidden:empty
 ua-cinema.com##body > .mask
-sportarena.ua##body > .nomobile
 rlsnet.ru##body > .noprint[style^="height"]
 utmagazine.ru##body > .popup-overlay
 portalgkh.ru##body > .slide.carousel
@@ -20404,6 +20406,7 @@ forum.superkot.com##table:first-child + .tablebg + .tablebg + br + .tablebg
 anchem.ru##table[align="center"][width="90%"] > tbody > tr > td[align="left"] + td[width="234"]
 sysadmins.ru##table[align="right"][valign="middle"] > tbody > tr > td[align="left"] ~ td
 comfysoft.ru##table[align][frame="rhs"][style]
+livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 samlib.ru##table[border][style^="border: solid #8e5373"][style$="margin-bottom: 3px;"]
 kinoblog.tv#?#table[height="300"]:-abp-has(div[class^="adfinity_block_"])
 goroskop.org##table[height="90"]
@@ -25384,12 +25387,14 @@ sports.ru##article.material-list__item[data-link^="https://sirena.world/"]
 sports.ru##article[data-article-type="promo"]
 sports.ru##body > div[class^="br-lt"] > :not(.page-layout):not(.pageLayout)
 tribuna.com#?#div:-abp-has(> div > [style="display: flex;"] > div[id*="_Inread"])
+tribuna.com#?#div[class$="match_layout__left_column__main"] > div:-abp-has([href*="/betting/"])
 sports.ru##div[class*="SALES"] > .accordion__handle
 tribuna.com##div[class*="main_layout__empty_block"]
 tribuna.com#?#div[class*="right_column"] div:-abp-has(> [style^="--banner-height:"])
 tribuna.com##div[class^="Banner-module"]
 tribuna.com##div[class^="BookmakerGift"]
 tribuna.com##div[class^="MatchLayout-module_"] > [style="display: contents;"] > [data-test]
+tribuna.com#?#div[class^="MatchLayout-module__"][class$="__match_layout"] > [data-test]:-abp-has([href*="/betting/"])
 tribuna.com##div[class^="_ideal-media_"]
 tribuna.com#?#div[class^="_structured-body_"] > div:-abp-has([id*="Postscripts_News"])
 cyber.sports.ru##div[class^="desktop-teaser_"] a[href*="://sirena.world/"]

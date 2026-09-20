@@ -13,7 +13,7 @@ inoreader.com###reader_pane:style(padding-right: unset !important)
 inoreader.com###sinner_container:style(display: block !important; z-index: 0 !important)
 rambler.ru###summary ~ div:has(> [id^="cluster-video-ad"]):remove()
 pronpic.org###vO5STmSLgNAkebzSluI8coxpDgsG97g:style(height: 1px !important; min-height: 1px !important)
-$document,reason=malicious,domain=apad2.top|besplatnyeprogrammy.ru|games-7.com|hdrip.info|mediagetguru.ru|mixsoft.org|monna2.top|torrent-muzic.ru|torrent-soft.ru
+$document,reason=malicious,domain=apad2.top|besplatnyeprogrammy.ru|fastpic.org|games-7.com|hdrip.info|mediagetguru.ru|mixsoft.org|monna2.top|~new.fastpic.org|torrent-muzic.ru|torrent-soft.ru
 */bens/vinos.js$popunder
 kolizhanka.com.ua,miyzvuk.net,ozon.ru##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important)
 captcha-api.yandex.ru,id.vk.ru,passport.yandex.ru,sso.dzen.ru,sso.ya.ru#@#+js()
@@ -373,6 +373,7 @@ rbc.ru##+js(set-attr, .content-custom [href*="?from="]:not([href*="utm"]), targe
 fishki.net##+js(set-attr, .cycle-carousel-wrap > a.bottom_slide__item > img, src, [data-src])
 fishki.net##+js(set-attr, .drag_element a[href*=".html"], target, true)
 eneyida.tv##+js(set-attr, .owl-item > a > img, src, [data-src])
+rutr.life,rutracker.lib,rutracker.net,rutracker.org##+js(set-attr, a.postLink[href^="http"]:not([target="_blank"]), target, true)
 rbc.ru##+js(set-attr, a[href*="?from=newsfeed"][data-role="title-link"], target, true)
 overclockers.ru##+js(set-attr, img[src="https://overclockers.ru/assets/logo_gray_stub.gif"], src, [data-src])
 joyreactor.cc,reactor.cc##+js(set-attr, video, controls, true)
@@ -573,6 +574,7 @@ dzen.ru,ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##[id^="suggest-item-"]:has
 dzen.ru,ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##[id^="suggest-item-"]:has(> a[href][target="_blank"]):remove()
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##[value="Скачать"]:remove-attr(disabled)
 www.gazeta.ru##^responseheader(location)
+rutr.life,rutracker.lib,rutracker.net,rutracker.org##a.postLink[href^="http"]:remove-class(p-ext-link)
 24smi.org##a[href*="://24smi.org/"]:remove-attr(target)
 aniu.ru,liveball.*##+js(no-setInterval-if, debugger)
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]):style(pointer-events: none !important; border-bottom: none !important; color: inherit !important)
@@ -734,18 +736,11 @@ fastpic.org,~new.fastpic.org##a[href*="/fullview/"] > img[src*="/preview/"]:styl
 fastpic.org,~new.fastpic.org##a[href*="/fullview/"]:remove-attr(target)
 fastpic.org,~new.fastpic.org##a[href="https://static.fastpic.ru/FastPicUploader.apk"]:remove-attr(target)
 fastpic.org,~new.fastpic.org##body > template:remove()
-! отключенные на время теста правила
-!*$popunder,domain=fastpic.org
-!://fastpic.org^
-!$document,reason=malicious,from=~new.fastpic.org|fastpic.org
-!fastpic.org,~new.fastpic.org##+js(remove-attr, src|style)
-!fastpic.org,~new.fastpic.org##+js(remove-node-text, title, /^/)
-!fastpic.org,~new.fastpic.org##:not(this-site-promotes-malware)
-!fastpic.org,~new.fastpic.org##^responseheader(location)
-!!#if env_mv3
-!://fastpic.org^$badfilter
-!://fastpic.org^$doc
-!!#endif
+! Блокировка, в связи с намеренной несовместимостью
+fastpic.org,~new.fastpic.org##+js(remove-attr, src|style)
+fastpic.org,~new.fastpic.org##+js(remove-node-text, title, /^/)
+fastpic.org,~new.fastpic.org##^responseheader(location)
+fastpic.org,~new.fastpic.org##html:remove()
 !
 ! Mail.RU
 mail.ru###grid div[class^="feed__"]:remove()

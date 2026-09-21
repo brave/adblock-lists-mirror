@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609212240
+! Version: 202609212310
 ! Title: EasyPrivacy
-! Last modified: 21 Sep 2026 22:40 UTC
+! Last modified: 21 Sep 2026 23:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9792b395b755f8bf853a97aa39539c526214925d
+! Commit: 9b8d999df408de30257738ea7f38f1527d42a234
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3959,6 +3959,7 @@ omni.soundestlink.com$image
 ||venusrevival.com^
 ||veozn3f.com^
 ||veradata.network^
+||veselchaga.link^
 ||vfghe.com^
 ||vhit.io^
 ||videoplayerhub.com^
@@ -14921,6 +14922,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.fppressa.ru^
 ||stats-*.p2pnow.ru^
 ||stats.tazeros.com^
+||stats.temptcdn.com^
 ||stats2.videonow.ru^
 ||subscribe.ru/1.gif/$image
 ||t1.trex.media^
@@ -15479,7 +15481,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
 ||chatgpt.com/backend-api/beacons/
 ||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
-||chatgpt.com/backend-api/sentinel/ping
 ||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
 ||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||chatroll.com/t.gif
@@ -54765,7 +54766,6 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||ftwo-receiver.autohome.com.cn^
 ||gentian-frd.hjapi.com^
 ||gia.jd.com^
-||gias.jd.com/js/pc-tk.js
 ||gk.sina.cn^
 ||h5.analytics.126.net^
 ||h5log.zongheng.com^

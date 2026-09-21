@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609212240
+! Version: 202609212310
 ! Title: EasyList
-! Last modified: 21 Sep 2026 22:40 UTC
+! Last modified: 21 Sep 2026 23:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9792b395b755f8bf853a97aa39539c526214925d
+! Commit: 9b8d999df408de30257738ea7f38f1527d42a234
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -23505,6 +23505,7 @@ browsershots.org#@#.advert_area
 ||clonalfloaty.shop^
 ||clonertieing.cfd^
 ||cloniclinsang.shop^
+||clonte.xyz^
 ||cloquemayoput.cyou^
 ||clorly85.net^
 ||cloron.net^
@@ -54677,6 +54678,7 @@ browsershots.org#@#.advert_area
 ||tkavurbmhzrlj.space^
 ||tkbo.com^
 ||tkbtgedqqopnz.site^
+||tkbuuvtrsskab.website^
 ||tkdjmibffvzst.online^
 ||tkdlxkbgttsuj.space^
 ||tkdswyljquygm.website^
@@ -63473,6 +63475,7 @@ browsershots.org#@#.advert_area
 ||adplugg.com^$third-party
 ||adpnut.com^$third-party
 ||adport.io^$third-party
+||adport.net^$third-party
 ||adpredictive.com^$third-party
 ||adprime.com^$third-party
 ||adpushup.com^$third-party
@@ -67873,6 +67876,7 @@ browsershots.org#@#.advert_area
 ||bitent.com/lock_html5/adscontrol.js
 ||bl.wavecdn.de^
 ||blacklistednews.com/contentrotator/
+||blank.eugeniy.org^
 ||blogatus.com/images/banner/$third-party
 ||bluehost-cdn.com/media/partner/images/
 ||bluehost.com/track/
@@ -70263,6 +70267,8 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||celebstoner.com/assets/components/bdlistings/uploads/
 ||celebstoner.com/assets/images/img/sidebar/$image
 ||chasingcars.com.au/ads/
+||chatgpt.com/backend-api/*/message_supplements
+||chatgpt.com/backend-api/bazaar/*/ads
 ||chessgames.com/opt.js
 ||cinemadeck.com/ifr/
 ||clarksvilleonline.com/cols/
@@ -80659,7 +80665,8 @@ bing.com##div[class="ins_exp vsp"]
 ! bing.com##li.b_ans[data-partnertag][role="presentation"]
 bing.com##li[data-idx]:has(#mm-ebad)
 ! chatgpt
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> [aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
+chatgpt.com##a[rel][target="_blank"][href*="?utm_"][href*="&oppref="]
 ! kayak
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L

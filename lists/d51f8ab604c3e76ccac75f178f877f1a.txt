@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20717.3
+! Version: 2026.20717.2
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -713,7 +713,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/RealMedia\/ads\//
 /data/banner.json?$domain=~nintendo.*
 
-||ds-cdn.inicis.com/ad/$image
 ||scripts.mediavine.com/creativeBlocks
 ||pam-assets.dak.gg/creatives/
 ipokergosu.com/banner/$domain=pokergosu.com
@@ -1964,10 +1963,6 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
-stdpay.inicis.com###leftBnr
-stdpay.inicis.com###rightBnr
-stdpay.inicis.com###bannerBottomSection
-stdpay.inicis.com###noticeSection
 maple.gg##div[class*=" "][style]:has(> div[class^="ad-"])
 maple.gg##body > div[data-pam-popup="main-popup"]:has(> div[role="dialog"][aria-label="애니모"])
 lec.co.kr##aside.user-aside > div[style^="height:"]
@@ -3816,7 +3811,6 @@ m.fmkorea.com##+js(json-prune, tpl apply, tpl.[].c)
 ! chzzk.naver.com
 chzzk.naver.com##+js(trusted-set-local-storage-item, homeSkinCollapsedUntil, 9999999999999)
 !
-stdpay.inicis.com##+js(prevent-window-open, ds-cdn.inicis.com/ad/)
 chuchu.gg##+js(set-cookie, daily_ad_closed, true)
 loawa.com##+js(set-cookie, ad_popup_hide_36, 1)
 goodmorningcc.com##+js(no-window-open-if, bannerpop/popup.html)

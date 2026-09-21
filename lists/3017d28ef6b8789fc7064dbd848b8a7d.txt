@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609212310
+! Version: 202609212340
 ! Title: EasyPrivacy
-! Last modified: 21 Sep 2026 23:10 UTC
+! Last modified: 21 Sep 2026 23:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9b8d999df408de30257738ea7f38f1527d42a234
+! Commit: 4363abf57f721dbd6baffd5b1f6df1fc1d9cdde1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1612,6 +1612,7 @@
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/settings/browser-settings?
 /monitoring?o=$xmlhttprequest
 /monitus.js
 /monsido.js
@@ -11781,6 +11782,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iadvize.com/collector/
 ||ibmcloud.com/collector/
 ||icbdr.com/images/pixel.gif
+||ichnaea-web.netflix.com^
 ||icontact.com/icp/core/signup/tracking.gif?
 ||icu.newsroom.bi/ingest.php
 ||id.a-mx.com^
@@ -12134,6 +12136,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mochiads.com/clk/
 ||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
+||mon-sg.byteintlapi.com^
 ||mon.domdog.io^
 ||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
@@ -13088,6 +13091,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||traccoon.intellectsoft.net^
 ||trace.swaven.com^
 ||track-dark-bz.b-cdn.net^
+||track-na2.hubspot.com^
 ||track.360playvid.info^
 ||track.91app.io^
 ||track.addevent.com^
@@ -14144,6 +14148,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||163.com/sn.gif?
 ||3.cn/cesu/r?
 ||360.cn/mapping_service?
+||4399logs.4399doc.com^
 ||4gtv.tv/js/ga_
 ||66hao.cc^
 ||adv-sv-stat.focus.cn^
@@ -14221,11 +14226,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcs.zijieapi.com^
 ||miao.baidu.com/abdr?
 ||mon.zijieapi.com^
+||ms.xunyou.com^
 ||msg.71.am^
 ||netease.com/track/
 ||netease.com/web/performance?
 ||nos.netease.com/udc-web/*.log.js
 ||oocommapi2.aswatson.com/kf/*/tracking/
+||opt.doubao.com^
+||oss.weread.qq.com^
 ||p.aty.sohu.com^
 ||p.tencentmind.com^
 ||pos.baidu.com^
@@ -14269,6 +14277,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracklog.58.com^
 ||trail.71baomu.com^
 ||ts-analysis.shoalter.com^
+||umini.shujupie.com^
 ||videostats.kakao.com^
 ||w3t.cn^*/fx.js
 ||web-trace.ksapisrv.com^
@@ -54876,6 +54885,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/
 ||sbeacon.sina.com.cn^
+||sdata.chatglm.cn^
 ||sentry.music.163.com^
 ||sfp.safe.baidu.com^
 ||shopee.tw/__t__
@@ -54922,6 +54932,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||titan24.com/scripts/stats.js
 ||tj.img4399.com^
 ||tk.d.mi.com^
+||tongji.duote.com^
 ||tongji.mafengwo.cn^
 ||tongji.techweb.com.cn^
 ||tongji.xinmin.cn^

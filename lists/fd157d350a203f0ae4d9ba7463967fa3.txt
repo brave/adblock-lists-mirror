@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ntbOGrpuTDBijImpJRHdWw
-! Version: 202609211331
+! Checksum: rlYW9cBciDf1lSXLHLnNGQ
+! Version: 202609211413
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Sep 2026 13:31 UTC
+! Last modified: 21 Sep 2026 14:13 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16993,7 +16993,7 @@ sovetromantica.com##.vjs-overlay-background
 prgazeta.ru##.vk-group
 gdz-putina.fun##.vk_show
 vk.com,vk.ru##.vkuiBanner__host
-vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
+vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 yapx.ru##.vlDxyyFUTdjDdXmIBPxWDa
 spletnik.ru##.vms_article_parent a[href*="utm_"]
@@ -25361,6 +25361,7 @@ sports.ru##[data-control^="Banners."]
 sports.ru##[data-is-ad-poll] .bookmaker-info
 sports.ru##[data-link*="=erid"]
 sports.ru##[data-link*="erid="]
+tribuna.com##[data-menu-mainsections="casino"]
 sports.ru##[data-type="reklama"]
 sports.ru##[id*="ScriptRoot"]
 sports.ru##[id^="dfp-fullscreen-"]
@@ -25391,6 +25392,8 @@ sports.ru##body > div[class^="br-lt"] > :not(.page-layout):not(.pageLayout)
 tribuna.com#?#div:-abp-has(> div > [style="display: flex;"] > div[id*="_Inread"])
 tribuna.com#?#div[class$="match_layout__left_column__main"] > div:-abp-has([href*="/betting/"])
 sports.ru##div[class*="SALES"] > .accordion__handle
+tribuna.com##div[class*="_match_page__chat_odds_wrapper"]
+tribuna.com##div[class*="_tournament-branding__empty-block"]
 tribuna.com##div[class*="main_layout__empty_block"]
 tribuna.com#?#div[class*="right_column"] div:-abp-has(> [style^="--banner-height:"])
 tribuna.com##div[class^="Banner-module"]
@@ -25399,6 +25402,7 @@ tribuna.com##div[class^="MatchLayout-module_"] > [style="display: contents;"] > 
 tribuna.com#?#div[class^="MatchLayout-module__"][class$="__match_layout"] > [data-test]:-abp-has([href*="/betting/"])
 tribuna.com##div[class^="_ideal-media_"]
 tribuna.com#?#div[class^="_structured-body_"] > div:-abp-has([id*="Postscripts_News"])
+tribuna.com##div[class^="_tournaments-header__hero_"]
 cyber.sports.ru##div[class^="desktop-teaser_"] a[href*="://sirena.world/"]
 tribuna.com##div[data-anchor^="_"][class^="_"]
 sports.ru##div[data-control-noinit="Common.BetsTabs"]

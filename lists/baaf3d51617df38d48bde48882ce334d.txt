@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0+Snk/pzWTa22NdalgvlUA
-! Version: 202609201150
+! Checksum: 2yBOVcKmBQN4II+uBlTWng
+! Version: 202609220350
 ! Title: Fanboy's Newsletter List
-! Last modified: 2026-09-20 11:50 UTC
+! Last modified: 2026-09-22 03:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6220,6 +6220,8 @@ loungerie.com.br##.vtex-flex-layout-0-x-flexRow--newsletter-vtex-row
 drezzy.it##.widget-newsletter
 abbonamenti.it##abbo-newsletter
 sslazio.it##div[class^="Newsletter_"]
+! :has
+gamebillet.com##.alert-box-flexible:has(#newsletter-subscribe-block)
 ! fanboy_newsletter_shopping_allowlist_general_hide.txt
 ! fanboy_newsletter_shopping_specific_uBO.txt
 ! .modal/.modal-backdrop

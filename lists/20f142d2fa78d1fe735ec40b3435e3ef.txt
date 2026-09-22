@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LC/wWoQ7WQlJhW88nEWV2g
-! Version: 202609222142
+! Checksum: f/Zr9Tggkwohhfy77YRf0g
+! Version: 202609222212
 ! Title: Fanboy's Social Blocking List
-! Last modified: 22 Sep 2026 21:42 UTC
+! Last modified: 22 Sep 2026 22:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10111,6 +10111,7 @@ _social_footer_
 ##a[href^="https://simpleshare.io/go?"]
 ##a[href^="https://t.me/share/url?"]
 ##a[href^="https://telegram.me/share/url?"]
+##a[href^="https://threads.net/intent/post?text="]
 ##a[href^="https://twitter.com/intent/tweet?"]
 ##a[href^="https://twitter.com/intent/user?screen_name="]
 ##a[href^="https://wa.me/?text="]
@@ -12130,6 +12131,7 @@ coinspeaker.com##.wrapp_aside-share
 wttw.com##.wttw-social
 courthousenews.com##.x-follow-button
 geekflare.com##.x-social-menu
+store.google.com##.yYrYCd
 spring.org.uk##.yasip.widget
 unb.com.bd##.youtube-subscribe
 news.am##.youtube-subscriber

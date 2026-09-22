@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609220741
+! Version: 202609220819
 ! Title: EasyPrivacy
-! Last modified: 22 Sep 2026 07:41 UTC
+! Last modified: 22 Sep 2026 08:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b98ebb63256130fc45cfe17d0803b2b6d5b45b02
+! Commit: 7e8a6330eb71bfb5fe4e4d6e16571e38afe04895
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3310,6 +3310,7 @@ _WebVitalsReporter_
 /beacon.krxd.net/*
 /beacon?data=$image
 /beaconimages.netflix.net/*$image
+/bmo.mercari.jp/?s=$image
 /c.vialoops.com/*$image
 /CI0/0$image
 /ck.m.honto.jp/c/*$image
@@ -14205,6 +14206,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||etwun.com:8080/counter.php?
 ||event.tagtoo.co^
 ||experiments.sparanoid.net^
+||fourier.alibaba.com^
 ||fourier.taobao.com^
 ||g.yccdn.com^
 ||gdt.qq.com^

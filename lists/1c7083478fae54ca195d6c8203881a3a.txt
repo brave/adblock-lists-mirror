@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.3.4
+! Version: 4.4.3.6
 
 ! General
 
@@ -274,6 +274,7 @@ mv-voice.com##+js(cookie-remover, /^/)
 ||nationalgeographic.com.es/Content/js/lib/runtime.min.js$script,~third-party
 nationalgeographic.it##+js(ra, style, section[style], stay)
 nationalgeographic.it##section.paywall-container
+nationalreview.com##+js(cookie-remover, nr_premium_views)
 ||nautil.us/_next/static/chunks/pages/_sites/%5BsiteSlug%5D/%5B...slug*.js$script,~third-party
 ||newsday.com/nd-user/nd_user_ace.bundle.js$script,~third-party
 newsday.com##+js(ra, class, html[class], stay)
@@ -650,6 +651,9 @@ bisnow.com##+js(ra, style, div.story-container > p[style], stay)
 bisnow.com##div.storyLogin
 bizwest.com##div.fp-paywall
 bizwest.com##+js(ra, class, div.fp-content, stay)
+bookriot.com##+js(ra, class, div.rhc-gated-content-wrapper, stay)
+bookriot.com##+js(ra, class, div.rhc-gated-content-blur, stay)
+bookriot.com##div.rhc-gated-content-overlay
 boredpanda.com##+js(rc, open-list-items, div.open-list-items, stay)
 boredpanda.com##div#show-all-images-block-premium
 ||boston.com/api/tinypass.min.js$script,~third-party
@@ -801,6 +805,8 @@ subscriptioninsider.com##div.dialog-widget
 !#if (adguard_app_ios)
 /\.subscriptioninsider\.com\/.+\/(\w+-){3,}/$inline-script,domain=subscriptioninsider.com
 !#endif
+t-nation.com##+js(rc, topic-in-gated-category, body.topic-in-gated-category, stay)
+t-nation.com##div.custom-gated-topic-container
 the-decoder.com##+js(ra, class, div.paywall-hidden-content, stay)
 the-decoder.com##section.paywall-content
 ||jsdelivr.net/*/catholicherald-auth0-poool-*/index.js$script,third-party,domain=thecatholicherald.com

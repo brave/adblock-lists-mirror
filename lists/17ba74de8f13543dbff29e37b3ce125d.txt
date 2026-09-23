@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609231039
+! Version: 202609231059
 ! Title: EasyList
-! Last modified: 23 Sep 2026 10:39 UTC
+! Last modified: 23 Sep 2026 10:59 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 54e245a45703a9078a666d80c16a7eeb8cb0db87
+! Commit: 026dbcc85675c333a83ec66ace4f338310455f46
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -43827,6 +43827,7 @@ browsershots.org#@#.advert_area
 ||oifeqfiurelhe.site^
 ||oifthjnpbzycw.online^
 ||oifyyeiuwnpzc.space^
+||oihgombbziwby.online^
 ||oihjkobiyortd.space^
 ||oiismyzivtine.website^
 ||oijcphjwiabsg.online^
@@ -50186,6 +50187,7 @@ browsershots.org#@#.advert_area
 ||rtbtrail.com^
 ||rtbzohtaqbqgw.site^
 ||rtcdupmicrfkp.site^
+||rtcnihqoywdil.online^
 ||rtdpfwzxfajfl.online^
 ||rteomxavwvnol.site^
 ||rtewxcbmcxbkc.website^
@@ -53458,6 +53460,7 @@ browsershots.org#@#.advert_area
 ||strodeintended.com^
 ||strokyhaemoid.cyou^
 ||stroldcho.cyou^
+||stroldvatting.cfd^
 ||strollthrillingmeltdown.com^
 ||strondemprentrupitic.cyou^
 ||stronemols.qpon^
@@ -70623,6 +70626,8 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||affiliates.flightconnections.com^
 ||afloat.ie/images/banners/
 ||ag.divcom.com^
+||alibaba.com/search/api/bottomWendingSearch?
+||alibaba.com/search/api/wendingSearch?
 ||amazon.com/aan/$subdocument
 ||amazonaws.com/cdn.mobverify.com
 ||amazonaws.com/dazeddigital.com/Ads-main.js$domain=dazeddigital.com
@@ -80371,6 +80376,7 @@ producthunt.com##div[class="my-4 flex flex-1 cursor-pointer items-center justify
 producthunt.com##div[class="my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200"]:has(video[poster^="https://ph-files.imgix.net/"])
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
 openalternative.co##div[class="relative flex"]:has(a[href="/advertise"])
+alibaba.com##div[class] > .fy26-product-card:has(> div > span:only-child)
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
 manomano.*##div[class]:has(> .c4iHiiE)
 androidauthority.com##div[class]:has(> .pw-incontent)

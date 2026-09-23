@@ -1883,9 +1883,13 @@ theherta.com##+js(set, HTMLScriptElement.prototype.onerror, undefined)
 ! https://github.com/uBlockOrigin/uAssets/issues/34592
 0123movie.space##+js(nowoif)
 mfw09.org##+js(nowoif)
+mfw09.org##body > div[style*="2147483647"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34579
 ||haveibeensold.app^$doc
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34580
 ||rapidfire.cc/s.js^
+
+! https://github.com/uBlockOrigin/uAssets/issues/34586
+xboxdynasty.de##+js(rmnt, script, /adblock/i)

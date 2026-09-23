@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609230916
+! Version: 202609230936
 ! Title: EasyList
-! Last modified: 23 Sep 2026 09:16 UTC
+! Last modified: 23 Sep 2026 09:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d923d30bc641dbd252cb3acdba2715268e4fbaad
+! Commit: d6156448f024f2305d5f757ae44e0c2c986fb937
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -20499,6 +20499,7 @@ browsershots.org#@#.advert_area
 ||bermesblights.cyou^
 ||bernardplasher.shop^
 ||berneseprf.cyou^
+||berritrooz.qpon^
 ||berryhillfarmgwent.com^
 ||berryplunker.cyou^
 ||berseemkidvidpizazz.qpon^
@@ -29927,6 +29928,7 @@ browsershots.org#@#.advert_area
 ||fistpoke.com^
 ||fitnesseternalsignificant.com^
 ||fitnessflashyhopeless.com^
+||fitrvgqe.com^
 ||fitsagitateacid.com^
 ||fitsamongst.com^
 ||fittestdrysne.cfd^
@@ -32364,6 +32366,7 @@ browsershots.org#@#.advert_area
 ||gripplerusines.qpon^
 ||gripspigyard.com^
 ||grisledchelate.shop^
+||grisonryked.qpon^
 ||grlekyict.com^
 ||grmtas.com^
 ||grnezkzjgcwvs.space^
@@ -32731,6 +32734,7 @@ browsershots.org#@#.advert_area
 ||gyvxiyeixsjfl.website^
 ||gywwzmejfzkrs.site^
 ||gyxhwdysotvbj.store^
+||gyxkbgdivvtqr.site^
 ||gyybyitnnqitf.online^
 ||gyymevyihyidk.website^
 ||gyyylfxjupsfj.website^
@@ -80503,10 +80507,12 @@ amazon.*###sc-rec-right
 amazon.*###similarities_feature_div:has(span.sponsored_label_tap_space)
 amazon.*###sponsoredProducts2_feature_div
 amazon.*###sponsoredProducts_feature_div
+amazon.*##.AdHolder
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
 amazon.*##.ad-center
 amazon.*##.amzn-safe-frame-container
+amazon.*##.ape-placement
 amazon.*##.celwidget[data-ref_$="displayAds"]
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
 amazon.*##.s-result-item:has(.puis-sponsored-label-text)

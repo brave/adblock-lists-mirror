@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pCxJa8T/6k0OONF10fkY+g
-! Version: 202609240442
+! Checksum: C9D4PXjFf7SolOUKvoVoMg
+! Version: 202609240512
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Sep 2026 04:42 UTC
+! Last modified: 24 Sep 2026 05:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24028,7 +24028,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=livejournal.com|olegmaka
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?j7T2r=$xmlhttprequest
+||pikabu.ru/ajax/*?p7F8a=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24983,6 +24983,7 @@ lenta.news,lenta.ru#?#._longgrid:-abp-has(> [class*="info"] > [class*="_ad-title
 eda.ru#?#.ad_branding_footer div[class^="emotion"]:-abp-has(> [title="yandexzen"])
 eda.ru##.ad_branding_header > section
 rambler.ru##.ad_branding_site > div[style^="--background:"]
+rambler.ru##.ad_branding_site div[style*="background-image:"][style*="rambler.ru/special/"]
 rambler.ru##.adfox-background-container
 championat.com,championat.ru##.adv-mark
 lenta.news,lenta.ru##.advertisable-plate__erid

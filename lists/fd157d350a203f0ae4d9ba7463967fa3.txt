@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iULVIaXSGdjFqQEvawjCCw
-! Version: 202609240742
+! Checksum: FiOKqAaPSG0nDE8OPmlq/A
+! Version: 202609240823
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Sep 2026 07:42 UTC
+! Last modified: 24 Sep 2026 08:23 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24163,7 +24163,7 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 .json?unique=$third-party,xmlhttprequest
 .link/*/*/*?*=*-*-*-$third-party,xmlhttprequest
 .link/*?*=*-*-*-*-$third-party,xmlhttprequest
-.link/nyn3j9?$third-party,xmlhttprequest
+.link/y6jt3d?$third-party,xmlhttprequest
 .txt?fre=$third-party,xmlhttprequest
 .txt?unique=$third-party,xmlhttprequest
 /ad-rotator/ad-list.json
@@ -24178,6 +24178,8 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 ||cdn-mst-ru.com^$third-party
 ||eugeniy.org^$third-party
 ||evropidar.org^$third-party
+||greatekran.org^$third-party
+||kinzazaza.org^$third-party
 ||krasnomaga.link^$third-party
 ||leningrib.org^$third-party
 ||morozovnya.link^$third-party
@@ -24188,6 +24190,7 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 ||rstprgapipt.com/api-integration/
 ||rstprgapipt.com^$third-party,xmlhttprequest
 ||rubakaka.org^$third-party
+||shaloburda.link^$third-party
 ||skovorodnya.link^$third-party
 ||strashnokrivo.org^$third-party
 ||temp2cdn.link/*.xml?$xmlhttprequest
@@ -25010,6 +25013,7 @@ lenta.news,lenta.ru#?#.layout__content > .js-topic:-abp-has(.topic-header__erid)
 lenta.news,lenta.ru##.layout__content > [id^="newsBody_news-"] ~ [id^="articleBody_articles-"]
 ferra.ru,letidor.ru,moslenta.ru,motor.ru,passion.ru,quto.ru,secretmag.ru,wmj.ru##.lb-ad-visible
 moslenta.ru##.lb-ad-visible + div:not([data-qa="partner-wrapper"])
+news.rambler.ru##.linkitbe-content-container script + div:empty
 gazeta.press,gazeta.ru##.m_zen
 lenta.news,lenta.ru##.olympiad
 lenta.news,lenta.ru##.promo-block

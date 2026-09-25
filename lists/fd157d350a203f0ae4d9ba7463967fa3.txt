@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XBelXuD+fRFtrkCcXwn4fw
-! Version: 202609250822
+! Checksum: AEio2ul3HZD1kDgKnTqLQg
+! Version: 202609250842
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Sep 2026 08:22 UTC
+! Last modified: 25 Sep 2026 08:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1773,6 +1773,8 @@ povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
 profinance.ru##main > .content-grid {grid-template-columns:unset;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 root-nation.com##body {background:none;}
+stopgame.ru##body > * {pointer-events:auto;}
+stopgame.ru##body {pointer-events:none;}
 stranamam.ru##.n-main-branding-container {margin-top:0;}
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}
 stratege.ru##.above_body {margin-bottom:0;}
@@ -23432,6 +23434,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||stereohead.ru/_main_page/images/
 ||stgkrf.ru/*.php?$xmlhttprequest
 ||stoigr.org/uploads/sslsldny.
+||stopgame.ru/ajax/ads/
 ||stopgame.ru/dist/*/stalcraft
 ||storage.googleapis.com/html5banners/$domain=komedra.com|milliarderr.com
 ||storage.gorod55.ru/promo/

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AEio2ul3HZD1kDgKnTqLQg
-! Version: 202609250842
+! Checksum: bnBxWHPdN/VnWwstAUYfmw
+! Version: 202609250923
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Sep 2026 08:42 UTC
+! Last modified: 25 Sep 2026 09:23 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24170,14 +24170,7 @@ livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 !
 ! Плеер VeoVeo
 $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
-.json?fre=$third-party,xmlhttprequest
-.json?unique=$third-party,xmlhttprequest
 .link/$third-party,domain=tazaromikaz.link
-.link/*/*/*?*=*-*-*-$third-party,xmlhttprequest
-.link/*?*=*-*-*-*-$third-party,xmlhttprequest
-.link/y6jt3d?$third-party,xmlhttprequest
-.txt?fre=$third-party,xmlhttprequest
-.txt?unique=$third-party,xmlhttprequest
 /ad-rotator/ad-list.json
 /ad-rotator/vast.xml
 /api-integration/*?unique=$third-party,xmlhttprequest
@@ -24185,6 +24178,7 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 /api-integration/assets/*.txt?*=$third-party,xmlhttprequest
 /vast/ad-rotator/*
 ?utm_source=veoveo$popup
+||balamutka.link^$third-party
 ||cdn-global-mb.com^$third-party
 ||cdn-global-mst.com^$third-party
 ||cdn-mst-ru.com^$third-party

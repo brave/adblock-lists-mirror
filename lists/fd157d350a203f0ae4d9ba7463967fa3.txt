@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9Csr1T71ukqObkm9zXQouw
-! Version: 202609262212
+! Checksum: V1+kX75XCsacCH3TtL+llw
+! Version: 202609262242
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Sep 2026 22:12 UTC
+! Last modified: 26 Sep 2026 22:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19969,6 +19969,7 @@ ebalovo.*,epalovo.*##.fad
 ebalovo.*,epalovo.*##.pad
 onliner.by#?#em:-abp-contains(нож блокировщику)
 botanam.net,gdzputina.me##embed
+epscape.*##.otk-slot
 fap-guru.*,mult-porno.*,sex-studentki.*##.vpsembedmob
 imageup.ru##fieldset[style^="display: inline; width: 45%;"]
 znak.com##figure
@@ -26207,6 +26208,7 @@ orybe.com##div[id^="lbx_"]
 yagd-torr.ru##div[id^="plusplus_mw"]
 agrarii-razom.com.ua##div[id^="user-to-register"]
 htmlacademy.ru##div[style^="margin-left:"][style*="margin-bottom:"][style*="position:"][style*="orange"][style*="z-index:"]
+epscape.*##.fixed.backdrop-blur-sm
 drukarnia.com.ua##header ~ section[role="dialog"]
 bbc.com#?#header[role="banner"] > div > div:has(> div > div > p > [href*="/cookies/"])
 surl.*##.card-body > .row > div:first-child:not(:only-child)

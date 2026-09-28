@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609282308
+! Version: 202609282331
 ! Title: EasyList
-! Last modified: 28 Sep 2026 23:08 UTC
+! Last modified: 28 Sep 2026 23:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 22eae31d7c1769eaa942781fa49fd5805ab251a2
+! Commit: 4c457d2781b7aefb5e5e37002ce80c8714e4aba3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14275,6 +14275,7 @@ _800x80_
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
 ##[id^="div-gpt-ad"]
+##[id^="google_ads_iframe_"]
 ##[id^="section-ad-banner"]
 ##[name^="google_ads_iframe"]
 ##a-ad
@@ -35924,6 +35925,7 @@ browsershots.org#@#.advert_area
 ||lightningly.co^
 ||ligydaloca.com^
 ||liijacenkubom.site^
+||liikxhzzebfwd.space^
 ||likableskill.pro^
 ||likablevast.pro^
 ||likeableindispensableassault.com^
@@ -76834,6 +76836,7 @@ adultgamesworld.com##.rel:has(a[href^="https://access-the-website.com/"])
 kbjfree.com##.relative.w-full:has(> .video-card[target="_blank"])
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
+nochoice.app##.text-center:has(a[href^="https://www.lovense.com/"])
 xasiat.com##.top:has(> [data-zoneid])
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 povxl.com##.video-holder > div:has([id^="ts_ad_native_"])

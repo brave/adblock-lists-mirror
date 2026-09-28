@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609281041
+! Version: 202609281112
 ! Title: EasyPrivacy
-! Last modified: 28 Sep 2026 10:41 UTC
+! Last modified: 28 Sep 2026 11:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3ad38fdb786463f13af4c6d6a9a83eacb502a224
+! Commit: f177448f0fc225f12f335226d42b327f40b7eb4a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7406,7 +7406,6 @@ omni.soundestlink.com$image
 ||enchantingtundra.com^
 ||enchantingvalley.com^
 ||encouragingthread.com^
-||endhairfall.com^
 ||endlesstrust.com^
 ||endurablebulb.com^
 ||energeticexample.com^
@@ -9310,6 +9309,7 @@ omni.soundestlink.com$image
 ||paradepets.com/.api/admiral
 ||skateboarding.com/.api/admiral
 ||surfer.com/.api/admiral
+||thespun.com/.api/admiral
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_notifications.txt ***
 ! easyprivacy_trackingservers_notifications.txt
 ||actirinius.com^$third-party
@@ -17867,6 +17867,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||backtension.com^$redirect=noopjs,script
 ||curbneon.com^$redirect=noopjs,script
 ||dogbedscentral.com^$redirect=noopjs,script
+||endhairfall.com^$redirect=noopjson,xmlhttprequest
 ||fishingtoolsbox.com^$redirect=noopjs,script
 ||fjordsand.com^$redirect=noopjs,script
 ||fontserif.com^$redirect=noopjs,script

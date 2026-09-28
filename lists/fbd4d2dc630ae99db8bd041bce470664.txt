@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: QITCuu99NYIIH+BqxBKaHg
-! Version: 202609281545
+! Checksum: byM4YwjlBNFE0mLnI1vHbg
+! Version: 202609281613
 ! Title: EasyList Germany
-! Last modified: 28 Sep 2026 15:45 UTC
+! Last modified: 28 Sep 2026 16:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -3769,7 +3769,10 @@ schnittberichte.com##.branding
 blick.ch##.brandstudio
 koerperverletzung.com,scheidung.org,urheberrecht.de##.brave_popup
 idowa.de##.brick[data-b-title*="Traffective"]
+blogspan.net##.bs-ad-slot
 schwulissimo.de##.bs-ad-wrapper
+blogspan.net##.bs-pm-leiste
+blogspan.net##.bs-pm-rail
 tri-mag.de##.bscb-23811
 btc-echo.de##.btc-sponsored
 hockeyweb.de##.btn-danger
@@ -5839,6 +5842,8 @@ welt.de#?#div[id][data-qa]:has(.c-buelent-linkbox__label:has-text(Anzeige))
 windowspro.de#?#.views-row:-abp-has(> article > header > h2 > a > div:-abp-contains(/^\s*Anzeige\s*$/))
 windowspro.de#?#article:has(:-abp-properties(content: "(Anzeige)";))
 windowspro.de#?#article:has(:-abp-properties(content: "Anzeige";))
+windowspro.de#?#div:has(> div[id] > p:has-text(/ANZEIGE\W*$/))
+windowspro.de#?#div:has(> script:has-text(/\/a\.php/))
 winfuture-forum.de#?#div.ExtraPostBlock:has(div.post_block:has-text(Anzeige)):not(.with_rep)
 zentrum-der-gesundheit.de#?#span:has-text(/ANZ|EIGE/) + button
 zentrum-der-gesundheit.de#?#span:has-text(/ANZ|EIGE/) + div

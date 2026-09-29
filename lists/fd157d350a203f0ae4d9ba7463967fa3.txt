@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fpSsj3WvwM/QEh47IWPCTg
-! Version: 202609291042
+! Checksum: Ulj5tGDDlGzRBAV9sdAACw
+! Version: 202609291113
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Sep 2026 10:42 UTC
+! Last modified: 29 Sep 2026 11:13 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22407,6 +22407,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||lostfilm.tv/pereP/?a=
 ||lostpix.com/pic_lospix/radeika_$image
 ||lottielab.com^$third-party,domain=nnm-club.me|nnmclub.ro|nnmclub.to
+||love-games1.net/distribution.
 ||love-games1.net/yb2.
 ||love4str.ru^$script
 ||loveradio.ru/background/$image
@@ -24180,7 +24181,7 @@ livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 !
 ! Плеер VeoVeo
 $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
-.link/$third-party,domain=tazaromikaz.link
+.link/$third-party,domain=gorodyshka.link|player.temptcdn.com|tazaromikaz.link
 /ad-rotator/ad-list.json
 /ad-rotator/vast.xml
 /api-integration/*?unique=$third-party,xmlhttprequest

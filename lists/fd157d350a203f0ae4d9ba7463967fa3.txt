@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9ck+WGZ+JTZudjBOV2wy9w
-! Version: 202609291443
+! Checksum: RJQn2qv6saOjkPLSqRpy1g
+! Version: 202609291512
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Sep 2026 14:43 UTC
+! Last modified: 29 Sep 2026 15:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1760,6 +1760,8 @@ kg-portal.ru##.ten_topbar + div:not(.ten_ears_wrap) {display:none;}
 kg-portal.ru##.ten_topbar {max-height:10px;}
 kg-portal.ru##body > .menu_wrap {position:relative;}
 kg-portal.ru##body {background-image:none;background-color:inherit;}
+kingball.top,sportcsat.ru,streame.center,vitalsport1.ru##div[style^="position:"][style*=" top: 0px; left: 0px; width: 100%; height: 100%;"][style*="z-index:"][style*="cursor: pointer;"] {display:none}
+kingball.top,sportcsat.ru,streame.center,vitalsport1.ru##iframe[src] {pointer-events:auto}
 kinopoisk.ru##.app__page > div > div:first-child {min-height:0;}
 kinopoisk.ru##.app__page > div:first-child {min-height:0;}
 libertycity.net,libertycity.ru##body > div[class]:not([id]):not([style]) {background-image:none;}
@@ -1777,8 +1779,6 @@ povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
 profinance.ru##main > .content-grid {grid-template-columns:unset;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 root-nation.com##body {background:none;}
-sportcsat.ru,vitalsport1.ru##div[style^="position:"][style*=" top: 0px; left: 0px; width: 100%; height: 100%;"][style*="z-index:"][style*="cursor: pointer;"] {display:none}
-sportcsat.ru,vitalsport1.ru##iframe[src] {pointer-events:auto}
 stopgame.ru##body > * {pointer-events:auto;}
 stopgame.ru##body {pointer-events:none;}
 stranamam.ru##.n-main-branding-container {margin-top:0;}
@@ -19544,6 +19544,8 @@ infobank.by##div[id*="swiffycontainer"]
 flowtation.ru##div[id*="tizer"]
 1tv.ru,4pda.to,artem-kashkanov.ru,astrakhan-24.ru,baraholka.onliner.by,bigpicture.ru,energyfm.ru,galya.ru,gotovim-doma.ru,qip.ru,vputilkovo.ru##div[id*="yandex_ad"]
 www.sibnet.ru##div[id="head-links"]
+www.kinopoisk.ru##div[id] > .banner-fullscreen ~ #kebab
+www.kinopoisk.ru##div[id] > .banner-fullscreen ~ div[style^="display"][style*="pointer-events:"]
 mivmeste.info#?#div[id]:-abp-has(> wix-iframe)
 gorodrabot.ru##div[id]:not([class]):not([style])[aria-hidden="true"]
 allgames.zone,bestgamer.su##div[id][align="center"]

@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20724.2
+! Version: 2026.20725.0
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -3477,6 +3477,7 @@ toon123.com##main > section[style]:not([class])
 !
 ! DOMAIN-REFRESHER: END
 
+@@||img.danawa.com/ui_category/topBanner/topBannerPc_47032_20251117105656.png
 @@||newautopost.co.kr/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js
 @@||ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js$domain=smartstore.naver.com
 ! aglint-disable-next-line no-invalid-modifiers

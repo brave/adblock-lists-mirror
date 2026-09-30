@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3XNPQYh2wZwy+YRDRXXAEw
-! Version: 202609301742
+! Checksum: xTfSntrp0l+acO9X5idgXg
+! Version: 202609301823
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Sep 2026 17:42 UTC
+! Last modified: 30 Sep 2026 18:23 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19544,8 +19544,8 @@ infobank.by##div[id*="swiffycontainer"]
 flowtation.ru##div[id*="tizer"]
 1tv.ru,4pda.to,artem-kashkanov.ru,astrakhan-24.ru,baraholka.onliner.by,bigpicture.ru,energyfm.ru,galya.ru,gotovim-doma.ru,qip.ru,vputilkovo.ru##div[id*="yandex_ad"]
 www.sibnet.ru##div[id="head-links"]
-www.kinopoisk.ru##div[id] > .banner-fullscreen ~ #kebab
-www.kinopoisk.ru##div[id] > .banner-fullscreen ~ div[style^="display"][style*="pointer-events:"]
+www.kinopoisk.ru##div[id] > .anim-on ~ #kebab
+www.kinopoisk.ru##div[id] > .anim-on ~ div[style^="display"][style*="pointer-events:"]
 mivmeste.info#?#div[id]:-abp-has(> wix-iframe)
 gorodrabot.ru##div[id]:not([class]):not([style])[aria-hidden="true"]
 allgames.zone,bestgamer.su##div[id][align="center"]

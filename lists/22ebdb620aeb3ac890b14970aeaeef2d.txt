@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6Dyk/uBbHLqio56Ld0toQA
-! Version: 202609252150
+! Checksum: 7i+CXZVpkZBbKTXrEb7KZg
+! Version: 202610040725
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-09-25 21:50 UTC
+! Last modified: 2026-10-04 07:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -691,6 +691,9 @@ ask.fm##.lightbox_overlay
 ask.fm##body:style(overflow: auto !important)
 ! https://github.com/uBlockOrigin/uAssets/issues/30428
 cosmos.so##+js(set, Object.prototype.disablePaginationLimitForLoggedOut, true)
+! speedtest.net
+speedtest.net##body:style(overflow: auto !important)
+speedtest.net#?#.\!z-\[3500\]:has-text(Speedtest is better with the app)
 ! goodreads.com
 goodreads.com##+js(set-cookie, blocking_sign_in_interstitial, true)
 ! reddit.com (mobile)

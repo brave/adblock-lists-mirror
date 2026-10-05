@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: gN4NUa6N1gEiEre4XsOWfA
-! Diff-Path: ../patches/13/13-s-1791191772-3600.patch
+! Checksum: kCkGqDWNvnLoxBajsLyEbQ
+! Diff-Path: ../patches/13/13-s-1791216636-3600.patch
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.68.68
-! TimeUpdated: 2026-10-05T09:12:54+00:00
+! Version: 2.0.68.71
+! TimeUpdated: 2026-10-05T16:07:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -21,6 +21,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||geniusclickad.cc^
 ||remotedesk.life^
 ||zentryx.space^
 ||adcluster.com.tr^$3p
@@ -1574,6 +1575,9 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+turkifsa.blog##.center-overlay
+||cdn.okiksdelivery.com^$script,domain=turkifsa.blog
+||get.atechspace.live/pops-request
 btdunyasi.net##div[id^="tt-banner"]
 btdunyasi.net##aside.sidebar > div.theiaStickySidebar > .container-wrapper:has(> div.stream-item-widget-content > a[href^="https://landing.logo.com.tr/"])
 btdunyasi.net##.stream-item-below-post > div.stream-item-size:has(> a[href^="https://landing.logo.com.tr/"])
@@ -6120,9 +6124,9 @@ golbettv6.com##.bnr
 /bahsinetv\d+\.site$/##body > a[target="_blank"]
 /bahsinetv\d+\.site$/##body > div[class^="reklam-"]
 /bahsinetv\d+\.site$/##.footer-links
-bahsinetv10.site##body > a[target="_blank"]
-bahsinetv10.site##body > div[class^="reklam-"]
-bahsinetv10.site##.footer-links
+bahsinetv11.site##body > a[target="_blank"]
+bahsinetv11.site##body > div[class^="reklam-"]
+bahsinetv11.site##.footer-links
 !
 ! Frequently changed domains: piatv*.site
 ! Source: piatv2.site
@@ -6168,11 +6172,11 @@ betanotv5.site##.popup-overla
 /bovtv\d+\.com$/##.footer-links
 /bovtv\d+\.com$/##.odds-container
 /bovtv\d+\.com$/##.header-top > div.header-text
-bovtv41.com##div[class^="reklam-"]
-bovtv41.com##body > header
-bovtv41.com##.footer-links
-bovtv41.com##.odds-container
-bovtv41.com##.header-top > div.header-text
+bovtv42.com##div[class^="reklam-"]
+bovtv42.com##body > header
+bovtv42.com##.footer-links
+bovtv42.com##.odds-container
+bovtv42.com##.header-top > div.header-text
 !
 ! Frequently changed domains: restizle*.com
 ! Source: restizle857.com
@@ -6273,7 +6277,7 @@ www.kacakspor5.com##.nav-menu > li:has(> a[href="https://bit.ly/BhsKa%C3%A7akspo
 www.kacakspor5.com###splash-banner
 !
 ! Frequently changed domains: pasizle*.com
-! Source: pasizle859.com
+! Source: pasizle863.com
 ! aglint-disable no-invalid-modifiers
 !+ NOT_VALIDATE
 ||blogger.googleusercontent.com/img/$domain=/pasizle\d+\.com$/
@@ -6281,10 +6285,10 @@ www.kacakspor5.com###splash-banner
 /pasizle\d+\.com$/##.background-link
 /pasizle\d+\.com$/##.banner-container
 /pasizle\d+\.com$/##.header-nav > a[href="/"] ~ a[href][target="_blank"]
-||blogger.googleusercontent.com/img/$domain=pasizle859.com
-pasizle859.com##.background-link
-pasizle859.com##.banner-container
-pasizle859.com##.header-nav > a[href="/"] ~ a[href][target="_blank"]
+||blogger.googleusercontent.com/img/$domain=pasizle863.com
+pasizle863.com##.background-link
+pasizle863.com##.banner-container
+pasizle863.com##.header-nav > a[href="/"] ~ a[href][target="_blank"]
 !
 ! Frequently changed domains: milanotv*.shop
 ! Source: milanotv61.shop
@@ -7141,7 +7145,7 @@ justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,
 tvjustin.*,justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##a[target="_blank"][rel*="noopener"] > img
 justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##+js(set-constant, window.config.adv.enabled, 0)
 ! CASE 2
-justintvizle732.top###video_reklam
+justintvizle735.top###video_reklam
 ||justintvizle*.top/dimg/*.gif
 ||justintvizle*.top/cdn/r/
 ||selcuksports*.top/dimg/*.gif

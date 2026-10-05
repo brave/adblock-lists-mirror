@@ -2355,7 +2355,7 @@ temperatur.nu##+js(nostif, holidAds)
 flamecomics.xyz##+js(trusted-set-local-storage-item, adBlockedModal:lastDismiss, $now$)
 
 ! anizone.to anti-adb
-anizone.to##.h-\[90px\].w-\[728px\]:has(iframe[src^="//ad.a-ads.com/"])
+anizone.to##div[x-data*=".offsetHeight"]:remove()
 
 ! https://soundcloudmp3.org/ anti-adb
 scmp3.org,soundcloudmp3.org##+js(set, detectAdBlock, noopFunc)
@@ -8270,5 +8270,4 @@ snowcrows.com##+js(rmnt, script, .onerror)
 dokkandb.com##+js(trusted-set-local-storage-item, adBlockPromptDismissedAt, $now$)
 
 ! flixnetwork.is/streamsource.ws bot check
-flickzone.org,sflix.gd##+js(trusted-set-cookie, hv3, 871bea4c40b17dc15327ea58214fa62d, 1year)
-
+flickzone.org,sflix.gdflickzone.org##+js(trusted-click-element, button#b, ,100)

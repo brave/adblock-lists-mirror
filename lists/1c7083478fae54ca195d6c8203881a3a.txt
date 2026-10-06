@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.5.1
+! Version: 4.4.5.2
 
 ! General
 
@@ -144,7 +144,6 @@ eastwest.eu##+js(rc, paywall, .paywall, stay)
 eastwest.eu###testo_articolo > p, #testo_articolo > h3
 eastwest.eu##.offerta_abbonamenti
 ||apw.economictimes.indiatimes.com^$xmlhttprequest,~third-party
-||economist.com/latest/wall-ui.js$script,~third-party
 ||editorialedomani.it/pelcro.js$script,~third-party
 elespanol.com##+js(rc, content-not-granted-paywall, div.content-not-granted-paywall, stay)
 elespanol.com##div.full-suscriptor-container
@@ -677,6 +676,8 @@ dasinvestment.com##div#paywall
 divisare.com##div.blocker
 divisare.com##+js(ra, style, body[style], stay)
 dominionpost.com##+js(rc, entry-content, article > div.entry-content, stay)
+||economist.com/latest/wall-ui.js$script,~third-party
+economist.com##html,body:style(overflow: visible !important;)
 ||gstatic.com/firebasejs/*/firebase-auth-compat.js$script,domain=eleconomista.com.ar
 elfinancierocr.com##+js(ra, style, div.article-body-wrapper__styled[style], stay)
 elfinancierocr.com##div.post

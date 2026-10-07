@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: V+T0DfMgD1K116gs/Ngxgg
-! Version: 202610071413
+! Checksum: GiOGTGOQrvT26L00nCZoqg
+! Version: 202610071442
 ! Title: EasyList Italy
-! Last modified: 07 Oct 2026 14:13 UTC
+! Last modified: 07 Oct 2026 14:42 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -4117,6 +4117,7 @@ datameteo.com##td[style^="border-top-style: solid; border-top-color:#d3d3d3; bor
 ! :has()
 investire.biz##.card.shadowLink:has(#ContentPlaceHolder1_rptAzzMain_btn_0)
 sportando.basketball##.col-12.p-0:has([id^="div-gpt-ad"])
+sportando.basketball##.col-12.p-0:has(div > a):not(.widget):not(.spbk-disqus-last-comments)
 money.it##.flex.flex-col.space-y-3.relative:has(.mr-2)
 tusciaweb.eu##.homearticle-box:has(a[href="https://www.tusciaweb.eu/wp-content/uploads/2022/08/firma-prima.jpg"])
 orvietosi.it##.jeg_slide_item:has(.category-sponsorizzate)

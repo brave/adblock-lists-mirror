@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nbWf6Qr2f0DJiSylkx4H2A
-! Version: 202610070822
+! Checksum: 2vppznU2BY8hc5breHmypg
+! Version: 202610070842
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Oct 2026 08:22 UTC
+! Last modified: 07 Oct 2026 08:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23979,7 +23979,7 @@ igdz1.ru^$script,domain=igdz.ru
 !#if ext_abp
 ! запросы
 ! ловушка для обфускации дзена: главная, статьи, новости, погода
-/^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]*\/[^/?]*[a-zA-Z0-9]{20,}/$script
+/^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]*\/(?:[^/?0-9]*[0-9]){5}[^/?]*(?:\?.*)?$/$script
 ||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/

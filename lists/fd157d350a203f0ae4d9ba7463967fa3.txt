@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ycNIZlqgiZvYphdoy9kqdQ
-! Version: 202610081252
+! Checksum: ghpj1jwcz4tC1qPBgr/b9Q
+! Version: 202610081323
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Oct 2026 12:52 UTC
+! Last modified: 08 Oct 2026 13:23 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19793,6 +19793,7 @@ argumenti.ru##div[style*="height: 264px;"]
 reshak.ru##div[style*="height:325px;"]
 euro-football.ru,liveresult.ru##div[style*="height:400px;"]
 narutoplanet.ru##div[style*="margin-top: 9.5px;"]
+snookerist.ru##div[style*="max-height:"][style*="min-height:"]
 euro-football.ru,liveresult.ru##div[style*="min-height:"][style*="00px"]
 news.zerkalo.io##div[style*="min-height:"][style*="250px"]
 chipmaker.ru##div[style*="min-height:100px;"]
@@ -24013,7 +24014,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=livejournal.com|olegmaka
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?w4Vmw=$xmlhttprequest
+||pikabu.ru/ajax/*?w3Vmw=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

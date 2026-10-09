@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610091536
+! Version: 202610091620
 ! Title: EasyList
-! Last modified: 09 Oct 2026 15:36 UTC
+! Last modified: 09 Oct 2026 16:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4a04d70c57a7ae624e2ebccd0fdca48e54299b70
+! Commit: c86ab440c99bb36fe59e94c7daeddf41f1abca0d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -27733,6 +27733,7 @@ browsershots.org#@#.advert_area
 ||epeltinjzkqfy.space^
 ||eperlanskiffs.qpon^
 ||epfpjvxydyxux.website^
+||ephebeurgingcitrean.cfd^
 ||ephebuspellock.cyou^
 ||ephesiansavvyinto.com^
 ||epicclicks.net^
@@ -30942,6 +30943,7 @@ browsershots.org#@#.advert_area
 ||gnvpzgnvkvnfn.website^
 ||gnwxaakozhrid.site^
 ||gnxfrlfjfbvel.website^
+||gnxnfkdgadbkf.online^
 ||gnxnzqkkxetca.online^
 ||gnxzfqmoyvvjt.website^
 ||gnzfwdxtqbewy.site^
@@ -35092,6 +35094,7 @@ browsershots.org#@#.advert_area
 ||jlvffkip.com^
 ||jlvhwqtkmttgq.site^
 ||jmadyknjxonua.website^
+||jmapeizllrhna.site^
 ||jmbmhunbzvhrk.site^
 ||jmcoffbbhjvny.website^
 ||jmdreenduebqz.site^
@@ -36464,6 +36467,7 @@ browsershots.org#@#.advert_area
 ||kq4uzt8nx9ewll6olc9q6yp.rest^
 ||kqauptdrdiyyp.space^
 ||kqawipdwetqqd.space^
+||kqbdwsglqapzu.com^
 ||kqbgqbylklejl.online^
 ||kqbxjkzsyuygg.site^
 ||kqcktrxmhvgu.com^
@@ -51841,6 +51845,7 @@ browsershots.org#@#.advert_area
 ||tbwxqmbn.com^
 ||tbyiahnrwcmnw.online^
 ||tcaigdyrlxeox.online^
+||tcaiwazxkfsrm.website^
 ||tcbydjjmqlrub.space^
 ||tccnbscvsmylx.site^
 ||tcdjvujzfhyoc.online^
@@ -76529,6 +76534,7 @@ petmd.com##aside[aria-label="advertisement"]
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-inline-promotion
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-inline-promotion-block
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-promotion-list
+openalternative.co##body > div:has(> img):has(a[target="_blank"])
 nbcsports.com##bsp-reverse-scroll-ad
 dustinabbott.net##center > a > img
 sailingmagazine.net##center > font
@@ -76555,6 +76561,10 @@ forward.com##div.sticky-container:first-child
 newegg.com##div.swiper-slide[data-sponsored-catalyst]
 investing.com##div.text-\[\#5b616e\]
 inverse.com##div.zz
+openalternative.co##div:has(> a[target="_blank"][rel="noopener"]):has(button):not(:has(h1, h2, h3))
+openalternative.co##div:has(> div > h2 > a[href="/advertise"])
+openalternative.co##div:has(> p + a[target="_blank"]:last-child)
+openalternative.co##div:has(> span[class*="group/button"]):has(button)
 presearch.com##div[\:class*="AdClass"]
 boxing-social.com##div[ad-slot]
 liverpoolway.co.uk##div[align="center"] > a[href]

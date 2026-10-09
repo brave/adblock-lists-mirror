@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: whoWIdGZTSB7FI6OJzk/PQ
-! Version: 202610091322
+! Checksum: Lkn3bEnrrWpqcNIfoKBwHA
+! Version: 202610091342
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Oct 2026 13:22 UTC
+! Last modified: 09 Oct 2026 13:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3585,6 +3585,7 @@ _tizers.
 ||serialinfo.ru^$third-party
 ||seriouspartner.ru^$third-party
 ||server.adeasy.ru^
+||services.bionika-digital.ru/b/$third-party
 ||servidormensseger.hotbox.ru^
 ||setka.media^$third-party
 ||setka.news^$third-party
@@ -8963,6 +8964,7 @@ _tizers.
 ||pushdealer.com^$third-party
 ||pusherworker.com^$third-party
 ||pushina.info^$third-party
+||pushmoose.com^$third-party
 ||pushprofit.ru^$third-party
 ||pushreal.media^$third-party
 ||pushtosh.fun^$third-party
@@ -13984,6 +13986,7 @@ oko-planet.su#?#.bltitle:-abp-contains(Реклама)
 spbit.ru#?#.blue > .header:-abp-contains(партнеры)
 dnepr.info##.blue-bann
 ecm-journal.ru##.blurb
+medvestnik.ru##.bm-banners
 777score.ru,comnews.ru,emotionalrating.com,kluch.media,ok-magazine.ru,poltava.to##.bn
 dota2.ru##.bn-btm
 brokker.news##.bn-content
@@ -14157,6 +14160,7 @@ dsnews.ua#?#.c-feed__list-item:-abp-has(> .c-feed__item > .c-r)
 drive2.com,drive2.ru#?#.c-header:-abp-contains(/Ads|Реклама/)
 telegraf.com.ua,telegraf.ua#?#.c-post__content > div:-abp-has(> [id^="_vidverto-"])
 delo.ua,dsnews.ua,focus.ua##.c-r
+medvestnik.ru##.c-recommendations-widget
 5-tv.ru##.cFadeDark
 nashamama.com#?#.cN-linkList:-abp-has(> h3:only-child)
 tomat-pomidor.com##.cPost + script + center
@@ -17484,6 +17488,7 @@ goldsrc.ru##[data-role="primaryNavBar"] a[href^="http://csserv.ru/"]
 goldsrc.ru##[data-role="primaryNavBar"] a[href^="https://gamecms.ru/"]
 zoneofgames.ru##[data-role="sidebarAd"]
 malenkiy.ru##[data-role="sidebarAd"] > center
+medvestnik.ru##[data-route*="banners"]
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[target="_blank"]:not([href="https://app.lib.social/app2.html"])
 dtf.ru##[data-section="services"]
 smi2.ru##[data-sentry-component="Finam"] a

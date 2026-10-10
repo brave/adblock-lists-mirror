@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610101613
+! Version: 202610101646
 ! Title: EasyPrivacy
-! Last modified: 10 Oct 2026 16:13 UTC
+! Last modified: 10 Oct 2026 16:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 31bed1900119332363a78331003599ef63fbc6b0
+! Commit: 810b2469ed39fe9c3464c53058bac83443d50a34
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -18021,6 +18021,8 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefi
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
 ! alfalfalfa.com,matometanews.com
 ||ipcheck.blogsys.jp^$redirect=noop.js,script
+! search.rakuten.co.jp
+search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ! -----------------Individual cname tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_dataunlocker.txt ***
 ! easyprivacy_specific_cname_dataunlocker.txt

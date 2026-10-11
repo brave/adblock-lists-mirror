@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.5.3
+! Version: 4.4.6.1
 
 ! General
 
@@ -131,7 +131,6 @@ cronista.com##+js(rc, article-body--blurred, div.article-body--blurred, stay)
 cronista.com##div.paywall-chain--show
 csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
-cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker, stay)
 denik.cz##+js(ra, class, div.paywall, stay)
 diepresse.com##+js(ra, class, div.premium-content.hide, stay)
 diepresse.com##div.paywall-container--locked
@@ -209,6 +208,9 @@ ilfoglio.it##div.paywall
 ilsole24ore.com##+js(ra, style, body[style], stay)
 ilsole24ore.com##div.s24_adb
 ||inc42.com/wp-admin/admin-ajax.php|$xmlhttprequest,~third-party
+||independent.co.uk/*.html$inline-script
+||the-independent.com/*.html$inline-script
+independent.co.uk,the-independent.com##div.indy-paywall-banner
 indianexpress.com##+js(ra, class|style, div.paywall, stay)
 indianexpress.com##+js(ra, class, p.first_intro_para, stay)
 indianexpress.com##div.ev-premium-paywall
@@ -399,14 +401,10 @@ thetimes.com##html:style(overflow: auto !important;)
 thetimes.com##body:style(overflow: auto !important;)
 thetimes.com##+js(rc, TeaserPage, body.TeaserPage, stay)
 thetimes.com##div#paywall-portal-page-footer
-theweek.com##+js(rc, paywall-locker, div.paywall-locker, stay)
-theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)
 timeshighereducation.com##+js(rc, paywall-fade, div.paywall-fade, stay)
 timeshighereducation.com##div.paywall-active
 ||timesofindia.indiatimes.com/*.cms?rel=plus$inline-script
-tomshardware.com##+js(rc, paywall-locker, div.paywall-locker, stay)
-tomshardware.com##div#kiosq-app-paywall-js
 unherd.com##+js(ra, id, div#premiumcontent, stay)
 unherd.com##div#premiumpreview
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
@@ -455,6 +453,10 @@ european-rubber-journal.com##div.article-overlay,div.gradient
 ! Daily Mail Group UK
 dailymail.co.uk,mailonsunday.co.uk,thisismoney.co.uk##+js(rc, is-paywalled-article, body.is-paywalled-article, stay)
 ||dailymail.co.uk/static/mol-adverts/$script
+
+! Future Group
+cyclingnews.com,livescience.com,theweek.com,tomshardware.com##+js(rc, paywall-locker, div.paywall-locker, stay)
+cyclingnews.com,livescience.com,theweek.com,tomshardware.com##div.kiosq-main-layer,div#kiosq-app-paywall-js,div#paywall,div.paywall-fade-out
 
 ! GEDI.it sites
 ||lastampa.it/*/news/$inline-script

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lvKJ6O9cXRsVqxxJz3ys6A
-! Version: 202610121942
+! Checksum: g6W+1wxvnr5UYgwTixV8HQ
+! Version: 202610122012
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Oct 2026 19:42 UTC
+! Last modified: 12 Oct 2026 20:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -419,6 +419,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnpotok.com|
 ||ska4at.ru^$popup
 ||skiles.link^$third-party,popup
 ||social-leads.ru^$third-party,popup
+||sparksvale.com^$popup
 ||spiderbig.info^$popup
 ||starcrowd.ru^$popup
 ||starinform.ru^$third-party,popup
@@ -18657,6 +18658,7 @@ ukrfootball.ua#?#aside > section:-abp-has(> .colum_widget_block_pp)
 jooble.org##aside > section[class^="ad"]
 stankiexpert.ru##aside a[id][href][target="_blank"]
 riwkus.pro##aside a[onclick^="yaCounter"]
+esports.ru##aside a[target="_blank"][rel="noindex nofollow"]
 bessarabiainform.com##aside div[class^="a-single"]
 adme.media##aside div[style^="min-height:"]
 magtimes.info##aside img[src^="http://magtimes.info/wp-content/uploads/"]

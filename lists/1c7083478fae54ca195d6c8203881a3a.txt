@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.6.1
+! Version: 4.4.6.2
 
 ! General
 
@@ -240,6 +240,7 @@ lanacion.com.ar##+js(set-local-storage-item, /^/, $remove$)
 lance.com.br##+js(rc, h-[550px], div.paywall-content[class*="h-\["], stay)
 ||latimes.com/meteringjs/$script,~third-party
 ||californiatimes.com/caltimes/latimes/Bootstrap.js$script,third-party,domain=latimes.com
+||californiatimes.com/modalityjs/latest.js$script,third-party,domain=latimes.com
 ||ev.lavanguardia.com^$xmlhttprequest,~third-party
 lavanguardia.com,mundodeportivo.com##span.content-ad,span.hidden-ad,span.ad-unit,div.ad-div
 ledevoir.com##+js(cookie-remover, pw6)

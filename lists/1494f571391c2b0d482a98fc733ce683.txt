@@ -1999,7 +1999,8 @@ xboxdynasty.de##+js(rmnt, script, /adblock/i)
 1024teradl.com##span[class*="text-"]:has(+ .ad-unit-container)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34732
-ss.randomkzn.com##+js(set, SiteGuard, undefined)
+||acscdn.com/script/aclib.js$redirect=nooptext,xhr,3p
+ss.randomkzn.com##+js(trusted-prevent-xhr, just-detect-adblock, thistextshouldbethere)
 ##.ad-banner-slot
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34722
@@ -2053,3 +2054,7 @@ tnlive.sk##+js(rpnt, script, /AdblockDialogContainer/i)
 terraria-servers.com###topadspot
 terraria-servers.com###vote-form-block:style(display:block !important)
 terraria-servers.com###vote-warning-block
+
+! https://github.com/uBlockOrigin/uAssets/issues/34821
+speedof.me##.background-container > [class*="-"]:not([id]):not([aria-label]):not([style]):not([role]):not([class*=" "],[class*="menu"],[class*="content"],[class*="progress"])
+speedof.me##.api-ad-footer

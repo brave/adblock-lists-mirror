@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202610121225
+! Version: 202610121341
 ! Title: ABPindo
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 12 Oct 2026 12:25 UTC
+! Last modified: 12 Oct 2026 13:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
@@ -9911,8 +9911,8 @@ bokepbrut.in,video.pejuanglendir.site##.happy-under-player
 bokepbrut.in,video.pejuanglendir.site##.happy-under-player-mobile
 viexx.com##.info-banner
 semprot.com##.jual_tetek
-bokep.pemersatu.top##.kamucurang-fader:style(display: none !important;)
-bokep.pemersatu.top##.kamucurang:style(height: auto !important; overflow: visible !important; background-color: transparent !important;)
+bokep.pemersatu.top,pemersatufun.*##.kamucurang-fader:style(display: none !important;)
+bokep.pemersatu.top,pemersatufun.*##.kamucurang:style(height: auto !important; overflow: visible !important; background-color: transparent !important;)
 manhwaindo.*,manhwaindo.cfd,manhwaindo.com##.klan-float-bottom
 filmjepang.it.com,filmjepangku.net,filmjepangku.online,heppinn.id,javsubid.sx,klipjepang.shop,komik18.*,komikdewasa.*,komikremaja.*,kumapoi.info,lendirpedia.*,mangasusuku.com,manhwaindo.*,manhwaland.baby,manhwaland.land,manhwaland.mom,manhwalist.com,pascol.*,pascol.com,skandalpedia.*,starjepang.*##.kln
 areakomik.com##.komik-card.native-ad-slot
@@ -9946,7 +9946,7 @@ sebokep.com,sebokep.vip##.sg-popup-builder-content
 dicrotin.*,nokephub.*##.sgpb-popup-dialog-main-div-wrapper
 dicrotin.*,nokephub.*##.sgpb-popup-overlay
 nomat.site##.show.popup
-bokep.pemersatu.top##.siapakita:style(display: none !important;)
+bokep.pemersatu.top,pemersatufun.*##.siapakita:style(display: none !important;)
 javsubid.sx##.sidebar-ads
 podjav.tv##.sidebar-box:has(> div[data-banner-id])
 csnbiru.blog##.skip-ad-btn
@@ -9961,6 +9961,7 @@ csnbiru.blog##.video-wrapper iframe:style(display: block !important;)
 semprot.com##.warning_iklan
 bokepvir.*##.widget_block.widget
 video.pemersatu.org##.widget_custom_html:has(> .custom-html-widget > ins[id])
+kampungbokep.*##.widget_media_image
 komikdewasa.art##.wp-image-80765.size-full.alignnone
 video.pemersatu.org##[class*="pmt-ad-gate"]
 pemersatufun.com##[data-age-accept]
@@ -10010,7 +10011,7 @@ kingbokep.media##img[src*=".gif"]:not(div[class*="video"] > img)
 kingbokep.media##img[src*=".webp"]:not(div[class*="video"] > img)
 becekku.com##img[src*="blogger.googleusercontent.com"][src$=".gif"]
 doujin.desu.xxx,igo.desu.xxx##img[src*="pic.desu.xxx/content/banner/"]
-igo.desu.xxx##main > div:has(a[href^="https://bergurukecina.fun/"]),main > div:has(a[href^="https://dw.zeus.fun/"]),main > div:has(a[href^="https://goid.space/"]),main > div:has(a[href^="https://goratu.site/"]),main > div:has(a[href^="https://kegz.site/"]),main > div:has(a[href^="https://klik.best/"]),main > div:has(a[href^="https://menujupenta.site/"])
+igo.desu.xxx##main div.my-2:has(a[target="_blank"][rel*="nofollow"])
 igo.desu.xxx##overplay
 semprot.com##semprotnenenmontok_f
 indoporntube.com##svg.lucide-shield-alert

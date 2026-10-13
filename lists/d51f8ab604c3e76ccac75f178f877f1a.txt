@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20739.0
+! Version: 2026.20739.2
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -1971,12 +1971,13 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 ! danawa.com
+danawa.com###sectionLayer > .category__list__row > .category_hover_layer > .category__2depth__banner
+prod.danawa.com###DnwListContents aside div:not([class]):has(> .relative > .swiper):has(> div + ._flex-between > button[aria-label="이전 배너"])
+prod.danawa.com###DnwListContents > .list-main-content div.border:has(> div:not([class]) > ul[aria-label="파워쇼핑 광고 목록"])
+prod.danawa.com###DnwListContents > .list-main-content .dnw-list-top-content-width > a > img[alt="카테고리 상단 배너"]
 prod.danawa.com###productListArea > div > div[aria-label="애드리더 광고"]
-danawa.com###danawa_menubar > .main-header__nav > .link_nav--internet
 prod.danawa.com###auto_area2 > .auto_product_list
 m.danawa.com##.banner_ajungdang
-search.danawa.com,m.danawa.com##.box__tooltip-internet
-search.danawa.com,m.danawa.com###bottomTabBar-item-internetJoin
 ~m.danawa.com,danawa.com###main-rightbnr
 ~m.danawa.com,danawa.com###main-rightbnr-btm
 m.danawa.com###productBlog-contents-summary > .banner-type-h > a[href^="https://white.contentsfeed.com/RealMedia/ads/"]
@@ -3418,6 +3419,7 @@ kio.ac##main > div:has(> div > div > a > img)
 !
 ! DOMAIN-REFRESHER: START
 !
+1465544.xyz###overlay
 tvchak.live##.banner-box
 aniya24.com##.popup-container
 sutom.org##div[data-id="9429d5d"]
@@ -3907,6 +3909,7 @@ kilho.net##+js(set, hahaha, noopFunc)
 !
 ! DOMAIN-REFRESHER: START
 !
+watchfreejavonline.co##+js(prevent-window-open, !watchfreejavonline.co)
 cokcok.stream##+js(trusted-replace-node-text, script, '/const *_[a-z0-9]+ *= *{ *"media_file" *: *" *https:\\\/\\\/cdn[0-9]+\.cokcok\.[a-z0-9]+\\\/assets\\\/videos\\\/.+"click_through" *:.+};/', media_file, '')
 ! aglint-disable-next-line
 /lover[0-9]\.net/##+js(aeld, click, 'opMagic)
@@ -4121,6 +4124,7 @@ auto.danawa.com##+js(set, NAVER_ADPOST_V2, noopFunc)
 !#endif
 
 !#if cap_user_stylesheet
+danawa.com#$##sectionLayer > .category__list__row > .category_hover_layer { width: 380px !important; }
 joinsmediacanada.com#$##container.highChk { width: 100% !important; }
 quasarzone.com#$#.sponsor-banner-layer-container { width: 0px !important; }
 quasarzone.com#$#.sponsor-banner-layer-container * { width: 0px !important; padding: 0px !important; border: none !important; }

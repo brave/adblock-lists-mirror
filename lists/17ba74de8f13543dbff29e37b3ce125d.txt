@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610130948
+! Version: 202610131019
 ! Title: EasyList
-! Last modified: 13 Oct 2026 09:48 UTC
+! Last modified: 13 Oct 2026 10:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 918cd4c4e4e64750513e2e51d2795ebf7ec01ff2
+! Commit: 821977da5e87d2f59fb383fae772f8dbedaec159
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -19665,6 +19665,7 @@ browsershots.org#@#.advert_area
 ||azfpkrxjbsduf.space^
 ||azgftoymwpszx.online^
 ||azghddpyjgdss.website^
+||azhcqodrtqmri.space^
 ||azhhrdxzehqez.site^
 ||azhobfzcwtxvj.website^
 ||aziqhpijhudvv.online^
@@ -23016,6 +23017,7 @@ browsershots.org#@#.advert_area
 ||cj6rg2tyiqlte4hpxp1.cfd^
 ||cj9wycx5gc5ztr.cfd^
 ||cjatrtlyqngiv.site^
+||cjckvqrfbiqid.space^
 ||cjdqaojtwhple.website^
 ||cjenrzakbgvkk.site^
 ||cjewz.com^
@@ -47952,6 +47954,7 @@ browsershots.org#@#.advert_area
 ||requisitezap.com^
 ||requitspuke.cyou^
 ||rereddit.com^
+||rergaxhihmuli.website^
 ||rerunstezramilie.cyou^
 ||reryn3ce.com^
 ||reryodzat.com^
@@ -48807,6 +48810,7 @@ browsershots.org#@#.advert_area
 ||rssvpojmnzvge.online^
 ||rstrix.com^
 ||rsumgiros.com^
+||rsxetdsqpkuck.site^
 ||rsxkamyyjynij.online^
 ||rsxtxfgrowhzm.online^
 ||rtalffozjnwkq.space^
@@ -49950,6 +49954,7 @@ browsershots.org#@#.advert_area
 ||servropt.com^
 ||servtraff97.com^
 ||servw.bid^
+||serxztgnpghfr.site^
 ||sessionerect.com^
 ||sessionlagvegetation.com^
 ||sestihjdtwokp.space^
@@ -54515,6 +54520,7 @@ browsershots.org#@#.advert_area
 ||tzmpctwfjdlip.online^
 ||tzmsouoqvysag.site^
 ||tznvsmuylzbfl.website^
+||tzqbdrwhse.com^
 ||tzqdeqmlxhinp.site^
 ||tzr7llm7w7z5z95b.rest^
 ||tzremprgecyje.website^
@@ -54989,6 +54995,7 @@ browsershots.org#@#.advert_area
 ||uncgeisllkmtn.website^
 ||unchidarrau.qpon^
 ||unchurnindices.com^
+||unciaopacoussticked.cyou^
 ||unciatoi.com^
 ||uncinchambash.com^
 ||uncitedenims.cfd^
@@ -58639,6 +58646,7 @@ browsershots.org#@#.advert_area
 ||wynvalur.com^
 ||wyojunmhapedc.site^
 ||wyrglylcvbpdy.net^
+||wyrgyixdlyvue.space^
 ||wyrkxpdolvfeh.online^
 ||wyuaxwofqyyzd.space^
 ||wyujsbwlvzhqp.website^
@@ -60141,6 +60149,7 @@ browsershots.org#@#.advert_area
 ||yphenxyyazpfv.com^
 ||ypiohesltiqrj.space^
 ||ypiqeucturclw.site^
+||yplerjums.com^
 ||ypmaztesjxhxn.site^
 ||ypmrjyxltcrra.space^
 ||ypocjgogabqjj.website^
@@ -78800,8 +78809,6 @@ amazon.*###nav-swmslot
 amazon.*###sc-rec-bottom
 amazon.*###sc-rec-right
 amazon.*###similarities_feature_div:has(span.sponsored_label_tap_space)
-amazon.*###sponsoredProducts2_feature_div
-amazon.*###sponsoredProducts_feature_div
 amazon.*##.AdHolder
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
@@ -78817,6 +78824,7 @@ amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.*##.sbv-video-single-product
 amazon.*##[cel_widget_id*="-creative-desktop_loom-desktop-"]
+amazon.*##[id^="sponsoredProducts"][id$="_feature_div"]
 amazon.*##div.s-inner-result-item > div.sg-col-inner:has(a.puis-sponsored-label-text)
 amazon.*##div[cel_widget_id*="Deals3Ads"]
 amazon.*##div[cel_widget_id*="_ad-placements-"]

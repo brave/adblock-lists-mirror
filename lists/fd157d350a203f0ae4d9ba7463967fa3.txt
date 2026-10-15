@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 184WZ3hkvsxASzne7UlP8g
-! Version: 202610150722
+! Checksum: TYPyPSkVlYXej1IiMOwq8Q
+! Version: 202610150742
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Oct 2026 07:22 UTC
+! Last modified: 15 Oct 2026 07:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25047,6 +25047,7 @@ lenta.news,lenta.ru##.traffic-exchange
 lenta.news,lenta.ru##.twz-banner
 lenta.news,lenta.ru##.vk-video-popup
 lenta.news,lenta.ru##.yandex-games
+rambler.ru#?#[aria-label="Виджеты"] div:-abp-has(> [data-rcm-widget])
 rambler.ru#?#[aria-label="Виджеты"] div:-abp-has(> div > [data-rcmw-init])
 rambler.ru,www.afisha.ru##[aria-label="Реклама"]
 mail.rambler.ru##[class*="MaillistItemAdvertPlace"]
@@ -25086,7 +25087,7 @@ championat.com,championat.ru##a[href*="offer_id="]
 championat.com,championat.ru,lenta.news,lenta.ru##a[href*="okko.sport"]
 www.afisha.ru##a[href^="/out/?url="]
 gazeta.press,gazeta.ru##a[href^="/prcom/"]
-rambler.ru##article [id^="rambler-weather-container:"] ~ div[class]
+rambler.ru##article [id^="rambler-weather-container:"] ~ div[class*=" "]
 rambler.ru#?#article div:-abp-has(> rambler-car-loan-calculator)
 rambler.ru#?#article div:-abp-has(> rambler-info-banner)
 rambler.ru#?#aside:-abp-has(> div > [class^="banner--native-partner_widget"])

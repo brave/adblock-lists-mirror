@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xo1K7Ag0LqWfaQ0h/LpIEg
-! Version: 202610160511
+! Checksum: VEnA2dXTGUlo9m5hsI/TTQ
+! Version: 202610160542
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Oct 2026 05:11 UTC
+! Last modified: 16 Oct 2026 05:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25178,7 +25178,6 @@ gazeta.press,gazeta.ru##div[id^="block_pad_id"]
 cnews.ru,utro.ru##.banner
 rbc.ru##.branding-block
 rbc.ru##.central-publisher-item[data-name^="CommercialAnons"]
-rbc.ru#?#.column-central-plus-side > .column-fullwidth:-abp-has([data-metronome-paywall="true"]) ~ .column-fullwidth:-abp-has([data-metronome-paywall="true"])
 rbc.ru##.fox-fallback
 rbc.ru,sportrbc.ru##.g-banner__news-footer > div[class="js-rbcslider-multi-news"]
 safe.cnews.ru##.header-brand-logo
@@ -25236,6 +25235,7 @@ autonews.ru,rbc.ru,rbcautonews.ru,rbclifemedia.ru,sportrbc.ru##a[href*="erid="][
 cnews.ru#?#a[href^="https://www.cnews.ru/redirect.php"]:-abp-contains(Дзен)
 autonews.ru,rbc.ru,rbcautonews.ru,sportrbc.ru##body div .banner__container
 autonews.ru,rbc.ru,sportrbc.ru##body div .banner__filmstrip
+rbc.ru#?#body.free .column-central-plus-side > [id^="article-block-"]:-abp-has(header [class*="styles_material-pro-logo"]) ~ [id^="article-block-"]:-abp-has(header [class*="styles_material-pro-logo"])
 rbc.ru#?#body.free .intresting__list > .intresting__item:-abp-has(a[href^="https://pro.rbc.ru/"])
 rbc.ru#?#body.free .sticky-element > article:-abp-has([href^="/story/pro"])
 rbc.ru##body.free a.meta-info-row-project[href^="https://pro.rbc.ru"]

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.6.4
+! Version: 4.4.6.5
 
 ! General
 
@@ -375,6 +375,7 @@ the-star.co.ke##div.premium-gate__paywall,div.premium-content figure:not(:has(im
 ||theatlantic.com/zephr/decision-engine$xmlhttprequest,~third-party
 theatlantic.com##aside#paywall,div[class^="LostInventoryMessage_"]
 ||thedailybeast.com/zephr/decision-engine$xmlhttprequest,~third-party
+thedailybeast.com##+js(cookie-remover, blaize_session)
 thediplomat.com##+js(ra, style, div#app_story_content, stay)
 thediplomat.com##+js(ra, hidden, aside[hidden], stay)
 thediplomat.com##aside#tda-gated-appendix,section#tda-gated-body

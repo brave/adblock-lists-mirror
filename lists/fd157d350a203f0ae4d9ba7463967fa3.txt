@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yL62UpGI7SC6Pg0mCjSrmg
-! Version: 202610190642
+! Checksum: jbRFadZ44wZBG4lV2xqojQ
+! Version: 202610190731
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Oct 2026 06:42 UTC
+! Last modified: 19 Oct 2026 07:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24534,10 +24534,10 @@ dzen.ru,sportsdzen.ru##.news-ad-swap-root
 dzen.ru##.news-rubricator [href="https://dzen.ru/news/rubric/chronologic"]
 dzen.ru##[aria-label="Контент страницы сюжета"] > [class*="discrete"] > div > div > div[id]
 dzen.ru#?#[aria-label="Контент страницы сюжета"] > [class*="discrete"] > div > div:-abp-has(> div[id])
-dzen.ru##[id*="_R-I-"]
-dzen.ru##[id*="_R-N-"]
-dzen.ru##[id*="_R-Q-"]
-dzen.ru##[id*="_tsar"]
+dzen.ru,sportsdzen.ru##[id*="_R-I-"]
+dzen.ru,sportsdzen.ru##[id*="_R-N-"]
+dzen.ru,sportsdzen.ru##[id*="_R-Q-"]
+dzen.ru,sportsdzen.ru##[id*="_R-T-"]
 dzen.ru##[id*="news_discrete_right"]
 sportsdzen.ru##div[class*="-sports-button-ad_"]
 dzen.ru##div[class*="DirectAdvert"]
@@ -24559,6 +24559,7 @@ dzen.ru##div[class^="news-site--news-"]::after
 dzen.ru##div[class^="news-site--news-"][class*="__container-"]
 dzen.ru,sportsdzen.ru##div[data-ad-index]
 dzen.ru##div[id*="discrete-feed-banner"]
+dzen.ru,sportsdzen.ru##div[id*="floor_ad"]
 dzen.ru##div[id*="story-skeleton"]
 dzen.ru##div[id][class*="news-"][class*="-advert"]
 dzen.ru##div[id][class*="news-"][class*="_loaded"]

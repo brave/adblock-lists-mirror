@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yTjgdx/BAt/5SBiAVSqniQ
-! Version: 202610192041
+! Checksum: TRM1/U3gwe1bGKXynUzzHg
+! Version: 202610192111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Oct 2026 20:41 UTC
+! Last modified: 19 Oct 2026 21:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11862,7 +11862,6 @@ www.i.ua###Premium
 7days.ru###RutubePlayerNews
 urod.ru###Stage
 myzuka.club###TVZavr
-flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom###TopAdMb
 smartpress.by###TopBox
 videovegas.ru###VegasHeadAds
 podarkus.ru###__next > div[style^="position:"] > div[style^="position:"]:empty + div:not(:last-child)
@@ -14092,7 +14091,7 @@ ggscore.com##.br-body
 ggscore.com##.br-col
 riotpixels.com##.br-new
 gdeetotdom.ru##.bracing-banner
-agroinfo.kz,flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom,livejournal.com##.brand
+agroinfo.kz,livejournal.com##.brand
 smolensk2.ru##.brand-banner
 bnkirov.ru##.brand-bg
 kinopod.ru##.brand-click
@@ -19438,7 +19437,6 @@ glavpost.com,ittour.com.ua,meta.ua,prohondroz.ru##div[class^="teaser"]
 dlltop.ru##div[class^="tm-article-banner"]
 odeve.ru##div[class^="toneBlock"]
 sravni.ru##div[class^="top-offers_"]
-flcksbr.top,flicksbar.fun,flicksbar.info,flicksbar.mom##div[class^="topAd"]
 formulalubvi.com##div[class^="traffic-video"]
 sovsport.ru##div[class^="trend-item_bet_"]
 rbook.me##div[class^="trsm"]
@@ -24045,6 +24043,8 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|note
 @@||s.zmctrack.net/z|$xmlhttprequest
 @@||s.znctrack.net/z|$xmlhttprequest
 @@||statika.mpsuadv.ru/scripts/*.js|$script,domain=trychatgpt.ru
+@@||stravers.live^$third-party,subdocument
+@@||stravers.live^$~third-party
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||captcha-api.yandex.ru^$domain=drive2.ru
 ||eg.ru^$csp=script-src 'self' 'unsafe-eval' https:
@@ -24182,7 +24182,7 @@ livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 !
 ! Плеер VeoVeo
 $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
-.link/$third-party,domain=gorodyshka.link|perepolokha.link|player.temptcdn.com|tazaromikaz.link
+.link/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|tazaromikaz.link
 /ad-rotator/ad-list.json
 /ad-rotator/vast.xml
 /api-integration/*?unique=$third-party,xmlhttprequest
@@ -24198,6 +24198,7 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 ||evropidar.org^$third-party
 ||greatekran.org^$third-party
 ||imgkcdn.com^$third-party
+||khitrozya.link^$third-party
 ||kinzazaza.org^$third-party
 ||krasnomaga.link^$third-party
 ||leningrib.org^$third-party
@@ -24272,6 +24273,16 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 @@/bundle.min.js$script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
 @@/bundle.serial.min.js$script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
 ||testwest.xyz^$third-party
+!
+! Flicksbar
+brogiro.cfd,bulkikim.cfd,fixtyflux.cfd,flicksbar.*,flcksbr.top,flcksbr.*###tgWrapper
+brogiro.cfd,bulkikim.cfd,fixtyflux.cfd,flicksbar.*,flcksbr.top,flcksbr.*###TopAdMb
+brogiro.cfd,bulkikim.cfd,fixtyflux.cfd,flicksbar.*,flcksbr.top,flcksbr.*##.brand
+brogiro.cfd,bulkikim.cfd,fixtyflux.cfd,flicksbar.*,flcksbr.top,flcksbr.*##div[class^="topAd"]
+cfd##body > .wrapper > #tgWrapper
+cfd##body > .wrapper > #TopAdMb
+cfd##body > .wrapper > .brand
+cfd##body > .wrapper > div[class^="topAd"]
 !
 ! HDRezka
 ! домены: hdrezka.ag,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.co,hdrezka.in,hdrezka.ink,hdrezka.loan,hdrezka.me,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkapez.org,hdrezkapzm.org,hdrezkawer.org,kinopub.me,rezka-ua.tv,rezka.ag,rezkery.com,rezkify.com

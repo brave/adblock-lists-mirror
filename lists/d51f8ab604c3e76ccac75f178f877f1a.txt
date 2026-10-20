@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20746.0
+! Version: 2026.20746.2
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -615,7 +615,7 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 /mingky[0-9]+\.net/##.contents_wrap.column div[style="display: flex; flex-direction: column; align-items: center;"]
 nightofpeace.com,ilovebees.io##.e-con-full.e-flex.e-con:has(a[target="_blank"] img)
 nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_blank"] img)
-/lover[0-9]\.net/##.div-over
+/lover[0-9]+\.net/##.div-over
 /^torrentqq[0-9]+.com/##.at-banner
 /torrentpi[0-9]+\.com/##.basic-post-gallery
 /tvwiki[0-9]+\.tv/##a:has(> img[src^="https://static.wixstatic.com/media/"])
@@ -745,6 +745,7 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 ||prod.danawa.com/info/ajax/getPowerClickProductList.ajax.php
 ||prod.danawa.com/bridge/loadingBridgePowerClick.php$document
 !
+||rest.memic.at/*/ad-campaigns/banners
 ||kkutugame.kr/api/ad-config
 ||kkutugame.kr/css/site-ads.css
 /storage/banners/$image,domain=ani.ohli24.com|aniweek.com
@@ -1628,6 +1629,8 @@ ipokergosu.com/banner/$domain=pokergosu.com
 !
 ! DOMAIN-REFRESHER: START
 !
+! aglint-disable-next-line no-invalid-modifiers
+||v1-0-0.pages.dev^$domain=/lover[0-9]+\.net/
 ||lover*.net/staticwrite/vmplayer0.js
 ||lover*.net/staticwrite/videoplaymasterfile.js
 ! aglint-disable-next-line no-invalid-modifiers
@@ -1663,11 +1666,11 @@ ipokergosu.com/banner/$domain=pokergosu.com
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/(www\.)?yako[0-9]+\.com\/upload\/banner\//$domain=/yako[0-9]+\.com/
 ! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/tohotv\/.*\.gif$domain=/lover[0-9]\.net/
+/lover[0-9]\.net\/file\/tohotv\/.*\.gif$domain=/lover[0-9]+\.net/
 ! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/1bet\/.*\.gif$domain=/lover[0-9]\.net/
+/lover[0-9]\.net\/file\/1bet\/.*\.gif$domain=/lover[0-9]+\.net/
 ! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/eve\/.*\.png$domain=/lover[0-9]\.net/
+/lover[0-9]\.net\/file\/eve\/.*\.png$domain=/lover[0-9]+\.net/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/cdn[a-z0-9]+\.site\/data\/banner\//$domain=/tvwiki[0-9]+\.net/
 ||wdwd*.com/data/banner/
@@ -2008,6 +2011,7 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
+memic.at##app-ad-slot
 www.inven.co.kr##.hero-section__top-ad
 aniweek.com,ani.ohli24.com##.banner-area-main
 linkani.tv##.linktv-banners
@@ -3914,10 +3918,10 @@ kilho.net##+js(set, hahaha, noopFunc)
 watchfreejavonline.co##+js(prevent-window-open, !watchfreejavonline.co)
 cokcok.stream##+js(trusted-replace-node-text, script, '/const *_[a-z0-9]+ *= *{ *"media_file" *: *" *https:\\\/\\\/cdn[0-9]+\.cokcok\.[a-z0-9]+\\\/assets\\\/videos\\\/.+"click_through" *:.+};/', media_file, '')
 ! aglint-disable-next-line
-/lover[0-9]\.net/##+js(aeld, click, 'opMagic)
+/lover[0-9]+\.net/##+js(aeld, click, 'opMagic)
 zzzz.lol##+js(nosiif, animationEffects[settings.animation.effect])
 ! aglint-disable-next-line
-/lover[0-9]\.net/##+js(nano-stb, closeBtn.innerHTML, , 0.001)
+/lover[0-9]+\.net/##+js(nano-stb, closeBtn.innerHTML, , 0.001)
 !
 ! DOMAIN-REFRESHER: END
 

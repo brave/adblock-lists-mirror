@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Tz6rdNv6+dovBwXVdpH4Ag
-! Version: 202610211312
+! Checksum: 0cjM3RZZIevSgYBZC3qnyQ
+! Version: 202610211342
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Oct 2026 13:12 UTC
+! Last modified: 21 Oct 2026 13:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24152,6 +24152,7 @@ pikabu.ru#?#article:-abp-has(> .story__left > div:not([class]))
 pikabu.ru#?#article:-abp-has(> .story__left > span:first-child)
 pikabu.ru#?#article:-abp-has(> .story__left > span:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main > div:not(:-abp-has(*)))
+pikabu.ru#?#article:-abp-has(> .story__main > div:not([class]))
 pikabu.ru#?#article:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
@@ -24200,6 +24201,7 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 ||cdn-global-mb.com^$third-party
 ||cdn-global-mst.com^$third-party
 ||cdn-mst-ru.com^$third-party
+||dolgoruka.link^$third-party
 ||eugeniy.org^$third-party
 ||evropidar.org^$third-party
 ||greatekran.org^$third-party

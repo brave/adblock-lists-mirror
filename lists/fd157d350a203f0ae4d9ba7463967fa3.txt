@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /K1jT8hZc2o2mrXAWsg9Yg
-! Version: 202610221733
+! Checksum: a/P17eJhF+otl9e0QeR6PA
+! Version: 202610221822
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Oct 2026 17:33 UTC
+! Last modified: 22 Oct 2026 18:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14510,7 +14510,6 @@ bookre.org##.dl_link ~ div[align="center"]
 comss.ru#?#.dlblock .dropdown-menu > li:-abp-has(> small:-abp-contains(Реклама))
 comss.ru##.dlblock [href*="?erid="]
 comss.ru#?#.dlblock:-abp-has([href*=".drp.su/"])
-appstorrent.ru##.dle_b_ad_block
 a7d.com.ua##.dle_b_big_header
 moviestape.lat##.dle_b_branding
 lrepacks.net##.dle_b_yandex
@@ -15804,6 +15803,7 @@ oane.ws##.plaintext > noindex
 bigpicture.ru##.plashka
 bnkirov.ru##.plate-panel
 megacritic.ru#?#.platform-content:-abp-has(> .moduletable a[rel="sponsored"])
+appstorrent.ru##.plati-block
 muzofond.fm##.playOther
 seetv.tv##.player > .reklama_b
 sexvideobaza.net##.player-bn
@@ -17472,7 +17472,7 @@ starhit.ru,woman.ru##[data-creative]
 drive2.com,drive2.ru##[data-data-ym-view]
 banki.ru##[data-dfp-container]
 briefly.ru##[data-disclaimer*="Реклама"]
-basaru.net.ru,gooool365.com,gooool365.org,gooool365.sx,lexxs.us,musictor.ru,superkarate.ru,topfile.tj,uzmov.net,weblance.com.ua##[data-dlebclicks]
+appstorrent.ru,basaru.net.ru,gooool365.com,gooool365.org,gooool365.sx,lexxs.us,musictor.ru,superkarate.ru,topfile.tj,uzmov.net,weblance.com.ua##[data-dlebclicks]
 dumatv.ru##[data-dzen-url]
 arguments.kyiv.ua,dailynews.kyiv.ua,elegantwoman.kyiv.ua,glamour.kyiv.ua,lady.kyiv.ua,medicalanswers.com.ua,news24.in.ua,ua-novosti.info,ua-vestnik.com,useti.org.ua,womanlife.kyiv.ua,zhenskiy.kyiv.ua##[data-element_type="widget"] a[rel="nofollow"]
 gdetraffic.com##[data-gcat="ads"]
@@ -17792,6 +17792,7 @@ burninghut.ru##a.article-button[rel="noopener"]
 mt.today##a.background
 gameinside.ua##a.banner
 focus.ua,zoneofgames.ru##a.branding
+appstorrent.ru##a.dialog-adguard-btn:not([href^="/"]):not([href^="https://appstorrent.ru/"])
 poker-wiki.ru##a.external[rel="nofollow"][href*="/go/?site="] > img[src$=".gif"]
 ria56.ru##a.gofollow[data-track]
 lifehacker.ru##a.goods__button[target="_blank"]
@@ -19139,6 +19140,7 @@ driver.ru##div[class] > a[href][target="_blank"] > img
 animespirit.tv#?#div[class]:-abp-has(> .content-b noindex)
 sravni.ru#?#div[class]:-abp-has(> [class] ~ div[style^="height:"] > [src*="sravni.ru/special-offers/"])
 mgazeta.com#?#div[class]:-abp-has(> [class^="_blockTitle_"] ~ div [class^="_teaserItem_"])
+ixbt.com#?#div[class]:-abp-has(> [data-testid="yandex-id-button"])
 bitcryptonews.ru,forum.materinstvo.ru,vse-shutochki.ru#?#div[class]:-abp-has(> [id^="yandex_rtb_"])
 point.md#?#div[class]:-abp-has(> a[href*="://sales.simpals.com/"][href*="banner"])
 spafilms.me#?#div[class]:-abp-has(> a[title] > div[class])
@@ -21302,7 +21304,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||appleinsider.ru/wp-content/themes/*/branding$image
 ||apps24.org/images/2019/Android-Games-2019.jpg
 ||apps24.org/images/2019/yandex_browser.jpg
-||appstorrent.ru/uploads/ad/
 ||appstudio.org/banners/
 ||apress-barmen.ru^$domain=pulscen.ru
 ||aqa.ru^*/moemgorod.html$subdocument

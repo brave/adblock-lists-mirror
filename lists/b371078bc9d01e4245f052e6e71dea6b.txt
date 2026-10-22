@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: GI2LU+AX6SPJfP7BCRbE4w
+! Checksum: 2mhHwkGmSaTJ3+Bc9DG/Sw
 ! Title: EasyList Hebrew
-! Last modified: 22 Oct 2026 21:14 UTC
+! Last modified: 22 Oct 2026 21:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -565,6 +565,7 @@ zoharajewels.com##*
 @@||cdnwiz.com/ads.js$xmlhttprequest
 @@||clalit.co.il/AdImages
 @@||creatix.co.il/img/banner/$image,xmlhttprequest,~third-party
+@@||dfusdigital.co.il/files/banners/$image,~third-party
 @@||dmag.co.il/pub/shvii/*$script
 @@||e.infogram.com^$domain=www.ynet.co.il
 @@||elite-coffee.co.il/dw/image/*/banners/*_*x*?$image,~third-party
@@ -581,6 +582,7 @@ zoharajewels.com##*
 @@||hamal.co.il/advertising/ads/gtm.js|$script,~third-party
 @@||hamal.co.il/public/assets/ads/$stylesheet,~third-party
 @@||hayeruka-ks.co.il/files/banners/$image,~third-party
+@@||heichal-hm.co.il/files/banners/$image,~third-party
 @@||hidabroot.org/themes/HDB/videojs/videojs.ads.min.js$script,~third-party
 @@||holmesplace.co.il/sites/all/modules$domain=holmesplace.co.il
 @@||hwzone.co.il/wp-content/plugins/wpadverts/assets/js/adverts-frontend.js$script,~third-party
@@ -592,6 +594,7 @@ zoharajewels.com##*
 @@||info.a7.org/info/delivery/lg*.php?$image,domain=inn.co.il
 @@||info.jdn.co.il/r/a7delivery_f.php?func=fLoadOne$script
 @@||israelbar.biz/files/banners/$image,~third-party
+@@||israelprintcenter.co.il/files/banners/$image,~third-party
 @@||israelsport.co.il/digiweb/userfiles/images/Ads/Getty$image
 @@||isramedia.net/ads.js$script,~third-party
 @@||isramedia.net/images/header/$image,~third-party
@@ -616,7 +619,7 @@ zoharajewels.com##*
 @@||old-games.org^$document
 @@||pagead2.googlesyndication.com/omsdk/$script,domain=ynet.co.il
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=sport5.co.il
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=haaretz.co.il|inn.co.il|isramedia.net|mako.co.il|n12.co.il|pc-dev.co.il|pc.co.il|sport5.co.il|tech12.co.il|themarker.com|tvbee.co.il
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=haaretz.co.il|inn.co.il|isramedia.net|mako.co.il|n12.co.il|pc-dev.co.il|pc.co.il|pricez.co.il|sport5.co.il|tech12.co.il|themarker.com|tvbee.co.il
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=pitaronfree.blogspot.co.il|pitaronfree.blogspot.com
 @@||partner.googleadservices.com/gpt/pubads_$script,domain=13news.co.il|13tv.co.il|haaretz.co.il|one.co.il|themarker.com
 @@||pas-rahav.com/creativitys
@@ -1108,6 +1111,8 @@ jobmaster.co.il###leftBanner
 jobmaster.co.il###rightBanner
 junkyard.co.il##.plasma_banner
 junkyard.co.il##div[id^="banner"]
+kenyonim.com##div.fullrow[style="min-height:250px;width:100%;position:relative;display:block;margin-top:15px;text-align:center;"]
+kenyonim.com##div.fullrow[style="text-align:center;height:250px;width:100%;"]
 kikar.co.il##.\[\&_iframe\]\:rounded.dark\:bg-gray-900.bg-gray-100.py-3.border-border.border-b.justify-center.flex.mx-auto.align-center.overflow-hidden.relative.text-center
 kikar.co.il##.h-\[200vh\] > .w-full.top-\[2\.8rem\].sticky > .ps-10.py-5
 kikar.co.il##.has-\[\*\]\:border-border.has-\[\*\]\:border-b.items-center.justify-center.md\:flex.hidden

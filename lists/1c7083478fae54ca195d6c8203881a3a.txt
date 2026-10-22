@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.6.5
+! Version: 4.4.6.6
 
 ! General
 
@@ -425,6 +425,8 @@ ynet.co.il###yitwall:remove()
 
 ! Advance Local
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##+js(rc, article__paragraph--blur, .article__paragraph--blur, stay)
+||reader.*.com/full_page_image/$inline-script,domain=cleveland.com|lehighvalleylive.com|mlive.com|nj.com|pennlive.com|silive.com|syracuse.com
+||reader.*.com/full_page_image/$inline-script,domain=huntsvilletimes.com|mobilepressregister.com|repub.com|thebirminghamnews.com|theoregonian.com
 
 ! Arizent
 accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,dig-in.com,financial-planning.com,nationalmortgagenews.com##+js(set, window.contentGating.ungate, true)
@@ -448,8 +450,6 @@ voguebusiness.com##+js(cookie-remover, userId)
 /\.vanityfair\.it\/[-\w]+$/$script,~third-party
 
 ! Crain Communications
-adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
-adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
 .com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|genomeweb.com|precisionmedicineonline.com
 european-rubber-journal.com##+js(rc, truncated, div.truncated, stay)
 european-rubber-journal.com##div.article-overlay,div.gradient

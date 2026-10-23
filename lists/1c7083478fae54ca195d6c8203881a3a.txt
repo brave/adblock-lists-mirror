@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.6.6
+! Version: 4.4.6.7
 
 ! General
 
@@ -607,7 +607,6 @@ policorner.ca##div.free-text,div.subscribe-box
 ||gyrovague.com^$xmlhttprequest,third-party
 ||top-fwz1.mail.ru^$script,third-party
 
-||jeuneafrique.com/cdn-cgi/trace$xmlhttprequest,~third-party
 ||assets.guim.co.uk/assets/StickyBottomBanner-island.client.web.*.js$script,domain=theguardian.com
 theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
 timesofindia.indiatimes.com##+js(ra, style, body[style], stay)

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: ry54ahvNYYZuL7eRmVTTZQ
+! Checksum: mqYKnfftJ2BpJFbQdwaCiw
 ! Title: Easylist Cookie List
-! Last modified: 2026-10-24 09:50 UTC
+! Last modified: 2026-10-24 14:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -19848,7 +19848,8 @@ facebook.com##body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-
 community.nexthink.com##c-community-cookie-consent-banner
 success.trendmicro.com##c-dcx-cookie
 criticalsoftware.com##c15t-ui-bannerVisible-pYYY9
-order.maxburgers.com##consent-banner.ng-scope
+zohorecruit.*##career-cookie-consent
+order.maxburgers.com##consent-banner
 qualified.io##consent-cookie-popup
 23degrees.io##consent-toast
 axis.com,orbis.com##cookie-consent
@@ -20445,7 +20446,7 @@ flexiti.com##.z-999
 !! .z-100
 cote.co.uk,ennismore.com,gemini.pl,sallys-shop.de##.z-100
 !! .cookie-panel
-1cbit.ru,schools.by,talon.by,timeweb.com##.cookie-panel
+1cbit.ru,1pc.co.il,schools.by,talon.by,timeweb.com##.cookie-panel
 !! .cookie-bar
 amateurtvx.com,ansell.com.cn,appstorrent.ru,bakkersonline.be,bierlinie-shop.de,bootstrapmade.com,bulupoint.de,bushido-shop.com,campusfesztival.hu,dadcrush.com,debenhamsottaway.co.uk,devonalds.co.uk,domgate.com,e-kiosk.pl,egazety.pl,epochtimes.kr,f6s.com,familystrokes.com,gonser.ch,inovamar.pt,kb.cz,kirkusreviews.com,manilatimes.net,mastername.ru,meuhedet.co.il,milftvx.com,mylf.com,nocibe.fr,nordicpond.shop,pervmom.com,pervz.com,proex2000.cz,schuhparadiso.de,sextvx.com,shoplyfter.com,siamsport.co.th,smartocto.com,swappz.com,teamskeet.com,teentvx.com,thenationalherald.com,titstvx.com,triodos.co.uk,tuning-art.com,um.suwalki.pl,umbler.com,wohntextilien4you.de,zerounoweb.it##.cookie-bar
 !! .cookie_bar
@@ -21251,7 +21252,7 @@ blaguss.com,hikoki-powertools.eu,huebschundgut.de,kontextwochenzeitung.de,oekola
 srf.nu##+js(set-cookie, CookieConsent, necessary)
 jku.at##+js(set-cookie, CookieConsent, required)
 app.zasta.de,cataloagedeoferte.ro,dentmania.de,flexwhere.de,free.navalny.com,getunleash.io,latoken.com,pricewise.nl,secfi.com,softlist.com.ua##+js(set-cookie, CookieConsent, true)
-criticalsoftware.com,melee.gg,openbookpublishers.com,roxi.tv,tidningenbalans.se##+js(set-cookie, CookieConsent, true, , reload, 1)
+melee.gg,openbookpublishers.com,roxi.tv,tidningenbalans.se##+js(set-cookie, CookieConsent, true, , reload, 1)
 hanos.nl##+js(set-cookie, CookieConsentChoice, 3)
 firsttable.co.uk##+js(set-cookie, CookieConsentFT, 1)
 bjootify.com##+js(set-cookie, CookieConsentStatus, Allow)
@@ -23029,6 +23030,7 @@ businessclass.com##+js(set-local-storage-item, bcCookieAccepted, true)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
 byfood.com##+js(set-local-storage-item, byFoodCookiePolicyRequire, false)
 telemetr.io##+js(set-local-storage-item, c, false)
+criticalsoftware.com##+js(set-local-storage-item, c15t, 1)
 zeglins.com##+js(set-local-storage-item, canada-cookie-acknowledge, 1)
 cuba-buddy.de##+js(set-local-storage-item, cb-accept-cookie, true)
 mein-osttirol.rocks##+js(set-local-storage-item, ccb_contao_token_1, 1)
@@ -25787,7 +25789,7 @@ cmotors.co.il###cm-consent-banner
 ortcolleges.org.il###cookie-alert-dialog
 tambour.co.il###cookie-consent-acf-backdrop
 impress-stores.co.il,tambour.co.il###cookie-consent-acf-modal
-house-design.shop,kerenby.co.il,korenelectric.co.il,koretzki.co.il,peerlocks.com,soragit.co.il,sporty.co.il,spy.org.il,tudo.co.il###cookie-consent-popup
+ertzcamping.co.il,graphor87.co.il,house-design.shop,kerenby.co.il,korenelectric.co.il,koretzki.co.il,leensknit.co.il,peerlocks.com,soragit.co.il,sporty.co.il,spy.org.il,tudo.co.il###cookie-consent-popup
 ngsoft.com###cookie-consent-strip
 zinger-organic.com###cookie-consent-wrapper
 019mobile.co.il###cookie-except-banner
@@ -25811,6 +25813,7 @@ mizraney-olympia.co.il###flexiblecookies_container
 kleibait.com###floating_privacy_notice
 jfc.org.il###footer_cookies_message_wrap
 car-keys.co.il###fzcn-banner
+hanson-israel.com###gdpr-modal-overlay
 bigelectric.co.il###gdprCookieBar
 andjoy.co.il###hpPrivacyPopup
 idan88.co.il###idan-cookie-banner
@@ -25820,6 +25823,8 @@ asofta.co.il,carmelph.co.il,equipit.co.il,h1944.co.il,iccjer.co.il,mekimi.co.il#
 ptora.co.il,zmaneshkol.co.il###ilp-consent-banner
 jppi.org.il###jppi-cc-banner
 lizlol.co.il###lz-consent
+maven-group.co.il###maven-cookie
+maven-group.co.il###maven-cookie-overlay
 wine-eilat.com###mcc-cookie-bar
 smnh.tau.ac.il###nmoCookieBanner
 tekoafarms.co.il###pcm-consent-popup
@@ -25827,7 +25832,7 @@ pezzi.co.il###pezzi-cookie-popup
 momflavours.co.il###pl-acg-bar
 bargad.co.il,coi.co.il,storemobile.co.il###privacyPop
 inz.org.il###privacyPrompt
-nabob-lock.co.il,shukhashmal.co.il###privacy_alert
+nabob-lock.co.il,ronitek.co.il,shukhashmal.co.il###privacy_alert
 dunietz-elad.co.il,invoice4u.co.il###privacy_policy_popup
 ivory.co.il###removeBannerCookie
 ipo.co.il###rg-privacy-wrap
@@ -25862,6 +25867,7 @@ nooa.co.il##.cmplz-cookiebanner
 israelpost.co.il##.cookie-agreement
 yad2.co.il##.cookie-implementation-disclaimer_popupRoot__CLI1m
 deasy.co.il,easygo.co.il##.cookieMessage
+icomp.co.il##.cookieagry
 novelsat.com##.cookiepopup
 gesher-theatre.co.il##.cookies-approval-strip-wrapper
 bug.co.il##.cookies-policy-modal-container
@@ -25874,6 +25880,7 @@ bursteinstore.co.il,kitchenware.co.il,negro.co.il##.custom-cookie-outer
 tel-aviv.gov.il##.customerAgreement
 medic-center-sport.co.il,winehouse.co.il##.digita-privacy-popup
 drushim.co.il##.dr-cookie-banner
+digitall.co.il##.dt-cookie
 mtoys.co.il##.e2w-cookie-popup
 booknet.co.il##.ec_modal-cover
 bcommunications.co.il,ir.maxstock.co.il##.ecl-banner
@@ -25915,6 +25922,7 @@ bleeckerbakery.co.il,million-kisot.co.il##.sgcc-main-wrapper
 my.mor.org.il##.shadow-consent-banner
 jspca.org.il,letlive.org.il##.site-consent-banner
 l-s.co.il##.sogo-pc-banner
+israelprintcenter.co.il##.sux-cb-backdrop
 htrl.co.il##.w3d-cb-banner
 mgweb.co.il##.widget_privacy_alert
 sancar.co.il##.xtra-cookie
@@ -25933,13 +25941,14 @@ assuta.co.il##div[class^="CookieConsent_"]
 tami4.co.il##div[class^="CookiesAgreement_"]
 business.colmobil.co.il,hyundaimotors.co.il##div[class^="StyledPopupPrivacyCookies-"]
 dutyfree.co.il##div[class^="cookieRestriction-module__root-"]
-amosbld.co.il,billiard.co.il,brandsonsale.co.il,cameracity.co.il,carmelpc.co.il,ceramicdepot.co.il,depot365.co.il,dror-tools.co.il,drummer.co.il,dynamica.co.il,dyo-ink.co.il,electro-buy.co.il,eline.co.il,elitaieb.co.il,espressobar.com,foxhead.co.il,freedio.co.il,grillmaster.co.il,hotbuy.co.il,iwtools.co.il,j-sale.co.il,kafu.co.il,kfar.co.il,kilombo.co.il,ktech.co.il,laserline.co.il,lcdeal.co.il,levhabait.co.il,mabudi.co.il,mai-art.co.il,mnmltd.co.il,motoline.co.il,msport.co.il,mugrabi.co.il,musicol-shop.co.il,musicworld.co.il,orpc.co.il,out-of-the-box.co.il,pascale.co.il,pokito.co.il,pro-safety.co.il,selaram.co.il,speedio.co.il,sportcenter.co.il,studioland.co.il,sulemastore.co.il,taflaya.co.il,tapro.co.il,technoshlomo.co.il,totalsport.co.il,toysandmore.co.il,victor-arizot.co.il,video.org.il,voltstreet.co.il,welovecoffee.co.il,wineandmore.co.il,workimhi.co.il##div[class^="cookiesPopup"]
+amosbld.co.il,billiard.co.il,brandsonsale.co.il,cameracity.co.il,carmelpc.co.il,ceramicdepot.co.il,depot365.co.il,dror-tools.co.il,drummer.co.il,dynamica.co.il,dyo-ink.co.il,electro-buy.co.il,eline.co.il,elitaieb.co.il,espressobar.com,foxhead.co.il,freedio.co.il,grillmaster.co.il,hotbuy.co.il,iwtools.co.il,j-sale.co.il,kafu.co.il,kfar.co.il,kilombo.co.il,ktech.co.il,laserline.co.il,lcdeal.co.il,levhabait.co.il,mabudi.co.il,mai-art.co.il,mnmltd.co.il,motoline.co.il,msport.co.il,mugrabi.co.il,musicol-shop.co.il,musicworld.co.il,orpc.co.il,out-of-the-box.co.il,owlmarket.co.il,pascale.co.il,pokito.co.il,pro-safety.co.il,selaram.co.il,speedio.co.il,sportcenter.co.il,studioland.co.il,sulemastore.co.il,taflaya.co.il,tapro.co.il,technoshlomo.co.il,totalsport.co.il,toysandmore.co.il,victor-arizot.co.il,video.org.il,voltstreet.co.il,welovecoffee.co.il,wineandmore.co.il,workimhi.co.il##div[class^="cookiesPopup"]
 pix.co.il##div[class^="sticky-cookies-"]
 yad2.co.il##div[data-nagish="cookie-implementation-disclaimer"]
 10bis.co.il##div[data-test-id="cookie-consent"]
 hb2.bankleumi.co.il##div[data-tid="cookies-banner"]
 atrakzya.co.il,milega.co.il,shkedya.co.il,tooleden.com##flashy-popup
 postalfinance.co.il##float-window-alert
+shilav.co.il##popup-message[data-cookie-duration]
 solar-portal.co.il##section[aria-label="הודעת פרטיות וקובצי Cookie"]
 tase.co.il##tase-cookies-policy
 !
@@ -26654,7 +26663,7 @@ itaka.pl##.cky-modal
 itaka.pl##.cky-overlay
 aterima-work.pl##.cm-popup-wrapper
 pracuj.pl##.cmulq7z
-pls.pl,tauronliga.pl##.cokie-manager-dialog
+mezczyzni.mistrzostwapolskimasters.pl,pls.pl,tauronliga.pl##.cokie-manager-dialog
 sklep.szprychy.com##.config-messages
 rozetka.pl##.consent-layout
 gonet.tv##.consent_form_basic

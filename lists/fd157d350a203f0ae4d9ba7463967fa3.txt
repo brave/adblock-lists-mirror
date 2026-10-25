@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gFjTIoXeJpyNuitj8vbobw
-! Version: 202610250651
+! Checksum: M+7nAti/lNYr4YFl4NhVxg
+! Version: 202610250712
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Oct 2026 06:51 UTC
+! Last modified: 25 Oct 2026 07:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24199,6 +24199,7 @@ livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 .link/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
 .org/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
+.org/vwm2zm76jr?$third-party,xmlhttprequest
 /ad-rotator/ad-list.json
 /ad-rotator/vast.xml
 /api-integration/*?unique=$third-party,xmlhttprequest
@@ -24206,6 +24207,7 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 /api-integration/assets/*.txt?*=$third-party,xmlhttprequest
 /vast/ad-rotator/*
 ?utm_source=veoveo$popup
+||antonshipanov.org^$third-party
 ||balamutka.link^$third-party
 ||beloboka.link^$third-party
 ||bystroglaza.link^$third-party
@@ -24241,6 +24243,7 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 ||rstprgapipt.com^$third-party,xmlhttprequest
 ||rubakaka.org^$third-party
 ||ryabokoshka.link^$third-party
+||sablyaizgovna.org^$third-party
 ||samograyka.link^$third-party
 ||shaloburda.link^$third-party
 ||sinebryuga.link^$third-party

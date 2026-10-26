@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IW4YM+mGN1+QFgXNltvhTA
-! Version: 202610260832
+! Checksum: aOKTSPh+Hc3tPDyGtDUYYA
+! Version: 202610260852
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Oct 2026 08:32 UTC
+! Last modified: 26 Oct 2026 08:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1778,8 +1778,9 @@ mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
 nnm-club.me,nnmclub.ro,nnmclub.to##body > .wrap {top:0;}
 overclockers.ru##a.over-hiddenlink-html[href*="://market.yandex.ru/"][target="_blank"] {pointer-events:none;color:inherit;}
 overclockers.ru##a.over-hiddenlink-html[href*="erid="][target="_blank"] {pointer-events:none;color:inherit;}
-pikabu.ru##.header {top:0;}
-pikabu.ru##.promo-banner {height:0;}
+pikabu.ru##.promo-banner-sticky .header {top:0;}
+pikabu.ru##.promo-banner-sticky .header-tab-list {top:0;}
+pikabu.ru##.promo-banner-sticky .promo-banner {height:0;}
 povarenok.ru##.page-width {margin-top:0;}
 povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
 profinance.ru##main > .content-grid {grid-template-columns:unset;}

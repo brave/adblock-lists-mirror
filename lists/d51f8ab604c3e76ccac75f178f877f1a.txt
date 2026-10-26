@@ -1,6 +1,6 @@
 ! Title: filterslists-KO classic (uBO)
 ! Description: uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.
-! Version: 2026.20752.2
+! Version: 2026.20752.1
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/FilteringDev/filterslists-KO
 ! Licence: https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE
@@ -746,7 +746,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 ||prod.danawa.com/info/ajax/getPowerClickProductList.ajax.php
 ||prod.danawa.com/bridge/loadingBridgePowerClick.php$document
 !
-||tokenpost.kr/index/ajax/getLogClickBanner
 ||foapi.teescanner.com/v1/homemenu/getHomeIntroList
 ||rest.memic.at/*/ad-campaigns/banners
 ||kkutugame.kr/api/ad-config
@@ -2015,7 +2014,7 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
-tokenpost.kr##.v3_ad_slot
+tokenpost.kr##body > .base_v3_wrap > div[data-ad-slot]
 search.11st.co.kr##div[data-ui-type="ProductScroll_BrandAd"]
 search.11st.co.kr##ul#arChipPaneldefault > li.c-card-item--ad
 search.11st.co.kr##ul[data-ui-type="Product_List_Search"]:has(> li[id^="topAdArea1-"])

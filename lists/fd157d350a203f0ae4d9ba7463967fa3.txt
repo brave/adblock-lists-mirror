@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ldzvj/gDDlPHKmalQjq8Pg
-! Version: 202610260732
+! Checksum: v3ZjP85fsP9Pstisox+LzQ
+! Version: 202610260751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Oct 2026 07:32 UTC
+! Last modified: 26 Oct 2026 07:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1754,6 +1754,7 @@ ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 esports.ru##html.overflow-hidden .js-popup-promo {display:none;}
 esports.ru##html.overflow-hidden {overflow:auto;}
 ex-fs.net###content {margin-top:0;}
+gamemag.ru#?#.content-row__content:has(p:has-text(erid:)) > p a:not([href^="/"]):not([href^="https://gamemag.ru/"]) {pointer-events:none;color:inherit;}
 interface31.ru##.ads-top-container {min-height:0;margin-bottom:0;}
 ixbt.com##body {background-image:none;}
 kanobu.ru##a[href*="erid="] {pointer-events:none;color:inherit;}
@@ -3932,6 +3933,7 @@ _tizers.
 ||xstats.in^
 ||xxx-news.$third-party
 ||yandex-games.ru/ok/banners/
+||yandex.*/adfox/
 ||yandex.*/ads/adfox/$third-party
 ||yandex.net/banner/
 ||yandex.ru./$third-party
@@ -15250,7 +15252,6 @@ mt.today##.logo ~ .logo
 zabeba.li##.logo-container > div[class="widget-header"]
 gamemag.ru##.logo-df
 clubfile.net##.logo-w + a[target="blank_"]
-gamemag.ru##.logo-zen-feed
 chevy-niva.ru##.logo.right
 osnmedia.ru##.logo1000
 21region.org##.logo_ad_wrap
@@ -15556,7 +15557,6 @@ gorod3466.ru#?#.news-grid > div:-abp-has(> .thumbnails[data-bg])
 om1.ru##.news-grid > div[id^="first"]
 om1.ru##.news-grid > div[id^="rastyagka"]
 onliner.by##.news-incut_position_right
-gamemag.ru#?#.news-item-wrap > .news-item:-abp-has(> span:-abp-contains(Ad))
 thepage.ua#?#.news-list > .news-list__item:-abp-has(.advertising_material)
 thepage.ua#?#.news-list > .news-list__item:-abp-has(.company_news)
 thepage.ua#?#.news-list > .news-list__item:-abp-has(.partner_material)
@@ -17859,7 +17859,7 @@ pirate-party.ru,piratemedia.net##a[href*=".sim-networks.com/index.php?pid="]
 ctc-rnd.ru##a[href*=".space"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.org##a[href*=".vkplay.ru"]
 wintorrents.ru##a[href*=".wintorrents.ru"]
-1tv.ru,drive.ru,f1news.ru,film.ru,gamemag.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,tolknews.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
+1tv.ru,drive.ru,f1news.ru,film.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,tolknews.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
 beatmake.ru##a[href*="//go.acstat.com/"]
 porno-island.site##a[href*="//goo.su/"]
 adult-images.ru,imgbum.ru,screenpost.ru,xpicture.ru##a[href*="//parnuxi.biz"]
@@ -21927,6 +21927,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||gamegpu.com/images/banners
 ||gameinside.ua^*/branding$image
 ||gamelayer.ru/dist/public/preloader.js
+||gamemag.ru/ads.txt
 ||gamemag.ru/images/top-img$image
 ||gamer.ru/*branding
 ||gamer.ru/assets/skins/

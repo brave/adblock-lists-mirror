@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aOKTSPh+Hc3tPDyGtDUYYA
-! Version: 202610260852
+! Checksum: PVgzxnuXWAHx92/bF5Qx+g
+! Version: 202610260932
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Oct 2026 08:52 UTC
+! Last modified: 26 Oct 2026 09:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1778,9 +1778,9 @@ mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
 nnm-club.me,nnmclub.ro,nnmclub.to##body > .wrap {top:0;}
 overclockers.ru##a.over-hiddenlink-html[href*="://market.yandex.ru/"][target="_blank"] {pointer-events:none;color:inherit;}
 overclockers.ru##a.over-hiddenlink-html[href*="erid="][target="_blank"] {pointer-events:none;color:inherit;}
+pikabu.ru##.promo-banner {height:0;}
 pikabu.ru##.promo-banner-sticky .header {top:0;}
 pikabu.ru##.promo-banner-sticky .header-tab-list {top:0;}
-pikabu.ru##.promo-banner-sticky .promo-banner {height:0;}
 povarenok.ru##.page-width {margin-top:0;}
 povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
 profinance.ru##main > .content-grid {grid-template-columns:unset;}
@@ -16339,6 +16339,7 @@ drive.ru##.side-link
 parnuxi.biz##.side-rkl-section
 officelife.media##.side-section__banner-wrap
 the-geek.ru##.side-text
+appstorrent.ru##.side-tile a[target="_blank"]
 transkarpatia.net##.side-widget > a[href][target="_blank"] > img:not([alt*="elegra"])
 siteua.org#?#.sideBlock:-abp-has(> .adsbygoogle)
 siteua.org#?#.sideBlock:-abp-has(> [id^="CNM"])
@@ -17481,7 +17482,7 @@ starhit.ru,woman.ru##[data-creative]
 drive2.com,drive2.ru##[data-data-ym-view]
 banki.ru##[data-dfp-container]
 briefly.ru##[data-disclaimer*="Реклама"]
-appstorrent.ru,basaru.net.ru,gooool365.com,gooool365.org,gooool365.sx,lexxs.us,musictor.ru,superkarate.ru,topfile.tj,uzmov.net,weblance.com.ua##[data-dlebclicks]
+basaru.net.ru,gooool365.com,gooool365.org,gooool365.sx,lexxs.us,musictor.ru,superkarate.ru,topfile.tj,uzmov.net,weblance.com.ua##[data-dlebclicks]
 dumatv.ru##[data-dzen-url]
 arguments.kyiv.ua,dailynews.kyiv.ua,elegantwoman.kyiv.ua,glamour.kyiv.ua,lady.kyiv.ua,medicalanswers.com.ua,news24.in.ua,ua-novosti.info,ua-vestnik.com,useti.org.ua,womanlife.kyiv.ua,zhenskiy.kyiv.ua##[data-element_type="widget"] a[rel="nofollow"]
 gdetraffic.com##[data-gcat="ads"]

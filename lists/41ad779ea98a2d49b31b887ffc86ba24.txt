@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UOnMFkCoSITN6fVwSgUEJw
-! Version: 202610281900
+! Checksum: OJlUJIe4dMqh2llhw5eK+g
+! Version: 202610281925
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-10-28 19:00 UTC
+! Last modified: 2026-10-28 19:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42457,6 +42457,9 @@ la-becanerie.com##+js(set-cookie, cookieconsent2_dismissed, yes)
 ! .frontendPrivacy__modalWrapper
 giovaniemedia.ch,jeunesetmedias.ch,jugendundmedien.ch##.frontendPrivacy__modalWrapper
 giovaniemedia.ch,jeunesetmedias.ch,jugendundmedien.ch##body,html:style(overflow: auto !important; position: initial !important;)
+! #moove_gdpr_cookie_info_bar
+globalcitizensolutions.com###moove_gdpr_cookie_info_bar
+globalcitizensolutions.com##+js(remove-class, gcs-cc-lock, html, stay)
 ! .g-consentmanager
 gemeinsam-klasse-sein.de,tk.de##.g-consentmanager
 gemeinsam-klasse-sein.de,tk.de##body,html:style(overflow: auto !important; position: initial !important;)
@@ -49251,6 +49254,7 @@ thehackernews.com###email-outer
 disqus.com###email-signup
 statcounter.com###email-subscribe
 courthousenews.com###email-subscribers
+ballotpedia.org###email-update-small
 sheets.works###emailFloat
 airlinegeeks.com,avweb.com,flyingmag.com,planeandpilotmag.com###emailcapform
 planeandpilotmag.com###emailcaptform
@@ -50215,6 +50219,7 @@ opendemocracy.net##.donation-cta-contenttop
 news-daily.com##.double-padding-top
 forksoverknives.com##.download-block
 fivehearthome.com,myquietkitchen.com,thenovicechefblog.com,wholefully.com##.dpsp-email-save-this-tool
+ballotpedia.org##.drift-widget-email-capture
 drugtargetreview.com##.drugt-before-you-go
 inverse.com##.dsa
 umaar.com##.dt-tip-subscribe
@@ -51652,6 +51657,7 @@ worth.com##.worth-newsletter-section
 merriam-webster.com##.wotd-side__subscribe
 plantpowercouple.com##.wp-block-aweber-signupform-block-aweber-shortcode
 creepycatalog.com##.wp-block-cata-newsletter
+news.ballotpedia.org##.wp-block-cover
 astronomy.com##.wp-block-cover[style="padding-top:0;padding-bottom:0"]
 eugeneweekly.com##.wp-block-eugene-weekly-newsletter-signup
 gamespot.com##.wp-block-gamespot-blocks-newsletter

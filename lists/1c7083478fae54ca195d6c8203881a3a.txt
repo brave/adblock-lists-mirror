@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.6.9
+! Version: 4.4.7.0
 
 ! General
 
@@ -741,6 +741,8 @@ legalbites.in##+js(ra, class, div.hide.paywall-content, stay)
 legalbites.in##div#subscription_paid_message,div.restricted_message > div.story
 lepetitjournal.net##.message-restricted-woocommerce
 lepetitjournal.net##+js(rc, excerpt, div.excerpt, stay)
+||indianexpress.com/*/metering.min.js$script,domain=loksatta.com
+loksatta.com##+js(ra, amp-access-hide, [amp-access][amp-access-hide], stay)
 lydogbillede.dk,lydogbilde.no##+js(rc, thecontent, div.thecontent, stay)
 lydogbillede.dk,lydogbilde.no##+js(ra, style, div#MoreLink_content-container[style], stay)
 lydogbillede.dk,lydogbilde.no##div.paywallbox,div#MoreLink_fade-out-div
@@ -772,6 +774,9 @@ opopular.com.br##div.PJLV-ihxtsVt-css
 ||perspectivemedia.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 perspectivemedia.com##div.hustle-ui
 popbitch.com##+js(ra, class, div[class*="-premium"], stay)
+psychologie-heute.de##+js(ra, class, div.paywalledContent, stay)
+psychologie-heute.de##+js(ra, class, div.payWall, stay)
+psychologie-heute.de##div.payWallModal,div.articleRunningText>div:first-child>p:last-child,div.articleRunningText>div:nth-child(4)>p:first-child
 psypost.org##+js(cookie-remover, issuem_lp)
 publishersweekly.com##+js(ra, class|style, div#contentdiv.loggedInOnly, stay)
 publishersweekly.com##div#contentdiv.loggedOutOnly

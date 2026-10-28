@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DLyZkE1nklEXyo7pNVUpBQ
-! Version: 202610281312
+! Checksum: VVmse+Mk8FDDGVLh9NbKmQ
+! Version: 202610281332
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Oct 2026 13:12 UTC
+! Last modified: 28 Oct 2026 13:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13763,7 +13763,7 @@ aum.news,kinoprofi.vip##.banner-sidebar
 gotennis.ru##.banner-simple
 habr.com##.banner-slider
 koroldanylo.com.ua##.banner-slider-container
-ucrazy.org##.banner-slot
+24tv.ua,ucrazy.org##.banner-slot
 rayon.in.ua##.banner-slot-container
 ogo.ua##.banner-strip
 trud.com##.banner-systems-container
@@ -16091,6 +16091,7 @@ business-class.su,time.kz##.rennab
 terabit.biz##.reset > li > a[target="_blank"]
 otzovik.com##.review-body > div
 tmbw.ru#?#.reviewwidget:-abp-has(.adwidget)
+24tv.ua##.revive-block
 medvesti.com##.rew-block
 matchtv.ru##.rexona_player_play
 tass.ru##.rfm-marquee-container
@@ -17283,6 +17284,10 @@ ilenta.com##[alt="Ads"]
 taxifm.ru##[alt="LoveProd"]
 chipmaker.ru,goldsrc.ru##[alt="advertisement_alt"]
 gzt-sv.ru##[alt^="Реклама"]
+24tv.ua##[app-ad]
+24tv.ua##[app-article-fuel]
+24tv.ua##[app-article-ita]
+24tv.ua##[app-article-partner-ad]
 root-nation.com##[aria-label="Root-Nation Ad-Free"]
 gordonua.com##[aria-label="advertisement"]
 uznayvse.ru##[aria-label="areaAdvertise"]
@@ -17717,6 +17722,7 @@ browserss.ru##[onclick^="window."][onclick*="://"]
 allboxing.ru##[onmouseenter="onClickPbButton()"]
 penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
+vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-promo-post-hash])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [href*="utm_source=vk_ads"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(onelink.me/))
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel][href*="utm_campaign"])
@@ -26244,6 +26250,7 @@ blogspot.ru##.widget-content > #overlay
 inforeactor.ru##.yandex-widget
 2gis.ru,2gis.*##._1nhfz2
 2gis.ru,2gis.*##._1nnq5pzj
+24tv.ua##[app-age-gate-card]
 tass.ru##[class*="Layout_bottom_fixed_"]
 videobel.by##[class*="player-skin-holder-uicomponent__Holder-sc-"]::before
 tass.ru##[data-no-mourning="true"][class^="DesktopLayout_above"]

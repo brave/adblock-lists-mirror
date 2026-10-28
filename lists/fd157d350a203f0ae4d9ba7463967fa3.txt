@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fmVvhrs6JvQ3wpYAWaZIrA
-! Version: 202610281212
+! Checksum: quCLhxeGNUch/vhh2LJw5g
+! Version: 202610281233
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Oct 2026 12:12 UTC
+! Last modified: 28 Oct 2026 12:33 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14888,7 +14888,7 @@ soft-click.ru##.header-html-1
 rozetked.me##.header-img
 mmo.one##.header-link
 mi100.info##.header-main__banner
-pikabu.ru##.header-menu__item_finances
+pikabu.ru##.header-menu__item_alfa
 football.ua##.header-nav .isport-link
 wowhead.com##.header-nav-wowhead-premium
 fishki.net##.header-nav__link[href="/games/"]
@@ -24084,7 +24084,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=livejournal.com|olegmaka
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?hB8Hk=$xmlhttprequest
+||pikabu.ru/ajax/*?mRm3c=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -25641,9 +25641,9 @@ ya.ru##.i-mini-bem[class*="banner"]
 ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
-ya.ru##html[class*="secctssian_top"] main > div[class*="__"] ~ div[class*="__"] ~ div[class*="__"] > div
+ya.ru##html[class*="secctsslan_top"] main > div[class*="__"] ~ div[class*="__"] ~ div[class*="__"] > div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="secctssian-items-count:"]
+ya.ru##section[style*="secctsslan-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.Bno_isPromoSnippet

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JbZrUO/3gI0+OvpwyuqNkw
-! Version: 202610281702
+! Checksum: QjuoE/rb0cahj04tF1R/qQ
+! Version: 202610281732
 ! Title: EasyList Germany
-! Last modified: 28 Oct 2026 17:02 UTC
+! Last modified: 28 Oct 2026 17:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -3000,6 +3000,7 @@ juraforum.de###jf-stroer-sky
 juraforum.de###jf-stroer-superbanner
 local.ch###js-banner
 ostfriesischer-kurier.de###jsn-pos-user-top
+4kfilme.de###kb-top-row
 forum.kinder.de###kinder\.de_sitebar_1
 forum.kinder.de###kinder\.de_sitebar_2
 klamm.de###klamm\.de_forum_1
@@ -3264,7 +3265,6 @@ ddl-warez.cc###tab-1 p:nth-of-type(1),#tab-1 p:nth-of-type(2),#tab-1 p:nth-of-ty
 liveticker.com###tab-live-odds
 stuttgarter-zeitung.de###taboola-mhsd
 marktindex.ch###td_uid_9_6141b5fdcbe72
-4kfilme.de###tdi_39
 lokalo.de###tdi_67
 giga.de,kino.de,watson.de###teaserheld-header
 tennisnet.com###tennisnetWidget
@@ -5811,6 +5811,7 @@ onvista.de#?#div[class="md:col-span-3 lg:col-span-4"]:-abp-has(span:-abp-propert
 onvista.de#?#div[class="md:col-span-3 lg:col-span-4"]:has-text(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 pctipp.ch#?#.list_item:has(.dachzeile:has-text(Partnerzone))
 pcwelt.de#?#div.box:has(span.banner-text + h4:has-text(/Partner-Angebot|Angebote/))
+photovoltaikforum.com,waermepumpenforum.com#?#.message:has(.messageSidebar:has-text(Anzeige))
 pollenflug.de#?#.services-item:has-text(bei Amazon)
 prad.de#?#.pd-teaser:has(div.teaser-subtitle:has-text(Anzeige))
 produktion.de#?#.postlist-item:has(.label:has-text(Gesponsert))

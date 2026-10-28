@@ -2255,7 +2255,8 @@ vidara.*,gasobni.com,vidmoly.*,bysezejataos.com,n1mwq.org,firestream.*##+js(aeld
 vidara.*,gasobni.com,vidmoly.*,bysezejataos.com,n1mwq.org,firestream.*##+js(aopr, HTMLElement.prototype.oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/35023
-b98.tv,supercartoons.net,funniermoments.net,toontales.net##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+! https://github.com/uBlockOrigin/uAssets/pull/35057
+b98.tv,supercartoons.net,funniermoments.net,toontales.net,megacartoons.net##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 
 ! ================================================ END: Anti copy, right-click, devtools, text select etc. ==========================================================================
 
@@ -2423,6 +2424,10 @@ addictinggames.com,ev.io,fantasyfootballscout.co.uk,gameknot.com,icy-veins.com,p
 
 ! https://may2.ftbucket.info
 ftbucket.info###adblock-banner
+
+! https://github.com/uBlockOrigin/uAssets/issues/35049
+tftacademy.com##div[class="relative"][style="width: 160px; height: 600px;"]
+tftacademy.com##div.relative.flex.w-full.font-semibold[style^="height:"]:has(> div.relative[style^="width:"][style*="height:"])
 
 ! ================================================== END: Anti-adblock ==================================================================================
 

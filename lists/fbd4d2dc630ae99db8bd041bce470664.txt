@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HG3h5Diyry0absCG4VQWxg
-! Version: 202610290532
+! Checksum: aj8AQ+JexqS3r9489ZxSOw
+! Version: 202610290621
 ! Title: EasyList Germany
-! Last modified: 29 Oct 2026 05:32 UTC
+! Last modified: 29 Oct 2026 06:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -1727,6 +1727,7 @@ wetter.com#@#div[id^="div-gpt-"]
 ||idealo.de/banner/
 ||images-amazon.com/images/*/marquee/
 ||images-amazon.com/images/*/marqueestatic/
+||images.literatur-couch.de^$script
 ||imgix.net/production/uploads/*/Banner_$domain=aerotelegraph.com
 ||imgur.com/cKTUKlX.gif$domain=mmnews.de
 ||imgur.com/zCsgpkZ.gif$domain=mmnews.de
@@ -5735,6 +5736,7 @@ bergsteiger.de#?#.eight.columns.alpha.content:has(span:has-text(Advertorial))
 berliner-kurier.de#?#.m-teaser:has(span:has-text(Sponsored))
 berliner-zeitung.de#?#.m-article-teaser:has(div:has-text(Anzeige))
 berlinstadtservice.de#?#.row.block03:has(p:has-text(ANZEIGE))
+box.blick.ch#?#.box:has(.box__title:has-text(Anzeige))
 carpediem.life#?#.post-overview:has(div:has-text(Anzeige))
 celleheute.de#?#div.YzqVVZ:has(span.wixui-rich-text__text:has-text(Anzeigen))
 chip.de#?#.download-item:has-text(Anzeige)

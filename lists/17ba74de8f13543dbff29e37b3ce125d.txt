@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610290509
+! Version: 202610290529
 ! Title: EasyList
-! Last modified: 29 Oct 2026 05:09 UTC
+! Last modified: 29 Oct 2026 05:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e528d279fba9b7206bffbd13afa0db3ed95e2a60
+! Commit: f21f1a8b16e392808ffec670e2ee40cda9bf86d9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -37980,6 +37980,7 @@ browsershots.org#@#.advert_area
 ||nllzvzafpfodg.space^
 ||nlmhhgvljqktf.website^
 ||nlodtzqlcmbqn.online^
+||nlogizcmjvlnv.space^
 ||nlsgostuanbpy.website^
 ||nlsmhyylwozop.site^
 ||nltlotgpuggsj.site^
@@ -72595,6 +72596,7 @@ amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.*##.sbv-video-single-product
 amazon.*##[cel_widget_id*="-creative-desktop_loom-desktop-"]
+amazon.*##[data-card-metrics-id^="universal-detail-ilm-card_"]
 amazon.*##[id^="sponsoredProducts"][id$="_feature_div"]
 amazon.*##div.s-inner-result-item > div.sg-col-inner:has(a.puis-sponsored-label-text)
 amazon.*##div[cel_widget_id*="Deals3Ads"]

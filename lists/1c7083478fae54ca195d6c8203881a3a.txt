@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.7.0
+! Version: 4.4.7.1
 
 ! General
 
@@ -306,6 +306,7 @@ nzz.ch##+js(ra, class, div.barrier, stay)
 /\.ogj\.com\/.+\/\d{8,}\//$inline-script,domain=ogj.com
 ||oko.press/_next/static/chunks/pages/%5Bslug*.js$script,~third-party
 paloaltoonline.com##+js(cookie-remover, /^/)
+parismatch.com##+js(ra, class, div[data-poool-prelocked], stay)
 ||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
 pb.pl##+js(ra, class, section.o-article-content, stay)
 pb.pl##div.o-piano-template-loader-box

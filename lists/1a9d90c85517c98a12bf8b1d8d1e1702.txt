@@ -41,7 +41,7 @@
 ||googlesyndication.com/pagead/js/adsbygoogle.js$important,redirect=noopjs:10,script,domain=walla.co.il
 ||walla.co.il/dist/scripts/ads/global-targeting.js$redirect=noopjs,script,domain=walla.co.il
 !
-6days.walla.co.il,animals.walla.co.il,astrology.walla.co.il,b.walla.co.il,buzzit.walla.co.il,cars.walla.co.il,celebs.walla.co.il,e.walla.co.il,elections.walla.co.il,euro.walla.co.il,fashion.walla.co.il,finance.walla.co.il,food.walla.co.il,healthy.walla.co.il,home.walla.co.il,judaism.walla.co.il,kids.walla.co.il,mag.walla.co.il,movies.walla.co.il,mundial.walla.co.il,nadlan.walla.co.il,news.walla.co.il,nick.walla.co.il,olympics.walla.co.il,sports.walla.co.il,tags.walla.co.il,tech.walla.co.il,travel.walla.co.il,tv-guide.walla.co.il,usaelections.walla.co.il,viva.walla.co.il,vod.walla.co.il,weather.walla.co.il,www.walla.co.il##+js(aopr, btoa)
+!6days.walla.co.il,animals.walla.co.il,astrology.walla.co.il,b.walla.co.il,buzzit.walla.co.il,cars.walla.co.il,celebs.walla.co.il,e.walla.co.il,elections.walla.co.il,euro.walla.co.il,fashion.walla.co.il,finance.walla.co.il,food.walla.co.il,healthy.walla.co.il,home.walla.co.il,judaism.walla.co.il,kids.walla.co.il,mag.walla.co.il,movies.walla.co.il,mundial.walla.co.il,nadlan.walla.co.il,news.walla.co.il,nick.walla.co.il,olympics.walla.co.il,sports.walla.co.il,tags.walla.co.il,tech.walla.co.il,travel.walla.co.il,tv-guide.walla.co.il,usaelections.walla.co.il,viva.walla.co.il,vod.walla.co.il,weather.walla.co.il,www.walla.co.il##+js(aopr, btoa)
 walla.co.il##+js(aopr, isMobileasokita)
 walla.co.il##+js(nowebrtc)
 !walla.co.il##+js(set, String.fromCharCode, noopFunc)
@@ -100,6 +100,13 @@ mako.co.il##+js(aopw, upManager)
 mako.co.il##html body.overflow:style(overflow: auto !important)
 !#endif
 mako.co.il,n12.co.il,tech12.co.il,tvbee.co.il##+js(no-fetch-if, adsbygoogle)
+!
+!#if env_mobile
+@@||political-match.n12.co.il^$ghide
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=political-match.n12.co.il
+political-match.n12.co.il##+js(set, Array.prototype.loaded, true)
+political-match.n12.co.il##+js(set, adsbygoogle, emptyArr)
+!#endif
 political-match.n12.co.il###mainBanner
 political-match.n12.co.il##div[aria-label="טוען"]
 political-match.n12.co.il##div[class*="blockedApp"]:style(display: contents !important;)

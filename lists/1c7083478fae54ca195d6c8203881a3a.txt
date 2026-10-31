@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.7.1
+! Version: 4.4.7.2
 
 ! General
 
@@ -248,8 +248,7 @@ latercera.com##div#lt-paywall-slot
 lavanguardia.com,mundodeportivo.com##span.content-ad,span.hidden-ad,span.ad-unit,div.ad-div
 ledevoir.com##+js(cookie-remover, pw6)
 legrandcontinent.eu##+js(rc, paywall|pw|softwall, body, stay)
-lejdd.fr,parismatch.com,public.fr###poool-container,#poool-widget-content,#poool-widget,.forbidden
-lejdd.fr,parismatch.com,public.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"], stay)
+lejdd.fr##div#poool-widget
 lepoint.fr,lexpress.fr##+js(set, window.Fusion.globalContent.content_restrictions, {})
 /\.lequipe\.fr\/assets\/js\/.*[wW]all.+\.js/$script,~third-party
 ||livemint.com/lm-img/subscription/$script,~third-party
@@ -307,6 +306,7 @@ nzz.ch##+js(ra, class, div.barrier, stay)
 ||oko.press/_next/static/chunks/pages/%5Bslug*.js$script,~third-party
 paloaltoonline.com##+js(cookie-remover, /^/)
 parismatch.com##+js(ra, class, div[data-poool-prelocked], stay)
+parismatch.com##div#dead-poool
 ||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
 pb.pl##+js(ra, class, section.o-article-content, stay)
 pb.pl##div.o-piano-template-loader-box

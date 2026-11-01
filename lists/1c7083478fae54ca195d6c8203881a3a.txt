@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.7.3
+! Version: 4.4.7.4
 
 ! General
 
@@ -402,11 +402,6 @@ thepointmag.com##+js(cookie-remover, monthly_history)
 thepointmag.com##div.overlay,div#tpopup-
 thequint.com##div.zsqcu
 thequint.com##+js(ra, class|style, div#story-body-wrapper, stay)
-||thetimes.com/wp-content/plugins/tm-wp-zephr/$script,~third-party
-thetimes.com##html:style(overflow: auto !important;)
-thetimes.com##body:style(overflow: auto !important;)
-thetimes.com##+js(rc, TeaserPage, body.TeaserPage, stay)
-thetimes.com##div#paywall-portal-page-footer
 thewrap.com##+js(cookie-remover, blaize_session)
 timeshighereducation.com##+js(rc, paywall-fade, div.paywall-fade, stay)
 timeshighereducation.com##div.paywall-active
@@ -676,6 +671,7 @@ cmcmarkets.com##+js(rc, activePaywall, .activePaywall, stay)
 ||commercialobserver.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 connexionfrance.com##+js(cookie-remover, /^/)
 connexionfrance.com##div#subscribe-banner
+||dailycaller.com/functions/v1/getExperiences$xmlhttprequest,~third-party
 ||darwin.cx/dcxpw-init.js$script,domain=cspdailynews.com|restaurantbusinessonline.com
 dasinvestment.com##+js(rc, paywall-blurred, div.paywall-blurred, stay)
 dasinvestment.com##div#paywall

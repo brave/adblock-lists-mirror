@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VEus4u0O8wZDVUEaD2Koeg
-! Version: 202611021811
+! Checksum: m6hJdoqx/8lhl3ulE0zNYA
+! Version: 202611021841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Nov 2026 18:11 UTC
+! Last modified: 02 Nov 2026 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -21402,6 +21402,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||b-port.com/mediafiles/banners/
 ||b.fotos.ua/check_place.js$script
 ||b.frida.vse42.ru/$domain=~b.frida.vse42.ru
+||b.myfin.by/x/?id=
 ||b.netall.ru^
 ||b.penzainform.ru/*.gif
 ||b13.penzainform.ru/
@@ -22645,6 +22646,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||my-cinema.net/branding/
 ||my.mosenergosbyt.ru/file/id_content:$image
 ||mydiv.net/tim/newold
+||myfin.by/ajax-communication/get-active-communication
 ||myfootball.*/betking/$~media
 ||mymedicalportal.net^$xmlhttprequest
 ||mynizhyn.com/image/banners/
@@ -23902,6 +23904,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||windows64.net/123456.jpg
 ||windowspro.ru/universa*.js
 ||windowspro.ru^*.php|$script,domain=windowspro.ru
+||wink.ru/omnichat/*/trailer$domain=lk.rt.ru
 ||winksplay.ru/fmnr.js
 ||wiselawyer.ru^*.php$script,domain=wiselawyer.ru
 ||wkino4.net/templates/wkino4/images/body.
@@ -24131,6 +24134,7 @@ lenta.news,lenta.ru##.topic-body__content> .box-external-video:last-child {remov
 lenta.news,lenta.ru##.topic-footer > div[class^="box-"][class$="-video"] {remove:true;}
 lenta.news,lenta.ru##.vk-video-popup {remove:true;}
 liveball.sx,liveball.*##body > style[id] {remove:true;}
+lk.rt.ru##[class^="omch-wink-player"] {remove:true;}
 pikabu.ru##head > style:has-text(min-height:301px;) {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
 stratege.ru##html[xmlns] > body > script + script + style {remove:true;}

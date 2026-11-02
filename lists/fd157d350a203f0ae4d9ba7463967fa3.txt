@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EO1H6o/MJdMlirML52c8Uw
-! Version: 202611021241
+! Checksum: x5P4jgQS5MKdIHZuAhlsQQ
+! Version: 202611021312
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Nov 2026 12:41 UTC
+! Last modified: 02 Nov 2026 13:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1754,6 +1754,8 @@ ru##[data-ns-portal] .branding[data-page] {margin-top:unset;width:100%;}
 esports.ru##html.overflow-hidden .js-popup-promo {display:none;}
 esports.ru##html.overflow-hidden {overflow:auto;}
 ex-fs.net###content {margin-top:0;}
+gamemag.ru##body > div[style^="position: fixed;"][style*="z-index:"] {display:none;}
+gamemag.ru##body {overflow:auto;}
 gamemag.ru#?#.content-row__content:has(p:has-text(erid:)) > p a:not([href^="/"]):not([href^="https://gamemag.ru/"]) {pointer-events:none;color:inherit;}
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##body {background-color:#596c84;background-image:none;}
 interface31.ru##.ads-top-container {min-height:0;margin-bottom:0;}
@@ -24056,6 +24058,7 @@ igdz1.ru^$script,domain=igdz.ru
 ! запросы
 ! ловушка для обфускации дзена: главная, статьи, новости, погода
 /^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]*\/(?:[^/?0-9]*[0-9]){5}[^/?]*(?:\?.*)?$/$script
+/^https:\/\/static\.dzeninfra\.ru\/s3\/zen-apps\/[^?]*\/[^/?]*\.d\.bundle\./$script
 ||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
@@ -26210,6 +26213,7 @@ championat.asia##.fbOverlay
 anime777.ru##.first-popup
 berkem.ru##.fixed_link--telegram-group
 oboz.info##.gdpr_messagebar_detail
+gamemag.ru##.gm-install
 marieclaire.ru,maximonline.ru,mydecor.ru,parents.ru,psychologies.ru,starhit.ru,the-day.ru,thegirl.ru,vokrugsveta.ru,woman.ru##.in-content-recomendations
 brutaljack.ru##.in.fade.modal
 voprosov-net.ru##.isShow.popup
@@ -27355,6 +27359,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||easymc.io/ads/px.gif?ch=$image,domain=easymc.io
 @@||fosshub.com/media/js/adblock.js|$domain=fosshub.com
 @@||fwdcdn.com^*/advertisment.js|$script
+@@||gamemag.ru/js/admanager.js$script,domain=gamemag.ru
 @@||gamesglue.com/game_core/check/ima3.js|$script,domain=gameswf.com
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=1plus1.video|unian.info|unian.net|unian.ua
 @@||gemius.pl/gplayer.js|$script,domain=1plus1.video|unian.info|unian.net|unian.ua

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OMtGWNtYkQAFLjzsTS+j5w
-! Version: 202611031032
+! Checksum: lmbpc3bJnv3e1wcpJw5FWA
+! Version: 202611031112
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Nov 2026 10:32 UTC
+! Last modified: 03 Nov 2026 11:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19443,6 +19443,7 @@ sd.ua##div[class^="sed"] > .half.right > .sdbrick
 sd.ua##div[class^="sed"] > a[rel="nofollow"]
 internet-technologies.ru##div[class^="shortcode-"] > [data-href]
 internet-technologies.ru##div[class^="shortcode-"] > a[href*="/go/"]
+sportnews.com.ua##div[class^="si"][class*="e-branding-"]
 rcity.by##div[class^="sidebar-"] > div[id^="media_image-"]
 kinovidos.com##div[class^="sidebar-"] > div[type="text/css"][rel="nofollow"]
 prikol.ru##div[class^="sidebar-advert-block"]
@@ -21081,7 +21082,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /wp-content/uploads/*/elitstroj*.$image,domain=vb.by
 /wp-content/uploads/*/kurery*.$image,domain=vb.by
 /wp-content/uploads/*/med.$image,domain=vb.by
-/wp-content/uploads/*_1920x1080$image,domain=agronews.ua|agroreview.com|agroweek.com|growhow.in.ua
+/wp-content/uploads/*_1920x1080$image,domain=agronews.ua|agroreview.com|agroweek.com|growhow.in.ua|sportnews.com.ua
 /www/base/*&cb=$domain=namba.kg|namba.tj
 /yandex.b.js$script,domain=krossava.ru
 /yandex.js$domain=camorca.ru
@@ -24193,6 +24194,7 @@ pikabu.ru#?#article:-abp-has(> .story__main > div:not(:-abp-has(*)))
 pikabu.ru#?#article:-abp-has(> .story__main > div:not([class]))
 pikabu.ru#?#article:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] + div[class])
+pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ :empty ~ div[class])
 pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 sdamgia.ru##center > div[id][style]

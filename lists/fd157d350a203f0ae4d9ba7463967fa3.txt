@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lmbpc3bJnv3e1wcpJw5FWA
-! Version: 202611031112
+! Checksum: epzbhRBn6++RvuSMJBSv9g
+! Version: 202611031132
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Nov 2026 11:12 UTC
+! Last modified: 03 Nov 2026 11:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1755,7 +1755,6 @@ avito.ru##[data-element^="beduin-"][data-element$="/public-profile"] [style*="be
 esports.ru##html.overflow-hidden .js-popup-promo {display:none;}
 esports.ru##html.overflow-hidden {overflow:auto;}
 ex-fs.net###content {margin-top:0;}
-gamemag.ru##body > div[style^="position: fixed;"][style*="z-index:"] {display:none;}
 gamemag.ru#?#.content-row__content:has(p:has-text(erid:)) > p a:not([href^="/"]):not([href^="https://gamemag.ru/"]) {pointer-events:none;color:inherit;}
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##body {background-color:#596c84;background-image:none;}
 igra.evroopt.by,gamemag.ru##body {overflow:auto;}
@@ -17299,7 +17298,7 @@ root-nation.com##[aria-label="Root-Nation Ad-Free"]
 gordonua.com##[aria-label="advertisement"]
 uznayvse.ru##[aria-label="areaAdvertise"]
 livesport.ru##[aria-label="Партнёрское объявление"]
-kanobu.ru,uznayvse.ru##[aria-label="Реклама"]
+kanobu.ru,respawn.media,uznayvse.ru##[aria-label="Реклама"]
 pravda.if.ua##[aria-label="Рекомендований контент"]
 rutube.ru##[aria-label="информационный баннер"]
 kurs.com.ua#?#[aria-live] > tr:-abp-has(> .currencycom)
@@ -21953,6 +21952,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||gameinside.ua^*/branding$image
 ||gamelayer.ru/dist/public/preloader.js
 ||gamemag.ru/ads.txt
+||gamemag.ru/assets/*/js/branding-fade.js
 ||gamemag.ru/images/top-img$image
 ||gamer.ru/*branding
 ||gamer.ru/assets/skins/
@@ -27367,7 +27367,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||easymc.io/ads/px.gif?ch=$image,domain=easymc.io
 @@||fosshub.com/media/js/adblock.js|$domain=fosshub.com
 @@||fwdcdn.com^*/advertisment.js|$script
-@@||gamemag.ru/js/admanager.js$script,domain=gamemag.ru
 @@||gamesglue.com/game_core/check/ima3.js|$script,domain=gameswf.com
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=1plus1.video|unian.info|unian.net|unian.ua
 @@||gemius.pl/gplayer.js|$script,domain=1plus1.video|unian.info|unian.net|unian.ua

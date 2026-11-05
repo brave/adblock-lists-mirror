@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611050444
+! Version: 202611050520
 ! Title: EasyList
-! Last modified: 05 Nov 2026 04:44 UTC
+! Last modified: 05 Nov 2026 05:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: eadd87240b13447d59260f3f8feb469d316731b3
+! Commit: e1c955600db190839fb6b273276276b2ab5388d1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -67191,6 +67191,7 @@ variety.com###jwplayer_xH3PjHXT_plsZnDJi_div
 jigzone.com###jz
 ceoexpress.com###kalamazooDiv
 msguides.com###kknbnpcv
+kohls.com###kmn-brand-spotlight
 kohls.com###kmn-featured-carousel
 kohls.com###kmn-more-to-consider
 kohls.com###kmnbanner-pencil_bottom-anchor
@@ -74694,6 +74695,7 @@ walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 engadget.com##li.min-h-\[88px\]:has(> [data-test="streamad"])
 pixiv.net##li.overflow-hidden:has(> .pt-0 > [style$="width: 300px; height: 250px;"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
+walgreens.com##li.product-grid-item:has(.sponsored-badge)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
 kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
@@ -75601,6 +75603,7 @@ noon.com#?#.swiper-slide:has-text(Sponsored)
 noon.com#?#span[class*="productContaine"]:has(div:has-text(Sponsored))
 nordstrom.com#?#article:has(.Yw5es:has-text(Sponsored))
 nordstrom.com#?#ul[style^="padding: 0px; position: relative;"] > li[class]:has-text(Sponsored)
+nordstromrack.com#?#[data-container-type="product-grid"] article:has-text(Sponsored)
 nzherald.co.nz#?#section.section-chain--triple-image:has-text(Property news from OneRoof)
 nzherald.co.nz#?#section:has-text(Partner content)
 perplexity.ai#?#.py-sm.group:has-text(Sponsored)

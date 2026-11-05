@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611051638
+! Version: 202611051713
 ! Title: EasyPrivacy
-! Last modified: 05 Nov 2026 16:38 UTC
+! Last modified: 05 Nov 2026 17:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 85656e3ec005ff5af5132ea16c35cef13a0d1fd0
+! Commit: 4390f9971e18ff789cf5eb11ca887cbc4a5f4949
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -84,6 +84,8 @@
 .tagged-events.outbound-links.js
 .tagged-events.revenue.js
 .v4.analytics.
+/.bootscripts/analytics.min.js
+/.bootscripts/hubPagesViewDurationTracker.min.js
 /.webscale/rum?
 /.well-known/shopify/monorail
 /0.gif?
@@ -15932,8 +15934,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||diabrowser.com/js/arcnet-script.js
 ||digital.flytedesk.com/js/head.js
 ||discover-metrics.cloud.seek.com.au^
-||discover.hubpages.com/.bootscripts/analytics.min.js
-||discover.hubpages.com/.bootscripts/hubPagesViewDurationTracker.min.js
 ||dls-account.di.atlas.samsung.com^
 ||dmt.fidelity.com/prod/meas/
 ||dmtgvn.com/wrapper/js/common-engine.js$domain=rt.com
@@ -16546,7 +16546,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||meduza.io/stat/
 ||megaplay.cc/cdn-cgi/trace
 ||megatron.igraal.com^
-||mensjournal.com/.bootscripts/analytics.min.js
 ||mentimeter.com/performance-metrics
 ||mercdn.net/assets/scripts/raphaelp
 ||mercedes-benz.com/datadog-

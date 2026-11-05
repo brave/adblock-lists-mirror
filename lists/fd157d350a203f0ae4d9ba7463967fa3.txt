@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LKR/DHN1/s/b4lII+X++BA
-! Version: 202611051702
+! Checksum: Lft9sJ5s9nphKDzFcOiQFQ
+! Version: 202611051732
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Nov 2026 17:02 UTC
+! Last modified: 05 Nov 2026 17:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24230,13 +24230,13 @@ livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 .link/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
 .org/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
-/7yi5n0iht7f?$third-party,xmlhttprequest
 /ad-rotator/ad-list.json
 /ad-rotator/vast.xml
 /api-integration/*?unique=$third-party,xmlhttprequest
 /api-integration/ad-rotator/*$third-party,xmlhttprequest
 /api-integration/assets/*.txt?*=$third-party,xmlhttprequest
 /vast/ad-rotator/*
+/yi5n0iht7?$third-party,xmlhttprequest
 ?utm_source=veoveo$popup
 ||antonshipanov.org^$third-party
 ||balamutka.link^$third-party

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MtJWo0QPmNpGFuLIjWAT2Q
-! Version: 202611061500
+! Checksum: vwQ+Lp+69gLbw9v3R0KvRQ
+! Version: 202611061541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Nov 2026 15:00 UTC
+! Last modified: 06 Nov 2026 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14195,6 +14195,7 @@ drive2.com,drive2.ru#?#.c-header:-abp-contains(/Ads|Реклама/)
 telegraf.com.ua,telegraf.ua#?#.c-post__content > div:-abp-has(> [id^="_vidverto-"])
 delo.ua,dsnews.ua,focus.ua##.c-r
 medvestnik.ru##.c-recommendations-widget
+drive2.ru#?#.c-user-section:-abp-has(> .drom-grid)
 5-tv.ru##.cFadeDark
 nashamama.com#?#.cN-linkList:-abp-has(> h3:only-child)
 tomat-pomidor.com##.cPost + script + center
@@ -24196,6 +24197,7 @@ pikabu.ru#?#article:-abp-has(> .story__main > div:not([class]))
 pikabu.ru#?#article:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] + div[class])
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ :empty ~ div[class])
+pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ span)
 pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 sdamgia.ru##center > div[id][style]

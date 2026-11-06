@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611061327
+! Version: 202611061357
 ! Title: EasyList
-! Last modified: 06 Nov 2026 13:27 UTC
+! Last modified: 06 Nov 2026 13:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 93f8757de94596e0a5d696ecac762a8724be0b32
+! Commit: e4e8d5457578b37b78d72ed932077b88eb7e79d4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17298,6 +17298,7 @@ browsershots.org#@#.advert_area
 ||adoptum.net^
 ||adorableoil.pro^
 ||adorableold.com^
+||adorableorchid.com^
 ||adorablequestion.pro^
 ||adorarama.com^
 ||adornmadeup.com^
@@ -20247,6 +20248,7 @@ browsershots.org#@#.advert_area
 ||bkmmafrixfake.website^
 ||bknegcvfkxvsm.space^
 ||bkobvbznffrqy.website^
+||bkontegudnm.in^
 ||bkpgkbkwiltyo.online^
 ||bkpjfenmzaqjl.site^
 ||bkqfyjvgaowoa.website^
@@ -28498,6 +28500,7 @@ browsershots.org#@#.advert_area
 ||fqiaizkfzuqgs.online^
 ||fqigelecyvfdx.online^
 ||fqikownbkcti.com^
+||fqiouceqvfjpa.website^
 ||fqiwqjppxejkk.space^
 ||fqkbodkrmldxs.online^
 ||fqkrlarigtylp.site^
@@ -48230,6 +48233,7 @@ browsershots.org#@#.advert_area
 ||spitefulmotor.com^
 ||spjrfcogai.com^
 ||spjtlgxmhogip.space^
+||spkeokimt.com^
 ||spklmis.com^
 ||spkvmszihgzei.space^
 ||splashfailed.com^
@@ -49778,6 +49782,7 @@ browsershots.org#@#.advert_area
 ||thisiswaldo.com^
 ||thistlyangili.com^
 ||thjxvlrjnbqbs.store^
+||thlghcrxpokrt.online^
 ||thmgwofnkgxxw.online^
 ||thnplbwzwazdy.website^
 ||thoeqljwjfmnt.site^
@@ -54872,6 +54877,7 @@ browsershots.org#@#.advert_area
 ||wyemijjnbkrol.space^
 ||wyeremise.com^
 ||wygcjzjkryxfv.site^
+||wyggbgqwzctxq.space^
 ||wyglyvaso.com^
 ||wyhifdpatl.com^
 ||wyhxnsedjehwt.site^
@@ -65245,6 +65251,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||cript.to/dlm.png
 ||cript.to/z-
 ||crn.com.au/scripts/js_$script
+||cvs.com/*?q=get*ButterflyProducts
 ||cybernews.com/images/tools/*/banner/
 ||cyberscoop.com/advertising/
 ||daily-sun.com/assets/images/banner/
@@ -74584,6 +74591,7 @@ walmart.*##div[id*="SponsoredProductCarousel"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="button"]:has(.c_3eP-badge-content)
 momondo.*##div[role="button"][tabindex="0"]:has(div.c_3eP-badge-content)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
+skyscanner.*##div[role="listitem"]:has(button[data-testid="adInfoBtn"])
 autoscout24.*##img[referrerpolicy="unsafe-url"]
 deliveroo.*##li:has(> [class^="MenuItemCard"] [data-testid="sponsored-ad-tag"])
 sameday.costco.*##li:has([aria-label="Product"]):has([data-fp-eligible]):not(:has(h2))
@@ -75859,6 +75867,7 @@ costco.com#?#[data-testid="shoppable-list-container"]:has-text(Spons)
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:has-text(Sponsored)
 cruisecritic.com#?#.block:has(a[data-tracking]:has-text(Sponsored))
 cvs.com#?#div[class*="flex-col"]:has(>h2:has-text(Sponsored))
+cvs.com#?#div[id^="product-tile-"]:has(div[dir="auto"]:has-text(Sponsored))
 deccanherald.com#?#div#container-text:has-text(ADVERTISEMENT)
 deccanherald.com#?#span.container-text:has-text(ADVERTISEMENT)
 decrypt.co#?#span:has-text(AD)

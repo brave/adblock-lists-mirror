@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611072235
+! Version: 202611072307
 ! Title: EasyList
-! Last modified: 07 Nov 2026 22:35 UTC
+! Last modified: 07 Nov 2026 23:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9240af0f21ee5626edfdcf97acdff8d34118f52b
+! Commit: 0664024673c1895afd09b71e36afb7325c35af78
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -23700,6 +23700,7 @@ browsershots.org#@#.advert_area
 ||cxivcfnaivzmj.online^
 ||cxlgfnkywpmpx.online^
 ||cxmonbsehjanc.space^
+||cxmuoewwxzczi.site^
 ||cxnp-protect.pro^
 ||cxofostbnjehi.website^
 ||cxpppgnjrsers.space^
@@ -43653,6 +43654,7 @@ browsershots.org#@#.advert_area
 ||psaussasta.net^
 ||pschenttidier.com^
 ||pscjpstkkqcmo.site^
+||pscpurfwzktny.website^
 ||pscsre.com^
 ||psdunrvewnirh.site^
 ||pseavibrsijgx.site^
@@ -49979,6 +49981,7 @@ browsershots.org#@#.advert_area
 ||tfb7jc.de^
 ||tfbwbzmzisbif.online^
 ||tfcjednruptmp.site^
+||tfcnxspcpgorn.site^
 ||tfepsjmtyqaln.website^
 ||tfflrmlygarjj.online^
 ||tfhfrwaiwjbrb.space^
@@ -55973,6 +55976,7 @@ browsershots.org#@#.advert_area
 ||xtkdqvzjgggkz.site^
 ||xtlixnkiasbrs.space^
 ||xtmhzidqppsit.online^
+||xtmnvwyoeurbg.site^
 ||xtmwxdibqcgzh.site^
 ||xtnltaiulkhid.site^
 ||xtntsaqdlflhb.space^
@@ -67030,6 +67034,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||taxidrivermovie.com^$~third-party,xmlhttprequest
 ||tbib.org/tbib.
 ||teenporno.xxx/ab/
+||thegay.com/static/da/
 ||thegay.porn/gdtatrco/
 ||thehun.net/banners/
 ||thenipslip.com/b6c0cc29df5a.js
@@ -71885,6 +71890,7 @@ afterdawn.com##.ni_box
 bizasialive.com##.nipl-sticky-footer-banner
 bizasialive.com##.nipl-top-sony-banr
 bizasialive.com##.nipl_add_banners_inner
+canadiantire.ca##.nl-product__content[id^="ad"]
 quipmag.com##.nlg-sidebar-inner > .widget_text
 newsmax.com##.nmsponsorlink
 newsmax.com##.nmsponsorlink + [class]
@@ -74373,7 +74379,9 @@ web.telegram.org##div.bubbles > div.scrollable > div.bubbles-inner > div.is-spon
 gearspace.com##div.deal__unit
 easypet.com##div.kt-inside-inner-col > div.wp-block-kadence-rowlayout
 baking-forums.com,windows10forums.com##div.message--post.message
+producthunt.com##div.my-4.flex-1.rounded-md.border-2.border-gray-200
 thehackernews.com##div.rocking
+producthunt.com##div.rounded-lg.bg-gray-50.p-3
 tld-list.com##div.row > .text-center > .ib
 ccvaults.com##div.sidebar-slide-in.md\:block.hidden
 home.cricketwireless.com##div.skeleton.block-item
@@ -75513,6 +75521,7 @@ cars.com##li[data-phx-id]:has([phx-value-source="sponsored_trending_search_card"
 canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
+producthunt.com##main > div:has(> div.-mt-px.justify-end.pr-4)
 classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
 argos.co.uk##section.ds-c-carousel:has(span[class*="sponsoredBadge"])
@@ -76537,6 +76546,8 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
+! :xpath
+producthunt.com#?#[data-test^="homepage-section-"] > section[data-container]:xpath(self::*[not(contains("0123456789", substring(normalize-space(.),1,1)))])
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 amateur8.com###A8-Under-Video
 virtuagirlgirls.com###DynamicBackgroundWrapper
@@ -77228,6 +77239,7 @@ xxxvogue.net##.link-adv
 escortnews.eu,topescort.com##.link-buttons-container
 85po.com,babepump.com,fapnfuck.com,fuqster.com,povxl.com,sexpester.com,w1mp.com,w4nkr.com,xmateur.com##.link-offer
 porntrex.video,txxx.video,xepn.com##.link-sponsor
+thegay.com##.listing-item.nopop
 boyfriend.tv,boyfriendtv.com##.live-cam-popunder
 spankbang.com##.live-rotate
 alloldpics.com,sexygirlspics.com##.live-spot

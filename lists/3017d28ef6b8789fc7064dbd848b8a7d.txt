@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611082207
+! Version: 202611082245
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 22:07 UTC
+! Last modified: 08 Nov 2026 22:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 45093e33a67679efc0b252d1a408dcf49633dd9f
+! Commit: d836902c1c756e9c650c8b750c8d9bde3fb8c41c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2986,6 +2986,7 @@
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
+://load.sgtm.
 ://matomo.$domain=~matomo.dhjensen.dk|~matomo.org
 ://metrics-collector.
 ://mint.*/?js
@@ -3025,6 +3026,7 @@
 ?event=performance&
 ?event=performancelogger:
 ?groupType=engagement&eventType=CLICK&
+?id=GTM-*&l=gtmDataLayer
 ?local_ga_js=
 ?log=player-*&stats_tkn=
 ?log=player_*&stats_tkn=
@@ -10737,6 +10739,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-fe.digital-cloud-prem.medallia.eu^
 ||analytics-fe.digital-cloud.medallia.ca^
 ||analytics-fe.digital-cloud.medallia.com^
+||analytics-fe.digital-cloud.medallia.eu^
 ||analytics-ipv6.tiktokw.us^
 ||analytics-prd.aws.wehaa.net^
 ||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
@@ -10965,6 +10968,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.optibase.io^
 ||app.partnerboost.com/brand/track.2.0.min.js
 ||app.pendo.io/data/$image
+||app.planhat.com/analytics/plantrack.min.js
 ||app.posthog.com/e/?compression=
 ||app.posthog.com/e/?ip=
 ||app.posthog.com/static/array.js
@@ -12366,6 +12370,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mfilterit.net^$third-party
 ||mgmlcdn.com/stats/
 ||minutemediacdn.com/campaign-manager-client/
+||mirakl.net/mtag.min.js
 ||mixpanel.com/track?
 ||mj-snowplow-static-js.s3.amazonaws.com^
 ||mkcms.com/stats.js
@@ -14216,6 +14221,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||orbidder.otto.de^
 ||ottogroup.media/ogm.nitro.
 ||owen.prolitteris.ch^
+||p.marktplaats.net^
 ||pixel.poptok.com^
 ||plausible.ams.to^
 ||plista.com/getuid?
@@ -16570,6 +16576,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||massivecams.com/api/metrics
 ||masterclass.com/qz6s/
 ||mat6tube.com/api/stats?
+||matalan.co.uk/track
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||mcc-tags.cisco.com^
 ||mcdonalds.com/tags/js/*/mparticle.js
@@ -17670,6 +17677,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wstats.e-wok.tv^
 ||www-backend.strinova.com/api/common/uid
 ||www.ebay.*/gh/dfpsvc?
+||www.eventim.*/orchestra/
 ||x.com/1.1/attribution
 ||x.com/1.1/graphql/app_context.json
 ||x.com/1.1/graphql/error_log.json

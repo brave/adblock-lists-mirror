@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611081912
+! Version: 202611081943
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 19:12 UTC
+! Last modified: 08 Nov 2026 19:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fa4c7d3de3fcd997adc3e0df6f115401f4828d5d
+! Commit: 67aa144affdacbc7aa4e79e20df4308faadeaeea
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2424,6 +2424,7 @@
 /tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
+/tagmetrics/*
 /tags.js?org_id=
 /tailtarget.js
 /talpa-analytics-pro/*
@@ -10936,6 +10937,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.clickfunnels.com/assets/pushcrew.js
 ||app.clickfunnels.com/assets/userevents/application.js
 ||app.clickfunnels.com/cf.js
+||app.factori.ai/personica.js
+||app.lifesight.io/personica.js
 ||app.link/_r?$script,third-party
 ||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
@@ -12620,6 +12623,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
 ||pixel.nudgify.com^
+||pixel.profound.click^
 ||pixel.propublica.org^
 ||pixel.pub.lilyai.net^
 ||pixel.quantserve.com^

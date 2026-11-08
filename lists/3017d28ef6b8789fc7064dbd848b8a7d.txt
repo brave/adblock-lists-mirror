@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611082114
+! Version: 202611082145
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 21:14 UTC
+! Last modified: 08 Nov 2026 21:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1b979726e3537ca3ac5266503cc721b4afd6e694
+! Commit: c4efe6400313b2d33bc3d38c2235dac1477402f4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -572,6 +572,7 @@
 /callbacks/stats?
 /capture_client.js
 /CaptureStat.asmx
+/ccm/collect?
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
@@ -857,6 +858,7 @@
 /dynamicyield/*
 /dynaTraceMonitor?
 /e.gif?
+/e?k=*&v=$image
 /e_stat?g_id=
 /eatms.js
 /ecanalytics.js
@@ -2718,6 +2720,7 @@
 /v.gif?
 /v1/adn/visit|
 /v1/events/publish|
+/v1/external/visitor|
 /v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
@@ -2972,6 +2975,7 @@
 ://elqtrk.
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm.prod.
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
@@ -3143,7 +3147,7 @@ _WebVitalsReporter_
 /tag/proxy?id=G-
 ://gtm.*.js?st=
 ://load.*.js?st=$~third-party
-://sgtm.*.js?
+://sgtm.
 ://tagging.*.js?aw=
 ://tagging.*/settings.js
 ! Taggrs.io
@@ -4088,6 +4092,7 @@ omni.soundestlink.com$image
 ||ablsrv.com^$third-party
 ||ablyft.com^$third-party
 ||abmr.net^$third-party
+||absmartly.io^$third-party
 ||absolstats.co.za^$third-party
 ||abtshield.com^$third-party
 ||acc-hd.de^$third-party
@@ -4243,6 +4248,7 @@ omni.soundestlink.com$image
 ||apicit.net^$third-party
 ||apollofind.com^$third-party
 ||apolloprogram.io^$third-party
+||app.dub.co^$third-party
 ||appboycdn.com^$third-party
 ||appcast.io^$third-party
 ||appdynamics.com^$third-party
@@ -4706,6 +4712,7 @@ omni.soundestlink.com$image
 ||dtc-v6t.com^$third-party
 ||dti-ranker.com^$third-party
 ||dtxngr.com^$third-party
+||dubcdn.com^$third-party
 ||durationmedia.net^$third-party
 ||dvnfo.com^$third-party
 ||dynatrace-managed.com^$third-party
@@ -15962,6 +15969,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||diabrowser.com/api/event
 ||diabrowser.com/js/arcnet-script.js
 ||digital.flytedesk.com/js/head.js
+||dior.com/contcdc/
 ||discover-metrics.cloud.seek.com.au^
 ||dls-account.di.atlas.samsung.com^
 ||dmt.fidelity.com/prod/meas/

@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611082031
+! Version: 202611082114
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 20:31 UTC
+! Last modified: 08 Nov 2026 21:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cd3ea7989c3f5a89ade4f3bbc751fa625c841e5f
+! Commit: 1b979726e3537ca3ac5266503cc721b4afd6e694
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1129,6 +1129,7 @@
 /geoLocationData/v1/*
 /geov2.js
 /get/live/web/_/*$script,~third-party
+/get_cookie_id?cookie_domain=
 /get_geoip?
 /get_site_data?requestUUID=
 /getbglog.js
@@ -4312,6 +4313,7 @@ omni.soundestlink.com$image
 ||baikalize.com^$third-party
 ||bam-x.com^$third-party
 ||baptisttop1000.com^$third-party
+||baqend.com^$third-party
 ||baremetrics.com^$third-party
 ||barilliance.net^$third-party
 ||basicstat.com^$third-party
@@ -13244,6 +13246,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.statshop.fr^
 ||tag.unifyintent.com^
 ||tagger.opecloud.com^
+||tagging.conde.digital^
 ||tagging.shiftdigitalapps.io^
 ||taggstar.com^*/taggstar.min.js
 ||tags.catapultx.com^

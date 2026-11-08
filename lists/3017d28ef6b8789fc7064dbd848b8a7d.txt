@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611082145
+! Version: 202611082207
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 21:45 UTC
+! Last modified: 08 Nov 2026 22:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c4efe6400313b2d33bc3d38c2235dac1477402f4
+! Commit: 45093e33a67679efc0b252d1a408dcf49633dd9f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -23,6 +23,7 @@
 &event_name=view_item_list&
 &EventType=DataDealImpression&
 &EventType=Impression&
+&gtm=*&tag_exp=
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
@@ -151,6 +152,7 @@
 /a/elevar/static/*
 /a/performance_timing/*
 /a8c-analytics.js
+/a?id=*&gtm=
 /aap/stats
 /abc.gif?
 /access.php?referrer=
@@ -815,6 +817,7 @@
 /dcjs/prod/*
 /dcs.gif?
 /dcs_tag.js
+/ddm/activity/src=
 /dead-clicks-autocapture.js
 /default/pAnalytics
 /detectIncognito.min.js
@@ -1571,6 +1574,7 @@
 /mcount.cgi?
 /measure/pixel/*
 /measure/visit/*
+/measurement/conversion?
 /medialaanUniversalTracker.js
 /mediametrie.js
 /mediateGA.js
@@ -11220,6 +11224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.dfsdk.com^
 ||cdn.fonts.net/t/1.css?
 ||cdn.lr-hv-in.com/logger.min.js
+||cdn.ltba.io^
 ||cdn.one.store/xdomain_cookie.html
 ||cdn.polarbyte.com^
 ||cdn.prod.euid.eu^
@@ -12477,6 +12482,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||obs.esnlocco.com^
 ||obs.greencolumnblog.com^
 ||obs.jollyoutdoorjogger.com^
+||obs.protoroundprince.com^
 ||obs.sd4823.spglobal.com^
 ||obs.system1onesource.com^
 ||observe-nexus.pointandplace.com^
@@ -16562,6 +16568,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marriott.com/mi/api/shop-renderer/logger
 ||marty.zappos.com^
 ||massivecams.com/api/metrics
+||masterclass.com/qz6s/
 ||mat6tube.com/api/stats?
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||mcc-tags.cisco.com^

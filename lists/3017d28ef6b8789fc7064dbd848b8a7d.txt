@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611090241
+! Version: 202611090314
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 02:41 UTC
+! Last modified: 09 Nov 2026 03:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0fa535652f874e26df0710427cf76842d21704e4
+! Commit: 8ca29d47918288fc729e97b035007740b03903b0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -107,6 +107,7 @@
 /?compression=*&ip=
 /?dm=*&blogid=$script
 /?essb_counter_
+/?l=gtmDataLayer
 /?livehit=
 /?log=experiment&
 /?log=performance-
@@ -2179,6 +2180,8 @@
 /server.php?request=track&output=
 /server/detect.php?
 /service/track?
+/service_worker/6al0/sw.js
+/service_worker/6al0/sw_iframe.html
 /services/pixel.html?
 /services/t/l?referrer=
 /servlet/Cookie?
@@ -2986,6 +2989,7 @@
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm-tagging.
+://gtm.prd.
 ://gtm.prod.
 ://gtrack.*/dye
 ://insights-collector.
@@ -15646,6 +15650,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
 ||asanalytics.booking.com^
+||asaptickets.com/tracker/
 ||asb.co.nz/analytics/
 ||asset.d5techs.com/script/track.min.js
 ||asset.d5techs.com/script/utm.min.js
@@ -17044,6 +17049,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.wayfair.com^
 ||s.yimg.com/rx/ev/*/pframe.html$domain=aol.com
 ||s.yimg.com/ss/analytics-$script,domain=yahoo.com
+||s4vrsde.www.arturia.com^
 ||sa.uswitch.com^
 ||saa.insideedition.com^
 ||samsung.com/us/web/internal/logger

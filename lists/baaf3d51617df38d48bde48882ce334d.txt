@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tgqMxE0UB89goRMGZ3qROA
-! Version: 202611100138
+! Checksum: Cyv2Ddrm9eVR/Rsm7PGR/w
+! Version: 202611112050
 ! Title: Fanboy's Newsletter List
-! Last modified: 2026-11-10 01:38 UTC
+! Last modified: 2026-11-11 20:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2183,6 +2183,7 @@ mypenndentist.org##.bg-navylightblue.padding-v20
 allaboutcircuits.com,bobvila.com##.bg-newsletter
 biblegateway.com##.bg-popup-root
 sciencealert.com##.bg-sciencealert-yellow
+begiant.ca##.bg-surface-cream
 axios.com##.bg-tertiary.gtmView
 thebudgetsavvybride.com##.bg-turquoise-500
 thepostmillennial.com##.bg-warning
@@ -2891,7 +2892,7 @@ qz.com##.kHmXgL
 christinacooks.com##.kadence-conversion-wrap
 joanwestenberg.com,ppc.land##.kg-cta-card
 the-londoner.co.uk##.kg-cta-content
-alsterrunde.com,beautifulpublicdata.com,codereliant.io,evinfocus.com,gardinerbryant.com,gkogan.co,leicester.news,livpost.co.uk,micahflee.com,newslttrs.com,overkill.wtf,oxfordclarion.uk,ppc.land,scarletink.com,simone.org##.kg-signup-card
+alsterrunde.com,beautifulpublicdata.com,codereliant.io,evinfocus.com,gardinerbryant.com,gkogan.co,leicester.news,livpost.co.uk,micahflee.com,newslttrs.com,overkill.wtf,oxfordclarion.uk,ppc.land,scarletink.com,simone.org,this.weekinsecurity.com##.kg-signup-card
 disconnect.blog,the-londoner.co.uk##.kg-signup-card-content
 digitalocean.com##.khfYvn
 betakit.com,govee.com##.kl-private-reset-css-Xuajs1.needsclick
@@ -2971,7 +2972,6 @@ psu.edu##.mailinglist-form
 ndtvprofit.com##.mailmodo-news-letter-m__card-wrapper__o-Dst
 niemanlab.org##.mailmunch-overlay
 niemanlab.org##.mailmunch-popover
-firethering.com##.mailpoet_form
 consummateathlete.com,pstribune.com##.mailpoet_form_popup_overlay
 leadership.ng,openculture.com##.mailster-form
 freebeacon.com##.main-container > .container > .block > .w-full > .border-blue2
@@ -4403,7 +4403,7 @@ edmontonjournal.com##.newsletter-widget
 !! .subscription-widget-wrap
 hamiltonnolan.com,whytryai.com##.subscription-widget-wrap
 !! .mailpoet_form
-broadcastnews.gr,chipsandcheese.com,chipwits.com,consummateathlete.com,etfworld.co.uk,europeantimes.news,exputer.com,hedgenordic.com,logitheque.com,mixed-news.com,notionthings.com,phonandroid.com,portalpuentealto.cl,pstribune.com,sardiniapost.it,scienceclock.com,slaynews.com,tech4gamers.com,thedesk.net,theklaxon.com.au,tomshardware.fr##.mailpoet_form
+broadcastnews.gr,chipsandcheese.com,chipwits.com,consummateathlete.com,etfworld.co.uk,europeantimes.news,exputer.com,firethering.com,hedgenordic.com,logitheque.com,lpeproject.org,mixed-news.com,notionthings.com,phonandroid.com,portalpuentealto.cl,pstribune.com,sardiniapost.it,scienceclock.com,slaynews.com,tech4gamers.com,thedesk.net,theklaxon.com.au,tomshardware.fr##.mailpoet_form
 !! signUpForm_
 fastxmovie.com##div[class^="signUpForm_"]
 !! .bottom-0.fixed
@@ -5682,6 +5682,9 @@ techpolicy.press##.ml-webforms-popup-overlay
 techpolicy.press##body:style(overflow: auto !important; position: initial !important;)
 ! Signup https://github.com/uBlockOrigin/uAssets/issues/35166
 gtaservers.org##+js(set-local-storage-item, np-west-signup-seen-2, 1)
+! begiant.ca
+begiant.ca#?#.z-1200.inset-0.fixed:has-text(Get a free book!)
+begiant.ca##body:style(overflow: auto !important; position: initial !important;)
 ! niemanlab.org
 niemanlab.org###nlep
 niemanlab.org##body:style(overflow: auto !important; position: initial !important;)

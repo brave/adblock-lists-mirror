@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ID+KprX+qGkwg4Xs38ivkg
-! Diff-Path: ../patches/1/1-s-1794402764-3600.patch
+! Checksum: TMqv6PRkOc1lShIykwo56g
+! Diff-Path: ../patches/1/1-s-1794409996-3600.patch
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.1.9.56
-! TimeUpdated: 2026-11-11T13:07:59+00:00
+! Version: 2.1.9.58
+! TimeUpdated: 2026-11-11T15:07:53+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6724,6 +6724,7 @@ tribuna.com##div[class*="common_layout__right_column"]:has(> div[class^="Banner-
 tribuna.com##div[class^="Banner-module_"]
 tribuna.com##div[class^="_ideal-media_"]
 itc.ua##.post-txt > div.hidden-sm
+||ya.ru/adfox/
 ||yandex.*/ads/adfox/
 ||yandex.*/adfox/
 ||kinogomy.net/uploads/kgi/intro.
@@ -7095,6 +7096,7 @@ sport-express.ru,gorod24.online,vedomosti.ru,kommersant.ru,rg.ru,glavbukh.ru,che
 !
 ! NOTE: Specific rules
 !
+||ya.ru/adfox/
 allsoft.ru##div[class^="b-banner_fluid"]
 ||byrutgame.org/templates/byrut_upd/modules/game-window/
 freetp.org##.ftp-dl-page > noindex

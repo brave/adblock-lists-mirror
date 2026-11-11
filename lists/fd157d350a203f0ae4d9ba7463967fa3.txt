@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VLWhOWTwpJo3wp6UuWt4Qw
-! Version: 202611112135
+! Checksum: Nk4a4c5e4Y8aZC0xK4fA+Q
+! Version: 202611112204
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Nov 2026 21:35 UTC
+! Last modified: 11 Nov 2026 22:04 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12394,6 +12394,7 @@ pravo-porada.com.ua###jm-right .bannergroup
 metanit.com###jma
 joker.ykt.ru###jok-banner-affix
 interface31.ru###js-dynamic-ad-container
+www.onliner.by###js-pm > header [class]
 autoua.net###js-preload-banner
 vkfaces.com###js-slider-1
 nur.kz###js-widget-pm
@@ -12610,7 +12611,6 @@ promebelclub.ru,xn----btbdkbsogebtjq6bm4g5b.xn--p1ai###pagenav_menu ~ div[style*
 freescreens.ru,imgbase.ru,imgcach.ru,imgclick.ru,payforpic.ru,picclick.ru,picclock.ru,picforall.ru###pai_thumbz_hider
 best-soft.npps.biz###parent-erocritic
 ipadus.ru,joomlatown.net,klanwin.ru,ruspicbox.ru,sportnet.live###parent_popup
-www.onliner.by###parimatch-widget .b-main-page-result__list
 clip2net.com###partbn
 hostingkartinok.com###partner
 lux.fm###partner-block
@@ -14222,6 +14222,7 @@ programy.com.ua##.cars2
 echosevera.ru##.cartoon
 livejournal.com##.cat-widget__adv-container
 livejournal.com##.cat-widget__card-wrap--adv
+catalog.onliner.by##.catalog-banner
 rozetka.com.ua#?#.catalog-grid > .catalog-grid__cell:-abp-has(> rz-catalog-tile [aria-label*=" про рекламу"])
 hotline.ua##.catalog-three-products
 yamart.ru##.catalogElAd
@@ -17543,6 +17544,7 @@ news.soundex.ru##[data-original^="http://news.soundex.ru/images/banners/"]
 studopedia.ru,studopedia.su##[data-partner]
 iz.ru##[data-partners-block-id]
 satellitetvforum.info##[data-phpbb-ads-id]
+onliner.by##[data-placement]
 litnet.com##[data-popmechanic-embed]
 odds.ru##[data-popup="bonus"]
 cheezu.ru##[data-provider="yandex"]
@@ -18039,6 +18041,7 @@ forum.mista.ru##a[href*="banners.php?click="] + a
 minecraft15.my1.ru##a[href*="barbarisnews.ru"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##a[href*="bear"]
 cybersport.ru,dltv.org,prodota.ru##a[href*="betboom.bet"]
+onliner.by##a[href*="betera-promo.by"]
 okrain.net.ua##a[href*="billing.hostpro.ua"]
 allsport-live.ru,allsport-news.net##a[href*="binance.com"]
 aacalc.ru,agronews.ua,ain.ua,ampercar.com,argumenti.ru,arminfo.info,autogeek.com.ua,bib.bz,blizzardheroes.ru,csgo-guides.ru,daxshat.site,for-ua.info,gameinside.ua,games-vam.ru,goal24.live,ilenta.com,img2txt.com,kontrolnaya-rabota.ru,korsars.pro,kritka.su,kurkul.com,mezha.ua,modsfire.com,mt.today,newstudio.tv,onliner.by,onlinevideoconverter.com,photoshop-besplatno.org,prosportua.com,psm7.com,real-game.net,rutracker-2017.org,soft-windows.info,stopgame.ru,tochka.net,torrent-shyter.net,ua.news,vc.ru,vgtimes.com,vgtimes.ru,windows-soft.info,xn--80ac9aeh6f.xn--p1ai,z-music.org,zbirna.com,zoneofgames.ru##a[href*="bit.ly"]
@@ -24118,7 +24121,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=livejournal.com|olegmaka
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?rXu3p=$xmlhttprequest
+||pikabu.ru/ajax/*?rXu4p=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document

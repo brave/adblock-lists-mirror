@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eNq3ur4GeLQSS8kBBHzPng
-! Version: 202611111104
+! Checksum: cLt28rL0IHNA/ZkUnTXZ3w
+! Version: 202611111134
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Nov 2026 11:04 UTC
+! Last modified: 11 Nov 2026 11:34 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15334,6 +15334,7 @@ ska.ru##.main-section-adfox
 salonav.com##.main-sidebar > .mom_custom_text ~ .mom_custom_text
 vedomosti-ua.com#?#.main-sidebar > .row > div:-abp-has(.active:-abp-contains(Реклама))
 vg-news.ru##.main-small-right-block
+nv.ua##.main-wrapper .container > .row > a[target="_blank"] > picture
 autostat.ru##.mainBannerBlockCenter
 polosedan-club.com##.mainContent > #Notices
 vuzopedia.ru##.mainReclame
@@ -25527,6 +25528,7 @@ sports.ru##[data-content-name="banner-static"][data-content-piece^="SALES-"]
 sports.ru#?#[data-control*="Common.CarouselOfCards"]:-abp-has(a[href^="https://sirena.world/"])
 sports.ru##[data-control*="Videonow"]
 sports.ru##[data-control*="adblock"]
+sports.ru##[data-control="Common.RbPromo"]
 sports.ru##[data-control="Stat.KinopoiskButton"]
 sports.ru##[data-control="Stat.OkkoButton"]
 sports.ru##[data-control^="Aliens."]

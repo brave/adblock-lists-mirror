@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611120338
+! Version: 202611120411
 ! Title: EasyPrivacy
-! Last modified: 12 Nov 2026 03:38 UTC
+! Last modified: 12 Nov 2026 04:11 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5619444016a7f341388b331ebaffaf6741a503c9
+! Commit: 6e87be95774fe20aee372a773d4dab83f55e91df
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12802,6 +12802,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushpro.io/api/logging/
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
+||pv-track.pxtrkapp.com^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
 ||px-cloud.net/b/c/beacon
@@ -16183,7 +16184,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||extendoffice.com/analytics.js
 ||extremetech.com/js/ga.js
 ||ezoicanalytics.com/analytics.js
-||f.cdngeek.com^$domain=edugeek.net
 ||f.pie.org^
 ||f362.nola.com^
 ||facebook.com/a/bz?
@@ -16266,6 +16266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||futureparty.com/nectar_analytics
 ||futureparty.com/page_view
 ||g-scale.org/scripts/EventLog.js
+||g.cdngeek.com^$domain=edugeek.net
 ||g.ign.com^
 ||g.mashable.com^
 ||g.newtimes.com^
@@ -17268,6 +17269,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats2.helpmonks.com^
 ||stats2.mytuner.mobi^
 ||statsegg.cdngeek.com^
+||statseggs.cdngeek.com^$domain=edugeek.net
 ||stayforlong.com/api/kafka/tracking
 ||stayz.com.au/cl/data/omgpixel.json
 ||stirr.com/api/stats

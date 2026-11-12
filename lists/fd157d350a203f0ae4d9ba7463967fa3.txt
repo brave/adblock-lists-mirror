@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: L2s9hOisED2TLQAKWD4oPA
-! Version: 202611122003
+! Checksum: KSfOL2rIcszAjUnBrgPZ3g
+! Version: 202611122032
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Nov 2026 20:03 UTC
+! Last modified: 12 Nov 2026 20:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18887,7 +18887,7 @@ christianka.bratstvo.org##body > table[width="99%"] + p[align="center"]
 payeer-gift.ru##body div .banner
 om1.ru##body div[class*="-branding"]
 agronews.ua,agroreview.com,agroweek.com##body.has-aw-background::before
-anifap.com,anifap.xyz,anitokyo.tv,anitokyo1.top##body.playerCode > div[style^="position: absolute;"][onclick]
+anifap.com,anifap.xyz,anitokyo.tv,anitokyo1.top,hentasis.me##body.playerCode > div[style^="position: absolute;"][onclick]
 forum.flprog.ru##body.section-index .sidebar
 pcprogs.net#?#body:-abp-has(> .ya[style="display: block;"]) > .overlay
 the-geek.ru##body::before
@@ -26548,7 +26548,6 @@ surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 @@||godeaf.co/start/$generichide
 @@||gtavicecity.ru^$generichide
 @@||gwss.ru^$generichide
-@@||hcdn.online^$generichide
 @@||hdfilhdstr.com/start/$generichide
 @@||hh.ru/account/$generichide
 @@||hlamer.ru/create-account|$generichide
@@ -27619,6 +27618,7 @@ uakino.best##.side-content-adblock
 meteoservice.ru##.snackbar.alert
 kg-portal.ru##.social_login > .ulogin ~ .caution
 pikabu.ru##.toast_danger
+hcdn.online,hencdn.top##.video-js > [class][role="status"][aria-live="polite"]
 pedagog-organizator.ru##.vk-one-tap
 gibdd-gai.ru##.warning
 spletnik.ru##.z-adblock-message

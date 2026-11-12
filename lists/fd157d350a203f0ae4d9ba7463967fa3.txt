@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W2YKOTt6lZREYD2gxIzRXw
-! Version: 202611121032
+! Checksum: e84jKFc4XT7K1Lf2CZFxsA
+! Version: 202611121112
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Nov 2026 10:32 UTC
+! Last modified: 12 Nov 2026 11:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24214,6 +24214,7 @@ pikabu.ru#?#article:-abp-has(> .story__main > div:not([class]))
 pikabu.ru#?#article:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] + div[class])
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ :empty ~ div[class])
+pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ :not([class]))
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ span)
 pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))

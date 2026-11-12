@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Df78d+GRv1yvtPW9pv7AwA
-! Version: 202611120050
+! Checksum: iP/PNnbGPkr5J3qgIA7vfg
+! Version: 202611120225
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-11-12 00:50 UTC
+! Last modified: 2026-11-12 02:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -38101,6 +38101,7 @@ ikea.com##.toast-container
 odeoncinemasgroup.smg.com##.toast-info
 studee.com##.toast-notification
 cmocro.com,toptests.co.uk##.toastify-bottom
+culturealberta.com##.top-0.fixed
 xxlnutrition.com##.top-0.left-0
 laurentianbank.ca##.top-0.sticky
 siila.com##.top-banner
@@ -53497,6 +53498,8 @@ core.app##+js(set-local-storage-item, show-email-intake-form, false)
 ! lazycatkitchen.com
 lazycatkitchen.com##.wppopups-whole
 lazycatkitchen.com##body:style(overflow: auto !important; position: initial !important;)
+! culturealberta.com
+culturealberta.com##+js(set-session-storage-item, newsletter_shown, true)
 ! campaignlive.co.uk popup https://github.com/uBlockOrigin/uAssets/issues/29102
 campaignlive.co.uk##+js(set-session-storage-item, articleModalShown, true)
 ! similarweb.com login wall

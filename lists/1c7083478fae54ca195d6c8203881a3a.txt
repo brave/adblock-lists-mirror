@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.7.8
+! Version: 4.4.7.9
 
 ! General
 
@@ -157,7 +157,6 @@ enotes.com##section#enotes-paywall
 enotes.com##+js(ra, class, div.u-paywall, stay)
 ||estadao.com.br/paywall/$script,~third-party
 ||estadao.com.br/access.js$script,~third-party
-euobserver.com##+js(rc, show, div.membership-upsell.show, stay)
 ||exame.com/_next/static/chunks/app/%5B*.js$script,~third-party
 ||specials.fd.nl/_next/static/chunks/framework-*.js$script,~third-party
 specials.fd.nl##div[class^="Opening_contentContainer"],section[class^="ScrollyText_"]:style(color: white)

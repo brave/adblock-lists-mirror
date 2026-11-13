@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: The3nWCxedmEfYh9eCjESw
-! Version: 202611111250
+! Checksum: LIMT3G/9iXg2FTh6P62b3Q
+! Version: 202611131350
 ! Title: Fanboy's Mobile Notifications List
-! Last modified: 2026-11-11 12:50 UTC
+! Last modified: 2026-11-13 13:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1009,6 +1009,10 @@ sp.nicovideo.jp###jsAppModalWithLogin
 sp.nicovideo.jp##.is-fixed body:not(.player-horizontal):has(#jsAppModalWithLogin):style(position: static !important; width: unset !important;)
 sp.nicovideo.jp##.is-fixed:has(#jsAppModalWithLogin):style(position: static !important; width: unset !important;)
 sp.nicovideo.jp##body.hdNoFixed.watch:has(#jsAppModalWithLogin):style(padding-top: unset !important; overflow: auto !important; min-height: unset !important;)
+! 17.live
+17.live##div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"])
+17.live##div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"]) + div > div > nav:style(top: 0 !important;)
+17.live##div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"]) + div:style(min-height: 100% !important;)
 !---------------------------------Allowlists----------------------------------!
 ! Mobile Notifications
 @@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party

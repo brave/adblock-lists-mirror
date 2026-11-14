@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611142137
+! Version: 202611142207
 ! Title: EasyList
-! Last modified: 14 Nov 2026 21:37 UTC
+! Last modified: 14 Nov 2026 22:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0a87969f398eef519bddf1e6948971b9aeb40c3c
+! Commit: 57d5859a3d9c3e8332dd381cac2e36c4ba50ad4a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -28522,6 +28522,7 @@ browsershots.org#@#.advert_area
 ||fpqguhajcermv.website^
 ||fpqvfrdcnoxah.online^
 ||fpqxuxfwmylfv.space^
+||fprpdlurhlwde.website^
 ||fprqdwuxgn.com^
 ||fptrxrtmvoajy.com^
 ||fpvbvoussvxqh.online^
@@ -38648,6 +38649,7 @@ browsershots.org#@#.advert_area
 ||mwumbd.com^
 ||mwumgrgiryetz.website^
 ||mwvoyrilp.com^
+||mwxigqjdsawol.website^
 ||mwylghqg.com^
 ||mwyrufyswsdam.online^
 ||mwyxaylcphacl.site^
@@ -40899,8 +40901,10 @@ browsershots.org#@#.advert_area
 ||oomiakyetapa.com^
 ||oooqitpwsryvd.space^
 ||ooozxxadrsnpo.space^
+||oorieupgang.rest^
 ||oorxdvaldifpl.site^
 ||oosbocswffckr.website^
+||ooscopyplaypen.click^
 ||oouezduuhcwhx.space^
 ||oouutjpavsxfv.site^
 ||oouvhmoxzsevq.online^
@@ -74745,6 +74749,7 @@ qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 alphacoders.com##.item:has(.in-thumb-ad-mobile-desktop)
 herzindagi.com##.items-center:has(.ads)
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
+timesofindia.indiatimes.com##.js_tbl_article ~ div[class]:not([id]):has(> div.wdt-taboola[onclick="stpPgtn(event)"])
 motortrend.com##.justify-center:has(.nativo-news)
 slickdeals.net##.kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
@@ -74859,6 +74864,7 @@ linuxhaxor.net##.widget_text:has(a[href^="https://www.linuxhaxor.net/go"])
 trip.com##.with-decorator-wrap-v8:has(span.ad_tag)
 celebmafia.com##.wp-caption > [class]:has([width="300"])
 navyamedia.com##.wpb_text_column:has(> .wpb_wrapper > p >ins.adsbygoogle)
+timesofindia.indiatimes.com##.wrapperclearfix > div[class] > div[class]:not([id]) > div[data-translate-id="cw"]:has(> div:is(div[id^="div-gpt-ad"], .taboolaBtmVsAd))
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.y100:has([data-block-type="ad"])
 realnarrativenews.com##[aria-label="Advertisement"]

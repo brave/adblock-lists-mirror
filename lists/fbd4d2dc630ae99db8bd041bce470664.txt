@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3WtIJt3G9UU1FW8tLaKlVw
-! Version: 202611141212
+! Checksum: xXN+p7QgncY+pm5GdoWNIQ
+! Version: 202611141241
 ! Title: EasyList Germany
-! Last modified: 14 Nov 2026 12:12 UTC
+! Last modified: 14 Nov 2026 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -3581,6 +3581,7 @@ willhaben.at##.apn-leaderboard-wrapper
 oefb.at##.app-foesvAdSpace
 blick.ch##.appnexus-container
 arbeits-abc.de##.arbei-widget
+ariva.de##.arivaLink
 lokalmatador.de##.article-adbanner
 heise.de##.article-layout__header-wrbng
 onlinehaendler-news.de##.article-rectangle
@@ -5612,6 +5613,7 @@ obi.*##.splide__slide:has(hobi-advertiser-tag)
 spirituelles-bewusstsein.net##.su-note:has(a[href*="//www.amazon."][href*="tag="])
 szene-hamburg.com##.swiper-slide:has(.entry-adv)
 sportscheck.com##.swiper-slide:has(div.c-product-tile__sponsored)
+ariva.de##.tPicNews:has(.anzeige)
 preisvergleich.de##.tariffTipp:has(.indication)
 inside-digital.de##.td_module_ih_current_news:has(.spo)
 wallstreet-online.de##.teaser.objectfit:has(div.angebot)
@@ -5647,6 +5649,7 @@ berlinstadtservice.de##.wrap-col.box4:has(a[href^="https://www.awin1.com/"])
 zeit.de##.zett-teaser-trio:has(.zett-teaser-trio__kicker--ad-anzeige)
 willhaben.at##[aria-hidden="true"]:has(#apn-large-leaderboard)
 dm.*##[data-dmid="product-tile"]:has([data-dmid="sponsored-marker"])
+focus.de##[data-element-tracking-property^="Admanager"]
 obi.*##[data-find-artikelnummer]:has(.artikelkachel__gesponsortmarker)
 obi.*##[data-find-artikelnummer]:has([data-ui-name="find-artikelkachel-gesponsert-marker"])
 expert.de##[data-key-id]:has([src^="//b.nl3.eu.criteo.com/rm?"])

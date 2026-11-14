@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611140142
+! Version: 202611140214
 ! Title: EasyPrivacy
-! Last modified: 14 Nov 2026 01:42 UTC
+! Last modified: 14 Nov 2026 02:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 69db9fb7ec14ed966f875cd98dc2bf78cc82140f
+! Commit: 0d8e954642fceeb29325521e703d2efb5a5b626f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11699,6 +11699,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||emarketeer.com/tracker/
 ||emrld.cc^$script
 ||emrld.ltd/collect
+||emrldco.com/collect
+||emrldtp.cc/collect
 ||enc-90128738.b-cdn.net^
 ||endorsal.io/check/
 ||engagelab.com/ma-report/
@@ -15844,6 +15846,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cbc.ca/g/stats/
 ||cc.cc/visit_log_ajax/visit_log_save_ajax.php?
 ||cdapi.collegedunia.com^
+||cdid.trip.com^
 ||cdn.eaec.fpfis.tech.ec.europa.eu^
 ||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
 ||cdn.jsdelivr.net/gh/bmhtech07/adTorch/js/collect.min.js$script,domain=propanefitness.com
@@ -17069,6 +17072,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rgshows.me/js/statistics.js
 ||ring.staticmoly.me^
 ||risextube.com/t/
+||riskpoc.trip.com^
 ||rivcash.com/*/event/page_visit
 ||rivcash.com/ajax/log_js_error.php
 ||roas-service.store-services-prod.remarkable.com^
@@ -17563,14 +17567,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||treatment.grammarly.com^
 ||tredir.go.com^
 ||trends.privacywall.org^
-||trip.com/bee/collect
-||trip.com/bf.gif?
 ||tripadvisor.*/BALinkImpressionTracking/
 ||tripadvisor.*/CookiePingback?
 ||tripadvisor.*/GARecord^
 ||tripadvisor.*/MetricsAjax
 ||tripadvisor.*/wm/record
 ||tripcdn.com/bee/collect$domain=trip.com
+||tripcdn.com/bf.gif
 ||trivago.com/tracking/
 ||trk.decido.io^
 ||trk.tirto.id^

@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611160946
+! Version: 202611161018
 ! Title: EasyPrivacy
-! Last modified: 16 Nov 2026 09:46 UTC
+! Last modified: 16 Nov 2026 10:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2be3e8d2a881a9bc243ce671644684d167301024
+! Commit: 5b60f9a9a0aeb9fc5fc5d5e7ecd3e22dc87a84db
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -424,6 +424,7 @@
 /AppMeasurement2.js
 /AppMeasurement_Module_ActivityMap.min.js
 /AppMeasurementCustom.min.js
+/apps/awin/*
 /apps/ba-rev/app_metrics
 /aptrk.js
 /ard.png?
@@ -1868,6 +1869,7 @@
 /pixel/view?
 /pixel/visit?
 /pixel2.gif?
+/pixel?clientId=
 /pixel?tag=
 /pixel_identifier.js
 /pixel_iframe.php
@@ -2211,6 +2213,7 @@
 /shopify-boomerang-
 /shopify-datalayer-minified.js
 /shopify-event.gif?
+/shopify/fec/produce|
 /shopify/track.js
 /shopify_stats.js
 /shopifycloud/shopify/assets/shop_events_listener-$script

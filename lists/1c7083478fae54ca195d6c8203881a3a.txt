@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.8.2
+! Version: 4.4.8.3
 
 ! General
 
@@ -241,7 +241,7 @@ lavanguardia.com,mundodeportivo.com##span.content-ad,span.hidden-ad,span.ad-unit
 ledevoir.com##+js(cookie-remover, pw6)
 legrandcontinent.eu##+js(rc, paywall|pw|softwall, body, stay)
 lejdd.fr##div#poool-widget
-lepoint.fr,lexpress.fr##+js(set, window.Fusion.globalContent.content_restrictions, {})
+lepoint.fr,##+js(set, window.Fusion.globalContent.content_restrictions, {})
 /\.lequipe\.fr\/assets\/js\/.*[wW]all.+\.js/$script,~third-party,domain=lequipe.fr
 ||livemint.com/lm-img/subscription/$script,~third-party
 livemint.com##+js(rc, paywall, div.paywall, stay)

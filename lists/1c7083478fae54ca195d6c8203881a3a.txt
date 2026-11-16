@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.8.1
+! Version: 4.4.8.2
 
 ! General
 
@@ -242,7 +242,7 @@ ledevoir.com##+js(cookie-remover, pw6)
 legrandcontinent.eu##+js(rc, paywall|pw|softwall, body, stay)
 lejdd.fr##div#poool-widget
 lepoint.fr,lexpress.fr##+js(set, window.Fusion.globalContent.content_restrictions, {})
-/\.lequipe\.fr\/assets\/js\/.*[wW]all.+\.js/$script,~third-party
+/\.lequipe\.fr\/assets\/js\/.*[wW]all.+\.js/$script,~third-party,domain=lequipe.fr
 ||livemint.com/lm-img/subscription/$script,~third-party
 livemint.com##+js(rc, paywall, div.paywall, stay)
 livemint.com##div[class^="storyPaywall_paywallStory_"]:remove()
@@ -302,6 +302,7 @@ parismatch.com##div#dead-poool
 ||pastemagazine.com/wp-content/cache/autoptimize/js/autoptimize_*.js$script,~third-party
 pb.pl##+js(ra, class, section.o-article-content, stay)
 pb.pl##div.o-piano-template-loader-box
+||piaui.uol.com.br/static/js/amdb_utils.min.js$script,~third-party
 pitchfork.com##+js(cookie-remover, pay_ent_msmp)
 pourleco.com##+js(ra, style, div[class*="article-"][style], stay)
 pourleco.com##div[data-pleco-poool^="paywall"],div[data-pleco-transition="fade"]
@@ -667,6 +668,7 @@ cmcmarkets.com##+js(rc, activePaywall, .activePaywall, stay)
 connexionfrance.com##+js(cookie-remover, /^/)
 connexionfrance.com##div#subscribe-banner
 ||dailycaller.com/functions/v1/getExperiences$xmlhttprequest,~third-party
+||dailymaverick.co.za/_astro/subscription-status*.js$script,~third-party
 ||darwin.cx/dcxpw-init.js$script,domain=cspdailynews.com|restaurantbusinessonline.com
 dasinvestment.com##+js(rc, paywall-blurred, div.paywall-blurred, stay)
 dasinvestment.com##div#paywall

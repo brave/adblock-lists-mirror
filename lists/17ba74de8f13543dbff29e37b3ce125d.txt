@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611181339
+! Version: 202611181409
 ! Title: EasyList
-! Last modified: 18 Nov 2026 13:39 UTC
+! Last modified: 18 Nov 2026 14:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 60206fbcd9e202cdad858621ec1a6f40388a8a3a
+! Commit: e413bb631eccc69e3b2bd6c08eecf5f84e76e7be
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -155,7 +155,7 @@
 /adasync.js$script
 /adasync.min.js$script
 /adbanners/*$image
-/adblock/frontend_loader.js
+/adblock/frontend_loader.js$~xmlhttprequest
 /adchoice.png$image
 /adcount.js$script
 /addyn|*;adtech;
@@ -1011,7 +1011,7 @@ _prebid.js$script
 ! Anti-Adblock
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
-/ad-blocking-detector/assets/js/adblock-detector.min.js
+/ad-blocking-detector/assets/js/adblock-detector.min.js$~xmlhttprequest
 /adblock-detect.$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock_detector2.$script
@@ -2460,7 +2460,6 @@ _800x80_
 ###adb_bottom
 ###adbackground
 ###adbanner-container
-###adbanner1
 ###adbannerbox
 ###adbannerdiv
 ###adbannerleft
@@ -2473,9 +2472,6 @@ _800x80_
 ###adblock-big
 ###adblock-leaderboard
 ###adblock-small
-###adblock1
-###adblock2
-###adblock4
 ###adblockbottom
 ###adbn
 ###adbnr
@@ -28585,6 +28581,7 @@ browsershots.org#@#.advert_area
 ||fryhqcgovlyee.space^
 ||fryhzcadnypnn.online^
 ||frykyuoqcto.com^
+||frzclvrvehksl.space^
 ||frzgerjccnf.com^
 ||frzsblxklkuoa.site^
 ||frztpfjmnuexn.space^
@@ -34222,6 +34219,7 @@ browsershots.org#@#.advert_area
 ||jxcuocswkavpi.site^
 ||jxelkzydvftdn.space^
 ||jxfbaoovzzgres.com^
+||jxhaohxzsrvch.space^
 ||jxhikyldhuqsz.site^
 ||jxiiwldewtdql.online^
 ||jxiqoaszcfxve.website^
@@ -34562,6 +34560,7 @@ browsershots.org#@#.advert_area
 ||ketosesboltel.cfd^
 ||ketosescosset.cfd^
 ||kettakihome.com^
+||kettfvvxvdjci.site^
 ||kettledroopingcontinuation.com^
 ||kettrinrehangs.cyou^
 ||kewjptxneqwyg.space^
@@ -51718,6 +51717,7 @@ browsershots.org#@#.advert_area
 ||urvnduxksrtag.space^
 ||urwbsmyrspycn.online^
 ||urwqfecgnncli.space^
+||urzcdepq.com^
 ||urzdxiiugisad.site^
 ||usablebear.pro^
 ||usaday.biz^
@@ -55355,6 +55355,7 @@ browsershots.org#@#.advert_area
 ||xyroxqxhjcjzd.store^
 ||xysterrevulse.cyou^
 ||xyuqvvrvdmelc.space^
+||xyvoegypltdos.website^
 ||xywz8jb7tymhnv98wxuwlnyj.cfd^
 ||xyxiqtwkjqflt.site^
 ||xyxrhrnppvbxi.site^

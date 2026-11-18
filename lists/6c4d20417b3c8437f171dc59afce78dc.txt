@@ -2493,6 +2493,11 @@ lesoleil.com##.leader-board-container
 ! https://github.com/uBlockOrigin/uAssets/issues/35173
 adult-tv-channels.click##+js(set-session-storage-item, adp-closed, 1)
 
+! https://github.com/uBlockOrigin/uAssets/issues/18641
+! https://github.com/uBlockOrigin/uAssets/issues/30967
+neoseeker.com##+js(nostif, whetherdo)
+neoseeker.com##+js(rmnt, script, raptiveAdblockDetected)
+
 ! ================================================== END: Anti-adblock ==================================================================================
 
 ! https://github.com/uBlockOrigin/uAssets/issues/933
@@ -7055,9 +7060,6 @@ khou.com##+js(aeld, mouseout)
 ! https://www.reddit.com/r/uBlockOrigin/comments/14gghvf/
 ! https://github.com/easylist/easylist/issues/16421
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=ageofconsent.net
-
-! https://github.com/uBlockOrigin/uAssets/issues/18641
-neoseeker.com##+js(nostif, whetherdo)
 
 ! https://erotikflix.com/movies/annemle-sirrimiz/ devtools
 forplayx.ink##+js(aopr, devtoolsDetector.addListener)

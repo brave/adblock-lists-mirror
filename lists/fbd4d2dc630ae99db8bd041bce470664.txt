@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: AlJzI/nqrU0tFwE8ahP6FA
-! Version: 202611191704
+! Checksum: eID937pLukRHzy37Tsqq2w
+! Version: 202611191734
 ! Title: EasyList Germany
-! Last modified: 19 Nov 2026 17:04 UTC
+! Last modified: 19 Nov 2026 17:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.github.io/
 ! Licence: https://easylist.github.io/pages/licence.html
@@ -5689,6 +5689,7 @@ mopo.de##article.k5a-slot:has(.k5a-sticker > .k5a-label)
 redcare-apotheke.ch,shop-apotheke.*##article.o-CompactProductListItem:has(a[href^="https://retail-api.sa-tech.de/api/"])
 finanzen.net##article.page-content__item:has(img[alt="UBS"])
 imtest.de##article.type-post[data-post-id]:has(.sponsor-label)
+chip.de##article:has(.RUC-Badge--Secondary, .RUC-Grid-Teaser-Block-Title-Ad)
 meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##article:has(.tile-link[rel*="sponsored"])
 android-hilfe.de##article:has(a[href^="/fh-ma/click?"])
 mobile.de##article[class^="contentBox-module__"]:has(span[data-testid="sponsored-badge"])

@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.9.1
+! Version: 4.4.9.2
 
 ! General
 
@@ -517,6 +517,12 @@ corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipu
 ! Industry Dive
 ||*dive.com/static/js/dist/contentGate.bundle.js$script,~third-party
 .com/static/js/dist/contentGate.bundle.js$script,~third-party,domain=cfo.com|pharmavoice.com|proformative.com|socialmediatoday.com
+
+! Landwirtschaftsverlag (lv.de)
+profi.de##+js(ra, class, div.container-lg > div.hidden, stay)
+profi.de##div.paragraph-paywall,div.container-lg > div.paragraph-text,div#self-promotion
+topagrar.com##+js(ra, class|style, div.paywall-full-content[style], stay)
+topagrar.com##div.m-paywall__textFadeOut
 
 ! Madsack sites
 cz.de,dewezet.de,dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeitung.de,ln-online.de,lvz.de,maz-online.de,ndz.de,neuepresse.de,op-marburg.de,ostsee-zeitung.de,paz-online.de,remszeitung.de,rga.de,rnd.de,saechsische.de,siegener-zeitung.de,szlz.de,sn-online.de,solinger-tageblatt.de,tah.de,torgauerzeitung.de,waz-online.de##+js(set, window.Fusion.globalContent.isPaid, false)

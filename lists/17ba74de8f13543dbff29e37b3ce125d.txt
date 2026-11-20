@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611201006
+! Version: 202611201038
 ! Title: EasyList
-! Last modified: 20 Nov 2026 10:06 UTC
+! Last modified: 20 Nov 2026 10:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5281cc005181ff88502c263eff78d749d91fa301
+! Commit: e201160822efb63edf5eb84c578ff32aa6e4a47a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -24838,6 +24838,7 @@ browsershots.org#@#.advert_area
 ||dkoyoemelselm.site^
 ||dkrbus.com^
 ||dkrcknnrtmiqv.site^
+||dkrlnbfvypglb.site^
 ||dkryxucmwgicc.space^
 ||dktjigphteqdi.site^
 ||dkwwiibjjvawu.website^
@@ -29279,6 +29280,7 @@ browsershots.org#@#.advert_area
 ||gbcamahjbcsff.site^
 ||gbcfhktlqkxcn.online^
 ||gbdifgyealbpd.site^
+||gbdsifghwetkz.site^
 ||gbede.com^
 ||gbewahozxl.com^
 ||gbgpaffsfayqz.site^
@@ -32348,6 +32350,7 @@ browsershots.org#@#.advert_area
 ||ifecksstotter.com^
 ||iffkhsuxcxnjv.online^
 ||ifigent.com^
+||iflqxkawkuanc.online^
 ||ifmazzwntwnwg.site^
 ||ifngekdnxqygk.site^
 ||ifnzvapjsaumr.site^
@@ -36822,6 +36825,7 @@ browsershots.org#@#.advert_area
 ||lowdownchapletseracs.cyou^
 ||lowdychlbkivbf.com^
 ||loweststernhaunting.com^
+||lowfly.pro^
 ||lowlifewhateverspotless.com^
 ||lownlyarlene.qpon^
 ||lownthecia.cfd^
@@ -53203,6 +53207,7 @@ browsershots.org#@#.advert_area
 ||vlijlhtfmxxcs.online^
 ||vlitag.com^
 ||vlixvwaaluajs.online^
+||vljiwkehciqts.space^
 ||vlkvviufipfsw.website^
 ||vlmjm1.com^
 ||vlmllaeqhcvnb.store^
@@ -74724,6 +74729,7 @@ tripadvisor.*##[data-sponsored="sponsored"]:has(.txxUo)
 walmart.*##[data-testid="carousel-ad"]
 skyscanner.*##[data-testid="inline-ad-panel-desktop-layout"]:has([data-testid="adInfoBtn"])
 douglas.*##[data-testid="product-overview-content-slot"]:has(.criteo-teaser-gold__sponsored)
+pinterest.*##[role="listitem"]:has(.fullWidth_1f .subtle_1h)
 wayfair.*##a[data-enzyme-id="WssBannerContainer"]
 walmart.*##a[href*=".criteo.com/"]
 manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
@@ -74751,7 +74757,7 @@ walmart.*##div[data-automation^="HookLogicCarouses"]
 skyscanner.*##div[data-backpack-ds-component]:has(#inline-ad-button)
 tripadvisor.*##div[data-curated-shelf-id]:has(a[rel="sponsored"])
 wayfair.*##div[data-enzyme-id="WssBannerContainer"]
-pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
+pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 wayfair.*##div[data-hb-id="Grid.Item"]:has(a[href*="&sponsoredid="])
 wayfair.*##div[data-name="DisplayAd"]
 wayfair.*##div[data-node-id^="SponsoredListingCollectionItem"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YaqAe4HITZCvqibxMhcTEA
-! Version: 202611200812
+! Checksum: gDKwZfu+ZWHWag/BddIiXQ
+! Version: 202611200832
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Nov 2026 08:12 UTC
+! Last modified: 20 Nov 2026 08:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24188,6 +24188,7 @@ pikabu.ru#?#article:-abp-has(> .story__main > div:not(:-abp-has(*)))
 pikabu.ru#?#article:-abp-has(> .story__main > div:not([class]))
 pikabu.ru#?#article:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] + div[class])
+pikabu.ru#?#article:-abp-has(> .story__main > div[class] + header > :empty)
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] + header span:empty)
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ :empty ~ div[class])
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ :not([class]))
@@ -24631,6 +24632,7 @@ dzen.ru##[aria-label="Контент страницы сюжета"] > [class*="
 dzen.ru#?#[aria-label="Контент страницы сюжета"] > [class*="discrete"] > div > div:-abp-has(> div[id])
 dzen.ru,sportsdzen.ru##[id*="_R-B-"]
 dzen.ru,sportsdzen.ru##[id*="_R-C-"]
+dzen.ru,sportsdzen.ru##[id*="_R-D-"]
 dzen.ru,sportsdzen.ru##[id*="_R-I-"]
 dzen.ru,sportsdzen.ru##[id*="_R-N-"]
 dzen.ru,sportsdzen.ru##[id*="_R-Q-"]
@@ -25715,9 +25717,9 @@ ya.ru##.i-mini-bem[class*="banner"]
 ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
-ya.ru##html[class*="seecctslan_top"] main > div[class*="__"] ~ div[class*="__"] ~ div[class*="__"] > div
+ya.ru##html[class*="sectslon_top "] main > div[class*="__"] ~ div[class*="__"] ~ div[class*="__"] > div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="seecctslan-items-count:"]
+ya.ru##section[style*="sectslon-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.Bno_isPromoSnippet

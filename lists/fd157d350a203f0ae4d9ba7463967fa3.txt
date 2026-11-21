@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JYUe9IS6rynJUASBx302Ug
-! Version: 202611211103
+! Checksum: EluQ5kLLiGkLBVcFM6GYcg
+! Version: 202611211142
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Nov 2026 11:03 UTC
+! Last modified: 21 Nov 2026 11:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1781,6 +1781,7 @@ liveball.sx,liveball.*##main.main_div {margin-top:0;max-width:100%;border-radius
 mem-hub.ru###appPromoModal {display:none;}
 mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
+meteofor.com.ua##div[id^="div-gpt-"],.placeholder,.section-media,.section-rss {position:absolute;display:block;top:-10000px;opacity:0;height:0;}
 myfin.by##html,body {overflow:auto;padding-right:0;}
 nnm-club.me,nnmclub.ro,nnmclub.to##body > .wrap {top:0;}
 overclockers.ru##a.over-hiddenlink-html[href*="://market.yandex.ru/"][target="_blank"] {pointer-events:none;color:inherit;}
@@ -11969,9 +11970,6 @@ lifehacker.ru#?##article > p:-abp-has(> em:-abp-contains(отключите бл
 varta1.com.ua###article-content > header > h1:first-child + div > div[style^="--position-aspect-ratio:"]
 agropolit.com###article_banner
 sport.tut.by###article_body > .TitledImage
-sib.fm###article_feeds .title-comments
-sib.fm#?##article_feeds > .row:-abp-has(> div > a[href*="yandex."][href*="news"][href*="favid"])
-sib.fm#?##article_feeds > .row:-abp-has(> div > p:-abp-contains(/яндекс/i))
 portal-kultura.ru###aside > center ~ *
 sinonim.org###aside > div[style^="border:"]
 vsebasni.ru###aside > noindex
@@ -13962,7 +13960,7 @@ stena.ee##.block-outer a[href][rel="nofollow"]
 lovitut.ru##.block-reklamo_rotator
 sntch.com##.block-relap
 dtf.ru,vc.ru##.block-special-button > a[target="_blank"]
-sib.fm##.block-sticky > div[style^="min-height:"]
+sib.fm##.block-sticky div[style^="min-height:"]
 sntch.com##.block-superwidget
 konstruktortestov.ru#?#.block-test:-abp-has(#marketAttractive)
 konstruktortestov.ru#?#.block-test:-abp-has(#vid_vpaut_div)
@@ -14362,6 +14360,7 @@ bazr.ru##.container > .wrapper > .row > .grid_4
 solncevo.info##.container > a[href*="utm_campai"] ~ a[href][target="_blank"]
 saratovnews.ru##.container > div > object
 imagenizr.net##.container > div[id^="adblock-"] ~ .row
+sib.fm##.container > div[style^="min-height:"]
 nashdisk.ru##.container > table[align]
 club.ru##.container-banners
 mctop.su##.container-bbbs
@@ -14702,6 +14701,7 @@ soccer365.com.ua,soccer365.ru##.footer > :not(.footer_bottom)
 mozutil.mozilla-russia.org##.footer > span > div[style="text-align: left;"] > div[style="text-align: right;"]
 rutracker-net.ru##.footer a[target="_blank"]
 sport.kg##.footer-add > a
+sib.fm##.footer-article__more
 kino-archive.ru,silver.ru##.footer-banner
 finam.ru##.footer-banner-block
 kino.video,tasix.me##.footer-container #blink7
@@ -18763,7 +18763,7 @@ nadavi.com.ua,nadavi.ru##body > *>div[id][style*="height:"]
 idwl.cn##body > .brand
 novostiua.net##body > .brend
 nb.by##body > .container > div[style="background-color:#dfe0e1"]
-sib.fm##body > .container > div[style^="min-height:"]
+comedy-radio.ru##body > .container[style*="height:"]
 comss.ru##body > .dlblock ~ .container > div[style="margin-top:25px;margin-bottom:25px;"]
 comss.ru##body > .dlblock ~ .container[style="padding-top:12px;"]
 uzum.tv##body > .head
@@ -19989,6 +19989,7 @@ get-save.com##div[style^="min-height: 250px;"]
 cadelta.ru,modfarm.ru##div[style^="min-height: 250px;"][style*="background:"]
 smart-lab.ru##div[style^="min-height: 250px;"][style*="font-size: 0;"]
 liveposts.ru##div[style^="min-height: 700px;"]
+sib.fm#?#div[style^="min-height:"]:-abp-has(.banner)
 open3dmodel.com##div[style^="min-height:"][style$="px;"]
 point.md##div[style^="min-height:"][style*="250px"]
 1pnz.ru##div[style^="position: relative; width: 230px; height: 400px"]
@@ -23325,6 +23326,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||shuba.life/static/branding/
 ||sia.ru/*/piroman_
 ||sia.ru/files/b/
+||sib.fm/storage/banner/
 ||sibinfo.su/files/$object
 ||sibmama.info/d/
 ||sibmama.ru/d/
@@ -25429,6 +25431,7 @@ sovsport.ru##a[href="#match-forecasts"]
 sovsport.ru##div[class$="_bet"]
 sovsport.ru##div[class$="_book"]
 sovsport.ru#?#div[class$="_grid"] > div[class*="_cell "]:-abp-has(> div:empty)
+sovsport.ru##div[class$="_space"]:empty
 sovsport.ru##div[class*="_advertisement"]
 sovsport.ru##div[class*="_bonus"]
 sovsport.ru##div[class*="_headerFlex"] div[class*="_wrapper"]

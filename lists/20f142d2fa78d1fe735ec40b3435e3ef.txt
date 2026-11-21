@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ivfGgHzW1U7gzhCnI5/MXA
-! Version: 202611210132
+! Checksum: 4KIWAzHqSL0JfEjMW0o7dQ
+! Version: 202611210212
 ! Title: Fanboy's Social Blocking List
-! Last modified: 21 Nov 2026 01:32 UTC
+! Last modified: 21 Nov 2026 02:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12222,6 +12222,7 @@ news.sky.com##[data-component-name="sdc-article-strapline"]
 theguardian.com##[data-component="preferred-source-button-prefer"]
 latimes.com##[data-element="google-preferred-sources"]
 lifehacker.com##[data-ga-element="social-link"]
+marketscreener.com,zonebourse.com##[data-ga_action="Google Preferred Source"]
 cnet.com##[data-meta="footer-section-social"]
 cnet.com##[data-meta="footer-section-social"] + ul
 scmp.com##[data-qa="ArticleGoogleNewsButton-Container"]
@@ -12309,6 +12310,7 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##hl-share-over
 icann.org##iti-share-icons
 newscenter.lbl.gov##lbl-icon-list
 discord.me##li.menu-link.d-xl-inline-block
+marketscreener.com,zonebourse.com#?#.c-block.btn--action--outter:has-text(Share)
 githubstatus.com##nav[aria-label="GitHub's Social Media Links"]
 gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##p:has(> a[href^="https://news.google.com/publications/"])
 cyprus-mail.com##social-share-links

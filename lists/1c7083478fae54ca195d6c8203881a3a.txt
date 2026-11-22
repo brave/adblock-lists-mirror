@@ -4,7 +4,7 @@
 ! Homepage: https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters
 ! License: MIT; https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=LICENSE
 ! Last modified: 
-! Version: 4.4.9.2
+! Version: 4.4.9.3
 
 ! General
 
@@ -528,7 +528,7 @@ topagrar.com##div.m-paywall__textFadeOut
 cz.de,dewezet.de,dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeitung.de,ln-online.de,lvz.de,maz-online.de,ndz.de,neuepresse.de,op-marburg.de,ostsee-zeitung.de,paz-online.de,remszeitung.de,rga.de,rnd.de,saechsische.de,siegener-zeitung.de,szlz.de,sn-online.de,solinger-tageblatt.de,tah.de,torgauerzeitung.de,waz-online.de##+js(set, window.Fusion.globalContent.isPaid, false)
 
 ! Maine Trust for Local News
-||bc.*.com/script.js$script,~third-party,domain=centralmaine.com|pressherald.com|sunjournal.com
+||flip-pay.com^$script,third-party,domain=centralmaine.com|pressherald.com|sunjournal.com
 
 ! McClatchy Group
 ||mcclatchy.com/mcc-paywall.js$script,third-party
@@ -614,10 +614,6 @@ timesofindia.indiatimes.com##div[class]:has(>div.loginWallPopUP)
 ##+js(rc, didomi-popup-open, body.didomi-popup-open, stay)
 ||htlbid.com^$script,third-party
 
-! flip-pay
-||flip-pay.com/*/flip-pay.js$script,third-party,domain=clareecho.ie|euractiv.com|pressgazette.co.uk|thedailymash.co.uk
-clareecho.ie##+js(rc, td-post-content, div.td-post-content, stay)
-
 ! Wallkit
 ##+js(ra, class, div.wkwp-paywall, stay)
 ##div.wkwp-paywall-block
@@ -662,6 +658,8 @@ businesstoday.in##div#magazinePayWallStrip
 cardiologie-pratique.com##+js(ra, class, div.wrap-node, stay)
 cdt.ch##div#piano-article-lock:remove()
 cdt.ch##div.piano-fallback
+||flip-pay.com^$script,third-party,domain=clareecho.ie
+clareecho.ie##+js(rc, td-post-content, div.td-post-content, stay)
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall, stay)
 ||cnv-medien.de^$inline-script
 ||commercialobserver.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
@@ -768,6 +766,7 @@ opopular.com.br##div.PJLV-ihxtsVt-css
 ||perspectivemedia.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 perspectivemedia.com##div.hustle-ui
 popbitch.com##+js(ra, class, div[class*="-premium"], stay)
+||flip-pay.com^$script,third-party,domain=pressgazette.co.uk
 psychologie-heute.de##+js(ra, class, div.paywalledContent, stay)
 psychologie-heute.de##+js(ra, class, div.payWall, stay)
 psychologie-heute.de##div.payWallModal,div.articleRunningText>div:first-child>p:last-child,div.articleRunningText>div:nth-child(4)>p:first-child

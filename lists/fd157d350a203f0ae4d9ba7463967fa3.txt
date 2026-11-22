@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IoFYXGT6icAnnA7uZJE9sA
-! Version: 202611221102
+! Checksum: igzv8NP/vUNTrtCcaQLS7w
+! Version: 202611221132
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Nov 2026 11:02 UTC
+! Last modified: 22 Nov 2026 11:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -26355,6 +26355,7 @@ bs-life.ru##body > .ui-widget.ui-dialog
 dowlatow.ru##body > .wid-fb
 frankmedia.ru##body > div:not([id]):not([class]) > .modal
 gosvopros.ru##body > div[class$="-subscr"]
+t-j.ru##body > div[class^="_popup_"][aria-modal]
 factroom.ru##body > div[class^="facebook-"]
 bomba.co##body > div[class^="remodal"]
 ladyclub.org##body > div[class^="revelation"]

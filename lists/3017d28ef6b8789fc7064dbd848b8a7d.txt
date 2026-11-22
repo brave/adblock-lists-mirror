@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611222107
+! Version: 202611222135
 ! Title: EasyPrivacy
-! Last modified: 22 Nov 2026 21:07 UTC
+! Last modified: 22 Nov 2026 21:35 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 734d18b31903f8942fe03048a40378508a99fffd
+! Commit: 0a988bb34477caf560e57560d14dc7cceda4d197
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2266,7 +2266,6 @@
 /smmch-own.js
 /smrwv/v1/webvital
 /snowman.gif?p=
-/snowplow-$script
 /snowplow-collector-prod.$xmlhttprequest
 /snowplow-tracker.tatest.js
 /snowplow.js
@@ -2774,6 +2773,7 @@
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/snowplow-
 /vestigo/v1/measure
 /vglnk.js
 /video-ga.js

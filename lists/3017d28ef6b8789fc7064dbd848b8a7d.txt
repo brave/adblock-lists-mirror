@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611220437
+! Version: 202611220507
 ! Title: EasyPrivacy
-! Last modified: 22 Nov 2026 04:37 UTC
+! Last modified: 22 Nov 2026 05:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ad80730ab9606f79a9c2471163edc8ff448feb06
+! Commit: 10cfa73ba462a77159e22f89adc2956d8d5719d3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2004,6 +2004,7 @@
 /px.gif?
 /px.js?ch=$script
 /px/*/blank.gif?
+/px/?rand=
 /px/client/main.min.js
 /px?t=
 /px_trans.gif
@@ -11707,7 +11708,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||desipearl.com/tracker/
 ||dev.visualwebsiteoptimizer.com/*/track-
 ||dev.visualwebsiteoptimizer.com/apm
+||dev.visualwebsiteoptimizer.com/cdn/edrv/
 ||dev.visualwebsiteoptimizer.com/collect/events/
+||dev.visualwebsiteoptimizer.com/edrv/
 ||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||dfanalytics.dealerfire.com^
 ||dgcollector.evidon.com^
@@ -11806,6 +11809,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||errors.snackly.co^
 ||esmg-pixel.vercel.app^
 ||essential-apps-analytics.herokuapp.com^
+||estuary-data.com/ga4-identify
 ||et.educationdynamics.com^
 ||eth.llamarpc.com^
 ||etl.springbot.com^
@@ -15647,6 +15651,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||advancedmp3players.co.uk/themes/basic/js/analytics.js
 ||advertisertape.com/stat/
 ||advertising.amazon.dev/v1/ad-events/
+||adweek.com/vx39/
 ||adweek.com/wp-content/plugins/adw-parsley/
 ||aegis.trovo.live^
 ||aeis.alicdn.com/awsc/fireyejs/$script,domain=alibaba.com
@@ -15927,6 +15932,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bwapi.bikerumor.com^
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||byteoversea.com/monitor_web/
+||bytes.adweek.com/vs.js
 ||c.arstechnica.com^
 ||c.fingerprint.com^
 ||c.gq.com^
@@ -16383,7 +16389,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fp.uncensored.com^
 ||fpa-cdn.adweek.com^
 ||fpa-cdn.arstechnica.com^
+||fpa-cdn.nbcnews.com^
+||fpa-cdn.today.com^
+||fpa-events.nbcnews.com^
 ||fpa-events.theintercept.com^
+||fpa-events.today.com^
 ||fpc.fingerprint.com^
 ||fpt.microsoft.com^
 ||freedownloadmanager.org/ajax/th_hit.php

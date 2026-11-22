@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611221937
+! Version: 202611222011
 ! Title: EasyList
-! Last modified: 22 Nov 2026 19:37 UTC
+! Last modified: 22 Nov 2026 20:11 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f93512eafea02a9ef0656870a21dc71325886270
+! Commit: e05d1be04e4cc527b5f646aadc50ec2faec2a4a0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -20394,6 +20394,7 @@ browsershots.org#@#.advert_area
 ||blotecardthumb.com^
 ||blottomolassy.cfd^
 ||blowingwind.xyz^
+||blownshortia.com^
 ||blpigisjqbykc.site^
 ||blrwsnwnvkqzh.online^
 ||blrzaikduqaar.site^
@@ -25328,6 +25329,7 @@ browsershots.org#@#.advert_area
 ||dqeozccymwpqw.online^
 ||dqgxcjyrfawra.online^
 ||dqhepocpcwspj.space^
+||dqkmqfecjcjcm.site^
 ||dqlnwrulga.com^
 ||dqlrjkhbgtncp.space^
 ||dqmgvcgaghhww.online^
@@ -37613,6 +37615,7 @@ browsershots.org#@#.advert_area
 ||lzmvhfpfxidbv.website^
 ||lznomkovxtesn.site^
 ||lznpaqtbynhke.site^
+||lzphninlofxbf.online^
 ||lzpiozkcngklw.site^
 ||lzpymucz.com^
 ||lzqgelpcgpruk.site^
@@ -40683,6 +40686,7 @@ browsershots.org#@#.advert_area
 ||nxt-psh.com^
 ||nxtck.com^
 ||nxvltwjabgxaf.online^
+||nxxgjgwzehceq.online^
 ||nxxlfhtdcpzjz.site^
 ||nxxpgruglnfha.online^
 ||nxxxpmyejmudz.space^
@@ -40941,6 +40945,7 @@ browsershots.org#@#.advert_area
 ||ocracyaftmost.cfd^
 ||ocrgduldhsxkc.site^
 ||ocrghebunvuc.in^
+||ocrhpbwqhmoxw.space^
 ||ocrlmgqgqlfqt.store^
 ||ocrruiyzxicvz.website^
 ||ocsdkiwkrndeo.site^
@@ -43214,6 +43219,7 @@ browsershots.org#@#.advert_area
 ||pkcnrmnkwknx.com^
 ||pkcqlfxxbbobu.online^
 ||pkdanfftxztum.space^
+||pkfgxpgftniet.online^
 ||pkfvfrnzcposg.online^
 ||pkiagqasgbgqx.online^
 ||pkiigvaxvcsqe.online^
@@ -74998,6 +75004,7 @@ pricespy.co.nz,pricespy.co.uk##div[class^="AdPlacement"]
 lataco.com##div[class^="AdUnit_"]
 usnews.com##div[class^="Ad__Container-"]
 i24news.tv##div[class^="Advert_"]
+pexels.com##div[class^="AfterDownloadModal_adContainer"]
 sportinglife.com##div[class^="Article__FlashTalkingWrapper-"]
 barrons.com##div[class^="BarronsTheme--adWrapper"]
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
@@ -75918,12 +75925,14 @@ noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 noon.com##[data-qa="widget_recommendedProducts"]:has(svg[width="20"] > path[d])
 producthunt.com##[data-test^="homepage-section-"] > section[data-container]:has(a[href="#"])
 stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
+pexels.com##[data-testid="cell"]:has(a[href*="/k/eyJ"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-heading*="Sponsored"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-title*="Sponsored"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has(a[rel*="sponsored"])
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
+pexels.com##[data-testid="item"]:has(a[href*="utm_campaign=aigc_pexelscampaign"])
 samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 bestbuy.com##[data-testid="sponsored-listing"]

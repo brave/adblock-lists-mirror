@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iTNnlced/WoeBllGND0ziQ
-! Version: 202611222342
+! Checksum: zDj1c1lmtFSYGPYZVAZPvQ
+! Version: 202611230033
 ! Title: Fanboy's Social Blocking List
-! Last modified: 22 Nov 2026 23:42 UTC
+! Last modified: 23 Nov 2026 00:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12895,10 +12895,13 @@ enternity.gr###enternity_social_dialog
 capital.gr##.controls
 tilestwra.com##.post-google-news-link
 rik.cy##.single-article__share-options
+poiein.gr##.widget_custom_html:has(.facebook-like-box)
+poiein.gr##.widget_custom_html:has(.widget-social-follow)
 !
 !---------- Hebrew Site Specific Hiding Rules ----------
 !
 glz.co.il###shareIcon
+shironet.mako.co.il##.FBLikeWrapper
 bizportal.co.il##.a_footer_social
 maariv.co.il##.article-google-button-container
 maariv.co.il##.article-media-links-container

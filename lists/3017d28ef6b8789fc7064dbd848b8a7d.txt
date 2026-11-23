@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611230238
+! Version: 202611230309
 ! Title: EasyPrivacy
-! Last modified: 23 Nov 2026 02:38 UTC
+! Last modified: 23 Nov 2026 03:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3a6db56cbea0145aafcda594cee8cb05747f1ea1
+! Commit: 24b2548f46bd519105664c5eb8b2abc376134555
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -620,6 +620,7 @@
 /chartbeat.min.js
 /chcounter/counter.php
 /check.php?referrer=
+/checkout/offer/trackShow
 /chicken.gif?*=
 /cklink.gif?
 /cklog.js
@@ -4721,6 +4722,7 @@ omni.soundestlink.com$image
 ||demandscience.com^$third-party
 ||departapp.com^$third-party
 ||deqwas.net^$third-party
+||derbysoftsec.com^$third-party
 ||devatics.com^$third-party
 ||devatics.io^$third-party
 ||device9.com^$third-party
@@ -12733,6 +12735,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||orion.bendingspoons.com^
 ||orts.wixawin.com^$third-party
 ||osano.com/js/?action_name=
+||otel-hfo.fareharbor.engineering/v1/traces
 ||otg.mblycdn.com/bundles/cmp.js
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/

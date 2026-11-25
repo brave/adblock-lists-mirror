@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VFOPOQv/0d7Y5ITDefMcng
-! Version: 202611251834
+! Checksum: FXmmEHiNBY1V6gmph0vyzQ
+! Version: 202611251903
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Nov 2026 18:34 UTC
+! Last modified: 25 Nov 2026 19:03 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1777,7 +1777,6 @@ kinopoisk.ru##.app__page > div:first-child {min-height:0;}
 libertycity.net,libertycity.ru##body > div[class]:not([id]):not([style]) {background-image:none;}
 lifehacker.ru##a[href*="erid="]:not([href^="/"]):not([href^="https://lifehacker.ru/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 liveball.sx,liveball.*##footer {max-width:100%;}
-liveball.sx,liveball.*##main.main_div {margin-top:0;max-width:100%;border-radius:inherit;background-size:unset;}
 mem-hub.ru###appPromoModal {display:none;}
 mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
@@ -15278,6 +15277,7 @@ sapr.ru##.lolcount
 1pnz.ru##.long-banner
 gameguru.ru##.lootguru-link[data-toggle="modal"]
 galya.ru##.lr_block > iframe
+sport-express.net,sport-express.ru##.ls-social-block__dzen
 seasonvar.ru##.lside-player
 mytor.info##.lt_bl
 izmailovtv.xyz,lyucifer.tv,m-z.tv,southpark.su##.luckTitle
@@ -24131,7 +24131,6 @@ lenta.news,lenta.ru##.layout__content > [id^="newsBody_news-"] ~ [id^="articleBo
 lenta.news,lenta.ru##.topic-body__content> .box-external-video:last-child {remove:true;}
 lenta.news,lenta.ru##.topic-footer > div[class^="box-"][class$="-video"] {remove:true;}
 lenta.news,lenta.ru##.vk-video-popup {remove:true;}
-liveball.sx,liveball.*##body > style[id] {remove:true;}
 lk.rt.ru##[class^="omch-wink-player"] {remove:true;}
 pikabu.ru##head > style:has-text(min-height:301px;) {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
@@ -24192,7 +24191,6 @@ pikabu.ru#?#article:-abp-has(> .story__main > div:not([class]))
 pikabu.ru#?#article:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] + div[class])
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] + header > :empty)
-pikabu.ru#?#article:-abp-has(> .story__main > div[class] + header span:empty)
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ :empty ~ div[class])
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ :not([class]))
 pikabu.ru#?#article:-abp-has(> .story__main > div[class] ~ span)
@@ -24562,13 +24560,12 @@ kp.ru##div[class^="ad-slot"]
 kp.ru##div[style*="height:"][style*="250px"][style*="important"]
 !
 ! LiveBall
-liveball.sx,liveball.*##.home-hero__odds
-liveball.sx,liveball.*##[data-noclick]:not(#player_block)
-liveball.sx,liveball.*##body > div[class]:not([id]):not([style]):empty
-liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> [data-noclick])
-||cdn.lbs.pw/rek/
-||lbs.pw/liveball/img/brand
-||liveball.*/public/*clickunder.js
+liveball.sx,liveball.*##.home-hero__chips
+liveball.sx,liveball.*##a[onclick][target="_blank"]
+liveball.sx,liveball.*##body > div[id][class][style^="display:"][style*="block"]
+liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> a[target="_blank"])
+||cdn.lbs.pw/st/
+||lbs.pw/liveball/img/bc/
 ||liveball.*/public/js/dm.min.js
 !
 ! мобильная версия livejournal.com

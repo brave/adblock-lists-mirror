@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hEAqUNhyfRBbm1xZCT+mNA
-! Version: 202611252103
+! Checksum: XoquK25120lKSvek+ZBqSg
+! Version: 202611252134
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Nov 2026 21:03 UTC
+! Last modified: 25 Nov 2026 21:34 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -31,6 +31,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnpotok.com|
 /go.php$popup,domain=piratca.net
 /redirect/cpa/*$popup,domain=rt02.ru
 ?partner=$popup,domain=lifehacker.ru
+?source=liveball.$popup,domain=liveball.im|liveball.sx
 |http://li.ru/go?$popup,domain=fishki.net
 ||aviasales.ru/?marker=$popup
 ||betboom.ru/welcome?utm_$third-party,popup
@@ -24561,11 +24562,16 @@ kp.ru##div[style*="height:"][style*="250px"][style*="important"]
 !
 ! LiveBall
 liveball.sx,liveball.*##.home-hero__chips
+liveball.sx,liveball.*##.home-seo
 liveball.sx,liveball.*##a[onclick][target="_blank"]
+liveball.sx,liveball.*##body > a[href][target="_blank"]
+liveball.sx,liveball.*##body > div[id]:not([class]):not([style])
 liveball.sx,liveball.*##body > div[id][class][style^="display:"][style*="block"]
 liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> a[target="_blank"])
+liveball.sx,liveball.*#?#.sm-card:-abp-has(> a[target="_blank"])
 ||cdn.lbs.pw/st/
 ||lbs.pw/liveball/img/bc/
+||lbs.pw/liveball/img/brand
 ||liveball.*/public/js/dm.min.js
 !
 ! мобильная версия livejournal.com

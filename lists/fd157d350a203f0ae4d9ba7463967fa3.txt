@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IfyvvaRdPUvia3KATNcwdA
-! Version: 202611251233
+! Checksum: UkLZrT/8bz5S8Om88Y4ItQ
+! Version: 202611251313
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Nov 2026 12:33 UTC
+! Last modified: 25 Nov 2026 13:13 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19223,6 +19223,7 @@ mobiguru.ru##div[class^="RELINK"]
 www.sibnet.ru##div[class^="Realty_root"]
 auto.ru##div[class^="RecommendationsItem__ad-"]
 hromadske.radio#?#div[class^="SidebarNews_"] > article:-abp-has(> div > h3 > [class^="SidebarPreview_promoted_"])
+igromania.ru#?#div[class^="Sidebar_sidebar_list_"] > .knb-card:-abp-has(> .knb-card--footer [class*="CategoryLabel_partner_"])
 igromania.ru##div[class^="TopPageBanner_wrap_"]
 vk.com,vk.ru##div[class^="YandexBrowserBanner"]
 yarnovosti.com##div[class^="_5"]

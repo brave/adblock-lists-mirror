@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ubW8Ef0yBBIb7YqLM9Dsqw
-! Version: 202611261303
+! Checksum: 8UUAs3bPd9/iwc161Yqo3w
+! Version: 202611261333
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Nov 2026 13:03 UTC
+! Last modified: 26 Nov 2026 13:33 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25828,7 +25828,7 @@ mail.yandex.ru,mail.yandex.*##.RightColumnRoot
 mail.yandex.ru,mail.yandex.*##div[class*="DirectLine"]
 mail.yandex.ru,mail.yandex.*##div[class^="Loading-m__root--"]:empty
 mail.yandex.ru,mail.yandex.*#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
-radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"]
+radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"] > aside
 rasp.yandex.ru,rasp.yandex.*##.Direct
 rasp.yandex.ru,rasp.yandex.*##.ThreadLayout__topDirect
 rasp.yandex.ru,rasp.yandex.*#?#.SearchSegments__row:-abp-has([class*="banner"])

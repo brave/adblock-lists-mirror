@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4zzsHnmA4x/yK56GArd4vQ
-! Version: 202611260913
+! Checksum: brYuaXyCLXgbxpzYRpKnNg
+! Version: 202611260942
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Nov 2026 09:13 UTC
+! Last modified: 26 Nov 2026 09:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16022,7 +16022,7 @@ www.zoneofgames.ru##.randshop > a:not([href^="https://forum.zoneofgames.ru/"])
 sportarena.ua##.rating
 openspeedtest.ru##.rating-promo-block
 glas.ru##.rb
-kinozal.guru,kinozal.me,kinozal.tv,kinozaltv.life##.rb_new
+kinozal.cloudns.nz,kinozal.guru,kinozal.me,kinozal.tv,kinozaltv.life##.rb_new
 bashskazki.ru##.rblock
 payeer-gift.ru##.rbrocks
 sefon.cc##.rbt_web
@@ -25827,6 +25827,7 @@ mail.yandex.ru,mail.yandex.*##.RightColumnRoot
 mail.yandex.ru,mail.yandex.*##div[class*="DirectLine"]
 mail.yandex.ru,mail.yandex.*##div[class^="Loading-m__root--"]:empty
 mail.yandex.ru,mail.yandex.*#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
+radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"]
 rasp.yandex.ru,rasp.yandex.*##.Direct
 rasp.yandex.ru,rasp.yandex.*##.ThreadLayout__topDirect
 rasp.yandex.ru,rasp.yandex.*#?#.SearchSegments__row:-abp-has([class*="banner"])

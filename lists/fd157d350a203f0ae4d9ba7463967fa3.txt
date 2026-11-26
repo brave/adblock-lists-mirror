@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ap4aBmilFm1adrVWO8X9eQ
-! Version: 202611262002
+! Checksum: 531H5aJ3X5/rXJZ+WH0liA
+! Version: 202611262032
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Nov 2026 20:02 UTC
+! Last modified: 26 Nov 2026 20:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1791,7 +1791,6 @@ pikabu.ru##.promo-banner-sticky .header {top:0;}
 pikabu.ru##.promo-banner-sticky .header-tab-list {top:0;}
 povarenok.ru##.page-width {margin-top:0;}
 povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
-profinance.ru##main > .content-grid {grid-template-columns:unset;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 root-nation.com##body {background:none;}
 sdelanounas.ru###modalOverlay {display:none;}
@@ -15437,6 +15436,7 @@ torrent10.ru,torrent3.ru,torrent50.ru##.mg
 northern-newspaper.ru#?#.mg-posts-sec:-abp-has(> script)
 winstation.ru##.mg_button
 molbuk.ua#?#.mid_col > b:-abp-contains(РЕКЛАМА)
+profinance.ru##.middle > .right
 allmoldova.com##.middle_banner
 gazeta.uz##.middleboard
 artfile.ru##.midtizer
@@ -20270,7 +20270,6 @@ lurkmore.*###localNotice .infobox
 lurkmore.*###n-Группа-в-Дискорде
 lurkmore.*###n-Канал-в-Телеграме
 old.myshows.me##main > .contAlt
-profinance.ru##main > .content-grid > aside
 protanki.tv##main > .hidden
 mediaryazan.ru##main > .hide-on-mobiles > div[class="sideblock"]:first-child
 versii.if.ua#?#main > [class="brxe-section"]:-abp-has(.indication-bor-rad)
@@ -23035,8 +23034,9 @@ igdz1.ru^$script,domain=igdz.ru
 ||procvetok.com/static/*/brand
 ||prodota.ru/templates/betboom/
 ||proelectro.ru/files/$object
+||profinance.ru/*/embed.js
 ||profinance.ru/adv/
-||profinance.ru/andromeda/embed.js
+||profinance.ru/js/pf_hb.js
 ||profinance.ru/js/tgbnr.js
 ||profootball.ua/images/banner/
 ||profootball.ua/images/parimatch/

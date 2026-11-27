@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 24GBUPSQVZh1hJpyz4PLWA
-! Version: 202611271003
+! Checksum: WR1Qnj5XZm3V8wkDK6AEtw
+! Version: 202611271034
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Nov 2026 10:03 UTC
+! Last modified: 27 Nov 2026 10:34 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13250,6 +13250,7 @@ yk-news.kz##.adBanner
 fototelegraf.ru##.adOnPostBtwImg
 ngp-ua.info##.ad_260_px
 ninemanga.com##.ad_728_90_page
+euroauto.ru##.ad__badges
 twizz.ru##.ad_block_inner
 infectus.ru##.ad_customs
 buyerinfo.ru##.ad_header_inner
@@ -14617,6 +14618,8 @@ diets.guru,pohudet.org##.exitblock
 autogrodno.by##.expautos_detail_right > .moduletable_menu:first-child > span
 speedtest.net.ua##.ext-box
 korabel.ru##.ext_link_img
+oil-club.ru##.extendedAd
+oil-club.ru##.extendedAdRow
 russiatoday.ru##.external-widget
 pikabu.ru##.external_branding
 carsweek.ru##.extra
@@ -17495,6 +17498,7 @@ sportandbets.com##[data-betting-ad]
 tophotels.ru##[data-bh]
 newsland.com##[data-block-type="ads"]
 bbs-sk.ru##[data-blockid^="app_cms_Blocks"]
+oil-club.ru##[data-blocktitle^="Реклама"]
 minfin.com.ua##[data-bn-slot]
 ixbt.com##[data-branding-content-offset]
 7dach.ru##[data-campaign-code][data-url*="http"]
@@ -17532,6 +17536,7 @@ app2top.ru##[data-information]
 24tv.ua,football24.ua,sport24.ua##[data-injection-type="LEGAL_SMALL"]
 forbes.ru##[data-interval] > li div[style="min-height: 64px;"]
 om1.ru##[data-io-article-url] .content-block
+oil-club.ru##[data-ips-ad]
 ozon.ru##[data-lcp-name*="anner-"]
 myukraina.com.ua##[data-link*="goo.gl"]
 myfin.by##[data-link*="winline.by"]
@@ -26405,6 +26410,7 @@ htmlacademy.ru##div[style^="margin-left:"][style*="margin-bottom:"][style*="posi
 epscape.*##.fixed.backdrop-blur-sm
 drukarnia.com.ua##header ~ section[role="dialog"]
 bbc.com#?#header[role="banner"] > div > div:has(> div > div > p > [href*="/cookies/"])
+igromania.ru##html.is-mobile div[class^="InTextTableOfContents_floatingButtonWrapper_"]
 surl.*##.card-body > .row > div:first-child:not(:only-child)
 surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ! --- Блокировки
